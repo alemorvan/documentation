@@ -1,223 +1,247 @@
 ---
-title: 安装Rocky Linux
+title: Installing Rocky Linux
 ---
 
-# 安装 Rocky Linux
+# Installing Rocky Linux
 
-本指南介绍了在独立系统上安装 64 位 Rocky Linux 发行版的详细步骤。
+This guide walks through the detailed steps to install a 64-bit version of the Rocky Linux distribution on a stand-alone system.
 
-在本指南中，将使用从 Rocky Linux 官方网站下载的ISO镜像，执行最小化安装。以下部分将介绍安装和自定义步骤。
+****
+In this guide we will be performing a server class install using an operating system installer image downloaded from the Rocky Linux project website. We will step through the installation and customization steps in the following sections.
+****
 
+!!! Note Wherever there is a command which is run from the command prompt it will be assumed that you are logged in as a standard user (not the superuser). The command to type will not show the command prompt which could be different depending on the system and operating system you are using.
 
-## OS 安装前提
+## OS Installation Prerequisites
 
-首先，您需要下载将要安装的 Rocky Linux ISO镜像。
+First, you need to download the ISO to be used for this installation of Rocky Linux.
 
-用于此安装的 Rocky Linux版本的最新 ISO 映像可从以下位置下载：
+The latest ISO image for the version of Rocky Linux that we will be using for this installation can be downloaded from here:
 
 ```
 https://www.rockylinux.org/download/
 ```
 
-要直接从命令行下载 ISO，请使用 `wget` 命令：
+To download the ISO directly from the command line use the `wget` command:
 
 ```
-$ wget -c https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.4-x86_64-minimal.iso
+wget https://download.rockylinux.org/pub/rocky/8.4/isos/x86_64/Rocky-8.4-x86_64-minimal.iso
 ```
 
-Rocky Linux ISO 的命名遵循以下约定：
+Rocky Linux ISOs are named following this convention:
 
 ```
-Rocky-<主版本号#>.<次版本号#>.<架构>-<变体>.iso
+Rocky-<MAJOR#>.<MINOR#>-<ARCH>-<VARIANT>.iso
 ```
 
-例如  `Rocky-8.4-x86_64-minimal.iso`
+For example, `Rocky-8.4-x86_64-minimal.iso`
 
-!!! note "笔记"
-    Rocky Linux项目页面列出了世界各地的几个镜像。您应该尽可能地选择地理位置最接近的镜像。官方镜像列表可在 [这里](https://mirrors.rockylinux.org/mirrormanager/mirrors) 处找到。
+!!! Note Rocky project web page has a listing of several mirrors located all over the world. Whenever possible, you should choose the mirror geographically closest to you. The list of official mirrors can be found [here](https://mirrors.rockylinux.org/mirrormanager/mirrors).
 
+## Verifying the Installer ISO File
 
-## 验证安装 ISO
+If you've downloaded the Rocky Linux ISO(s) on an existing Linux distribution, you can use the `sha256sum` utility to verify that file(s) you downloaded are not corrupt. We will show an example of how to verify the `Rocky-8.4-x86_64-minimal.iso` file by checking its checksum.
 
-如果您已经在现有的 GNU/Linux 发行版上下载了 Rocky Linux ISO，那么可以使用 sha256sum 程序验证下载的文件是否损坏。接下来通过一个示例，演示如何验证 `Rocky-8.4-x86_64-minimal.iso `。
-
-首先下载包含可用 ISO 的官方校验和的文件。如果您未下载，请输入以下命令：
+First download the file that contains the official checksums for the available ISOs. While still in the folder that contains the downloaded Rocky Linux ISO download the checksum file for the ISO, type:
 
 ```
-wget -c http://download.rockylinux.org/pub/rocky/8.4/isos/x86_64/CHECKSUM
+wget https://download.rockylinux.org/pub/rocky/8.4/isos/x86_64/CHECKSUM
 ```
 
-使用 sha256sum 程序验证
+Use the `sha256sum` utility to verify the integrity of the ISO file against corruption and/or tampering.
 
 ```
-sha256sum -c CHECKSUM    --ignore-missing Rocky-8.4-x86_64-minimal.iso
+sha256sum -c CHECKSUM --ignore-missing  Rocky-8.4-x86_64-minimal.iso
 ```
 
-输出应显示：
+The output should show:
 
 ```
 Rocky-8.4-x86_64-minimal.iso: OK
 ```
 
-## 安装
+## The Installation
 
-!!! Tip "提示"
-    在开始正确安装之前，系统的统一可扩展固件接口（UEFI）或基本输入/输出系统（BIOS）应配置为从正确的介质引导。
+!!! Tip Before starting the installation proper, the system’s Unified Extensible Firmware Interface (UEFI) or Basic Input/Output System (BIOS) should be preconfigured to boot from the correct medium.
 
-开始安装过程。
+If the computer is setup to boot from the media that has the ISO file we can begin the installation process.
 
-插入并从安装介质（光盘、USB闪存驱动器等）引导。
+Insert and boot from the installation medium (optical disk, USB flash drive, and so on).
 
-启动后，您将看到Rocky Linux的初始安装界面。
+Once the computer has booted you will be presented with the Rocky Linux 8 welcome splash screen.
 
-![Hardened Webserver](images/installation-F01.png)
+![Rocky Linux installation splash screen](images/installation-F01.png)
 
-如果您不按任何键，提示将开始倒计时，之后安装过程将自动执行默认的选项：
+If you do not press any key the installer will begin a countdown, after which the installation process will automatically execute the default, highlighted, option:
 
- `Test this media & install Rocky Linux 8 `
+`Test this media & install Rocky Linux 8`
 
-您还可以随时按 <kbd>Enter</kbd> 键立即启动安装。
+You can also press <kbd>enter</kbd> at any time to start the process immediately.
 
-将进行快速介质验证步骤。此介质验证步骤，可以省去您在中途安装发现安装程序因安装介质损坏或其他原因，导致中止安装的情况出现。
+A quick media verification step will take place. This media verification step can save you the trouble of starting the installation only to find out halfway through that the installer has to abort because of bad installation media.
 
-介质检查运行完成，并且介质被成功验证为可用后，安装程序将自动跳到下一个界面。
+After the media check runs to completion and the media is successfully verified to be usable, the installer will automatically continue to the next screen.
 
-在界面中选择要用于执行安装的语言。此处选择 *中文*。然后单击<kbd>继续</kbd>按钮。
+Select the language you want to use to perform the installation in this screen. For this example, we select _English (United States)_. Then click the <kbd>Continue</kbd> button.
 
-!!! note "笔记"
-    截至2021/09/24，目前的Rocky Linux版本为8.4 GA，推荐在生产环境下使用，不推荐将版本固定在一个固定的版本
+## Installation Summary
 
-## 安装信息摘要
+The _Installation Summary_ screen is an all-in-one area where you make the important decisions about the operating system to be installed.
 
-_安装信息摘要_  是一个集合多种设置的区域，您可以在其中做出有关要安装的操作系统的重要决定。
+The screen is roughly divided into the following sections:
 
-界面大致分为以下几部分：
+- _Localization_: (Keyboard, Language Support, and Time & Date)
+- _Software_: (Installation Source and Software Selection)
+- _System_: (Installation Destination and Network & Hostname)
 
-  * _本地化_（键盘、语言支持以及时间和日期）
-  * _软件_（安装源和软件选择）
-  * _系统_（安装目的地以及网络和主机名）
+We will delve into each of these sections next and make changes where necessary.
 
-接下来将深入研究其中的每一个部分，并在必要时进行更改。**这些都可以在安装操作系统成功后，在操作系统中更改。**
+### Localization Section
+
+This section is used for customizing items related to the locale of the system. This includes – Keyboard, Language Support, Time and Date.
+
+#### Keyboard
+
+On our demo system in this guide, we accept the default value (_English US_) and make no changes.
+
+However if you need to make any changes here, from the _Installation Summary_ screen, click the <kbd>Keyboard</kbd> option to specify the keyboard layout of the system. You can add additional keyboard layouts if you need to in the ensuing screen and specify their order.
+
+Click <kbd>Done</kbd> when you are finished with this screen.
+
+#### Language Support
+
+The <kbd>Language Support</kbd> option on the _Installation Summary_ screen enables you to specify support for additional languages that you may need on the finished system.
+
+We will accept the default value (__English – United States__) and make no change, click <kbd>Done</kbd>.
+
+#### Time & Date
+
+Click the <kbd>Time & Date</kbd> option on the main _Installation Summary_ screen to bring up another screen that will allow you to select the time zone in which the machine is located. Scroll through the list of regions and cities and select the area closest to you.
+
+Depending on your installation source, the _Network Time_ option could be set to _ON_ or _OFF_ by default. Accept the default _ON_ setting; this allows the system to automatically set the correct time using the Network Time Protocol (NTP). Click <kbd>Done</kbd> after making any changes.
+
+### Software Section
+
+Under the _Software_ section of the _Installation Summary_ screen, you can select the installation source as well as additional packages (applications) that get installed.
+
+#### Installation Source
+
+Since we are performing our installation using a full Rocky 8 image, you will notice that _Local Media_ is automatically specified under the Installation Source section of the main _Installation Summary_ screen. We'll accept the preset defaults.
+
+#### Software Selection
+
+Clicking the <kbd>Software Selection</kbd> option on the main _Installation Summary_ screen presents you with the section of the installation where you can pick the exact software packages that get installed on the system. The software selection area is divided into :
+
+- _Base Environment_ : Server, Minimal Install, Custom Operating System
+- _Additional software for Selected Environment area_ : Selecting a Base Environment on the left side presents a variety of related additional software that can be installed for the given environment on the right side.
+
+Select the _Minimal Install_ (Basic functionality) option instead.
+
+Click <kbd>Done</kbd> at the top of the screen.
+
+### System Section
+
+The System section of the _Installation Summary_ screen is used for customizing and making changes to the underlying hardware of the target system. This is where you create your hard drive partitions or volumes, specify the file system to be used, and specify the network configuration.
+
+#### Installation Destination
+
+From the _Installation Summary_ screen, click the <kbd>Installation Destination</kbd> option. This takes you to the corresponding task area.
+
+You will see a screen displaying all the candidate disk drives that you have available on the target system. If you have only one disk drive on the system, as on our sample system, you will see the drive listed under _Local Standard Disks_ with a check mark beside it. Clicking the disk icon will toggle on or off the disk selection check mark. We want it selected/checked here.
+
+Under the _Storage Configuration_ Options section, select the <kbd>Automatic</kbd> radio button.
+
+Then click <kbd>Done</kbd> at the top of the screen.
+
+Once the installer determines that you have a usable disk, you will be returned to the _Installation Summary_ screen.
+
+### Network & Hostname
+
+The final task of the installation procedure deals with network configuration, where you can configure or tweak network-related settings for the system.
+
+!!! Note After you click on the <kbd>Network & Hostname</kbd> option, all correctly detected network interface hardware (such as Ethernet, wireless network cards, and so on) will be listed in the left pane of the network configuration screen. Depending on the Linux distribution and the specific hardware setup, Ethernet devices in Linux have names similar to `eth0`, `eth1`, `ens3`, `ens4`, `em1`, `em2`, `p1p1`, `enp0s3`, and so on.
+
+For each interface, you can either configure it using DHCP or manually set the IP address. If you choose to configure manually, be sure to have all the pertinent information ready, such as the IP address, netmask, and so on.
+
+Clicking the <kbd>Network & Hostname</kbd> button in the main _Installation Summary_ screen opens the corresponding configuration screen. Among other things, you have the option to configure the hostname of the system (the name defaults to `localhost.localdomain`).
+
+!!! Note You can easily change this name later on after the OS has been installed. For now, accept the default value supplied for the hostname.
+
+The next important configuration task is related to the network interfaces on the system. First, verify that an Ethernet card (or any network card) is listed in the left pane. Click any of the detected network devices in the left pane to select it. The configurable properties of the selected network adapter will appear in the right pane of the screen.
+
+!!! Note On our sample server, we have four Ethernet devices (`ens3`, `ens4`, `ens5` and `ens6`), all of which are in a connected state. The type, name, quantity, and state of the network devices on your system may vary from the ones on our sample system.
+
+Make sure the switch of the device you want to configure is flipped to the `ON` position in the right pane. We'll accept all the defaults in this section.
+
+Click <kbd>Done</kbd> to return to the main _Installation Summary_ screen.
+
+!!! Warning Pay attention to the IP address of the server in this section of this installer. If you don’t have physical or easy console access to the system, this information will come in handy later on when you need to connect to the server to continue working on it.
+
+## Installer Phase
+
+Once you are satisfied with your choices for the various installation tasks, the next phase of the installation process will begin the installation proper.
+
+### User Settings Section
+
+This section can be used for creating a password for the `root` user account and also for creating new administrative or non-administrative accounts.
+
+### Set the Root Password
+
+Click the _Root Password_ field under _User Settings_ to launch the _Root Password _ task screen. In the _Root Password_ text box, set a strong password for the root user.
+
+!!! Warning The root superuser is the most privileged account on the system. Therefore, if you choose to use or enable it, it is crucial that you protect this account with a strong password.
+
+Enter the same password again in the _Confirm_ text box.
+
+Click <kbd>Done</kbd>.
 
 
-## 本地化部分
-此部分用于自定义与系统区域设置相关的项目，其中包括键盘、语言支持、时间和日期。
+### Create a User Account
 
+Next click the _User Creation_ field under _User Settings_ to launch the _Create User_ task screen. This task area allows you to create a privileged or non-privileged (non-administrative) user account on the system.
 
-### 键盘
-在本指南的演示系统上，我们选择默认值 (_汉语_ )  ，不做其他更改。
-如果需要在此处进行任何更改，请从 _安装信息摘要_  界面中单击 <kbd>键盘</kbd>，指定系统的键盘布局。如果需要，在后续界面中添加其他键盘布局并指定其顺序。完成后，单击<kbd>完成</kbd>。
+!!! Info Creating and using a non-privileged account for day-to-day tasks on a system is a good system administration practice.
 
-### 语言支持
-<kbd>语言支持</kbd>选项，您可以指定对其他语言的支持。
-此处接受默认值（_中文 – 简体中文（中国）_），不做任何更改。单击<kbd>完成</kbd>。
+We’ll create a regular user that can invoke superuser (administrator) powers, the same as the root user, when needed.
 
+Complete the fields in the _Create User_ screen with the following information and then click <kbd>Done</kbd>:
 
-### 时间和日期
- 点击 <kbd>时间和日期</kbd> ，调出另一个界面，您可以通过该界面选择机器所在的时区。滚动区域和城市列表，选择离您最近的区域。
+_Full name_: `rockstar`
 
-根据<kbd>安装源</kbd>，默认情况下可以将<kbd>网络时间</kbd>选项设置为 _打开_ 或 _关闭_。接受默认 _打开_ 设置；这允许系统使用网络时间协议(NTP)自动设置正确的时间。进行任何更改后，单击<kbd>完成</kbd>。
+_Username_: `rockstar`
 
-## 软件
-您可以选择安装源以及要安装的其他软件包(应用程序)。
+_Make this user administrator_: Checked
 
-### 安装源
-您会注意到，<kbd>安装源</kbd>部分下会自动指定本地介质。此处默认即可，单击 <kbd>完成</kbd>
+_Require a password to use this account_: Checked
 
-### 软件选择
+_Password_: `04302021`
 
-单击<kbd>软件选择</kbd>选项，将显示安装部分，从中可以选择系统上安装的软件包。基本环境包含服务器、最小安装、定制操作系统。
+_Confirm password_: `04302021`
 
-我们这里选择 _最小安装_。
+### Start the Installation
 
-单击界面顶部的<kbd>完成</kbd>。
+Once you are satisfied with your choices for the various installation tasks, click the Begin Installation button on the main _Installation Summary_ screen. The installation will begin, and the installer will show the progress of the installation.
 
-## 系统
-用于自定义和更改目标系统的底层硬件。在此处可以创建硬盘分区或LVM、指定要使用的文件系统，以及指定网络配置。
+!!! Note If you do not wish to continue after clicking the Begin Installation button, you can still safely back out of the installation without any loss of data. To quit the installer, simply reset your system either by clicking the Quit button, pressing ctrl-alt-del on the keyboard, or pushing the reset or power switch.
 
-### 安装目的地
+When the installation begins, various tasks will begin running in the background, such as partitioning the disk, formatting the partitions or LVM volumes, checking for and resolving software dependencies, writing the operating system to the disk, and so on.
 
-单击<kbd>安装目的地</kbd>选项。这会将您带到相应的任务区域。
-您将看到一个界面，显示目标系统上可用的所有候选磁盘驱动器。如果系统上只有一个磁盘驱动器，如示例所示，您将看到在“本地标准磁盘”下列出的驱动器，旁边有一个复选标记。单击磁盘图标将打开或关闭磁盘选择复选标记。此处选择它。
+### Complete the Installation
 
-在“存储配置”选项部分下，选择“自动”单选按钮。
-然后单击界面顶部的<kbd>完成</kbd>。
-安装程序确定有可用的磁盘后，将返回到“安装信息摘要”界面。
+After you have completed all of the mandatory subtasks, and the installer has run its course, you will be presented with a final installation progress screen with a complete message.
 
+Finally, complete the entire procedure by clicking the <kbd>Reboot System</kbd> button. The system will restart.
 
-### 网络和主机名
-安装过程的最后一项任务是网络配置，您可以在其中配置或调整系统的网络相关设置。
+### Log In
 
-!!! note "笔记"
-    单击<kbd>网络和主机名</kbd>选项后，所有正确检测到的网络接口硬件(如以太网、无线网卡等)都将列在网络配置界面的左窗格中。Linux 中的以太网设备的名称类似于`eth0`、`eth1`、`ens3`、`ens4`、`em1`、`em2`、`p1p1`、`enp0s3`等，具体取决于 Linux 发行版和特定的硬件设置。
-
-对于每个接口，您可以使用 DHCP 或手动配置 IP 地址。如果您选择手动配置，请确保准备好所有相关信息，如 `IP 地址`、`网络掩码`、`网关`、`dns`。
-单击<kbd>网络和主机名</kbd>按钮将打开相应的配置界面。此外，您还可以选择配置系统的主机名(默认为`localhost.localdomain`)。
-
-!!! note "笔记"
-    在安装操作系统之后，您可以很容易地更改此名称。现在此处主机名为默认值。
-
-下一个重要的配置任务与系统上的网络接口相关。首先，验证左窗格中是否列出了以太网卡(或任何网卡)。单击左窗格中检测到的任何网络设备，将其选中，所选网络适配器的可配置属性将出现在界面的右窗格中。
-确保要配置的设备在右窗格中处于 **打开 **位置
-
-单击<kbd>完成</kbd>返回 _安装信息摘要_ 主界面。
-
-!!! note "注意"
-    在你的网络环境下，无法正常访问公网服务时，需首先检查网络环境，例如ip是否被占用、硬件防火墙的规则等。
-
-## 用户设置
-
-此部分可用于为 `root` 用户帐户创建密码，也可用于创建新的管理员或非管理员帐户。
-
-
-### 设置 root账户密码
-
-单击<kbd>根密码</kbd>，为 root 用户设置一个强密码。
-此用户是系统中权限最高的帐户，UID=0。因此，如果您选择使用或启用它，请使用强密码保护该帐户。
-在“确认”文本框中再次输入相同的密码。单击<kbd>完成</kbd>。
-
-
-### 创建用户
-
-接下来单击<kbd>用户创建</kbd>以启动创建用户任务界面。此界面允许您在系统上创建特权或非特权（非管理）用户帐户，`在系统上创建和使用非特权帐户执行日常任务是一种很好的系统管理实践`
-
-将创建一个常规的普通用户，在需要时可以调用超级用户（管理员）权限。使用以下信息填写“创建用户”界面中的字段：
-
-全名`rockstar`
-用户名`rockstar`
-`选中`将此用户设为管理员
-
-`选中`需要密码才能使用此帐户
-
-密码
-`04302021`
-
-确认密码
-`04302021`
-
-然后单击<kbd>完成</kbd>
-
-### 开始安装
-
-配置完成后，点击<kbd>开始安装</kbd>，将显示安装进度，各种任务将开始在后台运行，例如对磁盘进行分区、格式化分区或 LVM 卷、检查并解决软件依赖关系、将操作系统写入磁盘等。
-
-!!! note "注意"
-    如果您在单击<kbd>开始安装</kbd>按钮后遇到了问题，您仍然可以安全地退出安装，而不会丢失任何数据。要退出安装程序，只需单击<kbd>退出</kbd>按钮，按键盘上的 `ctrl-alt-del` 组合键或按下电源开关，即可重置您的系统。
-
-### 完成安装
-完成所有必需的子任务且安装程序运行完毕后，您将看到带有安装进度完毕的屏幕信息。
-
-最后，单击<kbd>重启</kbd>按钮来完成整个过程，系统将重启。
-
-### 登录
-系统现在已设置完毕，您可以使用了。您将看到可爱的 Rocky Linux 命令行控制台。
+The system is now set up and ready for use. You will see the Rocky Linux console.
 
 ![Rocky Linux Welcome Screen](images/installation-F04.png)
 
-要登录到系统，请在登录提示处键入 `rockstar`，然后按 <kbd>enter</kbd> 键。
+To log onto the system, type `rockstar` at the login prompt and press <kbd>enter</kbd>.
 
-在密码提示处，键入 `04302021`（rockstar 的密码），然后按  <kbd>enter</kbd> 键。
+At the Password prompt, type `04302021` (rockstar’s password) and press <kbd>enter</kbd> (the password will ***not*** be echoed to the screen, that is normal).
 
-在登录后运行 `whoami` 命令。
+We will run the `whoami` command after login, this command shows the name of the currently logged in user.
 
 ![Login Screen](images/installation-F06.png)
