@@ -1,228 +1,230 @@
-# Rocky Linux —— 网络配置
+---
+title: Networking Configuration
+---
 
-## 准备工作
+# Networking configuration
 
-* 熟悉命令行操作
-* 提升或管理系统权限（例如root、sudo等）
-* 可选：熟悉网络概念
+## Prerequisites
 
-# 简介
+* A certain amount of comfort operating from the command line
+* Elevated or administrative privileges on the system (For example root, sudo and so on)
+* Optional: familiarity with networking concepts
 
-如今，一台没有网络连接的计算机几乎毫无用处。无论您是需要更新服务器上的软件包，还是只需从笔记本电脑浏览外部网站，您都需要网络访问！
+# Introduction
 
-本文旨在为 RockyLinux 用户提供如何在 Rocky Linux 系统上设置网络连接的基本知识。
+Nowadays a computer without network connectivity is almost useless by itself. Whether you need to update the packages on a server or simply browse external Websites from your laptop - you will need network access!
 
-## 使用 NetworkManager 服务
+This guide aims to provide Rocky Linux users the basic knowledge on how to setup network connectivity on a Rocky Linux system.
 
-在用户级别，网络堆栈由 *NetworkManager* 管理。该工具作为服务运行，您可以使用以下命令检查其状态：
+## Using NetworkManager service
 
-	systemctl status NetworkManager
+At the user level, the networking stack is managed by *NetworkManager*. This tool runs as a service, and you can check its state with the following command:
 
-### 配置文件
+    systemctl status NetworkManager
 
-NetworkManager 只应用从 `/etc/sysconfig/network-scripts/ifcfg-<IFACE_NAME>` 文件中读取的配置。
-每个网络接口都有其配置文件。服务器的默认配置文件如下所示：
+### Configuration files
 
-	TYPE=Ethernet
-	PROXY_METHOD=none
-	BROWSER_ONLY=no
-	BOOTPROTO=none
-	DEFROUTE=yes
-	IPV4_FAILURE_FATAL=no
-	IPV6INIT=no
-	NAME=ens18
-	UUID=74c5ccee-c1f4-4f45-883f-fc4f765a8477
-	DEVICE=ens18
-	ONBOOT=yes
-	IPADDR=192.168.0.1
-	PREFIX=24
-	GATEWAY=192.168.0.254
-	DNS1=192.168.0.254
-	DNS2=1.1.1.1
-	IPV6_DISABLED=yes
+NetworkManager simply applies a configuration read from the files found in `/etc/sysconfig/network-scripts/ifcfg-<IFACE_NAME>`. Each network interface has its configuration file. The following example in the default configuration for a server:
 
-接口的名称是 **ens18**，因此该文件的名称将是 `/etc/sysconfig/network-scripts/ifcfg-ens18`。
+    TYPE=Ethernet
+    PROXY_METHOD=none
+    BROWSER_ONLY=no
+    BOOTPROTO=none
+    DEFROUTE=yes
+    IPV4_FAILURE_FATAL=no
+    IPV6INIT=no
+    NAME=ens18
+    UUID=74c5ccee-c1f4-4f45-883f-fc4f765a8477
+    DEVICE=ens18
+    ONBOOT=yes
+    IPADDR=192.168.0.1
+    PREFIX=24
+    GATEWAY=192.168.0.254
+    DNS1=192.168.0.254
+    DNS2=1.1.1.1
+    IPV6_DISABLED=yes
 
-**提示：**
-有多种方法或机制可以为系统分配其 IP 配置信息。最常用的两种方法是**静态 IP 配置**方案和**动态 IP 配置**方案。
+The interface's name is **ens18** so this file's name will be `/etc/sysconfig/network-scripts/ifcfg-ens18`.
 
-静态 IP 配置方案在服务器类系统或网络上非常常用。
+**Tips:**  
+There are a few ways or mechanisms by which systems can be assigned their IP configuration information. The 2 most common methods are - **Static IP configuration** scheme and **Dynamic IP configuration** scheme.
 
-动态 IP 方法在家庭和办公网络或工作站和台式机类系统上很常用。动态方案通常需要本地可用的额外协议，以便为请求的工作站和台式机提供适当的 IP 配置信息。这种协议就是所谓的动态主机配置协议（DHCP）。
+The static IP configuration scheme is very popular on server class systems or networks.
 
-通常，家庭/办公室用户不必担心或不了解 DHCP。这是因为有人或其他程序会在后台自动进行处理。最终用户唯一需要做的就是通过物理或无线连接到正确的网络（确保系统已通电）！
+The dynamic IP approach is popular on home and office networks - or workstation and desktop class systems.  The dynamic scheme usually needs _something_ extra that is locally available that can supply proper IP configuration information to requesting workstations and desktops. This _something_ is called the Dynamic Host Configuration Protocol (DHCP).
 
-#### IP 地址
+Very often, home/office users don't have to worry or know about DHCP. This is because the somebody or something else is automagically taking care of that in the background. The only thing that the end user needs to do is to physically or wirelessly connect to the right network (and of course make sure that their systems are powered on)!
 
-在前面的 `/etc/sysconfig/network-scripts/ifcfg-ens18` 文件中，`BOOTPROTO` 参数或键的值设置为 `none`。 这意味着将系统设置为静态 IP 地址方案。
+#### IP Address
 
-相反，如果要将系统配置为使用动态 IP 地址方案，则必须将 `BOOTPROTO` 参数的值从 `none` 更改为 `dhcp`，并删除 `IPADDR`、 `PREFIX` 和 `GATEWAY` 行。这是必需的，因为所有这些信息都将从任何可用的 DHCP 服务器中自动获得。
+In the previous `/etc/sysconfig/network-scripts/ifcfg-ens18` listing, we see that the value of the `BOOTPROTO` parameter or key is set to `none`. This means that the system being configured is set to a static IP address scheme.
 
-要配置静态 IP 地址属性，请设置以下内容：
+If instead you want to configure the system to use a dynamic IP address scheme, you will have to change the value of the `BOOTPROTO` parameter from `none` to `dhcp` and also remove the `IPADDR`, `PREFIX` and `GATEWAY` lines. This is necessary because all of that information will be automaically obtained from any available DHCP server.
 
-* IPADDR：分配给接口的 IP 地址
-* PREFIX：[CIDR 表示法](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation)中的子网掩码
-* GATEWAY：默认网关
+To configure a static IP address attribution, set the following:
 
-`ONBOOT` 参数设置为 `yes`，表示此连接将在系统引导时被激活。
+* IPADDR: the IP address to assign the interface
+* PREFIX: the subnet mask in [CIDR notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation)
+* GATEWAY: the default gateway
 
-#### DNS 解析
+The `ONBOOT` parameter set to `yes` indicates that this connection will be activated during boot time.
 
-为了获得正确的名称解析，必须设置以下参数：
+#### DNS resolution
 
-* DNS1：主名称服务器的 IP 地址
-* DNS2：辅助名称服务器 IP 地址
+To get proper name resolution, the following parameters must be set:
+
+* DNS1: IP address of the main nameserver
+* DNS2: the secondary nameserver IP address
 
 
-### 应用配置
+### Apply configuration
 
-要应用网络配置，可以使用 `nmcli` 命令：
+To apply the network configuration, the `nmcli` command can be used:
 
     nmcli connection up ens18
 
-要获取连接状态，只需使用：
+To get the connection state, simply use:
 
     nmcli connection show
 
-您还可以使用 `ifup` 和 `ifdown` 命令对该接口进行开启和关闭操作（它们对 `nmcli` 进行简单包装）：
+You can also use the `ifup` and `ifdown` commands to bring the interface up and down (they are simple wrappers around `nmcli`):
 
-	ifup ens18
-	ifdown ens18
+    ifup ens18
+    ifdown ens18
 
-### 检查配置
+### Checking configuration
 
-您可以使用以下 `nmcli` 命令检查配置是否已正确应用：
+You can check that the configuration has been correctly applied with the following `nmcli` command:
 
-	nmcli device show ens18
+    nmcli device show ens18
 
-其输出如下所示：
+which should give you the following output:
 
-	GENERAL.DEVICE:                         ens18
-	GENERAL.TYPE:                           ethernet
-	GENERAL.HWADDR:                         6E:86:C0:4E:15:DB
-	GENERAL.MTU:                            1500
-	GENERAL.STATE:                          100 (connecté)
-	GENERAL.CONNECTION:                     ens18
-	GENERAL.CON-PATH:                       /org/freedesktop/NetworkManager/ActiveConnection/1
-	WIRED-PROPERTIES.CARRIER:               marche
-	IP4.ADDRESS[1]:                         192.168.0.1/24
-	IP4.GATEWAY:                            192.168.0.254
-	IP4.ROUTE[1]:                           dst = 192.168.0.0/24, nh = 0.0.0.0, mt = 100
-	IP4.ROUTE[2]:                           dst = 0.0.0.0/0, nh = 192.168.0.254, mt = 100
-	IP4.DNS[1]:                             192.168.0.254
-	IP4.DNS[2]:                             1.1.1.1
-	IP6.GATEWAY:                            --
+    GENERAL.DEVICE:                         ens18
+    GENERAL.TYPE:                           ethernet
+    GENERAL.HWADDR:                         6E:86:C0:4E:15:DB
+    GENERAL.MTU:                            1500
+    GENERAL.STATE:                          100 (connecté)
+    GENERAL.CONNECTION:                     ens18
+    GENERAL.CON-PATH:                       /org/freedesktop/NetworkManager/ActiveConnection/1
+    WIRED-PROPERTIES.CARRIER:               marche
+    IP4.ADDRESS[1]:                         192.168.0.1/24
+    IP4.GATEWAY:                            192.168.0.254
+    IP4.ROUTE[1]:                           dst = 192.168.0.0/24, nh = 0.0.0.0, mt = 100
+    IP4.ROUTE[2]:                           dst = 0.0.0.0/0, nh = 192.168.0.254, mt = 100
+    IP4.DNS[1]:                             192.168.0.254
+    IP4.DNS[2]:                             1.1.1.1
+    IP6.GATEWAY:                            --
 
-## 使用 ip 命令
+## Using ip utility
 
-`ip` 命令（由 *iproute2* 软件包提供）是一个功能强大的工具，可用于获取网络信息并配置现代 Linux 系统（如 Rocky Linux）的网络。
+The `ip` command (provided by the *iproute2* package) is a powerful tool to get information and configure the network of a modern Linux system such as Rocky Linux.
 
-在下面示例中，假定以下参数：
+In this example, we will assume the following parameters:
 
-* 接口名称：ens19
-* IP 地址：192.168.20.10
-* 子网掩码：24
-* 网关：192.168.20.254
+* interface name: ens19
+* ip address: 192.168.20.10
+* subnet mask: 24
+* gateway: 192.168.20.254
 
-### 获取常用信息
+### Get general information
 
-要查看所有接口的详细状态，请使用以下命令：
+To see the detailed state of all interfaces, use
 
-	ip a 
+    ip a
 
-**实用提示**
-* 使用 `-c` 标志可获得更具可读性的彩色输出：`ip -c a`。
-* `ip`接受缩写，因此 `ip a`、`ip addr` 和 `ip address` 是等效的。
+**Pro tips:**
+* use the `-c` flag to get a more readable coloured output: `ip -c a`.
+* `ip` accepts abbreviation so `ip a`, `ip addr` and `ip address` are equivalent
 
-### 开启或关闭接口
+### Bring interface up or down
 
-要开启 *ens19* 接口，只需使用 `ip link set ens19 up`，而要关闭接口，使用 `ip link set ens19 down`。
+To bring the *ens19* interface up, simply use `ip link set ens19 up` and to bring it down, use `ip link set ens19 down`.
 
-### 为接口分配静态地址
+### Assign the interface a static address
 
-使用的命令的格式为：
+The command to be used is of the form:
 
-	ip addr add <IP ADDRESS/CIDR> dev <IFACE NAME>
+    ip addr add <IP ADDRESS/CIDR> dev <IFACE NAME>
 
-要分配上述示例参数，使用以下命令：
+To assign the above example parameters, we will use:
 
-	ip a add 192.168.20.10/24 dev ens19
+    ip a add 192.168.20.10/24 dev ens19
 
-然后，检查结果：
+Then, checking the result with:
 
-	ip a show dev ens19
+    ip a show dev ens19
 
-将输出以下内容：
+will output:
 
-	3: ens19: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
-		link/ether 4a:f2:f5:b6:aa:9f brd ff:ff:ff:ff:ff:ff
-		inet 192.168.20.10/24 scope global ens19
-		valid_lft forever preferred_lft forever
+    3: ens19: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+        link/ether 4a:f2:f5:b6:aa:9f brd ff:ff:ff:ff:ff:ff
+        inet 192.168.20.10/24 scope global ens19
+        valid_lft forever preferred_lft forever
 
-接口已启动并配置完毕，但仍然缺少一些配置！
+Our interface is up and configured, but is still lacking something!
 
-### 使用 ifcfg 命令
+### Using ifcfg utility
 
-要给 *ens19* 接口添加新示例 IP 地址，请使用以下命令：
+To add the *ens19* interface our new example IP address, use the following command:
 
-	ifcfg ens19 add 192.168.20.10/24
+    ifcfg ens19 add 192.168.20.10/24
 
-删除 ip 地址，请使用以下命令：
+To remove the address:
 
-	ifcfg ens19 del 192.168.20.10/24
+    ifcfg ens19 del 192.168.20.10/24
 
-要完全禁用此接口上的 IP 地址，请使用以下命令：
+To completely disable IP addressing on this interface:
 
-	ifcfg ens19 stop
+    ifcfg ens19 stop
 
-*注意，它不会导致接口关闭，它只是从接口取消分配的所有 IP 地址。*
+*Note that this does not bring the interface down, it simply unassigns all IP addresses from the interface.*
 
-### 网关配置
+### Gateway configuration
 
-现在接口已有一个地址，接下来必须设置它的默认路由，这可以通过以下方式完成：
+Now that the interface has an address, we have to set its default route, this can be done with:
 
-	ip route add default via 192.168.20.254 dev ens19
+    ip route add default via 192.168.20.254 dev ens19
 
-使用以下命令显示内核路由表：
+The kernel routing table can be displayed with
 
-	ip route
+    ip route
 
-以上可简写为 `ip r`。
+or `ip r` for short.
 
-## 检查网络连接
+## Checking network connectivity
 
-此时，您应该已启动并正确配置了网络接口。有几种方法可以验证您的连接。
+At this point, you should have your network interface up and properly configured. There are several ways to verify your connectivity.
 
-通过 *pinging* 同一网络中的另一个 IP 地址（此处使用 `192.168.20.42` 作为示例）：
+By *pinging* another IP address in the same network (we will use `192.168.20.42` as an example):
 
-	ping -c3 192.168.20.42
+    ping -c3 192.168.20.42
 
-此命令将发出 3 个 *ping*（称为 ICMP 请求）并等待回复。如果一切正常，您应该会得到以下输出：
+This command will issue 3 *pings* (known as ICMP request) and wait for a reply. If everything went fine, you should get this output:
 
-	PING 192.168.20.42 (192.168.20.42) 56(84) bytes of data.
-	64 bytes from 192.168.20.42: icmp_seq=1 ttl=64 time=1.07 ms
-	64 bytes from 192.168.20.42: icmp_seq=2 ttl=64 time=0.915 ms
-	64 bytes from 192.168.20.42: icmp_seq=3 ttl=64 time=0.850 ms
+    PING 192.168.20.42 (192.168.20.42) 56(84) bytes of data.
+    64 bytes from 192.168.20.42: icmp_seq=1 ttl=64 time=1.07 ms
+    64 bytes from 192.168.20.42: icmp_seq=2 ttl=64 time=0.915 ms
+    64 bytes from 192.168.20.42: icmp_seq=3 ttl=64 time=0.850 ms
+    
+    --- 192.168.20.42 ping statistics ---
+    3 packets transmitted, 3 received, 0% packet loss, time 5ms
+    rtt min/avg/max/mdev = 0.850/0.946/1.074/0.097 ms
 
-	--- 192.168.20.42 ping statistics ---
-	3 packets transmitted, 3 received, 0% packet loss, time 5ms
-	rtt min/avg/max/mdev = 0.850/0.946/1.074/0.097 ms
+Then, to make sure your routing configuration is fine, try to *ping* a external host, such as this well known public DNS resolver:
 
-然后，为确保您的路由配置正确，请尝试 *ping* 外部主机，例如众所周知的公共 DNS 解析器：
+    ping -c3 8.8.8.8
 
-	ping -c3 8.8.8.8
+If your machine has several network interface and you want to make ICMP request via a specific interface, you can use the `-I` flag:
 
-如果您计算机有多个网络接口，且您希望通过特定接口发出 ICMP 请求，则可以使用 `-I` 标志：
+    ping -I ens19  -c3 192.168.20.42
 
-	ping -I ens19  -c3 192.168.20.42
+It is now time to make sure that DNS resolution is working correctly. As a reminder, DNS resolution is a mechanism used to convert human friendly machine names into their IP addresses and the other way round (reverse DNS).
 
-接下来确保 DNS 解析正常工作。提醒一下，DNS 解析是一种用于将人性化的计算机名称转换为 IP 地址的机制，反之称为反向 DNS。
+If the `/etc/resolv.conf` file indicates a reachable DNS server, then the following should work:
 
-如果 `/etc/resolv.conf` 文件指示可访问的 DNS 服务器，则执行以下操作：
+    host rockylinux.org
 
-	host rockylinux.org
+The result should be:
 
-结果应为：
-
-	rockylinux.org has address 76.76.21.21
-
+    rockylinux.org has address 76.76.21.21
