@@ -1,11 +1,11 @@
 ---
-title: 指南首页
+title: Guides Home
 ---
 
-# Rocky Linux指南
+# Rocky Linux Guides
 
-欢迎访问Rocky Linux文档的 **指南** 部分。您在这里可以找到许多"how-to"文档，这部分一直在更新变化，还有一些长文档可以在 **"书籍"** 和 **"实验室"** 中找到，您可以在顶部的菜单中找到。
+Welcome to the **Guides** section of the Rocky Linux documentation. You will find a host of "how-to" documents, and much more, here. This section is changing all the time. There are also some longer document groups that can be found in "Books" as well as future planned educational "Labs", each of which may be found in the top menu.
 
-大多数类别不需要特别的解释，如果您想了解如何帮助正在进行的Rocky Linux开发，请加入开发频道——[Mattermost Development channel](https://chat.rockylinux.org/rocky-linux/channels/development)。对于那些希望参与文档的人，请加入文档频道—— [Mattermost Documentation channel](https://chat.rockylinux.org/rocky-linux/channels/documentation) ，讨论以了解更多的信息。
+Most of the categories do not require any explanation. If you want to find out how to help in the ongoing development of Rocky Linux, join the [Mattermost Development channel](https://chat.rockylinux.org/rocky-linux/channels/development). For those wishing to be involved in documentation, join the [Mattermost Documentation channel](https://chat.rockylinux.org/rocky-linux/channels/documentation) and join the discussion to find out more.
 
-如果您想直接进入，现在可以 [安装Rocky Linux](installation.zh_CN.md)
+If you are wanting to dive right in, you can [install Rocky Linux](installation.md) now!
