@@ -1,126 +1,133 @@
-# 在 Rocky Linux 中使用 cron 和 crontab 自动化进程
+---
+title: Automating With cron
+---
 
-## 准备工作
+# Automating Processes with cron and crontab
 
-* 一台运行 Rocky Linux 的机器。
-* 知道如何在命令行环境下使用您喜欢的编辑器修改配置文件（本文将使用 _vi_）。
+## Prerequisites
 
-## <a name="assumptions"></a>假定
+* A machine running Rocky Linux
+* Some comfort with modifying configuration files from the command-line using your favorite editor (_vi_ is used here)
 
-* 您已了解 bash、python 或其他脚本/编程工具的基本知识，并期望自动运行脚本。
-* 您已以 root 用户身份运行，或使用 `sudo -s` 切换到 root 用户。
-**（您可以以自己的用户身份在自己的目录中运行某些脚本。在这种情况下，无需切换到 root。）**
+## <a name="assumptions"></a> Assumptions
 
-# 简介
+* Basic knowledge of bash, python, or other scripting/programming tools, and the desire to have a script run automatically
+* That you are either running as the root user or have switched to root with `sudo -s`  
+  **(You can run certain scripts in your own directories as your own user. In this case, switching to root is not necessary.)**
+* We assume that you're pretty cool.
 
-Linux提供了 _cron_ 系统，一个基于时间的作业调度程序，用于自动化进程。它很简单，也很强大。想让脚本或程序每天下午 5 点运行吗？设置 cron 即可。
+# Introduction
 
-_crontab_ 本质上是一个列表，用户可以在其中添加自己的自动化任务和作业，并且有许多可以进一步简化操作的选项。本文将探讨其中的一些选项。本文对有一定经验的用户而言是一个很好的温习，对新用户而言将系统学习 cron。
+Linux provides the _cron_ system, a time-based job scheduler, for automating processes. It's simple and yet quite powerful. Want a script or program to run every day at 5 PM? This is where you set that up.
 
-## <a name="starting-easy"></a>轻松入门 —— cron 点目录
+The _crontab_ is essentially a list where users add their own automated tasks and jobs, and it has a number of options that can simplify things even further. This document will explore a number of these. It's a good refresher for those with some experience, new users add the cron system to their repertoire.
 
-包括 Rock Linux 在内的许多 Linux 发行版都内置了 cron 点文件，这些文件有助于快速配置自动化进程。它们显示为 cron 系统根据其命名约定调用的目录。
+## <a name="starting-easy"></a>Starting Easy - The cron Dot Directories
 
-为了使某些文件在这些自动定义的时间内运行，您所需要做的就是将脚本文件复制到相关目录中，并确保其可执行文件。以下是目录及其运行时间：
+Built into every Linux system including Rock Linux, for many versions now, the cron "dot" files help to automate processes quickly. These show up as directories that the cron system calls based on their naming conventions.
 
-* `/etc/cron.hourly/` - 放置在此处的脚本将在每天每小时的 1 分钟后运行。
-* `/etc/cron.daily` - 放置在此处的脚本每天凌晨 4:02 运行。
-* `/etc/cron.weekly` - 放置在此处的脚本将在每周的周日凌晨 4:22 运行。
-* `/etc/cron.monthly` - 放置在此处的的脚本将在每月第一天的凌晨 4:42 运行。
+In order to make something run during these auto-defined times, all you need to do is to copy your script file into the directory in question, and make sure it is executable. Here are the directories, and the times that they will run:
 
-因此，您只要让系统在这些预定时间之一自动运行脚本就可以了，这使自动化任务变得非常容易。
+* `/etc/cron.hourly/` - Scripts placed here will run at 1 minute past the hour, every hour of every day.
+* `/etc/cron.daily` - Scripts placed here will run at 4:02 AM every day.
+* `/etc/cron.weekly` - Scripts placed here will run at 4:22 AM on Sunday every week.
+* `/etc/cron.monthly` - Scripts placed here will run at 4:42 AM on the first day of the month, every month.
 
-## 创建自定义 cron
+So, provided you're alright with just letting the system auto-run your scripts at one of these pre-determined times, then it makes it very easy to automate tasks.
 
-当然，无论出于何种原因，自动化时间都不能很好地为您工作，那么您可以创建自定义时间。本示例中，假设您以 root 用户身份执行此操作。为此，[请参见假定](##-assumptions)，键入以下内容：
+## Create Your Own cron
+
+Of course, if the automated times don't work well for you for whatever reason, then you can create your own. In this example, we are assuming you are doing this as root. [see Assumptions](##-assumptions) To do this, type the following:
 
 `crontab -e`
 
-这将调出 root 用户的 crontab，就像它此时存在于您选择的编辑器中一样，可能如下所示。请继续阅读以下注释，因为它包含接下来将使用的每个字段的描述：
+This will pull up root user's crontab as it exists at this moment in your chosen editor, and may look something like this. Go ahead and read through this commented version, as it contains descriptions of each field that we will be using next:
 
 ```
-# 编辑此文件以引入要由 cron 运行的任务。
-# 
-# 一行定义一个要运行的任务
-# 在一行中用不同的字段指示何时运行该任务
-# 以及为该任务运行的命令
-# 
-# 要定义时间，可以为
-# 分钟（m）、小时（h）、月日（dom）、月（mon）和星期（dow）
-# 提供具体值，或者在这些字段中使用“*”（表示“任何”）。
-# 
-# 注意，将根据 cron 的系统守护程序的时间和时区概念启动任务。
-# 
-# 作业的输出（包括错误）通过电子邮件发送给
-# crontab 文件所属的用户（除非重定向）。
+# Edit this file to introduce tasks to be run by cron.
+#
+# Each task to run has to be defined through a single line
+# indicating with different fields when the task will be run
+# and what command to run for the task
+#
+# To define the time you can provide concrete values for
+# minute (m), hour (h), day of month (dom), month (mon),
+# and day of week (dow) or use '*' in these fields (for 'any').
+#
+# Notice that tasks will be started based on the cron's system
+# daemon's notion of time and timezones.
+#
+# Output of the crontab jobs (including errors) is sent through
+# email to the user the crontab file belongs to (unless redirected).
 # cron
-# 例如，每周一上午 5 点运行所有用户帐户的备份：
+# For example, you can run a backup of all your user accounts
+# at 5 a.m every week with:
 # 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
-# 
-# 有关更多信息，请参见 crontab（5）和 cron（8）的手册页
-# 
+#
+# For more information see the manual pages of crontab(5) and cron(8)
+#
 # m h  dom mon dow   command
 ```
 
-注意，这个特定的 crontab 文件内置了一些自己的文档。并非总是如此。在容器或极简操作系统上修改 crontab 时，crontab 将是一个空文件，除非已经在其中放置了条目。
+Notice that this particular crontab file has some of its own documentation built-in. That isn't always the case. When modifying a crontab on a container or minimalist operating system, the crontab will be an empty file, unless an entry has already been placed in it.
 
-假设有一个备份脚本，希望在晚上 10 点运行。crontab 使用 24 小时制，因此应该是 22:00。假设备份脚本名为“backup”，并且当前位于 _/usr/local/sbin_ 目录中。
+Let's assume that we have a backup script that we want to run at 10 PM at night. The crontab uses a 24 hour clock, so this would be 22:00. Let's assume that the backup script is called "backup" and that it is currently in the _/usr/local/sbin_ directory.
 
-注意：这个脚本也需要是可执行的（`chmod+x`），cron 才能运行它。要添加作业：
+Note: Remember that this script needs to also be executable (`chmod +x`) in order for the cron to run it. To add the job, we would:
 
 `crontab -e`
 
- “crontab”代表“cron table”，文件的格式实际上是松散的表布局。现在在 crontab 中，转到文件的底部并添加新条目。如果您使用 vi 作为默认的系统编辑器，那么可以通过以下键来完成：
+"crontab" stands for "cron table" and the format of the file is, in fact, a loose table layout. Now that we are in the crontab, go to the bottom of the file and add your new entry. If you are using vi as your default system editor, then this is done with the following keys:
 
 `Shift : $`
 
-现在，您位于文件的底部，插入一行并键入简短的注释以描述条目的内容。注释是通过在行首添加“＃”来完成的：
+Now that you are at the bottom of the file, insert a line and type a brief comment to describe what is going on with your entry. This is done by adding a "#" to the beginning of the line:
 
-`# 每晚 10 点备份系统`
+`# Backing up the system every night at 10PM`
 
-现在按回车键。您应该仍然处于插入模式，因此下一步是添加条目。如以上空注释的 crontab 所示，**m** 表示分钟，**h** 表示小时，**dom** 表示月日，**mon** 表示月，**dow** 表示星期。
+Now hit enter. You should still be in the insert mode, so the next step is to add your entry. As shown in our empty commented crontab (above) this is **m** for minutes, **h** for hours, **dom** for day of month, **mon** for month, and **dow** for day of week.
 
-要在每晚 10:00 运行备份脚本，条目如下所示：
+To run our backup script every day at 10:00, the entry would look like this:
 
 `00  22  *  *  *   /usr/local/sbin/backup`
 
-这表示在每月、每周和每日的晚上 10 点运行脚本。显然，这是一个非常简单的示例，当您需要详细说明时，情况可能会变得非常复杂。
+This says run the script at 10 PM, every day of the month, every month, and every day of the week. Obviously, this is a pretty simple example and things can get quite complicated when you need specifics.
 
-### crontab 的 @ 选项
+### The @options for crontab
 
-如本文档上面的[轻松入门](##-starting-easy)部分所述，cron 点目录中的脚本在特定的时间运行。@ 选项提供使用更自然的定时能力。@ 选项包括：
+As noted in the [Starting Easy](##-starting-easy) portion of this document above, scripts in the cron dot directories are run at very specific times. @options offer the ability to use more natural timing. The @options consist of:
 
-* `@hourly` 在每天每小时的 0 分钟后运行脚本。
-* `@daily` 在每天午夜运行脚本。
-* `@weekly` 在每周的周日午夜运行脚本。
-* `@monthly` 在每个月的第一天午夜运行脚本。
-* `@yearly` 在每年 1 月 1 日午夜运行脚本。
-* `@reboot` 仅在系统启动时运行脚本。
+* `@hourly` runs the script every hour of every day at 0 minutes past the hour.
+* `@daily` runs the script every day at midnight.
+* `@weekly` runs the script every week at midnight on Sunday.
+* `@monthly` runs the script every month at midnight on the first day of the month.
+* `@yearly` runs the script every year at midnight on the first day of January.
+* `@reboot` runs the script on system startup only.
 
-对于备份脚本示例，如果使用 @daily 选项在午夜运行备份脚本，则该条目将如下所示：
+For our backup script example, if we used use the @daily option to run the backup script at midnight, the entry would look like this:
 
 `@daily  /usr/local/sbin/backup`
 
-### 复杂选项
+### More Complex Options
 
-到目前为止，所讨论的内容都是非常简单的选项，但是更复杂的定时任务又该如何完成呢？假设要在一天中每 10 分钟运行一次备份脚本（可能不切实际，但是，仅是一个示例！）。为此，将编写以下内容：
+So far, everything we have talked about has had pretty simple options, but what about the more complex task timings? Let's say that you want to run your backup script every 10 minutes during the day (probably not a very practical thing to do, but hey, this is an example!). To do this you would write:
 
 `*/10  *   *   *   *   /usr/local/sbin/backup`
 
-如果您只想在星期一、星期三和星期五的每 10 分钟运行一次备份呢？:
+What if you wanted to run the backup every 10 minutes, but only on Monday, Wednesday and Friday?:
 
 `*/10  *   *   *   1,3,5   /usr/local/sbin/backup`
 
-除了星期六和星期日，每天每 10 分钟备份一次又如何？
+What about every 10 minutes every day except Saturday and Sunday?:
 
-`*/10  *   *   *   1-5   /usr/local/sbin/backup`
+`*/10  *   *   *    1-5    /usr/local/sbin/backup`
 
-在表中，逗号用于指定字段中的单个条目，而破折号用于指定字段中的值范围。它可以在任何字段中使用，也可以同时在多个字段中使用。如您所见，情况会变得相当复杂。
+In the table, the commas let you specify individual entries within a field, while the dash lets you specify a range of values within a field. This can happen in any of the fields, and on multiple fields at the same time. As you can see, things can get pretty complicated.
 
-在确定何时运行脚本时，您需要花费时间并进行规划，尤其是在条件复杂的情况下。
+When determining when to run a script, you need to take time and plan it out, particularly if the criteria are complex.
 
-# 总结
+# Conclusions
 
-对于 Rocky Linux 桌面用户或系统管理员而言，cron/crontab 系统是一个非常强大的工具。它可以让您自动执行任务和脚本，这样您就不必记住手动运行它们。
+The cron/crontab system is a very powerful tool for the Rocky Linux desktop user or systems administrator. It can allow you to automate tasks and scripts so that you don't have to remember to run them manually.
 
-虽然基础知识很简单，但实际任务可能很复杂。有关 crontab 的更多信息，请访问 [crontab 手册页](https://man7.org/linux/man-pages/man5/crontab.5.html)。您还可以简单地在网上搜索“crontab”，它将为您提供大量搜索结果，帮助您微调 crontab 表达式。
+While the basics are pretty easy, you can get a lot more complex. For more information on crontab head up to the [crontab manual page](https://man7.org/linux/man-pages/man5/crontab.5.html). You can also simply do a web search for "crontab" which will give you a wealth of results to help you fine-tune your crontab skills.
