@@ -1,90 +1,91 @@
-# Rocky Linux - SSH 公钥和私钥
+# SSH Public and Private Key
 
-## 准备工作
+## Prerequisites
 
-* 熟悉命令行操作。
-* 安装有 *openssh* 的 Rocky Linux 服务器或工作站。
-    * 从技术上讲，本文所述的过程在任何已安装 openssh 的 Linux 系统上都可以运行。
-* 可选：熟悉 linux 文件和目录权限。
+* A certain amount of comfort operating from the command line
+* Rocky Linux servers and/or workstations with *openssh* installed
+    * Okay technically, this process whould work on any Linux system with openssh installed
+* Optional: familiarity with linux file and directory permissions
 
-# 简介
+# Introduction
 
-SSH 是一种协议，通常用于通过命令行从一台计算机访问另一台计算机。使用 SSH，您可以在远程计算机和服务器上运行命令、发送文件，通常还可以从一个位置管理您所做的一切。
+SSH is a protocol used to access one machine from another, usually via the command line. With SSH, you can run commands on remote computers and servers, send files, and generally manage everything you do from one place.
 
-当您在多个位置使用多个 Rocky Linux 服务器时，或者只是想节省访问这些服务器的时间，则可以使用 SSH 公钥和私钥对。密钥对从根本上使登录远程计算机和运行命令变得更容易。
+When you are working with multiple Rocky Linux servers in multiple locations, or if you are just trying to save some time accessing these servers, you'll want to use an SSH public and private key pair. Key pairs basically make logging into remote machines and running commands easier.
 
-本文将指导您完成创建密钥，并设置服务器以易于访问。
+This document will guide you through the process of creating the keys and setting up your servers for easy access, with said keys.
 
-### 生成密钥的过程
+### Process For Generating Keys
 
-以下命令都是在 Rocky Linux 工作站的命令行中执行：
+The following commands are all executed from the command line on your Rocky Linux workstation:
 
 `ssh-keygen -t rsa`
 
-将显示以下内容：
+Which will display the following:
 
 ```
 Generating public/private rsa key pair.
 Enter file in which to save the key (/root/.ssh/id_rsa):
 ```
 
-按 Enter 键表示保存在默认位置。接下来，系统将显示：
+Hit Enter to accept the default location. Next the system will show:
 
 `Enter passphrase (empty for no passphrase):`
 
-因此，只需按 Enter 键。最后，系统将要求您重新输入密码：
+So just hit Enter here. Finally, it will ask for you to re-enter the passphrase:
 
 `Enter same passphrase again:`
 
-最后再按一次 Enter 键。
+So hit Enter a final time.
 
-现在，您的 .ssh 目录中应该有一个 RSA 类型的公钥和私钥对：
+You now should have an RSA type public and private key pair in your .ssh directory:
 
 ```
 ls -a .ssh/
 .  ..  id_rsa  id_rsa.pub
 ```
 
-现在，需要将公钥（id_rsa.pub）发送到将要访问的每台计算机上。在执行此操作前，需要确保可以通过 SSH 连接到服务器。本示例将仅使用三台服务器。
+Now we need to send the public key (id_rsa.pub) to every machine that we are going to be accessing... but before we do that, we need to make sure that we can SSH into the servers that we will be sending the key to. For our example, we are going to be using just three servers.
 
-您可以使用 DNS 名称或 IP 地址通过 SSH 访问它们，本示例将使用 DNS 名称。示例服务器是 Web、邮件和门户。对于每台服务器，尝试以 SSH 登入，并为每台计算机打开终端窗口：
+You can either access them via SSH by a DNS name or IP address, but for our example we are going to be using the DNS name. Our example servers are web, mail, and portal. For each server, we will attempt to SSH in (nerds love using SSH as a verb) and leave a terminal window open for each machine:
 
-`ssh -l root web.ourourdomain.com` 
+`ssh -l root web.ourourdomain.com`
 
-假设顺利登录到三台计算机上，那么下一步就是将公钥发送到每个服务器：
+Assuming that we can login without trouble on all three machines, then the next step is to send our public key over to each server:
 
-`scp .ssh/id_rsa.pub root@web.ourourdomain.com:/root/` 
+`scp .ssh/id_rsa.pub root@web.ourourdomain.com:/root/`
 
-对每台计算机重复此步骤。
+Repeat this step with each of our three machines.
 
-在每个打开的终端窗口中，输入以下命令，您应该看到 *id_rsa.pub*：
+In each of the open terminal windows, you should now be able to see *id_rsa.pub* when you enter the following command:
 
-`ls -a | grep id_rsa.pub` 
+`ls -a | grep id_rsa.pub`
 
-如果正确，现在准备在每台服务器的 *.ssh* 目录中创建或添加 *authorized_keys* 文件。在每台服务器上，输入以下命令：
+If so, we are now ready to either create or append the *authorized_keys* file in each server's *.ssh* directory. On each of the servers, enter this command:
 
-`ls -a .ssh` 
+`ls -a .ssh`
 
-**重要！请务必仔细阅读以下内容。如果您不确定是否会破坏某些内容，那么在继续之前，请在每台计算机上创建 authorized_keys（如果存在）的备份副本。**
+**Important! Make sure you read everything below carefully. If you are not sure if you will break something, then make a backup copy of authorized_keys (if it exists) on each of the machines before continuing.**
 
-如果没有列出 *authorized_keys* 文件，那么通过在 _/root_ 目录中输入以下命令来创建它：
+If there is no *authorized_keys* file listed, then we will create it by entering this command while in our _/root_ directory:
 
 `cat id_rsa.pub > .ssh/authorized_keys`
 
-如果 _authorized_keys_ 已存在，那么只需要将新的公钥附加到已存在的公钥上：
+If _authorized_keys_ does exist, then we simply want to append our new public key to the ones that are already there:
 
 `cat id_rsa.pub >> .ssh/authorized_keys`
 
-将密钥添加到 _authorized_keys_ 或创建的 _authorized_keys_ 文件后，请再次尝试从 Rocky Linux 工作站通过 SSH 连接到服务器。此时将没有提示您输入密码。
+Once the key has been either added to _authorized_keys_, or the _authorized_keys_ file has been created, try to SSH from your Rocky Linux workstation to the server again. You should not be prompted for a password.
 
-确认无需密码即可进行 SSH 登录后，请从每台计算机的 _/root_ 目录中删除 id_rsa.pub 文件。
+Once you have verified that you can SSH in without a password, remove the id_rsa.pub file from the _/root_ directory on each machine.
 
 `rm id_rsa.pub`
 
-### 目录和 authorized_keys 安全
+### SSH Directory and authorized_keys Security
 
-在每台目标计算机上，确保应用了以下权限：
+On each of your target machines, make sure that the following permissions are applied:
 
-`chmod 700 .ssh/`
-`chmod 600 .ssh/authorized_keys`
+`chmod 700 .ssh/` `chmod 600 .ssh/authorized_keys`
+
+
 
