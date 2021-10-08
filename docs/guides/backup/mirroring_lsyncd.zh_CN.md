@@ -1,73 +1,73 @@
-# Rocky Linux - 镜像解决方案 - lsycnd
+# Mirroring Solution - lsyncd
 
-## 准备工作
+## Prerequisites
 
-在继续阅读这篇指南之前，您需要准备或了解以下的内容：
+This is everything you'll need to understand and follow along with this guide:
 
-* 运行 Rocky Linux 的计算机。
-* 熟练从命令行修改配置文件。
-* 了解如何使用命令行编辑器（本文使用 vi，但您也可以使用其他编辑器）。
-* 您需要 root 用户访问权限，并且最好以 root 用户身份登录终端。
-* SSH 公私密钥对。
-* Fedora 的 EPEL 仓库
-* 熟悉事件监视程序接口 *inotify*
-* 可选：熟悉 *tail*
+* A machine running Rocky Linux
+* A comfort level with modifying configuration files from the command-line
+* Knowledge of how to use a command line editor (we use vi here, but you could use your favorite editor)
+* You will need root access, and ideally be signed in as the root user in your terminal
+* Public and Private SSH key pairs
+* The EPEL repositories from Fedora
+* You will need to be familair with *inotify*, an event monitor interface
+* Optional: familiarity with *tail*
 
-# 简介
+## Introduction
 
-如果您正在寻找一种在计算机之间自动同步文件和文件夹的方法，lsyncd 是一个相当不错的选择。对初学者来说唯一的缺点是什么？您必须通过命令行和文本文件配置所有内容。
+If you're looking for a way to synchronize files and folders between computers automatically, lsyncd is a pretty great option. The only downside for beginners? You have to configure everything via the command line, and text files.
 
-即便如此，它还是值得任何系统管理员认真学习。
+Even so, it's a program worth learning for any sysadmin.
 
-*lsyncd* 的最佳描述来自其 man 手册页。稍微解释一下，lsyncd 是一种轻量级实时镜像解决方案，相对易于安装。它不需要新的文件系统或块设备，也不会影响本地文件系统的性能。简而言之，它镜像文件。
+The best description of *lsyncd*, comes from its own man page. Slightly paraphrased, lsyncd is a light-weight live mirror solution that is comparatively easy to install. It doesn't require new filesystems or blockdevices, and does not hamper local filesystem performance. In short, it mirrors files.
 
-lsyncd 监视本地目录树事件监视器接口（inotify）。它在几秒钟内聚合并组合事件，然后生成一个（或多个）进程来同步更改。默认情况下，进程是 rsync。
+lsyncd watches a local directory trees event monitor interface (inotify). It aggregates and combines events for a few seconds, and then spawns one (or more) process(es) to synchronize the changes. By default this is rsync.
 
-在本文中，带有原始文件的系统称为“master（主）”，而与之同步的系统将称为“target（目标）”。实际上，，使用 lsyncd 通过非常仔细地指定要同步的目录和文件是有可能完全镜像服务器。真是太好了！
+For the purposes of this guide, we will call the system with the original files the "master", and the one that we are synchronizing to will be the "target". It is actually possible to completely mirror a server using lsyncd by very carefully specifying directories and files that you want to synchronize. It's pretty sweet!
 
-对于远程同步，您还需要设置 [Rocky Linux SSH 公私钥对](../security/ssh_public_private_keys.md)。此处的示例使用 SSH（端口 22）。
+For remote syncing, you will also want to set up [Rocky Linux SSH Public Private Key Pairs](../security/ssh_public_private_keys.md). The examples here use SSH (port 22).
 
-# 安装 lsycnd
+## Installing lsyncd
 
-实际上有两种方法可以安装 lsyncd。此处两种方法都介绍，但首选的方法是从源代码安装。这种安装相对容易，而且几乎不需要依赖项。RPM 往往会稍微落后于源码包。换言之，此处给出两种方法，自行选择。
+There are actually two ways to install lsyncd. We will include them both here, but the preferred method is to install from source. It's relatively easy to do this and there are few dependencies required. The RPM tends to lag behind the source packages by a little. That said, we want to give you both options and let you choose.
 
-## 安装 lsycnd —— RPM 方法
+## Installing lsyncd - RPM Method
 
-安装 RPM 版本相对容易。您唯一需要首先安装的是 Fedora 的 EPEL 软件库。只需一条命令即可完成此操作：
+Installing the RPM version is relatively easy. The only thing you will need to install first is the EPEL software repository from Fedora. This can be done with a single command:
 
 `dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm`
 
-然后，只需安装 lsyncd，任何缺少的依赖项都将与它一起安装：
+To install lsyncd, then, we just need to install it, and any missing dependencies will be installed along with it:
 
 `dnf install lsyncd`
 
-就这样！
+That's it!
 
-## 安装 lsycnd —— 源码方法
+## Installing lsyncd - Source Method
 
-从源码安装并不复杂，只需遵循本指南，相信您能很快完成一切事情！
+Installing from source is not as bad is it sounds. Just follow this guide and you will be up and running in no time!
 
-### 安装依赖
+### Install Dependencies
 
-我们需要安装下面的一些依赖项：lsyncd 本身需要的依赖项，以及从源码构建软件包所需要的依赖项。在 Rocky Linux 机器上使用此命令，以确保您具有所需的依赖项。如果要从源码进行构建，则最好安装所有开发工具：
+We will need some dependencies: a few that are required by lsyncd itself, and a few that are required to build packages from source. Use this command on your Rocky Linux machine to make sure you have the dependencies you need. If you are going to be building from source, it's a good idea to have all of the development tools installed:
 
 `dnf groupinstall 'Development Tools'`
 
-以下是 lsyncd 本身及其构建过程所需的依赖项：
+And here are the dependencies we need for lsyncd itself, and its build process:
 
 `dnf install lua lua-libs lua-devel cmake unzip wget rsync`
 
-### 下载 lsycnd 并构建
+### Download lsyncd And Build It
 
-接下来，获取源码：
+Next we need the source code:
 
 `wget https://github.com/axkibe/lsyncd/archive/master.zip`
 
-现在解压 master.zip 文件：
+Now unzip the master.zip file:
 
 `unzip master.zip`
 
-这将创建一个名为“lsyncd-master”的目录。切换到该目录并创建一个名为 build 的目录：
+This will create a directory called "lsyncd-master". We need to change to this directory and create a directory called build:
 
 `cd lsyncd-master`
 
@@ -75,11 +75,11 @@ And then:
 
 `mkdir build`
 
-现在再次更改目录以进入构建目录：
+Now change directories again so that you are in the build directory:
 
 `cd build`
 
-现在执行以下命令：
+Now execute these commands:
 
 ```
 cmake ..
@@ -87,23 +87,23 @@ make
 make install
 ```
 
-完成后，您应该已经安装了 lsyncd 二进制文件并可以在 */usr/local/bin* 中使用。
+When done, you should have the lsyncd binary installed and ready for use in */usr/local/bin*
 
-# lsycnd Systemd 服务
+## lsyncd Systemd Service
 
-两种安装方法都不会创建用于重启时启动 lsyncd 的 systemd 服务。我们希望能够做到这一点，因为如果您正在镜像文件，肯定不希望因忘记手动启动服务而使镜像处于脱机状态。
+Neither install method will create a systemd service for starting lsyncd on a reboot. We want to be able to do just that, because if you are mirroring files, you don't want the mirror to be offline because you forgot to manually start a service.
 
-这对于任何系统管理员来说都是非常尴尬的！
+That's very embarrassing for any sysadmin!
 
-创建 systemd 服务并不复杂，从长远来看，它将为您节省大量时间。
+Creating the systemd service is not terribly difficult, though, and will save you a lot of time in the long run.
 
-## 创建 lsyncd 服务文件
+## Create The lsyncd Service File
 
-该文件可以在任何地方创建，甚至可以在服务器的根目录中创建。创建完成后，您可以轻松地将其移至正确的位置。
+This file can be created anywhere, even in the root directory of your server. Once it is created, we can easily move it the right location.
 
 `vi /root/lsyncd.service`
 
-该文件的内容应为：
+The contents of this file should be:
 
 ```
 [Unit]
@@ -121,21 +121,21 @@ PIDFile=/run/lsyncd.pid
 [Install]
 WantedBy=multi-user.target
 ```
-现在，将刚才创建的文件安装到正确的位置：
+Now let's install the file you just made to the correct location:
 
 `install -Dm0644 /root/lsyncd.service /usr/lib/systemd/system/lsyncd.service`
 
-最后，重新加载 systemctl 守护进程，以便 systemd “看到”新的服务文件：
+Finally, reload the systemctl daemon so that systemd will "see" the new service file:
 
 `systemctl daemon-reload`
 
-# 配置
+## lsyncd Configuration
 
-无论您选择何种方法安装 lsyncd，都需要配置文件：*/etc/lsyncd.conf*。下一部分将讲解如何构建一个简单的配置文件，并测试它。
+Whichever method you choose for installing lsyncd, you will need a configuration file: */etc/lsyncd.conf*. The next section will tell you how to build a simple configuration file, and test it.
 
-## 测试配置示例
+## Sample Configuration For Testing
 
-下面是一个简单配置文件的示例，它将 */home* 同步到另一台机器。目标机器是一个本地 IP 地址：*192.168.1.40*
+Here's an example of a simple configuration file that synchronizes */home* to another machine. Our target machine is going to be a local IP address: *192.168.1.40*
 
 ```
   settings {
@@ -162,28 +162,28 @@ sync {
 }
 ```
 
-对该文件进行分解解释：
+Breaking down this file a bit:
 
-* 服务启动时将自动创建 "logfile" 和 "statusFile"。
-* "statusInterval" 是写入 statusFile 之前要等待的秒数。
-* "maxProcesses" 是允许 lsyncd 产生的进程数。事实上，除非您在超级繁忙的计算机上运行此进程，否则一个进程就足够了。
-* 在 sync 部分，"default.rsyncssh" 表示通过 ssh 使用 rsync。
-* "source=" 是要从中同步的目录路径。
-* "host=" 是要同步到的目标计算机。
-* "excludeFrom=" 告诉 lsyncd 排除的文件位置。它必须存在，但可以为空。
-* "targetdir=" 是要将文件发送到的目标目录。在大多数情况下，它将等于 source 值，但并非总是如此。
-* 然后，"rsync ="部分是运行 rsync 的选项。
-* 最后，"ssh ="部分指定了正在监听目标计算机上的 SSH 端口。
+* The "logfile" and "statusFile" will be automatically created when the service starts.
+* The "statusInterval" is the number of seconds to wait before writing to the statusFile.
+* "maxProcesses" is the number of processes lsyncd is allowed to spawn. Honestly, unless you are running this on a super busy machine, 1 process is enough.
+* In the sync section "default.rsyncssh" says to use rsync over ssh
+* The "source=" is the directory path we are syncing from.
+* The "host=" is our target machine that we are syncing to.
+* The "excludeFrom=" tells lsyncd where the eclusions file is. It must exist, but can be empty.
+* The "targetdir=" is the target directory we are sending files to. In most cases this will be equal to the source, but not always.
+* Then we have the "rsync =" section, and these are the options that we are running rsync with.
+* Finally we have the "ssh =" section, and this specifies the SSH port that is listening on the target machine.
 
-如果要添加多个目录进行同步，则需要为每个目录重复整个"sync"部分，包括所有开始括号和结束括号。
+If you are adding more than one directory to sync, then you need to repeat the entire "sync" section including all the opening and closing brackets for each directory.
 
-## lsyncd.exclude 文件
+## The lsyncd.exclude File
 
-如前所述，"excludeFrom"文件必须存在，所以现在创建它：
+As noted earlier, the "excludeFrom" file must exist, so let's create that now:
 
 `touch /etc/lsyncd.exclude`
 
-如果要在计算机上同步 /etc 文件夹，那么需要忽略其中许多文件和（或）目录。只需将需要忽略的文件和目录简单地列在文件中，每行一个，如下所示：
+If we were syncing the /etc folder on our machine, there would be a number of files and/or directories that we should leave out. Each excluded file or directory is simply listed in the file, one per line, like this:
 
 ```
 /etc/hostname
@@ -192,41 +192,42 @@ sync {
 /etc/fstab
 ```
 
-## 测试和启动
+## Test And Turn Up
 
-现在已经完成了其他所有设置，可以对其进行全部测试。首先，请确保 systemd lsyncd.service 可以启动：
+Now that everything else is set up, we can test it all. For starters, lets make sure our systemd lsyncd.service will start:
 
 `systemctl start lsyncd`
 
-如果执行此命令后没有错误出现，再检查服务状态，以确保一切无误：
+If no errors appear after executing this command, check the status of the service, just to make sure:
 
 `systemctl status lsyncd`
 
-如果显示服务正在运行，请使用 tail 查看两个日志文件的结尾，并确保一切都正常显示：
+If it shows the service running, use tail to see the ends of the two log files, and make sure everything show up OK:
 
 `tail /var/log/lsyncd.log`
 
-然后：
+And then:
 
 `tail /var/log/lsyncd-status.log`
 
-假设一切正确，进入到 `/home/[user]` 目录，其中 `[user]` 是计算机上的用户，并使用 *touch* 在其中创建新文件。
+Assuming that this all looks correct, navigate to the `/home/[user]` directory, where `[user]` is a user on the machine and crate a new file there with *touch*.
 
 `touch /home/[user]/testfile`
 
-现在转到目标计算机，查看文件是否显示。如果显示，那么一切都会按预期进行。将 lsyncd.service 设置为在引导时使用以下命令：
+Now go to the target machine and see if the file shows up. If so, everything is working as it should. Set the lsyncd.service to start on boot with:
 
 `systemctl enable lsyncd`
 
+And you should be ready to go.
 
-## 谨记
+## Remember To Be Careful
 
-每当您将一组文件或目录同步到另一台计算机时，请仔细考虑它对目标计算机的影响。如果您回到上面示例中的 **The lsyncd.exclude File**，您能想象如果将 */etc/fstab* 同步会发生什么情况？
+Anytime you are synchronizing a set of files or directories to another machine, think carefully about the effect it will have on the target machine. If you go back to **The lsyncd.exclude File** in our example above, can you imagine what might happen if */etc/fstab* is synchronized?
 
-对于新手，*fstab* 是用于在任何 Linux 机器上配置存储驱动器的文件。磁盘和标签几乎可以肯定是不同的。下次重新引导目标计算机时，它很可能无法完全引导。
+For newbies, *fstab* is the file that is used to configure storage drives on any Linux machine. The disks and labels are almost certainly different. The next time the target machine was rebooted it would likely fail to boot entirely.
 
-# 总结与参考
+# Conclusions And References
 
-lsycnd 是用于在计算机之间进行目录同步的强大工具。如您所见，安装起来并不难，并且很容易维护。不能要求更多。
+lsyncd is a powerful tool for directory synchronization between machines. As you've seen, it's not hard to install, and it's easy to maintain going forward. Can't ask for more than that.
 
-您可以去[官方网站](https://github.com/axkibe/lsyncd)了解更多关于 lsyncd 的信息。
+You can find out more about lsyncd by going to [The Official Site](https://github.com/axkibe/lsyncd)
