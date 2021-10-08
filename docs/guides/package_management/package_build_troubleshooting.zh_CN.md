@@ -1,41 +1,45 @@
-## 首先熟悉 Mock 构建工具
+---
+title: Package Build & Troubleshooting
+---
 
-熟悉 Mock 后，与软件包调试工作最相关的技术/简介页面如下：
+# First get Familiar with the Mock build tool:
 
-https://wiki.rockylinux.org/en/team/development/Mock_Build_Howto。
+Once you get through that, the biggest and most relevant technical/intro page for our package debugging effort is this:
 
-我们正在使用“mock”程序来执行构建，就如使用 Rocky 基础设施一样。您应安装它并习惯使用它。本文提供入门指导，并说明希望实现的目标，以及为何必须按特定顺序构建所有包。
+https://wiki.rockylinux.org/en/team/development/Mock_Build_Howto
 
-请仔细阅读本文，您可以尝试为 mock 提供 SRPM 或 2 并编译一些东西。
+We are using the “mock” program to perform our builds, just like the real Rocky infrastructure will. You should install it and get very used to it. Please use this guide to get started, and explain a bit about what we hope to achieve and why we have to build all these packages in a specific order.
 
-Mock 真的很棒，因为它是一个易调用的程序，它在 chroot 中构建整个系统来执行构建，然后进行清理。
+Please read those carefully, and maybe dip your toe in the water by feeding your mock an SRPM or 2 and compiling some things.
 
-如果您想要参考 Mock 配置文件以供使用，此处发布了一些参考文件（与测试包构建的“构建过程”相对应）：https://rocky.lowend.ninja/RockyDevel/mock_configs/。
+Mock is really great, as it’s an easy-to-call program that constructs an entire system inside a chroot to perform the build, then cleans it up afterwards.
 
-熟悉 Mock（特别是深入了解其输出日志）后，将有一个失败包的列表，需要对其进行调查，并给出解释和/或修复。
+If you’d like a reference for Mock config files to look at or play with, there are some published here (that correspond with the “Build Passes” being done to test package builds): https://rocky.lowend.ninja/RockyDevel/mock_configs/
+
+Once you’re familiar with Mock (and especially digging through its output logs), we have a list of failing packages that we need to investigate and come up with explanations and/or fixes for.
 
 
 
-## 简介 —— 目标
+## Intro - What needs to be done
 
-现在最需要帮助的地方，也是最简单的贡献方式，就是帮助解决包构建失败的问题。
+The area we need help the most right now, and the easiest way to contribute, is to help troubleshoot failing package builds.
 
-我们正在将 CentOS 8.3 作为“练习”进行重构，这样就可以提前解决官方 Rocky 构建中出现的任何问题。我们正在记录在包中发现的任何错误以及如何修复它们（以使其构建）。当需要进行正式构建时，本文将对发布工程团队有所帮助。
+We’re rebuilding CentOS 8.3 as “practice”, so we can figure out any issues that crop up with our official Rocky build ahead of time. We are documenting any errors we find in the packages and how to fix them (to make it build). This documentation will help our release engineering team when it comes time to do official builds.
 
-## 帮助调试工作
+## Helping with the debug effort:
 
-熟悉 Mock 后，尤其是调试其输出，您就可以开始查看失败的包了。其中一些信息也在上面链接的 Mock HowTo 页面上。
+Once you are familiar with Mock, and especially with debugging its output, you can begin looking at failing packages. Some of this information is also on the Mock HowTo page linked above.
 
-在最新的构建过程失败页面（当前构建过程 10：https://wiki.rockylinux.org/en/team/development/Build_Order/Build_Pass_10_Failure）上查找失败的包。
+Find a failing package on the newest build pass failures page (currently Build Pass 10: https://wiki.rockylinux.org/en/team/development/Build_Order/Build_Pass_10_Failure)
 
-确保包尚未查看和/或修复：https://wiki.rockylinux.org/en/team/development/Package_Error_Tracking。
+Make sure the package hasn’t already been looked at and/or fixed: https://wiki.rockylinux.org/en/team/development/Package_Error_Tracking
 
-让其他调试者知道您正在解决的包！我们不想重复工作。单击 chat.rockylinux.org (#dev/packaging 频道)并告知我们！
+Let other debuggers know what you’re working on! We don’t want to duplicate effort. Hop on chat.rockylinux.org (#dev/packaging channel) and let us know!
 
-使用我们正在使用的最新配置（上面链接）设置您的 mock 程序。您可以使用它以与我们相同的方式尝试构建（使用外部依赖项、额外仓库等）。
+Set your mock program up with the most recent configs that we are using (linked above). You can use it to attempt the build in the same way as we do (with external dependencies, extra repos, etc.)
 
-调查错误：您可以使用自己的 mock，以及构建失败时的日志文件，位于此处：https://rocky.lowend.ninja/RockyDevel/MOCK_RAW/。
+Investigate the error(s): You can use your own mock, as well as the log files from when the build failed, located here: https://rocky.lowend.ninja/RockyDevel/MOCK_RAW/
 
-弄清楚缘由，以及如何修复它。它可以采用特殊 mock 设置的形式，也可以是添加到 program + specfile 的补丁。将您的调查结果报告给 #Dev/Packaging 频道，有人会将其记录在上面链接的 Wiki Package_Error_Tracking 页面上。
+Figure out what’s going on, and how to fix it. It may take the form of special mock settings, or a patch added to the program + specfile. Report your findings to the #Dev/Packaging channel, and someone will record them on the Wiki Package_Error_Tracking page linked above.
 
-这样做可以缩小构建失败，并增加 Package_Error_Tracking 页面。如有必要，我们将为位于以下位置的不同软件包的补丁仓库提交构建修复：https://git.rockylinux.org/staging/patch。
+The idea is to shrink the Build Failures, and grow the Package_Error_Tracking page. If necessary, we will commit build fixes to our patch repo for the different packages located here: https://git.rockylinux.org/staging/patch.
