@@ -1,260 +1,258 @@
 ---
-title: Linux 简介
+title: Introduction to Linux
 ---
 
-# Linux 操作系统简介
+# Introduction to the Linux Operating System
 
-本章将带您将了解 GNU/Linux 发行版。
-
-****
-
-**目标** : 本章将讲解以下内容：
-
-:heavy_check_mark: 操作系统的特性和可能的架构; \
-:heavy_check_mark: UNIX 和 GNU/Linux 的历史; \
-:heavy_check_mark: 根据需求选择合适的 Linux 发行版; \
-:heavy_check_mark: 自由和开源软件的哲学; \
-:heavy_check_mark: 了解 SHELL 的用处。
-
-:checkered_flag: **概述**, **linux**, **发行版**
-
-**知识掌握程度**: :star: \
-**知识复杂程度**: :star:
-
-**阅读时间**: 10 分钟
+In this chapter you will learn about GNU/Linux distributions.
 
 ****
 
-## 什么是操作系统？
+**Objectives** : In this chapter you will learn how to:
 
-Linux、UNIX、BSD、Windows 和 MacOS 都是**操作系统**。
+:heavy_check_mark: Describe the features and possible architectures of an operating system   
+:heavy_check_mark: Recount the history of UNIX and GNU/Linux   
+:heavy_check_mark: Choose the right Linux distribution for your needs   
+:heavy_check_mark: Explain the philosophy of free and opensource software   
+:heavy_check_mark: Discover the usefulness of the SHELL.
 
-:clipboard: 操作系统是**一组管理计算机可用资源的程序**。
+:checkered_flag: **generalities**, **linux**, **distributions**
 
-在这些资源管理中，操作系统必须：
+**Knowledge**: :star:    
+**Complexity**: :star:
 
-* 管理物理或虚拟内存。
-  * **物理内存**由 RAM 条和处理器缓存组成，用于执行程序。
-  * **虚拟内存**是位于硬盘上（交换分区），它允许在计算机断电期间卸载物理内存并保存系统的当前状态。
-  拦截对外围设备的访问。通常不允许软件直接访问硬件（除了用于非常特殊需求的显卡）。
-* 为应用程序提供适当的**任务管理**。
-  操作系统负责调度进程以充分使用处理器。
-* **保护文件**不受未经授权的访问。
-* **收集**有关正在使用或正在进行的程序的**信息**。
+**Reading time**: 10 minutes
+
+****
+
+## What is an operating system?
+
+Linux, UNIX, BSD, Windows, and MacOS are all **operating systems**.
+
+!!! abstract An operating system is a **set of programs that manages the available resources of a computer**.
+
+Among this management of resources, the operating system has to:
+
+* Manage the physical or virtual memory.
+  * The **physical memory** is made up of the RAM bars and the processor cache memory, which is used for the execution of programs.
+  * The **virtual memory** is a location on the hard disk (the **swap** partition) that allows the unloading of the physical memory and the saving of the current state of the system during the electrical shutdown of the computer.
+* Intercept **access to peripherals**. Software is rarely allowed to access hardware directly (except for graphics cards for very specific needs).
+* Provide applications with proper **task management**. The operating system is responsible for scheduling processes to occupy the processor.
+* **Protect files** from unauthorized access.
+* **Collecting information** about programs in use or in progress.
 
 ![Operation of an operating system](images/operating_system.png)
 
-## UNIX - GNU/Linux 概述
+## Generalities UNIX - GNU/Linux
 
-### 历史
+### History
 
 #### UNIX
 
-* **1964 至 1968**:
-  MIT、贝尔实验室（AT&amp;T）和通用电气公司共同研发了 MULTICS（多功能信息和计算服务）。
+* From **1964 to 1968**: MULTICS (MULTiplexed Information and Computing Service) is developed for MIT, Bell Labs (AT&T) and General Electric.
 
-* **1969**: 在贝尔（1969）和通用电气退出该项目后，两位开发人员（肯·汤普森和丹尼斯·里奇）以及后来的布赖恩·克尼根（Brian Kernighan）认为 MULTICS 过于复杂，便启动开发 UNIX（UNiplexed Information and Computing Service）。UNIX 的设计者最初是使用汇编语言开发的，后来开发了 B 语言和 C 语言（1971年），并完全重写了 UNIX。UNIX/Linux 系统自 1970 年开发以来，其参考日期依旧为 1970 年 1 月 1 日。
+* **1969**: After the withdrawal of Bell (1969) and then General Electric from the project, two developers (Ken Thompson and Dennis Ritchie), joined later by Brian Kernighan, judging MULTICS to be too complex, launched the development of UNIX (UNiplexed Information and Computing Service). Originally developed in assembler, the designers of UNIX developed the B language and then the C language (1971) and completely rewrote UNIX. Having been developed in 1970, the reference date of UNIX/Linux systems is still set at January 01, 1970.
 
-C 语言仍然是当今流行的编程语言之一！一种接近硬件的低级语言，它允许操作系统适配任何具有 C 编译器的机器架构。
+The C language is still one of the most popular programming languages today! A low level language, close to the hardware, it allows the adaptation of the operating system to any machine architecture having a C compiler.
 
-UNIX 是一种开放且不断发展的操作系统，在计算历史上发挥了重要作用。 它已成为许多其他系统的基础：Linux、BSD、Mac OSX 等。
+UNIX is an open and evolving operating system that has played a major role in the history of computing. It has been the basis for many other systems: Linux, BSD, Mac OSX, etc.
 
-UNIX 在今天仍然很重要（HP-UX、AIX、Solaris等）。
+UNIX is still relevant today (HP-UX, AIX, Solaris, etc.)
 
 #### Minix
 
-* **1987**: A.S. Tanenbaum 开发了 MINIX（一种简化的 UNIX）以一种简单的方式教授操作系统课程。Tanenbaum 先生将他的操作系统源代码开放。
+* **1987**: A.S. Tanenbaum develops MINIX, a simplified UNIX, to teach operating systems in a simple way. Mr. Tanenbaum makes the source code of his operating system available.
 
 #### Linux
 
-* **1991**: 芬兰学生 **Linus Torvalds** 为他的个人计算机创建了一个操作系统，并将其命名为 Linux。他在 Usenet 论坛上发布了他的第一个版本 0.02，其他开发者也来帮助他改进他的系统。术语 Linux 是来自创始人的名字 Linus 和 UNIX 两者的组合。
+* **1991**: A Finnish student, **Linus Torvalds**, creates an operating system dedicated to his personal computer and names it Linux. He publishes his first version 0.02, on the Usenet discussion forum and other developers come to help him improve his system. The term Linux is a play on words between the founder's first name, Linus, and UNIX.
 
-* **1993**: 创建 Debian 发行版。Debian 是一个基于社区的非商业发行版。它最初是为在服务器上使用而开发的，特别适合于服务器，但它是一个通用系统，因此也可以在个人计算机上使用。Debian 是许多其他发行版的基础，例如 Mint 或 Ubuntu。
+* **1993**: The Debian distribution is created. Debian is a non-commercial, community-based distribution. Originally developed for use on servers, it is particularly well suited for this role, but it is intended to be a universal system and thus usable on a personal computer as well. Debian is used as the basis for many other distributions, such as Mint or Ubuntu.
 
-* **1994**: 商业发行版 RedHat 由 RedHat 公司创建，该公司目前是 GNU/Linux 操作系统的领先发行商。RedHat 支持社区版 Fedora 和自由发行版 CentOS。
+* **1994**: The commercial distribution RedHat is created by the company RedHat, which is today the leading distributor of the GNU/Linux operating system. RedHat supports the community version Fedora and recently the free distribution CentOS.
 
-* **1997**: 创建 KDE 桌面环境。它基于 QT 组件库和 C++ 开发语言。
+* **1997**: The KDE desktop environment is created. It is based on the Qt component library and the C++ development language.
 
-* **1999**: 创建 Gnome 桌面环境。它基于 GTK+ 组件库。
+* **1999**: The Gnome desktop environment is created. It is based on the GTK+ component library.
 
-* **2002**: 创建 Arch 发行版。其特殊性在于滚动发行（持续更新）。
+* **2002**: The Arch distribution is created. Its particularity is to be released in Rolling Release (continuous update).
 
-* **2004**: Canonical 公司（Mark Shuttleworth）创建 Ubuntu。它基于 Debian，但包括自由和专有软件。
+* **2004**: Ubuntu is created by the Canonical company (Mark Shuttleworth). It is based on Debian, but includes free and proprietary software.
 
-* **2021**: Rocky Linux 诞生，基于 RedHat 发行版。
+* **2021**: Birth of Rocky Linux, based on RedHat distribution.
 
-### 市场份额
+### Market share
 
 <!--
 TODO: graphics with market share for servers and pc.
 -->
 
-人们经常使用 Linux，但它仍然不为公众所熟知。事实上，在**智能手机**、**电视**、**网盒**等中均有 Linux 的身影。世界上几乎 70% 的网页都由 Linux 或 UNIX 服务器提供服务！
+Linux is still not well known by the general public, even though they use it regularly. Indeed, Linux is hidden in **smartphones**, **televisions**, **internet boxes**, etc. Almost **70% of the web pages** served in the world are served by a Linux or UNIX server!
 
-略多于 **3% 的个人电脑**配置了 Linux，超过 **82% 的智能手机**配置了 Linux。Android 是以 Linux 为内核的操作系统。
+Linux equips a little more than **3% of personal computers** but more than **82% of smartphones**. **Android** being an operating system whose kernel is a Linux.
 
 <!-- TODO: review those stats -->
 
-自 2018 年以来，500 台超级计算机全部配备了 Linux。超级计算机是一种在设计时利用已知的技术实现尽可能高性能的计算机，尤其是在计算速度方面。
+Linux equips 100% of the 500 supercomputers since 2018. A supercomputer is a computer designed to achieve the highest possible performance with the techniques known at the time of its design, especially with regard to computing speed.
 
-### 架构设计
+### Architectural design
 
-* **内核**是第一个软件组件。
-  * 它是 Linux 系统的核心。
-  * 它管理系统的硬件资源。
-  * 其他软件组件必须通过它才能访问硬件。
-* **shell** 是一个实用程序，用于解释用户命令并确保其执行。
-  * 主要 shell：Bourne shell、C shell、Korn shell 和 Bourne-Again shell (bash)。
-* 应用程序是用户程序，例如：
-  * 网页浏览器;
-  * 办公软件;
+* The **kernel** is the first software component.
+  * It is the heart of the Linux system.
+  * It manages the hardware resources of the system.
+  * The other software components must go through it to access the hardware.
+* The **shell** is a utility that interprets user commands and ensures their execution.
+  * Main shells: Bourne shell, C shell, Korn shell and Bourne-Again shell (bash).
+* Applications are user programs such as :
+  * Internet browser ;
+  * the word processor ;
   * ...
 
-#### 多任务
+#### Multitask
 
-Linux 属于分时操作系统家族。它在多个程序之间共享处理时间，以对用户透明的方式从一个程序切换到另一个程序。这意味着：
+Linux belongs to the family of time-sharing operating systems. It shares process time between several programs, switching from one to another in a transparent way for the user. This implies:
 
-* 同时执行多个程序;
-* 调度程序分配 CPU 时间;
-* 减少因应用程序失败而导致的问题;
-* 运行过多程序时性能降低。
+* simultaneous execution of several programs;
+* distribution of CPU time by the scheduler;
+* reduction of problems due to a failed application;
+* reduced performance when there are too many programs running.
 
-#### 多用户
+#### Multi user
 
-Multics 的目的是允许多个用户在一台计算机上（当时非常昂贵）通过多个终端（屏幕和键盘）工作。Linux 受这种操作系统的启发，保持了与多个用户同时独立工作的能力，每个用户都有自己的用户帐户、内存空间以及对文件和软件的访问权限。
+The purpose of Multics was to allow several users to work from several terminals (screen and keyboard) on a single computer (very expensive at the time). Linux, which is inspired by this operating system, has kept this ability to work with several users simultaneously and independently, each one having its own user account, memory space and access rights to files and software.
 
-#### 多处理器
+#### Multiprocessor
 
-Linux 能够与多处理器计算机或多核处理器一起工作。
+Linux is able to work with multi-processor computers or with multi-core processors.
 
-#### 多平台
+#### Multi platform
 
-Linux 是用高级语言编写的，在编译过程中可以适应不同类型的平台。因此，它运行于：
+Linux is written in a high-level language that can be adapted to different types of platforms during compilation. It therefore runs on :
 
-* 家用电脑（个人电脑或笔记本电脑）;
-* 服务器（数据、应用程序等）;
-* 便携式计算机（智能手机或平板电脑）;
-* 嵌入式系统（车载电脑）;
-* 有源网络元件（路由器、交换机）;
-* 家用电器（电视、冰箱等）。
+* home computers (PC or laptop);
+* servers (data, applications,...);
+* portable computers (smartphones or tablets)
+* embedded systems (car computer);
+* active network elements (routers, switches)
+* household appliances (TVs, refrigerators,...).
 
-#### 开放
+#### Open
 
-Linux 基于 [posix](http://fr.wikipedia.org/wiki/POSIX)、TCP/IP、NFS、Samba 等公认的标准，允许与其他应用程序系统共享数据和服务。
+Linux is based on recognized standards [posix](http://fr.wikipedia.org/wiki/POSIX), TCP/IP, NFS, Samba ... allowing to share data and services with other application systems.
 
-### UNIX/Linux 哲学
+### The UNIX/Linux philosophy
 
-* 一切皆文件。
-* 可移植性。
-* 让每一个程序只做好一件事情。
-* KISS 原则: 保持简单化和傻瓜化。
-* "UNIX 基本上是一个简单的操作系统，但你必须是一个天才才能理解它的简单性。" (__Dennis Ritchie__)
-* "Unix 肯定是用户友好的，只不过它在对哪个用户友好的问题上，用情比较专一而已。" (__Steven King__)
+* Everything is a file.
+* Portability.
+* Do only one thing and do it well.
+* KISS: Keep It Simple Stupid.
+* "UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity." (__Dennis Ritchie__)
+* "Unix is user-friendly. It just isn't promiscuous about which users it's friendly with." (__Steven King__)
 
-## GNU/LINUX 发行版
+## The GNU/LINUX distributions
 
-Linux 发行版是围绕 Linux 内核组装的一组稳定的软件，可以与管理（安装、删除、配置）此软件的必要组件一起安装。有联合或社区发行版（Debian、Rocky）或商业发行版（RedHat、Ubuntu）。
+A Linux distribution is a **consistent set of software** assembled around the Linux kernel and ready to be installed along with the necessary components to manage this software (installation, removal, configuration). There are **associative or community** distributions (Debian, Rocky) or **commercial** (RedHat, Ubuntu).
 
-每个发行版提供一个或多个桌面环境，提供一组预装软件和一个额外软件库。配置选项（例如内核或服务选项）特定于每个选项。
+Each distribution offers one or more **desktop environments**, provides a set of pre-installed software and a library of additional software. Configuration options (kernel or services options for example) are specific to each one.
 
-这一原则允许您拥有面向初学者的发行版（Ubuntu、Linux Mint等），拥有更复杂的发行版（Gentoo、Arch），拥有更专注于服务器的发行版（Debian、Redhat），或者拥有专注于工作站的发行版。
+This principle allows you to have distributions oriented to **beginners** (Ubuntu, Linux Mint...), to have a more complex approach (Gentoo, Arch), to be focused more towards **servers** (Debian, Redhat), or to be dedicated towards **workstations**.
 
-### 桌面环境
+### Desktop environments
 
-有许多图形环境：**Gnom**e、**KDE**、**LXDE**、**XFCE** 等。有些环境是人人通用的，与微软或苹果系统相比，它们的人机形态并不可耻！
+There are many graphic environments: **Gnome**, **KDE**, **LXDE**, **XFCE**, etc. There is something for everyone, and their **ergonomics** have nothing to be ashamed of when compared to Microsoft or Apple systems!
 
-那么，为什么在 Linux 系统没有（或者几乎没有）病毒的情况下，人们对 Linux 的热情如此之低呢？也许是因为所有编辑器 (Adobe) 或制造商 (NVidia) 都不玩免费游戏，也不提供适用于 GNU/Linux 的软件版本或驱动程序？害怕改变？很难找到售卖 Linux 电脑的商家？Linux 下发行的游戏太少（但时间不长）？随着运行在 Linux 上的 Steam-box 游戏机的到来，情况会改变吗？
+So why is there so little enthusiasm for Linux, when **there are no (or almost no) viruses for this system**? Maybe because all editors (Adobe) or manufacturers (NVidia) do not play the free game and do not provide a version of their software or their __drivers__ for GNU/Linux? Fear of change? The difficulty to find where to buy a Linux computer? Too few games (but not for long) distributed under Linux? Will the situation change with the arrival of the steam-box game console that runs on Linux?
 
 ![Gnome Desktop](images/01-presentation-gnome.png)
 
-**Gnome 3** 桌面环境不再使用桌面的概念，而是使用 Gnome Shell 的概念（不要与命令行 shell 混淆）。它充当桌面、仪表板、通知区域和窗口选择器。Gnome 桌面环境基于 GTK+ 组件库。
+The **Gnome 3** desktop environment no longer uses the concept of Desktop but that of Gnome Shell (not to be confused with the command line shell). It serves as a desktop, a dashboard, a notification area and a window selector. The Gnome desktop environment is based on the GTK+ component library.
 
 ![KDE Desktop](images/01-presentation-kde.png)
 
-**KDE** 桌面环境基于 **Qt** 组件库。
+The **KDE** desktop environment is based on the **Qt** component library.
 
-传统上更推荐来自 Windows 世界的用户使用 KED。
+It is traditionally more recommended for users coming from a Windows world.
 
 ![Tux - The Linux mascot](images/tux.png)
 
-### 自由 / 开源
+### Free / Open source
 
-Microsoft 或 Mac 操作系统的用户必须购买许可证才能使用其操作系统。这个许可证是有成本的，它的价格包含在计算机的价格中。
+A user of a Microsoft or Mac operating system must purchase a license to use the operating system. This license has a cost, although it is usually transparent (the price of the license is included in the price of the computer).
 
-在 **GNU/Linux** 世界中，自由软件运动主要提供自由发行版。
+In the **GNU/Linux** world, the Free Software movement provides mostly free distributions.
 
-**自由**并不意味着免费！
+**Free** does not mean free!
 
-**开源**: 可获取源代码，在一定条件下可以查阅和修改。
+**Open source**: the source codes are available, so it is possible to consult and modify them under certain conditions.
 
-自由软件必然是开源的，但反之则不然，因为开源软件与 GPL 许可所提议的自由是不同的。
+A free software is necessarily Open Source, but the opposite is not true since an Open Source software is separated from the freedom proposed by the GPL license.
 
-#### GPL 许可证（通用公共许可证）
+#### GPL License (General Public License)
 
-**GPL 许可证**向软件作者保证其知识产权，但允许第三方修改、重新分发或转售软件，前提是源代码与软件一起提供。GPL 是来自 **GNU**（GNU is Not UNIX）项目的许可证，该项目在创建 Linux 时起到了重要作用。
+The **GPL License** guarantees the author of a software its intellectual property, but allows modification, redistribution or resale of software by third parties, provided that the source codes are provided with the software. The GPL is the license that came out of the **GNU** (GNU is Not UNIX) project, which was instrumental in creating Linux.
 
-这暗示着:
+It implies :
 
-* 出于任何目的运行程序的自由;
-* 研究程序如何工作并根据您的需要进行调整的自由;
-* 重新分发复制品的自由;
-* 为了整个社区的利益，有改进计划和发表改进意见的自由。
+* the freedom to run the program, for any purpose;
+* the freedom to study how the program works and adapt it to your needs
+* the freedom to redistribute copies;
+* the freedom to improve the program and publish your improvements, for the benefit of the whole community.
 
-另一方面，即使是在 GPL 许可下的产品也可以付费。并不是为产品本身付费，而是保证开发人员团队将继续致力于使其发展并解决错误，甚至为用户提供支持。
+On the other hand, even products licensed under the GPL can be paid for. This is not the product itself, but the guarantee that a team of developers will continue to work on it to make it evolve and troubleshoot errors, or even provide support to users.
 
-## 使用领域
+## Areas of use
 
-Linux 发行版在以下方面表现出色 :
+A Linux distribution excels for :
 
-* **服务器**: HTTP、电子邮件、群件、文件共享等。
-* **安全**: 网关、防火墙、路由器、代理等。
-* **中央计算机**: 银行、保险、工业等。
-* **嵌入式系统**: 路由器、网盒、智能电视等。
+* **A server**: HTTP, email, groupware, file sharing, etc.
+* **Security**: Gateway, firewall, router, proxy, etc.
+* **Central computer**: Banks, insurance, industry, etc.
+* **Embedded system**: Routers, Internet boxes, SmartTV, etc.
 
-Linux 是托管数据库或网站，或者作为邮件服务器、DNS 或防火墙的合适选择。简而言之，Linux 几乎可以做任何事情，这就解释了特定发行版的份额。
+Linux is a suitable choice for hosting databases or websites, or as a mail server, DNS or firewall. In short, Linux can do just about anything, which explains the quantity of specific distributions.
 
 ## Shell
 
-### 概论
+### Generalities
 
-**shell** 称为命令接口，允许用户向操作系统发送命令。由于图形界面的实现，它在如今不太明显，但在 Linux 系统上仍然是一种特权手段，Linux 系统并非都具有图形界面，并且其服务并不总是存在设置界面。
+The **shell**, known as _command interface_, allows users to send commands to the operating system. It is less visible today, since the implementation of graphical interfaces, but remains a privileged means on Linux systems which do not all have graphical interfaces and whose services do not always have a setting interface.
 
-它提供了一种真正的编程语言，包括经典的结构：循环、选择，以及共同的组成部分：变量、参数传递和子程序。它允许创建脚本以自动执行某些操作（备份、创建用户、系统监控等）。
+It offers a real programming language including the classical structures: loops, alternatives, and the common constituents: variables, passing of parameters, and sub-programs. It allows the creation of scripts to automate certain actions (backups, creation of users, system monitoring, etc.).
 
-根据用户的喜好，平台上有几种类型的 shell 可供使用和配置：
+There are several types of shells available and configurable on a platform or according to the user's preference:
 
-* sh, POSIX 标准 shell;
-* csh, C 中面向命令的 shell;
-* bash, Bourne-Again Shell, Linux shell。
-* ...
+* sh, the POSIX standard shell ;
+* csh, command-oriented shell in C ;
+* bash, Bourne-Again Shell, Linux shell.
+* etc, ...
 
-## 功能
+## Functionalities
 
-* 命令执行（检查给定的命令并执行）;
-* 输入/输出重定向（将数据返回到文件而不是将其打印在屏幕上）;
-* 连接处理（管理用户的连接）;
-* 解释型编程语言（允许创建脚本）;
-* 环境变量（在操作期间访问特定于系统的信息）。
+* Command execution (checks the command given and executes it);
+* Input/Output redirection (returns data to a file instead of writing it on the screen);
+* Connection process (manages the user's connection);
+* Interpreted programming language (allowing the creation of scripts);
+* Environment variables (access to information specific to the system during operation).
 
-### 原理
+### Principle
 
 ![Operating principle of the SHELL](images/shell-principle.png)
 
-## 检测所学知识
+## Check your Knowledge
 
-:heavy_check_mark: 操作系统是一组用于管理计算机可用资源的程序:
+:heavy_check_mark: An operating system is a set of programs for managing the available resources of a computer:
 
-- [ ] 对
-- [ ] 错
+- [ ] True
+- [ ] False
 
-:heavy_check_mark: 操作系统提供:
+:heavy_check_mark: The operating system is brought to:
 
-- [ ] 管理物理和虚拟内存
-- [ ] 允许直接访问外围设备
-- [ ] 将任务管理分包给处理器
-- [ ] 收集有关已使用或正在使用的程序的信息
+- [ ] Manage physical and virtual memory
+- [ ] Allow direct access to peripherals
+- [ ] Subcontract the management of tasks to the processor
+- [ ] Collect information about the programs used or in use
 
-:heavy_check_mark: 以下哪些人参与了 UNIX 的开发:
+:heavy_check_mark: Among these personalities, which ones participated in the development of UNIX:
 
 - [ ] Linus Torvalds
 - [ ] Ken Thompson
@@ -262,44 +260,44 @@ Linux 是托管数据库或网站，或者作为邮件服务器、DNS 或防火�
 - [ ] Brian Kernighan
 - [ ] Andrew Stuart Tanenbaum
 
-:heavy_check_mark: Linux 内核的创造者 Linus Torvalds 的原国籍是:
+:heavy_check_mark: The original nationality of Linus Torvalds, creator of the Linux kernel, is:
 
-- [ ] 瑞典
-- [ ] 芬兰
-- [ ] 挪威
-- [ ] 佛兰德
-- [ ] 法国
+- [ ] Swedish
+- [ ] Finnish
+- [ ] Norwegian
+- [ ] Flemish
+- [ ] French of course
 
-:heavy_check_mark: 以下哪种发行版最早:
+:heavy_check_mark: Which of the following distributions is the oldest:
 
 - [ ] Debian
 - [ ] Slackware
 - [ ] RedHat
 - [ ] Arch
 
-:heavy_check_mark: Linux 内核是:
+:heavy_check_mark: Is the Linux kernel:
 
-- [ ] 多任务
-- [ ] 多用户
-- [ ] 多处理器
-- [ ] 多核
-- [ ] 跨平台
-- [ ] 开放
+- [ ] Multitasking
+- [ ] Multi user
+- [ ] Multiprocessor
+- [ ] Multi-core
+- [ ] Cross-platform
+- [ ] Open
 
-:heavy_check_mark: 自由软件一定是开源的吗?
+:heavy_check_mark: Is free software necessarily open source?
 
-- [ ] 是
-- [ ] 否
+- [ ] True
+- [ ] False
 
-:heavy_check_mark: 开源软件一定是免费的吗?
+:heavy_check_mark: Is Open Source software necessarily free?
 
-- [ ] 是
-- [ ] 否
+- [ ] True
+- [ ] False
 
-:heavy_check_mark: 以下哪项不是 shell:
+:heavy_check_mark: Which of the following is not a shell:
 
 - [ ] Jason
 - [ ] Jason-Bourne shell (jbsh)
 - [ ] Bourne-Again shell (bash)
 - [ ] C shell (csh)
-- [ ] Korn shell (ksh)
+- [ ] Korn shell (ksh)   
