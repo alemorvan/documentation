@@ -1,151 +1,155 @@
-# 使用 rsync 保持两台计算机同步
+---
+title: Synchronization With rsync
+---
 
-## 准备工作
+# Using rsync To Keep Two Machines Synchronized
 
-在继续阅读这篇指南之前，您需要准备或了解以下的内容：
+## Prerequisites
 
-* 一台运行 Rocky Linux 的计算机。
-* 熟悉从命令行修改配置文件。
-* 了解如何使用命令行编辑器（本文使用 _vi_，也可以使用您喜欢的其他编辑器)。
-* 您将需要 root 访问权限，并且最好在终端以 root 用户身份登录。
-* SSH 公私密钥对。
-* 能够使用 vi 或您喜欢的编辑器创建一个简单的 bash 脚本，并对其进行测试。
-* 能够使用 _crontab_ 自动运行脚本。
+This is everything you'll need to understand and follow along with this guide.
 
-# 简介
+* A machine running Rocky Linux.
+* To be comfortable with modifying configuration files from the command-line.
+* Knowledge of how to use a command line editor (we use _vi_ here, but you could use your favorite editor).
+* You will need root access, and ideally be signed in as the root user in your terminal.
+* Public and Private SSH key pairs.
+* Able to create a simple bash script, using vi or your favorite editor, and test it.
+* Able to use _crontab_ to automate the running of the script.
 
-通过 SSH 使用 rsync 既不如 [lsyncd](../backup/mirroring_lsyncd.md)（允许您监视目录或文件的更改并使其实时同步）强大，也不如 [rsnapshot](../backup/rsnapshot_backup.md)（允许您能够轻松地从一台计算机上备份多个目标）灵活。但是，它确实提供了按您定义的时间表使两台计算机保持最新状态的能力。
+# Introduction
 
-rsync 从一开始就存在了也许没那么长，但确实已经很久了！)。因此，每个 Linux 发行版都提供了它，并且大多数仍然与基本软件包一起安装。如果您需要保持目标计算机上的一组目录是最新的，那么通过 SSH 进行 rsync 可能是一种解决方案，但是实时同步并不是特别重要。
+Using _rsync_ over SSH is neither as powerful as [lsyncd](../backup/mirroring_lsyncd.md) (which allows you to watch a directory or file for changes and keep it synchronized in real time), or as flexible as [rsnapshot](../backup/rsnapshot_backup.md) (which offers the ability to easily backup multiple targets from a single machine). But, it does offer the ability to keep two machines up-to-date on a schedule that you define.
 
-对于下面的所有操作，将以 root 用户身份执行操作，因此要么以 root 用户身份登录，要么使用 `sudo -s` 命令在终端中切换到 root 用户。
+rsync has been around since the dawn of time (OK, maybe not quite that long, but a long time!) so every Linux distribution has it available, and most still install it with the base packages. rsync over SSH might be a solution, if you need to keep a set of directories up-to-date on a target machine, but real-time syncing is not particularly important.
 
-## 安装 rsync
+For all of the below, we will be doing things as the root user, so either login as root or use the `sudo -s` command to switch to the root user in your terminal.
 
-虽然 rsync 可能已经安装，但最好在源计算机和目标计算机上将 rsync 更新为最新版本。要确保 rsync 已安装并且是最新的，请在两台计算机上执行以下操作：
+## Installing rsync
+
+While rsync is probably already installed, it's a good idea to update rsync to the latest version on both the source and target machines. To make sure that rsync is installed and up-to-date, do this on both machines:
 
 `dnf install rsync`
 
-如果软件包未安装，dnf 将要求您确认安装，如果已安装，dnf 将查找更新并给提示安装。
+If the package is not installed, dnf will ask you to confirm installation and if it is installed, dnf will look for an update and give you the opportunity to install it.
 
-## 准备环境
+## Preparing The Environment
 
-此特定示例将在目标上使用 rsync 从源获取，而不是从源推送到目标，因此需要为此设置一个 [SSH 密钥对](../security/ssh_public_private_keys.md)。一旦创建了 SSH 密钥对，并且已经确认从目标计算机访问源计算机无需密码，便可以开始了。
+This particular example will use rsync on the target to pull from the source, rather than pushing from the source to the target, so we will need to set up an [SSH key pair](../security/ssh_public_private_keys.md) for this for this. Once the SSH key pairs are created, and you have confirmed access without a password from the target machine to the source, we are ready to start.
 
-## rsync 参数和设置脚本
+## rsync Parameters And Setting Up A Script
 
-在设置脚本之前，首先需要确定要与 rsync 一起使用的参数选项。有许多选项，详情参见[ rsync 手册](https://linux.die.net/man/1/rsync)。rsync 最常用的选项是 -a 选项，因为 -a 或 archive 将多个选项组合为一个选项，而这些选项都是非常常见的选项。-a 包括什么？
+Before we get terribly carried away with the setting up a script, we first need to decide what parameters we want to use with rsync. There are a many possibilities, so take a look at the [manual for rsync](https://linux.die.net/man/1/rsync). The most common way to use rsync is to use the -a option, because -a, or archive, combines a number of options into one and these are very common options. What does -a include?
 
-* -r, 递归目录
-* -l, 将符号链接保持为符号链接
-* -p, 保留权限
-* -t, 保留修改时间
-* -g, 保留 group-
-* -o, 保留所有者
-* -D, 保留设备文件
+* -r, recurse the directories
+* -l, maintain symbolic links as symbolic links
+* -p, preserve permissions
+* -t, preserve modification times
+* -g, preserve group-
+* -o, preserve owner
+* -D, preserve device files
 
-在此示例中，需要指定的唯一其他选项是：
+The only other options that we need to specify in this example is:
 
-* -e, 指定要使用的远程 shell
-* --delete, 表示如果目标目录中包含源文件中不存在的文件，则将其删除
+* -e, specify the remote shell to use
+* --delete, which says if the target directory has a file in it that doesn't exist on the source, get rid of it
 
-接下来，创建一个脚本文件。（同样，如果您不熟悉 vi，请使用您喜爱的编辑器。）要创建文件，只需使用以下命令：
+Next, we need to set up a script by creating a file for it. (Again, use your favorite editor if you are not familiar with vi.) To create the file, just use this command:
 
 `vi /usr/local/sbin/rsync_dirs`
 
-然后使其可执行：
+And then make it executable:
 
 `chmod +x /usr/local/sbin/rsync_dirs`
 
-## 测试
+## Testing
 
-现在，编写脚本使其超级简单和安全以便可以无所畏惧地进行测试。请注意，下面使用的 URL 是“Soure.domain.com”。将其替换为您自己的源计算机的域或 IP 地址，两者都可以工作。还要记住，本例是在“目标”计算机上创建脚本，因为是从源计算机中获取文件：
+For now, let's make it super simple and safe so that we can test without fear. Note that below where we are using the URL "source.domain.com". Replace that with your own source computer's domain or IP address, both will work. Remember too, that in this case we are creating the script on the "target" machine, as we are pulling files in from the source machine:
 
 ```
 #!/bin/bash
 /usr/bin/rsync -ae ssh --delete root@source.domain.com:/home/your_user /home
 ```
-**如果存在主目录，您可能需要在执行脚本之前备份它！**
+In this case, we are assuming that your home directory does not exist on the target. **If it does, you may want to back it up before you execute the script!**
 
-现在运行脚本：
+Now run the script:
 
 `/usr/local/sbin/rsync_dirs`
 
-如果一切正常，您应该在目标计算机上获得一个完全同步的主目录副本。检查以确保情况属实。
+If all is well, you should get a completely synchronized copy of your home directory on the target machine. Check to be sure this is the case.
 
-假设如预期工作，接下来继续，在源计算机上的主目录中创建一个新文件：
+Assuming all of that worked out as we hoped, go next go ahead and create a new file on the source machine in your home directory:
 
 `touch /home/your_user/testfile.txt`
 
-再次运行该脚本：
+Run the script again:
 
 `/usr/local/sbin/rsync_dirs`
 
-然后验证目标计算机是否接收到新文件。如果是这样，下一步就是检查删除过程。在源计算机上，删除刚才创建的文件：
+And then verify that the target machine received the new file. If so, the next step is to check the delete process.  On the source machine again, remove the file we just created:
 
 `rm -f /home/your_user/testfile.txt`
 
-再次运行该脚本：
+Run the script again:
 
 `/usr/local/sbin/rsync_dirs`
 
-在目标计算机上验证该文件已不存在。
+Verify the file is now gone on the target machine.
 
-最后，在目标计算机上创建源文件中不存在的文件。在目标计算机上：
+Finally, let's create a file on the target machine that doesn't exist on the source. So on the target:
 
 `touch /home/your_user/a_different_file.txt`
 
-最后一次运行该脚本：
+Run the script a final time:
 
 `/usr/local/sbin/rsync_dirs`
 
-刚才在目标上创建的文件现在应该消失了，因为源上不存在该文件。
+The file we just created on the target should now be gone, because it does not exist on the source.
 
-假定所有这些工作均按预期进行，请继续并修改脚本以同步所需的所有目录。
+Assuming all of this worked as expected, go ahead and modify the script to synchronize all the directories that you want.
 
-## 自动化
+## Automating Everything
 
-我们可能不希望每次想要同步时都手动运行此脚本，因此下一步是使它自动化。假设您想每天晚上 11 点运行此脚本。要使用 Rocky Linux 实现自动化，使用 crontab：
+We probably don't want to be running this script manually every time we want to synchronize, so the next step is to automate this. Let's say that you want to want to run this script every evening at 11 PM. To automate that with Rocky Linux, we use crontab:
 
 `crontab -e`
 
-这将调用 cron，可能如下所示：
+This will pull up the cron, which may look something like this:
 
-``` 
+```
 # Edit this file to introduce tasks to be run by cron.
-# 
+#
 # Each task to run has to be defined through a single line
 # indicating with different fields when the task will be run
 # and what command to run for the task
-# 
+#
 # To define the time you can provide concrete values for
 # minute (m), hour (h), day of month (dom), month (mon),
 # and day of week (dow) or use '*' in these fields (for 'any').
-# 
+#
 # Notice that tasks will be started based on the cron's system
 # daemon's notion of time and timezones.
-# 
+#
 # Output of the crontab jobs (including errors) is sent through
 # email to the user the crontab file belongs to (unless redirected).
-# 
+#
 # For example, you can run a backup of all your user accounts
 # at 5 a.m every week with:
 # 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
-# 
+#
 # For more information see the manual pages of crontab(5) and cron(8)
-# 
+#
 # m h  dom mon dow   command
 ```
-cron 设置为 24 小时制，因此需要在文件底部输入：
+The cron is set up on a 24 hour clock, so what we will need for our entry at the bottom of this file is:
 
 `00 23   *  *  *    /usr/local/sbin/rsync_dirs`
 
-这表示在 00 分、23 时、每天、每月、每周的每天运行此命令。使用以下命令保存您的 cron 条目：
+What this says is to run this command at 00 minutes, 23 hundred hours, every day, every month, and every day of the week. Save your cron entry with:
 
-`Shift : wq!` 
+`Shift : wq!`
 
-或使用您喜欢的编辑器用于保存文件的命令。
+... or with the commands that your favorite editor uses for saving a file.
 
-# 总结
+# Conclusions
 
-虽然 rsync 可能没有其他一些选项灵活或强大，但它提供了简单的文件同步。这总归是有用的。
+While rsync may not be as flexible or powerful as some of the other options, it offers simple file synchronization. And there's always a use for that.
