@@ -489,11 +489,9 @@ This file can be completely changed, but this provides an example of what can be
 ```
 #!/bin/sh -eux
 
-echo "Updating the system..."
-dnf -y update
+echo "Updating the system..." dnf -y update
 
-echo "Installing cloud-init..."
-dnf -y install cloud-init
+echo "Installing cloud-init..." dnf -y install cloud-init
 
 # see https://bugs.launchpad.net/cloud-init/+bug/1712680
 # and https://kb.vmware.com/s/article/71264
@@ -540,8 +538,7 @@ export HISTSIZE=0
 Some explanations are necessary:
 
 ```
-echo "Installing cloud-init..."
-dnf -y install cloud-init
+echo "Installing cloud-init..." dnf -y install cloud-init
 
 # see https://bugs.launchpad.net/cloud-init/+bug/1712680
 # and https://kb.vmware.com/s/article/71264
