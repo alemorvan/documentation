@@ -20,13 +20,13 @@ This is everything you'll need to understand and follow along with this guide.
 
 Using _rsync_ over SSH is neither as powerful as [lsyncd](../backup/mirroring_lsyncd.md) (which allows you to watch a directory or file for changes and keep it synchronized in real time), or as flexible as [rsnapshot](../backup/rsnapshot_backup.md) (which offers the ability to easily backup multiple targets from a single machine). But, it does offer the ability to keep two machines up-to-date on a schedule that you define.
 
-rsync has been around since the dawn of time (OK, maybe not quite that long, but a long time!) so every Linux distribution has it available, and most still install it with the base packages. rsync over SSH might be a solution, if you need to keep a set of directories up-to-date on a target machine, but real-time syncing is not particularly important.
+While rsync is probably already installed, it's a good idea to update rsync to the latest version on both the source and target machines. To make sure that rsync is installed and up-to-date, do this on both machines:
 
 For all of the below, we will be doing things as the root user, so either login as root or use the `sudo -s` command to switch to the root user in your terminal.
 
 ## Installing rsync
 
-While rsync is probably already installed, it's a good idea to update rsync to the latest version on both the source and target machines. To make sure that rsync is installed and up-to-date, do this on both machines:
+rsync has been around since the dawn of time (OK, maybe not quite that long, but a long time!) so every Linux distribution has it available, and most still install it with the base packages. rsync over SSH might be a solution, if you need to keep a set of directories up-to-date on a target machine, but real-time syncing is not particularly important. To make sure that rsync is installed and up-to-date, do this on both machines:
 
 `dnf install rsync`
 
