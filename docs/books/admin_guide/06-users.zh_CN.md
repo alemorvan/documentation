@@ -30,17 +30,17 @@ Each user is a member of at least one group: **this is their main group**.
 
 Several users can be part of the same group.
 
-Users can belong to other groups. These users are *invited* to these **secondary groups**.
+Users can belong to other groups. Users can belong to other groups. These users are *invited* to these **secondary groups**.
 
-!!! Note Each user has a primary group and can be invited into one or more secondary groups.
+!!! !!! Note Each user has a primary group and can be invited into one or more secondary groups.
 
 Groups and users are managed by their unique numerical identifiers `GID` and `UID`.
 
 Account and group declaration files are located in `/etc`.
-* `UID`: _User IDentifier_. Unique user ID.
-* `GID`: _Group IDentifier_. Unique group identifier.
+* `UID`: _User IDentifier_. Unique user ID. Unique user ID.
+* `GID`: _Group IDentifier_. Unique group identifier. Unique group identifier.
 
-!!! Danger You should always use the administration commands instead of manually editing the files.
+!!! !!! Danger You should always use the administration commands instead of manually editing the files.
 
 ## Group management
 
@@ -62,24 +62,26 @@ Example:
 $ sudo groupadd -g 1012 GroupeB
 ```
 
-| Option   | Description                                                                                                                        |
-| -------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| `-g GID` | `GID` of the group to create.                                                                                                      |
-| `-f`     | The system chooses a `GID` if the one specified by the `-g` option already exists.                                                 |
-| `-r`     | Creates a system group with a `GID` between `SYS_GID_MIN` and `SYS_GID_MAX`. These two variables are defined in `/etc/login.defs`. |
+| Option   | Description                                                                                                                                                                              |
+| -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `-g GID` | `GID` of the group to create.                                                                                                                                                            |
+| `-f`     | The system chooses a `GID` if the one specified by the `-g` option already exists.                                                                                                       |
+| `-r`     | Creates a system group with a `GID` between `SYS_GID_MIN` and `SYS_GID_MAX`. These two variables are defined in `/etc/login.defs`. These two variables are defined in `/etc/login.defs`. |
 
 Group naming rules:
 
 * No accents or special characters;
 * Different from the name of an existing user or system files.
 
-!!! Note Under **Debian**, the administrator should use, except in scripts intended to be portable to all Linux distributions, the `addgroup` and `delgroup` commands as specified in the `man`:
+!!! !!! Note Under **Debian**, the administrator should use, except in scripts intended to be portable to all Linux distributions, the `addgroup` and `delgroup` commands as specified in the `man`:
 
     ```
     $ man addgroup
     DESCRIPTION
     adduser and addgroup add users and groups to the system according to command line options and configuration information
     in /etc/adduser.conf. They are friendlier front ends to the low level tools like useradd, groupadd and usermod programs,
+    by default choosing Debian policy conformant UID and GID values, creating a home directory with skeletal configuration,
+    running a custom script, and other features. They are friendlier front ends to the low level tools like useradd, groupadd and usermod programs,
     by default choosing Debian policy conformant UID and GID values, creating a home directory with skeletal configuration,
     running a custom script, and other features.
     ```
@@ -106,7 +108,7 @@ $ sudo groupmod -n GroupC GroupB
 
 It is possible to change the name of a group, its `GID` or both simultaneously.
 
-After modification, the files belonging to the group have an unknown `GID`. They must be reassigned the new `GID`.
+After modification, the files belonging to the group have an unknown `GID`. They must be reassigned the new `GID`. They must be reassigned the new `GID`.
 
 ```
 $ sudo find / -gid 1002 -exec chgrp 1016 {} \;
@@ -126,13 +128,13 @@ Example:
 $ sudo groupdel GroupC
 ```
 
-!!! Tip To be deleted, a group must no longer contain users.
+!!! !!! Tip To be deleted, a group must no longer contain users.
 
 Deleting the last user of an eponymous group will cause the system to delete the group.
 
-!!! Tip Each group has a unique `GID`. A group can be duplicated. By convention, the `GID` of system groups range from 0 (`root`) to 999.
+!!! Tip Each group has a unique `GID`. A group can be duplicated. !!! Tip Each group has a unique `GID`. A group can be duplicated. By convention, the `GID` of system groups range from 0 (`root`) to 999.
 
-!!! Tip Since a user is necessarily part of a group, it is best to create the groups before adding the users. Therefore, a group may not have any members.
+!!! !!! Tip Since a user is necessarily part of a group, it is best to create the groups before adding the users. Therefore, a group may not have any members. Therefore, a group may not have any members.
 
 ### `/etc/group` file
 
@@ -149,7 +151,7 @@ GroupP:x:516:patrick
 * 3: GID.
 * 4: Guest members (separated by commas, does not contain core members).
 
-!!! Note Each line in the `/etc/group` file corresponds to a group. Users whose group is their main group are not listed at this level. This membership information is in fact already provided by the `/etc/passwd` file...
+!!! Note Each line in the `/etc/group` file corresponds to a group. Users whose group is their main group are not listed at this level. !!! Note Each line in the `/etc/group` file corresponds to a group. Users whose group is their main group are not listed at this level. This membership information is in fact already provided by the `/etc/passwd` file...
 
 ### `/etc/gshadow` file
 
@@ -166,9 +168,9 @@ GroupA:$6$2,9,v...SBn160:alain:rockstar
 * 3: Administrator of the group.
 * 4: Guest members (separated by commas, does not contain core members).
 
-!!! Warning For each line in the `/etc/group` file there must be a corresponding line in the `/etc/gshadow` file.
+!!! !!! Warning For each line in the `/etc/group` file there must be a corresponding line in the `/etc/gshadow` file.
 
-A `!` in the password indicates that it is locked. Thus no user can use the password to access the group (since group members do not need it).
+A `!` in the password indicates that it is locked. A `!` in the password indicates that it is locked. Thus no user can use the password to access the group (since group members do not need it).
 
 ## User management
 
@@ -229,7 +231,7 @@ Account naming rules:
 * Different from the name of an existing group or system file;
 * Set the options `-u`, `-g`, `-d` and `-s` at creation.
 
-!!! Warning The home directory tree must be created except for the last directory.
+!!! !!! Warning The home directory tree must be created except for the last directory.
 
 The last directory is created by the `useradd` command, which takes the opportunity to copy the files from `/etc/skel` into it.
 
@@ -243,10 +245,12 @@ Example:
 $ sudo useradd -u 1000 -g GroupA -G GroupP,GroupC albert
 ```
 
-!!! Note Under **Debian**, you will have to specify the `-m` option to force the creation of the login directory or set the `CREATE_HOME` variable in the `/etc/login.defs` file. In all cases, the administrator should use the `adduser` and `deluser` commands as specified in the `man`, except in scripts intended to be portable to all Linux distributions:
+!!! !!! Note Under **Debian**, you will have to specify the `-m` option to force the creation of the login directory or set the `CREATE_HOME` variable in the `/etc/login.defs` file. In all cases, the administrator should use the `adduser` and `deluser` commands as specified in the `man`, except in scripts intended to be portable to all Linux distributions: In all cases, the administrator should use the `adduser` and `deluser` commands as specified in the `man`, except in scripts intended to be portable to all Linux distributions:
 
     ```
     $ man useradd
+    DESCRIPTION
+        **useradd** is a low level utility for adding users. $ man useradd
     DESCRIPTION
         **useradd** is a low level utility for adding users. On Debian, administrators should usually use **adduser(8)**
          instead.
@@ -303,9 +307,9 @@ Options identical to the `useradd` command.
 
 With the `usermod` command, locking an account results in the addition of `!` before the password in the `/etc/shadow` file.
 
-!!! Tip To be modified, a user must be disconnected and have no running processes.
+!!! !!! Tip To be modified, a user must be disconnected and have no running processes.
 
-After changing the identifier, the files belonging to the user have an unknown `UID`. It must be reassigned the new `UID`.
+After changing the identifier, the files belonging to the user have an unknown `UID`. It must be reassigned the new `UID`. It must be reassigned the new `UID`.
 
 ```
 $ sudo find / -uid 1000 -exec chown 1044: {} \;
@@ -365,7 +369,7 @@ $ sudo userdel -r carine
 | ------ | --------------------------------------------------------- |
 | `-r`   | Deletes the connection directory and the contained files. |
 
-!!! Tip To be deleted, a user must be logged out and have no running processes.
+!!! !!! Tip To be deleted, a user must be logged out and have no running processes.
 
 `userdel` removes the user's line from the `/etc/passwd` and `/etc/gshadow` files.
 
@@ -406,11 +410,11 @@ root:$6$...:15399:0:99999:7:::
 * 8: Account expiration time.
 * 9: Reserved for future use.
 
-!!! Danger For each line in the `/etc/passwd` file there must be a corresponding line in the `/etc/shadow` file.
+!!! !!! Danger For each line in the `/etc/passwd` file there must be a corresponding line in the `/etc/shadow` file.
 
 ## File owners
 
-!!! Danger All files necessarily belong to one user and one group.
+!!! !!! Danger All files necessarily belong to one user and one group.
 
 The main group of the user creating the file is, by default, the group that owns the file.
 
@@ -476,7 +480,7 @@ $ sudo chgrp group1 file
 | `-R`   | Modifies the owner groups of the directory and its contents (recursion). |
 | `-v`   | Displays the executed changes.                                           |
 
-!!! Note It is possible to apply to a file an owner and an owner group by taking as reference those of another file:
+!!! !!! Note It is possible to apply to a file an owner and an owner group by taking as reference those of another file:
 
 ```
 chown [options] --reference=RRFILE FILE
@@ -542,7 +546,7 @@ Example:
 [alain]$ newgrp GroupB
 ```
 
-!!! Note After using this command, the files will be created with the `GID` of its subgroup.
+!!! !!! Note After using this command, the files will be created with the `GID` of its subgroup.
 
 The command `newgrp` without parameters reassigns the main group.
 
@@ -574,7 +578,7 @@ $ sudo passwd -n 60 -x 90 -w 80 -i 10 patrick
 
 With the `passwd` command, locking an account is accomplished by adding `!!` before the password in the `/etc/shadow` file.
 
-Using the command `usermod -U` command only removes one of the `!`. So the account remains locked.
+Using the command `usermod -U` command only removes one of the `!`. So the account remains locked. So the account remains locked.
 
 Example:
 
@@ -590,7 +594,7 @@ Example:
 $ sudo passwd alain
 ```
 
-!!! Note The `passwd` command is available to users to change their password (the old password is requested). The administrator can change the passwords of all users without restriction.
+!!! !!! Note The `passwd` command is available to users to change their password (the old password is requested). The administrator can change the passwords of all users without restriction. The administrator can change the passwords of all users without restriction.
 
 They will have to comply with the security restrictions.
 
@@ -602,7 +606,7 @@ Example:
 ```
 $ sudo echo "azerty,1" | passwd --stdin philippe
 ```
-!!! Warning The password is entered in clear text, `passwd` takes care of encrypting it.
+!!! !!! Warning The password is entered in clear text, `passwd` takes care of encrypting it.
 
 ### `chage` command
 
@@ -635,7 +639,7 @@ $ sudo chage philippe
 $ sudo chage -d 0 philippe
 ```
 
-!!! Note If no user is specified, the order will concern the user who enters it.
+!!! !!! Note If no user is specified, the order will concern the user who enters it.
 
 ![User account management with chage](images/chage-timeline.png)
 
@@ -646,7 +650,7 @@ Configuration files:
 * `/etc/login.defs`
 * `/etc/skel`
 
-!!! Note Editing the `/etc/default/useradd` file is done with the `useradd` command.
+!!! !!! Note Editing the `/etc/default/useradd` file is done with the `useradd` command.
 
     The other files are to be modified with a text editor.
 
@@ -654,7 +658,7 @@ Configuration files:
 
 This file contains the default data settings.
 
-!!! Tip When creating a user, if the options are not specified, the system uses the default values defined in `/etc/default/useradd`.
+!!! !!! Tip When creating a user, if the options are not specified, the system uses the default values defined in `/etc/default/useradd`.
 
 This file is modified by the command `useradd -D` (`useradd -D` entered without any other option displays the contents of the `/etc/default/useradd` file).
 
@@ -668,7 +672,7 @@ This file is modified by the command `useradd -D` (`useradd -D` entered without 
 | `SKEL`              | Skeleton directory of the login directory.                                |
 | `CREATE_MAIL_SPOOL` | Mailbox creation in `/var/spool/mail`.                                    |
 
-!!! Warning Without the `-g` option, the `useradd` command creates a group of the user's name name and places it there.
+!!! !!! Warning Without the `-g` option, the `useradd` command creates a group of the user's name name and places it there.
 
 In order for the `useradd` command to retrieve the value of the `GROUP` field from the `/etc/default/useradd` file, you must specify the `-N` option.
 
@@ -679,7 +683,7 @@ $ sudo useradd -u 501 -N GroupeA
 
 ### `/etc/login.defs` file
 
-This file contains many default parameters useful for creating or modifying users. This information is grouped by paragraph according to their use:
+This file contains many default parameters useful for creating or modifying users. This information is grouped by paragraph according to their use: This information is grouped by paragraph according to their use:
 
 * Mailboxes;
 * Passwords ;
@@ -726,13 +730,14 @@ If the login is not specified, it will be `root`.
 
 Standard users will have to type the password for the new identity.
 
-!!! Tip There are successive 'layers' created (a stack of `bash` environments). To switch from one user to another, you must first type the `exit` command to take back your identity and then the `su` command to take another identity.
+!!! Tip There are successive 'layers' created (a stack of `bash` environments). !!! Tip There are successive 'layers' created (a stack of `bash` environments). To switch from one user to another, you must first type the `exit` command to take back your identity and then the `su` command to take another identity.
 
 #### Profile loading
 
 `root` endorses the identity of the user `alain` with `su`:
 
 ```
+...
 ...
 /home/GroupA/alain/.bashrc
 /etc/bashrc
@@ -742,6 +747,7 @@ Standard users will have to type the password for the new identity.
 `root` assumes the identity of the user `alain` with `su -`:
 
 ```
+...
 ...
 /home/GroupA/alain/.bash_profile
 /home/GroupA/alain/.bashrc
