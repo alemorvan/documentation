@@ -391,10 +391,8 @@ SHA256:Oa1d2hYzzdO0e/K10XPad25TA1nrSVRPIuS4fnmKr9g ansible@localhost.localdomain
 The key's randomart image is:
 +---[RSA 3072]----+
 |           .o . +|
-|           o . =.|
-|          . . + +|
-|         o . = =.|
-|        S o = B.o|
+|           o . =.| |          . . + +|
+|         o . = =.| |        S o = B.o|
 |         = + = =+|
 |        . + = o+B|
 |         o + o *@|
