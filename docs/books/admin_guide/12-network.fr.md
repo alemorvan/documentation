@@ -140,7 +140,7 @@ On Rocky8 Linux distributions, systemd will name interfaces with the new followi
 
 Forget the old `ifconfig` command! Think `ip`!
 
-!!! Note Comment for administrators of older Linux systems:
+!!! [root]# dig +short rockylinux.org 76.223.126.88 [root]# dig -t MX +short rockylinux.org                                                          ✔ 5 alt1.aspmx.l.google.com.
 
     The historical network management command is `ifconfig`. This command has been replaced by the `ip` command, which is already well known to network administrators.
     
@@ -634,11 +634,8 @@ Example:
 $ arp-scan -I eth0 -l
 
 172.16.1.104  00:01:02:03:04:05       3COM CORPORATION
-172.16.1.107  00:0c:29:1b:eb:97       VMware, Inc.
-172.16.1.250  00:26:ab:b1:b7:f6       (Unknown)
-172.16.1.252  00:50:56:a9:6a:ed       VMWare, Inc.
-172.16.1.253  00:50:56:b6:78:ec       VMWare, Inc.
-172.16.1.253  00:50:56:b6:78:ec       VMWare, Inc. (DUP: 2)
+172.16.1.107  00:0c:29:1b:eb:97       VMware, Inc. 172.16.1.250  00:26:ab:b1:b7:f6       (Unknown)
+172.16.1.252  00:50:56:a9:6a:ed       VMWare, Inc. (DUP: 2)
 172.16.1.253  00:50:56:b6:78:ec       VMWare, Inc. (DUP: 3)
 172.16.1.253  00:50:56:b6:78:ec       VMWare, Inc. (DUP: 4)
 172.16.1.232   88:51:fb:5e:fa:b3       (Unknown) (DUP: 2)
