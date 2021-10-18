@@ -45,7 +45,7 @@ Among this management of resources, the operating system has to:
 
 ## Generalities UNIX - GNU/Linux
 
-### History
+### Historique
 
 #### UNIX
 
