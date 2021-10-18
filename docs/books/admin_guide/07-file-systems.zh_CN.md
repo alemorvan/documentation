@@ -30,7 +30,7 @@ and also discover:
 
 ## Partitioning
 
-Partitioning will allow the installation of several operating systems because it is impossible to have several of them cohabit on the same logical drive. Partitioning also allows the separation of data logically (security, access optimization, ...).
+Partitioning will allow the installation of several operating systems because it is impossible to have several of them cohabit on the same logical drive. Partitioning also allows the separation of data logically (security, access optimization, ...). Partitioning also allows the separation of data logically (security, access optimization, ...).
 
 The division of the physical disk into partitioned volumes is recorded in the partition table, stored in the first sector of the disk (MBR: _Master Boot Record_).
 
@@ -39,25 +39,25 @@ The same physical disk can be divided into a maximum of 4 partitions:
 * *Primary* (or main)
 * *Extended*
 
-!!! Warning There can be only one extended partition per physical disk. In order to benefit from additional drives, the extended partition can be split into logical partitions
+!!! !!! Warning There can be only one extended partition per physical disk. In order to benefit from additional drives, the extended partition can be split into logical partitions In order to benefit from additional drives, the extended partition can be split into logical partitions
 
 ![Breakdown into only 4 primary partitions](images/07-file-systems-001.png)
 
 ![Breakdown into 3 primary partitions and one extended](images/07-file-systems-002.png)
 
-The _devices_ are the files identifying the various hardware detected by the motherboard. These files are stored without `/dev`. The service which detects new devices and gives them names is called *udev*.
+The _devices_ are the files identifying the various hardware detected by the motherboard. These files are stored without `/dev`. The service which detects new devices and gives them names is called *udev*. These files are stored without `/dev`. The service which detects new devices and gives them names is called *udev*.
 
 They are identified by their type.
 
-Storage devices are named *hd* for IDE hard drives and *sd* for other media. Then comes a letter that starts with *a* for the first device, then *b*, *c*, ...
+Storage devices are named *hd* for IDE hard drives and *sd* for other media. Then comes a letter that starts with *a* for the first device, then *b*, *c*, ... Then comes a letter that starts with *a* for the first device, then *b*, *c*, ...
 
 Finally we will find a number that defines the partitioned volume: *1* for the first primary partition, ...
 
-!!! Warning Beware, the extended partition, which does not support a file system, still has a number.
+!!! !!! Warning Beware, the extended partition, which does not support a file system, still has a number.
 
 ![Identification of partitions](images/07-file-systems-003.png)
 
-There are at least two commands for partitioning a disk: `fdisk` and `cfdisk`. Both commands have an interactive menu. `cfdisk` is more reliable and better optimized, so it is best to use it.
+There are at least two commands for partitioning a disk: `fdisk` and `cfdisk`. Both commands have an interactive menu. `cfdisk` is more reliable and better optimized, so it is best to use it. Both commands have an interactive menu. `cfdisk` is more reliable and better optimized, so it is best to use it.
 
 The only reason to use `fdisk` is when you want to list all logical devices with the `-l` option.
 
@@ -136,15 +136,15 @@ Volume management creates an abstract layer on top of physical storage, offering
 * Mirrored volumes (recopy);
 * Volume snapshots (_snapshot_).
 
-The disadvantage is that if one of the physical volumes becomes out of order, then all the logical volumes that use this physical volume are lost. You will have to use LVM on raid disks.
+The disadvantage is that if one of the physical volumes becomes out of order, then all the logical volumes that use this physical volume are lost. You will have to use LVM on raid disks. You will have to use LVM on raid disks.
 
 LVM is available under Linux from kernel version 2.4.
 
-!!! Note LVM is only managed by the operating system. Therefore the _BIOS_ needs at least one partition without LVM to boot.
+!!! Note LVM is only managed by the operating system. !!! Note LVM is only managed by the operating system. Therefore the _BIOS_ needs at least one partition without LVM to boot.
 
 ### Volume groups
 
-The physical volumes *PV* _Physical Volumes_ (from partitions) are combined into volume groups *VG*. Each *VG* represents disk space that can be partitioned into *LV* _Logical Volumes_. *Extension* is the smallest unit of fixed-size space that can be allocated.
+The physical volumes *PV* _Physical Volumes_ (from partitions) are combined into volume groups *VG*. Each *VG* represents disk space that can be partitioned into *LV* _Logical Volumes_. *Extension* is the smallest unit of fixed-size space that can be allocated. Each *VG* represents disk space that can be partitioned into *LV* _Logical Volumes_. *Extension* is the smallest unit of fixed-size space that can be allocated.
 
 * **PE** : _Physical Extension_
 * **LE** : _Logical Extension_
@@ -163,7 +163,7 @@ A volume group, *VG*, is divided into logical volumes, *LV*, offering different 
 
 ![Volumes in stripe mode](images/07-file-systems-006.png)
 
-!!! Tip Striping_ improves performance by writing data to a predetermined number of physical volumes with a _round-robin_ technique.
+!!! !!! Tip Striping_ improves performance by writing data to a predetermined number of physical volumes with a _round-robin_ technique.
 
 ![Mirrored volumes](images/07-file-systems-007.png)
 
@@ -171,7 +171,7 @@ A volume group, *VG*, is divided into logical volumes, *LV*, offering different 
 
 #### `pvcreate` command
 
-The `pvcreate` command is used to create physical volumes. It turns Linux partitions (or disks) into physical volumes.
+The `pvcreate` command is used to create physical volumes. It turns Linux partitions (or disks) into physical volumes. It turns Linux partitions (or disks) into physical volumes.
 
 ```
 pvcreate [-options] partition
@@ -197,7 +197,7 @@ pvcreate -- physical volume « /dev/hdb » successfully created
 
 #### `vgcreate` command
 
-The `vgcreate` command is used to create volume groups. It groups one or more physical volumes into a volume group.
+The `vgcreate` command is used to create volume groups. It groups one or more physical volumes into a volume group. It groups one or more physical volumes into a volume group.
 
 ```
 vgcreate volume physical_volume [PV...]
@@ -209,11 +209,12 @@ Example:
 [root]# vgcreate volume1 /dev/hdb1
 …
 vgcreate – volume group « volume1 » successfully created and activated
+vgcreate – volume group « volume1 » successfully created and activated
 ```
 
 #### `lvcreate` command
 
-The `lvcreate` command creates logical volumes. The file system is then created on these logical volumes.
+The `lvcreate` command creates logical volumes. The file system is then created on these logical volumes. The file system is then created on these logical volumes.
 
 ```
 lvcreate -L size [-n name] VG_name
@@ -226,10 +227,10 @@ Example:
 lvcreate -- logical volume « /dev/volume1/VolLog1 » successfully created
 ```
 
-| Option    | Description                                                         |
-| --------- | ------------------------------------------------------------------- |
-| `-L size` | Logical volume size in K, M or G.                                   |
-| `-n name` | LV name. Special file created in `/dev/name_volume` with this name. |
+| Option    | Description                                                                  |
+| --------- | ---------------------------------------------------------------------------- |
+| `-L size` | Logical volume size in K, M or G.                                            |
+| `-n name` | LV name. LV name. Special file created in `/dev/name_volume` with this name. |
 
 ### LVM commands to view volume information
 
@@ -317,19 +318,19 @@ Example:
 | ------ | ----------------------------------------- |
 | `-t`   | Indicates the type of file system to use. |
 
-!!! Warning Without a file system it is not possible to use the disk space.
+!!! !!! Warning Without a file system it is not possible to use the disk space.
 
-Each file system has a structure which is identical on each partition. A **boot block** and a **super block** initialized by the system and then an **inode table** and a **data area** initialized by the administrator.
+Each file system has a structure which is identical on each partition. Each file system has a structure which is identical on each partition. A **boot block** and a **super block** initialized by the system and then an **inode table** and a **data area** initialized by the administrator.
 
-!!! Note The only exception is the **swap** partition.
+!!! !!! Note The only exception is the **swap** partition.
 
 ### Boot block
 
-The **boot block** occupies the first block on the disk and is present on all partitions. It contains the program that starts and initializes the system and is therefore only filled in for the boot partition.
+The **boot block** occupies the first block on the disk and is present on all partitions. It contains the program that starts and initializes the system and is therefore only filled in for the boot partition. It contains the program that starts and initializes the system and is therefore only filled in for the boot partition.
 
 ### Super block
 
-The size of the **super block** table is defined at creation. It is present on each partition and contains the elements necessary for its utilization.
+The size of the **super block** table is defined at creation. It is present on each partition and contains the elements necessary for its utilization. It is present on each partition and contains the elements necessary for its utilization.
 
 It describes the File System:
 
@@ -343,7 +344,7 @@ It describes the File System:
 * Size of the inode list;
 * Number and list of free inodes.
 
-A copy is loaded in the central memory as soon as the system is initialized. This copy is updated as soon as it is modified and the system saves it periodically (command `sync`).
+A copy is loaded in the central memory as soon as the system is initialized. A copy is loaded in the central memory as soon as the system is initialized. This copy is updated as soon as it is modified and the system saves it periodically (command `sync`).
 
 When the system stops, it also copies this table in memory to its block.
 
@@ -351,15 +352,15 @@ When the system stops, it also copies this table in memory to its block.
 
 The size of the **inode table** is defined at its creation and is stored on the partition. It consists of records, called inodes, corresponding to the files created. Each record contains the addresses of the data blocks making up the file.
 
-!!! Note An inode number is unique within a file system.
+!!! !!! Note An inode number is unique within a file system.
 
-A copy is loaded in the central memory as soon as the system is initialized. This copy is updated as soon as it is modified and the system saves it periodically (command `sync`).
+A copy is loaded in the central memory as soon as the system is initialized. A copy is loaded in the central memory as soon as the system is initialized. This copy is updated as soon as it is modified and the system saves it periodically (command `sync`).
 
 When the system stops, it also copies this table in memory to its block.
 
 A file is managed by its inode number.
 
-!!! Note The size of the inode table determines the maximum number of files the FS can contain.
+!!! !!! Note The size of the inode table determines the maximum number of files the FS can contain.
 
 Information present in the *inode table* :
 
@@ -376,19 +377,19 @@ Information present in the *inode table* :
 
 ### Data area
 
-Its size corresponds to the rest of the available space of the partition. This area contains the catalogs corresponding to each directory and the data blocks corresponding to the contents of the files.
+Its size corresponds to the rest of the available space of the partition. Its size corresponds to the rest of the available space of the partition. This area contains the catalogs corresponding to each directory and the data blocks corresponding to the contents of the files.
 
-**In order to guarantee the consistency of the file system**, an image of the superblock and the inode table is loaded into memory (RAM) when the operating system is loaded so that all I/O operations are done through these system tables. When the user creates or modifies files, this memory image is updated first. The operating system must therefore regularly update the superblock of the logical disk (`sync` command).
+**In order to guarantee the consistency of the file system**, an image of the superblock and the inode table is loaded into memory (RAM) when the operating system is loaded so that all I/O operations are done through these system tables. When the user creates or modifies files, this memory image is updated first. The operating system must therefore regularly update the superblock of the logical disk (`sync` command). When the user creates or modifies files, this memory image is updated first. The operating system must therefore regularly update the superblock of the logical disk (`sync` command).
 
 These tables are written to the hard disk when the system is shut down.
 
-!!! Danger In the event of a sudden stop, the file system may lose its consistency and cause data loss.
+!!! !!! Danger In the event of a sudden stop, the file system may lose its consistency and cause data loss.
 
 ### Repairing the file system
 
 It is possible to check the consistency of a file system with the `fsck` command.
 
-In case of errors, solutions are proposed to repair the inconsistencies. After repair, files that remain without entries in the inode table are attached to the `/lost+found` folder of the logical drive.
+In case of errors, solutions are proposed to repair the inconsistencies. In case of errors, solutions are proposed to repair the inconsistencies. After repair, files that remain without entries in the inode table are attached to the `/lost+found` folder of the logical drive.
 
 #### `fsck` command
 
@@ -413,7 +414,7 @@ or
 [root]# shutdown –r -F now
 ```
 
-!!! Warning The partition to be checked must be unmounted.
+!!! !!! Warning The partition to be checked must be unmounted.
 
 ## Organization of a file system
 
@@ -421,7 +422,7 @@ By definition, a File System is a tree structure of directories built from a roo
 
 ![Organization of a file system](images/07-file-systems-008.png)
 
-!!! Note In Linux everything is a file.
+!!! !!! Note In Linux everything is a file.
 
 Text document, directory, binary, partition, network resource, screen, keyboard, Unix kernel, user program, ...
 
@@ -448,15 +449,15 @@ Linux meets the **FHS** (_Filesystems Hierarchy Standard_) (see `man hier`) whic
 | `/var`     | Miscellaneous variable files                                  | _variables_                   |
 
 * To perform a mount or unmount, at the tree level, you must not be under its mount point.
-* Mounting on a non-empty directory does not delete the content. It is only hidden.
+* Mounting on a non-empty directory does not delete the content. It is only hidden. It is only hidden.
 * Only the administrator can perform mounts.
 * Mount points to be automatically mounted at boot time must be entered in `/etc/fstab`.
 
 ### `/etc/fstab` file
 
-The `/etc/fstab` file is read at system startup and contains the mounts to be performed. Each file system to be mounted is described on a single line, the fields being separated by spaces or tabs.
+The `/etc/fstab` file is read at system startup and contains the mounts to be performed. The `/etc/fstab` file is read at system startup and contains the mounts to be performed. Each file system to be mounted is described on a single line, the fields being separated by spaces or tabs.
 
-!!! Note Lines are read sequentially (`fsck`, `mount`, `umount`).
+!!! !!! Note Lines are read sequentially (`fsck`, `mount`, `umount`).
 
 ```
 /dev/mapper/VolGroup-lv_root   /         ext4    defaults        1   1
@@ -478,9 +479,9 @@ proc                           /proc     proc    defaults        0   0
 | 5      | Enable or disable backup management (0:not backed up, 1:backed up)                                |
 | 6      | Check order when checking the SF with the `fsck` command (0:no check, 1:priority, 2:not priority) |
 
-The `mount -a` command allows new mounts to be taken into account without rebooting. They are then written to the `/etc/mtab` file which contains the current mounts.
+The `mount -a` command allows new mounts to be taken into account without rebooting. The `mount -a` command allows new mounts to be taken into account without rebooting. They are then written to the `/etc/mtab` file which contains the current mounts.
 
-!!! Warning Only the mount points listed in `/etc/fstab` will be mounted on reboot.
+!!! !!! Warning Only the mount points listed in `/etc/fstab` will be mounted on reboot.
 
 It is possible to make a copy of the `/etc/mtab` file or to copy its contents to `/etc/fstab`.
 
@@ -509,7 +510,7 @@ Example:
 | `-w`   | Mounts the file system read/write, by default (equivalent `-o rw`).            |
 | `-o`   | Argument followed by a comma-separated list of options (`remount`, `ro`, ...). |
 
-!!! Note The `mount` command alone displays all mounted file systems.
+!!! !!! Note The `mount` command alone displays all mounted file systems.
 
 #### `umount` command
 
@@ -533,7 +534,7 @@ Example:
 | `-f`   | Force unmount.                                     |
 | `-a`   | Unmount all filesystems mentioned in `/etc/fstab`. |
 
-!!! Note When disassembling, you must not stay below the mounting point. Otherwise, the following error message is displayed: `device is busy`.
+!!! Note When disassembling, you must not stay below the mounting point. !!! Note When disassembling, you must not stay below the mounting point. Otherwise, the following error message is displayed: `device is busy`.
 
 ## Types of files
 
@@ -550,11 +551,11 @@ Groups of words separated by spaces must be enclosed in quotation marks:
 [root]# mkdir "working dir"
 ```
 
-!!! Note While there is nothing technically wrong with creating a file or directory with a space in it, it is generally a "best practice" to avoid this and replace any space with an underscore.
+!!! !!! Note While there is nothing technically wrong with creating a file or directory with a space in it, it is generally a "best practice" to avoid this and replace any space with an underscore.
 
-!!! Note The **.** at the beginning of the file name only serves to hide it from a simple `ls`.
+!!! !!! Note The **.** at the beginning of the file name only serves to hide it from a simple `ls`.
 
-!!! Warning Under Linux, the extension of a file is not a necessary reference to open or modify it. However, it can be useful for the user.
+!!! !!! Warning Under Linux, the extension of a file is not a necessary reference to open or modify it. However, it can be useful for the user. However, it can be useful for the user.
 
 Examples of extension agreements:
 
@@ -626,7 +627,7 @@ The letter `d` at the beginning of the rights group indicates that it is a direc
 
 #### Special files
 
-In order to communicate with peripherals (hard disks, printers, ...), Linux uses interface files called special files (_device file_ or _special file_). They allow identification by the peripherals.
+In order to communicate with peripherals (hard disks, printers, ...), Linux uses interface files called special files (_device file_ or _special file_). They allow identification by the peripherals. They allow identification by the peripherals.
 
 These files are special because they do not contain data but specify the access mode to communicate with the device.
 
@@ -648,7 +649,7 @@ The letter `b` at the beginning of the rights group indicates that it is a speci
 
 ##### Character mode
 
-The special *character mode* file is used to transfer data to the device as a stream of one character at a time without using a buffer. These are devices like printer, screen or DAT tapes, ...
+The special *character mode* file is used to transfer data to the device as a stream of one character at a time without using a buffer. These are devices like printer, screen or DAT tapes, ... These are devices like printer, screen or DAT tapes, ...
 
 The standard output is the screen.
 
@@ -663,13 +664,13 @@ The letter `c` at the beginning of the rights group indicates that it is a speci
 
 These are the pipe (_pipes_) and the _socket_ files.
 
-* **Pipe files** pass information between processes by FIFO (_First In, First Out_). One process writes transient information to a _pipe_ file and another reads it. After reading, the information is no longer accessible.
+* **Pipe files** pass information between processes by FIFO (_First In, First Out_). One process writes transient information to a _pipe_ file and another reads it. After reading, the information is no longer accessible. One process writes transient information to a _pipe_ file and another reads it. After reading, the information is no longer accessible.
 
-* **Socket files** allow bidirectional inter-process communication (on local or remote systems). They use an _inode_ of the file system.
+* **Socket files** allow bidirectional inter-process communication (on local or remote systems). They use an _inode_ of the file system. They use an _inode_ of the file system.
 
 #### Link files
 
-These files give the possibility to give several logical names to the same physical file. A new access point to the file is therefore created.
+These files give the possibility to give several logical names to the same physical file. A new access point to the file is therefore created. A new access point to the file is therefore created.
 
 There are two types of link files:
 
@@ -678,9 +679,9 @@ There are two types of link files:
 
 ##### Physical link
 
-The link file and the source file have the same _inode_ number and the link counter is incremented. It is not possible to link different directories or files from different file systems.
+The link file and the source file have the same _inode_ number and the link counter is incremented. It is not possible to link different directories or files from different file systems. It is not possible to link different directories or files from different file systems.
 
-!!! Warning If the source file is destroyed, the counter is decremented and the link file still accesses the file.
+!!! !!! Warning If the source file is destroyed, the counter is decremented and the link file still accesses the file.
 
 ###### Command `ln` for a physical link
 
@@ -705,11 +706,11 @@ The `ln` command allows you to create physical links.
 
 ##### Symbolic link
 
-Unlike the physical link, the symbolic link involves the creation of a new _inode_. At the symbolic link level, only a path is stored in the inode table.
+Unlike the physical link, the symbolic link involves the creation of a new _inode_. At the symbolic link level, only a path is stored in the inode table. At the symbolic link level, only a path is stored in the inode table.
 
-The file created contains only an indication of the path to the file. This notion no longer has the limitations of physical links and it is now possible to link directories and files belonging to different file systems.
+The file created contains only an indication of the path to the file. The file created contains only an indication of the path to the file. This notion no longer has the limitations of physical links and it is now possible to link directories and files belonging to different file systems.
 
-!!! Warning If the source file is destroyed, the link file can no longer access the file.
+!!! !!! Warning If the source file is destroyed, the link file can no longer access the file.
 
 ###### `ln` command for a symbolic link
 
@@ -750,7 +751,7 @@ There are 4 file access rights:
 * e**x**ecution;
 * **-** no right.
 
-!!! Warning The rights associated with files differ from those associated with directories (see below).
+!!! !!! Warning The rights associated with files differ from those associated with directories (see below).
 
 The user types associated with file access rights are:
 
@@ -769,7 +770,7 @@ In some commands it is possible to designate everyone with **a** (_all_).
 * e**x**ecute: Considers the file as an e**X**ecutable (binary or script).
 * **-**: No permissions.
 
-!!! Note Moving or renaming a file depends on the rights of the target directory. Deleting a file depends on the rights of the parent directory.
+!!! !!! Note Moving or renaming a file depends on the rights of the target directory. Deleting a file depends on the rights of the parent directory. Deleting a file depends on the rights of the parent directory.
 
 ### Rights associated with directories
 
@@ -780,7 +781,7 @@ In some commands it is possible to designate everyone with **a** (_all_).
 
 ### Attribute management
 
-The display of rights is done with the command `ls -l`. It is the last 9 characters of the block of 10. More precisely 3 times 3 characters.
+The display of rights is done with the command `ls -l`. It is the last 9 characters of the block of 10. More precisely 3 times 3 characters. It is the last 9 characters of the block of 10. More precisely 3 times 3 characters.
 
 ```
 [root]# ls -l /tmp/myfile
@@ -796,9 +797,9 @@ The display of rights is done with the command `ls -l`. It is the last 9 charact
 | 4   | File owner                                        |
 | 5   | Group owner of the file                           |
 
-!!! Note Permissions apply to **u**ser, **g**roup and **o**ther (**ugo**) depending on the owner and group.
+!!! !!! Note Permissions apply to **u**ser, **g**roup and **o**ther (**ugo**) depending on the owner and group.
 
-By default, the _owner_ of a file is the one who creates it. The _group_ of the file is the group of the owner who created the file. The _others_ are those which are not concerned by the previous cases.
+By default, the _owner_ of a file is the one who creates it. By default, the _owner_ of a file is the one who creates it. The _group_ of the file is the group of the owner who created the file. The _others_ are those which are not concerned by the previous cases. The _others_ are those which are not concerned by the previous cases.
 
 The attributes are changed with the `chmod` command.
 
@@ -828,6 +829,8 @@ Example:
 [root]# ls -l /tmp/fic*
 -rwxrwx--- 1 root root … /tmp/file1
 -rwx--x--- 1 root root … /tmp/file2
+-rwx--xr-- 1 root root … /tmp/file3 /tmp/file1
+-rwx--x--- 1 root root … /tmp/file2
 -rwx--xr-- 1 root root … /tmp/file3
 ```
 
@@ -836,6 +839,7 @@ Example:
 [root]# chmod -R 744 /tmp/file2
 [root]# ls -l /tmp/fic*
 -rwxr----x 1 root root … /tmp/file1
+-rwxr--r-- 1 root root … /tmp/file2 /tmp/file1
 -rwxr--r-- 1 root root … /tmp/file2
 ```
 
@@ -848,7 +852,7 @@ There are two methods for making rights changes:
 * The **octal** method;
 * The **symbolic** method.
 
-!!! Warning The rights of files and directories are not dissociated. For some operations, it will be necessary to know the rights of the directory containing the file. A write-protected file can be deleted by another user as long as the rights of the directory containing it allow this user to perform this operation.
+!!! Warning The rights of files and directories are not dissociated. For some operations, it will be necessary to know the rights of the directory containing the file. !!! Warning The rights of files and directories are not dissociated. For some operations, it will be necessary to know the rights of the directory containing the file. A write-protected file can be deleted by another user as long as the rights of the directory containing it allow this user to perform this operation.
 
 #### Principle of the octal method
 
@@ -884,7 +888,7 @@ This method can be considered as a "literal" association between a user type, an
 
 ```
 [root]# ls -l /tmp/myfile
-r--r-- 1 root root … /tmp/myfile
+r--r-- 1 root root … /tmp/myfile /tmp/myfile
 ```
 
 ```
@@ -893,7 +897,7 @@ r--r-- 1 root root … /tmp/myfile
 
 ```
 [root]# ls -l /tmp/myfile
--rwxrwx--- 1 root root … /tmp/myfile
+-rwxrwx--- 1 root root … /tmp/myfile /tmp/myfile
 ```
 
 ### Special rights
@@ -904,17 +908,17 @@ In addition to the fundamental rights (`rwx`), there are the particular rights:
 * **set-group-ID** (_SGID]_)
 * **sticky-bit**
 
-As with the fundamental rights, the particular rights each have a value. This value is placed before the `ugo` set of rights.
+As with the fundamental rights, the particular rights each have a value. As with the fundamental rights, the particular rights each have a value. This value is placed before the `ugo` set of rights.
 
 ![Special rights](images/07-file-systems-015.png)
 
-!!! Danger `S`, `S` and `T` in capital letters **if the right does not exist**.
+!!! !!! Danger `S`, `S` and `T` in capital letters **if the right does not exist**.
 
 #### The sticky-bit
 
 One of the peculiarities of rights in Linux is that the right to write to a directory also allows deletion of *all* files, owner or not.
 
-The _sticky-bit_ set on the directory will only allow users to delete files they own. This is the basic case for the `/tmp` directory.
+The _sticky-bit_ set on the directory will only allow users to delete files they own. This is the basic case for the `/tmp` directory. This is the basic case for the `/tmp` directory.
 
 The setting of the _sticky-bit_ can be done as follows:
 
@@ -940,11 +944,11 @@ These rights allow execution of a command according to the rights set on the com
 
 The command is executed with the identity of the owner (_SUID_) or the group (_SGID_) of the command.
 
-!!! Note The identity of the user requesting the execution of the order is no longer taken into account.
+!!! !!! Note The identity of the user requesting the execution of the order is no longer taken into account.
 
     This is an additional possibility of access rights assigned to a user when it is necessary for them to have the same rights as the owner of a file or those of the group concerned.
 
-Indeed, a user may have to run a program (usually a system utility) but not have the necessary access rights. By setting the appropriate rights (**s** at the owner level and/or at the group level), the user of the program has, for the time of its execution, the identity of the owner (or that of the group) of the program.
+Indeed, a user may have to run a program (usually a system utility) but not have the necessary access rights. Indeed, a user may have to run a program (usually a system utility) but not have the necessary access rights. By setting the appropriate rights (**s** at the owner level and/or at the group level), the user of the program has, for the time of its execution, the identity of the owner (or that of the group) of the program.
 
 Example:
 
@@ -952,7 +956,7 @@ The file `/usr/bin/passwd` is an executable file (a command) with a _SUID_.
 
 When the user _bob_ runs it, he will have to access the `/etc/shadow` file, but the permissions on this file do not allow _bob_ to access it.
 
-Having a _SUID_ this command, `/usr/bin/passwd`, will be executed with the _UID_ of root and the _GID_ of _root_. The latter being the owner of the `/etc/shadow` file, he will have read rights.
+Having a _SUID_ this command, `/usr/bin/passwd`, will be executed with the _UID_ of root and the _GID_ of _root_. The latter being the owner of the `/etc/shadow` file, he will have read rights. The latter being the owner of the `/etc/shadow` file, he will have read rights.
 
 ![How the SUID works](images/07-file-systems-016.png)
 
@@ -977,7 +981,7 @@ Verification:
 -rwxrwsrwx … command2
 ```
 
-!!! Warning It is not possible to pass the _SUID_ or _SGID_ to a shell script. The system does not allow it because it is too dangerous for security!
+!!! !!! Warning It is not possible to pass the _SUID_ or _SGID_ to a shell script. The system does not allow it because it is too dangerous for security! The system does not allow it because it is too dangerous for security!
 
 #### SGID on a file
 
@@ -986,7 +990,7 @@ In a directory with the _SGID_ right, any file created will inherit the group th
 Example:
 ```
 [rockstar] $ ls -ld /data/
-drwxrwsr-x 2 root users 4096 26 oct. 19:43 /data
+drwxrwsr-x 2 root users 4096 26 oct. 19:43 /data 19:43 /data
 ```
 
 ```
@@ -996,6 +1000,7 @@ drwxrwsr-x 2 root users 4096 26 oct. 19:43 /data
 ```
 [rockstar] $ ls -ld /data/test_sgid /tmp/fic_reference
 -rw-r--r--. 1 rockstar users 0 26 oct. 19:43 /data/test_sgid <1>
+-rw-r--r--. 1 rockstar rockstar 0 26 oct. 19:43  /tmp/fic_ref 1 rockstar users 0 26 oct. 19:43 /data/test_sgid <1>
 -rw-r--r--. 1 rockstar rockstar 0 26 oct. 19:43  /tmp/fic_ref
 ```
 
@@ -1043,6 +1048,12 @@ $ umask -S
 u=rwx,g=rx,o=w
 $ touch umask_025
 $ ls -la  umask_025
+-rw-r---w- 1 rockstar rockstar 0 nov.   4 16:44 umask_025   4 16:44 umask_033
+$ umask 025
+$ umask -S
+u=rwx,g=rx,o=w
+$ touch umask_025
+$ ls -la  umask_025
 -rw-r---w- 1 rockstar rockstar 0 nov.   4 16:44 umask_025
 ```
 
@@ -1050,9 +1061,9 @@ $ ls -la  umask_025
 | ------ | -------------------------------- |
 | `-S`   | Symbolic display of file rights. |
 
-!!! Warning `umask` does not affect existing files.
+!!! !!! Warning `umask` does not affect existing files.
 
-!!! Note `umask` modifies the mask until the disconnection.
+!!! !!! Note `umask` modifies the mask until the disconnection.
 
 To keep the value, you have to modify the following profile files: For all users:
 
@@ -1063,6 +1074,6 @@ For a particular user:
 
 * `~/.bashrc`
 
-!!! Warning `umask -S` displays the file rights (without the execute right) of the files that will be created. So it is not the display of the mask used to subtract the maximum value.
+!!! !!! Warning `umask -S` displays the file rights (without the execute right) of the files that will be created. So it is not the display of the mask used to subtract the maximum value. So it is not the display of the mask used to subtract the maximum value.
 
-!!! Tip The `umask` command being a _bash_ command, (a `type umask` returns `umask is a shell primitive`) you have to search `umask` in `man bash`.
+!!! !!! Tip The `umask` command being a _bash_ command, (a `type umask` returns `umask is a shell primitive`) you have to search `umask` in `man bash`.
