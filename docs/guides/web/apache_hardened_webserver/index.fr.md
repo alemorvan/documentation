@@ -80,8 +80,7 @@ and the contents will be:
 #  Unless specified, the defaults for OUTPUT is ACCEPT
 #    The default for FORWARD and INPUT is DROP
 #
-echo "   clearing any existing rules and setting default policy.."
-iptables -F INPUT
+echo "   clearing any existing rules and setting default policy.." iptables -F INPUT
 iptables -P INPUT DROP
 iptables -A INPUT -p tcp -m tcp -s 192.168.1.2 --dport 22 -j ACCEPT
 iptables -A INPUT -p icmp -m icmp --icmp-type 8 -s 192.168.1.2 -j ACCEPT
