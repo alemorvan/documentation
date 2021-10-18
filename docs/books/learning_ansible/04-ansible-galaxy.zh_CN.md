@@ -36,14 +36,14 @@ The `ansible-galaxy` command manages roles and collections using [galaxy.ansible
 ansible-galaxy role [import|init|install|login|remove|...]
 ```
 
-| Sub-commands | Observations                                              |
-| ------------ | --------------------------------------------------------- |
-| `install`    | installs a role.                                          |
-| `remove`     | remove one or more roles.                                 |
-| `list`       | display the name and the version of installed roles.      |
-| `info`       | display information about a role.                         |
-| `init`       | generate a skeleton of a new role.                        |
-| `import`     | import a role from the galaxy web site. Requires a login. |
+| Sub-commands | Observations                                                                |
+| ------------ | --------------------------------------------------------------------------- |
+| `install`    | installs a role.                                                            |
+| `remove`     | remove one or more roles.                                                   |
+| `list`       | display the name and the version of installed roles.                        |
+| `info`       | display information about a role.                                           |
+| `init`       | generate a skeleton of a new role.                                          |
+| `import`     | import a role from the galaxy web site. Requires a login. Requires a login. |
 
 * To manage collections:
 
@@ -61,7 +61,7 @@ ansible-galaxy collection [import|init|install|login|remove|...]
 
 An Ansible role is a unit that promotes the reusability of playbooks.
 
-!!! Note More information can be [found here](https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html)
+!!! !!! Note More information can be [found here](https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html)
 
 ### Installing useful Roles
 
@@ -69,7 +69,7 @@ In order to highlight the interest of using roles, I suggest you to use the `ale
 
 You can check the code in the github repo of the role [here](https://github.com/alemorvan/patchmanagement).
 
-* Install the role. This needs only one command:
+* Install the role. Install the role. This needs only one command:
 
 ```
 ansible-galaxy role install alemorvan.patchmanagement
@@ -144,6 +144,29 @@ ok: [192.168.1.11] => {
 
 ...
 
+ansible-playbook patchmanagement.yml
+
+PLAY [Start a Patch Management] *************************************************************************
+
+TASK [Gathering Facts] **********************************************************************************
+ok: [192.168.1.11]
+
+TASK [Include patchmanagement] **************************************************************************
+
+TASK [alemorvan.patchmanagement : MAIN | Linux Patch Management Job] ************************************
+ok: [192.168.1.11] => {
+    "msg": "Start 192 patch management"
+}
+
+...
+
+TASK [alemorvan.patchmanagement : sample task before the update process] ********************************
+ok: [192.168.1.11] => {
+    "msg": "This is a sample tasks, feel free to add your own test task"
+}
+
+...
+
 TASK [alemorvan.patchmanagement : MAIN | We can now patch] **********************************************
 included: /home/ansible/.ansible/roles/alemorvan.patchmanagement/tasks/patch.yml for 192.168.1.11
 
@@ -195,14 +218,30 @@ ok: [192.168.1.11] => {
 }
 
 PLAY RECAP **********************************************************************************************
+192.168.1.11               : ok=31   changed=1    unreachable=0    failed=0    skipped=4    rescued=0    ignored=0
+
+TASK [alemorvan.patchmanagement : FACTS | Insert fact file] *********************************************
+ok: [192.168.1.11]
+
+TASK [alemorvan.patchmanagement : FACTS | Save date of last PM] *****************************************
+ok: [192.168.1.11]
+
+...
+
+TASK [alemorvan.patchmanagement : sample task after the update process] *********************************
+ok: [192.168.1.11] => {
+    "msg": "This is a sample tasks, feel free to add your own test task"
+}
+
+PLAY RECAP **********************************************************************************************
 192.168.1.11               : ok=31   changed=1    unreachable=0    failed=0    skipped=4    rescued=0    ignored=0  
 ```
 
 Pretty easy for such a complex process, isn't it?
 
-This is just one example of what can be done using roles made available by the community. Have a look at [galaxy.ansible.com](https://galaxy.ansible.com/) to discover the roles that could be useful for you!
+This is just one example of what can be done using roles made available by the community. This is just one example of what can be done using roles made available by the community. Have a look at [galaxy.ansible.com](https://galaxy.ansible.com/) to discover the roles that could be useful for you!
 
-You can also create your own roles for your own needs and publish them on the Internet if you feel like it. This is what we will briefly cover in the next chapter.
+You can also create your own roles for your own needs and publish them on the Internet if you feel like it. This is what we will briefly cover in the next chapter. This is what we will briefly cover in the next chapter.
 
 ### Introduction to Role development
 
@@ -238,7 +277,7 @@ rocky8/
 8 directories, 8 files
 ```
 
-Roles allow you to do away with the need to include files. There is no need to specify file paths or `include` directives in playbooks. You just have to specify a task, and Ansible takes care of the inclusions.
+Roles allow you to do away with the need to include files. Roles allow you to do away with the need to include files. There is no need to specify file paths or `include` directives in playbooks. You just have to specify a task, and Ansible takes care of the inclusions. You just have to specify a task, and Ansible takes care of the inclusions.
 
 The structure of a role is fairly obvious to understand.
 
@@ -248,15 +287,15 @@ The handlers, files, and templates needed for your code are stored in `handlers/
 
 All that remains is to define the code for your role's tasks in `tasks/main.yml`.
 
-Once all this is working well, you can use this role in your playbooks. You will be able to use your role without worrying about the technical aspect of its tasks, while customizing its operation with variables.
+Once all this is working well, you can use this role in your playbooks. Once all this is working well, you can use this role in your playbooks. You will be able to use your role without worrying about the technical aspect of its tasks, while customizing its operation with variables.
 
 ### Practical work: create a first simple role
 
-Let's implement this with a "go anywhere" role that will create a default user and install software packages. This role can be systematically applied to all your servers.
+Let's implement this with a "go anywhere" role that will create a default user and install software packages. This role can be systematically applied to all your servers. This role can be systematically applied to all your servers.
 
 #### Variables
 
-We will create a `rockstar` user on all of our servers. As we don't want this user to be overridden, let's define it in the `vars/main.yml`:
+We will create a `rockstar` user on all of our servers. As we don't want this user to be overridden, let's define it in the `vars/main.yml`: As we don't want this user to be overridden, let's define it in the `vars/main.yml`:
 
 ```
 ---
@@ -319,11 +358,11 @@ PLAY RECAP *********************************************************************
 localhost                  : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 ```
 
-Congratulations! You are now able to create great things with a playbook of only a few lines.
+Congratulations! Congratulations! You are now able to create great things with a playbook of only a few lines.
 
 Let's see the use of default variables.
 
-Create a list of packages to install by default on your servers and an empty list of packages to uninstall. Edit the `defaults/main.yml` files and add those two lists:
+Create a list of packages to install by default on your servers and an empty list of packages to uninstall. Edit the `defaults/main.yml` files and add those two lists: Edit the `defaults/main.yml` files and add those two lists:
 
 ```
 rocky8_default_packages:
@@ -413,7 +452,7 @@ PLAY RECAP *********************************************************************
 localhost                  : ok=5    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 ```
 
-Obviously, there is no limit to how much you can improve your role. Imagine that for one of your servers, you need a package that is in the list of those to be uninstalled. You could then, for example, create a new list that can be overridden and then remove from the list of packages to be uninstalled those in the list of specific packages to be installed by using the jinja `difference()` filter.
+Obviously, there is no limit to how much you can improve your role. Imagine that for one of your servers, you need a package that is in the list of those to be uninstalled. Obviously, there is no limit to how much you can improve your role. Imagine that for one of your servers, you need a package that is in the list of those to be uninstalled. You could then, for example, create a new list that can be overridden and then remove from the list of packages to be uninstalled those in the list of specific packages to be installed by using the jinja `difference()` filter.
 
 ```
 - name: "Uninstall default packages (can be overridden) {{ rocky8_remove_packages }}"
@@ -426,7 +465,7 @@ Obviously, there is no limit to how much you can improve your role. Imagine that
 
 Collections are a distribution format for Ansible content that can include playbooks, roles, modules, and plugins.
 
-!!! Note More information can be [found here](https://docs.ansible.com/ansible/latest/user_guide/collections_using.html)
+!!! !!! Note More information can be [found here](https://docs.ansible.com/ansible/latest/user_guide/collections_using.html)
 
 To install or upgrade a collection:
 
