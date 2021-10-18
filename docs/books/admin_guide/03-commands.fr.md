@@ -449,7 +449,7 @@ Example:
 
 ```bash
 $ ls /home
-.    ..    rockstar
+.    ..    ..
 ```
 
 The main options of the `ls` command are :
