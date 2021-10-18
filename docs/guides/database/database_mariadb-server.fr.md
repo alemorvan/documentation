@@ -73,7 +73,7 @@ Enter your chosen password and then confirm it by entering it again. If this is 
 ```
 Password updated successfully!
 Reloading privilege tables..
- ... Success!
+ ... ...
 ```
 
 Next the dialog deals with the anonymous user:
