@@ -24,17 +24,17 @@ In this chapter you will learn how to scale your configuration management system
 
 We have seen in the previous chapters how to organize our code in the form of roles but also how to use some roles for the management of updates (patch management) or the deployment of code.
 
-What about configuration management? How to manage the configuration of tens, hundreds, or even thousands of virtual machines with Ansible?
+What about configuration management? What about configuration management? How to manage the configuration of tens, hundreds, or even thousands of virtual machines with Ansible?
 
 The advent of the cloud has changed the traditional methods a bit. The VM is configured at deployment. If its configuration is no longer compliant, it is destroyed and replaced by a new one.
 
 The organization of the configuration management system presented in this chapter will respond to these two ways of consuming IT: "one-shot" use or regular "re-configuration" of a fleet.
 
-However, be careful: using Ansible to ensure park compliance requires changing work habits. It is no longer possible to manually modify the configuration of a service manager without seeing these modifications overwritten the next time Ansible is run.
+However, be careful: using Ansible to ensure park compliance requires changing work habits. However, be careful: using Ansible to ensure park compliance requires changing work habits. It is no longer possible to manually modify the configuration of a service manager without seeing these modifications overwritten the next time Ansible is run.
 
 !!! Note What we are going to set up below is not Ansible's favorite terrain. Technologies like Puppet or Salt will do much better. Let's remember that Ansible is a Swiss army knife of automation and is agentless, which explains the differences in performance.
 
-!!! Note More information can be [found here](https://docs.ansible.com/ansible/latest/user_guide/sample_setup.html)
+!!! !!! Note More information can be [found here](https://docs.ansible.com/ansible/latest/user_guide/sample_setup.html)
 
 ## Variables storage
 
@@ -60,11 +60,11 @@ inventories/
          hostname2.yml
 ```
 
-If the targeted node is `hostname1` of `group1`, the variables contained in the `hostname1.yml` and `group1.yml` files will be automatically loaded. It's a nice way to store all the data for all your roles in the same place.
+If the targeted node is `hostname1` of `group1`, the variables contained in the `hostname1.yml` and `group1.yml` files will be automatically loaded. It's a nice way to store all the data for all your roles in the same place. It's a nice way to store all the data for all your roles in the same place.
 
-In this way, the inventory file of your server becomes its identity card. It contains all the variables that differ from the default variables for your server.
+In this way, the inventory file of your server becomes its identity card. It contains all the variables that differ from the default variables for your server. It contains all the variables that differ from the default variables for your server.
 
-From the point of view of centralization of variables, it becomes essential to organize the naming of its variables in the roles by prefixing them, for example, with the name of the role. It is also recommended to use flat variable names rather than dictionaries.
+From the point of view of centralization of variables, it becomes essential to organize the naming of its variables in the roles by prefixing them, for example, with the name of the role. It is also recommended to use flat variable names rather than dictionaries. It is also recommended to use flat variable names rather than dictionaries.
 
 For example, if you want to make the `PermitRootLogin` value in the `sshd_config` file a variable, a good variable name could be `sshd_config_permitrootlogin` (instead of `sshd.config.permitrootlogin` which could also be a good variable name).
 
@@ -72,7 +72,7 @@ For example, if you want to make the `PermitRootLogin` value in the `sshd_config
 
 The use of Ansible tags allows you to execute or skip a part of the tasks in your code.
 
-!!! Note More information can be [found here](https://docs.ansible.com/ansible/latest/user_guide/playbooks_tags.html)
+!!! !!! Note More information can be [found here](https://docs.ansible.com/ansible/latest/user_guide/playbooks_tags.html)
 
 For example, let's modify our users creation task:
 
@@ -102,7 +102,7 @@ You can also use the `--skip-tags` option.
 
 Let's focus on a proposal for the organization of files and directories necessary for the proper functioning of a CMS (Content Management System).
 
-Our starting point will be the `site.yml` file. This file is a bit like the orchestra conductor of the CMS since it will only include the necessary roles for the target nodes if needed:
+Our starting point will be the `site.yml` file. Our starting point will be the `site.yml` file. This file is a bit like the orchestra conductor of the CMS since it will only include the necessary roles for the target nodes if needed:
 
 ```
 ---
@@ -133,7 +133,7 @@ I like to manage my global vars inside a `vars/global_vars.yml`, even if I could
     - role: roles/functionality2
 ```
 
-I also like to keep the possibility of disabling a functionality. So I include my roles with a condition and a default value like this:
+I also like to keep the possibility of disabling a functionality. I also like to keep the possibility of disabling a functionality. So I include my roles with a condition and a default value like this:
 
 ```
 ---
@@ -204,7 +204,7 @@ cms
     └── global_vars.yml
 ```
 
-!!! Note You are free to develop your roles within a collection
+!!! !!! Note You are free to develop your roles within a collection
 
 ## Tests
 
