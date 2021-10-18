@@ -41,7 +41,7 @@ By successive filiations, the `init` process is the father of all processes.
 
 There is a parent/child relationship between processes. A child process is the result of the parent process calling the _fork()_ primitive and duplicating its own code to create a child. The _PID_ of the child is returned to the parent process so that it can talk to it. Each child has its parent's identifier, the _PPID_.
 
-The _PID_ number represents the process at the time of execution. When the process finishes, the number is available again for another process. Running the same command several times will produce a different _PID_ each time.<!-- TODO !\[Parent/child relationship between processes\](images/FON-050-001.png) -->!!! Note Processes are not to be confused with _threads_. Each process has its own memory context (resources and address space), while _threads_ from the same process share this same context.
+The _PID_ number represents the process at the time of execution. When the process finishes, the number is available again for another process. Running the same command several times will produce a different _PID_ each time.<!-- TODO !\[Parent/child relationship between processes\](images/FON-050-001.png) -->!!!<!-- TODO !\[Parent/child relationship between processes\](images/FON-050-001.png) -->!!! Note Processes are not to be confused with _threads_. Each process has its own memory context (resources and address space), while _threads_ from the same process share this same context.
 
 ## Viewing processes
 
@@ -191,7 +191,7 @@ kill [-signal] PID
 Example:
 ```
 $ kill -9 1664
-```Interrupt the process (<kbd>CTRL</kdb> + <kdb>D</kdb>)</td> </tr> 
+```Example: `$ kill -9 1664`Interrupt the process (<kbd>CTRL</kdb> + <kdb>D</kdb>)</td> </tr></td> </tr> 
 
 <tr>
   <td>
@@ -263,7 +263,9 @@ $ kill -9 1664
   Example:
 </p>
 
-<pre><code>$ nohup myprogram.sh 0&lt;/dev/null &
+<pre><code>$ time ls -lR / &gt; list.ls 2&gt; /dev/null &
+[1] 15430
+$
 </code></pre>
 
 <p spaces-before="0">
@@ -298,9 +300,9 @@ $ kill -9 1664
   Example:
 </p>
 
-<pre><code>$ time ls -lR / &gt; list.ls 2&gt; /dev/null &
-[1] 15430
-$
+<pre><code>$ time ls -lR / &gt; list.ls 2&gt;/dev/null &
+$ fg 1
+time ls -lR / &gt; list.ls 2/dev/null
 </code></pre>
 
 <p spaces-before="0">
@@ -317,9 +319,7 @@ $
   The <code>fg</code> command puts the process in the foreground:
 </p>
 
-<pre><code>$ time ls -lR / &gt; list.ls 2&gt;/dev/null &
-$ fg 1
-time ls -lR / &gt; list.ls 2/dev/null
+<pre><code>$ nohup myprogram.sh 0&lt;/dev/null &
 </code></pre>
 
 <p spaces-before="0">
