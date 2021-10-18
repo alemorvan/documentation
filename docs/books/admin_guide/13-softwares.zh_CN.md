@@ -11,17 +11,17 @@ On a Linux system, it is possible to install software in two ways:
 * Using an installation package;
 * Compiling from source files.
 
-!!! Note Installing from source is not covered here. As a rule, you should use the package method unless the software you want is not available via the package manager. The reason for this is that dependencies are generally managed by the package system, whereas with source, you need to manage the dependencies manually.
+!!! Note Installing from source is not covered here. As a rule, you should use the package method unless the software you want is not available via the package manager. !!! Note Installing from source is not covered here. As a rule, you should use the package method unless the software you want is not available via the package manager. The reason for this is that dependencies are generally managed by the package system, whereas with source, you need to manage the dependencies manually.
 
-**The package**: This is a single file containing all the data needed to install the program. It can be executed directly on the system from a software repository.
+**The package**: This is a single file containing all the data needed to install the program. It can be executed directly on the system from a software repository. It can be executed directly on the system from a software repository.
 
-**The source files** : Some software is not provided in packages ready to be installed, but via an archive containing the source files. It is up to the administrator to prepare these files and compile them to install the program.
+**The source files** : Some software is not provided in packages ready to be installed, but via an archive containing the source files. It is up to the administrator to prepare these files and compile them to install the program. It is up to the administrator to prepare these files and compile them to install the program.
 
 ## RPM : RedHat Package Manager
 
-**RPM** (RedHat Package Manager) is a software management system. It is possible to install, uninstall, update or check software contained in packages.
+**RPM** (RedHat Package Manager) is a software management system. It is possible to install, uninstall, update or check software contained in packages. It is possible to install, uninstall, update or check software contained in packages.
 
-**RPM** is the format used by all RedHat based distributions (RockyLinux, Fedora, CentOS, SuSe, Mandriva, ...). Its equivalent in the Debian world is DPKG (Debian Package).
+**RPM** is the format used by all RedHat based distributions (RockyLinux, Fedora, CentOS, SuSe, Mandriva, ...). Its equivalent in the Debian world is DPKG (Debian Package). Its equivalent in the Debian world is DPKG (Debian Package).
 
 The name of an RPM package follows a specific nomenclature:
 
@@ -52,7 +52,7 @@ Example (for a package named 'package'):
 
 The `rpm` command also allows you to query the system package database by adding the `-q` option.
 
-It is possible to execute several types of queries to obtain different information about the installed packages. The RPM database is located in the directory `/var/lib/rpm`.
+It is possible to execute several types of queries to obtain different information about the installed packages. The RPM database is located in the directory `/var/lib/rpm`. The RPM database is located in the directory `/var/lib/rpm`.
 
 Example:
 
@@ -81,9 +81,9 @@ Example:
 | `-f`             | Shows the name of the package containing the specified file.                                   |
 | `--last`         | The list of packages is given by installation date (the last installed packages appear first). |
 
-!!! Warning After the `-q` option, the package name must be exact. Metacharacters (wildcards) are not supported.
+!!! !!! Warning After the `-q` option, the package name must be exact. Metacharacters (wildcards) are not supported. Metacharacters (wildcards) are not supported.
 
-!!! Tip However, it is possible to list all installed packages and filter with the `grep` command.
+!!! !!! Tip However, it is possible to list all installed packages and filter with the `grep` command.
 
 Example: list the last installed packages:
 
@@ -121,11 +121,11 @@ httpd-tools.x86_64                  2.4.37-30.module_el8.3.0+561+97fdbbcc   @app
 
 ## DNF : Dandified Yum
 
-**DNF** (**Dandified Yum**) is a software package manager, successor of **YUM** (**Yellow dog **U**pdater **M**odified). It works with **RPM** packages grouped in a local or remote repository (a directory for storing packages). For the most common commands, its usage is identical to that of `yum`.
+**DNF** (**Dandified Yum**) is a software package manager, successor of **YUM** (**Yellow dog **U**pdater **M**odified). It works with **RPM** packages grouped in a local or remote repository (a directory for storing packages). For the most common commands, its usage is identical to that of `yum`. It works with **RPM** packages grouped in a local or remote repository (a directory for storing packages). For the most common commands, its usage is identical to that of `yum`.
 
-The `dnf` command allows the management of packages by comparing those installed on the system with those in the repositories defined on the server. It also automatically installs dependencies, if they are also present in the repositories.
+The `dnf` command allows the management of packages by comparing those installed on the system with those in the repositories defined on the server. It also automatically installs dependencies, if they are also present in the repositories. It also automatically installs dependencies, if they are also present in the repositories.
 
-`dnf` is the manager used by many RedHat based distributions (RockyLinux, Fedora, CentOS, ...). Its equivalent in the Debian world is **APT** (**A**dvanced **P**ackaging **T**ool).
+`dnf` is the manager used by many RedHat based distributions (RockyLinux, Fedora, CentOS, ...). Its equivalent in the Debian world is **APT** (**A**dvanced **P**ackaging **T**ool). Its equivalent in the Debian world is **APT** (**A**dvanced **P**ackaging **T**ool).
 
 ### `dnf` command
 
@@ -152,7 +152,7 @@ Only the short name of the package is required.
 | `provides */command_name` | Search for a command.                         |
 | `info`                    | Displays the package information.             |
 
-The `dnf list` command lists all the packages installed on the system and present in the repository. It accepts several parameters:
+The `dnf list` command lists all the packages installed on the system and present in the repository. It accepts several parameters: It accepts several parameters:
 
 | Parameter   | Description                                                                |
 | ----------- | -------------------------------------------------------------------------- |
@@ -194,7 +194,7 @@ enabled=1 # Activated =1, or not activated =0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rockyofficial # GPG public key path
 ```
 
-By default, the `enabled` directive is absent which means that the repository is enabled. To disable a repository, you must specify the `enabled=0` directive.
+By default, the `enabled` directive is absent which means that the repository is enabled. By default, the `enabled` directive is absent which means that the repository is enabled. To disable a repository, you must specify the `enabled=0` directive.
 
 ## The EPEL repository
 
