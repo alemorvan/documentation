@@ -281,8 +281,7 @@ First, create a file in */etc* called "firewall.conf" that will contain the foll
 #  Unless specified, the defaults for OUTPUT is ACCEPT
 #    The default for FORWARD and INPUT is DROP
 #
-echo "   clearing any existing rules and setting default policy.."
-iptables -F INPUT
+echo "   clearing any existing rules and setting default policy.." iptables -F INPUT
 iptables -P INPUT DROP
 iptables -A INPUT -p tcp -m tcp -s 192.168.1.0/24 --dport 22 -j ACCEPT
 # dns rules
