@@ -24,7 +24,7 @@ In this chapter you will learn some advanced commands for Linux.
 
 ## `uniq` command
 
-The `uniq` command is a very powerful command, used with the `sort` command, especially for log file analysis. It allows you to sort and display entries by removing duplicates.
+The `uniq` command is a very powerful command, used with the `sort` command, especially for log file analysis. It allows you to sort and display entries by removing duplicates. It allows you to sort and display entries by removing duplicates.
 
 To illustrate how the `uniq` command works, let's use a `firstnames.txt` file containing a list of first names:
 
@@ -39,7 +39,7 @@ antoine
 steven
 ```
 
-!!! Note `uniq` requires the input file to be sorted because it only compares consecutive lines.
+!!! !!! Note `uniq` requires the input file to be sorted because it only compares consecutive lines.
 
 Without an argument, the `uniq` command will not display identical lines that follow each other in the `firstnames.txt` file:
 
@@ -114,7 +114,7 @@ xargs
 use of xargs
 ```
 
-The `xargs` command waits for an input from the standard **stdin** input. Three lines are entered. The end of the user input is specified to `xargs` by the keystroke sequence <kbd>CTRL</kbd>+<kbd>D</kbd>. `xargs` then executes the default command `echo` followed by the three arguments corresponding to the user input, namely :
+The `xargs` command waits for an input from the standard **stdin** input. Three lines are entered. The end of the user input is specified to `xargs` by the keystroke sequence <kbd>CTRL</kbd>+<kbd>D</kbd>. `xargs` then executes the default command `echo` followed by the three arguments corresponding to the user input, namely : Three lines are entered. The end of the user input is specified to `xargs` by the keystroke sequence <kbd>CTRL</kbd>+<kbd>D</kbd>. `xargs` then executes the default command `echo` followed by the three arguments corresponding to the user input, namely :
 
 ```
 $ echo "use" "of" "xargs"
@@ -132,6 +132,8 @@ $ xargs ls -ld
 /root
 <CTRL+D>
 drwxr-xr-x. 9 root root 4096  5 avril 11:10 /home
+dr-xr-x---. 2 root root 4096  5 avril 15:52 /root
+drwxrwxrwt. 3 root root 4096  6 avril 10:25 /tmp 9 root root 4096  5 avril 11:10 /home
 dr-xr-x---. 2 root root 4096  5 avril 15:52 /root
 drwxrwxrwt. 3 root root 4096  6 avril 10:25 /tmp
 ```
@@ -154,7 +156,7 @@ $ find /var/log -name "*.old" "*.log"
 find: paths must precede expression: *.log
 ```
 
-In this case, the `xargs` command must be forced to execute the `find` command several times (once per line entered as standard input). The `-L` option followed by an **integer** allows you to specify the maximum number of entries to be processed with the command at one time:
+In this case, the `xargs` command must be forced to execute the `find` command several times (once per line entered as standard input). In this case, the `xargs` command must be forced to execute the `find` command several times (once per line entered as standard input). The `-L` option followed by an **integer** allows you to specify the maximum number of entries to be processed with the command at one time:
 
 ```
 $ xargs -L 1 find /var/log -name
@@ -200,9 +202,9 @@ $ tar tvfP /root/log.tar
 -rw-r--r-- root/root    499270 2017-04-06 11:01 /var/log/audit/audit.log
 ```
 
-The special feature of the `xargs` command is that it places the input argument at the end of the called command. This works very well with the above example since the files passed in will form the list of files to be added to the archive.
+The special feature of the `xargs` command is that it places the input argument at the end of the called command. This works very well with the above example since the files passed in will form the list of files to be added to the archive. This works very well with the above example since the files passed in will form the list of files to be added to the archive.
 
-Now, if we take the example of the `cp` command and want to copy a list of files in a directory, this list of files will be added at the end of the command... but what the `cp` command expects at the end of the command is the destination. To do this, we use the `-I` option to put the input arguments somewhere else than at the end of the line.
+Now, if we take the example of the `cp` command and want to copy a list of files in a directory, this list of files will be added at the end of the command... but what the `cp` command expects at the end of the command is the destination. To do this, we use the `-I` option to put the input arguments somewhere else than at the end of the line. To do this, we use the `-I` option to put the input arguments somewhere else than at the end of the line.
 
 ```
 $ find /var/log -type f -name "*.log" | xargs -I % cp % /root/backup
@@ -214,7 +216,7 @@ The `-I` option allows you to specify a character (in our example the `%` charac
 
 The `yum-utils` package is a collection of utilities from different authors for `yum`, which make it easier and more powerful to use.
 
-!!! Note While `yum` has been replaced by `dnf` in Rocky Linux 8, the package name has remained `yum-utils` although it can be installed as `dnf-utils` as well. These are classic YUM utilities implemented as CLI shims on top of DNF to maintain backwards compatibility with `yum-3`.
+!!! !!! Note While `yum` has been replaced by `dnf` in Rocky Linux 8, the package name has remained `yum-utils` although it can be installed as `dnf-utils` as well. These are classic YUM utilities implemented as CLI shims on top of DNF to maintain backwards compatibility with `yum-3`. These are classic YUM utilities implemented as CLI shims on top of DNF to maintain backwards compatibility with `yum-3`.
 
 Here are some examples of usage:
 
@@ -264,7 +266,7 @@ $ repoquery -l yum-utils
 
 The `yumdownloader` command downloads RPM packages from the repositories.
 
-!!! Note This command is very useful to quickly build a local repository of a few rpm!
+!!! !!! Note This command is very useful to quickly build a local repository of a few rpm!
 
 Example: `yumdownloader` will download the _repoquery_ rpm package and all its dependencies:
 
@@ -323,7 +325,7 @@ The `watch` command regularly executes a command and displays the result in the 
 
 The `-n` option allows you to specify the number of seconds between each execution of the command.
 
-!!! Note To exit the `watch` command, you must type the keys: <kbd>CTRL</kbd>+<kbd>C</kbd> to kill the process.
+!!! !!! Note To exit the `watch` command, you must type the keys: <kbd>CTRL</kbd>+<kbd>C</kbd> to kill the process.
 
 Examples:
 
