@@ -313,8 +313,7 @@ This firewall script makes no other assumptions about the network services neede
 #  Unless specified, the defaults for OUTPUT is ACCEPT
 #    The default for FORWARD and INPUT is DROP
 #
-echo "   clearing any existing rules and setting default policy.."
-iptables -F INPUT
+echo "   clearing any existing rules and setting default policy.." iptables -F INPUT
 iptables -P INPUT DROP
 iptables -A INPUT -i lxdbr0 -j ACCEPT
 iptables -A INPUT -p tcp -m tcp -s 192.168.1.0/24 --dport 22 -j ACCEPT
