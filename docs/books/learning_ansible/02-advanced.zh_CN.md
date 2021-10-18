@@ -30,7 +30,7 @@ In this chapter, we can start to discover some more advanced notions of how to u
 
 ## The variables
 
-!!! Note More information can be [found here](https://docs.ansible.com/ansible/latest/user_guide/playbooks_variables.html).
+!!! !!! Note More information can be [found here](https://docs.ansible.com/ansible/latest/user_guide/playbooks_variables.html).
 
 Under Ansible, there are different types of primitive variables:
 
@@ -106,6 +106,8 @@ It can also be added dynamically with the use of the module `include_vars`:
 - name: Include secrets.
   ansible.builtin.include_vars:
     file: vault.yml
+  ansible.builtin.include_vars:
+    file: vault.yml
 ```
 
 ### Display a variable
@@ -144,7 +146,7 @@ Use of a stored variable:
     var: homes.stdout_lines[1]
 ```
 
-!!! Note The variable `homes.stdout_lines` is a list of variables of type string, a way to organize variables that we had not yet encountered.
+!!! !!! Note The variable `homes.stdout_lines` is a list of variables of type string, a way to organize variables that we had not yet encountered.
 
 The strings that make up the stored variable can be accessed via the `stdout` value (which allows you to do things like `homes.stdout.find("core") != -1`), to exploit them using a loop (see `loop`), or simply by their indices as seen in the previous example.
 
@@ -174,7 +176,7 @@ The default type should be "web".
 
 With the help of loop, you can iterate a task over a list, a hash, or dictionary for example.
 
-!!! Note More information can be [found here](https://docs.ansible.com/ansible/latest/user_guide/playbooks_loops.html).
+!!! !!! Note More information can be [found here](https://docs.ansible.com/ansible/latest/user_guide/playbooks_loops.html).
 
 Simple example of use, creation of 4 users:
 
@@ -214,7 +216,7 @@ and be used inside the task like this (after having include the vars file):
   loop: "{{ users }}"
 ```
 
-We can use the example seen during the study of stored variables to improve it. Use of a stored variable:
+We can use the example seen during the study of stored variables to improve it. Use of a stored variable: Use of a stored variable:
 
 ```
 - name: /home content
@@ -259,13 +261,13 @@ Let's see this through a concrete example, showing the management of the system 
     loop: "{{ users | dict2items }}"
 ```
 
-!!! Note Many things can be done with the loops. You will discover the possibilities offered by loops when your use of Ansible pushes you to use them in a more complex way.
+!!! Note Many things can be done with the loops. !!! Note Many things can be done with the loops. You will discover the possibilities offered by loops when your use of Ansible pushes you to use them in a more complex way.
 
 ### Exercices
 
 * Display the content of the `service` variable from the previous exercise using a loop.
 
-!!! Note You will have to transform your `service` variable, which is a dictionary, to a list with the help of the jinja filter `list` as this:
+!!! !!! Note You will have to transform your `service` variable, which is a dictionary, to a list with the help of the jinja filter `list` as this:
 
     ```
     {{ service.values() | list }}
@@ -273,11 +275,11 @@ Let's see this through a concrete example, showing the management of the system 
 
 ## Conditionals
 
-!!! Note More information can be [found here](https://docs.ansible.com/ansible/latest/user_guide/playbooks_conditionals.html).
+!!! !!! Note More information can be [found here](https://docs.ansible.com/ansible/latest/user_guide/playbooks_conditionals.html).
 
 The `when` statement is very useful in many cases: not performing certain actions on certain types of servers, if a file or a user does not exist, etc.
 
-!!! Note Behind the `when` statement the variables do not need double braces (they are in fact Jinja2 expressions...).
+!!! !!! Note Behind the `when` statement the variables do not need double braces (they are in fact Jinja2 expressions...).
 
 ```
 - name: "Reboot only Debian servers"
@@ -342,15 +344,15 @@ You will probably have to test that a variable exists to avoid execution errors:
 
 ## Managing changes: the `handlers`
 
-!!! Note More information can be [found here](https://docs.ansible.com/ansible/latest/user_guide/playbooks_handlers.html).
+!!! !!! Note More information can be [found here](https://docs.ansible.com/ansible/latest/user_guide/playbooks_handlers.html).
 
 Handlers allow to launch operations, like restarting a service, when changes occur.
 
-A module, being idempotent, a playbook can detect that there has been a significant change on a remote system, and thus trigger an operation in reaction to this change. A notification is sent at the end of a playbook task block, and the reaction operation will be triggered only once even if several tasks send the same notification.
+A module, being idempotent, a playbook can detect that there has been a significant change on a remote system, and thus trigger an operation in reaction to this change. A notification is sent at the end of a playbook task block, and the reaction operation will be triggered only once even if several tasks send the same notification. A notification is sent at the end of a playbook task block, and the reaction operation will be triggered only once even if several tasks send the same notification.
 
 ![Handlers](images/handlers.png)
 
-For example, several tasks may indicate that the `httpd` service needs to be restarted due to a change in its configuration files. But the service will only be restarted once to avoid multiple unnecessary starts.
+For example, several tasks may indicate that the `httpd` service needs to be restarted due to a change in its configuration files. But the service will only be restarted once to avoid multiple unnecessary starts. But the service will only be restarted once to avoid multiple unnecessary starts.
 
 ```
 - name: template configuration file
@@ -408,7 +410,7 @@ tasks:
 
 ## Asynchronous tasks
 
-!!! Note More information can be [found here](https://docs.ansible.com/ansible/latest/user_guide/playbooks_async.html).
+!!! !!! Note More information can be [found here](https://docs.ansible.com/ansible/latest/user_guide/playbooks_async.html).
 
 By default, SSH connections to hosts remain open during the execution of various playbook tasks on all nodes.
 
@@ -579,7 +581,7 @@ service:
 
 * Display the content of the `service` variable from the previous exercise using a loop.
 
-!!! Note You will have to transform your `service` variable, which is a dictionary, to an item or a list with the help of the jinja filters `dict2items` or `list` as this:
+!!! !!! Note You will have to transform your `service` variable, which is a dictionary, to an item or a list with the help of the jinja filters `dict2items` or `list` as this:
 
     ```
     {{ service | dict2items }}
