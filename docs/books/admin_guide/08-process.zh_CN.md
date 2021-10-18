@@ -25,9 +25,9 @@ In this chapter you will learn how to work with processes.
 
 ## Generalities
 
-An operating system consists of processes. These processes are executed in a specific order and are related to each other. There are two categories of processes, those focused on the user environment and those focused on the hardware environment.
+An operating system consists of processes. These processes are executed in a specific order and are related to each other. An operating system consists of processes. These processes are executed in a specific order and are related to each other. There are two categories of processes, those focused on the user environment and those focused on the hardware environment.
 
-When a program runs, the system will create a process by placing the program data and code in memory and creating a **runtime stack**. A process is therefore an instance of a program with an associated processor environment (ordinal counter, registers, etc...) and memory environment.
+When a program runs, the system will create a process by placing the program data and code in memory and creating a **runtime stack**. A process is therefore an instance of a program with an associated processor environment (ordinal counter, registers, etc...) and memory environment. A process is therefore an instance of a program with an associated processor environment (ordinal counter, registers, etc...) and memory environment.
 
 Each process has:
 
@@ -39,9 +39,9 @@ By successive filiations, the `init` process is the father of all processes.
 * A process is always created by a parent process;
 * A parent process can have multiple child processes.
 
-There is a parent/child relationship between processes. A child process is the result of the parent process calling the _fork()_ primitive and duplicating its own code to create a child. The _PID_ of the child is returned to the parent process so that it can talk to it. Each child has its parent's identifier, the _PPID_.
+There is a parent/child relationship between processes. There is a parent/child relationship between processes. A child process is the result of the parent process calling the _fork()_ primitive and duplicating its own code to create a child. The _PID_ of the child is returned to the parent process so that it can talk to it. Each child has its parent's identifier, the _PPID_. The _PID_ of the child is returned to the parent process so that it can talk to it. Each child has its parent's identifier, the _PPID_.
 
-The _PID_ number represents the process at the time of execution. When the process finishes, the number is available again for another process. Running the same command several times will produce a different _PID_ each time.<!-- TODO !\[Parent/child relationship between processes\](images/FON-050-001.png) -->!!! Note Processes are not to be confused with _threads_. Each process has its own memory context (resources and address space), while _threads_ from the same process share this same context.
+The _PID_ number represents the process at the time of execution. When the process finishes, the number is available again for another process. Running the same command several times will produce a different _PID_ each time.<!-- TODO !\[Parent/child relationship between processes\](images/FON-050-001.png) -->!!! Note Processes are not to be confused with _threads_. Each process has its own memory context (resources and address space), while _threads_ from the same process share this same context. When the process finishes, the number is available again for another process. Running the same command several times will produce a different _PID_ each time.<!-- TODO !\[Parent/child relationship between processes\](images/FON-050-001.png) -->!!! Note Processes are not to be confused with _threads_. Each process has its own memory context (resources and address space), while _threads_ from the same process share this same context.
 
 ## Viewing processes
 
@@ -81,7 +81,7 @@ The result is displayed in columns:
 ```
 # ps -ef
 UID  PID PPID C STIME  TTY TIME      CMD
-root 1   0    0 Jan01  ?   00:00/03  /sbin/init
+root 1   0    0 Jan01  ?   00:00/03  /sbin/init   00:00/03  /sbin/init
 ```
 
 | Column  | Description                 |
@@ -132,7 +132,7 @@ When a command is executed, the user's credentials are passed to the created pro
 
 By default, the actual `UID` and `GID` (of the process) are therefore identical to the **actual** `UID` and `GID` (the `UID` and `GID` of the user who executed the command).
 
-When a `SUID` (and/or `SGID`) is set on a command, the actual `UID` (and/or `GID`) becomes that of the owner (and/or owner group) of the command and no longer that of the user or user group that issued the command. Effective and real **UIDs** are therefore **different**.
+When a `SUID` (and/or `SGID`) is set on a command, the actual `UID` (and/or `GID`) becomes that of the owner (and/or owner group) of the command and no longer that of the user or user group that issued the command. Effective and real **UIDs** are therefore **different**. Effective and real **UIDs** are therefore **different**.
 
 Each time a file is accessed, the system checks the rights of the process according to its effective identifiers.
 
@@ -140,7 +140,7 @@ Each time a file is accessed, the system checks the rights of the process accord
 
 A process cannot be run indefinitely, as this would be to the detriment of other running processes and would prevent multitasking.
 
-The total processing time available is therefore divided into small ranges, and each process (with a priority) accesses the processor in a sequenced manner. The process will take several states during its life among the states:
+The total processing time available is therefore divided into small ranges, and each process (with a priority) accesses the processor in a sequenced manner. The process will take several states during its life among the states: The process will take several states during its life among the states:
 
 * ready: waiting for the availability of the process;
 * in execution: accesses the processor;
@@ -155,7 +155,7 @@ The end of process sequencing is as follows:
 2. Release of the used memory;
 3. Sending a signal to the parent and child processes.
 
-When a parent process dies, its children are said to be orphans. They are then adopted by the `init` process which will destroy them.
+When a parent process dies, its children are said to be orphans. They are then adopted by the `init` process which will destroy them. They are then adopted by the `init` process which will destroy them.
 
 ### The priority of a process
 
@@ -169,8 +169,8 @@ The default priority of a process is **0**.
 
 Processes can run in two ways:
 
-* **synchronous**: the user loses access to the shell during command execution. The command prompt reappears at the end of the process execution.
-* **asynchronous**: the process is processed in the background. The command prompt is displayed again immediately.
+* **synchronous**: the user loses access to the shell during command execution. The command prompt reappears at the end of the process execution. The command prompt reappears at the end of the process execution.
+* **asynchronous**: the process is processed in the background. The command prompt is displayed again immediately. The command prompt is displayed again immediately.
 
 The constraints of the asynchronous mode:
 
@@ -191,7 +191,7 @@ kill [-signal] PID
 Example:
 ```
 $ kill -9 1664
-```Interrupt the process (<kbd>CTRL</kdb> + <kdb>D</kdb>)</td> </tr> 
+```Example: `$ kill -9 1664`Interrupt the process (<kbd>CTRL</kdb> + <kdb>D</kdb>)</td> </tr></td> </tr> 
 
 <tr>
   <td>
@@ -236,11 +236,11 @@ $ kill -9 1664
 </tr></tbody> </table> 
 
 <p spaces-before="0">
-  Signals are the means of communication between processes. The <code>kill</code> command sends a signal to a process.
+  Signals are the means of communication between processes. Signals are the means of communication between processes. The <code>kill</code> command sends a signal to a process.
 </p>
 
 <p spaces-before="0">
-  !!! Tip The complete list of signals taken into account by the <code>kill</code> command is available by typing the command :
+  !!! !!! Tip The complete list of signals taken into account by the <code>kill</code> command is available by typing the command :
 </p>
 
 <pre><code>$ man 7 signal
@@ -263,7 +263,9 @@ $ kill -9 1664
   Example:
 </p>
 
-<pre><code>$ nohup myprogram.sh 0&lt;/dev/null &
+<pre><code>$ time ls -lR / &gt; list.ls 2&gt; /dev/null &
+[1] 15430
+$
 </code></pre>
 
 <p spaces-before="0">
@@ -271,7 +273,7 @@ $ kill -9 1664
 </p>
 
 <p spaces-before="0">
-  !!! Note "Question" <code>nohup</code> handles standard output and error, but not standard input, hence the redirection of this input to <code>/dev/null</code>.
+  !!! !!! Note "Question" <code>nohup</code> handles standard output and error, but not standard input, hence the redirection of this input to <code>/dev/null</code>.
 </p>
 
 
@@ -281,7 +283,7 @@ $ kill -9 1664
 </h3>
 
 <p spaces-before="0">
-  By pressing the <kbd>CTRL</kbd> + <kbd>Z</kbd> keys simultaneously, the synchronous process is temporarily suspended. Access to the prompt is restored after displaying the number of the process that has just been suspended.
+  By pressing the <kbd>CTRL</kbd> + <kbd>Z</kbd> keys simultaneously, the synchronous process is temporarily suspended. Access to the prompt is restored after displaying the number of the process that has just been suspended. Access to the prompt is restored after displaying the number of the process that has just been suspended.
 </p>
 
 
@@ -291,16 +293,16 @@ $ kill -9 1664
 </h3>
 
 <p spaces-before="0">
-  The <code>&</code> statement executes the command asynchronously (the command is then called <em x-id="4">job</em>) and displays the number of <em x-id="4">job</em>. Access to the prompt is then returned.
+  The <code>&</code> statement executes the command asynchronously (the command is then called <em x-id="4">job</em>) and displays the number of <em x-id="4">job</em>. Access to the prompt is then returned. Access to the prompt is then returned.
 </p>
 
 <p spaces-before="0">
   Example:
 </p>
 
-<pre><code>$ time ls -lR / &gt; list.ls 2&gt; /dev/null &
-[1] 15430
-$
+<pre><code>$ time ls -lR / &gt; list.ls 2&gt;/dev/null &
+$ fg 1
+time ls -lR / &gt; list.ls 2/dev/null
 </code></pre>
 
 <p spaces-before="0">
@@ -317,9 +319,7 @@ $
   The <code>fg</code> command puts the process in the foreground:
 </p>
 
-<pre><code>$ time ls -lR / &gt; list.ls 2&gt;/dev/null &
-$ fg 1
-time ls -lR / &gt; list.ls 2/dev/null
+<pre><code>$ nohup myprogram.sh 0&lt;/dev/null &
 </code></pre>
 
 <p spaces-before="0">
@@ -411,11 +411,11 @@ $
 </code></pre>
 
 <p spaces-before="0">
-  Unlike <code>root</code>, a standard user can only reduce the priority of a process. Only values between +0 and +19 will be accepted.
+  Unlike <code>root</code>, a standard user can only reduce the priority of a process. Only values between +0 and +19 will be accepted. Only values between +0 and +19 will be accepted.
 </p>
 
 <p spaces-before="0">
-  !!! Tip This last limitation can be lifted on a per-user or per-group basis by modifying the <code>/etc/security/limits.conf</code> file.
+  !!! !!! Tip This last limitation can be lifted on a per-user or per-group basis by modifying the <code>/etc/security/limits.conf</code> file.
 </p>
 
 <p spaces-before="0">
@@ -474,11 +474,11 @@ $
 </table>
 
 <p spaces-before="0">
-  The <code>renice</code> command acts on processes already running. It is therefore possible to change the priority of a specific process, but also of several processes belonging to a user or a group.
+  The <code>renice</code> command acts on processes already running. The <code>renice</code> command acts on processes already running. It is therefore possible to change the priority of a specific process, but also of several processes belonging to a user or a group.
 </p>
 
 <p spaces-before="0">
-  !!! Tip The <code>pidof</code> command, coupled with the <code>xargs</code> command (see the Advanced Commands course), allows a new priority to be applied in a single command:
+  !!! !!! Tip The <code>pidof</code> command, coupled with the <code>xargs</code> command (see the Advanced Commands course), allows a new priority to be applied in a single command:
 </p>
 
 <pre><code>$ pidof sleep | xargs renice 20
