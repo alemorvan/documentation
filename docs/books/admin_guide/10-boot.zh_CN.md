@@ -37,13 +37,13 @@ It then loads the **MBR** (Master Boot Record).
 
 ### The Master boot record (MBR)
 
-The Master Boot Record is the first 512 bytes of the boot disk. The MBR discovers the boot device and loads the bootloader **GRUB2** into memory and transfers control to it.
+The Master Boot Record is the first 512 bytes of the boot disk. The Master Boot Record is the first 512 bytes of the boot disk. The MBR discovers the boot device and loads the bootloader **GRUB2** into memory and transfers control to it.
 
 The next 64 bytes contain the partition table of the disk.
 
 ### The GRUB2 bootloader
 
-The default bootloader for the Rocky 8 distribution is **GRUB2** (GRand Unified Bootloader). GRUB2 replaces the old GRUB bootloader (also called GRUB legacy).
+The default bootloader for the Rocky 8 distribution is **GRUB2** (GRand Unified Bootloader). GRUB2 replaces the old GRUB bootloader (also called GRUB legacy). GRUB2 replaces the old GRUB bootloader (also called GRUB legacy).
 
 The GRUB 2 configuration file is located under `/boot/grub2/grub.cfg` but this file should not be edited directly.
 
@@ -72,12 +72,12 @@ If changes are made to one or more of these parameters, the `grub2-mkconfig` com
 
 The kernel starts the `systemd` process with PID 1.
 ```
-root          1      0  0 02:10 ?        00:00:02 /usr/lib/systemd/systemd --switched-root --system --deserialize 23
+root          1      0  0 02:10 ?        root          1      0  0 02:10 ?        00:00:02 /usr/lib/systemd/systemd --switched-root --system --deserialize 23
 ```
 
 ### `systemd`
 
-Systemd is the parent of all system processes. It reads the target of the `/etc/systemd/system/default.target` link (e.g. `/usr/lib/systemd/system/multi-user.target`) to determine the default target of the system. The file defines the services to be started.
+Systemd is the parent of all system processes. Systemd is the parent of all system processes. It reads the target of the `/etc/systemd/system/default.target` link (e.g. `/usr/lib/systemd/system/multi-user.target`) to determine the default target of the system. The file defines the services to be started. The file defines the services to be started.
 
 Systemd then places the system in the target-defined state by performing the following initialization tasks:
 
@@ -96,7 +96,7 @@ Why protect the bootloader with a password?
 
 1. Prevent *Single* user mode access - If an attacker can boot into single user mode, he becomes the root user.
 2. Prevent access to GRUB console - If an attacker manages to use GRUB console, he can change its configuration or collect information about the system by using the `cat` command.
-3. Prevent access to insecure operating systems. If there is a dual boot on the system, an attacker can select an operating system like DOS at boot time that ignores access controls and file permissions.
+3. Prevent access to insecure operating systems. Prevent access to insecure operating systems. If there is a dual boot on the system, an attacker can select an operating system like DOS at boot time that ignores access controls and file permissions.
 
 To password protect the GRUB2 bootloader:
 
@@ -108,9 +108,9 @@ To password protect the GRUB2 bootloader:
 # grub2-setpassword
 ```
 
-A `/boot/grub2/user.cfg` file will be created if it was not already present. It contains the hashed password of the GRUB2.
+A `/boot/grub2/user.cfg` file will be created if it was not already present. It contains the hashed password of the GRUB2. It contains the hashed password of the GRUB2.
 
-!!! Note This command only supports configurations with a single root user.
+!!! !!! Note This command only supports configurations with a single root user.
 
 ```
 [root]# cat /boot/grub2/user.cfg
@@ -127,16 +127,21 @@ Found initrd image: /boot/initramfs-3.10.0-327.el7.x86_64.img
 Found linux image: /boot/vmlinuz-0-rescue-f9725b0c842348ce9e0bc81968cf7181
 Found initrd image: /boot/initramfs-0-rescue-f9725b0c842348ce9e0bc81968cf7181.img
 done
+Found linux image: /boot/vmlinuz-3.10.0-327.el7.x86_64
+Found initrd image: /boot/initramfs-3.10.0-327.el7.x86_64.img
+Found linux image: /boot/vmlinuz-0-rescue-f9725b0c842348ce9e0bc81968cf7181
+Found initrd image: /boot/initramfs-0-rescue-f9725b0c842348ce9e0bc81968cf7181.img
+done
 ```
 
 * Restart the server and check.
 
-All entries defined in the GRUB menu will now require a user and password to be entered at each boot. The system will not boot a kernel without direct user intervention from the console.
+All entries defined in the GRUB menu will now require a user and password to be entered at each boot. The system will not boot a kernel without direct user intervention from the console. The system will not boot a kernel without direct user intervention from the console.
 
 * When the user is requested, enter `root`;
 * When a password is requested, enter the password provided at the `grub2-setpassword` command.
 
-To protect only the editing of GRUB menu entries and access to the console, the execution of the `grub2-setpassword` command is sufficient. There may be cases where you have good reasons for doing only that. This might be particularly true in a remote data center where entering a password each time a server is rebooted is either difficult or impossible to do.
+To protect only the editing of GRUB menu entries and access to the console, the execution of the `grub2-setpassword` command is sufficient. There may be cases where you have good reasons for doing only that. This might be particularly true in a remote data center where entering a password each time a server is rebooted is either difficult or impossible to do. There may be cases where you have good reasons for doing only that. This might be particularly true in a remote data center where entering a password each time a server is rebooted is either difficult or impossible to do.
 
 ## Systemd
 
@@ -147,7 +152,7 @@ It is developed to:
 * remain compatible with older SysV initialization scripts,
 * provide many features, such as parallel start of system services at system startup, on-demand activation of daemons, support for snapshots, or management of dependencies between services.
 
-!!! Note Systemd is the default initialization system since RedHat/CentOS 7.
+!!! !!! Note Systemd is the default initialization system since RedHat/CentOS 7.
 
 Systemd introduces the concept of systemd units.
 
@@ -157,25 +162,25 @@ Systemd introduces the concept of systemd units.
 | Target unit  | `.target`      | A group of systemd units                 |
 | Mount unit   | `.automount`   | An automatic mount point for file system |
 
-!!! Note There are many types of units: Device unit, Mount unit, Path unit, Scope unit, Slice unit, Snapshot unit, Socket unit, Swap unit, Timer unit.
+!!! !!! Note There are many types of units: Device unit, Mount unit, Path unit, Scope unit, Slice unit, Snapshot unit, Socket unit, Swap unit, Timer unit.
 
 * Systemd supports system state snapshots and restore.
 
 * Mount points can be configured as systemd targets.
 
-* At startup, systemd creates listening sockets for all system services that support this type of activation and passes these sockets to these services as soon as they are started. This makes it possible to restart a service without losing a single message sent to it by the network during its unavailability. The corresponding socket remains accessible and all messages are queued.
+* At startup, systemd creates listening sockets for all system services that support this type of activation and passes these sockets to these services as soon as they are started. This makes it possible to restart a service without losing a single message sent to it by the network during its unavailability. The corresponding socket remains accessible and all messages are queued. This makes it possible to restart a service without losing a single message sent to it by the network during its unavailability. The corresponding socket remains accessible and all messages are queued.
 
 * System services that use D-BUS for their inter-process communications can be started on demand the first time they are used by a client.
 
-* Systemd stops or restarts only running services. Previous versions (before RHEL7) attempted to stop services directly without checking their current status.
+* Systemd stops or restarts only running services. Systemd stops or restarts only running services. Previous versions (before RHEL7) attempted to stop services directly without checking their current status.
 
-* System services do not inherit any context (like HOME and PATH environment variables). Each service operates in its own execution context.
+* System services do not inherit any context (like HOME and PATH environment variables). Each service operates in its own execution context. Each service operates in its own execution context.
 
 All service unit operations are subject to a default timeout of 5 minutes to prevent a malfunctioning service from freezing the system.
 
 ### Managing system services
 
-Service units end with the `.service` file extension and have a similar purpose to init scripts. The `systemctl` command is used to `display`, `start`, `stop`, `restart` a system service:
+Service units end with the `.service` file extension and have a similar purpose to init scripts. Service units end with the `.service` file extension and have a similar purpose to init scripts. The `systemctl` command is used to `display`, `start`, `stop`, `restart` a system service:
 
 | systemctl                                 | Description                             |
 | ----------------------------------------- | --------------------------------------- |
@@ -251,7 +256,7 @@ WantedBy=multi-user.target
 
 On Rocky8/RHEL8, the concept of run levels has been replaced by Systemd targets.
 
-Systemd targets are represented by target units. Target units end with the `.target` file extension and their sole purpose is to group other Systemd units into a chain of dependencies.
+Systemd targets are represented by target units. Systemd targets are represented by target units. Target units end with the `.target` file extension and their sole purpose is to group other Systemd units into a chain of dependencies.
 
 For example, the `graphical.target` unit, which is used to start a graphical session, starts system services such as the **GNOME display manager** (`gdm.service`) or the **accounts service** (`accounts-daemon.service`) and also activates the `multi-user.target` unit.
 
@@ -338,7 +343,7 @@ To change the current target and enter `rescue mode` in the current session:
 systemctl rescue
 ```
 
-**Emergency mode** provides the most minimalist environment possible and allows the system to be repaired even in situations where the system is unable to enter rescue mode. In the emergency mode, the system mounts the root file system only for reading. It will not attempt to mount any other local file system, will not activate any network interface, and will start some essential services.
+**Emergency mode** provides the most minimalist environment possible and allows the system to be repaired even in situations where the system is unable to enter rescue mode. In the emergency mode, the system mounts the root file system only for reading. It will not attempt to mount any other local file system, will not activate any network interface, and will start some essential services. In the emergency mode, the system mounts the root file system only for reading. It will not attempt to mount any other local file system, will not activate any network interface, and will start some essential services.
 
 To change the current target and enter emergency mode in the current session:
 
@@ -375,7 +380,7 @@ The `journalctl` command displays the log files.
 journalctl
 ```
 
-The command lists all log files generated on the system. The structure of this output is similar to that used in `/var/log/messages/` but it offers some improvements:
+The command lists all log files generated on the system. The command lists all log files generated on the system. The structure of this output is similar to that used in `/var/log/messages/` but it offers some improvements:
 
 * the priority of entries is marked visually;
 * timestamps are converted to the local time zone of your system;
@@ -390,11 +395,11 @@ With continuous display, log messages are displayed in real time.
 journalctl -f
 ```
 
-This command returns a list of the ten most recent log lines. The journalctl utility then continues to run and waits for new changes to occur before displaying them immediately.
+This command returns a list of the ten most recent log lines. This command returns a list of the ten most recent log lines. The journalctl utility then continues to run and waits for new changes to occur before displaying them immediately.
 
 #### Filtering messages
 
-It is possible to use different filtering methods to extract information that fits different needs. Log messages are often used to track erroneous behavior on the system. To view entries with a selected or higher priority:
+It is possible to use different filtering methods to extract information that fits different needs. Log messages are often used to track erroneous behavior on the system. To view entries with a selected or higher priority: Log messages are often used to track erroneous behavior on the system. To view entries with a selected or higher priority:
 
 ```
 journalctl -p priority
