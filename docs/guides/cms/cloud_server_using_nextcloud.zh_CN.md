@@ -4,7 +4,7 @@
 
 * Server running Rocky Linux (you can install Nextcloud on any Linux distribution, but this procedure will assume you're using Rocky).
 * A high degree of comfort operating from the command line for installation and for configuration.
-* Knowledge of a command-line editor. For this example, we are using _vi_, but you can use your favorite editor if you have one.
+* Knowledge of a command-line editor. Knowledge of a command-line editor. For this example, we are using _vi_, but you can use your favorite editor if you have one.
 * While Nextcloud can be installed via a snap application, we will be downloading and installing the .zip file.
 * We will be applying concepts from the Apache sites enabled document (linked to later in this document) for directory setup.
 * We will also be using the _mariadb-server_ hardening procedure (also linked to later) for database setup.
@@ -13,15 +13,15 @@
 
 ## Introduction
 
-If you are in charge of a server environment for a large (or even a small) company, you may be tempted by cloud applications. Doing things in the cloud can free up your own resources for other things, but there is a downside to this, and that is the loss of control of your company's data. If the cloud application is compromised, so too may be your company's data.
+If you are in charge of a server environment for a large (or even a small) company, you may be tempted by cloud applications. Doing things in the cloud can free up your own resources for other things, but there is a downside to this, and that is the loss of control of your company's data. If you are in charge of a server environment for a large (or even a small) company, you may be tempted by cloud applications. Doing things in the cloud can free up your own resources for other things, but there is a downside to this, and that is the loss of control of your company's data. If the cloud application is compromised, so too may be your company's data.
 
-Taking the cloud back into your own environment is a way to reclaim security of your data at the expense of your time and energy. Sometimes, that is a cost worth paying.
+Taking the cloud back into your own environment is a way to reclaim security of your data at the expense of your time and energy. Sometimes, that is a cost worth paying. Sometimes, that is a cost worth paying.
 
-Nextcloud offers an open source cloud with security and flexibility in mind. Note that building a Nextcloud server is a good exercise, even if in the end you opt to take your cloud off-site. The following procedure deals with setting up Nextcloud on Rocky Linux.
+Nextcloud offers an open source cloud with security and flexibility in mind. Nextcloud offers an open source cloud with security and flexibility in mind. Note that building a Nextcloud server is a good exercise, even if in the end you opt to take your cloud off-site. The following procedure deals with setting up Nextcloud on Rocky Linux. The following procedure deals with setting up Nextcloud on Rocky Linux.
 
 ## Installing And Configuring Repositories
 
-For this installation, we will require two repositories. We need to install the EPEL (Extra Packages for Enterprise Linux) and the Remi Repository for PHP 7.4 (version 7.3 or 7.4 is required and Rocky Linux provides 7.2.x).
+For this installation, we will require two repositories. For this installation, we will require two repositories. We need to install the EPEL (Extra Packages for Enterprise Linux) and the Remi Repository for PHP 7.4 (version 7.3 or 7.4 is required and Rocky Linux provides 7.2.x).
 
 To install the EPEL run:
 
@@ -72,7 +72,7 @@ And the output again is the same except for this line:
 
 ## Installing Packages
 
-We need a lot of packages installed. Some of these may already be installed with your default Rocky Linux installation, but make sure by running the following command the following:
+We need a lot of packages installed. We need a lot of packages installed. Some of these may already be installed with your default Rocky Linux installation, but make sure by running the following command the following:
 
 `dnf install httpd mariadb-server vim wget zip unzip libxml2 openssl php74-php php74-php-ctype php74-php-curl php74-php-gd php74-php-iconv php74-php-json php74-php-libxml php74-php-mbstring php74-php-openssl php74-php-posix php74-php-session php74-php-xml php74-php-zip php74-php-zlib php74-php-pdo php74-php-mysqlnd php74-php-intl php74-php-bcmath php74-php-gmp`
 
@@ -84,7 +84,7 @@ Set _apache_ to start on boot:
 
 `systemctl enable httpd`
 
-As noted earlier, we are using the "Apache Sites Enabled" procedure found [here](../web/apache-sites-enabled.md) to configure Apache. Follow that guide to get the configuration directories setup and the _httpd.conf_ file modified and then return to this document for the remaining steps.
+As noted earlier, we are using the "Apache Sites Enabled" procedure found [here](../web/apache-sites-enabled.md) to configure Apache. Follow that guide to get the configuration directories setup and the _httpd.conf_ file modified and then return to this document for the remaining steps. Follow that guide to get the configuration directories setup and the _httpd.conf_ file modified and then return to this document for the remaining steps.
 
 #### Create The Configuration
 
@@ -120,7 +120,7 @@ Next, create a link to this file in /etc/httpd/sites-enabled:
 
 #### Creating The Directory
 
-As noted in the configuration above, the _DocumentRoot_ needs to be created. This can be done by:
+As noted in the configuration above, the _DocumentRoot_ needs to be created. This can be done by: This can be done by:
 
 `mkdir -p /var/www/sub-domains/com.yourdomain.com/html`
 
@@ -128,11 +128,11 @@ This is where our Nextcloud instance will be installed.
 
 ### Configuring PHP
 
-Find your timezone. This can be done by:
+Find your timezone. This can be done by: This can be done by:
 
 `cd /usr/share/zoneinfo`
 
-If you are in the Central timezone, for instance, you could either use "US/Central" or "America/Chicago" and either setting would work. Once you have identified your timezone, the next thing we need to do is populate the php.ini file with this information.
+If you are in the Central timezone, for instance, you could either use "US/Central" or "America/Chicago" and either setting would work. If you are in the Central timezone, for instance, you could either use "US/Central" or "America/Chicago" and either setting would work. Once you have identified your timezone, the next thing we need to do is populate the php.ini file with this information.
 
 To do this:
 
@@ -150,7 +150,7 @@ OR
 
 `date.timezone = "US/Central"`
 
-Note that for the sake of keeping things the same, your timezone in the _php.ini_ file should match up to your machine's timezone setting. You can find out what this is set to by doing the following:
+Note that for the sake of keeping things the same, your timezone in the _php.ini_ file should match up to your machine's timezone setting. You can find out what this is set to by doing the following: You can find out what this is set to by doing the following:
 
 `ls -al /etc/localtime`
 
@@ -172,7 +172,7 @@ Again, as indicated earlier, we will be using the setup procedure for hardening 
 
 ## Installing Nextcloud
 
-There are several ways to install Nextcloud which you can review on the web site under the manual for installation. What we will be using here is the server install .zip file.
+There are several ways to install Nextcloud which you can review on the web site under the manual for installation. What we will be using here is the server install .zip file. What we will be using here is the server install .zip file.
 
 ### Get The Nextcloud .zip File And Unzip
 
@@ -181,8 +181,8 @@ The next few steps assume that you are remotely connected to your Nextcloud serv
 * Navigate to the [Nextcloud web site](https://nextcloud.com/)
 * Let your mouse hover over "Get Nextcloud" which will bring up a drop down menu.
 * Click on "Server Packages".
-* Right-click on "Download Nextcloud" and copy the link address. (the exact syntax of this is different browser to browser)
-* In your remote console on the Nextcloud server, type "wget" and then a space and paste in what you just copied. You should get something like the following: `wget https://download.nextcloud.com/server/releases/nextcloud-21.0.1.zip`
+* Right-click on "Download Nextcloud" and copy the link address. (the exact syntax of this is different browser to browser) (the exact syntax of this is different browser to browser)
+* In your remote console on the Nextcloud server, type "wget" and then a space and paste in what you just copied. You should get something like the following: `wget https://download.nextcloud.com/server/releases/nextcloud-21.0.1.zip` You should get something like the following: `wget https://download.nextcloud.com/server/releases/nextcloud-21.0.1.zip`
 * Once you hit enter, the download of the .zip file will start and will be completed fairly quickly.
 
 Once the download is complete, unzip the nextcloud zip file by using the following:
@@ -191,7 +191,7 @@ Once the download is complete, unzip the nextcloud zip file by using the followi
 
 ### Copying Content And Changing Permissions
 
-After completing the unzip step, you should now have a new directory in /root called "nextcloud." Change into this directory:
+After completing the unzip step, you should now have a new directory in /root called "nextcloud." Change into this directory: Change into this directory:
 
 `cd nextcloud`
 
@@ -203,17 +203,17 @@ OR
 
 `mv * /var/www/sub-domains/com.yourdomain.nextcloud/html/`
 
-Now that everything is where it should be, the next step is to make sure that apache owns the directory. To do this:
+Now that everything is where it should be, the next step is to make sure that apache owns the directory. To do this: To do this:
 
 `chown -Rf apache.apache /var/www/sub-domains/com.yourdomain.nextcloud/html`
 
-For security reasons, we also want to move the "data" folder from inside to outside of the _DocumentRoot_. Do this with the following command:
+For security reasons, we also want to move the "data" folder from inside to outside of the _DocumentRoot_. Do this with the following command: Do this with the following command:
 
 `mv /var/www/sub-domains/com.yourdomain.nextcloud/html/data /var/www/sub-domains/com.yourdomain.nextcloud/`
 
 ### Configuring Nextcloud
 
-Now comes the fun! First, make sure that you have your services running. If you followed the above steps, they should already be running. We have had several steps between those initial service starts, so let's go ahead and restart them, just to be sure:
+Now comes the fun! First, make sure that you have your services running. If you followed the above steps, they should already be running. Now comes the fun! First, make sure that you have your services running. If you followed the above steps, they should already be running. We have had several steps between those initial service starts, so let's go ahead and restart them, just to be sure:
 
 ```plain text
 systemctl restart httpd
@@ -241,16 +241,16 @@ There are a couple of things that we want to do differently than the defaults th
 
 Now cross your fingers and click "Finish Setup".
 
-The browser window will refresh for a bit and then usually not reload the site. Enter your URL in the browser window again and you should be confronted with the default first pages. Your administrative user is already (or should be) logged in at this point, and there are several informational pages designed to get you up to speed.
+The browser window will refresh for a bit and then usually not reload the site. Enter your URL in the browser window again and you should be confronted with the default first pages. Your administrative user is already (or should be) logged in at this point, and there are several informational pages designed to get you up to speed. Enter your URL in the browser window again and you should be confronted with the default first pages. Your administrative user is already (or should be) logged in at this point, and there are several informational pages designed to get you up to speed.
 
-The "Dashboard" is what users will see when they first login. The administrative user can now create other users, install other applications and many other tasks.
+The "Dashboard" is what users will see when they first login. The "Dashboard" is what users will see when they first login. The administrative user can now create other users, install other applications and many other tasks.
 
-The "Nextcloud Manual.pdf" is the user manual, so that users can get familiar with what is available. The administrative user should read through or at least scan the high points of the admin manual [On the Nextcloud web site](https://docs.nextcloud.com/server/21/admin_manual/)
+The "Nextcloud Manual.pdf" is the user manual, so that users can get familiar with what is available. The "Nextcloud Manual.pdf" is the user manual, so that users can get familiar with what is available. The administrative user should read through or at least scan the high points of the admin manual [On the Nextcloud web site](https://docs.nextcloud.com/server/21/admin_manual/)
 
 ### Next Steps
 
-At this point, don't forget that this is a server that you will be storing company data on. It's important to get it locked down with a firewall, get the [backups setup](../backup/rsnapshot_backup.md), secure the site with an [SSL](../security/generating_ssl_keys_lets_encrypt.md), and any other duties that are required to keep your data safe.
+At this point, don't forget that this is a server that you will be storing company data on. At this point, don't forget that this is a server that you will be storing company data on. It's important to get it locked down with a firewall, get the [backups setup](../backup/rsnapshot_backup.md), secure the site with an [SSL](../security/generating_ssl_keys_lets_encrypt.md), and any other duties that are required to keep your data safe.
 
 ## Conclusions
 
-A decision to take the company cloud in house is one that needs to be evaluated carefully. For those that decide that keeping company data locally is preferable over an external cloud host, Nextcloud is a good alternative.
+A decision to take the company cloud in house is one that needs to be evaluated carefully. A decision to take the company cloud in house is one that needs to be evaluated carefully. For those that decide that keeping company data locally is preferable over an external cloud host, Nextcloud is a good alternative.
