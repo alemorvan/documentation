@@ -25,7 +25,7 @@ In this chapter you will learn how to deploy applications with the Ansible role 
 
 ****
 
-Ansistrano is an Ansible role to easily deploy PHP, Python, etc. applications. It is based on the functionality of [Capistrano](http://capistranorb.com/).
+Ansistrano is an Ansible role to easily deploy PHP, Python, etc. applications. It is based on the functionality of [Capistrano](http://capistranorb.com/). It is based on the functionality of [Capistrano](http://capistranorb.com/).
 
 ## Introduction
 
@@ -36,7 +36,7 @@ Ansistrano requires the following to run:
 
 It can download source code from `rsync`, `git`, `scp`, `http`, `S3`, ...
 
-!!! Note For our deployment example, we will use the `git` protocol.
+!!! !!! Note For our deployment example, we will use the `git` protocol.
 
 Ansistrano deploys applications by following these 5 steps:
 
@@ -71,7 +71,7 @@ You will continue to work on your 2 servers:
 
 The management server:
 
-* Ansible is already installed. You will have to install the `ansistrano.deploy` role.
+* Ansible is already installed. Ansible is already installed. You will have to install the `ansistrano.deploy` role.
 
 The managed server:
 
@@ -114,10 +114,10 @@ Technical considerations:
 
 * We will deploy our site to the `/var/www/site/` folder.
 * As we will see later, `ansistrano` will create a `current` symbolic link to the current release folder.
-* The source code to be deployed contains a `html` folder which the vhost should point to. Its `DirectoryIndex` is `index.htm`.
+* The source code to be deployed contains a `html` folder which the vhost should point to. Its `DirectoryIndex` is `index.htm`. Its `DirectoryIndex` is `index.htm`.
 * The deployment is done by `git`, the package will be installed.
 
-!!! Note The target of our vhost will therefore be: `/var/www/site/current/html`.
+!!! !!! Note The target of our vhost will therefore be: `/var/www/site/current/html`.
 
 Our playbook to configure the server: `playbook-config-server.yml`
 
@@ -172,6 +172,11 @@ TASK [geerlingguy.apache : Configure Apache.] **********************************
 TASK [geerlingguy.apache : Add apache vhosts configuration.] *******************
 TASK [geerlingguy.apache : Ensure Apache has selected state and enabled on boot.] ***
 TASK [permit traffic in default zone for http service] *************************
+RUNNING HANDLER [geerlingguy.apache : restart apache] ************************** ****************
+TASK [geerlingguy.apache : Configure Apache.] **********************************
+TASK [geerlingguy.apache : Add apache vhosts configuration.] *******************
+TASK [geerlingguy.apache : Ensure Apache has selected state and enabled on boot.] ***
+TASK [permit traffic in default zone for http service] *************************
 RUNNING HANDLER [geerlingguy.apache : restart apache] **************************
 ```
 
@@ -187,7 +192,7 @@ Server: Apache/2.4.37 (rocky) OpenSSL/1.1.1g
 Content-Type: text/html; charset=iso-8859-1
 ```
 
-!!! Note We have not yet deployed any code, so it is normal for `curl` to return a `404` HTTP code. But we can already confirm that the `httpd` service is working and that the firewall is open.
+!!! !!! Note We have not yet deployed any code, so it is normal for `curl` to return a `404` HTTP code. But we can already confirm that the `httpd` service is working and that the firewall is open. But we can already confirm that the `httpd` service is working and that the firewall is open.
 
 ### Deploying the software
 
@@ -334,7 +339,7 @@ Please note:
 
 The `ansistrano_keep_releases` variable is used to specify the number of releases to keep.
 
-* Using the `ansistrano_keep_releases` variable, keep only 3 releases of the project. Check.
+* Using the `ansistrano_keep_releases` variable, keep only 3 releases of the project. Check. Check.
 
 ```
 ---
@@ -605,7 +610,7 @@ The `ansistrano_git_branch` variable is used to specify a `branch` or `tag` to d
      - { role: ansistrano.deploy }
 ```
 
-!!! Note You can have fun, during the deployment, refreshing your browser, to see in 'live' the change.
+!!! !!! Note You can have fun, during the deployment, refreshing your browser, to see in 'live' the change.
 
 ```
 $ curl http://192.168.1.11
@@ -710,6 +715,7 @@ Create the file `deploy/before-setup-tasks.yml`:
   mail:
     subject: Starting deployment on {{ ansible_hostname }}.
   delegate_to: localhost
+  delegate_to: localhost
 ```
 
 ```
@@ -723,11 +729,13 @@ ok: [192.168.10.11 -> localhost]
 ```
 [root] # mailx
 Heirloom Mail version 12.5 7/5/10.  Type ? for help.
+[root] # mailx
+Heirloom Mail version 12.5 7/5/10.  Type ? for help.
 "/var/spool/mail/root": 1 message 1 new
 >N  1 root@localhost.local  Tue Aug 21 14:41  28/946   "Starting deployment on localhost."
 ```
 
-* You will probably have to restart some services at the end of the deployment, to flush caches for example. Let's restart Apache at the end of the deployment:
+* You will probably have to restart some services at the end of the deployment, to flush caches for example. Let's restart Apache at the end of the deployment: Let's restart Apache at the end of the deployment:
 
 ```
 ---
@@ -772,6 +780,6 @@ TASK [ansistrano.deploy : restart apache] **************************************
 changed: [192.168.10.11]
 ```
 
-As you have seen during this chapter, Ansible can greatly improve the life of the system administrator. Very intelligent roles like Ansistrano are "must haves" that quickly become indispensable.
+As you have seen during this chapter, Ansible can greatly improve the life of the system administrator. Very intelligent roles like Ansistrano are "must haves" that quickly become indispensable. Very intelligent roles like Ansistrano are "must haves" that quickly become indispensable.
 
-Using Ansistrano, ensures that good deployment practices are respected, reduces the time needed to put a system into production, and avoids the risk of potential human errors. The machine works fast, well, and rarely makes mistakes!
+Using Ansistrano, ensures that good deployment practices are respected, reduces the time needed to put a system into production, and avoids the risk of potential human errors. The machine works fast, well, and rarely makes mistakes! The machine works fast, well, and rarely makes mistakes!
