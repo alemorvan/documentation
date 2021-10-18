@@ -231,9 +231,7 @@ To setup everything with SELinux, you'll need an additional package installed:
 You'll need to set the following contexts for LibreNMS to work properly with SELinux:
 
 ```
-semanage fcontext -a -t httpd_sys_content_t '/opt/librenms/html(/.*)?'
-semanage fcontext -a -t httpd_sys_rw_content_t '/opt/librenms/(logs|rrd|storage)(/.*)?'
-restorecon -RFvv /opt/librenms
+semanage fcontext -a -t httpd_sys_content_t '/opt/librenms/html(/.*)?' semanage fcontext -a -t httpd_sys_rw_content_t '/opt/librenms/(logs|rrd|storage)(/.*)?' restorecon -RFvv /opt/librenms
 setsebool -P httpd_can_sendmail=1
 setsebool -P httpd_execmem 1
 chcon -t httpd_sys_rw_content_t /opt/librenms/.env
@@ -298,8 +296,7 @@ Place the following in the file, substituting your network IP addresses as neede
 #  Unless specified, the defaults for OUTPUT is ACCEPT
 #    The default for FORWARD and INPUT is DROP
 #
-echo "   clearing any existing rules and setting default policy.."
-iptables -F INPUT
+echo "   clearing any existing rules and setting default policy.." iptables -F INPUT
 iptables -P INPUT DROP
 iptables -A INPUT -p udp -m udp -s 192.168.1.0/24 -j ACCEPT
 iptables -A INPUT -p tcp -m tcp -s 192.168.1.0/24 --dport 22 -j ACCEPT
@@ -502,8 +499,7 @@ If you are running a server, then you **are** running a firewall, right?  We are
 #  Unless specified, the defaults for OUTPUT is ACCEPT
 #    The default for FORWARD and INPUT is DROP
 #
-echo "   clearing any existing rules and setting default policy.."
-iptables -F INPUT
+echo "   clearing any existing rules and setting default policy.." iptables -F INPUT
 iptables -P INPUT DROP
 iptables -A INPUT -p icmp --icmp-type 8 -s 192.168.1.140 -j ACCEPT
 iptables -A INPUT -p udp -m udp -s 192.168.1.140 -j ACCEPT
