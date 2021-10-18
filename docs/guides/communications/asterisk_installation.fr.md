@@ -158,8 +158,7 @@ AST_GROUP="asterisk"
 Remove the comments on the two lines below and save:
 
 ```
-runuser = asterisk ; The user to run as.
-rungroup = asterisk ; The group to run as.
+runuser = asterisk ; The user to run as. rungroup = asterisk ; The group to run as.
 ```
 
 ### Configure Asterisk Service
