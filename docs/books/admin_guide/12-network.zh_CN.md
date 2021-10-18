@@ -51,7 +51,7 @@ Example:
 
 The notation called CIDR is more and more frequent: 192.168.1.10/24
 
-IP addresses are used for the proper routing of messages (packets). They are divided into two parts:
+IP addresses are used for the proper routing of messages (packets). They are divided into two parts: They are divided into two parts:
 
 * the fixed part, identifying the network;
 * the identifier of the host in the network.
@@ -61,27 +61,27 @@ The subnet mask is a set of **4 bytes** intended to isolate:
 * the network address (**NetID** or **SubnetID**) by performing a bitwise logical AND between the IP address and the mask;
 * the host address (**HostID**) by performing a bitwise logical AND between the IP address and the complement of the mask.
 
-There are also specific addresses within a network, which must be identified. The first address of a range as well as the last one have a particular role:
+There are also specific addresses within a network, which must be identified. There are also specific addresses within a network, which must be identified. The first address of a range as well as the last one have a particular role:
 
-* The first address of a range is the **network address**. It is used to identify networks and to route information from one network to another.
+* The first address of a range is the **network address**. It is used to identify networks and to route information from one network to another. It is used to identify networks and to route information from one network to another.
 
-* The last address of a range is the **broadcast address**. It is used to broadcast information to all the machines on the network.
+* The last address of a range is the **broadcast address**. It is used to broadcast information to all the machines on the network. It is used to broadcast information to all the machines on the network.
 
 ### MAC address / IP address
 
-A **MAC address** is a physical identifier written in the factory onto the device. This is sometimes referred to as the hardware address. It consists of 6 bytes often given in hexadecimal form (for example 5E:FF:56:A2:AF:15). It is composed of : 3 bytes of the manufacturer identifier and 3 bytes of the serial number.
+A **MAC address** is a physical identifier written in the factory onto the device. This is sometimes referred to as the hardware address. It consists of 6 bytes often given in hexadecimal form (for example 5E:FF:56:A2:AF:15). It is composed of : 3 bytes of the manufacturer identifier and 3 bytes of the serial number. This is sometimes referred to as the hardware address. It consists of 6 bytes often given in hexadecimal form (for example 5E:FF:56:A2:AF:15). It is composed of : 3 bytes of the manufacturer identifier and 3 bytes of the serial number.
 
-!!! Warning This last statement is nowadays a little less true with virtualization. There are also software solutions for changing the MAC address.
+!!! Warning This last statement is nowadays a little less true with virtualization. !!! Warning This last statement is nowadays a little less true with virtualization. There are also software solutions for changing the MAC address.
 
-An Internet Protocol (**IP**) address is an identification number permanently or temporarily assigned to each device connected to a computer network using the Internet Protocol. One part defines the network address (NetID or SubnetID as the case may be), the other part defines the address of the host in the network (HostID). The relative size of each part varies according to the network (sub)mask.
+An Internet Protocol (**IP**) address is an identification number permanently or temporarily assigned to each device connected to a computer network using the Internet Protocol. One part defines the network address (NetID or SubnetID as the case may be), the other part defines the address of the host in the network (HostID). The relative size of each part varies according to the network (sub)mask. One part defines the network address (NetID or SubnetID as the case may be), the other part defines the address of the host in the network (HostID). The relative size of each part varies according to the network (sub)mask.
 
-An IPv4 address defines an address on 4 bytes. The number of available addresses being close to saturation a new standard was created, the IPv6 defined on 16 bytes.
+An IPv4 address defines an address on 4 bytes. An IPv4 address defines an address on 4 bytes. The number of available addresses being close to saturation a new standard was created, the IPv6 defined on 16 bytes.
 
-IPv6 is often represented by 8 groups of 2 bytes separated by a colon. Insignificant zeros can be omitted, one or more groups of 4 consecutive zeros can be replaced by a double colon.
+IPv6 is often represented by 8 groups of 2 bytes separated by a colon. Insignificant zeros can be omitted, one or more groups of 4 consecutive zeros can be replaced by a double colon. Insignificant zeros can be omitted, one or more groups of 4 consecutive zeros can be replaced by a double colon.
 
-Subnet masks have from 0 to 128 bits. (for example 21ac:0000:0000:0611:21e0:00ba:321b:54da/64 or 21ac::611:21e0:ba:321b:54da/64)
+Subnet masks have from 0 to 128 bits. (for example 21ac:0000:0000:0611:21e0:00ba:321b:54da/64 or 21ac::611:21e0:ba:321b:54da/64) (for example 21ac:0000:0000:0611:21e0:00ba:321b:54da/64 or 21ac::611:21e0:ba:321b:54da/64)
 
-In a web address or URL (Uniform Resource Locator), an ip address can be followed by a colon and the port address (which indicates the application to which the data is destined). Also to avoid confusion in a URL, the IPv6 address is written in square brackets [ ], colon, port address.
+In a web address or URL (Uniform Resource Locator), an ip address can be followed by a colon and the port address (which indicates the application to which the data is destined). Also to avoid confusion in a URL, the IPv6 address is written in square brackets [ ], colon, port address. Also to avoid confusion in a URL, the IPv6 address is written in square brackets [ ], colon, port address.
 
 IP and MAC addresses must be unique on a network!
 
@@ -91,13 +91,13 @@ Client machines can be part of a DNS (**Domain Name System**, e.g. `mydomain.lan
 
 The fully qualified machine name (**FQDN**) becomes `pc-rocky.mydomain.lan`.
 
-A set of computers can be grouped into a logical, name-resolving, set called a DNS domain. A DNS domain is not, of course, limited to a single physical network.
+A set of computers can be grouped into a logical, name-resolving, set called a DNS domain. A DNS domain is not, of course, limited to a single physical network. A DNS domain is not, of course, limited to a single physical network.
 
 In order for a computer to be part of a DNS domain, it must be given a DNS suffix (here `mydomain.lan`) as well as servers that it can query.
 
 ### Reminder of the OSI model
 
-!!! Note "Memory aid" To remember the order of the layers of the OSI model, remember the following sentence: __Please Do Not Touch Steven's Pet Alligator__.
+!!! !!! Note "Memory aid" To remember the order of the layers of the OSI model, remember the following sentence: __Please Do Not Touch Steven's Pet Alligator__.
 
 | Layer            | Protocoles                                 |
 | ---------------- | ------------------------------------------ |
@@ -109,25 +109,25 @@ In order for a computer to be part of a DNS domain, it must be given a DNS suffi
 | 2 - Data Link    | Ethernet, WiFi, Token Ring, ...            |
 | 1 - Physical     | Cables, optical fibers, radio waves, ...   |
 
-**Layer 1** (Physical) supports transmission over a communication channel (Wifi, Optical fiber, RJ cable, etc.). Unit: the bit.
+**Layer 1** (Physical) supports transmission over a communication channel (Wifi, Optical fiber, RJ cable, etc.). Unit: the bit. Unit: the bit.
 
-**Layer 2** (Data Link) supports network topology (token-ring, star, bus, etc.), data splitting and transmission errors. Unit: the frame.
+**Layer 2** (Data Link) supports network topology (token-ring, star, bus, etc.), data splitting and transmission errors. Unit: the frame. Unit: the frame.
 
-**Layer 3** (Network) supports end-to-end data transmission (IP routing = Gateway). Unit: the packet.
+**Layer 3** (Network) supports end-to-end data transmission (IP routing = Gateway). Unit: the packet. Unit: the packet.
 
-**Layer 4** (Transport) supports service type (connected or unconnected) encryption and flow control. Unit: the segment or the datagram.
+**Layer 4** (Transport) supports service type (connected or unconnected) encryption and flow control. Unit: the segment or the datagram. Unit: the segment or the datagram.
 
 **Layer 5** (Session) supports the communication between two computers.
 
-**Layer 6** (Presentation) represents the area that is independent of data at the application layer. Essentially this layer translates from network format to the application format, or or from the application format to the network format.
+**Layer 6** (Presentation) represents the area that is independent of data at the application layer. Essentially this layer translates from network format to the application format, or or from the application format to the network format. Essentially this layer translates from network format to the application format, or or from the application format to the network format.
 
-**Layer 7** (Application) represents the contact with the user. It provides the services offered by the network: http, dns, ftp, imap, pop, smtp, etc.
+**Layer 7** (Application) represents the contact with the user. It provides the services offered by the network: http, dns, ftp, imap, pop, smtp, etc. It provides the services offered by the network: http, dns, ftp, imap, pop, smtp, etc.
 
 ## The naming of interfaces
 
-*lo* is the "**loopback**" interface which allows TCP/IP programs to communicate with each other without leaving the local machine. This enables testing if the **network module of the system is working properly** and also allows pinging the localhost. All packets that enter through localhost leave through localhost. The packets received are the packets sent.
+*lo* is the "**loopback**" interface which allows TCP/IP programs to communicate with each other without leaving the local machine. This enables testing if the **network module of the system is working properly** and also allows pinging the localhost. All packets that enter through localhost leave through localhost. The packets received are the packets sent. This enables testing if the **network module of the system is working properly** and also allows pinging the localhost. All packets that enter through localhost leave through localhost. The packets received are the packets sent.
 
-The Linux kernel assigns interface names with a specific prefix depending on the type. Traditionally, all **Ethernet** interfaces, for example, began with **eth**. The prefix was followed by a number, the first being 0 (eth0, eth1, eth2...). The wifi interfaces were given a wlan prefix.
+The Linux kernel assigns interface names with a specific prefix depending on the type. Traditionally, all **Ethernet** interfaces, for example, began with **eth**. The prefix was followed by a number, the first being 0 (eth0, eth1, eth2...). The wifi interfaces were given a wlan prefix. Traditionally, all **Ethernet** interfaces, for example, began with **eth**. The prefix was followed by a number, the first being 0 (eth0, eth1, eth2...). The wifi interfaces were given a wlan prefix.
 
 On Rocky8 Linux distributions, systemd will name interfaces with the new following policy where "X" represents a number:
 
@@ -138,9 +138,9 @@ On Rocky8 Linux distributions, systemd will name interfaces with the new followi
 
 ## Using the `ip` command
 
-Forget the old `ifconfig` command! Think `ip`!
+Forget the old `ifconfig` command! Think `ip`! Think `ip`!
 
-!!! Note Comment for administrators of older Linux systems:
+!!! !!! Note Comment for administrators of older Linux systems:
 
     The historical network management command is `ifconfig`. This command has been replaced by the `ip` command, which is already well known to network administrators.
     
@@ -163,9 +163,9 @@ hostname [-f] [hostname]
 | `-f`   | Display the FQDN               |
 | `-i`   | Display the system IPs address |
 
-!!! Tip This command is used by various network programs to identify the machine.
+!!! !!! Tip This command is used by various network programs to identify the machine.
 
-To assign a host name, it is possible to use the `hostname` command, but the changes will not be retained at the next boot. The command with no arguments displays the host name.
+To assign a host name, it is possible to use the `hostname` command, but the changes will not be retained at the next boot. The command with no arguments displays the host name. The command with no arguments displays the host name.
 
 To set the host name, the file `/etc/sysconfig/network` must be modified:
 
@@ -178,11 +178,11 @@ The RedHat boot script also consults the `/etc/hosts` file to resolve the host n
 
 When the system boots, Linux evaluates the `HOSTNAME` value in the `/etc/sysconfig/network` file.
 
-It then uses the `/etc/hosts` file to evaluate the main IP address of the server and its host name. It deduces the DNS domain name.
+It then uses the `/etc/hosts` file to evaluate the main IP address of the server and its host name. It deduces the DNS domain name. It deduces the DNS domain name.
 
 It is therefore essential to fill in these two files before any configuration of network services.
 
-!!! Tip To know if this configuration is well done, the commands `hostname` and `hostname -f` must answer with the expected values.
+!!! !!! Tip To know if this configuration is well done, the commands `hostname` and `hostname -f` must answer with the expected values.
 
 ## /etc/hosts file
 
@@ -202,11 +202,11 @@ Example of `/etc/hosts` file:
 
 The `/etc/hosts` file is still used by the system, especially at boot time when the system FQDN is determined.
 
-!!! Tip RedHat recommends that at least one line containing the system name be filled in.
+!!! !!! Tip RedHat recommends that at least one line containing the system name be filled in.
 
 If the **DNS** service (**D**domain **N**ame **S**ervice) is not in place, you must fill in all the names in the hosts file for each of your machines.
 
-The `/etc/hosts` file contains one line per entry, with the IP address, the FQDN, then the host name (in that order) and a series of aliases (alias1 alias2 ...). The alias is an option.
+The `/etc/hosts` file contains one line per entry, with the IP address, the FQDN, then the host name (in that order) and a series of aliases (alias1 alias2 ...). The alias is an option. The alias is an option.
 
 ## `/etc/nsswitch.conf` file
 
@@ -222,7 +222,7 @@ group: files
 hosts: files dns
 ```
 
-In this case, Linux will first look for a host name match (`hosts:` line) in the `/etc/hosts` file (`files` value) before querying DNS (`dns` value)! This behavior can simply be changed by editing the `/etc/nsswitch.conf` file.
+In this case, Linux will first look for a host name match (`hosts:` line) in the `/etc/hosts` file (`files` value) before querying DNS (`dns` value)! This behavior can simply be changed by editing the `/etc/nsswitch.conf` file. This behavior can simply be changed by editing the `/etc/nsswitch.conf` file.
 
 Of course, it is possible to imagine querying an LDAP, MySQL or other server by configuring the name service to respond to system requests for hosts, users, groups, etc.
 
@@ -239,11 +239,11 @@ search mondomaine.lan
 nameserver 192.168.1.254
 ```
 
-!!! Tip This file is historical. It is no longer filled in directly!
+!!! !!! Tip This file is historical. It is no longer filled in directly! It is no longer filled in directly!
 
-Newer generations of distributions have generally integrated the `NetworkManager` service. This service allows you to manage the configuration more efficiently, either in graphical or console mode.
+Newer generations of distributions have generally integrated the `NetworkManager` service. Newer generations of distributions have generally integrated the `NetworkManager` service. This service allows you to manage the configuration more efficiently, either in graphical or console mode.
 
-It allows for the addition of DNS servers from the configuration file of a network interface. It then dynamically populates the `/etc/resolv.conf` file which should never be edited directly, otherwise the configuration changes will be lost the next time the network service is started.
+It allows for the addition of DNS servers from the configuration file of a network interface. It allows for the addition of DNS servers from the configuration file of a network interface. It then dynamically populates the `/etc/resolv.conf` file which should never be edited directly, otherwise the configuration changes will be lost the next time the network service is started.
 
 ## `ip` command
 
@@ -277,7 +277,7 @@ All historical network management commands have been grouped under the `ip` comm
 
 ## DHCP configuration
 
-The **DHCP** protocol (**D**ynamic **H**ost **C**Control **P**rotocol) allows you to obtain a complete IP configuration via the network. This is the default configuration mode of a network interface under Rocky Linux, which explains why a system connected to the network of an Internet router can function without additional configuration.
+The **DHCP** protocol (**D**ynamic **H**ost **C**Control **P**rotocol) allows you to obtain a complete IP configuration via the network. This is the default configuration mode of a network interface under Rocky Linux, which explains why a system connected to the network of an Internet router can function without additional configuration. This is the default configuration mode of a network interface under Rocky Linux, which explains why a system connected to the network of an Internet router can function without additional configuration.
 
 The configuration of interfaces under Rocky Linux is done in the `/etc/sysconfig/network-scripts/` folder.
 
@@ -314,7 +314,7 @@ BOOTPROTO=dhcp
 HWADDR=00:0c:29:96:32:e3
 ```
 
-!!! Tip If NetworkManager is installed, the changes are taken into account automatically. If not, you have to restart the network service.
+!!! !!! Tip If NetworkManager is installed, the changes are taken into account automatically. If not, you have to restart the network service. If not, you have to restart the network service.
 
 * Restart the network service:
 
@@ -358,7 +358,7 @@ NETMASK=255.255.255.0
 PREFIX=24
 ```
 
-!!! Warning You must use NETMASK OR PREFIX - Not both!
+!!! !!! Warning You must use NETMASK OR PREFIX - Not both!
 
 ## Routing
 
@@ -386,7 +386,7 @@ It is a good idea to know how to read a routing table, especially in an environm
 
 * In the example shown, the `192.168.1.0/24` network is reachable directly from the `eth0` device, so there is a metric at `1` (does not traverse a router).
 
-* All other networks than the previous one will be reachable, again from the `eth0` device, but this time the packets will be addressed to a `192.168.1.254` gateway. The routing protocol is a static protocol (although it is possible to add a route to a dynamically assigned address in Linux).
+* All other networks than the previous one will be reachable, again from the `eth0` device, but this time the packets will be addressed to a `192.168.1.254` gateway. The routing protocol is a static protocol (although it is possible to add a route to a dynamically assigned address in Linux). The routing protocol is a static protocol (although it is possible to add a route to a dynamically assigned address in Linux).
 
 ## Name resolution
 
@@ -455,7 +455,7 @@ Example:
 [root]# ping –c 4 localhost
 ```
 
-!!! Tip Validate connectivity from near to far
+!!! !!! Tip Validate connectivity from near to far
 
 1) Validate the TCP/IP software layer
 
@@ -463,7 +463,7 @@ Example:
 [root]# ping localhost
 ```
 
-"Pinging" the inner loop does not detect a hardware failure on the network interface. It simply determines whether the IP software configuration is correct.
+"Pinging" the inner loop does not detect a hardware failure on the network interface. It simply determines whether the IP software configuration is correct. It simply determines whether the IP software configuration is correct.
 
 2) Validate the network card
 
@@ -471,7 +471,7 @@ Example:
 [root]# ping 192.168.1.10
 ```
 
-To determine that the network card is functional, we must now ping its IP address. The network card, if the network cable is not connected, should be in a "down" state.
+To determine that the network card is functional, we must now ping its IP address. The network card, if the network cable is not connected, should be in a "down" state. The network card, if the network cable is not connected, should be in a "down" state.
 
 If the ping does not work, first check the network cable to your network switch and reassemble the interface (see the `if up` command), then check the interface itself.
 
@@ -511,9 +511,10 @@ Examples:
 [root]# dig -t MX +short rockylinux.org                                                          ✔
 5 alt1.aspmx.l.google.com.
 ...
+...
 ```
 
-The `dig` command is used to query DNS servers. It is very verbose by default, but this behavior can be changed with the `+short` option.
+The `dig` command is used to query DNS servers. The `dig` command is used to query DNS servers. It is very verbose by default, but this behavior can be changed with the `+short` option.
 
 It is also possible to specify a DNS **record type** to resolve, such as an MX **type** to get information about the mail exchangers for a domain.
 
@@ -556,7 +557,7 @@ Example:
 BROADCAST=172.16.79.255
 ```
 
-!!! Tip This command is interesting followed by a redirection to automatically fill in the configuration files of your interfaces:
+!!! !!! Tip This command is interesting followed by a redirection to automatically fill in the configuration files of your interfaces:
 
     ```
     [root]# ipcalc –b 172.16.66.203 255.255.240.0 >> /etc/sysconfig/network-scripts/ifcfg-eth0
@@ -567,16 +568,16 @@ BROADCAST=172.16.79.255
 | `-b`   | Displays the broadcast address.        |
 | `-n`   | Displays the network address and mask. |
 
-`ipcalc` is a simple way to calculate the IP information of a host. The various options indicate what information `ipcalc` should display on the standard output. Multiple options can be specified. An IP address on which to operate must be specified. Most operations also require a network mask or CIDR prefix.
+`ipcalc` is a simple way to calculate the IP information of a host. The various options indicate what information `ipcalc` should display on the standard output. Multiple options can be specified. An IP address on which to operate must be specified. Most operations also require a network mask or CIDR prefix. The various options indicate what information `ipcalc` should display on the standard output. Multiple options can be specified. An IP address on which to operate must be specified. Most operations also require a network mask or CIDR prefix.
 
-| Option short | Option long   | Description                                                                                                                                                                                                                                    |
-| ------------ | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `-b`         | `--broadcast` | Displays the broadcast address of the given IP address and the network mask.                                                                                                                                                                   |
-| `-h`         | `--hostname`  | Displays the hostname of the IP address given via DNS.                                                                                                                                                                                         |
-| `-n`         | `--netmask`   | Calculates the network mask for the given IP address. Assumes that the IP address is part of a complete class A, B, or C network. Many networks do not use default network masks, in which case an incorrect incorrect value will be returned. |
-| `-p`         | `--prefix`    | Indicates the prefix of the mask/IP address.                                                                                                                                                                                                   |
-| `-n`         | `--network`   | Indicates the network address of the given IP address and mask.                                                                                                                                                                                |
-| `-s`         | `--silent`    | Never displays any error messages.                                                                                                                                                                                                             |
+| Option short | Option long   | Description                                                                                                                                                                                                                                                                                                                                                                      |
+| ------------ | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `-b`         | `--broadcast` | Displays the broadcast address of the given IP address and the network mask.                                                                                                                                                                                                                                                                                                     |
+| `-h`         | `--hostname`  | Displays the hostname of the IP address given via DNS.                                                                                                                                                                                                                                                                                                                           |
+| `-n`         | `--netmask`   | Calculates the network mask for the given IP address. Assumes that the IP address is part of a complete class A, B, or C network. Calculates the network mask for the given IP address. Assumes that the IP address is part of a complete class A, B, or C network. Many networks do not use default network masks, in which case an incorrect incorrect value will be returned. |
+| `-p`         | `--prefix`    | Indicates the prefix of the mask/IP address.                                                                                                                                                                                                                                                                                                                                     |
+| `-n`         | `--network`   | Indicates the network address of the given IP address and mask.                                                                                                                                                                                                                                                                                                                  |
+| `-s`         | `--silent`    | Never displays any error messages.                                                                                                                                                                                                                                                                                                                                               |
 
 ### `ss` command
 
@@ -601,7 +602,7 @@ When implementing network services, it is very common to check with one of these
 
 ### `netstat` command
 
-!!! Warning The `netstat` command is now deprecated and is no-longer installed by default on Rocky Linux. You may still find some Linux versions that have it installed, but it is best to move on to using `ss` for everything that you would have used `netstat` for.
+!!! !!! Warning The `netstat` command is now deprecated and is no-longer installed by default on Rocky Linux. You may still find some Linux versions that have it installed, but it is best to move on to using `ss` for everything that you would have used `netstat` for. You may still find some Linux versions that have it installed, but it is best to move on to using `ss` for everything that you would have used `netstat` for.
 
 The `netstat` command (**network statistics**) displays the listening ports on the network.
 
@@ -620,7 +621,7 @@ tcp  0  0  0.0.0.0:22  0.0.0.0:*  LISTEN 2161/sshd
 
 ### IP or MAC address conflicts
 
-A misconfiguration can cause multiple interfaces to use the same IP address. This can happen when a network has multiple DHCP servers or when the same IP address is manually assigned multiple times.
+A misconfiguration can cause multiple interfaces to use the same IP address. A misconfiguration can cause multiple interfaces to use the same IP address. This can happen when a network has multiple DHCP servers or when the same IP address is manually assigned multiple times.
 
 When the network is malfunctioning, and when an IP address conflict could be the cause, it is possible to use the `arp-scan` software (requires the EPEL repository):
 
@@ -644,7 +645,7 @@ $ arp-scan -I eth0 -l
 172.16.1.232   88:51:fb:5e:fa:b3       (Unknown) (DUP: 2)
 ```
 
-!!! Tip As the above example shows, it is also possible to have MAC address conflicts! These problems are brought about by virtualization technologies and the copying of virtual machines.
+!!! !!! Tip As the above example shows, it is also possible to have MAC address conflicts! These problems are brought about by virtualization technologies and the copying of virtual machines. These problems are brought about by virtualization technologies and the copying of virtual machines.
 
 ## Hot configuration
 
