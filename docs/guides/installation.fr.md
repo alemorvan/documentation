@@ -74,7 +74,7 @@ Once the computer has booted you will be presented with the Rocky Linux 8 welcom
 
 Une fois que vous êtes satisfait de vos choix pour les différentes tâches d'installation, l'étape suivante du processus d'installation consiste à commencer l'installation à proprement parler.
 
-`Si vous n'appuyez sur aucune touche, l'invite va commencer un compte à rebours, après lequel le processus d'installation va démarrer avec l'option mise en évidence <code>Test this media & install Rocky Linux 8`.</code>
+`<code>Si vous n'appuyez sur aucune touche, l'invite va commencer un compte à rebours, après lequel le processus d'installation va démarrer avec l'option mise en évidence <code>Test this media & install Rocky Linux 8`.</code>
 
 Cliquez sur <kbd>Fait</kbd> lorsque vous avez terminé.
 
