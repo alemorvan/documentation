@@ -42,7 +42,7 @@ You now should have an RSA type public and private key pair in your .ssh directo
 
 ```
 ls -a .ssh/
-.  ..  id_rsa  id_rsa.pub
+.  ..  ..
 ```
 
 Now we need to send the public key (id_rsa.pub) to every machine that we are going to be accessing... but before we do that, we need to make sure that we can SSH into the servers that we will be sending the key to. For our example, we are going to be using just three servers.
