@@ -4,6 +4,18 @@ title: Accueil
 
 # Documentation de Rocky Linux
 
+Test with Franco!
+
+
+```
+$ bash test
+```
+
+!!! Note
+    Test test test
+
+
+
 ## Bienvenue!
 
 Vous nous avez trouvés ! Bienvenue dans le centre de documentation de Rocky
