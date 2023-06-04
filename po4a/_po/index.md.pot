@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-04 13:46+0000\n"
+"POT-Creation-Date: 2023-06-04 18:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,7 +53,7 @@ msgstr ""
 #: /documentation/docs/index.md:14
 msgid ""
 "This home page will give you an introduction to the documentation website "
-"and how to find your way around â we're confident that you will feel right "
+"and how to find your way around - we're confident that you will feel right "
 "at home."
 msgstr ""
 
