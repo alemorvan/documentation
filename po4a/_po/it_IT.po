@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rockypo4a\n"
 "POT-Creation-Date: 2023-06-04 19:41+0000\n"
-"PO-Revision-Date: 2023-06-04 19:44\n"
+"PO-Revision-Date: 2023-06-04 20:59\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -20,183 +20,184 @@ msgstr ""
 #: /documentation/docs/index.md:1
 #, no-wrap
 msgid "Home"
-msgstr ""
+msgstr "Home"
 
 #. type: Title #
 #: /documentation/docs/index.md:5
 #, no-wrap
 msgid "Rocky Linux Documentation"
-msgstr ""
+msgstr "Documentazione di Rocky Linux"
 
 #. type: Plain text
 #: /documentation/docs/index.md:8
 msgid "Test with Franco!"
-msgstr ""
+msgstr "Prova con Franco!"
 
 #. type: Fenced code block
 #: /documentation/docs/index.md:10
 #, no-wrap
 msgid "$ bash test\n"
-msgstr ""
+msgstr "$ bash test\n"
 
 #. type: Plain text
 #: /documentation/docs/index.md:16
 #, no-wrap
 msgid "!!! Note\n"
 "    Test test test\n"
-msgstr ""
+msgstr "!!! Note \"Nota\"\n"
+"    Test test test\n"
 
 #. type: Title ##
 #: /documentation/docs/index.md:19
 #, no-wrap
 msgid "Welcome!"
-msgstr ""
+msgstr "Benvenuto!"
 
 #. type: Plain text
 #: /documentation/docs/index.md:22
 msgid "You've found us! Welcome to the documentation hub for Rocky Linux; we are glad you're here. We have several contributors adding content, and that content is growing all the time. Here you will find documents on how to build Rocky Linux itself, as well as documents on various subjects that are important to the Rocky Linux community. Who makes up that community you ask?"
-msgstr ""
+msgstr "Ci avete trovato! Benvenuti nel centro di documentazione di Rocky Linux; siamo felici che siate qui. Abbiamo diversi collaboratori che aggiungono contenuti e questi contenuti sono in continua crescita. Qui troverete documenti su come costruire Rocky Linux stesso, oltre a documenti su vari argomenti importanti per la comunità di Rocky Linux. Chi è la comunità, vi chiederete?"
 
 #. type: Plain text
 #: /documentation/docs/index.md:24
 msgid "Well actually, you do."
-msgstr ""
+msgstr "In realtà, voi la fate."
 
 #. type: Plain text
 #: /documentation/docs/index.md:26
 msgid "This home page will give you an introduction to the documentation website and how to find your way around - we're confident that you will feel right at home."
-msgstr ""
+msgstr "Questa pagina iniziale vi fornirà un'introduzione al sito web della documentazione e a come orientarvi: siamo certi che vi sentirete come a casa vostra."
 
 #. type: Title ##
 #: /documentation/docs/index.md:27
 #, no-wrap
 msgid "Navigating the Site"
-msgstr ""
+msgstr "Navigazione del Sito"
 
 #. type: Title ###
 #: /documentation/docs/index.md:29
 #, no-wrap
 msgid "Getting Around"
-msgstr ""
+msgstr "Come Muoversi"
 
 #. type: Plain text
 #: /documentation/docs/index.md:32
 msgid "Now, you are on the home page of the documentation. If you glance at the top menu (which is always available, including on mobile devices) you can see the main structure showing the top-level sections of the documentation site. If you click on each top menu item (try 'Guides' for example) then on the left side, you will see the list of *sub-sections* for each main section. Guides has many topics of interest."
-msgstr ""
+msgstr "Ora ci si trova nella pagina iniziale della documentazione. Se si dà un'occhiata al menu in alto (che è sempre disponibile, anche sui dispositivi mobili) si può vedere la struttura principale che mostra le sezioni di primo livello del sito di documentazione. Se si fa clic su ogni voce del menu in alto (ad esempio \"Guide\"), sul lato sinistro si vedrà l'elenco delle *sottosezioni* per ogni sezione principale. Le Guide contengono molti argomenti di interesse."
 
 #. type: Plain text
 #: /documentation/docs/index.md:34
 #, no-wrap
 msgid "When you open a document, on the right side you will see a 'Table of contents' with clickable navigation links for that document (for mobile devices try landscape orientation). For long documents, such as the [Release Notes](release_notes/8_8.md), the table of contents allows you to move around the document with ease. If you are reading a long document and want to go back to the top press <kbd>pg up</kbd> and you will see a `Back to top` button appear at the top of the screen.\n"
-msgstr ""
+msgstr "Quando si apre un documento, sul lato destro viene visualizzato un \"indice\" con collegamenti di navigazione cliccabili per quel documento (per i dispositivi mobili provare l'orientamento orizzontale). Per i documenti lunghi, come le [Note di rilascio] (release_notes/8_8.md), l'indice consente di muoversi agevolmente all'interno del documento. Se si sta leggendo un documento lungo e si vuole tornare all'inizio, premere <kbd>il tasto pg su</kbd> e si vedrà apparire il pulsante \"Torna all'inizio\" nella parte superiore dello schermo.\n"
 
 #. type: Plain text
 #: /documentation/docs/index.md:36
 msgid "The main sections of the documentation site are:"
-msgstr ""
+msgstr "Le sezioni principali del sito di documentazione sono:"
 
 #. type: Bullet: '* '
 #: /documentation/docs/index.md:43
 msgid "**Guides**: which cover specific ways to set up and use Rocky Linux."
-msgstr ""
+msgstr "**Guide**: che illustrano modi specifici per configurare e utilizzare Rocky Linux."
 
 #. type: Bullet: '* '
 #: /documentation/docs/index.md:43
 msgid "**Books**: are more detailed information based around a specific area."
-msgstr ""
+msgstr "**Libri**: sono informazioni più dettagliate basate su un'area specifica."
 
 #. type: Bullet: '* '
 #: /documentation/docs/index.md:43
 msgid "**Labs**: it is 'back to school', but these tutorials you will enjoy doing!"
-msgstr ""
+msgstr "**Labs**: è il \"ritorno a scuola\", ma queste esercitazioni vi divertiranno!"
 
 #. type: Bullet: '* '
 #: /documentation/docs/index.md:43
 msgid "**Gemstones**: share some common script or command usage tips here."
-msgstr ""
+msgstr "**Gemstones**: condividete qui alcuni suggerimenti sull'uso di script o comandi comuni."
 
 #. type: Bullet: '* '
 #: /documentation/docs/index.md:43
 msgid "**Release Notes**: covers Rocky Linux release notes and version update information."
-msgstr ""
+msgstr "**Note di rilascio**: contiene le note di rilascio di Rocky Linux e le informazioni sugli aggiornamenti di versione."
 
 #. type: Bullet: '* '
 #: /documentation/docs/index.md:43
 msgid "**Rocky Linux**: official website home page jump link."
-msgstr ""
+msgstr "**Rocky Linux**: sito ufficiale link alla home page."
 
 #. type: Title ###
 #: /documentation/docs/index.md:44
 #, no-wrap
 msgid "Multiple Languages"
-msgstr ""
+msgstr "Più lingue"
 
 #. type: Plain text
 #: /documentation/docs/index.md:47
 msgid "Not everyone has English as their first language! At Rocky Linux we want to make the documentation site as accessible as possible to everyone â *translation into different languages is an important part of that*. If you click on the (common symbol) language selector on the top menu you will see the languages the website is available in. There are two parts to this:"
-msgstr ""
+msgstr "Non tutti hanno l'inglese come prima lingua! Noi di Rocky Linux vogliamo rendere il sito di documentazione il più possibile accessibile a tutti e la *traduzione in diverse lingue è una parte importante di questo obiettivo*. Se si fa clic sul selettore di lingua (simbolo comune) nel menu in alto, si vedranno le lingue in cui il sito è disponibile. Ci sono due parti:"
 
 #. type: Bullet: '1. '
 #: /documentation/docs/index.md:50
 msgid "Website interface localisation: if you choose another language, for example FranÃ§ais, you will note that the interface, for example the 'Next' and 'Previous' navigators, will be localised."
-msgstr ""
+msgstr "Localizzazione dell'interfaccia del sito web: se si sceglie un'altra lingua, ad esempio il francese, si noterà che l'interfaccia, ad esempio i navigatori \"Avanti\" e \"Precedente\", saranno localizzati."
 
 #. type: Bullet: '1. '
 #: /documentation/docs/index.md:50
 msgid "Content: translating content is an ongoing (significant) task. Not all content is translated into all languages yet. Any pages that have been translated (into the language selected) will be seen in the chosen language, those that have not will fall back to the default language English. If you want to contribute to the community through translations the documentation team would love to hear from you â see below for details."
-msgstr ""
+msgstr "Contenuti: la traduzione dei contenuti è un compito (significativo) in corso. Non tutti i contenuti sono ancora tradotti in tutte le lingue. Tutte le pagine che sono state tradotte (nella lingua selezionata) saranno visualizzate nella lingua scelta, mentre quelle che non sono state tradotte torneranno alla lingua predefinita, l'inglese. Se desiderate contribuire alla comunità attraverso le traduzioni, il team della documentazione sarà lieto di ascoltarvi, per maggiori dettagli consultate la sezione sottostante."
 
 #. type: Plain text
 #: /documentation/docs/index.md:52
 msgid "!!! note"
-msgstr ""
+msgstr "!!! note \"Nota\""
 
 #. type: Plain text
 #: /documentation/docs/index.md:54
 #, no-wrap
 msgid "    Not all functionality may be available in all languages, this is a limitation of the underlying MkDocs modules available.\n"
-msgstr ""
+msgstr "    Non tutte le funzionalità possono essere disponibili in tutte le lingue, questo è un limite dei moduli MkDocs sottostanti disponibili.\n"
 
 #. type: Title ###
 #: /documentation/docs/index.md:55
 #, no-wrap
 msgid "Using Search"
-msgstr ""
+msgstr "Utilizzo della Ricerca"
 
 #. type: Plain text
 #: /documentation/docs/index.md:58
 msgid "If you want to quickly find specific information or documents, the documentation site has full-text search capability. Start typing in the 'Search' entry field in the top menu bar and the site will return drill down search results."
-msgstr ""
+msgstr "Se si desidera trovare rapidamente informazioni o documenti specifici, il sito di documentazione dispone di una funzionalità di ricerca full-text. Iniziate a digitare nel campo \"Cerca\" nella barra dei menu in alto e il sito vi restituirà i risultati della ricerca."
 
 #. type: Plain text
 #: /documentation/docs/index.md:60
 msgid "To open a page in the search results click (or tap on mobile) on the desired page in the list displayed."
-msgstr ""
+msgstr "Per aprire una pagina nei risultati della ricerca, fare clic (o toccare sul cellulare) sulla pagina desiderata nell'elenco visualizzato."
 
 #. type: Title ##
 #: /documentation/docs/index.md:61
 #, no-wrap
 msgid "First Time"
-msgstr ""
+msgstr "Prima volta"
 
 #. type: Plain text
 #: /documentation/docs/index.md:64
 msgid "If this is your first time visiting the Rocky Linux Documentation site then likely you are new to Rocky Linux and you are itching to install it! No problem, jump on over to the [Installing Rocky Linux](guides/installation.md) page for detailed instructions."
-msgstr ""
+msgstr "Se è la prima volta che visitate il sito della documentazione di Rocky Linux, probabilmente siete nuovi a Rocky Linux e non vedete l'ora di installarlo! Nessun problema, andate alla pagina [Installing Rocky Linux](guides/installation.md) per istruzioni dettagliate."
 
 #. type: Plain text
 #: /documentation/docs/index.md:66
 msgid "If you get stuck and have a question the Rocky Linux community is there to help. Visit the [community forum](https://forums.rockylinux.org) and you can search for solutions or post your own questions to the community."
-msgstr ""
+msgstr "Se siete bloccati e avete delle domande, la comunità Rocky Linux è a disposizione per aiutarvi. Visitate il [forum della comunità](https://forums.rockylinux.org) e potrete cercare soluzioni o porre le vostre domande alla comunità."
 
 #. type: Title ##
 #: /documentation/docs/index.md:67
 #, no-wrap
 msgid "Contributing"
-msgstr ""
+msgstr "Contribuire"
 
 #. type: Plain text
 #: /documentation/docs/index.md:69
 msgid "Did you find something missing? Did you find an error? Are you wondering how to create a document of your own, or how to fix things here? Remember how we said that *you* were the Rocky community? That means that *you* are important to us and we want you to join us, if you like, and help make this documentation better. If you are interested in this, head over to our [Contribution Guide](https://github.com/rocky-linux/documentation/blob/main/README.md) to find out how you can do that!"
-msgstr ""
+msgstr "Avete trovato qualcosa che manca? Avete trovato un errore? Vi state chiedendo come creare un vostro documento o come sistemare le cose qui? Ricordate che abbiamo detto che *voi* siete la comunità Rocky? Ciò significa che *voi* siete importanti per noi e vogliamo che vi uniate a noi, se vi va, per contribuire a migliorare questa documentazione. Se siete interessati, visitate la nostra [Guida ai contributi](https://github.com/rocky-linux/documentation/blob/main/README.md) per scoprire come potete farlo!"
 
