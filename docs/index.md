@@ -10,7 +10,7 @@ You've found us! Welcome to the documentation hub for Rocky Linux; we are glad y
 
 Well actually, you do.
 
-This home page will give you an introduction to the documentation website and how to find your way around — we're confident that you will feel right at home.
+This home page will give you an introduction to the documentation website and how to find your way around - we're confident that you will feel right at home.
 
 ## Navigating the Site
 
