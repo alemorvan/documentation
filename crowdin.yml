@@ -1,3 +1,4 @@
 files:
-  - source: /po4a/po4a/_po/*.po
+  - source: /po4a/_po/*.po
+    translation: /po4a/_po/%two_letters_code%.po
     update_option: update_as_unapproved
