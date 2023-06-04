@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rockypo4a\n"
 "POT-Creation-Date: 2023-06-04 19:41+0000\n"
-"PO-Revision-Date: 2023-06-04 19:44\n"
+"PO-Revision-Date: 2023-06-04 19:46\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -31,20 +31,21 @@ msgstr "Documentation de Rocky Linux"
 #. type: Plain text
 #: /documentation/docs/index.md:8
 msgid "Test with Franco!"
-msgstr ""
+msgstr "Test with Franco !"
 
 #. type: Fenced code block
 #: /documentation/docs/index.md:10
 #, no-wrap
 msgid "$ bash test\n"
-msgstr ""
+msgstr "$ bash test\n"
 
 #. type: Plain text
 #: /documentation/docs/index.md:16
 #, no-wrap
 msgid "!!! Note\n"
 "    Test test test\n"
-msgstr ""
+msgstr "!!! Note\n"
+"    Test test test\n"
 
 #. type: Title ##
 #: /documentation/docs/index.md:19
