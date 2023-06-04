@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: rockypo4a\n"
-"POT-Creation-Date: 2023-06-04 13:46+0000\n"
-"PO-Revision-Date: 2023-06-04 15:27\n"
+"POT-Creation-Date: 2023-06-04 18:52+0000\n"
+"PO-Revision-Date: 2023-06-04 19:02\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -46,8 +46,8 @@ msgstr "Eh bien, c'est vous même en participant de différentes manières."
 
 #. type: Plain text
 #: /documentation/docs/index.md:14
-msgid "This home page will give you an introduction to the documentation website and how to find your way around â we're confident that you will feel right at home."
-msgstr "Cette page d'accueil vous donnera une introduction au site de cette documentation et comment vous y retrouver — nous sommes certains que vous vous sentirez tout à fait à l'aise."
+msgid "This home page will give you an introduction to the documentation website and how to find your way around - we're confident that you will feel right at home."
+msgstr ""
 
 #. type: Title ##
 #: /documentation/docs/index.md:15
