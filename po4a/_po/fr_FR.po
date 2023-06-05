@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rockypo4a\n"
 "POT-Creation-Date: 2023-06-05 12:52+0000\n"
-"PO-Revision-Date: 2023-06-05 12:55\n"
+"PO-Revision-Date: 2023-06-05 12:56\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -51,17 +51,17 @@ msgstr "!!! Note\n"
 #: /documentation/docs/index.md:17
 #, no-wrap
 msgid "Test with Steven"
-msgstr ""
+msgstr "Test avec Steven"
 
 #. type: Plain text
 #: /documentation/docs/index.md:20
 msgid "We will see that everything will `work`."
-msgstr ""
+msgstr "Nous allons pouvoir vérifier que tout `fonctionne`."
 
 #. type: Plain text
 #: /documentation/docs/index.md:22
 msgid "Great."
-msgstr ""
+msgstr "Super."
 
 #. type: Title ##
 #: /documentation/docs/index.md:23
