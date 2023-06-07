@@ -1,0 +1,30 @@
+name: po4a update
+on:
+  push:
+    branches:
+      - po4a
+
+jobs:
+ run:
+   name: Update po4a files
+   runs-on: rockylinux:8-minimal
+   steps:
+   - name: Checkout repo
+     uses: actions/checkout@v2
+
+   - name: '[TOOLCHAIN] po4a'
+     run: |
+        sudo dnf install -y po4a
+
+   - name: Update gettext files
+     run: |
+        sudo po4a -v documentation/po4a/po4a.conf
+
+   - name: Commit changes
+     uses: EndBug/add-and-commit@v5.3.0
+     with:
+       author_name: GitHub CI
+       author_email: automation@rockylinux.org
+       message: 'Automatic commit: update translation files'
+     env:
+       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
