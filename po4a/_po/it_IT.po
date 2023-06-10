@@ -2,14 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rockypo4a\n"
 "POT-Creation-Date: 2023-06-05 12:52+0000\n"
-"PO-Revision-Date: 2023-06-05 12:55\n"
-"Last-Translator: \n"
-"Language-Team: Italian\n"
+"PO-Revision-Date: 2023-06-10 19:27+0000\n"
+"Last-Translator: Weblate Admin <weblate.admin@example.com>\n"
+"Language-Team: Italian <http://weblate.formatux.fr/projects/rockydoc/"
+"documentation/it/>\n"
 "Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17\n"
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: it\n"
@@ -51,17 +53,17 @@ msgstr "!!! Note \"Nota\"\n"
 #: /documentation/docs/index.md:17
 #, no-wrap
 msgid "Test with Steven"
-msgstr ""
+msgstr "Test con Steven"
 
 #. type: Plain text
 #: /documentation/docs/index.md:20
 msgid "We will see that everything will `work`."
-msgstr ""
+msgstr "Vedremo che tutto \"funzionerà\"."
 
 #. type: Plain text
 #: /documentation/docs/index.md:22
 msgid "Great."
-msgstr ""
+msgstr "Grande."
 
 #. type: Title ##
 #: /documentation/docs/index.md:23
@@ -216,4 +218,3 @@ msgstr "Contribuire"
 #: /documentation/docs/index.md:73
 msgid "Did you find something missing? Did you find an error? Are you wondering how to create a document of your own, or how to fix things here? Remember how we said that *you* were the Rocky community? That means that *you* are important to us and we want you to join us, if you like, and help make this documentation better. If you are interested in this, head over to our [Contribution Guide](https://github.com/rocky-linux/documentation/blob/main/README.md) to find out how you can do that!"
 msgstr "Avete trovato qualcosa che manca? Avete trovato un errore? Vi state chiedendo come creare un vostro documento o come sistemare le cose qui? Ricordate che abbiamo detto che *voi* siete la comunità Rocky? Ciò significa che *voi* siete importanti per noi e vogliamo che vi uniate a noi, se vi va, per contribuire a migliorare questa documentazione. Se siete interessati, visitate la nostra [Guida ai contributi](https://github.com/rocky-linux/documentation/blob/main/README.md) per scoprire come potete farlo!"
-
