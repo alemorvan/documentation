@@ -1,0 +1,10 @@
+---
+nav:
+    - ... | index*.md
+    - System Administrator's Guide: admin_guide
+    - Learning Ansible: learning_ansible
+    - Learning Bash: learning_bash
+    - Learning Rsync: learning_rsync
+    - LXD Server: lxd_server
+    - DISA STIG: disa_stig
+    - ...
