@@ -86,7 +86,7 @@ do
 [po4a_langs] ${lang}
 
 # Path of files where to locate .pot and .po
-[po4a_paths] ${PO_DIR}/${dir}/\$master.pot \$lang:${PO_DIR}/${dir}/\$master_\$lang.po
+[po4a_paths] ${PO_DIR}/${dir}/\$master.pot \$lang:${PO_DIR}/${dir}/\$master.\$lang.po
 # Options to pass to po4a
 [po4a_alias: md] text opt:\"-o markdown -o yfm_keys=title\"
 
