@@ -1,0 +1,632 @@
+# French translations for po package
+# Traductions fran�aises du paquet po
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-11 15:28+0000\n"
+"PO-Revision-Date: 2023-06-11 15:28+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: YAML Front Matter: title
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:1
+#, no-wrap
+msgid "Large Scale infrastructure"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:5
+#, no-wrap
+msgid "Ansible - Large Scale infrastructure"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:8
+msgid ""
+"In this chapter you will learn how to scale your configuration management "
+"system."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:12
+#, no-wrap
+msgid "**Objectives**: In this chapter you will learn how to:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:15
+#, no-wrap
+msgid ""
+":heavy_check_mark: Organize your code for large infrastructure;   \n"
+":heavy_check_mark: Apply all or part of your configuration management to a group of nodes;   \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:17
+msgid ":checkered_flag: **ansible**, **config management**, **scale**"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:20
+#, no-wrap
+msgid ""
+"**Knowledge**: :star: :star: :star:       \n"
+"**Complexity**: :star: :star: :star: :star:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:22
+#, no-wrap
+msgid "**Reading time**: 30 minutes\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:26
+msgid ""
+"We have seen in the previous chapters how to organize our code in the form "
+"of roles but also how to use some roles for the management of updates (patch "
+"management) or the deployment of code."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:28
+msgid ""
+"What about configuration management? How to manage the configuration of "
+"tens, hundreds, or even thousands of virtual machines with Ansible?"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:30
+msgid ""
+"The advent of the cloud has changed the traditional methods a bit. The VM is "
+"configured at deployment. If its configuration is no longer compliant, it is "
+"destroyed and replaced by a new one."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:32
+msgid ""
+"The organization of the configuration management system presented in this "
+"chapter will respond to these two ways of consuming IT: \"one-shot\" use or "
+"regular \"re-configuration\" of a fleet."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:34
+msgid ""
+"However, be careful: using Ansible to ensure park compliance requires "
+"changing work habits. It is no longer possible to manually modify the "
+"configuration of a service manager without seeing these modifications "
+"overwritten the next time Ansible is run."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:36
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:40
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:80
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:214
+msgid "!!! Note"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:38
+#, no-wrap
+msgid "    What we are going to set up below is not Ansible's favorite terrain. Technologies like Puppet or Salt will do much better. Let's remember that Ansible is a Swiss army knife of automation and is agentless, which explains the differences in performance.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:42
+#, no-wrap
+msgid "    More information can be [found here](https://docs.ansible.com/ansible/latest/user_guide/sample_setup.html)\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:43
+#, no-wrap
+msgid "Variables storage"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:46
+msgid ""
+"The first thing we have to discuss is the separation between data and "
+"Ansible code."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:48
+msgid ""
+"As the code gets larger and more complex, it will be more and more "
+"complicated to modify the variables it contains."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:50
+msgid ""
+"To ensure the maintenance of your site, the most important thing is "
+"correctly separating the variables from the Ansible code."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:52
+msgid ""
+"We haven't discussed it here yet, but you should know that Ansible can "
+"automatically load the variables it finds in specific folders depending on "
+"the inventory name of the managed node, or its member groups."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:54
+msgid "The Ansible documentation suggests that we organize our code as below:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:55
+#, no-wrap
+msgid ""
+"inventories/\n"
+"   production/\n"
+"      hosts               # inventory file for production servers\n"
+"      group_vars/\n"
+"         group1.yml       # here we assign variables to particular groups\n"
+"         group2.yml\n"
+"      host_vars/\n"
+"         hostname1.yml    # here we assign variables to particular systems\n"
+"         hostname2.yml\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:68
+msgid ""
+"If the targeted node is `hostname1` of `group1`, the variables contained in "
+"the `hostname1.yml` and `group1.yml` files will be automatically loaded. "
+"It's a nice way to store all the data for all your roles in the same place."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:70
+msgid ""
+"In this way, the inventory file of your server becomes its identity card. It "
+"contains all the variables that differ from the default variables for your "
+"server."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:72
+msgid ""
+"From the point of view of centralization of variables, it becomes essential "
+"to organize the naming of its variables in the roles by prefixing them, for "
+"example, with the name of the role. It is also recommended to use flat "
+"variable names rather than dictionaries."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:74
+msgid ""
+"For example, if you want to make the `PermitRootLogin` value in the "
+"`sshd_config` file a variable, a good variable name could be "
+"`sshd_config_permitrootlogin` (instead of `sshd.config.permitrootlogin` "
+"which could also be a good variable name)."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:75
+#, no-wrap
+msgid "About Ansible tags"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:78
+msgid ""
+"The use of Ansible tags allows you to execute or skip a part of the tasks in "
+"your code."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:82
+#, no-wrap
+msgid "    More information can be [found here](https://docs.ansible.com/ansible/latest/user_guide/playbooks_tags.html)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:84
+msgid "For example, let's modify our users creation task:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:85
+#, no-wrap
+msgid ""
+"- name: add users\n"
+"  user:\n"
+"    name: \"{{ item }}\"\n"
+"    state: present\n"
+"    groups: \"users\"\n"
+"  loop:\n"
+"     - antoine\n"
+"     - patrick\n"
+"     - steven\n"
+"     - xavier\n"
+"  tags: users\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:100
+msgid ""
+"You can now play only the tasks with the tag `users` with the `ansible-"
+"playbook` option `--tags`:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:101
+#, no-wrap
+msgid "ansible-playbook -i inventories/production/hosts --tags users site.yml\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:106
+msgid "You can also use the `--skip-tags` option."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:107
+#, no-wrap
+msgid "About the directory layout"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:110
+msgid ""
+"Let's focus on a proposal for the organization of files and directories "
+"necessary for the proper functioning of a CMS (Content Management System)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:112
+msgid ""
+"Our starting point will be the `site.yml` file. This file is a bit like the "
+"orchestra conductor of the CMS since it will only include the necessary "
+"roles for the target nodes if needed:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:113
+#, no-wrap
+msgid ""
+"---\n"
+"- name: \"Config Management for {{ target }}\"\n"
+"  hosts: \"{{ target }}\"\n"
+"\n"
+"  roles:\n"
+"\n"
+"    - role: roles/functionality1\n"
+"\n"
+"    - role: roles/functionality2\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:126
+msgid ""
+"Of course, those roles must be created under the `roles` directory at the "
+"same level as the `site.yml` file."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:128
+msgid ""
+"I like to manage my global vars inside a `vars/global_vars.yml`, even if I "
+"could store them inside a file located at `inventories/production/group_vars/"
+"all.yml`"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:129
+#, no-wrap
+msgid ""
+"---\n"
+"- name: \"Config Management for {{ target }}\"\n"
+"  hosts: \"{{ target }}\"\n"
+"  vars_files:\n"
+"    - vars/global_vars.yml\n"
+"  roles:\n"
+"\n"
+"    - role: roles/functionality1\n"
+"\n"
+"    - role: roles/functionality2\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:143
+msgid ""
+"I also like to keep the possibility of disabling a functionality. So I "
+"include my roles with a condition and a default value like this:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:144
+#, no-wrap
+msgid ""
+"---\n"
+"- name: \"Config Management for {{ target }}\"\n"
+"  hosts: \"{{ target }}\"\n"
+"  vars_files:\n"
+"    - vars/global_vars.yml\n"
+"  roles:\n"
+"\n"
+"    - role: roles/functionality1\n"
+"      when:\n"
+"        - enable_functionality1|default(true)\n"
+"\n"
+"    - role: roles/functionality2\n"
+"      when:\n"
+"        - enable_functionality2|default(false)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:162
+msgid "Don't forget to use the tags:"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:164
+msgid ""
+"name: \"Config Management for {{ target }}\" hosts: \"{{ target }}\" "
+"vars_files:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:164
+#, no-wrap
+msgid ""
+"    - vars/global_vars.yml\n"
+"  roles:\n"
+"\n"
+"    - role: roles/functionality1\n"
+"      when:\n"
+"        - enable_functionality1|default(true)\n"
+"      tags:\n"
+"        - functionality1\n"
+"\n"
+"    - role: roles/functionality2\n"
+"      when:\n"
+"        - enable_functionality2|default(false)\n"
+"      tags:\n"
+"        - functionality2\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:185
+msgid "You should get something like this:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:186
+#, no-wrap
+msgid ""
+"$ tree cms\n"
+"cms\n"
+"âââ inventories\n"
+"âÂ Â  âââ production\n"
+"âÂ Â      âââ group_vars\n"
+"âÂ Â      âÂ Â  âââ plateform.yml\n"
+"âÂ Â      âââ hosts\n"
+"âÂ Â      âââ host_vars\n"
+"âÂ Â          âââ client1.yml\n"
+"âÂ Â          âââ client2.yml\n"
+"âââ roles\n"
+"âÂ Â  âââ functionality1\n"
+"âÂ Â  âÂ Â  âââ defaults\n"
+"âÂ Â  âÂ Â  âÂ Â  âââ main.yml\n"
+"âÂ Â  âÂ Â  âââ tasks\n"
+"âÂ Â  âÂ Â      âââ main.yml\n"
+"âÂ Â  âââ functionality2\n"
+"âÂ Â      âââ defaults\n"
+"âÂ Â      âÂ Â  âââ main.yml\n"
+"âÂ Â      âââ tasks\n"
+"âÂ Â          âââ main.yml\n"
+"âââ site.yml\n"
+"âââ vars\n"
+"    âââ global_vars.yml\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:216
+#, no-wrap
+msgid "    You are free to develop your roles within a collection\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:217
+#, no-wrap
+msgid "Tests"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:220
+msgid "Let's launch the playbook and run some tests:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:221
+#, no-wrap
+msgid ""
+"$ ansible-playbook -i inventories/production/hosts -e \"target=client1\" site.yml\n"
+"\n"
+"PLAY [Config Management for client1] ****************************************************************************\n"
+"\n"
+"TASK [Gathering Facts] ******************************************************************************************\n"
+"ok: [client1]\n"
+"\n"
+"TASK [roles/functionality1 : Task in functionality 1] *********************************************************\n"
+"ok: [client1] => {\n"
+"    \"msg\": \"You are in functionality 1\"\n"
+"}\n"
+"\n"
+"TASK [roles/functionality2 : Task in functionality 2] *********************************************************\n"
+"skipping: [client1]\n"
+"\n"
+"PLAY RECAP ******************************************************************************************************\n"
+"client1                    : ok=2    changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:242
+msgid ""
+"As you can see, by default, only the tasks of the `functionality1` role are "
+"played."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:244
+msgid ""
+"Let's activate in the inventory the `functionality2` for our targeted node "
+"and rerun the playbook:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:245
+#, no-wrap
+msgid ""
+"$ vim inventories/production/host_vars/client1.yml\n"
+"---\n"
+"enable_functionality2: true\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:252
+#, no-wrap
+msgid ""
+"$ ansible-playbook -i inventories/production/hosts -e \"target=client1\" site.yml\n"
+"\n"
+"PLAY [Config Management for client1] ****************************************************************************\n"
+"\n"
+"TASK [Gathering Facts] ******************************************************************************************\n"
+"ok: [client1]\n"
+"\n"
+"TASK [roles/functionality1 : Task in functionality 1] *********************************************************\n"
+"ok: [client1] => {\n"
+"    \"msg\": \"You are in functionality 1\"\n"
+"}\n"
+"\n"
+"TASK [roles/functionality2 : Task in functionality 2] *********************************************************\n"
+"ok: [client1] => {\n"
+"    \"msg\": \"You are in functionality 2\"\n"
+"}\n"
+"\n"
+"PLAY RECAP ******************************************************************************************************\n"
+"client1                    : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:275
+msgid "Try to apply only `functionality2`:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:276
+#, no-wrap
+msgid ""
+"$ ansible-playbook -i inventories/production/hosts -e \"target=client1\" --tags functionality2 site.yml\n"
+"\n"
+"PLAY [Config Management for client1] ****************************************************************************\n"
+"\n"
+"TASK [Gathering Facts] ******************************************************************************************\n"
+"ok: [client1]\n"
+"\n"
+"TASK [roles/functionality2 : Task in functionality 2] *********************************************************\n"
+"ok: [client1] => {\n"
+"    \"msg\": \"You are in functionality 2\"\n"
+"}\n"
+"\n"
+"PLAY RECAP ******************************************************************************************************\n"
+"client1                    : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:294
+msgid "Let's run on the whole inventory:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:295
+#, no-wrap
+msgid ""
+"$ ansible-playbook -i inventories/production/hosts -e \"target=plateform\" site.yml\n"
+"\n"
+"PLAY [Config Management for plateform] **************************************************************************\n"
+"\n"
+"TASK [Gathering Facts] ******************************************************************************************\n"
+"ok: [client1]\n"
+"ok: [client2]\n"
+"\n"
+"TASK [roles/functionality1 : Task in functionality 1] *********************************************************\n"
+"ok: [client1] => {\n"
+"    \"msg\": \"You are in functionality 1\"\n"
+"}\n"
+"ok: [client2] => {\n"
+"    \"msg\": \"You are in functionality 1\"\n"
+"}\n"
+"\n"
+"TASK [roles/functionality2 : Task in functionality 2] *********************************************************\n"
+"ok: [client1] => {\n"
+"    \"msg\": \"You are in functionality 2\"\n"
+"}\n"
+"skipping: [client2]\n"
+"\n"
+"PLAY RECAP ******************************************************************************************************\n"
+"client1                    : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   \n"
+"client2                    : ok=2    changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:324
+msgid "As you can see, `functionality2` is only played on the `client1`."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:325
+#, no-wrap
+msgid "Benefits"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:328
+msgid ""
+"By following the advice given in the Ansible documentation, you will quickly "
+"obtain a:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:332
+msgid ""
+"easily maintainable source code even if it contains a large number of roles"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:332
+msgid ""
+"a relatively fast, repeatable compliance system that you can apply partially "
+"or completely"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:332
+msgid "can be adapted on a case-by-case basis and by servers"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:332
+msgid ""
+"the specifics of your information system are separated from the code, easily "
+"audit-able, and centralized in the inventory files of your configuration "
+"management."
+msgstr ""

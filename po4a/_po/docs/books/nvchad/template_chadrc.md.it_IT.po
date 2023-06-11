@@ -1,0 +1,825 @@
+# Italian translations for po package
+# Traduzioni italiane per il pacchetto po.
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-11 15:28+0000\n"
+"PO-Revision-Date: 2023-06-11 15:28+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/nvchad/template_chadrc.md:1
+#, no-wrap
+msgid "nvchad"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/nvchad/template_chadrc.md:1
+#, no-wrap
+msgid "coding"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/nvchad/template_chadrc.md:1
+#, no-wrap
+msgid "plugins"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/books/nvchad/template_chadrc.md:1
+#, no-wrap
+msgid "Chadrc Template"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/nvchad/template_chadrc.md:12
+#, no-wrap
+msgid "Template Chadrc"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:15
+msgid ""
+"In version 2.0 of NvChad, the developers introduced the ability to create, "
+"during the installation phase, a `custom` folder where you can make your own "
+"customizations. The introduction of this feature allows you to have an "
+"editor with the basic features of an IDE from the start."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:17
+msgid ""
+"The most important aspect of creating the _custom_ folder is writing the "
+"files that contain the configurations for setting up some advanced features "
+"such as language servers, linters, and formatters. These files allow us to "
+"integrate, with just a few changes, the functionality we need."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:19
+msgid ""
+"The folder also contains files for code highlighting and custom command "
+"mapping."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:21
+msgid ""
+"The folder is created from an example one on NvChad's GitHub repository: "
+"([example-config](https://github.com/NvChad/example_config)). To create it "
+"during the installation, simply answer \"y\" to the question we are asked at "
+"the beginning of the installation:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:23
+#, no-wrap
+msgid ">  Do you want to install chadrc template? (y/N) :\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:25
+msgid ""
+"An affirmative answer will start a process that will clone the contents of "
+"the _example-config_ folder from GitHub into **~/.config/nvim/lua/custom/** "
+"and once finished, will remove the **.git** folder from it. This is to allow "
+"us to put the configuration under our own version control."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:27
+msgid "Upon completion we will have the following structure:"
+msgstr ""
+
+#. type: Fenced code block (text)
+#: ../src/docs/books/nvchad/template_chadrc.md:28
+#, no-wrap
+msgid ""
+"custom/\n"
+"âââ chadrc.lua\n"
+"âââ init.lua\n"
+"âââ plugins.lua\n"
+"âââ mappings.lua\n"
+"âââ highlights.lua\n"
+"âââ configs\n"
+"âÂ Â  âââ lspconfig.lua\n"
+"âÂ Â  âââ null-ls.lua\n"
+"âÂ Â  âââ overrides.lua\n"
+"âââ README.md\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:43
+msgid ""
+"As we can see, the folder contains some files with the same name also "
+"encountered in the basic structure of NvChad. These files allow you to "
+"integrate the configuration and override the basic settings of the editor."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/nvchad/template_chadrc.md:44
+#, no-wrap
+msgid "Structure Analysis"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:47
+msgid "Let us now go on to examine its contents:"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/nvchad/template_chadrc.md:48
+#, no-wrap
+msgid "Main Files"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/nvchad/template_chadrc.md:50
+#, no-wrap
+msgid "chadrc.lua"
+msgstr ""
+
+#. type: Fenced code block (lua)
+#: ../src/docs/books/nvchad/template_chadrc.md:52
+#, no-wrap
+msgid ""
+"---@type ChadrcConfig\n"
+"local M = {}\n"
+"\n"
+"-- Path to overriding theme and highlights files\n"
+"local highlights = require \"custom.highlights\"\n"
+"\n"
+"M.ui = {\n"
+"  theme = \"onedark\",\n"
+"  theme_toggle = { \"onedark\", \"one_light\" },\n"
+"\n"
+"  hl_override = highlights.override,\n"
+"  hl_add = highlights.add,\n"
+"}\n"
+"\n"
+"M.plugins = \"custom.plugins\"\n"
+"\n"
+"-- check core.mappings for table structure\n"
+"M.mappings = require \"custom.mappings\"\n"
+"\n"
+"return M\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:76
+msgid ""
+"The file is inserted into the Neovim configuration by the `load_config` "
+"function set in the file **~/.config/nvim/lua/core/utils.lua**, a function "
+"that takes care of loading the default settings and, if present, also those "
+"of our _chadrc.lua_:"
+msgstr ""
+
+#. type: Fenced code block (lua)
+#: ../src/docs/books/nvchad/template_chadrc.md:77
+#, no-wrap
+msgid ""
+"M.load_config = function()\n"
+"  local config = require \"core.default_config\"\n"
+"  local chadrc_path = vim.api.nvim_get_runtime_file(\"lua/custom/chadrc.lua\", false)[1]\n"
+"...\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:85
+msgid ""
+"Its function is to insert files from our _custom_ folder into the NvChad "
+"configuration to then be used along with the default files to start the "
+"_Neovim_ instance. The files are inserted into the configuration tree "
+"through `require` functions such as:"
+msgstr ""
+
+#. type: Fenced code block (lua)
+#: ../src/docs/books/nvchad/template_chadrc.md:86
+#, no-wrap
+msgid "require \"custom.mappings\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:91
+msgid ""
+"The string **custom.mappings** indicates the relative path to the file "
+"without the extension as opposed to the default path, which in this case is "
+"**~/.config/nvim/lua/**. The dot replaces the slash since this is the "
+"convention in code written in Lua (in the _lua language_ there is no concept "
+"of _directory_)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:93
+msgid ""
+"In summary, we can say that the call described above inserts the "
+"configurations written in the **custom/mappings.lua** file into the NvChad "
+"mapping thus inserting our shortcuts to invoke the commands of our plugins."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:95
+msgid ""
+"We then have a section that overrides some of the NvChad UI configuration "
+"settings contained in **~/.config/nvim/lua/core/default_config.lua**, more "
+"specifically the `M.ui` section that allows us, for example, to select a "
+"light or dark theme."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:97
+msgid ""
+"And we also have the inclusion of our plugins defined in **custom/plugins."
+"lua** corresponding to the string:"
+msgstr ""
+
+#. type: Fenced code block (lua)
+#: ../src/docs/books/nvchad/template_chadrc.md:98
+#, no-wrap
+msgid "M.plugins = \"custom.plugins\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:103
+msgid ""
+"In this way our plugins will be passed along with those that make up the "
+"NvChad configuration to _lazy.nvim_ for installation and management. The "
+"inclusion in this case is not in the Neovim tree but rather in the "
+"configuration of _lazy.nvim_ since this plugin completely disables the "
+"relative functionality of the editor with the call `vim.go.loadplugins = "
+"false`."
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/nvchad/template_chadrc.md:104
+#, no-wrap
+msgid "init.lua"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:107
+msgid ""
+"This file is used for overwriting settings defined in **~/.config/nvim/lua/"
+"core/init.lua**, such as indentation or swap write interval, to disk. It is "
+"also used for the creation of auto-commands, as described in the commented "
+"lines in the file. An example might be the following in which some settings "
+"for writing documents in Markdown have been included:"
+msgstr ""
+
+#. type: Fenced code block (lua)
+#: ../src/docs/books/nvchad/template_chadrc.md:108
+#, no-wrap
+msgid ""
+"--local autocmd = vim.api.nvim_create_autocmd\n"
+"\n"
+"-- settings for Markdown\n"
+"local opt = vim.opt\n"
+"\n"
+"opt.tabstop = 4\n"
+"opt.softtabstop = 4\n"
+"opt.shiftwidth = 4\n"
+"opt.shiftround = false\n"
+"opt.expandtab = true\n"
+"opt.autoindent = true\n"
+"opt.smartindent = true\n"
+"\n"
+"-- Auto resize panes when resizing nvim window\n"
+"--autocmd(\"VimResized\", {\n"
+"--   pattern = \"*\",\n"
+"--   command = \"tabdo wincmd =\",\n"
+"-- })\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:130
+msgid "In this way our settings will replace the default settings."
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/nvchad/template_chadrc.md:131
+#, no-wrap
+msgid "plugins.lua"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:134
+msgid ""
+"This file, as you can guess from the name, is used to add our plugins to "
+"those in the basic NvChad configuration. The insertion of plugins is "
+"explained in detail on the page dedicated to [Plugins Manager](nvchad_ui/"
+"plugins_manager.md)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:136
+msgid ""
+"The _plugins.lua_ file created by the _template chadrc_ has in the first "
+"part a number of customizations that override the plugin definition options "
+"and default plugin configurations. This part of the file does not need to be "
+"modified by us as the developers have prepared special files for this "
+"purpose that are present in the _config_ folder."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:138
+msgid ""
+"Then follows the installation of a plugin. This is set up as an example so "
+"that you can begin to become familiar with the format used by _lazy.nvim_ "
+"which differs slightly from the format used by _packer.nvim_, the handler "
+"used in version 1.0."
+msgstr ""
+
+#. type: Fenced code block (lua)
+#: ../src/docs/books/nvchad/template_chadrc.md:139
+#, no-wrap
+msgid ""
+"  -- Install a plugin\n"
+"  {\n"
+"    \"max397574/better-escape.nvim\",\n"
+"    event = \"InsertEnter\",\n"
+"    config = function()\n"
+"      require(\"better_escape\").setup()\n"
+"    end,\n"
+"  },\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:151
+msgid ""
+"After this plugin and before the last bracket we can insert all our plugins. "
+"There is a whole ecosystem of plugins suitable for every purpose. For an "
+"initial overview you can visit [Neovimcraft](https://neovimcraft.com/)."
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/nvchad/template_chadrc.md:152
+#, no-wrap
+msgid "mappings.lua"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:155
+msgid ""
+"This file inserts into the configuration tree the mappings (keyboard "
+"shortcuts) that will be needed to invoke the commands of the plugins we are "
+"going to add."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:157
+msgid ""
+"An example setting is also presented here so that its format can be studied:"
+msgstr ""
+
+#. type: Fenced code block (lua)
+#: ../src/docs/books/nvchad/template_chadrc.md:158
+#, no-wrap
+msgid ""
+"M.general = {\n"
+"  n = {\n"
+"    [\";\"] = { \":\", \"enter command mode\", opts = { nowait = true } },\n"
+"  },\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:167
+#, no-wrap
+msgid "This mapping is entered for the NORMAL state `n =` the character <kbd>;</kbd> which when pressed on the keyboard plays the character <kbd>:</kbd>. This character is the character used to enter COMMAND mode. The option `nowait = true` is also set to enter that mode immediately. In this way on a keyboard with a US QWERTY layout, we will not need to use <kbd>SHIFT</kbd> to enter COMMAND mode.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:169
+msgid "!!! Tip"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:171
+#, no-wrap
+msgid "    For users of European keyboards (such as Italian), it is recommended to substitute the character <kbd>;</kbd> with <kbd>,</kbd>.\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/nvchad/template_chadrc.md:172
+#, no-wrap
+msgid "highlights.lua"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:175
+msgid ""
+"The file is used to customize the style of the editor. The settings written "
+"here are used to change aspects such as font style (**bold**,_italic_), "
+"background color of an element, foreground color, etc.."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/nvchad/template_chadrc.md:176
+#, no-wrap
+msgid "Configs folder"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:179
+msgid ""
+"The files in this folder are all configuration files that are used in the "
+"**custom/plugins.lua** file to change the default settings of the plugins "
+"that deal with language servers (_lspconfig_), linter/formatters (_null-"
+"ls_), and for overriding the basic settings of **treesitter**, **mason**, "
+"and **nvim-tree** (_override_)."
+msgstr ""
+
+#. type: Fenced code block (text)
+#: ../src/docs/books/nvchad/template_chadrc.md:180
+#, no-wrap
+msgid ""
+"configs/\n"
+"âââ lspconfig.lua\n"
+"âââ null-ls.lua\n"
+"âââ overrides.lua\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/nvchad/template_chadrc.md:187
+#, no-wrap
+msgid "lspconfig.lua"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:190
+msgid ""
+"The _lspconfig.lua_ file sets the local language servers that the editor can "
+"use. This will allow for advanced features for supported files, such as "
+"autocomplete or snippets, for quick creation of pieces of code. To add our "
+"_lsp_ to the configuration, we simply edit the table (in _lua_ what is "
+"represented below in curly brackets is a table) prepared especially by the "
+"NvChad developers:"
+msgstr ""
+
+#. type: Fenced code block (lua)
+#: ../src/docs/books/nvchad/template_chadrc.md:191
+#, no-wrap
+msgid "local servers = { \"html\", \"cssls\", \"tsserver\", \"clangd\" }\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:196
+msgid ""
+"As we can see some servers are already set up by default. To add a new one "
+"simply enter it at the end of the table. The available servers can be found "
+"at [mason packages](https://github.com/williamboman/mason.nvim/blob/main/"
+"PACKAGES.md) and for their configurations you can refer to [lsp server "
+"configurations](https://github.com/neovim/nvim-lspconfig/blob/master/doc/"
+"server_configurations.md)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:198
+msgid ""
+"For example if we also want to have support for the `yaml` language we can "
+"add it as in the following example:"
+msgstr ""
+
+#. type: Fenced code block (lua)
+#: ../src/docs/books/nvchad/template_chadrc.md:199
+#, no-wrap
+msgid "local servers = { \"html\", \"cssls\", \"tsserver\", \"clangd\", \"yamlls\" }\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:204
+msgid ""
+"Changing the file, however, does not involve installing the related language "
+"server. This will have to be installed separately with _Mason_. The language "
+"server that provides support for _yaml_ is [yaml-language-server](https://"
+"github.com/redhat-developer/yaml-language-server) which we will have to "
+"install with the command `:MasonInstall yaml-language-server`. At this point "
+"we will have, for example, control of the code written in the headers "
+"(_frontmatter_) of the Rocky Linux documentation pages."
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/nvchad/template_chadrc.md:205
+#, no-wrap
+msgid "null-ls.lua"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:208
+msgid ""
+"This file takes care of configuring some features geared toward control and "
+"formatting of written code. Editing this file requires a bit more research "
+"for configuration than the previous file. An overview of the available "
+"components can be found on [the builtins page](https://github.com/jose-elias-"
+"alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:210
+msgid ""
+"Again, a table has been set up, the `local sources` table, where we can "
+"enter our customizations which we can see below:"
+msgstr ""
+
+#. type: Fenced code block (lua)
+#: ../src/docs/books/nvchad/template_chadrc.md:211
+#, no-wrap
+msgid ""
+"local sources = {\n"
+"\n"
+"  -- webdev stuff\n"
+"  b.formatting.deno_fmt,\n"
+"  b.formatting.prettier.with { filetypes = { \"html\", \"markdown\", \"css\" } },\n"
+"  -- Lua\n"
+"  b.formatting.stylua,\n"
+"\n"
+"  -- cpp\n"
+"  b.formatting.clang_format,\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:226
+msgid ""
+"As we can see, in the initial configuration only formatters were included, "
+"but we might for example need a diagnostic for the Markdown language and in "
+"that case we could add [Markdownlint](https://github.com/DavidAnson/"
+"markdownlint) like this:"
+msgstr ""
+
+#. type: Fenced code block (lua)
+#: ../src/docs/books/nvchad/template_chadrc.md:227
+#, no-wrap
+msgid ""
+"  -- diagnostic markdown\n"
+"  b.diagnostics.markdownlint,\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:233
+msgid ""
+"Again, the configuration needs the installation of the related package, "
+"which we are going to install always with _Mason_:"
+msgstr ""
+
+#. type: Fenced code block (text)
+#: ../src/docs/books/nvchad/template_chadrc.md:234
+#, no-wrap
+msgid ":MasonInstall markdownlint\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:239
+msgid "!!! Note"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:241
+#, no-wrap
+msgid "    Configuration of this diagnostic tool also requires the creation of a configuration file in your home folder, which will not be covered in this document.\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/nvchad/template_chadrc.md:242
+#, no-wrap
+msgid "overrides.lua"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:245
+msgid ""
+"The _overrides.lua_ file contains the changes to be made to the default "
+"plugin settings. The plugins to which the changes are to be applied are "
+"specified in the `-- override plugin configs` section of the **custom/"
+"plugins.lua** file through the use of the `opts` option (e.g. `opts = "
+"overrides.mason`)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:247
+msgid ""
+"In the initial configuration there are three plugins marked as needing to be "
+"overridden and they are _treesitter_, _mason_ and _nvim-tree_. Leaving out "
+"_nvim-tree_ for the moment, we will focus on the first two that allow us to "
+"change our editing experience significantly."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:249
+msgid ""
+"_treesitter_ is a code parser that takes care of its formatting in an "
+"interactive way. Whenever we save a file recognized by _treesitter_ it is "
+"passed to the parser which returns an optimally indented and highlighted "
+"code tree, so it will be easier to read, interpret and edit the code in the "
+"editor."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:251
+msgid "The part of the code that deals with this is as follows:"
+msgstr ""
+
+#. type: Fenced code block (lua)
+#: ../src/docs/books/nvchad/template_chadrc.md:252
+#, no-wrap
+msgid ""
+"M.treesitter = {\n"
+"  ensure_installed = {\n"
+"    \"vim\",\n"
+"    \"lua\",\n"
+"    \"html\",\n"
+"    \"css\",\n"
+"    \"javascript\",\n"
+"    \"typescript\",\n"
+"    \"tsx\",\n"
+"    \"c\",\n"
+"    \"markdown\",\n"
+"    \"markdown_inline\",\n"
+"  },\n"
+"  indent = {\n"
+"    enable = true,\n"
+"    -- disable = {\n"
+"    --   \"python\"\n"
+"    -- },\n"
+"  },\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:276
+msgid ""
+"Now following the example given earlier, if we want the _frontmatter_ of our "
+"documentation pages on Rocky Linux to be highlighted correctly we can add "
+"support for _yaml_ in the `ensure_installed` table after the last parser set:"
+msgstr ""
+
+#. type: Fenced code block (text)
+#: ../src/docs/books/nvchad/template_chadrc.md:277
+#, no-wrap
+msgid ""
+"    ...\n"
+"    \"tsx\",\n"
+"    \"c\",\n"
+"    \"markdown\",\n"
+"    \"markdown_inline\",\n"
+"    \"yaml\",\n"
+"    ...\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:288
+msgid ""
+"Now the next time we open NvChad, the parser we just added will also be "
+"automatically installed."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:290
+msgid ""
+"To have the parser available directly in the running instance of NvChad we "
+"can always install it, even without having edited the file, with the command:"
+msgstr ""
+
+#. type: Fenced code block (text)
+#: ../src/docs/books/nvchad/template_chadrc.md:291
+#, no-wrap
+msgid ":TSInstall yaml\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:296
+msgid ""
+"Following in the file is the part regarding the installation of servers by "
+"_Mason_. All servers set in this table are installed in one operation with "
+"the command `:MasonInstallAll` (this command is also invoked during the "
+"creation of the _custom_ folder). The part is as follows:"
+msgstr ""
+
+#. type: Fenced code block (lua)
+#: ../src/docs/books/nvchad/template_chadrc.md:297
+#, no-wrap
+msgid ""
+"M.mason = {\n"
+"  ensure_installed = {\n"
+"    -- lua stuff\n"
+"    \"lua-language-server\",\n"
+"    \"stylua\",\n"
+"\n"
+"    -- web dev stuff\n"
+"    \"css-lsp\",\n"
+"    \"html-lsp\",\n"
+"    \"typescript-language-server\",\n"
+"    \"deno\",\n"
+"    \"prettier\"\n"
+"  },\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:315
+msgid ""
+"Again, following the initial example where we enabled support for _yaml_ by "
+"manually installing the server, we can make sure we always have it installed "
+"by adding it to the table:"
+msgstr ""
+
+#. type: Fenced code block (text)
+#: ../src/docs/books/nvchad/template_chadrc.md:316
+#, no-wrap
+msgid ""
+"    ...\n"
+"    \"typescript-language-server\",\n"
+"    \"deno\",\n"
+"    \"prettier\",\n"
+"\n"
+"    -- yaml-language-server\n"
+"    \"yaml-language-server\",\n"
+"    ...\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:328
+msgid ""
+"Although this aspect may be marginal on a running instance of NvChad since "
+"we can always manually install the missing servers it turns out to be very "
+"useful during the transfer of our configuration from one machine to another."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:330
+msgid ""
+"For example, suppose we have configured our `custom` folder with all the "
+"features we need and we want to transfer it to another installation of "
+"NvChad. If we have configured this file, after copying or cloning our "
+"`custom` folder a `:MasonInstallAll` will be sufficient to have all the "
+"servers ready to use on the other installation as well."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:332
+msgid ""
+"The final part of the configuration, the `M.nvimtree` section, takes care of "
+"configuring _nvim-tree_ by enabling the functionality to display the state "
+"in the file tree with respect to the git repository:"
+msgstr ""
+
+#. type: Fenced code block (lua)
+#: ../src/docs/books/nvchad/template_chadrc.md:333
+#, no-wrap
+msgid ""
+"  git = {\n"
+"    enable = true,\n"
+"  },\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:340
+msgid "their highlighting and corresponding icons:"
+msgstr ""
+
+#. type: Fenced code block (lua)
+#: ../src/docs/books/nvchad/template_chadrc.md:341
+#, no-wrap
+msgid ""
+"  renderer = {\n"
+"    highlight_git = true,\n"
+"    icons = {\n"
+"      show = {\n"
+"        git = true,\n"
+"      },\n"
+"    },\n"
+"  },\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/nvchad/template_chadrc.md:352
+#, no-wrap
+msgid "Conclusion"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:355
+msgid ""
+"The introduction in NvChad 2.0 of the possibility to create a `custom` "
+"folder during the first installation is certainly a great help for all those "
+"users who are approaching this editor for the first time. It is also a "
+"considerable time-saver for those who have already dealt with NvChad."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/template_chadrc.md:356
+msgid ""
+"Thanks to its introduction, and along with the use of _Mason_, it is very "
+"easy and fast to integrate your own functionality. It only takes a few "
+"changes and you are immediately ready to use the IDE to write code."
+msgstr ""

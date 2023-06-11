@@ -1,0 +1,341 @@
+# Italian translations for po package
+# Traduzioni italiane per il pacchetto po.
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-11 15:28+0000\n"
+"PO-Revision-Date: 2023-06-11 15:28+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: YAML Front Matter: title
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:1
+#, no-wrap
+msgid "File Management"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:5
+#, no-wrap
+msgid "Ansible - Management of Files"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:8
+msgid "In this chapter you will learn how to manage files with Ansible."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:12
+#, no-wrap
+msgid "**Objectives**: In this chapter you will learn how to:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:16
+#, no-wrap
+msgid ""
+":heavy_check_mark: modify the content of file;       \n"
+":heavy_check_mark: upload files to the targeted servers;   \n"
+":heavy_check_mark: retrieve files from the targeted servers.   \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:18
+msgid ":checkered_flag: **ansible**, **module**, **files**"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:21
+#, no-wrap
+msgid ""
+"**Knowledge**: :star: :star:     \n"
+"**Complexity**: :star:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:23
+#, no-wrap
+msgid "**Reading time**: 20 minutes\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:27
+msgid ""
+"Depending on your needs, you will have to use different Ansible modules to "
+"modify the system configuration files."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:28
+#, no-wrap
+msgid "`ini_file` module"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:31
+msgid ""
+"When you want to modify an INI file (section between `[]` then `key=value` "
+"pairs), the easiest way is to use the `ini_file` module."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:33
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:58
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:77
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:96
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:113
+msgid "!!! Note"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:35
+#, no-wrap
+msgid "    More information can be [found here](https://docs.ansible.com/ansible/latest/collections/community/general/ini_file_module.html).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:37
+msgid "The module requires:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:41
+msgid "The value of the section"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:41
+msgid "The name of the option"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:41
+msgid "The new value"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:43
+msgid "Example of use:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:44
+#, no-wrap
+msgid ""
+"- name: change value on inifile\n"
+"  community.general.ini_file:\n"
+"    dest: /path/to/file.ini\n"
+"    section: SECTIONNAME\n"
+"    option: OPTIONNAME\n"
+"    value: NEWVALUE\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:53
+#, no-wrap
+msgid "`lineinfile` module"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:56
+msgid ""
+"To ensure that a line is present in a file, or when a single line in a file "
+"needs to be added or modified, use the `linefile` module."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:60
+#, no-wrap
+msgid "    More information can be [found here](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/lineinfile_module.html).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:62
+msgid ""
+"In this case, the line to be modified in a file will be found using a regexp."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:64
+msgid ""
+"For example, to ensure that the line starting with `SELINUX=` in the `/etc/"
+"selinux/config` file contains the value `enforcing`:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:65
+#, no-wrap
+msgid ""
+"- ansible.builtin.lineinfile:\n"
+"    path: /etc/selinux/config\n"
+"    regexp: '^SELINUX='\n"
+"    line: 'SELINUX=enforcing'\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:72
+#, no-wrap
+msgid "`copy` module"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:75
+msgid ""
+"When a file has to be copied from the Ansible server to one or more hosts, "
+"it is better to use the `copy` module."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:79
+#, no-wrap
+msgid "    More information can be [found here](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/copy_module.html).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:81
+msgid "Here we are copying `myflile.conf` from one location to another:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:82
+#, no-wrap
+msgid ""
+"- ansible.builtin.copy:\n"
+"    src: /data/ansible/sources/myfile.conf\n"
+"    dest: /etc/myfile.conf\n"
+"    owner: root\n"
+"    group: root\n"
+"    mode: 0644\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:91
+#, no-wrap
+msgid "`fetch` module"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:94
+msgid ""
+"When a file has to be copied from a remote server to the local server, it is "
+"best to use the `fetch` module."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:98
+#, no-wrap
+msgid "    More information can be [found here](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/fetch_module.html).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:100
+msgid "This module does the opposite of the `copy` module:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:101
+#, no-wrap
+msgid ""
+"- ansible.builtin.fetch:\n"
+"    src: /etc/myfile.conf\n"
+"    dest: /data/ansible/backup/myfile-{{ inventory_hostname }}.conf\n"
+"    flat: yes\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:108
+#, no-wrap
+msgid "`template` module"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:111
+msgid ""
+"Ansible and its `template` module use the **Jinja2** template system (http://"
+"jinja.pocoo.org/docs/) to generate files on target hosts."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:115
+#, no-wrap
+msgid "    More information can be [found here](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/template_module.html).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:117
+msgid "For example:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:118
+#, no-wrap
+msgid ""
+"- ansible.builtin.template:\n"
+"    src: /data/ansible/templates/monfichier.j2\n"
+"    dest: /etc/myfile.conf\n"
+"    owner: root\n"
+"    group: root\n"
+"    mode: 0644\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:128
+msgid ""
+"It is possible to add a validation step if the targeted service allows it "
+"(for example apache with the command `apachectl -t`):"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:129
+#, no-wrap
+msgid ""
+"- template:\n"
+"    src: /data/ansible/templates/vhost.j2\n"
+"    dest: /etc/httpd/sites-available/vhost.conf\n"
+"    owner: root\n"
+"    group: root\n"
+"    mode: 0644\n"
+"    validate: '/usr/sbin/apachectl -t'\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:139
+#, no-wrap
+msgid "`get_url` module"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:142
+msgid ""
+"To upload files from a web site or ftp to one or more hosts, use the "
+"`get_url` module:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:143
+#, no-wrap
+msgid ""
+"- get_url:\n"
+"    url: http://site.com/archive.zip\n"
+"    dest: /tmp/archive.zip\n"
+"    mode: 0640\n"
+"    checksum: sha256:f772bd36185515581aa9a2e4b38fb97940ff28764900ba708e68286121770e9a\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:151
+msgid ""
+"By providing a checksum of the file, the file will not be re-downloaded if "
+"it is already present at the destination location and its checksum matches "
+"the value provided."
+msgstr ""

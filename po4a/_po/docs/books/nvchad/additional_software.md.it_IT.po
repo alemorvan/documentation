@@ -1,0 +1,226 @@
+# Italian translations for po package
+# Traduzioni italiane per il pacchetto po.
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-11 15:28+0000\n"
+"PO-Revision-Date: 2023-06-11 15:28+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/nvchad/additional_software.md:1
+#, no-wrap
+msgid "nvchad"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/nvchad/additional_software.md:1
+#, no-wrap
+msgid "coding"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/books/nvchad/additional_software.md:1
+#, no-wrap
+msgid "Additional Software"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/nvchad/additional_software.md:11
+#, no-wrap
+msgid "Additional Software Needed"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/additional_software.md:14
+msgid ""
+"There are several pieces of additional software that, while not required, "
+"will aid in the overall use of NvChad. The sections below will walk you "
+"through that software and its uses."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/nvchad/additional_software.md:15
+#, no-wrap
+msgid "RipGrep"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/additional_software.md:18
+msgid ""
+"`ripgrep` is a line-oriented search tool that recursively searches the "
+"current directory for a _regex_ (regular expression) pattern. By default, "
+"_ripgrep_ respects the rules of _gitignore_ and automatically skips hidden "
+"files/directories and binaries. Ripgrep offers excellent support on Windows, "
+"macOS and Linux, with binaries available for each release."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/nvchad/additional_software.md:19
+#, no-wrap
+msgid "Install RipGrep from EPEL"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/additional_software.md:22
+msgid ""
+"In both Rocky Linux 8 and 9, you can install RipGrep from the EPEL. To do "
+"this, install the `epel-release,` upgrade the system, and then install "
+"`ripgrep.`:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/nvchad/additional_software.md:23
+#, no-wrap
+msgid ""
+"sudo dnf install -y epel-release\n"
+"sudo dnf upgrade\n"
+"sudo dnf install ripgrep\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/nvchad/additional_software.md:29
+#, no-wrap
+msgid "Install RipGrep using `cargo`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/additional_software.md:32
+msgid ""
+"Ripgrep is software written in _Rust_ and is installable with the `cargo` "
+"utility. Note, however, that `cargo` is not installed by the default "
+"installation of _rust_ so you have to install it explicitly. If you run into "
+"errors using this method, revert back to installing from the EPEL."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/additional_software.md:33
+#, no-wrap
+msgid "dnf install rust cargo\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/additional_software.md:38
+msgid ""
+"Once the necessary software is installed, we can install `ripgrep` with:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/additional_software.md:39
+#, no-wrap
+msgid "cargo install ripgrep\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/additional_software.md:44
+msgid ""
+"The installation will save the `rg` executable in the `~/.cargo/bin` folder "
+"which is outside the PATH, to use it at the user level we will link it to "
+"`~/.local/bin/`."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/additional_software.md:45
+#, no-wrap
+msgid "ln -s ~/.cargo/bin/rg ~/.local/bin/\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/nvchad/additional_software.md:49
+#, no-wrap
+msgid "RipGrep Verification"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/additional_software.md:52
+msgid "At this point we can check that everything is okay with:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/additional_software.md:53
+#, no-wrap
+msgid ""
+"rg --version\n"
+"ripgrep 13.0.0\n"
+"-SIMD -AVX (compiled)\n"
+"+SIMD +AVX (runtime)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/additional_software.md:61
+msgid "RipGrep is needed for recursive searches with `:Telescope`."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/nvchad/additional_software.md:62
+#, no-wrap
+msgid "Lazygit"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/additional_software.md:65
+msgid ""
+"[LazyGit](https://github.com/jesseduffield/lazygit) is an ncurses-style "
+"interface that allows you to perform all `git` operations in a more user-"
+"friendly way. It is required by the _lazygit.nvim_ plugin. This plugin makes "
+"it possible to use LazyGit directly from NvChad, it opens a floating window "
+"from where you can perform all operations on your repositories, thus "
+"allowing you to make all changes to the _git repository_ without leaving the "
+"editor."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/additional_software.md:67
+msgid ""
+"To install it we can use the repository for Fedora. On Rocky Linux 9 it "
+"works perfectly."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/additional_software.md:68
+#, no-wrap
+msgid ""
+"sudo dnf copr enable atim/lazygit -y\n"
+"sudo dnf install lazygit\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/additional_software.md:74
+msgid ""
+"Once installed we open a terminal and type the command `lazygit` and an "
+"interface similar to this will appear:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/additional_software.md:76
+msgid "![LazyGit UI](images/lazygit_ui.png)"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/additional_software.md:78
+#, no-wrap
+msgid "With the <kbd>x</kbd> key, we can bring up the menu with all available commands.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/additional_software.md:80
+msgid "![LazyGit UI](images/lazygit_menu.png)"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/additional_software.md:81
+msgid ""
+"Now that we have all the necessary supporting software on our system we can "
+"move on to installing the basic software. We will start with the editor on "
+"which the whole configuration is based, [Neovim](install_nvim.md)."
+msgstr ""

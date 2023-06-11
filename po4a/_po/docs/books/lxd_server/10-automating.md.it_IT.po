@@ -1,0 +1,175 @@
+# Italian translations for po package
+# Traduzioni italiane per il pacchetto po.
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-11 15:28+0000\n"
+"PO-Revision-Date: 2023-06-11 15:28+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/lxd_server/10-automating.md:1
+#, no-wrap
+msgid "lxd"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/lxd_server/10-automating.md:1
+#, no-wrap
+msgid "enterprise"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/lxd_server/10-automating.md:1
+#, no-wrap
+msgid "lxd automation"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/books/lxd_server/10-automating.md:1
+#, no-wrap
+msgid "10 Automating Snapshots"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/lxd_server/10-automating.md:12
+#, no-wrap
+msgid "Chapter 10: Automating Snapshots"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/10-automating.md:15
+msgid ""
+"Throughout this chapter you will need to be root or able to `sudo` to become "
+"root."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/10-automating.md:17
+msgid "Automating the snapshot process makes things a whole lot easier."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/lxd_server/10-automating.md:18
+#, no-wrap
+msgid "Automating The Snapshot Copy Process"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/10-automating.md:21
+msgid ""
+"This process is performed on lxd-primary. First thing we need to do is "
+"create a script that will be run by cron in /usr/local/sbin called \"refresh-"
+"containers\" :"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/10-automating.md:22
+#, no-wrap
+msgid "sudo vi /usr/local/sbin/refreshcontainers.sh\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/10-automating.md:27
+msgid "The script is pretty simple:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/10-automating.md:28
+#, no-wrap
+msgid ""
+"#!/bin/bash\n"
+"# This script is for doing an lxc copy --refresh against each container, copying\n"
+"# and updating them to the snapshot server.\n"
+"\n"
+"for x in $(/var/lib/snapd/snap/bin/lxc ls -c n --format csv)\n"
+"        do echo \"Refreshing $x\"\n"
+"        /var/lib/snapd/snap/bin/lxc copy --refresh $x lxd-snapshot:$x\n"
+"        done\n"
+"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/10-automating.md:41
+#, no-wrap
+msgid " Make it executable:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/10-automating.md:42
+#, no-wrap
+msgid "sudo chmod +x /usr/local/sbin/refreshcontainers.sh\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/10-automating.md:47
+msgid "Change the ownership of this script to your lxdadmin user and group:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/10-automating.md:48
+#, no-wrap
+msgid "sudo chown lxdadmin.lxdadmin /usr/local/sbin/refreshcontainers.sh\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/10-automating.md:53
+msgid ""
+"Set up the crontab for the lxdadmin user to run this script, in this case at "
+"10 PM:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/10-automating.md:54
+#, no-wrap
+msgid "crontab -e\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/10-automating.md:59
+msgid "And your entry will look like this:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/10-automating.md:60
+#, no-wrap
+msgid "00 22 * * * /usr/local/sbin/refreshcontainers.sh > /home/lxdadmin/refreshlog 2>&1\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/10-automating.md:65
+msgid "Save your changes and exit."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/10-automating.md:67
+msgid ""
+"This will create a log in lxdadmin's home directory called \"refreshlog\" "
+"which will give you knowledge of whether your process worked or not. Very "
+"important!"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/10-automating.md:69
+msgid ""
+"The automated procedure will fail sometimes. This generally happens when a "
+"particular container fails to refresh. You can manually re-run the refresh "
+"with the following command (assuming rockylinux-test-9 here, as our "
+"container):"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/10-automating.md:70
+#, no-wrap
+msgid "lxc copy --refresh rockylinux-test-9 lxd-snapshot:rockylinux-test-9\n"
+msgstr ""

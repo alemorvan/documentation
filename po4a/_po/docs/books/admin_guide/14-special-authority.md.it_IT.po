@@ -1,0 +1,1297 @@
+# Italian translations for po package
+# Traduzioni italiane per il pacchetto po.
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-11 15:28+0000\n"
+"PO-Revision-Date: 2023-06-11 15:28+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/admin_guide/14-special-authority.md:1
+#, no-wrap
+msgid "advanced permissions"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/admin_guide/14-special-authority.md:1
+#, no-wrap
+msgid "access control"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/books/admin_guide/14-special-authority.md:1
+#, no-wrap
+msgid "Special Authority"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:11
+#, no-wrap
+msgid "<font color=red>All of the examples in this document use root actions, with ordinary users actions commented separately. In the markdown code block, the command description will be indicated with # on the previous line.</font>\n"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/admin_guide/14-special-authority.md:12
+#, no-wrap
+msgid "Review basic permissions"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:15
+msgid ""
+"It is well known that the basic permissions of GNU/Linux can be viewed using "
+"`ls -l`:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:16
+#, no-wrap
+msgid ""
+"Shell > ls -l \n"
+"-  rwx  r-x  r-x  1  root  root    1358  Dec 31 14:50  anaconda-ks.cfg\n"
+"â   â    â    â   â   â     â       â        â            â\n"
+"1   2    3    4   5   6     7       8        9            10\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:24
+msgid "Their meanings are as follows:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:37
+#, no-wrap
+msgid ""
+"| Part | Description |\n"
+"|------|-------------|\n"
+"| 1    | File type. `-` indicates that this is an ordinary file. Seven file types will be introduced later. |\n"
+"| 2    | Permissions of owner user, the meaning of rwx respectively means: read, write, execute.  |\n"
+"| 3    | Permissions of the owner group. |\n"
+"| 4    | Permissions of other users. |\n"
+"| 5    | Number of subdirectories (`.` and `..` included). For a file, it represents the number of hard links, and 1 represents itself. |\n"
+"| 6    | Name of the owner user. |\n"
+"| 7    | Name of the owner group. |\n"
+"| 8    | For files, it shows the size of the file. For directories, it shows the fixed value of 4096 bytes occupied by the file naming. To calculate the total size of a directory, use `du -sh` |\n"
+"| 9    | Last modified date.   |\n"
+"| 10   | The name of the file (or directory). |\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/14-special-authority.md:38
+#, no-wrap
+msgid "Seven file types"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:49
+#, no-wrap
+msgid ""
+"| File types  | Description                                                                                                                                |\n"
+"|:-----------:|--------------------------------------------------------------------------------------------------------------------------------------------|\n"
+"| **-**       | Represents an ordinary file. Including plain text files (ASCII); binary files (binary); data format files (data); various compressed files. |\n"
+"| **d**       | Represents a directory file. By default, there is one in every directory `.` and `..`. |\n"
+"| **b**       | Block device file. Including all kinds of hard drives, USB drives and so on. | \n"
+"| **c**       | Character device file. Interface device of serial port, such as mouse, keyboard, etc. |\n"
+"| **s**       | Socket file. It is a file specially used for network communication. | \n"
+"| **p**       | Pipe file. It is a special file type, the main purpose is to solve the errors caused by multiple programs accessing a file at the same time. FIFO is the abbreviation of first-in-first-out. |\n"
+"| **l**       | Soft link files, also called symbolic link files, are similar to shortcuts in Windows. Hard link file, also known as physical link file.| \n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/14-special-authority.md:50
+#, no-wrap
+msgid "The meaning of basic permissions"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:53
+msgid "For file:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:59
+#, no-wrap
+msgid ""
+"| Digital representation | Permissions  | Description |\n"
+"|:----------------------:|--------------|-------------|\n"
+"|4                       | r(read)      | Indicates that you can read this file. You can use commands such as `cat`, `head`, `more`, `less`, `tail`, etc. |\n"
+"|2                       | w(write)     | Indicates that the file can be modified. Commands such as `vim` can be used. |\n"
+"|1                       | x(execution) | Permissions for executable files (such as scripts or binaries). |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:61
+msgid "For directory:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:67
+#, no-wrap
+msgid ""
+"| Digital representation | Permissions  | Description |\n"
+"|:----------------------:|--------------|-------------|\n"
+"|4                       | r(read)      | Indicates that the contents of the directory can be listed, such as `ls -l`. |\n"
+"|2                       | w(write)     | Indicates that you can create, delete, and rename files in this directory, such as commands `mkdir`, `touch`, `rm`, etc. |\n"
+"|1                       | x(execute)  | Indicates that you can enter the directory, such as the command `cd`. |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:69
+#: ../src/docs/books/admin_guide/14-special-authority.md:193
+#: ../src/docs/books/admin_guide/14-special-authority.md:204
+#: ../src/docs/books/admin_guide/14-special-authority.md:241
+#: ../src/docs/books/admin_guide/14-special-authority.md:477
+msgid "!!! info"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:71
+#, no-wrap
+msgid "    For directories, **r** and **x** permissions usually appear at the same time.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/14-special-authority.md:72
+#, no-wrap
+msgid "Special authority"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:75
+msgid ""
+"In GNU/Linux, in addition to the basic permissions mentioned above, there "
+"are also some special permissions, which we will introduce one by one."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/14-special-authority.md:76
+#, no-wrap
+msgid "ACL permissions"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:80
+msgid ""
+"What is ACL? ACL(Access Control List), the purpose is to solve the problem "
+"that the three identities under Linux can not meet the needs of resource "
+"permission allocation."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:82
+msgid ""
+"For example, the teacher gives lessons to the students, and the teacher "
+"creates a directory under the root directory of OS. Only the students in "
+"this class are allowed to upload and download, and others are not allowed. "
+"At this point, the permissions for the directory are 770. One day, a student "
+"from another school came to listen to the teacher, how should permissions be "
+"assigned? If you put this student in the **owner group**, he will have the "
+"same permissions as the students in this class - **rwx**. If the student is "
+"put into the **other users**, he will not have any permissions. At this "
+"time, the basic permission allocation cannot meet the requirements, and you "
+"need to use ACL."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:84
+#, no-wrap
+msgid "There is a similar feature in the Windows operating system. For example, to assign permissions to a user for a file, for a user-defined directory/file, **right-click** ---> **Properties** ---> **Security** ---> **Edit** ---> **Add** ---> **Advanced** ---> **Find now**, find the corresponding user/group ---> assign specific permissions ---> **apply**, and complete.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:86
+#, no-wrap
+msgid "<!--Screenshots of the English interface are required-->\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:88
+msgid ""
+"The same is true of GNU/Linux: add the specified user/group to the file/"
+"directory and grant the appropriate permissions to complete the ACL "
+"permission assignment."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:91
+msgid ""
+"How do I enable an ACL? You need to find the file name of the device where "
+"the mount point is located and its partition number. For example, on my "
+"machine, you could do something like this:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:92
+#, no-wrap
+msgid ""
+"Shell > df -hT\n"
+"Filesystem     Type      Size  Used  Avail Use% Mounted on\n"
+"devtmpfs       devtmpfs  3.8G     0  3.8G    0% /dev\n"
+"tmpfs          tmpfs     3.8G     0  3.8G    0% /dev/shm\n"
+"tmpfs          tmpfs     3.8G  8.9M  3.8G    1% /run\n"
+"tmpfs          tmpfs     3.8G     0  3.8G    0% /sys/fs/cgroup\n"
+"/dev/nvme0n1p2 ext4       47G   11G   35G   24% /\n"
+"/dev/nvme0n1p1 xfs      1014M  187M  828M   19% /boot\n"
+"tmpfs          tmpfs     774M     0  774M    0% /run/user/0\n"
+"\n"
+"Shell > dumpe2fs /dev/nvme0n1p2 | head -n 10\n"
+"dumpe2fs 1.45.6 (20-Mar-2020)\n"
+"Filesystem volume name:   <none>\n"
+"Last mounted on:          /\n"
+"Filesystem UUID:          c8e6206d-2892-4c22-a10b-b87d2447a885\n"
+"Filesystem magic number:  0xEF53\n"
+"Filesystem revision #:    1 (dynamic)\n"
+"Filesystem features:      has_journal ext_attr resize_inode dir_index filetype needs_recovery extent 64bit flex_bg sparse_super large_file huge_file dir_nlink extra_isize metadata_csum\n"
+"Filesystem flags:         signed_directory_hash \n"
+"Default mount options:    user_xattr acl\n"
+"Filesystem state:         clean\n"
+"Errors behavior:          Continue\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:118
+msgid ""
+"When you see the line **\"Default mount options: user_xattr acl\"**, it "
+"indicates that ACL has been enabled. If it is not enabled, you can also "
+"enable it temporarily -- `mount -o remount,acl /`. It can also be enabled "
+"permanently:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:119
+#, no-wrap
+msgid ""
+"Shell > vim /etc/fstab\n"
+"UUID=c8e6206d-2892-4c22-a10b-b87d2447a885  /   ext4    defaults,acl        1 1\n"
+"\n"
+"Shell > mount -o remount /\n"
+"# or\n"
+"Shell > reboot\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/admin_guide/14-special-authority.md:128
+#, no-wrap
+msgid "Viewing and setting of ACL"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:131
+msgid ""
+"To view ACL, you need to use the `getfacle` command -- `getfacle FILE_NAME`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:133
+msgid ""
+"If you want to set ACL permissions, you need to use the `setfacl` command."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:134
+#, no-wrap
+msgid "Shell > setfacl <option> <FILE_NAME>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:146
+msgid ""
+"| Option | Description | |---|---| | -m | modify the current ACL(s) of "
+"file(s)  | | -x | remove entries from the ACL(s) of file(s)  | | -b | remove "
+"all extended ACL entries | | -d | operations apply to the default ACL | | -k "
+"| remove the default ACL | | -R | recurse into subdirectories |"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:148
+msgid ""
+"Use the teacher's teaching example mentioned at the beginning of the article "
+"to illustrate the use of ACL."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:149
+#, no-wrap
+msgid ""
+"# The teacher is the root user\n"
+"Shell > groupadd class1\n"
+"Shell > mkdir /project\n"
+"Shell > chown root:class1 /project\n"
+"Shell > chmod 770 /project\n"
+"Shell > ls -ld /project/\n"
+"drwxrwx--- 2 root class1 4096 Jan  12 12:58 /project/\n"
+"\n"
+"# Put the students in the class into the class1 group\n"
+"Shell > useradd frank\n"
+"Shell > passwd frank\n"
+"Shell > useradd aron\n"
+"Shell > passwd aron\n"
+"Shell > gpasswd -a frank class1\n"
+"Shell > gpasswd -a aron class1\n"
+"\n"
+"# A student from another school came to listen to the teacher\n"
+"Shell > useradd tom\n"
+"Shell > passwd tom\n"
+"# If it is a group, \"u\" here should be replaced by \"g\"\n"
+"Shell > setfacle -m u:tom:rx  /project\n"
+"\n"
+"# \"+\" sign is added in the output message\n"
+"Shell > ls -ld /project/\n"
+"drwxrwx---+ 2 root class1 4096 Jan  12 12:58 /project/\n"
+"\n"
+"Shell > getfacl -p /project/\n"
+"# file: /project/\n"
+"# owner: root\n"
+"# group: class1\n"
+"user::rwx\n"
+"user:tom:r-x\n"
+"group::rwx\n"
+"mask::rwx\n"
+"other::---\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/admin_guide/14-special-authority.md:187
+#, no-wrap
+msgid "Maximum valid permissions of ACL"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:191
+msgid ""
+"When using the `getfacl` command, what does the \"mask:: rwx\" in the output "
+"message mean? The **mask** is used to specify the maximum valid permissions. "
+"The permissions given to the user are not real permissions, the real "
+"permissions can only be obtained by using the \"logical and\" of the user's "
+"permissions and mask permissions."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:195
+#, no-wrap
+msgid "    \"Logical and\" means: that if all are true, the result is true; if there is one false, the result is false.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:202
+#, no-wrap
+msgid ""
+"    | Permissions set by users | Mask permissions | Result |\n"
+"    |:---:|:---:|:---:|\n"
+"    | r | r | r |\n"
+"    | r | - | - |\n"
+"    | - | r | - |\n"
+"    | - | - | - |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:206
+#, no-wrap
+msgid "    Because the default mask is rwx, for any user's ACL permissions, the result is their own permissions.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:208
+msgid "You can also adjust mask permissions:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:209
+#, no-wrap
+msgid ""
+"Shell > setfacl -m u:tom:rwx /project\n"
+"Shell > setfacl -m m:rx /project\n"
+"\n"
+"Shell > getfacl  -p /project/\n"
+"# file: project/\n"
+"# owner: root\n"
+"# group: class1\n"
+"user::rwx\n"
+"user:tom:rwx                    #effective:r-x\n"
+"group::rwx                      #effective:r-x\n"
+"mask::r-x\n"
+"other::---\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/admin_guide/14-special-authority.md:224
+#, no-wrap
+msgid "Delete ACL permission"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:226
+#, no-wrap
+msgid ""
+"# Delete the ACL permissions of user/group in the specified directory\n"
+"Shell > setfacl -x u:USER_NAME FILE_NAME\n"
+"Shell > setfacl -x g:GROUP_NAME FILE_NAME\n"
+"\n"
+"# Removes all ACL permissions for the specified directory\n"
+"Shell > setfacl -b FILE_NAME\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/admin_guide/14-special-authority.md:235
+#, no-wrap
+msgid "Default and recursion of ACL permissions"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:239
+msgid ""
+"What is the recursion of ACL permissions? For ACL permissions, this means "
+"that when the parent directory sets ACL permissions, all subdirectories and "
+"sub-files will have the same ACL permissions."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:243
+#, no-wrap
+msgid "    Recursion applies to files/directories that already exist.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:245
+msgid "Look at the following example:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:246
+#, no-wrap
+msgid ""
+"Shell > setfacl -m m:rwx /project\n"
+"Shell > setfacl -m u:tom:rx /project\n"
+"\n"
+"Shell > cd /project\n"
+"Shell > touch file1 file2\n"
+"# Because there is no recursion, the file here does not have ACL permission. \n"
+"Shell > ls -l\n"
+"-rw-r--r-- 1 root root 0 Jan  12 14:35 file1\n"
+"-rw-r--r-- 1 root root 0 Jan  12 14:35 file2\n"
+"\n"
+"Shell > setfacl -m u:tom:rx -R /project\n"
+"Shell > ls -l /project\n"
+"-rw-r-xr--+ 1 root root 0 Jan  12 14:35 file1\n"
+"-rw-r-xr--+ 1 root root 0 Jan  12 14:35 file2\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:265
+msgid ""
+"Now there is a question: if I create a new file in this directory, does it "
+"have ACL permission? The answer is no, because the newly created file is "
+"after the command `setfacl-m u:tom:rx -R /project` is executed."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:266
+#, no-wrap
+msgid ""
+"Shell > touch /project/file3\n"
+"Shell > ls -l /project/file3\n"
+"-rw-r--r-- 1 root root 0 Jan  12 14:52 /project/file3\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:273
+msgid ""
+"If you want the newly created directory/file to also have ACL permissions, "
+"you need to use default ACL permissions."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:274
+#, no-wrap
+msgid ""
+"Shell > setfacl -m d:u:tom:rx  /project\n"
+"Shell > cd /project && touch file4 && ls -l \n"
+"-rw-r-xr--+ 1 root root 0 Jan  12 14:35 file1\n"
+"-rw-r-xr--+ 1 root root 0 Jan  12 14:35 file2\n"
+"-rw-r--r--  1 root root 0 Jan  12 14:52 file3\n"
+"-rw-rw----+ 1 root root 0 Jan  12 14:59 file4\n"
+"\n"
+"Shell > getfacl -p /project\n"
+"# file: /project\n"
+"# owner: root\n"
+"# group: class1\n"
+"user::rwx\n"
+"user:tom:r-x\n"
+"group::rwx\n"
+"mask::rwx\n"
+"other::---\n"
+"default:user::rwx\n"
+"default:user:tom:r-x\n"
+"default:group::rwx\n"
+"default:mask::rwx\n"
+"default:other::---\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/14-special-authority.md:298
+#, no-wrap
+msgid "SetUID"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:301
+msgid "The role of \"SetUID\":"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:306
+msgid "Only executable binaries can set SUID permissions."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:306
+#: ../src/docs/books/admin_guide/14-special-authority.md:369
+msgid "The executor of the command should have x permission to the program."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:306
+msgid ""
+"The executor of the command obtains the identity of the owner of the program "
+"file when executing the program."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:306
+#: ../src/docs/books/admin_guide/14-special-authority.md:369
+msgid ""
+"The identity change is only valid during execution, and once the binary "
+"program is finished, the executor's identity is restored to the original "
+"identity."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:309
+msgid ""
+"Why does GNU/Linux need such strange permissions? Take the most common "
+"`passwd` command as an example:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:311
+msgid "![SetUID1](./images/SetUID1.png)"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:313
+msgid ""
+"As you can see, the ordinary users only has r and x, but the owner's x "
+"becomes s, proving that the `passwd` command has SUID permissions."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:315
+#, no-wrap
+msgid "It is well known that the ordinary users (uid >= 1000) can change his own password. The real password is stored in the **/etc/shadow** file, but the permission of the shadows file is 000, and the ordinary users does not have any permissions.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:316
+#, no-wrap
+msgid ""
+"Shell > ls -l /etc/shadow\n"
+"---------- 1 root root 874 Jan  12 13:42 /etc/shadow\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:322
+msgid ""
+"Since the ordinary users can change their password, they must have written "
+"the password to the **/etc/shadow** file. When an ordinary user executes the "
+"`passwd` command, it will temporarily change to the owner of the file -- "
+"**root**. For **shadow** file, **root** can not be restricted by "
+"permissions. This is why `passwd` command needs SUID permission."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:324
+msgid ""
+"As mentioned earlier, basic permissions can be represented by numbers, such "
+"as 755, 644, and so on. SUID is represented by **4**. For executable "
+"binaries, you can set permissions like this -- **4755**."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:325
+#, no-wrap
+msgid ""
+"# Set SUID permissions\n"
+"Shell > chmod 4755 FILE_NAME\n"
+"# or\n"
+"Shell > chmod u+s FILE_NAME\n"
+"\n"
+"# Remove SUID permission\n"
+"Shell > chmod 755 FILE_NAME\n"
+"# or\n"
+"Shell > chmod u-s FILE_NAME\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:338
+#: ../src/docs/books/admin_guide/14-special-authority.md:354
+#: ../src/docs/books/admin_guide/14-special-authority.md:404
+#: ../src/docs/books/admin_guide/14-special-authority.md:435
+#: ../src/docs/books/admin_guide/14-special-authority.md:690
+msgid "!!! warning"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:340
+#, no-wrap
+msgid "    When the owner of an executable binary file/program does not have **x**, the use of capital **S** means that the file cannot use SUID permissions.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:347
+#, no-wrap
+msgid ""
+"    ```bash\n"
+"    # Suppose this is an executable binary file\n"
+"    Shell > vim suid.sh\n"
+"    #!/bin/bash\n"
+"    cd /etc && ls\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:350
+#, no-wrap
+msgid ""
+"    Shell > chmod 4644 suid.sh\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:352
+#, no-wrap
+msgid "    ![SUID2](./images/SetUID2.png)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:356
+#, no-wrap
+msgid "    Because SUID can temporarily change the Ordinary users  to root, you need to be especially careful with files with this permission when maintaining the server. You can find files with SUID permissions by using the following command:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:360
+#, no-wrap
+msgid ""
+"    ```bash\n"
+"    Shell > find / -perm -4000 -a -type f -exec ls -l  {} \\;\n"
+"    ```\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/14-special-authority.md:361
+#, no-wrap
+msgid "SetGID"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:364
+msgid "The role of \"SetGID\":"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:369
+msgid "Only executable binaries can set SGID permissions."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:369
+msgid ""
+"The executor of the command obtains the identity of the owner group of the "
+"program file when executing the program."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:371
+msgid "Take the `locate` command for example:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/14-special-authority.md:372
+#, no-wrap
+msgid ""
+"Shell > rpm -ql mlocate\n"
+"/usr/bin/locate\n"
+"...\n"
+"/var/lib/mlocate/mlocate.db\n"
+"\n"
+"Shell > ls -l /var/lib/mlocate/mlocate.db\n"
+"-rw-r----- 1 root slocate 4151779 1æ  14 11:43 /var/lib/mlocate/mlocate.db\n"
+"\n"
+"Shell > ll /usr/bin/locate \n"
+"-rwx--s--x. 1 root slocate 42248 4æ  12 2021 /usr/bin/locate\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:386
+msgid ""
+"The `locate` command uses the **mlocate.db** database file to quickly search "
+"for files."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:388
+msgid ""
+"Because the `locate` command has SGID permission, when the executor "
+"(ordinary users) executes the `locate` command, the owner group is switched "
+"to **slocate**. `slocate` has r permission for the **/var/lib/mlocate/"
+"mlocate.db** file."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:390
+msgid ""
+"The SGID is indicated by the number **2**, so the `locate` command has a "
+"permission of 2711."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:391
+#, no-wrap
+msgid ""
+"# Set SGID permissions\n"
+"Shell > chmod 2711 FILE_NAME\n"
+"# or\n"
+"Shell > chmod g+s FILE_NAME\n"
+"\n"
+"# Remove SGID permission\n"
+"Shell > chmod 711 FILE_NAME\n"
+"# or\n"
+"Shell > chmod g-s FILE_NAME\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:406
+#, no-wrap
+msgid "    When the owner group of an executable binary file/program does not have **x**, use uppercase **S** to indicate that the file's SGID permissions cannot be used correctly.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:410
+#, no-wrap
+msgid ""
+"    ```bash\n"
+"    # Suppose this is an executable binary file\n"
+"    Shell > touch sgid\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:415
+#, no-wrap
+msgid ""
+"    Shell > chmod 2741 sgid\n"
+"    Shell > ls -l sgid\n"
+"    -rwxr-S--x  1 root root         0 Jan  14 12:11 sgid\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:417
+msgid ""
+"SGID can be used not only for executable binary file/program, but also for "
+"directories, but it is rarely used."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:420
+msgid "Ordinary users must have rwx permissions on the directory."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:420
+msgid ""
+"For files created by ordinary users in this directory, the default owner "
+"group is the owner group of the directory."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:422
+#: ../src/docs/books/admin_guide/14-special-authority.md:669
+msgid "For example:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:423
+#, no-wrap
+msgid ""
+"Shell > mkdir /SGID_dir\n"
+"Shell > chmod 2777 /SGID_dir\n"
+"Shell > ls -ld /SGID_dir\n"
+"drwxrwsrwx  2 root root      4096 Jan 14 12:17 SGID_dir\n"
+"\n"
+"Shell > su - tom\n"
+"Shell(tom) > cd /SGID_dir && touch tom_file && ls -l\n"
+"-rw-rw-r-- 1 tom root 0 Jan  14 12:26 tom_file\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:437
+#, no-wrap
+msgid "    Because SGID can temporarily change the owner group of ordinary users to root, you need to pay special attention to the files with this permission when maintaining the server. You can find files with SGID permissions through the following command:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:441
+#, no-wrap
+msgid ""
+"    ```bash\n"
+"    Shell > find / -perm -2000 -a -type f -exec ls -l  {} \\;\n"
+"    ```\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/14-special-authority.md:442
+#, no-wrap
+msgid "Sticky BIT"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:445
+msgid "The role of \"Sticky BIT\":"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:449
+msgid "Only valid for directory."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:449
+msgid "Ordinary users have w and x permissions on this directory."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:449
+msgid ""
+"If there is no Sticky Bit, ordinary users with w permission can delete all "
+"files in this directory (including files created by other users). Once the "
+"directory is given SBIT permission, only root user can delete all files. "
+"Even if ordinary users have w permission, they can only delete files created "
+"by themselves (files created by other users cannot be deleted)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:451
+msgid "SBIT is represented by the number **1**."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:454
+msgid ""
+"Can the file/direcyory have **7755** permission? No, they are aimed at "
+"different objects. SUID is for executable binary files; SGID is used for "
+"executable binaries and directories; SBIT is only for directories. That is, "
+"you need to set these special permissions according to different objects."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:456
+msgid ""
+"The directory **/tmp** has SBIT permission. The following is an example:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:457
+#, no-wrap
+msgid ""
+"# The permissions of the /tmp directory are 1777\n"
+"Shell > ls -ld /tmp\n"
+"drwxrwxrwt. 8 root root 4096 Jan  14 12:50 /tmp\n"
+"\n"
+"Shell > su - tom \n"
+"Shell > cd /tmp && touch tom_file1 \n"
+"Shell > exit\n"
+"\n"
+"Shell > su - jack \n"
+"Shell(jack) > cd /tmp && rm -rf tom_file1\n"
+"rm: cannot remove 'tom_file1': Operation not permitted\n"
+"Shell(jack) > exit\n"
+"\n"
+"# The file has been deleted\n"
+"Shell > su - tom \n"
+"Shell(tom) > rm -rf /tmp/tom_file1\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:479
+#, no-wrap
+msgid "    root (uid=0) users are not restricted by the permissions of SUID, SGID, and SBIT.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/14-special-authority.md:480
+#, no-wrap
+msgid "chattr"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:483
+msgid ""
+"The function of chattr permission: it is used to protect important files or "
+"directories in the system from being deleted by misoperation."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:485
+msgid ""
+"Usage of the `chattr` command -- `chattr [ -RVf ] [ -v version ] [ -p "
+"project ] [ mode ] files...`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:487
+msgid "The format of a symbolic mode is +-=[aAcCdDeFijPsStTu]."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:491
+msgid "\"+\" means to increase permissions;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:491
+msgid "\"-\" means to reduce permissions;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:491
+msgid "\"=\" means equal to a permission."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:493
+msgid ""
+"The most commonly used permissions (also called attribute) are **a** and "
+"**i**."
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/admin_guide/14-special-authority.md:494
+#, no-wrap
+msgid "Description of attribute i:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:500
+#, no-wrap
+msgid ""
+"|            | Delete | Free modification | Append file content | View | Create file | \n"
+"|:----------:|:------:|:-----------------:|:-------------------:|:----:|:-----------:|\n"
+"| file       |  Ã     |       Ã           |   Ã                 | â    |    -        |\n"
+"| directory  |  x <br>(Directory and files under the directory) | â <br>(Files in the directory) | â <br>(Files in the directory)  | â <br>(Files in the directory)  |  x |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:502
+#: ../src/docs/books/admin_guide/14-special-authority.md:565
+msgid "Examples for files:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:503
+#, no-wrap
+msgid ""
+"Shell > touch /tmp/filei\n"
+"Shell > vim /tmp/filei\n"
+"123\n"
+"\n"
+"Shell > chattr +i /tmp/filei\n"
+"Shell > lsattr -a /tmp/filei\n"
+"----i---------e----- /tmp/filei\n"
+"\n"
+"Shell > rm -rf /tmp/filei\n"
+"rm: cannot remove '/tmp/filei': Operation not permitted\n"
+"\n"
+"# Cannot be modified freely\n"
+"Shell > vim /tmp/file1\n"
+"\n"
+"Shell > echo \"adcd\" >> /tmp/filei \n"
+"-bash: /tmp/filei: Operation not permitted\n"
+"\n"
+"Shell > cat /tmp/filei\n"
+"123\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:526
+#: ../src/docs/books/admin_guide/14-special-authority.md:587
+msgid "Examples for directories:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:527
+#, no-wrap
+msgid ""
+"Shell > mkdir /tmp/diri\n"
+"Shell > cd /tmp/diri && echo \"qwer\" > f1\n"
+"\n"
+"Shell > chattr +i /tmp/diri\n"
+"Shell > lsattr -ad /tmp/diri\n"
+"----i---------e----- /tmp/diri\n"
+"\n"
+"Shell > rm -rf /tmp/diri\n"
+"rm: cannot remove '/tmp/diri/f1': Operation not permitted\n"
+"\n"
+"# Allow modification\n"
+"Shell > vim /tmp/diri/f1\n"
+"qwer-tom\n"
+"\n"
+"Shell > echo \"jim\" >> /tmp/diri/f1\n"
+"Shell > cat /tmp/diri/f1\n"
+"qwer-tom\n"
+"jim\n"
+"\n"
+"Shell > touch /tmp/diri/file2\n"
+"touch: settng time of '/tmp/diri/file2': No such file or directory\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:552
+msgid "Remove the i attribute from the above example:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:553
+#, no-wrap
+msgid "Shell > chattr -i /tmp/filei /tmp/diri\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/admin_guide/14-special-authority.md:557
+#, no-wrap
+msgid "Description of attribute a:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:563
+#, no-wrap
+msgid ""
+"|            | Delete | Free modification | Append file content | View | Create file | \n"
+"|:----------:|:------:|:-----------------:|:-------------------:|:----:|:-----------:|\n"
+"| file       |  Ã     |       Ã           |   â                 | â    |    -        |\n"
+"| directory  |  x <br>(Directory and files under the directory) | â <br>(Files in the directory) | â <br>(Files in the directory) | â <br>(Files in the directory) | â  |\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:566
+#, no-wrap
+msgid ""
+"Shell > touch /etc/tmpfile1\n"
+"Shell > echo \"zxcv\" > /etc/tmpfile1\n"
+"\n"
+"Shell > chattr +a /etc/tmpfile1\n"
+"Shell > lsattr -a /etc/tmpfile1\n"
+"-----a--------e----- /etc/tmpfile1\n"
+"\n"
+"Shell > rm -rf /etc/tmpfile1\n"
+"rm: cannot remove '/etc/tmpfile1': Operation not permitted\n"
+"\n"
+"# Cannot be modified freely\n"
+"Shell > vim /etc/tmpfile1\n"
+"\n"
+"Shell > echo \"new line\" >> /etc/tmpfile1\n"
+"Shell > cat /etc/tmpfile1\n"
+"zxcv\n"
+"new line\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:588
+#, no-wrap
+msgid ""
+"Shell > mkdir /etc/dira\n"
+"Shell > cd /etc/dira && echo \"asdf\" > afile\n"
+"\n"
+"Shell > chattr +a /etc/dira\n"
+"Shell > lsattr -a /etc/dira\n"
+"-----a--------e----- /etc/dira/\n"
+"\n"
+"Shell > rm -rf /etc/dira\n"
+"rm: cannot remove '/etc/dira/afile': Operation not permitted\n"
+"\n"
+"# Allow modification\n"
+"Shell > vim /etc/dira/afile\n"
+"asdf-bcd\n"
+"\n"
+"Shell > echo \"new line\" >> /etc/dira/afile\n"
+"Shell > cat /etc/dira/afile\n"
+"asdf-bcd\n"
+"new line\n"
+"\n"
+"# Allow creation of new files\n"
+"Shell > touch /etc/dira/newfile\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:613
+msgid "Remove the a attribute from the above example:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:614
+#, no-wrap
+msgid "Shell > chattr -a /etc/tmpfile1 /etc/dira/\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:619
+msgid "!!! question"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:622
+#, no-wrap
+msgid ""
+"    What happens when I set the ai attribute on a file? \n"
+"    You cannot do anything with the file other than to view it.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:626
+#, no-wrap
+msgid ""
+"    What about the directory?\n"
+"    Allowed are: free modification, appending file contents, and viewing.\n"
+"    Disallowed: delete and create files.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/14-special-authority.md:627
+#, no-wrap
+msgid "sudo"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:630
+msgid "The role of \"sudo\":"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:633
+msgid ""
+"Through the root user, assign the commands that can only be executed by the "
+"root user (uid=0) to ordinary users for execution."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:633
+msgid "The operation object of \"sudo\" is the system command."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:635
+msgid ""
+"We know that only the administrator root has permission to use the commands "
+"under **/sbin/** and **/usr/sbin/** in the GNU/Linux directory. Generally "
+"speaking, a company has a team to maintain a set of servers. This set of "
+"servers can refer to a single computer room in one geographic location, or "
+"it can refer to a computer room in multiple geographical locations. The team "
+"leader uses the permissions of the root user, and other team members may "
+"only have the permissions of the ordinary user. As the person in charge has "
+"a lot of work, there is no time to maintain the daily work of the server, "
+"most of the work needs to be maintained by ordinary users. However, ordinary "
+"users have many restrictions on the use of commands, and at this point, you "
+"need to use sudo permissions."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:637
+msgid ""
+"To grant permissions to ordinary users, **you must use the root user "
+"(uid=0)**."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:639
+msgid ""
+"You can empower ordinary users by using the `visudo` command, what you're "
+"actually changing is the **/etc/sudoers** file."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:640
+#, no-wrap
+msgid ""
+"Shell > visudo\n"
+"...\n"
+"88 Defaults    secure_path = /sbin:/bin:/usr/sbin:/usr/bin\n"
+"89 \n"
+"90 ## Next comes the main part: which users can run what software on\n"
+"91 ## which machines (the sudoers file can be shared between multiple\n"
+"92 ## systems).\n"
+"93 ## Syntax:\n"
+"94 ##\n"
+"95 ##      user    MACHINE=COMMANDS\n"
+"96 ##\n"
+"97 ## The COMMANDS section may have other options added to it.\n"
+"98 ##\n"
+"99 ## Allow root to run any commands anywhere\n"
+"100 root    ALL=(ALL)       ALL\n"
+"     â       â    â          â\n"
+"     1       2    3          4\n"
+"...\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:667
+#, no-wrap
+msgid ""
+"| Part | Description |\n"
+"|:----:|-------------|\n"
+"| 1    | User name or owner group name. Refers to which user/group is granted permissions. If it is an owner group, you need to write \"%\", such as **%root**. |\n"
+"| 2    | Which machines are allowed to execute commands. It can be a single IP address, a network segment, or ALL. |\n"
+"| 3    | Indicates which identities can be transformed into. |\n"
+"| 4    | The authorized command, which needs to be represented by an absolute path. |\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:670
+#, no-wrap
+msgid ""
+"Shell > visudo\n"
+"...\n"
+"101 tom  ALL=/sbin/shutdown  -r now \n"
+"...\n"
+"\n"
+"# You can use the \"-c\" option to check for errors in /etc/sudoers writing.\n"
+"Shell > visudo -c\n"
+"\n"
+"Shell > su - tom\n"
+"# View the available sudo commands.\n"
+"Shell(tom) > sudo -l\n"
+"\n"
+"# To use the available sudo command, ordinary users need to add sudo before the command.\n"
+"Shell(tom) > sudo /sbin/shutdown -r now\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:688
+msgid ""
+"If your authorization command is `/sbin/shutdown`, it means that authorized "
+"users can use any of the options of the command."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:691
+#, no-wrap
+msgid "    Because sudo is a \"ultra vires\" operation, you need to be careful when dealing with **/etc/sudoers** files!\n"
+msgstr ""

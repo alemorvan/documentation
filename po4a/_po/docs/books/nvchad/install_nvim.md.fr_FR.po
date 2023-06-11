@@ -1,0 +1,499 @@
+# French translations for po package
+# Traductions françaises du paquet po
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-11 15:28+0000\n"
+"PO-Revision-Date: 2023-06-11 15:28+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/nvchad/install_nvim.md:1
+#, no-wrap
+msgid "nvchad"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/nvchad/install_nvim.md:1
+#, no-wrap
+msgid "nvim"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/nvchad/install_nvim.md:1
+#, no-wrap
+msgid "coding"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/books/nvchad/install_nvim.md:1
+#, no-wrap
+msgid "Install Neovim"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/nvchad/install_nvim.md:12
+#, no-wrap
+msgid "Introduction to Neovim"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:15
+msgid ""
+"Neovim is one of the best code editors due of its speed, ease of "
+"customization, and configuration."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:17
+msgid ""
+"Neovim is a fork of the `Vim` editor. It was born in 2014, mainly due to the "
+"lack at the time of asynchronous job support in Vim. Written in the Lua "
+"language with the goal of modularizing the code to make it more manageable, "
+"Neovim was designed with the modern user in mind. As the official website "
+"states, \"Neovim is built for users who want the best parts of Vim, and more"
+"\"."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:19
+msgid ""
+"The developers of Neovim chose Lua as it was perfect for embedding, using "
+"LuaJIT quickly, and with a simple, script-oriented syntax."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:21
+msgid ""
+"From version 0.5 Neovim includes Treesitter (a parser generator tool) and "
+"supports Language Server Protocol (LSP). This reduces the number of plugins "
+"needed to achieve advanced editing functions. It improves the performance of "
+"operations such as code completion and linting."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:23
+msgid ""
+"One of its strengths is its customization. All of its configuration is "
+"contained in a single file that can be distributed to various installations "
+"through version control systems (Git or other) so that they are always "
+"synchronized."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/nvchad/install_nvim.md:24
+#, no-wrap
+msgid "Community of developers"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:27
+msgid ""
+"Although Vim and Neovim are both open-source projects and hosted on GitHub, "
+"there is a significant difference between the modes of development. Neovim "
+"has a more open community development, while Vim's development is more tied "
+"to the choices of its creator. Neovim's user and developer base is quite "
+"small compared to Vim, but it is a continuously growing project."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/nvchad/install_nvim.md:28
+#, no-wrap
+msgid "Key Features"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:33
+msgid ""
+"- Performance: Very fast.  - Customizable: Wide ecosystem of plugins and "
+"themes - Syntax highlighting: Integrated with Treesitter and LSP, but "
+"requires some configuration"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:35
+msgid ""
+"As with Vim, Neovim requires a basic knowledge of its commands and options. "
+"You can get an overview of its features through the `:Tutor` command that "
+"invokes a file where you can read, and practice using it. Learning takes "
+"longer than a fully graphical IDE, but once you learn the shortcuts to the "
+"commands and the included features, you will proceed very smoothly in "
+"editing documents."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:37
+msgid "![Nvim Tutor](images/neovim_tutor.png)"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/nvchad/install_nvim.md:38
+#, no-wrap
+msgid "Neovim Installation"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/nvchad/install_nvim.md:40
+#, no-wrap
+msgid "Installation from EPEL"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:43
+msgid ""
+"Before moving on to the installation of NvChad, we need to make sure that we "
+"have an installation of Neovim available. If it is not already installed, "
+"you can install it from the EPEL repository. The EPEL repository provides "
+"the minimum version required by NvChad (currently 0.7.2). In case you want "
+"to use a newer version, we recommend installation from precompiled package "
+"or from source"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:45
+msgid ""
+"To install the Neovim release provided by EPEL, you'll need to install the "
+"repository itself if you have not done so already."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/install_nvim.md:46
+#, no-wrap
+msgid "dnf install epel-release\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:51
+msgid "Type the following command to install the application:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/install_nvim.md:52
+#, no-wrap
+msgid "dnf install neovim\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/nvchad/install_nvim.md:56
+#, no-wrap
+msgid "Installation from Precompiled Package"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:59
+msgid ""
+"Installation from the precompiled package allows the development versions of "
+"Neovim (0.8 and later) to be tested. The two versions (installations) can "
+"coexist on the same system since the version from the precompiled package "
+"remains confined entirely to the user level."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:61
+msgid ""
+"In order to use all the features of the new version, we still have to "
+"satisfy the dependencies required by Neovim, we have to provide _our_ `nvim` "
+"with the dependencies manually. The required packages can be installed with:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/install_nvim.md:62
+#, no-wrap
+msgid "dnf install compat-lua-libs libtermkey libtree-sitter libvterm luajit luajit2.1-luv msgpack unibilium xsel\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:67
+msgid ""
+"Next, we download the compressed archive for our architecture (linux64) from "
+"this address:"
+msgstr ""
+
+#. type: Fenced code block (text)
+#: ../src/docs/books/nvchad/install_nvim.md:68
+#, no-wrap
+msgid "https://github.com/neovim/neovim/releases\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:73
+msgid ""
+"The file to be downloaded is `nvim-linux64.tar.gz`. To verify the integrity "
+"of the archive we also need to download the file `nvim-linux64.tar.gz."
+"sha256sum`. Once downloaded we need to verify its integrity and unpack it "
+"somewhere in our `home directory`. The proposed solution is to unpack it in "
+"`~/.local/share/`. Assuming we downloaded it in _/home/user/downloads/_, we "
+"will need to run the following commands:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/install_nvim.md:74
+#, no-wrap
+msgid ""
+"sha256sum -c /home/user/downloads/nvim-linux64.tar.gz.sha256sum\n"
+"nvim-linux64.tar.gz: OK\n"
+"\n"
+"tar xvzf /home/user/downloads/nvim-linux64.tar.gz\n"
+"mv /home/user/downloads/nvim-linux64 ~/.local/share/nvim-linux64\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:83
+msgid ""
+"All that remains at this point is to create a symbolic link in `~/.local/bin/"
+"` for our _nvim_."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/install_nvim.md:84
+#, no-wrap
+msgid ""
+"cd ~/.local/bin/\n"
+"ln -sf ~/.local/share/nvim-linux64/bin/nvim nvim\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:90
+msgid ""
+"Now verify you have the correct version with the `nvim -v` command, which "
+"should now show:"
+msgstr ""
+
+#. type: Fenced code block (txt)
+#: ../src/docs/books/nvchad/install_nvim.md:91
+#, no-wrap
+msgid ""
+"nvim -v\n"
+"NVIM v0.8.3\n"
+"Build type: RelWithDebInfo\n"
+"LuaJIT 2.1.0-beta3\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/nvchad/install_nvim.md:98
+#, no-wrap
+msgid "Installation from Source"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:101
+msgid ""
+"Installing from precompiled package, as above, provides `nvim` only for the "
+"user who runs it. If you want to make Neovim available to all users of the "
+"system, you will have to do an installation from source. Compiling Neovim is "
+"not particularly difficult and consists of the following steps."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:103
+msgid "We first install the packages required for compilation:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/install_nvim.md:104
+#, no-wrap
+msgid "dnf install ninja-build libtool autoconf automake cmake gcc gcc-c++ make pkgconfig unzip patch gettext curl git\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:109
+msgid ""
+"Once we have installed the necessary packages we need to create a folder to "
+"build neovim from and change into it:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:111
+msgid ""
+"The Neovim clone, by default, is synchronized with the Neovim development "
+"branch (at the time of this writing, version 8.0). To compile the stable "
+"version we will have to switch to the corresponding branch before cloning "
+"with:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/install_nvim.md:112
+#, no-wrap
+msgid ""
+"mkdir ~/lab/build\n"
+"cd ~/lab/build\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:118
+msgid "Now clone the repository:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/install_nvim.md:119
+#, no-wrap
+msgid "git clone https://github.com/neovim/neovim\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:124
+msgid ""
+"Once the operation is finished, we will have a folder named _neovim_ "
+"containing all the necessary files. The next step is to checkout the stable "
+"branch, and then configure and compile the sources with the `make` command."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/install_nvim.md:126
+#, no-wrap
+msgid ""
+"cd ~/lab/build/neovim/\n"
+"git checkout stable\n"
+"make CMAKE_BUILD_TYPE=RelWithDebInfo\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:133
+msgid ""
+"We chose the `RelWithDebInfo` type because it provides not only "
+"optimizations, but also a useful debugging layer for later customizations. "
+"You could have also used the `Release` type if you want maximum performance."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:135
+msgid ""
+"The process takes care of configuring and compiling the files that are to be "
+"put into our system. These files are saved in `neovim/build`. To install "
+"them, we will use the _make install_ command:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/install_nvim.md:136
+#, no-wrap
+msgid "make install\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:141
+msgid ""
+"Because this command is going to modify the filesystem, it needs to be run "
+"as the superuser, either with `sudo`, or directly by the root user."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:143
+msgid ""
+"Once the installation is finished, we can verify that everything went well "
+"by checking the path to Neovim:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/nvchad/install_nvim.md:144
+#, no-wrap
+msgid ""
+"whereis nvim\n"
+"nvim: /usr/local/bin/nvim\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:150
+msgid "And verifying the version:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/install_nvim.md:151
+#, no-wrap
+msgid ""
+"nvim --version\n"
+"NVIM v0.8.3\n"
+"Build type: RelWithDebInfo\n"
+"LuaJIT 2.1.0-beta3\n"
+"....\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:160
+msgid ""
+"As you can see from the command excerpt above, an installation of the stable "
+"version was performed here. Both versions, stable and development, work "
+"perfectly with NvChad on Rocky Linux 9."
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/nvchad/install_nvim.md:161
+#, no-wrap
+msgid "Uninstall"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:164
+msgid ""
+"In case we need to remove the installation, for example to switch to another "
+"version, we will have to take ourselves back to the build folder and use the "
+"`target` cmake provided by Neovim itself. To perform the uninstallation, you "
+"need to execute the following command:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/install_nvim.md:165
+#, no-wrap
+msgid "cmake --build build/ --target uninstall\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:170
+msgid ""
+"This command also requires superuser privileges or to be run as a _root_ "
+"user."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:172
+msgid ""
+"Alternatively, you can use the manual method by removing the executable and "
+"libraries with:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/install_nvim.md:173
+#, no-wrap
+msgid ""
+"rm /usr/local/bin/nvim\n"
+"rm -r /usr/local/share/nvim/\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:179
+msgid "Again, you need to execute these commands with superuser permissions."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/nvchad/install_nvim.md:180
+#, no-wrap
+msgid "Neovim Basic"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:183
+msgid ""
+"As you can see from the screenshot, a basic installation of Neovim provides "
+"an editor that cannot yet be compared to an IDE."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:185
+msgid "![Neovim Standard](images/nvim_standard.png)"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:186
+msgid ""
+"Now that we have our basic editor, it is time to turn it into something more "
+"advanced thanks to the configuration provided by [NvChad](install_nvchad.md)."
+msgstr ""

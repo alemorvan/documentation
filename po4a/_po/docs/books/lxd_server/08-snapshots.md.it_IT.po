@@ -1,0 +1,256 @@
+# Italian translations for po package
+# Traduzioni italiane per il pacchetto po.
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-11 15:28+0000\n"
+"PO-Revision-Date: 2023-06-11 15:28+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/lxd_server/08-snapshots.md:1
+#, no-wrap
+msgid "lxd"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/lxd_server/08-snapshots.md:1
+#, no-wrap
+msgid "enterprise"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/lxd_server/08-snapshots.md:1
+#, no-wrap
+msgid "lxd snapshots"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/books/lxd_server/08-snapshots.md:1
+#, no-wrap
+msgid "8 Container Snapshots"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/lxd_server/08-snapshots.md:12
+#, no-wrap
+msgid "Chapter 8: Container Snapshots"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:15
+msgid ""
+"Throughout this chapter you will need to execute commands as your "
+"unprivileged user (\"lxdadmin\" if you've been following along from the "
+"beginning of this book)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:17
+msgid ""
+"Container snapshots, along with a snapshot server (which we will get to more "
+"later), are probably the most important aspect of running a production LXD "
+"server. Snapshots ensure quick recovery, and can be used for safety when you "
+"are, say, updating the primary software that runs on a particular container. "
+"If something happens during the update that breaks that application, you "
+"simply restore the snapshot and you are back up and running with only a few "
+"seconds worth of downtime."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:19
+msgid ""
+"The author used LXD containers for PowerDNS public facing servers, and the "
+"process of updating those applications became so much more worry-free, since "
+"you can snapshot the container first before continuing."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:21
+msgid "You can even snapshot a container while it is running."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/lxd_server/08-snapshots.md:22
+#, no-wrap
+msgid "The snapshot process"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:25
+msgid ""
+"We'll start by getting a snapshot of the ubuntu-test container by using this "
+"command:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/08-snapshots.md:26
+#, no-wrap
+msgid "lxc snapshot ubuntu-test ubuntu-test-1\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:31
+msgid ""
+"Here, we are calling the snapshot \"ubuntu-test-1\", but it can be called "
+"anything you like. To make sure that you have the snapshot, do an \"lxc info"
+"\" of the container:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/08-snapshots.md:32
+#, no-wrap
+msgid "lxc info ubuntu-test\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:37
+msgid ""
+"We've looked at an info screen already, so if you scroll to the bottom, you "
+"should see:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/08-snapshots.md:38
+#, no-wrap
+msgid ""
+"Snapshots:\n"
+"  ubuntu-test-1 (taken at 2021/04/29 15:57 UTC) (stateless)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:44
+msgid "Success! Our snapshot is in place."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:46
+msgid "Now, get into the ubuntu-test container:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/08-snapshots.md:47
+#, no-wrap
+msgid "lxc exec ubuntu-test bash\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:52
+msgid "And create an empty file with the _touch_ command:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/08-snapshots.md:53
+#, no-wrap
+msgid "touch this_file.txt\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:58
+msgid "Now exit the container."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:60
+msgid ""
+"Before we restore the container as it was prior to creating the file, the "
+"safest way to restore a container, particularly if there have been a lot of "
+"changes, is to stop it first:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/08-snapshots.md:61
+#, no-wrap
+msgid "lxc stop ubuntu-test\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:66
+msgid "Then restore it:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/08-snapshots.md:67
+#, no-wrap
+msgid "lxc restore ubuntu-test ubuntu-test-1\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:72
+msgid "Then start the container again:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/08-snapshots.md:73
+#, no-wrap
+msgid "lxc start ubuntu-test\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:78
+msgid ""
+"If you get back into the container again and look, our \"this_file.txt\" "
+"that we created is now gone."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:80
+msgid "Once you don't need a snapshot anymore, you can delete it:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/08-snapshots.md:81
+#, no-wrap
+msgid "lxc delete ubuntu-test/ubuntu-test-1\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:86
+msgid "!!! warning"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:88
+#, no-wrap
+msgid "    You should always delete snapshots with the container running. Why? Well the _lxc delete_ command also works to delete the entire container. If we had accidentally hit enter after \"ubuntu-test\" in the command above, AND, if the container was stopped, the container would be deleted. No warning is given, it simply does what you ask.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:90
+#, no-wrap
+msgid "    If the container is running, however, you will get this message:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:94
+#, no-wrap
+msgid ""
+"    ```\n"
+"    Error: The instance is currently running, stop it first or pass --force\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:96
+#, no-wrap
+msgid "    So always delete snapshots with the container running.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:97
+msgid ""
+"The process of creating snapshots automatically, setting expiration of the "
+"snapshot so that it goes away after a certain length of time, and auto "
+"refreshing the snapshots to the snapshot server will be covered in detail in "
+"the following chapters."
+msgstr ""

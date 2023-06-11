@@ -1,0 +1,778 @@
+# Italian translations for po package
+# Traduzioni italiane per il pacchetto po.
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-11 15:28+0000\n"
+"PO-Revision-Date: 2023-06-11 15:28+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/lxd_server/06-profiles.md:1
+#, no-wrap
+msgid "lxd"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/lxd_server/06-profiles.md:1
+#, no-wrap
+msgid "enterprise"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/lxd_server/06-profiles.md:1
+#, no-wrap
+msgid "lxd profiles"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/books/lxd_server/06-profiles.md:1
+#, no-wrap
+msgid "6 Profiles"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/lxd_server/06-profiles.md:12
+#, no-wrap
+msgid "Chapter 6: Profiles"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:15
+msgid ""
+"Throughout this chapter you will need to execute commands as your "
+"unprivileged user (\"lxdadmin\" if you've been following from the beginning "
+"in this book)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:17
+msgid ""
+"You get a default profile when you install LXD, and this profile cannot be "
+"removed or modified. That said, you can use the default profile to create "
+"new profiles to use with your containers."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:19
+msgid ""
+"If you look at our container listing, you will notice that the IP address in "
+"each case is assigned from the bridged interface. In a production "
+"environment, you may want to use something else. This might be a DHCP "
+"assigned address from your LAN interface or even a statically assigned "
+"address from your WAN."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:21
+msgid ""
+"If you configure your LXD server with two interfaces and assign each an IP "
+"on your WAN and LAN, then it is possible to assign your containers IP "
+"addresses based on which interface the container needs to be facing."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:23
+msgid ""
+"As of version 9.0 of Rocky Linux (and really any bug for bug copy of Red Hat "
+"Enterprise Linux) the method for assigning IP addresses statically or "
+"dynamically using the profiles below, is broken out of the gate."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:25
+msgid ""
+"There are ways to get around this, but it is annoying. This appears to have "
+"something to do with changes that have been made to Network Manager that "
+"affect macvlan. macvlan allows you to create multiple interfaces with "
+"different Layer 2 addresses."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:27
+msgid ""
+"For now, just be aware that what we are going to suggest next has drawbacks "
+"when choosing container images based on RHEL."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/lxd_server/06-profiles.md:28
+#, no-wrap
+msgid "Creating A macvlan Profile And Assigning It"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:31
+msgid "To create our macvlan profile, simply use this command:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:32
+#, no-wrap
+msgid "lxc profile create macvlan\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:37
+msgid ""
+"Keep in mind that if we were on a multi-interface machine and wanted more "
+"than one macvlan template based on which network we wanted to reach, we "
+"could use \"lanmacvlan\" or \"wanmacvlan\" or any other name that we wanted "
+"to use to identify the profile. In other words, using \"macvlan\" in our "
+"profile create statement is totally up to you."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:39
+msgid ""
+"Now we want to modify the macvlan interface, but before we do, we need to "
+"know what the parent interface is for our LXD server. This will be the "
+"interface that has a LAN (in this case) assigned IP. To determine which "
+"interface that is, use:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:40
+#, no-wrap
+msgid "ip addr\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:45
+msgid ""
+"And then look for the interface with the LAN IP assignment in the "
+"192.168.1.0/24 network:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:46
+#, no-wrap
+msgid ""
+"2: enp3s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000\n"
+"    link/ether 40:16:7e:a9:94:85 brd ff:ff:ff:ff:ff:ff\n"
+"    inet 192.168.1.106/24 brd 192.168.1.255 scope global dynamic noprefixroute enp3s0\n"
+"       valid_lft 4040sec preferred_lft 4040sec\n"
+"    inet6 fe80::a308:acfb:fcb3:878f/64 scope link noprefixroute\n"
+"       valid_lft forever preferred_lft forever\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:56
+msgid "So, in this case, the interface would be \"enp3s0\"."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:58
+msgid "Now let's modify the profile:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:59
+#, no-wrap
+msgid "lxc profile device add macvlan eth0 nic nictype=macvlan parent=enp3s0\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:64
+msgid ""
+"This command adds all of the necessary parameters to the macvlan profile so "
+"that it can be used."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:66
+msgid "To take a look at what this command created, use the command:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:67
+#, no-wrap
+msgid "lxc profile show macvlan\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:72
+msgid "Which will give you output similar to this:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:74
+#, no-wrap
+msgid ""
+"config: {}\n"
+"description: \"\"\n"
+"devices:\n"
+"  eth0:\n"
+"    nictype: macvlan\n"
+"    parent: enp3s0 \n"
+"    type: nic\n"
+"name: macvlan\n"
+"used_by: []\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:87
+msgid ""
+"Obviously, you can use profiles for lots of other things, but assigning a "
+"static IP to a container, or using your own DHCP server as a source for an "
+"address are very common needs."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:89
+msgid ""
+"To assign the macvlan profile to rockylinux-test-8 we need to do the "
+"following:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:90
+#, no-wrap
+msgid "lxc profile assign rockylinux-test-8 default,macvlan\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:95
+msgid "Let's also do the same thing for rockylinux-test-9:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:96
+#, no-wrap
+msgid "lxc profile assign rockylinux-test-9 default,macvlan\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:101
+msgid ""
+"This simply says, we want the default profile, and then we want to apply the "
+"macvlan profile as well."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/lxd_server/06-profiles.md:102
+#, no-wrap
+msgid "Rocky Linux macvlan"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:106
+msgid ""
+"The upstream has been playing with the Network Manager implementation to the "
+"point of frustration. Early on with Rocky Linux 8, the macvlan profile was "
+"broken. With Rocky Linux 8.6, the macvlan profile worked again, and then "
+"with 9.0, it was once again broken. Technically, macvlan is part of the "
+"kernel, and the profile does assign correctly in 9.0, but an IP address from "
+"the LAN interface network is never assigned. There are work arounds to fix "
+"this, but none is very pretty-particularly if you are wanting to assign a "
+"static IP address."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:108
+msgid ""
+"Keep in mind that none of this has anything to do with Rocky Linux "
+"particularly, but with the upstream package implementation."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:110
+msgid ""
+"Simply put, if you want to run Rocky Linux containers and use macvlan to "
+"assign an IP address from your LAN or WAN networks, then the process is "
+"different based on which container version of the OS you are using (8.6 or "
+"9.0)."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/lxd_server/06-profiles.md:111
+#, no-wrap
+msgid "Rocky Linux 9.0 macvlan - The DHCP Fix"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:114
+msgid ""
+"First, let's illustrate what happens when we stop and restart the two "
+"containers after assigning the macvlan profile."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:116
+msgid ""
+"Having the profile assigned, however, doesn't change the default "
+"configuration, which is set to DHCP by default."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:118
+msgid "To test this, simply do the following:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:119
+#, no-wrap
+msgid ""
+"lxc restart rocky-test-8\n"
+"lxc restart rocky-test-9\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:125
+msgid ""
+"Now list your containers again and note that the rockylinux-test-9 does not "
+"have an IP address anymore:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:126
+#: ../src/docs/books/lxd_server/06-profiles.md:277
+#, no-wrap
+msgid "lxc list\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:130
+#, no-wrap
+msgid ""
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+"|       NAME        |  STATE  |         IPV4         | IPV6 |   TYPE    | SNAPSHOTS |\n"
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+"| rockylinux-test-8 | RUNNING | 192.168.1.114 (eth0) |      | CONTAINER | 0         |\n"
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+"| rockylinux-test-9 | RUNNING |                      |      | CONTAINER | 0         |\n"
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+"| ubuntu-test       | RUNNING | 10.146.84.181 (eth0) |      | CONTAINER | 0         |\n"
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:143
+msgid ""
+"As you can see, our Rocky Linux 8.6 container received the IP address from "
+"the LAN interface, whereas the Rocky Linux 9.0 container did not."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:145
+msgid ""
+"To further demonstrate the problem here, we need to execute `dhclient` on "
+"the Rocky Linux 9.0 container. This will show us that the macvlan profile, "
+"*is* in fact applied:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:146
+#, no-wrap
+msgid "lxc exec rockylinux-test-9 dhclient\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:151
+msgid "A new listing using `lxc list` now shows the following:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:152
+#, no-wrap
+msgid ""
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+"|       NAME        |  STATE  |         IPV4         | IPV6 |   TYPE    | SNAPSHOTS |\n"
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+"| rockylinux-test-8 | RUNNING | 192.168.1.114 (eth0) |      | CONTAINER | 0         |\n"
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+"| rockylinux-test-9 | RUNNING | 192.168.1.113 (eth0) |      | CONTAINER | 0         |\n"
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+"| ubuntu-test       | RUNNING | 10.146.84.181 (eth0) |      | CONTAINER | 0         |\n"
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:165
+msgid ""
+"That should have happened with a simple stop and start of the container, but "
+"it does not. Assuming that we want to use a DHCP assigned IP address every "
+"time, then we can fix this with a simple crontab entry. To do this, we need "
+"to gain shell access to the container by entering:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:166
+#: ../src/docs/books/lxd_server/06-profiles.md:233
+#, no-wrap
+msgid "lxc exec rockylinux-test-9 bash\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:171
+msgid ""
+"Next, lets determine the complete path to `dhclient`. To do this, because "
+"this was built on a minimal image, you will need to first install `which`:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:172
+#, no-wrap
+msgid "dnf install which\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:177
+msgid "then run:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:178
+#, no-wrap
+msgid "which dhclient\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:183
+msgid "which should return:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:184
+#, no-wrap
+msgid "/usr/sbin/dhclient\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:189
+msgid "Next, let's modify root's crontab:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:190
+#, no-wrap
+msgid "crontab -e\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:195
+msgid "And add this line:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:196
+#, no-wrap
+msgid "@reboot    /usr/sbin/dhclient\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:201
+msgid ""
+"The crontab command entered above, uses _vi_ so to save your changes and "
+"exit simply use:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:202
+#, no-wrap
+msgid "SHIFT:wq!\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:207
+msgid "Now exit the container and restart rockylinux-test-9:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:208
+#: ../src/docs/books/lxd_server/06-profiles.md:271
+#, no-wrap
+msgid "lxc restart rockylinux-test-9\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:213
+msgid ""
+"A new listing will reveal that the container has been assigned the DHCP "
+"address:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:214
+#, no-wrap
+msgid ""
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+"|       NAME        |  STATE  |         IPV4         | IPV6 |   TYPE    | SNAPSHOTS |\n"
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+"| rockylinux-test-8 | RUNNING | 192.168.1.114 (eth0) |      | CONTAINER | 0         |\n"
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+"| rockylinux-test-9 | RUNNING | 192.168.1.113 (eth0) |      | CONTAINER | 0         |\n"
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+"| ubuntu-test       | RUNNING | 10.146.84.181 (eth0) |      | CONTAINER | 0         |\n"
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+"\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/lxd_server/06-profiles.md:227
+#, no-wrap
+msgid "Rocky Linux 9.0 macvlan - The Static IP Fix"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:230
+msgid ""
+"To statically assign an IP address, things get even more convoluted. Since "
+"`network-scripts` is now deprecated in Rocky Linux 9.0, the only way to do "
+"this is through static assignment, and because of the way the containers use "
+"the network, you're not going to be able to set the route with a normal `ip "
+"route` statement either. The problem turns out to be that the interface "
+"assigned when applying the macvlan profile (eth0 in this case), cannot be "
+"managed. The fix is to rename the network interface on the container after "
+"restart and then assign the static IP. This can all be scripted and can be "
+"done (again) with root's crontab. This is all done with the `ip` command."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:232
+msgid "To do this, we need to gain shell access to the container again:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:238
+msgid ""
+"Next, we are going to create a bash script in `/usr/local/sbin` called "
+"\"static\":"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:239
+#, no-wrap
+msgid "vi /usr/local/sbin/static\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:244
+msgid "The contents of this script are simple:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:245
+#, no-wrap
+msgid ""
+"#!/usr/bin/env bash\n"
+"\n"
+"/usr/sbin/ip link set dev eth0 name net0\n"
+"/usr/sbin/ip addr add 192.168.1.151/24 dev net0\n"
+"/usr/sbin/ip link set dev net0 up\n"
+"/usr/sbin/ip route add default via 192.168.1.1\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:255
+msgid ""
+"So, what are we doing here? First, we rename eth0 to a new name that we can "
+"manage. We have chosen \"net0\" here. Second, we assign the new static IP "
+"that we have allocated for our container. In this case 192.168.1.151. Now we "
+"bring up the new \"net0\" interface. Finally, we need to add the default "
+"route for our interface."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:258
+msgid "Make our script executable with:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:259
+#, no-wrap
+msgid "chmod +x /usr/local/sbin/static\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:264
+msgid ""
+"Next, we add this to root's crontab for the container using the @reboot time:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:265
+#, no-wrap
+msgid "@reboot     /usr/local/sbin/static\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:270
+msgid "Finally, exit the container and restart it:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:276
+msgid "Wait a few seconds and then list out the containers again:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:282
+msgid "Which should show you success:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:283
+#, no-wrap
+msgid ""
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+"|       NAME        |  STATE  |         IPV4         | IPV6 |   TYPE    | SNAPSHOTS |\n"
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+"| rockylinux-test-8 | RUNNING | 192.168.1.114 (eth0) |      | CONTAINER | 0         |\n"
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+"| rockylinux-test-9 | RUNNING | 192.168.1.151 (eth0) |      | CONTAINER | 0         |\n"
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+"| ubuntu-test       | RUNNING | 10.146.84.181 (eth0) |      | CONTAINER | 0         |\n"
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/lxd_server/06-profiles.md:295
+#, no-wrap
+msgid "Ubuntu macvlan"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:298
+msgid ""
+"Luckily, In Ubuntu's implementation of Network Manager, the macvlan stack is "
+"NOT broken, so it is much easier to deploy!"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:300
+msgid ""
+"First, just like with our rockylinux-test-9 container, we need to assign the "
+"template to our container:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:301
+#, no-wrap
+msgid "lxc profile assign ubuntu-test default,macvlan\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:306
+msgid ""
+"That should be all that is necessary to get a DHCP assigned address. To find "
+"out, stop and then start the container again:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:307
+#: ../src/docs/books/lxd_server/06-profiles.md:351
+#, no-wrap
+msgid "lxc restart ubuntu-test\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:312
+msgid "Then list the containers again:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:313
+#, no-wrap
+msgid ""
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+"|       NAME        |  STATE  |         IPV4         | IPV6 |   TYPE    | SNAPSHOTS |\n"
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+"| rockylinux-test-8 | RUNNING | 192.168.1.114 (eth0) |      | CONTAINER | 0         |\n"
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+"| rockylinux-test-9 | RUNNING | 192.168.1.151 (eth0) |      | CONTAINER | 0         |\n"
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+"| ubuntu-test       | RUNNING | 192.168.1.132 (eth0) |      | CONTAINER | 0         |\n"
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:326
+#: ../src/docs/books/lxd_server/06-profiles.md:371
+msgid "Success!"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:328
+msgid ""
+"Configuring the Static IP is just a little different, but not at all hard. "
+"We need to modify the .yaml file associated with the container's connection "
+"(/10-lxc.yaml). For this static IP, we will use 192.168.1.201:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:329
+#, no-wrap
+msgid "vi /etc/netplan/10-lxc.yaml\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:334
+msgid "And change what is there to the following:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:335
+#, no-wrap
+msgid ""
+"network:\n"
+"  version: 2\n"
+"  ethernets:\n"
+"    eth0:\n"
+"      dhcp4: false\n"
+"      addresses: [192.168.1.201/24]\n"
+"      gateway4: 192.168.1.1\n"
+"      nameservers:\n"
+"        addresses: [8.8.8.8,8.8.4.4]\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:348
+msgid "Save your changes (`SHFT:wq!`) and exit the container."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:350
+msgid "Now restart the container:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:356
+msgid "When you list your containers again, you should see our new static IP:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/06-profiles.md:357
+#, no-wrap
+msgid ""
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+"|       NAME        |  STATE  |         IPV4         | IPV6 |   TYPE    | SNAPSHOTS |\n"
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+"| rockylinux-test-8 | RUNNING | 192.168.1.114 (eth0) |      | CONTAINER | 0         |\n"
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+"| rockylinux-test-9 | RUNNING | 192.168.1.151 (eth0) |      | CONTAINER | 0         |\n"
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+"| ubuntu-test       | RUNNING | 192.168.1.201 (eth0) |      | CONTAINER | 0         |\n"
+"+-------------------+---------+----------------------+------+-----------+-----------+\n"
+"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/06-profiles.md:372
+msgid ""
+"In the examples used in this chapter, we have intentionally chosen a hard "
+"container to configure, and two easy ones. There are obviously many more "
+"versions of Linux available in the image listing. If you have a favorite, "
+"try installing it, assigning the macvlan template, and setting IP's."
+msgstr ""
