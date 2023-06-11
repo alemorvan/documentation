@@ -4,6 +4,9 @@
 
 # Stats file location
 STATS_FILE="../build/statistics.md"
+echo "" > $STATS_FILE
+
+PO_DIR="./_po/"
 
 # Print yaml front matter and table title/header
 echo '---
@@ -11,33 +14,21 @@ title: "Statistics"
 ---
 # Current status of website translations
 
-| Language | Document | Translation status |
-|----------|----------|--------------------|' >> "$STATS_FILE"
+| Document | Translation status |
+|----------|--------------------|' >> "$STATS_FILE"
 
 produce_stats () {
 # Determine file names
-    while IFS= read -r -d '' doc ; do
-
-        # Get file extension
-        ext=$(echo "$doc" | sed 's/.*\.//')
-
-        filename=$(basename "$doc" .$ext)
-
-        # Stats printed to Statistics.md
-        echo -n "|**"$lang"**| **"$filename".po**|" >> "$STATS_FILE"
-        msgfmt --statistics "$PO_DIR/$lang/$filename".po &>> "$STATS_FILE"
-
-    done <   <(find -L "$SRC_DIR" -name "*.*"  -print0)
-
-    # Separator between languages
-    echo '|**-----**|**--------------------**|**--------------------**|' >> "$STATS_FILE"
+    for file in $(find "${PO_DIR}" -name "*.po")
+    do
+	echo "Working with ${file}"
+	stats=$(msgfmt --statistics "${file}" 2>&1)
+        file_path=${file#"${PO_DIR}"}	
+        echo "|**${file_path}** | ${stats} |\n" >> "$STATS_FILE"
+    done
 }
 
-# Run produce_stats on each language folder
-while IFS= read -r -d '' dir ; do
-    lang=$(basename "$dir")
-    produce_stats "$lang"
-done <   <(find "$PO_DIR" -mindepth 1 -maxdepth 1 -type d -print0)
+produce_stats
 
 # Remove unwanted messages.mo file created by msgfmt
 rm -f *.mo

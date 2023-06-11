@@ -1,0 +1,258 @@
+# French translations for po package
+# Traductions fran�aises du paquet po
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-11 15:28+0000\n"
+"PO-Revision-Date: 2023-06-11 15:28+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/lxd_server/03-lxdinit.md:1
+#, no-wrap
+msgid "lxd"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/lxd_server/03-lxdinit.md:1
+#, no-wrap
+msgid "enterprise"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/lxd_server/03-lxdinit.md:1
+#, no-wrap
+msgid "lxd initialization"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/lxd_server/03-lxdinit.md:1
+#, no-wrap
+msgid "lxd setup"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/books/lxd_server/03-lxdinit.md:1
+#, no-wrap
+msgid "3 LXD Initialization and User Setup"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/lxd_server/03-lxdinit.md:13
+#, no-wrap
+msgid "Chapter 3: LXD Initialization and User Setup"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/03-lxdinit.md:16
+msgid ""
+"Throughout this chapter you will need to be root or able to `sudo` to become "
+"root. In addition, we are assuming that you have setup a ZFS storage pool as "
+"described in [Chapter 2](02-zfs_setup). You can use a different storage pool "
+"if you have chosen not to use ZFS, but you will need to make adjustments to "
+"the initialization questions and answers."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/lxd_server/03-lxdinit.md:17
+#, no-wrap
+msgid "LXD Initialization"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/03-lxdinit.md:20
+msgid ""
+"Now that the environment is all set up, we are ready to initialize LXD. This "
+"is an automated script that asks a series of questions to get your LXD "
+"instance up and running:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/03-lxdinit.md:21
+#, no-wrap
+msgid "lxd init\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/03-lxdinit.md:26
+msgid ""
+"Here are the questions and our answers for the script, with a little "
+"explanation where warranted:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/03-lxdinit.md:27
+#, no-wrap
+msgid "Would you like to use LXD clustering? (yes/no) [default=no]:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/03-lxdinit.md:32
+msgid ""
+"If you are interested in clustering, do some additional research on that "
+"[here](https://linuxcontainers.org/lxd/docs/master/clustering/)"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/03-lxdinit.md:33
+#, no-wrap
+msgid "Do you want to configure a new storage pool? (yes/no) [default=yes]:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/03-lxdinit.md:38
+msgid ""
+"This may seem counter-intuitive, since we have already created our ZFS pool, "
+"but it will be resolved in a later question. Accept the default."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/03-lxdinit.md:39
+#, no-wrap
+msgid "Name of the new storage pool [default=default]: storage\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/03-lxdinit.md:44
+msgid ""
+"You could leave this as default if you wanted to, but we have chosen to use "
+"the same name we gave our ZFS pool."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/03-lxdinit.md:45
+#, no-wrap
+msgid "Name of the storage backend to use (btrfs, dir, lvm, zfs, ceph) [default=zfs]:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/03-lxdinit.md:50
+msgid "Obviously we want to accept the default."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/03-lxdinit.md:51
+#, no-wrap
+msgid "Create a new ZFS pool? (yes/no) [default=yes]: no\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/03-lxdinit.md:56
+msgid ""
+"Here's where the earlier question about creating a storage pool is resolved."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/03-lxdinit.md:57
+#, no-wrap
+msgid ""
+"Name of the existing ZFS pool or dataset: storage\n"
+"Would you like to connect to a MAAS server? (yes/no) [default=no]:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/03-lxdinit.md:63
+msgid "Metal As A Service (MAAS) is outside the scope of this document."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/03-lxdinit.md:64
+#, no-wrap
+msgid ""
+"Would you like to create a new local network bridge? (yes/no) [default=yes]:\n"
+"What should the new bridge be called? [default=lxdbr0]: \n"
+"What IPv4 address should be used? (CIDR subnet notation, âautoâ or ânoneâ) [default=auto]:\n"
+"What IPv6 address should be used? (CIDR subnet notation, âautoâ or ânoneâ) [default=auto]: none\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/03-lxdinit.md:72
+msgid ""
+"If you want to use IPv6 on your LXD containers, you can turn on this option. "
+"That is up to you."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/03-lxdinit.md:73
+#, no-wrap
+msgid "Would you like the LXD server to be available over the network? (yes/no) [default=no]: yes\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/03-lxdinit.md:78
+msgid "This is necessary to snapshot the server, so answer \"yes\" here."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/03-lxdinit.md:79
+#, no-wrap
+msgid ""
+"Address to bind LXD to (not including port) [default=all]:\n"
+"Port to bind LXD to [default=8443]:\n"
+"Trust password for new clients:\n"
+"Again:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/03-lxdinit.md:87
+msgid ""
+"This trust password is how you will connect to the snapshot server or back "
+"from the snapshot server, so set this with something that makes sense in "
+"your environment. Save this entry to a secure location, such as a password "
+"manager."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/03-lxdinit.md:88
+#, no-wrap
+msgid ""
+"Would you like stale cached images to be updated automatically? (yes/no) [default=yes]\n"
+"Would you like a YAML \"lxd init\" preseed to be printed? (yes/no) [default=no]:\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/lxd_server/03-lxdinit.md:93
+#, no-wrap
+msgid "Setting Up User Privileges"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/03-lxdinit.md:96
+msgid ""
+"Before we continue on, we need to create our \"lxdadmin\" user and make sure "
+"that it has the privileges it needs. We need the \"lxdadmin\" user to be "
+"able to _sudo_ to root and we need it to be a member of the lxd group. To "
+"add the user and make sure it is a member of both groups do:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/03-lxdinit.md:97
+#, no-wrap
+msgid "useradd -G wheel,lxd lxdadmin\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/03-lxdinit.md:102
+msgid "Then set the password:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/03-lxdinit.md:103
+#, no-wrap
+msgid "passwd lxdadmin\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/03-lxdinit.md:107
+msgid "As with the other passwords, save this to a secure location."
+msgstr ""

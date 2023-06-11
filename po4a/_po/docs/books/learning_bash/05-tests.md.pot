@@ -1,0 +1,781 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-06-11 15:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/learning_bash/05-tests.md:1
+#, no-wrap
+msgid "education"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/learning_bash/05-tests.md:1
+#, no-wrap
+msgid "bash scripting"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/learning_bash/05-tests.md:1
+#, no-wrap
+msgid "bash"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/learning_bash/05-tests.md:1
+#: ../src/docs/books/learning_bash/05-tests.md:12
+#, no-wrap
+msgid "Bash - Tests"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:17
+#, no-wrap
+msgid "**Objectives**: In this chapter you will learn how to:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:18
+#, no-wrap
+msgid ":heavy_check_mark: work with the return code;  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:19
+#, no-wrap
+msgid ":heavy_check_mark: test files and compare them;  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:20
+#, no-wrap
+msgid ":heavy_check_mark: test variables, strings and integers;  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:21
+#, no-wrap
+msgid ":heavy_check_mark: perform an operation with numeric integers;  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:24
+msgid ":checkered_flag: **linux**, **script**, **bash**, **variable**"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:25
+#, no-wrap
+msgid "**Knowledge**: :star: :star:  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:26
+#, no-wrap
+msgid "**Complexity**: :star: :star: :star:  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:29
+#, no-wrap
+msgid "**Reading time**: 10 minutes\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:33
+msgid ""
+"Upon completion, all commands executed by the shell return a **return code** "
+"(also called **status** or **exit code**)."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/05-tests.md:36
+msgid ""
+"If the command ran correctly, the convention is that the status code will be "
+"**zero**."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/05-tests.md:36
+msgid ""
+"If the command encountered a problem during its execution, its status code "
+"will have a **non-zero value**. There are many reasons for this: lack of "
+"access rights, missing file, incorrect input, etc."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:38
+msgid ""
+"You should refer to the manual of the `man command` to know the different "
+"values of the return code provided by the developers."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:40
+msgid ""
+"The return code is not visible directly, but is stored in a special "
+"variable: `$?`."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/05-tests.md:41
+#, no-wrap
+msgid ""
+"mkdir directory\n"
+"echo $?\n"
+"0\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/05-tests.md:47
+#, no-wrap
+msgid ""
+"mkdir /directory\n"
+"mkdir: unable to create directory\n"
+"echo $?\n"
+"1\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/05-tests.md:54
+#, no-wrap
+msgid ""
+"command_that_does_not_exist\n"
+"command_that_does_not_exist: command not found\n"
+"echo $?\n"
+"127\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:63
+msgid "!!! note"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:65
+#, no-wrap
+msgid "    The display of the contents of the `$?` variable with the `echo` command is done immediately after the command you want to evaluate because this variable is updated after each execution of a command, a command line or a script.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:67
+msgid "!!! tip"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:69
+#, no-wrap
+msgid "    Since the value of `$?` changes after each command execution, it is better to put its value in a variable that will be used afterwards, for a test or to display a message.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:79
+#, no-wrap
+msgid ""
+"    ```\n"
+"    ls no_file\n"
+"    ls: cannot access 'no_file': No such file or directory\n"
+"    result=$?\n"
+"    echo $?\n"
+"    0\n"
+"    echo $result\n"
+"    2\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:82
+msgid ""
+"It is also possible to create return codes in a script.  To do so, you just "
+"need to add a numeric argument to the `exit` command."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/05-tests.md:83
+#, no-wrap
+msgid ""
+"bash # to avoid being disconnected after the \"exit 2\n"
+"exit 123\n"
+"echo $?\n"
+"123\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:91
+msgid ""
+"In addition to the correct execution of a command, the shell offers the "
+"possibility to run tests on many patterns:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/05-tests.md:95
+msgid "**Files**: existence, type, rights, comparison;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/05-tests.md:95
+msgid "**Strings**: length, comparison;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/05-tests.md:95
+msgid "**Numeric integers**: value, comparison."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:97
+msgid "The result of the test:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/05-tests.md:101
+msgid "`$?=0` : the test was correctly executed and is true;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/05-tests.md:101
+msgid "`$?=1` : the test was correctly executed and is false;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/05-tests.md:101
+msgid "`$?=2` : the test was not correctly executed."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_bash/05-tests.md:102
+#, no-wrap
+msgid "Testing the type of a file"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:105
+msgid "Syntax of the `test` command for a file:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/05-tests.md:106
+#, no-wrap
+msgid "test [-d|-e|-f|-L] file\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:111
+msgid "or:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/05-tests.md:112
+#, no-wrap
+msgid "[ -d|-e|-f|-L file ]\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:117
+#: ../src/docs/books/learning_bash/05-tests.md:160
+msgid "!!! NOTE"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:119
+#, no-wrap
+msgid "    Note that there is a space after the `[` and before the `]`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:121
+msgid "Options of the test command on files:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:139
+#, no-wrap
+msgid ""
+"| Option | Observation                                                     |\n"
+"|--------|-----------------------------------------------------------------|\n"
+"| `-e`   | Tests if the file exists                                         |\n"
+"| `-f`   | Tests if the file exists and is of normal type                   |\n"
+"| `-d`   | Checks if the file exists and is of type directory              |\n"
+"| `-L`   | Checks if the file exists and is of type symbolic link          |\n"
+"| `-b`   | Checks if the file exists and is of special type block mode     |\n"
+"| `-c`   | Checks if the file exists and is of special type character mode |\n"
+"| `-p`   | Checks if the file exists and is of type tube                   |\n"
+"| `-S`   | Checks if the file exists and is of type socket                 |\n"
+"| `-t`   | Checks if the file exists and is of type terminal               |\n"
+"| `-r`   | Checks if the file exists and is readable                       |\n"
+"| `-w`   | Checks if the file exists and is writable                       |\n"
+"| `-x`   | Checks if the file exists and is executable                     |\n"
+"| `-g`   | Checks if the file exists and has a set SGID                    |\n"
+"| `-u`   | Checks if the file exists and has a set SUID                    |\n"
+"| `-s`   | Tests if the file exists and is non-empty (size > 0 bytes)       |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:141
+#: ../src/docs/books/learning_bash/05-tests.md:199
+#: ../src/docs/books/learning_bash/05-tests.md:222
+#: ../src/docs/books/learning_bash/05-tests.md:313
+#: ../src/docs/books/learning_bash/05-tests.md:338
+#: ../src/docs/books/learning_bash/05-tests.md:354
+msgid "Example:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/05-tests.md:142
+#, no-wrap
+msgid ""
+"test -e /etc/passwd\n"
+"echo $?\n"
+"0\n"
+"[ -w /etc/passwd ]\n"
+"echo $?\n"
+"1\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:152
+msgid ""
+"An internal command to some shells (including bash) that is more modern, and "
+"provides more features than the external command `test`, has been created."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/05-tests.md:153
+#, no-wrap
+msgid ""
+"[[ -s /etc/passwd ]]\n"
+"echo $?\n"
+"1\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:162
+#, no-wrap
+msgid "    We will therefore use the internal command for the rest of this chapter.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_bash/05-tests.md:163
+#, no-wrap
+msgid "Compare two files"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:166
+msgid "It is also possible to compare two files:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/05-tests.md:167
+#, no-wrap
+msgid "[[ file1 -nt|-ot|-ef file2 ]]\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:176
+#, no-wrap
+msgid ""
+"| Option | Observation                                              |\n"
+"|--------|----------------------------------------------------------|\n"
+"| `-nt`  | Tests if the first file is newer than the second         |\n"
+"| `-ot`  | Tests if the first file is older than the second         |\n"
+"| `-ef`  | Tests if the first file is a physical link of the second |\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_bash/05-tests.md:177
+#, no-wrap
+msgid "Testing variables"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:180
+msgid "It is possible to test variables:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/05-tests.md:181
+#, no-wrap
+msgid "[[ -z|-n $variable ]]\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:189
+#, no-wrap
+msgid ""
+"| Option | Observation                        |\n"
+"|--------|------------------------------------|\n"
+"| `-z`   | Tests if the variable is empty     |\n"
+"| `-n`   | Tests if the variable is not empty |\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_bash/05-tests.md:190
+#, no-wrap
+msgid "Testing strings"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:193
+msgid "It is also possible to compare two strings:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/05-tests.md:194
+#, no-wrap
+msgid "[[ string1 =|!=|<|> string2 ]]\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/05-tests.md:200
+#, no-wrap
+msgid ""
+"[[ \"$var\" = \"Rocky rocks!\" ]]\n"
+"echo $?\n"
+"0\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:212
+#, no-wrap
+msgid ""
+"| Option | Observation                                                   |\n"
+"|--------|---------------------------------------------------------------|\n"
+"| `=`    | Tests if the first string is equal to the second              |\n"
+"| `!=`   | Tests if the first string is different from the second one    |\n"
+"| `<`    | Tests if the first string is before the second in ASCII order |\n"
+"| `>`    | Tests if the first string is after the second in ASCII order  |\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_bash/05-tests.md:213
+#, no-wrap
+msgid "Comparison of integer numbers"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:216
+msgid "Syntax for testing integers:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/05-tests.md:217
+#, no-wrap
+msgid "[[ \"num1\" -eq|-ne|-gt|-lt \"num2\" ]]\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/05-tests.md:223
+#, no-wrap
+msgid ""
+"var=1\n"
+"[[ \"$var\" -eq \"1\" ]]\n"
+"echo $?\n"
+"0\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/05-tests.md:230
+#, no-wrap
+msgid ""
+"var=2\n"
+"[[ \"$var\" -eq \"1\" ]]\n"
+"echo $?\n"
+"1\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:243
+#, no-wrap
+msgid ""
+"| Option | Observation                                           |\n"
+"|--------|-------------------------------------------------------|\n"
+"| `-eq`  | Test if the first number is equal to the second       |\n"
+"| `-ne`  | Test if the first number is different from the second |\n"
+"| `-gt`  | Test if the first number is greater than the second   |\n"
+"| `-lt`  | Test if the first number is less than the second      |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:245
+msgid "!!! Note"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:247
+#, no-wrap
+msgid "    Since numeric values are treated by the shell as regular characters (or strings), a test on a character can return the same result whether it is treated as a numeric or not.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:256
+#, no-wrap
+msgid ""
+"    ```\n"
+"    test \"1\" = \"1\"\n"
+"    echo $?\n"
+"    0\n"
+"    test \"1\" -eq \"1\"\n"
+"    echo $?\n"
+"    0\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:258
+#, no-wrap
+msgid "    But the result of the test will not have the same meaning:\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/books/learning_bash/05-tests.md:261
+msgid ""
+"In the first case, it will mean that the two characters have the same value "
+"in the ASCII table."
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/books/learning_bash/05-tests.md:261
+msgid "In the second case, it will mean that the two numbers are equal."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_bash/05-tests.md:262
+#, no-wrap
+msgid "Combined tests"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:266
+msgid ""
+"The combination of tests allows you to perform several tests in one "
+"command.  It is possible to test the same argument (file, string or numeric) "
+"several times or different arguments."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/05-tests.md:267
+#, no-wrap
+msgid "[ option1 argument1 [-a|-o] option2 argument 2 ]\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/05-tests.md:271
+#, no-wrap
+msgid ""
+"ls -lad /etc\n"
+"drwxr-xr-x 142 root root 12288 sept. 20 09:25 /etc\n"
+"[ -d /etc -a -x /etc ]\n"
+"echo $?\n"
+"0\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:283
+#, no-wrap
+msgid ""
+"| Option | Observation                                                |\n"
+"|--------|------------------------------------------------------------|\n"
+"| `-a`   | AND: The test will be true if all patterns are true.       |\n"
+"| `-o`   | OR: The test will be true if at least one pattern is true. |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:286
+msgid "With the internal command, it is better to use this syntax:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/05-tests.md:287
+#, no-wrap
+msgid "[[ -d \"/etc\" && -x \"/etc\" ]]\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:292
+msgid "Tests can be grouped with parentheses `(` `)` to give them priority."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/05-tests.md:293
+#, no-wrap
+msgid "(TEST1 -a TEST2) -a TEST3\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:298
+msgid ""
+"The `!` character is used to perform the reverse test of the one requested "
+"by the option:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/05-tests.md:299
+#, no-wrap
+msgid ""
+"test -e /file # true if file exists\n"
+"! test -e /file # true if file does not exist\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_bash/05-tests.md:304
+#, no-wrap
+msgid "Numerical operations"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:307
+msgid "The `expr` command performs an operation with numeric integers."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/05-tests.md:308
+#, no-wrap
+msgid "expr num1 [+] [-] [\\*] [/] [%] num2\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/05-tests.md:314
+#, no-wrap
+msgid ""
+"expr 2 + 2\n"
+"4\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:320
+#: ../src/docs/books/learning_bash/05-tests.md:367
+msgid "!!! Warning"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:323
+#, no-wrap
+msgid ""
+"    Be careful to surround the operation sign with a space. You will get an error message if you forget.\n"
+"    In the case of a multiplication, the wildcard character `*` is preceded by `\\` to avoid a wrong interpretation.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:331
+#, no-wrap
+msgid ""
+"| Option | Observation            |\n"
+"|--------|------------------------|\n"
+"| `+`    | Addition               |\n"
+"| `-`    | Subtraction            |\n"
+"| `\\*`   | Multiplication         |\n"
+"| `/`    | Division quotient      |\n"
+"| `%`    | Modulo of the division |\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_bash/05-tests.md:333
+#, no-wrap
+msgid "The `typeset` command"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:336
+msgid "The `typeset -i` command declares a variable as an integer."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/05-tests.md:339
+#, no-wrap
+msgid ""
+"typeset -i var1\n"
+"var1=1+1\n"
+"var2=1+1\n"
+"echo $var1\n"
+"2\n"
+"echo $var2\n"
+"1+1\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_bash/05-tests.md:349
+#, no-wrap
+msgid "The `let` command"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:352
+msgid "The `let` command tests if a character is numeric."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/05-tests.md:355
+#, no-wrap
+msgid ""
+"var1=\"10\"\n"
+"var2=\"AA\"\n"
+"let $var1\n"
+"echo $?\n"
+"0\n"
+"let $var2\n"
+"echo $?\n"
+"1\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:369
+#, no-wrap
+msgid "    The `let` command does not return a consistent return code when it evaluates the numeric `0`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:375
+#, no-wrap
+msgid ""
+"    ```\n"
+"    let 0\n"
+"    echo $?\n"
+"    1\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:377
+msgid "The `let` command also allows you to perform mathematical operations:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/05-tests.md:378
+#, no-wrap
+msgid ""
+"let var=5+5\n"
+"echo $var\n"
+"10\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:385
+msgid "`let` can be substituted by `$(( ))`."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/05-tests.md:386
+#, no-wrap
+msgid ""
+"echo $((5+2))\n"
+"7\n"
+"echo $((5*2))\n"
+"10\n"
+"var=$((5*3))\n"
+"echo $var\n"
+"15\n"
+msgstr ""

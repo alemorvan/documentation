@@ -1,0 +1,200 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-06-11 15:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/learning_bash/00-toc.md:1
+#, no-wrap
+msgid "education"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/learning_bash/00-toc.md:1
+#, no-wrap
+msgid "bash scripting"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/learning_bash/00-toc.md:1
+#, no-wrap
+msgid "bash"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/books/learning_bash/00-toc.md:1
+#, no-wrap
+msgid "Learning bash with Rocky"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/learning_bash/00-toc.md:12
+#, no-wrap
+msgid "Learning Bash with Rocky"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/00-toc.md:15
+msgid ""
+"In this section, you will learn more about Bash scripting, an exercise that "
+"every administrator will have to perform one day or another."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_bash/00-toc.md:16
+#, no-wrap
+msgid "Generalities"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/00-toc.md:20
+msgid ""
+"The shell is the command interpreter of Linux.  It is a binary that is not "
+"part of the kernel, but forms an additional layer, hence its name \"shell\"."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/00-toc.md:22
+msgid ""
+"It parses the commands entered by the user and then executes them by the "
+"system."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/00-toc.md:25
+msgid ""
+"There are several shells, all of which share some common features.  The user "
+"is free to use the one that suits him/her best. Some examples are:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/00-toc.md:30
+msgid "the **Bourne-Again shell** (`bash`),"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/00-toc.md:30
+msgid "the **Korn shell** (`ksh`),"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/00-toc.md:30
+msgid "the **C shell** (`csh`),"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/00-toc.md:30
+msgid "etc."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/00-toc.md:33
+msgid ""
+"`bash` is present by default in most (all) Linux distributions.  It is "
+"characterized by its practical and user-friendly features."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/00-toc.md:35
+msgid ""
+"The shell is also a **basic programming language** which, thanks to some "
+"dedicated commands, allows:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/00-toc.md:39
+msgid "the use of **variables**,"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/00-toc.md:39
+msgid "**conditional execution** of commands,"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/00-toc.md:39
+msgid "the **repetition** of commands."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/00-toc.md:41
+msgid ""
+"Shell scripts have the advantage that they can be created **quickly** and "
+"**reliably**, without **compiling** or installing additional commands. A "
+"shell script is just a text file without any embellishments (bold, italics, "
+"etc.)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/00-toc.md:43
+msgid "!!! NOTE"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/00-toc.md:45
+#, no-wrap
+msgid "    Although the shell is a \"basic\" programming language, it is still very powerful and sometimes faster than badly compiled code.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/00-toc.md:49
+msgid ""
+"To write a shell script, you just have to put all the necessary commands in "
+"a single text file.  By making this file executable the shell reads it "
+"sequentially, and executes the commands in it one by one.  It is also "
+"possible to execute it by passing the name of the script as an argument to "
+"the bash binary."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/00-toc.md:53
+msgid ""
+"When the shell encounters an error, it displays a message to identify the "
+"problem but continues to execute the script.  But there are mechanisms to "
+"stop the execution of a script when an error occurs.  Command-specific "
+"errors are also displayed on the screen or inside files."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/00-toc.md:55
+msgid "What is a good script? It is:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/00-toc.md:59
+msgid "**reliable**: its operation is flawless even in case of misuse;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/00-toc.md:59
+msgid ""
+"**commented**: its code is annotated to facilitate the rereading and future "
+"evolution;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/00-toc.md:59
+msgid ""
+"**readable**: the code is indented appropriately, the commands are spaced "
+"out, ..."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/00-toc.md:59
+msgid ""
+"**portable**: the code runs on any Linux system, dependency management, "
+"rights management, etc."
+msgstr ""

@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-06-11 15:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: ../src/docs/books/index.md:1
+#, no-wrap
+msgid "Books Home"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/index.md:7
+#, no-wrap
+msgid "Rocky Linux Instructional Books"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/index.md:10
+msgid ""
+"You've found the **Books** section of the documentation. This is where "
+"longer-form documentation is kept. These documents are broken down into "
+"sections or \"chapters\" to make it easy for you to work through them at "
+"your own pace and keep track of your progress. These documents were created "
+"by people just like you, with a passion for certain subjects."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/index.md:11
+msgid ""
+"Do you want to try your hand at writing an addition to this section? That's "
+"GREAT! Simply join the conversation on the [Mattermost Documentation channel]"
+"(https://chat.rockylinux.org/rocky-linux/channels/documentation) and we will "
+"help you on your way."
+msgstr ""

@@ -1,0 +1,465 @@
+# French translations for po package
+# Traductions françaises du paquet po
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-11 15:28+0000\n"
+"PO-Revision-Date: 2023-06-11 15:28+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/nvchad/index.md:1
+#, no-wrap
+msgid "nvchad"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/nvchad/index.md:1
+#, no-wrap
+msgid "coding"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/nvchad/index.md:1
+#, no-wrap
+msgid "editor"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/books/nvchad/index.md:1
+#, no-wrap
+msgid "Overview"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/nvchad/index.md:12
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:15
+msgid ""
+"Throughout this book, you will find ways to implement Neovim, along with "
+"NvChad, to create a fully functional **I**ntegrated **D**evelopment "
+"**E**nvironment (IDE)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:17
+msgid ""
+"I say \"ways\" because there are many possibilities. The author focuses here "
+"on using these tools for writing markdown, but if markdown isn't your focus, "
+"don't worry simply read on. If you are unfamiliar with either of these tools "
+"(NvChad or Neovim), then this book will give you an introduction to both, "
+"and if you step through these documents, you'll soon realize that you can "
+"set up this environment to be a huge help for whatever your programming or "
+"script writing needs are."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:19
+msgid ""
+"Want an IDE that will help in writing Ansible playbooks? You can get that! "
+"Want an IDE for Golang? That's available too. Simply want a good interface "
+"for writing BASH scripts? It's also available."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:21
+msgid ""
+"Through the use of **L**anguage **S**erver **P**rotocols and linters, you "
+"can setup an environment that is customized just for you. The best part is "
+"that once you have the environment setup, it can quickly be updated when new "
+"changes are available through the use of [lazy.nvim](https://github.com/"
+"folke/lazy.nvim) and [Mason](https://github.com/williamboman/mason.nvim), "
+"both of which are covered here."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:23
+msgid ""
+"Because Neovim is a fork of `vim`, the overall interface will be familiar to "
+"`vim` users. If you aren't a `vim` user, you will pick up on the syntax of "
+"the commands quickly using this book. There's a lot of information covered "
+"here but it's easy to follow along, and once you've completed the content, "
+"you'll know enough to build your own IDE for _your_ needs with these tools."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:25
+msgid ""
+"It was the author's intent **not** to break this book down into chapters. "
+"The reason is that this implies an order that must be followed and, for the "
+"most part, that's not necessary. You *will* want to start with this page, "
+"read and follow the \"Additional Software\", \"Install Neovim\" and "
+"\"Install NvChad\" sections, but from there, you can choose how you want to "
+"proceed."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/nvchad/index.md:26
+#, no-wrap
+msgid "Using Neovim as an IDE"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:29
+msgid ""
+"The basic installation of Neovim provides an excellent editor for "
+"development, but it cannot yet be called an IDE; all the more advanced IDE "
+"features, even if already preset, are not yet activated. To do this we need "
+"to pass the necessary configurations to Neovim, and this is where NvChad "
+"comes to our aid. This allows us to have a basic configuration out of the "
+"box with just one command!"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:31
+msgid ""
+"The configuration is written in Lua, a very fast programming language that "
+"allows NvChad to have startup and execution times for commands and "
+"keystrokes that are very fast. This is also made possible by the `Lazy "
+"loading` technique used for plugins that loads them only when required."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:33
+msgid "The interface turns out to be very clean and pleasant."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:35
+msgid ""
+"As the developers of NvChad are keen to point out, the project is only "
+"intended to be a base on which to build your own personal IDE. Subsequent "
+"customization is done through the use of plugins."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:37
+msgid "![NvChad UI](images/nvchad_rocky.png)"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/nvchad/index.md:38
+#, no-wrap
+msgid "Main Features"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:41
+msgid ""
+"- **Designed to be fast.** From the choice of programming language to "
+"techniques for loading components, everything is designed to minimize "
+"execution time."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:43
+msgid ""
+"- **Attractive Interface.** Despite being a _cli_ application the interface "
+"looks modern and beautiful graphically, plus all the components fit the UI "
+"perfectly."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:45
+msgid ""
+"- **Extremely Configurable.** Due to the modularity derived from the base "
+"application (NeoVim), the editor can be adapted perfectly to one's needs. "
+"Keep in mind, however, that when we talk about customization we are "
+"referring to functionality, and not to the appearance of the interface."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:47
+msgid ""
+"- **Automatic update mechanism.** The editor comes with a mechanism (through "
+"the use of _git_) that allows updates with a simple `:NvChadUpdate` command."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:49
+msgid ""
+"- **Powered by Lua.** NvChad's configuration is written entirely in _lua_, "
+"which allows it to integrate seamlessly into Neovim's configuration by "
+"taking advantage of the full potential of the editor on which it is based."
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/index.md:51
+msgid ""
+"**Numerous inbuilt themes.** The configuration already includes a large "
+"number of themes to use, always keeping in mind that we are talking about a "
+"_cli_ application, themes can be selected with the `<leader> + th` key."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:53
+msgid "![NvChad Themes](images/nvchad_th.png)"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/nvchad/index.md:54
+#, no-wrap
+msgid "References"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/nvchad/index.md:56
+#, no-wrap
+msgid "Lua"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/nvchad/index.md:58
+#, no-wrap
+msgid "What is Lua?"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:61
+msgid ""
+"Lua is a robust, lightweight, scripting language that supports a variety of "
+"programming methods. The name \"Lua\" comes from the Portuguese word meaning "
+"\"moon.\""
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:63
+msgid ""
+"Lua was developed at the Catholic University of Rio de Janeiro by Roberto "
+"Ierusalimschy, Luiz Henrique de Figueiredo, and Waldemar Celes. The "
+"development was necessary for them because until 1992 Brazil was subject to "
+"strict import regulations for hardware and software, so out of sheer "
+"necessity, these three programmers developed their own scripting language "
+"called Lua."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:65
+msgid ""
+"Because Lua focuses primarily on scripts, it is rarely used as a stand-alone "
+"programming language. Instead, it is most often used as a scripting language "
+"that can be integrated (embedded) into other programs."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:67
+msgid ""
+"Lua is used in the development of video games and game engines (Roblox, "
+"Warframe..), as a programming language in many network programs (Nmap, "
+"ModSecurity..), and as a programming language in industrial programs. Lua is "
+"also used as a library that developers can integrate into their programs to "
+"enable scripting functionality by acting solely as an integral part of the "
+"host application."
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/nvchad/index.md:68
+#, no-wrap
+msgid "How Lua works"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:71
+msgid "There are two main components of Lua:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:74
+msgid "- The Lua interpreter - The Lua virtual machine (VM)"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:76
+msgid ""
+"Lua is not interpreted directly through a Lua file like other languages, for "
+"example Python. Instead, it uses the Lua interpreter to compile a Lua file "
+"into bytecode. The Lua interpreter is highly portable and capable of running "
+"on a multitude of devices."
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/nvchad/index.md:77
+#, no-wrap
+msgid "Key Features"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:80
+msgid ""
+"- Speed: Lua is considered one of the fastest programming languages among "
+"interpreted scripting languages; it can perform very performance-heavy tasks "
+"faster than most other programming languages."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:82
+msgid ""
+"- Size: Lua has a really small size compared to other programming languages. "
+"This small size is ideal for integrating Lua into multiple platforms, from "
+"embedded devices to game engines."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:84
+msgid ""
+"- Portability and integration: The portability of Lua is almost unlimited. "
+"Any platform that supports the standard C compiler can run Lua without "
+"problems. Lua does not require complex rewrites to be compatible with other "
+"programming languages."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:86
+msgid ""
+"- Simplicity: Lua has a simple design but provides powerful functionality. "
+"One of the main features of Lua is meta-mechanisms, which allow developers "
+"to implement their own functionality. The syntax is simple and in an easily "
+"understood format, so that anyone can easily learn Lua and use it in their "
+"own programs."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:88
+msgid ""
+"- License: Lua is free and open-source software distributed under the MIT "
+"license. This allows anyone to use it for any purpose without paying any "
+"license or royalties."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/nvchad/index.md:89
+#, no-wrap
+msgid "Neovim"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:92
+msgid ""
+"Neovim is described in detail on its [dedicated page](install_nvim.md) so we "
+"will just dwell on the main features, which are:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:94
+msgid "- Performance: Very fast."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:96
+msgid "- Customizable: Wide ecosystem of plugins and themes."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:98
+msgid ""
+"- Syntax highlighting: Integration with Treesitter and LSP, (requires some "
+"additional configurations)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:100
+msgid "- Multiplatform: Linux, Windows and macOS"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:102
+msgid ""
+"- License: Mit: A short and simple permissive license with conditions "
+"requiring only the preservation of copyright and license notices."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/nvchad/index.md:103
+#, no-wrap
+msgid "LSP"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:106
+msgid "What is the **L**anguage **S**erver **P**rotocol?"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:108
+msgid ""
+"A language server is a standardized language library that uses its own "
+"procedure (protocol) to provide support for functions such as autocomplete, "
+"goto definition, or mouseover definitions."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:110
+msgid ""
+"The idea behind the Language Server Protocol (LSP) is to standardize the "
+"communication protocol between tools and servers, so that a single language "
+"server can be reused in multiple development tools. In this way, developers "
+"can simply integrate these libraries into their editors and reference "
+"existing language infrastructures, instead of customizing their code to "
+"include them."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/nvchad/index.md:111
+#, no-wrap
+msgid "tree-sitter"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:114
+msgid ""
+"[Tree-sitter](https://tree-sitter.github.io/tree-sitter/) basically consists "
+"of two components: a parser generator, and an incremental parsing library. "
+"It can build a syntactic tree of the source file and efficiently update it "
+"with each change."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:116
+msgid ""
+"A parser is a component that decomposes data into smaller elements to "
+"facilitate its translation into another language, or as in our case, to be "
+"then passed to the parsing library. Once the source file has been "
+"decomposed, the parsing library parses the code and transforms it into a "
+"syntactic tree, allowing the structure of the code to be manipulated more "
+"intelligently. This makes it possible to improve (and speed up)"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:121
+msgid ""
+"- syntax highlighting - code navigation - refactoring - text objects and "
+"movements"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:123
+msgid "!!! notes \"LSP and tree-sitter complementarity.\""
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:125
+#, no-wrap
+msgid "    Although it may seem that the two services (LSP and tree-sitter) are redundant, they are actually complementary in that LSP works at the project level while tree-sitter works only on the open source file.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/index.md:126
+msgid ""
+"Now that we have explained a bit about the technologies used to create the "
+"IDE we can move on to the [Additional Software](additional_software.md) "
+"needed to configure our NvChad."
+msgstr ""

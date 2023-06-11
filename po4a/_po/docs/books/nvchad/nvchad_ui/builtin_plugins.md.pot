@@ -1,0 +1,443 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-06-11 15:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:1
+#, no-wrap
+msgid "nvchad"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:1
+#, no-wrap
+msgid "coding"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:1
+#, no-wrap
+msgid "plugins"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:1
+#, no-wrap
+msgid "Built-In Plugins"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:12
+#, no-wrap
+msgid "Basic configuration plugins"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:15
+msgid "!!! note \"Plugin Naming Convention\""
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:17
+#, no-wrap
+msgid "    In this chapter, the format `user_github/plugin_name` will be used to identify the plugin. This is to avoid possible errors with similarly named plugins and to introduce the format that is used for plugin entry by both NvChad, and the `custom` configuration.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:19
+msgid ""
+"Version 2.0 brings numerous new features. The new version adopts `lazy.nvim` "
+"as the plugin manager instead of `packer.nvim`, this involves making some "
+"changes for users of the previous version with a custom configuration "
+"(_custom_ folder)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:21
+msgid ""
+"`lazy.nvim` enables convenient management of plugins through a unified "
+"interface and integrates a mechanism for synchronizing plugins across "
+"installations (_lazy-lock.json_)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:23
+msgid ""
+"NvChad keeps the configuration of its default plugins in the file _lua/"
+"plugins/init.lua_. And the additional configurations of the various plugins "
+"are contained in the _/nvim/lua/plugins/configs_ folder."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:25
+msgid "We can see an excerpt of the _init.lua_ file below:"
+msgstr ""
+
+#. type: Fenced code block (lua)
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:26
+#, no-wrap
+msgid ""
+"local default_plugins = {\n"
+"\n"
+"  \"nvim-lua/plenary.nvim\",\n"
+"\n"
+"  -- nvchad plugins\n"
+"  { \"NvChad/extensions\", branch = \"v2.0\" },\n"
+"\n"
+"  {\n"
+"    \"NvChad/base46\",\n"
+"    branch = \"v2.0\",\n"
+"    build = function()\n"
+"      require(\"base46\").load_all_highlights()\n"
+"    end,\n"
+"  },\n"
+"\n"
+"  {\n"
+"    \"NvChad/ui\",\n"
+"    branch = \"v2.0\",\n"
+"    lazy = false,\n"
+"    config = function()\n"
+"      require \"nvchad_ui\"\n"
+"    end,\n"
+"  },\n"
+"...\n"
+"...\n"
+"-- lazy_nvim startup opts\n"
+"local lazy_config = vim.tbl_deep_extend(\"force\", require \"plugins.configs.lazy_nvim\", config.lazy_nvim)\n"
+"\n"
+"require(\"lazy\").setup(default_plugins, lazy_config)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:59
+msgid ""
+"There's a huge amount of work by the NvChad developers that must be "
+"acknowledged. They have created an integrated environment among all plugins "
+"which makes the user interface clean and professional. In addition, plugins "
+"that work *under the hood* allow for enhanced editing and other features."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:60
+#, no-wrap
+msgid "All of this means that ordinary users can have, in an instant, a basic IDE with which to start working, and an extensible configuration that can adapt to their needs.  \n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:62
+#, no-wrap
+msgid "Main Plugins"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:65
+msgid "The following is a brief analysis of the main plugins:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:67
+msgid ""
+"- [nvim-lua/plenary.nvim](https://github.com/nvim-lua/plenary.nvim) - "
+"Provides a library of commonly used lua functions that are used by the other "
+"plugins, for example *telescope* and *gitsigns*."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:69
+msgid ""
+"- [NvChad/extensions](https://github.com/NvChad/extensions) - The core "
+"utilities of NvChad. Here we find: *change_theme*, *reload_config*, "
+"*reload_theme*, *update_nvchad* and the *telescope/extension* folder that "
+"provides the choice of theme directly from Telescope."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:71
+msgid ""
+"- [NvChad/base46](https://github.com/NvChad/base46) - Provides themes for "
+"the interface."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:73
+msgid ""
+"- [NvChad/ui](https://github.com/NvChad/ui) - Provides the actual interface. "
+"Thanks to this plugin we can have a *statusline* that gives us the "
+"information during editing and a *tabufline* that allows us to manage open "
+"buffers."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:75
+msgid ""
+"- [NvChad/nvterm](https://github.com/NvChad/nvterm) - Provides a terminal to "
+"our IDE where we can issue commands. The terminal can be opened within the "
+"buffer in various ways:"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:79
+msgid "`<ALT-h>` opens a terminal by dividing the buffer horizontally"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:79
+msgid "`<ALT-v>` opens the terminal by dividing the buffer vertically"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:79
+msgid "`<ALT-i>` opens a terminal in a floating tab"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:81
+msgid ""
+"- [NvChad/nvim-colorizer.lua](https://github.com/NvChad/nvim-colorizer.lua) "
+"- Another plugin written by the developers of NvChad. It is specifically a "
+"high-performance highlighter."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:83
+msgid ""
+"- [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-"
+"devicons) - Adds icons (requires one of the Nerd Fonts) to file types and "
+"folders in our IDE. This allows us to visually identify file types in our "
+"File Explorer, to speed up operations."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:85
+msgid ""
+"- [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/"
+"indent-blankline.nvim) - Provides guides to better identify indentation in "
+"the document, allowing sub-routines and nested commands to be easily "
+"recognized."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:87
+msgid ""
+"- [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-"
+"treesitter) - Allows you to use the tree-sitter interface in Neovim, and "
+"provide some basic functionality, such as highlighting."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:89
+msgid ""
+"- [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) - "
+"Provides decoration for *git* with reports for added, removed, and changed "
+"lines-reports that are also integrated into the *statusline*."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:90
+#, no-wrap
+msgid "LSP functionality"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:93
+msgid ""
+"Now let's move on to the plugins that provide the functionality to integrate "
+"LSPs (Language Server Protocols) into our projects. This is definitely one "
+"of the best features provided by NvChad. Thanks to LSPs we can be in control "
+"of what we write in real time."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:95
+msgid ""
+"- [williamboman/mason.nvim](https://github.com/williamboman/mason.nvim) - "
+"Allows simplified management of LSP (Language Server) installation through a "
+"convenient graphical interface. The commands provided are:"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:101
+msgid "`:Mason`"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:101
+msgid "`:MasonInstall`"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:101
+msgid "`:MasonUninstall`"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:101
+msgid "`:MasonUnistallAll`"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:101
+msgid "`:MasonLog`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:103
+msgid ""
+"- [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - "
+"Provides the appropriate configurations for almost every language server "
+"available. It is a community collection, with the most relevant settings "
+"already set. The plugin takes care of receiving our configurations and "
+"putting them into the editor environment."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:105
+msgid "It provides the following commands:"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:110
+msgid "`:LspInfo`"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:110
+msgid "`:LspStart`"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:110
+msgid "`:LspStop`"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:110
+msgid "`:LspRestart`"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:111
+#, no-wrap
+msgid "Lua Code"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:114
+msgid ""
+"Following LSP, come all the plugins that provide functionality in writing "
+"and executing Lua code such as snippets, lsp commands, buffers etc. We will "
+"not go into detail on these, but they can be viewed in their respective "
+"projects on GitHub."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:116
+msgid "The plugins are:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:125
+msgid ""
+"- [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp)  - [L3MON4D3/"
+"LuaSnip](https://github.com/L3MON4D3/LuaSnip)  - [rafamadriz/friendly-"
+"snippets](https://github.com/rafamadriz/friendly-snippets)  - [saadparwaiz1/"
+"cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip)  - [hrsh7th/cmp-"
+"nvim-lua](https://github.com/hrsh7th/cmp-nvim-lua)  - [hrsh7th/cmp-nvim-lsp]"
+"(https://github.com/hrsh7th/cmp-nvim-lsp)  - [hrsh7th/cmp-buffer](https://"
+"github.com/hrsh7th/cmp-buffer)  - [hrsh7th/cmp-path](https://github.com/"
+"hrsh7th/cmp-path)"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:126
+#, no-wrap
+msgid "Mixed Plugins"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:129
+msgid ""
+"- [windwp/nvim-autopairs](https://github.com/windwp/nvim-autopairs) - Thanks "
+"to this plugin we have the functionality of automatic closing of parentheses "
+"and other characters. For example, by inserting a beginning parenthesis `(` "
+"completion will automatically insert the closing parenthesis `)` placing the "
+"cursor in the middle."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:131
+msgid ""
+"- [numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim) - "
+"Provides advanced functionality for code commenting."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:132
+#, no-wrap
+msgid "File Management"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:135
+msgid ""
+"- [kyazdani42/nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua) - "
+"A File Explorer for Neovim that allows the most common operations on files "
+"(copy, paste, etc.), has integration with Git, identifies files with "
+"different icons, and other features. Most importantly, it updates "
+"automatically (this is very useful when you work with Git repositories)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:137
+#, no-wrap
+msgid "  ![Nvim Tree](../images/nvim_tree.png)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:139
+msgid ""
+"- [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/"
+"telescope.nvim) - Provides advanced file search capabilities, is highly "
+"customizable, and can also be (for example) used for selecting NvChad themes "
+"(command `:Telescope themes`)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:141
+#, no-wrap
+msgid "  ![Telescope find_files](../images/telescope_find_files.png)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:143
+msgid ""
+"- [folke/which-key.nvim](https://github.com/folke/which-key.nvim) - Displays "
+"all possible autocompletions available for the entered partial command."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:145
+#, no-wrap
+msgid "  ![Which Key](../images/which_key.png)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:146
+msgid ""
+"Having introduced the plugins that make up the basic configuration of "
+"NvChad, we can move on to see how to manage them."
+msgstr ""

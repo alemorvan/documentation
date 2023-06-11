@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-06-11 15:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/nvchad/plugins/index.md:1
+#, no-wrap
+msgid "nvchad"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/nvchad/plugins/index.md:1
+#, no-wrap
+msgid "plugins"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/nvchad/plugins/index.md:1
+#, no-wrap
+msgid "editor"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/nvchad/plugins/index.md:1
+#: ../src/docs/books/nvchad/plugins/index.md:12
+#, no-wrap
+msgid "Overview"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/nvchad/plugins/index.md:14
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/index.md:17
+msgid ""
+"The custom configuration created by the developers of NvChad allows you to "
+"have an integrated environment with many of the features of a graphical IDE. "
+"These features are built into the Neovim configuration by means of plugins. "
+"Those selected for NvChad by the developers have the function of setting up "
+"the editor for general use."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/index.md:19
+msgid ""
+"However, the ecosystem of plugins for Neovim is much broader and through "
+"their use, allows you to extend the editor to focus on your own needs."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/index.md:21
+msgid ""
+"The scenario addressed in this section is the creation of documentation for "
+"Rocky Linux, so plugins for writing Markdown code, managing Git "
+"repositories, and other tasks that relate to the purpose will be explained."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/nvchad/plugins/index.md:22
+#, no-wrap
+msgid "Requirements"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/index.md:27
+msgid ""
+"- NvChad properly installed on the system with the \"*template chadrc*\" - "
+"Familiarity with the command line - An active internet connection"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/nvchad/plugins/index.md:28
+#, no-wrap
+msgid "General hints about plugins"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/index.md:31
+msgid ""
+"If you chose during the installation of NvChad to also install the [template "
+"chadrc](../template_chadrc.md) you will have in your configuration a **~/."
+"config/nvim/lua/custom/** folder. All changes for your plugins should be "
+"made in the **/custom/plugins.lua** file in that folder. In case the plugin "
+"needs additional configurations, these are placed in the **/custom/configs** "
+"folder."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/index.md:33
+msgid ""
+"Neovim, on which the configuration of NvChad is based, does not integrate an "
+"automatic configuration update mechanism with the running editor. This "
+"implies that each time the plugins file is modified, it is necessary to stop "
+"`nvim` and then reopen it to get the full functionality of the plugin."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/index.md:35
+msgid ""
+"Installation of the plugin can be performed immediately after it is placed "
+"in the file since the `lazy.nvim` plugins manager keeps track of the changes "
+"in **plugins.lua** and therefore allows its \"live\" installation."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/index.md:36
+msgid "![plugins.lua](./images/plugins_lua.png)"
+msgstr ""

@@ -16,17 +16,19 @@ cd "$SCRIPT_DIR"
 # VARIABLES
 
 # Set % threshold for translated .md files to be created
-THRESH_VAL="80"
+THRESH_VAL=0
 
 # Folder where source English files are
-SRC_DIR="../src/docs"
+SRC_DIR="../src/" # No trailing slash here please
 
 # Directory where the po file folders are
 PO_DIR="./_po"
 
 # Directories where the translated files will be
 BUILD_DIR="../build"
-#DATA_DIR="../_data"
+
+po4a_conf="_po4a.conf"
+lang="fr_FR it_IT"
 
 # CHECK FOR PO4A INSTALLATION
 
@@ -51,78 +53,50 @@ if ! [ -d "$SRC_DIR" ] ; then
     exit 1
 fi
 
-# REMOVE TARGET FILES IF PRESENT BEFORE REGENERATING THEM
+# Suppress old po4a config files
+find "${PO_DIR}" -name "*.${po4a_conf}" -exec rm "{}" \;
 
-for lang in $(ls "$PO_DIR") ; do
-    if [ -d "$DOC_DIR/$lang" ] ; then
-        rm -rf "$DOC_DIR/$lang"
-        echo "$lang" folder deleted from ./doc
+# RUN PO4A ON EACH MD FILE FROM SRC_DIR
+for file_path in $(find "$SRC_DIR" -name "*.md")
+do
+    echo "Working with ${file_path}"
+    # Get directory and file name
+    fulldir=$(dirname "$file_path")
+    absolutedir=${fulldir#"${SRC_DIR}"}
+    dir=${absolutedir#"/"}
+    file=$(basename "$file_path" ".md")
+
+    # Ensure destination directory exists
+    if ! [ -d "${PO_DIR}/${dir}" ] ; then
+	mkdir -p "${PO_DIR}/${dir}"
     fi
-done
 
-# FUNCTION TO CREATE TARGET FILES FROM .po FILES USING PO4A
+    
+    echo "
+# po4a - Rocky Linux Documentation
+#
+# This file is auto-generated, don't modify it!
+#
+# variables
+#
+# \$master corresponds to the file name ex: index.md
+# \$lang matches the localizations set in [po4a_langs]
+#
+# Localizations to be processed
+[po4a_langs] ${lang}
 
-process_with_po4a () {
-    lang=$1
+# Path of files where to locate .pot and .po
+[po4a_paths] ${PO_DIR}/${dir}/\$master.pot \$lang:${PO_DIR}/${dir}/\$master_\$lang.po
+# Options to pass to po4a
+[po4a_alias: md] text opt:\"-o markdown -o yfm_keys=title\"
 
-    # Determine target file/folder names
-    while IFS= read -r -d '' doc ; do
+# Path to final Markdown file - source -> translation
+[type: md] $file_path \$lang:${BUILD_DIR}/${dir}/${file}.\$lang.md
+" > "${PO_DIR}/${dir}/${file}_po4a.conf"
 
-        # Get file extension
-        ext=$(echo "$doc" | sed 's/.*\.//')
-
-        # Get source doc names and set target file names and dirs
-        filename=$(basename "$doc" .$ext)
-
-        targ_doc="$BUILD_DIR/$lang/$filename.$ext"
-
-        # Files excluded from the threshold requirement
-        if [[
-            "$filename" == 'Include-'* || \
-            "$filename" == *'-index' || \
-            "$filename" == 'general' || \
-            "$filename" == 'navigation'
-           ]] ; then
-            THRESHOLD="0"
-        else
-            THRESHOLD="$THRESH_VAL"
-        fi
-
-        # Determine file format to be used
-        if [ $ext == yml ] ; then
-            FILE_FORMAT=yaml
-        elif [ $ext == html ] ; then
-            FILE_FORMAT=xml
-        elif [ $ext == md ] ; then
-            FILE_FORMAT=asciidoc
-        fi
-
-        # Run po4a-translate and create target files
-        po4a-translate \
-            --format $FILE_FORMAT \
-            --master "$doc" \
-            --master-charset "UTF-8" \
-            --po "$PO_DIR/$lang/${filename}.po" \
-            --localized "$targ_doc" \
-            --localized-charset "UTF-8" \
-            --keep "$THRESHOLD"
-
-        # Display message if translated file is created
-        if [ -f $targ_doc ] ; then
-            echo "$filename.$ext" translated into "$lang"
-        fi
-
-    done <   <(find -L "$SRC_DIR" -name "*.*"  -print0)
-}
-
-# RUN PO4A ON EACH PO FILE LANG DIR
-
-while IFS= read -r -d '' dir ; do
-    lang=$(basename "$dir")
-    echo ''
-    echo "$lang":
-    process_with_po4a "$lang"
-done <   <(find "$PO_DIR" -mindepth 1 -maxdepth 1 -type d -print0)
+    po4a -k 0 "${PO_DIR}/${dir}/${file}${po4a_conf}"
+done 
 
 # Produce a file with translation status of all .po files
 source ./po4a-stats.sh
+

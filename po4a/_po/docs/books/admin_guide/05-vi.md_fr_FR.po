@@ -1,0 +1,1426 @@
+# French translations for po package
+# Traductions fran�aises du paquet po
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-11 15:28+0000\n"
+"PO-Revision-Date: 2023-06-11 15:28+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Title #
+#: ../src/docs/books/admin_guide/05-vi.md:1
+#: ../src/docs/books/admin_guide/05-vi.md:5
+#, no-wrap
+msgid "VI Text Editor"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:8
+msgid "In this chapter you will learn how to work with the VIsual editor."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:12
+#, no-wrap
+msgid "**Objectives**: In this chapter, future Linux administrators will learn how to:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:15
+#, no-wrap
+msgid ""
+":heavy_check_mark: Use the main commands of the VI editor;   \n"
+":heavy_check_mark: Modify a text with the VI editor.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:17
+msgid ":checkered_flag: **user commands**, **linux**"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:20
+#, no-wrap
+msgid ""
+"**Knowledge**: :star:   \n"
+"**Complexity**: :star: :star:   \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:22
+#, no-wrap
+msgid "**Reading time**: 20 minutes\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:26
+#, no-wrap
+msgid "*Visual* (**VI**) is a very popular text editor under Linux, despite its limited ergonomics. It is indeed an editor entirely in text mode: each action is done with a key on the keyboard or dedicated commands.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:28
+msgid ""
+"Very powerful, it is above all very practical since it is on the whole "
+"minimal for basic applications. It is therefore accessible in case of system "
+"failure. Its *universality* (it is present on all Linux distributions and "
+"under Unix) makes it a *crucial* tool for the administrator."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:30
+msgid "Its functionalities are:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:34
+msgid "Insert, delete, modify text;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:34
+msgid "Copy words, lines or blocks of text;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:34
+msgid "Search and replace characters."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/05-vi.md:35
+#, no-wrap
+msgid "`vi` command"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:38
+msgid "The `vi` command opens the *VI* text editor."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/05-vi.md:39
+#, no-wrap
+msgid "vi [-c command] [file]\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:44
+#: ../src/docs/books/admin_guide/05-vi.md:397
+#: ../src/docs/books/admin_guide/05-vi.md:405
+#: ../src/docs/books/admin_guide/05-vi.md:411
+#: ../src/docs/books/admin_guide/05-vi.md:417
+#: ../src/docs/books/admin_guide/05-vi.md:423
+msgid "Example:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/05-vi.md:45
+#, no-wrap
+msgid "$ vi /home/rockstar/file\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:52
+#, no-wrap
+msgid ""
+"| Option       | Information                                       |\n"
+"| ------------ | ------------------------------------------------- |\n"
+"| `-c command` | Execute VI by specifying a command at the opening |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:54
+msgid ""
+"If the file exists at the location mentioned by the path, it is read by VI "
+"which is placed in **commands** mode."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:56
+msgid ""
+"If the file does not exist, VI opens a blank file and an empty page is "
+"displayed on the screen. When the file is saved, it will take the name "
+"specified with the command."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:58
+msgid ""
+"If the command `vi` is executed without specifying a file name, VI opens a "
+"blank file and an empty page is displayed on the screen. When the file is "
+"saved, VI will ask for a file name."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:60
+msgid ""
+"The `vim` editor takes the interface and functions of VI with many "
+"improvements."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/05-vi.md:61
+#, no-wrap
+msgid "vim [-c command] [file]\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:66
+msgid ""
+"Among these improvements, the user has syntax highlighting, which is very "
+"useful for editing shell scripts or configuration files."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:68
+msgid ""
+"During a session, VI uses a buffer file in which it records all the changes "
+"made by the user."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:70
+#: ../src/docs/books/admin_guide/05-vi.md:206
+#: ../src/docs/books/admin_guide/05-vi.md:272
+msgid "!!! Note"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:72
+#, no-wrap
+msgid "    As long as the user has not saved his work, the original file is not modified.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:74
+msgid "At startup, VI is in *commands* mode."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:76
+#: ../src/docs/books/admin_guide/05-vi.md:298
+msgid "!!! Tip"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:78
+#, no-wrap
+msgid "    A line of text is ended by pressing <kbd>ENTER</kbd> but if the screen is not wide enough, VI makes automatic line breaks, _wrap_ configuration by default. These line breaks may not be desired, this is the _nowrap_ configuration.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:80
+#, no-wrap
+msgid "To exit VI, from the Commands mode, press <kbd>:</kbd> then type:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:84
+msgid "`q` to exit without saving (_quit_);"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:84
+msgid "`w` to save your work (_write_);"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:84
+msgid "`wq` (_write quit_) or `x` (_eXit_) to save and exit."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:86
+#, no-wrap
+msgid "In command mode,  Click the <kbd>Z</kbd> key of uppercase status twice in a row to save and exit.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:88
+msgid ""
+"To force the exit without confirmation, you must add *!* to the previous "
+"commands."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:90
+msgid "!!! Warning"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:92
+#, no-wrap
+msgid "    There is no periodic backup, so you must remember to save your work regularly.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/05-vi.md:93
+#, no-wrap
+msgid "Operating mode"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:96
+msgid "In VI, there are 3 working modes:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:100
+msgid "The *command* mode;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:100
+msgid "The *insertion* mode;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:100
+msgid "The *ex* mode."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:102
+msgid ""
+"The philosophy of VI is to alternate between the *command* mode and the "
+"*insertion* mode."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:104
+msgid "The third mode, *ex*, is a footer command mode from an old text editor."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/05-vi.md:105
+#, no-wrap
+msgid "The Command Mode"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:108
+#, no-wrap
+msgid "This is the default mode when VI starts up. To access it from any of the other modes, simply press the <kbd>ESC</kbd> key.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:110
+msgid ""
+"At this time, all keyboard typing is interpreted as commands and the "
+"corresponding actions are executed. These are essentially commands for "
+"editing text (copy, paste, undo, ...)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:112
+msgid "The commands are not displayed on the screen."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/05-vi.md:113
+#, no-wrap
+msgid "The Insert mode"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:116
+msgid ""
+"This is the text modification mode. To access it from the *command* mode, "
+"you have to press special keys that will perform an action in addition to "
+"changing the mode."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:118
+msgid ""
+"The text is not entered directly into the file but into a buffer zone in the "
+"memory. The changes are only effective when the file is saved."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/05-vi.md:119
+#, no-wrap
+msgid "The Ex mode"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:122
+msgid ""
+"This is the file modification mode. To access it, you must first switch to "
+"*command* mode, then enter the *ex* command frequently starting with the "
+"character `:`."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:124
+#, no-wrap
+msgid "The command is validated by pressing the <kbd>ENTER</kbd> key.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/05-vi.md:125
+#, no-wrap
+msgid "Moving the cursor"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:128
+msgid "In *command* mode, there are several ways to move the cursor."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:130
+msgid ""
+"The mouse is not active in a text environment but is in a graphic "
+"environment, it is possible to move it character by character, but shortcuts "
+"exist to go faster."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:132
+msgid "VI remains in *command* mode after moving the cursor."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:134
+msgid "The cursor is placed under the desired character."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/05-vi.md:135
+#, no-wrap
+msgid "From a character"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:138
+msgid "Move one or `n` characters to the left:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:140
+#, no-wrap
+msgid "<kbd>â</kbd>, <kbd>n</kbd><kbd>â</kbd>, <kbd>h</kbd> or <kbd>n</kbd><kbd>h</kbd>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:142
+msgid "Move one or `n` characters to the right:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:144
+#, no-wrap
+msgid "<kbd>â</kbd>, <kbd>n</kbd><kbd>â</kbd>, <kbd>l</kbd> or <kbd>n</kbd><kbd>l</kbd>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:146
+msgid "Move one or `n` characters up:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:148
+#, no-wrap
+msgid "<kbd>â</kbd>, <kbd>n</kbd><kbd>â</kbd>, <kbd>k</kbd> or <kbd>n</kbd><kbd>k</kbd>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:150
+msgid "Move one or `n` characters down:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:152
+#, no-wrap
+msgid "<kbd>â</kbd>, <kbd>n</kbd><kbd>â</kbd>, <kbd>j</kbd> or <kbd>n</kbd><kbd>j</kbd>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:154
+msgid "Move to the end of the line:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:156
+#, no-wrap
+msgid "<kbd>$</kbd> or <kbd>END</kbd>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:158
+msgid "Move to the beginning of the line:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:160
+#, no-wrap
+msgid "<kbd>0</kbd> or <kbd>POS1</kbd>\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/05-vi.md:161
+#, no-wrap
+msgid "From the first character of a word"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:164
+msgid ""
+"Words are made up of letters or numbers. Punctuation characters and "
+"apostrophes separate words."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:166
+#, no-wrap
+msgid "If the cursor is in the middle of a word <kbd>w</kbd> moves to the next word, <kbd>b</kbd> moves to the beginning of the word.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:168
+msgid "If the line is finished, VI goes automatically to the next line."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:170
+msgid "Move one or `n` words to the right:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:172
+#, no-wrap
+msgid "<kbd>w</kbd> or <kbd>n</kbd><kbd>w</kbd>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:174
+msgid "Move one or `n` words to the left:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:176
+#, no-wrap
+msgid "<kbd>b</kbd> or <kbd>n</kbd><kbd>b</kbd>\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/05-vi.md:177
+#, no-wrap
+msgid "From any location on a line"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:180
+msgid "Move to last line of text:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:182
+#, no-wrap
+msgid "<kbd>G</kbd>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:184
+msgid "Move to line `n`:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:186
+#, no-wrap
+msgid "<kbd>n</kbd><kbd>G</kbd>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:188
+msgid "Move to the first line of the screen:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:190
+#, no-wrap
+msgid "<kbd>H</kbd>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:192
+msgid "Move to the middle line of the screen:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:194
+#, no-wrap
+msgid "<kbd>M</kbd>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:196
+msgid "Move to the last line of the screen:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:198
+#, no-wrap
+msgid "<kbd>L</kbd>\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/05-vi.md:199
+#, no-wrap
+msgid "Inserting text"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:202
+msgid "In *command* mode, there are several ways to insert text."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:204
+msgid "VI switches to *insert* mode after entering one of these keys."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:208
+#, no-wrap
+msgid "    VI switches to *insertion* mode. So you will have to press the <kbd>ESC</kbd> key to return to *command* mode.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/05-vi.md:209
+#, no-wrap
+msgid "In relation to a character"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:212
+msgid "Inserting text before a character:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:214
+#, no-wrap
+msgid "<kbd>i</kbd> (_insert_)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:216
+msgid "Inserting text after a character:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:218
+#, no-wrap
+msgid "<kbd>a</kbd> (_append_)\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/05-vi.md:219
+#, no-wrap
+msgid "In relation to a line"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:222
+msgid "Inserting text at the beginning of a line:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:224
+#, no-wrap
+msgid "<kbd>I</kbd>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:226
+msgid "Inserting text at the end of a line:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:228
+#, no-wrap
+msgid "<kbd>A</kbd>\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/05-vi.md:229
+#, no-wrap
+msgid "In relation to the text"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:232
+msgid "Inserting text before a line:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:234
+#, no-wrap
+msgid "<kbd>O</kbd>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:236
+msgid "Inserting text after a line:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:238
+#, no-wrap
+msgid "<kbd>o</kbd>\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/05-vi.md:239
+#, no-wrap
+msgid "Characters, words and lines"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:242
+msgid "VI allows text editing by managing:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:246
+msgid "characters,"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:246
+msgid "words,"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:246
+msgid "lines."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:248
+msgid "In each case it is possible to :"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:254
+msgid "delete,"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:254
+msgid "replace,"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:254
+msgid "copy,"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:254
+msgid "cut,"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:254
+msgid "paste."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:256
+msgid "These operations are done in *command* mode."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/05-vi.md:257
+#, no-wrap
+msgid "Characters"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:260
+msgid "Delete one or `n` characters:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:262
+#, no-wrap
+msgid "<kbd>x</kbd> or <kbd>n</kbd><kbd>x</kbd>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:264
+msgid "Replace a character with another:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:266
+#, no-wrap
+msgid "<kbd>r</kbd><kbd>character</kbd>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:268
+msgid "Replace more than one character with others:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:270
+#, no-wrap
+msgid "<kbd>R</kbd><kbd>characters</kbd><kbd>ESC</kbd>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:274
+#, no-wrap
+msgid "    The <kbd>R</kbd> command switches to *replace* mode, which is a kind of *insert* mode.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/05-vi.md:275
+#, no-wrap
+msgid "Words"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:278
+msgid "Delete (cut) one or `n` words:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:280
+#, no-wrap
+msgid "<kbd>d</kbd><kbd>w</kbd> or <kbd>n</kbd><kbd>d</kbd><kbd>w</kbd>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:282
+msgid "Copy one or `n` words:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:284
+#, no-wrap
+msgid "<kbd>y</kbd><kbd>w</kbd> or <kbd>n</kbd><kbd>y</kbd><kbd>w</kbd>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:286
+msgid "Paste a word once or `n` times after the cursor:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:288
+#: ../src/docs/books/admin_guide/05-vi.md:315
+#, no-wrap
+msgid "<kbd>p</kbd> or <kbd>n</kbd><kbd>p</kbd>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:290
+msgid "Paste a word once or `n` times before the cursor:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:292
+#: ../src/docs/books/admin_guide/05-vi.md:319
+#, no-wrap
+msgid "<kbd>P</kbd> or <kbd>n</kbd><kbd>P</kbd>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:294
+msgid "Replace one word:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:296
+#, no-wrap
+msgid "<kbd>c</kbd><kbd>w</kbd><kbd>_word_</kbd><kbd>ESC</kbd>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:301
+#, no-wrap
+msgid ""
+"    It is necessary to position the cursor under the first character of the word to cut (or copy) otherwise VI will cut (or copy) only the part of the word between the cursor and the end.\n"
+"    To delete a word is to cut it. If it is not pasted afterwards, the buffer is emptied and the word is deleted.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/05-vi.md:302
+#, no-wrap
+msgid "Lines"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:305
+msgid "Delete (cut) one or `n` lines:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:307
+#, no-wrap
+msgid "<kbd>d</kbd><kbd>d</kbd> or <kbd>n</kbd><kbd>d</kbd><kbd>d</kbd>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:309
+msgid "Copy one or `n` lines:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:311
+#, no-wrap
+msgid "<kbd>y</kbd><kbd>y</kbd> or <kbd>n</kbd><kbd>y</kbd><kbd>y</kbd>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:313
+msgid ""
+"Paste what has been copied or deleted once or `n` times after the current "
+"line:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:317
+msgid ""
+"Paste what has been copied or deleted once or `n` times before the current "
+"line:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:321
+msgid "Delete (cut) from the beginning of the line to the cursor:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:323
+#, no-wrap
+msgid "<kbd>d</kbd><kbd>0</kbd>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:325
+msgid "Delete (cut) from the cursor to the end of the line:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:327
+#, no-wrap
+msgid "<kbd>d</kbd><kbd>$</kbd>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:329
+msgid "Copy from the beginning of the line to the cursor:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:331
+#, no-wrap
+msgid "<kbd>y</kbd><kbd>0</kbd>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:333
+msgid "Copy from the cursor to the end of the line:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:335
+#, no-wrap
+msgid "<kbd>y</kbd><kbd>$</kbd>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:337
+msgid "Delete (cut) the text from the current line:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:339
+#, no-wrap
+msgid "<kbd>d</kbd><kbd>L</kbd> or <kbd>d</kbd><kbd>G</kbd>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:341
+msgid "Copy the text from the current line:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:343
+#, no-wrap
+msgid "<kbd>y</kbd><kbd>L</kbd> or <kbd>y</kbd><kbd>G</kbd>\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/05-vi.md:344
+#, no-wrap
+msgid "Cancel an action"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:347
+msgid "Undo the last action:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:349
+#, no-wrap
+msgid "<kbd>u</kbd>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:351
+msgid "Undo the actions on the current line:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:353
+#, no-wrap
+msgid "<kbd>U</kbd>\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/05-vi.md:354
+#, no-wrap
+msgid "Cancel cancellation"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:357
+msgid "Cancel a cancellation"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:359
+#, no-wrap
+msgid "<kbd>Ctrl+r</kbd>\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/05-vi.md:360
+#, no-wrap
+msgid "EX commands"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:363
+#, no-wrap
+msgid "The *Ex* mode allows you to act on the file (saving, layout, options, ...). It is also in *Ex* mode where search and replace commands are entered. The commands are displayed at the bottom of the page and must be validated with the <kbd>ENTER</kbd> key.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:365
+#, no-wrap
+msgid "To switch to *Ex* mode, from *command* mode, type <kbd>:</kbd>.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/05-vi.md:366
+#, no-wrap
+msgid "File line numbers"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:369
+msgid "Show/hide numbering:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:371
+msgid "`:set nu` or the longer `:set number`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:373
+msgid "`:set nonu` or the longer `:set nonumber`"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/05-vi.md:374
+#, no-wrap
+msgid "Search for a string"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:377
+msgid "Search for a string from the cursor:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:379
+msgid "`/string`"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:381
+msgid "Search for a string before the cursor:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:383
+msgid "`?string`"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:385
+msgid "Find the next matching string:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:387
+#, no-wrap
+msgid "<kbd>n</kbd>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:389
+msgid "Find the previous matching string:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:391
+#, no-wrap
+msgid "<kbd>N</kbd>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:393
+msgid "There are wildcards to facilitate the search in VI."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:395
+msgid ""
+"`[]` : Searches for a range of characters or a single character whose "
+"possible values are specified."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:399
+msgid "`/[Ww]ord` : search _word_ or _Word_"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:401
+msgid ""
+"`/[1-9]word` : search _1word_, _2word_ â¦ _`x`word_ where `x` is a number"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:403
+msgid "`^` : Search for lines that begin with a characters."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:407
+msgid "`/^Word`"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:409
+msgid "`$` : Search for lines that end with characters."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:413
+msgid "`/Word$`"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:415
+msgid "`.` : Search for any single character except newline characters."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:419
+msgid "`/W.rd` : search _Word_, _Ward_ â¦"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:421
+msgid ""
+"`*` : The number of times the previous character matches, 0 times, or any "
+"number of times."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:425
+msgid "`/W*d`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:427
+#, no-wrap
+msgid "**Note:** If you want to ignore case (temporary) when matching strings, Please type the `:set ic`. \n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/05-vi.md:428
+#, no-wrap
+msgid "Replace a string"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:431
+msgid ""
+"From the 1st to the last line of the text, replace the searched string by "
+"the specified string:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:433
+msgid "`:1,$ s/search/replace`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:435
+#, no-wrap
+msgid "**Note:** You can also use `:0,$s/search/replace` to specify starting at the absolute beginning of the file.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:437
+msgid ""
+"From line `n` to line `m`, replace the searched string with the specified "
+"string:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:439
+msgid "`:n,m s/search/replace`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:441
+msgid ""
+"By default, only the first occurrence found of each line is replaced. To "
+"force the replacement of each occurrence, you have to add `/g` at the end of "
+"the command:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:443
+msgid "`:n,m s/search/replace/g`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:445
+msgid ""
+"Browse an entire file to replace the searched string with the specified "
+"string:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:447
+msgid "`:% s/search/replace`"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/05-vi.md:448
+#, no-wrap
+msgid "Deletes the specified row"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:451
+msgid "Delete a blank line"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:453
+msgid "`:g/^$/d`"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:455
+msgid "Delete lines with line numbers n to m"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:457
+msgid "`:n,md`"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:459
+msgid "Delete the line on which the string is located"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:461
+msgid "`:g/string/d`"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:463
+msgid "Delete a line that does not contain a string"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:465
+msgid "`:g!/string/d`"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:467
+msgid "Delete all lines that begin with #"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:469
+msgid "`:g/^#/d`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:471
+msgid "The **g** here stands for **global**."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/05-vi.md:472
+#, no-wrap
+msgid "File operations"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:475
+msgid "Save the file:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:477
+msgid "`:w`"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:479
+msgid "Save under another name:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:481
+msgid "`:w file`"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:483
+msgid "Save from line `n` to line `m` in another file:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:485
+msgid "`:n,m w file`"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:487
+msgid "Reload the last record of the file:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:489
+msgid "`e!`"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:491
+msgid "Paste the content of another file after the cursor:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:493
+msgid "`:r file`"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:495
+msgid "Quit editing a file without saving:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:497
+msgid "`:q`"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:499
+msgid ""
+"Quit editing a file that has been modified during the session but not saved:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:501
+msgid "`:q!`"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/05-vi.md:503
+msgid "Exit the file and save:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:505
+msgid "`:wq` or `:x`"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/05-vi.md:506
+#, no-wrap
+msgid "Other functions"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:509
+msgid ""
+"It is possible to execute VI by specifying the options to be loaded for the "
+"session. To do this, you must use the `-c` option:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/05-vi.md:510
+#, no-wrap
+msgid "$ vi -c \"set nu\" /home/rockstar/file\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:515
+msgid ""
+"It is also possible to enter the *Ex* commands in a file named `.exrc` put "
+"in the user's login directory. At each VI or VIM startup, the commands will "
+"be read and applied."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/05-vi.md:516
+#, no-wrap
+msgid "`vimtutor` command"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:519
+msgid ""
+"There is a tutorial for learning how to use VI. It is accessible with the "
+"command `vimtutor`."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/05-vi.md:520
+#, no-wrap
+msgid "$ vimtutor\n"
+msgstr ""

@@ -1,0 +1,336 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-06-11 15:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:1
+#, no-wrap
+msgid "inotify-tools installation and use"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:8
+#, no-wrap
+msgid "Compile and install"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:11
+msgid ""
+"Perform the following operations in the server. In your environment, some "
+"dependent packages may be missing. Install them by using: `dnf -y install "
+"autoconf automake libtool`"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:12
+#, no-wrap
+msgid ""
+"[root@Rocky ~]# wget -c https://github.com/inotify-tools/inotify-tools/archive/refs/tags/3.21.9.6.tar.gz\n"
+"[root@Rocky ~]# tar -zvxf 3.21.9.6.tar.gz -C /usr/local/src/\n"
+"[root@Rocky ~]# cd /usr/local/src/inotify-tools-3.21.9.6/\n"
+"[root@Rocky /usr/local/src/inotify-tools-3.21.9.6]# ./autogen.sh && \\\n"
+"./configure --prefix=/usr/local/inotify-tools && \\\n"
+"make && \\\n"
+"make install\n"
+"...\n"
+"[root@Rocky ~]# ls /usr/local/inotify-tools/bin/\n"
+"inotifywait inotifywatch\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:26
+msgid ""
+"Append the environment variable PATH, write it to the configuration file and "
+"let it take effect permanently."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:27
+#, no-wrap
+msgid ""
+"[root@Rocky ~]# vim /etc/profile\n"
+"...\n"
+"PATH=$PATH:/usr/local/inotify-tools/bin/\n"
+"[root@Rocky ~]# . /etc/profile\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:35
+#, no-wrap
+msgid "**Why not use the inotify-tools RPM package of the EPEL repository? And the way to use source code to compile and install?**\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:37
+msgid ""
+"The author personally believes that remote data transmission is a matter of "
+"efficiency, especially in a production environment, where there are a large "
+"number of files to be synchronized and a single file is particularly large. "
+"In addition, the new version will have some bug fixes and function "
+"expansions, and perhaps the transmission efficiency of the new version will "
+"be higher, so I recommend installing inotify-tools by source code. Of "
+"course, this is the author's personal suggestion, not every user must follow."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:38
+#, no-wrap
+msgid "Kernel parameter adjustment"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:41
+msgid ""
+"You can adjust the kernel parameters according to the needs of the "
+"production environment. By default, there are three files in **/proc/sys/fs/"
+"inotity/**"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:42
+#, no-wrap
+msgid ""
+"[root@Rocky ~]# cd /proc/sys/fs/inotify/\n"
+"[root@Rocky /proc/sys/fs/inotify]# cat max_queued_events ;cat max_user_instances ;cat max_user_watches\n"
+"16384\n"
+"128\n"
+"28014\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:53
+msgid "max_queued_events-maximum monitor queue size, default 16384"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:53
+msgid ""
+"max_user_instances-the maximum number of monitoring instances, the default "
+"is 128"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:53
+msgid ""
+"max_user_watches-the maximum number of files monitored per instance, the "
+"default is 8192"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:55
+msgid ""
+"Write some parameters and values ââto **/etc/sysctl.conf**, examples are as "
+"follows. Then use `sysctl -p` to make the files take effect"
+msgstr ""
+
+#. type: Fenced code block (txt)
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:56
+#, no-wrap
+msgid ""
+"fs.inotify.max_queued_events = 16384\n"
+"fs.inotify.max_user_instances = 1024\n"
+"fs.inotify.max_user_watches = 1048576\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:62
+#, no-wrap
+msgid "Related commands"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:67
+msgid ""
+"The inotify-tools tool has two commands, namely: * **inotifywait**-For "
+"continuous monitoring, real-time output results. It is generally used with "
+"the rsync incremental backup tool. Because it is a file system monitoring, "
+"it can be used with a script. We will introduce the specific script writing "
+"later.  * **inotifywatch**-for short-term monitoring, output results after "
+"the task is completed."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:69
+msgid "`inotifywait` mainly has the following options:"
+msgstr ""
+
+#. type: Fenced code block (txt)
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:70
+#, no-wrap
+msgid ""
+"-m means continuous monitoring\n"
+"-r Recursive monitoring\n"
+"-q Simplify output information\n"
+"-e specifies the event type of monitoring data, multiple event types are separated by commas in English status\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:78
+msgid "The event types are as follows:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:96
+msgid ""
+"| Event Type | Description | |---|---| | access | Access to the contents of "
+"a file or directory | | modify | The contents of the file or directory are "
+"written | | attrib | The attributes of the file or directory are modified | "
+"| close_write | File or directory is opened in writable mode and then closed "
+"| | close_nowrite | File or directory is closed after being opened in read-"
+"only mode | | close | Regardless of the read/write mode, the file or "
+"directory is closed | | open | File or directory is opened | | moved_to | A "
+"file or directory is moved to the monitored directory | | moved_from | A "
+"file or directory is moved from the monitored directory | | move | There are "
+"files or directories that are moved to or removed from the monitoring "
+"directory | | move_self | The monitored file or directory has been moved | | "
+"create | There are files or directories created in the monitored directory | "
+"| delete | A file or directory in the monitored directory is deleted | | "
+"delete_self | File or directory and delete | | unmount | File system "
+"containing unmounted files or directories |"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:98
+msgid "Example: `[root@Rocky ~]# inotifywait -mrq -e create,delete /rsync/`"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:99
+#, no-wrap
+msgid "Demonstration of `inotifywait` command"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:102
+msgid ""
+"Type the command in the first terminal pts/0, and the window is locked after "
+"pressing Enter, indicating that it is monitoring"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:103
+#, no-wrap
+msgid ""
+"[root@Rocky ~]# inotifywait -mrq -e create,delete /rsync/\n"
+"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:109
+msgid ""
+"In the second terminal pts/1, go to the /rsync/ directory and create a file."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:110
+#, no-wrap
+msgid ""
+"[root@Rocky ~]# cd /rsync/\n"
+"[root@Rocky /rsync]# touch inotify\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:116
+msgid "Back to the first terminal pts/0, the output information is as follows:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:117
+#, no-wrap
+msgid ""
+"[root@Rocky ~]# inotifywait -mrq -e create,delete /rsync/\n"
+"/rsync/ CREATE inotify\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:122
+#, no-wrap
+msgid "Combination of  `inotifywait` and `rsync`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:125
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:146
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:151
+msgid "!!! tip \"tip\""
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:127
+#, no-wrap
+msgid "    We are operating in Rocky Linux 8 server, using SSH protocol for demonstration.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:129
+msgid ""
+"For the password-free authentication login of the SSH protocol, please refer "
+"to [rsync password-free authentication login](05_rsync_authentication-"
+"free_login.md), which is not described here. An example of the content of a "
+"bash script is as follows. You can add different options after the command "
+"according to your needs to meet your needs. For example, you can also add `--"
+"delete` after the `rsync` command."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:130
+#, no-wrap
+msgid ""
+"#!/bin/bash\n"
+"a=\"/usr/local/inotify-tools/bin/inotifywait -mrq -e modify,move,create,delete /rsync/\"\n"
+"b=\"/usr/bin/rsync -avz /rsync/* testfedora@192.168.100.5:/home/testfedora/\"\n"
+"$a | while read directory event file\n"
+"    do\n"
+"        $b &>> /tmp/rsync.log\n"
+"    done\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:140
+#, no-wrap
+msgid ""
+"[root@Rocky ~]# chmod +x rsync_inotify.sh\n"
+"[root@Rocky ~]# bash /root/rsync_inotify.sh &\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:149
+#, no-wrap
+msgid ""
+"    When using the SSH protocol for data synchronization transmission, if the SSH service port of the target machine is not 22, you can use a method similar to thisââ\n"
+"    `b=\"/usr/bin/rsync -avz -e 'ssh -p [port-number]' /rsync/* testfedora@192.168.100.5:/home/testfedora/\"`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:155
+#, no-wrap
+msgid ""
+"    If you want to start this script at boot\n"
+"    `[root@Rocky ~]# echo \"bash /root/rsync_inotify.sh &\" >> /etc/rc.local`\n"
+"    `[root@Rocky ~]# chmod +x /etc/rc.local`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:156
+msgid ""
+"If you are using the rsync protocol for synchronization, you need to "
+"configure the rsync service of the target machine, please refer to [rsync "
+"demo 02](03_rsync_demo02.md), [rsync configuration file](04_rsync_configure."
+"md), [rsync free Secret authentication login](05_rsync_authentication-"
+"free_login.md)"
+msgstr ""

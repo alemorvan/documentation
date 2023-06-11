@@ -1,0 +1,2000 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-06-11 15:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#: ../src/docs/books/admin_guide/09-backups.md:1
+#: ../src/docs/books/admin_guide/09-backups.md:5
+#, no-wrap
+msgid "Backup and Restore"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:8
+msgid ""
+"In this chapter you will learn how to back up and restore your data with "
+"Linux."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:12
+#, no-wrap
+msgid "**Objectives**: In this chapter, future Linux administrators will learn how to:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:16
+#, no-wrap
+msgid ""
+":heavy_check_mark: use the `tar` and `cpio` command to make a backup;   \n"
+":heavy_check_mark: check their backups and restore data;   \n"
+":heavy_check_mark: compress or decompress their backups.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:18
+msgid ":checkered_flag: **backup**, **restore**, **compression**"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:21
+#, no-wrap
+msgid ""
+"**Knowledge**: :star: :star: :star:   \n"
+"**Complexity**: :star: :star:    \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:23
+#, no-wrap
+msgid "**Reading time**: 40 minutes\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:27
+#: ../src/docs/books/admin_guide/09-backups.md:116
+#: ../src/docs/books/admin_guide/09-backups.md:133
+#: ../src/docs/books/admin_guide/09-backups.md:148
+#: ../src/docs/books/admin_guide/09-backups.md:281
+#: ../src/docs/books/admin_guide/09-backups.md:285
+#: ../src/docs/books/admin_guide/09-backups.md:301
+#: ../src/docs/books/admin_guide/09-backups.md:342
+#: ../src/docs/books/admin_guide/09-backups.md:352
+#: ../src/docs/books/admin_guide/09-backups.md:554
+#: ../src/docs/books/admin_guide/09-backups.md:771
+msgid "!!! Note"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:29
+#, no-wrap
+msgid "    Throughout this chapter the command structures use \"device\" to specify both a target location for backup, and the source location when restoring. The device can be either external media or a local file. You should get a feel for this as the chapter unfolds, but you can always refer back to this note for clarification if you need to.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:31
+msgid ""
+"The backup will answer a need to conserve and restore data in a sure and "
+"effective way."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:33
+msgid "The backup allows you to protect yourself from the following:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:37
+msgid ""
+"**Destruction**: voluntary or involuntary. Human or technical. Virus, ..."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:37
+msgid "**Deletion**: voluntary or involuntary. Human or technical. Virus, ..."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:37
+msgid "**Integrity**: data becomes unusable."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:39
+msgid ""
+"No system is infallible, no human is infallible, so to avoid losing data, it "
+"must be backed up to be able to restore after a problem."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:41
+msgid ""
+"The backup media should be kept in another room (or building) than the "
+"server so that a disaster does not destroy the server and the backups."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:43
+msgid ""
+"In addition, the administrator must regularly check that the media are still "
+"readable."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/09-backups.md:44
+#, no-wrap
+msgid "Generalities"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:47
+msgid "There are two principles, the **backup** and the **archive**."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:50
+msgid "The archive destroys the information source after the operation."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:50
+msgid "The backup preserves the source of information after the operation."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:52
+msgid ""
+"These operations consist of saving information in a file, on a peripheral or "
+"a supported media (tapes, disks, ...)."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/09-backups.md:53
+#, no-wrap
+msgid "The process"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:56
+msgid ""
+"Backups require a lot of discipline and rigor from the system administrator. "
+"It is necessary to ask the following questions:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:66
+msgid "What is the appropriate medium?"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:66
+msgid "What should be backed up?"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:66
+msgid "How many copies?"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:66
+msgid "How long will the backup take?"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:66
+msgid "Method?"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:66
+msgid "How often?"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:66
+msgid "Automatic or manual?"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:66
+msgid "Where to store it?"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:66
+msgid "How long will it be kept?"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/09-backups.md:67
+#, no-wrap
+msgid "Backup methods"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:73
+msgid ""
+"**Complete**: one or more **filesystems** are backed up (kernel, data, "
+"utilities, ...)."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:73
+msgid ""
+"**Partial**: one or more **files** are backed up (configurations, "
+"directories, ...)."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:73
+msgid ""
+"**Differential**: only files modified since the last **complete** backup are "
+"backed up."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:73
+msgid ""
+"**Incremental**: only files modified since the last backup are backed up."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/09-backups.md:74
+#, no-wrap
+msgid "Periodicity"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:78
+msgid "**Pre-current**: at a given time (before a system update, ...)."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:78
+msgid "**Periodic**: Daily, weekly, monthly, ..."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:80
+#: ../src/docs/books/admin_guide/09-backups.md:93
+#: ../src/docs/books/admin_guide/09-backups.md:129
+#: ../src/docs/books/admin_guide/09-backups.md:241
+#: ../src/docs/books/admin_guide/09-backups.md:384
+#: ../src/docs/books/admin_guide/09-backups.md:388
+#: ../src/docs/books/admin_guide/09-backups.md:406
+#: ../src/docs/books/admin_guide/09-backups.md:484
+#: ../src/docs/books/admin_guide/09-backups.md:744
+msgid "!!! Tip"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:82
+#, no-wrap
+msgid "    Before a system change, it can be useful to make a backup. However, there is no point in backing up data every day that is only changed every month.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/09-backups.md:83
+#, no-wrap
+msgid "Restoration methods"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:86
+msgid ""
+"Depending on the utilities available, it will be possible to perform several "
+"types of restorations."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:89
+msgid "**Complete restoration**: trees, ..."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:89
+msgid "**Selective restoration**: part of tree, files, ..."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:91
+msgid ""
+"It is possible to restore a whole backup, but it is also possible to restore "
+"only a part of it. However, when restoring a directory, the files created "
+"after the backup are not deleted."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:95
+#, no-wrap
+msgid "    To recover a directory as it was at the time of the backup, it is necessary to completely delete its contents before launching the restoration.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/09-backups.md:96
+#, no-wrap
+msgid "The tools"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:99
+msgid "There are many utilities to make backups."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:103
+msgid "**editor tools**;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:103
+msgid "**graphical tools**;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:103
+msgid "**command line tools**: `tar`, `cpio`, `pax`, `dd`, `dump`, ..."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:105
+msgid "The commands we will use here are `tar` and `cpio`."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:114
+msgid "`tar`:"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: ../src/docs/books/admin_guide/09-backups.md:114
+msgid "easy to use;"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: ../src/docs/books/admin_guide/09-backups.md:114
+msgid "allows adding files to an existing backup."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:114
+msgid "`cpio`:"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: ../src/docs/books/admin_guide/09-backups.md:114
+msgid "retains owners;"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: ../src/docs/books/admin_guide/09-backups.md:114
+msgid "retains groups, dates and rights;"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: ../src/docs/books/admin_guide/09-backups.md:114
+msgid "skips damaged files;"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: ../src/docs/books/admin_guide/09-backups.md:114
+msgid "entire file system."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:118
+#, no-wrap
+msgid "    These commands save in a proprietary and standardized format.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/09-backups.md:119
+#, no-wrap
+msgid "Naming convention"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:122
+msgid ""
+"The use of a naming convention makes it possible to quickly target the "
+"contents of a backup file and thus avoid hazardous restorations."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:127
+msgid "name of the directory;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:127
+msgid "utility used;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:127
+msgid "options used;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:127
+msgid "date."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:131
+#, no-wrap
+msgid "    The name of the backup must be an explicit name.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:135
+#, no-wrap
+msgid "    The notion of extension under Linux does not exist. In other words, our use of extensions here is for the human operator. If the systems administrator sees a `.tar.gz` or `.tgz` file extension, for instance, then he knows how to deal with the file.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/09-backups.md:136
+#, no-wrap
+msgid "Contents of a backup"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:139
+msgid "A backup generally contains the following elements:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:146
+msgid "the file;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:146
+msgid "the name;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:146
+msgid "the owner;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:146
+msgid "the size;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:146
+msgid "the permissions;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:146
+msgid "access date."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:150
+#, no-wrap
+msgid "    The `inode` number is missing.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/09-backups.md:151
+#, no-wrap
+msgid "Storage modes"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:154
+msgid "There are two different storage modes:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:157
+msgid "file on disk;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:157
+msgid "device."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/09-backups.md:158
+#, no-wrap
+msgid "Tape ArchiveR - `tar`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:161
+msgid ""
+"The `tar` command allows saving on several successive media (multi-volume "
+"options)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:163
+#: ../src/docs/books/admin_guide/09-backups.md:541
+msgid "It is possible to extract all or part of a backup."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:165
+msgid ""
+"`tar` implicitly backs up in relative mode even if the path of the "
+"information to be backed up is mentioned in absolute mode. However, backups "
+"and restores in absolute mode are possible."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/09-backups.md:166
+#, no-wrap
+msgid "Restoration guidelines"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:169
+msgid "The right questions to ask are:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:173
+msgid "what: partial or complete;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:173
+msgid "where: the place where the data will be restored;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:173
+msgid "how: absolute or relative."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:175
+#: ../src/docs/books/admin_guide/09-backups.md:200
+#: ../src/docs/books/admin_guide/09-backups.md:264
+#: ../src/docs/books/admin_guide/09-backups.md:461
+#: ../src/docs/books/admin_guide/09-backups.md:488
+#: ../src/docs/books/admin_guide/09-backups.md:620
+#: ../src/docs/books/admin_guide/09-backups.md:714
+msgid "!!! Warning"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:177
+#, no-wrap
+msgid "    Before a restoration, it is important to take time to think about and determine the most appropriate method to avoid mistakes.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:179
+msgid ""
+"Restorations are usually performed after a problem has occurred that needs "
+"to be resolved quickly. A poor restoration can, in some cases, make the "
+"situation worse."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/09-backups.md:180
+#, no-wrap
+msgid "Backing up with `tar`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:183
+msgid ""
+"The default utility for creating backups on UNIX systems is the `tar` "
+"command. These backups can be compressed by `bzip2`, `xz`, `lzip`, `lzma`, "
+"`lzop`, `gzip`, `compress` or `zstd`."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:185
+msgid ""
+"`tar` allows you to extract a single file or a directory from a backup, view "
+"its contents or validate its integrity."
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/admin_guide/09-backups.md:186
+#, no-wrap
+msgid "Estimate the size of a backup"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:189
+msgid ""
+"The following command estimates the size in kilobytes of a possible _tar_ "
+"file:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:190
+#, no-wrap
+msgid ""
+"$ tar cf - /directory/to/backup/ | wc -c\n"
+"20480\n"
+"$ tar czf - /directory/to/backup/ | wc -c\n"
+"508\n"
+"$ tar cjf - /directory/to/backup/ | wc -c\n"
+"428\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:202
+#, no-wrap
+msgid "    Beware, the presence of \"-\" in the command line disturbs `zsh`. Switch to `bash`!\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/admin_guide/09-backups.md:203
+#, no-wrap
+msgid "Naming convention for a `tar` backup"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:206
+msgid ""
+"Here is an example of a naming convention for a `tar` backup, knowing that "
+"the date is to be added to the name."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:216
+#, no-wrap
+msgid ""
+"| keys    | Files   | Suffix           | Functionality                                |\n"
+"|---------|---------|------------------|----------------------------------------------|\n"
+"| `cvf`   | `home`  | `home.tar`       | `/home` in relative mode, uncompressed form  |\n"
+"| `cvfP`  | `/etc`  | `etc.A.tar`      | `/etc` in absolute mode, no compression      |\n"
+"| `cvfz`  | `usr`   | `usr.tar.gz`     | `/usr` in relative mode, _gzip_ compression  |\n"
+"| `cvfj`  | `usr`   | `usr.tar.bz2`    | `/usr` in relative mode, _bzip2_ compression |\n"
+"| `cvfPz` | `/home` | `home.A.tar.gz`  | `home` in absolute mode, _gzip_ compression  |\n"
+"| `cvfPj` | `/home` | `home.A.tar.bz2` | `home` in absolute mode, _bzip2_ compression |\n"
+"| â¦       |         |                  |                                        |\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/admin_guide/09-backups.md:217
+#, no-wrap
+msgid "Create a backup"
+msgstr ""
+
+#. type: Title #####
+#: ../src/docs/books/admin_guide/09-backups.md:219
+#, no-wrap
+msgid "Create a backup in relative mode"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:222
+msgid ""
+"Creating a non-compressed backup in relative mode is done with the `cvf` "
+"keys:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:223
+#, no-wrap
+msgid "tar c[vf] [device] [file(s)]\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:228
+#: ../src/docs/books/admin_guide/09-backups.md:253
+#: ../src/docs/books/admin_guide/09-backups.md:568
+#: ../src/docs/books/admin_guide/09-backups.md:632
+#: ../src/docs/books/admin_guide/09-backups.md:677
+#: ../src/docs/books/admin_guide/09-backups.md:700
+#: ../src/docs/books/admin_guide/09-backups.md:785
+#: ../src/docs/books/admin_guide/09-backups.md:807
+#: ../src/docs/books/admin_guide/09-backups.md:829
+#: ../src/docs/books/admin_guide/09-backups.md:855
+msgid "Example:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:229
+#, no-wrap
+msgid "[root]# tar cvf /backups/home.133.tar /home/\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:239
+#, no-wrap
+msgid ""
+"| Key | Description                                            |\n"
+"|-----|--------------------------------------------------------|\n"
+"| `c` | Creates a backup.                                      |\n"
+"| `v` | Displays the name of the processed files.              |\n"
+"| `f` | Allows you to specify the name of the backup (medium). |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:243
+#, no-wrap
+msgid "    The hyphen (`-`) in front of the `tar` keys is not necessary!\n"
+msgstr ""
+
+#. type: Title #####
+#: ../src/docs/books/admin_guide/09-backups.md:244
+#, no-wrap
+msgid "Create a backup in absolute mode"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:247
+msgid ""
+"Creating a non-compressed backup explicitly in absolute mode is done with "
+"the `cvfP` keys:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:248
+#, no-wrap
+msgid "$ tar c[vf]P [device] [file(s)]\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:254
+#, no-wrap
+msgid "[root]# tar cvfP /backups/home.133.P.tar /home/\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:261
+#, no-wrap
+msgid ""
+"| Key | Description                       |\n"
+"|-----|-----------------------------------|\n"
+"| `P` |\tCreate a backup in absolute mode. |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:266
+#, no-wrap
+msgid "    With the `P` key, the path of the files to be backed up must be entered as **absolute**. If the two conditions (key `P` and path **absolute**) are not indicated, the backup is in relative mode.\n"
+msgstr ""
+
+#. type: Title #####
+#: ../src/docs/books/admin_guide/09-backups.md:267
+#, no-wrap
+msgid "Creating a compressed backup with `gzip`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:270
+msgid "Creating a compressed backup with `gzip` is done with the `cvfz` keys:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:271
+#, no-wrap
+msgid "$ tar cvzf backup.tar.gz dirname/\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:278
+#, no-wrap
+msgid ""
+"| Key | Description                      |\n"
+"|-----|----------------------------------|\n"
+"| `z` |\tCompresses the backup in _gzip_. |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:283
+#, no-wrap
+msgid "    The `.tgz` extension is an equivalent extension to `.tar.gz`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:287
+#, no-wrap
+msgid "    Keeping the `cvf` (`tvf` or `xvf`) keys unchanged for all backup operations and simply adding the compression key to the end of the keys makes the command easier to understand (e.g., `cvfz` or `cvfj`, etc.).\n"
+msgstr ""
+
+#. type: Title #####
+#: ../src/docs/books/admin_guide/09-backups.md:288
+#, no-wrap
+msgid "Creating a compressed backup with `bzip`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:291
+msgid "Creating a compressed backup with `bzip` is done with the keys `cvfj`:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:292
+#, no-wrap
+msgid "$ tar cvfj backup.tar.bz2 dirname/\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:299
+#, no-wrap
+msgid ""
+"| Key | Description                       |\n"
+"|-----|-----------------------------------|\n"
+"| `j` |\tCompresses the backup in _bzip2_. |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:303
+#, no-wrap
+msgid "    The `.tbz` and `.tb2` extensions are equivalent to `.tar.bz2` extensions.\n"
+msgstr ""
+
+#. type: Title #####
+#: ../src/docs/books/admin_guide/09-backups.md:304
+#, no-wrap
+msgid "Compression `compress`, `gzip`, `bzip2`, `lzip` and `xz`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:307
+msgid ""
+"Compression, and consequently decompression, will have an impact on resource "
+"consumption (time and CPU usage)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:309
+msgid ""
+"Here is a ranking of the compression of a set of text files, from least to "
+"most efficient:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:315
+msgid ""
+"- compress (`.tar.Z`)  - gzip (`.tar.gz`)  - bzip2 (`.tar.bz2`)  - lzip (`."
+"tar.lz`)  - xz (`.tar.xz`)"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/admin_guide/09-backups.md:316
+#, no-wrap
+msgid "Add a file or directory to an existing backup"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:319
+msgid "It is possible to add one or more items to an existing backup."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:320
+#, no-wrap
+msgid "tar {r|A}[key(s)] [device] [file(s)]\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:325
+msgid "To add `/etc/passwd` to the backup `/backups/home.133.tar`:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:326
+#, no-wrap
+msgid "[root]# tar rvf /backups/home.133.tar /etc/passwd\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:331
+msgid ""
+"Adding a directory is similar. Here add `dirtoadd` to `backup_name.tar`:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:332
+#, no-wrap
+msgid "$ tar rvf backup_name.tar dirtoadd\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:340
+#, no-wrap
+msgid ""
+"| Key | Description                                                                      |\n"
+"|-----|----------------------------------------------------------------------------------|\n"
+"| `r` |\tAdds one or more files at the end of a direct access media backup (hard disk).   |\n"
+"| `A` |\tAdds one or more files at the end of a backup on sequential access media (tape). |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:344
+#, no-wrap
+msgid "    It is not possible to add files or folders to a compressed backup.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:350
+#, no-wrap
+msgid ""
+"    ```\n"
+"    $ tar rvfz backup.tgz filetoadd\n"
+"    tar: Cannot update compressed archives\n"
+"    Try `tar --help' or `tar --usage' for more information.\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:354
+#, no-wrap
+msgid "    If the backup was performed in relative mode, add files in relative mode. If the backup was done in absolute mode, add files in absolute mode.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:356
+#, no-wrap
+msgid "    Mixing modes can cause problems when restoring.\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/admin_guide/09-backups.md:357
+#, no-wrap
+msgid "List the contents of a backup"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:360
+msgid "Viewing the contents of a backup without extracting it is possible."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:361
+#, no-wrap
+msgid "tar t[key(s)] [device]\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:368
+#, no-wrap
+msgid ""
+"| Key |\tDescription                                           |\n"
+"|-----|-------------------------------------------------------|\n"
+"| `t` |\tDisplays the content of a backup (compressed or not). |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:370
+#: ../src/docs/books/admin_guide/09-backups.md:720
+msgid "Examples:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:371
+#, no-wrap
+msgid ""
+"$ tar tvf backup.tar\n"
+"$ tar tvfz backup.tar.gz\n"
+"$ tar tvfj backup.tar.bz2\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:378
+msgid ""
+"When the number of files in a backup becomes large, it is possible to _pipe_ "
+"the result of the `tar` command to a _pager_ (`more`, `less`, `most`, etc.):"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:379
+#, no-wrap
+msgid "$ tar tvf backup.tar | less\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:386
+#, no-wrap
+msgid "    To list or retrieve the contents of a backup, it is not necessary to mention the compression algorithm used when the backup was created. That is, a `tar tvf` is equivalent to `tar tvfj`, to read the contents, and a `tar xvf` is equivalent to `tar xvfj`, to extract.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:390
+#, no-wrap
+msgid "    Always check the contents of a backup.\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/admin_guide/09-backups.md:391
+#, no-wrap
+msgid "Check the integrity of a backup"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:394
+msgid ""
+"The integrity of a backup can be tested with the `W` key at the time of its "
+"creation:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:395
+#, no-wrap
+msgid "$ tar cvfW file_name.tar dir/\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:400
+msgid ""
+"The integrity of a backup can be tested with the key `d` after its creation:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:401
+#, no-wrap
+msgid "$ tar vfd file_name.tar dir/\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:408
+#, no-wrap
+msgid "    By adding a second `v` to the previous key, you will get the list of archived files as well as the differences between the archived files and those present in the file system.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:419
+#, no-wrap
+msgid ""
+"    ```\n"
+"    $ tar vvfd  /tmp/quodlibet.tar .quodlibet/\n"
+"    drwxr-x--- rockstar/rockstar     0 2021-05-21 00:11 .quodlibet/\n"
+"    -rw-r--r-- rockstar/rockstar     0 2021-05-19 00:59 .quodlibet/queue\n"
+"    [â¦]\n"
+"    -rw------- rockstar/rockstar  3323 2021-05-21 00:11 .quodlibet/config\n"
+"    .quodlibet/config: Mod time differs\n"
+"    .quodlibet/config: Size differs\n"
+"    [â¦]\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:421
+msgid ""
+"The `W` key is also used to compare the content of an archive against the "
+"filesystem:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:422
+#, no-wrap
+msgid ""
+"$ tar tvfW file_name.tar\n"
+"Verify 1/file1\n"
+"1/file1: Mod time differs\n"
+"1/file1: Size differs\n"
+"Verify 1/file2\n"
+"Verify 1/file3\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:432
+msgid ""
+"The verification with the `W` key cannot be done with a compressed archive. "
+"The key `d` must be used:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:433
+#, no-wrap
+msgid ""
+"$ tar dfz file_name.tgz\n"
+"$ tar dfj file_name.tar.bz2\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/admin_guide/09-backups.md:438
+#, no-wrap
+msgid "Extract (_untar_) a backup"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:441
+msgid "Extract (_untar_) a ``*.tar`` backup is done with the `xvf` keys:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:443
+msgid ""
+"Extract the `etc/exports` file from the `/savings/etc.133.tar` backup into "
+"the `etc` directory of the active directory:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:444
+#, no-wrap
+msgid "$ tar xvf /backups/etc.133.tar etc/exports\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:449
+msgid ""
+"Extract all files from the compressed backup `/backups/home.133.tar.bz2` "
+"into the active directory:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:450
+#, no-wrap
+msgid "[root]# tar xvfj /backups/home.133.tar.bz2\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:455
+msgid ""
+"Extract all files from the backup `/backups/etc.133.P.tar` to their original "
+"directory:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:456
+#, no-wrap
+msgid "$ tar xvfP /backups/etc.133.P.tar\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:463
+#, no-wrap
+msgid "    Go to the right place.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:465
+#, no-wrap
+msgid "    Check the contents of the backup.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:469
+#, no-wrap
+msgid ""
+"| Key | \tDescription                                       |\n"
+"|------|----------------------------------------------------|\n"
+"| `x`  |\tExtract files from the backup, compressed or not. |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:472
+msgid ""
+"Extracting a _tar-gzipped_ (`*.tar.gz`) backup is done with the `xvfz` keys:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:473
+#, no-wrap
+msgid "$ tar xvfz backup.tar.gz\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:478
+msgid ""
+"Extracting a _tar-bzipped_ (`*.tar.bz2`) backup is done with the `xvfj` keys:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:479
+#, no-wrap
+msgid "$ tar xvfj backup.tar.bz2\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:486
+#, no-wrap
+msgid "    To extract or list the contents of a backup, it is not necessary to mention the compression algorithm used to create the backup. That is, a `tar xvf` is equivalent to `tar xvfj`, to extract the contents, and a `tar tvf` is equivalent to `tar tvfj`, to list.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:490
+#, no-wrap
+msgid "    To restore the files in their original directory (key `P` of a `tar xvf`), you must have generated the backup with the absolute path. That is, with the `P` key of a `tar cvf`.\n"
+msgstr ""
+
+#. type: Title #####
+#: ../src/docs/books/admin_guide/09-backups.md:491
+#, no-wrap
+msgid "Extract only a file from a _tar_ backup"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:494
+msgid ""
+"To extract a specific file from a _tar_ backup, specify the name of that "
+"file at the end of the `tar xvf` command."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:495
+#, no-wrap
+msgid "$ tar xvf backup.tar /path/to/file\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:500
+msgid ""
+"The previous command extracts only the `/path/to/file` file from the `backup."
+"tar` backup. This file will be restored to the `/path/to/` directory "
+"created, or already present, in the active directory."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:501
+#, no-wrap
+msgid ""
+"$ tar xvfz backup.tar.gz /path/to/file\n"
+"$ tar xvfj backup.tar.bz2 /path/to/file\n"
+msgstr ""
+
+#. type: Title #####
+#: ../src/docs/books/admin_guide/09-backups.md:506
+#, no-wrap
+msgid "Extract a folder from a backup _tar_"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:509
+msgid ""
+"To extract only one directory (including its subdirectories and files) from "
+"a backup, specify the directory name at the end of the `tar xvf` command."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:510
+#, no-wrap
+msgid "$ tar xvf backup.tar /path/to/dir/\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:515
+msgid ""
+"To extract multiple directories, specify each of the names one after the "
+"other:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:516
+#, no-wrap
+msgid ""
+"$ tar xvf backup.tar /path/to/dir1/ /path/to/dir2/\n"
+"$ tar xvfz backup.tar.gz /path/to/dir1/ /path/to/dir2/\n"
+"$ tar xvfj backup.tar.bz2 /path/to/dir1/ /path/to/dir2/\n"
+msgstr ""
+
+#. type: Title #####
+#: ../src/docs/books/admin_guide/09-backups.md:522
+#, no-wrap
+msgid "Extract a group of files from a _tar_ backup using regular expressions (_regex_)"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:525
+msgid ""
+"Specify a regular expression (_regex_) to extract the files matching the "
+"specified selection pattern."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:527
+msgid "For example, to extract all files with the extension `.conf`:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:528
+#, no-wrap
+msgid "$ tar xvf backup.tar --wildcards '*.conf'\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:533
+msgid "keys:"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: ../src/docs/books/admin_guide/09-backups.md:535
+msgid "**--wildcards *.conf** corresponds to files with the extension `.conf`."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/09-backups.md:536
+#, no-wrap
+msgid "_CoPy Input Output_ - `cpio`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:539
+msgid ""
+"The `cpio` command allows saving on several successive media without "
+"specifying any options."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:544
+msgid ""
+"There is no option, unlike the `tar` command, to backup and compress at the "
+"same time.  So, it is done in two steps: backup and compression."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:546
+msgid ""
+"To perform a backup with `cpio`, you have to specify a list of files to "
+"backup."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:548
+msgid "This list is provided with the commands `find`, `ls` or `cat`."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:552
+msgid "`find` : browse a tree, recursive or not;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:552
+msgid "`ls` : list a directory, recursive or not;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:552
+msgid "`cat` : reads a file containing the trees or files to be saved."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:556
+#, no-wrap
+msgid "    `ls` cannot be used with `-l` (details) or `-R` (recursive).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:558
+#, no-wrap
+msgid "    It requires a simple list of names.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/09-backups.md:559
+#, no-wrap
+msgid "Create a backup with `cpio` command"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:562
+msgid "Syntax of the `cpio` command:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:563
+#, no-wrap
+msgid "[files command |] cpio {-o| --create} [-options] [<file-list] [>device]\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:570
+msgid "With a redirection of the output of `cpio`:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:571
+#, no-wrap
+msgid "$ find /etc | cpio -ov > /backups/etc.cpio\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:576
+msgid "Using the name of a backup media:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:577
+#, no-wrap
+msgid "$ find /etc | cpio -ovF /backups/etc.cpio\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:582
+#, no-wrap
+msgid "The result of the `find` command is sent as input to the `cpio` command via a _pipe_ (character `|`, <kbd>AltGr</kbd> + <kbd>6</kbd>).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:584
+msgid ""
+"Here, the `find /etc` command returns a list of files corresponding to the "
+"contents of the `/etc` directory (recursively) to the `cpio` command, which "
+"performs the backup."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:586
+#, no-wrap
+msgid "Do not forget the `>` sign when saving or the `F save_name_cpio`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:592
+#, no-wrap
+msgid ""
+"| Options |\tDescription                                    |\n"
+"|---------|------------------------------------------------|\n"
+"| `-o`    |\tCreates a backup (_output_).                   |\n"
+"| `-v`    |\tDisplays the name of the processed files.      |\n"
+"| `-F`    |\tDesignates the backup to be modified (medium). |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:594
+msgid "Backup to a media:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:595
+#, no-wrap
+msgid "$ find /etc | cpio -ov > /dev/rmt0\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:600
+msgid "The media can be of several types:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:603
+msgid "tape drive: `/dev/rmt0`;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:603
+msgid "a partition: `/dev/sda5`, `/dev/hda5`, etc."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/09-backups.md:604
+#, no-wrap
+msgid "Type of backup"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/admin_guide/09-backups.md:606
+#, no-wrap
+msgid "Backup with relative path"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:608
+#, no-wrap
+msgid ""
+"$ cd /\n"
+"$ find etc | cpio -o > /backups/etc.cpio\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/admin_guide/09-backups.md:613
+#, no-wrap
+msgid "Backup with absolute path"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:615
+#, no-wrap
+msgid "$ find /etc | cpio -o > /backups/etc.A.cpio\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:622
+#, no-wrap
+msgid "    If the path specified in the `find` command is **absolute**, then the backup will be performed in **absolute**.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:624
+#, no-wrap
+msgid "    If the path indicated in the `find` command is **relative**, then the backup will be done in **relative**.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/09-backups.md:625
+#, no-wrap
+msgid "Add to a backup"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:627
+#, no-wrap
+msgid "[files command |] cpio {-o| --create} -A [-options] [<fic-list] {F|>device}\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:633
+#, no-wrap
+msgid "$ find /etc/shadow | cpio -o -AF SystemFiles.A.cpio\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:638
+msgid "Adding files is only possible on direct access media."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:643
+#, no-wrap
+msgid ""
+"| Option | Description                                 |\n"
+"|--------|---------------------------------------------|\n"
+"| `-A`   | Adds one or more files to a backup on disk. |\n"
+"| `-F`   | Designates the backup to be modified.       |\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/09-backups.md:644
+#, no-wrap
+msgid "Compressing a backup"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:647
+msgid "Save **then** compress"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:648
+#, no-wrap
+msgid ""
+"$ find /etc | cpio  âo > etc.A.cpio\n"
+"$ gzip /backups/etc.A.cpio\n"
+"$ ls /backups/etc.A.cpio*\n"
+"/backups/etc.A.cpio.gz\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:656
+msgid "Save **and** compress"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:657
+#, no-wrap
+msgid "$ find /etc | cpio âo | gzip > /backups/etc.A.cpio.gz\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:663
+msgid ""
+"There is no option, unlike the `tar` command, to save and compress at the "
+"same time.  So it is done in two steps: saving and compressing."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:665
+msgid ""
+"The syntax of the first method is easier to understand and remember, because "
+"it is done in two steps."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:667
+msgid ""
+"For the first method, the backup file is automatically renamed by the `gzip` "
+"utility which adds `.gz` to the end of the file name. Similarly, the `bzip2` "
+"utility automatically adds `.bz2`."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/09-backups.md:668
+#, no-wrap
+msgid "Read the contents of a backup"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:671
+msgid "Syntax of the `cpio` command to read the contents of a _cpio_ backup:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:672
+#, no-wrap
+msgid "cpio -t [-options] [<fic-list]\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:678
+#, no-wrap
+msgid "$ cpio -tv </backups/etc.152.cpio | less\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:686
+#, no-wrap
+msgid ""
+"| Options |\tDescription               |\n"
+"|---------|---------------------------|\n"
+"| `-t`    | Reads a backup.           |\n"
+"| `-v`    | Displays file attributes. |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:688
+msgid ""
+"After making a backup, you need to read its contents to be sure that there "
+"were no errors."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:690
+msgid ""
+"In the same way, before performing a restore, you must read the contents of "
+"the backup that will be used."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/09-backups.md:691
+#, no-wrap
+msgid "Restore a backup"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:694
+msgid "Syntax of the `cpio` command to restore a backup:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:695
+#, no-wrap
+msgid "cpio {-i| --extract} [-E file] [-options] [<device]\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:701
+#, no-wrap
+msgid "$ cpio -iv </backups/etc.152.cpio | less\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:712
+#, no-wrap
+msgid ""
+"| Options                      | Description                                                         |\n"
+"|------------------------------|---------------------------------------------------------------------|\n"
+"| `-i`                         | Restore a complete backup.                                          |\n"
+"| `-E file`                    | Restores only the files whose name is contained in file.            |\n"
+"| `--make-directories` or `-d` | Rebuilds the missing tree structure.                                |\n"
+"| `-u`                         | Replaces all files even if they exist.                              |\n"
+"| `--no-absolute-filenames`    | Allows to restore a backup made in absolute mode in a relative way. |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:716
+#, no-wrap
+msgid "    By default, at the time of restoration, files on the disk whose last modification date is more recent or equal to the date of the backup are not restored (in order to avoid overwriting recent information with older information).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:718
+#, no-wrap
+msgid "    The `u` option, on the other hand, allows you to restore older versions of the files.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:722
+msgid "Absolute restoration of an absolute backup"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:723
+#, no-wrap
+msgid "$ cpio âivF home.A.cpio\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:728
+msgid "Absolute restoration on an existing tree structure"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:730
+msgid ""
+"The `u` option allows you to overwrite existing files at the location where "
+"the restore takes place."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:731
+#, no-wrap
+msgid "$ cpio âiuvF home.A.cpio\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:736
+msgid "Restore an absolute backup in relative mode"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:738
+msgid ""
+"The long option `no-absolute-filenames` allows a restoration in relative "
+"mode. Indeed the `/` at the beginning of the path will be removed."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:739
+#, no-wrap
+msgid "$ cpio --no-absolute-filenames -divuF home.A.cpio\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:746
+#, no-wrap
+msgid "    The creation of directories is perhaps necessary, hence the use of the `d` option\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:748
+msgid "Restore a relative backup"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:749
+#, no-wrap
+msgid "$ cpio âiv <etc.cpio\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:754
+msgid "Absolute restoration of a file or directory"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:756
+msgid ""
+"The restoration of a particular file or directory requires the creation of a "
+"list file that must then be deleted."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:757
+#, no-wrap
+msgid ""
+"echo \"/etc/passwd\" > tmp\n"
+"cpio âiuE tmp -F etc.A.cpio\n"
+"rm -f tmp\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/09-backups.md:763
+#, no-wrap
+msgid "Compression - decompression utilities"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:766
+msgid ""
+"Using compression at the time of a backup can have a number of drawbacks:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:769
+msgid "Lengthens the backup time as well as the restore time."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:769
+msgid "It makes it impossible to add files to the backup."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:773
+#, no-wrap
+msgid "    It is therefore better to make a backup and compress it than to compress it during the backup.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/09-backups.md:774
+#, no-wrap
+msgid "Compressing with `gzip`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:777
+msgid "The `gzip` command compresses data."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:779
+msgid "Syntax of the `gzip` command:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:780
+#, no-wrap
+msgid "gzip [options] [file ...]\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:786
+#, no-wrap
+msgid ""
+"$ gzip usr.tar\n"
+"$ ls\n"
+"usr.tar.gz\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:793
+msgid "The file receives the extension `.gz`."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:795
+msgid ""
+"It keeps the same rights and the same last access and modification dates."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/09-backups.md:796
+#, no-wrap
+msgid "Compressing with `bunzip2`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:799
+msgid "The `bunzip2` command also compresses data."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:801
+#: ../src/docs/books/admin_guide/09-backups.md:849
+msgid "Syntax of the `bzip2` command:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:802
+#: ../src/docs/books/admin_guide/09-backups.md:850
+#, no-wrap
+msgid "bzip2 [options] [file ...]\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:808
+#, no-wrap
+msgid ""
+"$ bzip2 usr.cpio\n"
+"$ ls\n"
+"usr.cpio.bz2\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:815
+msgid "The file name is given the extension `.bz2`."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:817
+msgid ""
+"Compression by `bzip2` is better than compression by `gzip` but it takes "
+"longer to execute."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/09-backups.md:818
+#, no-wrap
+msgid "Decompressing with `gunzip`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:821
+msgid "The `gunzip` command decompresses compressed data."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:823
+msgid "Syntax of the `gunzip` command:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:824
+#, no-wrap
+msgid "gunzip [options] [file ...]\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:830
+#, no-wrap
+msgid ""
+"$ gunzip usr.tar.gz\n"
+"$ ls\n"
+"usr.tar\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:837
+msgid ""
+"The file name is truncated by `gunzip` and the extension `.gz` is removed."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:839
+msgid "`gunzip` also decompresses files with the following extensions:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:843
+msgid "`.z` ;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:843
+msgid "`-z` ;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:843
+msgid "`_z` ."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/09-backups.md:844
+#, no-wrap
+msgid "Decompressing with `bunzip2`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:847
+msgid "The `bunzip2` command decompresses compressed data."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/09-backups.md:856
+#, no-wrap
+msgid ""
+"$ bunzip2 usr.cpio.bz2\n"
+"$ ls\n"
+"usr.cpio\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:863
+msgid ""
+"The file name is truncated by `bunzip2` and the extension `.bz2` is removed."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/09-backups.md:865
+msgid "`bunzip2` also decompresses the file with the following extensions:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:868
+msgid "`-bz` ;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:868
+msgid "`.tbz2` ;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/09-backups.md:868
+msgid "`tbz` ."
+msgstr ""

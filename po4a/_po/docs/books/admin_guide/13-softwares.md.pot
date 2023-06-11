@@ -1,0 +1,1902 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-06-11 15:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/admin_guide/13-softwares.md:1
+#, no-wrap
+msgid "education"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/admin_guide/13-softwares.md:1
+#, no-wrap
+msgid "software"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/admin_guide/13-softwares.md:1
+#, no-wrap
+msgid "software management"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/admin_guide/13-softwares.md:1
+#: ../src/docs/books/admin_guide/13-softwares.md:12
+#, no-wrap
+msgid "Software Management"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/13-softwares.md:14
+#, no-wrap
+msgid "Generalities"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:17
+msgid "On a Linux system, it is possible to install software in two ways:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/13-softwares.md:20
+msgid "Using an installation package;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/13-softwares.md:20
+msgid "Compiling from source files."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:22
+msgid "!!! Note"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:24
+#, no-wrap
+msgid "    Installing from source is not covered here. As a rule, you should use the package method unless the software you want is not available via the package manager. The reason for this is that dependencies are generally managed by the package system, whereas with source, you need to manage the dependencies manually.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:26
+#, no-wrap
+msgid "**The package**: This is a single file containing all the data needed to install the program. It can be executed directly on the system from a software repository.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:28
+#, no-wrap
+msgid "**The source files**: Some software is not provided in packages ready to be installed, but via an archive containing the source files. It is up to the administrator to prepare these files and compile them to install the program.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/13-softwares.md:29
+#, no-wrap
+msgid "RPM: RedHat Package Manager"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:32
+#, no-wrap
+msgid "**RPM** (RedHat Package Manager) is a software management system. It is possible to install, uninstall, update or check software contained in packages.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:34
+#, no-wrap
+msgid "**RPM** is the format used by all RedHat based distributions (RockyLinux, Fedora, CentOS, SuSe, Mandriva, ...). Its equivalent in the Debian world is DPKG (Debian Package).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:36
+msgid "The name of an RPM package follows a specific nomenclature:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:38
+msgid "![Illustration of a package name](images/software-001.png)"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:39
+#, no-wrap
+msgid "`rpm` command"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:42
+msgid "The rpm command allows you to install a package."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:43
+#, no-wrap
+msgid "rpm [-i][-U] package.rpm [-e] package\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:48
+msgid "Example (for a package named 'package'):"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:49
+#, no-wrap
+msgid "rpm -ivh package.rpm\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:61
+#, no-wrap
+msgid ""
+"| Option            | Description                                  |\n"
+"|-------------------|----------------------------------------------|\n"
+"| `-i package.rpm`  | Installs the package.                        |\n"
+"| `-U package.rpm`  | Updates an already installed package.        |\n"
+"| `-e package.rpm`  | Uninstalls the package.                      |\n"
+"| `-h`              | Displays a progress bar.                     |\n"
+"| `-v`              | Informs about the progress of the operation. |\n"
+"| `--test`          | Tests the command without executing it.      |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:63
+msgid ""
+"The `rpm` command also allows you to query the system package database by "
+"adding the `-q` option."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:65
+msgid ""
+"It is possible to execute several types of queries to obtain different "
+"information about the installed packages. The RPM database is located in the "
+"directory `/var/lib/rpm`."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:67
+#: ../src/docs/books/admin_guide/13-softwares.md:79
+#: ../src/docs/books/admin_guide/13-softwares.md:152
+#: ../src/docs/books/admin_guide/13-softwares.md:350
+#: ../src/docs/books/admin_guide/13-softwares.md:505
+#: ../src/docs/books/admin_guide/13-softwares.md:513
+msgid "Example:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:68
+#, no-wrap
+msgid "rpm -qa\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:73
+msgid "This command queries all the packages installed on the system."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:74
+#, no-wrap
+msgid "rpm -q [-a][-i][-l] package [-f] file\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:80
+#, no-wrap
+msgid ""
+"rpm -qil package\n"
+"rpm -qf /path/to/file\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:92
+#, no-wrap
+msgid ""
+"| Option           | Description                                                                                    |\n"
+"|------------------|------------------------------------------------------------------------------------------------|\n"
+"| `-a`             | Lists all packages installed on the system.                                                    |\n"
+"| `-i __package__` | Displays the package information.                                                              |\n"
+"| `-l __package__` | Lists the files contained in the package.                                                      |\n"
+"| `-f`             | Shows the name of the package containing the specified file.                                   |\n"
+"| `--last`         | The list of packages is given by installation date (the last installed packages appear first). |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:94
+msgid "!!! Warning"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:96
+#, no-wrap
+msgid "    After the `-q` option, the package name must be exact. Metacharacters (wildcards) are not supported.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:98
+msgid "!!! Tip"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:100
+#, no-wrap
+msgid "    However, it is possible to list all installed packages and filter with the `grep` command.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:102
+msgid "Example: list the last installed packages:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:103
+#, no-wrap
+msgid ""
+"sudo rpm -qa --last | head\n"
+"NetworkManager-config-server-1.26.0-13.el8.noarch Mon 24 May 2021 02:34:00 PM CEST\n"
+"iwl2030-firmware-18.168.6.1-101.el8.1.noarch  Mon 24 May 2021 02:34:00 PM CEST\n"
+"iwl2000-firmware-18.168.6.1-101.el8.1.noarch  Mon 24 May 2021 02:34:00 PM CEST\n"
+"iwl135-firmware-18.168.6.1-101.el8.1.noarch   Mon 24 May 2021 02:34:00 PM CEST\n"
+"iwl105-firmware-18.168.6.1-101.el8.1.noarch   Mon 24 May 2021 02:34:00 PM CEST\n"
+"iwl100-firmware-39.31.5.1-101.el8.1.noarch    Mon 24 May 2021 02:34:00 PM CEST\n"
+"iwl1000-firmware-39.31.5.1-101.el8.1.noarch   Mon 24 May 2021 02:34:00 PM CEST\n"
+"alsa-sof-firmware-1.5-2.el8.noarch            Mon 24 May 2021 02:34:00 PM CEST\n"
+"iwl7260-firmware-25.30.13.0-101.el8.1.noarch  Mon 24 May 2021 02:33:59 PM CEST\n"
+"iwl6050-firmware-41.28.5.1-101.el8.1.noarch   Mon 24 May 2021 02:33:59 PM CEST\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:118
+msgid "Example: list the installation history of the kernel:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:119
+#, no-wrap
+msgid ""
+"sudo rpm -qa --last kernel\n"
+"kernel-4.18.0-305.el8.x86_64                  Tue 25 May 2021 06:04:56 AM CEST\n"
+"kernel-4.18.0-240.22.1.el8.x86_64             Mon 24 May 2021 02:33:35 PM CEST\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:126
+msgid "Example: list all installed packages with a specific name using `grep`:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:127
+#, no-wrap
+msgid ""
+"sudo dnf list installed | grep httpd\n"
+"centos-logos-httpd.noarch           80.5-2.el8                              @baseos\n"
+"httpd.x86_64                        2.4.37-30.module_el8.3.0+561+97fdbbcc   @appstream\n"
+"httpd-filesystem.noarch             2.4.37-30.module_el8.3.0+561+97fdbbcc   @appstream\n"
+"httpd-tools.x86_64                  2.4.37-30.module_el8.3.0+561+97fdbbcc   @appstream\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/13-softwares.md:135
+#, no-wrap
+msgid "DNF: Dandified Yum"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:138
+#, no-wrap
+msgid "**DNF** (**Dandified Yum**) is a software package manager, successor of **YUM** (**Y**ellow dog **U**pdater **M**odified). It works with **RPM** packages grouped in a local or remote repository (a directory for storing packages). For the most common commands, its usage is identical to that of `yum`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:140
+msgid ""
+"The `dnf` command allows the management of packages by comparing those "
+"installed on the system with those in the repositories defined on the "
+"server. It also automatically installs dependencies, if they are also "
+"present in the repositories."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:142
+msgid ""
+"`dnf` is the manager used by many RedHat based distributions (RockyLinux, "
+"Fedora, CentOS, ...). Its equivalent in the Debian world is **APT** "
+"(**A**dvanced **P**ackaging **T**ool)."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:143
+#, no-wrap
+msgid "`dnf` command"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:146
+msgid ""
+"The `dnf` command allows you to install a package by specifying only the "
+"short name."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:147
+#, no-wrap
+msgid "dnf [install][remove][list all][search][info] package\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:153
+#, no-wrap
+msgid "dnf install tree\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:158
+msgid "Only the short name of the package is required."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:168
+#, no-wrap
+msgid ""
+"| Option                     | Description                                                          |\n"
+"|----------------------------|----------------------------------------------------------------------|\n"
+"| `install`                  | Installs the package.                                                |\n"
+"| `remove`                   | Uninstall the package.                                               |\n"
+"| `list all`                 | Lists the packages already in the repository.                        |\n"
+"| `search`                   | Search for a package in the repository.                              |\n"
+"| `provides */command_name`  | Search for a command.                                                |\n"
+"| `info`                     | Displays the package information.                                    |\n"
+"| `autoremove`               | Removes all packages installed as dependencies but no longer needed. |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:171
+msgid ""
+"The `dnf install` command allows you to install the desired package without "
+"worrying about its dependencies, which will be resolved directly by `dnf` "
+"itself."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:172
+#, no-wrap
+msgid ""
+"dnf install nginx\n"
+"Last metadata expiration check: 3:13:41 ago on Wed 23 Mar 2022 07:19:24 AM CET.\n"
+"Dependencies resolved.\n"
+"============================================================================================================================\n"
+" Package                             Architecture    Version                                        Repository         Size\n"
+"============================================================================================================================\n"
+"Installing:\n"
+" nginx                               aarch64         1:1.14.1-9.module+el8.4.0+542+81547229         appstream         543 k\n"
+"Installing dependencies:\n"
+" nginx-all-modules                   noarch          1:1.14.1-9.module+el8.4.0+542+81547229         appstream          22 k\n"
+" nginx-mod-http-image-filter         aarch64         1:1.14.1-9.module+el8.4.0+542+81547229         appstream          33 k\n"
+" nginx-mod-http-perl                 aarch64         1:1.14.1-9.module+el8.4.0+542+81547229         appstream          44 k\n"
+" nginx-mod-http-xslt-filter          aarch64         1:1.14.1-9.module+el8.4.0+542+81547229         appstream          32 k\n"
+" nginx-mod-mail                      aarch64         1:1.14.1-9.module+el8.4.0+542+81547229         appstream          60 k\n"
+" nginx-mod-stream                    aarch64         1:1.14.1-9.module+el8.4.0+542+81547229         appstream          82 k\n"
+"\n"
+"Transaction Summary\n"
+"============================================================================================================================\n"
+"Install  7 Packages\n"
+"\n"
+"Total download size: 816 k\n"
+"Installed size: 2.2 M\n"
+"Is this ok [y/N]:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:199
+msgid ""
+"In case you don't remember the exact name of the package, you can search for "
+"it with the command `dnf search name`. As you can see, there is a section "
+"that contains the exact name and another one that contains the package "
+"correspondence, all of which are highlighted for easier searching."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:200
+#, no-wrap
+msgid ""
+"dnf search nginx\n"
+"Last metadata expiration check: 0:20:55 ago on Wed 23 Mar 2022 10:40:43 AM CET.\n"
+"=============================================== Name Exactly Matched: nginx ================================================\n"
+"nginx.aarch64 : A high performance web server and reverse proxy server\n"
+"============================================== Name & Summary Matched: nginx ===============================================\n"
+"collectd-nginx.aarch64 : Nginx plugin for collectd\n"
+"munin-nginx.noarch : NGINX support for Munin resource monitoring\n"
+"nginx-all-modules.noarch : A meta package that installs all available Nginx modules\n"
+"nginx-filesystem.noarch : The basic directory layout for the Nginx server\n"
+"nginx-mod-http-image-filter.aarch64 : Nginx HTTP image filter module\n"
+"nginx-mod-http-perl.aarch64 : Nginx HTTP perl module\n"
+"nginx-mod-http-xslt-filter.aarch64 : Nginx XSLT module\n"
+"nginx-mod-mail.aarch64 : Nginx mail modules\n"
+"nginx-mod-stream.aarch64 : Nginx stream modules\n"
+"pagure-web-nginx.noarch : Nginx configuration for Pagure\n"
+"pcp-pmda-nginx.aarch64 : Performance Co-Pilot (PCP) metrics for the Nginx Webserver\n"
+"python3-certbot-nginx.noarch : The nginx plugin for certbot\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:221
+msgid ""
+"Another way to search for a package by entering an additional search key is "
+"to send the result of the `dnf` command through a pipe to the grep command "
+"with the desired key."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:222
+#, no-wrap
+msgid ""
+"dnf search nginx | grep mod\n"
+"Last metadata expiration check: 3:44:49 ago on Wed 23 Mar 2022 06:16:47 PM CET.\n"
+"nginx-all-modules.noarch : A meta package that installs all available Nginx modules\n"
+"nginx-mod-http-image-filter.aarch64 : Nginx HTTP image filter module\n"
+"nginx-mod-http-perl.aarch64 : Nginx HTTP perl module\n"
+"nginx-mod-http-xslt-filter.aarch64 : Nginx XSLT module\n"
+"nginx-mod-mail.aarch64 : Nginx mail modules\n"
+"nginx-mod-stream.aarch64 : Nginx stream modules\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:235
+msgid ""
+"The `dnf remove` command removes a package from the system and its "
+"dependencies. Below is an excerpt of the **dnf remove httpd** command."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:236
+#, no-wrap
+msgid ""
+"dnf remove httpd\n"
+"Dependencies resolved.\n"
+"============================================================================================================================\n"
+" Package                        Architecture    Version                                            Repository          Size\n"
+"============================================================================================================================\n"
+"Removing:\n"
+" httpd                          aarch64         2.4.37-43.module+el8.5.0+727+743c5577.1            @appstream         8.9 M\n"
+"Removing dependent packages:\n"
+" mod_ssl                        aarch64         1:2.4.37-43.module+el8.5.0+727+743c5577.1          @appstream         274 k\n"
+" php                            aarch64         7.4.19-1.module+el8.5.0+696+61e7c9ba               @appstream         4.4 M\n"
+" python3-certbot-apache         noarch          1.22.0-1.el8                                       @epel              539 k\n"
+"Removing unused dependencies:\n"
+" apr                            aarch64         1.6.3-12.el8                                       @appstream         299 k\n"
+" apr-util                       aarch64         1.6.1-6.el8.1                                      @appstream         224 k\n"
+" apr-util-bdb                   aarch64         1.6.1-6.el8.1                                      @appstream          67 k\n"
+" apr-util-openssl               aarch64         1.6.1-6.el8.1                                      @appstream          68 k\n"
+" augeas-libs                    aarch64         1.12.0-6.el8                                       @baseos            1.4 M\n"
+" httpd-filesystem               noarch          2.4.37-43.module+el8.5.0+727+743c5577.1            @appstream         400\n"
+" httpd-tools                    aarch64         2.4.37-43.module+el8.5.0+727+743c5577.1\n"
+"...\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:260
+msgid ""
+"The `dnf list` command lists all the packages installed on the system and "
+"present in the repository. It accepts several parameters:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:268
+#, no-wrap
+msgid ""
+"| Parameter   | Description                                                                |\n"
+"|-------------|----------------------------------------------------------------------------|\n"
+"| `all`       |\tLists the installed packages and then those available on the repositories. |\n"
+"| `available` |\tLists only the packages available for installation.                        |\n"
+"| `updates`   |\tLists packages that can be upgraded.                                       |\n"
+"| `obsoletes` |\tLists the packages made obsolete by higher versions available.             |\n"
+"| `recent`    |\tLists the latest packages added to the repository.                         |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:270
+msgid ""
+"The `dnf info` command, as you might expect, provides detailed information "
+"about a package:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:271
+#, no-wrap
+msgid ""
+"dnf info firewalld\n"
+"Last metadata expiration check: 15:47:27 ago on Tue 22 Mar 2022 05:49:42 PM CET.\n"
+"Installed Packages\n"
+"Name         : firewalld\n"
+"Version      : 0.9.3\n"
+"Release      : 7.el8\n"
+"Architecture : noarch\n"
+"Size         : 2.0 M\n"
+"Source       : firewalld-0.9.3-7.el8.src.rpm\n"
+"Repository   : @System\n"
+"From repo    : baseos\n"
+"Summary      : A firewall daemon with D-Bus interface providing a dynamic firewall\n"
+"URL          : http://www.firewalld.org\n"
+"License      : GPLv2+\n"
+"Description  : firewalld is a firewall service daemon that provides a dynamic customizable\n"
+"             : firewall with a D-Bus interface.\n"
+"\n"
+"Available Packages\n"
+"Name         : firewalld\n"
+"Version      : 0.9.3\n"
+"Release      : 7.el8_5.1\n"
+"Architecture : noarch\n"
+"Size         : 501 k\n"
+"Source       : firewalld-0.9.3-7.el8_5.1.src.rpm\n"
+"Repository   : baseos\n"
+"Summary      : A firewall daemon with D-Bus interface providing a dynamic firewall\n"
+"URL          : http://www.firewalld.org\n"
+"License      : GPLv2+\n"
+"Description  : firewalld is a firewall service daemon that provides a dynamic customizable\n"
+"             : firewall with a D-Bus interface.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:305
+msgid ""
+"Sometimes you only know the executable you want to use but not the package "
+"that contains it, in this case you can use the command `dnf provides */"
+"package_name` which will search the database for you for the desired match."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:307
+msgid "Example of a search for the `semanage` command:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:308
+#, no-wrap
+msgid ""
+"dnf provides */semanage\n"
+"Last metadata expiration check: 1:12:29 ago on Wed 23 Mar 2022 10:40:43 AM CET.\n"
+"libsemanage-devel-2.9-6.el8.aarch64 : Header files and libraries used to build policy manipulation tools\n"
+"Repo        : powertools\n"
+"Matched from:\n"
+"Filename    : /usr/include/semanage\n"
+"\n"
+"policycoreutils-python-utils-2.9-16.el8.noarch : SELinux policy core python utilities\n"
+"Repo        : baseos\n"
+"Matched from:\n"
+"Filename    : /usr/sbin/semanage\n"
+"Filename    : /usr/share/bash-completion/completions/semanage\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:324
+msgid ""
+"The `dnf autoremove` command does not need any parameters. Dnf takes care of "
+"searching for candidate packages for removal."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:325
+#, no-wrap
+msgid ""
+"dnf autoremove\n"
+"Last metadata expiration check: 0:24:40 ago on Wed 23 Mar 2022 06:16:47 PM CET.\n"
+"Dependencies resolved.\n"
+"Nothing to do.\n"
+"Complete!\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:333
+#, no-wrap
+msgid "Other useful `dnf` options"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:340
+#, no-wrap
+msgid ""
+"| Option                     | Description                                      |\n"
+"|----------------------------|--------------------------------------------------|\n"
+"| `repolist`                 | Lists the repositories configured on the system. |\n"
+"| `grouplist`                | Lists available package collections.             |\n"
+"| `clean`                    | Removes temporary files.                         |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:342
+msgid ""
+"The `dnf repolist` command lists the repositories configured on the system. "
+"By default, it lists only the enabled repositories but can be used with "
+"these parameters:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:348
+#, no-wrap
+msgid ""
+"| Parameter    | Description                       |\n"
+"|--------------|-----------------------------------|\n"
+"| `--all`      | Lists all the repositories.       |\n"
+"| `--enabled`  | Default                           |\n"
+"| `--disabled` | Lists only disabled repositories. |\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:351
+#, no-wrap
+msgid ""
+"dnf repolist\n"
+"repo id                                                  repo name\n"
+"appstream                                                Rocky Linux 8 - AppStream\n"
+"baseos                                                   Rocky Linux 8 - BaseOS\n"
+"epel                                                     Extra Packages for Enterprise Linux 8 - aarch64\n"
+"epel-modular                                             Extra Packages for Enterprise Linux Modular 8 - aarch64\n"
+"extras                                                   Rocky Linux 8 - Extras\n"
+"powertools                                               Rocky Linux 8 - PowerTools\n"
+"rockyrpi                                                 Rocky Linux 8 - Rasperry Pi\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:364
+msgid "And an excerpt of the command with the `--all` flag."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:365
+#, no-wrap
+msgid ""
+"dnf repolist --all\n"
+"\n"
+"...\n"
+"repo id                                             repo name                                                                                       status\n"
+"appstream                                           Rocky Linux 8 - AppStream                                                                       enabled\n"
+"appstream-debug                                     Rocky Linux 8 - AppStream - Source                                                              disabled\n"
+"appstream-source                                    Rocky Linux 8 - AppStream - Source                                                              disabled\n"
+"baseos                                              Rocky Linux 8 - BaseOS                                                                          enabled\n"
+"baseos-debug                                        Rocky Linux 8 - BaseOS - Source                                                                 disabled\n"
+"baseos-source                                       Rocky Linux 8 - BaseOS - Source                                                                 disabled\n"
+"devel                                               Rocky Linux 8 - Devel WARNING! FOR BUILDROOT AND KOJI USE                                       disabled\n"
+"epel                                                Extra Packages for Enterprise Linux 8 - aarch64                                                 enabled\n"
+"epel-debuginfo                                      Extra Packages for Enterprise Linux 8 - aarch64 - Debug                                         disabled\n"
+"epel-modular                                        Extra Packages for Enterprise Linux Modular 8 - aarch64                                         enabled\n"
+"epel-modular-debuginfo                              Extra Packages for Enterprise Linux Modular 8 - aarch64 - Debug                                 disabled\n"
+"epel-modular-source                                 Extra Packages for Enterprise Linux Modular 8 - aarch64 - Source\n"
+"...\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:386
+msgid "And below is an excerpt from the list of disabled repositories."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:387
+#, no-wrap
+msgid ""
+"dnf repolist --disabled\n"
+"repo id                                 repo name\n"
+"appstream-debug                         Rocky Linux 8 - AppStream - Source\n"
+"appstream-source                        Rocky Linux 8 - AppStream - Source\n"
+"baseos-debug                            Rocky Linux 8 - BaseOS - Source\n"
+"baseos-source                           Rocky Linux 8 - BaseOS - Source\n"
+"devel                                   Rocky Linux 8 - Devel WARNING! FOR BUILDROOT AND KOJI USE\n"
+"epel-debuginfo                          Extra Packages for Enterprise Linux 8 - aarch64 - Debug\n"
+"epel-modular-debuginfo                  Extra Packages for Enterprise Linux Modular 8 - aarch64 - Debug\n"
+"epel-modular-source                     Extra Packages for Enterprise Linux Modular 8 - aarch64 - Source\n"
+"epel-source                             Extra Packages for Enterprise Linux 8 - aarch64 - Source\n"
+"epel-testing                            Extra Packages for Enterprise Linux 8 - Testing - aarch64\n"
+"...\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:404
+msgid ""
+"Using the `-v` option enhances the list with a lot of additional "
+"information. Below you can see part of the result of the command."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:405
+#, no-wrap
+msgid ""
+"dnf repolist -v\n"
+"\n"
+"...\n"
+"Repo-id            : powertools\n"
+"Repo-name          : Rocky Linux 8 - PowerTools\n"
+"Repo-revision      : 8.5\n"
+"Repo-distro-tags      : [cpe:/o:rocky:rocky:8]:  ,  , 8, L, R, c, i, k, n, o, u, x, y\n"
+"Repo-updated       : Wed 16 Mar 2022 10:07:49 PM CET\n"
+"Repo-pkgs          : 1,650\n"
+"Repo-available-pkgs: 1,107\n"
+"Repo-size          : 6.4 G\n"
+"Repo-mirrors       : https://mirrors.rockylinux.org/mirrorlist?arch=aarch64&repo=PowerTools-8\n"
+"Repo-baseurl       : https://mirror2.sandyriver.net/pub/rocky/8.8/PowerTools/x86_64/os/ (30 more)\n"
+"Repo-expire        : 172,800 second(s) (last: Tue 22 Mar 2022 05:49:24 PM CET)\n"
+"Repo-filename      : /etc/yum.repos.d/Rocky-PowerTools.repo\n"
+"...\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:425
+msgid "!!! info \"Using Groups\""
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:427
+#, no-wrap
+msgid "    Groups are a collection of a set of packages (you can think of them as a virtual packages) that logically groups a set of applications to accomplish a purpose (a desktop environment, a server, development tools, etc.).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:429
+msgid "The `dnf grouplist` command lists all available groups."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:430
+#, no-wrap
+msgid ""
+"dnf grouplist\n"
+"Last metadata expiration check: 1:52:00 ago on Wed 23 Mar 2022 02:11:43 PM CET.\n"
+"Available Environment Groups:\n"
+"   Server with GUI\n"
+"   Server\n"
+"   Minimal Install\n"
+"   KDE Plasma Workspaces\n"
+"   Custom Operating System\n"
+"Available Groups:\n"
+"   Container Management\n"
+"   .NET Core Development\n"
+"   RPM Development Tools\n"
+"   Development Tools\n"
+"   Headless Management\n"
+"   Legacy UNIX Compatibility\n"
+"   Network Servers\n"
+"   Scientific Support\n"
+"   Security Tools\n"
+"   Smart Card Support\n"
+"   System Tools\n"
+"   Fedora Packager\n"
+"   Xfce\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:456
+msgid ""
+"The `dnf groupinstall` command allows you to install one of these groups."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:457
+#, no-wrap
+msgid ""
+"dnf groupinstall \"Network Servers\"\n"
+"Last metadata expiration check: 2:33:26 ago on Wed 23 Mar 2022 02:11:43 PM CET.\n"
+"Dependencies resolved.\n"
+"================================================================================\n"
+" Package           Architecture     Version             Repository         Size\n"
+"================================================================================\n"
+"Installing Groups:\n"
+" Network Servers\n"
+"\n"
+"Transaction Summary\n"
+"================================================================================\n"
+"\n"
+"Is this ok [y/N]:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:474
+msgid ""
+"Note that it is good practice to enclose the group name in double quotes as "
+"without the command it will only execute correctly if the group name does "
+"not contain spaces."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:476
+msgid "So a `dnf groupinstall Network Servers` produces the following error."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:477
+#, no-wrap
+msgid ""
+"dnf groupinstall Network Servers\n"
+"Last metadata expiration check: 3:05:45 ago on Wed 23 Mar 2022 02:11:43 PM CET.\n"
+"Module or Group 'Network' is not available.\n"
+"Module or Group 'Servers' is not available.\n"
+"Error: Nothing to do.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:486
+msgid ""
+"The corresponding command to remove a group is `dnf groupremove \"name group"
+"\"`."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:488
+msgid ""
+"The `dnf clean` command cleans all caches and temporary files created by "
+"`dnf`. It can be used with the following parameters."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:496
+#, no-wrap
+msgid ""
+"| Parameters         | Description                                                   |\n"
+"|--------------------|---------------------------------------------------------------|\n"
+"| `all`              | Removes all temporary files created for enabled repositories. |\n"
+"| `dbcache`          | Removes cache files for the repository  metadata.             |\n"
+"| `expire-cache`     | Remove the local cookie files.                                |\n"
+"| `metadata`         | Removes all the repositories metadata.                        |\n"
+"| `packages`         | Removes any cached packages.                                  |\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:498
+#, no-wrap
+msgid "How DNF works"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:501
+msgid ""
+"The DNF manager relies on one or more configuration files to target the "
+"repositories containing the RPM packages."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:503
+msgid ""
+"These files are located in `/etc/yum.repos.d/` and must end with `.repo` in "
+"order to be used by DNF."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:506
+#, no-wrap
+msgid "/etc/yum.repos.d/Rocky-BaseOS.repo\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:511
+msgid ""
+"Each `.repo` file consists of at least the following information, one "
+"directive per line."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:514
+#, no-wrap
+msgid ""
+"[baseos] # Short name of the repository\n"
+"name=Rocky Linux $releasever - BaseOS # Short name of the repository #Detailed name\n"
+"mirrorlist=http://mirrors.rockylinux.org/mirrorlist?arch=$basearch&repo=BaseOS-$releasever # http address of a list or mirror\n"
+"#baseurl=http://dl.rockylinux.org/$contentdir/$releasever/BaseOS/$basearch/os/ # http address for direct access\n"
+"gpgcheck=1 # Repository requiring a signature\n"
+"enabled=1 # Activated =1, or not activated =0\n"
+"gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rockyofficial # GPG public key path\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:525
+msgid ""
+"By default, the `enabled` directive is absent which means that the "
+"repository is enabled. To disable a repository, you must specify the "
+"`enabled=0` directive."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/13-softwares.md:526
+#, no-wrap
+msgid "DNF modules"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:529
+msgid ""
+"Modules were introduced in Rocky Linux 8 by the upstream. In order to use "
+"modules, the AppStream repository must exist and be enabled."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:531
+msgid "!!! hint \"Package Confusion\""
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:533
+#, no-wrap
+msgid "    The creation of module streams in the AppStream repository caused a lot of people confusion. Since modules are packaged within a stream (see our examples below), a particular package would show up in our RPMs, but if an attempt was made to install it without enabling the module, nothing would happen. Remember to look at modules if you attempt to install a package and it fails to find it.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:534
+#, no-wrap
+msgid "What are modules"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:537
+msgid ""
+"Modules come from the AppStream repository and contain both streams and "
+"profiles. These can be described as follows:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/13-softwares.md:539
+msgid ""
+"**module streams:** A module stream can be thought of as a separate "
+"repository within the AppStream repository that contains different "
+"application versions. These module repositories contain the application "
+"RPMs, dependencies, and documentation for that particular stream. An example "
+"of a module stream in Rocky Linux 8 would be `postgresql`. If you install "
+"`postgresql` using the standard `sudo dnf install postgresql` you will get "
+"version 10. However, using modules, you can instead install versions 9.6, 12 "
+"or 13."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/13-softwares.md:541
+msgid ""
+"**module profiles:** What a module profile does is take into consideration "
+"the use case for the module stream when installing the package. Applying a "
+"profile adjusts the package RPMs, dependencies and documentation to account "
+"for the module's use. Using the same `postgresql` stream in our example, you "
+"can apply a profile of either \"server\" or \"client\". Obviously, you do "
+"not need the same packages installed on your system if you are just going to "
+"use `postgresql` as a client to access a server."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:542
+#, no-wrap
+msgid "Listing modules"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:545
+msgid ""
+"You can obtain a list of all modules by executing the following command:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:546
+#, no-wrap
+msgid "dnf module list\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:551
+msgid ""
+"This will give you a long list of the available modules and the profiles "
+"that can be used for them. The thing is you probably already know what "
+"package you are interested in, so to find out if there are modules for a "
+"particular package, add the package name after \"list\". We will use our "
+"`postgresql` package example again here:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:552
+#, no-wrap
+msgid "dnf module list postgresql\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:557
+msgid "This will give you output that looks like this:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:558
+#: ../src/docs/books/admin_guide/13-softwares.md:691
+#, no-wrap
+msgid ""
+"Rocky Linux 8 - AppStream\n"
+"Name                       Stream                 Profiles                           Summary                                            \n"
+"postgresql                 9.6                    client, server [d]                 PostgreSQL server and client module                \n"
+"postgresql                 10 [d]                 client, server [d]                 PostgreSQL server and client module                \n"
+"postgresql                 12                     client, server [d]                 PostgreSQL server and client module                \n"
+"postgresql                 13                     client, server [d]                 PostgreSQL server and client module\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:568
+msgid ""
+"Notice in the listing the \"[d]\". This means that this is the default. It "
+"shows that the default version is 10 and that regardless of which version "
+"you choose, if you do not specify a profile, then the server profile will be "
+"the profile used, as it is the default as well."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:569
+#, no-wrap
+msgid "Enabling Modules"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:572
+msgid ""
+"Using our example `postgresql` package, let's say that we want to enable "
+"version 12. To do this, you simply use the following:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:573
+#, no-wrap
+msgid "dnf module enable postgresql:12\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:578
+msgid ""
+"Here the enable command requires the module name followed by a \":\" and the "
+"stream name."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:580
+msgid ""
+"To verify that you have enabled `postgresql` module stream version 12, use "
+"your list command again which should show you the following output:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:581
+#, no-wrap
+msgid ""
+"Rocky Linux 8 - AppStream\n"
+"Name                       Stream                 Profiles                           Summary                                            \n"
+"postgresql                 9.6                    client, server [d]                 PostgreSQL server and client module                \n"
+"postgresql                 10 [d]                 client, server [d]                 PostgreSQL server and client module                \n"
+"postgresql                 12 [e]                 client, server [d]                 PostgreSQL server and client module                \n"
+"postgresql                 13                     client, server [d]                 PostgreSQL server and client module\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:591
+msgid ""
+"Here we can see the \"[e]\" for \"enabled\" next to stream 12, so we know "
+"that version 12 is enabled."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:592
+#, no-wrap
+msgid "Installing packages from the module stream"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:595
+msgid ""
+"Now that our module stream is enabled, the next step is to install "
+"`postgresql`, the client application for the postgresql server. This can be "
+"achieved by running the following command:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:596
+#, no-wrap
+msgid "dnf install postgresql\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:601
+#: ../src/docs/books/admin_guide/13-softwares.md:630
+msgid "Which should give you this output:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:602
+#, no-wrap
+msgid ""
+"========================================================================================================================================\n"
+" Package                    Architecture           Version                                              Repository                 Size\n"
+"========================================================================================================================================\n"
+"Installing group/module packages:\n"
+" postgresql                 x86_64                 12.12-1.module+el8.6.0+1049+f8fc4c36                 appstream                 1.5 M\n"
+"Installing dependencies:\n"
+" libpq                      x86_64                 13.5-1.el8                                           appstream                 197 k\n"
+"\n"
+"Transaction Summary\n"
+"========================================================================================================================================\n"
+"Install  2 Packages\n"
+"Total download size: 1.7 M\n"
+"Installed size: 6.1 M\n"
+"Is this ok [y/N]:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:620
+msgid "After approving by typing \"y\" you installed the application."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:621
+#, no-wrap
+msgid "Installing packages from module stream profiles"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:624
+msgid ""
+"It's also possible to directly install packages without even having to "
+"enable the module stream! In this example, let's assume that we only want "
+"the client profile applied to our installation. To do this, we simply enter "
+"this command:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:625
+#, no-wrap
+msgid "dnf install postgresql:12/client\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:631
+#, no-wrap
+msgid ""
+"========================================================================================================================================\n"
+" Package                    Architecture           Version                                              Repository                 Size\n"
+"========================================================================================================================================\n"
+"Installing group/module packages:\n"
+" postgresql                 x86_64                 12.12-1.module+el8.6.0+1049+f8fc4c36                 appstream                 1.5 M\n"
+"Installing dependencies:\n"
+" libpq                      x86_64                 13.5-1.el8                                           appstream                 197 k\n"
+"Installing module profiles:\n"
+" postgresql/client\n"
+"Enabling module streams:\n"
+" postgresql                                        12\n"
+"\n"
+"Transaction Summary\n"
+"========================================================================================================================================\n"
+"Install  2 Packages\n"
+"\n"
+"Total download size: 1.7 M\n"
+"Installed size: 6.1 M\n"
+"Is this ok [y/N]:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:654
+msgid ""
+"Answering \"y\" to the prompt will install everything you need to use "
+"postgresql version 12 as a client."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:655
+#, no-wrap
+msgid "Module Removal and Reset or Switch-To"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:658
+msgid ""
+"After you install, you may decide that for whatever reason, you need a "
+"different version of the stream. The first step is to remove your packages. "
+"Using our example `postgresql` package again, we would do this with:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:659
+#, no-wrap
+msgid "dnf remove postgresql\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:664
+msgid ""
+"This will display similar output as the install procedure above, except it "
+"will be removing the package and all of its dependencies. Answer \"y\" to "
+"the prompt and hit enter to uninstall `postgresql`."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:666
+msgid ""
+"Once this step is complete, you can issue the reset command for the module "
+"using:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:667
+#, no-wrap
+msgid "dnf module reset postgresql\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:672
+msgid "Which will give you output like this:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:673
+#, no-wrap
+msgid ""
+"Dependencies resolved.\n"
+"========================================================================================================================================\n"
+" Package                         Architecture                   Version                           Repository                       Size\n"
+"========================================================================================================================================\n"
+"Disabling module profiles:\n"
+" postgresql/client                                                                                                                     \n"
+"Resetting modules:\n"
+" postgresql                                                                                                                            \n"
+"\n"
+"Transaction Summary\n"
+"========================================================================================================================================\n"
+"\n"
+"Is this ok [y/N]:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:690
+msgid ""
+"Answering \"y\" to the prompt will then reset `postgresql` back to the "
+"default stream with the stream that we had enabled (12 in our example) no "
+"longer enabled:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:701
+msgid "Now you can use the default."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:703
+msgid ""
+"You can also use the switch-to sub-command to switch from one enabled stream "
+"to another. Using this method not only switches to the new stream, but "
+"installs the needed packages (either downgrade or upgrade) without a "
+"separate step. To use this method to enable `postgresql` stream version 13 "
+"and use the \"client\" profile, you would use:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:704
+#, no-wrap
+msgid "dnf module switch-to postgresql:13/client\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:708
+#, no-wrap
+msgid "Disable a module stream"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:711
+msgid ""
+"There may be times when you wish to disable the ability to install packages "
+"from a module stream. In the case of our `postgresql` example, this could be "
+"because you want to use the repository directly from [PostgreSQL](https://"
+"www.postgresql.org/download/linux/redhat/) so that you could use a newer "
+"version (at the time of this writing, versions 14 and 15 are available from "
+"this repository). Disabling a module stream, makes installing any of those "
+"packages impossible without first enabling them again."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:713
+msgid "To disable the module streams for `postgresql` simply do:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:714
+#, no-wrap
+msgid "dnf module disable postgresql\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:719
+msgid ""
+"And if you list out the `postgresql` modules again, you will see the "
+"following showing all `postgresql` module versions disabled:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:720
+#, no-wrap
+msgid ""
+"Rocky Linux 8 - AppStream\n"
+"Name                       Stream                   Profiles                          Summary                                           \n"
+"postgresql                 9.6 [x]                  client, server [d]                PostgreSQL server and client module               \n"
+"postgresql                 10 [d][x]                client, server [d]                PostgreSQL server and client module               \n"
+"postgresql                 12 [x]                   client, server [d]                PostgreSQL server and client module               \n"
+"postgresql                 13 [x]                   client, server [d]                PostgreSQL server and client module\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/13-softwares.md:729
+#, no-wrap
+msgid "The EPEL repository"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:731
+#, no-wrap
+msgid "What is EPEL and how is it used?"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:734
+#, no-wrap
+msgid "**EPEL** (**E**xtra **P**ackages for **E**nterprise **L**inux) is an open-source and free community-based repository maintained by the [EPEL Fedora Special Interest Group](https://docs.fedoraproject.org/en-US/epel/) that provides a set of additional packages for RHEL (and CentOS, Rocky Linux, and others) from the Fedora sources.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:736
+msgid ""
+"It provides packages that are not included in the official RHEL "
+"repositories. These are not included because they are not considered "
+"necessary in an enterprise environment or deemed outside the scope of RHEL. "
+"We must not forget that RHEL is an enterprise class distribution, and "
+"desktop utilities or other specialized software may not be a priority for an "
+"enterprise project."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:737
+#, no-wrap
+msgid "Installation"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:740
+msgid ""
+"Installation of the necessary files can be easily done with the package "
+"provided by default from Rocky Linux."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:742
+msgid "If you are behind an internet proxy:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:743
+#, no-wrap
+msgid "export http_proxy=http://172.16.1.10:8080\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:748
+msgid "Then:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:749
+#, no-wrap
+msgid "dnf install epel-release\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:754
+msgid ""
+"Once installed you can check that the package has been installed correctly "
+"with the command `dnf info`."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:755
+#, no-wrap
+msgid ""
+"dnf info epel-release\n"
+"Last metadata expiration check: 1:30:29 ago on Thu 24 Mar 2022 09:36:42 AM CET.\n"
+"Installed Packages\n"
+"Name         : epel-release\n"
+"Version      : 8\n"
+"Release      : 14.el8\n"
+"Architecture : noarch\n"
+"Size         : 32 k\n"
+"Source       : epel-release-8-14.el8.src.rpm\n"
+"Repository   : @System\n"
+"From repo    : epel\n"
+"Summary      : Extra Packages for Enterprise Linux repository configuration\n"
+"URL          : http://download.fedoraproject.org/pub/epel\n"
+"License      : GPLv2\n"
+"Description  : This package contains the Extra Packages for Enterprise Linux\n"
+"             : (EPEL) repository GPG key as well as configuration for yum.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:775
+msgid ""
+"The package, as you can see from the package description above, does not "
+"contain executables, libraries, etc... but only the configuration files and "
+"GPG keys for setting up the repository."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:777
+msgid ""
+"Another way to verify the correct installation is to query the rpm database."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:778
+#, no-wrap
+msgid ""
+"rpm -qa | grep epel\n"
+"epel-release-8-14.el8.noarch\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:784
+msgid ""
+"Now you need to run an update to let `dnf` recognize the repository. You "
+"will be asked to accept the GPG keys of the repositories. Clearly, you have "
+"to answer YES in order to use them."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:785
+#, no-wrap
+msgid "dnf update\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:790
+msgid ""
+"Once the update is complete you can check that the repository has been "
+"configured correctly with the `dnf repolist` command which should now list "
+"the new repositories."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:791
+#, no-wrap
+msgid ""
+"dnf repolist\n"
+"repo id            repo name\n"
+"...\n"
+"epel               Extra Packages for Enterprise Linux 8 - aarch64\n"
+"epel-modular       Extra Packages for Enterprise Linux Modular 8 - aarch64\n"
+"...\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:801
+msgid "The repository configuration files are located in `/etc/yum.repos.d/`."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:802
+#, no-wrap
+msgid ""
+"ll /etc/yum.repos.d/ | grep epel\n"
+"-rw-r--r--. 1 root root 1485 Jan 31 17:19 epel-modular.repo\n"
+"-rw-r--r--. 1 root root 1422 Jan 31 17:19 epel.repo\n"
+"-rw-r--r--. 1 root root 1584 Jan 31 17:19 epel-testing-modular.repo\n"
+"-rw-r--r--. 1 root root 1521 Jan 31 17:19 epel-testing.repo\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:811
+msgid "And below we can see the contents of the file `epel.repo`."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:812
+#, no-wrap
+msgid ""
+"[epel]\n"
+"name=Extra Packages for Enterprise Linux $releasever - $basearch\n"
+"# It is much more secure to use the metalink, but if you wish to use a local mirror\n"
+"# place its address here.\n"
+"#baseurl=https://download.example/pub/epel/$releasever/Everything/$basearch\n"
+"metalink=https://mirrors.fedoraproject.org/metalink?repo=epel-$releasever&arch=$basearch&infra=$infra&content=$contentdir\n"
+"enabled=1\n"
+"gpgcheck=1\n"
+"countme=1\n"
+"gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-8\n"
+"\n"
+"[epel-debuginfo]\n"
+"name=Extra Packages for Enterprise Linux $releasever - $basearch - Debug\n"
+"# It is much more secure to use the metalink, but if you wish to use a local mirror\n"
+"# place its address here.\n"
+"#baseurl=https://download.example/pub/epel/$releasever/Everything/$basearch/debug\n"
+"metalink=https://mirrors.fedoraproject.org/metalink?repo=epel-debug-$releasever&arch=$basearch&infra=$infra&content=$contentdir\n"
+"enabled=0\n"
+"gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-8\n"
+"gpgcheck=1\n"
+"\n"
+"[epel-source]\n"
+"name=Extra Packages for Enterprise Linux $releasever - $basearch - Source\n"
+"# It is much more secure to use the metalink, but if you wish to use a local mirror\n"
+"# place it's address here.\n"
+"#baseurl=https://download.example/pub/epel/$releasever/Everything/source/tree/\n"
+"metalink=https://mirrors.fedoraproject.org/metalink?repo=epel-source-$releasever&arch=$basearch&infra=$infra&content=$contentdir\n"
+"enabled=0\n"
+"gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-8\n"
+"gpgcheck=1\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:845
+#, no-wrap
+msgid "Using EPEL"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:848
+msgid ""
+"At this point, once configured, we are ready to install the packages from "
+"EPEL. To start, we can list the packages available in the repository with "
+"the command:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:849
+#, no-wrap
+msgid "dnf --disablerepo=\"*\" --enablerepo=\"epel\" list available\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:854
+msgid "And an excerpt of the command"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:855
+#, no-wrap
+msgid ""
+"dnf --disablerepo=\"*\" --enablerepo=\"epel\" list available | less\n"
+"Last metadata expiration check: 1:58:22 ago on Fri 25 Mar 2022 09:23:29 AM CET.\n"
+"Available Packages\n"
+"3proxy.aarch64                                                    0.8.13-1.el8                                    epel\n"
+"AMF-devel.noarch                                                  1.4.23-2.el8                                    epel\n"
+"AMF-samples.noarch                                                1.4.23-2.el8                                    epel\n"
+"AusweisApp2.aarch64                                               1.22.3-1.el8                                    epel\n"
+"AusweisApp2-data.noarch                                           1.22.3-1.el8                                    epel\n"
+"AusweisApp2-doc.noarch                                            1.22.3-1.el8                                    epel\n"
+"BackupPC.aarch64                                                  4.4.0-1.el8                                     epel\n"
+"BackupPC-XS.aarch64                                               0.62-1.el8                                      epel\n"
+"BibTool.aarch64                                                   2.68-1.el8                                      epel\n"
+"CCfits.aarch64                                                    2.5-14.el8                                      epel\n"
+"CCfits-devel.aarch64                                              2.5-14.el8                                      epel\n"
+"...\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:874
+msgid ""
+"From the command we can see that to install from EPEL we must force **dnf** "
+"to query the requested repository with the options `--disablerepo` and `--"
+"enablerepo`, this is because otherwise a match found in other optional "
+"repositories (RPM Fusion, REMI, ELRepo, etc.) could be newer and therefore "
+"have priority. These options are not necessary if you have only installed "
+"EPEL as an optional repository because the packages in the repository will "
+"never be available in the official ones. At least in the same version!"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:876
+msgid "!!! attention \"Support consideration\""
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:878
+#, no-wrap
+msgid "    One aspect to consider regarding support (updates, bug fixes, security patches) is that EPEL packages have no official support from RHEL and technically their life could last the space of a development of Fedora (six months) and then disappear. This is a remote possibility but one to consider.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:880
+msgid "So, to install a package from the EPEL repositories you would use:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:881
+#, no-wrap
+msgid ""
+"dnf --disablerepo=\"*\" --enablerepo=\"epel\" install nmon\n"
+"Last metadata expiration check: 2:01:36 ago on Fri 25 Mar 2022 04:28:04 PM CET.\n"
+"Dependencies resolved.\n"
+"==============================================================================================================================================================\n"
+" Package                            Architecture                          Version                                    Repository                          Size\n"
+"==============================================================================================================================================================\n"
+"Installing:\n"
+" nmon                               aarch64                               16m-1.el8                                  epel                                71 k\n"
+"\n"
+"Transaction Summary\n"
+"==============================================================================================================================================================\n"
+"Install  1 Package\n"
+"\n"
+"Total download size: 71 k\n"
+"Installed size: 214 k\n"
+"Is this ok [y/N]:\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:900
+#, no-wrap
+msgid "Conclusion"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:903
+msgid ""
+"EPEL is not an official repository for RHEL, but it can be useful for "
+"administrators and developers who work with RHEL or derivatives and need "
+"some utilities prepared for RHEL from a source they can feel confident about."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/13-softwares.md:904
+#, no-wrap
+msgid "DNF Plugins"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:907
+msgid ""
+"The `dnf-plugins-core` package adds plugins to `dnf` that will be useful for "
+"managing your repositories."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:909
+msgid "!!! NOTE"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:911
+#, no-wrap
+msgid "    See more informations here: https://dnf-plugins-core.readthedocs.io/en/latest/index.html\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:913
+msgid "Install the package on your system:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:914
+#, no-wrap
+msgid "dnf install dnf-plugins-core\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:919
+msgid ""
+"Not all plugins will be presented here but you can refer to the package "
+"documentation for a complete list of plugins and detailed information."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:920
+#, no-wrap
+msgid "`config-manager` plugin"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:923
+msgid "Manage DNF options, add repos, or disable them."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:925
+#: ../src/docs/books/admin_guide/13-softwares.md:1009
+msgid "Examples:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/13-softwares.md:927
+msgid "Download a `.repo` file and use it:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:928
+#, no-wrap
+msgid "dnfÂ config-managerÂ --add-repoÂ https://packages.centreon.com/ui/native/rpm-standard/23.04/el8/centreon-23.04.repo\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/13-softwares.md:933
+msgid "You can also set an url as a base url for a repo:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:934
+#, no-wrap
+msgid "dnfÂ config-managerÂ --add-repoÂ https://repo.rocky.lan/repo\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/13-softwares.md:939
+msgid "Enable or disable one or more repos:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:940
+#, no-wrap
+msgid ""
+"dnfÂ config-managerÂ --set-enabledÂ epel centreon\n"
+"dnfÂ config-managerÂ --set-disabledÂ epel centreon\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/13-softwares.md:946
+msgid "Add a proxy to your config file:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:947
+#, no-wrap
+msgid "dnfÂ config-managerÂ --saveÂ --setopt=*.proxy=http://proxy.rocky.lan:3128/\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:951
+#, no-wrap
+msgid "`copr` plugin"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:954
+msgid "`copr` is an automatic rpm forge, providing a repo with built packages."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/13-softwares.md:956
+msgid "Activate a copr repo:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:957
+#, no-wrap
+msgid "coprÂ enableÂ xxxx\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:961
+#, no-wrap
+msgid "`download` plugin"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:964
+msgid "Download rpm package instead of installing it:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:965
+#, no-wrap
+msgid "dnfÂ downloadÂ ansible\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:970
+msgid "If you just want to obtain the remote location url of the package:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:971
+#, no-wrap
+msgid "dnfÂ downloadÂ --url ansible\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:976
+msgid "Or if you want to also download the dependencies:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:977
+#, no-wrap
+msgid "dnfÂ download --resolv --alldeps ansible\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:981
+#, no-wrap
+msgid "`needs-restarting` plugin"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:984
+msgid ""
+"After running a `dnf update`, the running processes will continue to run but "
+"with the old binaries. In order to take into account the code changes and "
+"especially the security updates, they have to be restarted."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:986
+msgid ""
+"The `needs-restarting` plugin will allow you to detect processes that are in "
+"this case."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:987
+#, no-wrap
+msgid "dnfÂ needs-restartingÂ [-u]Â [-r]Â [-s]\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:997
+#, no-wrap
+msgid ""
+"| Options | Description                                                                  |\n"
+"| --------| --------------------------------------------------------------------------- |\n"
+"| `-u`     | Only consider processes belonging to the running user.                       |\n"
+"| `-r`     |  to check if a reboot may be required. |\n"
+"| `-s`     | to check if services need restarting.                                  |\n"
+"| `-s -r` | to do both in one run.                                                       |\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:998
+#, no-wrap
+msgid "`versionlock` plugin"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:1001
+msgid ""
+"Sometimes it is useful to protect packages from all updates or to exclude "
+"certain versions of a package (because of known problems for example). For "
+"this purpose, the versionlock plugin will be of great help."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:1003
+msgid "You need to install an extra package:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:1004
+#, no-wrap
+msgid "dnf install python3-dnf-plugin-versionlock\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/13-softwares.md:1011
+msgid "Lock the ansible version:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:1012
+#, no-wrap
+msgid ""
+"dnfÂ versionlockÂ addÂ ansible\n"
+"Adding versionlock on: ansible-0:6.3.0-2.el9.*\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/13-softwares.md:1018
+msgid "List locked packages:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:1019
+#, no-wrap
+msgid ""
+"dnf versionlock list\n"
+"ansible-0:6.3.0-2.el9.*\n"
+msgstr ""

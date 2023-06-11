@@ -1,0 +1,445 @@
+# French translations for po package
+# Traductions françaises du paquet po
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-11 15:28+0000\n"
+"PO-Revision-Date: 2023-06-11 15:28+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Title #
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:1
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:8
+#, no-wrap
+msgid "Management server optimizations"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:11
+msgid ""
+"In this chapter, we will review the configuration options that may be of "
+"interest to optimize our Ansible management server."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:12
+#, no-wrap
+msgid "The `ansible.cfg` configuration file"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:15
+msgid "Some interesting configuration options to comment on:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:17
+msgid ""
+"`forks`: by default to 5, it is the number of processes that Ansible will "
+"launch in parallel to communicate with remote hosts. The higher this number "
+"is, the more clients Ansible will be able to manage at the same time, and "
+"thus speed up processing. The value you can set is dependent on the CPU/RAM "
+"limits of your management server. Note that the default value, `5`, is very "
+"small, the Ansible documentation states that many users set it to 50, even "
+"500 or more."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:19
+msgid ""
+"`gathering`: this variable changes the policy for collecting facts. By "
+"default, the value is `implicit`, which implies that facts will be collected "
+"systematically. Switching this variable to `smart` allows for collection "
+"facts only when they have not already been collected. Coupled with a facts "
+"cache (see below), this option can greatly increase performance."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:21
+msgid ""
+"`host_key_checking`: Be careful with your server security! However, if you "
+"are in control of your environment, it can be interesting to disable the key "
+"control of remote servers and save some time at the connection. You can "
+"also, on remote servers, disable the use of the DNS of the SSH server (in `/"
+"etc/ssh/sshd_config`, option `UseDNS no`), this option wastes time at the "
+"connection and is, most of the time, only used in the connection logs."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:23
+msgid ""
+"`ansible_managed`: This variable, containing `Ansible managed` by default, "
+"is typically used in file templates that are deployed on remote servers. It "
+"allows you to specify to an administrator that the file is managed "
+"automatically and that any changes they make to it will potentially be lost. "
+"It can be interesting to let the administrators have a more complete "
+"messages. Be careful though, if you change this variable, it may cause "
+"daemons to restart (via the handlers associated with the templates)."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:25
+msgid ""
+"`ssh_args = -C -o ControlMaster=auto -o ControlPersist=300s -o "
+"PreferredAuthentications=publickey`: specify the ssh connection options. By "
+"disabling all authentication methods other than public key, you can save a "
+"lot of time. You can also increase the `ControlPersist` to improve "
+"performance (the documentation suggests that a value equivalent to 30 "
+"minutes may be appropriate). The connection to a client will stay open "
+"longer and can be reused when reconnecting to the same server, which is a "
+"significant time saving."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:27
+msgid ""
+"`control_path_dir`: Specify the path to the connection sockets. If this path "
+"is too long, it can cause problems. Consider changing it to something short, "
+"such as `/tmp/.cp`."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:29
+msgid ""
+"`pipelining`: Setting this value to `True` increases performance by reducing "
+"the number of SSH connections needed when running remote modules. You must "
+"first make sure that the `requiretty` option is disabled in the `sudoers` "
+"options (see documentation)."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:30
+#, no-wrap
+msgid "Caching the facts"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:33
+msgid ""
+"Gathering facts is a process that can take some time. It can be interesting "
+"to disable this gathering for playbooks that don't need it (via "
+"`gather_facts` option) or to keep these facts in memory in a cache for a "
+"certain period of time (for example 24H)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:35
+msgid "These facts can be easily stored in a `redis` database:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:36
+#, no-wrap
+msgid ""
+"sudo yum install redis\n"
+"sudo systemctl start redis\n"
+"sudo systemctl enable redis\n"
+"sudo pip3 install redis\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:44
+msgid "Don't forget to modify the ansible configuration:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:45
+#, no-wrap
+msgid ""
+"fact_caching = redis\n"
+"fact_caching_timeout = 86400\n"
+"fact_caching_connection = localhost:6379:0\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:52
+msgid ""
+"To check the correct operation, it is enough to request the `redis` server:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:53
+#, no-wrap
+msgid ""
+"redis-cli\n"
+"127.0.0.1:6379> keys *\n"
+"127.0.0.1:6379> get ansible_facts_SERVERNAME\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:59
+#, no-wrap
+msgid "Using Vault"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:62
+msgid ""
+"The various passwords and secrets cannot be stored in clear text with the "
+"Ansible source code, either locally on the management server or on a "
+"possible source code manager."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:64
+msgid "Ansible proposes using an encryption manager: `ansible-vault`."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:66
+msgid ""
+"The principle is to encrypt a variable or a whole file with the `ansible-"
+"vault` command."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:68
+msgid ""
+"Ansible will be able to decrypt this file at runtime by retrieving the "
+"encryption key from the file (for example) `/etc/ansible/ansible.cfg`. The "
+"latter can also be a python script or other."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:70
+msgid "Edit the `/etc/ansible/ansible.cfg` file:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:71
+#, no-wrap
+msgid ""
+"#vault_password_file = /path/to/vault_password_file\n"
+"vault_password_file = /etc/ansible/vault_pass\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:77
+msgid ""
+"Store the password in this file `/etc/ansible/vault_pass` and assign "
+"necessary restrictive rights:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:78
+#, no-wrap
+msgid "mysecretpassword\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:83
+msgid "You can then encrypt your files with the command:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:84
+#, no-wrap
+msgid "ansible-vault encrypt myfile.yml\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:89
+msgid ""
+"A file encrypted by `ansible-vault` can be easily recognized by its header:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:90
+#, no-wrap
+msgid ""
+"$ANSIBLE_VAULT;1.1;AES256\n"
+"35376532343663353330613133663834626136316234323964333735363333396136613266383966\n"
+"6664322261633261356566383438393738386165333966660a343032663233343762633936313630\n"
+"34373230124561663766306134656235386233323964336239336661653433663036633334366661\n"
+"6434656630306261650a313364636261393931313739363931336664386536333766326264633330\n"
+"6334\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:100
+msgid "Once a file is encrypted, it can still be edited with the command:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:101
+#, no-wrap
+msgid "ansible-vault edit myfile.yml\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:106
+msgid "You can also deport your password storage to any password manager."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:108
+msgid ""
+"For example, to retrieve a password that would be stored in the rundeck "
+"vault:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:109
+#, no-wrap
+msgid ""
+"#!/usr/bin/env python\n"
+"# -*- coding: utf-8 -*-\n"
+"import urllib.request\n"
+"import io\n"
+"import ssl\n"
+"\n"
+"def get_password():\n"
+"    '''\n"
+"    :return: Vault password\n"
+"    :return_type: str\n"
+"    '''\n"
+"    ctx = ssl.create_default_context()\n"
+"    ctx.check_hostname = False\n"
+"    ctx.verify_mode = ssl.CERT_NONE\n"
+"\n"
+"    url = 'https://rundeck.rockylinux.org/api/11/storage/keys/ansible/vault'\n"
+"    req = urllib.request.Request(url, headers={\n"
+"                          'Accept': '*/*',\n"
+"                          'X-Rundeck-Auth-Token': '****token-rundeck****'\n"
+"                          })\n"
+"    response = urllib.request.urlopen(req, context=ctx)\n"
+"\n"
+"    return response.read().decode('utf-8')\n"
+"\n"
+"if __name__ == '__main__':\n"
+"    print(get_password())\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:138
+#, no-wrap
+msgid "Working with Windows servers"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:141
+msgid ""
+"It will be necessary to install on the management server several packages:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:143
+msgid "Via the package manager:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:144
+#, no-wrap
+msgid "sudo dnf install python38-devel krb5-devel krb5-libs krb5-workstation\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:149
+msgid ""
+"and configure the `/etc/krb5.conf` file to specify the correct `realms`:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:150
+#, no-wrap
+msgid ""
+"[realms]\n"
+"ROCKYLINUX.ORG = {\n"
+"    kdc = dc1.rockylinux.org\n"
+"    kdc = dc2.rockylinux.org\n"
+"}\n"
+"[domain_realm]\n"
+"  .rockylinux.org = ROCKYLINUX.ORG\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:161
+msgid "Via the python package manager:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:162
+#, no-wrap
+msgid ""
+"pip3 install pywinrm\n"
+"pip3 install pywinrm[credssp]\n"
+"pip3 install kerberos requests-kerberos\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:168
+#, no-wrap
+msgid "Working with IP modules"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:171
+msgid "Network modules usually require the `netaddr` python module:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:172
+#, no-wrap
+msgid "sudo pip3 install netaddr\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:176
+#, no-wrap
+msgid "Generating a CMDB"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:179
+msgid ""
+"A tool, `ansible-cmdb` has been developed to generate a CMDB from ansible."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:180
+#, no-wrap
+msgid "pip3 install ansible-cmdb\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:185
+msgid "The facts must be exported by ansible with the following command:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:186
+#, no-wrap
+msgid "ansible --become --become-user=root -o -m setup --tree /var/www/ansible/cmdb/out/\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:191
+msgid "You can then generate a global `json` file:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:192
+#, no-wrap
+msgid "ansible-cmdb -t json /var/www/ansible/cmdb/out/linux > /var/www/ansible/cmdb/cmdb-linux.json\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:197
+msgid "If you prefer a web interface:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:198
+#, no-wrap
+msgid "ansible-cmdb -t html_fancy_split /var/www/ansible/cmdb/out/\n"
+msgstr ""
