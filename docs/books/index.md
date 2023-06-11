@@ -1,7 +1,7 @@
 ---
 title: Books Home
 author: Steven Spencer
-contributors: @fromoz
+contributors: fromoz
 ---
 
 # Rocky Linux Instructional Books
