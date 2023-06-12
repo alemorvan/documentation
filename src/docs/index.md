@@ -4,29 +4,13 @@ title: Home
 
 # Rocky Linux Documentation
 
-Test with Franco!
-
-
-```
-$ bash test
-```
-
-!!! Note
-    Test test test
-
-## Test with Steven
-
-We will see that everything will `work`.
-
-Great.
-
 ## Welcome!
 
 You've found us! Welcome to the documentation hub for Rocky Linux; we are glad you're here. We have several contributors adding content, and that content is growing all the time. Here you will find documents on how to build Rocky Linux itself, as well as documents on various subjects that are important to the Rocky Linux community. Who makes up that community you ask?
 
 Well actually, you do.
 
-This home page will give you an introduction to the documentation website and how to find your way around - we're confident that you will feel right at home.
+This home page will give you an introduction to the documentation website and how to find your way around — we're confident that you will feel right at home.
 
 ## Navigating the Site
 

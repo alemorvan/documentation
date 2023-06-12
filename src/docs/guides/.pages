@@ -1,0 +1,24 @@
+---
+nav:
+    - ... | index*.md
+    - ... | installation*.md
+    - ... | 8_6_installation*.md
+    - ... | migrate2rocky*.md
+    - ... | custom-linux-kernel*.md
+    - Contribute: contribute
+    - Automation: automation
+    - Backup & Sync: backup
+    - Content Management: cms
+    - Communications: communications
+    - Containers: containers
+    - Database: database
+    - Desktop: desktop
+    - DNS: dns
+    - Editors: editors
+    - Email: email
+    - File Sharing Services: file_sharing
+    - Interoperability: interoperability
+    - Mirror Management: mirror_management
+    - Network: network
+    - Package Management: package_management
+    - ...
