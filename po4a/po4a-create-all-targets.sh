@@ -27,7 +27,7 @@ PO_DIR="./_po"
 # Directories where the translated files will be
 BUILD_DIR="../build"
 
-po4a_conf="_po4a.conf"
+po4a_conf="doc_po4a.conf"
 lang="fr_FR it_IT"
 
 # CHECK FOR PO4A INSTALLATION
@@ -53,26 +53,13 @@ if ! [ -d "$SRC_DIR" ] ; then
     exit 1
 fi
 
+echo "Clean all po4a"
 # Suppress old po4a config files
 find "${PO_DIR}" -name "*.${po4a_conf}" -exec rm "{}" \;
 
-# RUN PO4A ON EACH MD FILE FROM SRC_DIR
-for file_path in $(find "$SRC_DIR" -name "*.md")
-do
-    echo "Working with ${file_path}"
-    # Get directory and file name
-    fulldir=$(dirname "$file_path")
-    absolutedir=${fulldir#"${SRC_DIR}"}
-    dir=${absolutedir#"/"}
-    file=$(basename "$file_path" ".md")
+# Generate the header of the config file
 
-    # Ensure destination directory exists
-    if ! [ -d "${PO_DIR}/${dir}" ] ; then
-	mkdir -p "${PO_DIR}/${dir}"
-    fi
-
-    
-    echo "
+echo "
 # po4a - Rocky Linux Documentation
 #
 # This file is auto-generated, don't modify it!
@@ -86,16 +73,35 @@ do
 [po4a_langs] ${lang}
 
 # Path of files where to locate .pot and .po
-[po4a_paths] ${PO_DIR}/${dir}/\$master.pot \$lang:${PO_DIR}/${dir}/\$master.\$lang.po
+[po4a_paths] ${PO_DIR}/\$master.pot \$lang:${PO_DIR}/\$lang/\$master.\$lang.po
 # Options to pass to po4a
-[po4a_alias: md] text opt:\"-o markdown -o yfm_keys=title\"
+[po4a_alias: md] text opt:\"-o markdown -o yfm_keys=title --addendum-charset=UTF-8 --localized-charset=UTF-8 --master-charset=UTF-8 --master-language=en_US --porefs=file --wrap-po=newlines --msgmerge-opt=--no-wrap \"
 
-# Path to final Markdown file - source -> translation
-[type: md] $file_path \$lang:${BUILD_DIR}/${dir}/${file}.\$lang.md
-" > "${PO_DIR}/${dir}/${file}_po4a.conf"
+" > "${po4a_conf}"
 
-    po4a -k 0 "${PO_DIR}/${dir}/${file}${po4a_conf}"
+
+echo "Search for md files"
+# RUN PO4A ON EACH MD FILE FROM SRC_DIR
+for file_path in $(find "$SRC_DIR" -name "*.md")
+do
+    echo "Working with ${file_path}"
+    # Get directory and file name
+    fulldir=$(dirname "$file_path")
+    absolutedir=${fulldir#"${SRC_DIR}"}
+    dir=${absolutedir#"/"}
+    file=$(basename "$file_path" ".md")
+    master=$(basename ${dir})
+    echo "Master is : ${master}"
+    echo "[type: md] $file_path \$lang:${BUILD_DIR}/${dir}/${file}.\$lang.md master:file=${master}" >> "${po4a_conf}"
+
 done 
+
+cat "${po4a_conf}"
+# Path to final Markdown file - source -> translation
+echo "Launching po4a"
+
+mkdir "${PO_DIR}"
+po4a -v -k 0 "${po4a_conf}"
 
 # Produce a file with translation status of all .po files
 source ./po4a-stats.sh
