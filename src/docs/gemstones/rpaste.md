@@ -1,7 +1,7 @@
 ---
 title: rpaste - Pastebin Tool
 author: Steven Spencer
-contributors:
+contributors: Colussi Franco
 tags:
   - rpaste
   - Mattermost
