@@ -1,7 +1,7 @@
 ---
 title: Pound
 author: Steven Spencer
-contributors:
+contributors: Colussi Franco
 tested with: 8.5, 8.6
 tags:
   - proxy
