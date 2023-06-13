@@ -1,7 +1,7 @@
 ---
 title: dnf - swap command
 author: wale soyinka
-contributors:
+contributors: Colussi Franco
 date: 2023-01-24
 tags:
   - cloud images
