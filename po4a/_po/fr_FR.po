@@ -13,715 +13,79 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/communications_asterisk_installation.pot\n"
-"X-Crowdin-File-ID: 1209\n"
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/06-users.md:308
-#: ../src/docs/books/admin_guide/06-users.md:644
-#: ../src/docs/books/admin_guide/07-file-systems.md:195
-#: ../src/docs/books/disa_stig/disa_stig_part2.md:30
-#: ../src/docs/books/learning_bash/01-first-script.md:46
-#: ../src/docs/books/learning_bash/01-first-script.md:77
-#: ../src/docs/books/learning_bash/02-using-variables.md:185
-#: ../src/docs/books/learning_bash/05-tests.md:63
-#: ../src/docs/books/lxd_server/07-configurations.md:102
-#: ../src/docs/books/nvchad/install_nvchad.md:182
-#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:53
-#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:133
-#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:153
-#: ../src/docs/guides/automation/cron_jobs_howto.md:83
-#: ../src/docs/guides/automation/cron_jobs_howto.md:125
-#: ../src/docs/guides/automation/cron_jobs_howto.md:160
-#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:44
-#: ../src/docs/guides/cms/dokuwiki_server.md:216
-#: ../src/docs/guides/communications/asterisk_installation.md:12
-#: ../src/docs/guides/containers/podman-nextcloud.md:361
-#: ../src/docs/guides/contribute/rockydocs_formatting.md:72
-#: ../src/docs/guides/contribute/rockydocs_formatting.md:350
-#: ../src/docs/guides/desktop/kde_installation.md:16
-#: ../src/docs/guides/file_sharing/sftp.md:54
-#: ../src/docs/guides/file_sharing/sftp.md:129
-#: ../src/docs/guides/file_sharing/sftp.md:321
-#: ../src/docs/guides/proxies/pound.md:62
-#: ../src/docs/guides/proxies/pound.md:418 ../src/docs/index.md:40
-#: ../src/docs/release_notes/9_1.md:16
-msgid "!!! note"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/admin_guide/13-softwares.md:900
-#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:105
-#: ../src/docs/books/nvchad/template_chadrc.md:352
-#: ../src/docs/gemstones/bash_stub.md:103
-#: ../src/docs/gemstones/perl_search_replace.md:38
-#: ../src/docs/gemstones/sed_search_replace.md:72
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:172
-#: ../src/docs/guides/automation/olivetin.md:142
-#: ../src/docs/guides/cms/dokuwiki_server.md:306
-#: ../src/docs/guides/communications/asterisk_installation.md:261
-#: ../src/docs/guides/containers/lxd_web_servers.md:919
-#: ../src/docs/guides/containers/podman-nextcloud.md:456
-#: ../src/docs/guides/contribute/local_docs.md:47
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:322
-#: ../src/docs/guides/contribute/navigation.md:129
-#: ../src/docs/guides/contribute/rockydocs_formatting.md:458
-#: ../src/docs/guides/database/database_mariadb-server.md:197
-#: ../src/docs/guides/desktop/kde_installation.md:105
-#: ../src/docs/guides/desktop/mate_installation.md:200
-#: ../src/docs/guides/desktop/xfce_installation.md:218
-#: ../src/docs/guides/editors/micro.md:79
-#: ../src/docs/guides/email/postfix_reporting.md:254
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:270
-#: ../src/docs/guides/file_sharing/sftp.md:765
-#: ../src/docs/guides/proxies/pound.md:460
-#: ../src/docs/guides/security/dnf_automatic.md:119
-#: ../src/docs/guides/security/enabling_iptables_firewall.md:54
-#: ../src/docs/guides/security/firewalld-beginners.md:427
-#: ../src/docs/guides/security/firewalld.md:477
-#: ../src/docs/guides/security/pam.md:137
-#: ../src/docs/guides/security/ssl_keys_https.md:136
-#: ../src/docs/guides/virtualization/vbox-rocky.md:160
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:147
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:235
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:157
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:91
-#: ../src/docs/guides/web/mod_SSL_apache.md:171
-#: ../src/docs/guides/web/nginx-mainline.md:352
-#: ../src/docs/guides/web/nginx-multisite.md:359
-#, no-wrap
-msgid "Conclusion"
-msgstr ""
-
-#. type: YAML Front Matter: contributors
-#: ../src/docs/books/disa_stig/disa_stig_part2.md:1
-#: ../src/docs/books/disa_stig/disa_stig_part3.md:1
-#: ../src/docs/books/disa_stig/disa_stig_part1.md:1
-#: ../src/docs/books/learning_ansible/07-working-with-filters.md:1
-#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:1
-#: ../src/docs/books/learning_bash/00-toc.md:1
-#: ../src/docs/books/learning_bash/01-first-script.md:1
-#: ../src/docs/books/learning_bash/02-using-variables.md:1
-#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:1
-#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:1
-#: ../src/docs/books/learning_bash/05-tests.md:1
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:1
-#: ../src/docs/books/learning_bash/07-loops.md:1
-#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:1
-#: ../src/docs/books/learning_rsync/01_rsync_overview.md:1
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:1
-#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:1
-#: ../src/docs/books/learning_rsync/05_rsync_authentication-free_login.md:1
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:1
-#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:1
-#: ../src/docs/books/nvchad/additional_software.md:1
-#: ../src/docs/books/nvchad/index.md:1
-#: ../src/docs/books/nvchad/install_nvchad.md:1
-#: ../src/docs/books/nvchad/install_nvim.md:1
-#: ../src/docs/books/nvchad/nerd_fonts.md:1
-#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:1
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:1
-#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:1
-#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:1
-#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:1
-#: ../src/docs/books/nvchad/plugins/index.md:1
-#: ../src/docs/books/nvchad/plugins/md_preview.md:1
-#: ../src/docs/books/nvchad/plugins/projectmgr.md:1
-#: ../src/docs/books/nvchad/template_chadrc.md:1
-#: ../src/docs/gemstones/RL9_network_manager.md:1
-#: ../src/docs/gemstones/htop.md:1 ../src/docs/gemstones/mtr.md:1
-#: ../src/docs/gemstones/setup_local_repo.md:1
-#: ../src/docs/gemstones/string_color.md:1
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:1
-#: ../src/docs/gemstones/view_kernel_conf.md:1
-#: ../src/docs/guides/automation/anacron.md:1
-#: ../src/docs/guides/automation/cronie.md:1
-#: ../src/docs/guides/automation/olivetin.md:1
-#: ../src/docs/guides/communications/asterisk_installation.md:1
-#: ../src/docs/guides/containers/lxd_web_servers.md:1
-#: ../src/docs/guides/contribute/local_docs.md:1
-#: ../src/docs/guides/contribute/mkdocs_venv.md:1
-#: ../src/docs/guides/contribute/style_guide.md:1
-#: ../src/docs/guides/editors/micro.md:1
-#: ../src/docs/guides/file_sharing/glusterfs.md:1
-#: ../src/docs/guides/installation.md:1
-#: ../src/docs/guides/security/dnf_automatic.md:1
-#: ../src/docs/guides/security/firewalld-beginners.md:1
-#: ../src/docs/guides/web/nginx-multisite.md:1 ../src/docs/guides/web/php.md:1
-#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:1
-#, no-wrap
-msgid "Steven Spencer"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/lxd_server/30-appendix_a.md:15
-#: ../src/docs/books/nvchad/vale_nvchad.md:16
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:20
-#: ../src/docs/guides/automation/anacron.md:10
-#: ../src/docs/guides/automation/cron_jobs_howto.md:14
-#: ../src/docs/guides/backup/mirroring_lsyncd.md:13
-#: ../src/docs/guides/backup/rsnapshot_backup.md:13
-#: ../src/docs/guides/backup/rsync_ssh.md:12
-#: ../src/docs/guides/communications/asterisk_installation.md:25
-#: ../src/docs/guides/database/database_mariadb-server.md:13
-#: ../src/docs/guides/desktop/kde_installation.md:20
-#: ../src/docs/guides/desktop/mate_installation.md:17
-#: ../src/docs/guides/desktop/xfce_installation.md:17
-#: ../src/docs/guides/editors/micro.md:33
-#: ../src/docs/guides/email/postfix_reporting.md:14
-#: ../src/docs/guides/file_sharing/glusterfs.md:10
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:14
-#: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:14
-#: ../src/docs/guides/network/basic_network_configuration.md:16
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:8
-#: ../src/docs/guides/security/enabling_iptables_firewall.md:14
-#: ../src/docs/guides/security/ssh_public_private_keys.md:14
-#: ../src/docs/guides/security/ssl_keys_https.md:14
-#: ../src/docs/guides/virtualization/vbox-rocky.md:19
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:15
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:15
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:14
-#: ../src/docs/guides/web/mod_SSL_apache.md:14
-#, no-wrap
-msgid "Prerequisites"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/backup/mirroring_lsyncd.md:25
-#: ../src/docs/guides/communications/asterisk_installation.md:36
-msgid "You will need root access, and ideally be signed in as the root user in your terminal"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/backup/mirroring_lsyncd.md:25
-#: ../src/docs/guides/communications/asterisk_installation.md:36
-msgid "The EPEL repositories from Fedora"
-msgstr ""
-
-#. type: YAML Front Matter: tags
-#: ../src/docs/guides/communications/asterisk_installation.md:1
-#, no-wrap
-msgid "asterisk"
-msgstr ""
-
-#. type: YAML Front Matter: tags
-#: ../src/docs/guides/communications/asterisk_installation.md:1
-#, no-wrap
-msgid "pbx"
-msgstr ""
-
-#. type: YAML Front Matter: tags
-#: ../src/docs/guides/communications/asterisk_installation.md:1
-#, no-wrap
-msgid "communications"
-msgstr ""
+"X-Crowdin-File: /po4a/po4a/_po/admin_guide_00-toc.pot\n"
+"X-Crowdin-File-ID: 1213\n"
 
 #. type: YAML Front Matter: title
-#: ../src/docs/guides/communications/asterisk_installation.md:1
+#: ../src/docs/books/admin_guide/00-toc.md:1
 #, no-wrap
-msgid "Installing Asterisk"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:14
-#, no-wrap
-msgid "    The last version of Rocky Linux that this procedure was tested on was version 8.5. Because the bulk of this procedure relies on source builds directly from Asterisk and a simple set of Development Tools from Rocky Linux, it should work on all versions. If you run into a problem, please let us know!\n"
+msgid "Learning Linux With Rocky"
 msgstr ""
 
 #. type: Title #
-#: ../src/docs/guides/communications/asterisk_installation.md:15
+#: ../src/docs/books/admin_guide/00-toc.md:5
 #, no-wrap
-msgid "Installing Asterisk on Rocky Linux"
+msgid "Learning Linux with Rocky"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:18
+#: ../src/docs/books/admin_guide/00-toc.md:8
+msgid "The Administrator's Guide is a collection of educational documents focused on System Administrators. They can be used by future System Administrators trying to get up to speed, by current System Administrators who would like a refresher, or by any Linux user who'd like to learn more about the Linux environment, commands, processes, and more. Like all documents of this type, it will evolve and update over time."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/00-toc.md:10
+msgid "We start with Introduction to Linux, which outlines Linux, distributions, and the whole ecosystem around our operating system."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/00-toc.md:12
+msgid "User Commands contains essential commands for getting up to speed with Linux. More experienced users should also consult the following chapter on Advanced Linux Commands."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/00-toc.md:14
+msgid "The VI Text Editor deserves its own chapter. While Linux comes with many editors, VI is one of the most powerful. Other commands sometimes use identical syntax to VI (`sed` comes to mind). So, knowing something about VI, or at least demystifying its essential functions (how to open a file, save, quit or quit without saving), is very important. The user will become more comfortable with the other functions of VI as they use the editor. An alternative would be to use nano which comes installed by default in Rocky Linux. While not as versatile, it is simple to use, straightforward, and gets the job done."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/00-toc.md:16
+msgid "We can then get into the deep functioning of Linux to discover how the system addresses:"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/admin_guide/00-toc.md:20
+#: ../src/docs/books/admin_guide/06-users.md:1
+#: ../src/docs/books/admin_guide/06-users.md:5
 #, no-wrap
-msgid "**What is Asterisk?**\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:20
-msgid "Asterisk is an open source framework for building communications applications. Additionally, Asterisk turns an ordinary computer into a communications server, as well as powering IP PBX systems, VoIP gateways, conference servers and other custom solutions. It is used by small businesses, large businesses, call centers, carriers, and government agencies worldwide."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:22
-msgid "Asterisk is free and open source and is sponsored by [Sangoma](https://www.sangoma.com/). Sangoma also offers commercial products that use Asterisk under the hood, and depending on your experience and budget, using these products may be more beneficial than rolling your own. Only you and your organization know that answer."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:24
-msgid "It should be noted that this guide requires the administrator to do a fair amount of research on their own. Installing a communications server is not a difficult process, but running one can be quite complicated. While this guide will get your server up and running, it will not be fully ready for you to use in production."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:28
-msgid "At minimum, you will need the following skills and tools to complete this guide:"
+msgid "User Management"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/guides/communications/asterisk_installation.md:36
-msgid "A machine running Rocky Linux"
+#: ../src/docs/books/admin_guide/00-toc.md:20
+msgid "File Systems"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/guides/communications/asterisk_installation.md:36
-msgid "A comfort level with modifying configuration files and issuing commands from the command-line"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/communications/asterisk_installation.md:36
-msgid "Knowledge of how to use a command line editor (We are using `vi` here, but feel free to substitute in your favorite editor.)"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/communications/asterisk_installation.md:36
-msgid "The ability to login as root or run root commands with _sudo_. All commands here assume a user that has _sudo_ rights, however the configuration and build processes are run with `sudo -s`."
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/communications/asterisk_installation.md:36
-msgid "To grab the latest build of Asterisk, you will need to either use `curl` or `wget`. This guide uses `wget`, but feel free to substitute in the appropriate `curl` string if you want to use that."
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/communications/asterisk_installation.md:37
+#. type: Title #
+#: ../src/docs/books/admin_guide/00-toc.md:20
+#: ../src/docs/books/admin_guide/08-process.md:1
+#: ../src/docs/books/admin_guide/08-process.md:5
 #, no-wrap
-msgid "Update Rocky Linux and Install `wget`"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/communications/asterisk_installation.md:39
-#, no-wrap
-msgid "sudo dnf -y update\n"
+msgid "Process Management"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:44
-msgid "This will get your server up-to-date with all packages that have been released or updated since the last update or install. Then run:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/communications/asterisk_installation.md:45
-#, no-wrap
-msgid "sudo dnf install wget\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/communications/asterisk_installation.md:49
-#, no-wrap
-msgid "Set Hostname"
+#: ../src/docs/books/admin_guide/00-toc.md:22
+msgid "Backup and Restoration is essential info for the System Administrator. Linux comes with many software solutions to enhance backups (rsnapshot, lsyncd, etcetera.). It is valuable to know the essential components of the backup that exist within the operating system. We investigate two tools: `tar` and the less widespread `cpio` in this chapter."
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:52
-msgid "Set your host name to the domain you'll be using for Asterisk."
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/communications/asterisk_installation.md:53
-#, no-wrap
-msgid "sudo hostnamectl set-hostname asterisk.example.com\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/communications/asterisk_installation.md:57
-#, no-wrap
-msgid "Add Needed Repositories"
+#: ../src/docs/books/admin_guide/00-toc.md:24
+msgid "System Startup is also an important read because management of the system during the boot process has evolved significantly in recent years since the arrival of the systemd."
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:60
-msgid "First, install the EPEL (Extra Packages for Enterprise Linux):"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/communications/asterisk_installation.md:61
-#, no-wrap
-msgid "sudo dnf -y install epel-release\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:66
-msgid "Next, enable Rocky Linux' PowerTools:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/communications/asterisk_installation.md:67
-#, no-wrap
-msgid "sudo dnf config-manager --set-enabled powertools\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/communications/asterisk_installation.md:71
-#, no-wrap
-msgid "Install Development Tools"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/communications/asterisk_installation.md:73
-#, no-wrap
-msgid "sudo dnf group -y install \"Development Tools\"\n"
-"sudo dnf -y install git wget  \n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/communications/asterisk_installation.md:78
-#, no-wrap
-msgid "Install Asterisk"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/guides/communications/asterisk_installation.md:80
-#, no-wrap
-msgid "Downloading and Configuring the Asterisk Build"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:83
-msgid "Before you download this script, make sure you have the latest version. To do so, navigate to [the Asterisk download link here](http://downloads.asterisk.org/pub/telephony/asterisk/) and look for the latest build of Asterisk. Then copy the link location. As of the writing of this document, the following was the latest build:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/communications/asterisk_installation.md:84
-#, no-wrap
-msgid "wget http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-20-current.tar.gz \n"
-"tar xvfz asterisk-20-current.tar.gz\n"
-"cd asterisk-20.0.0/\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:91
-msgid "Before running the `install_prereq` below (and the remaining commands), you are going to need to be the superuser or root. It's much easier at this point to get into _sudo_ permanently for a while. We will exit back out of _sudo_ later in the process:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/communications/asterisk_installation.md:92
-#, no-wrap
-msgid "sudo -s\n"
-"contrib/scripts/install_prereq install\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:98
-msgid "You should see the following when the script completes:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/communications/asterisk_installation.md:99
-#, no-wrap
-msgid "#############################################\n"
-"## install completed successfully\n"
-"#############################################\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:106
-msgid "Now that all of the required packages are installed, our next step is to configure and build Asterisk:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/communications/asterisk_installation.md:107
-#, no-wrap
-msgid "./configure --libdir=/usr/lib64 --with-jansson-bundled=yes\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:112
-msgid "Assuming that the configuration runs without issue, you should get a large ASCII Asterisk emblem, followed by the following on Rocky Linux:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/communications/asterisk_installation.md:113
-#, no-wrap
-msgid "configure: Package configured for:\n"
-"configure: OS type  : linux-gnu\n"
-"configure: Host CPU : x86_64\n"
-"configure: build-cpu:vendor:os: x86_64 : pc : linux-gnu :\n"
-"configure: host-cpu:vendor:os: x86_64 : pc : linux-gnu :\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/guides/communications/asterisk_installation.md:121
-#, no-wrap
-msgid "Set Asterisk menu options [For more options]"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:124
-msgid "This is one of the steps where the administrator is going to need to do his homework. There are a lot of menu options that you may or may not need. Running the following command:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/communications/asterisk_installation.md:125
-#, no-wrap
-msgid "make menuselect\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:130
-msgid "will bring you to a menu select screen:"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:132
-msgid "![menuselect screen](../images/asterisk_menuselect.png)"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:134
-msgid "Look through these options carefully and make selections based on your requirements. As stated earlier, this may take some additional homework."
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/guides/communications/asterisk_installation.md:135
-#, no-wrap
-msgid "Build and Install Asterisk"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:138
-msgid "To build, we want to execute the following commands in succession:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/communications/asterisk_installation.md:139
-#, no-wrap
-msgid "make\n"
-"make install\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:145
-msgid "Installing the documentation isn't required, but unless you are a communications server expert, you'll want them installed:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/communications/asterisk_installation.md:146
-#, no-wrap
-msgid "make progdocs\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:151
-msgid "Next install the basic PBX and make the config. The basic PBX is just that, very basic! You will probably need to make changes going forward to get your PBX to function as you want it to."
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/communications/asterisk_installation.md:152
-#, no-wrap
-msgid "make basic-pbx\n"
-"make config\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/communications/asterisk_installation.md:157
-#, no-wrap
-msgid "Asterisk Configuration"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/guides/communications/asterisk_installation.md:159
-#, no-wrap
-msgid "Create User & Group"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:162
-msgid "You'll need a specific user just for asterisk. Might as well create it now."
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/communications/asterisk_installation.md:163
-#, no-wrap
-msgid "groupadd asterisk\n"
-"useradd -r -d /var/lib/asterisk -g asterisk asterisk\n"
-"chown -R asterisk.asterisk /etc/asterisk /var/{lib,log,spool}/asterisk /usr/lib64/asterisk\n"
-"restorecon -vr {/etc/asterisk,/var/lib/asterisk,/var/log/asterisk,/var/spool/asterisk}\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:171
-msgid "Now that the bulk of our work is completed, go ahead and exit out of the `sudo -s` command. This will require that most of the remaining commands use _sudo_ again:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/communications/asterisk_installation.md:172
-#: ../src/docs/guides/network/librenms_monitoring_server.md:108
-#, no-wrap
-msgid "exit\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/guides/communications/asterisk_installation.md:176
-#, no-wrap
-msgid "Set Default User & Group"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/communications/asterisk_installation.md:178
-#, no-wrap
-msgid "sudo vi /etc/sysconfig/asterisk\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:183
-#: ../src/docs/guides/communications/asterisk_installation.md:194
-msgid "Remove the comments on the two lines below and save:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/communications/asterisk_installation.md:184
-#, no-wrap
-msgid "AST_USER=\"asterisk\"\n"
-"AST_GROUP=\"asterisk\"\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/communications/asterisk_installation.md:189
-#, no-wrap
-msgid "sudo vi /etc/asterisk/asterisk.conf\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/communications/asterisk_installation.md:195
-#, no-wrap
-msgid "runuser = asterisk ; The user to run as.\n"
-"rungroup = asterisk ; The group to run as.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/guides/communications/asterisk_installation.md:200
-#, no-wrap
-msgid "Configure Asterisk Service"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/communications/asterisk_installation.md:202
-#, no-wrap
-msgid "sudo systemctl enable asterisk\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/guides/communications/asterisk_installation.md:206
-#, no-wrap
-msgid "Configure Firewall"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:209
-msgid "This example uses `firewalld` for the firewall, which is the default in Rocky Linux. The goal here is to open SIP ports to the world and to open RTP (Realtime Transport Protocol) to the world on ports 10000-20000 as recommended by the Asterisk documentation."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:211
-msgid "Keep in mind that you will almost certainly need other firewall rules for other forward-facing services (HTTP/HTTPS) which you will probably want to limit to your own IP addresses. That is beyond the scope of this document:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/communications/asterisk_installation.md:212
-#, no-wrap
-msgid "sudo firewall-cmd --zone=public --add-service sip --permanent\n"
-"sudo firewall-cmd --zone=public --add-port=10000-20000/udp --permanent\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:218
-msgid "Since we've made the `firewalld` commands permanent, we will need to do a reboot of the server. You can do that with:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/communications/asterisk_installation.md:219
-#, no-wrap
-msgid "sudo shutdown -r now\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/communications/asterisk_installation.md:223
-#, no-wrap
-msgid "Test"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/guides/communications/asterisk_installation.md:225
-#, no-wrap
-msgid "The Asterisk Console"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:228
-msgid "To test, let's connect to the Asterisk console:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/communications/asterisk_installation.md:229
-#, no-wrap
-msgid "sudo asterisk -r\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:234
-msgid "Which will bring you into the Asterisk command-line client. You will see this prompt after the basic Asterisk information is displayed:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/communications/asterisk_installation.md:235
-#, no-wrap
-msgid "asterisk*CLI>\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:240
-msgid "To change the verbosity of the console, use the following:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/communications/asterisk_installation.md:241
-#, no-wrap
-msgid "core set verbose 4\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:246
-msgid "Which should show you the following in the Asterisk console:"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/communications/asterisk_installation.md:247
-#, no-wrap
-msgid "Console verbose was OFF and is now 4.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/guides/communications/asterisk_installation.md:251
-#, no-wrap
-msgid "Show Sample End-Point Authentications"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:254
-msgid "At the Asterisk command-line client prompt, type:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/communications/asterisk_installation.md:255
-#, no-wrap
-msgid "pjsip show auth 1101\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:260
-msgid "This will return username and password information that you can then use to connect any SIP client with."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:264
-msgid "The above will get you up and running with the server, but finishing out the configuration, connecting devices, and further troubleshooting is up to you."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/communications/asterisk_installation.md:265
-msgid "Running an Asterisk communications server takes a lot of time and effort and will require a lot of research by any administrator. For more information on how to configure and use Asterisk, take a look at the [Asterisk Wiki here.](https://wiki.asterisk.org/wiki/display/AST/Getting+Started)"
+#: ../src/docs/books/admin_guide/00-toc.md:27
+msgid "Final chapters address Task Management, Implementing the Network, and Software Management including installation."
 msgstr ""
 
