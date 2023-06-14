@@ -92,7 +92,7 @@ do
     file=$(basename "$file_path" ".md")
     master=$(basename ${dir})
     echo "Master is : ${master}"
-    echo "[type: md] $file_path \$lang:${BUILD_DIR}/${dir}/${file}.\$lang.md master:file=${master}" >> "${po4a_conf}"
+    echo "[type: md] $file_path \$lang:${BUILD_DIR}/${dir}/${file}.\$lang.md master:file=${master}_${file}" >> "${po4a_conf}"
 
 done 
 

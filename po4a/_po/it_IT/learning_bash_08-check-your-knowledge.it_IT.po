@@ -1,0 +1,267 @@
+# Italian translations for po package
+# Traduzioni italiane per il pacchetto po.
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"PO-Revision-Date: 2023-06-14 07:11+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Bullet: '- '
+#: ../src/docs/books/admin_guide/01-presentation.md:259
+#: ../src/docs/books/admin_guide/01-presentation.md:303
+#: ../src/docs/books/admin_guide/01-presentation.md:308
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:18
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:23
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:28
+msgid "[ ] True"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/admin_guide/01-presentation.md:259
+#: ../src/docs/books/admin_guide/01-presentation.md:303
+#: ../src/docs/books/admin_guide/01-presentation.md:308
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:18
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:23
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:28
+msgid "[ ] False"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/admin_guide/13-softwares.md:1
+#: ../src/docs/books/learning_bash/00-toc.md:1
+#: ../src/docs/books/learning_bash/01-first-script.md:1
+#: ../src/docs/books/learning_bash/02-using-variables.md:1
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:1
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:1
+#: ../src/docs/books/learning_bash/05-tests.md:1
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:1
+#: ../src/docs/books/learning_bash/07-loops.md:1
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:1
+#, no-wrap
+msgid "education"
+msgstr ""
+
+#. type: YAML Front Matter: contributors
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part3.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:1
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:1
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:1
+#: ../src/docs/books/learning_bash/00-toc.md:1
+#: ../src/docs/books/learning_bash/01-first-script.md:1
+#: ../src/docs/books/learning_bash/02-using-variables.md:1
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:1
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:1
+#: ../src/docs/books/learning_bash/05-tests.md:1
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:1
+#: ../src/docs/books/learning_bash/07-loops.md:1
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:1
+#: ../src/docs/books/learning_rsync/01_rsync_overview.md:1
+#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:1
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:1
+#: ../src/docs/books/learning_rsync/05_rsync_authentication-free_login.md:1
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:1
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:1
+#: ../src/docs/books/nvchad/additional_software.md:1
+#: ../src/docs/books/nvchad/index.md:1
+#: ../src/docs/books/nvchad/install_nvchad.md:1
+#: ../src/docs/books/nvchad/install_nvim.md:1
+#: ../src/docs/books/nvchad/nerd_fonts.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:1
+#: ../src/docs/books/nvchad/plugins/index.md:1
+#: ../src/docs/books/nvchad/plugins/md_preview.md:1
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:1
+#: ../src/docs/books/nvchad/template_chadrc.md:1
+#: ../src/docs/gemstones/RL9_network_manager.md:1
+#: ../src/docs/gemstones/htop.md:1 ../src/docs/gemstones/mtr.md:1
+#: ../src/docs/gemstones/setup_local_repo.md:1
+#: ../src/docs/gemstones/string_color.md:1
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:1
+#: ../src/docs/gemstones/view_kernel_conf.md:1
+#: ../src/docs/guides/automation/anacron.md:1
+#: ../src/docs/guides/automation/cronie.md:1
+#: ../src/docs/guides/automation/olivetin.md:1
+#: ../src/docs/guides/communications/asterisk_installation.md:1
+#: ../src/docs/guides/containers/lxd_web_servers.md:1
+#: ../src/docs/guides/contribute/local_docs.md:1
+#: ../src/docs/guides/contribute/mkdocs_venv.md:1
+#: ../src/docs/guides/contribute/style_guide.md:1
+#: ../src/docs/guides/editors/micro.md:1
+#: ../src/docs/guides/file_sharing/glusterfs.md:1
+#: ../src/docs/guides/installation.md:1
+#: ../src/docs/guides/security/dnf_automatic.md:1
+#: ../src/docs/guides/security/firewalld-beginners.md:1
+#: ../src/docs/guides/web/nginx-multisite.md:1 ../src/docs/guides/web/php.md:1
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:1
+#, no-wrap
+msgid "Steven Spencer"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/learning_bash/00-toc.md:1
+#: ../src/docs/books/learning_bash/01-first-script.md:1
+#: ../src/docs/books/learning_bash/02-using-variables.md:1
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:1
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:1
+#: ../src/docs/books/learning_bash/05-tests.md:1
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:1
+#: ../src/docs/books/learning_bash/07-loops.md:1
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:1
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:1
+#, no-wrap
+msgid "bash scripting"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/learning_bash/00-toc.md:1
+#: ../src/docs/books/learning_bash/01-first-script.md:1
+#: ../src/docs/books/learning_bash/02-using-variables.md:1
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:1
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:1
+#: ../src/docs/books/learning_bash/05-tests.md:1
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:1
+#: ../src/docs/books/learning_bash/07-loops.md:1
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:1
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:1
+#: ../src/docs/gemstones/string_color.md:1
+#: ../src/docs/guides/automation/olivetin.md:1
+#, no-wrap
+msgid "bash"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:1
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:12
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:1
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:12
+#, no-wrap
+msgid "Bash - Check your knowledge"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:40
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:54
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:77
+msgid "- [ ] True - [ ] False"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:15
+msgid ""
+":heavy_check_mark: Every order must return a return code at the end of its "
+"execution:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:20
+msgid ":heavy_check_mark: A return code of 0 indicates an execution error:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:25
+msgid ":heavy_check_mark: The return code is stored in the variable `$@`:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:30
+msgid ":heavy_check_mark: The test command allows you to:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:35
+msgid ""
+"- [ ] Test the type of a file - [ ] Test a variable - [ ] Compare numbers - "
+"[ ] Compare the content of 2 files"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:37
+msgid ":heavy_check_mark: The command `expr`:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:41
+msgid ""
+"- [ ] Concatenates 2 strings of characters - [ ] Performs mathematical "
+"operations - [ ] Display text on the screen"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:43
+msgid ""
+":heavy_check_mark: Does the syntax of the conditional structure below seem "
+"correct to you? Explain why."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:44
+#, no-wrap
+msgid ""
+"if command\n"
+"    command if $?=0\n"
+"else\n"
+"    command if $?!=0\n"
+"fi\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:56
+msgid ""
+":heavy_check_mark: What does the following syntax mean: `${variable:=value}`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:60
+msgid ""
+"- [ ] Displays a replacement value if the variable is empty - [ ] Display a "
+"replacement value if the variable is not empty - [ ] Assigns a new value to "
+"the variable if it is empty"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:62
+msgid ""
+":heavy_check_mark: Does the syntax of the conditional alternative structure "
+"below seem correct to you? Explain why."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:63
+#, no-wrap
+msgid ""
+"case $variable in\n"
+"  value1)\n"
+"    commands if $variable = value1\n"
+"  value2)\n"
+"    commands if $variable = value2\n"
+"  *)\n"
+"    commands for all values of $variable != of value1 and value2\n"
+"    ;;\n"
+"esac\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:79
+msgid ""
+":heavy_check_mark: Which of the following is not a structure for looping?"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:83
+msgid "- [ ] while - [ ] until - [ ] loop - [ ] for"
+msgstr ""

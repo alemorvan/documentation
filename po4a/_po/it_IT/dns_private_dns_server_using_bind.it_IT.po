@@ -1,0 +1,1548 @@
+# Italian translations for po package
+# Traduzioni italiane per il pacchetto po.
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"PO-Revision-Date: 2023-06-14 07:11+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Title #
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
+#: ../src/docs/books/learning_ansible/05-deployments.md:31
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/00-toc.md:13
+#: ../src/docs/books/nvchad/index.md:12
+#: ../src/docs/books/nvchad/plugins/index.md:14
+#: ../src/docs/books/nvchad/plugins/md_preview.md:14
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
+#: ../src/docs/books/nvchad/vale_nvchad.md:12
+#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
+#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
+#: ../src/docs/gemstones/string_color.md:11
+#: ../src/docs/guides/automation/cron_jobs_howto.md:25
+#: ../src/docs/guides/automation/olivetin.md:14
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
+#: ../src/docs/guides/backup/rsnapshot_backup.md:22
+#: ../src/docs/guides/backup/rsync_ssh.md:24
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
+#: ../src/docs/guides/cms/dokuwiki_server.md:23
+#: ../src/docs/guides/containers/lxd_web_servers.md:10
+#: ../src/docs/guides/containers/podman-nextcloud.md:13
+#: ../src/docs/guides/contribute/local_docs.md:11
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
+#: ../src/docs/guides/contribute/mkdocs_venv.md:14
+#: ../src/docs/guides/contribute/style_guide.md:14
+#: ../src/docs/guides/database/database_mariadb-server.md:21
+#: ../src/docs/guides/desktop/kde_installation.md:11
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
+#: ../src/docs/guides/editors/micro.md:14
+#: ../src/docs/guides/email/postfix_reporting.md:22
+#: ../src/docs/guides/file_sharing/glusterfs.md:16
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
+#: ../src/docs/guides/file_sharing/sftp.md:16
+#: ../src/docs/guides/migrate2rocky.md:18
+#: ../src/docs/guides/network/basic_network_configuration.md:12
+#: ../src/docs/guides/network/librenms_monitoring_server.md:13
+#: ../src/docs/guides/package_management/index.md:1
+#: ../src/docs/guides/package_management/index.md:5
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
+#: ../src/docs/guides/proxies/pound.md:17
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
+#: ../src/docs/guides/security/firewalld-beginners.md:10
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
+#: ../src/docs/guides/security/ssh_public_private_keys.md:21
+#: ../src/docs/guides/security/ssl_keys_https.md:22
+#: ../src/docs/guides/virtualization/vbox-rocky.md:13
+#: ../src/docs/guides/web/apache-sites-enabled.md:25
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
+#: ../src/docs/guides/web/nginx-mainline.md:13
+#: ../src/docs/guides/web/nginx-multisite.md:14
+#: ../src/docs/labs/security/introduction.md:1
+#: ../src/docs/labs/security/introduction.md:5
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: YAML Front Matter: contributors
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/01-install.md:1
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:1
+#: ../src/docs/books/lxd_server/03-lxdinit.md:1
+#: ../src/docs/books/lxd_server/04-firewall.md:1
+#: ../src/docs/books/lxd_server/05-lxd_images.md:1
+#: ../src/docs/books/lxd_server/06-profiles.md:1
+#: ../src/docs/books/lxd_server/07-configurations.md:1
+#: ../src/docs/books/lxd_server/08-snapshots.md:1
+#: ../src/docs/books/lxd_server/09-snapshot_server.md:1
+#: ../src/docs/books/lxd_server/10-automating.md:1
+#: ../src/docs/gemstones/bash_stub.md:1
+#: ../src/docs/guides/automation/cron_jobs_howto.md:1
+#: ../src/docs/guides/backup/rsnapshot_backup.md:1
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:1
+#: ../src/docs/guides/cms/dokuwiki_server.md:1
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:1
+#: ../src/docs/guides/contribute/navigation.md:1
+#: ../src/docs/guides/desktop/kde_installation.md:1
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:1
+#: ../src/docs/guides/email/postfix_reporting.md:1
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:1
+#: ../src/docs/guides/file_sharing/sftp.md:1
+#: ../src/docs/guides/network/librenms_monitoring_server.md:1
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
+#: ../src/docs/guides/security/ssh_public_private_keys.md:1
+#: ../src/docs/guides/security/ssl_keys_https.md:1
+#: ../src/docs/guides/web/apache-sites-enabled.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
+#, no-wrap
+msgid "Ezequiel Bruni"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/lxd_server/00-toc.md:48 ../src/docs/gemstones/rpaste.md:76
+#: ../src/docs/guides/automation/cron_jobs_howto.md:185
+#: ../src/docs/guides/backup/rsync_ssh.md:161
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:322
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:632
+#: ../src/docs/guides/file_sharing/glusterfs.md:339
+#: ../src/docs/guides/network/librenms_monitoring_server.md:657
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:480
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:339
+#, no-wrap
+msgid "Conclusions"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/nvchad/nerd_fonts.md:52
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:256
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:58
+#: ../src/docs/guides/security/dnf_automatic.md:34
+#: ../src/docs/guides/web/apache-sites-enabled.md:58
+#: ../src/docs/guides/web/php.md:105 ../src/docs/guides/web/php.md:168
+#, no-wrap
+msgid "Configuration"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/containers/podman-nextcloud.md:35
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:19
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:13
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:19
+#: ../src/docs/guides/proxies/pound.md:27
+#: ../src/docs/guides/security/firewalld-beginners.md:36
+#: ../src/docs/guides/security/firewalld.md:25
+#: ../src/docs/guides/security/pam.md:13
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:14
+#: ../src/docs/guides/web/nginx-mainline.md:41
+#: ../src/docs/guides/web/nginx-multisite.md:28
+#, no-wrap
+msgid "Prerequisites and Assumptions"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:23
+#: ../src/docs/guides/desktop/xfce_installation.md:23
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:237
+#: ../src/docs/guides/network/basic_network_configuration.md:23
+msgid "=== \"9\""
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:147
+#: ../src/docs/guides/desktop/xfce_installation.md:99
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:411
+#: ../src/docs/guides/network/basic_network_configuration.md:359
+msgid "=== \"8\""
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:1
+#, no-wrap
+msgid "dns"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:1
+#, no-wrap
+msgid "bind"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:1
+#, no-wrap
+msgid "Bind Private DNS Server"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:11
+#, no-wrap
+msgid "Private DNS Server Using Bind"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:21
+#: ../src/docs/guides/web/apache-sites-enabled.md:18
+msgid "A server running Rocky Linux"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:21
+msgid ""
+"Several internal servers that need to be accessed only locally, but not over "
+"the Internet"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:21
+msgid ""
+"Several workstations that need access to these same servers that exist on "
+"the same network"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:21
+msgid "A healthy comfort level with entering commands from command line"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:21
+msgid ""
+"Familiarity with a command line editor (we are using _vi_ in this example)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:21
+msgid ""
+"Able to use either _firewalld_ or _iptables_ for creating firewall rules. "
+"We've provided both _iptables_ and _firewalld_ options. If you plan to use "
+"_iptables_, use the [Enabling Iptables Firewall procedure](../security/"
+"enabling_iptables_firewall.md)"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:25
+msgid ""
+"External, or public, DNS servers are used on the Internet to map host names "
+"to IP addresses and, in the case of PTR (known as \"pointer\" or \"reverse"
+"\") records, to map the IP to the host name. This is an essential part of "
+"the Internet. It makes your mail server, web server, FTP server, or many "
+"other servers and services work as expected no matter where you are."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:27
+msgid ""
+"On a private network, particularly one that is being used for developing "
+"multiple systems, you can use your Rocky Linux workstation's */etc/hosts* "
+"file to map a name to an IP address."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:29
+msgid ""
+"This will work for _your_ workstation, but not for any other machine on your "
+"network. If you want to make things universally applied, then the best "
+"method is to take some time out and create a local, private DNS server to "
+"handle this for all of your machines."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:31
+msgid ""
+"If you were creating production-level public DNS servers and resolvers, then "
+"this author would probably recommend the more robust [PowerDNS](https://www."
+"powerdns.com/) authoritative and recursive DNS, which is easily installed on "
+"Rocky Linux servers. However, that is simply overkill for a local network "
+"that won't be exposing its DNS servers to the outside world. That is why we "
+"have chosen _bind_ for this example."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:32
+#, no-wrap
+msgid "The DNS Server Components Explained"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:35
+msgid ""
+"As stated, DNS separates services into authoritative and recursive servers. "
+"These services are now recommended to be separate from each other on "
+"separate hardware or containers."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:37
+msgid ""
+"The authoritative server is the storage area for all IP addresses and host "
+"names, and the recursive server is used to lookup addresses and host names. "
+"In the case of our private DNS server, both the authoritative and the "
+"recursive server services will run together."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:38
+#, no-wrap
+msgid "Installing and Enabling Bind"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:41
+msgid ""
+"The first step is to install packages. In the case of _bind_ we need to "
+"execute the following command:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:42
+#, no-wrap
+msgid "dnf install bind bind-utils\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:47
+msgid ""
+"The service daemon for _bind_ is called _named_, and we need to enable this "
+"to start on boot:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:48
+#, no-wrap
+msgid "systemctl enable named\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:53
+msgid "And then we need to start it:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:54
+#, no-wrap
+msgid "systemctl start named\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:61
+msgid ""
+"Before making changes to any configuration file, it is a good idea to make a "
+"backup copy of the original installed working file, in this case _named."
+"conf_:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:62
+#, no-wrap
+msgid "cp /etc/named.conf /etc/named.conf.orig\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:67
+msgid ""
+"That will help in the future if errors are introduced into the configuration "
+"file. It is *always* a good idea to make a backup copy before making changes."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:69
+msgid ""
+"These changes require us to edit the named.conf file, to do this, we are "
+"using _vi_, but you can substitute your favorite command line editor (the "
+"editor `nano` is also installed in Rocky Linux and is easier to use than "
+"`vi`):"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:70
+#, no-wrap
+msgid "vi /etc/named.conf\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:75
+msgid ""
+"First thing we want to do is turn off listening on the localhost, this is "
+"done by remarking out with a \"#\" sign, these two lines in the \"options\" "
+"section. What this does is to effectively shut down any connection to the "
+"outside world."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:77
+msgid ""
+"This is helpful, particularly when we go to add this DNS to our "
+"workstations, because we want the DNS server to only respond when the IP "
+"address requesting the service is local, and simply not respond at all if "
+"the service that is being looked up is on the Internet."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:79
+msgid ""
+"This way, the other configured DNS servers will take over nearly immediately "
+"to look up the Internet based services:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:80
+#, no-wrap
+msgid ""
+"options {\n"
+"#       listen-on port 53 { 127.0.0.1; };\n"
+"#       listen-on-v6 port 53 { ::1; };\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:87
+msgid ""
+"Finally, skip down to the bottom of the *named.conf* file and add a section "
+"for your network. Our example is using ourdomain, so sub in what you want to "
+"call your LAN hosts:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:88
+#, no-wrap
+msgid ""
+"# primary forwward and reverse zones\n"
+"//forward zone\n"
+"zone \"ourdomain.lan\" IN {\n"
+"     type master;\n"
+"     file \"ourdomain.lan.db\";\n"
+"     allow-update { none; };\n"
+"    allow-query {any; };\n"
+"};\n"
+"//reverse zone\n"
+"zone \"1.168.192.in-addr.arpa\" IN {\n"
+"     type master;\n"
+"     file \"ourdomain.lan.rev\";\n"
+"     allow-update { none; };\n"
+"    allow-query { any; };\n"
+"};\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:107
+msgid "Now save your changes (for _vi_, `SHIFT:wq!`)"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:108
+#, no-wrap
+msgid "The Forward and Reverse Records"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:111
+msgid ""
+"Next, we need to create two files in `/var/named`. These files are the ones "
+"that you will edit if you add machines to your network that you want to "
+"include in the DNS."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:113
+msgid ""
+"The first is the forward file to map our IP address to the hostname. Again, "
+"we are using \"ourdomain\" as our example here. Note that the IP of our "
+"local DNS here is 192.168.1.136. The hosts are added at the bottom of this "
+"file."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:114
+#, no-wrap
+msgid "vi /var/named/ourdomain.lan.db\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:119
+msgid "The file will look something like this when you are done:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:120
+#, no-wrap
+msgid ""
+"$TTL 86400\n"
+"@ IN SOA dns-primary.ourdomain.lan. admin.ourdomain.lan. (\n"
+"    2019061800 ;Serial\n"
+"    3600 ;Refresh\n"
+"    1800 ;Retry\n"
+"    604800 ;Expire\n"
+"    86400 ;Minimum TTL\n"
+")\n"
+"\n"
+";Name Server Information\n"
+"@ IN NS dns-primary.ourdomain.lan.\n"
+"\n"
+";IP for Name Server\n"
+"dns-primary IN A 192.168.1.136\n"
+"\n"
+";A Record for IP address to Hostname\n"
+"wiki IN A 192.168.1.13\n"
+"www IN A 192.168.1.14\n"
+"devel IN A 192.168.1.15\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:143
+msgid ""
+"Add as many hosts as you need to the bottom of the file along with their IP "
+"addresses and then save your changes."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:145
+msgid ""
+"Next, we need a reverse file to map our hostname to the IP address, In this "
+"case, the only part of the IP that you need is the last octet (in an IPv4 "
+"address each number separated by a period, is an octet) of the host and then "
+"the PTR and hostname."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:146
+#, no-wrap
+msgid "vi /var/named/ourdomain.lan.rev\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:151
+msgid "And the file should look something like this when you are done.:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:152
+#, no-wrap
+msgid ""
+"$TTL 86400\n"
+"@ IN SOA dns-primary.ourdomain.lan. admin.ourdomain.lan. (\n"
+"    2019061800 ;Serial\n"
+"    3600 ;Refresh\n"
+"    1800 ;Retry\n"
+"    604800 ;Expire\n"
+"    86400 ;Minimum TTL\n"
+")\n"
+";Name Server Information\n"
+"@ IN NS dns-primary.ourdomain.lan.\n"
+"\n"
+";Reverse lookup for Name Server\n"
+"136 IN PTR dns-primary.ourdomain.lan.\n"
+"\n"
+";PTR Record IP address to HostName\n"
+"13 IN PTR wiki.ourdomain.lan.\n"
+"14 IN PTR www.ourdomain.lan.\n"
+"15 IN PTR devel.ourdomain.lan.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:174
+msgid ""
+"Add all of the hostnames that appear in the forward file and then save your "
+"changes."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:175
+#, no-wrap
+msgid "What All Of This Means"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:178
+msgid ""
+"Now that we have all of this added in and are preparing to restart our "
+"_bind_ DNS server, let's just explore some of the terminology that is used "
+"in these two files."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:180
+msgid ""
+"Just making things work isn't good enough if you don't know what each term "
+"means, right?"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:191
+msgid ""
+"**TTL** appears in both files and it stands for \"Time To Live\". TTL tells "
+"the DNS server how long to keep its cache in place before requesting a fresh "
+"copy. In this case, the TTL is the default setting for all records unless a "
+"specific record TTL is set. The default here is 86400 seconds or 24 hours."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:191
+msgid ""
+"**IN** stands for Internet. In this case, we aren't actually using the "
+"Internet, so think of this as the Intranet."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:191
+msgid ""
+"**SOA** stands for \"Start Of Authority\" or what the primary DNS server is "
+"for the domain."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:191
+msgid "**NS** stands for \"name server\""
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:191
+msgid ""
+"**Serial** is the value used by the DNS server to verify that the contents "
+"of the zone file are up-to-date."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:191
+msgid ""
+"**Refresh** specifies how often a slave DNS server should do a zone transfer "
+"from the master."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:191
+msgid ""
+"**Retry** specifies the length of time in seconds to wait before trying "
+"again on a failed zone transfer."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:191
+msgid ""
+"**Expire** specifies how long a slave server should wait to answer a query "
+"when the master is unreachable."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:191
+msgid ""
+"**A** Is the host address or forward record and is only in the forward file "
+"(above)."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:191
+msgid ""
+"**PTR** Is the pointer record better known as the \"reverse\" and is only in "
+"our reverse file (above)."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:192
+#, no-wrap
+msgid "Testing Configurations"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:195
+msgid ""
+"Once we have gotten all of our files created, we need to make sure that the "
+"configuration files and zones are in good working order before we start the "
+"_bind_ service again."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:197
+msgid "Check the main configuration:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:198
+#, no-wrap
+msgid "named-checkconf\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:203
+msgid "This should return an empty result if everything is OK."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:205
+msgid "Then check the forward zone:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:206
+#, no-wrap
+msgid "named-checkzone ourdomain.lan /var/named/ourdomain.lan.db\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:211
+msgid "This should return something like this if all is well:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:212
+#, no-wrap
+msgid ""
+"zone ourdomain.lan/IN: loaded serial 2019061800\n"
+"OK\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:218
+msgid "And finally check the reverse zone:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:219
+#, no-wrap
+msgid "named-checkzone 192.168.1.136 /var/named/ourdomain.lan.rev\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:224
+msgid "Which should return something like this if all is well:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:225
+#, no-wrap
+msgid ""
+"zone 192.168.1.136/IN: loaded serial 2019061800\n"
+"OK\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:231
+msgid "Assuming that everything looks good, go ahead and restart _bind_:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:232
+#, no-wrap
+msgid "systemctl restart named\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:239
+#, no-wrap
+msgid "    ## 9 Using IPv4 On Your LAN\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:241
+#, no-wrap
+msgid "    In order to use ONLY IPv4 on your LAN, you need to make one change in `/etc/sysconfig/named`:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:246
+#, no-wrap
+msgid ""
+"    ```\n"
+"    vi /etc/sysconfig/named\n"
+"    ```\n"
+"    and then add this at the bottom of the file:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:250
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:439
+#, no-wrap
+msgid ""
+"    ```\n"
+"    OPTIONS=\"-4\"\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:252
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:441
+#, no-wrap
+msgid "    Now save those changes (again, for _vi_, `SHIFT:wq!`)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:254
+#, no-wrap
+msgid "    ## 9 Testing Machines\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:256
+#, no-wrap
+msgid "    You need to add the DNS server (in our example 192.168.1.136) to each machine that you want to have access to the servers that you added to your local DNS. We are only going to show you an example of how to do this on a Rocky Linux workstation, but there are similar methods for other Linux distributions, as well as Windows and Mac machines.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:258
+#, no-wrap
+msgid "    Keep in mind that you will want to just add the DNS servers to the list, not replace what is currently there, as you will still need Internet access, which will require your currently assigned DNS servers. These might be assigned via DHCP (Dynamic Host Configuration Protocol) or statically assigned.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:260
+#, no-wrap
+msgid "    We will add our local DNS with `nmcli` and then restart the connection. \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:262
+#, no-wrap
+msgid "    ??? warning \"Stupid Profile Names\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:264
+#, no-wrap
+msgid "        In NetworkManager, the connections are not modified by the name of the device but by the name of the profile. This can be things like \"Wired connection 1\" or \"Wireless connection 1\". You can see the profile by running `nmcli` without any parameters:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:268
+#, no-wrap
+msgid ""
+"        ```\n"
+"        nmcli\n"
+"        ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:270
+#, no-wrap
+msgid "        This will show you output such as this:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:281
+#, no-wrap
+msgid ""
+"        ```bash\n"
+"        enp0s3: connected to Wired Connection 1\n"
+"        \"Intel 82540EM\"\n"
+"        ethernet (e1000), 08:00:27:E4:2D:3D, hw, mtu 1500\n"
+"        ip4 default\n"
+"        inet4 192.168.1.140/24\n"
+"        route4 192.168.1.0/24 metric 100\n"
+"        route4 default via 192.168.1.1 metric 100\n"
+"        inet6 fe80::f511:a91b:90b:d9b9/64\n"
+"        route6 fe80::/64 metric 1024\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:285
+#, no-wrap
+msgid ""
+"        lo: unmanaged\n"
+"            \"lo\"\n"
+"            loopback (unknown), 00:00:00:00:00:00, sw, mtu 65536\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:290
+#, no-wrap
+msgid ""
+"        DNS configuration:\n"
+"            servers: 192.168.1.1\n"
+"            domains: localdomain\n"
+"            interface: enp0s3\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:294
+#, no-wrap
+msgid ""
+"        Use \"nmcli device show\" to get complete information about known devices and\n"
+"        \"nmcli connection show\" to get an overview on active connection profiles.\n"
+"        ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:296
+#, no-wrap
+msgid "        Before we even start modifying the connection, you should name this something sane, like the name of the interface (**note** the \"\\\" below escapes the spaces in the name):\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:300
+#, no-wrap
+msgid ""
+"        ```\n"
+"        nmcli connection modify Wired\\ connection\\ 1 con-name enp0s3\n"
+"        ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:302
+#, no-wrap
+msgid "        Once you've done this, run `nmcli` by itself again and you will see something like this:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:313
+#, no-wrap
+msgid ""
+"        ```bash\n"
+"        enp0s3: connected to enp0s3\n"
+"        \"Intel 82540EM\"\n"
+"        ethernet (e1000), 08:00:27:E4:2D:3D, hw, mtu 1500\n"
+"        ip4 default\n"
+"        inet4 192.168.1.140/24\n"
+"        route4 192.168.1.0/24 metric 100\n"
+"        route4 default via 192.168.1.1 metric 100\n"
+"        ...\n"
+"        ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:315
+#, no-wrap
+msgid "        This will make the remaining configuration for the DNS much easier!\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:317
+#, no-wrap
+msgid "    Assuming that your connection profile name is \"enp0s3\", we will include the already configured DNS but add our local DNS server first:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:321
+#, no-wrap
+msgid ""
+"    ```\n"
+"    nmcli con mod enp0s3 ipv4.dns '192.168.1.138,192.168.1.1'\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:323
+#, no-wrap
+msgid "    You can have more DNS servers, and for a machine configured with public DNS servers, say Google's open DNS, you can have something like this instead:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:327
+#, no-wrap
+msgid ""
+"    ```\n"
+"    nmcli con mod enp0s3 ipv4.dns '192.168.1.138,8.8.8.8,8.8.4.4'\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:329
+#, no-wrap
+msgid "    Once you've added the DNS servers that you want to the connection, you should be able to resolve hosts in *ourdomain.lan*, as well as Internet hosts.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:331
+#, no-wrap
+msgid "    ## 9 Firewall Rules - `firewalld`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:333
+#, no-wrap
+msgid "    !!! note \"`firewalld` By Default\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:335
+#, no-wrap
+msgid "        With Rocky Linux 9.0 and above, using `iptables` rules is deprecated. You should use `firewalld` instead.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:337
+#, no-wrap
+msgid "    We aren't making any assumptions about the network or services that might be needed, except that we are turning on SSH access and DNS access for our LAN network only. For this, we will use the `firewalld` built-in zone, \"trusted\". We will also have to make some service changes to the \"public\" zone in order to limit SSH access to the LAN.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:339
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:563
+#, no-wrap
+msgid "    The first step is to add our LAN network to the \"trusted\" zone:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:343
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:567
+#, no-wrap
+msgid ""
+"    ```\n"
+"    firewall-cmd --zone=trusted --add-source=192.168.1.0/24 --permanent\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:345
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:569
+#, no-wrap
+msgid "    Next, we need to add our two services to the \"trusted\" zone:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:350
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:574
+#, no-wrap
+msgid ""
+"    ```\n"
+"    firewall-cmd --zone=trusted --add-service=ssh --permanent\n"
+"    firewall-cmd --zone=trusted --add-service=dns --permanent\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:352
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:576
+#, no-wrap
+msgid "    Finally, we need to remove the SSH service from our \"public\" zone, which is on by default:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:356
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:580
+#, no-wrap
+msgid ""
+"    ```\n"
+"    firewall-cmd --zone=public --remove-service=ssh --permanent\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:358
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:582
+#, no-wrap
+msgid "    Next, reload the firewall and then list out the zones that we've made changes to:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:363
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:587
+#, no-wrap
+msgid ""
+"    ```\n"
+"    firewall-cmd --reload\n"
+"    firewall-cmd --zone=trusted --list-all\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:365
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:589
+#, no-wrap
+msgid "    Which should show that you have correctly added the services and the source network:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:382
+#, no-wrap
+msgid ""
+"    ```\n"
+"    trusted (active)\n"
+"        target: ACCEPT\n"
+"        icmp-block-inversion: no\n"
+"        interfaces:\n"
+"        sources: 192.168.1.0/24\n"
+"        services: dns ssh\n"
+"        ports:\n"
+"        protocols:\n"
+"        forward: no\n"
+"        masquerade: no\n"
+"        forward-ports:\n"
+"        source-ports:\n"
+"        icmp-blocks:\n"
+"        rich rules:\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:384
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:608
+#, no-wrap
+msgid "    Listing out the \"public\" zone should show that SSH access is no-longer allowed:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:388
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:612
+#, no-wrap
+msgid ""
+"    ```\n"
+"    firewall-cmd --zone=public --list-all\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:390
+#, no-wrap
+msgid "    Which should show you:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:407
+#, no-wrap
+msgid ""
+"    ```\n"
+"    public\n"
+"        target: default\n"
+"        icmp-block-inversion: no\n"
+"        interfaces:\n"
+"        sources:\n"
+"        services: cockpit dhcpv6-client\n"
+"        ports:\n"
+"        protocols:\n"
+"        forward: no\n"
+"        masquerade: no\n"
+"        forward-ports:\n"
+"        source-ports:\n"
+"        icmp-blocks:\n"
+"        rich rules:\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:409
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:631
+#, no-wrap
+msgid "    These rules should get you DNS resolution on your private DNS server from hosts on the 192.168.1.0/24 network. In addition, you should be able to SSH from any of those hosts into your private DNS server.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:413
+#, no-wrap
+msgid "    ## 8 Using IPv4 On Your LAN\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:415
+#, no-wrap
+msgid "    If you are using IPv4 only on your LAN, then you need to make two changes. The first is in `/etc/named.conf` and the second is in `/etc/sysconfig/named`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:417
+#, no-wrap
+msgid "    First, get back into the `named.conf` file again with `vi /etc/named.conf`. We need to add the following option anywhere in the options section.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:421
+#, no-wrap
+msgid ""
+"    ```\n"
+"    filter-aaaa-on-v4 yes;\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:423
+#, no-wrap
+msgid "    This is shown in the image below:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:425
+#, no-wrap
+msgid "    ![Add Filter IPv6](images/dns_filter.png)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:427
+#, no-wrap
+msgid "    Once you've made the change, save it and exit the `named.conf` (for _vi_, `SHIFT:wq!`)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:429
+#, no-wrap
+msgid "    Next we need to make a similar change to `/etc/sysconfig/named`:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:433
+#, no-wrap
+msgid ""
+"    ```\n"
+"    vi /etc/sysconfig/named\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:435
+#, no-wrap
+msgid "    And then add this to the bottom of the file:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:444
+#, no-wrap
+msgid "    ## 8 Testing Machines\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:446
+#, no-wrap
+msgid "    You need to add the DNS server (in our example 192.168.1.136) to each machine that you want to have access to the servers that you added to your new local DNS. We are only going to show you an example of how to do this on a Rocky Linux workstation, but there are similar methods for other Linux distributions, as well as Windows and Mac machines.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:448
+#, no-wrap
+msgid "    Keep in mind that you will want to just add the DNS server in the list, as you will still need Internet access, which will require your currently assigned DNS servers. These might be assigned via DHCP (Dynamic Host Configuration Protocol) or statically assigned.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:450
+#, no-wrap
+msgid "    On a Rocky Linux workstation where the enabled network interface is eth0, you would use:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:454
+#, no-wrap
+msgid ""
+"    ```\n"
+"    vi /etc/sysconfig/network-scripts/ifcfg-eth0\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:456
+#, no-wrap
+msgid "    If your enabled network interface is different, you will need to substitute that interface name. The configuration file that you open will look something like this for a statically assigned IP (not DHCP as mentioned above). In the example below, our machine's IP address is 192.168.1.151:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:470
+#, no-wrap
+msgid ""
+"    ```\n"
+"    DEVICE=eth0\n"
+"    BOOTPROTO=none\n"
+"    IPADDR=192.168.1.151\n"
+"    PREFIX=24\n"
+"    GATEWAY=192.168.1.1\n"
+"    DNS1=8.8.8.8\n"
+"    DNS2=8.8.4.4\n"
+"    ONBOOT=yes\n"
+"    HOSTNAME=tender-kiwi\n"
+"    TYPE=Ethernet\n"
+"    MTU=\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:472
+#, no-wrap
+msgid "    We want to substitute in our new DNS server for the primary (DNS1) and then move each of the other DNS servers down one so that it is like this:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:487
+#, no-wrap
+msgid ""
+"    ```\n"
+"    DEVICE=eth0\n"
+"    BOOTPROTO=none\n"
+"    IPADDR=192.168.1.151\n"
+"    PREFIX=24\n"
+"    GATEWAY=192.168.1.1\n"
+"    DNS1=192.168.1.136\n"
+"    DNS2=8.8.8.8\n"
+"    DNS3=8.8.4.4\n"
+"    ONBOOT=yes\n"
+"    HOSTNAME=tender-kiwi\n"
+"    TYPE=Ethernet\n"
+"    MTU=\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:489
+#, no-wrap
+msgid "    Once you've made the change, either restart the machine or restart networking with:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:493
+#, no-wrap
+msgid ""
+"    ```\n"
+"    systemctl restart network\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:495
+#, no-wrap
+msgid "    Now you should be able to get to anything in the *ourdomain.lan* domain from your workstations, plus still be able to resovle and get to Internet addresses.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:497
+#, no-wrap
+msgid "    ## 8 Firewall Rules\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:499
+#, no-wrap
+msgid "    ### Adding The Firewall Rules - `iptables`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:501
+#, no-wrap
+msgid "    !!! note \"Regarding `iptables`\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:503
+#, no-wrap
+msgid "        While `iptables` rules still work in Rocky Linux 8.x, we recommend moving to the `firewalld` rules in the section below. The reason is that in future versions of Rocky Linux, `iptables` will be deprecated and removed. In addition, `firewalld` is the default way of doing things. You will find more examples of using `firewalld` when looking for help, than for using `iptables`. We've included the `iptables` rules here, but for the best results and for future-proofing, we recommend moving to `firewalld` now.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:505
+#, no-wrap
+msgid "    First, create a file in */etc* called \"firewall.conf\" that will contain the following rules. This is a bare minimum rule set, and you may need to tweak this for your environment:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:510
+#, no-wrap
+msgid ""
+"    ```\n"
+"    #!/bin/sh\n"
+"    #\n"
+"    #IPTABLES=/usr/sbin/iptables\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:524
+#, no-wrap
+msgid ""
+"    #  Unless specified, the defaults for OUTPUT is ACCEPT\n"
+"    #    The default for FORWARD and INPUT is DROP\n"
+"    #\n"
+"    echo \"   clearing any existing rules and setting default policy..\"\n"
+"    iptables -F INPUT\n"
+"    iptables -P INPUT DROP\n"
+"    iptables -A INPUT -p tcp -m tcp -s 192.168.1.0/24 --dport 22 -j ACCEPT\n"
+"    # dns rules\n"
+"    iptables -A INPUT -p udp -m udp -s 192.168.1.0/24 --dport 53 -j ACCEPT\n"
+"    iptables -A INPUT -i lo -j ACCEPT\n"
+"    iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT\n"
+"    iptables -A INPUT -p tcp -j REJECT --reject-with tcp-reset\n"
+"    iptables -A INPUT -p udp -j REJECT --reject-with icmp-port-unreachable\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:527
+#, no-wrap
+msgid ""
+"    /usr/sbin/service iptables save\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:529
+#, no-wrap
+msgid "    Let's evaluate the rules above:\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:538
+msgid ""
+"The first \"iptables\" line flushes the rules that are currently loaded (-F)."
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:538
+msgid ""
+"Next, we are setting a default policy for the INPUT chain of DROP. This "
+"means, if the traffic is not explicitly allowed here, it is dropped."
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:538
+msgid ""
+"Next, we have an SSH rule for our local network, so that we can get into the "
+"DNS server remotely."
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:538
+msgid ""
+"Then we have our DNS allow rule, only for our local network. Note that DNS "
+"uses the UDP protocol (User Datagram Protocol)."
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:538
+msgid "Next we allow INPUT from the local interface."
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:538
+msgid ""
+"Then if you have established a connection for something else, we are "
+"allowing related packets in as well."
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:538
+msgid "And finally we reject everything else."
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:538
+msgid ""
+"The last line tells iptables to save the rules so that when the machine "
+"restarts, the rules will load as well."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:540
+#, no-wrap
+msgid "    Once our firewall.conf file is created, we need to make it executable:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:544
+#, no-wrap
+msgid ""
+"    ```\n"
+"    chmod +x /etc/firewall.conf\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:546
+#, no-wrap
+msgid "    Then run it:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:550
+#, no-wrap
+msgid ""
+"    ```\n"
+"    /etc/firewall.conf\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:552
+#, no-wrap
+msgid "    And this is what you should get in return. If you get something else, take a look at your script for errors:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:557
+#, no-wrap
+msgid ""
+"    ```bash\n"
+"    clearing any existing rules and setting default policy..\n"
+"    iptables: Saving firewall rules to /etc/sysconfig/iptables:[  OK  ]\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:559
+#, no-wrap
+msgid "    ### Adding The Firewall Rules - `firewalld`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:561
+#, no-wrap
+msgid "    With `firewalld`, we are duplicating the rules highlighted in `iptables` above. We aren't making any other assumptions about the network or services that might be needed. We are turning on SSH access and DNS access for our LAN network only. For this, we will use the `firewalld` built-in zone, \"trusted\". We will also have to make some service changes to the \"public\" zone in order to limit SSH access to the LAN.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:606
+#, no-wrap
+msgid ""
+"    ```bash\n"
+"    trusted (active)\n"
+"        target: ACCEPT\n"
+"        icmp-block-inversion: no\n"
+"        interfaces:\n"
+"        sources: 192.168.1.0/24\n"
+"        services: dns ssh\n"
+"        ports:\n"
+"        protocols:\n"
+"        forward: no\n"
+"        masquerade: no\n"
+"        forward-ports:\n"
+"        source-ports:\n"
+"        icmp-blocks:\n"
+"        rich rules:\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:629
+#, no-wrap
+msgid ""
+"    ```bash\n"
+"    public\n"
+"        target: default\n"
+"        icmp-block-inversion: no\n"
+"        interfaces:\n"
+"        sources:\n"
+"        services: cockpit dhcpv6-client\n"
+"        ports:\n"
+"        protocols:\n"
+"        forward: no\n"
+"        masquerade: no\n"
+"        forward-ports:\n"
+"        source-ports:\n"
+"        icmp-blocks:\n"
+"        rich rules:\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:635
+msgid ""
+"While using */etc/hosts* on an individual workstation will get you access to "
+"a machine on your internal network, you can only use it on that one machine. "
+"By adding a private DNS server using _bind_, you can add hosts to the DNS "
+"and as long as the workstations have access to that private DNS server, they "
+"will be able to get to these local servers."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:636
+msgid ""
+"If you don't need machines to resolve on the Internet, but do need local "
+"access from several machines to local servers, then consider using a private "
+"DNS server instead."
+msgstr ""

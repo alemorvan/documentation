@@ -1,0 +1,490 @@
+# Italian translations for po package
+# Traduzioni italiane per il pacchetto po.
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"PO-Revision-Date: 2023-06-14 07:11+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:749
+#: ../src/docs/books/lxd_server/01-install.md:20
+#: ../src/docs/books/nvchad/install_nvim.md:46
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:49
+#: ../src/docs/guides/containers/lxd_web_servers.md:67
+#: ../src/docs/guides/containers/lxd_web_servers.md:624
+#: ../src/docs/guides/containers/lxd_web_servers.md:857
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:53
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:43
+#, no-wrap
+msgid "dnf install epel-release\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/13-softwares.md:900
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:105
+#: ../src/docs/books/nvchad/template_chadrc.md:352
+#: ../src/docs/gemstones/bash_stub.md:103
+#: ../src/docs/gemstones/perl_search_replace.md:38
+#: ../src/docs/gemstones/sed_search_replace.md:72
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:172
+#: ../src/docs/guides/automation/olivetin.md:142
+#: ../src/docs/guides/cms/dokuwiki_server.md:306
+#: ../src/docs/guides/communications/asterisk_installation.md:261
+#: ../src/docs/guides/containers/lxd_web_servers.md:919
+#: ../src/docs/guides/containers/podman-nextcloud.md:456
+#: ../src/docs/guides/contribute/local_docs.md:47
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:322
+#: ../src/docs/guides/contribute/navigation.md:129
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:458
+#: ../src/docs/guides/database/database_mariadb-server.md:197
+#: ../src/docs/guides/desktop/kde_installation.md:105
+#: ../src/docs/guides/desktop/mate_installation.md:200
+#: ../src/docs/guides/desktop/xfce_installation.md:218
+#: ../src/docs/guides/editors/micro.md:79
+#: ../src/docs/guides/email/postfix_reporting.md:254
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:270
+#: ../src/docs/guides/file_sharing/sftp.md:765
+#: ../src/docs/guides/proxies/pound.md:460
+#: ../src/docs/guides/security/dnf_automatic.md:119
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:54
+#: ../src/docs/guides/security/firewalld-beginners.md:427
+#: ../src/docs/guides/security/firewalld.md:477
+#: ../src/docs/guides/security/pam.md:137
+#: ../src/docs/guides/security/ssl_keys_https.md:136
+#: ../src/docs/guides/virtualization/vbox-rocky.md:160
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:147
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:235
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:157
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:91
+#: ../src/docs/guides/web/mod_SSL_apache.md:171
+#: ../src/docs/guides/web/nginx-mainline.md:352
+#: ../src/docs/guides/web/nginx-multisite.md:359
+#, no-wrap
+msgid "Conclusion"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part3.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:1
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:1
+#: ../src/docs/guides/file_sharing/sftp.md:1
+#: ../src/docs/guides/security/dnf_automatic.md:1
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
+#: ../src/docs/guides/security/firewalld.md:1
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:1
+#: ../src/docs/guides/security/learning_selinux.md:1
+#: ../src/docs/guides/security/pam.md:1
+#: ../src/docs/guides/security/ssh_public_private_keys.md:1
+#: ../src/docs/guides/security/ssl_keys_https.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
+#, no-wrap
+msgid "security"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
+#: ../src/docs/books/learning_ansible/05-deployments.md:31
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/00-toc.md:13
+#: ../src/docs/books/nvchad/index.md:12
+#: ../src/docs/books/nvchad/plugins/index.md:14
+#: ../src/docs/books/nvchad/plugins/md_preview.md:14
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
+#: ../src/docs/books/nvchad/vale_nvchad.md:12
+#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
+#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
+#: ../src/docs/gemstones/string_color.md:11
+#: ../src/docs/guides/automation/cron_jobs_howto.md:25
+#: ../src/docs/guides/automation/olivetin.md:14
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
+#: ../src/docs/guides/backup/rsnapshot_backup.md:22
+#: ../src/docs/guides/backup/rsync_ssh.md:24
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
+#: ../src/docs/guides/cms/dokuwiki_server.md:23
+#: ../src/docs/guides/containers/lxd_web_servers.md:10
+#: ../src/docs/guides/containers/podman-nextcloud.md:13
+#: ../src/docs/guides/contribute/local_docs.md:11
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
+#: ../src/docs/guides/contribute/mkdocs_venv.md:14
+#: ../src/docs/guides/contribute/style_guide.md:14
+#: ../src/docs/guides/database/database_mariadb-server.md:21
+#: ../src/docs/guides/desktop/kde_installation.md:11
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
+#: ../src/docs/guides/editors/micro.md:14
+#: ../src/docs/guides/email/postfix_reporting.md:22
+#: ../src/docs/guides/file_sharing/glusterfs.md:16
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
+#: ../src/docs/guides/file_sharing/sftp.md:16
+#: ../src/docs/guides/migrate2rocky.md:18
+#: ../src/docs/guides/network/basic_network_configuration.md:12
+#: ../src/docs/guides/network/librenms_monitoring_server.md:13
+#: ../src/docs/guides/package_management/index.md:1
+#: ../src/docs/guides/package_management/index.md:5
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
+#: ../src/docs/guides/proxies/pound.md:17
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
+#: ../src/docs/guides/security/firewalld-beginners.md:10
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
+#: ../src/docs/guides/security/ssh_public_private_keys.md:21
+#: ../src/docs/guides/security/ssl_keys_https.md:22
+#: ../src/docs/guides/virtualization/vbox-rocky.md:13
+#: ../src/docs/guides/web/apache-sites-enabled.md:25
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
+#: ../src/docs/guides/web/nginx-mainline.md:13
+#: ../src/docs/guides/web/nginx-multisite.md:14
+#: ../src/docs/labs/security/introduction.md:1
+#: ../src/docs/labs/security/introduction.md:5
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: YAML Front Matter: contributors
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/01-install.md:1
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:1
+#: ../src/docs/books/lxd_server/03-lxdinit.md:1
+#: ../src/docs/books/lxd_server/04-firewall.md:1
+#: ../src/docs/books/lxd_server/05-lxd_images.md:1
+#: ../src/docs/books/lxd_server/06-profiles.md:1
+#: ../src/docs/books/lxd_server/07-configurations.md:1
+#: ../src/docs/books/lxd_server/08-snapshots.md:1
+#: ../src/docs/books/lxd_server/09-snapshot_server.md:1
+#: ../src/docs/books/lxd_server/10-automating.md:1
+#: ../src/docs/gemstones/bash_stub.md:1
+#: ../src/docs/guides/automation/cron_jobs_howto.md:1
+#: ../src/docs/guides/backup/rsnapshot_backup.md:1
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:1
+#: ../src/docs/guides/cms/dokuwiki_server.md:1
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:1
+#: ../src/docs/guides/contribute/navigation.md:1
+#: ../src/docs/guides/desktop/kde_installation.md:1
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:1
+#: ../src/docs/guides/email/postfix_reporting.md:1
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:1
+#: ../src/docs/guides/file_sharing/sftp.md:1
+#: ../src/docs/guides/network/librenms_monitoring_server.md:1
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
+#: ../src/docs/guides/security/ssh_public_private_keys.md:1
+#: ../src/docs/guides/security/ssl_keys_https.md:1
+#: ../src/docs/guides/web/apache-sites-enabled.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
+#, no-wrap
+msgid "Ezequiel Bruni"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/lxd_server/30-appendix_a.md:15
+#: ../src/docs/books/nvchad/vale_nvchad.md:16
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:20
+#: ../src/docs/guides/automation/anacron.md:10
+#: ../src/docs/guides/automation/cron_jobs_howto.md:14
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:13
+#: ../src/docs/guides/backup/rsnapshot_backup.md:13
+#: ../src/docs/guides/backup/rsync_ssh.md:12
+#: ../src/docs/guides/communications/asterisk_installation.md:25
+#: ../src/docs/guides/database/database_mariadb-server.md:13
+#: ../src/docs/guides/desktop/kde_installation.md:20
+#: ../src/docs/guides/desktop/mate_installation.md:17
+#: ../src/docs/guides/desktop/xfce_installation.md:17
+#: ../src/docs/guides/editors/micro.md:33
+#: ../src/docs/guides/email/postfix_reporting.md:14
+#: ../src/docs/guides/file_sharing/glusterfs.md:10
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:14
+#: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:14
+#: ../src/docs/guides/network/basic_network_configuration.md:16
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:8
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:14
+#: ../src/docs/guides/security/ssh_public_private_keys.md:14
+#: ../src/docs/guides/security/ssl_keys_https.md:14
+#: ../src/docs/guides/virtualization/vbox-rocky.md:19
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:15
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:15
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:14
+#: ../src/docs/guides/web/mod_SSL_apache.md:14
+#, no-wrap
+msgid "Prerequisites"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/database/database_mariadb-server.md:20
+#: ../src/docs/guides/file_sharing/glusterfs.md:15
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
+msgid ""
+"Proficiency with a command-line editor (we are using _vi_ in this example)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/database/database_mariadb-server.md:20
+#: ../src/docs/guides/file_sharing/glusterfs.md:15
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:21
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
+msgid ""
+"A heavy comfort level with issuing commands from the command-line, viewing "
+"logs, and other general systems administrator duties"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/file_sharing/glusterfs.md:15
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
+msgid "All commands are run as the root user or sudo"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
+#, no-wrap
+msgid "server"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
+#, no-wrap
+msgid "rkhunter"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:12
+#, no-wrap
+msgid "Rootkit Hunter"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
+msgid ""
+"An understanding of what can trigger a response to changed files on the file "
+"system (such as package updates) is helpful"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:22
+msgid ""
+"This document was originally written in conjunction with the apache hardened "
+"webserver routines, but works equally well on a server running any software."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:26
+msgid ""
+"_rkhunter_ (Root Kit Hunter) is a Unix-based tool that scans for rootkits, "
+"backdoors, and possible local exploits. It is a good part of a hardened "
+"server, and is designed to notify the administrator quickly when something "
+"suspicious happens on the server's file system."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:28
+msgid ""
+"_rkhunter_ is just one possible component of a hardened Apache web server "
+"setup and can be used with or without other tools. If you'd like to use this "
+"along with other tools for hardening, refer back to the [Apache Hardened Web "
+"Server guide](index.md)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:30
+msgid ""
+"This document also uses all of the assumptions and conventions outlined in "
+"that original document, so it is a good idea to review it before continuing."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:31
+#, no-wrap
+msgid "General steps"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:38
+msgid "install rkhunter"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:38
+msgid "configure rkhunter"
+msgstr ""
+
+#. type: Bullet: '3. '
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:38
+msgid "configure email and make sure it is set up to work correctly"
+msgstr ""
+
+#. type: Bullet: '4. '
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:38
+msgid ""
+"run `rkhunter` manually to generate a list of warnings to test your email "
+"settings (`rkhunter --check`)"
+msgstr ""
+
+#. type: Bullet: '5. '
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:38
+msgid ""
+"run `rkhunter --propupd` to generate a clean `rkhunter.dat` file that "
+"`rkhunter` will use from this point forward as a baseline for further checks."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:39
+#, no-wrap
+msgid "Installing rkhunter"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:42
+msgid ""
+"_rkhunter_ requires the EPEL (Extra Packages for Enterprise Linux) "
+"repository. So install that repository if you don't have it installed "
+"already:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:48
+msgid "Then install _rkhunter_:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:49
+#, no-wrap
+msgid "dnf install rkhunter\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:53
+#, no-wrap
+msgid "Configuring rkhunter"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:56
+msgid ""
+"The only configuration options that need to be set are those dealing with "
+"mailing reports to the administrator. To modify the configuration file, run:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:57
+#, no-wrap
+msgid "vi /etc/rkhunter.conf`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:62
+msgid "And then search for:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:63
+#, no-wrap
+msgid "#MAIL-ON-WARNING=me@mydomain   root@mydomain\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:68
+msgid ""
+"Remove the remark here and change the `me@mydomain.com` to reflect your "
+"email address."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:70
+msgid "Then change the `root@mydomain` to `root@whatever_the_server_name_is`."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:72
+msgid ""
+"You will probably also want to remove the remark (and edit the line to fit "
+"your needs) of the `MAIL-CMD` line, found a few lines below that looks like "
+"this:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:73
+#, no-wrap
+msgid "MAIL_CMD=mail -s \"[rkhunter] Warnings found for ${HOST_NAME}\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:78
+msgid ""
+"You may also need to setup [Postfix Email for Reporting](../../email/"
+"postfix_reporting.md) in order to get the email section to work correctly."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:79
+#, no-wrap
+msgid "Running rkhunter"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:82
+msgid ""
+"_rkhunter_ can be run by typing it at the command-line. There is a cron job "
+"installed for you in `/etc/cron.daily`, but if you want to automate the "
+"procedure on a different schedule, look at the [Automating cron jobs guide]"
+"(../../automation/cron_jobs_howto.md)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:84
+msgid ""
+"You'll also need to move the script somewhere other than `/etc/cron.daily`, "
+"such as `/usr/local/sbin` and then call it from your custom cron job. The "
+"easiest method, of course, is to leave the default `cron.daily` setup intact."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:86
+msgid ""
+"If you want to test `rkhunter` before you start, including all email "
+"functionality, etc., run `rkhunter --check` from the command line. If there "
+"are problems with email setup, hold off completing the rest so that you can "
+"run this command again. Once email has been confirmed to work but before you "
+"allow `rkhunter` to run automatically, run the command manually again with "
+"the \"--propupd\" flag to create the `rkhunter.dat` file, and to make sure "
+"that your new environment is recognized without issue:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:87
+#, no-wrap
+msgid "rkhunter --propupd\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:93
+msgid ""
+"_rkhunter_ is one part of a hardened server strategy that can help in "
+"monitoring the file system and reporting any issues to the administrator. It "
+"is perhaps one of the easiest hardening tools to install, configure, and run."
+msgstr ""

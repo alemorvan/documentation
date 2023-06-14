@@ -1,0 +1,141 @@
+# Italian translations for po package
+# Traduzioni italiane per il pacchetto po.
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"PO-Revision-Date: 2023-06-14 07:11+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Title #
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
+#: ../src/docs/books/learning_ansible/05-deployments.md:31
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/00-toc.md:13
+#: ../src/docs/books/nvchad/index.md:12
+#: ../src/docs/books/nvchad/plugins/index.md:14
+#: ../src/docs/books/nvchad/plugins/md_preview.md:14
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
+#: ../src/docs/books/nvchad/vale_nvchad.md:12
+#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
+#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
+#: ../src/docs/gemstones/string_color.md:11
+#: ../src/docs/guides/automation/cron_jobs_howto.md:25
+#: ../src/docs/guides/automation/olivetin.md:14
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
+#: ../src/docs/guides/backup/rsnapshot_backup.md:22
+#: ../src/docs/guides/backup/rsync_ssh.md:24
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
+#: ../src/docs/guides/cms/dokuwiki_server.md:23
+#: ../src/docs/guides/containers/lxd_web_servers.md:10
+#: ../src/docs/guides/containers/podman-nextcloud.md:13
+#: ../src/docs/guides/contribute/local_docs.md:11
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
+#: ../src/docs/guides/contribute/mkdocs_venv.md:14
+#: ../src/docs/guides/contribute/style_guide.md:14
+#: ../src/docs/guides/database/database_mariadb-server.md:21
+#: ../src/docs/guides/desktop/kde_installation.md:11
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
+#: ../src/docs/guides/editors/micro.md:14
+#: ../src/docs/guides/email/postfix_reporting.md:22
+#: ../src/docs/guides/file_sharing/glusterfs.md:16
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
+#: ../src/docs/guides/file_sharing/sftp.md:16
+#: ../src/docs/guides/migrate2rocky.md:18
+#: ../src/docs/guides/network/basic_network_configuration.md:12
+#: ../src/docs/guides/network/librenms_monitoring_server.md:13
+#: ../src/docs/guides/package_management/index.md:1
+#: ../src/docs/guides/package_management/index.md:5
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
+#: ../src/docs/guides/proxies/pound.md:17
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
+#: ../src/docs/guides/security/firewalld-beginners.md:10
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
+#: ../src/docs/guides/security/ssh_public_private_keys.md:21
+#: ../src/docs/guides/security/ssl_keys_https.md:22
+#: ../src/docs/guides/virtualization/vbox-rocky.md:13
+#: ../src/docs/guides/web/apache-sites-enabled.md:25
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
+#: ../src/docs/guides/web/nginx-mainline.md:13
+#: ../src/docs/guides/web/nginx-multisite.md:14
+#: ../src/docs/labs/security/introduction.md:1
+#: ../src/docs/labs/security/introduction.md:5
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/security/introduction.md:8
+msgid ""
+"A fictitious company (called Example Incorporated) is the subject for "
+"designing the labs. Example Incorporated has offices all over the world. "
+"Example Incorporated makes widgets. The company has all the usual bells and "
+"whistles that a modern company requires to conduct its business."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/security/introduction.md:10
+msgid ""
+"The Example Organization has Networked Branch offices, with computers which "
+"perform different roles. Some computers are workstations, some are "
+"firewalls, and some are servers (file servers, web servers, mail servers, "
+"database servers, application servers, dialup servers, etcetera)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/security/introduction.md:12
+msgid ""
+"And of most significant importance to us in this manual – the company has "
+"administrators administer/manage the computers. You, The Reader, will be the "
+"administrator at one of the branch offices."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/security/introduction.md:14
+msgid ""
+"You will be working with a partner (who is also an administrator) to make "
+"sure that the Company’s systems are up and running all the time. Example "
+"Incorporated deploys Rocky Linux on its Systems because it has High "
+"Standards and Requirements for the Hardware and Software that it utilizes."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/security/introduction.md:16
+msgid ""
+"The user can do tasks from the command line (the shell) of the Linux "
+"Operating System. The user can also do these tasks from the Operating "
+"System's Graphical User Interface (GUI). Most of our work, however, will be "
+"done from the command line in this manual."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/security/introduction.md:18
+msgid ""
+"The idea is to get you comfortable working with the command line, after "
+"which there will be no task you cannot perform from the command line."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/security/introduction.md:19
+msgid ""
+"The command line is a fast way to get things done, and it is also one of the "
+"features of Linux (besides the Kernel) that you will find remains consistent "
+"in its look, feel, and functionality amongst the various versions of Linux."
+msgstr ""

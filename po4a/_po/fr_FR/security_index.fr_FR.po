@@ -1,0 +1,313 @@
+# French translations for po package
+# Traductions françaises du paquet po
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"PO-Revision-Date: 2023-06-14 07:11+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Title ###
+#: ../src/docs/guides/file_sharing/sftp.md:1
+#: ../src/docs/guides/security/ssh_public_private_keys.md:1
+#: ../src/docs/labs/security/index.md:64
+#: ../src/docs/labs/security/lab9-cryptography.md:584
+#: ../src/docs/labs/security/lab9-cryptography.md:693
+#, no-wrap
+msgid "ssh"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/labs/security/index.md:1 ../src/docs/labs/security/index.md:5
+#, no-wrap
+msgid "List of Security Labs"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/labs/security/index.md:7
+#, no-wrap
+msgid "[Introduction](introduction.md)"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/labs/security/index.md:9
+#, no-wrap
+msgid "Lab 1: Installing Rocky Linux"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:12
+msgid "Installing the Operating System"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/labs/security/index.md:13
+#, no-wrap
+msgid "Lab 2: Patching the System"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:18
+msgid "Updating and Patching"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:18
+msgid "Configuring and using dnf"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:18
+msgid "Third party solutions"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/labs/security/index.md:19
+#, no-wrap
+msgid "Lab 3: Auditing the System"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:24
+msgid "A simple home grown integrity checker"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:24
+msgid "Tripwire"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:24
+msgid "Integrity checking and viewing reports"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:24
+msgid "Fine tuning tripwire"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/labs/security/index.md:25
+#, no-wrap
+msgid "Lab 4: Gathering information"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:32
+msgid "netstat"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:32
+msgid "lsof"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:32
+msgid "nmap"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:32
+msgid "rpcinfo"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:32
+msgid "tcpdump"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:32
+msgid "telnet"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/labs/security/index.md:33
+#, no-wrap
+msgid "Lab 5: Local Security"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:41
+msgid "Cracking the system through the boot loader"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:41
+msgid "Password protecting the boot loader"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:41
+msgid "Disabling un-necessary ttyâ€™s"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:41
+msgid "Disabling reboot via CTRL+ALT+DEL"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:41
+msgid "Enforcing password prompting in single user-mode"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:41
+msgid "Set-UID programs"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:41
+msgid "John the ripper"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/labs/security/index.md:42
+#, no-wrap
+msgid "Lab 6: A staged Hack"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:44
+msgid "The PATH"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/labs/security/index.md:45
+#, no-wrap
+msgid "Lab 7: TCP wrappers"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:47
+msgid "Tcp_wrappers"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/labs/security/index.md:48
+#, no-wrap
+msgid "Lab 8: Iptables"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:52
+msgid "Iptables essentials"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:52
+msgid "Basic Packet Filtering"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:52
+msgid "Basic Packet Forwarding"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/labs/security/index.md:53
+#: ../src/docs/labs/security/lab9-cryptography.md:2
+#, no-wrap
+msgid "Lab 9: Cryptography"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/labs/security/index.md:64
+#: ../src/docs/labs/security/lab9-cryptography.md:100
+#, no-wrap
+msgid "GnuPG"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/labs/security/index.md:64
+#: ../src/docs/labs/security/lab9-cryptography.md:222
+#, no-wrap
+msgid "Key Administration"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:64
+msgid "Revocation certificates"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/labs/security/index.md:64
+#: ../src/docs/labs/security/lab9-cryptography.md:347
+#, no-wrap
+msgid "Digital signatures"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:64
+msgid "Encrypting and decrypting files"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/labs/security/index.md:64
+#: ../src/docs/labs/security/lab9-cryptography.md:589
+#, no-wrap
+msgid "sshd"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:64
+msgid "scp"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/labs/security/index.md:64
+#: ../src/docs/labs/security/lab9-cryptography.md:829
+#, no-wrap
+msgid "Authenticating via Public-Key"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/labs/security/index.md:64
+#: ../src/docs/labs/security/lab9-cryptography.md:881
+#, no-wrap
+msgid "ssh-agent"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/labs/security/index.md:65
+#, no-wrap
+msgid "Lab 10: Kernel Level Security"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:70
+msgid "Installing GRsecurity"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:70
+msgid "gradm"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:70
+msgid "ACLs"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:70
+msgid "GRsecurity Learning mode"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:70
+msgid "SElinux"
+msgstr ""

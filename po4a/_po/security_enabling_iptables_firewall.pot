@@ -1,0 +1,365 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/13-softwares.md:900
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:105
+#: ../src/docs/books/nvchad/template_chadrc.md:352
+#: ../src/docs/gemstones/bash_stub.md:103
+#: ../src/docs/gemstones/perl_search_replace.md:38
+#: ../src/docs/gemstones/sed_search_replace.md:72
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:172
+#: ../src/docs/guides/automation/olivetin.md:142
+#: ../src/docs/guides/cms/dokuwiki_server.md:306
+#: ../src/docs/guides/communications/asterisk_installation.md:261
+#: ../src/docs/guides/containers/lxd_web_servers.md:919
+#: ../src/docs/guides/containers/podman-nextcloud.md:456
+#: ../src/docs/guides/contribute/local_docs.md:47
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:322
+#: ../src/docs/guides/contribute/navigation.md:129
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:458
+#: ../src/docs/guides/database/database_mariadb-server.md:197
+#: ../src/docs/guides/desktop/kde_installation.md:105
+#: ../src/docs/guides/desktop/mate_installation.md:200
+#: ../src/docs/guides/desktop/xfce_installation.md:218
+#: ../src/docs/guides/editors/micro.md:79
+#: ../src/docs/guides/email/postfix_reporting.md:254
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:270
+#: ../src/docs/guides/file_sharing/sftp.md:765
+#: ../src/docs/guides/proxies/pound.md:460
+#: ../src/docs/guides/security/dnf_automatic.md:119
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:54
+#: ../src/docs/guides/security/firewalld-beginners.md:427
+#: ../src/docs/guides/security/firewalld.md:477
+#: ../src/docs/guides/security/pam.md:137
+#: ../src/docs/guides/security/ssl_keys_https.md:136
+#: ../src/docs/guides/virtualization/vbox-rocky.md:160
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:147
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:235
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:157
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:91
+#: ../src/docs/guides/web/mod_SSL_apache.md:171
+#: ../src/docs/guides/web/nginx-mainline.md:352
+#: ../src/docs/guides/web/nginx-multisite.md:359
+#, no-wrap
+msgid "Conclusion"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part3.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:1
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:1
+#: ../src/docs/guides/file_sharing/sftp.md:1
+#: ../src/docs/guides/security/dnf_automatic.md:1
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
+#: ../src/docs/guides/security/firewalld.md:1
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:1
+#: ../src/docs/guides/security/learning_selinux.md:1
+#: ../src/docs/guides/security/pam.md:1
+#: ../src/docs/guides/security/ssh_public_private_keys.md:1
+#: ../src/docs/guides/security/ssl_keys_https.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
+#, no-wrap
+msgid "security"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
+#: ../src/docs/books/learning_ansible/05-deployments.md:31
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/00-toc.md:13
+#: ../src/docs/books/nvchad/index.md:12
+#: ../src/docs/books/nvchad/plugins/index.md:14
+#: ../src/docs/books/nvchad/plugins/md_preview.md:14
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
+#: ../src/docs/books/nvchad/vale_nvchad.md:12
+#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
+#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
+#: ../src/docs/gemstones/string_color.md:11
+#: ../src/docs/guides/automation/cron_jobs_howto.md:25
+#: ../src/docs/guides/automation/olivetin.md:14
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
+#: ../src/docs/guides/backup/rsnapshot_backup.md:22
+#: ../src/docs/guides/backup/rsync_ssh.md:24
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
+#: ../src/docs/guides/cms/dokuwiki_server.md:23
+#: ../src/docs/guides/containers/lxd_web_servers.md:10
+#: ../src/docs/guides/containers/podman-nextcloud.md:13
+#: ../src/docs/guides/contribute/local_docs.md:11
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
+#: ../src/docs/guides/contribute/mkdocs_venv.md:14
+#: ../src/docs/guides/contribute/style_guide.md:14
+#: ../src/docs/guides/database/database_mariadb-server.md:21
+#: ../src/docs/guides/desktop/kde_installation.md:11
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
+#: ../src/docs/guides/editors/micro.md:14
+#: ../src/docs/guides/email/postfix_reporting.md:22
+#: ../src/docs/guides/file_sharing/glusterfs.md:16
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
+#: ../src/docs/guides/file_sharing/sftp.md:16
+#: ../src/docs/guides/migrate2rocky.md:18
+#: ../src/docs/guides/network/basic_network_configuration.md:12
+#: ../src/docs/guides/network/librenms_monitoring_server.md:13
+#: ../src/docs/guides/package_management/index.md:1
+#: ../src/docs/guides/package_management/index.md:5
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
+#: ../src/docs/guides/proxies/pound.md:17
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
+#: ../src/docs/guides/security/firewalld-beginners.md:10
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
+#: ../src/docs/guides/security/ssh_public_private_keys.md:21
+#: ../src/docs/guides/security/ssl_keys_https.md:22
+#: ../src/docs/guides/virtualization/vbox-rocky.md:13
+#: ../src/docs/guides/web/apache-sites-enabled.md:25
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
+#: ../src/docs/guides/web/nginx-mainline.md:13
+#: ../src/docs/guides/web/nginx-multisite.md:14
+#: ../src/docs/labs/security/introduction.md:1
+#: ../src/docs/labs/security/introduction.md:5
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: YAML Front Matter: contributors
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/01-install.md:1
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:1
+#: ../src/docs/books/lxd_server/03-lxdinit.md:1
+#: ../src/docs/books/lxd_server/04-firewall.md:1
+#: ../src/docs/books/lxd_server/05-lxd_images.md:1
+#: ../src/docs/books/lxd_server/06-profiles.md:1
+#: ../src/docs/books/lxd_server/07-configurations.md:1
+#: ../src/docs/books/lxd_server/08-snapshots.md:1
+#: ../src/docs/books/lxd_server/09-snapshot_server.md:1
+#: ../src/docs/books/lxd_server/10-automating.md:1
+#: ../src/docs/gemstones/bash_stub.md:1
+#: ../src/docs/guides/automation/cron_jobs_howto.md:1
+#: ../src/docs/guides/backup/rsnapshot_backup.md:1
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:1
+#: ../src/docs/guides/cms/dokuwiki_server.md:1
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:1
+#: ../src/docs/guides/contribute/navigation.md:1
+#: ../src/docs/guides/desktop/kde_installation.md:1
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:1
+#: ../src/docs/guides/email/postfix_reporting.md:1
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:1
+#: ../src/docs/guides/file_sharing/sftp.md:1
+#: ../src/docs/guides/network/librenms_monitoring_server.md:1
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
+#: ../src/docs/guides/security/ssh_public_private_keys.md:1
+#: ../src/docs/guides/security/ssl_keys_https.md:1
+#: ../src/docs/guides/web/apache-sites-enabled.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
+#, no-wrap
+msgid "Ezequiel Bruni"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/lxd_server/30-appendix_a.md:15
+#: ../src/docs/books/nvchad/vale_nvchad.md:16
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:20
+#: ../src/docs/guides/automation/anacron.md:10
+#: ../src/docs/guides/automation/cron_jobs_howto.md:14
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:13
+#: ../src/docs/guides/backup/rsnapshot_backup.md:13
+#: ../src/docs/guides/backup/rsync_ssh.md:12
+#: ../src/docs/guides/communications/asterisk_installation.md:25
+#: ../src/docs/guides/database/database_mariadb-server.md:13
+#: ../src/docs/guides/desktop/kde_installation.md:20
+#: ../src/docs/guides/desktop/mate_installation.md:17
+#: ../src/docs/guides/desktop/xfce_installation.md:17
+#: ../src/docs/guides/editors/micro.md:33
+#: ../src/docs/guides/email/postfix_reporting.md:14
+#: ../src/docs/guides/file_sharing/glusterfs.md:10
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:14
+#: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:14
+#: ../src/docs/guides/network/basic_network_configuration.md:16
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:8
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:14
+#: ../src/docs/guides/security/ssh_public_private_keys.md:14
+#: ../src/docs/guides/security/ssl_keys_https.md:14
+#: ../src/docs/guides/virtualization/vbox-rocky.md:19
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:15
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:15
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:14
+#: ../src/docs/guides/web/mod_SSL_apache.md:14
+#, no-wrap
+msgid "Prerequisites"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
+#, no-wrap
+msgid "iptables"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
+#, no-wrap
+msgid "deprecated"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
+#, no-wrap
+msgid "Enabling `iptables` Firewall"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:12
+#, no-wrap
+msgid "Enabling iptables Firewall"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:17
+msgid ""
+"A burning, unquenchable desire to disable the default _firewalld_ "
+"application, and enable _iptables_."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:19
+msgid "!!! warning \"This Process Is Deprecated\""
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:21
+#, no-wrap
+msgid "    As of Rocky Linux 9.0, `iptables` and all of the utilities associated with it, are deprecated. This means that future releases of the OS will be removing `iptables`. For that reason, it is highly recommended that you not use this process. If you are familiar with iptables, we recommend using [`iptables` Guide To `firewalld`](firewalld.md). If you are new to firewall concepts, then we recommend [`firewalld` For Beginners](firewalld-beginners.md).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:25
+msgid ""
+"_firewalld_ is now the default firewall on Rocky Linux. _firewalld_ **was** "
+"nothing more than a dynamic application of _iptables_ using xml files that "
+"loaded changes without flushing the rules in CentOS 7/RHEL 7.  With CentOS 8/"
+"RHEL 8/Rocky 8, _firewalld_ is now a wrapper around _nftables_. It is still "
+"possible, however, to install and use straight _iptables_ if that is your "
+"preference. To install and run straight _iptables_ without _firewalld_ you "
+"can do so by following this guide. What this guide will **not** tell you is "
+"how to write rules for _iptables_. It is assumed that if you want to get rid "
+"of _firewalld_, you must already know how to write rules for _iptables_."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:26
+#, no-wrap
+msgid "Disabling firewalld"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:29
+msgid ""
+"You can't really run the old _iptables_ utilities alongside _firewalld_. "
+"They're just not compatible. The best way to get around this is to disable "
+"_firewalld_ entirely (no need to unistall it unless you want to), and "
+"reinstall the _iptables_ utilities. Disabling _firewalld_ can be done using "
+"these commands:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:31
+msgid "Stop _firewalld_:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:33
+msgid "`systemctl stop firewalld`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:35
+msgid "Disable _firewalld_ so it won't start on boot:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:37
+msgid "`systemctl disable firewalld`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:39
+msgid "Mask the service so that it can't be found:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:41
+msgid "`systemctl mask firewalld`"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:42
+#, no-wrap
+msgid "Installing And Enabling iptables Services"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:45
+msgid ""
+"Next we need to install the old _iptables_ services and utilities. This is "
+"done with the following:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:47
+msgid "`dnf install iptables-services iptables-utils`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:49
+msgid ""
+"This will install everything that is needed to run a straight _iptables_ "
+"rule set."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:51
+msgid ""
+"Now we need to enable the _iptables_ service to make sure that it starts on "
+"boot:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:53
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:134
+msgid "`systemctl enable iptables`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:56
+msgid ""
+"You can return to using straight _iptables_ if you prefer it over "
+"_firewalld_. You can return to using the default _firewalld_ by simply "
+"reversing these changes."
+msgstr ""

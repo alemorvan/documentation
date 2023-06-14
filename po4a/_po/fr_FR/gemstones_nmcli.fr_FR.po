@@ -1,0 +1,96 @@
+# French translations for po package
+# Traductions françaises du paquet po
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"PO-Revision-Date: 2023-06-14 07:11+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Title ##
+#: ../src/docs/gemstones/dnf-swap.md:65 ../src/docs/gemstones/docker.md:39
+#: ../src/docs/gemstones/nmcli.md:33
+#: ../src/docs/guides/containers/lxd_web_servers.md:913
+#, no-wrap
+msgid "Notes"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/nmcli.md:1
+#, no-wrap
+msgid "nmcli"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/gemstones/nmcli.md:1
+#, no-wrap
+msgid "nmcli - Set Connection Autoconnect"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/gemstones/nmcli.md:8
+#, no-wrap
+msgid "Modify NetworkManager connection profile autoconnect property"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/nmcli.md:11
+msgid ""
+"First use nmcli to query and display the current value of the autoconnect "
+"property for all network connections on a Rocky Linux system. Type:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/gemstones/nmcli.md:12
+#, no-wrap
+msgid "nmcli -f name,autoconnect connection \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/nmcli.md:18
+msgid ""
+"To change the value of a property for a network connection use the `modify` "
+"sub-command with `nmcli connection`.  For example, to change the autoconnect "
+"property value from `no` to `yes` for the `ens3` connection profile, type:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/gemstones/nmcli.md:19
+#, no-wrap
+msgid "sudo nmcli con mod ens3 connection.autoconnect yes\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/gemstones/nmcli.md:23
+#, no-wrap
+msgid "Commands Explained"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/gemstones/nmcli.md:25
+#, no-wrap
+msgid ""
+"connection (con)       : NetworkManager connection object. \n"
+"modify (mod)           : Modify one or more properties of a given connection profile.\n"
+"connection.autoconnect : The setting and property (<setting>.<property>)\n"
+"-f, --fields           : specify fields to output.\n"
+"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/nmcli.md:36
+#, no-wrap
+msgid ""
+"This tip shows how to modify an existing NetworkManager connection profile. This is useful when the network interface does not automatically get activated after a fresh Rocky Linux installation or system update. \n"
+"The reason for this is often because the value of autoconnect property is set to `no`. You can use the `nmcli` command to quickly change the value to `yes`.  \n"
+msgstr ""

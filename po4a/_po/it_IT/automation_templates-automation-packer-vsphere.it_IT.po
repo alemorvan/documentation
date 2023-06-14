@@ -1,0 +1,1767 @@
+# Italian translations for po package
+# Traduzioni italiane per il pacchetto po.
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"PO-Revision-Date: 2023-06-14 07:11+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:43
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:220
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:271
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:334
+#: ../src/docs/books/admin_guide/05-vi.md:70
+#: ../src/docs/books/admin_guide/05-vi.md:206
+#: ../src/docs/books/admin_guide/05-vi.md:272
+#: ../src/docs/books/admin_guide/06-users.md:36
+#: ../src/docs/books/admin_guide/06-users.md:92
+#: ../src/docs/books/admin_guide/06-users.md:220
+#: ../src/docs/books/admin_guide/06-users.md:350
+#: ../src/docs/books/admin_guide/06-users.md:598
+#: ../src/docs/books/admin_guide/06-users.md:754
+#: ../src/docs/books/admin_guide/06-users.md:818
+#: ../src/docs/books/admin_guide/11-tasks.md:174
+#: ../src/docs/books/admin_guide/12-network.md:158
+#: ../src/docs/books/admin_guide/03-commands.md:516
+#: ../src/docs/books/admin_guide/03-commands.md:693
+#: ../src/docs/books/admin_guide/03-commands.md:1216
+#: ../src/docs/books/admin_guide/03-commands.md:1262
+#: ../src/docs/books/admin_guide/03-commands.md:1297
+#: ../src/docs/books/admin_guide/07-file-systems.md:395
+#: ../src/docs/books/admin_guide/07-file-systems.md:437
+#: ../src/docs/books/admin_guide/07-file-systems.md:447
+#: ../src/docs/books/admin_guide/07-file-systems.md:515
+#: ../src/docs/books/admin_guide/07-file-systems.md:556
+#: ../src/docs/books/admin_guide/07-file-systems.md:627
+#: ../src/docs/books/admin_guide/07-file-systems.md:653
+#: ../src/docs/books/admin_guide/07-file-systems.md:672
+#: ../src/docs/books/admin_guide/07-file-systems.md:676
+#: ../src/docs/books/admin_guide/07-file-systems.md:1019
+#: ../src/docs/books/admin_guide/08-process.md:49
+#: ../src/docs/books/admin_guide/08-process.md:238
+#: ../src/docs/books/admin_guide/09-backups.md:27
+#: ../src/docs/books/admin_guide/09-backups.md:116
+#: ../src/docs/books/admin_guide/09-backups.md:133
+#: ../src/docs/books/admin_guide/09-backups.md:148
+#: ../src/docs/books/admin_guide/09-backups.md:281
+#: ../src/docs/books/admin_guide/09-backups.md:285
+#: ../src/docs/books/admin_guide/09-backups.md:301
+#: ../src/docs/books/admin_guide/09-backups.md:342
+#: ../src/docs/books/admin_guide/09-backups.md:352
+#: ../src/docs/books/admin_guide/09-backups.md:554
+#: ../src/docs/books/admin_guide/09-backups.md:771
+#: ../src/docs/books/admin_guide/10-boot.md:114
+#: ../src/docs/books/admin_guide/10-boot.md:153
+#: ../src/docs/books/admin_guide/10-boot.md:165
+#: ../src/docs/books/admin_guide/13-softwares.md:22
+#: ../src/docs/books/learning_ansible/01-basic.md:51
+#: ../src/docs/books/learning_ansible/01-basic.md:104
+#: ../src/docs/books/learning_ansible/01-basic.md:112
+#: ../src/docs/books/learning_ansible/01-basic.md:328
+#: ../src/docs/books/learning_ansible/01-basic.md:415
+#: ../src/docs/books/learning_ansible/01-basic.md:492
+#: ../src/docs/books/learning_ansible/01-basic.md:633
+#: ../src/docs/books/learning_ansible/01-basic.md:656
+#: ../src/docs/books/learning_ansible/02-advanced.md:34
+#: ../src/docs/books/learning_ansible/02-advanced.md:150
+#: ../src/docs/books/learning_ansible/02-advanced.md:182
+#: ../src/docs/books/learning_ansible/02-advanced.md:269
+#: ../src/docs/books/learning_ansible/02-advanced.md:277
+#: ../src/docs/books/learning_ansible/02-advanced.md:287
+#: ../src/docs/books/learning_ansible/02-advanced.md:293
+#: ../src/docs/books/learning_ansible/02-advanced.md:360
+#: ../src/docs/books/learning_ansible/02-advanced.md:428
+#: ../src/docs/books/learning_ansible/02-advanced.md:601
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:33
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:58
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:77
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:96
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:113
+#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:65
+#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:432
+#: ../src/docs/books/learning_ansible/05-deployments.md:41
+#: ../src/docs/books/learning_ansible/05-deployments.md:124
+#: ../src/docs/books/learning_ansible/05-deployments.md:196
+#: ../src/docs/books/learning_ansible/05-deployments.md:616
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:36
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:40
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:80
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:214
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:32
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:75
+#: ../src/docs/books/learning_bash/02-using-variables.md:153
+#: ../src/docs/books/learning_bash/02-using-variables.md:193
+#: ../src/docs/books/learning_bash/05-tests.md:245
+#: ../src/docs/books/learning_bash/07-loops.md:180
+#: ../src/docs/books/lxd_server/04-firewall.md:80
+#: ../src/docs/books/nvchad/plugins/md_preview.md:140
+#: ../src/docs/books/nvchad/template_chadrc.md:239
+#: ../src/docs/gemstones/https_rsa_keygen.md:34
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:80
+#: ../src/docs/guides/8_6_installation.md:37
+#: ../src/docs/guides/8_6_installation.md:168
+#: ../src/docs/guides/8_6_installation.md:176
+#: ../src/docs/guides/8_6_installation.md:182
+#: ../src/docs/guides/8_6_installation.md:250
+#: ../src/docs/guides/automation/olivetin.md:60
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:307
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:323
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:486
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:533
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:667
+#: ../src/docs/guides/containers/lxd_web_servers.md:35
+#: ../src/docs/guides/containers/lxd_web_servers.md:45
+#: ../src/docs/guides/containers/lxd_web_servers.md:301
+#: ../src/docs/guides/containers/lxd_web_servers.md:352
+#: ../src/docs/guides/containers/lxd_web_servers.md:605
+#: ../src/docs/guides/containers/lxd_web_servers.md:665
+#: ../src/docs/guides/containers/lxd_web_servers.md:737
+#: ../src/docs/guides/containers/lxd_web_servers.md:796
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:53
+#: ../src/docs/guides/contribute/navigation.md:60
+#: ../src/docs/guides/custom-linux-kernel.md:453
+#: ../src/docs/guides/editors/micro.md:30
+#: ../src/docs/guides/file_sharing/glusterfs.md:46
+#: ../src/docs/guides/file_sharing/glusterfs.md:64
+#: ../src/docs/guides/file_sharing/glusterfs.md:102
+#: ../src/docs/guides/file_sharing/glusterfs.md:203
+#: ../src/docs/guides/installation.md:36 ../src/docs/guides/installation.md:175
+#: ../src/docs/guides/installation.md:183
+#: ../src/docs/guides/installation.md:193
+#: ../src/docs/guides/installation.md:266
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
+#: ../src/docs/guides/security/firewalld-beginners.md:89
+#: ../src/docs/guides/security/firewalld-beginners.md:144
+#: ../src/docs/guides/security/firewalld-beginners.md:258
+#: ../src/docs/guides/security/firewalld.md:51
+#: ../src/docs/guides/security/firewalld.md:94
+#: ../src/docs/guides/security/firewalld.md:228
+#: ../src/docs/guides/security/firewalld.md:372
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:72
+#: ../src/docs/guides/security/learning_selinux.md:137
+#: ../src/docs/guides/security/learning_selinux.md:253
+#: ../src/docs/guides/security/learning_selinux.md:356
+#: ../src/docs/guides/virtualization/vbox-rocky.md:27
+#: ../src/docs/guides/web/nginx-mainline.md:30
+#: ../src/docs/guides/web/nginx-mainline.md:99
+#: ../src/docs/guides/web/nginx-mainline.md:141
+#: ../src/docs/guides/web/nginx-mainline.md:254
+#: ../src/docs/guides/web/nginx-mainline.md:333
+#: ../src/docs/guides/web/nginx-multisite.md:73
+#: ../src/docs/guides/web/nginx-multisite.md:233
+#: ../src/docs/guides/web/nginx-multisite.md:292
+#: ../src/docs/guides/web/nginx-multisite.md:302
+#: ../src/docs/guides/web/php.md:33 ../src/docs/guides/web/php.md:76
+#: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
+#: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
+#: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
+msgid "!!! Note"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:90
+#: ../src/docs/books/admin_guide/06-users.md:239
+#: ../src/docs/books/admin_guide/06-users.md:336
+#: ../src/docs/books/admin_guide/06-users.md:770
+#: ../src/docs/books/admin_guide/11-tasks.md:42
+#: ../src/docs/books/admin_guide/11-tasks.md:81
+#: ../src/docs/books/admin_guide/11-tasks.md:93
+#: ../src/docs/books/admin_guide/11-tasks.md:153
+#: ../src/docs/books/admin_guide/11-tasks.md:203
+#: ../src/docs/books/admin_guide/12-network.md:76
+#: ../src/docs/books/admin_guide/12-network.md:388
+#: ../src/docs/books/admin_guide/12-network.md:637
+#: ../src/docs/books/admin_guide/03-commands.md:329
+#: ../src/docs/books/admin_guide/03-commands.md:1266
+#: ../src/docs/books/admin_guide/03-commands.md:1325
+#: ../src/docs/books/admin_guide/03-commands.md:1480
+#: ../src/docs/books/admin_guide/07-file-systems.md:48
+#: ../src/docs/books/admin_guide/07-file-systems.md:88
+#: ../src/docs/books/admin_guide/07-file-systems.md:389
+#: ../src/docs/books/admin_guide/07-file-systems.md:505
+#: ../src/docs/books/admin_guide/07-file-systems.md:582
+#: ../src/docs/books/admin_guide/07-file-systems.md:903
+#: ../src/docs/books/admin_guide/07-file-systems.md:1015
+#: ../src/docs/books/admin_guide/09-backups.md:175
+#: ../src/docs/books/admin_guide/09-backups.md:200
+#: ../src/docs/books/admin_guide/09-backups.md:264
+#: ../src/docs/books/admin_guide/09-backups.md:461
+#: ../src/docs/books/admin_guide/09-backups.md:488
+#: ../src/docs/books/admin_guide/09-backups.md:620
+#: ../src/docs/books/admin_guide/09-backups.md:714
+#: ../src/docs/books/admin_guide/13-softwares.md:94
+#: ../src/docs/books/learning_ansible/01-basic.md:37
+#: ../src/docs/books/learning_ansible/01-basic.md:288
+#: ../src/docs/books/learning_ansible/01-basic.md:379
+#: ../src/docs/books/learning_ansible/01-basic.md:590
+#: ../src/docs/books/learning_bash/05-tests.md:320
+#: ../src/docs/books/learning_bash/05-tests.md:367
+#: ../src/docs/books/nvchad/plugins/md_preview.md:31
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:137
+#: ../src/docs/guides/8_6_installation.md:191
+#: ../src/docs/guides/8_6_installation.md:207
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:510
+#: ../src/docs/guides/containers/lxd_web_servers.md:242
+#: ../src/docs/guides/installation.md:202
+#: ../src/docs/guides/security/firewalld-beginners.md:283
+#: ../src/docs/guides/security/firewalld-beginners.md:410
+#: ../src/docs/guides/security/firewalld.md:182
+#: ../src/docs/guides/security/firewalld.md:220
+#: ../src/docs/guides/security/learning_selinux.md:158
+#: ../src/docs/guides/security/learning_selinux.md:243
+#: ../src/docs/guides/security/learning_selinux.md:263
+#: ../src/docs/guides/web/php.md:145
+msgid "!!! Warning"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/06-users.md:25
+#: ../src/docs/books/admin_guide/12-network.md:25
+#: ../src/docs/books/learning_ansible/01-basic.md:26
+#: ../src/docs/books/learning_ansible/02-advanced.md:24
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:22
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:14
+#, no-wrap
+msgid "**Reading time**: 30 minutes\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/12-network.md:726
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:753
+#, no-wrap
+msgid "In summary"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
+#: ../src/docs/books/learning_ansible/05-deployments.md:31
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/00-toc.md:13
+#: ../src/docs/books/nvchad/index.md:12
+#: ../src/docs/books/nvchad/plugins/index.md:14
+#: ../src/docs/books/nvchad/plugins/md_preview.md:14
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
+#: ../src/docs/books/nvchad/vale_nvchad.md:12
+#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
+#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
+#: ../src/docs/gemstones/string_color.md:11
+#: ../src/docs/guides/automation/cron_jobs_howto.md:25
+#: ../src/docs/guides/automation/olivetin.md:14
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
+#: ../src/docs/guides/backup/rsnapshot_backup.md:22
+#: ../src/docs/guides/backup/rsync_ssh.md:24
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
+#: ../src/docs/guides/cms/dokuwiki_server.md:23
+#: ../src/docs/guides/containers/lxd_web_servers.md:10
+#: ../src/docs/guides/containers/podman-nextcloud.md:13
+#: ../src/docs/guides/contribute/local_docs.md:11
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
+#: ../src/docs/guides/contribute/mkdocs_venv.md:14
+#: ../src/docs/guides/contribute/style_guide.md:14
+#: ../src/docs/guides/database/database_mariadb-server.md:21
+#: ../src/docs/guides/desktop/kde_installation.md:11
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
+#: ../src/docs/guides/editors/micro.md:14
+#: ../src/docs/guides/email/postfix_reporting.md:22
+#: ../src/docs/guides/file_sharing/glusterfs.md:16
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
+#: ../src/docs/guides/file_sharing/sftp.md:16
+#: ../src/docs/guides/migrate2rocky.md:18
+#: ../src/docs/guides/network/basic_network_configuration.md:12
+#: ../src/docs/guides/network/librenms_monitoring_server.md:13
+#: ../src/docs/guides/package_management/index.md:1
+#: ../src/docs/guides/package_management/index.md:5
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
+#: ../src/docs/guides/proxies/pound.md:17
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
+#: ../src/docs/guides/security/firewalld-beginners.md:10
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
+#: ../src/docs/guides/security/ssh_public_private_keys.md:21
+#: ../src/docs/guides/security/ssl_keys_https.md:22
+#: ../src/docs/guides/virtualization/vbox-rocky.md:13
+#: ../src/docs/guides/web/apache-sites-enabled.md:25
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
+#: ../src/docs/guides/web/nginx-mainline.md:13
+#: ../src/docs/guides/web/nginx-multisite.md:14
+#: ../src/docs/labs/security/introduction.md:1
+#: ../src/docs/labs/security/introduction.md:5
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cronie.md:82
+#: ../src/docs/guides/automation/cronie.md:106
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:109
+msgid "!!! tip \"Attention\""
+msgstr ""
+
+#. type: YAML Front Matter: contributors
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:1
+#, no-wrap
+msgid "Steven Spencer, Ryan Johnson, Pedro Garcia"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:1
+#, no-wrap
+msgid "Automatic Template Creation - Packer - Ansible - VMware vSphere"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:8
+#, no-wrap
+msgid "Automatic template creation with Packer and deployment with Ansible in a VMware vSphere environment"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:12
+#, no-wrap
+msgid ""
+"**Knowledge**: :star: :star: :star:   \n"
+"**Complexity**: :star: :star: :star:   \n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:15
+#, no-wrap
+msgid "Prerequisites, Assumptions, and General Notes"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:24
+msgid "A vSphere environment available, and a user with granted access."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:24
+msgid "An internal web server to store files."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:24
+msgid "Web access to the Rocky Linux repositories."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:24
+msgid "An ISO of Rocky Linux."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:24
+msgid "An Ansible environment available."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:24
+msgid ""
+"It is assumed that you have some knowledge on each product mentioned. If "
+"not, dig into that documentation before you begin."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:24
+msgid ""
+"Vagrant is **not** in use here. It was pointed out that with Vagrant, an SSH "
+"key that was not self-signed would be provided. If you want to dig into that "
+"you can do so, but it is not covered in this document."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:28
+msgid ""
+"This document covers the vSphere virtual machine template creation with "
+"Packer and how to deploy the artifact as new virtual machines with Ansible."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:29
+#, no-wrap
+msgid "Possible adjustments"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:32
+msgid "Of course, you can adapt this how-to for other hypervisors."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:34
+msgid ""
+"Although we are using the minimal ISO image here, you could choose to use "
+"the DVD image (much bigger and perhaps too big) or the boot image (much "
+"smaller and perhaps too small). This choice is up to you. It impacts in "
+"particular the bandwidth you will need for the installation, and thus the "
+"provisioning time. We will discuss next the impact of the default choice and "
+"how to remedy it."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:36
+msgid ""
+"You can also choose not to convert the virtual machine into a template, in "
+"this case you will use Packer to deploy each new VM, which is still quite "
+"feasible (an installation starting from 0 takes less than 10 minutes without "
+"human interaction)."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:37
+#, no-wrap
+msgid "Packer"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:39
+#, no-wrap
+msgid "Introduction to Packer"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:42
+msgid ""
+"Packer is an open-source virtual machine imaging tool, released under the "
+"MPL 2.0 license, and created by Hashicorp. It will help you automate the "
+"process of creating virtual machine images with pre-configured operating "
+"systems and installed software from a single source configuration in both, "
+"cloud and on-prem virtualized environments."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:44
+msgid ""
+"With Packer you can create images to be used on the following platforms:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:52
+msgid "[Amazon Web Services](https://aws.amazon.com)."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:52
+msgid "[Azure](https://azure.microsoft.com)."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:52
+msgid "[GCP](https://cloud.google.com)."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:52
+msgid "[DigitalOcean](https://www.digitalocean.com)."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:52
+msgid "[OpenStack](https://www.openstack.org)."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:52
+msgid "[VirtualBox](https://www.virtualbox.org/)."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:52
+msgid "[VMware](https://www.vmware.com)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:54
+msgid "You can have a look at these resources for additional information:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:58
+msgid "The [Packer website](https://www.packer.io/)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:58
+msgid "[Packer documentation](https://www.packer.io/docs)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:58
+msgid ""
+"The builder `vsphere-iso`'s [documentation](https://www.packer.io/docs/"
+"builders/vsphere/vsphere-iso)"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:59
+#, no-wrap
+msgid "Installing Packer"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:62
+msgid "There are two ways to install Packer on your Rocky Linux system."
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:63
+#, no-wrap
+msgid "Installing Packer from the Hashicorp repo"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:66
+msgid ""
+"HashiCorp maintains and signs packages for different Linux distributions. To "
+"install packer in our Rocky Linux system, please follow the next steps:"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:68
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:88
+#, no-wrap
+msgid "Download and install from the Packer website"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:71
+msgid "Install dnf-config-manager:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:72
+#, no-wrap
+msgid "$ sudo dnf install -y dnf-plugins-core\n"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:77
+msgid ""
+"Add the Hashicorp repository to the available repos in our Rocky Linux "
+"system:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:78
+#, no-wrap
+msgid "$ sudo dnf config-manager --add-repo https://rpm.releases.hashicorp.com/fedora/hashicorp.repo\n"
+msgstr ""
+
+#. type: Bullet: '3. '
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:83
+msgid "Install Packer:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:84
+#, no-wrap
+msgid "$ sudo dnf -y install packer\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:92
+msgid ""
+"You can start by downloading the binaries for you own platform with [Packer "
+"downloads](https://www.packer.io/downloads)."
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:94
+msgid ""
+"In the download page, copy the download link in the Linux Binary Download "
+"section that corresponds to your system architecture."
+msgstr ""
+
+#. type: Bullet: '2. '
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:96
+msgid "From a shell or terminal download it using ```wget``` tool:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:97
+#, no-wrap
+msgid "$ wget https://releases.hashicorp.com/packer/1.8.3/packer_1.8.3_linux_amd64.zip\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:101
+msgid "This will download a .zip file."
+msgstr ""
+
+#. type: Bullet: '3.  '
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:103
+msgid ""
+"To decompress the downloaded archive, run the following command in the shell:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:104
+#, no-wrap
+msgid "$ unzip packer_1.8.3_linux_amd64.zip\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:111
+#, no-wrap
+msgid "    If you get an error and you don’t have the unzip app installed on your system, you can install it by executing this command ```sudo dnf install unzip```\n"
+msgstr ""
+
+#. type: Bullet: '4. '
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:113
+msgid "Move the Packer app to the bin folder:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:114
+#, no-wrap
+msgid "$ sudo mv packer /usr/local/bin/\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:118
+#, no-wrap
+msgid "Verification of the correct installation of Packer"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:121
+msgid ""
+"If all the steps of the previous procedures have been completed correctly, "
+"we can proceed to verify the installation of Packer on our system."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:123
+msgid ""
+"To verify that Packer has been installed correctly, run the `packer` command "
+"and you will get the result shown below:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:124
+#, no-wrap
+msgid ""
+"$ packer \n"
+"Usage: packer [--version] [--help] <command> [<args>]\n"
+"\n"
+"Available commands are:\n"
+"    build           build image(s) from template\n"
+"    console         creates a console for testing variable interpolation\n"
+"    fix             fixes templates from old versions of packer\n"
+"    fmt             rewrites HCL2 config files to canonical format\n"
+"    hcl2_upgrade    transform a JSON template into an HCL2 configuration\n"
+"    init            install missing plugins or upgrade plugins\n"
+"    inspect         see components of a template\n"
+"    plugins         interact with Packer plugins and catalog\n"
+"    validate        check that a template is valid\n"
+"    version         prints the Packer version\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:141
+#, no-wrap
+msgid "Template creation with Packer"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:144
+msgid "It is assumed that you are on Linux to perform the following tasks."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:146
+msgid ""
+"As we will connect to a VMware vCenter Server to send our commands via "
+"Packer, we need to store our credentials outside the configuration files "
+"which we will create next."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:148
+msgid ""
+"Let us create a hidden file with our credentials in our home directory. This "
+"is a json file:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:149
+#, no-wrap
+msgid ""
+"$ vim .vsphere-secrets.json {\n"
+"    \"vcenter_username\": \"rockstar\",\n"
+"    \"vcenter_password\": \"mysecurepassword\"\n"
+"  }\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:157
+msgid "Those credentials need some grant access to your vSphere environment."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:159
+msgid ""
+"Let us create a json file (in the future, the format of this file will "
+"change to the HCL):"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:160
+#, no-wrap
+msgid ""
+"{\n"
+"  \"variables\": {\n"
+"    \"version\": \"0.0.X\",\n"
+"    \"HTTP_IP\": \"fileserver.rockylinux.lan\",\n"
+"    \"HTTP_PATH\": \"/packer/rockylinux/8/ks.cfg\"\n"
+"  },\n"
+"  \"sensitive-variables\": [\"vcenter_password\"],\n"
+"  \"provisioners\": [\n"
+"    {\n"
+"      \"type\": \"shell\",\n"
+"      \"expect_disconnect\": true,\n"
+"      \"execute_command\": \"bash '{{.Path}}'\",\n"
+"      \"script\": \"{{template_dir}}/scripts/requirements.sh\"\n"
+"    }\n"
+"  ],\n"
+"  \"builders\": [\n"
+"    {\n"
+"      \"type\": \"vsphere-iso\",\n"
+"      \"CPUs\": 2,\n"
+"      \"CPU_hot_plug\": true,\n"
+"      \"RAM\": 2048,\n"
+"      \"RAM_hot_plug\": true,\n"
+"      \"disk_controller_type\": \"pvscsi\",\n"
+"      \"guest_os_type\": \"centos8_64Guest\",\n"
+"      \"iso_paths\": [\n"
+"        \"[datasyno-contentlibrary-mylib] contentlib-a86ad29a-a43b-4717-97e6-593b8358801b/3a381c78-b9df-45a6-82e1-3c07c8187dbe/Rocky-8.4-x86_64-minimal_72cc0cc6-9d0f-4c68-9bcd-06385a506a5d.iso\"\n"
+"      ],\n"
+"      \"network_adapters\": [\n"
+"        {\n"
+"          \"network_card\": \"vmxnet3\",\n"
+"          \"network\": \"net_infra\"\n"
+"        }\n"
+"      ],\n"
+"      \"storage\": [\n"
+"        {\n"
+"          \"disk_size\": 40000,\n"
+"          \"disk_thin_provisioned\": true\n"
+"        }\n"
+"      ],\n"
+"      \"boot_command\": [\n"
+"      \"<up><tab> text ip=192.168.1.11::192.168.1.254:255.255.255.0:template:ens192:none nameserver=192.168.1.254 inst.ks=http://{{ user `HTTP_IP` }}/{{ user `HTTP_PATH` }}<enter><wait><enter>\"\n"
+"      ],\n"
+"      \"ssh_password\": \"mysecurepassword\",\n"
+"      \"ssh_username\": \"root\",\n"
+"      \"shutdown_command\": \"/sbin/halt -h -p\",\n"
+"      \"insecure_connection\": \"true\",\n"
+"      \"username\": \"{{ user `vcenter_username` }}\",\n"
+"      \"password\": \"{{ user `vcenter_password` }}\",\n"
+"      \"vcenter_server\": \"vsphere.rockylinux.lan\",\n"
+"      \"datacenter\": \"DC_NAME\",\n"
+"      \"datastore\": \"DS_NAME\",\n"
+"      \"vm_name\": \"template-rockylinux8-{{ user `version` }}\",\n"
+"      \"folder\": \"Templates/RockyLinux\",\n"
+"      \"cluster\": \"CLUSTER_NAME\",\n"
+"      \"host\": \"esx1.rockylinux.lan\",\n"
+"      \"notes\": \"Template RockyLinux version {{ user `version` }}\",\n"
+"      \"convert_to_template\": true,\n"
+"      \"create_snapshot\": false\n"
+"    }\n"
+"  ]\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:224
+msgid "Next, we will describe each section of this file."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:225
+#, no-wrap
+msgid "Variables section"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:228
+msgid ""
+"In a first step, we declare variables, mainly for the sake of readability:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:229
+#, no-wrap
+msgid ""
+"\"variables\": {\n"
+"  \"version\": \"0.0.X\",\n"
+"  \"HTTP_IP\": \"fileserver.rockylinux.lan\",\n"
+"  \"HTTP_PATH\": \"/packer/rockylinux/8/ks.cfg\"\n"
+"},\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:238
+msgid ""
+"We will use the variable `version` later in the template name we will "
+"create. You can easily increment this value to suit your needs."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:240
+msgid ""
+"We will also need our booting virtual machine to access a `ks.cfg` "
+"(Kickstart) file."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:242
+msgid ""
+"A Kickstart file contains the answers to the questions asked during the "
+"installation process. This file passes all its contents to Anaconda (the "
+"installation process), which allows you to fully automate the creation of "
+"the template."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:244
+msgid ""
+"The author likes to store his `ks.cfg` file in an internal web server "
+"accessible from his template, but other possibilities exists that you may "
+"choose to use instead."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:246
+msgid ""
+"For example, the `ks.cfg` file is accessible from the VM at this URL in our "
+"lab: http://fileserver.rockylinux.lan/packer/rockylinux/8/ks.cfg. You would "
+"need to set up something similar to use this method."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:248
+msgid ""
+"Since we want to keep our password private, it is declared as a sensitive "
+"variable. Example:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:249
+#, no-wrap
+msgid "  \"sensitive-variables\": [\"vcenter_password\"],\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:253
+#, no-wrap
+msgid "Provisioners section"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:256
+msgid ""
+"Next part is interesting, and will be covered later by providing you the "
+"script for `requirements.sh`:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:257
+#, no-wrap
+msgid ""
+"\"provisioners\": [\n"
+"  {\n"
+"    \"type\": \"shell\",\n"
+"    \"expect_disconnect\": true,\n"
+"    \"execute_command\": \"bash '{{.Path}}'\",\n"
+"    \"script\": \"{{template_dir}}/scripts/requirements.sh\"\n"
+"  }\n"
+"],\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:269
+msgid ""
+"After the installation is finished, the VM will reboot. As soon as Packer "
+"detects an IP address (thanks to the VMware Tools), it will copy the "
+"`requirements.sh` and execute it. It is a nice feature to clean the VM after "
+"the installation process (remove SSH keys, clean the history, etc.) and "
+"install some extra package."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:270
+#, no-wrap
+msgid "The builders section"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:273
+msgid ""
+"You can declare one or more builders to target something other than your "
+"vSphere environment (perhaps a Vagrant template)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:275
+msgid "But here we are using the `vsphere-iso` builder:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:277
+#, no-wrap
+msgid ""
+"\"builders\": [\n"
+"  {\n"
+"    \"type\": \"vsphere-iso\",\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:284
+msgid "This builder lets us configure the hardware we need:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:285
+#, no-wrap
+msgid ""
+"  \"CPUs\": 2,\n"
+"  \"CPU_hot_plug\": true,\n"
+"  \"RAM\": 2048,\n"
+"  \"RAM_hot_plug\": true,\n"
+"  \"disk_controller_type\": \"pvscsi\",\n"
+"  \"guest_os_type\": \"centos8_64Guest\",\n"
+"  \"network_adapters\": [\n"
+"    {\n"
+"      \"network_card\": \"vmxnet3\",\n"
+"      \"network\": \"net_infra\"\n"
+"    }\n"
+"  ],\n"
+"  \"storage\": [\n"
+"    {\n"
+"      \"disk_size\": 40000,\n"
+"      \"disk_thin_provisioned\": true\n"
+"    }\n"
+"  ],\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:309
+#, no-wrap
+msgid "    You will never forget again to include CPU_hot_plug as it is automatic now!\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:311
+msgid ""
+"You can do more cool things with the disk, cpu, etc. You should refer to the "
+"documentation if you are interested in making other adjustments."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:313
+msgid ""
+"To start the installation, you need an ISO image of Rocky Linux. Here is an "
+"example of how to use an image located in a vSphere content library. You can "
+"of course store the ISO elsewhere, but in the case of a vSphere content "
+"library, you have to get the full path to the ISO file on the server hosting "
+"the Content Library (in this case it is a Synology, so directly on the DSM "
+"explorer)."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:314
+#, no-wrap
+msgid ""
+"  \"iso_paths\": [\n"
+"    \"[datasyno-contentlibrary-mylib] contentlib-a86ad29a-a43b-4717-97e6-593b8358801b/3a381c78-b9df-45a6-82e1-3c07c8187dbe/Rocky-8.4-x86_64-minimal_72cc0cc6-9d0f-4c68-9bcd-06385a506a5d.iso\"\n"
+"  ],\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:321
+msgid ""
+"Then you have to provide the complete command to be entered during the "
+"installation process: configuration of the IP and transmission of the path "
+"to the Kickstart response file."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:325
+#, no-wrap
+msgid "    This example takes the most complex case: using a static IP. If you have a DHCP server available, the process will be much easier.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:327
+msgid ""
+"This is the most amusing part of the procedure: I'm sure you will go and "
+"admire the VMware console during the generation, just to see the automatic "
+"entry of the commands during the boot."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:328
+#, no-wrap
+msgid ""
+"\"boot_command\": [\n"
+"\"<up><tab> text ip=192.168.1.11::192.168.1.254:255.255.255.0:template:ens192:none nameserver=192.168.1.254 inst.ks=http://{{ user `HTTP_IP` }}/{{ user `HTTP_PATH` }}<enter><wait><enter>\"\n"
+"],\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:335
+msgid ""
+"After the first reboot, Packer will connect to your server by SSH. You can "
+"use the root user, or another user with sudo rights, but in any case, this "
+"user must correspond to the user that is defined in your ks.cfg file."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:336
+#, no-wrap
+msgid ""
+"\"ssh_password\": \"mysecurepassword\",\n"
+"\"ssh_username\": \"root\",\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:342
+msgid ""
+"At the end of the process, the VM must be stopped. It is a little bit more "
+"complicated with a non-root user, but it is well documented:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:343
+#, no-wrap
+msgid "\"shutdown_command\": \"/sbin/halt -h -p\",\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:348
+msgid ""
+"Next, we deal with the vSphere configuration. The only notable things here "
+"are the use of the variables defined at the beginning of the document in our "
+"home directory, as well as the `insecure_connection` option, because our "
+"vSphere uses a self-signed certificate (see note in Assumptions at the top "
+"of this document):"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:349
+#, no-wrap
+msgid ""
+"\"insecure_connection\": \"true\",\n"
+"\"username\": \"{{ user `vcenter_username` }}\",\n"
+"\"password\": \"{{ user `vcenter_password` }}\",\n"
+"\"vcenter_server\": \"vsphere.rockylinux.lan\",\n"
+"\"datacenter\": \"DC_NAME\",\n"
+"\"datastore\": \"DS_NAME\",\n"
+"\"vm_name\": \"template-rockylinux8-{{ user `version` }}\",\n"
+"\"folder\": \"Templates/RockyLinux\",\n"
+"\"cluster\": \"CLUSTER_NAME\",\n"
+"\"host\": \"esx1.rockylinux.lan\",\n"
+"\"notes\": \"Template RockyLinux version {{ user `version` }}\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:364
+msgid ""
+"And finally, we will ask vSphere to convert our stopped VM to a template."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:366
+msgid ""
+"At this stage, you could also elect to just use the VM as is (not converting "
+"it to a template). In this case, you can decide to take a snapshot instead:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:367
+#, no-wrap
+msgid ""
+"\"convert_to_template\": true,\n"
+"\"create_snapshot\": false,\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:372
+#, no-wrap
+msgid "The ks.cfg file"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:375
+msgid ""
+"As noted above, we need to provide a kickstart response file that will be "
+"used by Anaconda."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:377
+msgid "Here's an example of that file:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:378
+#, no-wrap
+msgid ""
+"# Use CD-ROM installation media\n"
+"repo --name=\"AppStream\" --baseurl=\"http://download.rockylinux.org/pub/rocky/8.4/AppStream/x86_64/os/\"\n"
+"cdrom\n"
+"# Use text install\n"
+"text\n"
+"# Don't run the Setup Agent on first boot\n"
+"firstboot --disabled\n"
+"eula --agreed\n"
+"ignoredisk --only-use=sda\n"
+"# Keyboard layouts\n"
+"keyboard --vckeymap=us --xlayouts='us'\n"
+"# System language\n"
+"lang en_US.UTF-8\n"
+"\n"
+"# Network information\n"
+"network --bootproto=static --device=ens192 --gateway=192.168.1.254 --ip=192.168.1.11 --nameserver=192.168.1.254,4.4.4.4 --netmask=255.255.255.0 --onboot=on --ipv6=auto --activate\n"
+"\n"
+"# Root password\n"
+"rootpw mysecurepassword\n"
+"\n"
+"# System services\n"
+"selinux --permissive\n"
+"firewall --enabled\n"
+"services --enabled=\"NetworkManager,sshd,chronyd\"\n"
+"# System timezone\n"
+"timezone Europe/Paris --isUtc\n"
+"# System booloader configuration\n"
+"bootloader --location=mbr --boot-drive=sda\n"
+"# Partition clearing information\n"
+"clearpart --all --initlabel --drives=sda\n"
+"# Disk partitionning information\n"
+"part /boot --fstype=\"xfs\" --ondisk=sda --size=512\n"
+"part pv.01 --fstype=\"lvmpv\" --ondisk=sda --grow\n"
+"volgroup vg_root --pesize=4096 pv.01\n"
+"logvol /home --fstype=\"xfs\" --size=5120 --name=lv_home --vgname=vg_root\n"
+"logvol /var --fstype=\"xfs\" --size=10240 --name=lv_var --vgname=vg_root\n"
+"logvol / --fstype=\"xfs\" --size=10240 --name=lv_root --vgname=vg_root\n"
+"logvol swap --fstype=\"swap\" --size=4092 --name=lv_swap --vgname=vg_root\n"
+"\n"
+"skipx\n"
+"\n"
+"reboot\n"
+"\n"
+"%packages --ignoremissing --excludedocs\n"
+"openssh-clients\n"
+"curl\n"
+"dnf-utils\n"
+"drpm\n"
+"net-tools\n"
+"open-vm-tools\n"
+"perl\n"
+"perl-File-Temp\n"
+"sudo\n"
+"vim\n"
+"wget\n"
+"python3\n"
+"\n"
+"# unnecessary firmware\n"
+"-aic94xx-firmware\n"
+"-atmel-firmware\n"
+"-b43-openfwwf\n"
+"-bfa-firmware\n"
+"-ipw2100-firmware\n"
+"-ipw2200-firmware\n"
+"-ivtv-firmware\n"
+"-iwl*-firmware\n"
+"-libertas-usb8388-firmware\n"
+"-ql*-firmware\n"
+"-rt61pci-firmware\n"
+"-rt73usb-firmware\n"
+"-xorg-x11-drv-ati-firmware\n"
+"-zd1211-firmware\n"
+"-cockpit\n"
+"-quota\n"
+"-alsa-*\n"
+"-fprintd-pam\n"
+"-intltool\n"
+"-microcode_ctl\n"
+"%end\n"
+"\n"
+"%addon com_redhat_kdump --disable\n"
+"%end\n"
+"\n"
+"%post\n"
+"\n"
+"# Manage Ansible access\n"
+"groupadd -g 1001 ansible\n"
+"useradd -m -g 1001 -u 1001 ansible\n"
+"mkdir /home/ansible/.ssh\n"
+"echo -e \"<---- PAST YOUR PUBKEY HERE ---->\" >  /home/ansible/.ssh/authorized_keys\n"
+"chown -R ansible:ansible /home/ansible/.ssh\n"
+"chmod 700 /home/ansible/.ssh\n"
+"chmod 600 /home/ansible/.ssh/authorized_keys\n"
+"echo \"ansible ALL=(ALL:ALL) NOPASSWD:ALL\" > /etc/sudoers.d/ansible\n"
+"chmod 440 /etc/sudoers.d/ansible\n"
+"\n"
+"systemctl enable vmtoolsd\n"
+"systemctl start vmtoolsd\n"
+"\n"
+"%end\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:482
+msgid ""
+"As we have chosen to use the minimal iso, instead of the Boot or DVD, not "
+"all required installation packages will be available."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:484
+msgid ""
+"As Packer relies on VMware Tools to detect the end of the installation, and "
+"the `open-vm-tools` package is only available in the AppStream repos, we "
+"have to specify to the installation process that we want to use as source "
+"both the CD-ROM and this remote repo:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:488
+#, no-wrap
+msgid "    If you do not have access to the external repos, you can use either a mirror of the repo, a squid proxy, or the DVD.\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:489
+#, no-wrap
+msgid ""
+"# Use CD-ROM installation media\n"
+"repo --name=\"AppStream\" --baseurl=\"http://download.rockylinux.org/pub/rocky/8.4/AppStream/x86_64/os/\"\n"
+"cdrom\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:496
+msgid ""
+"Let us jump to the network configuration, as once again, in this example we "
+"are not using a DHCP server:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:497
+#, no-wrap
+msgid ""
+"# Network information\n"
+"network --bootproto=static --device=ens192 --gateway=192.168.1.254 --ip=192.168.1.11 --nameserver=192.168.1.254,4.4.4.4 --netmask=255.255.255.0 --onboot=on --ipv6=auto --activate\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:503
+msgid ""
+"Remember we specified the user to connect via SSH with to Packer at the end "
+"of the installation. This user and password must match:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:504
+#, no-wrap
+msgid ""
+"# Root password\n"
+"rootpw mysecurepassword\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:512
+#, no-wrap
+msgid "    You can use an insecure password here, as long as you make sure that this password will be changed immediately after the deployment of your VM, for example with Ansible.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:514
+msgid ""
+"Here is the selected partition scheme. Much more complex things can be done. "
+"You can define a partition scheme that suits your needs, adapting it to the "
+"disk space defined in Packer, and which respects the security rules defined "
+"for your environment (dedicated partition for `/tmp`, etc.):"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:515
+#, no-wrap
+msgid ""
+"# System booloader configuration\n"
+"bootloader --location=mbr --boot-drive=sda\n"
+"# Partition clearing information\n"
+"clearpart --all --initlabel --drives=sda\n"
+"# Disk partitionning information\n"
+"part /boot --fstype=\"xfs\" --ondisk=sda --size=512\n"
+"part pv.01 --fstype=\"lvmpv\" --ondisk=sda --grow\n"
+"volgroup vg_root --pesize=4096 pv.01\n"
+"logvol /home --fstype=\"xfs\" --size=5120 --name=lv_home --vgname=vg_root\n"
+"logvol /var --fstype=\"xfs\" --size=10240 --name=lv_var --vgname=vg_root\n"
+"logvol / --fstype=\"xfs\" --size=10240 --name=lv_root --vgname=vg_root\n"
+"logvol swap --fstype=\"swap\" --size=4092 --name=lv_swap --vgname=vg_root\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:531
+msgid ""
+"The next section concerns the packages that will be installed. A \"best "
+"practice\" is to limit the quantity of installed packages to only those you "
+"need, which limits the attack surface, especially in a server environment."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:535
+#, no-wrap
+msgid "    The author likes to limit the actions to be done in the installation process and to defer installing what is needed in the post installation script of Packer. So, in this case, we install only the minimum required packages.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:537
+msgid ""
+"The `openssh-clients` package seems to be required for Packer to copy its "
+"scripts into the VM."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:539
+msgid ""
+"The `open-vm-tools` is also needed by Packer to detect the end of the "
+"installation, this explains the addition of the AppStream repository. The "
+"packages `perl` and `perl-File-Temp` will also be required by VMware Tools "
+"during the deployment part. This is a shame because it requires a lot of "
+"other dependent packages. `python3` (3.6) will also be required in the "
+"future for Ansible to work (if you won't use Ansible or python, remove "
+"them!)."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:540
+#, no-wrap
+msgid ""
+"%packages --ignoremissing --excludedocs\n"
+"openssh-clients\n"
+"open-vm-tools\n"
+"python3\n"
+"perl\n"
+"perl-File-Temp\n"
+"curl\n"
+"dnf-utils\n"
+"drpm\n"
+"net-tools\n"
+"sudo\n"
+"vim\n"
+"wget\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:557
+msgid ""
+"You can not only add packages but also remove them. Since we control the "
+"environment in which our hardware will work, we can remove any of the "
+"firmware that will be useless to us:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:558
+#, no-wrap
+msgid ""
+"# unnecessary firmware\n"
+"-aic94xx-firmware\n"
+"-atmel-firmware\n"
+"...\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:566
+msgid ""
+"The next part adds some users. It is interesting in our case to create an "
+"`ansible` user, without password but with a public key. This allows all of "
+"our new VMs to be accessible from our Ansible server to run the post-install "
+"actions:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:567
+#, no-wrap
+msgid ""
+"# Manage Ansible access\n"
+"groupadd -g 1001 ansible\n"
+"useradd -m -g 1001 -u 1001 ansible\n"
+"mkdir /home/ansible/.ssh\n"
+"echo -e \"<---- PAST YOUR PUBKEY HERE ---->\" >  /home/ansible/.ssh/authorized_keys\n"
+"chown -R ansible:ansible /home/ansible/.ssh\n"
+"chmod 700 /home/ansible/.ssh\n"
+"chmod 600 /home/ansible/.ssh/authorized_keys\n"
+"echo \"ansible ALL=(ALL:ALL) NOPASSWD:ALL\" > /etc/sudoers.d/ansible\n"
+"chmod 440 /etc/sudoers.d/ansible\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:581
+msgid ""
+"Now we need to enable and start `vmtoolsd` (the process that manages open-vm-"
+"tools). vSphere will detect the IP address after the reboot of the VM."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:582
+#, no-wrap
+msgid ""
+"systemctl enable vmtoolsd\n"
+"systemctl start vmtoolsd\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:588
+msgid "The installation process is finished and the VM will reboot."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:589
+#, no-wrap
+msgid "The provisioners"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:592
+msgid ""
+"Remember, we declared in Packer a provisioner, which in our case corresponds "
+"to a `.sh` script, to be stored in a subdirectory next to our json file."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:594
+msgid ""
+"There are different types of provisioners, we could also have used Ansible. "
+"You are free to explore these possibilities."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:596
+msgid ""
+"This file can be completely changed, but this provides an example of what "
+"can be done with a script, in this case `requirements.sh`:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:597
+#, no-wrap
+msgid ""
+"#!/bin/sh -eux\n"
+"\n"
+"echo \"Updating the system...\"\n"
+"dnf -y update\n"
+"\n"
+"echo \"Installing cloud-init...\"\n"
+"dnf -y install cloud-init\n"
+"\n"
+"# see https://bugs.launchpad.net/cloud-init/+bug/1712680\n"
+"# and https://kb.vmware.com/s/article/71264\n"
+"# Virtual Machine customized with cloud-init is set to DHCP after reboot\n"
+"echo \"manual_cache_clean: True \" > /etc/cloud/cloud.cfg.d/99-manual.cfg\n"
+"\n"
+"echo \"Disable NetworkManager-wait-online.service\"\n"
+"systemctl disable NetworkManager-wait-online.service\n"
+"\n"
+"# cleanup current SSH keys so templated VMs get fresh key\n"
+"rm -f /etc/ssh/ssh_host_*\n"
+"\n"
+"# Avoid ~200 meg firmware package we don't need\n"
+"# this cannot be done in the KS file so we do it here\n"
+"echo \"Removing extra firmware packages\"\n"
+"dnf -y remove linux-firmware\n"
+"dnf -y autoremove\n"
+"\n"
+"echo \"Remove previous kernels that preserved for rollbacks\"\n"
+"dnf -y remove -y $(dnf repoquery --installonly --latest-limit=-1 -q)\n"
+"dnf -y clean all  --enablerepo=\\*;\n"
+"\n"
+"echo \"truncate any logs that have built up during the install\"\n"
+"find /var/log -type f -exec truncate --size=0 {} \\;\n"
+"\n"
+"echo \"remove the install log\"\n"
+"rm -f /root/anaconda-ks.cfg /root/original-ks.cfg\n"
+"\n"
+"echo \"remove the contents of /tmp and /var/tmp\"\n"
+"rm -rf /tmp/* /var/tmp/*\n"
+"\n"
+"echo \"Force a new random seed to be generated\"\n"
+"rm -f /var/lib/systemd/random-seed\n"
+"\n"
+"echo \"Wipe netplan machine-id (DUID) so machines get unique ID generated on boot\"\n"
+"truncate -s 0 /etc/machine-id\n"
+"\n"
+"echo \"Clear the history so our install commands aren't there\"\n"
+"rm -f /root/.wget-hsts\n"
+"export HISTSIZE=0\n"
+"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:649
+msgid "Some explanations are necessary:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:650
+#, no-wrap
+msgid ""
+"echo \"Installing cloud-init...\"\n"
+"dnf -y install cloud-init\n"
+"\n"
+"# see https://bugs.launchpad.net/cloud-init/+bug/1712680\n"
+"# and https://kb.vmware.com/s/article/71264\n"
+"# Virtual Machine customized with cloud-init is set to DHCP after reboot\n"
+"echo \"manual_cache_clean: True\" > /etc/cloud/cloud.cfg.d/99-manual.cfg\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:661
+msgid ""
+"Since vSphere now uses cloud-init via the VMware Tools to configure the "
+"network of a centos8 guest machine, it must be installed. However, if you do "
+"nothing, the configuration will be applied on the first reboot and "
+"everything will be fine. But on the next reboot, cloud-init will not receive "
+"any new information from vSphere. In these cases, without information about "
+"what to do, cloud-init will reconfigure the VM's network interface to use "
+"DHCP, and you will lose your static configuration."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:663
+msgid ""
+"As this is not the behavior we want, we need to specify to cloud-init not to "
+"delete its cache automatically, and therefore to reuse the configuration "
+"information it received during its first reboot and each reboot after that."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:665
+msgid ""
+"For this, we create a file `/etc/cloud/cloud.cfg.d/99-manual.cfg` with the "
+"`manual_cache_clean: True` directive."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:669
+#, no-wrap
+msgid "    This implies that if you need to re-apply a network configuration via vSphere guest customizations (which, in normal use, should be quite rare), you will have to delete the cloud-init cache yourself.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:671
+msgid "The rest of the script is commented and does not require more details"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:673
+msgid ""
+"You can check the [Bento project](https://github.com/chef/bento/tree/master/"
+"packer_templates) to get more ideas of what can be done in this part of the "
+"automation process."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:674
+#, no-wrap
+msgid "Template creation"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:677
+msgid ""
+"Now it is time to launch Packer and check that the creation process, which "
+"is completely automatic, works well."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:679
+msgid "Simply enter this at the command line:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:680
+#, no-wrap
+msgid "./packer build -var-file=~/.vsphere-secrets.json rockylinux8/template.json\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:685
+msgid "You can quickly go to vSphere and admire the work."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:687
+msgid ""
+"You will see the machine being created, started, and if you launch a "
+"console, you will see the automatic entry of commands and the installation "
+"process."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:689
+msgid ""
+"At the end of the creation, you will find your template ready to use in "
+"vSphere."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:690
+#, no-wrap
+msgid "Deployment part"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:693
+msgid ""
+"This documentation would not be complete without the automatic deployment "
+"part of the template."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:695
+msgid ""
+"For this, we will use a simple Ansible playbook, which uses the "
+"`vmware_guest` module."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:697
+msgid ""
+"This playbook that we provide you, must be adapted to your needs and your "
+"way of doing things."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:698
+#, no-wrap
+msgid ""
+"---\n"
+"- name: Deploy VM from template\n"
+"  hosts: localhost\n"
+"  gather_facts: no\n"
+"  vars_files:\n"
+"    - ./vars/credentials.yml\n"
+"\n"
+"  tasks:\n"
+"\n"
+"  - name: Clone the template\n"
+"    vmware_guest:\n"
+"      hostname: \"{{ vmware_vcenter_hostname }}\"\n"
+"      username: \"{{ vmware_username }}\"\n"
+"      password: \"{{ vmware_password }}\"\n"
+"      validate_certs: False\n"
+"      name: \"{{ vm_name }}\"\n"
+"      template: \"{{ template_name }}\"\n"
+"      datacenter: \"{{ datacenter_name }}\"\n"
+"      folder: \"{{ storage_folder }}\"\n"
+"      state: \"{{ state }}\"\n"
+"      cluster: \"{{ cluster_name | default(omit,true) }}\"\n"
+"      esxi_hostname: \"{{ esxi_hostname | default(omit,true) }}\"\n"
+"      wait_for_ip_address: no\n"
+"      annotation: \"{{ comments | default('Deployed by Ansible') }}\"\n"
+"      datastore: \"{{ datastore_name | default(omit,true) }}\"\n"
+"      networks:\n"
+"      - name: \"{{ network_name }}\"\n"
+"        ip: \"{{ network_ip }}\"\n"
+"        netmask: \"{{ network_mask }}\"\n"
+"        gateway: \"{{ network_gateway }}\"\n"
+"        device_type: \"vmxnet3\"\n"
+"        type: static\n"
+"      hardware:\n"
+"        memory_mb: \"{{ memory_mb|int * 1024 }}\"\n"
+"        num_cpu: \"{{ num_cpu }}\"\n"
+"        hotadd_cpu: True\n"
+"        hotadd_memory: True\n"
+"      customization:\n"
+"        domain: \"{{ domain }}\"\n"
+"        dns_servers: \"{{ dns_servers.split(',') }}\"\n"
+"      guest_id: \"{{ guest_id }}\"\n"
+"    register: deploy_vm\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:744
+msgid ""
+"You can store sensitive data in the `./vars/credentials.yml`, which you will "
+"obviously have encrypted beforehand with `ansible-vault` (especially if you "
+"use git for your work). As everything uses a variable, you can easily make "
+"it suit your needs."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:746
+msgid ""
+"If you do not use something like Rundeck or Awx, you can launch the "
+"deployment with a command line similar to this one:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:747
+#, no-wrap
+msgid "ansible-playbook -i ./inventory/hosts  -e '{\"comments\":\"my comments\",\"cluster_name\":\"CS_NAME\",\"esxi_hostname\":\"ESX_NAME\",\"state\":\"started\",\"storage_folder\":\"PROD\",\"datacenter_name\":\"DC_NAME}\",\"datastore_name\":\"DS_NAME\",\"template_name\":\"template-rockylinux8-0.0.1\",\"vm_name\":\"test_vm\",\"network_name\":\"net_prod\",\"network_ip\":\"192.168.1.20\",\"network_gateway\":\"192.168.1.254\",\"network_mask\":\"255.255.255.0\",\"memory_mb\":\"4\",\"num_cpu\":\"2\",\"domain\":\"rockylinux.lan\",\"dns_servers\":\"192.168.1.254\",\"guest_id\":\"centos8_64Guest\"}' ./vmware/create_vm.yml --vault-password-file /etc/ansible/vault_pass.py\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:752
+msgid ""
+"It is at this point that you can launch the final configuration of your "
+"virtual machine using Ansible. Do not forget to change the root password, "
+"secure SSH, register the new VM in your monitoring tool and in your IT "
+"inventory, etc."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:756
+msgid ""
+"As we have seen, there are now fully automated DevOps solutions to create "
+"and deploy VMs."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:758
+msgid ""
+"At the same time, this represents an undeniable saving of time, especially "
+"in cloud or data center environments. It also facilitates a standard "
+"compliance across all of the computers in the company (servers and "
+"workstations), and an easy maintenance / evolution of templates."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:759
+#, no-wrap
+msgid "Other References"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:761
+msgid ""
+"For a detailed project that also covers the deployment of Rocky Linux and "
+"other operating systems using the latest in vSphere, Packer, and the Packer "
+"Plugin for vSphere, please visit [this project](https://github.com/vmware-"
+"samples/packer-examples-for-vsphere)."
+msgstr ""

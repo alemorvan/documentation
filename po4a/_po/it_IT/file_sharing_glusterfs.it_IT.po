@@ -1,0 +1,1024 @@
+# Italian translations for po package
+# Traduzioni italiane per il pacchetto po.
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"PO-Revision-Date: 2023-06-14 07:11+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:43
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:220
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:271
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:334
+#: ../src/docs/books/admin_guide/05-vi.md:70
+#: ../src/docs/books/admin_guide/05-vi.md:206
+#: ../src/docs/books/admin_guide/05-vi.md:272
+#: ../src/docs/books/admin_guide/06-users.md:36
+#: ../src/docs/books/admin_guide/06-users.md:92
+#: ../src/docs/books/admin_guide/06-users.md:220
+#: ../src/docs/books/admin_guide/06-users.md:350
+#: ../src/docs/books/admin_guide/06-users.md:598
+#: ../src/docs/books/admin_guide/06-users.md:754
+#: ../src/docs/books/admin_guide/06-users.md:818
+#: ../src/docs/books/admin_guide/11-tasks.md:174
+#: ../src/docs/books/admin_guide/12-network.md:158
+#: ../src/docs/books/admin_guide/03-commands.md:516
+#: ../src/docs/books/admin_guide/03-commands.md:693
+#: ../src/docs/books/admin_guide/03-commands.md:1216
+#: ../src/docs/books/admin_guide/03-commands.md:1262
+#: ../src/docs/books/admin_guide/03-commands.md:1297
+#: ../src/docs/books/admin_guide/07-file-systems.md:395
+#: ../src/docs/books/admin_guide/07-file-systems.md:437
+#: ../src/docs/books/admin_guide/07-file-systems.md:447
+#: ../src/docs/books/admin_guide/07-file-systems.md:515
+#: ../src/docs/books/admin_guide/07-file-systems.md:556
+#: ../src/docs/books/admin_guide/07-file-systems.md:627
+#: ../src/docs/books/admin_guide/07-file-systems.md:653
+#: ../src/docs/books/admin_guide/07-file-systems.md:672
+#: ../src/docs/books/admin_guide/07-file-systems.md:676
+#: ../src/docs/books/admin_guide/07-file-systems.md:1019
+#: ../src/docs/books/admin_guide/08-process.md:49
+#: ../src/docs/books/admin_guide/08-process.md:238
+#: ../src/docs/books/admin_guide/09-backups.md:27
+#: ../src/docs/books/admin_guide/09-backups.md:116
+#: ../src/docs/books/admin_guide/09-backups.md:133
+#: ../src/docs/books/admin_guide/09-backups.md:148
+#: ../src/docs/books/admin_guide/09-backups.md:281
+#: ../src/docs/books/admin_guide/09-backups.md:285
+#: ../src/docs/books/admin_guide/09-backups.md:301
+#: ../src/docs/books/admin_guide/09-backups.md:342
+#: ../src/docs/books/admin_guide/09-backups.md:352
+#: ../src/docs/books/admin_guide/09-backups.md:554
+#: ../src/docs/books/admin_guide/09-backups.md:771
+#: ../src/docs/books/admin_guide/10-boot.md:114
+#: ../src/docs/books/admin_guide/10-boot.md:153
+#: ../src/docs/books/admin_guide/10-boot.md:165
+#: ../src/docs/books/admin_guide/13-softwares.md:22
+#: ../src/docs/books/learning_ansible/01-basic.md:51
+#: ../src/docs/books/learning_ansible/01-basic.md:104
+#: ../src/docs/books/learning_ansible/01-basic.md:112
+#: ../src/docs/books/learning_ansible/01-basic.md:328
+#: ../src/docs/books/learning_ansible/01-basic.md:415
+#: ../src/docs/books/learning_ansible/01-basic.md:492
+#: ../src/docs/books/learning_ansible/01-basic.md:633
+#: ../src/docs/books/learning_ansible/01-basic.md:656
+#: ../src/docs/books/learning_ansible/02-advanced.md:34
+#: ../src/docs/books/learning_ansible/02-advanced.md:150
+#: ../src/docs/books/learning_ansible/02-advanced.md:182
+#: ../src/docs/books/learning_ansible/02-advanced.md:269
+#: ../src/docs/books/learning_ansible/02-advanced.md:277
+#: ../src/docs/books/learning_ansible/02-advanced.md:287
+#: ../src/docs/books/learning_ansible/02-advanced.md:293
+#: ../src/docs/books/learning_ansible/02-advanced.md:360
+#: ../src/docs/books/learning_ansible/02-advanced.md:428
+#: ../src/docs/books/learning_ansible/02-advanced.md:601
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:33
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:58
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:77
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:96
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:113
+#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:65
+#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:432
+#: ../src/docs/books/learning_ansible/05-deployments.md:41
+#: ../src/docs/books/learning_ansible/05-deployments.md:124
+#: ../src/docs/books/learning_ansible/05-deployments.md:196
+#: ../src/docs/books/learning_ansible/05-deployments.md:616
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:36
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:40
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:80
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:214
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:32
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:75
+#: ../src/docs/books/learning_bash/02-using-variables.md:153
+#: ../src/docs/books/learning_bash/02-using-variables.md:193
+#: ../src/docs/books/learning_bash/05-tests.md:245
+#: ../src/docs/books/learning_bash/07-loops.md:180
+#: ../src/docs/books/lxd_server/04-firewall.md:80
+#: ../src/docs/books/nvchad/plugins/md_preview.md:140
+#: ../src/docs/books/nvchad/template_chadrc.md:239
+#: ../src/docs/gemstones/https_rsa_keygen.md:34
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:80
+#: ../src/docs/guides/8_6_installation.md:37
+#: ../src/docs/guides/8_6_installation.md:168
+#: ../src/docs/guides/8_6_installation.md:176
+#: ../src/docs/guides/8_6_installation.md:182
+#: ../src/docs/guides/8_6_installation.md:250
+#: ../src/docs/guides/automation/olivetin.md:60
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:307
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:323
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:486
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:533
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:667
+#: ../src/docs/guides/containers/lxd_web_servers.md:35
+#: ../src/docs/guides/containers/lxd_web_servers.md:45
+#: ../src/docs/guides/containers/lxd_web_servers.md:301
+#: ../src/docs/guides/containers/lxd_web_servers.md:352
+#: ../src/docs/guides/containers/lxd_web_servers.md:605
+#: ../src/docs/guides/containers/lxd_web_servers.md:665
+#: ../src/docs/guides/containers/lxd_web_servers.md:737
+#: ../src/docs/guides/containers/lxd_web_servers.md:796
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:53
+#: ../src/docs/guides/contribute/navigation.md:60
+#: ../src/docs/guides/custom-linux-kernel.md:453
+#: ../src/docs/guides/editors/micro.md:30
+#: ../src/docs/guides/file_sharing/glusterfs.md:46
+#: ../src/docs/guides/file_sharing/glusterfs.md:64
+#: ../src/docs/guides/file_sharing/glusterfs.md:102
+#: ../src/docs/guides/file_sharing/glusterfs.md:203
+#: ../src/docs/guides/installation.md:36 ../src/docs/guides/installation.md:175
+#: ../src/docs/guides/installation.md:183
+#: ../src/docs/guides/installation.md:193
+#: ../src/docs/guides/installation.md:266
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
+#: ../src/docs/guides/security/firewalld-beginners.md:89
+#: ../src/docs/guides/security/firewalld-beginners.md:144
+#: ../src/docs/guides/security/firewalld-beginners.md:258
+#: ../src/docs/guides/security/firewalld.md:51
+#: ../src/docs/guides/security/firewalld.md:94
+#: ../src/docs/guides/security/firewalld.md:228
+#: ../src/docs/guides/security/firewalld.md:372
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:72
+#: ../src/docs/guides/security/learning_selinux.md:137
+#: ../src/docs/guides/security/learning_selinux.md:253
+#: ../src/docs/guides/security/learning_selinux.md:356
+#: ../src/docs/guides/virtualization/vbox-rocky.md:27
+#: ../src/docs/guides/web/nginx-mainline.md:30
+#: ../src/docs/guides/web/nginx-mainline.md:99
+#: ../src/docs/guides/web/nginx-mainline.md:141
+#: ../src/docs/guides/web/nginx-mainline.md:254
+#: ../src/docs/guides/web/nginx-mainline.md:333
+#: ../src/docs/guides/web/nginx-multisite.md:73
+#: ../src/docs/guides/web/nginx-multisite.md:233
+#: ../src/docs/guides/web/nginx-multisite.md:292
+#: ../src/docs/guides/web/nginx-multisite.md:302
+#: ../src/docs/guides/web/php.md:33 ../src/docs/guides/web/php.md:76
+#: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
+#: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
+#: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
+msgid "!!! Note"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/12-network.md:419
+#: ../src/docs/guides/file_sharing/glusterfs.md:140
+#, no-wrap
+msgid "Name resolution"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:737
+#: ../src/docs/books/lxd_server/30-appendix_a.md:23
+#: ../src/docs/books/nvchad/nerd_fonts.md:28 ../src/docs/gemstones/rpaste.md:15
+#: ../src/docs/guides/file_sharing/glusterfs.md:89
+#: ../src/docs/guides/file_sharing/sftp.md:75
+#: ../src/docs/guides/security/dnf_automatic.md:26
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:29
+#: ../src/docs/guides/web/php.md:85 ../src/docs/guides/web/php.md:152
+#, no-wrap
+msgid "Installation"
+msgstr ""
+
+#. type: YAML Front Matter: contributors
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part3.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:1
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:1
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:1
+#: ../src/docs/books/learning_bash/00-toc.md:1
+#: ../src/docs/books/learning_bash/01-first-script.md:1
+#: ../src/docs/books/learning_bash/02-using-variables.md:1
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:1
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:1
+#: ../src/docs/books/learning_bash/05-tests.md:1
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:1
+#: ../src/docs/books/learning_bash/07-loops.md:1
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:1
+#: ../src/docs/books/learning_rsync/01_rsync_overview.md:1
+#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:1
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:1
+#: ../src/docs/books/learning_rsync/05_rsync_authentication-free_login.md:1
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:1
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:1
+#: ../src/docs/books/nvchad/additional_software.md:1
+#: ../src/docs/books/nvchad/index.md:1
+#: ../src/docs/books/nvchad/install_nvchad.md:1
+#: ../src/docs/books/nvchad/install_nvim.md:1
+#: ../src/docs/books/nvchad/nerd_fonts.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:1
+#: ../src/docs/books/nvchad/plugins/index.md:1
+#: ../src/docs/books/nvchad/plugins/md_preview.md:1
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:1
+#: ../src/docs/books/nvchad/template_chadrc.md:1
+#: ../src/docs/gemstones/RL9_network_manager.md:1
+#: ../src/docs/gemstones/htop.md:1 ../src/docs/gemstones/mtr.md:1
+#: ../src/docs/gemstones/setup_local_repo.md:1
+#: ../src/docs/gemstones/string_color.md:1
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:1
+#: ../src/docs/gemstones/view_kernel_conf.md:1
+#: ../src/docs/guides/automation/anacron.md:1
+#: ../src/docs/guides/automation/cronie.md:1
+#: ../src/docs/guides/automation/olivetin.md:1
+#: ../src/docs/guides/communications/asterisk_installation.md:1
+#: ../src/docs/guides/containers/lxd_web_servers.md:1
+#: ../src/docs/guides/contribute/local_docs.md:1
+#: ../src/docs/guides/contribute/mkdocs_venv.md:1
+#: ../src/docs/guides/contribute/style_guide.md:1
+#: ../src/docs/guides/editors/micro.md:1
+#: ../src/docs/guides/file_sharing/glusterfs.md:1
+#: ../src/docs/guides/installation.md:1
+#: ../src/docs/guides/security/dnf_automatic.md:1
+#: ../src/docs/guides/security/firewalld-beginners.md:1
+#: ../src/docs/guides/web/nginx-multisite.md:1 ../src/docs/guides/web/php.md:1
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:1
+#, no-wrap
+msgid "Steven Spencer"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
+#: ../src/docs/books/learning_ansible/05-deployments.md:31
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/00-toc.md:13
+#: ../src/docs/books/nvchad/index.md:12
+#: ../src/docs/books/nvchad/plugins/index.md:14
+#: ../src/docs/books/nvchad/plugins/md_preview.md:14
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
+#: ../src/docs/books/nvchad/vale_nvchad.md:12
+#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
+#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
+#: ../src/docs/gemstones/string_color.md:11
+#: ../src/docs/guides/automation/cron_jobs_howto.md:25
+#: ../src/docs/guides/automation/olivetin.md:14
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
+#: ../src/docs/guides/backup/rsnapshot_backup.md:22
+#: ../src/docs/guides/backup/rsync_ssh.md:24
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
+#: ../src/docs/guides/cms/dokuwiki_server.md:23
+#: ../src/docs/guides/containers/lxd_web_servers.md:10
+#: ../src/docs/guides/containers/podman-nextcloud.md:13
+#: ../src/docs/guides/contribute/local_docs.md:11
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
+#: ../src/docs/guides/contribute/mkdocs_venv.md:14
+#: ../src/docs/guides/contribute/style_guide.md:14
+#: ../src/docs/guides/database/database_mariadb-server.md:21
+#: ../src/docs/guides/desktop/kde_installation.md:11
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
+#: ../src/docs/guides/editors/micro.md:14
+#: ../src/docs/guides/email/postfix_reporting.md:22
+#: ../src/docs/guides/file_sharing/glusterfs.md:16
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
+#: ../src/docs/guides/file_sharing/sftp.md:16
+#: ../src/docs/guides/migrate2rocky.md:18
+#: ../src/docs/guides/network/basic_network_configuration.md:12
+#: ../src/docs/guides/network/librenms_monitoring_server.md:13
+#: ../src/docs/guides/package_management/index.md:1
+#: ../src/docs/guides/package_management/index.md:5
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
+#: ../src/docs/guides/proxies/pound.md:17
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
+#: ../src/docs/guides/security/firewalld-beginners.md:10
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
+#: ../src/docs/guides/security/ssh_public_private_keys.md:21
+#: ../src/docs/guides/security/ssl_keys_https.md:22
+#: ../src/docs/guides/virtualization/vbox-rocky.md:13
+#: ../src/docs/guides/web/apache-sites-enabled.md:25
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
+#: ../src/docs/guides/web/nginx-mainline.md:13
+#: ../src/docs/guides/web/nginx-multisite.md:14
+#: ../src/docs/labs/security/introduction.md:1
+#: ../src/docs/labs/security/introduction.md:5
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:111
+#: ../src/docs/guides/file_sharing/glusterfs.md:133
+msgid "or:"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/lxd_server/00-toc.md:48 ../src/docs/gemstones/rpaste.md:76
+#: ../src/docs/guides/automation/cron_jobs_howto.md:185
+#: ../src/docs/guides/backup/rsync_ssh.md:161
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:322
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:632
+#: ../src/docs/guides/file_sharing/glusterfs.md:339
+#: ../src/docs/guides/network/librenms_monitoring_server.md:657
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:480
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:339
+#, no-wrap
+msgid "Conclusions"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/lxd_server/30-appendix_a.md:15
+#: ../src/docs/books/nvchad/vale_nvchad.md:16
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:20
+#: ../src/docs/guides/automation/anacron.md:10
+#: ../src/docs/guides/automation/cron_jobs_howto.md:14
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:13
+#: ../src/docs/guides/backup/rsnapshot_backup.md:13
+#: ../src/docs/guides/backup/rsync_ssh.md:12
+#: ../src/docs/guides/communications/asterisk_installation.md:25
+#: ../src/docs/guides/database/database_mariadb-server.md:13
+#: ../src/docs/guides/desktop/kde_installation.md:20
+#: ../src/docs/guides/desktop/mate_installation.md:17
+#: ../src/docs/guides/desktop/xfce_installation.md:17
+#: ../src/docs/guides/editors/micro.md:33
+#: ../src/docs/guides/email/postfix_reporting.md:14
+#: ../src/docs/guides/file_sharing/glusterfs.md:10
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:14
+#: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:14
+#: ../src/docs/guides/network/basic_network_configuration.md:16
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:8
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:14
+#: ../src/docs/guides/security/ssh_public_private_keys.md:14
+#: ../src/docs/guides/security/ssl_keys_https.md:14
+#: ../src/docs/guides/virtualization/vbox-rocky.md:19
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:15
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:15
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:14
+#: ../src/docs/guides/web/mod_SSL_apache.md:14
+#, no-wrap
+msgid "Prerequisites"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/database/database_mariadb-server.md:20
+#: ../src/docs/guides/file_sharing/glusterfs.md:15
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
+msgid ""
+"Proficiency with a command-line editor (we are using _vi_ in this example)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/database/database_mariadb-server.md:20
+#: ../src/docs/guides/file_sharing/glusterfs.md:15
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:21
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
+msgid ""
+"A heavy comfort level with issuing commands from the command-line, viewing "
+"logs, and other general systems administrator duties"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/guides/file_sharing/glusterfs.md:1
+#, no-wrap
+msgid "Clustering-GlusterFS"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/guides/file_sharing/glusterfs.md:8
+#, no-wrap
+msgid "High availability cluster with GlusterFS"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/file_sharing/glusterfs.md:15
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
+msgid "All commands are run as the root user or sudo"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:19
+msgid "GlusterFS is a distributed file system."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:21
+msgid ""
+"It allows for storage of large amount of data distributed across clusters of "
+"servers with a very high availability."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:23
+msgid ""
+"It is composed of a server part to be installed on all the nodes of the "
+"server clusters."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:25
+msgid ""
+"Clients can access the data via the `glusterfs` client or the `mount` "
+"command."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:27
+msgid "GlusterFS can operate in two modes:"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: ../src/docs/guides/file_sharing/glusterfs.md:30
+msgid "replicated mode: each node of the cluster has all the data."
+msgstr ""
+
+#. type: Bullet: '  * '
+#: ../src/docs/guides/file_sharing/glusterfs.md:30
+msgid ""
+"distributed mode: no data redundancy. If a storage fails, the data on the "
+"failed node is lost."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:32
+msgid ""
+"Both modes can be used together to provide both a replicated and distributed "
+"file system as long as you have the right number of servers."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:34
+msgid "Data is stored inside bricks."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:36
+#, no-wrap
+msgid "> A Brick is the basic unit of storage in GlusterFS, represented by an export directory on a server in the trusted storage pool.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/file_sharing/glusterfs.md:37
+#, no-wrap
+msgid "Test platform"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:40
+msgid ""
+"Our fictitious platform is composed of two servers and a client, all Rocky "
+"Linux servers."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/file_sharing/glusterfs.md:44
+msgid "First node: node1.cluster.local - 192.168.1.10"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/file_sharing/glusterfs.md:44
+msgid "Second node: node2.cluster.local - 192.168.1.11"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/file_sharing/glusterfs.md:44
+msgid "Client1: client1.clients.local - 192.168.1.12"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:48
+#, no-wrap
+msgid "    Make sure you have the necessary bandwidth between the servers of the cluster.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:50
+msgid "Each server in the cluster has a second disk for data storage."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/file_sharing/glusterfs.md:51
+#, no-wrap
+msgid "Preparation of the disks"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:54
+msgid ""
+"We will create a new LVM logical volume that will be mounted on `/data/"
+"glusterfs/vol0` on both of the cluster's servers:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:55
+#, no-wrap
+msgid ""
+"$ sudo pvcreate /dev/sdb\n"
+"$ sudo vgcreate vg_data /dev/sdb\n"
+"$ sudo lvcreate -l 100%FREE -n lv_data vg_data\n"
+"$ sudo mkfs.xfs /dev/vg_data/lv_data\n"
+"$ sudo mkdir -p /data/glusterfs/volume1\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:66
+#, no-wrap
+msgid "    If LVM is not available on your servers, just install it with the following command:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:70
+#, no-wrap
+msgid ""
+"    ```\n"
+"    $ sudo dnf install lvm2\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:72
+msgid "We can now add that logical volume to the `/etc/fstab` file:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:73
+#, no-wrap
+msgid "/dev/mapper/vg_data-lv_data /data/glusterfs/volume1        xfs     defaults        1 2\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:78
+msgid "And mount it:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:79
+#, no-wrap
+msgid "$ sudo mount -a\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:84
+msgid ""
+"As the data is stored in a sub-volume called brick, we can create a "
+"directory in this new data space dedicated to it:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:85
+#, no-wrap
+msgid "$ sudo mkdir /data/glusterfs/volume1/brick0\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:92
+msgid ""
+"At the time of writing this documentation, the original CentOS Storage SIG "
+"repository is no longer available and the RockyLinux repository is not yet "
+"available."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:94
+msgid "However, we will use (for the time being) the archived version."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:96
+msgid ""
+"First of all, it is necessary to add the dedicated repository to gluster (in "
+"version 9) on both servers:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:97
+#, no-wrap
+msgid "sudo dnf install centos-release-gluster9\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:104
+#, no-wrap
+msgid "    Later, when it is ready on the Rocky side, we can change the name of this package.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:106
+msgid ""
+"As the repo list and url is not available anymore, let's change the content "
+"of the `/etc/yum.repos.d/CentOS-Gluster-9.repo`:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:107
+#, no-wrap
+msgid ""
+"[centos-gluster9]\n"
+"name=CentOS-$releasever - Gluster 9\n"
+"#mirrorlist=http://mirrorlist.centos.org?arch=$basearch&release=$releasever&repo=storage-gluster-9\n"
+"baseurl=https://dl.rockylinux.org/vault/centos/8.5.2111/storage/x86_64/gluster-9/\n"
+"gpgcheck=1\n"
+"enabled=1\n"
+"gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-Storage\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:118
+msgid "We are now ready to install the glusterfs server:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:119
+#, no-wrap
+msgid "$ sudo dnf install glusterfs glusterfs-libs glusterfs-server\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/file_sharing/glusterfs.md:123
+#, no-wrap
+msgid "Firewall rules"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:126
+msgid "A few rules are necessary for the service to work:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:127
+#, no-wrap
+msgid ""
+"$ sudo firewall-cmd --zone=public --add-service=glusterfs --permanent\n"
+"$ sudo firewall-cmd --reload\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:134
+#, no-wrap
+msgid ""
+"$ sudo firewall-cmd --zone=public --add-port=24007-24008/tcp --permanent\n"
+"$ sudo firewall-cmd --zone=public --add-port=49152/tcp --permanent\n"
+"$ sudo firewall-cmd --reload\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:143
+msgid ""
+"You can let DNS handle the name resolution of the servers in your cluster, "
+"or you can choose to relieve the servers of this task by inserting records "
+"for each of them in your `/etc/hosts` files. This will also keep things "
+"running even in the event of a DNS failure."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:144
+#, no-wrap
+msgid ""
+"192.168.10.10 node1.cluster.local\n"
+"192.168.10.11 node2.cluster.local\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/file_sharing/glusterfs.md:149
+#, no-wrap
+msgid "Starting the service"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:152
+msgid "Without further delay, let's start the service:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:153
+#, no-wrap
+msgid ""
+"$ sudo systemctl enable glusterfsd.service glusterd.service\n"
+"$ sudo systemctl start glusterfsd.service glusterd.service\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:159
+msgid "We are ready to join the two nodes to the same pool."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:161
+msgid ""
+"This command is to be performed only once on a single node (here on node1):"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:162
+#, no-wrap
+msgid ""
+"sudo gluster peer probe node2.cluster.local\n"
+"peer probe: success\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:168
+msgid "Verify:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:169
+#, no-wrap
+msgid ""
+"node1 $ sudo gluster peer status\n"
+"Number of Peers: 1\n"
+"\n"
+"Hostname: node2.cluster.local\n"
+"Uuid: c4ff108d-0682-43b2-bc0c-311a0417fae2\n"
+"State: Peer in Cluster (Connected)\n"
+"Other names:\n"
+"192.168.10.11\n"
+"\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:181
+#, no-wrap
+msgid ""
+"node2 $ sudo gluster peer status\n"
+"Number of Peers: 1\n"
+"\n"
+"Hostname: node1.cluster.local\n"
+"Uuid: 6375e3c2-4f25-42de-bbb6-ab6a859bf55f\n"
+"State: Peer in Cluster (Connected)\n"
+"Other names:\n"
+"192.168.10.10\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:193
+msgid "We can now create a volume with 2 replicas:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:194
+#, no-wrap
+msgid ""
+"$ sudo gluster volume create volume1 replica 2 node1.cluster.local:/data/glusterfs/volume1/brick0/ node2.cluster.local:/data/glusterfs/volume1/brick0/\n"
+"Replica 2 volumes are prone to split-brain. Use Arbiter or Replica 3 to avoid this. See: https://docs.gluster.org/en/latest/Administrator-Guide/Split-brain-and-ways-to-deal-with-it/.\n"
+"Do you still want to continue?\n"
+" (y/n) y\n"
+"volume create: volume1: success: please start the volume to access data\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:205
+#, no-wrap
+msgid "    As the return command says, a 2-node cluster is not the best idea in the world against split brain. But this will suffice for the purposes of our test platform.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:207
+msgid "We can now start the volume to access data:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:208
+#, no-wrap
+msgid ""
+"$ sudo gluster volume start volume1\n"
+"\n"
+"volume start: volume1: success\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:215
+msgid "Check the volume state:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:216
+#, no-wrap
+msgid ""
+"$ sudo gluster volume status\n"
+"Status of volume: volume1\n"
+"Gluster process                             TCP Port  RDMA Port  Online  Pid\n"
+"------------------------------------------------------------------------------\n"
+"Brick node1.cluster.local:/data/glusterfs/v\n"
+"olume1/brick0                               49152     0          Y       1210\n"
+"Brick node2.cluster.local:/data/glusterfs/v\n"
+"olume1/brick0                               49152     0          Y       1135\n"
+"Self-heal Daemon on localhost               N/A       N/A        Y       1227\n"
+"Self-heal Daemon on node2.cluster.local     N/A       N/A        Y       1152\n"
+"\n"
+"Task Status of Volume volume1\n"
+"------------------------------------------------------------------------------\n"
+"There are no active volume tasks\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:233
+#, no-wrap
+msgid ""
+"$ sudo gluster volume info\n"
+"\n"
+"Volume Name: volume1\n"
+"Type: Replicate\n"
+"Volume ID: f51ca783-e815-4474-b256-3444af2c40c4\n"
+"Status: Started\n"
+"Snapshot Count: 0\n"
+"Number of Bricks: 1 x 2 = 2\n"
+"Transport-type: tcp\n"
+"Bricks:\n"
+"Brick1: node1.cluster.local:/data/glusterfs/volume1/brick0\n"
+"Brick2: node2.cluster.local:/data/glusterfs/volume1/brick0\n"
+"Options Reconfigured:\n"
+"cluster.granular-entry-heal: on\n"
+"storage.fips-mode-rchecksum: on\n"
+"transport.address-family: inet\n"
+"nfs.disable: on\n"
+"performance.client-io-threads: off\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:255
+msgid "The status must be \"Started\"."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:257
+msgid "We can already restrict access on the volume a little bit:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:258
+#, no-wrap
+msgid "$ sudo gluster volume set volume1 auth.allow 192.168.10.*\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:263
+msgid "It's as simple as that"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/file_sharing/glusterfs.md:264
+#, no-wrap
+msgid "Clients access"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:267
+msgid "There are several ways to access our data from a client."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:269
+msgid "The preferred method:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:270
+#, no-wrap
+msgid ""
+"$ sudo dnf install glusterfs-client\n"
+"$ sudo mkdir /data\n"
+"$ sudo mount.glusterfs node1.cluster.local:/volume1 /data\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:277
+msgid ""
+"There are no additional repositories to configure. The client is already "
+"present in the base repos."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:279
+msgid ""
+"Create a file and check that it is present on all the nodes of the cluster:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:281
+msgid "On client:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:282
+#, no-wrap
+msgid "sudo touch /data/test\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:287
+msgid "On both servers:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:288
+#, no-wrap
+msgid ""
+"$ ll /data/glusterfs/volume1/brick0/\n"
+"total 0\n"
+"-rw-r--r--. 2 root root 0 Feb  3 19:21 test\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:295
+msgid ""
+"Sound good! But what happens if the node 1 fails? It is the one that was "
+"specified when mounting the remote access."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:297
+msgid "Let's stop the node one:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:298
+#, no-wrap
+msgid "$ sudo shutdown -h now\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:303
+msgid "Check status on node2:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:304
+#, no-wrap
+msgid ""
+"$ sudo gluster peer status\n"
+"Number of Peers: 1\n"
+"\n"
+"Hostname: node1.cluster.local\n"
+"Uuid: 6375e3c2-4f25-42de-bbb6-ab6a859bf55f\n"
+"State: Peer in Cluster (Disconnected)\n"
+"Other names:\n"
+"192.168.10.10\n"
+"[antoine@node2 ~]$ sudo gluster volume status\n"
+"Status of volume: volume1\n"
+"Gluster process                             TCP Port  RDMA Port  Online  Pid\n"
+"------------------------------------------------------------------------------\n"
+"Brick node2.cluster.local:/data/glusterfs/v\n"
+"olume1/brick0                               49152     0          Y       1135\n"
+"Self-heal Daemon on localhost               N/A       N/A        Y       1152\n"
+"\n"
+"Task Status of Volume volume1\n"
+"------------------------------------------------------------------------------\n"
+"There are no active volume tasks\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:327
+msgid "The node1 is away."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:329
+msgid "And on client:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:330
+#, no-wrap
+msgid ""
+"$ ll /data/test\n"
+"-rw-r--r--. 1 root root 0 Feb  4 16:41 /data/test\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:336
+msgid "File is already there."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:338
+msgid ""
+"Upon connection, the glusterfs client receives a list of nodes it can "
+"address, which explains the transparent switchover we just witnessed."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:341
+msgid ""
+"While there are no current repositories, using the archived repositories "
+"that CentOS had for GlusterFS will still work. As outlined, GlusterFS is "
+"pretty easy to install and maintain. Using the command line tools is a "
+"pretty straight forward process. GlusterFS will help with creating and "
+"maintaining high-availability clusters for data storage and redundancy. You "
+"can find more information on GlusterFS and tool usage from the [official "
+"documentation pages.](https://docs.gluster.org/en/latest/)"
+msgstr ""

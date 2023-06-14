@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/13-softwares.md:900
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:105
+#: ../src/docs/books/nvchad/template_chadrc.md:352
+#: ../src/docs/gemstones/bash_stub.md:103
+#: ../src/docs/gemstones/perl_search_replace.md:38
+#: ../src/docs/gemstones/sed_search_replace.md:72
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:172
+#: ../src/docs/guides/automation/olivetin.md:142
+#: ../src/docs/guides/cms/dokuwiki_server.md:306
+#: ../src/docs/guides/communications/asterisk_installation.md:261
+#: ../src/docs/guides/containers/lxd_web_servers.md:919
+#: ../src/docs/guides/containers/podman-nextcloud.md:456
+#: ../src/docs/guides/contribute/local_docs.md:47
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:322
+#: ../src/docs/guides/contribute/navigation.md:129
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:458
+#: ../src/docs/guides/database/database_mariadb-server.md:197
+#: ../src/docs/guides/desktop/kde_installation.md:105
+#: ../src/docs/guides/desktop/mate_installation.md:200
+#: ../src/docs/guides/desktop/xfce_installation.md:218
+#: ../src/docs/guides/editors/micro.md:79
+#: ../src/docs/guides/email/postfix_reporting.md:254
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:270
+#: ../src/docs/guides/file_sharing/sftp.md:765
+#: ../src/docs/guides/proxies/pound.md:460
+#: ../src/docs/guides/security/dnf_automatic.md:119
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:54
+#: ../src/docs/guides/security/firewalld-beginners.md:427
+#: ../src/docs/guides/security/firewalld.md:477
+#: ../src/docs/guides/security/pam.md:137
+#: ../src/docs/guides/security/ssl_keys_https.md:136
+#: ../src/docs/guides/virtualization/vbox-rocky.md:160
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:147
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:235
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:157
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:91
+#: ../src/docs/guides/web/mod_SSL_apache.md:171
+#: ../src/docs/guides/web/nginx-mainline.md:352
+#: ../src/docs/guides/web/nginx-multisite.md:359
+#, no-wrap
+msgid "Conclusion"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/perl_search_replace.md:1
+#, no-wrap
+msgid "perl"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/perl_search_replace.md:1
+#, no-wrap
+msgid "search"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/gemstones/perl_search_replace.md:1
+#, no-wrap
+msgid "perl - Search and Replace"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/gemstones/perl_search_replace.md:9
+#, no-wrap
+msgid "`perl` Search and Replace"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/perl_search_replace.md:12
+msgid ""
+"Sometimes you need to quickly search and replace strings in a file or group "
+"of files. There are many ways to do this, but this method uses `perl`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/perl_search_replace.md:14
+msgid ""
+"To search for and replace a particular string across multiple files in a "
+"directory, the command would be:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/gemstones/perl_search_replace.md:15
+#, no-wrap
+msgid "perl -pi -w -e 's/search_for/replace_with/g;' ~/Dir_to_search/*.html\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/perl_search_replace.md:20
+msgid ""
+"For a single file that might have multiple instances of the string, you can "
+"specify the file:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/gemstones/perl_search_replace.md:21
+#, no-wrap
+msgid "perl -pi -w -e 's/search_for/replace_with/g;' /var/www/htdocs/bigfile.html\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/perl_search_replace.md:26
+msgid ""
+"This command uses vi syntax for search and replace to find any occurrence of "
+"a string and replace it with another string across a single or multiple "
+"files of a particular type. Useful for replacing html/php link changes "
+"embedded in those types of files, and many other things."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/gemstones/perl_search_replace.md:27
+#: ../src/docs/gemstones/sed_search_replace.md:37
+#, no-wrap
+msgid "Options Explained"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/perl_search_replace.md:37
+#, no-wrap
+msgid ""
+"|Option | Explanation                                                   |\n"
+"|-------|---------------------------------------------------------------|\n"
+"| -p     | places a loop around your script                              |\n"
+"| -i     | edit file in place                                            |\n"
+"| -w     | prints out warning messages in case something goes wrong      |\n"
+"| -e     | allows a single line of code entered on the command line      |\n"
+"| -s     | specifies search                                              |\n"
+"| -g     | specifies to replace globally, in other words all occurrences |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/perl_search_replace.md:40
+msgid ""
+"A simple way to replace a string in either one or many files using `perl`."
+msgstr ""

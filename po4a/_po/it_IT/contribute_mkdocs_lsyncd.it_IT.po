@@ -1,0 +1,1114 @@
+# Italian translations for po package
+# Traduzioni italiane per il pacchetto po.
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"PO-Revision-Date: 2023-06-14 07:11+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:43
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:220
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:271
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:334
+#: ../src/docs/books/admin_guide/05-vi.md:70
+#: ../src/docs/books/admin_guide/05-vi.md:206
+#: ../src/docs/books/admin_guide/05-vi.md:272
+#: ../src/docs/books/admin_guide/06-users.md:36
+#: ../src/docs/books/admin_guide/06-users.md:92
+#: ../src/docs/books/admin_guide/06-users.md:220
+#: ../src/docs/books/admin_guide/06-users.md:350
+#: ../src/docs/books/admin_guide/06-users.md:598
+#: ../src/docs/books/admin_guide/06-users.md:754
+#: ../src/docs/books/admin_guide/06-users.md:818
+#: ../src/docs/books/admin_guide/11-tasks.md:174
+#: ../src/docs/books/admin_guide/12-network.md:158
+#: ../src/docs/books/admin_guide/03-commands.md:516
+#: ../src/docs/books/admin_guide/03-commands.md:693
+#: ../src/docs/books/admin_guide/03-commands.md:1216
+#: ../src/docs/books/admin_guide/03-commands.md:1262
+#: ../src/docs/books/admin_guide/03-commands.md:1297
+#: ../src/docs/books/admin_guide/07-file-systems.md:395
+#: ../src/docs/books/admin_guide/07-file-systems.md:437
+#: ../src/docs/books/admin_guide/07-file-systems.md:447
+#: ../src/docs/books/admin_guide/07-file-systems.md:515
+#: ../src/docs/books/admin_guide/07-file-systems.md:556
+#: ../src/docs/books/admin_guide/07-file-systems.md:627
+#: ../src/docs/books/admin_guide/07-file-systems.md:653
+#: ../src/docs/books/admin_guide/07-file-systems.md:672
+#: ../src/docs/books/admin_guide/07-file-systems.md:676
+#: ../src/docs/books/admin_guide/07-file-systems.md:1019
+#: ../src/docs/books/admin_guide/08-process.md:49
+#: ../src/docs/books/admin_guide/08-process.md:238
+#: ../src/docs/books/admin_guide/09-backups.md:27
+#: ../src/docs/books/admin_guide/09-backups.md:116
+#: ../src/docs/books/admin_guide/09-backups.md:133
+#: ../src/docs/books/admin_guide/09-backups.md:148
+#: ../src/docs/books/admin_guide/09-backups.md:281
+#: ../src/docs/books/admin_guide/09-backups.md:285
+#: ../src/docs/books/admin_guide/09-backups.md:301
+#: ../src/docs/books/admin_guide/09-backups.md:342
+#: ../src/docs/books/admin_guide/09-backups.md:352
+#: ../src/docs/books/admin_guide/09-backups.md:554
+#: ../src/docs/books/admin_guide/09-backups.md:771
+#: ../src/docs/books/admin_guide/10-boot.md:114
+#: ../src/docs/books/admin_guide/10-boot.md:153
+#: ../src/docs/books/admin_guide/10-boot.md:165
+#: ../src/docs/books/admin_guide/13-softwares.md:22
+#: ../src/docs/books/learning_ansible/01-basic.md:51
+#: ../src/docs/books/learning_ansible/01-basic.md:104
+#: ../src/docs/books/learning_ansible/01-basic.md:112
+#: ../src/docs/books/learning_ansible/01-basic.md:328
+#: ../src/docs/books/learning_ansible/01-basic.md:415
+#: ../src/docs/books/learning_ansible/01-basic.md:492
+#: ../src/docs/books/learning_ansible/01-basic.md:633
+#: ../src/docs/books/learning_ansible/01-basic.md:656
+#: ../src/docs/books/learning_ansible/02-advanced.md:34
+#: ../src/docs/books/learning_ansible/02-advanced.md:150
+#: ../src/docs/books/learning_ansible/02-advanced.md:182
+#: ../src/docs/books/learning_ansible/02-advanced.md:269
+#: ../src/docs/books/learning_ansible/02-advanced.md:277
+#: ../src/docs/books/learning_ansible/02-advanced.md:287
+#: ../src/docs/books/learning_ansible/02-advanced.md:293
+#: ../src/docs/books/learning_ansible/02-advanced.md:360
+#: ../src/docs/books/learning_ansible/02-advanced.md:428
+#: ../src/docs/books/learning_ansible/02-advanced.md:601
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:33
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:58
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:77
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:96
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:113
+#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:65
+#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:432
+#: ../src/docs/books/learning_ansible/05-deployments.md:41
+#: ../src/docs/books/learning_ansible/05-deployments.md:124
+#: ../src/docs/books/learning_ansible/05-deployments.md:196
+#: ../src/docs/books/learning_ansible/05-deployments.md:616
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:36
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:40
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:80
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:214
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:32
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:75
+#: ../src/docs/books/learning_bash/02-using-variables.md:153
+#: ../src/docs/books/learning_bash/02-using-variables.md:193
+#: ../src/docs/books/learning_bash/05-tests.md:245
+#: ../src/docs/books/learning_bash/07-loops.md:180
+#: ../src/docs/books/lxd_server/04-firewall.md:80
+#: ../src/docs/books/nvchad/plugins/md_preview.md:140
+#: ../src/docs/books/nvchad/template_chadrc.md:239
+#: ../src/docs/gemstones/https_rsa_keygen.md:34
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:80
+#: ../src/docs/guides/8_6_installation.md:37
+#: ../src/docs/guides/8_6_installation.md:168
+#: ../src/docs/guides/8_6_installation.md:176
+#: ../src/docs/guides/8_6_installation.md:182
+#: ../src/docs/guides/8_6_installation.md:250
+#: ../src/docs/guides/automation/olivetin.md:60
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:307
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:323
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:486
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:533
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:667
+#: ../src/docs/guides/containers/lxd_web_servers.md:35
+#: ../src/docs/guides/containers/lxd_web_servers.md:45
+#: ../src/docs/guides/containers/lxd_web_servers.md:301
+#: ../src/docs/guides/containers/lxd_web_servers.md:352
+#: ../src/docs/guides/containers/lxd_web_servers.md:605
+#: ../src/docs/guides/containers/lxd_web_servers.md:665
+#: ../src/docs/guides/containers/lxd_web_servers.md:737
+#: ../src/docs/guides/containers/lxd_web_servers.md:796
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:53
+#: ../src/docs/guides/contribute/navigation.md:60
+#: ../src/docs/guides/custom-linux-kernel.md:453
+#: ../src/docs/guides/editors/micro.md:30
+#: ../src/docs/guides/file_sharing/glusterfs.md:46
+#: ../src/docs/guides/file_sharing/glusterfs.md:64
+#: ../src/docs/guides/file_sharing/glusterfs.md:102
+#: ../src/docs/guides/file_sharing/glusterfs.md:203
+#: ../src/docs/guides/installation.md:36 ../src/docs/guides/installation.md:175
+#: ../src/docs/guides/installation.md:183
+#: ../src/docs/guides/installation.md:193
+#: ../src/docs/guides/installation.md:266
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
+#: ../src/docs/guides/security/firewalld-beginners.md:89
+#: ../src/docs/guides/security/firewalld-beginners.md:144
+#: ../src/docs/guides/security/firewalld-beginners.md:258
+#: ../src/docs/guides/security/firewalld.md:51
+#: ../src/docs/guides/security/firewalld.md:94
+#: ../src/docs/guides/security/firewalld.md:228
+#: ../src/docs/guides/security/firewalld.md:372
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:72
+#: ../src/docs/guides/security/learning_selinux.md:137
+#: ../src/docs/guides/security/learning_selinux.md:253
+#: ../src/docs/guides/security/learning_selinux.md:356
+#: ../src/docs/guides/virtualization/vbox-rocky.md:27
+#: ../src/docs/guides/web/nginx-mainline.md:30
+#: ../src/docs/guides/web/nginx-mainline.md:99
+#: ../src/docs/guides/web/nginx-mainline.md:141
+#: ../src/docs/guides/web/nginx-mainline.md:254
+#: ../src/docs/guides/web/nginx-mainline.md:333
+#: ../src/docs/guides/web/nginx-multisite.md:73
+#: ../src/docs/guides/web/nginx-multisite.md:233
+#: ../src/docs/guides/web/nginx-multisite.md:292
+#: ../src/docs/guides/web/nginx-multisite.md:302
+#: ../src/docs/guides/web/php.md:33 ../src/docs/guides/web/php.md:76
+#: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
+#: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
+#: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
+msgid "!!! Note"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/13-softwares.md:900
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:105
+#: ../src/docs/books/nvchad/template_chadrc.md:352
+#: ../src/docs/gemstones/bash_stub.md:103
+#: ../src/docs/gemstones/perl_search_replace.md:38
+#: ../src/docs/gemstones/sed_search_replace.md:72
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:172
+#: ../src/docs/guides/automation/olivetin.md:142
+#: ../src/docs/guides/cms/dokuwiki_server.md:306
+#: ../src/docs/guides/communications/asterisk_installation.md:261
+#: ../src/docs/guides/containers/lxd_web_servers.md:919
+#: ../src/docs/guides/containers/podman-nextcloud.md:456
+#: ../src/docs/guides/contribute/local_docs.md:47
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:322
+#: ../src/docs/guides/contribute/navigation.md:129
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:458
+#: ../src/docs/guides/database/database_mariadb-server.md:197
+#: ../src/docs/guides/desktop/kde_installation.md:105
+#: ../src/docs/guides/desktop/mate_installation.md:200
+#: ../src/docs/guides/desktop/xfce_installation.md:218
+#: ../src/docs/guides/editors/micro.md:79
+#: ../src/docs/guides/email/postfix_reporting.md:254
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:270
+#: ../src/docs/guides/file_sharing/sftp.md:765
+#: ../src/docs/guides/proxies/pound.md:460
+#: ../src/docs/guides/security/dnf_automatic.md:119
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:54
+#: ../src/docs/guides/security/firewalld-beginners.md:427
+#: ../src/docs/guides/security/firewalld.md:477
+#: ../src/docs/guides/security/pam.md:137
+#: ../src/docs/guides/security/ssl_keys_https.md:136
+#: ../src/docs/guides/virtualization/vbox-rocky.md:160
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:147
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:235
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:157
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:91
+#: ../src/docs/guides/web/mod_SSL_apache.md:171
+#: ../src/docs/guides/web/nginx-mainline.md:352
+#: ../src/docs/guides/web/nginx-multisite.md:359
+#, no-wrap
+msgid "Conclusion"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
+#: ../src/docs/books/learning_ansible/05-deployments.md:31
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/00-toc.md:13
+#: ../src/docs/books/nvchad/index.md:12
+#: ../src/docs/books/nvchad/plugins/index.md:14
+#: ../src/docs/books/nvchad/plugins/md_preview.md:14
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
+#: ../src/docs/books/nvchad/vale_nvchad.md:12
+#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
+#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
+#: ../src/docs/gemstones/string_color.md:11
+#: ../src/docs/guides/automation/cron_jobs_howto.md:25
+#: ../src/docs/guides/automation/olivetin.md:14
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
+#: ../src/docs/guides/backup/rsnapshot_backup.md:22
+#: ../src/docs/guides/backup/rsync_ssh.md:24
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
+#: ../src/docs/guides/cms/dokuwiki_server.md:23
+#: ../src/docs/guides/containers/lxd_web_servers.md:10
+#: ../src/docs/guides/containers/podman-nextcloud.md:13
+#: ../src/docs/guides/contribute/local_docs.md:11
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
+#: ../src/docs/guides/contribute/mkdocs_venv.md:14
+#: ../src/docs/guides/contribute/style_guide.md:14
+#: ../src/docs/guides/database/database_mariadb-server.md:21
+#: ../src/docs/guides/desktop/kde_installation.md:11
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
+#: ../src/docs/guides/editors/micro.md:14
+#: ../src/docs/guides/email/postfix_reporting.md:22
+#: ../src/docs/guides/file_sharing/glusterfs.md:16
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
+#: ../src/docs/guides/file_sharing/sftp.md:16
+#: ../src/docs/guides/migrate2rocky.md:18
+#: ../src/docs/guides/network/basic_network_configuration.md:12
+#: ../src/docs/guides/network/librenms_monitoring_server.md:13
+#: ../src/docs/guides/package_management/index.md:1
+#: ../src/docs/guides/package_management/index.md:5
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
+#: ../src/docs/guides/proxies/pound.md:17
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
+#: ../src/docs/guides/security/firewalld-beginners.md:10
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
+#: ../src/docs/guides/security/ssh_public_private_keys.md:21
+#: ../src/docs/guides/security/ssl_keys_https.md:22
+#: ../src/docs/guides/virtualization/vbox-rocky.md:13
+#: ../src/docs/guides/web/apache-sites-enabled.md:25
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
+#: ../src/docs/guides/web/nginx-mainline.md:13
+#: ../src/docs/guides/web/nginx-multisite.md:14
+#: ../src/docs/labs/security/introduction.md:1
+#: ../src/docs/labs/security/introduction.md:5
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: YAML Front Matter: contributors
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/01-install.md:1
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:1
+#: ../src/docs/books/lxd_server/03-lxdinit.md:1
+#: ../src/docs/books/lxd_server/04-firewall.md:1
+#: ../src/docs/books/lxd_server/05-lxd_images.md:1
+#: ../src/docs/books/lxd_server/06-profiles.md:1
+#: ../src/docs/books/lxd_server/07-configurations.md:1
+#: ../src/docs/books/lxd_server/08-snapshots.md:1
+#: ../src/docs/books/lxd_server/09-snapshot_server.md:1
+#: ../src/docs/books/lxd_server/10-automating.md:1
+#: ../src/docs/gemstones/bash_stub.md:1
+#: ../src/docs/guides/automation/cron_jobs_howto.md:1
+#: ../src/docs/guides/backup/rsnapshot_backup.md:1
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:1
+#: ../src/docs/guides/cms/dokuwiki_server.md:1
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:1
+#: ../src/docs/guides/contribute/navigation.md:1
+#: ../src/docs/guides/desktop/kde_installation.md:1
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:1
+#: ../src/docs/guides/email/postfix_reporting.md:1
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:1
+#: ../src/docs/guides/file_sharing/sftp.md:1
+#: ../src/docs/guides/network/librenms_monitoring_server.md:1
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
+#: ../src/docs/guides/security/ssh_public_private_keys.md:1
+#: ../src/docs/guides/security/ssl_keys_https.md:1
+#: ../src/docs/guides/web/apache-sites-enabled.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
+#, no-wrap
+msgid "Ezequiel Bruni"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/nvchad/nerd_fonts.md:52
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:256
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:58
+#: ../src/docs/guides/security/dnf_automatic.md:34
+#: ../src/docs/guides/web/apache-sites-enabled.md:58
+#: ../src/docs/guides/web/php.md:105 ../src/docs/guides/web/php.md:168
+#, no-wrap
+msgid "Configuration"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:1
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:244
+#, no-wrap
+msgid "lsyncd"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:104
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:56
+#: ../src/docs/guides/network/librenms_monitoring_server.md:31
+#: ../src/docs/guides/web/mod_SSL_apache.md:51
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:268
+#, no-wrap
+msgid "Installing Packages"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/containers/podman-nextcloud.md:35
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:19
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:13
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:19
+#: ../src/docs/guides/proxies/pound.md:27
+#: ../src/docs/guides/security/firewalld-beginners.md:36
+#: ../src/docs/guides/security/firewalld.md:25
+#: ../src/docs/guides/security/pam.md:13
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:14
+#: ../src/docs/guides/web/nginx-mainline.md:41
+#: ../src/docs/guides/web/nginx-multisite.md:28
+#, no-wrap
+msgid "Prerequisites and Assumptions"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/local_docs.md:25
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:185
+#, no-wrap
+msgid "cd docs.rockylinux.org\n"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:1
+#: ../src/docs/guides/contribute/navigation.md:1
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:1
+#: ../src/docs/guides/contribute/style_guide.md:1
+#, no-wrap
+msgid "contribute"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:1
+#, no-wrap
+msgid "local envirmonent lxd"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:1
+#, no-wrap
+msgid "Local Documentation - LXD"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:14
+msgid ""
+"There are several ways to run a copy of `mkdocs` so that you can see exactly "
+"how your Rocky Linux document will appear when it is merged on the live "
+"system. This particular document deals with using an LXD container on your "
+"local workstation to separate python code in `mkdocs` from other projects "
+"you might be working on."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:16
+msgid ""
+"It is recommended to keep projects separate to avoid causing problems with "
+"your workstation's code."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:18
+msgid ""
+"This is also a partner document to the [Docker version here]"
+"(rockydocs_web_dev.md)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:22
+msgid "A few things you should have/know/be:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:31
+msgid "Familiarity and comfort with the command-line"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:31
+msgid ""
+"Comfortable using tools for editing, SSH, and synchronization, or willing to "
+"follow along and learn"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:31
+msgid ""
+"We will reference LXD - there's a long document on [building and using LXD "
+"on a server here](../../books/lxd_server/00-toc.md), but we will be using "
+"just a basic install on our Linux workstation. This document assumes that "
+"you are already using LXD for other things, and does not cover the build and "
+"initialization of LXD."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:31
+msgid ""
+"We will be using `lsyncd` for mirroring files, and you can find "
+"[documentation on that here](../backup/mirroring_lsyncd.md)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:31
+msgid ""
+"You will need public keys generated for your user and the \"root\" user on "
+"your local workstation using [this document](../security/"
+"ssh_public_private_keys.md)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:31
+msgid ""
+"Our bridge interface is running on 10.56.233.1 and our container is running "
+"on 10.56.233.189 in our examples below."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:31
+msgid ""
+"\"youruser\" in this document represents your user id, so substitute in your "
+"own."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:31
+msgid ""
+"We are assuming that you are already doing documentation development with a "
+"clone of the documentation repository on your workstation."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:32
+#, no-wrap
+msgid "The mkdocs container"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:34
+#, no-wrap
+msgid "Create the Container"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:37
+msgid ""
+"Our first step is to create the LXD container. There's no need to use "
+"anything other than defaults here, so allow your container to be built using "
+"the bridge interface."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:39
+msgid ""
+"We will add a Rocky container to our workstation for `mkdocs`, so we are "
+"just calling it \"mkdocs\":"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:40
+#, no-wrap
+msgid "lxc launch images:rockylinux/8 mkdocs\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:45
+msgid ""
+"The container needs to be set up with a proxy. By default, when `mkdocs "
+"serve` is started, it runs on 127.0.0.1:8000. That's fine when it is on your "
+"local workstation without a container. However, when it is in an LXD "
+"**container** on your local workstation, you need to set up the container "
+"with a proxy port. This is done with:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:46
+#, no-wrap
+msgid "lxc config device add mkdocs mkdocsport proxy listen=tcp:0.0.0.0:8000 connect=tcp:127.0.0.1:8000\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:51
+msgid ""
+"In the line above, \"mkdocs\" is our container name, \"mkdocsport\" is an "
+"arbitrary name we are giving to the proxy port, the type is \"proxy\", and "
+"then we are listening on all tcp interfaces on port 8000 and connecting to "
+"the localhost for that container on port 8000."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:55
+#, no-wrap
+msgid "    If you're running the lxd instance on another machine in your network, remember to make sure that port 8000 is open in the firewall.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:59
+msgid "First, get into the container with:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:60
+#, no-wrap
+msgid "lxc exec mkdocs bash\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:65
+msgid "!!! warning \"Changes in requirements.txt for 8.x\""
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:67
+#, no-wrap
+msgid "    The current `requirements.txt` will require a newer version of Python than what is installed by default in Rocky Linux 8.5 or 8.6. To be able to install all the other dependencies, do the following: \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:72
+#, no-wrap
+msgid ""
+"    ```\n"
+"    sudo dnf module enable python38\n"
+"    sudo dnf install python38\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:74
+#, no-wrap
+msgid "    You can then skip installing `python3-pip` in the packages found below.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:76
+msgid "We will need a few packages to accomplish what we need to do:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:77
+#, no-wrap
+msgid "dnf install git openssh-server python3-pip rsync\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:82
+msgid "Once installed, we need to enable and start `sshd`:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:83
+#, no-wrap
+msgid "systemctl enable --now sshd\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:86
+#, no-wrap
+msgid "Container Users"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:89
+msgid ""
+"We need to set a password for our root user, and then add our own user (the "
+"user that you use on your local machine) and add it to the sudoers list. We "
+"should be the \"root\" user at the moment, so to change the password type:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:90
+#, no-wrap
+msgid "passwd\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:95
+msgid "And set the password to something secure and memorable."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:97
+msgid "Next, add your user and set a password:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:98
+#, no-wrap
+msgid ""
+"adduser youruser\n"
+"passwd youruser\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:104
+msgid "And add your user to the sudoers group:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:105
+#, no-wrap
+msgid "usermod -aG wheel youruser\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:110
+msgid ""
+"At this point, you should be able to SSH into the container using either the "
+"root user or your user from your workstation and entering a password. Make "
+"sure that you can do that before continuing."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:111
+#, no-wrap
+msgid "SSH for root and Your user"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:114
+msgid ""
+"In this procedure, the root user (at minimum) needs to be able to SSH into "
+"the container without entering a password; this is because of the `lsyncd` "
+"process we will be implementing. We are assuming here that you can sudo to "
+"the root user on your local workstation:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:115
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:45
+#, no-wrap
+msgid "sudo -s\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:120
+msgid ""
+"We are also assuming that the root user has an `id_rsa.pub` key in the `./"
+"ssh` directory. If not, generate one using [this procedure](../security/"
+"ssh_public_private_keys.md):"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:121
+#, no-wrap
+msgid ""
+"ls -al .ssh/\n"
+"drwx------  2 root root 4096 Feb 25 08:06 .\n"
+"drwx------ 14 root root 4096 Feb 25 08:10 ..\n"
+"-rw-------  1 root root 2610 Feb 14  2021 id_rsa\n"
+"-rw-r--r--  1 root root  572 Feb 14  2021 id_rsa.pub\n"
+"-rw-r--r--  1 root root  222 Feb 25 08:06 known_hosts\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:131
+msgid ""
+"To get SSH access on our container without having to enter a password, as "
+"long as the `id_rsa.pub` key exists, like it does above, all we need to do "
+"is run:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:132
+#, no-wrap
+msgid "ssh-copy-id root@10.56.233.189\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:137
+msgid ""
+"In the case of our user, however, we need the entire .ssh/ directory copied "
+"to our container. The reason is that we are going to be keeping everything "
+"identical for this user so that our access to GitHub over SSH is the same."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:139
+msgid ""
+"To copy everything over to our container, we just need to do this as your "
+"user, **not** sudo:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:140
+#, no-wrap
+msgid "scp -r .ssh/ youruser@10.56.233.189:/home/youruser/\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:145
+msgid "Next, SSH into the container as your user:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:146
+#, no-wrap
+msgid "ssh -l youruser 10.56.233.189\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:151
+msgid ""
+"We need to make things identical, and this is done with `ssh-add`. To do "
+"this, though, we need to make sure that we have the `ssh-agent` available. "
+"Enter the following:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:152
+#, no-wrap
+msgid ""
+"eval \"$(ssh-agent)\"\n"
+"ssh-add\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:157
+#, no-wrap
+msgid "Cloning repositories"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:160
+msgid ""
+"We need two repositories cloned, but there is no need to add any `git` "
+"remotes. The documentation repository here will only be used to display the "
+"current documentation (mirrored from your workstation) and the docs."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:162
+msgid ""
+"The rockylinux.org repository will be used for running `mkdocs serve` and "
+"will use the mirror as it's source. All of these steps should be done as "
+"your non-root user. If you are not able to clone the repositories as your "
+"userid, then there **IS** a problem with your identity as far as `git` is "
+"concerned and you will need to review the last few steps for re-creating "
+"your key environment (above)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:164
+msgid "First, clone the documentation:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:165
+#, no-wrap
+msgid "git clone git@github.com:rocky-linux/documentation.git\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:170
+msgid "Assuming that worked, then clone the docs.rockylinux.org:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:171
+#, no-wrap
+msgid "git clone git@github.com:rocky-linux/docs.rockylinux.org.git\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:176
+msgid "If everything worked as planned, then you can move on."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:177
+#, no-wrap
+msgid "Setting Up mkdocs"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:180
+msgid ""
+"Installing the needed plugins is all done with `pip3` and the \"requirements."
+"txt\" file in the docs.rockylinux.org directory. While this process will "
+"argue with you about using the root user for this, in order to write the "
+"changes to the system directories, you pretty much have to run it as root."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:182
+msgid "We are doing this with `sudo` here."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:184
+msgid "Change into the directory:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:190
+msgid "Then run:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:191
+#, no-wrap
+msgid "sudo pip3 install -r requirements.txt\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:196
+msgid ""
+"Next we need to set up `mkdocs` with an additional directory. Right now, "
+"`mkdocs` requires a docs directory to be created and then the documentation/"
+"docs directory linked beneath it. All this is done with:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:197
+#, no-wrap
+msgid ""
+"mkdir docs\n"
+"cd docs\n"
+"ln -s ../../documentation/docs\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:202
+#, no-wrap
+msgid "Testing mkdocs"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:205
+msgid ""
+"Now that we have `mkdocs` setup, let's try starting the server. Remember, "
+"this process is going to argue that it looks like this is production. It's "
+"not, so ignore the warning. Start `mkdocs serve` with:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:206
+#, no-wrap
+msgid "mkdocs serve -a 0.0.0.0:8000\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:211
+msgid "You should see something like this in the console:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:212
+#, no-wrap
+msgid ""
+"INFO     -  Building documentation...\n"
+"WARNING  -  Config value: 'dev_addr'. Warning: The use of the IP address '0.0.0.0' suggests a production environment or the use of a\n"
+"            proxy to connect to the MkDocs server. However, the MkDocs' server is intended for local development purposes only. Please\n"
+"            use a third party production-ready server instead.\n"
+"INFO     -  Adding 'sv' to the 'plugins.search.lang' option\n"
+"INFO     -  Adding 'it' to the 'plugins.search.lang' option\n"
+"INFO     -  Adding 'es' to the 'plugins.search.lang' option\n"
+"INFO     -  Adding 'ja' to the 'plugins.search.lang' option\n"
+"INFO     -  Adding 'fr' to the 'plugins.search.lang' option\n"
+"INFO     -  Adding 'pt' to the 'plugins.search.lang' option\n"
+"WARNING  -  Language 'zh' is not supported by lunr.js, not setting it in the 'plugins.search.lang' option\n"
+"INFO     -  Adding 'de' to the 'plugins.search.lang' option\n"
+"INFO     -  Building en documentation\n"
+"INFO     -  Building de documentation\n"
+"INFO     -  Building fr documentation\n"
+"INFO     -  Building es documentation\n"
+"INFO     -  Building it documentation\n"
+"INFO     -  Building ja documentation\n"
+"INFO     -  Building zh documentation\n"
+"INFO     -  Building sv documentation\n"
+"INFO     -  Building pt documentation\n"
+"INFO     -  [14:12:56] Reloading browsers\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:238
+msgid ""
+"Now for the moment of truth! If you've done everything correctly above, you "
+"should be able to open a web browser and go to the IP of your container on "
+"port :8000, and see the documentation site."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:240
+msgid ""
+"In our example, we would enter the following in the browser address "
+"(**NOTE** To avoid broken URLs, the IP here has been changed to \"your-"
+"server-ip\". You just need to substitute in the IP):"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:241
+#, no-wrap
+msgid "http://your-server-ip:8000\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:247
+msgid ""
+"If you saw the documentation in the web browser, we are almost there. The "
+"last step is to keep the documentation that's in your container in "
+"synchronization with the one on your local workstation."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:249
+msgid "We are doing this here with `lsyncd` as noted above."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:251
+msgid ""
+"Depending on which Linux version you are using, `lsyncd` is installed "
+"differently. [This document](../backup/mirroring_lsyncd.md) covers ways to "
+"install it on Rocky Linux, and also from source. If you are using some of "
+"the other Linux type (Ubuntu for example) they generally have their own "
+"packages, but there are nuances to them."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:253
+msgid ""
+"Ubuntu's, for example, names the configuration file differently. Just be "
+"aware that if you are using another Linux workstation type other than Rocky "
+"Linux, and don't want to install from source, there are probably packages "
+"available for your platform."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:255
+msgid ""
+"For now, we are assuming that you are using a Rocky Linux workstation and "
+"are using the RPM install method from the included document."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:260
+#, no-wrap
+msgid ""
+"!!! Note\n"
+"    The root user must run the daemon, so you will need to be root to create the configuration files and logs. For this we are assuming `sudo -s`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:262
+msgid "We need to have some log files available for `lsyncd` to write to:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:263
+#, no-wrap
+msgid ""
+"touch /var/log/lsyncd-status.log\n"
+"touch /var/log/lsyncd.log\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:269
+msgid ""
+"We also need to have an exclude file created, even though in this case we "
+"are not excluding anything:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:270
+#, no-wrap
+msgid "touch /etc/lsyncd.exclude\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:275
+msgid ""
+"Finally we need to create the configuration file. In this example, we are "
+"using `vi` as our editor, but you may use whichever editor you feel "
+"comfortable with:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:276
+#, no-wrap
+msgid "vi /etc/lsyncd.conf\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:281
+msgid ""
+"And then place this content in that file and save it. Be sure to replace "
+"\"youruser\" with your actual user, and the IP address with your own "
+"container IP:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:282
+#, no-wrap
+msgid ""
+"settings {\n"
+"   logfile = \"/var/log/lsyncd.log\",\n"
+"   statusFile = \"/var/log/lsyncd-status.log\",\n"
+"   statusInterval = 20,\n"
+"   maxProcesses = 1\n"
+"   }\n"
+"\n"
+"sync {\n"
+"   default.rsyncssh,\n"
+"   source=\"/home/youruser/documentation\",\n"
+"   host=\"root@10.56.233.189\",\n"
+"   excludeFrom=\"/etc/lsyncd.exclude\",\n"
+"   targetdir=\"/home/youruser/documentation\",\n"
+"   rsync = {\n"
+"     archive = true,\n"
+"     compress = false,\n"
+"     whole_file = false\n"
+"   },\n"
+"   ssh = {\n"
+"     port = 22\n"
+"   }\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:308
+msgid ""
+"We are assuming that you enabled `lsyncd` when you installed it, so at this "
+"point we need to just start or restart the process:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:309
+#, no-wrap
+msgid "systemctl restart lsyncd\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:314
+msgid ""
+"To make sure things are working, check the logs-particularly the `lsyncd."
+"log`, which should show you something like this if everything started "
+"correctly:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:315
+#, no-wrap
+msgid ""
+"Fri Feb 25 08:10:16 2022 Normal: --- Startup, daemonizing ---\n"
+"Fri Feb 25 08:10:16 2022 Normal: recursive startup rsync: /home/youruser/documentation/ -> root@10.56.233.189:/home/youruser/documentation/\n"
+"Fri Feb 25 08:10:41 2022 Normal: Startup of \"/home/youruser/documentation/\" finished: 0\n"
+"Fri Feb 25 08:15:14 2022 Normal: Calling rsync with filter-list of new/modified files/dirs\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:325
+msgid ""
+"As you work on your workstation documentation now, whether it is a `git "
+"pull` or a branch you create to make a document (like this one!), you will "
+"see the changes appear in your documentation on the container, and `mkdocs "
+"serve` will show you the content in your web browser."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:326
+msgid ""
+"It's recommended practice that all Python code should be run separate from "
+"any other Python code you might be developing. LXD containers can make that "
+"a lot easier; give this method a try and see if it works for you."
+msgstr ""

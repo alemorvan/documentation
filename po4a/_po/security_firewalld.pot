@@ -1,0 +1,1573 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:43
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:220
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:271
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:334
+#: ../src/docs/books/admin_guide/05-vi.md:70
+#: ../src/docs/books/admin_guide/05-vi.md:206
+#: ../src/docs/books/admin_guide/05-vi.md:272
+#: ../src/docs/books/admin_guide/06-users.md:36
+#: ../src/docs/books/admin_guide/06-users.md:92
+#: ../src/docs/books/admin_guide/06-users.md:220
+#: ../src/docs/books/admin_guide/06-users.md:350
+#: ../src/docs/books/admin_guide/06-users.md:598
+#: ../src/docs/books/admin_guide/06-users.md:754
+#: ../src/docs/books/admin_guide/06-users.md:818
+#: ../src/docs/books/admin_guide/11-tasks.md:174
+#: ../src/docs/books/admin_guide/12-network.md:158
+#: ../src/docs/books/admin_guide/03-commands.md:516
+#: ../src/docs/books/admin_guide/03-commands.md:693
+#: ../src/docs/books/admin_guide/03-commands.md:1216
+#: ../src/docs/books/admin_guide/03-commands.md:1262
+#: ../src/docs/books/admin_guide/03-commands.md:1297
+#: ../src/docs/books/admin_guide/07-file-systems.md:395
+#: ../src/docs/books/admin_guide/07-file-systems.md:437
+#: ../src/docs/books/admin_guide/07-file-systems.md:447
+#: ../src/docs/books/admin_guide/07-file-systems.md:515
+#: ../src/docs/books/admin_guide/07-file-systems.md:556
+#: ../src/docs/books/admin_guide/07-file-systems.md:627
+#: ../src/docs/books/admin_guide/07-file-systems.md:653
+#: ../src/docs/books/admin_guide/07-file-systems.md:672
+#: ../src/docs/books/admin_guide/07-file-systems.md:676
+#: ../src/docs/books/admin_guide/07-file-systems.md:1019
+#: ../src/docs/books/admin_guide/08-process.md:49
+#: ../src/docs/books/admin_guide/08-process.md:238
+#: ../src/docs/books/admin_guide/09-backups.md:27
+#: ../src/docs/books/admin_guide/09-backups.md:116
+#: ../src/docs/books/admin_guide/09-backups.md:133
+#: ../src/docs/books/admin_guide/09-backups.md:148
+#: ../src/docs/books/admin_guide/09-backups.md:281
+#: ../src/docs/books/admin_guide/09-backups.md:285
+#: ../src/docs/books/admin_guide/09-backups.md:301
+#: ../src/docs/books/admin_guide/09-backups.md:342
+#: ../src/docs/books/admin_guide/09-backups.md:352
+#: ../src/docs/books/admin_guide/09-backups.md:554
+#: ../src/docs/books/admin_guide/09-backups.md:771
+#: ../src/docs/books/admin_guide/10-boot.md:114
+#: ../src/docs/books/admin_guide/10-boot.md:153
+#: ../src/docs/books/admin_guide/10-boot.md:165
+#: ../src/docs/books/admin_guide/13-softwares.md:22
+#: ../src/docs/books/learning_ansible/01-basic.md:51
+#: ../src/docs/books/learning_ansible/01-basic.md:104
+#: ../src/docs/books/learning_ansible/01-basic.md:112
+#: ../src/docs/books/learning_ansible/01-basic.md:328
+#: ../src/docs/books/learning_ansible/01-basic.md:415
+#: ../src/docs/books/learning_ansible/01-basic.md:492
+#: ../src/docs/books/learning_ansible/01-basic.md:633
+#: ../src/docs/books/learning_ansible/01-basic.md:656
+#: ../src/docs/books/learning_ansible/02-advanced.md:34
+#: ../src/docs/books/learning_ansible/02-advanced.md:150
+#: ../src/docs/books/learning_ansible/02-advanced.md:182
+#: ../src/docs/books/learning_ansible/02-advanced.md:269
+#: ../src/docs/books/learning_ansible/02-advanced.md:277
+#: ../src/docs/books/learning_ansible/02-advanced.md:287
+#: ../src/docs/books/learning_ansible/02-advanced.md:293
+#: ../src/docs/books/learning_ansible/02-advanced.md:360
+#: ../src/docs/books/learning_ansible/02-advanced.md:428
+#: ../src/docs/books/learning_ansible/02-advanced.md:601
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:33
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:58
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:77
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:96
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:113
+#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:65
+#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:432
+#: ../src/docs/books/learning_ansible/05-deployments.md:41
+#: ../src/docs/books/learning_ansible/05-deployments.md:124
+#: ../src/docs/books/learning_ansible/05-deployments.md:196
+#: ../src/docs/books/learning_ansible/05-deployments.md:616
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:36
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:40
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:80
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:214
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:32
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:75
+#: ../src/docs/books/learning_bash/02-using-variables.md:153
+#: ../src/docs/books/learning_bash/02-using-variables.md:193
+#: ../src/docs/books/learning_bash/05-tests.md:245
+#: ../src/docs/books/learning_bash/07-loops.md:180
+#: ../src/docs/books/lxd_server/04-firewall.md:80
+#: ../src/docs/books/nvchad/plugins/md_preview.md:140
+#: ../src/docs/books/nvchad/template_chadrc.md:239
+#: ../src/docs/gemstones/https_rsa_keygen.md:34
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:80
+#: ../src/docs/guides/8_6_installation.md:37
+#: ../src/docs/guides/8_6_installation.md:168
+#: ../src/docs/guides/8_6_installation.md:176
+#: ../src/docs/guides/8_6_installation.md:182
+#: ../src/docs/guides/8_6_installation.md:250
+#: ../src/docs/guides/automation/olivetin.md:60
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:307
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:323
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:486
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:533
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:667
+#: ../src/docs/guides/containers/lxd_web_servers.md:35
+#: ../src/docs/guides/containers/lxd_web_servers.md:45
+#: ../src/docs/guides/containers/lxd_web_servers.md:301
+#: ../src/docs/guides/containers/lxd_web_servers.md:352
+#: ../src/docs/guides/containers/lxd_web_servers.md:605
+#: ../src/docs/guides/containers/lxd_web_servers.md:665
+#: ../src/docs/guides/containers/lxd_web_servers.md:737
+#: ../src/docs/guides/containers/lxd_web_servers.md:796
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:53
+#: ../src/docs/guides/contribute/navigation.md:60
+#: ../src/docs/guides/custom-linux-kernel.md:453
+#: ../src/docs/guides/editors/micro.md:30
+#: ../src/docs/guides/file_sharing/glusterfs.md:46
+#: ../src/docs/guides/file_sharing/glusterfs.md:64
+#: ../src/docs/guides/file_sharing/glusterfs.md:102
+#: ../src/docs/guides/file_sharing/glusterfs.md:203
+#: ../src/docs/guides/installation.md:36 ../src/docs/guides/installation.md:175
+#: ../src/docs/guides/installation.md:183
+#: ../src/docs/guides/installation.md:193
+#: ../src/docs/guides/installation.md:266
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
+#: ../src/docs/guides/security/firewalld-beginners.md:89
+#: ../src/docs/guides/security/firewalld-beginners.md:144
+#: ../src/docs/guides/security/firewalld-beginners.md:258
+#: ../src/docs/guides/security/firewalld.md:51
+#: ../src/docs/guides/security/firewalld.md:94
+#: ../src/docs/guides/security/firewalld.md:228
+#: ../src/docs/guides/security/firewalld.md:372
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:72
+#: ../src/docs/guides/security/learning_selinux.md:137
+#: ../src/docs/guides/security/learning_selinux.md:253
+#: ../src/docs/guides/security/learning_selinux.md:356
+#: ../src/docs/guides/virtualization/vbox-rocky.md:27
+#: ../src/docs/guides/web/nginx-mainline.md:30
+#: ../src/docs/guides/web/nginx-mainline.md:99
+#: ../src/docs/guides/web/nginx-mainline.md:141
+#: ../src/docs/guides/web/nginx-mainline.md:254
+#: ../src/docs/guides/web/nginx-mainline.md:333
+#: ../src/docs/guides/web/nginx-multisite.md:73
+#: ../src/docs/guides/web/nginx-multisite.md:233
+#: ../src/docs/guides/web/nginx-multisite.md:292
+#: ../src/docs/guides/web/nginx-multisite.md:302
+#: ../src/docs/guides/web/php.md:33 ../src/docs/guides/web/php.md:76
+#: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
+#: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
+#: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
+msgid "!!! Note"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:90
+#: ../src/docs/books/admin_guide/06-users.md:239
+#: ../src/docs/books/admin_guide/06-users.md:336
+#: ../src/docs/books/admin_guide/06-users.md:770
+#: ../src/docs/books/admin_guide/11-tasks.md:42
+#: ../src/docs/books/admin_guide/11-tasks.md:81
+#: ../src/docs/books/admin_guide/11-tasks.md:93
+#: ../src/docs/books/admin_guide/11-tasks.md:153
+#: ../src/docs/books/admin_guide/11-tasks.md:203
+#: ../src/docs/books/admin_guide/12-network.md:76
+#: ../src/docs/books/admin_guide/12-network.md:388
+#: ../src/docs/books/admin_guide/12-network.md:637
+#: ../src/docs/books/admin_guide/03-commands.md:329
+#: ../src/docs/books/admin_guide/03-commands.md:1266
+#: ../src/docs/books/admin_guide/03-commands.md:1325
+#: ../src/docs/books/admin_guide/03-commands.md:1480
+#: ../src/docs/books/admin_guide/07-file-systems.md:48
+#: ../src/docs/books/admin_guide/07-file-systems.md:88
+#: ../src/docs/books/admin_guide/07-file-systems.md:389
+#: ../src/docs/books/admin_guide/07-file-systems.md:505
+#: ../src/docs/books/admin_guide/07-file-systems.md:582
+#: ../src/docs/books/admin_guide/07-file-systems.md:903
+#: ../src/docs/books/admin_guide/07-file-systems.md:1015
+#: ../src/docs/books/admin_guide/09-backups.md:175
+#: ../src/docs/books/admin_guide/09-backups.md:200
+#: ../src/docs/books/admin_guide/09-backups.md:264
+#: ../src/docs/books/admin_guide/09-backups.md:461
+#: ../src/docs/books/admin_guide/09-backups.md:488
+#: ../src/docs/books/admin_guide/09-backups.md:620
+#: ../src/docs/books/admin_guide/09-backups.md:714
+#: ../src/docs/books/admin_guide/13-softwares.md:94
+#: ../src/docs/books/learning_ansible/01-basic.md:37
+#: ../src/docs/books/learning_ansible/01-basic.md:288
+#: ../src/docs/books/learning_ansible/01-basic.md:379
+#: ../src/docs/books/learning_ansible/01-basic.md:590
+#: ../src/docs/books/learning_bash/05-tests.md:320
+#: ../src/docs/books/learning_bash/05-tests.md:367
+#: ../src/docs/books/nvchad/plugins/md_preview.md:31
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:137
+#: ../src/docs/guides/8_6_installation.md:191
+#: ../src/docs/guides/8_6_installation.md:207
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:510
+#: ../src/docs/guides/containers/lxd_web_servers.md:242
+#: ../src/docs/guides/installation.md:202
+#: ../src/docs/guides/security/firewalld-beginners.md:283
+#: ../src/docs/guides/security/firewalld-beginners.md:410
+#: ../src/docs/guides/security/firewalld.md:182
+#: ../src/docs/guides/security/firewalld.md:220
+#: ../src/docs/guides/security/learning_selinux.md:158
+#: ../src/docs/guides/security/learning_selinux.md:243
+#: ../src/docs/guides/security/learning_selinux.md:263
+#: ../src/docs/guides/web/php.md:145
+msgid "!!! Warning"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/13-softwares.md:900
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:105
+#: ../src/docs/books/nvchad/template_chadrc.md:352
+#: ../src/docs/gemstones/bash_stub.md:103
+#: ../src/docs/gemstones/perl_search_replace.md:38
+#: ../src/docs/gemstones/sed_search_replace.md:72
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:172
+#: ../src/docs/guides/automation/olivetin.md:142
+#: ../src/docs/guides/cms/dokuwiki_server.md:306
+#: ../src/docs/guides/communications/asterisk_installation.md:261
+#: ../src/docs/guides/containers/lxd_web_servers.md:919
+#: ../src/docs/guides/containers/podman-nextcloud.md:456
+#: ../src/docs/guides/contribute/local_docs.md:47
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:322
+#: ../src/docs/guides/contribute/navigation.md:129
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:458
+#: ../src/docs/guides/database/database_mariadb-server.md:197
+#: ../src/docs/guides/desktop/kde_installation.md:105
+#: ../src/docs/guides/desktop/mate_installation.md:200
+#: ../src/docs/guides/desktop/xfce_installation.md:218
+#: ../src/docs/guides/editors/micro.md:79
+#: ../src/docs/guides/email/postfix_reporting.md:254
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:270
+#: ../src/docs/guides/file_sharing/sftp.md:765
+#: ../src/docs/guides/proxies/pound.md:460
+#: ../src/docs/guides/security/dnf_automatic.md:119
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:54
+#: ../src/docs/guides/security/firewalld-beginners.md:427
+#: ../src/docs/guides/security/firewalld.md:477
+#: ../src/docs/guides/security/pam.md:137
+#: ../src/docs/guides/security/ssl_keys_https.md:136
+#: ../src/docs/guides/virtualization/vbox-rocky.md:160
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:147
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:235
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:157
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:91
+#: ../src/docs/guides/web/mod_SSL_apache.md:171
+#: ../src/docs/guides/web/nginx-mainline.md:352
+#: ../src/docs/guides/web/nginx-multisite.md:359
+#, no-wrap
+msgid "Conclusion"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part3.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:1
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:1
+#: ../src/docs/guides/file_sharing/sftp.md:1
+#: ../src/docs/guides/security/dnf_automatic.md:1
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
+#: ../src/docs/guides/security/firewalld.md:1
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:1
+#: ../src/docs/guides/security/learning_selinux.md:1
+#: ../src/docs/guides/security/pam.md:1
+#: ../src/docs/guides/security/ssh_public_private_keys.md:1
+#: ../src/docs/guides/security/ssl_keys_https.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
+#, no-wrap
+msgid "security"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:67
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:94
+#: ../src/docs/books/nvchad/vale_nvchad.md:36
+#: ../src/docs/guides/automation/cron_jobs_howto.md:77
+#: ../src/docs/guides/contribute/navigation.md:53
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:84
+#: ../src/docs/guides/database/database_mariadb-server.md:48
+#: ../src/docs/guides/file_sharing/sftp.md:482
+#: ../src/docs/guides/file_sharing/sftp.md:569
+#: ../src/docs/guides/proxies/pound.md:40
+#: ../src/docs/guides/security/dnf_automatic.md:67
+#: ../src/docs/guides/security/firewalld.md:102
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:115
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:368
+msgid "!!! tip"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/containers/podman-nextcloud.md:35
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:19
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:13
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:19
+#: ../src/docs/guides/proxies/pound.md:27
+#: ../src/docs/guides/security/firewalld-beginners.md:36
+#: ../src/docs/guides/security/firewalld.md:25
+#: ../src/docs/guides/security/pam.md:13
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:14
+#: ../src/docs/guides/web/nginx-mainline.md:41
+#: ../src/docs/guides/web/nginx-multisite.md:28
+#, no-wrap
+msgid "Prerequisites and Assumptions"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/proxies/pound.md:321
+#: ../src/docs/guides/security/firewalld.md:280
+#, no-wrap
+msgid "firewall-cmd --zone=public --add-service=http --add-service=https --permanent\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld-beginners.md:146
+#: ../src/docs/guides/security/firewalld.md:157
+#, no-wrap
+msgid "    A zone can *only* be in an active state if it has one of these two conditions:\n"
+msgstr ""
+
+#. type: Bullet: '    1. '
+#: ../src/docs/guides/security/firewalld-beginners.md:149
+#: ../src/docs/guides/security/firewalld.md:160
+msgid "The zone is assigned to a network interface"
+msgstr ""
+
+#. type: YAML Front Matter: contributors
+#: ../src/docs/guides/security/firewalld.md:1
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:1
+#, no-wrap
+msgid "wsoyinka, Antoine Le Morvan, Ezequiel Bruni"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/security/firewalld.md:1
+#, no-wrap
+msgid "firewalld"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/guides/security/firewalld.md:1
+#, no-wrap
+msgid "firewalld from iptables"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/guides/security/firewalld.md:11
+#, no-wrap
+msgid "`iptables` Guide To `firewalld` - Introduction"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:14
+msgid ""
+"Ever since `firewalld` came out as the default firewall (I believe this was "
+"with CentOS 7, even though it was introduced in 2011), I've made it my "
+"mission in life to return to `iptables` at all costs. There were two reasons "
+"for this. First, the documentation that was available at the time used "
+"simplistic rules that did not properly show how the server was being secured "
+"*down to the IP level*. Second, and probably the primary reason: I had a "
+"long history with `iptables` going back many years, and it was frankly "
+"easier to just continue using `iptables`. Every server I deployed, whether "
+"it was public facing or internal, used an `iptables` firewall rule set. It "
+"was easy to simply adjust a default set of rules for the server we were "
+"dealing with and deploy. In order to do this on CentOS 7, CentOS 8, and now "
+"Rocky Linux 8, I needed to use [this procedure](enabling_iptables_firewall."
+"md)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:16
+msgid ""
+"So why am I writing this document? First, to address the limitations of most "
+"`firewalld` references and, second, to force myself to find ways to use "
+"`firewalld` to mimic those more granular firewall rules."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:18
+msgid ""
+"And, of course, to help beginners get a handle on Rocky Linux's default "
+"firewall."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:20
+msgid ""
+"From the manual page: \"`firewalld` provides a dynamically managed firewall "
+"with support for network/firewall zones to define the trust level of network "
+"connections or interfaces. It has support for IPv4, IPv6 firewall settings "
+"and for Ethernet bridges and has a separation of runtime and permanent "
+"configuration options. It also supports an interface for services or "
+"applications to add firewall rules directly.\""
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:22
+msgid ""
+"Fun fact: `firewalld` is actually a front end to the netfilter and nftables "
+"Kernel sub-systems in Rocky Linux."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:24
+msgid ""
+"This guide focuses on applying rules from an `iptables` firewall to a "
+"`firewalld` firewall. If you are really at the beginning of your firewall "
+"journey, [this document](firewalld-beginners.md) might help you more. "
+"Consider reading through both documents to get the most out of `firewalld`."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/firewalld.md:31
+msgid ""
+"Throughout this document, we assume that you are either the root user or "
+"have used `sudo` to become so"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/firewalld.md:31
+msgid ""
+"A passing knowledge of firewall rules, particularly `iptables` or at "
+"minimum, a desire to learn something about `firewalld`"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/firewalld.md:31
+msgid "You feel comfortable entering commands at the command line."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/firewalld.md:31
+msgid "All of the examples here deal with IPv4 IPs."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/security/firewalld.md:32
+#, no-wrap
+msgid "Zones"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:35
+msgid ""
+"To really get your head around `firewalld`, you need to understand the use "
+"of zones. Zones are where the granularity of the firewall rule sets are "
+"applied."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:37
+msgid "`firewalld` has several built in zones:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:49
+#, no-wrap
+msgid ""
+"| zone          | example use                                                                                                       |\n"
+"|---------------|-------------------------------------------------------------------------------------------------------------------|\n"
+"| drop          | drop incoming connections without reply - only outgoing packets are allowed                                      |\n"
+"| block         | incoming connections are rejected with an icmp-host-prohibited message for IPv4 and icmp6-adm-prohibited for IPv6 |\n"
+"| public        | all incoming connections are allowed                                                                              |\n"
+"| external      | for use on external networks with masquerading enabled                                                            |\n"
+"| dmz           | for computers on your demilitarized zone that are publicly-accessible with limited access to your internal network|\n"
+"| work          | for computers in work areas (nope, I don't get this one either)                                                   |\n"
+"| home          | for use in home areas (nope, I don't get this one either)                                                         |\n"
+"| internal      | for your internal network device access                                                                           |\n"
+"| trusted       | all network connections are accepted                                                                              |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:53
+#, no-wrap
+msgid "    `firewall-cmd` is the command line program for managing the `firewalld` daemon.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:55
+msgid "To list existing zones on your system, type:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:58
+msgid "`firewall-cmd --get-zones` !!! Warning"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:60
+#, no-wrap
+msgid "    Remember to check the status of your firewall, if the `firewalld-cmd` returns you an error, with either:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:62
+#, no-wrap
+msgid "    the command firewall-cmd:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:67
+#, no-wrap
+msgid ""
+"    ```\n"
+"    $ firewall-cmd --state\n"
+"    running\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:69
+#, no-wrap
+msgid "    the systemctl command:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:73
+#, no-wrap
+msgid ""
+"    ```\n"
+"    $ systemctl status firewalld\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:75
+msgid ""
+"To be honest, I mostly hate the names of these zones. drop, block, public, "
+"and trusted are perfectly clear, but some aren't good enough for perfect "
+"granular security. Let's take this `iptables` rule section as an example:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:77
+msgid "`iptables -A INPUT -p tcp -m tcp -s 192.168.1.122 --dport 22 -j ACCEPT`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:79
+msgid ""
+"Here we have a single IP address being allowed for SSH (port 22) into the "
+"server. If we decide to use the built-in zones, we could use \"trusted\" for "
+"this. First, we would add the IP to the zone and second, we would apply the "
+"rule to the zone:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/firewalld.md:80
+#, no-wrap
+msgid ""
+"firewall-cmd --zone=trusted --add-source=192.168.1.122 --permanent\n"
+"firewall-cmd --zone trusted --add-service=ssh --permanent\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:86
+msgid ""
+"But what if on this server we also have an intranet that is accessible to "
+"only the IP blocks that our organization is assigned? Would we use the "
+"\"internal\" zone now to apply to that rule? Frankly, I'd prefer to create a "
+"zone that deals with the admin users' IPs (those allowed to secure-shell "
+"into the server). Truth be told, I'd prefer to add all of my own zones, but "
+"that might be ridiculous to do."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/security/firewalld.md:87
+#, no-wrap
+msgid "Adding Zones"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:90
+msgid ""
+"To add a zone, we need to use the `firewall-cmd` with the `--new-zone` "
+"parameter. We are going to add \"admin\" (for administrative) as a zone:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:92
+msgid "`firewall-cmd --new-zone=admin --permanent`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:96
+#, no-wrap
+msgid "    We have used the --permanent flag a great deal throughout. For testing, it is recommended to add the rule without the `--permanent` flag, test it, and if it works as expected, then use the `firewall-cmd --runtime-to-permanent` to move the rule live prior to running `firewall-cmd --reload`. If the risk is low (in other words, you won't lock yourself out), you can add the `--permanent` flag as I've done here.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:98
+msgid "Before this zone can actually be used, we need to reload the firewall:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:100
+#: ../src/docs/guides/security/firewalld.md:180
+#: ../src/docs/guides/security/firewalld.md:216
+#: ../src/docs/guides/security/firewalld.md:258
+#: ../src/docs/guides/security/firewalld.md:301
+#: ../src/docs/guides/security/firewalld.md:332
+msgid "`firewall-cmd --reload`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:104
+#, no-wrap
+msgid "    A note about custom zones: If you need to add a zone that will be a trusted zone, but will only contain a particular source IP or interface and no protocols or services, and the \"trusted\" zone doesn't work for you, probably because you've already used it for something else, etc.  You can add a custom zone to do this, but you must change the target of the zone from \"default\" to \"ACCEPT\" (REJECT or DROP can also be used, depending on your goals). Here's an example using a bridge interface (lxdbr0 in this case) on an LXD machine.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:106
+#, no-wrap
+msgid "    First, we add the zone and reload so that we can use it:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:111
+#, no-wrap
+msgid ""
+"    ```\n"
+"    firewall-cmd --new-zone=bridge --permanent\n"
+"    firewall-cmd --reload\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:113
+#, no-wrap
+msgid "    Next, we change the target of the zone from \"default\" to \"ACCEPT\" (**note that the \"--permanent\" option is required for changing a target**) then assign the interface, and reload:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:119
+#, no-wrap
+msgid ""
+"    ```\n"
+"    firewall-cmd --zone=bridge --set-target=ACCEPT --permanent\n"
+"    firewall-cmd --zone=bridge --add-interface=lxdbr0 --permanent\n"
+"    firewall-cmd --reload\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:121
+#, no-wrap
+msgid "    This tells the firewall that you:\n"
+msgstr ""
+
+#. type: Bullet: '    1. '
+#: ../src/docs/guides/security/firewalld.md:125
+msgid "are changing the target of the zone to ACCEPT"
+msgstr ""
+
+#. type: Bullet: '    2. '
+#: ../src/docs/guides/security/firewalld.md:125
+msgid "are adding the bridge interface \"lxdbr0\" to the zone"
+msgstr ""
+
+#. type: Bullet: '    3. '
+#: ../src/docs/guides/security/firewalld.md:125
+msgid "reloading the firewall"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:127
+#, no-wrap
+msgid "    All of which says that you are accepting all traffic from the bridge interface.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/security/firewalld.md:128
+#, no-wrap
+msgid "Listing Zones"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:131
+msgid ""
+"Before we go any further, we need to take a look at the process of listing "
+"zones. Rather than a tabular output provided by `iptables -L`, you get a "
+"single column of output with headers. Listing a zone is done with the "
+"command `firewall-cmd --zone=[zone_name] --list-all`. Here's what this looks "
+"like when we list out the newly created \"admin\" zone:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:133
+#: ../src/docs/guides/security/firewalld.md:199
+msgid "`firewall-cmd --zone=admin --list-all`"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/security/firewalld.md:134
+#, no-wrap
+msgid ""
+"admin\n"
+"  target: default\n"
+"  icmp-block-inversion: no\n"
+"  interfaces:\n"
+"  sources:\n"
+"  services:\n"
+"  ports:\n"
+"  protocols:\n"
+"  forward: no\n"
+"  masquerade: no\n"
+"  forward-ports:\n"
+"  source-ports:\n"
+"  icmp-blocks:\n"
+"  rich rules:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:151
+msgid "You can list out the active zones on your system by using this command:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:153
+msgid "`firewall-cmd --get-active-zones`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:155
+msgid "!!! Note \"Important: Active Zones\""
+msgstr ""
+
+#. type: Bullet: '    2. '
+#: ../src/docs/guides/security/firewalld.md:160
+msgid "The zone is assigned source IPs or network ranges."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/security/firewalld.md:161
+#, no-wrap
+msgid "Removing an IP and Service from a Zone"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:164
+msgid ""
+"If you actually followed the earlier instruction adding the IP to the "
+"\"trusted\" zone, we need to now remove it from that zone. Remember our note "
+"about using the `--permanent` flag? This is a good place to avoid using it "
+"while doing proper testing before taking this rule live:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:166
+msgid "`firewall-cmd --zone=trusted --remove-source=192.168.1.122`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:168
+msgid "We also want to remove the service ssh from the zone:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:170
+msgid "`firewall-cmd --zone=trusted --remove-service ssh`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:172
+msgid ""
+"Then test. You want to make sure that you have a way in via `ssh` from "
+"another zone before doing the final two steps. (See **Warning** below!). If "
+"you've made no other changes, then the \"public\" zone will still have ssh "
+"allowed, as it is there by default."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:174
+msgid "Once you are satisfied, move the runtime rules to permanent:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:176
+#: ../src/docs/guides/security/firewalld.md:212
+msgid "`firewall-cmd --runtime-to-permanent`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:178
+msgid "and reload:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:184
+#, no-wrap
+msgid "    If you're working on a remote server or VPS, hold off on that last instruction! *NEVER remove the `ssh` service from a remote server* unless you have another way to access the shell (see below).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:186
+#, no-wrap
+msgid "    If you lock yourself out of `ssh` access via the firewall, you'll need to (in the worst-case scenarios) go fix your server in person, contact support, or possibly reinstall the OS from your control panel (depending on whether the server is physical or virtual).\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/security/firewalld.md:187
+#, no-wrap
+msgid "Using A New Zone - Adding Administrative IPs"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:190
+msgid "Now just repeat our original steps using the \"admin\" zone:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/firewalld.md:191
+#, no-wrap
+msgid ""
+"firewall-cmd --zone=admin --add-source=192.168.1.122\n"
+"firewall-cmd --zone admin --add-service=ssh\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:197
+msgid ""
+"Now list the zone to make sure that the zone looks correct and has the "
+"service properly added:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:201
+msgid "Test your rule to make sure it works. To test:"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/guides/security/firewalld.md:204
+msgid ""
+"SSH as root, or your sudo capable user, from your source IP (above it is "
+"192.168.1.122) (*the root user is used here because we are going to run "
+"commands on the host that require it. If using your sudo user, remember to "
+"`sudo -s` once connected.*)"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: ../src/docs/guides/security/firewalld.md:204
+msgid ""
+"Once connected, run `tail /var/log/secure` and you should get output that "
+"looks similar to this:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/security/firewalld.md:205
+#, no-wrap
+msgid ""
+"Feb 14 22:02:34 serverhostname sshd[9805]: Accepted password for root from 192.168.1.122 port 42854 ssh2\n"
+"Feb 14 22:02:34 serverhostname sshd[9805]: pam_unix(sshd:session): session opened for user root by (uid=0)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:210
+msgid ""
+"This shows that the source IP for our SSH connection was indeed the same IP "
+"that we just added to the \"admin\" zone. So we should be safe to move this "
+"rule permanent:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:214
+msgid "When you've finished adding rules, don't forget to reload:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:218
+msgid ""
+"There are obviously other services that might need to be added to the \"admin"
+"\" zone, but ssh is the most logical for now."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:222
+#, no-wrap
+msgid "    By default the \"public\" zone has the `ssh` service enabled; this can be a security liability. Once you have your administrative zone created, assigned to `ssh`, and tested, you can remove the service from the public zone.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:224
+msgid ""
+"If you have more than one administrative IP that you need to add (quite "
+"likely), then just add it to the sources for the zone. In this case, we are "
+"adding an IP to the \"admin\" zone:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:226
+msgid "`firewall-cmd --zone=admin --add-source=192.168.1.151 --permanent`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:230
+#, no-wrap
+msgid "    Keep in mind that if you are working on a remote server or VPS, and have an internet connection that doesn't always use the same IP, you may want to open your `ssh` service to a range of IP addresses used by your internet service provider or geographical region. This, again, is so you don't get locked out by your own firewall.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:232
+#, no-wrap
+msgid "    Many ISPs charge extra for dedicated IP addresses, if they're offered at all, so it's a real concern.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:234
+#, no-wrap
+msgid "    The examples here assume that you are using IPs on your own private network to access a server that is also local.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/security/firewalld.md:235
+#, no-wrap
+msgid "ICMP Rules"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:238
+msgid ""
+"Let's look at another line in our `iptables` firewall that we want to "
+"emulate in `firewalld` - Our ICMP rule:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:240
+msgid ""
+"`iptables -A INPUT -p icmp -m icmp --icmp-type 8 -s 192.168.1.136 -j ACCEPT`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:242
+msgid ""
+"For the newbies among us, ICMP is a data transfer protocol designed for "
+"error reporting. Basically, it tells you when there's been any sort of "
+"problem connecting to a machine."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:244
+msgid ""
+"In reality, we would probably leave ICMP open to all of our local IPs (in "
+"this case 192.168.1.0/24). Keep in mind, though, that our \"public\" and "
+"\"admin\" zones will have ICMP on by default, so the first thing to do to "
+"limit ICMP to that one network address is to block these requests on \"public"
+"\" and \"admin\" ."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:246
+msgid ""
+"Again, this is for demonstration purposes. You would definitely want your "
+"administrative users to have ICMP to your servers, and they probably still "
+"will, because they are members of the LAN network IP."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:248
+msgid "To turn off ICMP on the \"public\" zone, we would:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:250
+msgid ""
+"`firewall-cmd --zone=public --add-icmp-block={echo-request,echo-reply} --"
+"permanent`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:252
+msgid "And then do the same thing on our \"trusted\" zone:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:254
+msgid ""
+"`firewall-cmd --zone=trusted --add-icmp-block={echo-request,echo-reply} --"
+"permanent`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:256
+msgid ""
+"We've introduced something new here: The curly braces \"{}\" allow us to "
+"specify more than one parameter.  As always, after making changes like this, "
+"we need to reload:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:260
+msgid "Testing by using ping from a disallowed IP will give you:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/security/firewalld.md:261
+#, no-wrap
+msgid ""
+"ping 192.168.1.104\n"
+"PING 192.168.1.104 (192.168.1.104) 56(84) bytes of data.\n"
+"From 192.168.1.104 icmp_seq=1 Packet filtered\n"
+"From 192.168.1.104 icmp_seq=2 Packet filtered\n"
+"From 192.168.1.104 icmp_seq=3 Packet filtered\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/security/firewalld.md:269
+#, no-wrap
+msgid "Web Server Ports"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:272
+msgid ""
+"Here's the `iptables` script for publicly allowing `http` and `https`, the "
+"protocols you'd need to serve web pages:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/firewalld.md:273
+#, no-wrap
+msgid ""
+"iptables -A INPUT -p tcp -m tcp --dport 80 -j ACCEPT\n"
+"iptables -A INPUT -p tcp -m tcp --dport 443 -j ACCEPT\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:279
+msgid ""
+"And here's the `firewalld` equivalent that you have probably seen many times "
+"before:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:285
+msgid ""
+"OK, that is all fine, but what if you are running for example, a Nextcloud "
+"service on http/https and you only wanted your trusted network to have "
+"access to it? It's not unusual! This sort of thing happens all the time, and "
+"just publicly allowing traffic, without considering who actually needs "
+"access, is a huge security hole."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:287
+msgid ""
+"We can't actually use the \"trusted\" zone information that we've used "
+"above. That was for testing. We have to assume that we have at minimum our "
+"LAN IP block added to \"trusted\". That would look like this:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:289
+msgid "`firewall-cmd --zone=trusted --add-source=192.168.1.0/24 --permanent`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:291
+msgid "Then we need to add the services to the zone:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:293
+msgid ""
+"`firewall-cmd --zone=trusted --add-service=http --add-service=https --"
+"permanent`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:295
+msgid ""
+"If you had added those services to the \"public\" zone as well, you'd need "
+"to remove them:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:297
+msgid ""
+"`firewall-cmd --zone=public --remove-service=http --remove-service=https --"
+"permanent`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:299
+msgid "Now reload:"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/security/firewalld.md:302
+#, no-wrap
+msgid "FTP Ports"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:305
+msgid ""
+"Let's return to our `iptables` script. We have the following rules dealing "
+"with FTP:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/firewalld.md:306
+#, no-wrap
+msgid ""
+"iptables -A INPUT -p tcp -m tcp --dport 20-21 -j ACCEPT\n"
+"iptables -A INPUT -p tcp -m tcp --dport 7000-7500 -j ACCEPT\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:312
+msgid ""
+"This portion of the script deals with the standard FTP ports (20 and 21) as "
+"well as opening some additional passive ports. This sort of a rule set is "
+"often needed by such ftp servers as [VSFTPD](../file_sharing/"
+"secure_ftp_server_vsftpd.md). Generally, this sort of rule would be on a "
+"publicly facing web server, and is there for allowing ftp connections from "
+"your customers."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:314
+msgid ""
+"There is no ftp-data service (port 20) with `firewalld`. The ports 7000 "
+"through 7500 listed here are for passive FTP connections, and again, there's "
+"no direct way to do this in `firewalld`. You could switch to SFTP, which "
+"would simplify the port allow rules here, and is likely the recommended way "
+"these days."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:316
+msgid ""
+"What we are trying to demonstrate here, however, is the conversion of a set "
+"of `iptables` rules to `firewalld`. To get around all of these issues, we "
+"can do the following."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:318
+msgid ""
+"First, add the ftp service to the zone that is also hosting the web "
+"services. This is probably going to be \"public\" in this example:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:320
+msgid "`firewall-cmd --zone=public --add-service=ftp --permanent`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:322
+msgid "Then let's add the ftp-data port:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:324
+msgid "`firewall-cmd --zone=public --add-port=20/tcp --permanent`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:326
+msgid "Next let's add the passive connection ports:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:328
+msgid "`firewall-cmd --zone=public --add-port=7000-7500/tcp --permanent`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:330
+msgid "And then, you guessed it, reload:"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/security/firewalld.md:333
+#, no-wrap
+msgid "Database Ports"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:336
+msgid ""
+"If you are dealing with a web server, you are almost certainly dealing with "
+"a database. The access to that database should be handled with the same care "
+"that you apply to other services. If access is not needed from the world, "
+"apply your rule to something other than \"public\".  The other consideration "
+"is, do you need to offer access at all? Again, this probably depends on your "
+"environment. Where I was previously employed, we ran a hosted web server for "
+"our customers. Many had Wordpress sites, and none of them really needed or "
+"requested access to any front-end for `MariaDB`. If a customer needed more "
+"access, we created an LXD container for their web server, set up the "
+"firewall the way the customer wanted it, and left them responsible for what "
+"happened on the server. Still, if your server is public, you may need to "
+"offer access to `phpmyadmin` or some other front-end to `MariaDB`. In this "
+"case, you need to concern yourself with the password requirements for the "
+"database and set the database user to something other than defaults. For me, "
+"password length is the [primary consideration when creating passwords]"
+"(https://xkcd.com/936/)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:338
+msgid ""
+"Obviously, password security is a discussion for another document dealing "
+"with just that, so we will assume that you've a good password policy for "
+"your database access and the `iptables` line in your firewall dealing with "
+"the database looks like this:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:340
+msgid "`iptables -A INPUT -p tcp -m tcp --dport=3600 -j ACCEPT`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:342
+#, no-wrap
+msgid " In this case, we simply add the service to the \"public\" zone for a `firewalld` conversion:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:344
+msgid "`firewall-cmd --zone=public --add-service=mysql --permanent`"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/security/firewalld.md:345
+#, no-wrap
+msgid "Postgresql Considerations"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:348
+msgid ""
+"Postgresql uses it's own service port. Here's an IP tables rule example:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:350
+msgid ""
+"`iptables -A INPUT -p tcp -m tcp --dport 5432 -s 192.168.1.0/24 -j ACCEPT`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:352
+msgid ""
+"While it is less common on publicly facing web servers, it might be more "
+"common as an internal resource. The same security considerations apply. If "
+"you have a server on your trusted network (192.168.1.0/24 in our example), "
+"you might not want or need to give access to everyone on that network. "
+"Postgresql has an access list available to take care of the more granular "
+"access rights. Our `firewalld` rule would look something like this:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:354
+msgid "`firewall-cmd --zone=trusted --add-service=postgresql`"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/security/firewalld.md:355
+#, no-wrap
+msgid "DNS Ports"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:358
+msgid ""
+"Having a private or public DNS server also means taking precautions in the "
+"rules you write to protect those services. If you have a private DNS server, "
+"with iptables rules that looked like this (note that most DNS services are "
+"UDP, rather than TCP, but not always):"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:360
+msgid ""
+"`iptables -A INPUT -p udp -m udp -s 192.168.1.0/24 --dport 53 -j ACCEPT`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:362
+msgid ""
+"then allowing only your \"trusted\" zone would be correct. We've already "
+"setup our \"trusted\" zone's sources, so all you would need to do would be "
+"to add the service to the zone:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:364
+msgid "`firewall-cmd --zone=trusted --add-service=dns`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:366
+msgid ""
+"With a public facing DNS server, you would just need to add the same service "
+"to the \"public\" zone:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:368
+msgid "`firewall-cmd --zone=public --add-service=dns`"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/security/firewalld.md:369
+#, no-wrap
+msgid "More on Listing Rules"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:374
+#, no-wrap
+msgid "    You *can* list all of the rules if you like, by listing the nftables rules. It's ugly, and I don't recommend it, but if you really must, you can do a `nft list ruleset`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:376
+msgid ""
+"One thing that we haven't done much of yet is to list the rules. This is "
+"something that you can do by zone. Here are examples with the zones we have "
+"used. Please note that you can list the zone before you move a rule "
+"permanent too, which is a good idea."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:378
+msgid "`firewall-cmd --list-all --zone=trusted`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:380
+msgid "Here we can see what we have applied above:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/security/firewalld.md:381
+#, no-wrap
+msgid ""
+"trusted (active)\n"
+"  target: ACCEPT\n"
+"  icmp-block-inversion: no\n"
+"  interfaces:\n"
+"  sources: 192.168.1.0/24\n"
+"  services: dns\n"
+"  ports:\n"
+"  protocols:\n"
+"  forward: no\n"
+"  masquerade: no\n"
+"  forward-ports:\n"
+"  source-ports:\n"
+"  icmp-blocks: echo-reply echo-request\n"
+"  rich rules:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:399
+msgid ""
+"This can be applied to any zone. For instance, here is the \"public\" zone "
+"so far:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:401
+msgid "`firewall-cmd --list-all --zone=public`"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/security/firewalld.md:402
+#, no-wrap
+msgid ""
+"public\n"
+"  target: default\n"
+"  icmp-block-inversion: no\n"
+"  interfaces:\n"
+"  sources:\n"
+"  services: cockpit dhcpv6-client ftp http https\n"
+"  ports: 20/tcp 7000-7500/tcp\n"
+"  protocols:\n"
+"  forward: no\n"
+"  masquerade: no\n"
+"  forward-ports:\n"
+"  source-ports:\n"
+"  icmp-blocks: echo-reply echo-request\n"
+"  rich rules:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:419
+msgid ""
+"Note that we have removed \"ssh\" access from services and blocked icmp echo-"
+"reply and echo-request."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:421
+msgid "In our \"admin\" zone so far, it looks like this:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:423
+msgid "`firewall-cmd --list-all --zone=admin`"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/security/firewalld.md:424
+#, no-wrap
+msgid ""
+"  admin (active)\n"
+"  target: default\n"
+"  icmp-block-inversion: no\n"
+"  interfaces:\n"
+"  sources: 192.168.1.122 192.168.1.151\n"
+"  services: ssh\n"
+"  ports:\n"
+"  protocols:\n"
+"  forward: no\n"
+"  masquerade: no\n"
+"  forward-ports:\n"
+"  source-ports:\n"
+"  icmp-blocks:\n"
+"  rich rules:\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/security/firewalld.md:441
+#, no-wrap
+msgid "Establised Related Rules"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:444
+msgid ""
+"Although I can find no document that specifically states this, it appears "
+"that `firewalld` handles the following `iptables` rule internally by default "
+"(if you know that this is incorrect, please correct this!):"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:446
+msgid "`iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT`"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/security/firewalld.md:447
+#, no-wrap
+msgid "Interfaces"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:450
+msgid ""
+"By default, `firewalld` will listen on all available interfaces. On a bare-"
+"metal server with multiple interfaces facing multiple networks, it will be "
+"necessary for you to assign an interface to a zone based on the network it "
+"faces."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:452
+msgid ""
+"In our examples, we've not added any interfaces, because we are working with "
+"an LXD container for lab testing. We only have one interface to work with. "
+"Let's say that your \"public\" zone needs to be configured to use Ethernet "
+"port enp3s0 as this port has the public IP on it, and let's say that your "
+"\"trusted\" and \"admin\" zones are on the LAN interface, which might be "
+"enp3s1."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:454
+msgid ""
+"To assign these zones to the appropriate interface, we would use the "
+"following commands:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/firewalld.md:455
+#, no-wrap
+msgid ""
+"firewall-cmd --zone=public --change-interface=enp3s0 --permanent\n"
+"firewall-cmd --zone=trusted --change-interface=enp3s1 --permanent\n"
+"firewall-cmd --zone=admin --change-interface=enp3s1 --permanent\n"
+"firewall-cmd --reload\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/security/firewalld.md:461
+#, no-wrap
+msgid "Common firewall-cmd Commands"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:464
+msgid ""
+"We've used some commands already. Here are a few more common commands and "
+"what they do:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:474
+#, no-wrap
+msgid ""
+"| Command                             | Result                                                                                                    |\n"
+"|-------------------------------------|-----------------------------------------------------------------------------------------------------------|\n"
+"|`firewall-cmd --list-all-zones`      | similar to `firewall-cmd --list-all --zone=[zone]` except it lists *all* of the zones and their contents. |\n"
+"|`firewall-cmd --get-default-zone`    | shows the default zone, which is \"public\" unless it has been changed.                                     |\n"
+"|`firewall-cmd --list-services --zone=[zone]`| shows all of the services enabled for the zone.                                                    |\n"
+"|`firewall-cmd --list-ports --zone=[zone]`| shows all ports open on the zone.                                                                     |\n"
+"|`firewall-cmd --get-active-zones`    | shows the zones that are active on the system, their active interfaces, services, and ports.              |\n"
+"|`firewall-cmd --get-services`        | shows all available services possible for use.                                                            |\n"
+"|`firewall-cmd --runtime-to-permanent`| if you have entered many rules without the --permanent option, do this before reloading.                  |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:476
+msgid ""
+"There are a great many `firewall-cmd` options not covered here, but this "
+"gives you the most used commands."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:480
+msgid ""
+"Since `firewalld` is the recommended and included firewall with Rocky Linux, "
+"it is a good idea to get your head around how it works. Simplistic rules, "
+"included in documentation for applying services using `firewalld` often do "
+"not take into account what the server is being used for, and offer no "
+"options other than publicly allowing the service. This is a drawback that "
+"comes with security holes that just don't need to be there."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:482
+msgid ""
+"When you see these instructions, think about what your server is being used "
+"for and whether or not the service in question needs to be open to the "
+"world. If not, consider using more granularity in your rules as described "
+"above. While the author still isn't 100% commfortable with switching over to "
+"`firewalld`, it is highly probable that I'll use `firewalld` in future "
+"documentation."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/firewalld.md:483
+#, no-wrap
+msgid "The process of writing this document and lab-testing the results have been very helpful to me. Hopefully, they will be helpful to someone else as well. This is not meant to be an exhaustive guide to `firewalld`, but rather a starting point.                                         \n"
+msgstr ""

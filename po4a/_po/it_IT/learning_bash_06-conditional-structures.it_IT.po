@@ -1,0 +1,665 @@
+# Italian translations for po package
+# Traduzioni italiane per il pacchetto po.
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"PO-Revision-Date: 2023-06-14 07:11+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/01-presentation.md:12
+#: ../src/docs/books/admin_guide/12-network.md:12
+#: ../src/docs/books/learning_ansible/01-basic.md:15
+#: ../src/docs/books/learning_ansible/02-advanced.md:12
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:12
+#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:12
+#: ../src/docs/books/learning_ansible/05-deployments.md:12
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:12
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:14
+#: ../src/docs/books/learning_bash/01-first-script.md:19
+#: ../src/docs/books/learning_bash/02-using-variables.md:19
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:19
+#: ../src/docs/books/learning_bash/05-tests.md:17
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:17
+#: ../src/docs/books/learning_bash/07-loops.md:17
+#, no-wrap
+msgid "**Objectives**: In this chapter you will learn how to:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:22
+#: ../src/docs/books/admin_guide/05-vi.md:22
+#: ../src/docs/books/admin_guide/07-file-systems.md:33
+#: ../src/docs/books/admin_guide/08-process.md:23
+#: ../src/docs/books/admin_guide/10-boot.md:24
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:23
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:24
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:27
+#: ../src/docs/books/learning_bash/07-loops.md:26
+#, no-wrap
+msgid "**Reading time**: 20 minutes\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:296
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:338
+#: ../src/docs/books/admin_guide/06-users.md:539
+#: ../src/docs/books/admin_guide/06-users.md:622
+#: ../src/docs/books/admin_guide/06-users.md:719
+#: ../src/docs/books/admin_guide/06-users.md:798
+#: ../src/docs/books/admin_guide/06-users.md:930
+#: ../src/docs/books/admin_guide/11-tasks.md:216
+#: ../src/docs/books/admin_guide/12-network.md:537
+#: ../src/docs/books/admin_guide/03-commands.md:214
+#: ../src/docs/books/admin_guide/03-commands.md:318
+#: ../src/docs/books/admin_guide/03-commands.md:720
+#: ../src/docs/books/admin_guide/03-commands.md:1399
+#: ../src/docs/books/admin_guide/08-process.md:385
+#: ../src/docs/books/admin_guide/09-backups.md:370
+#: ../src/docs/books/admin_guide/09-backups.md:720
+#: ../src/docs/books/admin_guide/10-boot.md:207
+#: ../src/docs/books/admin_guide/13-softwares.md:925
+#: ../src/docs/books/admin_guide/13-softwares.md:1009
+#: ../src/docs/books/learning_ansible/01-basic.md:286
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:169
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:54
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:125
+#: ../src/docs/guides/security/learning_selinux.md:289
+#: ../src/docs/guides/security/pam.md:287
+msgid "Examples:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:44
+#: ../src/docs/books/admin_guide/05-vi.md:397
+#: ../src/docs/books/admin_guide/05-vi.md:405
+#: ../src/docs/books/admin_guide/05-vi.md:411
+#: ../src/docs/books/admin_guide/05-vi.md:417
+#: ../src/docs/books/admin_guide/05-vi.md:423
+#: ../src/docs/books/admin_guide/06-users.md:75
+#: ../src/docs/books/admin_guide/06-users.md:113
+#: ../src/docs/books/admin_guide/06-users.md:141
+#: ../src/docs/books/admin_guide/06-users.md:279
+#: ../src/docs/books/admin_guide/06-users.md:344
+#: ../src/docs/books/admin_guide/06-users.md:369
+#: ../src/docs/books/admin_guide/06-users.md:392
+#: ../src/docs/books/admin_guide/06-users.md:588
+#: ../src/docs/books/admin_guide/06-users.md:656
+#: ../src/docs/books/admin_guide/06-users.md:671
+#: ../src/docs/books/admin_guide/06-users.md:740
+#: ../src/docs/books/admin_guide/06-users.md:764
+#: ../src/docs/books/admin_guide/06-users.md:782
+#: ../src/docs/books/admin_guide/11-tasks.md:140
+#: ../src/docs/books/admin_guide/12-network.md:47
+#: ../src/docs/books/admin_guide/12-network.md:481
+#: ../src/docs/books/admin_guide/12-network.md:562
+#: ../src/docs/books/admin_guide/12-network.md:583
+#: ../src/docs/books/admin_guide/12-network.md:624
+#: ../src/docs/books/admin_guide/12-network.md:649
+#: ../src/docs/books/admin_guide/12-network.md:666
+#: ../src/docs/books/admin_guide/12-network.md:694
+#: ../src/docs/books/admin_guide/12-network.md:707
+#: ../src/docs/books/admin_guide/12-network.md:720
+#: ../src/docs/books/admin_guide/03-commands.md:126
+#: ../src/docs/books/admin_guide/03-commands.md:162
+#: ../src/docs/books/admin_guide/03-commands.md:470
+#: ../src/docs/books/admin_guide/03-commands.md:619
+#: ../src/docs/books/admin_guide/03-commands.md:641
+#: ../src/docs/books/admin_guide/03-commands.md:661
+#: ../src/docs/books/admin_guide/03-commands.md:778
+#: ../src/docs/books/admin_guide/03-commands.md:826
+#: ../src/docs/books/admin_guide/03-commands.md:842
+#: ../src/docs/books/admin_guide/03-commands.md:962
+#: ../src/docs/books/admin_guide/03-commands.md:985
+#: ../src/docs/books/admin_guide/03-commands.md:1174
+#: ../src/docs/books/admin_guide/03-commands.md:1195
+#: ../src/docs/books/admin_guide/07-file-systems.md:132
+#: ../src/docs/books/admin_guide/07-file-systems.md:237
+#: ../src/docs/books/admin_guide/07-file-systems.md:267
+#: ../src/docs/books/admin_guide/07-file-systems.md:286
+#: ../src/docs/books/admin_guide/07-file-systems.md:313
+#: ../src/docs/books/admin_guide/07-file-systems.md:327
+#: ../src/docs/books/admin_guide/07-file-systems.md:341
+#: ../src/docs/books/admin_guide/07-file-systems.md:379
+#: ../src/docs/books/admin_guide/07-file-systems.md:490
+#: ../src/docs/books/admin_guide/07-file-systems.md:612
+#: ../src/docs/books/admin_guide/07-file-systems.md:639
+#: ../src/docs/books/admin_guide/07-file-systems.md:993
+#: ../src/docs/books/admin_guide/08-process.md:60
+#: ../src/docs/books/admin_guide/08-process.md:198
+#: ../src/docs/books/admin_guide/08-process.md:230
+#: ../src/docs/books/admin_guide/08-process.md:250
+#: ../src/docs/books/admin_guide/08-process.md:287
+#: ../src/docs/books/admin_guide/08-process.md:312
+#: ../src/docs/books/admin_guide/08-process.md:330
+#: ../src/docs/books/admin_guide/09-backups.md:228
+#: ../src/docs/books/admin_guide/09-backups.md:253
+#: ../src/docs/books/admin_guide/09-backups.md:568
+#: ../src/docs/books/admin_guide/09-backups.md:632
+#: ../src/docs/books/admin_guide/09-backups.md:677
+#: ../src/docs/books/admin_guide/09-backups.md:700
+#: ../src/docs/books/admin_guide/09-backups.md:785
+#: ../src/docs/books/admin_guide/09-backups.md:807
+#: ../src/docs/books/admin_guide/09-backups.md:829
+#: ../src/docs/books/admin_guide/09-backups.md:855
+#: ../src/docs/books/admin_guide/10-boot.md:322
+#: ../src/docs/books/admin_guide/13-softwares.md:67
+#: ../src/docs/books/admin_guide/13-softwares.md:79
+#: ../src/docs/books/admin_guide/13-softwares.md:152
+#: ../src/docs/books/admin_guide/13-softwares.md:350
+#: ../src/docs/books/admin_guide/13-softwares.md:505
+#: ../src/docs/books/admin_guide/13-softwares.md:513
+#: ../src/docs/books/learning_ansible/01-basic.md:180
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:92
+#: ../src/docs/books/learning_bash/01-first-script.md:119
+#: ../src/docs/books/learning_bash/02-using-variables.md:128
+#: ../src/docs/books/learning_bash/02-using-variables.md:142
+#: ../src/docs/books/learning_bash/02-using-variables.md:204
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:118
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:216
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:338
+#: ../src/docs/books/learning_bash/05-tests.md:141
+#: ../src/docs/books/learning_bash/05-tests.md:199
+#: ../src/docs/books/learning_bash/05-tests.md:222
+#: ../src/docs/books/learning_bash/05-tests.md:313
+#: ../src/docs/books/learning_bash/05-tests.md:338
+#: ../src/docs/books/learning_bash/05-tests.md:354
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:101
+#: ../src/docs/books/learning_bash/07-loops.md:128
+#: ../src/docs/guides/security/learning_selinux.md:92
+#: ../src/docs/guides/security/learning_selinux.md:147
+#: ../src/docs/guides/security/learning_selinux.md:200
+#: ../src/docs/guides/security/learning_selinux.md:213
+#: ../src/docs/guides/security/learning_selinux.md:305
+#: ../src/docs/guides/security/learning_selinux.md:321
+#: ../src/docs/guides/security/learning_selinux.md:339
+#: ../src/docs/guides/security/learning_selinux.md:360
+#: ../src/docs/guides/security/learning_selinux.md:394
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:154
+#: ../src/docs/guides/web/php.md:255
+msgid "Example:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/11-tasks.md:19
+#: ../src/docs/books/admin_guide/12-network.md:21
+#: ../src/docs/books/learning_bash/02-using-variables.md:27
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:27
+#: ../src/docs/books/learning_bash/05-tests.md:25
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:23
+#: ../src/docs/books/learning_bash/07-loops.md:22
+#, no-wrap
+msgid "**Knowledge**: :star: :star:  \n"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/admin_guide/13-softwares.md:1
+#: ../src/docs/books/learning_bash/00-toc.md:1
+#: ../src/docs/books/learning_bash/01-first-script.md:1
+#: ../src/docs/books/learning_bash/02-using-variables.md:1
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:1
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:1
+#: ../src/docs/books/learning_bash/05-tests.md:1
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:1
+#: ../src/docs/books/learning_bash/07-loops.md:1
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:1
+#, no-wrap
+msgid "education"
+msgstr ""
+
+#. type: YAML Front Matter: contributors
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part3.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:1
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:1
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:1
+#: ../src/docs/books/learning_bash/00-toc.md:1
+#: ../src/docs/books/learning_bash/01-first-script.md:1
+#: ../src/docs/books/learning_bash/02-using-variables.md:1
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:1
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:1
+#: ../src/docs/books/learning_bash/05-tests.md:1
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:1
+#: ../src/docs/books/learning_bash/07-loops.md:1
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:1
+#: ../src/docs/books/learning_rsync/01_rsync_overview.md:1
+#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:1
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:1
+#: ../src/docs/books/learning_rsync/05_rsync_authentication-free_login.md:1
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:1
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:1
+#: ../src/docs/books/nvchad/additional_software.md:1
+#: ../src/docs/books/nvchad/index.md:1
+#: ../src/docs/books/nvchad/install_nvchad.md:1
+#: ../src/docs/books/nvchad/install_nvim.md:1
+#: ../src/docs/books/nvchad/nerd_fonts.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:1
+#: ../src/docs/books/nvchad/plugins/index.md:1
+#: ../src/docs/books/nvchad/plugins/md_preview.md:1
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:1
+#: ../src/docs/books/nvchad/template_chadrc.md:1
+#: ../src/docs/gemstones/RL9_network_manager.md:1
+#: ../src/docs/gemstones/htop.md:1 ../src/docs/gemstones/mtr.md:1
+#: ../src/docs/gemstones/setup_local_repo.md:1
+#: ../src/docs/gemstones/string_color.md:1
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:1
+#: ../src/docs/gemstones/view_kernel_conf.md:1
+#: ../src/docs/guides/automation/anacron.md:1
+#: ../src/docs/guides/automation/cronie.md:1
+#: ../src/docs/guides/automation/olivetin.md:1
+#: ../src/docs/guides/communications/asterisk_installation.md:1
+#: ../src/docs/guides/containers/lxd_web_servers.md:1
+#: ../src/docs/guides/contribute/local_docs.md:1
+#: ../src/docs/guides/contribute/mkdocs_venv.md:1
+#: ../src/docs/guides/contribute/style_guide.md:1
+#: ../src/docs/guides/editors/micro.md:1
+#: ../src/docs/guides/file_sharing/glusterfs.md:1
+#: ../src/docs/guides/installation.md:1
+#: ../src/docs/guides/security/dnf_automatic.md:1
+#: ../src/docs/guides/security/firewalld-beginners.md:1
+#: ../src/docs/guides/web/nginx-multisite.md:1 ../src/docs/guides/web/php.md:1
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:1
+#, no-wrap
+msgid "Steven Spencer"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/learning_bash/00-toc.md:1
+#: ../src/docs/books/learning_bash/01-first-script.md:1
+#: ../src/docs/books/learning_bash/02-using-variables.md:1
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:1
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:1
+#: ../src/docs/books/learning_bash/05-tests.md:1
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:1
+#: ../src/docs/books/learning_bash/07-loops.md:1
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:1
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:1
+#, no-wrap
+msgid "bash scripting"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/learning_bash/00-toc.md:1
+#: ../src/docs/books/learning_bash/01-first-script.md:1
+#: ../src/docs/books/learning_bash/02-using-variables.md:1
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:1
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:1
+#: ../src/docs/books/learning_bash/05-tests.md:1
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:1
+#: ../src/docs/books/learning_bash/07-loops.md:1
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:1
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:1
+#: ../src/docs/gemstones/string_color.md:1
+#: ../src/docs/guides/automation/olivetin.md:1
+#, no-wrap
+msgid "bash"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:26
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:24
+#: ../src/docs/books/learning_bash/07-loops.md:23
+#, no-wrap
+msgid "**Complexity**: :star: :star: :star:  \n"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:1
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:12
+#, no-wrap
+msgid "Bash - Conditional structures if and case"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:18
+#, no-wrap
+msgid ":heavy_check_mark: use the conditional syntax `if`;  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:19
+#, no-wrap
+msgid ":heavy_check_mark: use the conditional syntax `case`;  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:22
+msgid ""
+":checkered_flag: **linux**, **script**, **bash**, **conditional structures**"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:30
+#, no-wrap
+msgid "Conditional structures"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:33
+msgid ""
+"If the `$?` variable is used to know the result of a test or the execution "
+"of a command, it can only be displayed and has no effect on the execution of "
+"a script."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:36
+msgid ""
+"But we can use it in a condition.  **If** the test is good **then** I do "
+"this action **otherwise** I do this other action."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:38
+msgid "Syntax of the conditional alternative `if`:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:39
+#, no-wrap
+msgid ""
+"if command\n"
+"then\n"
+"    command if $?=0\n"
+"else\n"
+"    command if $?!=0\n"
+"fi\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:50
+msgid ""
+"The command placed after the word `if` can be any command since it is its "
+"return code (`$?`) that will be evaluated.  It is often convenient to use "
+"the `test` command to define several actions depending on the result of this "
+"test (file exists, variable not empty, write rights set)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:52
+msgid ""
+"Using a classical command (`mkdir`, `tar`, ...) allows you to define the "
+"actions to be performed in case of success, or the error messages to be "
+"displayed in case of failure."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:55
+#, no-wrap
+msgid ""
+"if [[ -e /etc/passwd ]]\n"
+"then\n"
+"    echo \"The file exists\"\n"
+"else\n"
+"    echo \"The file does not exist\"\n"
+"fi\n"
+"\n"
+"if mkdir rep\n"
+"then\n"
+"    cd rep\n"
+"fi\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:70
+msgid ""
+"If the `else` block starts with a new `if` structure, you can merge the "
+"`else` and `if` with `elif` as shown below:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:71
+#, no-wrap
+msgid ""
+"[...]\n"
+"else\n"
+"  if [[ -e /etc/ ]]\n"
+"[...]\n"
+"\n"
+"[...]\n"
+"# is equivalent to\n"
+"elif [[ -e /etc ]]\n"
+"[...]\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:84
+msgid "!!! Note \"Summary\""
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:86
+#, no-wrap
+msgid "    The structure `if` / `then` / `else` / `fi` evaluates the command placed after if:\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:89
+msgid ""
+"If the return code of this command is `0` (`true`) the shell will execute "
+"the commands placed after `then`;"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:89
+msgid ""
+"If the return code is different from `0` (`false`) the shell will execute "
+"the commands placed after `else`."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:91
+#, no-wrap
+msgid "    The `else` block is optional.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:93
+#, no-wrap
+msgid "    There is often a need to perform some actions only if the evaluation of the command is true and to do nothing if it is false.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:95
+#, no-wrap
+msgid "    The word `fi` closes the structure.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:97
+msgid ""
+"When there is only one command to execute in the `then` block, it is "
+"possible to use a simpler syntax."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:99
+msgid ""
+"The command to execute if `$?` is `true` is placed after `&&` while the "
+"command to execute if `$?` is `false` is placed after `||` (optional)."
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:102
+#, no-wrap
+msgid ""
+"[[ -e /etc/passwd ]] && echo \"The file exists\" || echo \"The file does not exist\"\n"
+"mkdir dir && echo \"The directory is created\".\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:108
+msgid ""
+"It is also possible to evaluate and replace a variable with a lighter "
+"structure than `if`."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:110
+msgid "This syntax implements the braces:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:123
+#, no-wrap
+msgid ""
+"* Displays a replacement value if the variable is empty:\n"
+"    ```\n"
+"    ${variable:-value}\n"
+"    ```\n"
+"* Displays a replacement value if the variable is not empty:\n"
+"    ```\n"
+"    ${variable:+value}\n"
+"    ```\n"
+"* Assigns a new value to the variable if it is empty:\n"
+"    ```\n"
+"    ${variable:=value}\n"
+"    ```\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:126
+#, no-wrap
+msgid ""
+"name=\"\"\n"
+"echo ${name:-linux}\n"
+"linux\n"
+"echo $name\n"
+"\n"
+"echo ${name:=linux}\n"
+"linux\n"
+"echo $name\n"
+"linux\n"
+"echo ${name:+tux}\n"
+"tux\n"
+"echo $name\n"
+"linux\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:143
+msgid "!!! hint"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:145
+#, no-wrap
+msgid "    When deciding on the use of `if`, `then`, `else`, `fi` OR the use of the simpler syntax examples described, keep in mind the readability of your script. If no one is going to use the script but yourself, then you can use what works best for you. If someone else might need to review, debug, or trace through the script that you create, either use the more self documenting form (`if`,`then`, etc) or make sure that you document your script thoroughly so that the simpler syntax is actually understood by those who may need to modify and use the script. Documenting the script is *always* a good thing to do anyway, as noted several times earlier in these lessons.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:146
+#, no-wrap
+msgid "Alternative conditional: structure `case`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:150
+msgid ""
+"A succession of `if` structures can quickly become heavy and complex. When "
+"it concerns the evaluation of the same variable, it is possible to use a "
+"conditional structure with several branches.  The values of the variable can "
+"be specified or belong to a list of possibilities."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:152
+#, no-wrap
+msgid "**Wildcards can be used**.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:154
+msgid ""
+"The structure `case ... in` / `esac` evaluates the variable placed after "
+"`case` and compares it with the defined values."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:156
+msgid ""
+"At the first equality found, the commands placed between `)` and `;;` are "
+"executed."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:158
+msgid ""
+"The variable evaluated and the values proposed can be strings or results of "
+"sub-executions of commands."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:160
+msgid ""
+"Placed at the end of the structure, the choice `*` indicates the actions to "
+"be executed for all the values that have not been previously tested."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:162
+msgid "Syntax of the conditional alternative case:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:163
+#, no-wrap
+msgid ""
+"case $variable in\n"
+"  value1)\n"
+"    commands if $variable = value1\n"
+"    ;;\n"
+"  value2)\n"
+"    commands if $variable = value2\n"
+"    ;;\n"
+"  [..]\n"
+"  *)\n"
+"    commands for all values of $variable != of value1 and value2\n"
+"    ;;\n"
+"esac\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:179
+msgid ""
+"When the value is subject to variation, it is advisable to use wildcards "
+"`[]` to specify the possibilities:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:180
+#, no-wrap
+msgid ""
+"[Yy][Ee][Ss])\n"
+"  echo \"yes\"\n"
+"  ;;\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:187
+msgid "The character `|` also allows you to specify a value or another:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:188
+#, no-wrap
+msgid ""
+"\"yes\" | \"YES\")\n"
+"  echo \"yes\"\n"
+"  ;;\n"
+msgstr ""

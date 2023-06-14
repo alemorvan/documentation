@@ -1,0 +1,463 @@
+# French translations for po package
+# Traductions françaises du paquet po
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"PO-Revision-Date: 2023-06-14 07:11+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part3.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:1
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:1
+#: ../src/docs/guides/file_sharing/sftp.md:1
+#: ../src/docs/guides/security/dnf_automatic.md:1
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
+#: ../src/docs/guides/security/firewalld.md:1
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:1
+#: ../src/docs/guides/security/learning_selinux.md:1
+#: ../src/docs/guides/security/pam.md:1
+#: ../src/docs/guides/security/ssh_public_private_keys.md:1
+#: ../src/docs/guides/security/ssl_keys_https.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
+#, no-wrap
+msgid "security"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
+#: ../src/docs/books/learning_ansible/05-deployments.md:31
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/00-toc.md:13
+#: ../src/docs/books/nvchad/index.md:12
+#: ../src/docs/books/nvchad/plugins/index.md:14
+#: ../src/docs/books/nvchad/plugins/md_preview.md:14
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
+#: ../src/docs/books/nvchad/vale_nvchad.md:12
+#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
+#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
+#: ../src/docs/gemstones/string_color.md:11
+#: ../src/docs/guides/automation/cron_jobs_howto.md:25
+#: ../src/docs/guides/automation/olivetin.md:14
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
+#: ../src/docs/guides/backup/rsnapshot_backup.md:22
+#: ../src/docs/guides/backup/rsync_ssh.md:24
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
+#: ../src/docs/guides/cms/dokuwiki_server.md:23
+#: ../src/docs/guides/containers/lxd_web_servers.md:10
+#: ../src/docs/guides/containers/podman-nextcloud.md:13
+#: ../src/docs/guides/contribute/local_docs.md:11
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
+#: ../src/docs/guides/contribute/mkdocs_venv.md:14
+#: ../src/docs/guides/contribute/style_guide.md:14
+#: ../src/docs/guides/database/database_mariadb-server.md:21
+#: ../src/docs/guides/desktop/kde_installation.md:11
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
+#: ../src/docs/guides/editors/micro.md:14
+#: ../src/docs/guides/email/postfix_reporting.md:22
+#: ../src/docs/guides/file_sharing/glusterfs.md:16
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
+#: ../src/docs/guides/file_sharing/sftp.md:16
+#: ../src/docs/guides/migrate2rocky.md:18
+#: ../src/docs/guides/network/basic_network_configuration.md:12
+#: ../src/docs/guides/network/librenms_monitoring_server.md:13
+#: ../src/docs/guides/package_management/index.md:1
+#: ../src/docs/guides/package_management/index.md:5
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
+#: ../src/docs/guides/proxies/pound.md:17
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
+#: ../src/docs/guides/security/firewalld-beginners.md:10
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
+#: ../src/docs/guides/security/ssh_public_private_keys.md:21
+#: ../src/docs/guides/security/ssl_keys_https.md:22
+#: ../src/docs/guides/virtualization/vbox-rocky.md:13
+#: ../src/docs/guides/web/apache-sites-enabled.md:25
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
+#: ../src/docs/guides/web/nginx-mainline.md:13
+#: ../src/docs/guides/web/nginx-multisite.md:14
+#: ../src/docs/labs/security/introduction.md:1
+#: ../src/docs/labs/security/introduction.md:5
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: YAML Front Matter: contributors
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/01-install.md:1
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:1
+#: ../src/docs/books/lxd_server/03-lxdinit.md:1
+#: ../src/docs/books/lxd_server/04-firewall.md:1
+#: ../src/docs/books/lxd_server/05-lxd_images.md:1
+#: ../src/docs/books/lxd_server/06-profiles.md:1
+#: ../src/docs/books/lxd_server/07-configurations.md:1
+#: ../src/docs/books/lxd_server/08-snapshots.md:1
+#: ../src/docs/books/lxd_server/09-snapshot_server.md:1
+#: ../src/docs/books/lxd_server/10-automating.md:1
+#: ../src/docs/gemstones/bash_stub.md:1
+#: ../src/docs/guides/automation/cron_jobs_howto.md:1
+#: ../src/docs/guides/backup/rsnapshot_backup.md:1
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:1
+#: ../src/docs/guides/cms/dokuwiki_server.md:1
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:1
+#: ../src/docs/guides/contribute/navigation.md:1
+#: ../src/docs/guides/desktop/kde_installation.md:1
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:1
+#: ../src/docs/guides/email/postfix_reporting.md:1
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:1
+#: ../src/docs/guides/file_sharing/sftp.md:1
+#: ../src/docs/guides/network/librenms_monitoring_server.md:1
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
+#: ../src/docs/guides/security/ssh_public_private_keys.md:1
+#: ../src/docs/guides/security/ssl_keys_https.md:1
+#: ../src/docs/guides/web/apache-sites-enabled.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
+#, no-wrap
+msgid "Ezequiel Bruni"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/lxd_server/30-appendix_a.md:15
+#: ../src/docs/books/nvchad/vale_nvchad.md:16
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:20
+#: ../src/docs/guides/automation/anacron.md:10
+#: ../src/docs/guides/automation/cron_jobs_howto.md:14
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:13
+#: ../src/docs/guides/backup/rsnapshot_backup.md:13
+#: ../src/docs/guides/backup/rsync_ssh.md:12
+#: ../src/docs/guides/communications/asterisk_installation.md:25
+#: ../src/docs/guides/database/database_mariadb-server.md:13
+#: ../src/docs/guides/desktop/kde_installation.md:20
+#: ../src/docs/guides/desktop/mate_installation.md:17
+#: ../src/docs/guides/desktop/xfce_installation.md:17
+#: ../src/docs/guides/editors/micro.md:33
+#: ../src/docs/guides/email/postfix_reporting.md:14
+#: ../src/docs/guides/file_sharing/glusterfs.md:10
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:14
+#: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:14
+#: ../src/docs/guides/network/basic_network_configuration.md:16
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:8
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:14
+#: ../src/docs/guides/security/ssh_public_private_keys.md:14
+#: ../src/docs/guides/security/ssl_keys_https.md:14
+#: ../src/docs/guides/virtualization/vbox-rocky.md:19
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:15
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:15
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:14
+#: ../src/docs/guides/web/mod_SSL_apache.md:14
+#, no-wrap
+msgid "Prerequisites"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/file_sharing/sftp.md:1
+#: ../src/docs/guides/security/ssh_public_private_keys.md:1
+#: ../src/docs/labs/security/index.md:64
+#: ../src/docs/labs/security/lab9-cryptography.md:584
+#: ../src/docs/labs/security/lab9-cryptography.md:693
+#, no-wrap
+msgid "ssh"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/sftp.md:582
+#: ../src/docs/guides/security/ssh_public_private_keys.md:33
+#, no-wrap
+msgid "ssh-keygen -t rsa\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/network/basic_network_configuration.md:21
+#: ../src/docs/guides/network/basic_network_configuration.md:33
+#: ../src/docs/guides/security/ssh_public_private_keys.md:20
+msgid "A certain amount of comfort operating from the command line"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/security/ssh_public_private_keys.md:1
+#, no-wrap
+msgid "keygen"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/guides/security/ssh_public_private_keys.md:1
+#: ../src/docs/guides/security/ssh_public_private_keys.md:12
+#, no-wrap
+msgid "SSH Public and Private Key"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/ssh_public_private_keys.md:20
+msgid "Rocky Linux servers and/or workstations with *openssh* installed"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/security/ssh_public_private_keys.md:20
+msgid ""
+"Okay technically, this process should work on any Linux system with openssh "
+"installed"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/ssh_public_private_keys.md:20
+msgid "Optional: familiarity with Linux file and directory permissions"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:24
+msgid ""
+"SSH is a protocol used to access one machine from another, usually via the "
+"command line. With SSH, you can run commands on remote computers and "
+"servers, send files, and generally manage everything you do from one place."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:26
+msgid ""
+"When you are working with multiple Rocky Linux servers in multiple "
+"locations, or if you are just trying to save some time accessing these "
+"servers, you'll want to use an SSH public and private key pair. Key pairs "
+"basically make logging into remote machines and running commands easier."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:28
+msgid ""
+"This document will guide you through the process of creating the keys and "
+"setting up your servers for easy access with those keys."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/security/ssh_public_private_keys.md:29
+#, no-wrap
+msgid "Process For Generating Keys"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:32
+msgid ""
+"The following commands are all executed from the command line on your Rocky "
+"Linux workstation:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:38
+msgid "Which will display the following:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/ssh_public_private_keys.md:39
+#, no-wrap
+msgid ""
+"Generating public/private rsa key pair.\n"
+"Enter file in which to save the key (/root/.ssh/id_rsa):\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:45
+msgid "Hit Enter to accept the default location. Next the system will show:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:47
+msgid "`Enter passphrase (empty for no passphrase):`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:49
+msgid ""
+"So just hit Enter here. Finally, it will ask for you to re-enter the "
+"passphrase:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:51
+msgid "`Enter same passphrase again:`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:53
+msgid "So hit Enter a final time."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:55
+msgid ""
+"You now should have an RSA type public and private key pair in your .ssh "
+"directory:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/ssh_public_private_keys.md:56
+#, no-wrap
+msgid ""
+"ls -a .ssh/\n"
+".  ..  id_rsa  id_rsa.pub\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:62
+msgid ""
+"Now we need to send the public key (id_rsa.pub) to every machine that we are "
+"going to be accessing... but before we do that, we need to make sure that we "
+"can SSH into the servers that we will be sending the key to. For our "
+"example, we are going to be using just three servers."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:64
+msgid ""
+"You can either access them via SSH by a DNS name or IP address, but for our "
+"example we are going to be using the DNS name. Our example servers are web, "
+"mail, and portal. For each server, we will attempt to SSH in (nerds love "
+"using SSH as a verb) and leave a terminal window open for each machine:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:66
+msgid "`ssh -l root web.ourourdomain.com`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:68
+msgid ""
+"Assuming that we can login without trouble on all three machines, then the "
+"next step is to send our public key over to each server:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:70
+msgid "`scp .ssh/id_rsa.pub root@web.ourourdomain.com:/root/`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:72
+msgid "Repeat this step with each of our three machines."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:74
+msgid ""
+"In each of the open terminal windows, you should now be able to see *id_rsa."
+"pub* when you enter the following command:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:76
+msgid "`ls -a | grep id_rsa.pub`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:78
+msgid ""
+"If so, we are now ready to either create or append the *authorized_keys* "
+"file in each server's *.ssh* directory. On each of the servers, enter this "
+"command:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:80
+msgid "`ls -a .ssh`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:82
+msgid "!!! warning \"Important!\""
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:84
+#, no-wrap
+msgid "    Make sure you read everything below carefully. If you are not sure if you will break something, then make a backup copy of authorized_keys (if it exists) on each of the machines before continuing.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:86
+msgid ""
+"If there is no *authorized_keys* file listed, then we will create it by "
+"entering this command while in our _/root_ directory:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:88
+#, no-wrap
+msgid "`cat id_rsa.pub > .ssh/authorized_keys`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:90
+msgid ""
+"If _authorized_keys_ does exist, then we simply want to append our new "
+"public key to the ones that are already there:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:92
+#, no-wrap
+msgid "`cat id_rsa.pub >> .ssh/authorized_keys`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:94
+msgid ""
+"Once the key has been either added to _authorized_keys_, or the "
+"_authorized_keys_ file has been created, try to SSH from your Rocky Linux "
+"workstation to the server again. You should not be prompted for a password."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:96
+msgid ""
+"Once you have verified that you can SSH in without a password, remove the "
+"id_rsa.pub file from the _/root_ directory on each machine."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:98
+msgid "`rm id_rsa.pub`"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/security/ssh_public_private_keys.md:99
+#, no-wrap
+msgid "SSH Directory and authorized_keys Security"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssh_public_private_keys.md:102
+msgid ""
+"On each of your target machines, make sure that the following permissions "
+"are applied:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/ssh_public_private_keys.md:103
+#, no-wrap
+msgid ""
+"chmod 700 .ssh/\n"
+"chmod 600 .ssh/authorized_keys\n"
+msgstr ""

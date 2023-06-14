@@ -1,0 +1,481 @@
+# Italian translations for po package
+# Traduzioni italiane per il pacchetto po.
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"PO-Revision-Date: 2023-06-14 07:11+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:338
+#: ../src/docs/books/admin_guide/14-special-authority.md:354
+#: ../src/docs/books/admin_guide/14-special-authority.md:404
+#: ../src/docs/books/admin_guide/14-special-authority.md:435
+#: ../src/docs/books/admin_guide/14-special-authority.md:690
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:83
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:102
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:253
+#: ../src/docs/books/lxd_server/04-firewall.md:76
+#: ../src/docs/books/lxd_server/08-snapshots.md:86
+#: ../src/docs/gemstones/RL9_network_manager.md:150
+#: ../src/docs/gemstones/nmtui.md:52
+#: ../src/docs/gemstones/view_kernel_conf.md:21
+#: ../src/docs/guides/backup/rsync_ssh.md:79
+#: ../src/docs/guides/cms/dokuwiki_server.md:226
+#: ../src/docs/guides/containers/lxd_web_servers.md:786
+#: ../src/docs/guides/containers/podman-nextcloud.md:270
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:96
+#: ../src/docs/guides/file_sharing/sftp.md:264
+#: ../src/docs/guides/package_management/index.md:10
+#: ../src/docs/guides/proxies/pound.md:211
+#: ../src/docs/guides/proxies/pound.md:265 ../src/docs/release_notes/8_4.md:20
+msgid "!!! warning"
+msgstr ""
+
+#. type: YAML Front Matter: contributors
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part3.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:1
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:1
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:1
+#: ../src/docs/books/learning_bash/00-toc.md:1
+#: ../src/docs/books/learning_bash/01-first-script.md:1
+#: ../src/docs/books/learning_bash/02-using-variables.md:1
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:1
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:1
+#: ../src/docs/books/learning_bash/05-tests.md:1
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:1
+#: ../src/docs/books/learning_bash/07-loops.md:1
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:1
+#: ../src/docs/books/learning_rsync/01_rsync_overview.md:1
+#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:1
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:1
+#: ../src/docs/books/learning_rsync/05_rsync_authentication-free_login.md:1
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:1
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:1
+#: ../src/docs/books/nvchad/additional_software.md:1
+#: ../src/docs/books/nvchad/index.md:1
+#: ../src/docs/books/nvchad/install_nvchad.md:1
+#: ../src/docs/books/nvchad/install_nvim.md:1
+#: ../src/docs/books/nvchad/nerd_fonts.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:1
+#: ../src/docs/books/nvchad/plugins/index.md:1
+#: ../src/docs/books/nvchad/plugins/md_preview.md:1
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:1
+#: ../src/docs/books/nvchad/template_chadrc.md:1
+#: ../src/docs/gemstones/RL9_network_manager.md:1
+#: ../src/docs/gemstones/htop.md:1 ../src/docs/gemstones/mtr.md:1
+#: ../src/docs/gemstones/setup_local_repo.md:1
+#: ../src/docs/gemstones/string_color.md:1
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:1
+#: ../src/docs/gemstones/view_kernel_conf.md:1
+#: ../src/docs/guides/automation/anacron.md:1
+#: ../src/docs/guides/automation/cronie.md:1
+#: ../src/docs/guides/automation/olivetin.md:1
+#: ../src/docs/guides/communications/asterisk_installation.md:1
+#: ../src/docs/guides/containers/lxd_web_servers.md:1
+#: ../src/docs/guides/contribute/local_docs.md:1
+#: ../src/docs/guides/contribute/mkdocs_venv.md:1
+#: ../src/docs/guides/contribute/style_guide.md:1
+#: ../src/docs/guides/editors/micro.md:1
+#: ../src/docs/guides/file_sharing/glusterfs.md:1
+#: ../src/docs/guides/installation.md:1
+#: ../src/docs/guides/security/dnf_automatic.md:1
+#: ../src/docs/guides/security/firewalld-beginners.md:1
+#: ../src/docs/guides/web/nginx-multisite.md:1 ../src/docs/guides/web/php.md:1
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:1
+#, no-wrap
+msgid "Steven Spencer"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/view_kernel_conf.md:1
+#: ../src/docs/guides/custom-linux-kernel.md:1
+#, no-wrap
+msgid "kernel"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/view_kernel_conf.md:1
+#, no-wrap
+msgid "config"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/view_kernel_conf.md:1
+#, no-wrap
+msgid "modules"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/view_kernel_conf.md:1
+#, no-wrap
+msgid "kmod"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/gemstones/view_kernel_conf.md:1
+#: ../src/docs/gemstones/view_kernel_conf.md:13
+#, no-wrap
+msgid "View Current Kernel Configuration"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:16
+msgid ""
+"The Linux kernel stores running kernel information in two places via special "
+"filesystems: ([A summary of them](https://www.landoflinux.com/"
+"linux_procfs_sysfs.html))"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: ../src/docs/gemstones/view_kernel_conf.md:19
+msgid ""
+"The older [procfs](https://man7.org/linux/man-pages/man5/procfs.5.html) "
+"which mounts `/proc` (verify via `mount -l -t proc`)"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:19
+#, no-wrap
+msgid "  - The newer [sysfs](https://man7.org/linux/man-pages/man5/sysfs.5.html) which mounts `/sys`    (verify via `mount -l -t sysfs`)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:23
+#, no-wrap
+msgid "    Be cautious if examining the files mentioned here, altering them can change the behavior of the actual running kernel!\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:26
+msgid ""
+"These two interfaces allow you to view and change the parameters of the "
+"currently running kernel."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:28
+msgid ""
+"Note that if you do an [`ls -l`](https://man7.org/linux/man-pages/man1/ls.1."
+"html) on some of these files, they will show as \"0\" length, but if you "
+"[`cat`](https://man7.org/linux/man-pages/man1/cat.1.html) them out they "
+"actually contain data; most of them are ASCII and editable, however some are "
+"binary, and in either case commands like [`file`](https://man7.org/linux/man-"
+"pages/man1/file.1.html) or [`stat`](https://man7.org/linux/man-pages/man2/"
+"lstat.2.html) will typically just return \"empty file\" or \"0\" for "
+"lengths, although they will show you other information."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:30
+msgid ""
+"The preferred and standard programs for interacting with these functions are "
+"[`lsmod`](https://man7.org/linux/man-pages/man8/lsmod.8.html), [`modinfo`]"
+"(https://man7.org/linux/man-pages/man8/modinfo.8.html), and [`sysctl`]"
+"(https://man7.org/linux/man-pages/man8/sysctl.8.html), among others."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:31
+#, no-wrap
+msgid "sysctl -a | grep -i <keyword>\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:35
+#, no-wrap
+msgid "lsmod | grep -i <keyword>\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:39
+#, no-wrap
+msgid "modinfo <module>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:44
+msgid "See what your currently running \"kernel release\" version is with:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:46
+msgid ""
+"`uname -r` and substitute its return value in commands by using `$(uname -r)`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:49
+msgid ""
+"RHEL and derivative distributions (Fedora, CentOS Stream, Scientific Linux, "
+"RockyLinux, Almalinux, et. al.)  also store the config used for bootable "
+"installed kernels in the `/boot` directory used by Grub2 as ASCII files:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:50
+#, no-wrap
+msgid "/boot/config-<kernel-release>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:55
+msgid "To check the currently running kernel config for a particular value:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:56
+#, no-wrap
+msgid "cat /boot/config-$(uname -r) | grep -i <keyword>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:61
+msgid "Results will show:"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: ../src/docs/gemstones/view_kernel_conf.md:67
+msgid "\"=m\" if compiled in as a kernel module"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: ../src/docs/gemstones/view_kernel_conf.md:67
+msgid "\"=y\" if compiled statically into the kernel"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: ../src/docs/gemstones/view_kernel_conf.md:67
+msgid "\"is not set\" if that setting was commented out"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: ../src/docs/gemstones/view_kernel_conf.md:67
+msgid "a numeric value"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: ../src/docs/gemstones/view_kernel_conf.md:67
+msgid "a quoted string value"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:69
+msgid ""
+"Some distributions, like Gentoo and Arch, use the `configs` kernel module to "
+"provide `/proc/config.gz` by default instead:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:70
+#, no-wrap
+msgid ""
+"zcat /proc/config.gz | grep -i <keyword>\n"
+"zgrep <keyword> /proc/config.gz\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:76
+msgid ""
+"For any distribution, if your running kernel has set both `CONFIG_IKCONFIG` "
+"and `CONFIG_IKCONFIG_PROC` and if"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:77
+#, no-wrap
+msgid "ls -lh /sys/module/configs\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:82
+msgid ""
+"exists and is executable (searchable in the case of a dir) then you can "
+"create `/proc/config.gz` with this command if it is not present:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:83
+#, no-wrap
+msgid "modprobe configs\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:88
+msgid "!!! note \"Enabled Repos\""
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:90
+#, no-wrap
+msgid "    This document does not currently cover kernel packages that might have come from non-default repos such as:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:92
+#, no-wrap
+msgid "    appstream-debug, appstream-source, baseos-debug, baseos-source, or devel\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:95
+msgid ""
+"The `kernel-devel` packages install the config file used to compile each "
+"installed standard kernel package as an ASCII file in the following location:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:96
+#, no-wrap
+msgid "/usr/src/kernels/<kernel-release>/.config\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:101
+msgid ""
+"This file is more commonly accessed by a symlinked path provided by the "
+"`kernel-core` packages:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:102
+#, no-wrap
+msgid "/lib/modules/<kernel-release>/build/ -> /usr/src/kernels/<kernel-release>/\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:107
+msgid ""
+"If you have `kernel-debug-devel` packages installed you will also have this "
+"directory:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:108
+#, no-wrap
+msgid " /usr/src/kernels/<kernel-release>+debug/\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:113
+msgid ""
+"You can look in any of the following for details on the config values used "
+"to build an installed kernel:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:114
+#, no-wrap
+msgid ""
+"/lib/modules/<kernel-release>/config\n"
+"/lib/modules/<kernel-release>/build/.config\n"
+"/usr/src/kernels/<kernel-release>/.config\n"
+"/usr/src/kernels/<kernel-release>+debug/.config\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:122
+msgid ""
+"Configured modules for the currently running kernel, whether compiled as "
+"builtin (i.e. statically into the kernel itself) or a loadable module, are "
+"listed by sub directories named as the module name in:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:123
+#, no-wrap
+msgid "/sys/module/\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:128
+msgid ""
+"For each installed kernel-release you can examine these files to see what "
+"values were compiled into that kernel, and what version of [GCC](https://"
+"man7.org/linux/man-pages/man1/gcc.1.html) was used to compile it:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:129
+#, no-wrap
+msgid "cat /lib/modules/$(uname -r)/config | grep -i <keyword>\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:133
+#, no-wrap
+msgid "cat /lib/modules/$(uname -r)/build/.config | grep -i <keyword>\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:137
+#, no-wrap
+msgid "cat /usr/src/kernels/$(uname -r)/.config | grep -i <keyword>\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:141
+#, no-wrap
+msgid "cat /usr/src/kernels/$(uname -r)+debug/.config | grep -i <keyword>\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:145
+#, no-wrap
+msgid "ls -lh /sys/module/ | grep -i <keyword>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:150
+msgid "You can check for kernel module dependencies in the file:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:151
+#, no-wrap
+msgid "/lib/modules/<kernel-release>/modules.dep\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:156
+msgid ""
+"but it is easier to read or parse the output of the \"Used-by\" field in "
+"[`lsmod`](https://man7.org/linux/man-pages/man8/lsmod.8.html)."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/gemstones/view_kernel_conf.md:157
+#, no-wrap
+msgid "Reference:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:159
+msgid ""
+"[depmod](https://man7.org/linux/man-pages/man8/depmod.8.html), [ls](https://"
+"man7.org/linux/man-pages/man1/ls.1.html), [lsmod](https://man7.org/linux/man-"
+"pages/man8/lsmod.8.html), [modinfo](https://man7.org/linux/man-pages/man8/"
+"modinfo.8.html), [modprobe](https://man7.org/linux/man-pages/man8/modprobe.8."
+"html), [modules.dep](https://man7.org/linux/man-pages/man5/modules.dep.5."
+"html), [namespaces](https://man7.org/linux/man-pages/man7/namespaces.7."
+"html), [procfs](https://man7.org/linux/man-pages/man5/procfs.5.html), "
+"[sysctl](https://man7.org/linux/man-pages/man8/sysctl.8.html), [sysfs]"
+"(https://man7.org/linux/man-pages/man5/sysfs.5.html), [uname](https://man7."
+"org/linux/man-pages/man8/uname26.8.html)"
+msgstr ""

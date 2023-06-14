@@ -1,0 +1,1517 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/admin_guide/13-softwares.md:1
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:1
+#, no-wrap
+msgid "software management"
+msgstr ""
+
+#. type: YAML Front Matter: contributors
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part3.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:1
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:1
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:1
+#: ../src/docs/books/learning_bash/00-toc.md:1
+#: ../src/docs/books/learning_bash/01-first-script.md:1
+#: ../src/docs/books/learning_bash/02-using-variables.md:1
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:1
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:1
+#: ../src/docs/books/learning_bash/05-tests.md:1
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:1
+#: ../src/docs/books/learning_bash/07-loops.md:1
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:1
+#: ../src/docs/books/learning_rsync/01_rsync_overview.md:1
+#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:1
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:1
+#: ../src/docs/books/learning_rsync/05_rsync_authentication-free_login.md:1
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:1
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:1
+#: ../src/docs/books/nvchad/additional_software.md:1
+#: ../src/docs/books/nvchad/index.md:1
+#: ../src/docs/books/nvchad/install_nvchad.md:1
+#: ../src/docs/books/nvchad/install_nvim.md:1
+#: ../src/docs/books/nvchad/nerd_fonts.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:1
+#: ../src/docs/books/nvchad/plugins/index.md:1
+#: ../src/docs/books/nvchad/plugins/md_preview.md:1
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:1
+#: ../src/docs/books/nvchad/template_chadrc.md:1
+#: ../src/docs/gemstones/RL9_network_manager.md:1
+#: ../src/docs/gemstones/htop.md:1 ../src/docs/gemstones/mtr.md:1
+#: ../src/docs/gemstones/setup_local_repo.md:1
+#: ../src/docs/gemstones/string_color.md:1
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:1
+#: ../src/docs/gemstones/view_kernel_conf.md:1
+#: ../src/docs/guides/automation/anacron.md:1
+#: ../src/docs/guides/automation/cronie.md:1
+#: ../src/docs/guides/automation/olivetin.md:1
+#: ../src/docs/guides/communications/asterisk_installation.md:1
+#: ../src/docs/guides/containers/lxd_web_servers.md:1
+#: ../src/docs/guides/contribute/local_docs.md:1
+#: ../src/docs/guides/contribute/mkdocs_venv.md:1
+#: ../src/docs/guides/contribute/style_guide.md:1
+#: ../src/docs/guides/editors/micro.md:1
+#: ../src/docs/guides/file_sharing/glusterfs.md:1
+#: ../src/docs/guides/installation.md:1
+#: ../src/docs/guides/security/dnf_automatic.md:1
+#: ../src/docs/guides/security/firewalld-beginners.md:1
+#: ../src/docs/guides/web/nginx-multisite.md:1 ../src/docs/guides/web/php.md:1
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:1
+#, no-wrap
+msgid "Steven Spencer"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:67
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:94
+#: ../src/docs/books/nvchad/vale_nvchad.md:36
+#: ../src/docs/guides/automation/cron_jobs_howto.md:77
+#: ../src/docs/guides/contribute/navigation.md:53
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:84
+#: ../src/docs/guides/database/database_mariadb-server.md:48
+#: ../src/docs/guides/file_sharing/sftp.md:482
+#: ../src/docs/guides/file_sharing/sftp.md:569
+#: ../src/docs/guides/proxies/pound.md:40
+#: ../src/docs/guides/security/dnf_automatic.md:67
+#: ../src/docs/guides/security/firewalld.md:102
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:115
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:368
+msgid "!!! tip"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/backup/rsnapshot_backup.md:129
+#: ../src/docs/guides/web/apache-sites-enabled.md:20
+#: ../src/docs/guides/web/nginx-multisite.md:42
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:485
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:718
+#, no-wrap
+msgid "    !!! tip\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:104
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:56
+#: ../src/docs/guides/network/librenms_monitoring_server.md:31
+#: ../src/docs/guides/web/mod_SSL_apache.md:51
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:268
+#, no-wrap
+msgid "Installing Packages"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/xfce_installation.md:103
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:227
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:292
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:327
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:404
+#, no-wrap
+msgid "    !!! note\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:239
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:157
+#, no-wrap
+msgid "    !!! note \n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/labs/security/lab9-cryptography.md:4
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:13
+#, no-wrap
+msgid "Objectives"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/security/lab9-cryptography.md:7
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:17
+msgid "After completing this lab, you will be able to"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/labs/security/lab9-cryptography.md:98
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:108
+#, no-wrap
+msgid "Exercise 1"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/labs/security/lab9-cryptography.md:220
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:230
+#, no-wrap
+msgid "Exercise 2"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/labs/security/lab9-cryptography.md:345
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:266
+#, no-wrap
+msgid "Exercise 3"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/labs/security/lab9-cryptography.md:413
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:376
+#, no-wrap
+msgid "Exercise 4"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/labs/security/lab9-cryptography.md:587
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:412
+#, no-wrap
+msgid "Exercise 5"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:1
+#, no-wrap
+msgid "lab exercise"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:1
+#, no-wrap
+msgid "Managing and Installing Software (Lab 7)"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:11
+#, no-wrap
+msgid "Lab 7:  Managing and Installing Software"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:22
+msgid ""
+"- Query packages for information - Install software from binary packages - "
+"Resolve some basic dependencies issues - Compile and install software from "
+"source"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:25
+msgid "Estimated time to complete this lab: 90 minutes"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:28
+#, no-wrap
+msgid "Binary files and source files"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:31
+msgid ""
+"The applications that you currently have installed on your system are "
+"dependent on a few factors. The major factor is dependent on the software "
+"package groups that were selected during the operating system installation. "
+"The other factor is dependent on what has been done to the system since its "
+"been in use."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:33
+msgid ""
+"You will find that one of your routine tasks as a Systems Administrator is "
+"software management. This often involves:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:37
+msgid ""
+"- installing new software - uninstalling software - updating already "
+"installed software"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:40
+msgid ""
+"Software can be installed on Linux based systems using several methods. You "
+"can install from source or from precompiled binaries. The latter method is "
+"by far the easier way but it is also the least customizable. When you "
+"install from precompiled binaries most of the work has already been done for "
+"you – but even then, you do need to know the name and where to find the "
+"particular software you want."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:42
+msgid ""
+"Almost all software originally come as C or \"C++\" programming language "
+"source files. The source programs are usually distributed as archives of "
+"source files. Usually tar’ed or gzip’ed d or bzip2’ed files. This means they "
+"come compressed or as a single bundle."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:44
+msgid ""
+"Most developers have made their source code conform to GNU standards, "
+"thereby making it easier to share with others. It also means that the "
+"packages will compile on any UNIX or UNIX like system (e.g., Linux)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:46
+msgid ""
+"RPM is the underlying tool for managing applications (packages) on Red Hat "
+"based distributions such as Rocky Linux, Fedora, Red Hat Enterprise Linux "
+"(RHEL), openSuSE, Mandrake, and so on."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:48
+msgid ""
+"The applications used for managing software on Linux distributions are "
+"called package managers. Examples are:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:51
+msgid ""
+"- The Red Hat Package Manager (`rpm`). The packages have the suffix “ .rpm” "
+"- The Debian package management system (`dpkg`).  The packages have the "
+"suffix “ .deb”"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:53
+msgid ""
+"Some popular command-line options and syntax for the RPM command are listed "
+"next:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:55
+#, no-wrap
+msgid "**rpm**\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:57
+msgid "Usage: rpm [OPTION...]"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:59
+#, no-wrap
+msgid "**QUERYING PACKAGES**\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:60
+#, no-wrap
+msgid ""
+"Query options (with -q or --query):\n"
+"  -c, --configfiles                  list all configuration files\n"
+"  -d, --docfiles                     list all documentation files\n"
+"  -L, --licensefiles                 list all license files\n"
+"  -A, --artifactfiles                list all artifact files\n"
+"      --dump                         dump basic file information\n"
+"  -l, --list                         list files in package\n"
+"      --queryformat=QUERYFORMAT      use the following query format\n"
+"  -s, --state                        display the states of the listed files\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:73
+#, no-wrap
+msgid "**VERIFYING PACKAGES**\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:74
+#, no-wrap
+msgid ""
+"Verify options (with -V or --verify):\n"
+"      --nofiledigest                 don't verify digest of files\n"
+"      --nofiles                      don't verify files in package\n"
+"      --nodeps                       don't verify package dependencies\n"
+"      --noscript                     don't execute verify script(s)\n"
+"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:84
+#, no-wrap
+msgid "**INSTALLING, UPGRADING, AND REMOVING PACKAGES**\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:85
+#, no-wrap
+msgid ""
+"Install/Upgrade/Erase options:\n"
+"      --allfiles                     install all files, even configurations which might otherwise be skipped\n"
+"  -e, --erase=<package>+             erase (uninstall) package\n"
+"      --excludedocs                  do not install documentation\n"
+"      --excludepath=<path>           skip files with leading component <path>\n"
+"      --force                        shorthand for --replacepkgs --replacefiles\n"
+"  -F, --freshen=<packagefile>+       upgrade package(s) if already installed\n"
+"  -h, --hash                         print hash marks as package installs (good with -v)\n"
+"      --noverify                     shorthand for --ignorepayload --ignoresignature\n"
+"  -i, --install                      install package(s)\n"
+"      --nodeps                       do not verify package dependencies\n"
+"      --noscripts                    do not execute package scriptlet(s)\n"
+"      --percent                      print percentages as package installs\n"
+"      --prefix=<dir>                 relocate the package to <dir>, if relocatable\n"
+"      --relocate=<old>=<new>         relocate files from path <old> to <new>\n"
+"      --replacefiles                 ignore file conflicts between packages\n"
+"      --replacepkgs                  reinstall if the package is already present\n"
+"      --test                         don't install, but tell if it would work or not\n"
+"  -U, --upgrade=<packagefile>+       upgrade package(s)\n"
+"      --reinstall=<packagefile>+     reinstall package(s)\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:110
+#, no-wrap
+msgid "Installing, Querying and Uninstalling Packages"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:113
+msgid ""
+"In this Lab you will learn how to use the RPM system and you will also "
+"install a sample application on your system."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:117
+#, no-wrap
+msgid "    You have lots of options per where to obtain Rocky Linux packages from. You can manually download them from trusted [or untrusted] repositories. You can get them from the distribution ISO. You can get them from a centrally shared location using protocols such as - nfs, git, https, ftp, smb, cifs and so  on. If you are curious you can view the following official website and browse through the applicable repository for the desired package(s):\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:119
+#, no-wrap
+msgid "    https://download.rockylinux.org/pub/rocky/8.8/\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:120
+#, no-wrap
+msgid "To query packages for information."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:131
+#, no-wrap
+msgid ""
+"1.  To see a list of all the packages currently install on your local system type:\n"
+"    ```\n"
+"    $ rpm -qa\n"
+"    python3-gobject-base-*\n"
+"    NetworkManager-*\n"
+"    rocky-repos-*\n"
+"    ...<OUTPUT TRUNCATED>...\n"
+"    ```\n"
+"You should see a long list.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:140
+#, no-wrap
+msgid ""
+"2.  Let us delve a little deeper and learn more about one of the packages installed on the system. We will examine NetworkManager. We will use the --query (-q) and --info (-i) options with the `rpm` command. Type:\n"
+"    ```\n"
+"    $ rpm -qi NetworkManager\n"
+"    Name        : NetworkManager\n"
+"    Epoch       : 1\n"
+"    ...<OUTPUT TRUNCATED>...\n"
+"    ```\n"
+"That is a great deal information (metadata)!\n"
+msgstr ""
+
+#. type: Bullet: '3.  '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:142
+msgid ""
+"Let us say we are only interested in the summary field of the previous "
+"command. We can use rpm's query format option to filter the information that "
+"we get back from the query option."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:147
+#, no-wrap
+msgid ""
+" For example, to view only the summary field, type:\n"
+"    ```\n"
+"    $ rpm -q --queryformat '%{summary}\\n' NetworkManager\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:152
+#, no-wrap
+msgid ""
+"4. To view both the version and summary fields of the installed NetworkManager package type:\n"
+"    ```\n"
+"    $ rpm -q --queryformat '%{version}  %{summary}\\n' NetworkManager \n"
+"    ```\n"
+msgstr ""
+
+#. type: Bullet: '5.  '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:155
+msgid ""
+"Type the command to view information about the bash package that is "
+"installed on the system."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:159
+#, no-wrap
+msgid "        The previous exercises were querying and working with packages that are already installed on the system. In the following exercises, we'll start off working with packages that are not yet installed. We'll use the DNF application to download the packages that we'll be using in the next steps.\n"
+msgstr ""
+
+#. type: Bullet: '6.  '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:161
+msgid ""
+"First ensure that the `wget` application is not already installed on the "
+"system. Type:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:166
+#, no-wrap
+msgid ""
+"    ```\n"
+"    $ rpm -q wget\n"
+"    package wget is not installed\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:168
+#, no-wrap
+msgid "    It looks like `wget` is not installed on our demo system.\n"
+msgstr ""
+
+#. type: Bullet: '7. '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:170
+msgid ""
+"As of Rocky Linux 8.x, the `dnf download` command will allow you to get the "
+"latest `rpm` package for `wget`. Type:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:174
+#, no-wrap
+msgid ""
+"    ```\n"
+"    dnf download wget\n"
+"    ```\n"
+msgstr ""
+
+#. type: Bullet: '8. '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:176
+msgid ""
+"Use the `ls` command to ensure that the package was downloaded into your "
+"current directory. Type:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:180
+#, no-wrap
+msgid ""
+"    ```\n"
+"    $ ls -lh wg*\n"
+"    ```\n"
+msgstr ""
+
+#. type: Bullet: '9. '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:182
+msgid ""
+"Use the `rpm` command to query for information about the downloaded wget-*."
+"rpm. Type:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:191
+#, no-wrap
+msgid ""
+"    ```\n"
+"    $ rpm -qip wget-*.rpm\n"
+"    Name        : wget\n"
+"    Architecture: x86_64\n"
+"    Install Date: (not installed)\n"
+"    Group       : Applications/Internet\n"
+"    ...<TRUNCATED>...\n"
+"    ```\n"
+msgstr ""
+
+#. type: Bullet: '10. '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:193
+msgid ""
+"From your output in the previous step, what exactly is the `wget` package? "
+"Hint you can use the rpm query format option to view the description field "
+"for the download package."
+msgstr ""
+
+#. type: Bullet: '11. '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:195
+msgid ""
+"If you are interested in the files that are contained in the `wget-*.rpm` "
+"package, you could list all the files included in the package by typing:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:206
+#, no-wrap
+msgid ""
+"    ```\n"
+"    $ rpm -qlp wget-*.rpm | head\n"
+"    /etc/wgetrc\n"
+"    /usr/bin/wget\n"
+"    ...<TRUNCATED>...\n"
+"    /usr/share/doc/wget/AUTHORS\n"
+"    /usr/share/doc/wget/COPYING\n"
+"    /usr/share/doc/wget/MAILING-LIST\n"
+"    /usr/share/doc/wget/NEWS\n"
+"    ```\n"
+msgstr ""
+
+#. type: Bullet: '12. '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:208
+msgid ""
+"Let us view the contents of the `/usr/share/doc/wget/AUTHORS` file that is "
+"listed as part of the `wget` package. We will use the `cat` command. Type:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:213
+#, no-wrap
+msgid ""
+"    ```\n"
+"    $ cat /usr/share/doc/wget/AUTHORS\n"
+"    cat: /usr/share/doc/wget/AUTHORS: No such file or directory\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:215
+#, no-wrap
+msgid "    `wget` is not [yet] installed on our demo system! And so, we can't view the AUTHORS file that is packaged with it!\n"
+msgstr ""
+
+#. type: Bullet: '13. '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:217
+msgid ""
+"View the list of files that come with another package (curl) that is "
+"*already* installed on the system. Type:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:225
+#, no-wrap
+msgid ""
+"    ```\n"
+"    $ rpm -ql curl\n"
+"    /usr/bin/curl\n"
+"    /usr/lib/.build-id\n"
+"    /usr/lib/.build-id/fc\n"
+"    ...<>...\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:229
+#, no-wrap
+msgid "        You will notice that you did not have to refer to the full name of the `curl` package in the previous command. This is because `curl` is already installed. \n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:232
+#, no-wrap
+msgid "Package integrity"
+msgstr ""
+
+#. type: Bullet: '1.  '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:235
+msgid ""
+"It is possible to download or end up with a corrupted or tainted file. "
+"Verify the integrity of the `wget` package that you downloaded. Type:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:240
+#, no-wrap
+msgid ""
+"    ```\n"
+"    $ rpm -K  wget-*.rpm\n"
+"    wget-1.19.5-10.el8.x86_64.rpm: digests signatures OK\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:242
+#, no-wrap
+msgid "    The \"digests signatures OK\" message in the output shows the package is fine. \n"
+msgstr ""
+
+#. type: Bullet: '2.  '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:244
+msgid ""
+"Let us be malicious and deliberately alter the downloaded package. This can "
+"be done by adding anything to, or removing something from, the original "
+"package. Anything that changes the package in a way than the original "
+"packagers did not intend will corrupt the package. We will alter the file by "
+"using the echo command to add the string \"haha\" to the package. Type:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:248
+#, no-wrap
+msgid ""
+"    ```\n"
+"    $ echo haha >> wget-1.19.5-10.el8.x86_64.rpm \n"
+"    ```\n"
+msgstr ""
+
+#. type: Bullet: '3.  '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:250
+msgid ""
+"Now the try to verify the integrity of the package again using rpm's -K "
+"option. Type:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:255
+#, no-wrap
+msgid ""
+"    ```\n"
+"    $ rpm -K  wget-*.rpm\n"
+"    wget-1.19.5-10.el8.x86_64.rpm: DIGESTS SIGNATURES NOT OK\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:257
+#, no-wrap
+msgid "    Very different message now. The output \"DIGESTS SIGNATURES NOT OK\" is a clear warning that you should not try using or installing the package. It should no longer be trusted.\n"
+msgstr ""
+
+#. type: Bullet: '4.  '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:259
+msgid ""
+"Use the `rm` command to delete the corrupted `wget` package file and "
+"download a fresh copy using `dnf`. Type:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:264
+#, no-wrap
+msgid ""
+"    ```\n"
+"    $ rm wget-*.rpm  && dnf download wget\n"
+"    ```\n"
+"    Check one more time that the newly downloaded package passes RPMs integrity checks. \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:271
+msgid ""
+"While trying to install software on your system, you might stumble on issues "
+"of “failed dependencies”. This is especially common when using the low-level "
+"RPM utility to manually manage applications on a system."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:273
+msgid ""
+"For example, if you try to install package “abc.rpm” the RPM installer might "
+"complain about some failed dependencies. It might tell you that package “abc."
+"rpm” requires another package “xyz.rpm” to first be installed. The issue of "
+"dependencies comes up because software applications almost always depend on "
+"some other software or library. If a required program or shared library is "
+"not already present on the system, then that prerequisite will have to "
+"satisfied before installing the target application."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:276
+msgid ""
+"The low-level RPM utility often knows about the inter-dependencies between "
+"applications. But it does not usually know how or where to obtain the "
+"application or library needed to resolve the issue. Stated another way, RPM "
+"knows the *what* and *how* but does not have the built-in ability to answer "
+"the *where* question. This is where tools like `dnf`, `yum`, and so on shine."
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:277
+#, no-wrap
+msgid "To install packages"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:280
+msgid ""
+"In this exercise you will try to install the `wget` package (wget-*.rpm)."
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:282
+msgid ""
+"Try installing the `wget` application. Use RPM's -ivh command line options. "
+"Type:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:288
+#, no-wrap
+msgid ""
+"    ```\n"
+"    $ rpm -ivh wget-*.rpm\n"
+"    error: Failed dependencies:\n"
+"        libmetalink.so.3()(64bit) is needed by wget-*\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:290
+#, no-wrap
+msgid "    Right out the gate - a dependency problem! The sample output shows that `wget` needs some kind of library file named \"libmetalink.so.3\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:294
+#, no-wrap
+msgid "        According to the output of the test above, the wget-*.rpm package requires that the libmetalink-*.rpm package be installed. In other words, libmetalink is a prerequisite for installing wget-*.rpm. You can forcefully install wget-*.rpm package using the “nodeps” option if you absolutely know what you are doing, but this is generally a BAD practice. \n"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:296
+msgid ""
+"RPM has helpfully given us a hint for what is missing. You will remember "
+"that rpm knows the what and how but does not necessarily know the where. Let "
+"us use the `dnf` utility to try to figure out the package name that provides "
+"the missing library. Type:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:305
+#, no-wrap
+msgid ""
+"    ```\n"
+"    $ dnf whatprovides libmetalink.so.3\n"
+"    ...<TRUNCATED>...\n"
+"    libmetalink-* : Metalink library written in C\n"
+"    Repo        : baseos\n"
+"    Matched from:\n"
+"    Provide    : libmetalink.so.3\n"
+"    ```\n"
+msgstr ""
+
+#. type: Bullet: '3. '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:307
+msgid ""
+"From the output, we need to download the `libmetalink` package that provides "
+"the missing library. Specifically we want the 64bit version of the library. "
+"Let us call on a separate utility (`dnf`) to help us find and download the "
+"package for our demo 64bit (x86_64) architecture. Type:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:311
+#, no-wrap
+msgid ""
+"    ```\n"
+"    dnf download --arch x86_64  libmetalink\n"
+"    ```\n"
+msgstr ""
+
+#. type: Bullet: '4. '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:313
+msgid ""
+"You should now have at least 2 rpm packages in your working directory. Use "
+"the `ls` command to confirm this."
+msgstr ""
+
+#. type: Bullet: '5. '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:315
+msgid "Install the missing `libmetalink` dependency. Type:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:319
+#, no-wrap
+msgid ""
+"    ```\n"
+"    $ sudo rpm -ivh libmetalink-*.rpm\n"
+"    ```\n"
+msgstr ""
+
+#. type: Bullet: '6. '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:321
+msgid ""
+"With the dependency now installed, we can now revisit our original objective "
+"of installing the `wget` package. Type:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:325
+#, no-wrap
+msgid ""
+"    ```\n"
+"    $ sudo rpm -ivh wget-*.rpm\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:332
+#, no-wrap
+msgid ""
+"        RPM supports transactions. In the previous exercises we could have performed a single rpm transaction that included the original package we wanted to install as well as all the packages and libraries it depends on. A single command such as the one below would have sufficed:\n"
+"            ```\n"
+"            $  rpm -Uvh  wget-*.rpm  libmetalink-*.rpm\n"
+"            ```\n"
+msgstr ""
+
+#. type: Bullet: '7. '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:334
+msgid ""
+"Moment of truth now. Try running the `wget` program without any option to "
+"see if it is installed. Type:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:338
+#, no-wrap
+msgid ""
+"    ```\n"
+"    $ wget\n"
+"    ```\n"
+msgstr ""
+
+#. type: Bullet: '8. '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:340
+msgid ""
+"Let us see `wget` in action. Use `wget` to download a file from the internet "
+"from the command line. Type:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:344
+#, no-wrap
+msgid ""
+"    ```\n"
+"    wget  https://kernel.org\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:346
+#, no-wrap
+msgid "    This will download the default index.html from kernel.org website!\n"
+msgstr ""
+
+#. type: Bullet: '9. '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:348
+msgid ""
+"Use `rpm` to view a list of all the files that come with the `wget` "
+"application."
+msgstr ""
+
+#. type: Bullet: '10. '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:350
+msgid "Use `rpm` to view any documentation that comes packaged with `wget`."
+msgstr ""
+
+#. type: Bullet: '11. '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:352
+msgid ""
+"Use `rpm` to view the list of all the binaries that come installed with the "
+"`wget` package."
+msgstr ""
+
+#. type: Bullet: '12. '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:354
+msgid ""
+"You had to install the `libmetalink` package in order to install `wget`. Try "
+"running or executing `libmetalink` from the command-line. Type:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:359
+#, no-wrap
+msgid ""
+"    ```\n"
+"    $ libmetalink\n"
+"    -bash: libmetalink: command not found\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:361
+#, no-wrap
+msgid "    !!! attention\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:363
+#, no-wrap
+msgid "        What gives? Why can't you run or execute `libmetalink`?\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:365
+#, no-wrap
+msgid "To import a public key via rpm"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:370
+#, no-wrap
+msgid "    The GPG keys used for signing packages used in the Rocky Linux project can be obtained from various sources such as - the Project website, ftp site,    distribution media, local source and so on. Just in case the proper key is missing on your RL system's keyring, you can use the `rpm`'s `--import` option to import Rocky Linux’s public key from your local RL system by running: `sudo  rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-rockyofficial`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:372
+msgid "!!! note \"QUESTION:\""
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:375
+#, no-wrap
+msgid ""
+"    When installing packages, what is the difference between `rpm -Uvh` and `rpm -ivh`. \n"
+"    Consult the man page for `rpm`.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:378
+#, no-wrap
+msgid "Uninstalling packages"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:381
+msgid ""
+"Un-installing packages is just as easy as installing, with Red Hat’s package "
+"manager (RPM)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:383
+msgid ""
+"In this exercise you will try to use `rpm` to un-install some packages from "
+"the system."
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:384
+#, no-wrap
+msgid "To un-install packages"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:387
+msgid "Un-install the `libmetalink` package from your system. Type:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:391
+#, no-wrap
+msgid ""
+"    ```\n"
+"    $ sudo rpm -e libmetalink\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:393
+#, no-wrap
+msgid "    !!! note \"QUESTION:\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:395
+#, no-wrap
+msgid "        Explain why you couldn’t remove the package?\n"
+msgstr ""
+
+#. type: Bullet: '2.  '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:398
+msgid ""
+"The clean and proper way to remove packages using RPM is to remove the "
+"package(s) along with their dependencies. To remove `libmetalink` package we "
+"will also have to remove the `wget` package that depends on it. Type:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:402
+#, no-wrap
+msgid ""
+"    ```\n"
+"    $ sudo rpm -e libmetalink wget\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:407
+#, no-wrap
+msgid ""
+"        If you want to break the package that relies on libmetalink and *forcefully* remove the package from your system, you can use rpm's `--nodeps` option like this - \n"
+"        `$ sudo rpm  -e  --nodeps  libmetalink`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:408
+#, no-wrap
+msgid "        **i.** The “nodeps” option means No dependencies. I.e., ignore all dependencies.  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:409
+#, no-wrap
+msgid "        **ii.** The above is just to show you how to forcefully remove a package from your system. There may be times when you need to this, but it is generally *not a good practice*.  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:410
+#, no-wrap
+msgid "        **iii.** Forcefully removing a package “xyz” that another installed package “abc” relies on effectively makes package “abc” unusable or somewhat broken.  \n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:414
+#, no-wrap
+msgid "DNF - Package Manager"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:417
+msgid ""
+"DNF is a package manager for RPM-based Linux distributions. It is the "
+"successor to the popular YUM utility. DNF maintains compatibility with YUM "
+"and both utilities share very similar command-line options and syntax."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:419
+msgid ""
+"DNF is one of the many tools used for managing software on RPM based systems "
+"such as Rocky Linux. In comparison to `rpm`, these higher-level tools help "
+"to simplify installing, uninstalling, and querying packages. It is important "
+"to note that these tools make use of the underlying framework provided by "
+"the RPM system. This is why it is useful to first understand how to use RPM "
+"itself."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:421
+msgid ""
+"DNF (and other tools like it) acts as a sort of wrapper around RPM and "
+"provides additional functionality not offered by RPM. DNF knows how to deal "
+"with package and library dependencies and additionally knows how to "
+"automatically make use of configured repositories to resolve most issues."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:423
+msgid "Common options used with the `dnf` utility are:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:424
+#, no-wrap
+msgid ""
+"    usage: dnf [options] COMMAND\n"
+"\n"
+"    List of Main Commands:\n"
+"\n"
+"    alias                     List or create command aliases\n"
+"    autoremove                remove all unneeded packages that were originally installed as dependencies\n"
+"    check                     check for problems in the packagedb\n"
+"    check-update              check for available package upgrades\n"
+"    clean                     remove cached data\n"
+"    deplist                   [deprecated, use repoquery --deplist] List package's dependencies and what packages provide them\n"
+"    distro-sync               synchronize installed packages to the latest available versions\n"
+"    downgrade                 Downgrade a package\n"
+"    group                     display, or use, the groups information\n"
+"    help                      display a helpful usage message\n"
+"    history                   display, or use, the transaction history\n"
+"    info                      display details about a package or group of packages\n"
+"    install                   install a package or packages on your system\n"
+"    list                      list a package or groups of packages\n"
+"    makecache                 generate the metadata cache\n"
+"    mark                      mark or unmark installed packages as installed by user.\n"
+"    module                    Interact with Modules.\n"
+"    provides                  find what package provides the given value\n"
+"    reinstall                 reinstall a package\n"
+"    remove                    remove a package or packages from your system\n"
+"    repolist                  display the configured software repositories\n"
+"    repoquery                 search for packages matching keyword\n"
+"    repository-packages       run commands on top of all packages in given repository\n"
+"    search                    search package details for the given string\n"
+"    shell                     run an interactive DNF shell\n"
+"    swap                      run an interactive DNF mod for remove and install one spec\n"
+"    updateinfo                display advisories about packages\n"
+"    upgrade                   upgrade a package or packages on your system\n"
+"    upgrade-minimal           upgrade, but only 'newest' package match which fixes a problem that affects your system\n"
+"\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:461
+#, no-wrap
+msgid "To use `dnf` for package installation"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:464
+msgid ""
+"Assuming you have already uninstalled the `wget` utility from an exercise, "
+"we will use DNF to install the package in the following steps. The 2-3 step "
+"process that we needed earlier when we installed `wget` via `rpm` should be "
+"reduced to a one steps process using `dnf`. `dnf` will quietly take care of "
+"resolving any dependencies."
+msgstr ""
+
+#. type: Bullet: '1.  '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:466
+msgid ""
+"First, let us ensure that `wget` and `libmetalink` are uninstalled from the "
+"system. Type:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:470
+#, no-wrap
+msgid ""
+"    ```\n"
+"    $ sudo rpm -e wget libmetalink\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:472
+#, no-wrap
+msgid "    After removing, if you try running `wget` from the CLI you see a message like *wget: command not found*\n"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:474
+msgid "Now use dnf to install `wget`. Type:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:483
+#, no-wrap
+msgid ""
+"    ```\n"
+"    $ sudo dnf -y install wget\n"
+"    Dependencies resolved.\n"
+"    ...<TRUNCATED>...\n"
+"    Installed:\n"
+"    libmetalink-*           wget-*\n"
+"    Complete!\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:487
+#, no-wrap
+msgid "        The \"-y\" option used in the preceding command suppresses the \"[y/N]\" prompt to confirm the action that `dnf` is about to perform. Instead, it automatically assumes \"yes\" (y) for whatever action.\n"
+msgstr ""
+
+#. type: Bullet: '3. '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:490
+msgid ""
+"DNF provides a \"Environment Group\" option that makes it easy to add a new "
+"feature set to a system. To add the feature, you would normally have to "
+"individually install a few packages, but using `dnf` you all you need to "
+"know is the name or description of the feature that you want. Use `dnf` to "
+"display a list of all the groups available to you. Type:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:494
+#, no-wrap
+msgid ""
+"    ```\n"
+"    $ dnf group list\n"
+"    ```\n"
+msgstr ""
+
+#. type: Bullet: '4. '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:496
+msgid ""
+"We are interested in the \"Development Tools\" group/feature. Let us get "
+"more information about that group. Type:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:499
+#, no-wrap
+msgid ""
+"    ```\n"
+"   $ dnf group info \"Development Tools\"\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:499
+#, no-wrap
+msgid ""
+"\n"
+"5. Later on, we are going to need some programs that come with the \"Development Tools\" group. Install the \"Development Tools\" group using `dnf` by running:\n"
+"\n"
+"    ```\n"
+"    $ sudo dnf -y group install \"Development Tools\"\n"
+"    ```\n"
+"\n"
+"#### To use `dnf` for uninstalling packages\n"
+"\n"
+"\n"
+"1.  To use `dnf` to un-install the `wget` package type:\n"
+"\n"
+"    ```\n"
+"    $ sudo dnf -y remove wget\n"
+"    ```\n"
+"\n"
+"2. Use `dnf` to ensure the package has indeed been removed from the system. Type:\n"
+"\n"
+"    ```\n"
+"    $ sudo dnf -y remove wget\n"
+"    ```\n"
+"\n"
+"3. Try using/running `wget`. Type:\n"
+"\n"
+"    ```\n"
+"    $ wget\n"
+"    ```\n"
+"\n"
+"#### To use `dnf` for package update\n"
+"\n"
+"DNF can be used to check for and install the latest version of individual packages that are available in repositories. It can also be used to install specific versions of packages. \n"
+"\n"
+"1. Use the list option with `dnf` to view all available versions of the `wget` program that are available for your system. Type\n"
+"\n"
+"    ```\n"
+"    $ dnf list wget\n"
+"    ```\n"
+"\n"
+"2. If you only want to see if there are updated versions available for a package, use the check-update option with `dnf`. For example, for the `wget` package type:\n"
+"\n"
+"    ```\n"
+"    $ dnf check-update wget\n"
+"    ```\n"
+"\n"
+"4. Now list all the available versions for the kernel package for your system. Type:\n"
+"\n"
+"    ```\n"
+"    $ sudo dnf list kernel\n"
+"    ```\n"
+"\n"
+"5. Now check if there are any updated packages available for the installed kernel package. Type:\n"
+"\n"
+"    ```\n"
+"    $ dnf  check-update kernel\n"
+"    ```\n"
+"\n"
+"6. Updates to packages might be due to bug fixes, new features or security patches. To view if there are any security related updates for the kernel package, type:\n"
+"\n"
+"    ```\n"
+"    $ dnf  --security check-update kernel\n"
+"    ```\n"
+"\n"
+"#### To use `dnf` for system updates\n"
+"\n"
+"DNF can be used to check for and install the latest versions all packages installed on a system. Periodically checking for installing updates is an important aspect of system administration. \n"
+"\n"
+"1. To check if there are any updates for the packages you currently have installed on your system, type:\n"
+"\n"
+"    ```\n"
+"    $ dnf check-update\n"
+"    ```\n"
+"\n"
+"2. To check if there are any security related updates for all packages installed on your system, type:\n"
+"\n"
+"    ```\n"
+"    $ dnf --security check-update\n"
+"    ```\n"
+"\n"
+"3. To update the entire packages installed on your system to the most up-to-date versions available for your distribution run:\n"
+"\n"
+"    ```\n"
+"    $ dnf -y check-update\n"
+"    ```\n"
+"\n"
+"## Exercise 6\n"
+"\n"
+"### Building Software from Source\n"
+"\n"
+"All software/applications/packages originate from plain human-readable text files. The files are collectively known as source code. The RPM packages that are installed on Linux distributions are born from source code. \n"
+"\n"
+"In this exercise you are going to download, compile and install a sample program from its original source files. For convenience, source files are usually distributed as a single compressed file called a tar-ball (pronounced tar-dot-gee-zee).\n"
+"\n"
+"The following exercises will be based on the venerable Hello project source code. `hello` is a simple command-line application written in C++, that does nothing more than print \"hello\" to the terminal. You can learn more about [the project here](http://www.gnu.org/software/hello/hello.html)\n"
+"\n"
+"#### To download the source file\n"
+"\n"
+"1.  Use `curl` to download the latest source code for the `hello` application. Let us download and save the file in the Downloads folder. \n"
+"\n"
+"https://ftp.gnu.org/gnu/hello/hello-2.12.tar.gz\n"
+"\n"
+"#### To un-tar the file\n"
+"\n"
+"1. Change to the directory on your local machine where you downloaded the hello source code.\n"
+"\n"
+"2. Unpack (un-tar) the tarball using the `tar` program. Type:\n"
+"\n"
+"    ```\n"
+"    $ tar -xvzf hello-2.12.tar.gz\n"
+"    hello-2.12/\n"
+"    hello-2.12/NEWS\n"
+"    hello-2.12/AUTHORS\n"
+"    hello-2.12/hello.1\n"
+"    hello-2.12/THANKS\n"
+"    ...<TRUNCATED>...\n"
+"    ```\n"
+"\n"
+"4. Use the `ls` command to view the contents of your pwd.\n"
+"\n"
+"    A new directory named  hello-2.12 should have been created for you during the un-taring.\n"
+"\n"
+"5. Change to that directory and list its contents. Type:\n"
+"\n"
+"    ```\n"
+"    $ cd hello-2.12 ; ls\n"
+"    ```\n"
+"\n"
+"6. It is always good practice to review any special installation instructions that might be come with the source code. Those files usually have names like: INSTALL, README and so on.\n"
+"\n"
+"    Use a pager to open up the INSTALL file and read it. Type:\n"
+"    ```\n"
+"    $ less INSTALL\n"
+"    ```\n"
+"\n"
+"    Exit the pager when you are done reviewing the file.\n"
+"\n"
+"#### To configure the package\n"
+"\n"
+"Most applications have features that can be enabled or disabled by the user. This is one of the benefits of having access to the source code and being able to install from same. You have control over configurable features that the application has; this is in contrast to accepting everything a package manager installs from pre-compiled binaries.\n"
+"\n"
+"The script that usually lets you configure the software is usually aptly named “configure”\n"
+"\n"
+"1.  Use the `ls` command again to ensure that you indeed have a file named *configure* in your pwd.  \n"
+"\n"
+"2.  To see all the options, you can enable or disable in the `hello` program type:\n"
+"\n"
+"    ```\n"
+"    $ ./configure --help\n"
+"    ```\n"
+"\n"
+"    !!! note \"QUESTION:\"\n"
+"\n"
+"        From the output of the command what does the “--prefix” option do?\n"
+"\n"
+"3. If you are happy with the default options that the configure script offers. Type:\n"
+"\n"
+"    ```\n"
+"    $ ./configure\n"
+"    ```\n"
+"\n"
+"    !!! note\n"
+"\n"
+"        Hopefully the configure stage went smoothly and you can go on to the compilation stage.\n"
+"\n"
+"    If you got some errors during the configure stage, you should carefully look through the tail-end of the output to see the source of the error. The errors are *sometimes* self-explanatory and easy to fix. For example, you might see an error like:\n"
+"\n"
+"    configure: error: no acceptable C compiler found in $PATH\n"
+"\n"
+"    The above error simply means that you don’t have a C Compiler (e.g., gcc) installed on the system or the compiler is installed somewhere that is not in your PATH variable.\n"
+"\n"
+"#### To compile the package\n"
+"\n"
+"You will build the hello application in the following steps. This is where some of the programs that come with the Development Tools group that you installed earlier using DNF come in handy. \n"
+"\n"
+"1.  Use the make command to compile the package after running the “configure” script. Type:\n"
+"\n"
+"    ```\n"
+"    $ make\n"
+"    ...<OUTPUT TRUNCATED>...\n"
+"    gcc  -g -O2   -o hello src/hello.o  ./lib/libhello.a\n"
+"    make[2]: Leaving directory '/home/rocky/hello-2.12'\n"
+"    make[1]: Leaving directory '/home/rocky/hello-2.12'\n"
+"    ```\n"
+"\n"
+"    If all goes well - this important `make` step is the step that will help generate the final `hello` application binary.\n"
+"\n"
+"2. List the files in your current working directory again. You should see some newly created files in there including the `hello` program.\n"
+"\n"
+"#### To install the application\n"
+"\n"
+"Amongst other housekeeping tasks, the final installation step also involves copying any application binaries and libraries over to the proper folders. \n"
+"\n"
+"1. To install the hello application run the make install command. Type:\n"
+"\n"
+"    ```\n"
+"    $ sudo make install\n"
+"    ```\n"
+"    This will install package into the location specified by the default prefix (--prefix) argument that may have been used with the “configure” script earlier. If no --prefix was set, a default prefix of `/usr/local/` will be used. \n"
+"\n"
+"#### To run the hello program\n"
+"\n"
+"1. Use the `whereis` command to see where the `hello` program is on your system. Type:\n"
+"    ```\n"
+"    $ whereis hello\n"
+"    ```\n"
+"\n"
+"2. Try running the `hello` application to see what it does. Type:\n"
+"    ```\n"
+"   $ hello\n"
+msgstr ""
+
+#. type: Bullet: '3. '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:711
+msgid ""
+"Run `hello` again, with the `--help` option to see the other things it can "
+"do."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:716
+#, no-wrap
+msgid ""
+"4. Using `sudo`, run `hello` again as a superuser. Type:\n"
+"    ```\n"
+"    $ sudo hello\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:720
+#, no-wrap
+msgid "        It is good practice to test a program as a regular user to ensure that regular users can indeed use the program. It is possible that the permissions on the binary are set incorrectly such that only the super-user can use the programs. This of course assumes that you indeed want regular users to be able to use the program.\n"
+msgstr ""
+
+#. type: Bullet: '5.  '
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:722
+msgid "That is it. This lab is complete!"
+msgstr ""

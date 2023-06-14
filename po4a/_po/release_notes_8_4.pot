@@ -1,0 +1,492 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/11-tasks.md:71
+#: ../src/docs/release_notes/8_4.md:51 ../src/docs/release_notes/8_6.md:17
+#: ../src/docs/release_notes/8_7.md:39 ../src/docs/release_notes/8_8.md:54
+#: ../src/docs/release_notes/8_8.md:154 ../src/docs/release_notes/9_0.md:34
+#: ../src/docs/release_notes/9_1.md:47 ../src/docs/release_notes/9_2.md:104
+#: ../src/docs/release_notes/9_2.md:217
+#, no-wrap
+msgid "Security"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:338
+#: ../src/docs/books/admin_guide/14-special-authority.md:354
+#: ../src/docs/books/admin_guide/14-special-authority.md:404
+#: ../src/docs/books/admin_guide/14-special-authority.md:435
+#: ../src/docs/books/admin_guide/14-special-authority.md:690
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:83
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:102
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:253
+#: ../src/docs/books/lxd_server/04-firewall.md:76
+#: ../src/docs/books/lxd_server/08-snapshots.md:86
+#: ../src/docs/gemstones/RL9_network_manager.md:150
+#: ../src/docs/gemstones/nmtui.md:52
+#: ../src/docs/gemstones/view_kernel_conf.md:21
+#: ../src/docs/guides/backup/rsync_ssh.md:79
+#: ../src/docs/guides/cms/dokuwiki_server.md:226
+#: ../src/docs/guides/containers/lxd_web_servers.md:786
+#: ../src/docs/guides/containers/podman-nextcloud.md:270
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:96
+#: ../src/docs/guides/file_sharing/sftp.md:264
+#: ../src/docs/guides/package_management/index.md:10
+#: ../src/docs/guides/proxies/pound.md:211
+#: ../src/docs/guides/proxies/pound.md:265 ../src/docs/release_notes/8_4.md:20
+msgid "!!! warning"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/release_notes/8_4.md:1
+#, no-wrap
+msgid "Release 8.4"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/release_notes/8_4.md:5
+#, no-wrap
+msgid "Release Notes for Rocky Linux 8.4"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_4.md:8
+msgid ""
+"We are pleased to announce the General Availability of Rocky Linux 8.4 "
+"(Green Obsidian)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_4.md:10
+msgid ""
+"Rocky Linux is a community enterprise operating system designed to be 100% "
+"bug-for-bug compatible with Red Hat Enterprise Linux 8.4. Since this is the "
+"first Release of Rocky Linux, the release notes below reflect only changes "
+"in upstream functionality between point releases."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/release_notes/8_4.md:11 ../src/docs/release_notes/8_5.md:7
+#, no-wrap
+msgid "Thank You"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_4.md:14
+msgid ""
+"The entire Rocky Linux team wishes to thank everyone in the community that "
+"has supported the project since its inception in a comment on a blog post. "
+"From feedback and well wishes, to bug reports, donations, and sponsorship, "
+"our community has come through again and again. The countless users who have "
+"installed and tested Rocky Linux release candidates on their hardware, "
+"making sure their software will work with Rocky are owed a debt of gratitude "
+"not only from us, but from the entire Enterprise Linux community."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_4.md:16
+msgid ""
+"You have made Rocky Linux what it is today, and as we go forward from this "
+"release, we hope the community continues to grow and be able to support more "
+"like-minded projects to reach their goals as well."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/release_notes/8_4.md:17
+#, no-wrap
+msgid "Supported Upgrades"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_4.md:22
+#, no-wrap
+msgid "    Migration to Rocky Linux 8.4 is **not** supported from Rocky Linux 8.3 RC1, Rocky Linux 8.4 RC1, or any other release candidates.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/release_notes/8_4.md:23
+#, no-wrap
+msgid "Conversion Tool Available"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_4.md:26
+msgid ""
+"The community has created the [migrate2rocky](https://github.com/rocky-linux/"
+"rocky-tools/tree/main/migrate2rocky) tool to aid in the conversion to Rocky "
+"Linux 8.4 from other Enterprise Linux systems."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_4.md:28
+msgid ""
+"This tool has been tested and is generally known to work, however, use of it "
+"is **at your own risk**."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_4.md:30
+msgid ""
+"Community members have successfully migrated test systems to Rocky Linux "
+"from:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_4.md:35
+msgid "Alma Linux (8.4)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_4.md:35
+msgid "CentOS Linux (8.4)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_4.md:35
+msgid "Red Hat Enterprise Linux (8.4)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_4.md:35
+msgid "Oracle Linux (8.4)"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_4.md:37
+msgid ""
+"While migrations may work from other point releases, only migrations from "
+"the current minor version release of Enterprise Linux are supported as "
+"candidates to upgrade from."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/release_notes/8_4.md:38 ../src/docs/release_notes/8_5.md:60
+#: ../src/docs/release_notes/8_6.md:44
+#, no-wrap
+msgid "New Modules"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_4.md:41
+msgid "Brand new in Rocky Linux 8.4 are the following new module streams:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_4.md:48
+msgid "Python 3.9"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_4.md:48
+msgid "SWIG 4.0"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_4.md:48
+msgid "Subversion 1.14"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_4.md:48
+msgid "Redis 6"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_4.md:48
+msgid "PostgreSQL 13"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_4.md:48
+msgid "MariaDB 10.5"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/release_notes/8_4.md:49 ../src/docs/release_notes/8_5.md:16
+#: ../src/docs/release_notes/8_6.md:11 ../src/docs/release_notes/8_7.md:33
+#: ../src/docs/release_notes/8_8.md:44 ../src/docs/release_notes/9_0.md:11
+#: ../src/docs/release_notes/9_1.md:37 ../src/docs/release_notes/9_2.md:93
+#, no-wrap
+msgid "Major Changes"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_4.md:54
+msgid ""
+"IPsec VPN provided by Libreswan now supports TCP encapsulation and security "
+"labels for IKEv2."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_4.md:56
+msgid ""
+"The scap-security-guide packages have been rebased to version 0.1.54, and "
+"OpenSCAP has been rebased to version 1.3.4. These updates provide "
+"substantial improvements, including improved memory management,"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_4.md:58
+msgid ""
+"The `fapolicyd` framework now provides integrity checking, and the RPM "
+"plugin now registers any system update that is handled by either the YUM "
+"package manager or the RPM Package Manager."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_4.md:59 ../src/docs/release_notes/8_7.md:58
+#: ../src/docs/release_notes/8_8.md:154 ../src/docs/release_notes/9_0.md:42
+#: ../src/docs/release_notes/9_1.md:97 ../src/docs/release_notes/9_2.md:217
+#, no-wrap
+msgid "Networking"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_4.md:62
+msgid ""
+"Nmstate is a network API for hosts and fully supported in Rocky Linux 8.4. "
+"The `nmstate` packages provide a library and the `nmstatectl` command-line "
+"utility to manage host network settings in a declarative manner."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_4.md:64
+msgid ""
+"The Multi-protocol Label Switching (MPLS) is an in-kernel data-forwarding "
+"mechanism to route traffic flow across enterprise networks. For example, you "
+"can add `tc filters` for managing packets received from specific ports or "
+"carrying specific types of traffic, in a consistent way."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_4.md:66
+msgid ""
+"The `iproute2` utility introduces three new traffic control (tc) actions; "
+"`mac_push`, `push_eth`, and `pop_eth` to add MPLS labels, build an Ethernet "
+"header at the beginning of the packet, and drop the outer Ethernet header "
+"respectively."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_4.md:67 ../src/docs/release_notes/8_8.md:154
+#: ../src/docs/release_notes/9_2.md:217
+#, no-wrap
+msgid "Kernel"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_4.md:70
+msgid ""
+"**Proactive compaction** regularly initiates memory compaction work "
+"**before** a request for allocation is made. Therefore, latency for specific "
+"memory allocation requests is lowered."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_4.md:72
+msgid ""
+"A new implementation of slab memory controller for the **control groups** "
+"technology is now available in Rocky Linux 8.4. The slab memory controller "
+"brings improvement in slab utilization and provides the functionality to "
+"shift the memory accounting from the page level to the object level. As a "
+"result, you can observe a significant drop in the total kernel memory "
+"footprint and positive effects on memory fragmentation."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_4.md:74
+msgid ""
+"The time namespace feature is available in Rocky Linux 8.4. This feature is "
+"suited for changing the date and time inside Linux containers. The in-"
+"container clock adjustments after restoration from a checkpoint are also now "
+"possible."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_4.md:76
+msgid ""
+"Rocky Linux 8.4 supports the Error Detection and Correction (EDAC) kernel "
+"module set in 8th and 9th generation Intel Core Processors."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/release_notes/8_4.md:77
+#, no-wrap
+msgid "High Availability and Clusters"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_4.md:80
+msgid ""
+"A persistent Pacemaker resource agent that maintains state data can detect "
+"failures asynchronously and inject a failure into Pacemaker immediately "
+"without waiting for the next monitor interval. A persistent resource agent "
+"can also speed up cluster response time for services with a high state "
+"overhead, since maintaining state data can reduce the state overhead for "
+"cluster actions such as start, stop, and monitor by not invoking the state "
+"separately for each action."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/release_notes/8_4.md:81 ../src/docs/release_notes/8_6.md:52
+#: ../src/docs/release_notes/8_8.md:89 ../src/docs/release_notes/9_0.md:87
+#: ../src/docs/release_notes/9_1.md:130 ../src/docs/release_notes/9_2.md:142
+#, no-wrap
+msgid "Compilers and Development Tools"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_4.md:84 ../src/docs/release_notes/9_2.md:174
+msgid "The following compiler toolsets have been updated:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_4.md:89
+#, no-wrap
+msgid ""
+"> * GCC Toolset 10\n"
+"> * LLVM Toolset 11.0.0\n"
+"> * Rust Toolset 1.49.0\n"
+"> * Go Toolset 1.15.7\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_4.md:90 ../src/docs/release_notes/8_6.md:32
+#: ../src/docs/release_notes/8_7.md:118 ../src/docs/release_notes/8_8.md:154
+#: ../src/docs/release_notes/9_1.md:151 ../src/docs/release_notes/9_2.md:217
+#, no-wrap
+msgid "Identity Management"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_4.md:93
+msgid ""
+"Rocky Linux 8.4 provides Ansible modules for automated management of role-"
+"based access control (RBAC) in Identity Management (IdM), an Ansible role "
+"for backing up and restoring IdM servers, and an Ansible module for location "
+"management."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/release_notes/8_4.md:94 ../src/docs/release_notes/8_5.md:119
+#: ../src/docs/release_notes/8_6.md:73 ../src/docs/release_notes/8_7.md:29
+#: ../src/docs/release_notes/8_8.md:131 ../src/docs/release_notes/9_0.md:171
+#: ../src/docs/release_notes/9_1.md:35 ../src/docs/release_notes/9_2.md:193
+#, no-wrap
+msgid "Known Issues"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_4.md:97
+msgid ""
+"As with any release, there are sometimes bugs or issues found in the process "
+"of building that have not yet been patched or fixed upstream. We will be "
+"updating this section with new items or bugs as they are discovered."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_4.md:99
+msgid "!!! note \"A Note about Secure Boot\""
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_4.md:102
+#, no-wrap
+msgid ""
+"    We know many of you depend on Secure Boot. It is a non-trivial process to get Secure Boot for a new OS. This process is underway and the [shim-review](https://github.com/rhboot/shim-review) process should begin very soon.\n"
+"    Rocky Linux version 8.4 will initially be released **without** Secure Boot support enabled by default. However, once the proper packages have been built and signed, another set of ISOs for Rocky Linux version 8.4 will be released **with** Secure Boot support available.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/release_notes/8_4.md:103
+#, no-wrap
+msgid "Installer"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/release_notes/8_4.md:105
+#, no-wrap
+msgid "Rsyslog missing from Minimal ISO"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_4.md:108
+msgid ""
+"The Rocky Linux Minimal ISO (`Rocky-8.4-x86_64-minimal.iso`) does not "
+"contain the `rsyslog` package. As a result, a system installed with the "
+"Rocky Linux Minimal ISO will not include `rsyslog.service` or `/var/log/"
+"messages` out of the box. The `rsyslog` package can be installed immediately "
+"after reboot from the Rocky Linux AppStream repository to resolve this issue."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_4.md:110
+msgid ""
+"You may run the following command post-install to complete the installation "
+"of rsyslog:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/release_notes/8_4.md:111
+#, no-wrap
+msgid "dnf install @minimal-environment\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/release_notes/8_4.md:115
+#, no-wrap
+msgid "OpenSCAP profiles may not install if using Minimal ISO"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_4.md:118
+msgid ""
+"If you need to have OpenSCAP profiles, please use the DVD1 ISO Variant or "
+"ensure additional repositories are added to the installation environment."
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/release_notes/8_4.md:119
+#, no-wrap
+msgid "Anaconda \"Help\" Button not functioning (#20)"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_4.md:122
+msgid ""
+"The Help button in the Anaconda installer doesn't currently work. The Rocky "
+"Linux team has provided an [installation walk-through](../guides/"
+"installation.md) in the Rocky Linux Documentation to help resolve "
+"installation issues."
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/release_notes/8_4.md:123
+#, no-wrap
+msgid "Bug Report GUI missing debranding (libreport)"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_4.md:125
+msgid ""
+"The Bug Report GUI is missing some debranding which was not properly "
+"applied. This will be fixed in RL8.5 as well as in a coming update. However, "
+"because released ISOs are immutable, the issue will not be fixed in the 8.4 "
+"ISO files."
+msgstr ""
