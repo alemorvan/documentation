@@ -13,8 +13,33 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: it\n"
-"X-Crowdin-File: /po4a/po4a/_po/contribute_rockydocs_web_dev.pot\n"
-"X-Crowdin-File-ID: 1273\n"
+"X-Crowdin-File: /po4a/po4a/_po/contribute_rockydocs_webdev_v2.pot\n"
+"X-Crowdin-File-ID: 1275\n"
+
+#. type: YAML Front Matter: contributors
+#: ../src/docs/books/lxd_server/30-appendix_a.md:1
+#: ../src/docs/gemstones/dnf-swap.md:1 ../src/docs/gemstones/docker.md:1
+#: ../src/docs/gemstones/rpaste.md:1
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:1
+#: ../src/docs/guides/proxies/pound.md:1
+#, no-wrap
+msgid "Colussi Franco"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:195
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:262
+#: ../src/docs/guides/cms/dokuwiki_server.md:191
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:125
+msgid "OR"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/local_docs.md:19
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:44
+#, no-wrap
+msgid "git clone https://github.com/rocky-linux/docs.rockylinux.org.git\n"
+msgstr ""
 
 #. type: Fenced code block
 #: ../src/docs/guides/contribute/mkdocs_venv.md:150
@@ -22,34 +47,6 @@ msgstr ""
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:36
 #, no-wrap
 msgid "git clone https://github.com/rocky-linux/documentation.git\n"
-msgstr ""
-
-#. type: YAML Front Matter: contributors
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:1
-#, no-wrap
-msgid "Steve Spencer"
-msgstr ""
-
-#. type: YAML Front Matter: title
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:1
-#, no-wrap
-msgid "Local Documentation - Docker"
-msgstr ""
-
-#. type: Title #
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:8
-#, no-wrap
-msgid "Running a local copy of the docs.rockylinux.org website for web development and/or content authors"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:11
-msgid "This document walks through how to recreate and run a local copy of the entire docs.rockylinux.org website on your local machine. **It is a work-in-progress.**"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:13
-msgid "Running a local copy of the documentation website might be useful in the following scenarios:"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -65,40 +62,9 @@ msgid "You are an author and you'd like to see how your documents will render/lo
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:17
-msgid "You are a web developer looking to contribute to or help maintain the docs.rockylinux.org website"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:19
-#, no-wrap
-msgid "Some notes:"
-msgstr ""
-
-#. type: Bullet: '* '
 #: ../src/docs/guides/contribute/rockydocs_web_dev.md:26
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:164
 msgid "The instructions in this guide are **NOT** a prerequisite for Rocky documentation Authors/Content contributors"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:26
-msgid "The entire environment runs in a Docker container and so you'll need a Docker engine on your local machine"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:26
-msgid "The container is built on top of the official RockyLinux docker image available here https://hub.docker.com/r/rockylinux/rockylinux"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:26
-msgid "The container keeps the documentation content (guides, books, images and so on) separate from the web engine (mkdocs)"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:26
-msgid "The container starts a local web server listening on port 8000.  And port 8000 will be forwarded to the Docker host"
 msgstr ""
 
 #. type: Title ##
@@ -106,24 +72,6 @@ msgstr ""
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:18
 #, no-wrap
 msgid "Create the content environment"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:32
-#, no-wrap
-msgid "1. Change the current working directory on your local system to a folder where you intend to do your writing. We'll refer to this directory as\n"
-"`$ROCKYDOCS` in the rest of this guide.  For our demo here, `$ROCKYDOCS` points to `~/projects/rockydocs` on our demo system.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:34
-msgid "Create $ROCKYDOCS if it doesn't already exist and then type:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:35
-#, no-wrap
-msgid "cd  $ROCKYDOCS\n"
 msgstr ""
 
 #. type: Bullet: '3. '
@@ -143,79 +91,6 @@ msgstr ""
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:51
 #, no-wrap
 msgid "Create and Start the RockyDocs web developmwnt environment"
-msgstr ""
-
-#. type: Bullet: '3.  '
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:51
-msgid "Make sure you have Docker up and running on your local machine (you can check with `systemctl `)"
-msgstr ""
-
-#. type: Bullet: '4. '
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:53
-msgid "From a terminal type:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:54
-#, no-wrap
-msgid "docker pull wsoyinka/rockydocs:latest\n"
-msgstr ""
-
-#. type: Bullet: '5. '
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:59
-msgid "Check to make sure the image downloaded successfully. Type:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:60
-#, no-wrap
-msgid "docker image  ls\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:64
-#, no-wrap
-msgid "Start the RockyDocs container"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:67
-msgid "Start a container from the rockydocs image. Type:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:68
-#, no-wrap
-msgid "docker run -it --name rockydoc --rm \\\n"
-"     -p 8000:8000  \\\n"
-"     --mount type=bind,source=\"$(pwd)\"/documentation,target=/documentation  \\\n"
-"     wsoyinka/rockydocs:latest\n\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:78
-msgid "Alternatively if you prefer and if you have `docker-compose` installed, you can create compose file named `docker-compose.yml` with the following contents:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:79
-#, no-wrap
-msgid "version: \"3.9\"\n"
-"services:\n"
-"  rockydocs:\n"
-"    image: wsoyinka/rockydocs:latest\n"
-"    volumes:\n"
-"      - type: bind\n"
-"        source: ./documentation\n"
-"        target: /documentation\n"
-"    container_name: rocky\n"
-"    ports:\n"
-"       - \"8000:8000\"\n\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:95
-msgid "Save the file with the file name `docker-compose.yml` in your $ROCKYDOCS working directory.  And start the service/container by running:"
 msgstr ""
 
 #. type: Fenced code block
@@ -238,8 +113,219 @@ msgstr ""
 msgid "With the container up and running, you should now be able to point your web browser to the following URL to view your local copy of the site:"
 msgstr ""
 
+#. type: YAML Front Matter: title
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:1
+#, no-wrap
+msgid "Local Documentation - Podman"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:8
+#, no-wrap
+msgid "Running the docs.rockylinux.org website locally for web development | Podman"
+msgstr ""
+
 #. type: Plain text
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:105
-msgid "http://localhost:8000"
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:13
+msgid "This document walks through the steps of how to recreate and run a local copy of the entire docs.rockylinux.org website on your local machine.  Running a local copy of the documentation website might be useful in the following scenarios:"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:21
+msgid "Make sure that the prerequisites are satisfied. If not please skip to the \"[Setup the prerequisites](#setup-the-prerequisites)\" section and then return here."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:25
+#, no-wrap
+msgid "2. Change the current working directory on your local system to a folder where you intend to do your writing. \n"
+"  We'll refer to this directory as\n"
+"`$ROCKYDOCS` in the rest of this guide.  For our demo here, `$ROCKYDOCS` points to `$HOME/projects/rockydocs` on our demo system.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:27
+msgid "Create $ROCKYDOCS if it doesn't already exist and change your working directory to $ROCKYDOCS type:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:28
+#, no-wrap
+msgid "mkdir -p $HOME/projects/rockydocs\n"
+"export ROCKYDOCS=${HOME}/projects/rockydocs\n"
+"cd  $ROCKYDOCS\n"
+msgstr ""
+
+#. type: Bullet: '4. '
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:43
+msgid "Also use git to clone the official docs.rockylinux.org repo. Type:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:49
+msgid "You'll now have a `$ROCKYDOCS/docs.rockylinux.org` folder. This folder is where you can experiment with your web development contributions."
+msgstr ""
+
+#. type: Bullet: '5.  '
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:54
+msgid "Make sure you have podman up and running on your local machine (you can check with `systemctl `). Test by running:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:55
+#, no-wrap
+msgid "systemctl  enable --now podman.socket\n"
+msgstr ""
+
+#. type: Bullet: '6. '
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:60
+msgid "Create a new `docker-compose.yml` file with the following contents:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:61
+#, no-wrap
+msgid "version: '2'\n"
+"services:\n"
+"  mkdocs:\n"
+"    privileged: true\n"
+"    image: rockylinux:9.1\n"
+"    ports:\n"
+"      - 8001:8001\n"
+"    environment:\n"
+"      PIP_NO_CACHE_DIR: \"off\"\n"
+"      PIP_DISABLE_PIP_VERSION_CHECK: \"on\"\n"
+"    volumes:\n"
+"       - type: bind\n"
+"         source: ./documentation\n"
+"         target: /app/docs\n"
+"       - type: bind\n"
+"         source: ./docs.rockylinux.org\n"
+"         target: /app/docs.rockylinux.org\n"
+"    working_dir: /app\n"
+"    command: bash -c \"dnf install -y python3 pip git && \\\n"
+"       ln -sfn  /app/docs   docs.rockylinux.org/docs && \\\n"
+"       cd docs.rockylinux.org && \\\n"
+"       git config  --global user.name webmaster && \\\n"
+"       git config  --global user.email webmaster@rockylinux.org && \\\n"
+"       curl -SL https://raw.githubusercontent.com/rocky-linux/documentation-test/main/docs/labs/mike-plugin-changes.patch -o mike-plugin-changes.patch && \\\n"
+"       git apply --reverse --check mike-plugin-changes.patch && \\\n"
+"       /usr/bin/pip3 install --no-cache-dir -r requirements.txt && \\\n"
+"       /usr/local/bin/mike deploy -F mkdocs.yml 9.1 91alias && \\\n"
+"       /usr/local/bin/mike set-default 9.1 && \\\n"
+"       echo  All done && \\\n"
+"       /usr/local/bin/mike serve  -F mkdocs.yml -a  0.0.0.0:8001\"\n"
+"       \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:96
+msgid "Save the file with the file name `docker-compose.yml` in your $ROCKYDOCS working directory."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:98
+msgid "You can also quickly download a copy of the docker-compose.yml file by running:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:99
+#, no-wrap
+msgid "curl -SL https://raw.githubusercontent.com/rocky-linux/documentation-test/main/docs/labs/docker-compose-rockydocs.yml -o docker-compose.yml\n"
+msgstr ""
+
+#. type: Bullet: '7. '
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:105
+msgid "Finally use docker-compose to bring up the service. Type:"
+msgstr ""
+
+#. type: Bullet: '8. '
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:114
+msgid "Just in case you have a firewall running on your Rocky Linux system, ensure that port 8001 is open. Type:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:115
+#, no-wrap
+msgid "firewall-cmd  --add-port=8001/tcp  --permanent\n"
+"firewall-cmd  --reload\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:123
+msgid "http://localhost:8001"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:127
+#, no-wrap
+msgid "http://<SERVER_IP>:8001\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:131
+#, no-wrap
+msgid "Setup the prerequisites"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:134
+msgid "Install and setup podman and other tools by running:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:135
+#, no-wrap
+msgid "sudo dnf -y install podman podman-docker git\n\n"
+"sudo systemctl enable --now  podman.socket\n\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:143
+msgid "Install docker-compose and make it executable. Type:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:144
+#, no-wrap
+msgid "curl -SL https://github.com/docker/compose/releases/download/v2.16.0/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose\n\n"
+"chmod 755 /usr/local/bin/docker-compose\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:152
+msgid "Fix permissions on docker socket. Type:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:153
+#, no-wrap
+msgid "sudo chmod 666 /var/run/docker.sock\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:158
+#, no-wrap
+msgid "Notes:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:164
+msgid "The entire environment runs in a Podman container and so you'll need Podman properly setup on your local machine"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:164
+msgid "The container is built on top of the official Rocky Linux 9.1 docker image available here https://hub.docker.com/r/rockylinux/rockylinux"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:164
+msgid "The container keeps the documentation content separate from the web engine (mkdocs)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:164
+msgid "The container starts a local web server listening on port 8001."
 msgstr ""
 
