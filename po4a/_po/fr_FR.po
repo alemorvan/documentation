@@ -13,323 +13,253 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/gemstones_htop.pot\n"
-"X-Crowdin-File-ID: 1297\n"
+"X-Crowdin-File: /po4a/po4a/_po/gemstones_https_rsa_keygen.pot\n"
+"X-Crowdin-File-ID: 1299\n"
 
-#. type: YAML Front Matter: contributors
-#: ../src/docs/books/disa_stig/disa_stig_part2.md:1
-#: ../src/docs/books/disa_stig/disa_stig_part3.md:1
-#: ../src/docs/books/disa_stig/disa_stig_part1.md:1
-#: ../src/docs/books/learning_ansible/07-working-with-filters.md:1
-#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:1
-#: ../src/docs/books/learning_bash/00-toc.md:1
-#: ../src/docs/books/learning_bash/01-first-script.md:1
-#: ../src/docs/books/learning_bash/02-using-variables.md:1
-#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:1
-#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:1
-#: ../src/docs/books/learning_bash/05-tests.md:1
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:1
-#: ../src/docs/books/learning_bash/07-loops.md:1
-#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:1
-#: ../src/docs/books/learning_rsync/01_rsync_overview.md:1
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:1
-#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:1
-#: ../src/docs/books/learning_rsync/05_rsync_authentication-free_login.md:1
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:1
-#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:1
-#: ../src/docs/books/nvchad/additional_software.md:1
-#: ../src/docs/books/nvchad/index.md:1
-#: ../src/docs/books/nvchad/install_nvchad.md:1
-#: ../src/docs/books/nvchad/install_nvim.md:1
-#: ../src/docs/books/nvchad/nerd_fonts.md:1
-#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:1
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:1
-#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:1
-#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:1
-#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:1
-#: ../src/docs/books/nvchad/plugins/index.md:1
-#: ../src/docs/books/nvchad/plugins/md_preview.md:1
-#: ../src/docs/books/nvchad/plugins/projectmgr.md:1
-#: ../src/docs/books/nvchad/template_chadrc.md:1
-#: ../src/docs/gemstones/RL9_network_manager.md:1
-#: ../src/docs/gemstones/htop.md:1 ../src/docs/gemstones/mtr.md:1
-#: ../src/docs/gemstones/setup_local_repo.md:1
-#: ../src/docs/gemstones/string_color.md:1
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:1
-#: ../src/docs/gemstones/view_kernel_conf.md:1
-#: ../src/docs/guides/automation/anacron.md:1
-#: ../src/docs/guides/automation/cronie.md:1
-#: ../src/docs/guides/automation/olivetin.md:1
-#: ../src/docs/guides/communications/asterisk_installation.md:1
-#: ../src/docs/guides/containers/lxd_web_servers.md:1
-#: ../src/docs/guides/contribute/local_docs.md:1
-#: ../src/docs/guides/contribute/mkdocs_venv.md:1
-#: ../src/docs/guides/contribute/style_guide.md:1
-#: ../src/docs/guides/editors/micro.md:1
-#: ../src/docs/guides/file_sharing/glusterfs.md:1
-#: ../src/docs/guides/installation.md:1
-#: ../src/docs/guides/security/dnf_automatic.md:1
-#: ../src/docs/guides/security/firewalld-beginners.md:1
-#: ../src/docs/guides/web/nginx-multisite.md:1 ../src/docs/guides/web/php.md:1
-#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:1
-#, no-wrap
-msgid "Steven Spencer"
+#. type: Plain text
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:43
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:220
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:271
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:334
+#: ../src/docs/books/admin_guide/05-vi.md:70
+#: ../src/docs/books/admin_guide/05-vi.md:206
+#: ../src/docs/books/admin_guide/05-vi.md:272
+#: ../src/docs/books/admin_guide/06-users.md:36
+#: ../src/docs/books/admin_guide/06-users.md:92
+#: ../src/docs/books/admin_guide/06-users.md:220
+#: ../src/docs/books/admin_guide/06-users.md:350
+#: ../src/docs/books/admin_guide/06-users.md:598
+#: ../src/docs/books/admin_guide/06-users.md:754
+#: ../src/docs/books/admin_guide/06-users.md:818
+#: ../src/docs/books/admin_guide/11-tasks.md:174
+#: ../src/docs/books/admin_guide/12-network.md:158
+#: ../src/docs/books/admin_guide/03-commands.md:516
+#: ../src/docs/books/admin_guide/03-commands.md:693
+#: ../src/docs/books/admin_guide/03-commands.md:1216
+#: ../src/docs/books/admin_guide/03-commands.md:1262
+#: ../src/docs/books/admin_guide/03-commands.md:1297
+#: ../src/docs/books/admin_guide/07-file-systems.md:395
+#: ../src/docs/books/admin_guide/07-file-systems.md:437
+#: ../src/docs/books/admin_guide/07-file-systems.md:447
+#: ../src/docs/books/admin_guide/07-file-systems.md:515
+#: ../src/docs/books/admin_guide/07-file-systems.md:556
+#: ../src/docs/books/admin_guide/07-file-systems.md:627
+#: ../src/docs/books/admin_guide/07-file-systems.md:653
+#: ../src/docs/books/admin_guide/07-file-systems.md:672
+#: ../src/docs/books/admin_guide/07-file-systems.md:676
+#: ../src/docs/books/admin_guide/07-file-systems.md:1019
+#: ../src/docs/books/admin_guide/08-process.md:49
+#: ../src/docs/books/admin_guide/08-process.md:238
+#: ../src/docs/books/admin_guide/09-backups.md:27
+#: ../src/docs/books/admin_guide/09-backups.md:116
+#: ../src/docs/books/admin_guide/09-backups.md:133
+#: ../src/docs/books/admin_guide/09-backups.md:148
+#: ../src/docs/books/admin_guide/09-backups.md:281
+#: ../src/docs/books/admin_guide/09-backups.md:285
+#: ../src/docs/books/admin_guide/09-backups.md:301
+#: ../src/docs/books/admin_guide/09-backups.md:342
+#: ../src/docs/books/admin_guide/09-backups.md:352
+#: ../src/docs/books/admin_guide/09-backups.md:554
+#: ../src/docs/books/admin_guide/09-backups.md:771
+#: ../src/docs/books/admin_guide/10-boot.md:114
+#: ../src/docs/books/admin_guide/10-boot.md:153
+#: ../src/docs/books/admin_guide/10-boot.md:165
+#: ../src/docs/books/admin_guide/13-softwares.md:22
+#: ../src/docs/books/learning_ansible/01-basic.md:51
+#: ../src/docs/books/learning_ansible/01-basic.md:104
+#: ../src/docs/books/learning_ansible/01-basic.md:112
+#: ../src/docs/books/learning_ansible/01-basic.md:328
+#: ../src/docs/books/learning_ansible/01-basic.md:415
+#: ../src/docs/books/learning_ansible/01-basic.md:492
+#: ../src/docs/books/learning_ansible/01-basic.md:633
+#: ../src/docs/books/learning_ansible/01-basic.md:656
+#: ../src/docs/books/learning_ansible/02-advanced.md:34
+#: ../src/docs/books/learning_ansible/02-advanced.md:150
+#: ../src/docs/books/learning_ansible/02-advanced.md:182
+#: ../src/docs/books/learning_ansible/02-advanced.md:269
+#: ../src/docs/books/learning_ansible/02-advanced.md:277
+#: ../src/docs/books/learning_ansible/02-advanced.md:287
+#: ../src/docs/books/learning_ansible/02-advanced.md:293
+#: ../src/docs/books/learning_ansible/02-advanced.md:360
+#: ../src/docs/books/learning_ansible/02-advanced.md:428
+#: ../src/docs/books/learning_ansible/02-advanced.md:601
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:33
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:58
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:77
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:96
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:113
+#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:65
+#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:432
+#: ../src/docs/books/learning_ansible/05-deployments.md:41
+#: ../src/docs/books/learning_ansible/05-deployments.md:124
+#: ../src/docs/books/learning_ansible/05-deployments.md:196
+#: ../src/docs/books/learning_ansible/05-deployments.md:616
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:36
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:40
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:80
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:214
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:32
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:75
+#: ../src/docs/books/learning_bash/02-using-variables.md:153
+#: ../src/docs/books/learning_bash/02-using-variables.md:193
+#: ../src/docs/books/learning_bash/05-tests.md:245
+#: ../src/docs/books/learning_bash/07-loops.md:180
+#: ../src/docs/books/lxd_server/04-firewall.md:80
+#: ../src/docs/books/nvchad/plugins/md_preview.md:140
+#: ../src/docs/books/nvchad/template_chadrc.md:239
+#: ../src/docs/gemstones/https_rsa_keygen.md:34
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:80
+#: ../src/docs/guides/8_6_installation.md:37
+#: ../src/docs/guides/8_6_installation.md:168
+#: ../src/docs/guides/8_6_installation.md:176
+#: ../src/docs/guides/8_6_installation.md:182
+#: ../src/docs/guides/8_6_installation.md:250
+#: ../src/docs/guides/automation/olivetin.md:60
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:307
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:323
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:486
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:533
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:667
+#: ../src/docs/guides/containers/lxd_web_servers.md:35
+#: ../src/docs/guides/containers/lxd_web_servers.md:45
+#: ../src/docs/guides/containers/lxd_web_servers.md:301
+#: ../src/docs/guides/containers/lxd_web_servers.md:352
+#: ../src/docs/guides/containers/lxd_web_servers.md:605
+#: ../src/docs/guides/containers/lxd_web_servers.md:665
+#: ../src/docs/guides/containers/lxd_web_servers.md:737
+#: ../src/docs/guides/containers/lxd_web_servers.md:796
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:53
+#: ../src/docs/guides/contribute/navigation.md:60
+#: ../src/docs/guides/custom-linux-kernel.md:453
+#: ../src/docs/guides/editors/micro.md:30
+#: ../src/docs/guides/file_sharing/glusterfs.md:46
+#: ../src/docs/guides/file_sharing/glusterfs.md:64
+#: ../src/docs/guides/file_sharing/glusterfs.md:102
+#: ../src/docs/guides/file_sharing/glusterfs.md:203
+#: ../src/docs/guides/installation.md:36 ../src/docs/guides/installation.md:175
+#: ../src/docs/guides/installation.md:183
+#: ../src/docs/guides/installation.md:193
+#: ../src/docs/guides/installation.md:266
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
+#: ../src/docs/guides/security/firewalld-beginners.md:89
+#: ../src/docs/guides/security/firewalld-beginners.md:144
+#: ../src/docs/guides/security/firewalld-beginners.md:258
+#: ../src/docs/guides/security/firewalld.md:51
+#: ../src/docs/guides/security/firewalld.md:94
+#: ../src/docs/guides/security/firewalld.md:228
+#: ../src/docs/guides/security/firewalld.md:372
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:72
+#: ../src/docs/guides/security/learning_selinux.md:137
+#: ../src/docs/guides/security/learning_selinux.md:253
+#: ../src/docs/guides/security/learning_selinux.md:356
+#: ../src/docs/guides/virtualization/vbox-rocky.md:27
+#: ../src/docs/guides/web/nginx-mainline.md:30
+#: ../src/docs/guides/web/nginx-mainline.md:99
+#: ../src/docs/guides/web/nginx-mainline.md:141
+#: ../src/docs/guides/web/nginx-mainline.md:254
+#: ../src/docs/guides/web/nginx-mainline.md:333
+#: ../src/docs/guides/web/nginx-multisite.md:73
+#: ../src/docs/guides/web/nginx-multisite.md:233
+#: ../src/docs/guides/web/nginx-multisite.md:292
+#: ../src/docs/guides/web/nginx-multisite.md:302
+#: ../src/docs/guides/web/php.md:33 ../src/docs/guides/web/php.md:76
+#: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
+#: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
+#: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
+msgid "!!! Note"
 msgstr ""
 
-#. type: YAML Front Matter: tags
-#: ../src/docs/gemstones/htop.md:1
+#. type: Title ##
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:61
+#: ../src/docs/gemstones/https_rsa_keygen.md:11
 #, no-wrap
-msgid "htop"
-msgstr ""
-
-#. type: YAML Front Matter: tags
-#: ../src/docs/gemstones/htop.md:1
-#, no-wrap
-msgid "processes"
+msgid "Script"
 msgstr ""
 
 #. type: Title #
-#: ../src/docs/gemstones/htop.md:1 ../src/docs/gemstones/htop.md:11
+#: ../src/docs/gemstones/https_rsa_keygen.md:1
+#: ../src/docs/gemstones/https_rsa_keygen.md:7
 #, no-wrap
-msgid "htop - Process Management"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/gemstones/htop.md:13
-#, no-wrap
-msgid "install `htop` "
+msgid "https - RSA Key Generation"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/gemstones/htop.md:15
-msgid "Every system administrator likes to use some of the more commonly used commands. Today I recommend `htop` as an alternative to the `top` command. To use the `htop` command usually, you need to install it first."
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/gemstones/htop.md:16
-#, no-wrap
-msgid "# Installation epel source (also called repository)\n"
-"dnf -y install epel-release\n"
-"# Generate cache\n"
-"dnf makecache\n"
-"# Install htop\n"
-"dnf -y install htop\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/gemstones/htop.md:25
-#, no-wrap
-msgid "Use `htop`"
+#: ../src/docs/gemstones/https_rsa_keygen.md:10
+msgid "This script has been used by me many times. No matter how often you use the openssl command structure, sometimes you have to refer back to the procedure. This script allows you to automate key generation for a web site using RSA. Note that this script is hard coded with a 2048-bit key length. For those of you who feel strongly that the key length minimum should be 4096 bits, simply change that portion of the script. Just know that you need to weigh the memory and speed that a site needs to load on a device, against the security of the longer key length."
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/gemstones/htop.md:27
-msgid "You only need to type `htop` in the terminal, and the interactive interface is as follows:"
+#: ../src/docs/gemstones/https_rsa_keygen.md:14
+msgid "Name this script anything you like, example: `keygen.sh`, make the script executable (`chmod +x scriptname`) and place it in a directory that is in your path, example: /usr/local/sbin"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/gemstones/htop.md:28
+#: ../src/docs/gemstones/https_rsa_keygen.md:15
 #, no-wrap
-msgid "0[ |||                      3%]     Tasks: 22, 46thr, 174 kthr 1 running\n"
-"1[ |                        1%]     Load average: 0.00 0.00 0.05\n"
-"Mem[ |||||||           197M/8G]     Uptime: 00:31:39\n"
-"Swap[                  0K/500M]\n"
-"PID   USER   PRI   NI   VIRT   RES   SHR   S   CPU%   MEM%   TIME+   Command(merged)\n"
-"...\n"
+msgid "#!/bin/bash\n"
+"if [ $1 ]\n"
+"then\n"
+"      echo \"generating 2048 bit key - you'll need to enter a pass phrase and verify it\"\n"
+"      openssl genrsa -des3 -out $1.key.pass 2048\n"
+"      echo \"now we will create a pass-phrase less key for actual use, but you will need to enter your pass phrase a third time\"\n"
+"      openssl rsa -in $1.key.pass -out $1.key\n"
+"      echo \"next, we will generate the csr\"\n"
+"      openssl req -new -key $1.key -out $1.csr\n"
+"      #cleanup\n"
+"      rm -f $1.key.pass\n"
+"else\n"
+"      echo \"requires keyname parameter\"\n"
+"      exit\n"
+"fi\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/gemstones/htop.md:38
+#: ../src/docs/gemstones/https_rsa_keygen.md:36
 #, no-wrap
-msgid "<kbd>F1</kbd>Help   <kbd>F2</kbd>Setup  <kbd>F3</kbd>Search <kbd>F4</kbd>Filter <kbd>F5</kbd>Tree   <kbd>F6</kbd>SortBy <kbd>F7</kbd>Nice   <kbd>F8</kbd>Nice+  <kbd>F9</kbd>Kill   <kbd>F10</kbd>Quit\n"
+msgid "    You will enter the pass phrase three times in succession.\n"
 msgstr ""
 
-#. type: Title ###
-#: ../src/docs/gemstones/htop.md:39
+#. type: Title ##
+#: ../src/docs/gemstones/https_rsa_keygen.md:37
 #, no-wrap
-msgid "Top Description"
+msgid "Brief Description"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:43
-msgid "The top 0 and 1 indicate the number of your CPU cores, and the percentage indicates the occupancy rate of a single core (of course, the total occupancy rate of the CPU can also be displayed)"
-msgstr ""
-
-#. type: Bullet: '    * '
-#: ../src/docs/gemstones/htop.md:43
-msgid "The different colors of the progress bar indicate the percentage of different process types:"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/htop.md:50
-#, no-wrap
-msgid "        | Color | Description | Names displayed in other styles|\n"
-"        | ---------| ------------|------------|        \n"
-"        | Blue | Percentage of CPU used by low-priority processes | low |\n"
-"        | Green | Percentage of process CPU owned by ordinary users |   |\n"
-"        | Red | Percentage of CPU used by system processes |  sys |\n"
-"        | Cyan | Percentage of CPU consumed by Steal Time | vir |\n"
+#: ../src/docs/gemstones/https_rsa_keygen.md:45
+msgid "This bash script requires a parameter to be entered ($1) which is the name of the site without any www, etc. For example, \"mywidget\"."
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:53
-msgid "Tasks: 22, 46thr, 174 kthr 1 running. In my example, it means that my current machine has 22 tasks, which are divided into 46 threads, of which only 1 process is in a running state, \"kthr\" indicates how many kernel threads there are."
+#: ../src/docs/gemstones/https_rsa_keygen.md:45
+msgid "The script creates the default key with a password and 2048-bit length (this can be edited, as noted above to a longer 4096 bit length)"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:53
-msgid "Mem information. Similarly, use different colors to distinguish:"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/htop.md:60
-#, no-wrap
-msgid "   | Color | Description | Names displayed in other styles |\n"
-"   |----|----|----|\n"
-"   | Blue |Percentage of memory consumed by the buffer | buffers |\n"
-"   | Green |Percentage of memory consumed by the memory area| used |\n"
-"   | Yellow/Orange |Percentage of memory consumed by the cache area| cache |\n"
-"   | Magenta | Percentage of memory occupied by shared memory area | shared | \n"
+#: ../src/docs/gemstones/https_rsa_keygen.md:45
+msgid "The password is then immediately removed from the key, the reason is that web server restarts would require that the key password be entered each time, and on reboot, which can be problematic in practice."
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:62
-msgid "Swap information."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/htop.md:67
-#, no-wrap
-msgid "   | Color | Description | Names displayed in other styles |\n"
-"   |----|----|----|\n"
-"   | Green | Percentage of swap consumed by the swap area | used |\n"
-"   | Yellow/Orange | Percentage of swap consumed by the cache area | cache |\n"
+#: ../src/docs/gemstones/https_rsa_keygen.md:45
+msgid "Next the script creates the CSR (Certificate Signing Request), which can then be used to purchase an SSL certificate from a provider."
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:70
-msgid "Load average, the three values ​​respectively represent the average load of the system in the last 1 minute, the last 5 minutes, and the last 15 minutes"
+#: ../src/docs/gemstones/https_rsa_keygen.md:45
+msgid "Finally, the cleanup step removes the previously created key with the password attached."
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:70
-msgid "Uptime, which means the running time after booting"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/gemstones/htop.md:71
-#, no-wrap
-msgid "Process information description"
+#: ../src/docs/gemstones/https_rsa_keygen.md:45
+msgid "Entering the script name without the parameter generates the error: \"requires keyname parameter\"."
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:85
-msgid "**PID - Process ID number**"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:85
-msgid "USER - The owner of the process"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:85
-msgid "PRI - Display the process priority as seen by the Linux kernel"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:85
-msgid "NI - Displays the process priority of reset by normal user or root super user"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:85
-msgid "VIRT - Virtual memory being consumed by a process"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:85
-msgid "**RES - Physical memory being consumed by a process**"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:85
-msgid "SHR - Shared memory being consumed by a process"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:85
-msgid "S - The current state of the process, there is a special state to pay attention to! That is Z (zombie process). When there are a large number of zombie processes in the machine, it will affect the performance of the machine."
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:85
-msgid "**CPU% - Percentage of CPU consumed by each process**"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:85
-msgid "MEM% - Percentage of memory consumed by each process"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:85
-msgid "TIME+ - Shows the running time since the process was started"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:85
-msgid "Command - The command corresponding to the process"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/gemstones/htop.md:86
-#, no-wrap
-msgid "Shortcut key description"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/htop.md:88
-#, no-wrap
-msgid "In the interactive interface, press the <kbd>F1</kbd> button to see the corresponding shortcut key description.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:91
-msgid "The up, down, left, and right direction keys can scroll through the interactive interface, and <kbd>space</kbd> can mark the corresponding process, which is marked in yellow."
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:91
-msgid "The <kbd>N</kbd> button, the <kbd>P</kbd> button, the <kbd>M</kbd> button and the <kbd>T</kbd> button are respectively PID, CPU%, MEM%, TIME+ is used for sorting. Of course, you can also use the mouse to click to sort in ascending or descending order of a certain field."
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/gemstones/htop.md:92
-#, no-wrap
-msgid "Other commonly used"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/htop.md:94
-#, no-wrap
-msgid "To manage the process, use the <kbd>F9</kbd> button to send different signals to the process. The list of signals can be found in `kill -l`. The more commonly used ones are:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/htop.md:100
-msgid "| Signal | Description | |---|---| |1 | Let the process shut down immediately, and then restart after re-reading the configuration file | |9 | Used to immediately end the running of the program, used to forcibly terminate the process, similar to the forced end in the windows taskbar | |15 | The default signal for the kill command. Sometimes if a problem has occurred in the process and the process cannot be terminated normally with this signal, we will try signal 9 |"
-msgstr ""
-
-#. type: Title #
-#: ../src/docs/gemstones/htop.md:101
-#: ../src/docs/gemstones/setup_local_repo.md:49
-#, no-wrap
-msgid "End"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/htop.md:102
-msgid "`htop` is much easier to use than the `top` that comes with the system, it is more intuitive, and it improves daily use greatly. This is why usually the first thing after installing the operating system the author installs it."
+#: ../src/docs/gemstones/https_rsa_keygen.md:45
+msgid "The positional parameter variable, i.e., $n, is used here. Where $0 represents the command itself and $1 to $9 represent the first to ninth parameters. When the number is greater than 10, you need to use braces, such as ${10}."
 msgstr ""
 
