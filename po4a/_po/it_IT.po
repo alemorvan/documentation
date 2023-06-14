@@ -13,188 +13,67 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: it\n"
-"X-Crowdin-File: /po4a/po4a/_po/apache_hardened_webserver_rkhunter.pot\n"
-"X-Crowdin-File-ID: 1243\n"
+"X-Crowdin-File: /po4a/po4a/_po/automation_anacron.pot\n"
+"X-Crowdin-File-ID: 1245\n"
 
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:749
-#: ../src/docs/books/lxd_server/01-install.md:20
-#: ../src/docs/books/nvchad/install_nvim.md:46
-#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:49
-#: ../src/docs/guides/containers/lxd_web_servers.md:67
-#: ../src/docs/guides/containers/lxd_web_servers.md:624
-#: ../src/docs/guides/containers/lxd_web_servers.md:857
-#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:53
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:43
-#, no-wrap
-msgid "dnf install epel-release\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/admin_guide/13-softwares.md:900
-#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:105
-#: ../src/docs/books/nvchad/template_chadrc.md:352
-#: ../src/docs/gemstones/bash_stub.md:103
-#: ../src/docs/gemstones/perl_search_replace.md:38
-#: ../src/docs/gemstones/sed_search_replace.md:72
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:172
-#: ../src/docs/guides/automation/olivetin.md:142
-#: ../src/docs/guides/cms/dokuwiki_server.md:306
-#: ../src/docs/guides/communications/asterisk_installation.md:261
-#: ../src/docs/guides/containers/lxd_web_servers.md:919
-#: ../src/docs/guides/containers/podman-nextcloud.md:456
-#: ../src/docs/guides/contribute/local_docs.md:47
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:322
-#: ../src/docs/guides/contribute/navigation.md:129
-#: ../src/docs/guides/contribute/rockydocs_formatting.md:458
-#: ../src/docs/guides/database/database_mariadb-server.md:197
-#: ../src/docs/guides/desktop/kde_installation.md:105
-#: ../src/docs/guides/desktop/mate_installation.md:200
-#: ../src/docs/guides/desktop/xfce_installation.md:218
-#: ../src/docs/guides/editors/micro.md:79
-#: ../src/docs/guides/email/postfix_reporting.md:254
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:270
-#: ../src/docs/guides/file_sharing/sftp.md:765
-#: ../src/docs/guides/proxies/pound.md:460
-#: ../src/docs/guides/security/dnf_automatic.md:119
-#: ../src/docs/guides/security/enabling_iptables_firewall.md:54
-#: ../src/docs/guides/security/firewalld-beginners.md:427
-#: ../src/docs/guides/security/firewalld.md:477
-#: ../src/docs/guides/security/pam.md:137
-#: ../src/docs/guides/security/ssl_keys_https.md:136
-#: ../src/docs/guides/virtualization/vbox-rocky.md:160
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:147
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:235
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:157
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:91
-#: ../src/docs/guides/web/mod_SSL_apache.md:171
-#: ../src/docs/guides/web/nginx-mainline.md:352
-#: ../src/docs/guides/web/nginx-multisite.md:359
-#, no-wrap
-msgid "Conclusion"
-msgstr ""
-
-#. type: YAML Front Matter: tags
+#. type: YAML Front Matter: contributors
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:1
 #: ../src/docs/books/disa_stig/disa_stig_part3.md:1
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:1
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:1
-#: ../src/docs/guides/file_sharing/sftp.md:1
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:1
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:1
+#: ../src/docs/books/learning_bash/00-toc.md:1
+#: ../src/docs/books/learning_bash/01-first-script.md:1
+#: ../src/docs/books/learning_bash/02-using-variables.md:1
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:1
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:1
+#: ../src/docs/books/learning_bash/05-tests.md:1
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:1
+#: ../src/docs/books/learning_bash/07-loops.md:1
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:1
+#: ../src/docs/books/learning_rsync/01_rsync_overview.md:1
+#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:1
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:1
+#: ../src/docs/books/learning_rsync/05_rsync_authentication-free_login.md:1
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:1
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:1
+#: ../src/docs/books/nvchad/additional_software.md:1
+#: ../src/docs/books/nvchad/index.md:1
+#: ../src/docs/books/nvchad/install_nvchad.md:1
+#: ../src/docs/books/nvchad/install_nvim.md:1
+#: ../src/docs/books/nvchad/nerd_fonts.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:1
+#: ../src/docs/books/nvchad/plugins/index.md:1
+#: ../src/docs/books/nvchad/plugins/md_preview.md:1
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:1
+#: ../src/docs/books/nvchad/template_chadrc.md:1
+#: ../src/docs/gemstones/RL9_network_manager.md:1
+#: ../src/docs/gemstones/htop.md:1 ../src/docs/gemstones/mtr.md:1
+#: ../src/docs/gemstones/setup_local_repo.md:1
+#: ../src/docs/gemstones/string_color.md:1
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:1
+#: ../src/docs/gemstones/view_kernel_conf.md:1
+#: ../src/docs/guides/automation/anacron.md:1
+#: ../src/docs/guides/automation/cronie.md:1
+#: ../src/docs/guides/automation/olivetin.md:1
+#: ../src/docs/guides/communications/asterisk_installation.md:1
+#: ../src/docs/guides/containers/lxd_web_servers.md:1
+#: ../src/docs/guides/contribute/local_docs.md:1
+#: ../src/docs/guides/contribute/mkdocs_venv.md:1
+#: ../src/docs/guides/contribute/style_guide.md:1
+#: ../src/docs/guides/editors/micro.md:1
+#: ../src/docs/guides/file_sharing/glusterfs.md:1
+#: ../src/docs/guides/installation.md:1
 #: ../src/docs/guides/security/dnf_automatic.md:1
-#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
-#: ../src/docs/guides/security/firewalld.md:1
-#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:1
-#: ../src/docs/guides/security/learning_selinux.md:1
-#: ../src/docs/guides/security/pam.md:1
-#: ../src/docs/guides/security/ssh_public_private_keys.md:1
-#: ../src/docs/guides/security/ssl_keys_https.md:1
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:1
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
+#: ../src/docs/guides/security/firewalld-beginners.md:1
+#: ../src/docs/guides/web/nginx-multisite.md:1 ../src/docs/guides/web/php.md:1
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:1
 #, no-wrap
-msgid "security"
-msgstr ""
-
-#. type: Title #
-#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
-#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
-#: ../src/docs/books/learning_ansible/05-deployments.md:31
-#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
-#: ../src/docs/books/lxd_server/00-toc.md:1
-#: ../src/docs/books/lxd_server/00-toc.md:13
-#: ../src/docs/books/nvchad/index.md:12
-#: ../src/docs/books/nvchad/plugins/index.md:14
-#: ../src/docs/books/nvchad/plugins/md_preview.md:14
-#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
-#: ../src/docs/books/nvchad/vale_nvchad.md:12
-#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
-#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
-#: ../src/docs/gemstones/string_color.md:11
-#: ../src/docs/guides/automation/cron_jobs_howto.md:25
-#: ../src/docs/guides/automation/olivetin.md:14
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
-#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
-#: ../src/docs/guides/backup/rsnapshot_backup.md:22
-#: ../src/docs/guides/backup/rsync_ssh.md:24
-#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
-#: ../src/docs/guides/cms/dokuwiki_server.md:23
-#: ../src/docs/guides/containers/lxd_web_servers.md:10
-#: ../src/docs/guides/containers/podman-nextcloud.md:13
-#: ../src/docs/guides/contribute/local_docs.md:11
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
-#: ../src/docs/guides/contribute/mkdocs_venv.md:14
-#: ../src/docs/guides/contribute/style_guide.md:14
-#: ../src/docs/guides/database/database_mariadb-server.md:21
-#: ../src/docs/guides/desktop/kde_installation.md:11
-#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
-#: ../src/docs/guides/editors/micro.md:14
-#: ../src/docs/guides/email/postfix_reporting.md:22
-#: ../src/docs/guides/file_sharing/glusterfs.md:16
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
-#: ../src/docs/guides/file_sharing/sftp.md:16
-#: ../src/docs/guides/migrate2rocky.md:18
-#: ../src/docs/guides/network/basic_network_configuration.md:12
-#: ../src/docs/guides/network/librenms_monitoring_server.md:13
-#: ../src/docs/guides/package_management/index.md:1
-#: ../src/docs/guides/package_management/index.md:5
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
-#: ../src/docs/guides/proxies/pound.md:17
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
-#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
-#: ../src/docs/guides/security/firewalld-beginners.md:10
-#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
-#: ../src/docs/guides/security/ssh_public_private_keys.md:21
-#: ../src/docs/guides/security/ssl_keys_https.md:22
-#: ../src/docs/guides/virtualization/vbox-rocky.md:13
-#: ../src/docs/guides/web/apache-sites-enabled.md:25
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
-#: ../src/docs/guides/web/nginx-mainline.md:13
-#: ../src/docs/guides/web/nginx-multisite.md:14
-#: ../src/docs/labs/security/introduction.md:1
-#: ../src/docs/labs/security/introduction.md:5
-#, no-wrap
-msgid "Introduction"
-msgstr ""
-
-#. type: YAML Front Matter: contributors
-#: ../src/docs/books/lxd_server/00-toc.md:1
-#: ../src/docs/books/lxd_server/01-install.md:1
-#: ../src/docs/books/lxd_server/02-zfs_setup.md:1
-#: ../src/docs/books/lxd_server/03-lxdinit.md:1
-#: ../src/docs/books/lxd_server/04-firewall.md:1
-#: ../src/docs/books/lxd_server/05-lxd_images.md:1
-#: ../src/docs/books/lxd_server/06-profiles.md:1
-#: ../src/docs/books/lxd_server/07-configurations.md:1
-#: ../src/docs/books/lxd_server/08-snapshots.md:1
-#: ../src/docs/books/lxd_server/09-snapshot_server.md:1
-#: ../src/docs/books/lxd_server/10-automating.md:1
-#: ../src/docs/gemstones/bash_stub.md:1
-#: ../src/docs/guides/automation/cron_jobs_howto.md:1
-#: ../src/docs/guides/backup/rsnapshot_backup.md:1
-#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:1
-#: ../src/docs/guides/cms/dokuwiki_server.md:1
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:1
-#: ../src/docs/guides/contribute/navigation.md:1
-#: ../src/docs/guides/desktop/kde_installation.md:1
-#: ../src/docs/guides/dns/private_dns_server_using_bind.md:1
-#: ../src/docs/guides/email/postfix_reporting.md:1
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:1
-#: ../src/docs/guides/file_sharing/sftp.md:1
-#: ../src/docs/guides/network/librenms_monitoring_server.md:1
-#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
-#: ../src/docs/guides/security/ssh_public_private_keys.md:1
-#: ../src/docs/guides/security/ssl_keys_https.md:1
-#: ../src/docs/guides/web/apache-sites-enabled.md:1
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:1
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
-#, no-wrap
-msgid "Ezequiel Bruni"
+msgid "Steven Spencer"
 msgstr ""
 
 #. type: Title ##
@@ -230,211 +109,221 @@ msgstr ""
 msgid "Prerequisites"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/guides/database/database_mariadb-server.md:20
-#: ../src/docs/guides/file_sharing/glusterfs.md:15
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
-msgid "Proficiency with a command-line editor (we are using _vi_ in this example)"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/database/database_mariadb-server.md:20
-#: ../src/docs/guides/file_sharing/glusterfs.md:15
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:22
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:21
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
-msgid "A heavy comfort level with issuing commands from the command-line, viewing logs, and other general systems administrator duties"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/file_sharing/glusterfs.md:15
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
-msgid "All commands are run as the root user or sudo"
-msgstr ""
-
-#. type: YAML Front Matter: tags
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
+#. type: YAML Front Matter: title
+#: ../src/docs/guides/automation/anacron.md:1
 #, no-wrap
-msgid "server"
-msgstr ""
-
-#. type: YAML Front Matter: tags
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
-#, no-wrap
-msgid "rkhunter"
+msgid "anacron - Automating commands"
 msgstr ""
 
 #. type: Title #
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:12
+#: ../src/docs/guides/automation/anacron.md:8
 #, no-wrap
-msgid "Rootkit Hunter"
+msgid "`anacron` - Run Commands Regularly"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
-msgid "An understanding of what can trigger a response to changed files on the file system (such as package updates) is helpful"
+#: ../src/docs/guides/automation/anacron.md:15
+#: ../src/docs/guides/automation/cronie.md:14
+msgid "A computer running Rocky Linux."
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:22
-msgid "This document was originally written in conjunction with the apache hardened webserver routines, but works equally well on a server running any software."
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/anacron.md:15
+msgid "Know how to use your favorite editor to change the configuration file (such as *vim*) in the command line environment."
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:26
-msgid "_rkhunter_ (Root Kit Hunter) is a Unix-based tool that scans for rootkits, backdoors, and possible local exploits. It is a good part of a hardened server, and is designed to notify the administrator quickly when something suspicious happens on the server's file system."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:28
-msgid "_rkhunter_ is just one possible component of a hardened Apache web server setup and can be used with or without other tools. If you'd like to use this along with other tools for hardening, refer back to the [Apache Hardened Web Server guide](index.md)."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:30
-msgid "This document also uses all of the assumptions and conventions outlined in that original document, so it is a good idea to review it before continuing."
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/anacron.md:15
+msgid "Understand basic RPM package management."
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:31
+#: ../src/docs/guides/automation/anacron.md:16
+#: ../src/docs/guides/backup/rsnapshot_backup.md:319
+#: ../src/docs/guides/contribute/navigation.md:27
 #, no-wrap
-msgid "General steps"
+msgid "Assumptions"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/anacron.md:20
+msgid "You have understood the basic knowledge of bash, python or other scripting or programming tools, and want to run the script automatically."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/anacron.md:20
+msgid "You connected in as the root user, or switch to root with `su - root`."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/automation/anacron.md:21
+#, no-wrap
+msgid "`anacron` Introduction"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/anacron.md:24
+#, no-wrap
+msgid "**`anacron` runs commands on a regular basis, and the operating frequency is defined in units of days. It is suitable for computers that do not run 24/7, such as laptops and desktops. Suppose you have a scheduled task (such as a backup script) to be run in the early morning of every day using crontab. When you fall asleep, your desktop or notebook is off. Your backup script will not run. However, if you use `anacron`, you can rest assured that the next time you turn on the desktop or notebook, the backup script will run.**\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/anacron.md:26
+msgid "The appearance of `anacron` is not to replace `crontab`, but to complement `crontab`. Their relationship is as follows:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/anacron.md:28
+msgid "![ Relations ](../images/anacron_01.png)"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/automation/anacron.md:29
+#, no-wrap
+msgid "`anacron` Configuration File"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/automation/anacron.md:31
+#, no-wrap
+msgid "shell > rpm -ql cronie-anacron\n"
+"/etc/anacrontab\n"
+"/etc/cron.hourly/0anacron\n"
+"/usr/lib/.build-id\n"
+"/usr/lib/.build-id/0e\n"
+"/usr/lib/.build-id/0e/6b094fa55505597cb69dc5a6b7f5f30b04d40f\n"
+"/usr/sbin/anacron\n"
+"/usr/share/man/man5/anacrontab.5.gz\n"
+"/usr/share/man/man8/anacron.8.gz\n"
+"/var/spool/anacron\n"
+"/var/spool/anacron/cron.daily\n"
+"/var/spool/anacron/cron.monthly\n"
+"/var/spool/anacron/cron.weekly\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/anacron.md:48
+msgid "First check the default configuration file:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/automation/anacron.md:48
+#, no-wrap
+msgid "shell > cat /etc/anacrontab\n"
+"# /etc/anacrontab: configuration file for anacron\n"
+"# See anacron(8) and anacrontab(5) for details.\n"
+"SHELL=/bin/sh\n"
+"PATH=/sbin:/bin:/usr/sbin:/usr/bin\n"
+"MAILTO=root\n"
+"# Default 45 minutes delay for each specified job anacron random increase 0-45 minutes.\n"
+"RANDOM_DELAY=45\n"
+"# Specify the scope of work time, represented here 3:00 ~ 22:00\n"
+"START_HOURS_RANGE=3-22\n"
+"# period in days delay in minutes job-identifier command\n"
+"# Boot every day to check whether the files in the directory /etc/cron.daily be executed in 5 minutes, if not executed today, then to the next\n"
+"1 5 cron.daily nice run-parts /etc/cron.daily\n"
+"# Every 7 days within 25 minutes if the file check /etc/cron.weekly directory is executed after boot, if not executed within a week, it will be executed next\n"
+"7 25 cron.weekly nice run-parts /etc/cron.weekly\n"
+"# Whether the files in the directory /etc/cron.monthly 45 minutes checking is performed after every start for a month\n"
+"@monthly 45 cron.monthly nice run-parts /etc/cron.monthly\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/anacron.md:69
+#, no-wrap
+msgid "**/etc/cron.hourly/** -Through `journalctl -u crond.service`, you can know that the files put inside are actually called by crond.server, which means that the command will be executed after the first minute of every hour. As follows:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/automation/anacron.md:70
+#, no-wrap
+msgid "shell > cat /etc/cron.d/0hourly\n"
+"# Run the hourly jobs\n"
+"SHELL=/bin/bash\n"
+"PATH=/sbin:/bin:/usr/sbin:/usr/bin\n"
+"MAILTO=root\n"
+"01 *  *  *  * root run-parts /etc/cron.hourly\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/anacron.md:78
+#, no-wrap
+msgid "shell > journalctl -u crond.service\n"
+"- Logs begin at Wed 2021-10-20 19:27:39 CST, end at Wed 2021-10-20 23:32:42 CST. -\n"
+"October 20 19:27:42 li systemd[1]: Started Command Scheduler.\n"
+"October 20 19:27:42 li crond[733]: (CRON) STARTUP (1.5.2)\n"
+"October 20 19:27:42 li crond[733]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 76% if used.)\n"
+"October 20 19:27:42 li crond[733]: (CRON) INFO (running with inotify support)\n"
+"October 20 20:01:01 li CROND[1897]: (root) CMD (run-parts /etc/cron.hourly)\n"
+"October 20 21:01:01 li CROND[1922]: (root) CMD (run-parts /etc/cron.hourly)\n"
+"October 20 22:01:01 li CROND[1947]: (root) CMD (run-parts /etc/cron.hourly)\n"
+"October 20 23:01:01 li CROND[2037]: (root) CMD (run-parts /etc/cron.hourly)\n\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/anacron.md:93
+msgid "For more configuration file information, please [Browse the manual page](https://man7.org/linux/man-pages/man5/anacrontab.5.html)"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/automation/anacron.md:94
+#, no-wrap
+msgid "User use"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/anacron.md:97
+msgid "To make certain files run within these automatically defined times, all you need to do is to copy the script file to the relevant directory and verify that it has ** x execution permission (chmod +x) ** . Therefore, you only need to let the system automatically run the script at one of these scheduled times, which simplifies the automation task."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/anacron.md:99
+msgid "Let us use cron.daily to illustrate the run process of /etc/anacrontab:"
 msgstr ""
 
 #. type: Bullet: '1. '
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:38
-msgid "install rkhunter"
+#: ../src/docs/guides/automation/anacron.md:105
+msgid "`anacron` reads the ** /var/spool/anacron/cron.daily ** file, and the content of the file shows the time of the last run."
 msgstr ""
 
 #. type: Bullet: '2. '
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:38
-msgid "configure rkhunter"
+#: ../src/docs/guides/automation/anacron.md:105
+msgid "Compared with the current time, if the difference between the two times exceeds 1 day, the cron.daily job will run."
 msgstr ""
 
 #. type: Bullet: '3. '
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:38
-msgid "configure email and make sure it is set up to work correctly"
+#: ../src/docs/guides/automation/anacron.md:105
+msgid "This work can only run from 03:00-22:00."
 msgstr ""
 
 #. type: Bullet: '4. '
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:38
-msgid "run `rkhunter` manually to generate a list of warnings to test your email settings (`rkhunter --check`)"
+#: ../src/docs/guides/automation/anacron.md:105
+msgid "Verify whether a file runs after 5 minutes after booting. When the first one runs, it will be randomly delayed for 0～45 minutes to run the next one."
 msgstr ""
 
 #. type: Bullet: '5. '
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:38
-msgid "run `rkhunter --propupd` to generate a clean `rkhunter.dat` file that `rkhunter` will use from this point forward as a baseline for further checks."
+#: ../src/docs/guides/automation/anacron.md:105
+msgid "Use the nice parameter to specify the default priority, and use the run-parts parameter to run all executable files in the /etc/cron.daily/ directory."
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:39
+#: ../src/docs/guides/automation/anacron.md:106
 #, no-wrap
-msgid "Installing rkhunter"
+msgid "Related Commands"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:42
-msgid "_rkhunter_ requires the EPEL (Extra Packages for Enterprise Linux) repository. So install that repository if you don't have it installed already:"
+#: ../src/docs/guides/automation/anacron.md:109
+msgid "Use the command `anacron`, commonly used options are:"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:48
-msgid "Then install _rkhunter_:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:49
-#, no-wrap
-msgid "dnf install rkhunter\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:53
-#, no-wrap
-msgid "Configuring rkhunter"
+#: ../src/docs/guides/automation/anacron.md:115
+msgid "| Options | Description | | --- | --- | | -f | Run all jobs, ignoring timestamps | | -u | Update the timestamp to the current time without performing any action | | -T | Test the validity of the configuration file /etc/anacrontab |"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:56
-msgid "The only configuration options that need to be set are those dealing with mailing reports to the administrator. To modify the configuration file, run:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:57
-#, no-wrap
-msgid "vi /etc/rkhunter.conf`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:62
-msgid "And then search for:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:63
-#, no-wrap
-msgid "#MAIL-ON-WARNING=me@mydomain   root@mydomain\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:68
-msgid "Remove the remark here and change the `me@mydomain.com` to reflect your email address."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:70
-msgid "Then change the `root@mydomain` to `root@whatever_the_server_name_is`."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:72
-msgid "You will probably also want to remove the remark (and edit the line to fit your needs) of the `MAIL-CMD` line, found a few lines below that looks like this:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:73
-#, no-wrap
-msgid "MAIL_CMD=mail -s \"[rkhunter] Warnings found for ${HOST_NAME}\"\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:78
-msgid "You may also need to setup [Postfix Email for Reporting](../../email/postfix_reporting.md) in order to get the email section to work correctly."
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:79
-#, no-wrap
-msgid "Running rkhunter"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:82
-msgid "_rkhunter_ can be run by typing it at the command-line. There is a cron job installed for you in `/etc/cron.daily`, but if you want to automate the procedure on a different schedule, look at the [Automating cron jobs guide](../../automation/cron_jobs_howto.md)."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:84
-msgid "You'll also need to move the script somewhere other than `/etc/cron.daily`, such as `/usr/local/sbin` and then call it from your custom cron job. The easiest method, of course, is to leave the default `cron.daily` setup intact."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:86
-msgid "If you want to test `rkhunter` before you start, including all email functionality, etc., run `rkhunter --check` from the command line. If there are problems with email setup, hold off completing the rest so that you can run this command again. Once email has been confirmed to work but before you allow `rkhunter` to run automatically, run the command manually again with the \"--propupd\" flag to create the `rkhunter.dat` file, and to make sure that your new environment is recognized without issue:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:87
-#, no-wrap
-msgid "rkhunter --propupd\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:93
-msgid "_rkhunter_ is one part of a hardened server strategy that can help in monitoring the file system and reporting any issues to the administrator. It is perhaps one of the easiest hardening tools to install, configure, and run."
+#: ../src/docs/guides/automation/anacron.md:116
+msgid "For more help information, [browse the manual page](https://man7.org/linux/man-pages/man8/anacron.8.html)"
 msgstr ""
 
