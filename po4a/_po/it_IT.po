@@ -13,191 +13,261 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: it\n"
-"X-Crowdin-File: /po4a/po4a/_po/gemstones_bash_stub.pot\n"
-"X-Crowdin-File-ID: 1291\n"
+"X-Crowdin-File: /po4a/po4a/_po/gemstones_dnf-swap.pot\n"
+"X-Crowdin-File-ID: 1293\n"
 
-#. type: Title ##
-#: ../src/docs/books/admin_guide/13-softwares.md:900
-#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:105
-#: ../src/docs/books/nvchad/template_chadrc.md:352
-#: ../src/docs/gemstones/bash_stub.md:103
-#: ../src/docs/gemstones/perl_search_replace.md:38
-#: ../src/docs/gemstones/sed_search_replace.md:72
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:172
-#: ../src/docs/guides/automation/olivetin.md:142
-#: ../src/docs/guides/cms/dokuwiki_server.md:306
-#: ../src/docs/guides/communications/asterisk_installation.md:261
-#: ../src/docs/guides/containers/lxd_web_servers.md:919
-#: ../src/docs/guides/containers/podman-nextcloud.md:456
-#: ../src/docs/guides/contribute/local_docs.md:47
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:322
-#: ../src/docs/guides/contribute/navigation.md:129
-#: ../src/docs/guides/contribute/rockydocs_formatting.md:458
-#: ../src/docs/guides/database/database_mariadb-server.md:197
-#: ../src/docs/guides/desktop/kde_installation.md:105
-#: ../src/docs/guides/desktop/mate_installation.md:200
-#: ../src/docs/guides/desktop/xfce_installation.md:218
-#: ../src/docs/guides/editors/micro.md:79
-#: ../src/docs/guides/email/postfix_reporting.md:254
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:270
-#: ../src/docs/guides/file_sharing/sftp.md:765
-#: ../src/docs/guides/proxies/pound.md:460
-#: ../src/docs/guides/security/dnf_automatic.md:119
-#: ../src/docs/guides/security/enabling_iptables_firewall.md:54
-#: ../src/docs/guides/security/firewalld-beginners.md:427
-#: ../src/docs/guides/security/firewalld.md:477
-#: ../src/docs/guides/security/pam.md:137
-#: ../src/docs/guides/security/ssl_keys_https.md:136
-#: ../src/docs/guides/virtualization/vbox-rocky.md:160
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:147
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:235
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:157
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:91
-#: ../src/docs/guides/web/mod_SSL_apache.md:171
-#: ../src/docs/guides/web/nginx-mainline.md:352
-#: ../src/docs/guides/web/nginx-multisite.md:359
+#. type: Title #
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
+#: ../src/docs/books/learning_ansible/05-deployments.md:31
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/00-toc.md:13
+#: ../src/docs/books/nvchad/index.md:12
+#: ../src/docs/books/nvchad/plugins/index.md:14
+#: ../src/docs/books/nvchad/plugins/md_preview.md:14
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
+#: ../src/docs/books/nvchad/vale_nvchad.md:12
+#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
+#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
+#: ../src/docs/gemstones/string_color.md:11
+#: ../src/docs/guides/automation/cron_jobs_howto.md:25
+#: ../src/docs/guides/automation/olivetin.md:14
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
+#: ../src/docs/guides/backup/rsnapshot_backup.md:22
+#: ../src/docs/guides/backup/rsync_ssh.md:24
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
+#: ../src/docs/guides/cms/dokuwiki_server.md:23
+#: ../src/docs/guides/containers/lxd_web_servers.md:10
+#: ../src/docs/guides/containers/podman-nextcloud.md:13
+#: ../src/docs/guides/contribute/local_docs.md:11
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
+#: ../src/docs/guides/contribute/mkdocs_venv.md:14
+#: ../src/docs/guides/contribute/style_guide.md:14
+#: ../src/docs/guides/database/database_mariadb-server.md:21
+#: ../src/docs/guides/desktop/kde_installation.md:11
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
+#: ../src/docs/guides/editors/micro.md:14
+#: ../src/docs/guides/email/postfix_reporting.md:22
+#: ../src/docs/guides/file_sharing/glusterfs.md:16
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
+#: ../src/docs/guides/file_sharing/sftp.md:16
+#: ../src/docs/guides/migrate2rocky.md:18
+#: ../src/docs/guides/network/basic_network_configuration.md:12
+#: ../src/docs/guides/network/librenms_monitoring_server.md:13
+#: ../src/docs/guides/package_management/index.md:1
+#: ../src/docs/guides/package_management/index.md:5
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
+#: ../src/docs/guides/proxies/pound.md:17
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
+#: ../src/docs/guides/security/firewalld-beginners.md:10
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
+#: ../src/docs/guides/security/ssh_public_private_keys.md:21
+#: ../src/docs/guides/security/ssl_keys_https.md:22
+#: ../src/docs/guides/virtualization/vbox-rocky.md:13
+#: ../src/docs/guides/web/apache-sites-enabled.md:25
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
+#: ../src/docs/guides/web/nginx-mainline.md:13
+#: ../src/docs/guides/web/nginx-multisite.md:14
+#: ../src/docs/labs/security/introduction.md:1
+#: ../src/docs/labs/security/introduction.md:5
 #, no-wrap
-msgid "Conclusion"
+msgid "Introduction"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
-#: ../src/docs/books/lxd_server/00-toc.md:1
-#: ../src/docs/books/lxd_server/01-install.md:1
-#: ../src/docs/books/lxd_server/02-zfs_setup.md:1
-#: ../src/docs/books/lxd_server/03-lxdinit.md:1
-#: ../src/docs/books/lxd_server/04-firewall.md:1
-#: ../src/docs/books/lxd_server/05-lxd_images.md:1
-#: ../src/docs/books/lxd_server/06-profiles.md:1
-#: ../src/docs/books/lxd_server/07-configurations.md:1
-#: ../src/docs/books/lxd_server/08-snapshots.md:1
-#: ../src/docs/books/lxd_server/09-snapshot_server.md:1
-#: ../src/docs/books/lxd_server/10-automating.md:1
-#: ../src/docs/gemstones/bash_stub.md:1
-#: ../src/docs/guides/automation/cron_jobs_howto.md:1
-#: ../src/docs/guides/backup/rsnapshot_backup.md:1
-#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:1
-#: ../src/docs/guides/cms/dokuwiki_server.md:1
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:1
-#: ../src/docs/guides/contribute/navigation.md:1
-#: ../src/docs/guides/desktop/kde_installation.md:1
-#: ../src/docs/guides/dns/private_dns_server_using_bind.md:1
-#: ../src/docs/guides/email/postfix_reporting.md:1
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:1
-#: ../src/docs/guides/file_sharing/sftp.md:1
-#: ../src/docs/guides/network/librenms_monitoring_server.md:1
-#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
-#: ../src/docs/guides/security/ssh_public_private_keys.md:1
-#: ../src/docs/guides/security/ssl_keys_https.md:1
-#: ../src/docs/guides/web/apache-sites-enabled.md:1
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:1
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
+#: ../src/docs/books/lxd_server/30-appendix_a.md:1
+#: ../src/docs/gemstones/dnf-swap.md:1 ../src/docs/gemstones/docker.md:1
+#: ../src/docs/gemstones/rpaste.md:1
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:1
+#: ../src/docs/guides/proxies/pound.md:1
 #, no-wrap
-msgid "Ezequiel Bruni"
+msgid "Colussi Franco"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/dnf-swap.md:1
+#, no-wrap
+msgid "cloud images"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/dnf-swap.md:1
+#: ../src/docs/guides/containers/podman-nextcloud.md:1
+#, no-wrap
+msgid "containers"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/dnf-swap.md:1
+#: ../src/docs/guides/security/dnf_automatic.md:1
+#, no-wrap
+msgid "dnf"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/dnf-swap.md:1
+#, no-wrap
+msgid "dnf swap"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/dnf-swap.md:1
+#, no-wrap
+msgid "curl"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/dnf-swap.md:1
+#, no-wrap
+msgid "curl-minimal"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/dnf-swap.md:1
+#, no-wrap
+msgid "allowerasing"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/dnf-swap.md:1
+#, no-wrap
+msgid "coreutils-single"
 msgstr ""
 
 #. type: YAML Front Matter: title
-#: ../src/docs/gemstones/bash_stub.md:1
+#: ../src/docs/gemstones/dnf-swap.md:1
 #, no-wrap
-msgid "bash - Script Stub"
+msgid "dnf - swap command"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/dnf-swap.md:21
+msgid "In order to make container images and cloud images as small as possible, distribution maintainers and packagers may sometimes ship stripped down versions of popular packages. Examples of stripped down packages bundled with container or cloud images are **vim-minimal, curl-minimal, coreutils-single** and so on."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/dnf-swap.md:23
+msgid "Although some of the shipped packages are stripped down versions, they are often fully acceptable for most use cases."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/dnf-swap.md:25
+msgid "For cases, when the stripped down package is not enough, you can use the `dnf swap` command to quickly replace the minimal package with the regular package."
 msgstr ""
 
 #. type: Title #
-#: ../src/docs/gemstones/bash_stub.md:7
+#: ../src/docs/gemstones/dnf-swap.md:26
 #, no-wrap
-msgid "Bash - Script Stub"
+msgid "Objective"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/gemstones/bash_stub.md:10
-msgid "Where I was previously employed, we had an ace programmer who knew a bunch of languages. He was also the go-to guy when you had questions on how to accomplish something with a script. He finally created a little stub, a file full of scripting examples that you could just strip out and edit as needed. Eventually, I got good enough at these routines that I didn't have to look at the stub, but it was a good learning tool, and something that others may find useful."
+#: ../src/docs/gemstones/dnf-swap.md:29
+msgid "This Rocky Linux GEMstone demonstrates how to use **dnf** to _swap_ the bundled `curl-minimal` package with the regular `curl` package."
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/gemstones/bash_stub.md:11
+#: ../src/docs/gemstones/dnf-swap.md:31
 #, no-wrap
-msgid "The Actual Stub"
+msgid "Check existing curl variant"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/gemstones/bash_stub.md:14
-msgid "The stub is well documented, but keep in mind that this is by no means an exhaustive script! There are a lot more routines that could be added. If **you** have examples that would fit nicely into this stub, then please feel free to add some changes:"
+#: ../src/docs/gemstones/dnf-swap.md:34
+msgid "While logged into your container or virtual machine environment as a user with Administrative privileges, first verify the variant of `curl` package installed. Type:"
 msgstr ""
 
-#. type: Fenced code block
-#: ../src/docs/gemstones/bash_stub.md:15
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/dnf-swap.md:35
 #, no-wrap
-msgid "#!/bin/sh\n\n"
-"# By exporting the path, this keeps you from having to enter full paths for commands that exist in those paths:\n\n"
-"export PATH=\"$PATH:/bin:/usr/bin:/usr/local/bin\"\n\n"
-"# Determine and save absolute path to program directory.\n"
-"# Attention! In bash, the ' 'represents the string itself; But \" \" is a little different. $, ` `, and \\ represent call variable values, reference commands, and escape characters, respectively\n"
-"# When done will be in same directory as script:\n\n"
-"PGM=`basename $0`\t\t\t\t# Name of the program\n"
-"CDIR=`pwd`\t\t\t\t\t# Save directory program was run from\n\n"
-"PDIR=`dirname $0`\n"
-"cd $PDIR\n"
-"PDIR=`pwd`\n\n"
-"# If a program accepts filenames as arguments, this will put us back where we started.\n"
-"# (Needed so references to files using relative paths work.):\n\n"
-"cd $CDIR\n\n"
-"# Use this if script must be run by certain user:\n\n"
-"runby=\"root\"\n"
-"iam=`/usr/bin/id -un`\n"
-"if [ $iam != \"$runby\" ]\n"
-"then\n"
-"\techo \"$PGM : program must be run by user \\\"$runby\\\"\"\n"
-"\texit\n"
-"fi\n\n"
-"# Check for missing parameter.\n"
-"# Display usage message and exit if it is missing:\n\n"
-"if [ \"$1\" = \"\" ]\n"
-"then\n"
-"\techo \"$PGM : parameter 1 is required\"\n"
-"\techo \"Usage: $PGM param-one\"\n"
-"\texit\n"
-"fi\n\n"
-"# Prompt for data (in this case a yes/no response that defaults to \"N\"):\n\n"
-"/bin/echo -n \"Do you wish to continue? [y/N] \"\n"
-"read yn\n"
-"if [ \"$yn\" != \"y\" ] && [ \"$yn\" != \"Y\" ]\n"
-"then\n"
-"\techo \"Cancelling...\"\n"
-"\texit;\n"
-"fi\n\n"
-"# If only one copy of your script can run at a time, use this block of code.\n"
-"# Check for lock file.  If it doesn't exist create it.\n"
-"# If it does exist, display error message and exit:\n\n"
-"LOCKF=\"/tmp/${PGM}.lock\"\n"
-"if [ ! -e $LOCKF ]\n"
-"then\n"
-"\ttouch $LOCKF\n"
-"else\n"
-"\techo \"$PGM: cannot continue -- lock file exists\"\n"
-"\techo\n"
-"\techo \"To continue make sure this program is not already running, then delete the\"\n"
-"\techo \"lock file:\"\n"
-"\techo\n"
-"\techo \"    rm -f $LOCKF\"\n"
-"\techo\n"
-"\techo \"Aborting...\"\n"
-"\texit 0\n"
-"fi\n\n"
-"script_list=`ls customer/*`\n\n"
-"for script in $script_list\n"
-"do\n"
-"\tif [ $script != $PGM ]\n"
-"\tthen\n"
-"\t\techo \"./${script}\"\n"
-"\tfi\n"
-"done\n\n"
-"# Remove the lock file\n\n"
-"rm -f $LOCKF\n"
+msgid "# rpm -qa | grep  ^curl-minimal\n"
+"curl-minimal-*\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/gemstones/bash_stub.md:105
-msgid "Scripting is a System Administrator's friend. Being able to quickly do certain tasks in a script streamlines process completion. While by no means an exhaustive set of script routines, this stub offers some common usage examples."
+#: ../src/docs/gemstones/dnf-swap.md:41
+msgid "We have curl-minimal on our demo system!"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/gemstones/dnf-swap.md:43
+#, no-wrap
+msgid "Swap curl-minimal for curl"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/dnf-swap.md:46
+msgid "Use `dnf` to swap the installed `curl-minimal` package with regular `curl` package."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/dnf-swap.md:47
+#, no-wrap
+msgid "# dnf -y swap curl-minimal curl\n\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/gemstones/dnf-swap.md:52
+#, no-wrap
+msgid "Check new curl package variant"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/dnf-swap.md:55
+msgid "To confirm the changes, query the rpm database again for the installed curl package(s) by running:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/dnf-swap.md:56
+#, no-wrap
+msgid "# rpm -qa | grep  ^curl\n"
+"curl-*\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/dnf-swap.md:63
+msgid "And it's a GEM !"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/gemstones/dnf-swap.md:65 ../src/docs/gemstones/docker.md:39
+#: ../src/docs/gemstones/nmcli.md:33
+#: ../src/docs/guides/containers/lxd_web_servers.md:913
+#, no-wrap
+msgid "Notes"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/dnf-swap.md:68
+msgid "DNF Swap Command"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/dnf-swap.md:70
+#, no-wrap
+msgid "**Syntax**:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/dnf-swap.md:71
+#, no-wrap
+msgid "dnf [options] swap <package-to-be-removed> <replacement-package>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/dnf-swap.md:76
+msgid "Under the hood, `dnf swap` uses DNF's `--allowerasing` option to resolve any package conflict issues. Therefore the curl minimal example demonstrated in this GEMstone could also have been done by running:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/dnf-swap.md:78
+#, no-wrap
+msgid "dnf install -y --allowerasing curl\n"
 msgstr ""
 
