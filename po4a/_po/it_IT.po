@@ -13,319 +13,599 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: it\n"
-"X-Crowdin-File: /po4a/po4a/_po/contribute_rockydocs_webdev_v2.pot\n"
-"X-Crowdin-File-ID: 1275\n"
+"X-Crowdin-File: /po4a/po4a/_po/contribute_style_guide.pot\n"
+"X-Crowdin-File-ID: 1277\n"
 
 #. type: YAML Front Matter: contributors
-#: ../src/docs/books/lxd_server/30-appendix_a.md:1
-#: ../src/docs/gemstones/dnf-swap.md:1 ../src/docs/gemstones/docker.md:1
-#: ../src/docs/gemstones/rpaste.md:1
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:1
-#: ../src/docs/guides/proxies/pound.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part3.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:1
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:1
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:1
+#: ../src/docs/books/learning_bash/00-toc.md:1
+#: ../src/docs/books/learning_bash/01-first-script.md:1
+#: ../src/docs/books/learning_bash/02-using-variables.md:1
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:1
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:1
+#: ../src/docs/books/learning_bash/05-tests.md:1
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:1
+#: ../src/docs/books/learning_bash/07-loops.md:1
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:1
+#: ../src/docs/books/learning_rsync/01_rsync_overview.md:1
+#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:1
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:1
+#: ../src/docs/books/learning_rsync/05_rsync_authentication-free_login.md:1
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:1
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:1
+#: ../src/docs/books/nvchad/additional_software.md:1
+#: ../src/docs/books/nvchad/index.md:1
+#: ../src/docs/books/nvchad/install_nvchad.md:1
+#: ../src/docs/books/nvchad/install_nvim.md:1
+#: ../src/docs/books/nvchad/nerd_fonts.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:1
+#: ../src/docs/books/nvchad/plugins/index.md:1
+#: ../src/docs/books/nvchad/plugins/md_preview.md:1
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:1
+#: ../src/docs/books/nvchad/template_chadrc.md:1
+#: ../src/docs/gemstones/RL9_network_manager.md:1
+#: ../src/docs/gemstones/htop.md:1 ../src/docs/gemstones/mtr.md:1
+#: ../src/docs/gemstones/setup_local_repo.md:1
+#: ../src/docs/gemstones/string_color.md:1
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:1
+#: ../src/docs/gemstones/view_kernel_conf.md:1
+#: ../src/docs/guides/automation/anacron.md:1
+#: ../src/docs/guides/automation/cronie.md:1
+#: ../src/docs/guides/automation/olivetin.md:1
+#: ../src/docs/guides/communications/asterisk_installation.md:1
+#: ../src/docs/guides/containers/lxd_web_servers.md:1
+#: ../src/docs/guides/contribute/local_docs.md:1
+#: ../src/docs/guides/contribute/mkdocs_venv.md:1
+#: ../src/docs/guides/contribute/style_guide.md:1
+#: ../src/docs/guides/editors/micro.md:1
+#: ../src/docs/guides/file_sharing/glusterfs.md:1
+#: ../src/docs/guides/installation.md:1
+#: ../src/docs/guides/security/dnf_automatic.md:1
+#: ../src/docs/guides/security/firewalld-beginners.md:1
+#: ../src/docs/guides/web/nginx-multisite.md:1 ../src/docs/guides/web/php.md:1
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:1
 #, no-wrap
-msgid "Colussi Franco"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:195
-#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:262
-#: ../src/docs/guides/cms/dokuwiki_server.md:191
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:125
-msgid "OR"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/contribute/local_docs.md:19
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:44
-#, no-wrap
-msgid "git clone https://github.com/rocky-linux/docs.rockylinux.org.git\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/contribute/mkdocs_venv.md:150
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:41
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:36
-#, no-wrap
-msgid "git clone https://github.com/rocky-linux/documentation.git\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:17
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:16
-msgid "You are interested in learning about and contributing to the web development aspects of the docs.rockylinux.org website"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:17
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:16
-msgid "You are an author and you'd like to see how your documents will render/look on the docs website before contributing them"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:26
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:164
-msgid "The instructions in this guide are **NOT** a prerequisite for Rocky documentation Authors/Content contributors"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:28
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:18
-#, no-wrap
-msgid "Create the content environment"
-msgstr ""
-
-#. type: Bullet: '3. '
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:40
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:35
-msgid "Make sure you have `git` installed (`dnf -y install git`).  While in $ROCKYDOCS use git to clone the official Rocky Documentation content repo. Type:"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:46
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:41
-msgid "You'll now have a `$ROCKYDOCS/documentation` folder. This folder is a git repository and under git's control."
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:48
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:51
-#, no-wrap
-msgid "Create and Start the RockyDocs web developmwnt environment"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:96
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:106
-#, no-wrap
-msgid "docker-compose  up\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:101
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:111
-#, no-wrap
-msgid "View the local docs.rockylinux.org website"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:104
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:121
-msgid "With the container up and running, you should now be able to point your web browser to the following URL to view your local copy of the site:"
-msgstr ""
-
-#. type: YAML Front Matter: title
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:1
-#, no-wrap
-msgid "Local Documentation - Podman"
+msgid "Steven Spencer"
 msgstr ""
 
 #. type: Title #
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:8
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
+#: ../src/docs/books/learning_ansible/05-deployments.md:31
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/00-toc.md:13
+#: ../src/docs/books/nvchad/index.md:12
+#: ../src/docs/books/nvchad/plugins/index.md:14
+#: ../src/docs/books/nvchad/plugins/md_preview.md:14
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
+#: ../src/docs/books/nvchad/vale_nvchad.md:12
+#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
+#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
+#: ../src/docs/gemstones/string_color.md:11
+#: ../src/docs/guides/automation/cron_jobs_howto.md:25
+#: ../src/docs/guides/automation/olivetin.md:14
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
+#: ../src/docs/guides/backup/rsnapshot_backup.md:22
+#: ../src/docs/guides/backup/rsync_ssh.md:24
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
+#: ../src/docs/guides/cms/dokuwiki_server.md:23
+#: ../src/docs/guides/containers/lxd_web_servers.md:10
+#: ../src/docs/guides/containers/podman-nextcloud.md:13
+#: ../src/docs/guides/contribute/local_docs.md:11
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
+#: ../src/docs/guides/contribute/mkdocs_venv.md:14
+#: ../src/docs/guides/contribute/style_guide.md:14
+#: ../src/docs/guides/database/database_mariadb-server.md:21
+#: ../src/docs/guides/desktop/kde_installation.md:11
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
+#: ../src/docs/guides/editors/micro.md:14
+#: ../src/docs/guides/email/postfix_reporting.md:22
+#: ../src/docs/guides/file_sharing/glusterfs.md:16
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
+#: ../src/docs/guides/file_sharing/sftp.md:16
+#: ../src/docs/guides/migrate2rocky.md:18
+#: ../src/docs/guides/network/basic_network_configuration.md:12
+#: ../src/docs/guides/network/librenms_monitoring_server.md:13
+#: ../src/docs/guides/package_management/index.md:1
+#: ../src/docs/guides/package_management/index.md:5
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
+#: ../src/docs/guides/proxies/pound.md:17
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
+#: ../src/docs/guides/security/firewalld-beginners.md:10
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
+#: ../src/docs/guides/security/ssh_public_private_keys.md:21
+#: ../src/docs/guides/security/ssl_keys_https.md:22
+#: ../src/docs/guides/virtualization/vbox-rocky.md:13
+#: ../src/docs/guides/web/apache-sites-enabled.md:25
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
+#: ../src/docs/guides/web/nginx-mainline.md:13
+#: ../src/docs/guides/web/nginx-multisite.md:14
+#: ../src/docs/labs/security/introduction.md:1
+#: ../src/docs/labs/security/introduction.md:5
 #, no-wrap
-msgid "Running the docs.rockylinux.org website locally for web development | Podman"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:13
-msgid "This document walks through the steps of how to recreate and run a local copy of the entire docs.rockylinux.org website on your local machine.  Running a local copy of the documentation website might be useful in the following scenarios:"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:21
-msgid "Make sure that the prerequisites are satisfied. If not please skip to the \"[Setup the prerequisites](#setup-the-prerequisites)\" section and then return here."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:25
-#, no-wrap
-msgid "2. Change the current working directory on your local system to a folder where you intend to do your writing. \n"
-"  We'll refer to this directory as\n"
-"`$ROCKYDOCS` in the rest of this guide.  For our demo here, `$ROCKYDOCS` points to `$HOME/projects/rockydocs` on our demo system.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:27
-msgid "Create $ROCKYDOCS if it doesn't already exist and change your working directory to $ROCKYDOCS type:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:28
-#, no-wrap
-msgid "mkdir -p $HOME/projects/rockydocs\n"
-"export ROCKYDOCS=${HOME}/projects/rockydocs\n"
-"cd  $ROCKYDOCS\n"
-msgstr ""
-
-#. type: Bullet: '4. '
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:43
-msgid "Also use git to clone the official docs.rockylinux.org repo. Type:"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:49
-msgid "You'll now have a `$ROCKYDOCS/docs.rockylinux.org` folder. This folder is where you can experiment with your web development contributions."
-msgstr ""
-
-#. type: Bullet: '5.  '
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:54
-msgid "Make sure you have podman up and running on your local machine (you can check with `systemctl `). Test by running:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:55
-#, no-wrap
-msgid "systemctl  enable --now podman.socket\n"
-msgstr ""
-
-#. type: Bullet: '6. '
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:60
-msgid "Create a new `docker-compose.yml` file with the following contents:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:61
-#, no-wrap
-msgid "version: '2'\n"
-"services:\n"
-"  mkdocs:\n"
-"    privileged: true\n"
-"    image: rockylinux:9.1\n"
-"    ports:\n"
-"      - 8001:8001\n"
-"    environment:\n"
-"      PIP_NO_CACHE_DIR: \"off\"\n"
-"      PIP_DISABLE_PIP_VERSION_CHECK: \"on\"\n"
-"    volumes:\n"
-"       - type: bind\n"
-"         source: ./documentation\n"
-"         target: /app/docs\n"
-"       - type: bind\n"
-"         source: ./docs.rockylinux.org\n"
-"         target: /app/docs.rockylinux.org\n"
-"    working_dir: /app\n"
-"    command: bash -c \"dnf install -y python3 pip git && \\\n"
-"       ln -sfn  /app/docs   docs.rockylinux.org/docs && \\\n"
-"       cd docs.rockylinux.org && \\\n"
-"       git config  --global user.name webmaster && \\\n"
-"       git config  --global user.email webmaster@rockylinux.org && \\\n"
-"       curl -SL https://raw.githubusercontent.com/rocky-linux/documentation-test/main/docs/labs/mike-plugin-changes.patch -o mike-plugin-changes.patch && \\\n"
-"       git apply --reverse --check mike-plugin-changes.patch && \\\n"
-"       /usr/bin/pip3 install --no-cache-dir -r requirements.txt && \\\n"
-"       /usr/local/bin/mike deploy -F mkdocs.yml 9.1 91alias && \\\n"
-"       /usr/local/bin/mike set-default 9.1 && \\\n"
-"       echo  All done && \\\n"
-"       /usr/local/bin/mike serve  -F mkdocs.yml -a  0.0.0.0:8001\"\n"
-"       \n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:96
-msgid "Save the file with the file name `docker-compose.yml` in your $ROCKYDOCS working directory."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:98
-msgid "You can also quickly download a copy of the docker-compose.yml file by running:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:99
-#, no-wrap
-msgid "curl -SL https://raw.githubusercontent.com/rocky-linux/documentation-test/main/docs/labs/docker-compose-rockydocs.yml -o docker-compose.yml\n"
-msgstr ""
-
-#. type: Bullet: '7. '
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:105
-msgid "Finally use docker-compose to bring up the service. Type:"
-msgstr ""
-
-#. type: Bullet: '8. '
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:114
-msgid "Just in case you have a firewall running on your Rocky Linux system, ensure that port 8001 is open. Type:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:115
-#, no-wrap
-msgid "firewall-cmd  --add-port=8001/tcp  --permanent\n"
-"firewall-cmd  --reload\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:123
-msgid "http://localhost:8001"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:127
-#, no-wrap
-msgid "http://<SERVER_IP>:8001\n"
+msgid "Introduction"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:131
+#: ../src/docs/guides/automation/cronie.md:121
+#: ../src/docs/guides/contribute/style_guide.md:137
 #, no-wrap
-msgid "Setup the prerequisites"
+msgid "Summary"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:134
-msgid "Install and setup podman and other tools by running:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:135
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:1
+#: ../src/docs/guides/contribute/navigation.md:1
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:1
+#: ../src/docs/guides/contribute/style_guide.md:1
 #, no-wrap
-msgid "sudo dnf -y install podman podman-docker git\n\n"
-"sudo systemctl enable --now  podman.socket\n\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:143
-msgid "Install docker-compose and make it executable. Type:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:144
-#, no-wrap
-msgid "curl -SL https://github.com/docker/compose/releases/download/v2.16.0/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose\n\n"
-"chmod 755 /usr/local/bin/docker-compose\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:152
-msgid "Fix permissions on docker socket. Type:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:153
-#, no-wrap
-msgid "sudo chmod 666 /var/run/docker.sock\n"
+msgid "contribute"
 msgstr ""
 
 #. type: Title ###
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:158
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:36
+#: ../src/docs/guides/contribute/style_guide.md:100
 #, no-wrap
-msgid "Notes:"
+msgid "Admonitions"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:209
+#: ../src/docs/guides/contribute/style_guide.md:119
+#, no-wrap
+msgid "Tables"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/contribute/style_guide.md:1
+#, no-wrap
+msgid "style guide"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/guides/contribute/style_guide.md:1
+#, no-wrap
+msgid "Style Guide"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/guides/contribute/style_guide.md:10
+#, no-wrap
+msgid "Rocky Linux Documentation Style Guide"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/style_guide.md:13
+#, no-wrap
+msgid "*Rocky Linux is the fastest-growing enterprise Linux in the world, with its documentation also growing exponentially thanks to contributors like you. Your content is welcome in any format, and the RL document stylists will help you align it with the standards set forth here.*\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/contribute/style_guide.md:16
+#, no-wrap
+msgid "About"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/style_guide.md:19
+#, no-wrap
+msgid "*New contributions are welcome to grow this into the definitive spot on the web for information about using Rocky Linux. You can create docs in the format that makes sense to you, and the documentation team will work with you or otherwise help format it so it looks and feels like part of the Rocky family.*\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/style_guide.md:21
+msgid "This guide outlines English-language style standards to **improve readability, highlight special cases,** and **enhance translation work** across Rocky Linux documentation. For style questions not addressed in this guide, please refer to the following:"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:164
-msgid "The entire environment runs in a Podman container and so you'll need Podman properly setup on your local machine"
+#: ../src/docs/guides/contribute/style_guide.md:24
+msgid "[Merriam Webster Dictionary](https://www.merriam-webster.com/)"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:164
-msgid "The container is built on top of the official Rocky Linux 9.1 docker image available here https://hub.docker.com/r/rockylinux/rockylinux"
+#: ../src/docs/guides/contribute/style_guide.md:24
+msgid "[Chicago Manual of Style (CMOS), 17th ed.](https://www.chicagomanualofstyle.org/home.html)"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/style_guide.md:25 ../src/docs/index.md:55
+#, no-wrap
+msgid "Contributing"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/style_guide.md:28
+msgid "For a more complete understanding of contributing, please consult our related guides:"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:164
-msgid "The container keeps the documentation content separate from the web engine (mkdocs)"
+#: ../src/docs/guides/contribute/style_guide.md:32
+msgid "[Rocky Linux Contribution Guide](https://docs.rockylinux.org/guides/contribute/) for system and software requirements for getting started."
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:164
-msgid "The container starts a local web server listening on port 8001."
+#: ../src/docs/guides/contribute/style_guide.md:32
+msgid "[Rocky Linux First Time Contributors Guide](../beginners/) for an orientation to GitHub, our documentation home base."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:32
+msgid "[Rocky Docs Formatting](../rockydocs_formatting/) for Markdown structure."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/style_guide.md:33
+#, no-wrap
+msgid "Style Guidelines"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/style_guide.md:36
+#, no-wrap
+msgid "*RL documentation aims to use clear and consistent language, for accessibility as well as to aid ongoing translation efforts.*\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/contribute/style_guide.md:37
+#, no-wrap
+msgid "Grammar and Punctuation"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/style_guide.md:40
+#, no-wrap
+msgid "**Distinctives for technical writing** as outlined in the Chicago Manual of Style include the following:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:47
+msgid "Double quotation marks (“Chicago style”) rather than single quotation marks (‘Oxford style’)."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:47
+msgid "Periods and commas go inside quotation marks “like this,” rather than “like this”."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:47
+msgid "The em dash {shift}+{option}+{-} has no spaces before or after—like this—and is preferred for parenthetical phrases."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:47
+msgid "Use a serial comma before the “and” in a list of three items: “Peas, mustard, and carrots.”"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:47
+msgid "Headings should be generally made in headline-style capitalization: Capitalize the first and last words, as well as all nouns, pronouns, verbs, and adverbs. If your document works better with sentence-style capitalization, perhaps because you make frequent references to acronyms, just make it consistent within the entire document."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:47
+msgid "Headings do not need a period or semicolon at the end, even with sentence-style capitalization, unless ending in an abbreviation."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/contribute/style_guide.md:48
+#, no-wrap
+msgid "Voice and Tone"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:65
+msgid "**Plain language.** This can be described as a *less-conversational* style. Most of our documentation fits within this standard."
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/contribute/style_guide.md:65
+msgid "Avoid metaphors and idioms."
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/contribute/style_guide.md:65
+msgid "Say what you mean in as few words as possible."
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/contribute/style_guide.md:65
+msgid "Identify and avoid unnecessarily technical terms. Consider that your audience is mostly people who have some familiarity with the subject matter, but may not be subject-matter experts."
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/contribute/style_guide.md:65
+msgid "Exceptions to plain language:"
+msgstr ""
+
+#. type: Bullet: '        * '
+#: ../src/docs/guides/contribute/style_guide.md:65
+msgid "For documentation addressed to newcomers or beginners, or for writing content such as a blog post, a more conversational style is appropriate."
+msgstr ""
+
+#. type: Bullet: '        * '
+#: ../src/docs/guides/contribute/style_guide.md:65
+msgid "For documentation addressed to advanced users or API (Application Programming Interface) documentation, a more formal or terse wording style is appropriate."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:65
+msgid "**Inclusive language.**"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/contribute/style_guide.md:65
+msgid "Language use evolves over time. Certain words have evolved to carry negative connotations so documentation should be rewritten to use new words."
+msgstr ""
+
+#. type: Bullet: '        * '
+#: ../src/docs/guides/contribute/style_guide.md:65
+msgid "*Master/slave* becomes *primary/secondary* or an agreed upon organizational standard."
+msgstr ""
+
+#. type: Bullet: '        * '
+#: ../src/docs/guides/contribute/style_guide.md:65
+msgid "*Blacklist/whitelist* becomes *blocklist/allowlist* or an agreed upon organizational standard."
+msgstr ""
+
+#. type: Bullet: '        * '
+#: ../src/docs/guides/contribute/style_guide.md:65
+msgid "You may think of other relevant examples as you create documentation."
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/contribute/style_guide.md:65
+msgid "When speaking of a person of *unknown* or *non-binary* gender, it is now considered acceptable to use “they” as a singular pronoun."
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/contribute/style_guide.md:65
+msgid "When speaking of one’s capabilities, frame answers as *abilities* rather than *limitations.* For example, if you are wondering whether we have documentation about running Steam on Rocky Linux, the answer is not just “no.” Rather, “Sounds like that’s a great place for you to create something to add to our tree!”"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:65
+msgid "**Avoid contractions.** This assists with translation efforts. The exception to this is when writing something in a more conversational tone, such as blog posts or welcome instructions for new members of the community."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/style_guide.md:66
+#, no-wrap
+msgid "Formatting"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/contribute/style_guide.md:68
+#, no-wrap
+msgid "Dates"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/style_guide.md:71
+msgid "When possible use the name of the month in the format {day} {Month} {year}. However, {Month} {day}, {year} is also acceptable to resolve clarity or appearance issues. Either way, to avoid creating confusion, write out month names rather than using a series of numbers.  For example: 24 January 2023, but January 24, 2023 is also acceptable—with both preferable over 1/24/2023 or 24/01/2023."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/contribute/style_guide.md:72
+#, no-wrap
+msgid "Single-step Procedures"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/style_guide.md:75
+msgid "If you have a procedure with only one step, use a bullet rather than a number. For example:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:77
+msgid "Implement this idea and move on."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/contribute/style_guide.md:78
+#, no-wrap
+msgid "Graphical Interface Language"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:81
+msgid "Text instructions regarding a UI: When describing a command to be entered into a user interface, use the word “enter” rather than “put” or “type.” Use a codeblock to write out the command (i.e., set it off with backticks):"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/style_guide.md:84
+#, no-wrap
+msgid "*Example Markdown text*\n"
+"`In the **commit message** box, enter update_thisdoc.`\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:86
+msgid "Names of UI elements: **Bold** names of UI elements such as buttons, menu items, names of dialog boxes, and more, even if the word will not be clickable:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/style_guide.md:89
+#, no-wrap
+msgid "*Example Markdown text*\n"
+"`In the **Format** menu, click **Line Spacing**.`\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/style_guide.md:90
+#, no-wrap
+msgid "Structure"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/contribute/style_guide.md:92
+#, no-wrap
+msgid "Starting content of each guide, or page/chapter of a book"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:99
+msgid "**Abstract.** A brief statement of what to expect from this page"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:99
+msgid "**Objectives.** A bulleted list of what this page will convey to the reader"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:99
+msgid "**Skills** required/learned."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:99
+msgid "**Difficulty level.** 1 star for easy, 2 for intermediate, etc."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:99
+msgid "**Reading time.** Divide the number of words in your document by a reading rate of 75 words per minute to determine this number."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/style_guide.md:103
+msgid "Within Markdown, admonitions are a way to put information into a box to highlight it. They are not essential to documentation, but they are a tool you may find useful. Learn more about admonitions from our [Rocky Formatting doc](../rockydocs_formatting/)."
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/style_guide.md:104
+#, no-wrap
+msgid "Accessibility"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/style_guide.md:107
+#, no-wrap
+msgid "*The following standards enhance accessibility for those using accommodations, such as screen readers, to access our documentation.*\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/style_guide.md:108
+#: ../src/docs/release_notes/8_8.md:15 ../src/docs/release_notes/9_2.md:53
+#, no-wrap
+msgid "Images"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:113
+msgid "Provide text descriptions in alt-text or captions for every non-text item such as diagrams, images, or icons."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:113
+msgid "Avoid screenshots of text when possible."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:113
+msgid "Make alt-text meaningful, not just descriptive. For action icons, for example, enter a description of the function rather than a description of its appearance."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/contribute/style_guide.md:114
+#, no-wrap
+msgid "Links"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:118
+msgid "Make links descriptive, so it is obvious where they will lead either from the text itself or from context. Avoid hyperlinks with names like “click here.”"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:118
+msgid "Verify that all links work as described."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:124
+msgid "Create tables with a logical order left to right, top to bottom."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:124
+msgid "Avoid blank cells at the top or left of the table."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:124
+msgid "Avoid merged cells that span multiple columns."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/contribute/style_guide.md:125
+#, no-wrap
+msgid "Colors"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:130
+msgid "Some elements in Markdown, such as admonitions, have an assigned color to assist with visual comprehension. In general they also have an assigned name; for example, the “danger” admonition displays a red box but also has the descriptor “danger” built into the description. But when creating a custom admonition, be aware that color cannot be the only means of communicating a command or level of warning."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:130
+msgid "Any command that includes a sensory direction, such as *above* or *below*, *color*, *size*, *visual location* on the page, etc., should also include a direction that is communicable by only text description."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:130
+msgid "When creating a graphical element, make sure that there is enough contrast between the foreground and background colors to be easy for a screen reader to interpret."
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/contribute/style_guide.md:131
+#, no-wrap
+msgid "Headings"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:136
+msgid "Use all levels of headings without skipping any levels."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:136
+msgid "Nest all material under headings to aid in readability."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/style_guide.md:136
+msgid "Remember that in Markdown only one Level One heading may be used."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/style_guide.md:140
+msgid "This document lays out our contribution standards, including **style guidelines,** how to **structure** your document, and ways to incorporate **inclusivity** and **accessibility** into the text. These are the standards to which we aspire. As you are able, keep these standards in mind when creating and modifying documentation."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/style_guide.md:142
+msgid "However—and do not miss this caveat—**treat these standards as a tool, not an obstacle.** In the spirit of inclusivity and accessibility, we want to make sure your contribution has a smooth entry into the Rocky family tree. We are a friendly and helpful team of documentarians and stylists, and we will help shepherd your document into its final form."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/style_guide.md:143
+msgid "Are you ready? Let’s get started!"
 msgstr ""
 
