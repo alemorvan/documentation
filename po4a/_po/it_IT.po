@@ -13,207 +13,33 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: it\n"
-"X-Crowdin-File: /po4a/po4a/_po/gemstones_systemd_service_for_python_script.pot\n"
-"X-Crowdin-File-ID: 1319\n"
+"X-Crowdin-File: /po4a/po4a/_po/gemstones_view_kernel_conf.pot\n"
+"X-Crowdin-File-ID: 1321\n"
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/04-advanced-commands.md:43
-#: ../src/docs/books/admin_guide/04-advanced-commands.md:220
-#: ../src/docs/books/admin_guide/04-advanced-commands.md:271
-#: ../src/docs/books/admin_guide/04-advanced-commands.md:334
-#: ../src/docs/books/admin_guide/05-vi.md:70
-#: ../src/docs/books/admin_guide/05-vi.md:206
-#: ../src/docs/books/admin_guide/05-vi.md:272
-#: ../src/docs/books/admin_guide/06-users.md:36
-#: ../src/docs/books/admin_guide/06-users.md:92
-#: ../src/docs/books/admin_guide/06-users.md:220
-#: ../src/docs/books/admin_guide/06-users.md:350
-#: ../src/docs/books/admin_guide/06-users.md:598
-#: ../src/docs/books/admin_guide/06-users.md:754
-#: ../src/docs/books/admin_guide/06-users.md:818
-#: ../src/docs/books/admin_guide/11-tasks.md:174
-#: ../src/docs/books/admin_guide/12-network.md:158
-#: ../src/docs/books/admin_guide/03-commands.md:516
-#: ../src/docs/books/admin_guide/03-commands.md:693
-#: ../src/docs/books/admin_guide/03-commands.md:1216
-#: ../src/docs/books/admin_guide/03-commands.md:1262
-#: ../src/docs/books/admin_guide/03-commands.md:1297
-#: ../src/docs/books/admin_guide/07-file-systems.md:395
-#: ../src/docs/books/admin_guide/07-file-systems.md:437
-#: ../src/docs/books/admin_guide/07-file-systems.md:447
-#: ../src/docs/books/admin_guide/07-file-systems.md:515
-#: ../src/docs/books/admin_guide/07-file-systems.md:556
-#: ../src/docs/books/admin_guide/07-file-systems.md:627
-#: ../src/docs/books/admin_guide/07-file-systems.md:653
-#: ../src/docs/books/admin_guide/07-file-systems.md:672
-#: ../src/docs/books/admin_guide/07-file-systems.md:676
-#: ../src/docs/books/admin_guide/07-file-systems.md:1019
-#: ../src/docs/books/admin_guide/08-process.md:49
-#: ../src/docs/books/admin_guide/08-process.md:238
-#: ../src/docs/books/admin_guide/09-backups.md:27
-#: ../src/docs/books/admin_guide/09-backups.md:116
-#: ../src/docs/books/admin_guide/09-backups.md:133
-#: ../src/docs/books/admin_guide/09-backups.md:148
-#: ../src/docs/books/admin_guide/09-backups.md:281
-#: ../src/docs/books/admin_guide/09-backups.md:285
-#: ../src/docs/books/admin_guide/09-backups.md:301
-#: ../src/docs/books/admin_guide/09-backups.md:342
-#: ../src/docs/books/admin_guide/09-backups.md:352
-#: ../src/docs/books/admin_guide/09-backups.md:554
-#: ../src/docs/books/admin_guide/09-backups.md:771
-#: ../src/docs/books/admin_guide/10-boot.md:114
-#: ../src/docs/books/admin_guide/10-boot.md:153
-#: ../src/docs/books/admin_guide/10-boot.md:165
-#: ../src/docs/books/admin_guide/13-softwares.md:22
-#: ../src/docs/books/learning_ansible/01-basic.md:51
-#: ../src/docs/books/learning_ansible/01-basic.md:104
-#: ../src/docs/books/learning_ansible/01-basic.md:112
-#: ../src/docs/books/learning_ansible/01-basic.md:328
-#: ../src/docs/books/learning_ansible/01-basic.md:415
-#: ../src/docs/books/learning_ansible/01-basic.md:492
-#: ../src/docs/books/learning_ansible/01-basic.md:633
-#: ../src/docs/books/learning_ansible/01-basic.md:656
-#: ../src/docs/books/learning_ansible/02-advanced.md:34
-#: ../src/docs/books/learning_ansible/02-advanced.md:150
-#: ../src/docs/books/learning_ansible/02-advanced.md:182
-#: ../src/docs/books/learning_ansible/02-advanced.md:269
-#: ../src/docs/books/learning_ansible/02-advanced.md:277
-#: ../src/docs/books/learning_ansible/02-advanced.md:287
-#: ../src/docs/books/learning_ansible/02-advanced.md:293
-#: ../src/docs/books/learning_ansible/02-advanced.md:360
-#: ../src/docs/books/learning_ansible/02-advanced.md:428
-#: ../src/docs/books/learning_ansible/02-advanced.md:601
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:33
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:58
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:77
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:96
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:113
-#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:65
-#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:432
-#: ../src/docs/books/learning_ansible/05-deployments.md:41
-#: ../src/docs/books/learning_ansible/05-deployments.md:124
-#: ../src/docs/books/learning_ansible/05-deployments.md:196
-#: ../src/docs/books/learning_ansible/05-deployments.md:616
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:36
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:40
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:80
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:214
-#: ../src/docs/books/learning_ansible/07-working-with-filters.md:32
-#: ../src/docs/books/learning_ansible/07-working-with-filters.md:75
-#: ../src/docs/books/learning_bash/02-using-variables.md:153
-#: ../src/docs/books/learning_bash/02-using-variables.md:193
-#: ../src/docs/books/learning_bash/05-tests.md:245
-#: ../src/docs/books/learning_bash/07-loops.md:180
-#: ../src/docs/books/lxd_server/04-firewall.md:80
-#: ../src/docs/books/nvchad/plugins/md_preview.md:140
-#: ../src/docs/books/nvchad/template_chadrc.md:239
-#: ../src/docs/gemstones/https_rsa_keygen.md:34
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:80
-#: ../src/docs/guides/8_6_installation.md:37
-#: ../src/docs/guides/8_6_installation.md:168
-#: ../src/docs/guides/8_6_installation.md:176
-#: ../src/docs/guides/8_6_installation.md:182
-#: ../src/docs/guides/8_6_installation.md:250
-#: ../src/docs/guides/automation/olivetin.md:60
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:307
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:323
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:486
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:533
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:667
-#: ../src/docs/guides/containers/lxd_web_servers.md:35
-#: ../src/docs/guides/containers/lxd_web_servers.md:45
-#: ../src/docs/guides/containers/lxd_web_servers.md:301
-#: ../src/docs/guides/containers/lxd_web_servers.md:352
-#: ../src/docs/guides/containers/lxd_web_servers.md:605
-#: ../src/docs/guides/containers/lxd_web_servers.md:665
-#: ../src/docs/guides/containers/lxd_web_servers.md:737
-#: ../src/docs/guides/containers/lxd_web_servers.md:796
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:53
-#: ../src/docs/guides/contribute/navigation.md:60
-#: ../src/docs/guides/custom-linux-kernel.md:453
-#: ../src/docs/guides/editors/micro.md:30
-#: ../src/docs/guides/file_sharing/glusterfs.md:46
-#: ../src/docs/guides/file_sharing/glusterfs.md:64
-#: ../src/docs/guides/file_sharing/glusterfs.md:102
-#: ../src/docs/guides/file_sharing/glusterfs.md:203
-#: ../src/docs/guides/installation.md:36 ../src/docs/guides/installation.md:175
-#: ../src/docs/guides/installation.md:183
-#: ../src/docs/guides/installation.md:193
-#: ../src/docs/guides/installation.md:266
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
-#: ../src/docs/guides/security/firewalld-beginners.md:89
-#: ../src/docs/guides/security/firewalld-beginners.md:144
-#: ../src/docs/guides/security/firewalld-beginners.md:258
-#: ../src/docs/guides/security/firewalld.md:51
-#: ../src/docs/guides/security/firewalld.md:94
-#: ../src/docs/guides/security/firewalld.md:228
-#: ../src/docs/guides/security/firewalld.md:372
-#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:72
-#: ../src/docs/guides/security/learning_selinux.md:137
-#: ../src/docs/guides/security/learning_selinux.md:253
-#: ../src/docs/guides/security/learning_selinux.md:356
-#: ../src/docs/guides/virtualization/vbox-rocky.md:27
-#: ../src/docs/guides/web/nginx-mainline.md:30
-#: ../src/docs/guides/web/nginx-mainline.md:99
-#: ../src/docs/guides/web/nginx-mainline.md:141
-#: ../src/docs/guides/web/nginx-mainline.md:254
-#: ../src/docs/guides/web/nginx-mainline.md:333
-#: ../src/docs/guides/web/nginx-multisite.md:73
-#: ../src/docs/guides/web/nginx-multisite.md:233
-#: ../src/docs/guides/web/nginx-multisite.md:292
-#: ../src/docs/guides/web/nginx-multisite.md:302
-#: ../src/docs/guides/web/php.md:33 ../src/docs/guides/web/php.md:76
-#: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
-#: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
-#: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/admin_guide/13-softwares.md:900
-#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:105
-#: ../src/docs/books/nvchad/template_chadrc.md:352
-#: ../src/docs/gemstones/bash_stub.md:103
-#: ../src/docs/gemstones/perl_search_replace.md:38
-#: ../src/docs/gemstones/sed_search_replace.md:72
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:172
-#: ../src/docs/guides/automation/olivetin.md:142
-#: ../src/docs/guides/cms/dokuwiki_server.md:306
-#: ../src/docs/guides/communications/asterisk_installation.md:261
-#: ../src/docs/guides/containers/lxd_web_servers.md:919
-#: ../src/docs/guides/containers/podman-nextcloud.md:456
-#: ../src/docs/guides/contribute/local_docs.md:47
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:322
-#: ../src/docs/guides/contribute/navigation.md:129
-#: ../src/docs/guides/contribute/rockydocs_formatting.md:458
-#: ../src/docs/guides/database/database_mariadb-server.md:197
-#: ../src/docs/guides/desktop/kde_installation.md:105
-#: ../src/docs/guides/desktop/mate_installation.md:200
-#: ../src/docs/guides/desktop/xfce_installation.md:218
-#: ../src/docs/guides/editors/micro.md:79
-#: ../src/docs/guides/email/postfix_reporting.md:254
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:270
-#: ../src/docs/guides/file_sharing/sftp.md:765
-#: ../src/docs/guides/proxies/pound.md:460
-#: ../src/docs/guides/security/dnf_automatic.md:119
-#: ../src/docs/guides/security/enabling_iptables_firewall.md:54
-#: ../src/docs/guides/security/firewalld-beginners.md:427
-#: ../src/docs/guides/security/firewalld.md:477
-#: ../src/docs/guides/security/pam.md:137
-#: ../src/docs/guides/security/ssl_keys_https.md:136
-#: ../src/docs/guides/virtualization/vbox-rocky.md:160
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:147
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:235
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:157
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:91
-#: ../src/docs/guides/web/mod_SSL_apache.md:171
-#: ../src/docs/guides/web/nginx-mainline.md:352
-#: ../src/docs/guides/web/nginx-multisite.md:359
-#, no-wrap
-msgid "Conclusion"
+#: ../src/docs/books/admin_guide/14-special-authority.md:338
+#: ../src/docs/books/admin_guide/14-special-authority.md:354
+#: ../src/docs/books/admin_guide/14-special-authority.md:404
+#: ../src/docs/books/admin_guide/14-special-authority.md:435
+#: ../src/docs/books/admin_guide/14-special-authority.md:690
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:83
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:102
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:253
+#: ../src/docs/books/lxd_server/04-firewall.md:76
+#: ../src/docs/books/lxd_server/08-snapshots.md:86
+#: ../src/docs/gemstones/RL9_network_manager.md:150
+#: ../src/docs/gemstones/nmtui.md:52
+#: ../src/docs/gemstones/view_kernel_conf.md:21
+#: ../src/docs/guides/backup/rsync_ssh.md:79
+#: ../src/docs/guides/cms/dokuwiki_server.md:226
+#: ../src/docs/guides/containers/lxd_web_servers.md:786
+#: ../src/docs/guides/containers/podman-nextcloud.md:270
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:96
+#: ../src/docs/guides/file_sharing/sftp.md:264
+#: ../src/docs/guides/package_management/index.md:10
+#: ../src/docs/guides/proxies/pound.md:211
+#: ../src/docs/guides/proxies/pound.md:265 ../src/docs/release_notes/8_4.md:20
+msgid "!!! warning"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
@@ -276,295 +102,323 @@ msgstr ""
 msgid "Steven Spencer"
 msgstr ""
 
-#. type: Title ##
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:217
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:118
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/view_kernel_conf.md:1
+#: ../src/docs/guides/custom-linux-kernel.md:1
 #, no-wrap
-msgid "Tests"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/lxd_server/30-appendix_a.md:15
-#: ../src/docs/books/nvchad/vale_nvchad.md:16
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:20
-#: ../src/docs/guides/automation/anacron.md:10
-#: ../src/docs/guides/automation/cron_jobs_howto.md:14
-#: ../src/docs/guides/backup/mirroring_lsyncd.md:13
-#: ../src/docs/guides/backup/rsnapshot_backup.md:13
-#: ../src/docs/guides/backup/rsync_ssh.md:12
-#: ../src/docs/guides/communications/asterisk_installation.md:25
-#: ../src/docs/guides/database/database_mariadb-server.md:13
-#: ../src/docs/guides/desktop/kde_installation.md:20
-#: ../src/docs/guides/desktop/mate_installation.md:17
-#: ../src/docs/guides/desktop/xfce_installation.md:17
-#: ../src/docs/guides/editors/micro.md:33
-#: ../src/docs/guides/email/postfix_reporting.md:14
-#: ../src/docs/guides/file_sharing/glusterfs.md:10
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:14
-#: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:14
-#: ../src/docs/guides/network/basic_network_configuration.md:16
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:8
-#: ../src/docs/guides/security/enabling_iptables_firewall.md:14
-#: ../src/docs/guides/security/ssh_public_private_keys.md:14
-#: ../src/docs/guides/security/ssl_keys_https.md:14
-#: ../src/docs/guides/virtualization/vbox-rocky.md:19
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:15
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:15
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:14
-#: ../src/docs/guides/web/mod_SSL_apache.md:14
-#, no-wrap
-msgid "Prerequisites"
+msgid "kernel"
 msgstr ""
 
 #. type: YAML Front Matter: tags
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:1
+#: ../src/docs/gemstones/view_kernel_conf.md:1
 #, no-wrap
-msgid "python"
+msgid "config"
 msgstr ""
 
 #. type: YAML Front Matter: tags
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:1
+#: ../src/docs/gemstones/view_kernel_conf.md:1
 #, no-wrap
-msgid "systemd"
+msgid "modules"
 msgstr ""
 
 #. type: YAML Front Matter: tags
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:1
-#: ../src/docs/guides/automation/cron_jobs_howto.md:1
+#: ../src/docs/gemstones/view_kernel_conf.md:1
 #, no-wrap
-msgid "cron"
-msgstr ""
-
-#. type: YAML Front Matter: title
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:1
-#, no-wrap
-msgid "Systemd Service - Python Script"
+msgid "kmod"
 msgstr ""
 
 #. type: Title #
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:12
+#: ../src/docs/gemstones/view_kernel_conf.md:1
+#: ../src/docs/gemstones/view_kernel_conf.md:13
 #, no-wrap
-msgid "`systemd` Service for a Python script"
+msgid "View Current Kernel Configuration"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:15
-msgid "If, like many sysadmins, you are an aficionado of cron scripts launched with `* * * * * /I/launch/my/script.sh`, this article should make you think of another way to do it using all the power and ease offered by `systemd`."
+#: ../src/docs/gemstones/view_kernel_conf.md:16
+msgid "The Linux kernel stores running kernel information in two places via special filesystems: ([A summary of them](https://www.landoflinux.com/linux_procfs_sysfs.html))"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: ../src/docs/gemstones/view_kernel_conf.md:19
+msgid "The older [procfs](https://man7.org/linux/man-pages/man5/procfs.5.html) which mounts `/proc` (verify via `mount -l -t proc`)"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:17
-msgid "We will write a python script that will provide a continuous loop to execute the actions you define."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:19
-msgid "We will see how to run this script as a `systemd` service, view the logs in journalctl, and see what happens if the script crashes."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:23
-msgid "Let's start by installing some python dependencies needed for the script to use journalctl:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:24
+#: ../src/docs/gemstones/view_kernel_conf.md:19
 #, no-wrap
-msgid "shell > sudo dnf install python36-devel systemd-devel\n"
-"shell > sudo pip3 install systemd\n"
+msgid "  - The newer [sysfs](https://man7.org/linux/man-pages/man5/sysfs.5.html) which mounts `/sys`    (verify via `mount -l -t sysfs`)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:23
+#, no-wrap
+msgid "    Be cautious if examining the files mentioned here, altering them can change the behavior of the actual running kernel!\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:26
+msgid "These two interfaces allow you to view and change the parameters of the currently running kernel."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:28
+msgid "Note that if you do an [`ls -l`](https://man7.org/linux/man-pages/man1/ls.1.html) on some of these files, they will show as \"0\" length, but if you [`cat`](https://man7.org/linux/man-pages/man1/cat.1.html) them out they actually contain data; most of them are ASCII and editable, however some are binary, and in either case commands like [`file`](https://man7.org/linux/man-pages/man1/file.1.html) or [`stat`](https://man7.org/linux/man-pages/man2/lstat.2.html) will typically just return \"empty file\" or \"0\" for lengths, although they will show you other information."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:30
+msgid "The preferred and standard programs for interacting with these functions are [`lsmod`](https://man7.org/linux/man-pages/man8/lsmod.8.html), [`modinfo`](https://man7.org/linux/man-pages/man8/modinfo.8.html), and [`sysctl`](https://man7.org/linux/man-pages/man8/sysctl.8.html), among others."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:31
+#, no-wrap
+msgid "sysctl -a | grep -i <keyword>\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:35
+#, no-wrap
+msgid "lsmod | grep -i <keyword>\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:39
+#, no-wrap
+msgid "modinfo <module>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:44
+msgid "See what your currently running \"kernel release\" version is with:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:46
+msgid "`uname -r` and substitute its return value in commands by using `$(uname -r)`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:49
+msgid "RHEL and derivative distributions (Fedora, CentOS Stream, Scientific Linux, RockyLinux, Almalinux, et. al.)  also store the config used for bootable installed kernels in the `/boot` directory used by Grub2 as ASCII files:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:50
+#, no-wrap
+msgid "/boot/config-<kernel-release>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:55
+msgid "To check the currently running kernel config for a particular value:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:56
+#, no-wrap
+msgid "cat /boot/config-$(uname -r) | grep -i <keyword>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:61
+msgid "Results will show:"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: ../src/docs/gemstones/view_kernel_conf.md:67
+msgid "\"=m\" if compiled in as a kernel module"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: ../src/docs/gemstones/view_kernel_conf.md:67
+msgid "\"=y\" if compiled statically into the kernel"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: ../src/docs/gemstones/view_kernel_conf.md:67
+msgid "\"is not set\" if that setting was commented out"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: ../src/docs/gemstones/view_kernel_conf.md:67
+msgid "a numeric value"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: ../src/docs/gemstones/view_kernel_conf.md:67
+msgid "a quoted string value"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:69
+msgid "Some distributions, like Gentoo and Arch, use the `configs` kernel module to provide `/proc/config.gz` by default instead:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:70
+#, no-wrap
+msgid "zcat /proc/config.gz | grep -i <keyword>\n"
+"zgrep <keyword> /proc/config.gz\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:76
+msgid "For any distribution, if your running kernel has set both `CONFIG_IKCONFIG` and `CONFIG_IKCONFIG_PROC` and if"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:77
+#, no-wrap
+msgid "ls -lh /sys/module/configs\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:82
+msgid "exists and is executable (searchable in the case of a dir) then you can create `/proc/config.gz` with this command if it is not present:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:83
+#, no-wrap
+msgid "modprobe configs\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:88
+msgid "!!! note \"Enabled Repos\""
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:90
+#, no-wrap
+msgid "    This document does not currently cover kernel packages that might have come from non-default repos such as:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:92
+#, no-wrap
+msgid "    appstream-debug, appstream-source, baseos-debug, baseos-source, or devel\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:95
+msgid "The `kernel-devel` packages install the config file used to compile each installed standard kernel package as an ASCII file in the following location:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:96
+#, no-wrap
+msgid "/usr/src/kernels/<kernel-release>/.config\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:101
+msgid "This file is more commonly accessed by a symlinked path provided by the `kernel-core` packages:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:102
+#, no-wrap
+msgid "/lib/modules/<kernel-release>/build/ -> /usr/src/kernels/<kernel-release>/\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:107
+msgid "If you have `kernel-debug-devel` packages installed you will also have this directory:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:108
+#, no-wrap
+msgid " /usr/src/kernels/<kernel-release>+debug/\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:113
+msgid "You can look in any of the following for details on the config values used to build an installed kernel:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:114
+#, no-wrap
+msgid "/lib/modules/<kernel-release>/config\n"
+"/lib/modules/<kernel-release>/build/.config\n"
+"/usr/src/kernels/<kernel-release>/.config\n"
+"/usr/src/kernels/<kernel-release>+debug/.config\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:122
+msgid "Configured modules for the currently running kernel, whether compiled as builtin (i.e. statically into the kernel itself) or a loadable module, are listed by sub directories named as the module name in:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:123
+#, no-wrap
+msgid "/sys/module/\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:128
+msgid "For each installed kernel-release you can examine these files to see what values were compiled into that kernel, and what version of [GCC](https://man7.org/linux/man-pages/man1/gcc.1.html) was used to compile it:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:129
+#, no-wrap
+msgid "cat /lib/modules/$(uname -r)/config | grep -i <keyword>\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:133
+#, no-wrap
+msgid "cat /lib/modules/$(uname -r)/build/.config | grep -i <keyword>\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:137
+#, no-wrap
+msgid "cat /usr/src/kernels/$(uname -r)/.config | grep -i <keyword>\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:141
+#, no-wrap
+msgid "cat /usr/src/kernels/$(uname -r)+debug/.config | grep -i <keyword>\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:145
+#, no-wrap
+msgid "ls -lh /sys/module/ | grep -i <keyword>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:150
+msgid "You can check for kernel module dependencies in the file:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/view_kernel_conf.md:151
+#, no-wrap
+msgid "/lib/modules/<kernel-release>/modules.dep\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/view_kernel_conf.md:156
+msgid "but it is easier to read or parse the output of the \"Used-by\" field in [`lsmod`](https://man7.org/linux/man-pages/man8/lsmod.8.html)."
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:29
+#: ../src/docs/gemstones/view_kernel_conf.md:157
 #, no-wrap
-msgid "Writing the Script"
+msgid "Reference:"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:32
-msgid "Let's consider the following script `my_service.py`:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:33
-#, no-wrap
-msgid "\"\"\"\n"
-"Sample script to run as script\n"
-"\"\"\"\n"
-"import time\n"
-"import logging\n"
-"import sys\n"
-"from systemd.journal import JournaldLogHandler\n\n"
-"# Get an instance of the logger\n"
-"LOGGER = logging.getLogger(__name__)\n\n"
-"# Instantiate the JournaldLogHandler to hook into systemd\n"
-"JOURNALD_HANDLER = JournaldLogHandler()\n"
-"JOURNALD_HANDLER.setFormatter(logging.Formatter(\n"
-"    '[%(levelname)s] %(message)s'\n"
-"))\n\n"
-"# Add the journald handler to the current logger\n"
-"LOGGER.addHandler(JOURNALD_HANDLER)\n"
-"LOGGER.setLevel(logging.INFO)\n\n"
-"class Service(): # pylint: disable=too-few-public-methods\n"
-"    \"\"\"\n"
-"    Launch an infinite loop\n"
-"    \"\"\"\n"
-"    def __init__(self):\n\n"
-"        duration = 0\n\n"
-"        while True:\n"
-"            time.sleep(60)\n"
-"            duration += 60\n"
-"            LOGGER.info(\"Total duration: %s\", str(duration))\n"
-"            # will failed after 4 minutes\n"
-"            if duration > 240:\n"
-"                sys.exit(1)\n\n"
-"if __name__ == '__main__':\n\n"
-"    LOGGER.info(\"Starting the service\")\n"
-"    Service()\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:78
-msgid "We start by instantiating the necessary variables to send logs in journald. The script then launches an infinite loop and pauses for 60 seconds (which is the minimum of a cron execution, so we can go below this limitation)."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:82
-#, no-wrap
-msgid "    I personally use this script in a more advanced form, which continuously queries a database and executes jobs based on the information retrieved via the rundeck API\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:83
-#, no-wrap
-msgid "Systemd Integration"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:86
-msgid "Now that we have a script that can serve as a basis for your imagination, we can install it as a systemd service."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:88
-msgid "Let's create this file `my_service.service` and copy it to `/etc/systemd/system/`."
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:89
-#, no-wrap
-msgid "[Unit]\n"
-"Description=My Service\n"
-"After=multi-user.target\n\n"
-"[Service]\n"
-"Type=simple\n"
-"Restart=always\n"
-"ExecStart=/usr/bin/python3 my_service.py\n"
-"WorkingDirectory=/opt/my_service/\n\n"
-"StandardOutput=syslog\n"
-"StandardError=syslog\n"
-"SyslogIdentifier=my_service\n\n"
-"[Install]\n"
-"WantedBy=multi-user.target\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:109
-msgid "As you can see, the script is launched from `/opt/my_service/`. Remember to adapt the path to your script and the syslog identifier."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:111
-msgid "Launch and enable the new service:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:112
-#, no-wrap
-msgid "shell > sudo systemctl daemon-reload\n"
-"shell > sudo systemctl enable my_service.service\n"
-"shell > sudo systemctl start my_service.service\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:121
-msgid "We can now view the logs via journalctl:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:122
-#, no-wrap
-msgid "shell > journalctl -f -u my_service\n"
-"oct. 14 11:07:48 rocky8 systemd[1]: Started My Service.\n"
-"oct. 14 11:07:49 rocky8 __main__[270267]: [INFO] Starting the service\n"
-"oct. 14 11:08:49 rocky8 __main__[270267]: [INFO] Total duration: 60\n"
-"oct. 14 11:09:49 rocky8 __main__[270267]: [INFO] Total duration: 120\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:131
-msgid "Now let's see what happens if the script crashes:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:132
-#, no-wrap
-msgid "shell > ps -elf | grep my_service\n"
-"4 S root      270267       1  0  80   0 - 82385 -      11:07 ?        00:00:00 /usr/bin/python3 my_service.py\n"
-"shell > sudo kill -9 270267\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:138
-#, no-wrap
-msgid "shell > journalctl -f -u my_service\n"
-"oct. 14 11:10:49 rocky8 __main__[270267]: [INFO] Total duration: 180\n"
-"oct. 14 11:11:49 rocky8 __main__[270267]: [INFO] Total duration: 240\n"
-"oct. 14 11:12:19 rocky8 systemd[1]: my_service.service: Main process exited, code=killed, status=9/KILL\n"
-"oct. 14 11:12:19 rocky8 systemd[1]: my_service.service: Failed with result 'signal'.\n"
-"oct. 14 11:12:19 rocky8 systemd[1]: my_service.service: Service RestartSec=100ms expired, scheduling restart.\n"
-"oct. 14 11:12:19 rocky8 systemd[1]: my_service.service: Scheduled restart job, restart counter is at 1.\n"
-"oct. 14 11:12:19 rocky8 systemd[1]: Stopped My Service.\n"
-"oct. 14 11:12:19 rocky8 systemd[1]: Started My Service.\n"
-"oct. 14 11:12:19 rocky8 __main__[270863]: [INFO] Starting the service\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:152
-msgid "We can also wait 5 minutes for the script to crash by itself: (remove this for your production)"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:153
-#, no-wrap
-msgid "oct. 14 11:16:02 rocky8 systemd[1]: Started My Service.\n"
-"oct. 14 11:16:03 rocky8 __main__[271507]: [INFO] Starting the service\n"
-"oct. 14 11:17:03 rocky8 __main__[271507]: [INFO] Total duration: 60\n"
-"oct. 14 11:18:03 rocky8 __main__[271507]: [INFO] Total duration: 120\n"
-"oct. 14 11:19:03 rocky8 __main__[271507]: [INFO] Total duration: 180\n"
-"oct. 14 11:20:03 rocky8 __main__[271507]: [INFO] Total duration: 240\n"
-"oct. 14 11:21:03 rocky8 __main__[271507]: [INFO] Total duration: 300\n"
-"oct. 14 11:21:03 rocky8 systemd[1]: my_service.service: Main process exited, code=exited, status=1/FAILURE\n"
-"oct. 14 11:21:03 rocky8 systemd[1]: my_service.service: Failed with result 'exit-code'.\n"
-"oct. 14 11:21:03 rocky8 systemd[1]: my_service.service: Service RestartSec=100ms expired, scheduling restart.\n"
-"oct. 14 11:21:03 rocky8 systemd[1]: my_service.service: Scheduled restart job, restart counter is at 1.\n"
-"oct. 14 11:21:03 rocky8 systemd[1]: Stopped My Service.\n"
-"oct. 14 11:21:03 rocky8 systemd[1]: Started My Service.\n"
-"oct. 14 11:21:03 rocky8 __main__[271993]: [INFO] Starting the service\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:171
-msgid "As you can see, the restart feature of systemd is very useful."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:175
-msgid "`systemd` and `journald` provide us the tools to make robust and powerful scripts easily enough to replace our old reliable crontab scripts."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:176
-msgid "I hope this solution will be useful for you."
+#: ../src/docs/gemstones/view_kernel_conf.md:159
+msgid "[depmod](https://man7.org/linux/man-pages/man8/depmod.8.html), [ls](https://man7.org/linux/man-pages/man1/ls.1.html), [lsmod](https://man7.org/linux/man-pages/man8/lsmod.8.html), [modinfo](https://man7.org/linux/man-pages/man8/modinfo.8.html), [modprobe](https://man7.org/linux/man-pages/man8/modprobe.8.html), [modules.dep](https://man7.org/linux/man-pages/man5/modules.dep.5.html), [namespaces](https://man7.org/linux/man-pages/man7/namespaces.7.html), [procfs](https://man7.org/linux/man-pages/man5/procfs.5.html), [sysctl](https://man7.org/linux/man-pages/man8/sysctl.8.html), [sysfs](https://man7.org/linux/man-pages/man5/sysfs.5.html), [uname](https://man7.org/linux/man-pages/man8/uname26.8.html)"
 msgstr ""
 
