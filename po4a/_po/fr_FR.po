@@ -13,8 +13,8 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/gemstones_dnf-swap.pot\n"
-"X-Crowdin-File-ID: 1293\n"
+"X-Crowdin-File: /po4a/po4a/_po/gemstones_docker.pot\n"
+"X-Crowdin-File-ID: 1295\n"
 
 #. type: Title #
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:13
@@ -90,151 +90,6 @@ msgstr ""
 msgid "Colussi Franco"
 msgstr ""
 
-#. type: YAML Front Matter: tags
-#: ../src/docs/gemstones/dnf-swap.md:1
-#, no-wrap
-msgid "cloud images"
-msgstr ""
-
-#. type: YAML Front Matter: tags
-#: ../src/docs/gemstones/dnf-swap.md:1
-#: ../src/docs/guides/containers/podman-nextcloud.md:1
-#, no-wrap
-msgid "containers"
-msgstr ""
-
-#. type: YAML Front Matter: tags
-#: ../src/docs/gemstones/dnf-swap.md:1
-#: ../src/docs/guides/security/dnf_automatic.md:1
-#, no-wrap
-msgid "dnf"
-msgstr ""
-
-#. type: YAML Front Matter: tags
-#: ../src/docs/gemstones/dnf-swap.md:1
-#, no-wrap
-msgid "dnf swap"
-msgstr ""
-
-#. type: YAML Front Matter: tags
-#: ../src/docs/gemstones/dnf-swap.md:1
-#, no-wrap
-msgid "curl"
-msgstr ""
-
-#. type: YAML Front Matter: tags
-#: ../src/docs/gemstones/dnf-swap.md:1
-#, no-wrap
-msgid "curl-minimal"
-msgstr ""
-
-#. type: YAML Front Matter: tags
-#: ../src/docs/gemstones/dnf-swap.md:1
-#, no-wrap
-msgid "allowerasing"
-msgstr ""
-
-#. type: YAML Front Matter: tags
-#: ../src/docs/gemstones/dnf-swap.md:1
-#, no-wrap
-msgid "coreutils-single"
-msgstr ""
-
-#. type: YAML Front Matter: title
-#: ../src/docs/gemstones/dnf-swap.md:1
-#, no-wrap
-msgid "dnf - swap command"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/dnf-swap.md:21
-msgid "In order to make container images and cloud images as small as possible, distribution maintainers and packagers may sometimes ship stripped down versions of popular packages. Examples of stripped down packages bundled with container or cloud images are **vim-minimal, curl-minimal, coreutils-single** and so on."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/dnf-swap.md:23
-msgid "Although some of the shipped packages are stripped down versions, they are often fully acceptable for most use cases."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/dnf-swap.md:25
-msgid "For cases, when the stripped down package is not enough, you can use the `dnf swap` command to quickly replace the minimal package with the regular package."
-msgstr ""
-
-#. type: Title #
-#: ../src/docs/gemstones/dnf-swap.md:26
-#, no-wrap
-msgid "Objective"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/dnf-swap.md:29
-msgid "This Rocky Linux GEMstone demonstrates how to use **dnf** to _swap_ the bundled `curl-minimal` package with the regular `curl` package."
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/gemstones/dnf-swap.md:31
-#, no-wrap
-msgid "Check existing curl variant"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/dnf-swap.md:34
-msgid "While logged into your container or virtual machine environment as a user with Administrative privileges, first verify the variant of `curl` package installed. Type:"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/gemstones/dnf-swap.md:35
-#, no-wrap
-msgid "# rpm -qa | grep  ^curl-minimal\n"
-"curl-minimal-*\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/dnf-swap.md:41
-msgid "We have curl-minimal on our demo system!"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/gemstones/dnf-swap.md:43
-#, no-wrap
-msgid "Swap curl-minimal for curl"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/dnf-swap.md:46
-msgid "Use `dnf` to swap the installed `curl-minimal` package with regular `curl` package."
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/gemstones/dnf-swap.md:47
-#, no-wrap
-msgid "# dnf -y swap curl-minimal curl\n\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/gemstones/dnf-swap.md:52
-#, no-wrap
-msgid "Check new curl package variant"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/dnf-swap.md:55
-msgid "To confirm the changes, query the rpm database again for the installed curl package(s) by running:"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/gemstones/dnf-swap.md:56
-#, no-wrap
-msgid "# rpm -qa | grep  ^curl\n"
-"curl-*\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/dnf-swap.md:63
-msgid "And it's a GEM !"
-msgstr ""
-
 #. type: Title ##
 #: ../src/docs/gemstones/dnf-swap.md:65 ../src/docs/gemstones/docker.md:39
 #: ../src/docs/gemstones/nmcli.md:33
@@ -243,31 +98,80 @@ msgstr ""
 msgid "Notes"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/gemstones/dnf-swap.md:68
-msgid "DNF Swap Command"
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/docker.md:1
+#, no-wrap
+msgid "docker"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/gemstones/dnf-swap.md:70
+#. type: YAML Front Matter: title
+#: ../src/docs/gemstones/docker.md:1
 #, no-wrap
-msgid "**Syntax**:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/gemstones/dnf-swap.md:71
-#, no-wrap
-msgid "dnf [options] swap <package-to-be-removed> <replacement-package>\n"
+msgid "Docker - Install Engine"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/gemstones/dnf-swap.md:76
-msgid "Under the hood, `dnf swap` uses DNF's `--allowerasing` option to resolve any package conflict issues. Therefore the curl minimal example demonstrated in this GEMstone could also have been done by running:"
+#: ../src/docs/gemstones/docker.md:13
+msgid "The Docker Engine can be used running native Docker style container workloads on Rocky Linux servers. This is sometimes preferred to running the full Docker Desktop environment."
 msgstr ""
 
-#. type: Fenced code block (bash)
-#: ../src/docs/gemstones/dnf-swap.md:78
+#. type: Title ##
+#: ../src/docs/gemstones/docker.md:14
 #, no-wrap
-msgid "dnf install -y --allowerasing curl\n"
+msgid "Add the docker repository"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/docker.md:17
+msgid "Use the `dnf` utility to add the docker repository to your Rocky Linux server. Type:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/gemstones/docker.md:18
+#, no-wrap
+msgid "sudo dnf config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/gemstones/docker.md:22
+#, no-wrap
+msgid "Install the needed packages"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/docker.md:25
+msgid "Install the latest version of Docker Engine, containerd, and Docker Compose, by running:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/gemstones/docker.md:26
+#, no-wrap
+msgid "sudo dnf -y install docker-ce docker-ce-cli containerd.io docker-compose-plugin\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/gemstones/docker.md:30
+#, no-wrap
+msgid "Start and enable the systemd docker service (dockerd)"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/docker.md:33
+msgid "Use the `systemctl` utility to configure the dockerd daemon to automatically startup with the next system reboot and simultaneously start it for the current session. Type:"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/gemstones/docker.md:34
+#, no-wrap
+msgid "sudo systemctl --now enable docker\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/gemstones/docker.md:41
+#, no-wrap
+msgid "docker-ce               : This package provides the underlying technology for building and running docker containers (dockerd) \n"
+"docker-ce-cli           : Provides the command line interface (CLI) client docker tool (docker)\n"
+"containerd.io           : Provides the container runtime (runc)\n"
+"docker-compose-plugin   : A plugin that provides the 'docker compose' subcommand \n\n"
 msgstr ""
 
