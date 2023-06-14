@@ -13,2117 +13,1132 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: it\n"
-"X-Crowdin-File: /po4a/po4a/_po/admin_guide_13-softwares.pot\n"
-"X-Crowdin-File-ID: 1235\n"
+"X-Crowdin-File: /po4a/po4a/_po/admin_guide_14-special-authority.pot\n"
+"X-Crowdin-File-ID: 1237\n"
 
-#. type: Title ##
-#: ../src/docs/books/admin_guide/01-presentation.md:229
-#: ../src/docs/books/admin_guide/11-tasks.md:26
-#: ../src/docs/books/admin_guide/12-network.md:28
-#: ../src/docs/books/admin_guide/03-commands.md:28
-#: ../src/docs/books/admin_guide/08-process.md:26
-#: ../src/docs/books/admin_guide/09-backups.md:44
-#: ../src/docs/books/admin_guide/13-softwares.md:14
-#: ../src/docs/books/learning_bash/00-toc.md:16
-#: ../src/docs/guides/security/learning_selinux.md:20
-#: ../src/docs/guides/security/pam.md:30 ../src/docs/guides/web/php.md:18
-#, no-wrap
-msgid "Generalities"
+#. type: Plain text
+#: ../src/docs/books/admin_guide/01-presentation.md:96
+#: ../src/docs/books/admin_guide/07-file-systems.md:199
+#: ../src/docs/books/admin_guide/07-file-systems.md:299
+#: ../src/docs/books/admin_guide/07-file-systems.md:597
+#: ../src/docs/books/admin_guide/07-file-systems.md:851
+#: ../src/docs/books/admin_guide/07-file-systems.md:863
+#: ../src/docs/books/admin_guide/07-file-systems.md:926
+#: ../src/docs/books/admin_guide/07-file-systems.md:974
+#: ../src/docs/books/admin_guide/07-file-systems.md:1023
+#: ../src/docs/books/admin_guide/14-special-authority.md:69
+#: ../src/docs/books/admin_guide/14-special-authority.md:193
+#: ../src/docs/books/admin_guide/14-special-authority.md:204
+#: ../src/docs/books/admin_guide/14-special-authority.md:241
+#: ../src/docs/books/admin_guide/14-special-authority.md:477
+#: ../src/docs/gemstones/RL9_network_manager.md:132
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:80
+msgid "!!! info"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/04-advanced-commands.md:43
-#: ../src/docs/books/admin_guide/04-advanced-commands.md:220
-#: ../src/docs/books/admin_guide/04-advanced-commands.md:271
-#: ../src/docs/books/admin_guide/04-advanced-commands.md:334
-#: ../src/docs/books/admin_guide/05-vi.md:70
-#: ../src/docs/books/admin_guide/05-vi.md:206
-#: ../src/docs/books/admin_guide/05-vi.md:272
-#: ../src/docs/books/admin_guide/06-users.md:36
-#: ../src/docs/books/admin_guide/06-users.md:92
-#: ../src/docs/books/admin_guide/06-users.md:220
-#: ../src/docs/books/admin_guide/06-users.md:350
-#: ../src/docs/books/admin_guide/06-users.md:598
-#: ../src/docs/books/admin_guide/06-users.md:754
-#: ../src/docs/books/admin_guide/06-users.md:818
-#: ../src/docs/books/admin_guide/11-tasks.md:174
-#: ../src/docs/books/admin_guide/12-network.md:158
-#: ../src/docs/books/admin_guide/03-commands.md:516
-#: ../src/docs/books/admin_guide/03-commands.md:693
-#: ../src/docs/books/admin_guide/03-commands.md:1216
-#: ../src/docs/books/admin_guide/03-commands.md:1262
-#: ../src/docs/books/admin_guide/03-commands.md:1297
-#: ../src/docs/books/admin_guide/07-file-systems.md:395
-#: ../src/docs/books/admin_guide/07-file-systems.md:437
-#: ../src/docs/books/admin_guide/07-file-systems.md:447
-#: ../src/docs/books/admin_guide/07-file-systems.md:515
-#: ../src/docs/books/admin_guide/07-file-systems.md:556
-#: ../src/docs/books/admin_guide/07-file-systems.md:627
-#: ../src/docs/books/admin_guide/07-file-systems.md:653
-#: ../src/docs/books/admin_guide/07-file-systems.md:672
-#: ../src/docs/books/admin_guide/07-file-systems.md:676
-#: ../src/docs/books/admin_guide/07-file-systems.md:1019
-#: ../src/docs/books/admin_guide/08-process.md:49
-#: ../src/docs/books/admin_guide/08-process.md:238
-#: ../src/docs/books/admin_guide/09-backups.md:27
-#: ../src/docs/books/admin_guide/09-backups.md:116
-#: ../src/docs/books/admin_guide/09-backups.md:133
-#: ../src/docs/books/admin_guide/09-backups.md:148
-#: ../src/docs/books/admin_guide/09-backups.md:281
-#: ../src/docs/books/admin_guide/09-backups.md:285
-#: ../src/docs/books/admin_guide/09-backups.md:301
-#: ../src/docs/books/admin_guide/09-backups.md:342
-#: ../src/docs/books/admin_guide/09-backups.md:352
-#: ../src/docs/books/admin_guide/09-backups.md:554
-#: ../src/docs/books/admin_guide/09-backups.md:771
-#: ../src/docs/books/admin_guide/10-boot.md:114
-#: ../src/docs/books/admin_guide/10-boot.md:153
-#: ../src/docs/books/admin_guide/10-boot.md:165
-#: ../src/docs/books/admin_guide/13-softwares.md:22
-#: ../src/docs/books/learning_ansible/01-basic.md:51
-#: ../src/docs/books/learning_ansible/01-basic.md:104
-#: ../src/docs/books/learning_ansible/01-basic.md:112
-#: ../src/docs/books/learning_ansible/01-basic.md:328
-#: ../src/docs/books/learning_ansible/01-basic.md:415
-#: ../src/docs/books/learning_ansible/01-basic.md:492
-#: ../src/docs/books/learning_ansible/01-basic.md:633
-#: ../src/docs/books/learning_ansible/01-basic.md:656
-#: ../src/docs/books/learning_ansible/02-advanced.md:34
-#: ../src/docs/books/learning_ansible/02-advanced.md:150
-#: ../src/docs/books/learning_ansible/02-advanced.md:182
-#: ../src/docs/books/learning_ansible/02-advanced.md:269
-#: ../src/docs/books/learning_ansible/02-advanced.md:277
-#: ../src/docs/books/learning_ansible/02-advanced.md:287
-#: ../src/docs/books/learning_ansible/02-advanced.md:293
-#: ../src/docs/books/learning_ansible/02-advanced.md:360
-#: ../src/docs/books/learning_ansible/02-advanced.md:428
-#: ../src/docs/books/learning_ansible/02-advanced.md:601
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:33
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:58
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:77
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:96
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:113
-#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:65
-#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:432
-#: ../src/docs/books/learning_ansible/05-deployments.md:41
-#: ../src/docs/books/learning_ansible/05-deployments.md:124
-#: ../src/docs/books/learning_ansible/05-deployments.md:196
-#: ../src/docs/books/learning_ansible/05-deployments.md:616
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:36
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:40
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:80
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:214
-#: ../src/docs/books/learning_ansible/07-working-with-filters.md:32
-#: ../src/docs/books/learning_ansible/07-working-with-filters.md:75
-#: ../src/docs/books/learning_bash/02-using-variables.md:153
-#: ../src/docs/books/learning_bash/02-using-variables.md:193
-#: ../src/docs/books/learning_bash/05-tests.md:245
-#: ../src/docs/books/learning_bash/07-loops.md:180
-#: ../src/docs/books/lxd_server/04-firewall.md:80
-#: ../src/docs/books/nvchad/plugins/md_preview.md:140
-#: ../src/docs/books/nvchad/template_chadrc.md:239
-#: ../src/docs/gemstones/https_rsa_keygen.md:34
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:80
-#: ../src/docs/guides/8_6_installation.md:37
-#: ../src/docs/guides/8_6_installation.md:168
-#: ../src/docs/guides/8_6_installation.md:176
-#: ../src/docs/guides/8_6_installation.md:182
-#: ../src/docs/guides/8_6_installation.md:250
-#: ../src/docs/guides/automation/olivetin.md:60
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:307
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:323
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:486
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:533
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:667
-#: ../src/docs/guides/containers/lxd_web_servers.md:35
-#: ../src/docs/guides/containers/lxd_web_servers.md:45
-#: ../src/docs/guides/containers/lxd_web_servers.md:301
-#: ../src/docs/guides/containers/lxd_web_servers.md:352
-#: ../src/docs/guides/containers/lxd_web_servers.md:605
-#: ../src/docs/guides/containers/lxd_web_servers.md:665
-#: ../src/docs/guides/containers/lxd_web_servers.md:737
-#: ../src/docs/guides/containers/lxd_web_servers.md:796
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:53
-#: ../src/docs/guides/contribute/navigation.md:60
-#: ../src/docs/guides/custom-linux-kernel.md:453
-#: ../src/docs/guides/editors/micro.md:30
-#: ../src/docs/guides/file_sharing/glusterfs.md:46
-#: ../src/docs/guides/file_sharing/glusterfs.md:64
-#: ../src/docs/guides/file_sharing/glusterfs.md:102
-#: ../src/docs/guides/file_sharing/glusterfs.md:203
-#: ../src/docs/guides/installation.md:36 ../src/docs/guides/installation.md:175
-#: ../src/docs/guides/installation.md:183
-#: ../src/docs/guides/installation.md:193
-#: ../src/docs/guides/installation.md:266
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
-#: ../src/docs/guides/security/firewalld-beginners.md:89
-#: ../src/docs/guides/security/firewalld-beginners.md:144
-#: ../src/docs/guides/security/firewalld-beginners.md:258
-#: ../src/docs/guides/security/firewalld.md:51
-#: ../src/docs/guides/security/firewalld.md:94
-#: ../src/docs/guides/security/firewalld.md:228
-#: ../src/docs/guides/security/firewalld.md:372
-#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:72
-#: ../src/docs/guides/security/learning_selinux.md:137
-#: ../src/docs/guides/security/learning_selinux.md:253
-#: ../src/docs/guides/security/learning_selinux.md:356
-#: ../src/docs/guides/virtualization/vbox-rocky.md:27
-#: ../src/docs/guides/web/nginx-mainline.md:30
-#: ../src/docs/guides/web/nginx-mainline.md:99
-#: ../src/docs/guides/web/nginx-mainline.md:141
-#: ../src/docs/guides/web/nginx-mainline.md:254
-#: ../src/docs/guides/web/nginx-mainline.md:333
-#: ../src/docs/guides/web/nginx-multisite.md:73
-#: ../src/docs/guides/web/nginx-multisite.md:233
-#: ../src/docs/guides/web/nginx-multisite.md:292
-#: ../src/docs/guides/web/nginx-multisite.md:302
-#: ../src/docs/guides/web/php.md:33 ../src/docs/guides/web/php.md:76
-#: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
-#: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
-#: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/04-advanced-commands.md:296
-#: ../src/docs/books/admin_guide/04-advanced-commands.md:338
-#: ../src/docs/books/admin_guide/06-users.md:539
-#: ../src/docs/books/admin_guide/06-users.md:622
-#: ../src/docs/books/admin_guide/06-users.md:719
-#: ../src/docs/books/admin_guide/06-users.md:798
-#: ../src/docs/books/admin_guide/06-users.md:930
-#: ../src/docs/books/admin_guide/11-tasks.md:216
-#: ../src/docs/books/admin_guide/12-network.md:537
-#: ../src/docs/books/admin_guide/03-commands.md:214
-#: ../src/docs/books/admin_guide/03-commands.md:318
-#: ../src/docs/books/admin_guide/03-commands.md:720
-#: ../src/docs/books/admin_guide/03-commands.md:1399
-#: ../src/docs/books/admin_guide/08-process.md:385
-#: ../src/docs/books/admin_guide/09-backups.md:370
-#: ../src/docs/books/admin_guide/09-backups.md:720
-#: ../src/docs/books/admin_guide/10-boot.md:207
-#: ../src/docs/books/admin_guide/13-softwares.md:925
-#: ../src/docs/books/admin_guide/13-softwares.md:1009
-#: ../src/docs/books/learning_ansible/01-basic.md:286
-#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:169
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:54
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:125
-#: ../src/docs/guides/security/learning_selinux.md:289
-#: ../src/docs/guides/security/pam.md:287
-msgid "Examples:"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/05-vi.md:44
-#: ../src/docs/books/admin_guide/05-vi.md:397
-#: ../src/docs/books/admin_guide/05-vi.md:405
-#: ../src/docs/books/admin_guide/05-vi.md:411
-#: ../src/docs/books/admin_guide/05-vi.md:417
-#: ../src/docs/books/admin_guide/05-vi.md:423
-#: ../src/docs/books/admin_guide/06-users.md:75
-#: ../src/docs/books/admin_guide/06-users.md:113
-#: ../src/docs/books/admin_guide/06-users.md:141
-#: ../src/docs/books/admin_guide/06-users.md:279
-#: ../src/docs/books/admin_guide/06-users.md:344
-#: ../src/docs/books/admin_guide/06-users.md:369
-#: ../src/docs/books/admin_guide/06-users.md:392
-#: ../src/docs/books/admin_guide/06-users.md:588
-#: ../src/docs/books/admin_guide/06-users.md:656
-#: ../src/docs/books/admin_guide/06-users.md:671
-#: ../src/docs/books/admin_guide/06-users.md:740
-#: ../src/docs/books/admin_guide/06-users.md:764
-#: ../src/docs/books/admin_guide/06-users.md:782
-#: ../src/docs/books/admin_guide/11-tasks.md:140
-#: ../src/docs/books/admin_guide/12-network.md:47
-#: ../src/docs/books/admin_guide/12-network.md:481
-#: ../src/docs/books/admin_guide/12-network.md:562
-#: ../src/docs/books/admin_guide/12-network.md:583
-#: ../src/docs/books/admin_guide/12-network.md:624
-#: ../src/docs/books/admin_guide/12-network.md:649
-#: ../src/docs/books/admin_guide/12-network.md:666
-#: ../src/docs/books/admin_guide/12-network.md:694
-#: ../src/docs/books/admin_guide/12-network.md:707
-#: ../src/docs/books/admin_guide/12-network.md:720
-#: ../src/docs/books/admin_guide/03-commands.md:126
-#: ../src/docs/books/admin_guide/03-commands.md:162
-#: ../src/docs/books/admin_guide/03-commands.md:470
-#: ../src/docs/books/admin_guide/03-commands.md:619
-#: ../src/docs/books/admin_guide/03-commands.md:641
-#: ../src/docs/books/admin_guide/03-commands.md:661
-#: ../src/docs/books/admin_guide/03-commands.md:778
-#: ../src/docs/books/admin_guide/03-commands.md:826
-#: ../src/docs/books/admin_guide/03-commands.md:842
-#: ../src/docs/books/admin_guide/03-commands.md:962
-#: ../src/docs/books/admin_guide/03-commands.md:985
-#: ../src/docs/books/admin_guide/03-commands.md:1174
-#: ../src/docs/books/admin_guide/03-commands.md:1195
-#: ../src/docs/books/admin_guide/07-file-systems.md:132
-#: ../src/docs/books/admin_guide/07-file-systems.md:237
-#: ../src/docs/books/admin_guide/07-file-systems.md:267
-#: ../src/docs/books/admin_guide/07-file-systems.md:286
-#: ../src/docs/books/admin_guide/07-file-systems.md:313
-#: ../src/docs/books/admin_guide/07-file-systems.md:327
-#: ../src/docs/books/admin_guide/07-file-systems.md:341
-#: ../src/docs/books/admin_guide/07-file-systems.md:379
-#: ../src/docs/books/admin_guide/07-file-systems.md:490
-#: ../src/docs/books/admin_guide/07-file-systems.md:612
-#: ../src/docs/books/admin_guide/07-file-systems.md:639
-#: ../src/docs/books/admin_guide/07-file-systems.md:993
-#: ../src/docs/books/admin_guide/08-process.md:60
-#: ../src/docs/books/admin_guide/08-process.md:198
-#: ../src/docs/books/admin_guide/08-process.md:230
-#: ../src/docs/books/admin_guide/08-process.md:250
-#: ../src/docs/books/admin_guide/08-process.md:287
-#: ../src/docs/books/admin_guide/08-process.md:312
-#: ../src/docs/books/admin_guide/08-process.md:330
-#: ../src/docs/books/admin_guide/09-backups.md:228
-#: ../src/docs/books/admin_guide/09-backups.md:253
-#: ../src/docs/books/admin_guide/09-backups.md:568
-#: ../src/docs/books/admin_guide/09-backups.md:632
-#: ../src/docs/books/admin_guide/09-backups.md:677
-#: ../src/docs/books/admin_guide/09-backups.md:700
-#: ../src/docs/books/admin_guide/09-backups.md:785
-#: ../src/docs/books/admin_guide/09-backups.md:807
-#: ../src/docs/books/admin_guide/09-backups.md:829
-#: ../src/docs/books/admin_guide/09-backups.md:855
-#: ../src/docs/books/admin_guide/10-boot.md:322
-#: ../src/docs/books/admin_guide/13-softwares.md:67
-#: ../src/docs/books/admin_guide/13-softwares.md:79
-#: ../src/docs/books/admin_guide/13-softwares.md:152
-#: ../src/docs/books/admin_guide/13-softwares.md:350
-#: ../src/docs/books/admin_guide/13-softwares.md:505
-#: ../src/docs/books/admin_guide/13-softwares.md:513
-#: ../src/docs/books/learning_ansible/01-basic.md:180
-#: ../src/docs/books/learning_ansible/07-working-with-filters.md:92
-#: ../src/docs/books/learning_bash/01-first-script.md:119
-#: ../src/docs/books/learning_bash/02-using-variables.md:128
-#: ../src/docs/books/learning_bash/02-using-variables.md:142
-#: ../src/docs/books/learning_bash/02-using-variables.md:204
-#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:118
-#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:216
-#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:338
-#: ../src/docs/books/learning_bash/05-tests.md:141
-#: ../src/docs/books/learning_bash/05-tests.md:199
-#: ../src/docs/books/learning_bash/05-tests.md:222
-#: ../src/docs/books/learning_bash/05-tests.md:313
-#: ../src/docs/books/learning_bash/05-tests.md:338
-#: ../src/docs/books/learning_bash/05-tests.md:354
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:101
-#: ../src/docs/books/learning_bash/07-loops.md:128
-#: ../src/docs/guides/security/learning_selinux.md:92
-#: ../src/docs/guides/security/learning_selinux.md:147
-#: ../src/docs/guides/security/learning_selinux.md:200
-#: ../src/docs/guides/security/learning_selinux.md:213
-#: ../src/docs/guides/security/learning_selinux.md:305
-#: ../src/docs/guides/security/learning_selinux.md:321
-#: ../src/docs/guides/security/learning_selinux.md:339
-#: ../src/docs/guides/security/learning_selinux.md:360
-#: ../src/docs/guides/security/learning_selinux.md:394
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:154
-#: ../src/docs/guides/web/php.md:255
-msgid "Example:"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/05-vi.md:76
-#: ../src/docs/books/admin_guide/05-vi.md:298
-#: ../src/docs/books/admin_guide/06-users.md:147
-#: ../src/docs/books/admin_guide/06-users.md:170
-#: ../src/docs/books/admin_guide/06-users.md:174
-#: ../src/docs/books/admin_guide/06-users.md:201
-#: ../src/docs/books/admin_guide/06-users.md:410
-#: ../src/docs/books/admin_guide/06-users.md:465
-#: ../src/docs/books/admin_guide/06-users.md:828
-#: ../src/docs/books/admin_guide/06-users.md:946
-#: ../src/docs/books/admin_guide/11-tasks.md:56
-#: ../src/docs/books/admin_guide/12-network.md:183
-#: ../src/docs/books/admin_guide/12-network.md:204
-#: ../src/docs/books/admin_guide/12-network.md:226
-#: ../src/docs/books/admin_guide/12-network.md:265
-#: ../src/docs/books/admin_guide/12-network.md:342
-#: ../src/docs/books/admin_guide/12-network.md:487
-#: ../src/docs/books/admin_guide/12-network.md:590
-#: ../src/docs/books/admin_guide/12-network.md:682
-#: ../src/docs/books/admin_guide/03-commands.md:277
-#: ../src/docs/books/admin_guide/03-commands.md:653
-#: ../src/docs/books/admin_guide/03-commands.md:671
-#: ../src/docs/books/admin_guide/03-commands.md:1162
-#: ../src/docs/books/admin_guide/08-process.md:214
-#: ../src/docs/books/admin_guide/08-process.md:320
-#: ../src/docs/books/admin_guide/08-process.md:343
-#: ../src/docs/books/admin_guide/09-backups.md:80
-#: ../src/docs/books/admin_guide/09-backups.md:93
-#: ../src/docs/books/admin_guide/09-backups.md:129
-#: ../src/docs/books/admin_guide/09-backups.md:241
-#: ../src/docs/books/admin_guide/09-backups.md:384
-#: ../src/docs/books/admin_guide/09-backups.md:388
-#: ../src/docs/books/admin_guide/09-backups.md:406
-#: ../src/docs/books/admin_guide/09-backups.md:484
-#: ../src/docs/books/admin_guide/09-backups.md:744
-#: ../src/docs/books/admin_guide/13-softwares.md:98
-#: ../src/docs/books/learning_ansible/01-basic.md:419
-#: ../src/docs/books/learning_ansible/01-basic.md:572
-#: ../src/docs/books/learning_ansible/01-basic.md:755
-#: ../src/docs/books/nvchad/template_chadrc.md:169
-#: ../src/docs/guides/8_6_installation.md:65
-#: ../src/docs/guides/8_6_installation.md:133
-#: ../src/docs/guides/installation.md:66 ../src/docs/guides/installation.md:138
-#: ../src/docs/guides/virtualization/vbox-rocky.md:123
-msgid "!!! Tip"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/05-vi.md:90
-#: ../src/docs/books/admin_guide/06-users.md:239
-#: ../src/docs/books/admin_guide/06-users.md:336
-#: ../src/docs/books/admin_guide/06-users.md:770
-#: ../src/docs/books/admin_guide/11-tasks.md:42
-#: ../src/docs/books/admin_guide/11-tasks.md:81
-#: ../src/docs/books/admin_guide/11-tasks.md:93
-#: ../src/docs/books/admin_guide/11-tasks.md:153
-#: ../src/docs/books/admin_guide/11-tasks.md:203
-#: ../src/docs/books/admin_guide/12-network.md:76
-#: ../src/docs/books/admin_guide/12-network.md:388
-#: ../src/docs/books/admin_guide/12-network.md:637
-#: ../src/docs/books/admin_guide/03-commands.md:329
-#: ../src/docs/books/admin_guide/03-commands.md:1266
-#: ../src/docs/books/admin_guide/03-commands.md:1325
-#: ../src/docs/books/admin_guide/03-commands.md:1480
-#: ../src/docs/books/admin_guide/07-file-systems.md:48
-#: ../src/docs/books/admin_guide/07-file-systems.md:88
-#: ../src/docs/books/admin_guide/07-file-systems.md:389
-#: ../src/docs/books/admin_guide/07-file-systems.md:505
-#: ../src/docs/books/admin_guide/07-file-systems.md:582
-#: ../src/docs/books/admin_guide/07-file-systems.md:903
-#: ../src/docs/books/admin_guide/07-file-systems.md:1015
-#: ../src/docs/books/admin_guide/09-backups.md:175
-#: ../src/docs/books/admin_guide/09-backups.md:200
-#: ../src/docs/books/admin_guide/09-backups.md:264
-#: ../src/docs/books/admin_guide/09-backups.md:461
-#: ../src/docs/books/admin_guide/09-backups.md:488
-#: ../src/docs/books/admin_guide/09-backups.md:620
-#: ../src/docs/books/admin_guide/09-backups.md:714
-#: ../src/docs/books/admin_guide/13-softwares.md:94
-#: ../src/docs/books/learning_ansible/01-basic.md:37
-#: ../src/docs/books/learning_ansible/01-basic.md:288
-#: ../src/docs/books/learning_ansible/01-basic.md:379
-#: ../src/docs/books/learning_ansible/01-basic.md:590
-#: ../src/docs/books/learning_bash/05-tests.md:320
-#: ../src/docs/books/learning_bash/05-tests.md:367
-#: ../src/docs/books/nvchad/plugins/md_preview.md:31
-#: ../src/docs/books/nvchad/plugins/projectmgr.md:137
-#: ../src/docs/guides/8_6_installation.md:191
-#: ../src/docs/guides/8_6_installation.md:207
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:510
-#: ../src/docs/guides/containers/lxd_web_servers.md:242
-#: ../src/docs/guides/installation.md:202
-#: ../src/docs/guides/security/firewalld-beginners.md:283
-#: ../src/docs/guides/security/firewalld-beginners.md:410
-#: ../src/docs/guides/security/firewalld.md:182
-#: ../src/docs/guides/security/firewalld.md:220
-#: ../src/docs/guides/security/learning_selinux.md:158
-#: ../src/docs/guides/security/learning_selinux.md:243
-#: ../src/docs/guides/security/learning_selinux.md:263
-#: ../src/docs/guides/web/php.md:145
-msgid "!!! Warning"
+#: ../src/docs/books/admin_guide/06-users.md:606
+#: ../src/docs/books/admin_guide/03-commands.md:1450
+#: ../src/docs/books/admin_guide/14-special-authority.md:422
+#: ../src/docs/books/admin_guide/14-special-authority.md:669
+#: ../src/docs/books/learning_ansible/02-advanced.md:74
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:117
+msgid "For example:"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
-#: ../src/docs/books/admin_guide/13-softwares.md:1
+#: ../src/docs/books/admin_guide/14-special-authority.md:1
 #, no-wrap
-msgid "Colussi Franco, Steven Spencer"
+msgid "Serge"
 msgstr ""
 
 #. type: YAML Front Matter: tags
-#: ../src/docs/books/admin_guide/13-softwares.md:1
-#: ../src/docs/books/learning_bash/00-toc.md:1
-#: ../src/docs/books/learning_bash/01-first-script.md:1
-#: ../src/docs/books/learning_bash/02-using-variables.md:1
-#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:1
-#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:1
-#: ../src/docs/books/learning_bash/05-tests.md:1
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:1
-#: ../src/docs/books/learning_bash/07-loops.md:1
-#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:1
+#: ../src/docs/books/admin_guide/14-special-authority.md:1
 #, no-wrap
-msgid "education"
+msgid "advanced permissions"
 msgstr ""
 
 #. type: YAML Front Matter: tags
-#: ../src/docs/books/admin_guide/13-softwares.md:1
+#: ../src/docs/books/admin_guide/14-special-authority.md:1
 #, no-wrap
-msgid "software"
+msgid "access control"
 msgstr ""
 
-#. type: YAML Front Matter: tags
-#: ../src/docs/books/admin_guide/13-softwares.md:1
-#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:1
+#. type: YAML Front Matter: title
+#: ../src/docs/books/admin_guide/14-special-authority.md:1
 #, no-wrap
-msgid "software management"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/13-softwares.md:1
-#: ../src/docs/books/admin_guide/13-softwares.md:12
-#: ../src/docs/release_notes/9_1.md:43 ../src/docs/release_notes/9_2.md:217
-#, no-wrap
-msgid "Software Management"
+msgid "Special Authority"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:17
-msgid "On a Linux system, it is possible to install software in two ways:"
+#: ../src/docs/books/admin_guide/14-special-authority.md:11
+#, no-wrap
+msgid "<font color=red>All of the examples in this document use root actions, with ordinary users actions commented separately. In the markdown code block, the command description will be indicated with # on the previous line.</font>\n"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/13-softwares.md:20
-msgid "Using an installation package;"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/13-softwares.md:20
-msgid "Compiling from source files."
+#. type: Title #
+#: ../src/docs/books/admin_guide/14-special-authority.md:12
+#, no-wrap
+msgid "Review basic permissions"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:24
+#: ../src/docs/books/admin_guide/14-special-authority.md:15
+msgid "It is well known that the basic permissions of GNU/Linux can be viewed using `ls -l`:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:16
 #, no-wrap
-msgid "    Installing from source is not covered here. As a rule, you should use the package method unless the software you want is not available via the package manager. The reason for this is that dependencies are generally managed by the package system, whereas with source, you need to manage the dependencies manually.\n"
+msgid "Shell > ls -l \n"
+"-  rwx  r-x  r-x  1  root  root    1358  Dec 31 14:50  anaconda-ks.cfg\n"
+"↓   ↓    ↓    ↓   ↓   ↓     ↓       ↓        ↓            ↓\n"
+"1   2    3    4   5   6     7       8        9            10\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:26
-#, no-wrap
-msgid "**The package**: This is a single file containing all the data needed to install the program. It can be executed directly on the system from a software repository.\n"
+#: ../src/docs/books/admin_guide/14-special-authority.md:24
+msgid "Their meanings are as follows:"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:28
+#: ../src/docs/books/admin_guide/14-special-authority.md:37
 #, no-wrap
-msgid "**The source files**: Some software is not provided in packages ready to be installed, but via an archive containing the source files. It is up to the administrator to prepare these files and compile them to install the program.\n"
+msgid "| Part | Description |\n"
+"|------|-------------|\n"
+"| 1    | File type. `-` indicates that this is an ordinary file. Seven file types will be introduced later. |\n"
+"| 2    | Permissions of owner user, the meaning of rwx respectively means: read, write, execute.  |\n"
+"| 3    | Permissions of the owner group. |\n"
+"| 4    | Permissions of other users. |\n"
+"| 5    | Number of subdirectories (`.` and `..` included). For a file, it represents the number of hard links, and 1 represents itself. |\n"
+"| 6    | Name of the owner user. |\n"
+"| 7    | Name of the owner group. |\n"
+"| 8    | For files, it shows the size of the file. For directories, it shows the fixed value of 4096 bytes occupied by the file naming. To calculate the total size of a directory, use `du -sh` |\n"
+"| 9    | Last modified date.   |\n"
+"| 10   | The name of the file (or directory). |\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/books/admin_guide/13-softwares.md:29
+#: ../src/docs/books/admin_guide/14-special-authority.md:38
 #, no-wrap
-msgid "RPM: RedHat Package Manager"
+msgid "Seven file types"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:32
+#: ../src/docs/books/admin_guide/14-special-authority.md:49
 #, no-wrap
-msgid "**RPM** (RedHat Package Manager) is a software management system. It is possible to install, uninstall, update or check software contained in packages.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:34
-#, no-wrap
-msgid "**RPM** is the format used by all RedHat based distributions (RockyLinux, Fedora, CentOS, SuSe, Mandriva, ...). Its equivalent in the Debian world is DPKG (Debian Package).\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:36
-msgid "The name of an RPM package follows a specific nomenclature:"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:38
-msgid "![Illustration of a package name](images/software-001.png)"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/admin_guide/13-softwares.md:39
-#, no-wrap
-msgid "`rpm` command"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:42
-msgid "The rpm command allows you to install a package."
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:43
-#, no-wrap
-msgid "rpm [-i][-U] package.rpm [-e] package\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:48
-msgid "Example (for a package named 'package'):"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:49
-#, no-wrap
-msgid "rpm -ivh package.rpm\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:61
-#, no-wrap
-msgid "| Option            | Description                                  |\n"
-"|-------------------|----------------------------------------------|\n"
-"| `-i package.rpm`  | Installs the package.                        |\n"
-"| `-U package.rpm`  | Updates an already installed package.        |\n"
-"| `-e package.rpm`  | Uninstalls the package.                      |\n"
-"| `-h`              | Displays a progress bar.                     |\n"
-"| `-v`              | Informs about the progress of the operation. |\n"
-"| `--test`          | Tests the command without executing it.      |\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:63
-msgid "The `rpm` command also allows you to query the system package database by adding the `-q` option."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:65
-msgid "It is possible to execute several types of queries to obtain different information about the installed packages. The RPM database is located in the directory `/var/lib/rpm`."
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:68
-#, no-wrap
-msgid "rpm -qa\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:73
-msgid "This command queries all the packages installed on the system."
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:74
-#, no-wrap
-msgid "rpm -q [-a][-i][-l] package [-f] file\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:80
-#, no-wrap
-msgid "rpm -qil package\n"
-"rpm -qf /path/to/file\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:92
-#, no-wrap
-msgid "| Option           | Description                                                                                    |\n"
-"|------------------|------------------------------------------------------------------------------------------------|\n"
-"| `-a`             | Lists all packages installed on the system.                                                    |\n"
-"| `-i __package__` | Displays the package information.                                                              |\n"
-"| `-l __package__` | Lists the files contained in the package.                                                      |\n"
-"| `-f`             | Shows the name of the package containing the specified file.                                   |\n"
-"| `--last`         | The list of packages is given by installation date (the last installed packages appear first). |\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:96
-#, no-wrap
-msgid "    After the `-q` option, the package name must be exact. Metacharacters (wildcards) are not supported.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:100
-#, no-wrap
-msgid "    However, it is possible to list all installed packages and filter with the `grep` command.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:102
-msgid "Example: list the last installed packages:"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:103
-#, no-wrap
-msgid "sudo rpm -qa --last | head\n"
-"NetworkManager-config-server-1.26.0-13.el8.noarch Mon 24 May 2021 02:34:00 PM CEST\n"
-"iwl2030-firmware-18.168.6.1-101.el8.1.noarch  Mon 24 May 2021 02:34:00 PM CEST\n"
-"iwl2000-firmware-18.168.6.1-101.el8.1.noarch  Mon 24 May 2021 02:34:00 PM CEST\n"
-"iwl135-firmware-18.168.6.1-101.el8.1.noarch   Mon 24 May 2021 02:34:00 PM CEST\n"
-"iwl105-firmware-18.168.6.1-101.el8.1.noarch   Mon 24 May 2021 02:34:00 PM CEST\n"
-"iwl100-firmware-39.31.5.1-101.el8.1.noarch    Mon 24 May 2021 02:34:00 PM CEST\n"
-"iwl1000-firmware-39.31.5.1-101.el8.1.noarch   Mon 24 May 2021 02:34:00 PM CEST\n"
-"alsa-sof-firmware-1.5-2.el8.noarch            Mon 24 May 2021 02:34:00 PM CEST\n"
-"iwl7260-firmware-25.30.13.0-101.el8.1.noarch  Mon 24 May 2021 02:33:59 PM CEST\n"
-"iwl6050-firmware-41.28.5.1-101.el8.1.noarch   Mon 24 May 2021 02:33:59 PM CEST\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:118
-msgid "Example: list the installation history of the kernel:"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:119
-#, no-wrap
-msgid "sudo rpm -qa --last kernel\n"
-"kernel-4.18.0-305.el8.x86_64                  Tue 25 May 2021 06:04:56 AM CEST\n"
-"kernel-4.18.0-240.22.1.el8.x86_64             Mon 24 May 2021 02:33:35 PM CEST\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:126
-msgid "Example: list all installed packages with a specific name using `grep`:"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:127
-#, no-wrap
-msgid "sudo dnf list installed | grep httpd\n"
-"centos-logos-httpd.noarch           80.5-2.el8                              @baseos\n"
-"httpd.x86_64                        2.4.37-30.module_el8.3.0+561+97fdbbcc   @appstream\n"
-"httpd-filesystem.noarch             2.4.37-30.module_el8.3.0+561+97fdbbcc   @appstream\n"
-"httpd-tools.x86_64                  2.4.37-30.module_el8.3.0+561+97fdbbcc   @appstream\n"
+msgid "| File types  | Description                                                                                                                                |\n"
+"|:-----------:|--------------------------------------------------------------------------------------------------------------------------------------------|\n"
+"| **-**       | Represents an ordinary file. Including plain text files (ASCII); binary files (binary); data format files (data); various compressed files. |\n"
+"| **d**       | Represents a directory file. By default, there is one in every directory `.` and `..`. |\n"
+"| **b**       | Block device file. Including all kinds of hard drives, USB drives and so on. | \n"
+"| **c**       | Character device file. Interface device of serial port, such as mouse, keyboard, etc. |\n"
+"| **s**       | Socket file. It is a file specially used for network communication. | \n"
+"| **p**       | Pipe file. It is a special file type, the main purpose is to solve the errors caused by multiple programs accessing a file at the same time. FIFO is the abbreviation of first-in-first-out. |\n"
+"| **l**       | Soft link files, also called symbolic link files, are similar to shortcuts in Windows. Hard link file, also known as physical link file.| \n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/books/admin_guide/13-softwares.md:135
+#: ../src/docs/books/admin_guide/14-special-authority.md:50
 #, no-wrap
-msgid "DNF: Dandified Yum"
+msgid "The meaning of basic permissions"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:138
+#: ../src/docs/books/admin_guide/14-special-authority.md:53
+msgid "For file:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:59
 #, no-wrap
-msgid "**DNF** (**Dandified Yum**) is a software package manager, successor of **YUM** (**Y**ellow dog **U**pdater **M**odified). It works with **RPM** packages grouped in a local or remote repository (a directory for storing packages). For the most common commands, its usage is identical to that of `yum`.\n"
+msgid "| Digital representation | Permissions  | Description |\n"
+"|:----------------------:|--------------|-------------|\n"
+"|4                       | r(read)      | Indicates that you can read this file. You can use commands such as `cat`, `head`, `more`, `less`, `tail`, etc. |\n"
+"|2                       | w(write)     | Indicates that the file can be modified. Commands such as `vim` can be used. |\n"
+"|1                       | x(execution) | Permissions for executable files (such as scripts or binaries). |\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:140
-msgid "The `dnf` command allows the management of packages by comparing those installed on the system with those in the repositories defined on the server. It also automatically installs dependencies, if they are also present in the repositories."
+#: ../src/docs/books/admin_guide/14-special-authority.md:61
+msgid "For directory:"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:142
-msgid "`dnf` is the manager used by many RedHat based distributions (RockyLinux, Fedora, CentOS, ...). Its equivalent in the Debian world is **APT** (**A**dvanced **P**ackaging **T**ool)."
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/admin_guide/13-softwares.md:143
+#: ../src/docs/books/admin_guide/14-special-authority.md:67
 #, no-wrap
-msgid "`dnf` command"
+msgid "| Digital representation | Permissions  | Description |\n"
+"|:----------------------:|--------------|-------------|\n"
+"|4                       | r(read)      | Indicates that the contents of the directory can be listed, such as `ls -l`. |\n"
+"|2                       | w(write)     | Indicates that you can create, delete, and rename files in this directory, such as commands `mkdir`, `touch`, `rm`, etc. |\n"
+"|1                       | x(execute)  | Indicates that you can enter the directory, such as the command `cd`. |\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:146
-msgid "The `dnf` command allows you to install a package by specifying only the short name."
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:147
+#: ../src/docs/books/admin_guide/14-special-authority.md:71
 #, no-wrap
-msgid "dnf [install][remove][list all][search][info] package\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:153
-#, no-wrap
-msgid "dnf install tree\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:158
-msgid "Only the short name of the package is required."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:168
-#, no-wrap
-msgid "| Option                     | Description                                                          |\n"
-"|----------------------------|----------------------------------------------------------------------|\n"
-"| `install`                  | Installs the package.                                                |\n"
-"| `remove`                   | Uninstall the package.                                               |\n"
-"| `list all`                 | Lists the packages already in the repository.                        |\n"
-"| `search`                   | Search for a package in the repository.                              |\n"
-"| `provides */command_name`  | Search for a command.                                                |\n"
-"| `info`                     | Displays the package information.                                    |\n"
-"| `autoremove`               | Removes all packages installed as dependencies but no longer needed. |\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:171
-msgid "The `dnf install` command allows you to install the desired package without worrying about its dependencies, which will be resolved directly by `dnf` itself."
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:172
-#, no-wrap
-msgid "dnf install nginx\n"
-"Last metadata expiration check: 3:13:41 ago on Wed 23 Mar 2022 07:19:24 AM CET.\n"
-"Dependencies resolved.\n"
-"============================================================================================================================\n"
-" Package                             Architecture    Version                                        Repository         Size\n"
-"============================================================================================================================\n"
-"Installing:\n"
-" nginx                               aarch64         1:1.14.1-9.module+el8.4.0+542+81547229         appstream         543 k\n"
-"Installing dependencies:\n"
-" nginx-all-modules                   noarch          1:1.14.1-9.module+el8.4.0+542+81547229         appstream          22 k\n"
-" nginx-mod-http-image-filter         aarch64         1:1.14.1-9.module+el8.4.0+542+81547229         appstream          33 k\n"
-" nginx-mod-http-perl                 aarch64         1:1.14.1-9.module+el8.4.0+542+81547229         appstream          44 k\n"
-" nginx-mod-http-xslt-filter          aarch64         1:1.14.1-9.module+el8.4.0+542+81547229         appstream          32 k\n"
-" nginx-mod-mail                      aarch64         1:1.14.1-9.module+el8.4.0+542+81547229         appstream          60 k\n"
-" nginx-mod-stream                    aarch64         1:1.14.1-9.module+el8.4.0+542+81547229         appstream          82 k\n\n"
-"Transaction Summary\n"
-"============================================================================================================================\n"
-"Install  7 Packages\n\n"
-"Total download size: 816 k\n"
-"Installed size: 2.2 M\n"
-"Is this ok [y/N]:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:199
-msgid "In case you don't remember the exact name of the package, you can search for it with the command `dnf search name`. As you can see, there is a section that contains the exact name and another one that contains the package correspondence, all of which are highlighted for easier searching."
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:200
-#, no-wrap
-msgid "dnf search nginx\n"
-"Last metadata expiration check: 0:20:55 ago on Wed 23 Mar 2022 10:40:43 AM CET.\n"
-"=============================================== Name Exactly Matched: nginx ================================================\n"
-"nginx.aarch64 : A high performance web server and reverse proxy server\n"
-"============================================== Name & Summary Matched: nginx ===============================================\n"
-"collectd-nginx.aarch64 : Nginx plugin for collectd\n"
-"munin-nginx.noarch : NGINX support for Munin resource monitoring\n"
-"nginx-all-modules.noarch : A meta package that installs all available Nginx modules\n"
-"nginx-filesystem.noarch : The basic directory layout for the Nginx server\n"
-"nginx-mod-http-image-filter.aarch64 : Nginx HTTP image filter module\n"
-"nginx-mod-http-perl.aarch64 : Nginx HTTP perl module\n"
-"nginx-mod-http-xslt-filter.aarch64 : Nginx XSLT module\n"
-"nginx-mod-mail.aarch64 : Nginx mail modules\n"
-"nginx-mod-stream.aarch64 : Nginx stream modules\n"
-"pagure-web-nginx.noarch : Nginx configuration for Pagure\n"
-"pcp-pmda-nginx.aarch64 : Performance Co-Pilot (PCP) metrics for the Nginx Webserver\n"
-"python3-certbot-nginx.noarch : The nginx plugin for certbot\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:221
-msgid "Another way to search for a package by entering an additional search key is to send the result of the `dnf` command through a pipe to the grep command with the desired key."
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:222
-#, no-wrap
-msgid "dnf search nginx | grep mod\n"
-"Last metadata expiration check: 3:44:49 ago on Wed 23 Mar 2022 06:16:47 PM CET.\n"
-"nginx-all-modules.noarch : A meta package that installs all available Nginx modules\n"
-"nginx-mod-http-image-filter.aarch64 : Nginx HTTP image filter module\n"
-"nginx-mod-http-perl.aarch64 : Nginx HTTP perl module\n"
-"nginx-mod-http-xslt-filter.aarch64 : Nginx XSLT module\n"
-"nginx-mod-mail.aarch64 : Nginx mail modules\n"
-"nginx-mod-stream.aarch64 : Nginx stream modules\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:235
-msgid "The `dnf remove` command removes a package from the system and its dependencies. Below is an excerpt of the **dnf remove httpd** command."
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:236
-#, no-wrap
-msgid "dnf remove httpd\n"
-"Dependencies resolved.\n"
-"============================================================================================================================\n"
-" Package                        Architecture    Version                                            Repository          Size\n"
-"============================================================================================================================\n"
-"Removing:\n"
-" httpd                          aarch64         2.4.37-43.module+el8.5.0+727+743c5577.1            @appstream         8.9 M\n"
-"Removing dependent packages:\n"
-" mod_ssl                        aarch64         1:2.4.37-43.module+el8.5.0+727+743c5577.1          @appstream         274 k\n"
-" php                            aarch64         7.4.19-1.module+el8.5.0+696+61e7c9ba               @appstream         4.4 M\n"
-" python3-certbot-apache         noarch          1.22.0-1.el8                                       @epel              539 k\n"
-"Removing unused dependencies:\n"
-" apr                            aarch64         1.6.3-12.el8                                       @appstream         299 k\n"
-" apr-util                       aarch64         1.6.1-6.el8.1                                      @appstream         224 k\n"
-" apr-util-bdb                   aarch64         1.6.1-6.el8.1                                      @appstream          67 k\n"
-" apr-util-openssl               aarch64         1.6.1-6.el8.1                                      @appstream          68 k\n"
-" augeas-libs                    aarch64         1.12.0-6.el8                                       @baseos            1.4 M\n"
-" httpd-filesystem               noarch          2.4.37-43.module+el8.5.0+727+743c5577.1            @appstream         400\n"
-" httpd-tools                    aarch64         2.4.37-43.module+el8.5.0+727+743c5577.1\n"
-"...\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:260
-msgid "The `dnf list` command lists all the packages installed on the system and present in the repository. It accepts several parameters:"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:268
-#, no-wrap
-msgid "| Parameter   | Description                                                                |\n"
-"|-------------|----------------------------------------------------------------------------|\n"
-"| `all`       |\tLists the installed packages and then those available on the repositories. |\n"
-"| `available` |\tLists only the packages available for installation.                        |\n"
-"| `updates`   |\tLists packages that can be upgraded.                                       |\n"
-"| `obsoletes` |\tLists the packages made obsolete by higher versions available.             |\n"
-"| `recent`    |\tLists the latest packages added to the repository.                         |\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:270
-msgid "The `dnf info` command, as you might expect, provides detailed information about a package:"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:271
-#, no-wrap
-msgid "dnf info firewalld\n"
-"Last metadata expiration check: 15:47:27 ago on Tue 22 Mar 2022 05:49:42 PM CET.\n"
-"Installed Packages\n"
-"Name         : firewalld\n"
-"Version      : 0.9.3\n"
-"Release      : 7.el8\n"
-"Architecture : noarch\n"
-"Size         : 2.0 M\n"
-"Source       : firewalld-0.9.3-7.el8.src.rpm\n"
-"Repository   : @System\n"
-"From repo    : baseos\n"
-"Summary      : A firewall daemon with D-Bus interface providing a dynamic firewall\n"
-"URL          : http://www.firewalld.org\n"
-"License      : GPLv2+\n"
-"Description  : firewalld is a firewall service daemon that provides a dynamic customizable\n"
-"             : firewall with a D-Bus interface.\n\n"
-"Available Packages\n"
-"Name         : firewalld\n"
-"Version      : 0.9.3\n"
-"Release      : 7.el8_5.1\n"
-"Architecture : noarch\n"
-"Size         : 501 k\n"
-"Source       : firewalld-0.9.3-7.el8_5.1.src.rpm\n"
-"Repository   : baseos\n"
-"Summary      : A firewall daemon with D-Bus interface providing a dynamic firewall\n"
-"URL          : http://www.firewalld.org\n"
-"License      : GPLv2+\n"
-"Description  : firewalld is a firewall service daemon that provides a dynamic customizable\n"
-"             : firewall with a D-Bus interface.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:305
-msgid "Sometimes you only know the executable you want to use but not the package that contains it, in this case you can use the command `dnf provides */package_name` which will search the database for you for the desired match."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:307
-msgid "Example of a search for the `semanage` command:"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:308
-#, no-wrap
-msgid "dnf provides */semanage\n"
-"Last metadata expiration check: 1:12:29 ago on Wed 23 Mar 2022 10:40:43 AM CET.\n"
-"libsemanage-devel-2.9-6.el8.aarch64 : Header files and libraries used to build policy manipulation tools\n"
-"Repo        : powertools\n"
-"Matched from:\n"
-"Filename    : /usr/include/semanage\n\n"
-"policycoreutils-python-utils-2.9-16.el8.noarch : SELinux policy core python utilities\n"
-"Repo        : baseos\n"
-"Matched from:\n"
-"Filename    : /usr/sbin/semanage\n"
-"Filename    : /usr/share/bash-completion/completions/semanage\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:324
-msgid "The `dnf autoremove` command does not need any parameters. Dnf takes care of searching for candidate packages for removal."
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:325
-#, no-wrap
-msgid "dnf autoremove\n"
-"Last metadata expiration check: 0:24:40 ago on Wed 23 Mar 2022 06:16:47 PM CET.\n"
-"Dependencies resolved.\n"
-"Nothing to do.\n"
-"Complete!\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/admin_guide/13-softwares.md:333
-#, no-wrap
-msgid "Other useful `dnf` options"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:340
-#, no-wrap
-msgid "| Option                     | Description                                      |\n"
-"|----------------------------|--------------------------------------------------|\n"
-"| `repolist`                 | Lists the repositories configured on the system. |\n"
-"| `grouplist`                | Lists available package collections.             |\n"
-"| `clean`                    | Removes temporary files.                         |\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:342
-msgid "The `dnf repolist` command lists the repositories configured on the system. By default, it lists only the enabled repositories but can be used with these parameters:"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:348
-#, no-wrap
-msgid "| Parameter    | Description                       |\n"
-"|--------------|-----------------------------------|\n"
-"| `--all`      | Lists all the repositories.       |\n"
-"| `--enabled`  | Default                           |\n"
-"| `--disabled` | Lists only disabled repositories. |\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:351
-#, no-wrap
-msgid "dnf repolist\n"
-"repo id                                                  repo name\n"
-"appstream                                                Rocky Linux 8 - AppStream\n"
-"baseos                                                   Rocky Linux 8 - BaseOS\n"
-"epel                                                     Extra Packages for Enterprise Linux 8 - aarch64\n"
-"epel-modular                                             Extra Packages for Enterprise Linux Modular 8 - aarch64\n"
-"extras                                                   Rocky Linux 8 - Extras\n"
-"powertools                                               Rocky Linux 8 - PowerTools\n"
-"rockyrpi                                                 Rocky Linux 8 - Rasperry Pi\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:364
-msgid "And an excerpt of the command with the `--all` flag."
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:365
-#, no-wrap
-msgid "dnf repolist --all\n\n"
-"...\n"
-"repo id                                             repo name                                                                                       status\n"
-"appstream                                           Rocky Linux 8 - AppStream                                                                       enabled\n"
-"appstream-debug                                     Rocky Linux 8 - AppStream - Source                                                              disabled\n"
-"appstream-source                                    Rocky Linux 8 - AppStream - Source                                                              disabled\n"
-"baseos                                              Rocky Linux 8 - BaseOS                                                                          enabled\n"
-"baseos-debug                                        Rocky Linux 8 - BaseOS - Source                                                                 disabled\n"
-"baseos-source                                       Rocky Linux 8 - BaseOS - Source                                                                 disabled\n"
-"devel                                               Rocky Linux 8 - Devel WARNING! FOR BUILDROOT AND KOJI USE                                       disabled\n"
-"epel                                                Extra Packages for Enterprise Linux 8 - aarch64                                                 enabled\n"
-"epel-debuginfo                                      Extra Packages for Enterprise Linux 8 - aarch64 - Debug                                         disabled\n"
-"epel-modular                                        Extra Packages for Enterprise Linux Modular 8 - aarch64                                         enabled\n"
-"epel-modular-debuginfo                              Extra Packages for Enterprise Linux Modular 8 - aarch64 - Debug                                 disabled\n"
-"epel-modular-source                                 Extra Packages for Enterprise Linux Modular 8 - aarch64 - Source\n"
-"...\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:386
-msgid "And below is an excerpt from the list of disabled repositories."
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:387
-#, no-wrap
-msgid "dnf repolist --disabled\n"
-"repo id                                 repo name\n"
-"appstream-debug                         Rocky Linux 8 - AppStream - Source\n"
-"appstream-source                        Rocky Linux 8 - AppStream - Source\n"
-"baseos-debug                            Rocky Linux 8 - BaseOS - Source\n"
-"baseos-source                           Rocky Linux 8 - BaseOS - Source\n"
-"devel                                   Rocky Linux 8 - Devel WARNING! FOR BUILDROOT AND KOJI USE\n"
-"epel-debuginfo                          Extra Packages for Enterprise Linux 8 - aarch64 - Debug\n"
-"epel-modular-debuginfo                  Extra Packages for Enterprise Linux Modular 8 - aarch64 - Debug\n"
-"epel-modular-source                     Extra Packages for Enterprise Linux Modular 8 - aarch64 - Source\n"
-"epel-source                             Extra Packages for Enterprise Linux 8 - aarch64 - Source\n"
-"epel-testing                            Extra Packages for Enterprise Linux 8 - Testing - aarch64\n"
-"...\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:404
-msgid "Using the `-v` option enhances the list with a lot of additional information. Below you can see part of the result of the command."
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:405
-#, no-wrap
-msgid "dnf repolist -v\n\n"
-"...\n"
-"Repo-id            : powertools\n"
-"Repo-name          : Rocky Linux 8 - PowerTools\n"
-"Repo-revision      : 8.5\n"
-"Repo-distro-tags      : [cpe:/o:rocky:rocky:8]:  ,  , 8, L, R, c, i, k, n, o, u, x, y\n"
-"Repo-updated       : Wed 16 Mar 2022 10:07:49 PM CET\n"
-"Repo-pkgs          : 1,650\n"
-"Repo-available-pkgs: 1,107\n"
-"Repo-size          : 6.4 G\n"
-"Repo-mirrors       : https://mirrors.rockylinux.org/mirrorlist?arch=aarch64&repo=PowerTools-8\n"
-"Repo-baseurl       : https://mirror2.sandyriver.net/pub/rocky/8.8/PowerTools/x86_64/os/ (30 more)\n"
-"Repo-expire        : 172,800 second(s) (last: Tue 22 Mar 2022 05:49:24 PM CET)\n"
-"Repo-filename      : /etc/yum.repos.d/Rocky-PowerTools.repo\n"
-"...\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:425
-msgid "!!! info \"Using Groups\""
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:427
-#, no-wrap
-msgid "    Groups are a collection of a set of packages (you can think of them as a virtual packages) that logically groups a set of applications to accomplish a purpose (a desktop environment, a server, development tools, etc.).\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:429
-msgid "The `dnf grouplist` command lists all available groups."
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:430
-#, no-wrap
-msgid "dnf grouplist\n"
-"Last metadata expiration check: 1:52:00 ago on Wed 23 Mar 2022 02:11:43 PM CET.\n"
-"Available Environment Groups:\n"
-"   Server with GUI\n"
-"   Server\n"
-"   Minimal Install\n"
-"   KDE Plasma Workspaces\n"
-"   Custom Operating System\n"
-"Available Groups:\n"
-"   Container Management\n"
-"   .NET Core Development\n"
-"   RPM Development Tools\n"
-"   Development Tools\n"
-"   Headless Management\n"
-"   Legacy UNIX Compatibility\n"
-"   Network Servers\n"
-"   Scientific Support\n"
-"   Security Tools\n"
-"   Smart Card Support\n"
-"   System Tools\n"
-"   Fedora Packager\n"
-"   Xfce\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:456
-msgid "The `dnf groupinstall` command allows you to install one of these groups."
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:457
-#, no-wrap
-msgid "dnf groupinstall \"Network Servers\"\n"
-"Last metadata expiration check: 2:33:26 ago on Wed 23 Mar 2022 02:11:43 PM CET.\n"
-"Dependencies resolved.\n"
-"================================================================================\n"
-" Package           Architecture     Version             Repository         Size\n"
-"================================================================================\n"
-"Installing Groups:\n"
-" Network Servers\n\n"
-"Transaction Summary\n"
-"================================================================================\n\n"
-"Is this ok [y/N]:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:474
-msgid "Note that it is good practice to enclose the group name in double quotes as without the command it will only execute correctly if the group name does not contain spaces."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:476
-msgid "So a `dnf groupinstall Network Servers` produces the following error."
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:477
-#, no-wrap
-msgid "dnf groupinstall Network Servers\n"
-"Last metadata expiration check: 3:05:45 ago on Wed 23 Mar 2022 02:11:43 PM CET.\n"
-"Module or Group 'Network' is not available.\n"
-"Module or Group 'Servers' is not available.\n"
-"Error: Nothing to do.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:486
-msgid "The corresponding command to remove a group is `dnf groupremove \"name group\"`."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:488
-msgid "The `dnf clean` command cleans all caches and temporary files created by `dnf`. It can be used with the following parameters."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:496
-#, no-wrap
-msgid "| Parameters         | Description                                                   |\n"
-"|--------------------|---------------------------------------------------------------|\n"
-"| `all`              | Removes all temporary files created for enabled repositories. |\n"
-"| `dbcache`          | Removes cache files for the repository  metadata.             |\n"
-"| `expire-cache`     | Remove the local cookie files.                                |\n"
-"| `metadata`         | Removes all the repositories metadata.                        |\n"
-"| `packages`         | Removes any cached packages.                                  |\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/admin_guide/13-softwares.md:498
-#, no-wrap
-msgid "How DNF works"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:501
-msgid "The DNF manager relies on one or more configuration files to target the repositories containing the RPM packages."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:503
-msgid "These files are located in `/etc/yum.repos.d/` and must end with `.repo` in order to be used by DNF."
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:506
-#, no-wrap
-msgid "/etc/yum.repos.d/Rocky-BaseOS.repo\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:511
-msgid "Each `.repo` file consists of at least the following information, one directive per line."
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:514
-#, no-wrap
-msgid "[baseos] # Short name of the repository\n"
-"name=Rocky Linux $releasever - BaseOS # Short name of the repository #Detailed name\n"
-"mirrorlist=http://mirrors.rockylinux.org/mirrorlist?arch=$basearch&repo=BaseOS-$releasever # http address of a list or mirror\n"
-"#baseurl=http://dl.rockylinux.org/$contentdir/$releasever/BaseOS/$basearch/os/ # http address for direct access\n"
-"gpgcheck=1 # Repository requiring a signature\n"
-"enabled=1 # Activated =1, or not activated =0\n"
-"gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rockyofficial # GPG public key path\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:525
-msgid "By default, the `enabled` directive is absent which means that the repository is enabled. To disable a repository, you must specify the `enabled=0` directive."
+msgid "    For directories, **r** and **x** permissions usually appear at the same time.\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/books/admin_guide/13-softwares.md:526
+#: ../src/docs/books/admin_guide/14-special-authority.md:72
 #, no-wrap
-msgid "DNF modules"
+msgid "Special authority"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:529
-msgid "Modules were introduced in Rocky Linux 8 by the upstream. In order to use modules, the AppStream repository must exist and be enabled."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:531
-msgid "!!! hint \"Package Confusion\""
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:533
-#, no-wrap
-msgid "    The creation of module streams in the AppStream repository caused a lot of people confusion. Since modules are packaged within a stream (see our examples below), a particular package would show up in our RPMs, but if an attempt was made to install it without enabling the module, nothing would happen. Remember to look at modules if you attempt to install a package and it fails to find it.\n"
+#: ../src/docs/books/admin_guide/14-special-authority.md:75
+msgid "In GNU/Linux, in addition to the basic permissions mentioned above, there are also some special permissions, which we will introduce one by one."
 msgstr ""
 
 #. type: Title ###
-#: ../src/docs/books/admin_guide/13-softwares.md:534
+#: ../src/docs/books/admin_guide/14-special-authority.md:76
 #, no-wrap
-msgid "What are modules"
+msgid "ACL permissions"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:537
-msgid "Modules come from the AppStream repository and contain both streams and profiles. These can be described as follows:"
+#: ../src/docs/books/admin_guide/14-special-authority.md:80
+msgid "What is ACL? ACL(Access Control List), the purpose is to solve the problem that the three identities under Linux can not meet the needs of resource permission allocation."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:82
+msgid "For example, the teacher gives lessons to the students, and the teacher creates a directory under the root directory of OS. Only the students in this class are allowed to upload and download, and others are not allowed. At this point, the permissions for the directory are 770. One day, a student from another school came to listen to the teacher, how should permissions be assigned? If you put this student in the **owner group**, he will have the same permissions as the students in this class - **rwx**. If the student is put into the **other users**, he will not have any permissions. At this time, the basic permission allocation cannot meet the requirements, and you need to use ACL."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:84
+#, no-wrap
+msgid "There is a similar feature in the Windows operating system. For example, to assign permissions to a user for a file, for a user-defined directory/file, **right-click** ---> **Properties** ---> **Security** ---> **Edit** ---> **Add** ---> **Advanced** ---> **Find now**, find the corresponding user/group ---> assign specific permissions ---> **apply**, and complete.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:86
+#, no-wrap
+msgid "<!--Screenshots of the English interface are required-->\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:88
+msgid "The same is true of GNU/Linux: add the specified user/group to the file/directory and grant the appropriate permissions to complete the ACL permission assignment."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:91
+msgid "How do I enable an ACL? You need to find the file name of the device where the mount point is located and its partition number. For example, on my machine, you could do something like this:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:92
+#, no-wrap
+msgid "Shell > df -hT\n"
+"Filesystem     Type      Size  Used  Avail Use% Mounted on\n"
+"devtmpfs       devtmpfs  3.8G     0  3.8G    0% /dev\n"
+"tmpfs          tmpfs     3.8G     0  3.8G    0% /dev/shm\n"
+"tmpfs          tmpfs     3.8G  8.9M  3.8G    1% /run\n"
+"tmpfs          tmpfs     3.8G     0  3.8G    0% /sys/fs/cgroup\n"
+"/dev/nvme0n1p2 ext4       47G   11G   35G   24% /\n"
+"/dev/nvme0n1p1 xfs      1014M  187M  828M   19% /boot\n"
+"tmpfs          tmpfs     774M     0  774M    0% /run/user/0\n\n"
+"Shell > dumpe2fs /dev/nvme0n1p2 | head -n 10\n"
+"dumpe2fs 1.45.6 (20-Mar-2020)\n"
+"Filesystem volume name:   <none>\n"
+"Last mounted on:          /\n"
+"Filesystem UUID:          c8e6206d-2892-4c22-a10b-b87d2447a885\n"
+"Filesystem magic number:  0xEF53\n"
+"Filesystem revision #:    1 (dynamic)\n"
+"Filesystem features:      has_journal ext_attr resize_inode dir_index filetype needs_recovery extent 64bit flex_bg sparse_super large_file huge_file dir_nlink extra_isize metadata_csum\n"
+"Filesystem flags:         signed_directory_hash \n"
+"Default mount options:    user_xattr acl\n"
+"Filesystem state:         clean\n"
+"Errors behavior:          Continue\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:118
+msgid "When you see the line **\"Default mount options: user_xattr acl\"**, it indicates that ACL has been enabled. If it is not enabled, you can also enable it temporarily -- `mount -o remount,acl /`. It can also be enabled permanently:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:119
+#, no-wrap
+msgid "Shell > vim /etc/fstab\n"
+"UUID=c8e6206d-2892-4c22-a10b-b87d2447a885  /   ext4    defaults,acl        1 1\n\n"
+"Shell > mount -o remount /\n"
+"# or\n"
+"Shell > reboot\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/admin_guide/14-special-authority.md:128
+#, no-wrap
+msgid "Viewing and setting of ACL"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:131
+msgid "To view ACL, you need to use the `getfacle` command -- `getfacle FILE_NAME`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:133
+msgid "If you want to set ACL permissions, you need to use the `setfacl` command."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:134
+#, no-wrap
+msgid "Shell > setfacl <option> <FILE_NAME>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:146
+msgid "| Option | Description | |---|---| | -m | modify the current ACL(s) of file(s)  | | -x | remove entries from the ACL(s) of file(s)  | | -b | remove all extended ACL entries | | -d | operations apply to the default ACL | | -k | remove the default ACL | | -R | recurse into subdirectories |"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:148
+msgid "Use the teacher's example mentioned at the beginning of the article to illustrate the use of ACL."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:149
+#, no-wrap
+msgid "# The teacher is the root user\n"
+"Shell > groupadd class1\n"
+"Shell > mkdir /project\n"
+"Shell > chown root:class1 /project\n"
+"Shell > chmod 770 /project\n"
+"Shell > ls -ld /project/\n"
+"drwxrwx--- 2 root class1 4096 Jan  12 12:58 /project/\n\n"
+"# Put the students in the class into the class1 group\n"
+"Shell > useradd frank\n"
+"Shell > passwd frank\n"
+"Shell > useradd aron\n"
+"Shell > passwd aron\n"
+"Shell > gpasswd -a frank class1\n"
+"Shell > gpasswd -a aron class1\n\n"
+"# A student from another school came to listen to the teacher\n"
+"Shell > useradd tom\n"
+"Shell > passwd tom\n"
+"# If it is a group, \"u\" here should be replaced by \"g\"\n"
+"Shell > setfacle -m u:tom:rx  /project\n\n"
+"# \"+\" sign is added in the output message\n"
+"Shell > ls -ld /project/\n"
+"drwxrwx---+ 2 root class1 4096 Jan  12 12:58 /project/\n\n"
+"Shell > getfacl -p /project/\n"
+"# file: /project/\n"
+"# owner: root\n"
+"# group: class1\n"
+"user::rwx\n"
+"user:tom:r-x\n"
+"group::rwx\n"
+"mask::rwx\n"
+"other::---\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/admin_guide/14-special-authority.md:187
+#, no-wrap
+msgid "Maximum valid permissions of ACL"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:191
+msgid "When using the `getfacl` command, what does the \"mask:: rwx\" in the output message mean? The **mask** is used to specify the maximum valid permissions. The permissions given to the user are not real permissions, the real permissions can only be obtained by using the \"logical and\" of the user's permissions and mask permissions."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:195
+#, no-wrap
+msgid "    \"Logical and\" means: that if all are true, the result is true; if there is one false, the result is false.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:202
+#, no-wrap
+msgid "    | Permissions set by users | Mask permissions | Result |\n"
+"    |:---:|:---:|:---:|\n"
+"    | r | r | r |\n"
+"    | r | - | - |\n"
+"    | - | r | - |\n"
+"    | - | - | - |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:206
+#, no-wrap
+msgid "    Because the default mask is rwx, for any user's ACL permissions, the result is their own permissions.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:208
+msgid "You can also adjust mask permissions:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:209
+#, no-wrap
+msgid "Shell > setfacl -m u:tom:rwx /project\n"
+"Shell > setfacl -m m:rx /project\n\n"
+"Shell > getfacl  -p /project/\n"
+"# file: project/\n"
+"# owner: root\n"
+"# group: class1\n"
+"user::rwx\n"
+"user:tom:rwx                    #effective:r-x\n"
+"group::rwx                      #effective:r-x\n"
+"mask::r-x\n"
+"other::---\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/admin_guide/14-special-authority.md:224
+#, no-wrap
+msgid "Delete ACL permission"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:226
+#, no-wrap
+msgid "# Delete the ACL permissions of user/group in the specified directory\n"
+"Shell > setfacl -x u:USER_NAME FILE_NAME\n"
+"Shell > setfacl -x g:GROUP_NAME FILE_NAME\n\n"
+"# Removes all ACL permissions for the specified directory\n"
+"Shell > setfacl -b FILE_NAME\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/admin_guide/14-special-authority.md:235
+#, no-wrap
+msgid "Default and recursion of ACL permissions"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:239
+msgid "What is the recursion of ACL permissions? For ACL permissions, this means that when the parent directory sets ACL permissions, all subdirectories and sub-files will have the same ACL permissions."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:243
+#, no-wrap
+msgid "    Recursion applies to files/directories that already exist.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:245
+msgid "Look at the following example:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:246
+#, no-wrap
+msgid "Shell > setfacl -m m:rwx /project\n"
+"Shell > setfacl -m u:tom:rx /project\n\n"
+"Shell > cd /project\n"
+"Shell > touch file1 file2\n"
+"# Because there is no recursion, the file here does not have ACL permission. \n"
+"Shell > ls -l\n"
+"-rw-r--r-- 1 root root 0 Jan  12 14:35 file1\n"
+"-rw-r--r-- 1 root root 0 Jan  12 14:35 file2\n\n"
+"Shell > setfacl -m u:tom:rx -R /project\n"
+"Shell > ls -l /project\n"
+"-rw-r-xr--+ 1 root root 0 Jan  12 14:35 file1\n"
+"-rw-r-xr--+ 1 root root 0 Jan  12 14:35 file2\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:265
+msgid "Now there is a question: if I create a new file in this directory, does it have ACL permission? The answer is no, because the newly created file is after the command `setfacl-m u:tom:rx -R /project` is executed."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:266
+#, no-wrap
+msgid "Shell > touch /project/file3\n"
+"Shell > ls -l /project/file3\n"
+"-rw-r--r-- 1 root root 0 Jan  12 14:52 /project/file3\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:273
+msgid "If you want the newly created directory/file to also have ACL permissions, you need to use default ACL permissions."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:274
+#, no-wrap
+msgid "Shell > setfacl -m d:u:tom:rx  /project\n"
+"Shell > cd /project && touch file4 && ls -l \n"
+"-rw-r-xr--+ 1 root root 0 Jan  12 14:35 file1\n"
+"-rw-r-xr--+ 1 root root 0 Jan  12 14:35 file2\n"
+"-rw-r--r--  1 root root 0 Jan  12 14:52 file3\n"
+"-rw-rw----+ 1 root root 0 Jan  12 14:59 file4\n\n"
+"Shell > getfacl -p /project\n"
+"# file: /project\n"
+"# owner: root\n"
+"# group: class1\n"
+"user::rwx\n"
+"user:tom:r-x\n"
+"group::rwx\n"
+"mask::rwx\n"
+"other::---\n"
+"default:user::rwx\n"
+"default:user:tom:r-x\n"
+"default:group::rwx\n"
+"default:mask::rwx\n"
+"default:other::---\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/14-special-authority.md:298
+#, no-wrap
+msgid "SetUID"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:301
+msgid "The role of \"SetUID\":"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/13-softwares.md:539
-msgid "**module streams:** A module stream can be thought of as a separate repository within the AppStream repository that contains different application versions. These module repositories contain the application RPMs, dependencies, and documentation for that particular stream. An example of a module stream in Rocky Linux 8 would be `postgresql`. If you install `postgresql` using the standard `sudo dnf install postgresql` you will get version 10. However, using modules, you can instead install versions 9.6, 12 or 13."
+#: ../src/docs/books/admin_guide/14-special-authority.md:306
+msgid "Only executable binaries can set SUID permissions."
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/13-softwares.md:541
-msgid "**module profiles:** What a module profile does is take into consideration the use case for the module stream when installing the package. Applying a profile adjusts the package RPMs, dependencies and documentation to account for the module's use. Using the same `postgresql` stream in our example, you can apply a profile of either \"server\" or \"client\". Obviously, you do not need the same packages installed on your system if you are just going to use `postgresql` as a client to access a server."
+#: ../src/docs/books/admin_guide/14-special-authority.md:306
+#: ../src/docs/books/admin_guide/14-special-authority.md:369
+msgid "The executor of the command should have x permission to the program."
 msgstr ""
 
-#. type: Title ###
-#: ../src/docs/books/admin_guide/13-softwares.md:542
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:306
+msgid "The executor of the command obtains the identity of the owner of the program file when executing the program."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:306
+#: ../src/docs/books/admin_guide/14-special-authority.md:369
+msgid "The identity change is only valid during execution, and once the binary program is finished, the executor's identity is restored to the original identity."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:309
+msgid "Why does GNU/Linux need such strange permissions? Take the most common `passwd` command as an example:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:311
+msgid "![SetUID1](./images/SetUID1.png)"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:313
+msgid "As you can see, the ordinary users only has r and x, but the owner's x becomes s, proving that the `passwd` command has SUID permissions."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:315
 #, no-wrap
-msgid "Listing modules"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:545
-msgid "You can obtain a list of all modules by executing the following command:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:546
-#, no-wrap
-msgid "dnf module list\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:551
-msgid "This will give you a long list of the available modules and the profiles that can be used for them. The thing is you probably already know what package you are interested in, so to find out if there are modules for a particular package, add the package name after \"list\". We will use our `postgresql` package example again here:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:552
-#, no-wrap
-msgid "dnf module list postgresql\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:557
-msgid "This will give you output that looks like this:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:558
-#: ../src/docs/books/admin_guide/13-softwares.md:691
-#, no-wrap
-msgid "Rocky Linux 8 - AppStream\n"
-"Name                       Stream                 Profiles                           Summary                                            \n"
-"postgresql                 9.6                    client, server [d]                 PostgreSQL server and client module                \n"
-"postgresql                 10 [d]                 client, server [d]                 PostgreSQL server and client module                \n"
-"postgresql                 12                     client, server [d]                 PostgreSQL server and client module                \n"
-"postgresql                 13                     client, server [d]                 PostgreSQL server and client module\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:568
-msgid "Notice in the listing the \"[d]\". This means that this is the default. It shows that the default version is 10 and that regardless of which version you choose, if you do not specify a profile, then the server profile will be the profile used, as it is the default as well."
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/admin_guide/13-softwares.md:569
-#, no-wrap
-msgid "Enabling Modules"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:572
-msgid "Using our example `postgresql` package, let's say that we want to enable version 12. To do this, you simply use the following:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:573
-#, no-wrap
-msgid "dnf module enable postgresql:12\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:578
-msgid "Here the enable command requires the module name followed by a \":\" and the stream name."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:580
-msgid "To verify that you have enabled `postgresql` module stream version 12, use your list command again which should show you the following output:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:581
-#, no-wrap
-msgid "Rocky Linux 8 - AppStream\n"
-"Name                       Stream                 Profiles                           Summary                                            \n"
-"postgresql                 9.6                    client, server [d]                 PostgreSQL server and client module                \n"
-"postgresql                 10 [d]                 client, server [d]                 PostgreSQL server and client module                \n"
-"postgresql                 12 [e]                 client, server [d]                 PostgreSQL server and client module                \n"
-"postgresql                 13                     client, server [d]                 PostgreSQL server and client module\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:591
-msgid "Here we can see the \"[e]\" for \"enabled\" next to stream 12, so we know that version 12 is enabled."
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/admin_guide/13-softwares.md:592
-#, no-wrap
-msgid "Installing packages from the module stream"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:595
-msgid "Now that our module stream is enabled, the next step is to install `postgresql`, the client application for the postgresql server. This can be achieved by running the following command:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:596
-#, no-wrap
-msgid "dnf install postgresql\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:601
-#: ../src/docs/books/admin_guide/13-softwares.md:630
-msgid "Which should give you this output:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:602
-#, no-wrap
-msgid "========================================================================================================================================\n"
-" Package                    Architecture           Version                                              Repository                 Size\n"
-"========================================================================================================================================\n"
-"Installing group/module packages:\n"
-" postgresql                 x86_64                 12.12-1.module+el8.6.0+1049+f8fc4c36                 appstream                 1.5 M\n"
-"Installing dependencies:\n"
-" libpq                      x86_64                 13.5-1.el8                                           appstream                 197 k\n\n"
-"Transaction Summary\n"
-"========================================================================================================================================\n"
-"Install  2 Packages\n"
-"Total download size: 1.7 M\n"
-"Installed size: 6.1 M\n"
-"Is this ok [y/N]:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:620
-msgid "After approving by typing \"y\" you installed the application."
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/admin_guide/13-softwares.md:621
-#, no-wrap
-msgid "Installing packages from module stream profiles"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:624
-msgid "It's also possible to directly install packages without even having to enable the module stream! In this example, let's assume that we only want the client profile applied to our installation. To do this, we simply enter this command:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:625
-#, no-wrap
-msgid "dnf install postgresql:12/client\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:631
-#, no-wrap
-msgid "========================================================================================================================================\n"
-" Package                    Architecture           Version                                              Repository                 Size\n"
-"========================================================================================================================================\n"
-"Installing group/module packages:\n"
-" postgresql                 x86_64                 12.12-1.module+el8.6.0+1049+f8fc4c36                 appstream                 1.5 M\n"
-"Installing dependencies:\n"
-" libpq                      x86_64                 13.5-1.el8                                           appstream                 197 k\n"
-"Installing module profiles:\n"
-" postgresql/client\n"
-"Enabling module streams:\n"
-" postgresql                                        12\n\n"
-"Transaction Summary\n"
-"========================================================================================================================================\n"
-"Install  2 Packages\n\n"
-"Total download size: 1.7 M\n"
-"Installed size: 6.1 M\n"
-"Is this ok [y/N]:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:654
-msgid "Answering \"y\" to the prompt will install everything you need to use postgresql version 12 as a client."
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/admin_guide/13-softwares.md:655
-#, no-wrap
-msgid "Module Removal and Reset or Switch-To"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:658
-msgid "After you install, you may decide that for whatever reason, you need a different version of the stream. The first step is to remove your packages. Using our example `postgresql` package again, we would do this with:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:659
-#, no-wrap
-msgid "dnf remove postgresql\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:664
-msgid "This will display similar output as the install procedure above, except it will be removing the package and all of its dependencies. Answer \"y\" to the prompt and hit enter to uninstall `postgresql`."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:666
-msgid "Once this step is complete, you can issue the reset command for the module using:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:667
-#, no-wrap
-msgid "dnf module reset postgresql\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:672
-msgid "Which will give you output like this:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:673
-#, no-wrap
-msgid "Dependencies resolved.\n"
-"========================================================================================================================================\n"
-" Package                         Architecture                   Version                           Repository                       Size\n"
-"========================================================================================================================================\n"
-"Disabling module profiles:\n"
-" postgresql/client                                                                                                                     \n"
-"Resetting modules:\n"
-" postgresql                                                                                                                            \n\n"
-"Transaction Summary\n"
-"========================================================================================================================================\n\n"
-"Is this ok [y/N]:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:690
-msgid "Answering \"y\" to the prompt will then reset `postgresql` back to the default stream with the stream that we had enabled (12 in our example) no longer enabled:"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:701
-msgid "Now you can use the default."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:703
-msgid "You can also use the switch-to sub-command to switch from one enabled stream to another. Using this method not only switches to the new stream, but installs the needed packages (either downgrade or upgrade) without a separate step. To use this method to enable `postgresql` stream version 13 and use the \"client\" profile, you would use:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:704
-#, no-wrap
-msgid "dnf module switch-to postgresql:13/client\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/admin_guide/13-softwares.md:708
-#, no-wrap
-msgid "Disable a module stream"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:711
-msgid "There may be times when you wish to disable the ability to install packages from a module stream. In the case of our `postgresql` example, this could be because you want to use the repository directly from [PostgreSQL](https://www.postgresql.org/download/linux/redhat/) so that you could use a newer version (at the time of this writing, versions 14 and 15 are available from this repository). Disabling a module stream, makes installing any of those packages impossible without first enabling them again."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:713
-msgid "To disable the module streams for `postgresql` simply do:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:714
-#, no-wrap
-msgid "dnf module disable postgresql\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:719
-msgid "And if you list out the `postgresql` modules again, you will see the following showing all `postgresql` module versions disabled:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:720
-#, no-wrap
-msgid "Rocky Linux 8 - AppStream\n"
-"Name                       Stream                   Profiles                          Summary                                           \n"
-"postgresql                 9.6 [x]                  client, server [d]                PostgreSQL server and client module               \n"
-"postgresql                 10 [d][x]                client, server [d]                PostgreSQL server and client module               \n"
-"postgresql                 12 [x]                   client, server [d]                PostgreSQL server and client module               \n"
-"postgresql                 13 [x]                   client, server [d]                PostgreSQL server and client module\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/admin_guide/13-softwares.md:729
-#, no-wrap
-msgid "The EPEL repository"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/admin_guide/13-softwares.md:731
-#, no-wrap
-msgid "What is EPEL and how is it used?"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:734
-#, no-wrap
-msgid "**EPEL** (**E**xtra **P**ackages for **E**nterprise **L**inux) is an open-source and free community-based repository maintained by the [EPEL Fedora Special Interest Group](https://docs.fedoraproject.org/en-US/epel/) that provides a set of additional packages for RHEL (and CentOS, Rocky Linux, and others) from the Fedora sources.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:736
-msgid "It provides packages that are not included in the official RHEL repositories. These are not included because they are not considered necessary in an enterprise environment or deemed outside the scope of RHEL. We must not forget that RHEL is an enterprise class distribution, and desktop utilities or other specialized software may not be a priority for an enterprise project."
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/admin_guide/13-softwares.md:737
-#: ../src/docs/books/lxd_server/30-appendix_a.md:23
-#: ../src/docs/books/nvchad/nerd_fonts.md:28 ../src/docs/gemstones/rpaste.md:15
-#: ../src/docs/guides/file_sharing/glusterfs.md:89
-#: ../src/docs/guides/file_sharing/sftp.md:75
-#: ../src/docs/guides/security/dnf_automatic.md:26
-#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:29
-#: ../src/docs/guides/web/php.md:85 ../src/docs/guides/web/php.md:152
-#, no-wrap
-msgid "Installation"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:740
-msgid "Installation of the necessary files can be easily done with the package provided by default from Rocky Linux."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:742
-msgid "If you are behind an internet proxy:"
+msgid "It is well known that the ordinary users (uid >= 1000) can change his own password. The real password is stored in the **/etc/shadow** file, but the permission of the shadows file is 000, and the ordinary users does not have any permissions.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:743
+#: ../src/docs/books/admin_guide/14-special-authority.md:316
 #, no-wrap
-msgid "export http_proxy=http://172.16.1.10:8080\n"
+msgid "Shell > ls -l /etc/shadow\n"
+"---------- 1 root root 874 Jan  12 13:42 /etc/shadow\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:748
-msgid "Then:"
+#: ../src/docs/books/admin_guide/14-special-authority.md:322
+msgid "Since the ordinary users can change their password, they must have written the password to the **/etc/shadow** file. When an ordinary user executes the `passwd` command, it will temporarily change to the owner of the file -- **root**. For **shadow** file, **root** can not be restricted by permissions. This is why `passwd` command needs SUID permission."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:324
+msgid "As mentioned earlier, basic permissions can be represented by numbers, such as 755, 644, and so on. SUID is represented by **4**. For executable binaries, you can set permissions like this -- **4755**."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:325
+#, no-wrap
+msgid "# Set SUID permissions\n"
+"Shell > chmod 4755 FILE_NAME\n"
+"# or\n"
+"Shell > chmod u+s FILE_NAME\n\n"
+"# Remove SUID permission\n"
+"Shell > chmod 755 FILE_NAME\n"
+"# or\n"
+"Shell > chmod u-s FILE_NAME\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:338
+#: ../src/docs/books/admin_guide/14-special-authority.md:354
+#: ../src/docs/books/admin_guide/14-special-authority.md:404
+#: ../src/docs/books/admin_guide/14-special-authority.md:435
+#: ../src/docs/books/admin_guide/14-special-authority.md:690
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:83
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:102
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:253
+#: ../src/docs/books/lxd_server/04-firewall.md:76
+#: ../src/docs/books/lxd_server/08-snapshots.md:86
+#: ../src/docs/gemstones/RL9_network_manager.md:150
+#: ../src/docs/gemstones/nmtui.md:52
+#: ../src/docs/gemstones/view_kernel_conf.md:21
+#: ../src/docs/guides/backup/rsync_ssh.md:79
+#: ../src/docs/guides/cms/dokuwiki_server.md:226
+#: ../src/docs/guides/containers/lxd_web_servers.md:786
+#: ../src/docs/guides/containers/podman-nextcloud.md:270
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:96
+#: ../src/docs/guides/file_sharing/sftp.md:264
+#: ../src/docs/guides/package_management/index.md:10
+#: ../src/docs/guides/proxies/pound.md:211
+#: ../src/docs/guides/proxies/pound.md:265 ../src/docs/release_notes/8_4.md:20
+msgid "!!! warning"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:340
+#, no-wrap
+msgid "    When the owner of an executable binary file/program does not have **x**, the use of capital **S** means that the file cannot use SUID permissions.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:347
+#, no-wrap
+msgid "    ```bash\n"
+"    # Suppose this is an executable binary file\n"
+"    Shell > vim suid.sh\n"
+"    #!/bin/bash\n"
+"    cd /etc && ls\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:350
+#, no-wrap
+msgid "    Shell > chmod 4644 suid.sh\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:352
+#, no-wrap
+msgid "    ![SUID2](./images/SetUID2.png)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:356
+#, no-wrap
+msgid "    Because SUID can temporarily change the Ordinary users  to root, you need to be especially careful with files with this permission when maintaining the server. You can find files with SUID permissions by using the following command:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:360
+#, no-wrap
+msgid "    ```bash\n"
+"    Shell > find / -perm -4000 -a -type f -exec ls -l  {} \\;\n"
+"    ```\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/14-special-authority.md:361
+#, no-wrap
+msgid "SetGID"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:364
+msgid "The role of \"SetGID\":"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:369
+msgid "Only executable binaries can set SGID permissions."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:369
+msgid "The executor of the command obtains the identity of the owner group of the program file when executing the program."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:371
+msgid "Take the `locate` command for example:"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:749
-#: ../src/docs/books/lxd_server/01-install.md:20
-#: ../src/docs/books/nvchad/install_nvim.md:46
-#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:49
-#: ../src/docs/guides/containers/lxd_web_servers.md:67
-#: ../src/docs/guides/containers/lxd_web_servers.md:624
-#: ../src/docs/guides/containers/lxd_web_servers.md:857
-#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:53
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:43
+#: ../src/docs/books/admin_guide/14-special-authority.md:372
 #, no-wrap
-msgid "dnf install epel-release\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:754
-msgid "Once installed you can check that the package has been installed correctly with the command `dnf info`."
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:755
-#, no-wrap
-msgid "dnf info epel-release\n"
-"Last metadata expiration check: 1:30:29 ago on Thu 24 Mar 2022 09:36:42 AM CET.\n"
-"Installed Packages\n"
-"Name         : epel-release\n"
-"Version      : 8\n"
-"Release      : 14.el8\n"
-"Architecture : noarch\n"
-"Size         : 32 k\n"
-"Source       : epel-release-8-14.el8.src.rpm\n"
-"Repository   : @System\n"
-"From repo    : epel\n"
-"Summary      : Extra Packages for Enterprise Linux repository configuration\n"
-"URL          : http://download.fedoraproject.org/pub/epel\n"
-"License      : GPLv2\n"
-"Description  : This package contains the Extra Packages for Enterprise Linux\n"
-"             : (EPEL) repository GPG key as well as configuration for yum.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:775
-msgid "The package, as you can see from the package description above, does not contain executables, libraries, etc... but only the configuration files and GPG keys for setting up the repository."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:777
-msgid "Another way to verify the correct installation is to query the rpm database."
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:778
-#, no-wrap
-msgid "rpm -qa | grep epel\n"
-"epel-release-8-14.el8.noarch\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:784
-msgid "Now you need to run an update to let `dnf` recognize the repository. You will be asked to accept the GPG keys of the repositories. Clearly, you have to answer YES in order to use them."
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:785
-#: ../src/docs/guides/containers/lxd_web_servers.md:73
-#: ../src/docs/guides/containers/lxd_web_servers.md:851
-#: ../src/docs/guides/containers/podman-nextcloud.md:51
-#, no-wrap
-msgid "dnf update\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:790
-msgid "Once the update is complete you can check that the repository has been configured correctly with the `dnf repolist` command which should now list the new repositories."
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:791
-#, no-wrap
-msgid "dnf repolist\n"
-"repo id            repo name\n"
+msgid "Shell > rpm -ql mlocate\n"
+"/usr/bin/locate\n"
 "...\n"
-"epel               Extra Packages for Enterprise Linux 8 - aarch64\n"
-"epel-modular       Extra Packages for Enterprise Linux Modular 8 - aarch64\n"
+"/var/lib/mlocate/mlocate.db\n\n"
+"Shell > ls -l /var/lib/mlocate/mlocate.db\n"
+"-rw-r----- 1 root slocate 4151779 1月  14 11:43 /var/lib/mlocate/mlocate.db\n\n"
+"Shell > ll /usr/bin/locate \n"
+"-rwx--s--x. 1 root slocate 42248 4月  12 2021 /usr/bin/locate\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:386
+msgid "The `locate` command uses the **mlocate.db** database file to quickly search for files."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:388
+msgid "Because the `locate` command has SGID permission, when the executor (ordinary users) executes the `locate` command, the owner group is switched to **slocate**. `slocate` has r permission for the **/var/lib/mlocate/mlocate.db** file."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:390
+msgid "The SGID is indicated by the number **2**, so the `locate` command has a permission of 2711."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:391
+#, no-wrap
+msgid "# Set SGID permissions\n"
+"Shell > chmod 2711 FILE_NAME\n"
+"# or\n"
+"Shell > chmod g+s FILE_NAME\n\n"
+"# Remove SGID permission\n"
+"Shell > chmod 711 FILE_NAME\n"
+"# or\n"
+"Shell > chmod g-s FILE_NAME\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:406
+#, no-wrap
+msgid "    When the owner group of an executable binary file/program does not have **x**, use uppercase **S** to indicate that the file's SGID permissions cannot be used correctly.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:410
+#, no-wrap
+msgid "    ```bash\n"
+"    # Suppose this is an executable binary file\n"
+"    Shell > touch sgid\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:415
+#, no-wrap
+msgid "    Shell > chmod 2741 sgid\n"
+"    Shell > ls -l sgid\n"
+"    -rwxr-S--x  1 root root         0 Jan  14 12:11 sgid\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:417
+msgid "SGID can be used not only for executable binary file/program, but also for directories, but it is rarely used."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:420
+msgid "Ordinary users must have rwx permissions on the directory."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:420
+msgid "For files created by ordinary users in this directory, the default owner group is the owner group of the directory."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:423
+#, no-wrap
+msgid "Shell > mkdir /SGID_dir\n"
+"Shell > chmod 2777 /SGID_dir\n"
+"Shell > ls -ld /SGID_dir\n"
+"drwxrwsrwx  2 root root      4096 Jan 14 12:17 SGID_dir\n\n"
+"Shell > su - tom\n"
+"Shell(tom) > cd /SGID_dir && touch tom_file && ls -l\n"
+"-rw-rw-r-- 1 tom root 0 Jan  14 12:26 tom_file\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:437
+#, no-wrap
+msgid "    Because SGID can temporarily change the owner group of ordinary users to root, you need to pay special attention to the files with this permission when maintaining the server. You can find files with SGID permissions through the following command:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:441
+#, no-wrap
+msgid "    ```bash\n"
+"    Shell > find / -perm -2000 -a -type f -exec ls -l  {} \\;\n"
+"    ```\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/14-special-authority.md:442
+#, no-wrap
+msgid "Sticky BIT"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:445
+msgid "The role of \"Sticky BIT\":"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:449
+msgid "Only valid for directory."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:449
+msgid "Ordinary users have w and x permissions on this directory."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:449
+msgid "If there is no Sticky Bit, ordinary users with w permission can delete all files in this directory (including files created by other users). Once the directory is given SBIT permission, only root user can delete all files. Even if ordinary users have w permission, they can only delete files created by themselves (files created by other users cannot be deleted)."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:451
+msgid "SBIT is represented by the number **1**."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:454
+msgid "Can the file or directory have **7755** permission? No, they are aimed at different objects. SUID is for executable binary files; SGID is used for executable binaries and directories; SBIT is only for directories. That is, you need to set these special permissions according to different objects."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:456
+msgid "The directory **/tmp** has SBIT permission. The following is an example:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:457
+#, no-wrap
+msgid "# The permissions of the /tmp directory are 1777\n"
+"Shell > ls -ld /tmp\n"
+"drwxrwxrwt. 8 root root 4096 Jan  14 12:50 /tmp\n\n"
+"Shell > su - tom \n"
+"Shell > cd /tmp && touch tom_file1 \n"
+"Shell > exit\n\n"
+"Shell > su - jack \n"
+"Shell(jack) > cd /tmp && rm -rf tom_file1\n"
+"rm: cannot remove 'tom_file1': Operation not permitted\n"
+"Shell(jack) > exit\n\n"
+"# The file has been deleted\n"
+"Shell > su - tom \n"
+"Shell(tom) > rm -rf /tmp/tom_file1\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:479
+#, no-wrap
+msgid "    root (uid=0) users are not restricted by the permissions of SUID, SGID, and SBIT.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/14-special-authority.md:480
+#, no-wrap
+msgid "chattr"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:483
+msgid "The function of chattr permission: it is used to protect important files or directories in the system from being deleted by misoperation."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:485
+msgid "Usage of the `chattr` command -- `chattr [ -RVf ] [ -v version ] [ -p project ] [ mode ] files...`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:487
+msgid "The format of a symbolic mode is +-=[aAcCdDeFijPsStTu]."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:491
+msgid "\"+\" means to increase permissions;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:491
+msgid "\"-\" means to reduce permissions;"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:491
+msgid "\"=\" means equal to a permission."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:493
+msgid "The most commonly used permissions (also called attribute) are **a** and **i**."
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/admin_guide/14-special-authority.md:494
+#, no-wrap
+msgid "Description of attribute i:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:500
+#, no-wrap
+msgid "|            | Delete | Free modification | Append file content | View | Create file | \n"
+"|:----------:|:------:|:-----------------:|:-------------------:|:----:|:-----------:|\n"
+"| file       |  ×     |       ×           |   ×                 | √    |    -        |\n"
+"| directory  |  x <br>(Directory and files under the directory) | √ <br>(Files in the directory) | √ <br>(Files in the directory)  | √ <br>(Files in the directory)  |  x |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:502
+#: ../src/docs/books/admin_guide/14-special-authority.md:565
+msgid "Examples for files:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:503
+#, no-wrap
+msgid "Shell > touch /tmp/filei\n"
+"Shell > vim /tmp/filei\n"
+"123\n\n"
+"Shell > chattr +i /tmp/filei\n"
+"Shell > lsattr -a /tmp/filei\n"
+"----i---------e----- /tmp/filei\n\n"
+"Shell > rm -rf /tmp/filei\n"
+"rm: cannot remove '/tmp/filei': Operation not permitted\n\n"
+"# Cannot be modified freely\n"
+"Shell > vim /tmp/file1\n\n"
+"Shell > echo \"adcd\" >> /tmp/filei \n"
+"-bash: /tmp/filei: Operation not permitted\n\n"
+"Shell > cat /tmp/filei\n"
+"123\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:526
+#: ../src/docs/books/admin_guide/14-special-authority.md:587
+msgid "Examples for directories:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:527
+#, no-wrap
+msgid "Shell > mkdir /tmp/diri\n"
+"Shell > cd /tmp/diri && echo \"qwer\" > f1\n\n"
+"Shell > chattr +i /tmp/diri\n"
+"Shell > lsattr -ad /tmp/diri\n"
+"----i---------e----- /tmp/diri\n\n"
+"Shell > rm -rf /tmp/diri\n"
+"rm: cannot remove '/tmp/diri/f1': Operation not permitted\n\n"
+"# Allow modification\n"
+"Shell > vim /tmp/diri/f1\n"
+"qwer-tom\n\n"
+"Shell > echo \"jim\" >> /tmp/diri/f1\n"
+"Shell > cat /tmp/diri/f1\n"
+"qwer-tom\n"
+"jim\n\n"
+"Shell > touch /tmp/diri/file2\n"
+"touch: settng time of '/tmp/diri/file2': No such file or directory\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:552
+msgid "Remove the i attribute from the above example:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:553
+#, no-wrap
+msgid "Shell > chattr -i /tmp/filei /tmp/diri\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/admin_guide/14-special-authority.md:557
+#, no-wrap
+msgid "Description of attribute a:"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:563
+#, no-wrap
+msgid "|            | Delete | Free modification | Append file content | View | Create file | \n"
+"|:----------:|:------:|:-----------------:|:-------------------:|:----:|:-----------:|\n"
+"| file       |  ×     |       ×           |   √                 | √    |    -        |\n"
+"| directory  |  x <br>(Directory and files under the directory) | √ <br>(Files in the directory) | √ <br>(Files in the directory) | √ <br>(Files in the directory) | √  |\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:566
+#, no-wrap
+msgid "Shell > touch /etc/tmpfile1\n"
+"Shell > echo \"zxcv\" > /etc/tmpfile1\n\n"
+"Shell > chattr +a /etc/tmpfile1\n"
+"Shell > lsattr -a /etc/tmpfile1\n"
+"-----a--------e----- /etc/tmpfile1\n\n"
+"Shell > rm -rf /etc/tmpfile1\n"
+"rm: cannot remove '/etc/tmpfile1': Operation not permitted\n\n"
+"# Cannot be modified freely\n"
+"Shell > vim /etc/tmpfile1\n\n"
+"Shell > echo \"new line\" >> /etc/tmpfile1\n"
+"Shell > cat /etc/tmpfile1\n"
+"zxcv\n"
+"new line\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:588
+#, no-wrap
+msgid "Shell > mkdir /etc/dira\n"
+"Shell > cd /etc/dira && echo \"asdf\" > afile\n\n"
+"Shell > chattr +a /etc/dira\n"
+"Shell > lsattr -a /etc/dira\n"
+"-----a--------e----- /etc/dira/\n\n"
+"Shell > rm -rf /etc/dira\n"
+"rm: cannot remove '/etc/dira/afile': Operation not permitted\n\n"
+"# Allow modification\n"
+"Shell > vim /etc/dira/afile\n"
+"asdf-bcd\n\n"
+"Shell > echo \"new line\" >> /etc/dira/afile\n"
+"Shell > cat /etc/dira/afile\n"
+"asdf-bcd\n"
+"new line\n\n"
+"# Allow creation of new files\n"
+"Shell > touch /etc/dira/newfile\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:613
+msgid "Remove the a attribute from the above example:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:614
+#, no-wrap
+msgid "Shell > chattr -a /etc/tmpfile1 /etc/dira/\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:619
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:92
+msgid "!!! question"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:622
+#, no-wrap
+msgid "    What happens when I set the ai attribute on a file? \n"
+"    You cannot do anything with the file other than to view it.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:626
+#, no-wrap
+msgid "    What about the directory?\n"
+"    Allowed are: free modification, appending file contents, and viewing.\n"
+"    Disallowed: delete and create files.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/14-special-authority.md:627
+#, no-wrap
+msgid "sudo"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:630
+msgid "The role of \"sudo\":"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:633
+msgid "Through the root user, assign the commands that can only be executed by the root user (uid=0) to ordinary users for execution."
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/14-special-authority.md:633
+msgid "The operation object of \"sudo\" is the system command."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:635
+msgid "We know that only the administrator root has permission to use the commands under **/sbin/** and **/usr/sbin/** in the GNU/Linux directory. Generally speaking, a company has a team to maintain a set of servers. This set of servers can refer to a single computer room in one geographic location, or it can refer to a computer room in multiple geographical locations. The team leader uses the permissions of the root user, and other team members may only have the permissions of the ordinary user. As the person in charge has a lot of work, there is no time to maintain the daily work of the server, most of the work needs to be maintained by ordinary users. However, ordinary users have many restrictions on the use of commands, and at this point, you need to use sudo permissions."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:637
+msgid "To grant permissions to ordinary users, **you must use the root user (uid=0)**."
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:639
+msgid "You can empower ordinary users by using the `visudo` command, what you're actually changing is the **/etc/sudoers** file."
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/14-special-authority.md:640
+#, no-wrap
+msgid "Shell > visudo\n"
+"...\n"
+"88 Defaults    secure_path = /sbin:/bin:/usr/sbin:/usr/bin\n"
+"89 \n"
+"90 ## Next comes the main part: which users can run what software on\n"
+"91 ## which machines (the sudoers file can be shared between multiple\n"
+"92 ## systems).\n"
+"93 ## Syntax:\n"
+"94 ##\n"
+"95 ##      user    MACHINE=COMMANDS\n"
+"96 ##\n"
+"97 ## The COMMANDS section may have other options added to it.\n"
+"98 ##\n"
+"99 ## Allow root to run any commands anywhere\n"
+"100 root    ALL=(ALL)       ALL\n"
+"     ↓       ↓    ↓          ↓\n"
+"     1       2    3          4\n"
 "...\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:801
-msgid "The repository configuration files are located in `/etc/yum.repos.d/`."
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:802
+#: ../src/docs/books/admin_guide/14-special-authority.md:667
 #, no-wrap
-msgid "ll /etc/yum.repos.d/ | grep epel\n"
-"-rw-r--r--. 1 root root 1485 Jan 31 17:19 epel-modular.repo\n"
-"-rw-r--r--. 1 root root 1422 Jan 31 17:19 epel.repo\n"
-"-rw-r--r--. 1 root root 1584 Jan 31 17:19 epel-testing-modular.repo\n"
-"-rw-r--r--. 1 root root 1521 Jan 31 17:19 epel-testing.repo\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:811
-msgid "And below we can see the contents of the file `epel.repo`."
+msgid "| Part | Description |\n"
+"|:----:|-------------|\n"
+"| 1    | User name or owner group name. Refers to which user/group is granted permissions. If it is an owner group, you need to write \"%\", such as **%root**. |\n"
+"| 2    | Which machines are allowed to execute commands. It can be a single IP address, a network segment, or ALL. |\n"
+"| 3    | Indicates which identities can be transformed into. |\n"
+"| 4    | The authorized command, which needs to be represented by an absolute path. |\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:812
+#: ../src/docs/books/admin_guide/14-special-authority.md:670
 #, no-wrap
-msgid "[epel]\n"
-"name=Extra Packages for Enterprise Linux $releasever - $basearch\n"
-"# It is much more secure to use the metalink, but if you wish to use a local mirror\n"
-"# place its address here.\n"
-"#baseurl=https://download.example/pub/epel/$releasever/Everything/$basearch\n"
-"metalink=https://mirrors.fedoraproject.org/metalink?repo=epel-$releasever&arch=$basearch&infra=$infra&content=$contentdir\n"
-"enabled=1\n"
-"gpgcheck=1\n"
-"countme=1\n"
-"gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-8\n\n"
-"[epel-debuginfo]\n"
-"name=Extra Packages for Enterprise Linux $releasever - $basearch - Debug\n"
-"# It is much more secure to use the metalink, but if you wish to use a local mirror\n"
-"# place its address here.\n"
-"#baseurl=https://download.example/pub/epel/$releasever/Everything/$basearch/debug\n"
-"metalink=https://mirrors.fedoraproject.org/metalink?repo=epel-debug-$releasever&arch=$basearch&infra=$infra&content=$contentdir\n"
-"enabled=0\n"
-"gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-8\n"
-"gpgcheck=1\n\n"
-"[epel-source]\n"
-"name=Extra Packages for Enterprise Linux $releasever - $basearch - Source\n"
-"# It is much more secure to use the metalink, but if you wish to use a local mirror\n"
-"# place it's address here.\n"
-"#baseurl=https://download.example/pub/epel/$releasever/Everything/source/tree/\n"
-"metalink=https://mirrors.fedoraproject.org/metalink?repo=epel-source-$releasever&arch=$basearch&infra=$infra&content=$contentdir\n"
-"enabled=0\n"
-"gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-8\n"
-"gpgcheck=1\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/admin_guide/13-softwares.md:845
-#, no-wrap
-msgid "Using EPEL"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:848
-msgid "At this point, once configured, we are ready to install the packages from EPEL. To start, we can list the packages available in the repository with the command:"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:849
-#, no-wrap
-msgid "dnf --disablerepo=\"*\" --enablerepo=\"epel\" list available\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:854
-msgid "And an excerpt of the command"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:855
-#, no-wrap
-msgid "dnf --disablerepo=\"*\" --enablerepo=\"epel\" list available | less\n"
-"Last metadata expiration check: 1:58:22 ago on Fri 25 Mar 2022 09:23:29 AM CET.\n"
-"Available Packages\n"
-"3proxy.aarch64                                                    0.8.13-1.el8                                    epel\n"
-"AMF-devel.noarch                                                  1.4.23-2.el8                                    epel\n"
-"AMF-samples.noarch                                                1.4.23-2.el8                                    epel\n"
-"AusweisApp2.aarch64                                               1.22.3-1.el8                                    epel\n"
-"AusweisApp2-data.noarch                                           1.22.3-1.el8                                    epel\n"
-"AusweisApp2-doc.noarch                                            1.22.3-1.el8                                    epel\n"
-"BackupPC.aarch64                                                  4.4.0-1.el8                                     epel\n"
-"BackupPC-XS.aarch64                                               0.62-1.el8                                      epel\n"
-"BibTool.aarch64                                                   2.68-1.el8                                      epel\n"
-"CCfits.aarch64                                                    2.5-14.el8                                      epel\n"
-"CCfits-devel.aarch64                                              2.5-14.el8                                      epel\n"
+msgid "Shell > visudo\n"
 "...\n"
+"101 tom  ALL=/sbin/shutdown  -r now \n"
+"...\n\n"
+"# You can use the \"-c\" option to check for errors in /etc/sudoers writing.\n"
+"Shell > visudo -c\n\n"
+"Shell > su - tom\n"
+"# View the available sudo commands.\n"
+"Shell(tom) > sudo -l\n\n"
+"# To use the available sudo command, ordinary users need to add sudo before the command.\n"
+"Shell(tom) > sudo /sbin/shutdown -r now\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:874
-msgid "From the command we can see that to install from EPEL we must force **dnf** to query the requested repository with the options `--disablerepo` and `--enablerepo`, this is because otherwise a match found in other optional repositories (RPM Fusion, REMI, ELRepo, etc.) could be newer and therefore have priority. These options are not necessary if you have only installed EPEL as an optional repository because the packages in the repository will never be available in the official ones. At least in the same version!"
+#: ../src/docs/books/admin_guide/14-special-authority.md:688
+msgid "If your authorization command is `/sbin/shutdown`, it means that authorized users can use any of the options of the command."
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:876
-msgid "!!! attention \"Support consideration\""
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:878
+#: ../src/docs/books/admin_guide/14-special-authority.md:691
 #, no-wrap
-msgid "    One aspect to consider regarding support (updates, bug fixes, security patches) is that EPEL packages have no official support from RHEL and technically their life could last the space of a development of Fedora (six months) and then disappear. This is a remote possibility but one to consider.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:880
-msgid "So, to install a package from the EPEL repositories you would use:"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/admin_guide/13-softwares.md:881
-#, no-wrap
-msgid "dnf --disablerepo=\"*\" --enablerepo=\"epel\" install nmon\n"
-"Last metadata expiration check: 2:01:36 ago on Fri 25 Mar 2022 04:28:04 PM CET.\n"
-"Dependencies resolved.\n"
-"==============================================================================================================================================================\n"
-" Package                            Architecture                          Version                                    Repository                          Size\n"
-"==============================================================================================================================================================\n"
-"Installing:\n"
-" nmon                               aarch64                               16m-1.el8                                  epel                                71 k\n\n"
-"Transaction Summary\n"
-"==============================================================================================================================================================\n"
-"Install  1 Package\n\n"
-"Total download size: 71 k\n"
-"Installed size: 214 k\n"
-"Is this ok [y/N]:\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/admin_guide/13-softwares.md:900
-#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:105
-#: ../src/docs/books/nvchad/template_chadrc.md:352
-#: ../src/docs/gemstones/bash_stub.md:103
-#: ../src/docs/gemstones/perl_search_replace.md:38
-#: ../src/docs/gemstones/sed_search_replace.md:72
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:172
-#: ../src/docs/guides/automation/olivetin.md:142
-#: ../src/docs/guides/cms/dokuwiki_server.md:306
-#: ../src/docs/guides/communications/asterisk_installation.md:261
-#: ../src/docs/guides/containers/lxd_web_servers.md:919
-#: ../src/docs/guides/containers/podman-nextcloud.md:456
-#: ../src/docs/guides/contribute/local_docs.md:47
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:322
-#: ../src/docs/guides/contribute/navigation.md:129
-#: ../src/docs/guides/contribute/rockydocs_formatting.md:458
-#: ../src/docs/guides/database/database_mariadb-server.md:197
-#: ../src/docs/guides/desktop/kde_installation.md:105
-#: ../src/docs/guides/desktop/mate_installation.md:200
-#: ../src/docs/guides/desktop/xfce_installation.md:218
-#: ../src/docs/guides/editors/micro.md:79
-#: ../src/docs/guides/email/postfix_reporting.md:254
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:270
-#: ../src/docs/guides/file_sharing/sftp.md:765
-#: ../src/docs/guides/proxies/pound.md:460
-#: ../src/docs/guides/security/dnf_automatic.md:119
-#: ../src/docs/guides/security/enabling_iptables_firewall.md:54
-#: ../src/docs/guides/security/firewalld-beginners.md:427
-#: ../src/docs/guides/security/firewalld.md:477
-#: ../src/docs/guides/security/pam.md:137
-#: ../src/docs/guides/security/ssl_keys_https.md:136
-#: ../src/docs/guides/virtualization/vbox-rocky.md:160
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:147
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:235
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:157
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:91
-#: ../src/docs/guides/web/mod_SSL_apache.md:171
-#: ../src/docs/guides/web/nginx-mainline.md:352
-#: ../src/docs/guides/web/nginx-multisite.md:359
-#, no-wrap
-msgid "Conclusion"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:903
-msgid "EPEL is not an official repository for RHEL, but it can be useful for administrators and developers who work with RHEL or derivatives and need some utilities prepared for RHEL from a source they can feel confident about."
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/admin_guide/13-softwares.md:904
-#, no-wrap
-msgid "DNF Plugins"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:907
-msgid "The `dnf-plugins-core` package adds plugins to `dnf` that will be useful for managing your repositories."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:909
-#: ../src/docs/books/learning_bash/00-toc.md:43
-#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:125
-#: ../src/docs/books/learning_bash/05-tests.md:117
-#: ../src/docs/books/learning_bash/05-tests.md:160
-#: ../src/docs/guides/security/pam.md:325
-#: ../src/docs/labs/security/lab9-cryptography.md:125
-#: ../src/docs/labs/security/lab9-cryptography.md:322
-#: ../src/docs/labs/security/lab9-cryptography.md:516
-msgid "!!! NOTE"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:911
-#, no-wrap
-msgid "    See more informations here: https://dnf-plugins-core.readthedocs.io/en/latest/index.html\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:913
-msgid "Install the package on your system:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:914
-#, no-wrap
-msgid "dnf install dnf-plugins-core\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:919
-msgid "Not all plugins will be presented here but you can refer to the package documentation for a complete list of plugins and detailed information."
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/admin_guide/13-softwares.md:920
-#, no-wrap
-msgid "`config-manager` plugin"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:923
-msgid "Manage DNF options, add repos, or disable them."
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/13-softwares.md:927
-msgid "Download a `.repo` file and use it:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:928
-#, no-wrap
-msgid "dnf config-manager --add-repo https://packages.centreon.com/ui/native/rpm-standard/23.04/el8/centreon-23.04.repo\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/13-softwares.md:933
-msgid "You can also set an url as a base url for a repo:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:934
-#, no-wrap
-msgid "dnf config-manager --add-repo https://repo.rocky.lan/repo\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/13-softwares.md:939
-msgid "Enable or disable one or more repos:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:940
-#, no-wrap
-msgid "dnf config-manager --set-enabled epel centreon\n"
-"dnf config-manager --set-disabled epel centreon\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/13-softwares.md:946
-msgid "Add a proxy to your config file:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:947
-#, no-wrap
-msgid "dnf config-manager --save --setopt=*.proxy=http://proxy.rocky.lan:3128/\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/admin_guide/13-softwares.md:951
-#, no-wrap
-msgid "`copr` plugin"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:954
-msgid "`copr` is an automatic rpm forge, providing a repo with built packages."
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/13-softwares.md:956
-msgid "Activate a copr repo:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:957
-#, no-wrap
-msgid "copr enable xxxx\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/admin_guide/13-softwares.md:961
-#, no-wrap
-msgid "`download` plugin"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:964
-msgid "Download rpm package instead of installing it:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:965
-#, no-wrap
-msgid "dnf download ansible\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:970
-msgid "If you just want to obtain the remote location url of the package:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:971
-#, no-wrap
-msgid "dnf download --url ansible\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:976
-msgid "Or if you want to also download the dependencies:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:977
-#, no-wrap
-msgid "dnf download --resolv --alldeps ansible\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/admin_guide/13-softwares.md:981
-#, no-wrap
-msgid "`needs-restarting` plugin"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:984
-msgid "After running a `dnf update`, the running processes will continue to run but with the old binaries. In order to take into account the code changes and especially the security updates, they have to be restarted."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:986
-msgid "The `needs-restarting` plugin will allow you to detect processes that are in this case."
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:987
-#, no-wrap
-msgid "dnf needs-restarting [-u] [-r] [-s]\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:997
-#, no-wrap
-msgid "| Options | Description                                                                  |\n"
-"| --------| --------------------------------------------------------------------------- |\n"
-"| `-u`     | Only consider processes belonging to the running user.                       |\n"
-"| `-r`     |  to check if a reboot may be required. |\n"
-"| `-s`     | to check if services need restarting.                                  |\n"
-"| `-s -r` | to do both in one run.                                                       |\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/admin_guide/13-softwares.md:998
-#, no-wrap
-msgid "`versionlock` plugin"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:1001
-msgid "Sometimes it is useful to protect packages from all updates or to exclude certain versions of a package (because of known problems for example). For this purpose, the versionlock plugin will be of great help."
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:1003
-msgid "You need to install an extra package:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:1004
-#, no-wrap
-msgid "dnf install python3-dnf-plugin-versionlock\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/13-softwares.md:1011
-msgid "Lock the ansible version:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:1012
-#, no-wrap
-msgid "dnf versionlock add ansible\n"
-"Adding versionlock on: ansible-0:6.3.0-2.el9.*\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/13-softwares.md:1018
-msgid "List locked packages:"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:1019
-#, no-wrap
-msgid "dnf versionlock list\n"
-"ansible-0:6.3.0-2.el9.*\n"
+msgid "    Because sudo is a \"ultra vires\" operation, you need to be careful when dealing with **/etc/sudoers** files!\n"
 msgstr ""
 
