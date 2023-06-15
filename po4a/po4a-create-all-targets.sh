@@ -100,7 +100,7 @@ cat "${po4a_conf}"
 # Path to final Markdown file - source -> translation
 echo "Launching po4a"
 
-mkdir "${PO_DIR}"
+mkdir -p "${PO_DIR}"
 po4a -v -k 0 "${po4a_conf}"
 
 # Produce a file with translation status of all .po files
