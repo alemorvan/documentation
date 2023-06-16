@@ -13,41 +13,21 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/nvchad_install_nvchad.pot\n"
-"X-Crowdin-File-ID: 1463\n"
+"X-Crowdin-File: /po4a/po4a/_po/nvchad_install_nvim.pot\n"
+"X-Crowdin-File-ID: 1465\n"
 
-#. type: Plain text
-#: ../src/docs/books/admin_guide/06-users.md:308
-#: ../src/docs/books/admin_guide/06-users.md:644
-#: ../src/docs/books/admin_guide/07-file-systems.md:195
-#: ../src/docs/books/disa_stig/disa_stig_part2.md:30
-#: ../src/docs/books/learning_bash/01-first-script.md:46
-#: ../src/docs/books/learning_bash/01-first-script.md:77
-#: ../src/docs/books/learning_bash/02-using-variables.md:185
-#: ../src/docs/books/learning_bash/05-tests.md:63
-#: ../src/docs/books/lxd_server/07-configurations.md:102
-#: ../src/docs/books/nvchad/install_nvchad.md:182
-#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:53
-#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:133
-#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:153
-#: ../src/docs/guides/automation/cron_jobs_howto.md:83
-#: ../src/docs/guides/automation/cron_jobs_howto.md:125
-#: ../src/docs/guides/automation/cron_jobs_howto.md:160
-#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:44
-#: ../src/docs/guides/cms/dokuwiki_server.md:216
-#: ../src/docs/guides/communications/asterisk_installation.md:12
-#: ../src/docs/guides/containers/podman-nextcloud.md:361
-#: ../src/docs/guides/contribute/rockydocs_formatting.md:72
-#: ../src/docs/guides/contribute/rockydocs_formatting.md:350
-#: ../src/docs/guides/desktop/kde_installation.md:16
-#: ../src/docs/guides/file_sharing/sftp.md:54
-#: ../src/docs/guides/file_sharing/sftp.md:129
-#: ../src/docs/guides/file_sharing/sftp.md:321
-#: ../src/docs/guides/proxies/pound.md:62
-#: ../src/docs/guides/proxies/pound.md:418 ../src/docs/index.md:40
-#: ../src/docs/release_notes/9_1.md:16
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:749
+#: ../src/docs/books/lxd_server/01-install.md:20
+#: ../src/docs/books/nvchad/install_nvim.md:46
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:49
+#: ../src/docs/guides/containers/lxd_web_servers.md:67
+#: ../src/docs/guides/containers/lxd_web_servers.md:624
+#: ../src/docs/guides/containers/lxd_web_servers.md:857
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:53
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:43
 #, no-wrap
-msgid "!!! note\n"
+msgid "dnf install epel-release\n"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
@@ -145,418 +125,411 @@ msgstr ""
 msgid "coding"
 msgstr ""
 
+#. type: Title ###
+#: ../src/docs/books/nvchad/index.md:77
+#: ../src/docs/books/nvchad/install_nvim.md:28
+#, no-wrap
+msgid "Key Features"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/index.md:94
+#: ../src/docs/books/nvchad/install_nvim.md:33
+#, no-wrap
+msgid "Performance: Very fast.\n"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/nvchad/install_nvim.md:1
+#, no-wrap
+msgid "nvim"
+msgstr ""
+
 #. type: YAML Front Matter: title
-#: ../src/docs/books/nvchad/install_nvchad.md:1
+#: ../src/docs/books/nvchad/install_nvim.md:1
 #, no-wrap
-msgid "Install NvChad"
-msgstr ""
-
-#. type: Title #
-#: ../src/docs/books/nvchad/install_nvchad.md:11
-#, no-wrap
-msgid "Turning Neovim into an advanced IDE"
+msgid "Install Neovim"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/books/nvchad/install_nvchad.md:13
+#: ../src/docs/books/nvchad/install_nvim.md:12
 #, no-wrap
-msgid "Pre-requisites"
+msgid "Introduction to Neovim"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:16
+#: ../src/docs/books/nvchad/install_nvim.md:15
 #, no-wrap
-msgid "As specified on the NvChad site you need to make sure you meet the following requirements:\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/install_nvchad.md:23
-#, no-wrap
-msgid "[Neovim 0.8.3](https://github.com/neovim/neovim/releases/tag/v0.8.3).\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/install_nvchad.md:23
-#, no-wrap
-msgid "[Nerd Font](https://www.nerdfonts.com/) Set it in your terminal emulator.\n"
-msgstr ""
-
-#. type: Bullet: '  - '
-#: ../src/docs/books/nvchad/install_nvchad.md:23
-#, no-wrap
-msgid "Make sure the nerd font you set doesn't end with **Mono**\n"
-msgstr ""
-
-#. type: Bullet: '   - '
-#: ../src/docs/books/nvchad/install_nvchad.md:23
-#, no-wrap
-msgid "**Example :** Iosevka Nerd Font and not ~~Iosevka Nerd Font Mono~~ \n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/install_nvchad.md:23
-#, no-wrap
-msgid "[Ripgrep](https://github.com/BurntSushi/ripgrep) is required for grep searching with Telescope **(OPTIONAL)**. \n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/install_nvchad.md:23
-#, no-wrap
-msgid "GCC\n"
+msgid "Neovim is one of the best code editors due of its speed, ease of customization, and configuration.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:25
+#: ../src/docs/books/nvchad/install_nvim.md:17
 #, no-wrap
-msgid "This is actually not a real \"installation\" but rather writing a custom Neovim configuration for our user.\n"
+msgid "Neovim is a fork of the `Vim` editor. It was born in 2014, mainly due to the lack at the time of asynchronous job support in Vim. Written in the Lua language with the goal of modularizing the code to make it more manageable, Neovim was designed with the modern user in mind. As the official website states, \"Neovim is built for users who want the best parts of Vim, and more\".\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:27
+#: ../src/docs/books/nvchad/install_nvim.md:19
 #, no-wrap
-msgid "!!! warning \"Performing a Clean Installation\"\n"
+msgid "The developers of Neovim chose Lua as it was perfect for embedding, using LuaJIT quickly, and with a simple, script-oriented syntax.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:29
+#: ../src/docs/books/nvchad/install_nvim.md:21
 #, no-wrap
-msgid "    As specified in the requirements, installing this new configuration on top of a previous one can create unfixable problems. A clean installation is recommended.\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/nvchad/install_nvchad.md:30
-#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:26
-#, no-wrap
-msgid "Preliminary Operations"
+msgid "From version 0.5 Neovim includes Treesitter (a parser generator tool) and supports Language Server Protocol (LSP). This reduces the number of plugins needed to achieve advanced editing functions. It improves the performance of operations such as code completion and linting.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:33
+#: ../src/docs/books/nvchad/install_nvim.md:23
 #, no-wrap
-msgid "If you have used the Neovim installation before, it will have created three folders in which to write your files, which are:\n"
-msgstr ""
-
-#. type: Fenced code block (text)
-#: ../src/docs/books/nvchad/install_nvchad.md:34
-#, no-wrap
-msgid "~/.config/nvim\n"
-"~/.local/share/nvim\n"
-"~/.cache/nvim\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:41
-#, no-wrap
-msgid "To perform a clean installation of the configuration, we need to back up the previous one first:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/nvchad/install_nvchad.md:42
-#, no-wrap
-msgid "mkdir ~/backup_nvim\n"
-"cp -r ~/.config/nvim ~/backup_nvim\n"
-"cp -r ~/.local/share/nvim ~/backup_nvim\n"
-"cp -r ~/.cache/nvim ~/backup_nvim\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:50
-#, no-wrap
-msgid "And then we delete all previous configurations and files:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/nvchad/install_nvchad.md:51
-#, no-wrap
-msgid "rm -rf ~/.config/nvim\n"
-"rm -rf ~/.local/share/nvim\n"
-"rm -rf ~/.cache/nvim\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:58
-#, no-wrap
-msgid "Now that we have cleaned up, we can move on to installing NvChad.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:60
-#, no-wrap
-msgid "To do this, simply run the following command from any location within your _home directory_:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/nvchad/install_nvchad.md:61
-#, no-wrap
-msgid "git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:66
-#, no-wrap
-msgid "The first part of the command clones the NvChad repository to the `~/.config/nvim` folder; this is Neovim's default path for searching the user configuration. The `--depth 1` option instructs _git_ to clone only the repository set as \"default\" on GitHub.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:68
-#, no-wrap
-msgid "Once the cloning process is finished in the second part of the command, the Neovim executable (_nvim_) is called, which upon finding a configuration folder will start importing the configurations encountered in the `init.lua` files of it in a predefined order.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:70
-#, no-wrap
-msgid "Before starting the bootstrap, the installation will offer us the installation of a base structure (_template chadrc_) for our further customizations:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:72
-#, no-wrap
-msgid ">  Do you want to install chadrc template? (y/n) :\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:74
-#, no-wrap
-msgid "Although choosing to install the recommended structure is not mandatory, it is definitely recommended for anyone new to this Editor. Current users of NvChad who already have a `custom` folder will be able to continue using it after making the necessary changes.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:76
-#, no-wrap
-msgid "The structure created by the template will also be used in this guide for developing the configuration to be used for writing documents in Markdown.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:78
-#, no-wrap
-msgid "For those who want to learn more about this topic before starting the installation, they can consult the dedicated page [Template Chadrc](template_chadrc.md).\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:80
-#, no-wrap
-msgid "The page contains information about the structure of the folder that will be created, the functions of related files, and other useful information for customizing NvChad.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:82
-#, no-wrap
-msgid "At this point the downloading and configuration of the basic plugins and if we have chosen to install the template as well the installation of the configured language server will begin. Once the process is complete we will have our Editor ready to use.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:84
-#, no-wrap
-msgid "![Installation](images/installed_first_time.png) \n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:86
-#, no-wrap
-msgid "As can be seen from the screenshot below, thanks to the configuration changes made, the editor has completely changed in appearance from the basic version of Neovim. It should be remembered, however, that although the configuration of NvChad completely transforms the editor, the base remains Neovim.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:88
-#, no-wrap
-msgid "![NvChad Rockydocs](images/nvchad_ui.png)\n"
+msgid "One of its strengths is its customization. All of its configuration is contained in a single file that can be distributed to various installations through version control systems (Git or other) so that they are always synchronized.\n"
 msgstr ""
 
 #. type: Title ###
-#: ../src/docs/books/nvchad/install_nvchad.md:89
+#: ../src/docs/books/nvchad/install_nvim.md:24
 #, no-wrap
-msgid "Configuration Structure"
+msgid "Community of developers"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:92
+#: ../src/docs/books/nvchad/install_nvim.md:27
 #, no-wrap
-msgid "Let us now go on to analyze the structure that the configuration created, the structure is as follows:\n"
-msgstr ""
-
-#. type: Fenced code block (text)
-#: ../src/docs/books/nvchad/install_nvchad.md:93
-#, no-wrap
-msgid ".config/nvim\n"
-"├── init.lua\n"
-"├── lazy-lock.json\n"
-"├── LICENSE\n"
-"└── lua\n"
-"    ├── core\n"
-"    │   ├── bootstrap.lua\n"
-"    │   ├── default_config.lua\n"
-"    │   ├── init.lua\n"
-"    │   ├── mappings.lua\n"
-"    │   └── utils.lua\n"
-"    └── plugins\n"
-"        ├── configs\n"
-"        │   ├── cmp.lua\n"
-"        │   ├── lazy_nvim.lua\n"
-"        │   ├── lspconfig.lua\n"
-"        │   ├── mason.lua\n"
-"        │   ├── nvimtree.lua\n"
-"        │   ├── others.lua\n"
-"        │   ├── telescope.lua\n"
-"        │   ├── treesitter.lua\n"
-"        │   └── whichkey.lua\n"
-"        └── init.lua\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:120
-#, no-wrap
-msgid "And if we chose to also install the _template chadrc_ we will also have the `nvim/lua/custom` folder with the following structure:\n"
-msgstr ""
-
-#. type: Fenced code block (text)
-#: ../src/docs/books/nvchad/install_nvchad.md:121
-#, no-wrap
-msgid ".config/nvim/lua/custom/\n"
-"├── chadrc.lua\n"
-"├── configs\n"
-"│   ├── lspconfig.lua\n"
-"│   ├── null-ls.lua\n"
-"│   └── overrides.lua\n"
-"├── highlights.lua\n"
-"├── init.lua\n"
-"├── mappings.lua\n"
-"└── plugins.lua\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:136
-#, no-wrap
-msgid "The first file we encounter is the `init.lua` file which initializes the configuration by inserting the `lua/core` folder and `lua/core/utils.lua` (and if present, the `lua/custom/init.lua`) files into the _nvim_ tree. Runs the bootstrap of `lazy.nvim` (the plugin manager) and once finished initialize the `plugins` folder.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:138
-#, no-wrap
-msgid "In particular, the `load_mappings()` function is called for loading keyboard shortcuts. In addition, the `gen_chadrc_template()` function provides the subroutine for creating the `custom` folder. \n"
-msgstr ""
-
-#. type: Fenced code block (lua)
-#: ../src/docs/books/nvchad/install_nvchad.md:139
-#, no-wrap
-msgid "require \"core\"\n\n"
-"local custom_init_path = vim.api.nvim_get_runtime_file(\"lua/custom/init.lua\", false)[1]\n\n"
-"if custom_init_path then\n"
-"  dofile(custom_init_path)\n"
-"end\n\n"
-"require(\"core.utils\").load_mappings()\n\n"
-"local lazypath = vim.fn.stdpath \"data\" .. \"/lazy/lazy.nvim\"\n\n"
-"-- bootstrap lazy.nvim!\n"
-"if not vim.loop.fs_stat(lazypath) then\n"
-"  require(\"core.bootstrap\").gen_chadrc_template()\n"
-"  require(\"core.bootstrap\").lazy(lazypath)\n"
-"end\n\n"
-"vim.opt.rtp:prepend(lazypath)\n"
-"require \"plugins\"\n\n"
-"dofile(vim.g.base46_cache .. \"defaults\")\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:165
-#, no-wrap
-msgid "Inclusion of the `core` folder also results in the inclusion of the `core/init.lua` file, which overrides some Neovim interface configurations and prepares for buffer management.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:167
-#, no-wrap
-msgid "As we can see, each `init.lua` file is included following a well-established order. This is used to selectively override the various options from the basic settings. Broadly speaking, we can say that `init.lua` files have the functions to load global options, autocmds, or anything else.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:169
-#, no-wrap
-msgid "This is the call that returns basic command mappings:\n"
-msgstr ""
-
-#. type: Fenced code block (lua)
-#: ../src/docs/books/nvchad/install_nvchad.md:170
-#, no-wrap
-msgid "require(\"core.utils\").load_mappings()\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:175
-#, no-wrap
-msgid "This sets four main keys from which, in association with other keys, commands can be launched. The main keys are:\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/nvchad/install_nvchad.md:180
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:26
-#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:22
-#, no-wrap
-msgid "C = <kbd>CTRL</kbd>\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/nvchad/install_nvchad.md:180
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:26
-#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:22
-#, no-wrap
-msgid "leader = <kbd>SPACE</kbd>\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/nvchad/install_nvchad.md:180
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:26
-#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:22
-#, no-wrap
-msgid "A = <kbd>ALT</kbd>\n"
+msgid "Although Vim and Neovim are both open-source projects and hosted on GitHub, there is a significant difference between the modes of development. Neovim has a more open community development, while Vim's development is more tied to the choices of its creator. Neovim's user and developer base is quite small compared to Vim, but it is a continuously growing project.\n"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/docs/books/nvchad/install_nvchad.md:180
+#: ../src/docs/books/nvchad/install_nvim.md:33
 #, no-wrap
-msgid "S = <kbd>SHIFT</kbd>\n"
+msgid "Customizable: Wide ecosystem of plugins and themes\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/install_nvim.md:33
+#, no-wrap
+msgid "Syntax highlighting: Integrated with Treesitter and LSP, but requires some configuration\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:184
+#: ../src/docs/books/nvchad/install_nvim.md:35
 #, no-wrap
-msgid "    We will refer to these key mappings several times throughout these documents. \n"
+msgid "As with Vim, Neovim requires a basic knowledge of its commands and options. You can get an overview of its features through the `:Tutor` command that invokes a file where you can read, and practice using it. Learning takes longer than a fully graphical IDE, but once you learn the shortcuts to the commands and the included features, you will proceed very smoothly in editing documents.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:186
+#: ../src/docs/books/nvchad/install_nvim.md:37
 #, no-wrap
-msgid "The default mapping is contained in _core/mapping.lua_ but can be extended with other custom commands using its own _mappings.lua_.\n"
+msgid "![Nvim Tutor](images/neovim_tutor.png)\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/nvchad/install_nvim.md:38
+#, no-wrap
+msgid "Neovim Installation"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/nvchad/install_nvim.md:40
+#, no-wrap
+msgid "Installation from EPEL"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:188
+#: ../src/docs/books/nvchad/install_nvim.md:43
 #, no-wrap
-msgid "Some examples of the standard mapping are:\n"
+msgid "Before moving on to the installation of NvChad, we need to make sure that we have an installation of Neovim available. If it is not already installed, you can install it from the EPEL repository. The EPEL repository provides the minimum version required by NvChad (currently 0.7.2). In case you want to use a newer version, we recommend installation from precompiled package or from source\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:45
+#, no-wrap
+msgid "To install the Neovim release provided by EPEL, you'll need to install the repository itself if you have not done so already.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:51
+#, no-wrap
+msgid "Type the following command to install the application:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/install_nvim.md:52
+#, no-wrap
+msgid "dnf install neovim\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/nvchad/install_nvim.md:56
+#, no-wrap
+msgid "Installation from Precompiled Package"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:59
+#, no-wrap
+msgid "Installation from the precompiled package allows the development versions of Neovim (0.8 and later) to be tested. The two versions (installations) can coexist on the same system since the version from the precompiled package remains confined entirely to the user level.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:61
+#, no-wrap
+msgid "In order to use all the features of the new version, we still have to satisfy the dependencies required by Neovim, we have to provide _our_ `nvim` with the dependencies manually. The required packages can be installed with:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/install_nvim.md:62
+#, no-wrap
+msgid "dnf install compat-lua-libs libtermkey libtree-sitter libvterm luajit luajit2.1-luv msgpack unibilium xsel\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:67
+#, no-wrap
+msgid "Next, we download the compressed archive for our architecture (linux64) from this address:\n"
 msgstr ""
 
 #. type: Fenced code block (text)
-#: ../src/docs/books/nvchad/install_nvchad.md:189
+#: ../src/docs/books/nvchad/install_nvim.md:68
 #, no-wrap
-msgid "<space>th to change the theme\n"
-"<CTRL-n> to open nvimtree\n"
-"<ALT-i> to open a terminal in a floating tab\n"
+msgid "https://github.com/neovim/neovim/releases\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:196
+#: ../src/docs/books/nvchad/install_nvim.md:73
 #, no-wrap
-msgid "There are many combinations pre-set for you, and they cover all the uses of NvChad. It is worth pausing to analyze the key mappings before starting to use your NvChad-configured instance of Neovim.\n"
+msgid "The file to be downloaded is `nvim-linux64.tar.gz`. To verify the integrity of the archive we also need to download the file `nvim-linux64.tar.gz.sha256sum`. Once downloaded we need to verify its integrity and unpack it somewhere in our `home directory`. The proposed solution is to unpack it in `~/.local/share/`. Assuming we downloaded it in _/home/user/downloads/_, we will need to run the following commands:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/install_nvim.md:74
+#, no-wrap
+msgid "sha256sum -c /home/user/downloads/nvim-linux64.tar.gz.sha256sum\n"
+"nvim-linux64.tar.gz: OK\n\n"
+"tar xvzf /home/user/downloads/nvim-linux64.tar.gz\n"
+"mv /home/user/downloads/nvim-linux64 ~/.local/share/nvim-linux64\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:198
+#: ../src/docs/books/nvchad/install_nvim.md:83
 #, no-wrap
-msgid "Continuing with the structural analysis, we find the _lua/plugins_ folder, which contains the setup of the built-in plugins and their configurations. The main plugins in the configuration will be described in the next section. As we can see, the _core/plugins_ folder also contains an `init.lua` file, which is used here for the installation and subsequent compilation of the plugins.\n"
+msgid "All that remains at this point is to create a symbolic link in `~/.local/bin/` for our _nvim_.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/install_nvim.md:84
+#, no-wrap
+msgid "cd ~/.local/bin/\n"
+"ln -sf ~/.local/share/nvim-linux64/bin/nvim nvim\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/install_nvchad.md:199
+#: ../src/docs/books/nvchad/install_nvim.md:90
 #, no-wrap
-msgid "Finally, we find the `lazy-lock.json` file. This file allows us to synchronize the configuration of NvChad plugins across multiple workstations, so that we have the same functionality on all the workstations used. Its function will be better explained in the section dedicated to the plugins manager.\n"
+msgid "Now verify you have the correct version with the `nvim -v` command, which should now show:\n"
+msgstr ""
+
+#. type: Fenced code block (txt)
+#: ../src/docs/books/nvchad/install_nvim.md:91
+#, no-wrap
+msgid "nvim -v\n"
+"NVIM v0.8.3\n"
+"Build type: RelWithDebInfo\n"
+"LuaJIT 2.1.0-beta3\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/nvchad/install_nvim.md:98
+#, no-wrap
+msgid "Installation from Source"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:101
+#, no-wrap
+msgid "Installing from precompiled package, as above, provides `nvim` only for the user who runs it. If you want to make Neovim available to all users of the system, you will have to do an installation from source. Compiling Neovim is not particularly difficult and consists of the following steps.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:103
+#, no-wrap
+msgid "We first install the packages required for compilation:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/install_nvim.md:104
+#, no-wrap
+msgid "dnf install ninja-build libtool autoconf automake cmake gcc gcc-c++ make pkgconfig unzip patch gettext curl git\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:109
+#, no-wrap
+msgid "Once we have installed the necessary packages we need to create a folder to build neovim from and change into it:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:111
+#, no-wrap
+msgid "The Neovim clone, by default, is synchronized with the Neovim development branch (at the time of this writing, version 8.0). To compile the stable version we will have to switch to the corresponding branch before cloning with:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/install_nvim.md:112
+#, no-wrap
+msgid "mkdir ~/lab/build\n"
+"cd ~/lab/build\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:118
+#, no-wrap
+msgid "Now clone the repository:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/install_nvim.md:119
+#, no-wrap
+msgid "git clone https://github.com/neovim/neovim\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:124
+#, no-wrap
+msgid "Once the operation is finished, we will have a folder named _neovim_ containing all the necessary files. The next step is to checkout the stable branch, and then configure and compile the sources with the `make` command.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/install_nvim.md:126
+#, no-wrap
+msgid "cd ~/lab/build/neovim/\n"
+"git checkout stable\n"
+"make CMAKE_BUILD_TYPE=RelWithDebInfo\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:133
+#, no-wrap
+msgid "We chose the `RelWithDebInfo` type because it provides not only optimizations, but also a useful debugging layer for later customizations. You could have also used the `Release` type if you want maximum performance.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:135
+#, no-wrap
+msgid "The process takes care of configuring and compiling the files that are to be put into our system. These files are saved in `neovim/build`. To install them, we will use the _make install_ command:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/install_nvim.md:136
+#, no-wrap
+msgid "make install\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:141
+#, no-wrap
+msgid "Because this command is going to modify the filesystem, it needs to be run as the superuser, either with `sudo`, or directly by the root user.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:143
+#, no-wrap
+msgid "Once the installation is finished, we can verify that everything went well by checking the path to Neovim:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/nvchad/install_nvim.md:144
+#, no-wrap
+msgid "whereis nvim\n"
+"nvim: /usr/local/bin/nvim\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:150
+#, no-wrap
+msgid "And verifying the version:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/install_nvim.md:151
+#, no-wrap
+msgid "nvim --version\n"
+"NVIM v0.8.3\n"
+"Build type: RelWithDebInfo\n"
+"LuaJIT 2.1.0-beta3\n"
+"....\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:160
+#, no-wrap
+msgid "As you can see from the command excerpt above, an installation of the stable version was performed here. Both versions, stable and development, work perfectly with NvChad on Rocky Linux 9.\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/books/nvchad/install_nvim.md:161
+#, no-wrap
+msgid "Uninstall"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:164
+#, no-wrap
+msgid "In case we need to remove the installation, for example to switch to another version, we will have to take ourselves back to the build folder and use the `target` cmake provided by Neovim itself. To perform the uninstallation, you need to execute the following command:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/install_nvim.md:165
+#, no-wrap
+msgid "cmake --build build/ --target uninstall\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:170
+#, no-wrap
+msgid "This command also requires superuser privileges or to be run as a _root_ user.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:172
+#, no-wrap
+msgid "Alternatively, you can use the manual method by removing the executable and libraries with:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/install_nvim.md:173
+#, no-wrap
+msgid "rm /usr/local/bin/nvim\n"
+"rm -r /usr/local/share/nvim/\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:179
+#, no-wrap
+msgid "Again, you need to execute these commands with superuser permissions.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/nvchad/install_nvim.md:180
+#, no-wrap
+msgid "Neovim Basic"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:183
+#, no-wrap
+msgid "As you can see from the screenshot, a basic installation of Neovim provides an editor that cannot yet be compared to an IDE.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:185
+#, no-wrap
+msgid "![Neovim Standard](images/nvim_standard.png)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvim.md:186
+#, no-wrap
+msgid "Now that we have our basic editor, it is time to turn it into something more advanced thanks to the configuration provided by [NvChad](install_nvchad.md).\n"
 msgstr ""
 
