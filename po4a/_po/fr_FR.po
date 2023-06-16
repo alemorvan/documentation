@@ -13,8 +13,8 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/database_database_mariadb-server.pot\n"
-"X-Crowdin-File-ID: 1357\n"
+"X-Crowdin-File: /po4a/po4a/_po/desktop_mate_installation.pot\n"
+"X-Crowdin-File-ID: 1359\n"
 
 #. type: Title ##
 #: ../src/docs/books/admin_guide/13-softwares.md:900
@@ -60,88 +60,6 @@ msgstr ""
 msgid "Conclusion"
 msgstr ""
 
-#. type: Title #
-#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
-#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
-#: ../src/docs/books/learning_ansible/05-deployments.md:31
-#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
-#: ../src/docs/books/lxd_server/00-toc.md:1
-#: ../src/docs/books/lxd_server/00-toc.md:13
-#: ../src/docs/books/nvchad/index.md:12
-#: ../src/docs/books/nvchad/plugins/index.md:14
-#: ../src/docs/books/nvchad/plugins/md_preview.md:14
-#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
-#: ../src/docs/books/nvchad/vale_nvchad.md:12
-#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
-#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
-#: ../src/docs/gemstones/string_color.md:11
-#: ../src/docs/guides/automation/cron_jobs_howto.md:25
-#: ../src/docs/guides/automation/olivetin.md:14
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
-#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
-#: ../src/docs/guides/backup/rsnapshot_backup.md:22
-#: ../src/docs/guides/backup/rsync_ssh.md:24
-#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
-#: ../src/docs/guides/cms/dokuwiki_server.md:23
-#: ../src/docs/guides/containers/lxd_web_servers.md:10
-#: ../src/docs/guides/containers/podman-nextcloud.md:13
-#: ../src/docs/guides/contribute/local_docs.md:11
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
-#: ../src/docs/guides/contribute/mkdocs_venv.md:14
-#: ../src/docs/guides/contribute/style_guide.md:14
-#: ../src/docs/guides/database/database_mariadb-server.md:21
-#: ../src/docs/guides/desktop/kde_installation.md:11
-#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
-#: ../src/docs/guides/editors/micro.md:14
-#: ../src/docs/guides/email/postfix_reporting.md:22
-#: ../src/docs/guides/file_sharing/glusterfs.md:16
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
-#: ../src/docs/guides/file_sharing/sftp.md:16
-#: ../src/docs/guides/migrate2rocky.md:18
-#: ../src/docs/guides/network/basic_network_configuration.md:12
-#: ../src/docs/guides/network/librenms_monitoring_server.md:13
-#: ../src/docs/guides/package_management/index.md:1
-#: ../src/docs/guides/package_management/index.md:5
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
-#: ../src/docs/guides/proxies/pound.md:17
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
-#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
-#: ../src/docs/guides/security/firewalld-beginners.md:10
-#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
-#: ../src/docs/guides/security/ssh_public_private_keys.md:21
-#: ../src/docs/guides/security/ssl_keys_https.md:22
-#: ../src/docs/guides/virtualization/vbox-rocky.md:13
-#: ../src/docs/guides/web/apache-sites-enabled.md:25
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
-#: ../src/docs/guides/web/nginx-mainline.md:13
-#: ../src/docs/guides/web/nginx-multisite.md:14
-#: ../src/docs/labs/security/introduction.md:1
-#: ../src/docs/labs/security/introduction.md:5
-#, no-wrap
-msgid "Introduction"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_bash/05-tests.md:67
-#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:94
-#: ../src/docs/books/nvchad/vale_nvchad.md:36
-#: ../src/docs/guides/automation/cron_jobs_howto.md:77
-#: ../src/docs/guides/contribute/navigation.md:53
-#: ../src/docs/guides/contribute/rockydocs_formatting.md:84
-#: ../src/docs/guides/database/database_mariadb-server.md:48
-#: ../src/docs/guides/file_sharing/sftp.md:482
-#: ../src/docs/guides/file_sharing/sftp.md:569
-#: ../src/docs/guides/proxies/pound.md:40
-#: ../src/docs/guides/security/dnf_automatic.md:67
-#: ../src/docs/guides/security/firewalld.md:102
-#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:115
-#, no-wrap
-msgid "!!! tip\n"
-msgstr ""
-
 #. type: Title ##
 #: ../src/docs/books/lxd_server/30-appendix_a.md:15
 #: ../src/docs/books/nvchad/vale_nvchad.md:16
@@ -175,392 +93,561 @@ msgstr ""
 msgid "Prerequisites"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/backup/mirroring_lsyncd.md:99
-#: ../src/docs/guides/backup/mirroring_lsyncd.md:232
-#: ../src/docs/guides/database/database_mariadb-server.md:40
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:156
-#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:44
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:152
+#. type: Yaml Front Matter Array Element: tags
+#: ../src/docs/guides/desktop/kde_installation.md:1
+#: ../src/docs/guides/desktop/mate_installation.md:1
+#: ../src/docs/guides/desktop/xfce_installation.md:1
 #, no-wrap
-msgid "And then:\n"
+msgid "desktop"
+msgstr ""
+
+#. type: Bullet: '    1. '
+#: ../src/docs/guides/desktop/kde_installation.md:78
+#: ../src/docs/guides/desktop/mate_installation.md:76
+#: ../src/docs/guides/desktop/xfce_installation.md:81
+#, no-wrap
+msgid "**Keyboard** - Take a look at this option and make sure that it matches up to the keyboard layout that you use.\n"
+msgstr ""
+
+#. type: Bullet: '    2. '
+#: ../src/docs/guides/desktop/kde_installation.md:78
+#: ../src/docs/guides/desktop/mate_installation.md:76
+#, no-wrap
+msgid "**Time & Date** -  Make sure this matches up to your time zone.\n"
+msgstr ""
+
+#. type: Bullet: '    3. '
+#: ../src/docs/guides/desktop/kde_installation.md:78
+#: ../src/docs/guides/desktop/mate_installation.md:76
+#: ../src/docs/guides/desktop/xfce_installation.md:81
+#, no-wrap
+msgid "**Installation Destination** - You'll need to click into this option, even if it is just to accept what is already there.\n"
+msgstr ""
+
+#. type: Bullet: '    4. '
+#: ../src/docs/guides/desktop/kde_installation.md:78
+#: ../src/docs/guides/desktop/mate_installation.md:76
+#: ../src/docs/guides/desktop/xfce_installation.md:81
+#, no-wrap
+msgid "**Network & Host Name** - Verify that you have what you want here. As long as the network is enabled, you can always change this later if you need to.\n"
+msgstr ""
+
+#. type: Bullet: '    5. '
+#: ../src/docs/guides/desktop/kde_installation.md:78
+#: ../src/docs/guides/desktop/mate_installation.md:76
+#: ../src/docs/guides/desktop/xfce_installation.md:81
+#, no-wrap
+msgid "**Root Password** - Go ahead and set a root password. Remember to save this somewhere safe (password manager), particularly if it isn't something you will be using often.\n"
+msgstr ""
+
+#. type: Bullet: '    6. '
+#: ../src/docs/guides/desktop/kde_installation.md:78
+#: ../src/docs/guides/desktop/mate_installation.md:76
+#, no-wrap
+msgid "**User Creation** - Definitely create at least one user. If you want the user to have administrative rights, remember to set this option when creating the user. \n"
+msgstr ""
+
+#. type: Bullet: '    7. '
+#: ../src/docs/guides/desktop/kde_installation.md:78
+#: ../src/docs/guides/desktop/mate_installation.md:76
+#: ../src/docs/guides/desktop/xfce_installation.md:81
+#, no-wrap
+msgid "**Begin Installation** - Once all of the settings have been set or verified, go ahead and click this option.\n"
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: contributors
-#: ../src/docs/guides/database/database_mariadb-server.md:1
+#: ../src/docs/guides/desktop/mate_installation.md:1
 #, no-wrap
-msgid "Ezequiel Bruni, William Perron"
+msgid "Steven Spencer, Serge"
 msgstr ""
 
 #. type: Yaml Front Matter Array Element: tags
-#: ../src/docs/guides/database/database_mariadb-server.md:1
+#: ../src/docs/guides/desktop/mate_installation.md:1
 #, no-wrap
-msgid "database"
+msgid "mate"
 msgstr ""
 
-#. type: Yaml Front Matter Array Element: tags
-#: ../src/docs/guides/database/database_mariadb-server.md:1
+#. type: Yaml Front Matter Hash Value: title
+#: ../src/docs/guides/desktop/mate_installation.md:1
 #, no-wrap
-msgid "mariadb"
+msgid "MATE Desktop"
 msgstr ""
 
 #. type: Title #
-#: ../src/docs/guides/database/database_mariadb-server.md:1
-#: ../src/docs/guides/database/database_mariadb-server.md:11
+#: ../src/docs/guides/desktop/mate_installation.md:11
 #, no-wrap
-msgid "MariaDB Database Server"
+msgid "MATE Desktop Environment"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:14
+#, no-wrap
+msgid "The MATE desktop environment was created to fork and continue GNOME2 in the wake of the somewhat negative reception that GNOME3 received when introduced. MATE has a loyal set of followers, who usually immediately install it on their OS of choice. MATE can be installed on many flavors of Linux, including Rocky Linux.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:16
+#, no-wrap
+msgid "This procedure is designed to get you up and running with Rocky Linux using MATE.\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/guides/database/database_mariadb-server.md:20
+#: ../src/docs/guides/desktop/mate_installation.md:21
 #, no-wrap
-msgid "A Rocky Linux server\n"
+msgid "A computer (laptop or workstation) with a screen and everything.\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/guides/database/database_mariadb-server.md:20
-#: ../src/docs/guides/file_sharing/glusterfs.md:15
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
+#: ../src/docs/guides/desktop/mate_installation.md:21
 #, no-wrap
-msgid "Proficiency with a command-line editor (we are using _vi_ in this example)\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/database/database_mariadb-server.md:20
-#: ../src/docs/guides/file_sharing/glusterfs.md:15
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:22
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:21
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
-#, no-wrap
-msgid "A heavy comfort level with issuing commands from the command-line, viewing logs, and other general systems administrator duties\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/database/database_mariadb-server.md:20
-#, no-wrap
-msgid "An understanding of _mariadb-server_ databases is helpful\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/database/database_mariadb-server.md:20
-#, no-wrap
-msgid "All commands are run as the root user or _sudo_\n"
+msgid "A desire to run the MATE desktop instead of the default GNOME one.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:24
+#: ../src/docs/guides/desktop/mate_installation.md:23
+#: ../src/docs/guides/desktop/xfce_installation.md:23
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:237
+#: ../src/docs/guides/network/basic_network_configuration.md:23
 #, no-wrap
-msgid "The _mariadb-server_ and it's client _mariadb_ are the open source alternatives to _mysql-server_ and _mysql_, and they share command structure. _mariadb-server_ can be found running on many web servers, due to the popular [Wordpress CMS](https://wordpress.org/) which requires it. This database, though, has many other uses.\n"
+msgid "=== \"9\"\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:26
+#: ../src/docs/guides/desktop/mate_installation.md:25
 #, no-wrap
-msgid "If you'd like to use this along with other tools for hardening a web server, refer back to the [Apache Hardened Web Server guide](../web/apache_hardened_webserver/index.md).\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/database/database_mariadb-server.md:27
-#, no-wrap
-msgid "Installing mariadb-server"
+msgid "    ## 9: Introduction \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:30
+#: ../src/docs/guides/desktop/mate_installation.md:27
 #, no-wrap
-msgid "We need to install _mariadb-server_:\n"
+msgid "    The development team for Rocky Linux 9 have made installing MATE, and other popular desktop environments, easy by including live images. A live image, for those that may not know what that is, is a bootable image that will load the OS without installation. Once loaded, you have the option to install it to your machine's disk drive and use it. In addition to the live image instructions, we have included installation instructions for those of you who want to install MATE after the OS has already been installed.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:32
+#: ../src/docs/guides/desktop/mate_installation.md:29
 #, no-wrap
-msgid "`dnf install mariadb-server`\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/database/database_mariadb-server.md:33
-#, no-wrap
-msgid "Securing mariadb-server"
+msgid "    ## 9: MATE from Live Image\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:36
+#: ../src/docs/guides/desktop/mate_installation.md:31
 #, no-wrap
-msgid "To strengthen the security of _mariadb-server_ we need to run a script, but before we do, we need to enable and start mariadb:\n"
+msgid "    ### 9: Get, Verify, and Write the MATE Live Image\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:38
+#: ../src/docs/guides/desktop/mate_installation.md:33
 #, no-wrap
-msgid "`systemctl enable mariadb`\n"
+msgid "    Prior to installation, the first step is to download the live image and write that to a DVD or a USB thumb drive. As stated earlier, the image will be bootable, just like any other installation media for Linux. You can find the latest MATE image in the download section for Rocky Linux 9 [live images](https://dl.rockylinux.org/pub/rocky/9.2/live/x86_64/). Note this particular link assumes x86_64 as your architecture, and as of this writing, that is the only architecture this particular live image is available for. Download both the live image and checksum files. \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:42
+#: ../src/docs/guides/desktop/mate_installation.md:36
+#: ../src/docs/guides/desktop/xfce_installation.md:37
 #, no-wrap
-msgid "`systemctl start mariadb`\n"
+msgid "    Now verify the image with the CHECKSUM file using the following \n"
+"    (note this is an example! Make sure your image name and CHECKSUM files match): \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:44
-#, no-wrap
-msgid "Next, run this command:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:46
-#, no-wrap
-msgid "`mysql_secure_installation`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:50
-#, no-wrap
-msgid "    The version of mariadb-server that comes enabled by default in Rocky Linux 8.5 is 10.3.32. You can install 10.5.13 by enabling the module:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:54
+#: ../src/docs/guides/desktop/mate_installation.md:40
 #, no-wrap
 msgid "    ```\n"
-"    dnf module enable mariadb:10.5\n"
+"    sha256sum -c CHECKSUM --ignore-missing Rocky-9.1-MATE-x86_64-20221124.0.iso.CHECKSUM\n"
 "    ```\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:56
+#: ../src/docs/guides/desktop/mate_installation.md:42
 #, no-wrap
-msgid "    And then installing `mariadb`. As of version 10.4.6 of MariaDB, MariaDB specific commands are available that you can use instead of the old `mysql` prefixed commands. These include the previously mentioned `mysql_secure_installation` which can now be called with the MariaDB version `mariadb-secure-installation`.\n"
+msgid "    If all goes well, you should receive this message:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:58
+#: ../src/docs/guides/desktop/mate_installation.md:46
 #, no-wrap
-msgid "This brings up a dialog:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/database/database_mariadb-server.md:59
-#, no-wrap
-msgid "NOTE: RUNNING ALL PARTS OF THIS SCRIPT IS RECOMMENDED FOR ALL MariaDB\n"
-"      SERVERS IN PRODUCTION USE!  PLEASE READ EACH STEP CAREFULLY!\n\n"
-"In order to log into MariaDB to secure it, we'll need the current\n"
-"password for the root user.  If you've just installed MariaDB, and\n"
-"you haven't set the root password yet, the password will be blank,\n"
-"so you should just press enter here.\n\n"
-"Enter current password for root (enter for none):\n"
+msgid "    ```\n"
+"    Rocky-9.1-MATE-x86_64-20221124.0.iso: OK\n"
+"    ```\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:72
+#: ../src/docs/guides/desktop/mate_installation.md:48
 #, no-wrap
-msgid "Since this is a brand new installation, there is no root password set. So just hit enter here.\n"
+msgid "    If the checksum for the file returns OK, you are now ready to write your ISO image to your media. This procedure is different depending the OS you are using, the media, and the tools. We are assuming here that you know how to write the image to your media.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:74
+#: ../src/docs/guides/desktop/mate_installation.md:50
 #, no-wrap
-msgid "The next part of the dialog continues:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/database/database_mariadb-server.md:75
-#, no-wrap
-msgid "OK, successfully used password, moving on...\n\n"
-"Setting the root password ensures that nobody can log into the MariaDB\n"
-"root user without the proper authorisation.\n\n"
-"Set root password? [Y/n]\n"
+msgid "    ### 9: Booting\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:85
+#: ../src/docs/guides/desktop/mate_installation.md:52
 #, no-wrap
-msgid "You absolutely _do_ want to have a root password set. You'll want to figure out what this should be and document it in a password manager somewhere so that you can pull it up if necessary. Start by hitting 'Enter' to accept the default \"Y\". This will bring up the password dialog:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/database/database_mariadb-server.md:86
-#, no-wrap
-msgid "New password:\n"
-"Re-enter new password:\n"
+msgid "    This again is different by machine, BIOS, OS, etc.  You'll need to make sure that your machine is set to boot to whatever your media is (DVD or USB) as the first boot device. You should be presented with this screen if you are successful: \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:92
+#: ../src/docs/guides/desktop/mate_installation.md:54
 #, no-wrap
-msgid "Enter your chosen password and then confirm it by entering it again. If this is successful, you will get the following dialog:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/database/database_mariadb-server.md:93
-#, no-wrap
-msgid "Password updated successfully!\n"
-"Reloading privilege tables..\n"
-" ... Success!\n"
+msgid "    ![mate_boot](images/mate_boot.png)\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:100
+#: ../src/docs/guides/desktop/mate_installation.md:56
 #, no-wrap
-msgid "Next the dialog deals with the anonymous user:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/database/database_mariadb-server.md:101
-#, no-wrap
-msgid "By default, a MariaDB installation has an anonymous user, allowing anyone\n"
-"to log into MariaDB without having to have a user account created for\n"
-"them.  This is intended only for testing, and to make the installation\n"
-"go a bit smoother.  You should remove them before moving into a\n"
-"production environment.\n\n"
-"Remove anonymous users? [Y/n]\n"
+msgid "    If so, you are on your way! If you want to test the media, you can select that option first, or you can simply type **S** to **Start Rocky Linux Mate 9.0**.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:112
+#: ../src/docs/guides/desktop/mate_installation.md:58
+#: ../src/docs/guides/desktop/xfce_installation.md:59
 #, no-wrap
-msgid "The answer here is \"Y\" so just hit 'Enter' to accept the default.\n"
+msgid "    Remember, this is a live image, so it's going to take a bit of time to boot to the first screen. Don't panic, just wait! Once the live image is booted up, you should see this screen:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:114
+#: ../src/docs/guides/desktop/mate_installation.md:60
 #, no-wrap
-msgid "The dialog proceeds to the section dealing with allowing the root user to login remotely:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/database/database_mariadb-server.md:115
-#, no-wrap
-msgid "... Success!\n\n"
-"Normally, root should only be allowed to connect from 'localhost'.  This\n"
-"ensures that someone cannot guess at the root password from the network.\n\n"
-"Disallow root login remotely? [Y/n]\n"
+msgid "    ![mate-live](images/mate_live.png)\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:125
+#: ../src/docs/guides/desktop/mate_installation.md:62
 #, no-wrap
-msgid "root should only be needed locally on the machine. So accept this default as well by hitting 'Enter'.\n"
+msgid "    ### 9: Installing MATE\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:127
+#: ../src/docs/guides/desktop/mate_installation.md:64
 #, no-wrap
-msgid "The dialog then moves on to the 'test' database that is automatically installed with _mariadb-server_:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/database/database_mariadb-server.md:128
-#, no-wrap
-msgid "... Success!\n\n\n"
-"By default, MariaDB comes with a database named 'test' that anyone can\n"
-"access.  This is also intended only for testing, and should be removed\n"
-"before moving into a production environment.\n\n"
-"Remove test database and access to it? [Y/n]\n"
+msgid "    At this point, you can use the MATE environment and see if you like it. Once you've decided that you would like to use it permanently, double-click the option to **Install to Hard Drive**.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:140
+#: ../src/docs/guides/desktop/mate_installation.md:66
 #, no-wrap
-msgid "Again, the answer here is the default, so just hit 'Enter' to remove it.\n"
+msgid "    This will start a pretty familiar installation process for those who have installed Rocky Linux before. In the following screen, we've highlighted things that you *may* wish to change.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:142
+#: ../src/docs/guides/desktop/mate_installation.md:68
 #, no-wrap
-msgid "Finally, the dialog ask you if you want to reload the privileges:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/database/database_mariadb-server.md:143
-#, no-wrap
-msgid "- Dropping test database...\n"
-" ... Success!\n"
-" - Removing privileges on test database...\n"
-" ... Success!\n\n"
-"Reloading the privilege tables will ensure that all changes made so far\n"
-"will take effect immediately.\n\n"
-"Reload privilege tables now? [Y/n]\n"
+msgid "    ![mate_install](images/mate_install.png)\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:156
+#: ../src/docs/guides/desktop/mate_installation.md:78
 #, no-wrap
-msgid "Again, simply hit 'Enter' to do this. If all goes well, you should receive this message:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/database/database_mariadb-server.md:157
-#, no-wrap
-msgid " ... Success!\n\n"
-"Cleaning up...\n\n"
-"All done!  If you've completed all of the above steps, your MariaDB\n"
-"installation should now be secure.\n\n"
-"Thanks for using MariaDB!\n"
+msgid "    Once you do step 7, the installation process should start installing packages, as in the below screenshot:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:169
+#: ../src/docs/guides/desktop/mate_installation.md:80
 #, no-wrap
-msgid "MariaDB should now be ready to use.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/guides/database/database_mariadb-server.md:170
-#, no-wrap
-msgid "Rocky Linux 9.0 Changes"
+msgid "    ![mate_install_2](images/mate_install_2.png)\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:173
+#: ../src/docs/guides/desktop/mate_installation.md:82
+#: ../src/docs/guides/desktop/xfce_installation.md:87
 #, no-wrap
-msgid "Rocky Linux 9.0 uses `mariadb-server-10.5.13-2` as the default mariadb-server version. As of version 10.4.3, a new plugin is automatically enabled in the server which changes the `mariadb-secure-installation` dialog. That plugin is `unix-socket` authentication. [This article](https://mariadb.com/kb/en/authentication-plugin-unix-socket/) explains the new feature well. Essentially, using `unix-socket` authentication uses the credentials of the logged in user to access the database. It makes it so that if the root user, for example, logs in and then uses `mysqladmin` to create or delete a database (or any other function) that no password is needed for access. Same works with `mysql`. It also means there is no password to compromise remotely. This depends on the security of the users setup on the server for all of the protection of the database.\n"
+msgid "    After the installation to the hard drive is complete, you'll be faced with the following screen:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:175
+#: ../src/docs/guides/desktop/mate_installation.md:84
 #, no-wrap
-msgid "The second dialog during the `mariadb-secure-installation` after the password is set for the administrative user is:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/database/database_mariadb-server.md:176
-#, no-wrap
-msgid "Switch to unix_socket authentication Y/n\n"
+msgid "    ![mate_install_final](images/mate_install_final.png)\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:181
+#: ../src/docs/guides/desktop/mate_installation.md:86
+#: ../src/docs/guides/desktop/xfce_installation.md:91
 #, no-wrap
-msgid "Obviously, the default here is \"Y\", but even if you answer \"n\", with the plugin enabled, no password is requested for the user, at least not from the command line interface. You can specify either password or no password and they both work:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/database/database_mariadb-server.md:182
-#, no-wrap
-msgid "mysql\n\n"
-"MariaDB [(none)]>\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/database/database_mariadb-server.md:188
-#, no-wrap
-msgid "mysql -p\n"
-"Enter password:\n\n"
-"MariaDB [(none)]>\n"
+msgid "    Go ahead and click **Finish Installation**.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:196
+#: ../src/docs/guides/desktop/mate_installation.md:88
 #, no-wrap
-msgid "For more information on this feature, refer to the link above. There is a way to switch off this plugin and go back to having the password as a required field, which is also detailed within that link.\n"
+msgid "    At this point the OS will reboot, and you should remove your boot media. When the OS comes up for the first time, there is a licensing agreement screen:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/database/database_mariadb-server.md:199
+#: ../src/docs/guides/desktop/mate_installation.md:90
 #, no-wrap
-msgid "A database server, such as _mariadb-server_, can be used for many purposes. Because of the popularity of the Wordpress CMS, it is often found on web servers. Before we run the database in production, however, it is a good idea to strengthen its security.\n"
+msgid "    ![eula](images/eula.png)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:92
+#, no-wrap
+msgid "    Go ahead and click the **I accept the license agreement** check box, and then click **Done**. This will get you to the final screen as far as the installation is concerned. On this screen, click **Finish Configuration**.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:94
+#, no-wrap
+msgid "    ![mate_finish](images/mate_finish.png)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:96
+#, no-wrap
+msgid "    Next you will get a login screen with the user you created above. Go ahead and enter your password, which will get you to the MATE desktop:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:98
+#, no-wrap
+msgid "    ![mate_desktop](images/mate_desktop.png)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:100
+#, no-wrap
+msgid "    ## 9: MATE after OS Install\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:102
+#, no-wrap
+msgid "    MATE can also be installed after the OS has been installed. This takes a few more steps, but is not a difficult process. Just follow these instructions.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:104
+#, no-wrap
+msgid "    ### 9: Enabling Repositories\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:106
+#, no-wrap
+msgid "    You need the CRB repository and the EPEL repository. Go ahead and enable those now:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:111
+#, no-wrap
+msgid "    ```\n"
+"    sudo dnf config-manager --set-enabled crb\n"
+"    sudo dnf install epel-release\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:113
+#, no-wrap
+msgid "    Go ahead and run `dnf upgrade` to make sure all of the enabled repositories are read into the system.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:115
+#, no-wrap
+msgid "    ### 9: Installing Packages\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:117
+#: ../src/docs/guides/desktop/mate_installation.md:171
+#, no-wrap
+msgid "    The next thing we need are a lot of packages. You can install these by simply copying and pasting the following into the command line on your machine:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:121
+#, no-wrap
+msgid "    ```\n"
+"    sudo dnf install NetworkManager-adsl NetworkManager-bluetooth NetworkManager-libreswan-gnome NetworkManager-openvpn-gnome NetworkManager-ovs NetworkManager-ppp NetworkManager-team NetworkManager-wifi NetworkManager-wwan adwaita-gtk2-theme alsa-plugins-pulseaudio atril atril-caja atril-thumbnailer caja caja-actions caja-image-converter caja-open-terminal caja-sendto caja-wallpaper caja-xattr-tags dconf-editor engrampa eom firewall-config gnome-disk-utility gnome-epub-thumbnailer gstreamer1-plugins-ugly-free gtk2-engines gucharmap gvfs-fuse gvfs-gphoto2 gvfs-mtp gvfs-smb initial-setup-gui libmatekbd libmatemixer libmateweather libsecret lm_sensors marco mate-applets mate-backgrounds mate-calc mate-control-center mate-desktop mate-dictionary mate-disk-usage-analyzer mate-icon-theme mate-media mate-menus mate-menus-preferences-category-menu mate-notification-daemon mate-panel mate-polkit mate-power-manager mate-screensaver mate-screenshot mate-search-tool mate-session-manager mate-settings-daemon mate-system-log mate-system-monitor mate-terminal mate-themes mate-user-admin mate-user-guide mozo network-manager-applet nm-connection-editor p7zip p7zip-plugins pluma seahorse seahorse-caja xdg-user-dirs-gtk\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:123
+#: ../src/docs/guides/desktop/mate_installation.md:177
+#, no-wrap
+msgid "    This will install these needed packages plus all of the dependencies.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:125
+#: ../src/docs/guides/desktop/mate_installation.md:179
+#, no-wrap
+msgid "    Let's go ahead and install lightdm-settings and lightdm as well:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:129
+#: ../src/docs/guides/desktop/mate_installation.md:183
+#, no-wrap
+msgid "    ```\n"
+"    sudo dnf install lightdm-settings lightdm\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:131
+#, no-wrap
+msgid "    ### 9: Final Steps\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:133
+#, no-wrap
+msgid "    If your system had Gnome or another desktop installed prior to installing MATE, you should be ready to reboot at this time. If no desktop was installed, you'll need to use the following command to set the graphical target:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:137
+#: ../src/docs/guides/desktop/mate_installation.md:191
+#, no-wrap
+msgid "    ```\n"
+"    sudo systemctl set-default graphical.target\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:139
+#, no-wrap
+msgid "    Then reboot\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:143
+#: ../src/docs/guides/desktop/mate_installation.md:197
+#, no-wrap
+msgid "    ```\n"
+"    sudo reboot\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:145
+#, no-wrap
+msgid "    When the system reboots, click on your user name, but before you enter your password, click on the gear icon in the lower right of the screen and select MATE from the desktop list. Then login and you should have a fully functional MATE desktop. Future logins should remember your selection.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:147
+#: ../src/docs/guides/desktop/xfce_installation.md:99
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:411
+#: ../src/docs/guides/network/basic_network_configuration.md:359
+#, no-wrap
+msgid "=== \"8\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:149
+#: ../src/docs/guides/desktop/xfce_installation.md:101
+#, no-wrap
+msgid "    ## 8: Install Rocky Linux Minimal\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:151
+#: ../src/docs/guides/desktop/xfce_installation.md:107
+#, no-wrap
+msgid "    When installing Rocky Linux, we used the following sets of packages:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/desktop/mate_installation.md:154
+#: ../src/docs/guides/desktop/xfce_installation.md:110
+#: ../src/docs/guides/web/mod_SSL_apache.md:25
+#, no-wrap
+msgid "Minimal\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/desktop/mate_installation.md:154
+#: ../src/docs/guides/desktop/xfce_installation.md:110
+#: ../src/docs/guides/web/mod_SSL_apache.md:25
+#, no-wrap
+msgid "Standard\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:156
+#: ../src/docs/guides/desktop/xfce_installation.md:120
+#, no-wrap
+msgid "    ## 8: Enabling Repositories\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:158
+#, no-wrap
+msgid "    You need the Powertools repository and the EPEL repository. Go ahead and enable those now:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:163
+#, no-wrap
+msgid "    ```\n"
+"    sudo dnf config-manager --set-enabled powertools\n"
+"    sudo dnf install epel-release\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:165
+#, no-wrap
+msgid "    And answer 'Y' to install the EPEL repository.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:167
+#, no-wrap
+msgid "    Go ahead and run `dnf update` to make sure all of the enabled repositories are read into the system.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:169
+#: ../src/docs/guides/desktop/xfce_installation.md:177
+#, no-wrap
+msgid "    ## 8: Installing Packages\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:175
+#, no-wrap
+msgid "    ```\n"
+"    sudo dnf install NetworkManager-adsl NetworkManager-bluetooth NetworkManager-libreswan-gnome NetworkManager-openvpn-gnome NetworkManager-ovs NetworkManager-ppp NetworkManager-team NetworkManager-wifi NetworkManager-wwan abrt-desktop abrt-java-connector adwaita-gtk2-theme alsa-plugins-pulseaudio atril atril-caja atril-thumbnailer caja caja-actions caja-image-converter caja-open-terminal caja-sendto caja-wallpaper caja-xattr-tags dconf-editor engrampa eom firewall-config gnome-disk-utility gnome-epub-thumbnailer gstreamer1-plugins-ugly-free gtk2-engines gucharmap gvfs-afc gvfs-afp gvfs-archive gvfs-fuse gvfs-gphoto2 gvfs-mtp gvfs-smb initial-setup-gui libmatekbd libmatemixer libmateweather libsecret lm_sensors marco mate-applets mate-backgrounds mate-calc mate-control-center mate-desktop mate-dictionary mate-disk-usage-analyzer mate-icon-theme mate-media mate-menus mate-menus-preferences-category-menu mate-notification-daemon mate-panel mate-polkit mate-power-manager mate-screensaver mate-screenshot mate-search-tool mate-session-manager mate-settings-daemon mate-system-log mate-system-monitor mate-terminal mate-themes mate-user-admin mate-user-guide mozo network-manager-applet nm-connection-editor p7zip p7zip-plugins pluma seahorse seahorse-caja xdg-user-dirs-gtk\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:185
+#: ../src/docs/guides/desktop/xfce_installation.md:191
+#, no-wrap
+msgid "    ## 8: Final Steps\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:187
+#, no-wrap
+msgid "    Now that we have everything we need installed, the next thing we need to do is set the minimal install to boot into the Graphical User Interface (GUI). We can do this by entering:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:193
+#, no-wrap
+msgid "    Now just keep your fingers crossed and reboot:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:199
+#, no-wrap
+msgid "    Next, click on your username on the screen, but before you enter your password and login, click on the gear icon to the left of the \"Sign in\" option. Select \"MATE\" from the available desktop choices and then you can enter your password and login. Future logins will remember your selection.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:202
+#, no-wrap
+msgid "Some people are not satisfied with the newer GNOME implementations or simply prefer the older MATE GNOME 2 look and feel. For those people, getting MATE installed in Rocky Linux will provide a nice, stable alternative. For Rocky Linux 9.0, the developers have made the whole process very easy with the available live image.\n"
 msgstr ""
 
