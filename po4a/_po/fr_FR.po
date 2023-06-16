@@ -13,22 +13,8 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/lxd_server_01-install.pot\n"
-"X-Crowdin-File-ID: 1431\n"
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/13-softwares.md:749
-#: ../src/docs/books/lxd_server/01-install.md:20
-#: ../src/docs/books/nvchad/install_nvim.md:46
-#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:49
-#: ../src/docs/guides/containers/lxd_web_servers.md:67
-#: ../src/docs/guides/containers/lxd_web_servers.md:624
-#: ../src/docs/guides/containers/lxd_web_servers.md:857
-#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:53
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:43
-#, no-wrap
-msgid "dnf install epel-release\n"
-msgstr ""
+"X-Crowdin-File: /po4a/po4a/_po/lxd_server_02-zfs_setup.pot\n"
+"X-Crowdin-File-ID: 1433\n"
 
 #. type: YAML Front Matter: tags
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:1
@@ -104,350 +90,124 @@ msgid "lxd"
 msgstr ""
 
 #. type: YAML Front Matter: tags
-#: ../src/docs/books/lxd_server/01-install.md:1
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:1
 #, no-wrap
-msgid "lxd install"
+msgid "lxd zfs"
 msgstr ""
 
 #. type: YAML Front Matter: title
-#: ../src/docs/books/lxd_server/01-install.md:1
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:1
 #, no-wrap
-msgid "1 Install and Configuration"
+msgid "2 ZFS Setup"
 msgstr ""
 
 #. type: Title #
-#: ../src/docs/books/lxd_server/01-install.md:12
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:12
 #, no-wrap
-msgid "Chapter 1: Install and Configuration"
+msgid "Chapter 2: ZFS Setup"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/lxd_server/01-install.md:15
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:15
 #, no-wrap
-msgid "Throughout this chapter you will need to be the root user or you will need to be able to _sudo_ to root.\n"
+msgid "Throughout this chapter you will need to be the root user or able to `sudo` to become root.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:17
+#, no-wrap
+msgid "If you have already installed ZFS, this section will walk you through ZFS setup.\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/books/lxd_server/01-install.md:16
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:18
 #, no-wrap
-msgid "Install EPEL and OpenZFS Repositories"
+msgid "Enabling ZFS and setting Up the pool"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/lxd_server/01-install.md:19
-#: ../src/docs/guides/containers/lxd_web_servers.md:66
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:21
 #, no-wrap
-msgid "LXD requires the EPEL (Extra Packages for Enterprise Linux) repository, which is easy to install using:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/lxd_server/01-install.md:25
-#: ../src/docs/guides/containers/lxd_web_servers.md:72
-#, no-wrap
-msgid "Once installed, check for updates:\n"
+msgid "First, enter this command:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/lxd_server/01-install.md:26
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:22
 #, no-wrap
-msgid "dnf upgrade\n"
+msgid "/sbin/modprobe zfs\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/lxd_server/01-install.md:31
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:27
 #, no-wrap
-msgid "If there were any kernel updates during the upgrade process, reboot the server.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/lxd_server/01-install.md:32
-#, no-wrap
-msgid "OpenZFS Repository for 8 and 9"
+msgid "This should not return an error, it should simply return to the command prompt when done. If you get an error, stop now and begin troubleshooting. Again, make sure that secure boot is off as that will be the most likely culprit.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/lxd_server/01-install.md:35
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:29
 #, no-wrap
-msgid "Install the OpenZFS repository with:\n"
+msgid "Next we need to take a look at the disks on our system, determine what has the OS loaded on it, and what is available to use for the ZFS pool. We will do this with _lsblk_:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/lxd_server/01-install.md:36
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:30
 #, no-wrap
-msgid "dnf install https://zfsonlinux.org/epel/zfs-release-2-2$(rpm --eval \"%{dist}\").noarch.rpm\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/lxd_server/01-install.md:40
-#, no-wrap
-msgid "Install snapd, dkms, vim, and kernel-devel"
+msgid "lsblk\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/lxd_server/01-install.md:43
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:35
 #, no-wrap
-msgid "LXD must be installed from a snap for Rocky Linux. For this reason, we need to install `snapd` (and a few other useful programs) with:\n"
+msgid "Which should return something like this (your system will be different!):\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/lxd_server/01-install.md:44
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:36
 #, no-wrap
-msgid "dnf install snapd dkms vim kernel-devel\n"
+msgid "AME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT\n"
+"loop0    7:0    0  32.3M  1 loop /var/lib/snapd/snap/snapd/11588\n"
+"loop1    7:1    0  55.5M  1 loop /var/lib/snapd/snap/core18/1997\n"
+"loop2    7:2    0  68.8M  1 loop /var/lib/snapd/snap/lxd/20037\n"
+"sda      8:0    0 119.2G  0 disk\n"
+"├─sda1   8:1    0   600M  0 part /boot/efi\n"
+"├─sda2   8:2    0     1G  0 part /boot\n"
+"├─sda3   8:3    0  11.9G  0 part [SWAP]\n"
+"├─sda4   8:4    0     2G  0 part /home\n"
+"└─sda5   8:5    0 103.7G  0 part /\n"
+"sdb      8:16   0 119.2G  0 disk\n"
+"├─sdb1   8:17   0 119.2G  0 part\n"
+"└─sdb9   8:25   0     8M  0 part\n"
+"sdc      8:32   0 149.1G  0 disk\n"
+"└─sdc1   8:33   0 149.1G  0 part\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/lxd_server/01-install.md:49
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:55
 #, no-wrap
-msgid "And now enable and start snapd:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/lxd_server/01-install.md:50
-#: ../src/docs/guides/containers/lxd_web_servers.md:89
-#, no-wrap
-msgid "systemctl enable snapd\n"
+msgid "In this listing, we can see that */dev/sda* is in use by the operating system, so we are going to use */dev/sdb* for our zpool. Note that if you have multiple free hard drives, you may wish to consider using raidz (a software raid specifically for ZFS).\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/lxd_server/01-install.md:55
-#: ../src/docs/guides/containers/lxd_web_servers.md:94
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:57
 #, no-wrap
-msgid "And then run:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/lxd_server/01-install.md:56
-#: ../src/docs/guides/containers/lxd_web_servers.md:95
-#, no-wrap
-msgid "systemctl start snapd\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/lxd_server/01-install.md:61
-#, no-wrap
-msgid "Reboot the server before continuing here.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/lxd_server/01-install.md:62
-#: ../src/docs/guides/containers/lxd_web_servers.md:103
-#, no-wrap
-msgid "Install LXD"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/lxd_server/01-install.md:65
-#, no-wrap
-msgid "Installing LXD requires the use of the snap command. At this point, we are just installing it, we are not doing the set up:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/lxd_server/01-install.md:66
-#: ../src/docs/guides/containers/lxd_web_servers.md:107
-#, no-wrap
-msgid "snap install lxd\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/lxd_server/01-install.md:70
-#, no-wrap
-msgid "Install OpenZFS "
+msgid "That falls outside the scope of this document, but should definitely be a consideration for production, as it offers better performance and redundancy. For now, let's create our pool on the single device we have identified:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/lxd_server/01-install.md:72
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:58
 #, no-wrap
-msgid "dnf install zfs\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/lxd_server/01-install.md:76
-#, no-wrap
-msgid "Environment Set up"
+msgid "zpool create storage /dev/sdb\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/lxd_server/01-install.md:79
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:63
 #, no-wrap
-msgid "Most server kernel settings are not sufficient to run a large number of containers. If we assume from the beginning that we will be using our server in production, then we need to make these changes up front to avoid errors such as \"Too many open files\" from occurring.\n"
+msgid "What this says is to create a pool called \"storage\" that is ZFS on the device */dev/sdb*.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/lxd_server/01-install.md:81
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:64
 #, no-wrap
-msgid "Luckily, tweaking the settings for LXD is easy with a few file modifications and a reboot.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/lxd_server/01-install.md:82
-#, no-wrap
-msgid "Modifying limits.conf"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/lxd_server/01-install.md:85
-#, no-wrap
-msgid "The first file we need to modify is the limits.conf file. This file is self-documented, so look at the explanations in the file as to what this file does. To make our modifications type:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/lxd_server/01-install.md:86
-#, no-wrap
-msgid "vi /etc/security/limits.conf\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/lxd_server/01-install.md:91
-#, no-wrap
-msgid "This entire file is remarked/commented out and, at the bottom, shows the current default settings. In the blank space above the end of file marker (#End of file) we need to add our custom settings. The end of the file will look like this when you are done:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/lxd_server/01-install.md:92
-#, no-wrap
-msgid "# Modifications made for LXD\n\n"
-"*               soft    nofile           1048576\n"
-"*               hard    nofile           1048576\n"
-"root            soft    nofile           1048576\n"
-"root            hard    nofile           1048576\n"
-"*               soft    memlock          unlimited\n"
-"*               hard    memlock          unlimited\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/lxd_server/01-install.md:104
-#, no-wrap
-msgid "Save your changes and exit. (`SHIFT:wq!` for _vi_)\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/lxd_server/01-install.md:105
-#, no-wrap
-msgid "Modifying sysctl.conf With 90-lxd.override.conf"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/lxd_server/01-install.md:108
-#, no-wrap
-msgid "With _systemd_, we can make changes to our system's overall configuration and kernel options *without* modifying the main configuration file. Instead, we'll put our settings in a separate file that will simply override the particular settings we need.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/lxd_server/01-install.md:110
-#, no-wrap
-msgid "To make these kernel changes, we are going to create a file called _90-lxd-override.conf_ in /etc/sysctl.d. To do this type:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/lxd_server/01-install.md:111
-#, no-wrap
-msgid "vi /etc/sysctl.d/90-lxd-override.conf\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/lxd_server/01-install.md:116
-#, no-wrap
-msgid "!!! warning \"RL 9 and MAX value of `net.core.bpf_jit_limit`\"\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/lxd_server/01-install.md:118
-#, no-wrap
-msgid "    Because of recent kernel security updates, the max value of `net.core.bpf_jit_limit` appears to be 1000000000. Please adjust this value in the self-documenting file below if you are running Rocky Linux 9.x. If you set it above this limit **OR** if you fail to set it at all, it will default to the system default of 264241152, which may not be enough if you run a large number of containers.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/lxd_server/01-install.md:120
-#, no-wrap
-msgid "Place the following content in that file. Note that if you are wondering what we are doing here, the file content below is self-documenting:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/lxd_server/01-install.md:121
-#, no-wrap
-msgid "## The following changes have been made for LXD ##\n\n"
-"# fs.inotify.max_queued_events specifies an upper limit on the number of events that can be queued to the corresponding inotify instance\n"
-" - (default is 16384)\n\n"
-"fs.inotify.max_queued_events = 1048576\n\n"
-"# fs.inotify.max_user_instances This specifies an upper limit on the number of inotify instances that can be created per real user ID -\n"
-"(default value is 128)\n\n"
-"fs.inotify.max_user_instances = 1048576\n\n"
-"# fs.inotify.max_user_watches specifies an upper limit on the number of watches that can be created per real user ID - (default is 8192)\n\n"
-"fs.inotify.max_user_watches = 1048576\n\n"
-"# vm.max_map_count contains the maximum number of memory map areas a process may have. Memory map areas are used as a side-effect of cal\n"
-"ling malloc, directly by mmap and mprotect, and also when loading shared libraries - (default is 65530)\n\n"
-"vm.max_map_count = 262144\n\n"
-"# kernel.dmesg_restrict denies container access to the messages in the kernel ring buffer. Please note that this also will deny access t\n"
-"o non-root users on the host system - (default is 0)\n\n"
-"kernel.dmesg_restrict = 1\n\n"
-"# This is the maximum number of entries in ARP table (IPv4). You should increase this if you create over 1024 containers.\n\n"
-"net.ipv4.neigh.default.gc_thresh3 = 8192\n\n"
-"# This is the maximum number of entries in ARP table (IPv6). You should increase this if you plan to create over 1024 containers.Not nee\n"
-"ded if not using IPv6, but...\n\n"
-"net.ipv6.neigh.default.gc_thresh3 = 8192\n\n"
-"# This is a limit on the size of eBPF JIT allocations which is usually set to PAGE_SIZE * 40000. Set this to 1000000000 if you are running Rocky Linux 9.x\n\n"
-"net.core.bpf_jit_limit = 3000000000\n\n"
-"# This is the maximum number of keys a non-root user can use, should be higher than the number of containers\n\n"
-"kernel.keys.maxkeys = 2000\n\n"
-"# This is the maximum size of the keyring non-root users can use\n\n"
-"kernel.keys.maxbytes = 2000000\n\n"
-"# This is the maximum number of concurrent async I/O operations. You might need to increase it further if you have a lot of workloads th\n"
-"at use the AIO subsystem (e.g. MySQL)\n\n"
-"fs.aio-max-nr = 524288\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/lxd_server/01-install.md:176
-#: ../src/docs/books/lxd_server/10-automating.md:65
-#, no-wrap
-msgid "Save your changes and exit.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/lxd_server/01-install.md:178
-#, no-wrap
-msgid "At this point you should reboot the server.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/lxd_server/01-install.md:179
-#, no-wrap
-msgid "Checking _sysctl.conf_ Values"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/lxd_server/01-install.md:182
-#, no-wrap
-msgid "Once the reboot has been completed, log back in as to the server. We need to spot check that our override file has actually done the job.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/lxd_server/01-install.md:184
-#, no-wrap
-msgid "This is easy to do. There's no need to check every setting unless you want to, but checking a few will verify that the settings have been changed. This is done with the _sysctl_ command:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/lxd_server/01-install.md:185
-#, no-wrap
-msgid "sysctl net.core.bpf_jit_limit\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/lxd_server/01-install.md:190
-#, no-wrap
-msgid "Which should show you:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/lxd_server/01-install.md:191
-#, no-wrap
-msgid "net.core.bpf_jit_limit = 3000000000\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/lxd_server/01-install.md:195
-#, no-wrap
-msgid "Do the same with a few other settings in the override file (above) to verify that changes have been made.\n"
+msgid "Once the pool is created, it's a good idea to reboot the server again at this point.\n"
 msgstr ""
 
