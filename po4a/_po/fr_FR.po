@@ -13,41 +13,34 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/lxd_server_07-configurations.pot\n"
-"X-Crowdin-File-ID: 1443\n"
+"X-Crowdin-File: /po4a/po4a/_po/lxd_server_08-snapshots.pot\n"
+"X-Crowdin-File-ID: 1445\n"
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/06-users.md:308
-#: ../src/docs/books/admin_guide/06-users.md:644
-#: ../src/docs/books/admin_guide/07-file-systems.md:195
-#: ../src/docs/books/disa_stig/disa_stig_part2.md:30
-#: ../src/docs/books/learning_bash/01-first-script.md:46
-#: ../src/docs/books/learning_bash/01-first-script.md:77
-#: ../src/docs/books/learning_bash/02-using-variables.md:185
-#: ../src/docs/books/learning_bash/05-tests.md:63
-#: ../src/docs/books/lxd_server/07-configurations.md:102
-#: ../src/docs/books/nvchad/install_nvchad.md:182
-#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:53
-#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:133
-#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:153
-#: ../src/docs/guides/automation/cron_jobs_howto.md:83
-#: ../src/docs/guides/automation/cron_jobs_howto.md:125
-#: ../src/docs/guides/automation/cron_jobs_howto.md:160
-#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:44
-#: ../src/docs/guides/cms/dokuwiki_server.md:216
-#: ../src/docs/guides/communications/asterisk_installation.md:12
-#: ../src/docs/guides/containers/podman-nextcloud.md:361
-#: ../src/docs/guides/contribute/rockydocs_formatting.md:72
-#: ../src/docs/guides/contribute/rockydocs_formatting.md:350
-#: ../src/docs/guides/desktop/kde_installation.md:16
-#: ../src/docs/guides/file_sharing/sftp.md:54
-#: ../src/docs/guides/file_sharing/sftp.md:129
-#: ../src/docs/guides/file_sharing/sftp.md:321
-#: ../src/docs/guides/proxies/pound.md:62
-#: ../src/docs/guides/proxies/pound.md:418 ../src/docs/index.md:40
-#: ../src/docs/release_notes/9_1.md:16
+#: ../src/docs/books/admin_guide/14-special-authority.md:338
+#: ../src/docs/books/admin_guide/14-special-authority.md:354
+#: ../src/docs/books/admin_guide/14-special-authority.md:404
+#: ../src/docs/books/admin_guide/14-special-authority.md:435
+#: ../src/docs/books/admin_guide/14-special-authority.md:690
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:83
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:102
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:253
+#: ../src/docs/books/lxd_server/04-firewall.md:76
+#: ../src/docs/books/lxd_server/08-snapshots.md:86
+#: ../src/docs/gemstones/RL9_network_manager.md:150
+#: ../src/docs/gemstones/nmtui.md:52
+#: ../src/docs/gemstones/view_kernel_conf.md:21
+#: ../src/docs/guides/backup/rsync_ssh.md:79
+#: ../src/docs/guides/cms/dokuwiki_server.md:226
+#: ../src/docs/guides/containers/lxd_web_servers.md:786
+#: ../src/docs/guides/containers/podman-nextcloud.md:270
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:96
+#: ../src/docs/guides/file_sharing/sftp.md:264
+#: ../src/docs/guides/package_management/index.md:10
+#: ../src/docs/guides/proxies/pound.md:211
+#: ../src/docs/guides/proxies/pound.md:265 ../src/docs/release_notes/8_4.md:20
 #, no-wrap
-msgid "!!! note\n"
+msgid "!!! warning\n"
 msgstr ""
 
 #. type: YAML Front Matter: tags
@@ -123,37 +116,6 @@ msgstr ""
 msgid "lxd"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/books/lxd_server/06-profiles.md:15
-#: ../src/docs/books/lxd_server/07-configurations.md:15
-#, no-wrap
-msgid "Throughout this chapter you will need to execute commands as your unprivileged user (\"lxdadmin\" if you've been following from the beginning in this book).\n"
-msgstr ""
-
-#. type: YAML Front Matter: tags
-#: ../src/docs/books/lxd_server/07-configurations.md:1
-#, no-wrap
-msgid "lxd configuration"
-msgstr ""
-
-#. type: YAML Front Matter: title
-#: ../src/docs/books/lxd_server/07-configurations.md:1
-#, no-wrap
-msgid "7 Container Configuration Options"
-msgstr ""
-
-#. type: Title #
-#: ../src/docs/books/lxd_server/07-configurations.md:12
-#, no-wrap
-msgid "Chapter 7: Container Configuration Options"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/lxd_server/07-configurations.md:17
-#, no-wrap
-msgid "There are a wealth of options for configuring the container once you have it installed. Before we get into how to see those, however, let's take a look at the info command for a container. In this example, we will use the ubuntu-test container:\n"
-msgstr ""
-
 #. type: Fenced code block
 #: ../src/docs/books/lxd_server/07-configurations.md:18
 #: ../src/docs/books/lxd_server/08-snapshots.md:32
@@ -161,210 +123,204 @@ msgstr ""
 msgid "lxc info ubuntu-test\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/books/lxd_server/07-configurations.md:23
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/lxd_server/08-snapshots.md:1
 #, no-wrap
-msgid "This shows something like the following:\n"
+msgid "lxd snapshots"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/books/lxd_server/08-snapshots.md:1
+#, no-wrap
+msgid "8 Container Snapshots"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/lxd_server/08-snapshots.md:12
+#, no-wrap
+msgid "Chapter 8: Container Snapshots"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:15
+#, no-wrap
+msgid "Throughout this chapter you will need to execute commands as your unprivileged user (\"lxdadmin\" if you've been following along from the beginning of this book).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:17
+#, no-wrap
+msgid "Container snapshots, along with a snapshot server (which we will get to more later), are probably the most important aspect of running a production LXD server. Snapshots ensure quick recovery, and can be used for safety when you are, say, updating the primary software that runs on a particular container. If something happens during the update that breaks that application, you simply restore the snapshot and you are back up and running with only a few seconds worth of downtime.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:19
+#, no-wrap
+msgid "The author used LXD containers for PowerDNS public facing servers, and the process of updating those applications became so much more worry-free, since you can snapshot the container first before continuing.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:21
+#, no-wrap
+msgid "You can even snapshot a container while it is running. \n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/lxd_server/08-snapshots.md:22
+#, no-wrap
+msgid "The snapshot process"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:25
+#, no-wrap
+msgid "We'll start by getting a snapshot of the ubuntu-test container by using this command:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/lxd_server/07-configurations.md:24
+#: ../src/docs/books/lxd_server/08-snapshots.md:26
 #, no-wrap
-msgid "Name: ubuntu-test\n"
-"Location: none\n"
-"Remote: unix://\n"
-"Architecture: x86_64\n"
-"Created: 2021/04/26 15:14 UTC\n"
-"Status: Running\n"
-"Type: container\n"
-"Profiles: default, macvlan\n"
-"Pid: 584710\n"
-"Ips:\n"
-"  eth0:    inet    192.168.1.201    enp3s0\n"
-"  eth0:    inet6    fe80::216:3eff:fe10:6d6d    enp3s0\n"
-"  lo:    inet    127.0.0.1\n"
-"  lo:    inet6    ::1\n"
-"Resources:\n"
-"  Processes: 13\n"
-"  Disk usage:\n"
-"    root: 85.30MB\n"
-"  CPU usage:\n"
-"    CPU usage (in seconds): 1\n"
-"  Memory usage:\n"
-"    Memory (current): 99.16MB\n"
-"    Memory (peak): 110.90MB\n"
-"  Network usage:\n"
-"    eth0:\n"
-"      Bytes received: 53.56kB\n"
-"      Bytes sent: 2.66kB\n"
-"      Packets received: 876\n"
-"      Packets sent: 36\n"
-"    lo:\n"
-"      Bytes received: 0B\n"
-"      Bytes sent: 0B\n"
-"      Packets received: 0\n"
-"      Packets sent: 0\n"
+msgid "lxc snapshot ubuntu-test ubuntu-test-1\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/lxd_server/07-configurations.md:62
+#: ../src/docs/books/lxd_server/08-snapshots.md:31
 #, no-wrap
-msgid "There's a lot of good information there, from the profiles applied, to the memory in use, disk space in use, and more.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/lxd_server/07-configurations.md:63
-#, no-wrap
-msgid "A Word About Configuration And Some Options"
+msgid "Here, we are calling the snapshot \"ubuntu-test-1\", but it can be called anything you like. To make sure that you have the snapshot, do an \"lxc info\" of the container:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/lxd_server/07-configurations.md:66
+#: ../src/docs/books/lxd_server/08-snapshots.md:37
 #, no-wrap
-msgid "By default, LXD will allocate the required system memory, disk space, CPU cores, etc., to the container. But what if we want to be more specific? That is totally possible.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/lxd_server/07-configurations.md:68
-#, no-wrap
-msgid "There are trade-offs to doing this, though. For instance, if we allocate system memory and the container doesn't actually use it all, then we have kept it from another container that might actually need it. The reverse, though, can happen. If a container is a complete pig on memory, then it can keep other containers from getting enough, thereby pinching their performance.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/lxd_server/07-configurations.md:70
-#, no-wrap
-msgid "Just keep in mind that every action you make to configure a container _can_ have negative effects somewhere else.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/lxd_server/07-configurations.md:72
-#, no-wrap
-msgid "Rather than run through all of the options for configuration, use the tab auto-complete to see the options available:\n"
+msgid "We've looked at an info screen already, so if you scroll to the bottom, you should see:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/lxd_server/07-configurations.md:73
+#: ../src/docs/books/lxd_server/08-snapshots.md:38
 #, no-wrap
-msgid "lxc config set ubuntu-test\n"
+msgid "Snapshots:\n"
+"  ubuntu-test-1 (taken at 2021/04/29 15:57 UTC) (stateless)\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/lxd_server/07-configurations.md:78
+#: ../src/docs/books/lxd_server/08-snapshots.md:44
 #, no-wrap
-msgid "and then hit TAB.\n"
+msgid "Success! Our snapshot is in place.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/lxd_server/07-configurations.md:80
+#: ../src/docs/books/lxd_server/08-snapshots.md:46
 #, no-wrap
-msgid "This shows you all of the options for configuring a container. If you have questions about what one of the configuration options does, head up to the [official documentation for LXD](https://linuxcontainers.org/lxd/docs/master/instances/) and do a search for the configuration parameter, or Google the entire string, such as \"lxc config set limits.memory\" and take a look at the results of the search.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/lxd_server/07-configurations.md:82
-#, no-wrap
-msgid "We will look at a few of the most used configuration options. For example, if you want to set the max amount of memory that a container can use:\n"
+msgid "Now, get into the ubuntu-test container:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/lxd_server/07-configurations.md:83
+#: ../src/docs/books/lxd_server/08-snapshots.md:47
 #, no-wrap
-msgid "lxc config set ubuntu-test limits.memory 2GB\n"
+msgid "lxc exec ubuntu-test bash\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/lxd_server/07-configurations.md:88
+#: ../src/docs/books/lxd_server/08-snapshots.md:52
 #, no-wrap
-msgid "That says that as long as the memory is available to use, in other words there is 2GB of memory free, then the container can actually use more than 2GB if it's available. It's a soft limit, in other words.\n"
+msgid "And create an empty file with the _touch_ command:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/lxd_server/07-configurations.md:89
+#: ../src/docs/books/lxd_server/08-snapshots.md:53
 #, no-wrap
-msgid "lxc config set ubuntu-test limits.memory.enforce 2GB\n"
+msgid "touch this_file.txt\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/lxd_server/07-configurations.md:94
+#: ../src/docs/books/lxd_server/08-snapshots.md:58
 #, no-wrap
-msgid "That says that the container can never use more than 2GB of memory, whether it's currently available or not. In this case it's a hard limit.\n"
+msgid "Now exit the container.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:60
+#, no-wrap
+msgid "Before we restore the container as it was prior to creating the file, the safest way to restore a container, particularly if there have been a lot of changes, is to stop it first:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/lxd_server/07-configurations.md:95
+#: ../src/docs/books/lxd_server/08-snapshots.md:61
 #, no-wrap
-msgid "lxc config set ubuntu-test limits.cpu 2\n"
+msgid "lxc stop ubuntu-test\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/lxd_server/07-configurations.md:100
+#: ../src/docs/books/lxd_server/08-snapshots.md:66
 #, no-wrap
-msgid "That says to limit the number of cpu cores that the container can use to 2.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/lxd_server/07-configurations.md:104
-#, no-wrap
-msgid "    When this document was rewritten for Rocky Linux 9.0, the ZFS repository for 9 was not available. For this reason all of our test containers were built using \"dir\" in the init process. That is why the example below shows a \"dir\" instead of \"zfs\" storage pool.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/lxd_server/07-configurations.md:106
-#, no-wrap
-msgid "Remember when we set up our storage pool in the ZFS chapter?  We named the pool \"storage,\" but we could have named it anything. If we want to look at this, we can use this command, which works equally well for any of the other pool types too (as shown for dir):\n"
+msgid "Then restore it:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/lxd_server/07-configurations.md:107
+#: ../src/docs/books/lxd_server/08-snapshots.md:67
 #, no-wrap
-msgid "lxc storage show storage\n"
+msgid "lxc restore ubuntu-test ubuntu-test-1\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/lxd_server/07-configurations.md:113
+#: ../src/docs/books/lxd_server/08-snapshots.md:72
 #, no-wrap
-msgid "This shows the following:\n"
+msgid "Then start the container again:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/lxd_server/07-configurations.md:114
+#: ../src/docs/books/lxd_server/08-snapshots.md:73
 #, no-wrap
-msgid "config:\n"
-"  source: /var/snap/lxd/common/lxd/storage-pools/storage\n"
-"description: \"\"\n"
-"name: storage\n"
-"driver: dir\n"
-"used_by:\n"
-"- /1.0/instances/rockylinux-test-8\n"
-"- /1.0/instances/rockylinux-test-9\n"
-"- /1.0/instances/ubuntu-test\n"
-"- /1.0/profiles/default\n"
-"status: Created\n"
-"locations:\n"
-"- none\n"
+msgid "lxc start ubuntu-test\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/lxd_server/07-configurations.md:131
+#: ../src/docs/books/lxd_server/08-snapshots.md:78
 #, no-wrap
-msgid "This shows that all of our containers are using our dir storage pool. When using ZFS, you can also set a disk quota on a container. Here's what that would look like setting a 2GB disk quota on the ubuntu-test container. You do this with:\n"
+msgid "If you get back into the container again and look, our \"this_file.txt\" that we created is now gone.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:80
+#, no-wrap
+msgid "Once you don't need a snapshot anymore, you can delete it:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/lxd_server/07-configurations.md:132
+#: ../src/docs/books/lxd_server/08-snapshots.md:81
 #, no-wrap
-msgid "lxc config device override ubuntu-test root size=2GB\n"
+msgid "lxc delete ubuntu-test/ubuntu-test-1\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/lxd_server/07-configurations.md:137
+#: ../src/docs/books/lxd_server/08-snapshots.md:88
 #, no-wrap
-msgid "As stated earlier, you should use configuration options sparingly, unless you've got a container that wants to use way more than its share of resources. LXD, for the most part, will manage the environment well on its own.\n"
+msgid "    You should always delete snapshots with the container running. Why? Well the _lxc delete_ command also works to delete the entire container. If we had accidentally hit enter after \"ubuntu-test\" in the command above, AND, if the container was stopped, the container would be deleted. No warning is given, it simply does what you ask.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/lxd_server/07-configurations.md:139
+#: ../src/docs/books/lxd_server/08-snapshots.md:90
 #, no-wrap
-msgid "There are, of course, many more options that may be of interest to some people. You should do your own research to find out if any of those are of value in your environment.\n"
+msgid "    If the container is running, however, you will get this message:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:94
+#, no-wrap
+msgid "    ```\n"
+"    Error: The instance is currently running, stop it first or pass --force\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:96
+#, no-wrap
+msgid "    So always delete snapshots with the container running.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/08-snapshots.md:97
+#, no-wrap
+msgid "The process of creating snapshots automatically, setting expiration of the snapshot so that it goes away after a certain length of time, and auto refreshing the snapshots to the snapshot server will be covered in detail in the following chapters.\n"
 msgstr ""
 
