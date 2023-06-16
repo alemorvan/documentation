@@ -13,381 +13,391 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: it\n"
-"X-Crowdin-File: /po4a/po4a/_po/nvchad_vale_nvchad.pot\n"
-"X-Crowdin-File-ID: 1481\n"
-
-#. type: Title #
-#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
-#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
-#: ../src/docs/books/learning_ansible/05-deployments.md:31
-#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
-#: ../src/docs/books/lxd_server/00-toc.md:1
-#: ../src/docs/books/lxd_server/00-toc.md:13
-#: ../src/docs/books/nvchad/index.md:12
-#: ../src/docs/books/nvchad/plugins/index.md:14
-#: ../src/docs/books/nvchad/plugins/md_preview.md:14
-#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
-#: ../src/docs/books/nvchad/vale_nvchad.md:12
-#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
-#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
-#: ../src/docs/gemstones/string_color.md:11
-#: ../src/docs/guides/automation/cron_jobs_howto.md:25
-#: ../src/docs/guides/automation/olivetin.md:14
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
-#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
-#: ../src/docs/guides/backup/rsnapshot_backup.md:22
-#: ../src/docs/guides/backup/rsync_ssh.md:24
-#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
-#: ../src/docs/guides/cms/dokuwiki_server.md:23
-#: ../src/docs/guides/containers/lxd_web_servers.md:10
-#: ../src/docs/guides/containers/podman-nextcloud.md:13
-#: ../src/docs/guides/contribute/local_docs.md:11
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
-#: ../src/docs/guides/contribute/mkdocs_venv.md:14
-#: ../src/docs/guides/contribute/style_guide.md:14
-#: ../src/docs/guides/database/database_mariadb-server.md:21
-#: ../src/docs/guides/desktop/kde_installation.md:11
-#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
-#: ../src/docs/guides/editors/micro.md:14
-#: ../src/docs/guides/email/postfix_reporting.md:22
-#: ../src/docs/guides/file_sharing/glusterfs.md:16
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
-#: ../src/docs/guides/file_sharing/sftp.md:16
-#: ../src/docs/guides/migrate2rocky.md:18
-#: ../src/docs/guides/network/basic_network_configuration.md:12
-#: ../src/docs/guides/network/librenms_monitoring_server.md:13
-#: ../src/docs/guides/package_management/index.md:1
-#: ../src/docs/guides/package_management/index.md:5
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
-#: ../src/docs/guides/proxies/pound.md:17
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
-#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
-#: ../src/docs/guides/security/firewalld-beginners.md:10
-#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
-#: ../src/docs/guides/security/ssh_public_private_keys.md:21
-#: ../src/docs/guides/security/ssl_keys_https.md:22
-#: ../src/docs/guides/virtualization/vbox-rocky.md:13
-#: ../src/docs/guides/web/apache-sites-enabled.md:25
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
-#: ../src/docs/guides/web/nginx-mainline.md:13
-#: ../src/docs/guides/web/nginx-multisite.md:14
-#: ../src/docs/labs/security/introduction.md:1
-#: ../src/docs/labs/security/introduction.md:5
-#, no-wrap
-msgid "Introduction"
-msgstr ""
+"X-Crowdin-File: /po4a/po4a/_po/package_management_developer_start2.pot\n"
+"X-Crowdin-File-ID: 1483\n"
 
 #. type: Plain text
-#: ../src/docs/books/learning_bash/05-tests.md:67
-#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:94
-#: ../src/docs/books/nvchad/vale_nvchad.md:36
-#: ../src/docs/guides/automation/cron_jobs_howto.md:77
-#: ../src/docs/guides/contribute/navigation.md:53
-#: ../src/docs/guides/contribute/rockydocs_formatting.md:84
-#: ../src/docs/guides/database/database_mariadb-server.md:48
-#: ../src/docs/guides/file_sharing/sftp.md:482
-#: ../src/docs/guides/file_sharing/sftp.md:569
-#: ../src/docs/guides/proxies/pound.md:40
-#: ../src/docs/guides/security/dnf_automatic.md:67
-#: ../src/docs/guides/security/firewalld.md:102
-#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:115
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:104
+#: ../src/docs/guides/package_management/developer_start2.md:4
+#: ../src/docs/guides/package_management/package_build_troubleshooting.md:6
 #, no-wrap
-msgid "!!! tip\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/lxd_server/30-appendix_a.md:15
-#: ../src/docs/books/nvchad/vale_nvchad.md:16
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:20
-#: ../src/docs/guides/automation/anacron.md:10
-#: ../src/docs/guides/automation/cron_jobs_howto.md:14
-#: ../src/docs/guides/backup/mirroring_lsyncd.md:13
-#: ../src/docs/guides/backup/rsnapshot_backup.md:13
-#: ../src/docs/guides/backup/rsync_ssh.md:12
-#: ../src/docs/guides/communications/asterisk_installation.md:25
-#: ../src/docs/guides/database/database_mariadb-server.md:13
-#: ../src/docs/guides/desktop/kde_installation.md:20
-#: ../src/docs/guides/desktop/mate_installation.md:17
-#: ../src/docs/guides/desktop/xfce_installation.md:17
-#: ../src/docs/guides/editors/micro.md:33
-#: ../src/docs/guides/email/postfix_reporting.md:14
-#: ../src/docs/guides/file_sharing/glusterfs.md:10
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:14
-#: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:14
-#: ../src/docs/guides/network/basic_network_configuration.md:16
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:8
-#: ../src/docs/guides/security/enabling_iptables_firewall.md:14
-#: ../src/docs/guides/security/ssh_public_private_keys.md:14
-#: ../src/docs/guides/security/ssl_keys_https.md:14
-#: ../src/docs/guides/virtualization/vbox-rocky.md:19
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:15
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:15
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:14
-#: ../src/docs/guides/web/mod_SSL_apache.md:14
-#, no-wrap
-msgid "Prerequisites"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/nvchad/plugins/md_preview.md:145
-#: ../src/docs/books/nvchad/plugins/projectmgr.md:157
-#: ../src/docs/books/nvchad/vale_nvchad.md:103
-#: ../src/docs/guides/contribute/mkdocs_venv.md:281
-#, no-wrap
-msgid "Conclusions and final thoughts"
-msgstr ""
-
-#. type: YAML Front Matter: contributors
-#: ../src/docs/books/nvchad/vale_nvchad.md:1
-#, no-wrap
-msgid "Franco Colussi, Krista Burdine, Serge"
-msgstr ""
-
-#. type: YAML Front Matter: tags
-#: ../src/docs/books/nvchad/vale_nvchad.md:1
-#, no-wrap
-msgid "vale"
-msgstr ""
-
-#. type: YAML Front Matter: tags
-#: ../src/docs/books/nvchad/vale_nvchad.md:1
-#, no-wrap
-msgid "linters"
-msgstr ""
-
-#. type: YAML Front Matter: title
-#: ../src/docs/books/nvchad/vale_nvchad.md:1
-#, no-wrap
-msgid "Using vale in NvChad"
+msgid "!!! danger\n"
 msgstr ""
 
 #. type: Title #
-#: ../src/docs/books/nvchad/vale_nvchad.md:10
+#: ../src/docs/guides/package_management/developer_start2.md:1
 #, no-wrap
-msgid "`vale` in NvChad (Neovim)"
+msgid "Development Tutorial"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/vale_nvchad.md:15
+#: ../src/docs/guides/package_management/developer_start2.md:6
+#: ../src/docs/guides/package_management/package_build_troubleshooting.md:8
 #, no-wrap
-msgid "`vale.sh` is one of the foremost open source projects for technical writers looking to improve their voice and style consistency. It can be used with a number of editors on nearly every major OS platform (Linux, MacOS, Windows). You can find out more about the project by heading up to [the vale.sh website](https://vale.sh/). This guide is going to walk you through adding `vale` to NvChad. Since it is included in the Mason packages for install, the process is not too difficult, although it does involve some minor editing and configuration to get things going. To be clear, NvChad is really the configuration manager for the editor Neovim, so from this point forward, the reference will be `nvim`.\n"
+msgid "This article was written originally in Early 2021 during the bootstrap of Rocky Linux. Content on this page is kept for historical reasons, but has been edited lightly to fix links, provide context, or remove instructions that are no longer relevant to prevent confusion. This document will be archived.\n"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/books/nvchad/vale_nvchad.md:20
+#. type: Bullet: '- '
+#: ../src/docs/guides/package_management/developer_start2.md:12
 #, no-wrap
-msgid "Familiarity with NvChad 2.0 is helpful\n"
+msgid "[Download Rocky Devtools](#1-download-rocky-devtools)\n"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/books/nvchad/vale_nvchad.md:20
+#. type: Bullet: '- '
+#: ../src/docs/guides/package_management/developer_start2.md:12
 #, no-wrap
-msgid "Ability to change files from the command line by using your favorite editor. (`vi` or your favorite)\n"
+msgid "[Install Rocky Devtools](#2-install-rocky-devtools)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/guides/package_management/developer_start2.md:12
+#, no-wrap
+msgid "[Download Source RPMs (rockyget)](#3-use-rocky-devtools-rockyget-to-search-for-and-download-source-rpms-srpms)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/guides/package_management/developer_start2.md:12
+#, no-wrap
+msgid "[Building packages (rockybuild)](#4-use-rocky-devtools-rockybuild-to-build-a-new-package-for-the-rocky-os)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/guides/package_management/developer_start2.md:12
+#, no-wrap
+msgid "[Trobleshooting package builds](#5-debugging-a-failed-package-build)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:15
+#, no-wrap
+msgid "** Work in progress **\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:18
+#: ../src/docs/guides/package_management/package_dev_start.md:10
+#, no-wrap
+msgid "Rocky Devtools refers to a set of home grown scripts and utlities created by members of the Rocky Linux community to help with sourcing, creating, branding, patching and building software packages distributed with the Rocky Linux Operating system.\n"
+"Rocky devtools consists of `rockyget`, `rockybuild`, `rockypatch`, and `rockyprep`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:20
+#, no-wrap
+msgid "At a low level Rocky Devtools is a wrapper for running some custom and tradtional programs that are used for various package management tasks. Rocky Devtools relies heavily on [`srpmproc`](https://github.com/rocky-linux/srpmproc), `go`, `git`, and `rpmbuild`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:22
+#: ../src/docs/guides/package_management/package_dev_start.md:14
+#, no-wrap
+msgid "You'll need an existing modern RPM based Linux system to install and use Rocky devtools.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:24
+#: ../src/docs/guides/package_management/package_dev_start.md:16
+#, no-wrap
+msgid "Let's walk through a typical installation and usage scenario of the devtools.\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/books/nvchad/vale_nvchad.md:21
+#: ../src/docs/guides/package_management/developer_start2.md:25
+#: ../src/docs/guides/package_management/package_dev_start.md:23
 #, no-wrap
-msgid "Installing `vale` using Mason"
+msgid "1. Download Rocky Devtools"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/vale_nvchad.md:24
+#: ../src/docs/guides/package_management/developer_start2.md:28
+#: ../src/docs/guides/package_management/package_dev_start.md:26
 #, no-wrap
-msgid "Installing `vale` from within NvChad using Mason, will keep the package up-to-date with just a few extra steps. Running Mason periodically from within `nvim` will show you if there are updates that need to be installed and allow you to update them from there. This includes `vale` once it is installed. Let us start by running `nvim` to pull up an empty file and then get into the command mode by using <kbd>SHIFT</kbd>+<kbd>:</kbd>+Mason, which should show an interface similar to this one:\n"
+msgid "Download the devtools zipped source from the following URL:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/vale_nvchad.md:26
+#: ../src/docs/guides/package_management/developer_start2.md:30
+#: ../src/docs/guides/package_management/package_dev_start.md:28
 #, no-wrap
-msgid "![vale_mason](images/vale_mason.png)\n"
+msgid "https://github.com/rocky-linux/devtools/archive/refs/heads/main.zip\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/vale_nvchad.md:28
+#: ../src/docs/guides/package_management/developer_start2.md:32
+#: ../src/docs/guides/package_management/package_dev_start.md:30
 #, no-wrap
-msgid "Rather than looking at the entire list of packages, let us use menu item 4 to limit the listing to linters. Press <kbd>4</kbd> and scroll down in the list until you find `vale` and with your cursor on that line, press <kbd>i</kbd> to install. Your listing should now show `vale` installed:\n"
+msgid "Here we use the `curl` command:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/package_management/developer_start2.md:33
+#: ../src/docs/guides/package_management/package_dev_start.md:31
+#, no-wrap
+msgid "curl -OJL https://github.com/rocky-linux/devtools/archive/refs/heads/main.zip\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/vale_nvchad.md:30
+#: ../src/docs/guides/package_management/developer_start2.md:38
+#: ../src/docs/guides/package_management/package_dev_start.md:36
 #, no-wrap
-msgid "![vale_mason_installed](images/vale_mason_installed.png)\n"
+msgid "You should now have a zipped archive named `devtools-main.zip`\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/books/nvchad/vale_nvchad.md:31
+#: ../src/docs/guides/package_management/developer_start2.md:40
+#: ../src/docs/guides/package_management/package_dev_start.md:38
 #, no-wrap
-msgid "Configuring and initializing `vale`"
+msgid "2. Install Rocky Devtools"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/vale_nvchad.md:34
+#: ../src/docs/guides/package_management/developer_start2.md:43
+#: ../src/docs/guides/package_management/package_dev_start.md:41
 #, no-wrap
-msgid "There are two methods you can use to configure `vale`. You can pick your favorite from the two options below. One will have you create the configuration files from within the path of the `vale` binary, then move them to your home folder, and the other will have you create the configuration files directly in your home folder. They work equally well. The second option has fewer manual steps, but requires the long path to the `vale` binary.\n"
+msgid "Locate and uncompress the devtools archive that you just downloaded.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/vale_nvchad.md:38
+#: ../src/docs/guides/package_management/developer_start2.md:45
+#: ../src/docs/guides/package_management/package_dev_start.md:43
 #, no-wrap
-msgid "    If you want to hide your \"styles\" folder (below), modify the contents of the `.vale.ini` slightly during creation by changing the \"StylesPath\" option from \"styles\" to something hidden such as \".styles\" or \".vale_styles.\" Example:\n"
+msgid "Here we'll use the `unzip` command line utility:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/package_management/developer_start2.md:46
+#, no-wrap
+msgid "unzip devtools-main.zip \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/vale_nvchad.md:42
+#: ../src/docs/guides/package_management/developer_start2.md:51
+#: ../src/docs/guides/package_management/package_dev_start.md:49
 #, no-wrap
-msgid "    ```\n"
-"    StylesPath = .vale_styles\n"
-"    ```\n"
+msgid "Change your working directory to the new devtool source directory that was just created:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/package_management/developer_start2.md:52
+#: ../src/docs/guides/package_management/package_dev_start.md:50
+#, no-wrap
+msgid "cd devtools-main\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/vale_nvchad.md:44
+#: ../src/docs/guides/package_management/developer_start2.md:57
+#: ../src/docs/guides/package_management/package_dev_start.md:55
 #, no-wrap
-msgid "Just having `vale` installed is not enough. You need a couple of additional items. First, you need a `.vale.ini` file that will live in the root of your home folder. Next, you will need to generate the \"styles\" directory using `vale sync`.\n"
+msgid "Run `make` to configure and compile devtools:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/package_management/developer_start2.md:58
+#: ../src/docs/guides/package_management/package_dev_start.md:56
+#, no-wrap
+msgid "make\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:63
+#: ../src/docs/guides/package_management/package_dev_start.md:61
+#, no-wrap
+msgid "Install devtools:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/package_management/developer_start2.md:64
+#: ../src/docs/guides/package_management/package_dev_start.md:62
+#, no-wrap
+msgid "sudo make install\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/package_management/developer_start2.md:68
+#: ../src/docs/guides/package_management/package_dev_start.md:66
+#, no-wrap
+msgid "3. Use Rocky Devtools (rockyget) to search for and download Source RPMs (SRPMs)"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:71
+#, no-wrap
+msgid "Once installed, the main utility for finding and downloading SRPMs is the `rockyget` utility. \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:73
+#: ../src/docs/guides/package_management/package_dev_start.md:71
+#, no-wrap
+msgid "Let's use `rockyget` to download the SRPM for the popular `sed` package:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/package_management/developer_start2.md:74
+#: ../src/docs/guides/package_management/package_dev_start.md:72
+#, no-wrap
+msgid "rockyget sed\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:78
+#: ../src/docs/guides/package_management/package_dev_start.md:76
+#, no-wrap
+msgid "The first time rockyget is run, it will automatically create a directory structure that roughly mimics the repository structure of Rocky's build servers. For example the `~/rocky/rpms` folder will be automaically created.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:80
+#: ../src/docs/guides/package_management/package_dev_start.md:78
+#, no-wrap
+msgid "For our current sed example, its sources will be stored under the following sample folder hierchy:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/package_management/developer_start2.md:81
+#: ../src/docs/guides/package_management/package_dev_start.md:79
+#, no-wrap
+msgid "~rocky/rpms/sed/\n"
+"└── r8\n"
+"    ├── SOURCES\n"
+"    │   ├── sed-4.2.2-binary_copy_args.patch\n"
+"    │   ├── sed-4.5.tar.xz\n"
+"    │   ├── sedfaq.txt\n"
+"    │   ├── sed-fuse.patch\n"
+"    │   └── sed-selinux.patch\n"
+"    └── SPECS\n"
+"        └── sed.spec\n"
 msgstr ""
 
 #. type: Title ###
-#: ../src/docs/books/nvchad/vale_nvchad.md:45
+#: ../src/docs/guides/package_management/developer_start2.md:94
+#: ../src/docs/guides/package_management/package_dev_start.md:92
 #, no-wrap
-msgid "Installing from within the path of the `vale` Binary"
+msgid "TIP :"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/vale_nvchad.md:48
+#: ../src/docs/guides/package_management/developer_start2.md:96
+#: ../src/docs/guides/package_management/package_dev_start.md:94
 #, no-wrap
-msgid "If you are in the path of the `vale` binary here: `~/.local/share/nvim/mason/packages/vale/` you can simply create the `.vale.ini` file here, generate the \"styles\" directory, and then move both of them to your home root `~/`. Creating the `.vale.ini` file is easy using the configuration utility from [the `vale.sh` website](https://vale.sh/generator). Here, choose \"Red Hat Documentation Style Guide\" for the base style and \"alex\" for the supplementary style. Using 'alex' is optional, but helps you catch and fix gendered, polarizing, or race-related words, etc., which is important. If you choose those options, your screen should look like this:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/vale_nvchad.md:50
-#: ../src/docs/books/nvchad/vale_nvchad.md:77
-#, no-wrap
-msgid "![vale_ini_nvchad](images/vale_ini_nvchad.png)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/vale_nvchad.md:52
-#, no-wrap
-msgid "Simply copy the contents at the bottom, create the `.vale.ini` file with your favorite editor, and paste what you copied in.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/vale_nvchad.md:54
-#, no-wrap
-msgid "You need to create the \"styles\" folder. Do this by running the `vale` binary with the `sync` command. Again, if you are doing this from the `~/.local/share/nvim/mason/packages/vale/` directory, just do:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/nvchad/vale_nvchad.md:55
-#, no-wrap
-msgid "./vale sync\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/vale_nvchad.md:60
-#, no-wrap
-msgid "This will show the following when done:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/vale_nvchad.md:62
-#: ../src/docs/books/nvchad/vale_nvchad.md:85
-#, no-wrap
-msgid "![vale_sync](images/vale_sync.png)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/vale_nvchad.md:64
-#, no-wrap
-msgid "Copy the `.vale.ini` and the `styles` folder to the root of your home folder:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/nvchad/vale_nvchad.md:65
-#, no-wrap
-msgid "cp .vale.ini ~/\n"
-"cp -rf styles ~/\n"
+msgid "Once you have the original sources, this might be a good time to look through the SPECs file (`~rocky/rpms/sed/SPECS/specs.spec`) to look for potential debranding opportinites in the given package. Debranding might include replacing upstream artwork/logos and so on.\n"
 msgstr ""
 
 #. type: Title ###
-#: ../src/docs/books/nvchad/vale_nvchad.md:70
+#: ../src/docs/guides/package_management/developer_start2.md:97
+#: ../src/docs/guides/package_management/package_dev_start.md:95
 #, no-wrap
-msgid "Installing from your home directory"
+msgid "TIP"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/vale_nvchad.md:73
+#: ../src/docs/guides/package_management/developer_start2.md:99
+#: ../src/docs/guides/package_management/package_dev_start.md:97
 #, no-wrap
-msgid "If you prefer not to have to copy the files and just want to create them in your home directory, you can use this command from `~/`:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/vale_nvchad.md:75
-#, no-wrap
-msgid "First, create the `.vale.ini` in your home folder using [the `vale.sh` website](https://vale.sh/generator). Again, choose \"Red Hat Documentation Style Guide\" for your base style and \"alex\" for the supplementary style. Then copy the contents into the `.vale.ini` file.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/vale_nvchad.md:79
-#, no-wrap
-msgid "Next, run the `vale sync` command. Since you are in your home directory, you will need the entire path to the binary:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/nvchad/vale_nvchad.md:80
-#, no-wrap
-msgid "~/.local/share/nvim/mason/packages/vale/vale sync\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/vale_nvchad.md:87
-#, no-wrap
-msgid "In this case, there is no need to copy the files as they will be created in your home directory root.\n"
+msgid "If you are looking for other Rocky packages to build and experiment with, you can browse the list of packages that are currently failing in the Rocky automated build environment [here](https://kojidev.rockylinux.org/koji/builds?state=3&order=-build_id)  -  https://kojidev.rockylinux.org/koji/builds?state=3&order=-build_id\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/books/nvchad/vale_nvchad.md:89
+#: ../src/docs/guides/package_management/developer_start2.md:101
+#: ../src/docs/guides/package_management/package_dev_start.md:99
 #, no-wrap
-msgid "The `null-ls.lua` file changes"
+msgid "4. Use Rocky Devtools (rockybuild) to build a new package for the Rocky OS"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/vale_nvchad.md:92
+#: ../src/docs/guides/package_management/developer_start2.md:104
 #, no-wrap
-msgid "There is one final step needed. You need to change the `null-ls.lua` file found in `~/.config/nvim/lua/custom/configs/` and add the `vale` linter.\n"
+msgid "Under the hood, `rockybuild` calls `rpmbuild` and `mock` utilities to build the source package in a chroot environment for the application specified on the command-line. It relies on the application sources and RPM SPEC file that was automatically downloaded via the `rockyget` command. \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/vale_nvchad.md:94
+#: ../src/docs/guides/package_management/developer_start2.md:106
+#: ../src/docs/guides/package_management/package_dev_start.md:104
 #, no-wrap
-msgid "If you have no other linters installed, make a section with two dashes (comments) called \"linters\" then place this code there:\n"
+msgid "Use `rockybuild` to build the sed utility:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/nvchad/vale_nvchad.md:95
+#: ../src/docs/guides/package_management/developer_start2.md:107
+#: ../src/docs/guides/package_management/package_dev_start.md:105
 #, no-wrap
-msgid "b.diagnostics.vale,\n"
+msgid "rockybuild sed\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/vale_nvchad.md:100
+#: ../src/docs/guides/package_management/developer_start2.md:112
+#: ../src/docs/guides/package_management/package_dev_start.md:110
 #, no-wrap
-msgid "Your file will look something like this when completed:\n"
+msgid "The time needed to complete the build process/step depends on the size and complexity of the application you are trying to build.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/vale_nvchad.md:102
+#: ../src/docs/guides/package_management/developer_start2.md:114
+#: ../src/docs/guides/package_management/package_dev_start.md:112
 #, no-wrap
-msgid "![vale_null-ls](images/vale_null-ls.png)\n"
+msgid "At the end of the `rockybuild` run, an output similar to the one here indicates that the build completed successfully.\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/package_management/developer_start2.md:115
+#: ../src/docs/guides/package_management/package_dev_start.md:113
+#, no-wrap
+msgid "..........\n"
+"+ exit 0\n"
+"Finish: rpmbuild sed-4.5-2.el8.src.rpm\n"
+"Finish: build phase for sed-4.5-2.el8.src.rpm\n"
+"INFO: Done(~/rocky/rpms/sed/r8/SRPMS/sed-4.5-2.el8.src.rpm) Config(baseos) 4 minutes 34 seconds\n"
+"INFO: Results and/or logs in: /home/centos/rocky/builds/sed/r8\n"
+"........\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/vale_nvchad.md:105
+#: ../src/docs/guides/package_management/developer_start2.md:127
+#: ../src/docs/guides/package_management/package_dev_start.md:125
 #, no-wrap
-msgid "Starting `nvim` normally will now invoke `vale`, and your documents will now be compared against your preferred style. Opening an existing file will start `vale` and show you any flagged items, while starting a new file will not show you anything in insert mode. When you exit insert mode, your file will then be checked. This keeps the screen from being too cluttered. `vale` is an excellent open source product with great integration into many editors. NvChad is no exception, and while getting it up and running does take a few steps, it is not a difficult procedure.\n"
+msgid "If all goes well you should end up with a Rocky ready SRPM file under the `~/rocky/builds/sed/r8` directory.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:129
+#: ../src/docs/guides/package_management/package_dev_start.md:127
+#, no-wrap
+msgid "`~/rocky/rpms/sed/r8/SRPMS/sed-4.5-2.el8.src.rpm`\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/package_management/developer_start2.md:132
+#, no-wrap
+msgid "5. Debugging a failed package build "
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:135
+#: ../src/docs/guides/package_management/package_dev_start.md:133
+#, no-wrap
+msgid "The previous rockybuild process will generate some log files that can be used in debugging failed application builds. The results and/or logs of the build process are stored under the `~/rocky/builds/<PACKAGE NAME>/r8`. For example `~/rocky/builds/sed/r8`\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/package_management/developer_start2.md:137
+#: ../src/docs/guides/package_management/package_dev_start.md:135
+#, no-wrap
+msgid "~/rocky/builds/sed/r8\n"
+"├── build.log\n"
+"├── hw_info.log\n"
+"├── installed_pkgs.log\n"
+"├── root.log\n"
+"├── sed-4.5-2.el8_3.src.rpm\n"
+"├── sed-4.5-2.el8_3.x86_64.rpm\n"
+"├── sed-debuginfo-4.5-2.el8_3.x86_64.rpm\n"
+"├── sed-debugsource-4.5-2.el8_3.x86_64.rpm\n"
+"└── state.log\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:151
+#: ../src/docs/guides/package_management/package_dev_start.md:148
+#, no-wrap
+msgid "The main files to search for clues for the causes any error(s) are the build.log and root.log.     The build.log file should detail all build errors and the root.log file will contain information about the chroot environment setup and tear down processes. With everything else being equal, most of the build debugging/troubleshooting process can be performed with the contents of the build.log file.\n"
 msgstr ""
 
