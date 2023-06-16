@@ -1,0 +1,541 @@
+# Italian translations for po package
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-16 16:28+0000\n"
+"PO-Revision-Date: 2023-06-16 16:28+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/06-users.md:308
+#: ../src/docs/books/admin_guide/06-users.md:644
+#: ../src/docs/books/admin_guide/07-file-systems.md:195
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:30
+#: ../src/docs/books/learning_bash/01-first-script.md:46
+#: ../src/docs/books/learning_bash/01-first-script.md:77
+#: ../src/docs/books/learning_bash/02-using-variables.md:185
+#: ../src/docs/books/learning_bash/05-tests.md:63
+#: ../src/docs/books/lxd_server/07-configurations.md:102
+#: ../src/docs/books/nvchad/install_nvchad.md:182
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:53
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:133
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:153
+#: ../src/docs/guides/automation/cron_jobs_howto.md:83
+#: ../src/docs/guides/automation/cron_jobs_howto.md:125
+#: ../src/docs/guides/automation/cron_jobs_howto.md:160
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:44
+#: ../src/docs/guides/cms/dokuwiki_server.md:216
+#: ../src/docs/guides/communications/asterisk_installation.md:12
+#: ../src/docs/guides/containers/podman-nextcloud.md:361
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:72
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:350
+#: ../src/docs/guides/desktop/kde_installation.md:16
+#: ../src/docs/guides/file_sharing/sftp.md:54
+#: ../src/docs/guides/file_sharing/sftp.md:129
+#: ../src/docs/guides/file_sharing/sftp.md:321
+#: ../src/docs/guides/proxies/pound.md:62
+#: ../src/docs/guides/proxies/pound.md:418 ../src/docs/index.md:40
+#: ../src/docs/release_notes/9_1.md:16
+#, no-wrap
+msgid "!!! note\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/13-softwares.md:900
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:105
+#: ../src/docs/books/nvchad/template_chadrc.md:352
+#: ../src/docs/gemstones/bash_stub.md:103
+#: ../src/docs/gemstones/perl_search_replace.md:38
+#: ../src/docs/gemstones/sed_search_replace.md:72
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:172
+#: ../src/docs/guides/automation/olivetin.md:142
+#: ../src/docs/guides/cms/dokuwiki_server.md:306
+#: ../src/docs/guides/communications/asterisk_installation.md:261
+#: ../src/docs/guides/containers/lxd_web_servers.md:919
+#: ../src/docs/guides/containers/podman-nextcloud.md:456
+#: ../src/docs/guides/contribute/local_docs.md:47
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:322
+#: ../src/docs/guides/contribute/navigation.md:129
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:458
+#: ../src/docs/guides/database/database_mariadb-server.md:197
+#: ../src/docs/guides/desktop/kde_installation.md:105
+#: ../src/docs/guides/desktop/mate_installation.md:200
+#: ../src/docs/guides/desktop/xfce_installation.md:218
+#: ../src/docs/guides/editors/micro.md:79
+#: ../src/docs/guides/email/postfix_reporting.md:254
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:270
+#: ../src/docs/guides/file_sharing/sftp.md:765
+#: ../src/docs/guides/proxies/pound.md:460
+#: ../src/docs/guides/security/dnf_automatic.md:119
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:54
+#: ../src/docs/guides/security/firewalld-beginners.md:427
+#: ../src/docs/guides/security/firewalld.md:477
+#: ../src/docs/guides/security/pam.md:137
+#: ../src/docs/guides/security/ssl_keys_https.md:136
+#: ../src/docs/guides/virtualization/vbox-rocky.md:160
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:147
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:235
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:157
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:91
+#: ../src/docs/guides/web/mod_SSL_apache.md:171
+#: ../src/docs/guides/web/nginx-mainline.md:352
+#: ../src/docs/guides/web/nginx-multisite.md:359
+#, no-wrap
+msgid "Conclusion"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
+#: ../src/docs/books/learning_ansible/05-deployments.md:31
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/00-toc.md:13
+#: ../src/docs/books/nvchad/index.md:12
+#: ../src/docs/books/nvchad/plugins/index.md:14
+#: ../src/docs/books/nvchad/plugins/md_preview.md:14
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
+#: ../src/docs/books/nvchad/vale_nvchad.md:12
+#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
+#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
+#: ../src/docs/gemstones/string_color.md:11
+#: ../src/docs/guides/automation/cron_jobs_howto.md:25
+#: ../src/docs/guides/automation/olivetin.md:14
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
+#: ../src/docs/guides/backup/rsnapshot_backup.md:22
+#: ../src/docs/guides/backup/rsync_ssh.md:24
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
+#: ../src/docs/guides/cms/dokuwiki_server.md:23
+#: ../src/docs/guides/containers/lxd_web_servers.md:10
+#: ../src/docs/guides/containers/podman-nextcloud.md:13
+#: ../src/docs/guides/contribute/local_docs.md:11
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
+#: ../src/docs/guides/contribute/mkdocs_venv.md:14
+#: ../src/docs/guides/contribute/style_guide.md:14
+#: ../src/docs/guides/database/database_mariadb-server.md:21
+#: ../src/docs/guides/desktop/kde_installation.md:11
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
+#: ../src/docs/guides/editors/micro.md:14
+#: ../src/docs/guides/email/postfix_reporting.md:22
+#: ../src/docs/guides/file_sharing/glusterfs.md:16
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
+#: ../src/docs/guides/file_sharing/sftp.md:16
+#: ../src/docs/guides/migrate2rocky.md:18
+#: ../src/docs/guides/network/basic_network_configuration.md:12
+#: ../src/docs/guides/network/librenms_monitoring_server.md:13
+#: ../src/docs/guides/package_management/index.md:1
+#: ../src/docs/guides/package_management/index.md:5
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
+#: ../src/docs/guides/proxies/pound.md:17
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
+#: ../src/docs/guides/security/firewalld-beginners.md:10
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
+#: ../src/docs/guides/security/ssh_public_private_keys.md:21
+#: ../src/docs/guides/security/ssl_keys_https.md:22
+#: ../src/docs/guides/virtualization/vbox-rocky.md:13
+#: ../src/docs/guides/web/apache-sites-enabled.md:25
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
+#: ../src/docs/guides/web/nginx-mainline.md:13
+#: ../src/docs/guides/web/nginx-multisite.md:14
+#: ../src/docs/labs/security/introduction.md:1
+#: ../src/docs/labs/security/introduction.md:5
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: YAML Front Matter: contributors
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/01-install.md:1
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:1
+#: ../src/docs/books/lxd_server/03-lxdinit.md:1
+#: ../src/docs/books/lxd_server/04-firewall.md:1
+#: ../src/docs/books/lxd_server/05-lxd_images.md:1
+#: ../src/docs/books/lxd_server/06-profiles.md:1
+#: ../src/docs/books/lxd_server/07-configurations.md:1
+#: ../src/docs/books/lxd_server/08-snapshots.md:1
+#: ../src/docs/books/lxd_server/09-snapshot_server.md:1
+#: ../src/docs/books/lxd_server/10-automating.md:1
+#: ../src/docs/gemstones/bash_stub.md:1
+#: ../src/docs/guides/automation/cron_jobs_howto.md:1
+#: ../src/docs/guides/backup/rsnapshot_backup.md:1
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:1
+#: ../src/docs/guides/cms/dokuwiki_server.md:1
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:1
+#: ../src/docs/guides/contribute/navigation.md:1
+#: ../src/docs/guides/desktop/kde_installation.md:1
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:1
+#: ../src/docs/guides/email/postfix_reporting.md:1
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:1
+#: ../src/docs/guides/file_sharing/sftp.md:1
+#: ../src/docs/guides/network/librenms_monitoring_server.md:1
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
+#: ../src/docs/guides/security/ssh_public_private_keys.md:1
+#: ../src/docs/guides/security/ssl_keys_https.md:1
+#: ../src/docs/guides/web/apache-sites-enabled.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
+#, no-wrap
+msgid "Ezequiel Bruni"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/lxd_server/30-appendix_a.md:15
+#: ../src/docs/books/nvchad/vale_nvchad.md:16
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:20
+#: ../src/docs/guides/automation/anacron.md:10
+#: ../src/docs/guides/automation/cron_jobs_howto.md:14
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:13
+#: ../src/docs/guides/backup/rsnapshot_backup.md:13
+#: ../src/docs/guides/backup/rsync_ssh.md:12
+#: ../src/docs/guides/communications/asterisk_installation.md:25
+#: ../src/docs/guides/database/database_mariadb-server.md:13
+#: ../src/docs/guides/desktop/kde_installation.md:20
+#: ../src/docs/guides/desktop/mate_installation.md:17
+#: ../src/docs/guides/desktop/xfce_installation.md:17
+#: ../src/docs/guides/editors/micro.md:33
+#: ../src/docs/guides/email/postfix_reporting.md:14
+#: ../src/docs/guides/file_sharing/glusterfs.md:10
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:14
+#: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:14
+#: ../src/docs/guides/network/basic_network_configuration.md:16
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:8
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:14
+#: ../src/docs/guides/security/ssh_public_private_keys.md:14
+#: ../src/docs/guides/security/ssl_keys_https.md:14
+#: ../src/docs/guides/virtualization/vbox-rocky.md:19
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:15
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:15
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:14
+#: ../src/docs/guides/web/mod_SSL_apache.md:14
+#, no-wrap
+msgid "Prerequisites"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/desktop/kde_installation.md:1
+#: ../src/docs/guides/desktop/mate_installation.md:1
+#: ../src/docs/guides/desktop/xfce_installation.md:1
+#, no-wrap
+msgid "desktop"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/desktop/kde_installation.md:1
+#, no-wrap
+msgid "kde"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/guides/desktop/kde_installation.md:1
+#, no-wrap
+msgid "KDE Installation"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:14
+#, no-wrap
+msgid "Thanks to the Rocky Linux development team, there are now live images for several desktop installations, including KDE. For those that might not know what a live image is, it will boot up to the OS and the desktop environment using the installation media and give you a chance to kick the tires (try it out) before you actually install it.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:19
+#, no-wrap
+msgid ""
+"    This procedure is specific to Rocky Linux 9.0. There is currently no procedure written for installing KDE for earlier versions of Rocky Linux. \n"
+"    Feel free to write one up!\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/desktop/kde_installation.md:25
+#, no-wrap
+msgid "A machine, compatible with Rocky Linux 9.0, (desktop, laptop or server) that you want to run the KDE desktop on.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/desktop/kde_installation.md:25
+#, no-wrap
+msgid "The ability to do a few things from the command line, such as test the image checksums.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/desktop/kde_installation.md:25
+#, no-wrap
+msgid "The knowledge of how to to write a bootable image to a DVD or USB thumb drive.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/desktop/kde_installation.md:26
+#, no-wrap
+msgid "Get, Verify, and Write the KDE Live Image"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:30
+#, no-wrap
+msgid ""
+"Prior to installation, the first step is to download the live image and write that to a DVD or a USB thumb drive. As stated earlier, the image will be bootable, just like any other installation media for Linux. You can find the latest KDE image in the download section \n"
+"for Rocky Linux 9 [live images](https://dl.rockylinux.org/pub/rocky/9.2/live/x86_64/). \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:32
+#, no-wrap
+msgid "Note that this particular link assumes x86_64 as your processor architecture. If you have aarch64 architecture, you can use that image instead. Download both the live image and checksum files. \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:34
+#, no-wrap
+msgid "Now verify the image with the CHECKSUM file using the following (note: this is an example! Make sure your image name and CHECKSUM files match): \n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/desktop/kde_installation.md:35
+#, no-wrap
+msgid "sha256sum -c CHECKSUM --ignore-missing Rocky-9-KDE-x86_64-latest.iso.CHECKSUM\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:40
+#, no-wrap
+msgid "If all goes well, you should receive this message:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/desktop/kde_installation.md:41
+#, no-wrap
+msgid "Rocky-9-KDE-x86_64-latest.iso: OK\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:46
+#, no-wrap
+msgid "If the checksum for the file returns OK, you are now ready to write your ISO image to your media. This procedure is different depending on the OS you are using, the media, and the tools. We are assuming here that you know how to write the image to your media.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/desktop/kde_installation.md:47
+#, no-wrap
+msgid "Booting"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:50
+#, no-wrap
+msgid "This again is different by machine, BIOS, OS, etc.  You'll need to make sure that your machine is set to boot to whatever your media is (DVD or USB) as the first boot device. You should be presented with this screen if you are successful:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:52
+#, no-wrap
+msgid "![kde_boot](images/kde_boot.png)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:54
+#, no-wrap
+msgid "If so, you are on your way! If you want to test the media, you can select that option first, or you can simply type **S** to **Start Rocky Linux KDE 9.0**.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:56
+#, no-wrap
+msgid "Remember, this is a live image, so it's going to take a bit of time to boot to the first screen. Don't panic, just wait! Once the live image is booted up, you should see this screen:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:58
+#, no-wrap
+msgid "![kde_live](images/kde_live.png)\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/desktop/kde_installation.md:59
+#, no-wrap
+msgid "Installing KDE"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:62
+#, no-wrap
+msgid "At this point, you can use the KDE environment and see if you like it. Once you've decided that you would like to use it permanently, double-click the option to **Install to Hard Drive**.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:64
+#, no-wrap
+msgid "This will start a pretty familiar installation process for those who have installed Rocky Linux before. The first screen will give you the opportunity to change to your regional language:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:66
+#, no-wrap
+msgid "![kde_language](images/kde_language.png)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:68
+#, no-wrap
+msgid "Once you've selected your language and clicked **Continue**, the installer will advance to the following screen. We've highlighted things that you *may* wish to change and/or verify:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:70
+#, no-wrap
+msgid "![kde_install](images/kde_install.png)\n"
+msgstr ""
+
+#. type: Bullet: '    1. '
+#: ../src/docs/guides/desktop/kde_installation.md:78
+#: ../src/docs/guides/desktop/mate_installation.md:76
+#: ../src/docs/guides/desktop/xfce_installation.md:81
+#, no-wrap
+msgid "**Keyboard** - Take a look at this option and make sure that it matches up to the keyboard layout that you use.\n"
+msgstr ""
+
+#. type: Bullet: '    2. '
+#: ../src/docs/guides/desktop/kde_installation.md:78
+#: ../src/docs/guides/desktop/mate_installation.md:76
+#, no-wrap
+msgid "**Time & Date** -  Make sure this matches up to your time zone.\n"
+msgstr ""
+
+#. type: Bullet: '    3. '
+#: ../src/docs/guides/desktop/kde_installation.md:78
+#: ../src/docs/guides/desktop/mate_installation.md:76
+#: ../src/docs/guides/desktop/xfce_installation.md:81
+#, no-wrap
+msgid "**Installation Destination** - You'll need to click into this option, even if it is just to accept what is already there.\n"
+msgstr ""
+
+#. type: Bullet: '    4. '
+#: ../src/docs/guides/desktop/kde_installation.md:78
+#: ../src/docs/guides/desktop/mate_installation.md:76
+#: ../src/docs/guides/desktop/xfce_installation.md:81
+#, no-wrap
+msgid "**Network & Host Name** - Verify that you have what you want here. As long as the network is enabled, you can always change this later if you need to.\n"
+msgstr ""
+
+#. type: Bullet: '    5. '
+#: ../src/docs/guides/desktop/kde_installation.md:78
+#: ../src/docs/guides/desktop/mate_installation.md:76
+#: ../src/docs/guides/desktop/xfce_installation.md:81
+#, no-wrap
+msgid "**Root Password** - Go ahead and set a root password. Remember to save this somewhere safe (password manager), particularly if it isn't something you will be using often.\n"
+msgstr ""
+
+#. type: Bullet: '    6. '
+#: ../src/docs/guides/desktop/kde_installation.md:78
+#: ../src/docs/guides/desktop/mate_installation.md:76
+#, no-wrap
+msgid "**User Creation** - Definitely create at least one user. If you want the user to have administrative rights, remember to set this option when creating the user. \n"
+msgstr ""
+
+#. type: Bullet: '    7. '
+#: ../src/docs/guides/desktop/kde_installation.md:78
+#: ../src/docs/guides/desktop/mate_installation.md:76
+#: ../src/docs/guides/desktop/xfce_installation.md:81
+#, no-wrap
+msgid "**Begin Installation** - Once all of the settings have been set or verified, go ahead and click this option.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:80
+#, no-wrap
+msgid "Once you do step 7, the installation process should start installing packages, as in the below screenshot:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:82
+#, no-wrap
+msgid "![kde_install_2](images/kde_install_2.png)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:84
+#, no-wrap
+msgid "After the installation to the hard drive is complete, you'll be faced with the following screen:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:86
+#, no-wrap
+msgid "![kde_install_final](images/kde_install_final.png)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:88
+#, no-wrap
+msgid "Go ahead and click **Finish Installation**.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:90
+#, no-wrap
+msgid "At this point you will need to reboot the OS and remove your boot media. When the OS comes up for the first time, there is a configuration screen:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:92
+#, no-wrap
+msgid "![kde_config](images/kde_config.png)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:94
+#, no-wrap
+msgid "Click into the **Licensing Information** option and accept the EULA as indicated here:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:96
+#, no-wrap
+msgid "![eula](images/eula.png)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:98
+#, no-wrap
+msgid "And finally finish the configuration:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:100
+#, no-wrap
+msgid "![kde_finish_config](images/kde_finish_config.png)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:102
+#, no-wrap
+msgid "Once this step is completed, the username that you created earlier will show up. Enter the password you created for the user and hit <kbd>ENTER</kbd>. This should show you a pristine KDE desktop screen:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:104
+#, no-wrap
+msgid "![kde_screen](images/kde_screen.png)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/kde_installation.md:107
+#, no-wrap
+msgid "Thanks to the Rocky Linux development team, there are several desktop options you can install from live images for Rocky Linux 9.0. For those that don't like the default GNOME desktop, KDE is another option, and can easily be installed with the live image. \n"
+msgstr ""

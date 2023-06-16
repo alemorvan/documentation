@@ -1,0 +1,225 @@
+# French translations for po package
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-16 16:28+0000\n"
+"PO-Revision-Date: 2023-06-16 16:28+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/13-softwares.md:900
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:105
+#: ../src/docs/books/nvchad/template_chadrc.md:352
+#: ../src/docs/gemstones/bash_stub.md:103
+#: ../src/docs/gemstones/perl_search_replace.md:38
+#: ../src/docs/gemstones/sed_search_replace.md:72
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:172
+#: ../src/docs/guides/automation/olivetin.md:142
+#: ../src/docs/guides/cms/dokuwiki_server.md:306
+#: ../src/docs/guides/communications/asterisk_installation.md:261
+#: ../src/docs/guides/containers/lxd_web_servers.md:919
+#: ../src/docs/guides/containers/podman-nextcloud.md:456
+#: ../src/docs/guides/contribute/local_docs.md:47
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:322
+#: ../src/docs/guides/contribute/navigation.md:129
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:458
+#: ../src/docs/guides/database/database_mariadb-server.md:197
+#: ../src/docs/guides/desktop/kde_installation.md:105
+#: ../src/docs/guides/desktop/mate_installation.md:200
+#: ../src/docs/guides/desktop/xfce_installation.md:218
+#: ../src/docs/guides/editors/micro.md:79
+#: ../src/docs/guides/email/postfix_reporting.md:254
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:270
+#: ../src/docs/guides/file_sharing/sftp.md:765
+#: ../src/docs/guides/proxies/pound.md:460
+#: ../src/docs/guides/security/dnf_automatic.md:119
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:54
+#: ../src/docs/guides/security/firewalld-beginners.md:427
+#: ../src/docs/guides/security/firewalld.md:477
+#: ../src/docs/guides/security/pam.md:137
+#: ../src/docs/guides/security/ssl_keys_https.md:136
+#: ../src/docs/guides/virtualization/vbox-rocky.md:160
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:147
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:235
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:157
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:91
+#: ../src/docs/guides/web/mod_SSL_apache.md:171
+#: ../src/docs/guides/web/nginx-mainline.md:352
+#: ../src/docs/guides/web/nginx-multisite.md:359
+#, no-wrap
+msgid "Conclusion"
+msgstr ""
+
+#. type: YAML Front Matter: contributors
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/01-install.md:1
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:1
+#: ../src/docs/books/lxd_server/03-lxdinit.md:1
+#: ../src/docs/books/lxd_server/04-firewall.md:1
+#: ../src/docs/books/lxd_server/05-lxd_images.md:1
+#: ../src/docs/books/lxd_server/06-profiles.md:1
+#: ../src/docs/books/lxd_server/07-configurations.md:1
+#: ../src/docs/books/lxd_server/08-snapshots.md:1
+#: ../src/docs/books/lxd_server/09-snapshot_server.md:1
+#: ../src/docs/books/lxd_server/10-automating.md:1
+#: ../src/docs/gemstones/bash_stub.md:1
+#: ../src/docs/guides/automation/cron_jobs_howto.md:1
+#: ../src/docs/guides/backup/rsnapshot_backup.md:1
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:1
+#: ../src/docs/guides/cms/dokuwiki_server.md:1
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:1
+#: ../src/docs/guides/contribute/navigation.md:1
+#: ../src/docs/guides/desktop/kde_installation.md:1
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:1
+#: ../src/docs/guides/email/postfix_reporting.md:1
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:1
+#: ../src/docs/guides/file_sharing/sftp.md:1
+#: ../src/docs/guides/network/librenms_monitoring_server.md:1
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
+#: ../src/docs/guides/security/ssh_public_private_keys.md:1
+#: ../src/docs/guides/security/ssl_keys_https.md:1
+#: ../src/docs/guides/web/apache-sites-enabled.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
+#, no-wrap
+msgid "Ezequiel Bruni"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/gemstones/bash_stub.md:1
+#, no-wrap
+msgid "bash - Script Stub"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/gemstones/bash_stub.md:7
+#, no-wrap
+msgid "Bash - Script Stub"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/bash_stub.md:10
+#, no-wrap
+msgid "Where I was previously employed, we had an ace programmer who knew a bunch of languages. He was also the go-to guy when you had questions on how to accomplish something with a script. He finally created a little stub, a file full of scripting examples that you could just strip out and edit as needed. Eventually, I got good enough at these routines that I didn't have to look at the stub, but it was a good learning tool, and something that others may find useful.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/gemstones/bash_stub.md:11
+#, no-wrap
+msgid "The Actual Stub"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/bash_stub.md:14
+#, no-wrap
+msgid "The stub is well documented, but keep in mind that this is by no means an exhaustive script! There are a lot more routines that could be added. If **you** have examples that would fit nicely into this stub, then please feel free to add some changes:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/gemstones/bash_stub.md:15
+#, no-wrap
+msgid ""
+"#!/bin/sh\n"
+"\n"
+"# By exporting the path, this keeps you from having to enter full paths for commands that exist in those paths:\n"
+"\n"
+"export PATH=\"$PATH:/bin:/usr/bin:/usr/local/bin\"\n"
+"\n"
+"# Determine and save absolute path to program directory.\n"
+"# Attention! In bash, the ' 'represents the string itself; But \" \" is a little different. $, ` `, and \\ represent call variable values, reference commands, and escape characters, respectively\n"
+"# When done will be in same directory as script:\n"
+"\n"
+"PGM=`basename $0`\t\t\t\t# Name of the program\n"
+"CDIR=`pwd`\t\t\t\t\t# Save directory program was run from\n"
+"\n"
+"PDIR=`dirname $0`\n"
+"cd $PDIR\n"
+"PDIR=`pwd`\n"
+"\n"
+"# If a program accepts filenames as arguments, this will put us back where we started.\n"
+"# (Needed so references to files using relative paths work.):\n"
+"\n"
+"cd $CDIR\n"
+"\n"
+"# Use this if script must be run by certain user:\n"
+"\n"
+"runby=\"root\"\n"
+"iam=`/usr/bin/id -un`\n"
+"if [ $iam != \"$runby\" ]\n"
+"then\n"
+"\techo \"$PGM : program must be run by user \\\"$runby\\\"\"\n"
+"\texit\n"
+"fi\n"
+"\n"
+"# Check for missing parameter.\n"
+"# Display usage message and exit if it is missing:\n"
+"\n"
+"if [ \"$1\" = \"\" ]\n"
+"then\n"
+"\techo \"$PGM : parameter 1 is required\"\n"
+"\techo \"Usage: $PGM param-one\"\n"
+"\texit\n"
+"fi\n"
+"\n"
+"# Prompt for data (in this case a yes/no response that defaults to \"N\"):\n"
+"\n"
+"/bin/echo -n \"Do you wish to continue? [y/N] \"\n"
+"read yn\n"
+"if [ \"$yn\" != \"y\" ] && [ \"$yn\" != \"Y\" ]\n"
+"then\n"
+"\techo \"Cancelling...\"\n"
+"\texit;\n"
+"fi\n"
+"\n"
+"# If only one copy of your script can run at a time, use this block of code.\n"
+"# Check for lock file.  If it doesn't exist create it.\n"
+"# If it does exist, display error message and exit:\n"
+"\n"
+"LOCKF=\"/tmp/${PGM}.lock\"\n"
+"if [ ! -e $LOCKF ]\n"
+"then\n"
+"\ttouch $LOCKF\n"
+"else\n"
+"\techo \"$PGM: cannot continue -- lock file exists\"\n"
+"\techo\n"
+"\techo \"To continue make sure this program is not already running, then delete the\"\n"
+"\techo \"lock file:\"\n"
+"\techo\n"
+"\techo \"    rm -f $LOCKF\"\n"
+"\techo\n"
+"\techo \"Aborting...\"\n"
+"\texit 0\n"
+"fi\n"
+"\n"
+"script_list=`ls customer/*`\n"
+"\n"
+"for script in $script_list\n"
+"do\n"
+"\tif [ $script != $PGM ]\n"
+"\tthen\n"
+"\t\techo \"./${script}\"\n"
+"\tfi\n"
+"done\n"
+"\n"
+"# Remove the lock file\n"
+"\n"
+"rm -f $LOCKF\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/bash_stub.md:105
+#, no-wrap
+msgid "Scripting is a System Administrator's friend. Being able to quickly do certain tasks in a script streamlines process completion. While by no means an exhaustive set of script routines, this stub offers some common usage examples.\n"
+msgstr ""

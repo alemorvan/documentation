@@ -28,7 +28,7 @@ PO_DIR="./_po"
 BUILD_DIR="../build"
 
 po4a_conf="doc_po4a.conf"
-lang="fr_FR it_IT"
+lang="fr it"
 
 # CHECK FOR PO4A INSTALLATION
 

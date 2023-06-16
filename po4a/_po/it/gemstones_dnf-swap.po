@@ -1,0 +1,287 @@
+# Italian translations for po package
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-16 16:28+0000\n"
+"PO-Revision-Date: 2023-06-16 16:28+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Title #
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
+#: ../src/docs/books/learning_ansible/05-deployments.md:31
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/00-toc.md:13
+#: ../src/docs/books/nvchad/index.md:12
+#: ../src/docs/books/nvchad/plugins/index.md:14
+#: ../src/docs/books/nvchad/plugins/md_preview.md:14
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
+#: ../src/docs/books/nvchad/vale_nvchad.md:12
+#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
+#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
+#: ../src/docs/gemstones/string_color.md:11
+#: ../src/docs/guides/automation/cron_jobs_howto.md:25
+#: ../src/docs/guides/automation/olivetin.md:14
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
+#: ../src/docs/guides/backup/rsnapshot_backup.md:22
+#: ../src/docs/guides/backup/rsync_ssh.md:24
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
+#: ../src/docs/guides/cms/dokuwiki_server.md:23
+#: ../src/docs/guides/containers/lxd_web_servers.md:10
+#: ../src/docs/guides/containers/podman-nextcloud.md:13
+#: ../src/docs/guides/contribute/local_docs.md:11
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
+#: ../src/docs/guides/contribute/mkdocs_venv.md:14
+#: ../src/docs/guides/contribute/style_guide.md:14
+#: ../src/docs/guides/database/database_mariadb-server.md:21
+#: ../src/docs/guides/desktop/kde_installation.md:11
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
+#: ../src/docs/guides/editors/micro.md:14
+#: ../src/docs/guides/email/postfix_reporting.md:22
+#: ../src/docs/guides/file_sharing/glusterfs.md:16
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
+#: ../src/docs/guides/file_sharing/sftp.md:16
+#: ../src/docs/guides/migrate2rocky.md:18
+#: ../src/docs/guides/network/basic_network_configuration.md:12
+#: ../src/docs/guides/network/librenms_monitoring_server.md:13
+#: ../src/docs/guides/package_management/index.md:1
+#: ../src/docs/guides/package_management/index.md:5
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
+#: ../src/docs/guides/proxies/pound.md:17
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
+#: ../src/docs/guides/security/firewalld-beginners.md:10
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
+#: ../src/docs/guides/security/ssh_public_private_keys.md:21
+#: ../src/docs/guides/security/ssl_keys_https.md:22
+#: ../src/docs/guides/virtualization/vbox-rocky.md:13
+#: ../src/docs/guides/web/apache-sites-enabled.md:25
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
+#: ../src/docs/guides/web/nginx-mainline.md:13
+#: ../src/docs/guides/web/nginx-multisite.md:14
+#: ../src/docs/labs/security/introduction.md:1
+#: ../src/docs/labs/security/introduction.md:5
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: YAML Front Matter: contributors
+#: ../src/docs/books/lxd_server/30-appendix_a.md:1
+#: ../src/docs/gemstones/dnf-swap.md:1 ../src/docs/gemstones/docker.md:1
+#: ../src/docs/gemstones/rpaste.md:1
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:1
+#: ../src/docs/guides/proxies/pound.md:1
+#, no-wrap
+msgid "Colussi Franco"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/dnf-swap.md:1
+#, no-wrap
+msgid "cloud images"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/dnf-swap.md:1
+#: ../src/docs/guides/containers/podman-nextcloud.md:1
+#, no-wrap
+msgid "containers"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/dnf-swap.md:1
+#: ../src/docs/guides/security/dnf_automatic.md:1
+#, no-wrap
+msgid "dnf"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/dnf-swap.md:1
+#, no-wrap
+msgid "dnf swap"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/dnf-swap.md:1
+#, no-wrap
+msgid "curl"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/dnf-swap.md:1
+#, no-wrap
+msgid "curl-minimal"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/dnf-swap.md:1
+#, no-wrap
+msgid "allowerasing"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/dnf-swap.md:1
+#, no-wrap
+msgid "coreutils-single"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/gemstones/dnf-swap.md:1
+#, no-wrap
+msgid "dnf - swap command"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/dnf-swap.md:21
+#, no-wrap
+msgid "In order to make container images and cloud images as small as possible, distribution maintainers and packagers may sometimes ship stripped down versions of popular packages. Examples of stripped down packages bundled with container or cloud images are **vim-minimal, curl-minimal, coreutils-single** and so on.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/dnf-swap.md:23
+#, no-wrap
+msgid "Although some of the shipped packages are stripped down versions, they are often fully acceptable for most use cases.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/dnf-swap.md:25
+#, no-wrap
+msgid "For cases, when the stripped down package is not enough, you can use the `dnf swap` command to quickly replace the minimal package with the regular package.\n"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/gemstones/dnf-swap.md:26
+#, no-wrap
+msgid "Objective"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/dnf-swap.md:29
+#, no-wrap
+msgid "This Rocky Linux GEMstone demonstrates how to use **dnf** to _swap_ the bundled `curl-minimal` package with the regular `curl` package.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/gemstones/dnf-swap.md:31
+#, no-wrap
+msgid "Check existing curl variant"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/dnf-swap.md:34
+#, no-wrap
+msgid "While logged into your container or virtual machine environment as a user with Administrative privileges, first verify the variant of `curl` package installed. Type:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/dnf-swap.md:35
+#, no-wrap
+msgid ""
+"# rpm -qa | grep  ^curl-minimal\n"
+"curl-minimal-*\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/dnf-swap.md:41
+#, no-wrap
+msgid "We have curl-minimal on our demo system!\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/gemstones/dnf-swap.md:43
+#, no-wrap
+msgid "Swap curl-minimal for curl"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/dnf-swap.md:46
+#, no-wrap
+msgid "Use `dnf` to swap the installed `curl-minimal` package with regular `curl` package.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/dnf-swap.md:47
+#, no-wrap
+msgid ""
+"# dnf -y swap curl-minimal curl\n"
+"\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/gemstones/dnf-swap.md:52
+#, no-wrap
+msgid "Check new curl package variant"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/dnf-swap.md:55
+#, no-wrap
+msgid "To confirm the changes, query the rpm database again for the installed curl package(s) by running:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/dnf-swap.md:56
+#, no-wrap
+msgid ""
+"# rpm -qa | grep  ^curl\n"
+"curl-*\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/dnf-swap.md:63
+#, no-wrap
+msgid "And it's a GEM !\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/gemstones/dnf-swap.md:65 ../src/docs/gemstones/docker.md:39
+#: ../src/docs/gemstones/nmcli.md:33
+#: ../src/docs/guides/containers/lxd_web_servers.md:913
+#, no-wrap
+msgid "Notes"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/dnf-swap.md:68
+#, no-wrap
+msgid "DNF Swap Command\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/dnf-swap.md:70
+#, no-wrap
+msgid "**Syntax**:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/dnf-swap.md:71
+#, no-wrap
+msgid "dnf [options] swap <package-to-be-removed> <replacement-package>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/dnf-swap.md:76
+#, no-wrap
+msgid "Under the hood, `dnf swap` uses DNF's `--allowerasing` option to resolve any package conflict issues. Therefore the curl minimal example demonstrated in this GEMstone could also have been done by running:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/dnf-swap.md:78
+#, no-wrap
+msgid "dnf install -y --allowerasing curl\n"
+msgstr ""

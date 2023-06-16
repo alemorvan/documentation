@@ -1,0 +1,648 @@
+# French translations for po package
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-16 16:28+0000\n"
+"PO-Revision-Date: 2023-06-16 16:28+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/11-tasks.md:71
+#: ../src/docs/release_notes/8_4.md:51 ../src/docs/release_notes/8_6.md:17
+#: ../src/docs/release_notes/8_7.md:39 ../src/docs/release_notes/8_8.md:54
+#: ../src/docs/release_notes/9_0.md:34 ../src/docs/release_notes/9_1.md:47
+#: ../src/docs/release_notes/9_2.md:104
+#, no-wrap
+msgid "Security"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/navigation.md:63
+#: ../src/docs/release_notes/8_8.md:27 ../src/docs/release_notes/9_0.md:144
+#: ../src/docs/release_notes/9_1.md:31 ../src/docs/release_notes/9_2.md:65
+#, no-wrap
+msgid "Installing"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/style_guide.md:108
+#: ../src/docs/release_notes/8_8.md:15 ../src/docs/release_notes/9_2.md:53
+#, no-wrap
+msgid "Images"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/release_notes/8_4.md:49 ../src/docs/release_notes/8_5.md:16
+#: ../src/docs/release_notes/8_6.md:11 ../src/docs/release_notes/8_7.md:33
+#: ../src/docs/release_notes/8_8.md:44 ../src/docs/release_notes/9_0.md:11
+#: ../src/docs/release_notes/9_1.md:37 ../src/docs/release_notes/9_2.md:93
+#, no-wrap
+msgid "Major Changes"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/release_notes/8_4.md:81 ../src/docs/release_notes/8_6.md:52
+#: ../src/docs/release_notes/8_8.md:89 ../src/docs/release_notes/9_0.md:87
+#: ../src/docs/release_notes/9_1.md:130 ../src/docs/release_notes/9_2.md:142
+#, no-wrap
+msgid "Compilers and Development Tools"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/release_notes/8_4.md:94 ../src/docs/release_notes/8_5.md:119
+#: ../src/docs/release_notes/8_6.md:73 ../src/docs/release_notes/8_7.md:29
+#: ../src/docs/release_notes/8_8.md:131 ../src/docs/release_notes/9_0.md:171
+#: ../src/docs/release_notes/9_1.md:35 ../src/docs/release_notes/9_2.md:193
+#, no-wrap
+msgid "Known Issues"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/release_notes/8_5.md:123 ../src/docs/release_notes/8_6.md:81
+#: ../src/docs/release_notes/8_7.md:132 ../src/docs/release_notes/8_8.md:157
+#: ../src/docs/release_notes/9_0.md:177 ../src/docs/release_notes/9_1.md:177
+#: ../src/docs/release_notes/9_2.md:220
+#, no-wrap
+msgid "Reporting Bugs"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/release_notes/8_8.md:1
+#, no-wrap
+msgid "8.8"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/release_notes/8_8.md:1
+#, no-wrap
+msgid "8.8 release"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/release_notes/8_8.md:1
+#, no-wrap
+msgid "Rocky 8.8"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/release_notes/8_8.md:1
+#, no-wrap
+msgid "Current Release 8.8"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/release_notes/8_8.md:9
+#, no-wrap
+msgid "Release Notes For Rocky Linux 8.8"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/release_notes/8_8.md:11 ../src/docs/release_notes/9_0.md:140
+#: ../src/docs/release_notes/9_1.md:11 ../src/docs/release_notes/9_2.md:21
+#, no-wrap
+msgid "Upgrading"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_8.md:14
+#, no-wrap
+msgid "You can upgrade from Rocky Linux 8.x to Rocky Linux 8.8 by running `sudo dnf -y upgrade`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_8.md:18 ../src/docs/release_notes/9_2.md:56
+#, no-wrap
+msgid "As well as the normal install images, there are several images available for many cloud and container platforms.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_8.md:20
+#, no-wrap
+msgid "Images for Oracle Cloud Platform (OCP), GenericCloud, Amazon AWS (EC2), Container RootFS/OCI, Google Cloud Platform, Microsoft Azure, and other CSP-maintained images are available. The GenericCloud, EC2, and Microsoft Azure images have a variant that uses an LVM partition for the root filesystem, allowing systems administrators additional flexibility and providing more options for configuring their systems.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_8.md:22
+#, no-wrap
+msgid "Vagrant and container images are available for x86_64 and aarch64. Since the last release we added the `rockylinux/rockylinux:8-ubi-init` variant for usage of systemd in a container. We also added the `rockylinux/rockylinux:8-ubi-micro` variant, which is the most bare-minimum image you can use in self-contained applications without the use of a package manager. We've also added [Toolbox](https://containertoolbx.org/) images for more architectures.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_8.md:24
+#, no-wrap
+msgid "You can find information on the artifacts produced by the Cloud Special Interest Group, as well as information on how to get involved, on the [SIG/Cloud Wiki page](https://sig-cloud.rocky.page/).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_8.md:26
+#, no-wrap
+msgid "The following live images are again available for x86_64: Workstation, Workstation Lite, KDE, XFCE, MATE.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_8.md:30
+#, no-wrap
+msgid "To install Rocky Linux 8.8, head to the [download page](https://rockylinux.org/download/) and download the version you need for your architecture.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/release_notes/8_8.md:31 ../src/docs/release_notes/9_2.md:69
+#, no-wrap
+msgid "The Rocky Team Release Highlights"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/release_notes/8_8.md:33 ../src/docs/release_notes/9_2.md:71
+#, no-wrap
+msgid "Breaking Changes"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:38
+#, no-wrap
+msgid "Microsoft Azure images are now published in the Shared Image Gallery as well as in the Marketplace. The Shared Image Gallery option provides a direct way to consume Rocky Images on Microsoft Azure without jumping through the hoops of subscribing to the image via the Marketplace. In addition, this Shared Image Gallery will allow us to publish more frequently-updated images to the Marketplace.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:38
+#, no-wrap
+msgid "LVM cloud image variants for all types now remove `/etc/lvm/devices/system.devices` to resolve issues with PV/VG/LVs upon installation of the images due to being hardcoded to a specific device.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:38
+#, no-wrap
+msgid "The **Container Universal Base Image** `rockylinux/rockylinux:8-ubi` is changed to be more similar to the RHEL UBI images. This means the following changes were made:\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/release_notes/8_8.md:43 ../src/docs/release_notes/9_2.md:80
+#, no-wrap
+msgid "Replaced packages: `libcurl` -> `curl-minimal`, `libcurl-minimal`\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/release_notes/8_8.md:43 ../src/docs/release_notes/9_2.md:80
+#, no-wrap
+msgid "Added packages: `gdb-gdbserver`, `gzip`\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/release_notes/8_8.md:43 ../src/docs/release_notes/9_2.md:80
+#, no-wrap
+msgid "Removed packages: `binutils`, `brotli`, `dmidecode`\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/release_notes/8_8.md:43 ../src/docs/release_notes/9_2.md:80
+#, no-wrap
+msgid "network config cleanup added\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_8.md:47
+#, no-wrap
+msgid "For a complete list of major changes, please see the [upstream listing here](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/8.8_release_notes/overview#overview-major-changes).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_8.md:49 ../src/docs/release_notes/9_2.md:98
+#, no-wrap
+msgid "Some highlights and new features from this release are detailed next.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/release_notes/8_8.md:50 ../src/docs/release_notes/9_2.md:99
+#, no-wrap
+msgid "Installer and Image Creation"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:53 ../src/docs/release_notes/9_2.md:103
+#, no-wrap
+msgid "Image builder now offers a new and improved way to create blueprints and images in the image builder web console.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_8.md:57
+#, no-wrap
+msgid "Security-related highlights in the latest Rocky Linux 8.8 release are listed below. For a complete list of security related changes, see the [upstream link here](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/8.8_release_notes/new-features#new-features-security).\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:64
+#, no-wrap
+msgid "FIPS mode settings in the kernel have been adjusted to conform to the Federal Information Processing Standard (FIPS) 140-3. This change introduces stricter settings to many cryptographic algorithms, functions, and cipher suites.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:64
+#, no-wrap
+msgid "`libreswan` packages have been rebased to version 4.9.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:64
+#, no-wrap
+msgid "You can now filter the RPM database with `fapolicyd` packages.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:64
+#, no-wrap
+msgid "`openscap` packages were rebased to version 1.3.7.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:64
+#, no-wrap
+msgid "OpenSSL driver can now use certificate chains in Rsyslog.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:64
+#, no-wrap
+msgid "**systemd-socket-proxyd** service now runs in its own SELinux domain due to an update to the SELinux policy.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/release_notes/8_8.md:65 ../src/docs/release_notes/9_2.md:119
+#, no-wrap
+msgid "Dynamic programming languages, web and database servers"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_8.md:68
+#, no-wrap
+msgid "For a detailed list of the changes in this category see the [upstream link here](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/8.8_release_notes/new-features#new-features-dynamic-programming-languages-web-and-database-servers).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_8.md:70
+#, no-wrap
+msgid "More recent versions of the following Application Streams are now available:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:75 ../src/docs/release_notes/9_2.md:128
+#, no-wrap
+msgid "nginx 1.22\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:75 ../src/docs/release_notes/9_2.md:128
+#, no-wrap
+msgid "PostgreSQL 15\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:75
+#, no-wrap
+msgid "Jakarta XML Binding (`jaxb`) 4\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:75
+#, no-wrap
+msgid "Swig 4.1\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_8.md:77
+#, no-wrap
+msgid "The following applications were added:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:80 ../src/docs/release_notes/9_2.md:133
+#, no-wrap
+msgid "Python 3.11\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:80 ../src/docs/release_notes/9_2.md:133
+#, no-wrap
+msgid "Tomcat 9\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_8.md:82 ../src/docs/release_notes/9_2.md:135
+#, no-wrap
+msgid "The following components have been added or upgraded:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:84 ../src/docs/release_notes/9_2.md:137
+#, no-wrap
+msgid "Git to version 2.39.1:\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/release_notes/8_8.md:86 ../src/docs/release_notes/9_2.md:139
+#, no-wrap
+msgid "Commit signing with SSH keys supported is supported now\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:88 ../src/docs/release_notes/9_2.md:141
+#, no-wrap
+msgid "Git LFS to version 3.2.0\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_8.md:92
+#, no-wrap
+msgid "For details on the changes in this category see the [upstream link here](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/8.8_release_notes/new-features#new-features-compilers-and-development-tools).\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/release_notes/8_8.md:93
+#, no-wrap
+msgid "Updated Compiler Toolsets"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:99 ../src/docs/release_notes/9_2.md:179
+#, no-wrap
+msgid "GCC Toolset 12\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:99 ../src/docs/release_notes/9_2.md:179
+#, no-wrap
+msgid "LLVM Toolset 15.0.7\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:99 ../src/docs/release_notes/9_2.md:179
+#, no-wrap
+msgid "Rust Toolset 1.66\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:99
+#, no-wrap
+msgid "Go Toolset 1.19.4\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/release_notes/8_8.md:100 ../src/docs/release_notes/9_2.md:154
+#, no-wrap
+msgid "Updated performance tools and debuggers"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_8.md:103 ../src/docs/release_notes/9_2.md:157
+#, no-wrap
+msgid "The following performance tools and debuggers have been updated:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:107 ../src/docs/release_notes/9_2.md:163
+#, no-wrap
+msgid "Valgrind 3.19\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:107 ../src/docs/release_notes/9_2.md:163
+#, no-wrap
+msgid "SystemTap 4.8\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:107 ../src/docs/release_notes/9_2.md:163
+#, no-wrap
+msgid "elfutils 0.188\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/release_notes/8_8.md:108 ../src/docs/release_notes/9_2.md:164
+#, no-wrap
+msgid "Updated performance monitoring tools"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_8.md:111 ../src/docs/release_notes/9_2.md:167
+#, no-wrap
+msgid "The following performance monitoring tools have been updated:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:114
+#, no-wrap
+msgid "PCP 5.3.7\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:114
+#, no-wrap
+msgid "Grafana 7.5.15\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/release_notes/8_8.md:115 ../src/docs/release_notes/9_2.md:180
+#, no-wrap
+msgid "Containers"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_8.md:118
+#, no-wrap
+msgid "For details on changes in this category see the [upstream link here](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/8.8_release_notes/new-features#new-features-containers). Notable changes include:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:126 ../src/docs/release_notes/9_2.md:192
+#, no-wrap
+msgid "The podman System Role is now available\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:126 ../src/docs/release_notes/9_2.md:192
+#, no-wrap
+msgid "Clients for sigstore signatures with Fulcio and Rekor are now available\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:126 ../src/docs/release_notes/9_2.md:192
+#, no-wrap
+msgid "Skopeo now supports generating sigstore key pairs\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:126 ../src/docs/release_notes/9_2.md:192
+#, no-wrap
+msgid "Podman now supports events for auditing\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:126 ../src/docs/release_notes/9_2.md:192
+#, no-wrap
+msgid "The Container Tools packages have been updated\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:126 ../src/docs/release_notes/9_2.md:192
+#, no-wrap
+msgid "The Aardvark and Netavark networks stack now supports custom DNS server selection\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:126 ../src/docs/release_notes/9_2.md:192
+#, no-wrap
+msgid "Podman Quadlet is now available as a Technology Preview\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/release_notes/8_8.md:127
+#, no-wrap
+msgid "Graphics infrastructures"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:130
+#, no-wrap
+msgid "Intel ARC GPU support is now available as a Technology Preview\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_8.md:134
+#, no-wrap
+msgid "There are a great number of known issues in 8.8 relating to:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:154 ../src/docs/release_notes/9_2.md:217
+#, no-wrap
+msgid "Installer and Image creation\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:154
+#, no-wrap
+msgid "Software management\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:154 ../src/docs/release_notes/9_2.md:217
+#, no-wrap
+msgid "Shells and command line tools\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:154 ../src/docs/release_notes/9_2.md:217
+#, no-wrap
+msgid "Infrastructure services\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:154 ../src/docs/release_notes/9_2.md:217
+#, no-wrap
+msgid "Security\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:154 ../src/docs/release_notes/9_2.md:217
+#, no-wrap
+msgid "Networking\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:154 ../src/docs/release_notes/9_2.md:217
+#, no-wrap
+msgid "Kernel\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:154 ../src/docs/release_notes/9_2.md:217
+#, no-wrap
+msgid "Boot loader\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:154 ../src/docs/release_notes/9_2.md:217
+#, no-wrap
+msgid "File systems and storage\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:154
+#, no-wrap
+msgid "Dynamic programming languages, web and database servers\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:154 ../src/docs/release_notes/9_2.md:217
+#, no-wrap
+msgid "Identity Management\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:154 ../src/docs/release_notes/9_2.md:217
+#, no-wrap
+msgid "Desktop\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:154
+#, no-wrap
+msgid "Graphics infrastructures\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:154 ../src/docs/release_notes/9_2.md:217
+#, no-wrap
+msgid "The web console\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:154 ../src/docs/release_notes/9_2.md:217
+#, no-wrap
+msgid "System roles\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:154 ../src/docs/release_notes/9_2.md:217
+#, no-wrap
+msgid "Virtualization\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:154 ../src/docs/release_notes/9_2.md:217
+#, no-wrap
+msgid "Cloud environments\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:154 ../src/docs/release_notes/9_2.md:217
+#, no-wrap
+msgid "Supportability\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_8.md:154 ../src/docs/release_notes/9_2.md:217
+#, no-wrap
+msgid "Containers\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_8.md:156
+#, no-wrap
+msgid "Review the [upstream listing](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/8.8_release_notes/known-issues) for the complete details on these issues.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_8.md:159
+#, no-wrap
+msgid "Please report any bugs you encounter to the [Rocky Linux Bug Tracker](https://bugs.rockylinux.org/). We also welcome you to join our community in any way you wish, be it on our [Forums](https://forums.rockylinux.org), [Mattermost](https://chat.rockylinux.org), [IRC on Libera.Chat](irc://irc.liberachat/rockylinux), [Reddit](https://reddit.com/r/rockylinux), [Mailing Lists](https://lists.resf.org), or any other way you wish to participate!\n"
+msgstr ""

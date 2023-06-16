@@ -1,0 +1,270 @@
+# Italian translations for po package
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-16 16:28+0000\n"
+"PO-Revision-Date: 2023-06-16 16:28+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/mkdocs_venv.md:150
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:41
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:36
+#, no-wrap
+msgid "git clone https://github.com/rocky-linux/documentation.git\n"
+msgstr ""
+
+#. type: YAML Front Matter: contributors
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:1
+#, no-wrap
+msgid "Steve Spencer"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:1
+#, no-wrap
+msgid "Local Documentation - Docker"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:8
+#, no-wrap
+msgid "Running a local copy of the docs.rockylinux.org website for web development and/or content authors"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:11
+#, no-wrap
+msgid "This document walks through how to recreate and run a local copy of the entire docs.rockylinux.org website on your local machine. **It is a work-in-progress.**\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:13
+#, no-wrap
+msgid "Running a local copy of the documentation website might be useful in the following scenarios:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:17
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:16
+#, no-wrap
+msgid "You are interested in learning about and contributing to the web development aspects of the docs.rockylinux.org website\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:17
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:16
+#, no-wrap
+msgid "You are an author and you'd like to see how your documents will render/look on the docs website before contributing them\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:17
+#, no-wrap
+msgid "You are a web developer looking to contribute to or help maintain the docs.rockylinux.org website\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:19
+#, no-wrap
+msgid "Some notes:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:26
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:164
+#, no-wrap
+msgid "The instructions in this guide are **NOT** a prerequisite for Rocky documentation Authors/Content contributors\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:26
+#, no-wrap
+msgid "The entire environment runs in a Docker container and so you'll need a Docker engine on your local machine\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:26
+#, no-wrap
+msgid "The container is built on top of the official RockyLinux docker image available here https://hub.docker.com/r/rockylinux/rockylinux\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:26
+#, no-wrap
+msgid "The container keeps the documentation content (guides, books, images and so on) separate from the web engine (mkdocs)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:26
+#, no-wrap
+msgid "The container starts a local web server listening on port 8000.  And port 8000 will be forwarded to the Docker host\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:28
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:18
+#, no-wrap
+msgid "Create the content environment"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:32
+#, no-wrap
+msgid ""
+"1. Change the current working directory on your local system to a folder where you intend to do your writing. We'll refer to this directory as\n"
+"`$ROCKYDOCS` in the rest of this guide.  For our demo here, `$ROCKYDOCS` points to `~/projects/rockydocs` on our demo system.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:34
+#, no-wrap
+msgid "Create $ROCKYDOCS if it doesn't already exist and then type:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:35
+#, no-wrap
+msgid "cd  $ROCKYDOCS\n"
+msgstr ""
+
+#. type: Bullet: '3. '
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:40
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:35
+#, no-wrap
+msgid "Make sure you have `git` installed (`dnf -y install git`).  While in $ROCKYDOCS use git to clone the official Rocky Documentation content repo. Type:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:46
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:41
+#, no-wrap
+msgid "You'll now have a `$ROCKYDOCS/documentation` folder. This folder is a git repository and under git's control.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:48
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:51
+#, no-wrap
+msgid "Create and Start the RockyDocs web developmwnt environment"
+msgstr ""
+
+#. type: Bullet: '3.  '
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:51
+#, no-wrap
+msgid "Make sure you have Docker up and running on your local machine (you can check with `systemctl `)\n"
+msgstr ""
+
+#. type: Bullet: '4. '
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:53
+#, no-wrap
+msgid "From a terminal type:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:54
+#, no-wrap
+msgid "docker pull wsoyinka/rockydocs:latest\n"
+msgstr ""
+
+#. type: Bullet: '5. '
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:59
+#, no-wrap
+msgid "Check to make sure the image downloaded successfully. Type:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:60
+#, no-wrap
+msgid "docker image  ls\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:64
+#, no-wrap
+msgid "Start the RockyDocs container"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:67
+#, no-wrap
+msgid "Start a container from the rockydocs image. Type:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:68
+#, no-wrap
+msgid ""
+"docker run -it --name rockydoc --rm \\\n"
+"     -p 8000:8000  \\\n"
+"     --mount type=bind,source=\"$(pwd)\"/documentation,target=/documentation  \\\n"
+"     wsoyinka/rockydocs:latest\n"
+"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:78
+#, no-wrap
+msgid "Alternatively if you prefer and if you have `docker-compose` installed, you can create compose file named `docker-compose.yml` with the following contents:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:79
+#, no-wrap
+msgid ""
+"version: \"3.9\"\n"
+"services:\n"
+"  rockydocs:\n"
+"    image: wsoyinka/rockydocs:latest\n"
+"    volumes:\n"
+"      - type: bind\n"
+"        source: ./documentation\n"
+"        target: /documentation\n"
+"    container_name: rocky\n"
+"    ports:\n"
+"       - \"8000:8000\"\n"
+"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:95
+#, no-wrap
+msgid "Save the file with the file name `docker-compose.yml` in your $ROCKYDOCS working directory.  And start the service/container by running:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:96
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:106
+#, no-wrap
+msgid "docker-compose  up\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:101
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:111
+#, no-wrap
+msgid "View the local docs.rockylinux.org website"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:104
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:121
+#, no-wrap
+msgid "With the container up and running, you should now be able to point your web browser to the following URL to view your local copy of the site:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_web_dev.md:105
+#, no-wrap
+msgid "http://localhost:8000\n"
+msgstr ""

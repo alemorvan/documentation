@@ -1,0 +1,1188 @@
+# Italian translations for po package
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-16 16:28+0000\n"
+"PO-Revision-Date: 2023-06-16 16:28+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/01-presentation.md:229
+#: ../src/docs/books/admin_guide/11-tasks.md:26
+#: ../src/docs/books/admin_guide/12-network.md:28
+#: ../src/docs/books/admin_guide/03-commands.md:28
+#: ../src/docs/books/admin_guide/08-process.md:26
+#: ../src/docs/books/admin_guide/09-backups.md:44
+#: ../src/docs/books/admin_guide/13-softwares.md:14
+#: ../src/docs/books/learning_bash/00-toc.md:16
+#: ../src/docs/guides/security/learning_selinux.md:20
+#: ../src/docs/guides/security/pam.md:30 ../src/docs/guides/web/php.md:18
+#, no-wrap
+msgid "Generalities"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:296
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:338
+#: ../src/docs/books/admin_guide/06-users.md:539
+#: ../src/docs/books/admin_guide/06-users.md:622
+#: ../src/docs/books/admin_guide/06-users.md:719
+#: ../src/docs/books/admin_guide/06-users.md:798
+#: ../src/docs/books/admin_guide/06-users.md:930
+#: ../src/docs/books/admin_guide/11-tasks.md:216
+#: ../src/docs/books/admin_guide/12-network.md:537
+#: ../src/docs/books/admin_guide/03-commands.md:214
+#: ../src/docs/books/admin_guide/03-commands.md:318
+#: ../src/docs/books/admin_guide/03-commands.md:720
+#: ../src/docs/books/admin_guide/03-commands.md:1399
+#: ../src/docs/books/admin_guide/08-process.md:385
+#: ../src/docs/books/admin_guide/09-backups.md:370
+#: ../src/docs/books/admin_guide/09-backups.md:720
+#: ../src/docs/books/admin_guide/10-boot.md:207
+#: ../src/docs/books/admin_guide/13-softwares.md:925
+#: ../src/docs/books/admin_guide/13-softwares.md:1009
+#: ../src/docs/books/learning_ansible/01-basic.md:286
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:169
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:54
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:125
+#: ../src/docs/guides/security/learning_selinux.md:289
+#: ../src/docs/guides/security/pam.md:287
+#, no-wrap
+msgid "Examples:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/03-commands.md:221
+#: ../src/docs/guides/security/pam.md:238
+#: ../src/docs/labs/security/lab9-cryptography.md:594
+#, no-wrap
+msgid "Options:\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/13-softwares.md:900
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:105
+#: ../src/docs/books/nvchad/template_chadrc.md:352
+#: ../src/docs/gemstones/bash_stub.md:103
+#: ../src/docs/gemstones/perl_search_replace.md:38
+#: ../src/docs/gemstones/sed_search_replace.md:72
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:172
+#: ../src/docs/guides/automation/olivetin.md:142
+#: ../src/docs/guides/cms/dokuwiki_server.md:306
+#: ../src/docs/guides/communications/asterisk_installation.md:261
+#: ../src/docs/guides/containers/lxd_web_servers.md:919
+#: ../src/docs/guides/containers/podman-nextcloud.md:456
+#: ../src/docs/guides/contribute/local_docs.md:47
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:322
+#: ../src/docs/guides/contribute/navigation.md:129
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:458
+#: ../src/docs/guides/database/database_mariadb-server.md:197
+#: ../src/docs/guides/desktop/kde_installation.md:105
+#: ../src/docs/guides/desktop/mate_installation.md:200
+#: ../src/docs/guides/desktop/xfce_installation.md:218
+#: ../src/docs/guides/editors/micro.md:79
+#: ../src/docs/guides/email/postfix_reporting.md:254
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:270
+#: ../src/docs/guides/file_sharing/sftp.md:765
+#: ../src/docs/guides/proxies/pound.md:460
+#: ../src/docs/guides/security/dnf_automatic.md:119
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:54
+#: ../src/docs/guides/security/firewalld-beginners.md:427
+#: ../src/docs/guides/security/firewalld.md:477
+#: ../src/docs/guides/security/pam.md:137
+#: ../src/docs/guides/security/ssl_keys_https.md:136
+#: ../src/docs/guides/virtualization/vbox-rocky.md:160
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:147
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:235
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:157
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:91
+#: ../src/docs/guides/web/mod_SSL_apache.md:171
+#: ../src/docs/guides/web/nginx-mainline.md:352
+#: ../src/docs/guides/web/nginx-multisite.md:359
+#, no-wrap
+msgid "Conclusion"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:909
+#: ../src/docs/books/learning_bash/00-toc.md:43
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:125
+#: ../src/docs/books/learning_bash/05-tests.md:117
+#: ../src/docs/books/learning_bash/05-tests.md:160
+#: ../src/docs/guides/security/pam.md:325
+#: ../src/docs/labs/security/lab9-cryptography.md:125
+#: ../src/docs/labs/security/lab9-cryptography.md:322
+#: ../src/docs/labs/security/lab9-cryptography.md:516
+#, no-wrap
+msgid "!!! NOTE\n"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part3.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:1
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:1
+#: ../src/docs/guides/file_sharing/sftp.md:1
+#: ../src/docs/guides/security/dnf_automatic.md:1
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
+#: ../src/docs/guides/security/firewalld.md:1
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:1
+#: ../src/docs/guides/security/learning_selinux.md:1
+#: ../src/docs/guides/security/pam.md:1
+#: ../src/docs/guides/security/ssh_public_private_keys.md:1
+#: ../src/docs/guides/security/ssl_keys_https.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
+#, no-wrap
+msgid "security"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:324
+#: ../src/docs/gemstones/markdown-demo-v2.md:15
+#: ../src/docs/guides/security/pam.md:45
+#: ../src/docs/labs/security/lab9-cryptography.md:155
+#, no-wrap
+msgid "!!! WARNING\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/containers/podman-nextcloud.md:35
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:19
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:13
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:19
+#: ../src/docs/guides/proxies/pound.md:27
+#: ../src/docs/guides/security/firewalld-beginners.md:36
+#: ../src/docs/guides/security/firewalld.md:25
+#: ../src/docs/guides/security/pam.md:13
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:14
+#: ../src/docs/guides/web/nginx-mainline.md:41
+#: ../src/docs/guides/web/nginx-multisite.md:28
+#, no-wrap
+msgid "Prerequisites and Assumptions"
+msgstr ""
+
+#. type: YAML Front Matter: contributors
+#: ../src/docs/guides/security/pam.md:1
+#, no-wrap
+msgid "Steven Spencer, Ezequiel Bruni"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/security/pam.md:1
+#, no-wrap
+msgid "pam"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/guides/security/pam.md:1
+#, no-wrap
+msgid "PAM authentication modules"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/guides/security/pam.md:11
+#, no-wrap
+msgid "PAM Authentication Modules"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:20
+#, no-wrap
+msgid "A non-critical Rocky Linux PC, server, or VM\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:20
+#, no-wrap
+msgid "Root access\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:20
+#, no-wrap
+msgid "Some existing Linux knowledge (would help a lot)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:20
+#, no-wrap
+msgid "A desire to learn about user and app authentication on Linux\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:20
+#, no-wrap
+msgid "The ability to accept the consequences of your own actions\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/security/pam.md:21
+#, no-wrap
+msgid "Instroduction"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:24
+#, no-wrap
+msgid "PAM (**Pluggable Authentication Modules**) is the system under GNU/Linux that allows many applications or services to authenticate users in a centralized fashion. To put it another way:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:27
+#, no-wrap
+msgid ""
+"> PAM is a suite of libraries that allows a Linux system administrator to configure methods to authenticate users. It provides a flexible and centralized way to switch authentication methods for secured applications by using configuration files instead of changing application code. \n"
+"> \\- [Wikipedia](https://en.wikipedia.org/wiki/Linux_PAM)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:29
+#, no-wrap
+msgid "This document is *not* designed to teach you exactly how to harden your machine, okay? It's more of a reference guide to show you what PAM *can* do, and not what you *should* do.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:33
+#, no-wrap
+msgid "Authentication is the phase during which it is verified that you are the person you claim to be. The most common example is the password, but there are other forms of authentication.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:35
+#, no-wrap
+msgid "![PAM generalities](images/pam-001.png)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:37
+#, no-wrap
+msgid "The implementation of a new authentication method should not require changes in the configuration or source code of a program or service. This is why applications rely on PAM, which provides them with the primitives* necessary to authenticate their users.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:39
+#, no-wrap
+msgid "All the applications in a system can thus implement complex functionalities such as **SSO** (Single Sign On), **OTP** (One Time Password) or **Kerberos** in a completely transparent manner. A system administrator can choose exactly which authentication policy is to be used for a single application (e.g. to harden the SSH service) independently of the application.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:41
+#, no-wrap
+msgid "Each application or service supporting PAM will have a corresponding configuration file in the `/etc/pam.d/` directory. For example, the process `login` assigns the name `/etc/pam.d/login` to its configuration file.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:43
+#, no-wrap
+msgid "\\* Primitives are literally the simplest elements of a progam or language, and they allow you to build more sophisticated and complex things on top of them.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:47
+#, no-wrap
+msgid "    A misconfigured instance of PAM can compromise the security of your whole system. If PAM is vulnerable, then the whole system is vulnerable. Make any changes with care.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/security/pam.md:48
+#, no-wrap
+msgid "Directives"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:51
+#, no-wrap
+msgid "A directive is used to set up an application for usage with PAM. Directives will follow this format:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/pam.md:52
+#, no-wrap
+msgid "mechanism [control] path-to-module [argument]\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:57
+#, no-wrap
+msgid "A **directive** (a complete line) is composed of a **mechanism** (`auth`, `account`, `password` or `session`), a **success check** (`include`, `optional`, `required`, ...), the **path to the module** and possibly **arguments** (like `revoke` for example).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:59
+#, no-wrap
+msgid "Each PAM configuration file contains a set of directives. The module interface directives can be stacked or placed on top of each other. In fact, **the order in which the modules are listed is very important to the authentication process.**\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:61
+#, no-wrap
+msgid "For example, here's the config file `/etc/pam.d/sudo`:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/pam.md:62
+#, no-wrap
+msgid ""
+"#%PAM-1.0\n"
+"auth       include      system-auth\n"
+"account    include      system-auth\n"
+"password   include      system-auth\n"
+"session    include      system-auth\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/security/pam.md:70
+#, no-wrap
+msgid "Mechanisms"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/security/pam.md:72
+#, no-wrap
+msgid "`auth` - Authentication"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:75
+#, no-wrap
+msgid "This handles the authentication of the requester and establishes the rights of the account:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:77
+#, no-wrap
+msgid "Usually authenticates with a password by comparing it to a value stored in a database, or by relying on an authentication server,\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:79
+#, no-wrap
+msgid "Establishes account settings: uid, gid, groups, and resource limits.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/security/pam.md:80
+#, no-wrap
+msgid "`account` - Account management"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:83
+#, no-wrap
+msgid "Checks that the requested account is available:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:85
+#, no-wrap
+msgid "Relates to the availability of the account for reasons other than authentication (e.g. for time restrictions).\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/security/pam.md:86
+#, no-wrap
+msgid "`session` - Session management"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:89
+#, no-wrap
+msgid "Relates to session setup and termination:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:92
+#, no-wrap
+msgid "Performs tasks associated with session setup (e.g. logging),\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:92
+#, no-wrap
+msgid "Performs tasks associated with session termination.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/security/pam.md:93
+#, no-wrap
+msgid "`password` - Password management"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:96
+#, no-wrap
+msgid "Used to modify the authentication token associated with an account (expiration or change):\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:98
+#, no-wrap
+msgid "Changes the authentication token and possibly verifies that it is robust enough, or that it has not already been used.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/security/pam.md:99
+#, no-wrap
+msgid "Control Indicators"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:102
+#, no-wrap
+msgid "The PAM mechanisms (`auth`, `account`, `session` and `password`) indicate `success` or `failure`. The control flags (`required`, `requisite`, `sufficient`, `optional`) tell PAM how to handle this result.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/security/pam.md:103
+#, no-wrap
+msgid "`required`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:106
+#, no-wrap
+msgid "Successful completion of all `required` modules is necessary.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:108
+#: ../src/docs/guides/security/pam.md:118
+#, no-wrap
+msgid "**If the module passes:** The rest of the chain is executed. The request is allowed unless other modules fail.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:110
+#, no-wrap
+msgid "**If the module fails:** The rest of the chain is executed. Finally the request is rejected.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:112
+#, no-wrap
+msgid "The module must be successfully verified for the authentication to continue. If the verification of a module marked `required` fails, the user is not notified until all modules associated with that interface have been verified.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/security/pam.md:113
+#, no-wrap
+msgid "`requisite`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:116
+#, no-wrap
+msgid "Successful completion of all `requisite` modules is necessary.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:120
+#, no-wrap
+msgid "**If the module fails:** The request is immediately rejected.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:122
+#, no-wrap
+msgid "The module must be successfully verified for authentication to continue. However, if the verification of a `requisite`-marked module fails, the user is immediately notified by a message indicating the failure of the first `required` or `requisite` module.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/security/pam.md:123
+#, no-wrap
+msgid "`sufficient`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:126
+#, no-wrap
+msgid "Modules marked `sufficient` can be used to let a user in \"early\" under certain conditions:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:128
+#, no-wrap
+msgid "**If the module succeeds:** The authentication request is immediately allowed if none of the previous modules failed.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:130
+#, no-wrap
+msgid "**If the module fails:** The module is ignored. The rest of the chain is executed.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:132
+#, no-wrap
+msgid "However, if a module check marked `sufficient` is successful, but modules marked `required` or `requisite` have failed their checks, the success of the `sufficient` module is ignored, and the request fails.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/security/pam.md:133
+#, no-wrap
+msgid "`optional`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:136
+#, no-wrap
+msgid "The module is executed but the result of the request is ignored. If all modules in the chain were marked `optional`, all requests would always be accepted.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:140
+#, no-wrap
+msgid "![Rocky Linux installation splash screen](images/pam-002.png)\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/security/pam.md:141
+#, no-wrap
+msgid "PAM modules"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:144
+#, no-wrap
+msgid "There are many modules for PAM. Here are the most common ones:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:156
+#, no-wrap
+msgid "pam_unix\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:156
+#, no-wrap
+msgid "pam_ldap\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:156
+#, no-wrap
+msgid "pam_wheel\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:156
+#, no-wrap
+msgid "pam_cracklib\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:156
+#, no-wrap
+msgid "pam_console\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:156
+#, no-wrap
+msgid "pam_tally\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:156
+#, no-wrap
+msgid "pam_securetty\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:156
+#, no-wrap
+msgid "pam_nologin\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:156
+#, no-wrap
+msgid "pam_limits\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:156
+#, no-wrap
+msgid "pam_time\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:156
+#, no-wrap
+msgid "pam_access\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/security/pam.md:157
+#, no-wrap
+msgid "`pam_unix`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:160
+#, no-wrap
+msgid "The `pam_unix` module allows you to manage the global authentication policy.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:162
+#, no-wrap
+msgid "In `/etc/pam.d/system-auth` you might add:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/pam.md:163
+#, no-wrap
+msgid "password sufficient pam_unix.so sha512 nullok\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:168
+#, no-wrap
+msgid "Arguments are possible for this module:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:173
+#, no-wrap
+msgid "`nullok`: in the `auth` mechanism allows an empty login password.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:173
+#, no-wrap
+msgid "`sha512`: in the password mechanism, defines the encryption algorithm.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:173
+#, no-wrap
+msgid "`debug`: sends information to `syslog`.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:173
+#, no-wrap
+msgid "`remember=n`: Use thid to remember the last `n` passwords used (works in conjunction with the `/etc/security/opasswd` file, which is to be created by the administrator).\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/security/pam.md:174
+#, no-wrap
+msgid "`pam_cracklib`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:177
+#, no-wrap
+msgid "The `pam_cracklib` module allows you to test passwords.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:179
+#, no-wrap
+msgid "In `/etc/pam.d/password-auth` add:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/pam.md:180
+#, no-wrap
+msgid "password sufficient pam_cracklib.so retry=2\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:185
+#, no-wrap
+msgid "This module uses the `cracklib` library to check the strength of a new password. It can also check that the new password is not built from the old one. It *only* affects the password mechanism.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:187
+#, no-wrap
+msgid "By default this module checks the following aspects and rejects if this is the case:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:191
+#, no-wrap
+msgid "Is the new password from the dictionary?\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:191
+#, no-wrap
+msgid "Is the new password a palindrome of the old one (e.g.: azerty <> ytreza)?\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:191
+#, no-wrap
+msgid "Has the user only changed the case of the password (e.g.: azerty <>AzErTy)?\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:193
+#, no-wrap
+msgid "Possible arguments for this module:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:197
+#, no-wrap
+msgid "`retry=n`: imposes `n` requests (1` by default) for the new password.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:197
+#, no-wrap
+msgid "`difok=n`: imposes at least `n` characters (`10` by default), different from the old password. If half of the characters of the new password are different from the old one, the new password is validated.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:197
+#, no-wrap
+msgid "`minlen=n`: imposes a password of `n+1` characters minimum. You cannot assign a minimum lower than 6 characters (the module is compiled this way).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:199
+#, no-wrap
+msgid "Other possible arguments :\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:204
+#, no-wrap
+msgid "`dcredit=-n`: imposes a password containing at least `n` digits,\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:204
+#, no-wrap
+msgid "`ucredit=-n`: imposes a password containing at least `n` capital letters,\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:204
+#, no-wrap
+msgid "`credit=-n`: imposes a password containing at least `n` lower case letters,\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:204
+#, no-wrap
+msgid "`ocredit=-n`: imposes a password containing at least `n` special characters.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/security/pam.md:205
+#, no-wrap
+msgid "`pam_tally`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:208
+#, no-wrap
+msgid "The `pam_tally` module allows you to lock an account based on a number of unsuccessful login attempts.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:210
+#, no-wrap
+msgid "The default config file for this module might look like: `/etc/pam.d/system-auth`:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/pam.md:211
+#, no-wrap
+msgid ""
+"auth required /lib/security/pam_tally.so onerr=fail no_magic_root\n"
+"account required /lib/security/pam_tally.so deny=3 reset no_magic_root\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:217
+#, no-wrap
+msgid "The `auth` mechanism accepts or denies authentication and resets the counter.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:219
+#, no-wrap
+msgid "The `account` mechanism increments the counter.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:221
+#, no-wrap
+msgid "Some arguments of the pam_tally module include:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:228
+#, no-wrap
+msgid "`onerr=fail`: increment the counter.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:228
+#, no-wrap
+msgid "`deny=n`: once the number `n` of unsuccessful attempts is exceeded, the account is locked.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:228
+#, no-wrap
+msgid "`no_magic_root`: can be used to deny access to root-level services launched by daemons. \n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/security/pam.md:228
+#, no-wrap
+msgid "e.g. don't use this for `su`.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:228
+#, no-wrap
+msgid "`reset`: reset the counter to 0 if the authentication is validated.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:228
+#, no-wrap
+msgid "`lock_time=nsec`: the account is locked for `n` seconds.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:230
+#, no-wrap
+msgid "This module works together with the default file for unsuccessful attempts `/var/log/faillog` (which can be replaced by another file with the argument `file=xxxx`), and the associated command `faillog`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:232
+#, no-wrap
+msgid "Syntax of the faillog command:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/pam.md:233
+#, no-wrap
+msgid "faillog[-m n] |-u login][-r]\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:242
+#, no-wrap
+msgid "`m`: to define, in the command display, the maximum number of unsuccessful attempts,\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:242
+#, no-wrap
+msgid "`u`: to specify a user,\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:242
+#, no-wrap
+msgid "`r`: to unlock a user.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/security/pam.md:243
+#, no-wrap
+msgid "`pam_time`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:246
+#, no-wrap
+msgid "The `pam_time` module allows you to limit the access times to services managed by PAM.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:248
+#, no-wrap
+msgid "To activate it, edit `/etc/pam.d/system-auth` and add:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/pam.md:249
+#, no-wrap
+msgid "account required /lib/security/pam_time.so\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:254
+#, no-wrap
+msgid "The configuration is done in the `/etc/security/time.conf` file:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/pam.md:255
+#, no-wrap
+msgid ""
+"login ; * ; users ;MoTuWeThFr0800-2000\n"
+"http ; * ; users ;Al0000-2400\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:261
+#, no-wrap
+msgid "The syntax of a directive is as follows:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/pam.md:262
+#, no-wrap
+msgid "services; ttys; users; times\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:267
+#, no-wrap
+msgid "In the following definitions, the logical list uses:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:272
+#, no-wrap
+msgid "`&`: is the \"and\" logical.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:272
+#, no-wrap
+msgid "`|`: is the \"or\" logical.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:272
+#, no-wrap
+msgid "`!`: means negation, or \"all except\".\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:272
+#, no-wrap
+msgid "`*`: is the wildcard character.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:274
+#, no-wrap
+msgid "The columns correspond to :\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:279
+#, no-wrap
+msgid "`services`: a logical list of services managed by PAM that are also to be managed by this rule\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:279
+#, no-wrap
+msgid "`ttys`: a logical list of related devices\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:279
+#, no-wrap
+msgid "`users`: logical list of users managed by the rule\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:279
+#, no-wrap
+msgid "`times`: a logical list of authorized time slots\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:281
+#, no-wrap
+msgid "How to manage time slots :\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:285
+#, no-wrap
+msgid "Days: `Mo`, `Tu`, `We`, `Th`, `Fr,` `Sa`, `Su`, `Wk`, (Monday to Friday), `Wd` (Saturday and Sunday), and `Al` (Monday to Sunday)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:285
+#, no-wrap
+msgid "The hourly range: `HHMM-HHMM`\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:285
+#, no-wrap
+msgid "A repetition cancels the effect: `WkMo` = all days of the week (M-F), minus Monday (repeat).\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/pam.md:289
+#, no-wrap
+msgid "Bob, can login via a terminal every day between 07:00 and 09:00, except Wednesday:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/pam.md:290
+#, no-wrap
+msgid "login; tty*; bob; alth0700-0900\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:295
+#, no-wrap
+msgid "No login, terminal or remote, except root, every day of the week between 17:30 and 7:45 the next day:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/pam.md:296
+#, no-wrap
+msgid "login; tty* | pts/*; !root; !wk1730-0745\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/security/pam.md:300
+#, no-wrap
+msgid "`pam_nologin`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:303
+#, no-wrap
+msgid "The `pam_nologin` module disables all accounts except root:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:305
+#, no-wrap
+msgid "In `/etc/pam.d/login` you'd put:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/pam.md:306
+#, no-wrap
+msgid "auth required pam_nologin.so\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:311
+#, no-wrap
+msgid "If the file `/etc/nologin` exists then only root can connect.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/security/pam.md:312
+#, no-wrap
+msgid "`pam_wheel`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:315
+#, no-wrap
+msgid "The `pam_wheel` module allows you to limit the access to the `su` command to the members of the `wheel` group.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:317
+#, no-wrap
+msgid "In `/etc/pam.d/su` you'd put:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/pam.md:318
+#, no-wrap
+msgid "auth required pam_wheel.so\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:323
+#, no-wrap
+msgid "The argument `group=my_group` limits the use of the `su` command to members of the group `my_group`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:327
+#, no-wrap
+msgid "    If the group `my_group` is empty, then the `su` command is no longer available on the system, which forces the use of the sudo command.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/security/pam.md:328
+#, no-wrap
+msgid "`pam_mount`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:331
+#, no-wrap
+msgid "The `pam_mount` module allows you to mount a volume for a user session.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:333
+#, no-wrap
+msgid "In `/etc/pam.d/system-auth` you'd put:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/pam.md:334
+#, no-wrap
+msgid ""
+"auth optional pam_mount.so\n"
+"password optional pam_mount.so\n"
+"session optional pam_mount.so\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:341
+#, no-wrap
+msgid "Mount points are configured in the `/etc/security/pam_mount.conf` file:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/pam.md:342
+#, no-wrap
+msgid ""
+"<volume fstype=\"nfs\" server=\"srv\" path=\"/home/%(USER)\" mountpoint=\"~\" />\n"
+"<volume user=\"bob\" fstype=\"smbfs\" server=\"filesrv\" path=\"public\" mountpoint=\"/public\" />\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/security/pam.md:347
+#, no-wrap
+msgid "Wrapping Up"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:350
+#, no-wrap
+msgid "By now, you should have a much better idea of what PAM can do, and how to make changes when needed. However, we must reiterate the importance of being very, *very* careful with any changes you make to PAM modules. You could lock yourself out of your system, or worse, let everyone else in.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/pam.md:351
+#, no-wrap
+msgid "We would strongly recommend testing all changes in an environment that can be easily reverted to a previous configuration. That said, have fun with it!\n"
+msgstr ""

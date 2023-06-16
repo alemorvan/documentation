@@ -1,0 +1,45 @@
+# French translations for po package
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-16 16:28+0000\n"
+"PO-Revision-Date: 2023-06-16 16:28+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: YAML Front Matter: title
+#: ../src/docs/guides/package_management/package_signing.md:1
+#, no-wrap
+msgid "Package Signing & Testing"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/guides/package_management/package_signing.md:5
+#, no-wrap
+msgid "Package signing and testing'"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/package_signing.md:10
+#, no-wrap
+msgid ""
+"RPMs produced by us should be cryptographically signed with a Rocky Linux key, which guarantees to users that the package was\n"
+"indeed built by the Rocky Linux project.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/package_signing.md:12
+#, no-wrap
+msgid ""
+"The package will also need to be put through some testing - preferably automated. The nature of the testing is yet to be determined,\n"
+"but we’ll want to do some sanity checks at the bare minimum before unleashing it on the world. (Is this package installable? Did we accidentally miss any files? Does it cause dnf/yum dependency conflicts? etc.)\n"
+msgstr ""

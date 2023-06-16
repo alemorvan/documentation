@@ -1,0 +1,644 @@
+# Italian translations for po package
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-16 16:28+0000\n"
+"PO-Revision-Date: 2023-06-16 16:28+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/13-softwares.md:900
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:105
+#: ../src/docs/books/nvchad/template_chadrc.md:352
+#: ../src/docs/gemstones/bash_stub.md:103
+#: ../src/docs/gemstones/perl_search_replace.md:38
+#: ../src/docs/gemstones/sed_search_replace.md:72
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:172
+#: ../src/docs/guides/automation/olivetin.md:142
+#: ../src/docs/guides/cms/dokuwiki_server.md:306
+#: ../src/docs/guides/communications/asterisk_installation.md:261
+#: ../src/docs/guides/containers/lxd_web_servers.md:919
+#: ../src/docs/guides/containers/podman-nextcloud.md:456
+#: ../src/docs/guides/contribute/local_docs.md:47
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:322
+#: ../src/docs/guides/contribute/navigation.md:129
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:458
+#: ../src/docs/guides/database/database_mariadb-server.md:197
+#: ../src/docs/guides/desktop/kde_installation.md:105
+#: ../src/docs/guides/desktop/mate_installation.md:200
+#: ../src/docs/guides/desktop/xfce_installation.md:218
+#: ../src/docs/guides/editors/micro.md:79
+#: ../src/docs/guides/email/postfix_reporting.md:254
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:270
+#: ../src/docs/guides/file_sharing/sftp.md:765
+#: ../src/docs/guides/proxies/pound.md:460
+#: ../src/docs/guides/security/dnf_automatic.md:119
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:54
+#: ../src/docs/guides/security/firewalld-beginners.md:427
+#: ../src/docs/guides/security/firewalld.md:477
+#: ../src/docs/guides/security/pam.md:137
+#: ../src/docs/guides/security/ssl_keys_https.md:136
+#: ../src/docs/guides/virtualization/vbox-rocky.md:160
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:147
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:235
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:157
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:91
+#: ../src/docs/guides/web/mod_SSL_apache.md:171
+#: ../src/docs/guides/web/nginx-mainline.md:352
+#: ../src/docs/guides/web/nginx-multisite.md:359
+#, no-wrap
+msgid "Conclusion"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part3.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:1
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:1
+#: ../src/docs/guides/file_sharing/sftp.md:1
+#: ../src/docs/guides/security/dnf_automatic.md:1
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
+#: ../src/docs/guides/security/firewalld.md:1
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:1
+#: ../src/docs/guides/security/learning_selinux.md:1
+#: ../src/docs/guides/security/pam.md:1
+#: ../src/docs/guides/security/ssh_public_private_keys.md:1
+#: ../src/docs/guides/security/ssl_keys_https.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
+#, no-wrap
+msgid "security"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
+#: ../src/docs/books/learning_ansible/05-deployments.md:31
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/00-toc.md:13
+#: ../src/docs/books/nvchad/index.md:12
+#: ../src/docs/books/nvchad/plugins/index.md:14
+#: ../src/docs/books/nvchad/plugins/md_preview.md:14
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
+#: ../src/docs/books/nvchad/vale_nvchad.md:12
+#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
+#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
+#: ../src/docs/gemstones/string_color.md:11
+#: ../src/docs/guides/automation/cron_jobs_howto.md:25
+#: ../src/docs/guides/automation/olivetin.md:14
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
+#: ../src/docs/guides/backup/rsnapshot_backup.md:22
+#: ../src/docs/guides/backup/rsync_ssh.md:24
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
+#: ../src/docs/guides/cms/dokuwiki_server.md:23
+#: ../src/docs/guides/containers/lxd_web_servers.md:10
+#: ../src/docs/guides/containers/podman-nextcloud.md:13
+#: ../src/docs/guides/contribute/local_docs.md:11
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
+#: ../src/docs/guides/contribute/mkdocs_venv.md:14
+#: ../src/docs/guides/contribute/style_guide.md:14
+#: ../src/docs/guides/database/database_mariadb-server.md:21
+#: ../src/docs/guides/desktop/kde_installation.md:11
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
+#: ../src/docs/guides/editors/micro.md:14
+#: ../src/docs/guides/email/postfix_reporting.md:22
+#: ../src/docs/guides/file_sharing/glusterfs.md:16
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
+#: ../src/docs/guides/file_sharing/sftp.md:16
+#: ../src/docs/guides/migrate2rocky.md:18
+#: ../src/docs/guides/network/basic_network_configuration.md:12
+#: ../src/docs/guides/network/librenms_monitoring_server.md:13
+#: ../src/docs/guides/package_management/index.md:1
+#: ../src/docs/guides/package_management/index.md:5
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
+#: ../src/docs/guides/proxies/pound.md:17
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
+#: ../src/docs/guides/security/firewalld-beginners.md:10
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
+#: ../src/docs/guides/security/ssh_public_private_keys.md:21
+#: ../src/docs/guides/security/ssl_keys_https.md:22
+#: ../src/docs/guides/virtualization/vbox-rocky.md:13
+#: ../src/docs/guides/web/apache-sites-enabled.md:25
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
+#: ../src/docs/guides/web/nginx-mainline.md:13
+#: ../src/docs/guides/web/nginx-multisite.md:14
+#: ../src/docs/labs/security/introduction.md:1
+#: ../src/docs/labs/security/introduction.md:5
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: YAML Front Matter: contributors
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/01-install.md:1
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:1
+#: ../src/docs/books/lxd_server/03-lxdinit.md:1
+#: ../src/docs/books/lxd_server/04-firewall.md:1
+#: ../src/docs/books/lxd_server/05-lxd_images.md:1
+#: ../src/docs/books/lxd_server/06-profiles.md:1
+#: ../src/docs/books/lxd_server/07-configurations.md:1
+#: ../src/docs/books/lxd_server/08-snapshots.md:1
+#: ../src/docs/books/lxd_server/09-snapshot_server.md:1
+#: ../src/docs/books/lxd_server/10-automating.md:1
+#: ../src/docs/gemstones/bash_stub.md:1
+#: ../src/docs/guides/automation/cron_jobs_howto.md:1
+#: ../src/docs/guides/backup/rsnapshot_backup.md:1
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:1
+#: ../src/docs/guides/cms/dokuwiki_server.md:1
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:1
+#: ../src/docs/guides/contribute/navigation.md:1
+#: ../src/docs/guides/desktop/kde_installation.md:1
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:1
+#: ../src/docs/guides/email/postfix_reporting.md:1
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:1
+#: ../src/docs/guides/file_sharing/sftp.md:1
+#: ../src/docs/guides/network/librenms_monitoring_server.md:1
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
+#: ../src/docs/guides/security/ssh_public_private_keys.md:1
+#: ../src/docs/guides/security/ssl_keys_https.md:1
+#: ../src/docs/guides/web/apache-sites-enabled.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
+#, no-wrap
+msgid "Ezequiel Bruni"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/gemstones/sed_search_replace.md:10
+#: ../src/docs/guides/proxies/pound.md:53
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:60
+#, no-wrap
+msgid "Conventions"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/automation/olivetin.md:1
+#: ../src/docs/guides/file_sharing/sftp.md:1
+#: ../src/docs/guides/web/apache-sites-enabled.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:1
+#: ../src/docs/guides/web/nginx-mainline.md:1
+#: ../src/docs/guides/web/nginx-multisite.md:1 ../src/docs/guides/web/php.md:1
+#, no-wrap
+msgid "web"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/cms/dokuwiki_server.md:234
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:83
+#, no-wrap
+msgid "`vi /etc/firewall.conf`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/cms/dokuwiki_server.md:258
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:130
+#, no-wrap
+msgid "`chmod +x /etc/firewall.conf`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/cms/dokuwiki_server.md:262
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:142
+#, no-wrap
+msgid "`/etc/firewall.conf`\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/containers/podman-nextcloud.md:35
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:19
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:13
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:19
+#: ../src/docs/guides/proxies/pound.md:27
+#: ../src/docs/guides/security/firewalld-beginners.md:36
+#: ../src/docs/guides/security/firewalld.md:25
+#: ../src/docs/guides/security/pam.md:13
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:14
+#: ../src/docs/guides/web/nginx-mainline.md:41
+#: ../src/docs/guides/web/nginx-multisite.md:28
+#, no-wrap
+msgid "Prerequisites and Assumptions"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/database/database_mariadb-server.md:20
+#: ../src/docs/guides/file_sharing/glusterfs.md:15
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:21
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
+#, no-wrap
+msgid "A heavy comfort level with issuing commands from the command-line, viewing logs, and other general systems administrator duties\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:53
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:134
+#, no-wrap
+msgid "`systemctl enable iptables`\n"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/web/apache-sites-enabled.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
+#, no-wrap
+msgid "apache"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:12
+#, no-wrap
+msgid "Apache Hardened Webserver"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:22
+#, no-wrap
+msgid "A Rocky Linux web server running Apache\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:22
+#, no-wrap
+msgid "A comfort level with a command line editor (our examples use _vi_ which will usually invoke the _vim_ editor, but you can substitute your favorite editor)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:22
+#, no-wrap
+msgid "Assumes an _iptables_ firewall, rather than _firewalld_ or a hardware firewall.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:22
+#, no-wrap
+msgid "Assumes the use of a gateway hardware firewall that our trusted devices will sit behind.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:22
+#, no-wrap
+msgid "Assumes a public IP address directly applied to the web server. We are substituting a private IP address for all of our examples.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:26
+#, no-wrap
+msgid "Whether you are hosting multiple websites for customers, or a single, very important, website for your business, hardening your web server will give you peace of mind, at the expense of a little more up-front work for the administrator.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:28
+#, no-wrap
+msgid "With multiple web sites uploaded by your customers, you can pretty much be guaranteed that one of them will upload a Content Management System (CMS) with the possibility of vulnerabilities. Most customers are focused on ease of use, not security, and what happens is that updating their own CMS becomes a process that falls out of their priority list altogether.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:30
+#, no-wrap
+msgid "While notifying customers of vulnerabilities in their CMS may be possible for a company with a large IT staff, it may not be possible for a small department. The best defense is a hardened web server.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:32
+#, no-wrap
+msgid "Web server hardening can take many forms, which may include any or all of the below tools, and possibly others not defined here.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:34
+#, no-wrap
+msgid "You might elect to use a couple of these tools, and not the others, so for clarity and readability this document is split out into separate documents for each tool. The exception will be the packet-based firewall (_iptables_) which will be included in this main document.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:41
+#, no-wrap
+msgid "A good packet filter firewall based on ports (iptables, firewalld, or hardware firewall - we will use _iptables_ for our example) [_iptables_ procedure](#iptablesstart)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:41
+#, no-wrap
+msgid "A Host-based Intrusion Detection System (HIDS), in this case _ossec-hids_ [Apache Hardened Web Server - ossec-hids](ossec-hids.md)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:41
+#, no-wrap
+msgid "A Web-based Application Firewall (WAF), with _mod\\_security_ rules [Apache Hardened Web Server - mod_security](modsecurity.md)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:41
+#, no-wrap
+msgid "Rootkit Hunter (rkhunter): A scan tool that checks against Linux malware [Apache Hardened Web Server - rkhunter](rkhunter.md)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:41
+#, no-wrap
+msgid "Database security (we are using _mariadb-server_ here) [MariaDB Database Server](../../database/database_mariadb-server.md)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:41
+#, no-wrap
+msgid "A secure FTP or SFTP server (we are using _vsftpd_ here) [Secure FTP Server - vsftpd](../../file_sharing/secure_ftp_server_vsftpd.md) but we also have _sftp_ and SSH lock down procedures [here](../../file_sharing/sftp.md)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:43
+#, no-wrap
+msgid "This procedure does not replace the [Apache Web Server Multi-Site Setup](../apache-sites-enabled.md), it simply adds these security elements to it. If you haven't read it, take some time to look at it before proceeding.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:44
+#, no-wrap
+msgid "Other Considerations"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:47
+#, no-wrap
+msgid "Some of the tools outlined here have both free and fee-based options. Depending on your needs or support requirements, you may want to consider the fee-based versions. You should research what is out there and make a decision after weighing all of your options.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:49
+#, no-wrap
+msgid "Know, too, that most of these options can be purchased as hardware appliances. If you'd prefer not to hassle with installing and maintaining your own system, there are options available other than those outlined here.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:51
+#, no-wrap
+msgid "This document uses a straight _iptables_ firewall and requires [this procedure on Rocky Linux to disable firewalld and enable the iptables services](../../security/enabling_iptables_firewall.md). Since this document was first written, we now have a couple of excellent _firewalld_ guides; one that allows someone with knowledge of _iptables_ to transfer what they know to _firewalld_ [here](../../security/firewalld.md), and one that is a more dedicated to beginners [here](../../security/firewalld-beginners.md).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:53
+#, no-wrap
+msgid "If you prefer to use _firewalld_, simply skip this step and apply the rules needed. The firewall in our examples here, needs no OUTPUT or FORWARD chains, only INPUT. Your needs may differ!\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:55
+#, no-wrap
+msgid "All of these tools need to be tuned to your system. That can only be done with careful monitoring of logs, and reported web experience by your customers. In addition, you will find that there will be ongoing tuning required over time.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:57
+#, no-wrap
+msgid "Even though we are using a private IP address to simulate a public one, all of this _could_ have been done using a one-to-one NAT on the hardware firewall and connecting the web server to that hardware firewall, rather than to the gateway router, with a private IP address.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:59
+#, no-wrap
+msgid "Explaining that requires digging into the hardware firewall shown below, and since that is outside of the scope of this document, it is better to stick with our example of a simulated public IP address.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:66
+#, no-wrap
+msgid "**IP Addresses:** We are simulating the public IP address here with a private block: 192.168.1.0/24 and we are using the LAN IP address block as 10.0.0.0/24  In other words, it cannot be routed over the Internet. In reality, neither IP block can be routed over the Internet as they are both reserved for private use, but there is no good way to simulate the public IP block, without using a real IP address that is assigned to some company. Just remember that for our purposes, the 192.168.1.0/24 block is the \"public\" IP block and the 10.0.0.0/24 is the \"private\" IP block.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:66
+#, no-wrap
+msgid "**Hardware Firewall:** This is the firewall that controls access to your server room devices from your trusted network. This is not the same as our _iptables_ firewall, though it could be another instance of _iptables_ running on another machine. This device will allow ICMP (ping) and SSH (secure shell) to our trusted devices. Defining this device is outside of the scope of this document. The author has used both [PfSense](https://www.pfsense.org/) and [OPNSense](https://opnsense.org/) and installed on dedicated hardware for this device with great success. This device will have two IP addresses assigned to it. One that will connect to the Internet router's simulated public IP (192.168.1.2) and one that will connect to our local area network, 10.0.0.1.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:66
+#, no-wrap
+msgid "**Internet Router IP:** We are simulating this with 192.168.1.1/24\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:66
+#, no-wrap
+msgid "**Web Server IP:** This is the \"public\" IP address assigned to our web server. Again, we are simulating this with the private IP address 192.168.1.10/24\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:68
+#, no-wrap
+msgid "![Hardened Webserver](images/hardened_webserver_figure1.jpeg)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:70
+#, no-wrap
+msgid "The diagram above shows our general layout. The _iptables_ packet-based firewall runs on the web server (shown above).\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:72
+#, no-wrap
+msgid "Install Packages"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:75
+#, no-wrap
+msgid "Each individual package section has the needed installation files and any configuration procedure listed. The installation instructions for _iptables_ is part of the [disable firewalld and enable the iptables services](../../security/enabling_iptables_firewall.md) procedure.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:76
+#, no-wrap
+msgid "<a name=\"iptablesstart\"></a>Configuring iptables"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:79
+#, no-wrap
+msgid "This portion of the documentation assumes that you have elected to install the _iptables_ services and utilities and that you are not planning on using _firewalld_.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:81
+#, no-wrap
+msgid "If you are planning on using _firewalld_, you can use this _iptables_ script to guide you in creating the appropriate rules in the _firewalld_ format. Once the script is shown here, we will break it down to describe what is happening. Only the INPUT chain is needed here. The script is being placed in the /etc/ directory and for our example, it is named firewall.conf:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:85
+#, no-wrap
+msgid "and the contents will be:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:86
+#, no-wrap
+msgid ""
+"#!/bin/sh\n"
+"#\n"
+"#IPTABLES=/usr/sbin/iptables\n"
+"\n"
+"#  Unless specified, the defaults for OUTPUT is ACCEPT\n"
+"#    The default for FORWARD and INPUT is DROP\n"
+"#\n"
+"echo \"   clearing any existing rules and setting default policy..\"\n"
+"iptables -F INPUT\n"
+"iptables -P INPUT DROP\n"
+"iptables -A INPUT -p tcp -m tcp -s 192.168.1.2 --dport 22 -j ACCEPT\n"
+"iptables -A INPUT -p icmp -m icmp --icmp-type 8 -s 192.168.1.2 -j ACCEPT\n"
+"# dns rules\n"
+"iptables -A INPUT -p udp -m udp -s 8.8.8.8 --sport 53 -d 0/0 -j ACCEPT\n"
+"iptables -A INPUT -p udp -m udp -s 8.8.4.4 --sport 53 -d 0/0 -j ACCEPT\n"
+"# web ports\n"
+"iptables -A INPUT -p tcp -m tcp --dport 80 -j ACCEPT\n"
+"iptables -A INPUT -p tcp -m tcp --dport 443 -j ACCEPT\n"
+"# ftp ports\n"
+"iptables -A INPUT -p tcp -m tcp --dport 20-21 -j ACCEPT\n"
+"iptables -A INPUT -p tcp -m tcp --dport 7000-7500 -j ACCEPT\n"
+"iptables -A INPUT -i lo -j ACCEPT\n"
+"iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT\n"
+"iptables -A INPUT -p tcp -j REJECT --reject-with tcp-reset\n"
+"iptables -A INPUT -p udp -j REJECT --reject-with icmp-port-unreachable\n"
+"\n"
+"/usr/sbin/service iptables save\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:116
+#, no-wrap
+msgid "So here's what is happening above:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:126
+#, no-wrap
+msgid "When we start, we flush all of the rules\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:126
+#, no-wrap
+msgid "We then set the default policy for our INPUT chain to DROP, which says, \"Hey, if we haven't explicitly allowed you here, then we are dropping you!\"\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:126
+#, no-wrap
+msgid "Then we allow SSH (port 22) from our trusted network, the devices behind the hardware firewall\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:126
+#, no-wrap
+msgid "We allow DNS from some public DNS resolvers. (these can also be local DNS servers, if you have them)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:126
+#, no-wrap
+msgid "We allow our web traffic in from anywhere over port 80 and 443.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:126
+#, no-wrap
+msgid "We allow standard FTP (ports 20-21) and the passive ports needed to exchange two-way communications in FTP (7000-7500). These ports can be arbitrarily changed to other ports based on your ftp server configuration.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:126
+#, no-wrap
+msgid "We allow any traffic on the local interface (127.0.0.1)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:126
+#, no-wrap
+msgid "Then we say, that any traffic that has successfully connected based on the rules, should be allowed other traffic (ports) to maintain their connection (ESTABLISHED,RELATED).\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:126
+#, no-wrap
+msgid "And finally, we reject all other traffic and set the script to save the rules where _iptables_ expects to find them.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:128
+#, no-wrap
+msgid "Once this script is there, we need to make it executable:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:132
+#, no-wrap
+msgid "We need to enable _iptables_ if we haven't already:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:136
+#, no-wrap
+msgid "We need to start _iptables_:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:138
+#, no-wrap
+msgid "`systemctl start iptables`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:140
+#, no-wrap
+msgid "We need to run /etc/firewall.conf:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:144
+#, no-wrap
+msgid "If we add new rules to the /etc/firewall.conf, just run it again to take those rules live. Keep in mind that with a default DROP policy for the INPUT chain, if you make a mistake, you could lock yourself out remotely.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:146
+#, no-wrap
+msgid "You can always fix this however, from the console on the server. Because the _iptables_ service is enabled, a reboot will restore all rules that have been added with `/etc/firewall.conf`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:150
+#, no-wrap
+msgid "There are a number of ways to harden an Apache web server to make it more secure. Each operates independently of the other options, so you can choose to install any, or all, of them based on your needs.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:151
+#, no-wrap
+msgid "Each requires some configuration with various tuning required for some to meet your specific needs. Since web services are constantly under attack 24/7 by unscrupulous actors, implementing at least some of these will help an administrator sleep at night.\n"
+msgstr ""

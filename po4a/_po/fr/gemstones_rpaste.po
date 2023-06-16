@@ -1,0 +1,206 @@
+# French translations for po package
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-16 16:28+0000\n"
+"PO-Revision-Date: 2023-06-16 16:28+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:737
+#: ../src/docs/books/lxd_server/30-appendix_a.md:23
+#: ../src/docs/books/nvchad/nerd_fonts.md:28 ../src/docs/gemstones/rpaste.md:15
+#: ../src/docs/guides/file_sharing/glusterfs.md:89
+#: ../src/docs/guides/file_sharing/sftp.md:75
+#: ../src/docs/guides/security/dnf_automatic.md:26
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:29
+#: ../src/docs/guides/web/php.md:85 ../src/docs/guides/web/php.md:152
+#, no-wrap
+msgid "Installation"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/lxd_server/00-toc.md:48 ../src/docs/gemstones/rpaste.md:76
+#: ../src/docs/guides/automation/cron_jobs_howto.md:185
+#: ../src/docs/guides/backup/rsync_ssh.md:161
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:322
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:632
+#: ../src/docs/guides/file_sharing/glusterfs.md:339
+#: ../src/docs/guides/network/librenms_monitoring_server.md:657
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:480
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:339
+#, no-wrap
+msgid "Conclusions"
+msgstr ""
+
+#. type: YAML Front Matter: contributors
+#: ../src/docs/books/lxd_server/30-appendix_a.md:1
+#: ../src/docs/gemstones/dnf-swap.md:1 ../src/docs/gemstones/docker.md:1
+#: ../src/docs/gemstones/rpaste.md:1
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:1
+#: ../src/docs/guides/proxies/pound.md:1
+#, no-wrap
+msgid "Colussi Franco"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/rpaste.md:1
+#, no-wrap
+msgid "rpaste"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/rpaste.md:1
+#, no-wrap
+msgid "Mattermost"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/rpaste.md:1
+#, no-wrap
+msgid "pastebin"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/gemstones/rpaste.md:1
+#, no-wrap
+msgid "rpaste - Pastebin Tool"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/gemstones/rpaste.md:11
+#, fuzzy, no-wrap
+#| msgid "Introduction to Linux"
+msgid "Introduction to `rpaste`"
+msgstr "Introduction à Linux"
+
+#. type: Plain text
+#: ../src/docs/gemstones/rpaste.md:14
+#, no-wrap
+msgid "`rpaste` is a tool for sharing code, log output, and other extra long text. It is a pastebin created by the Rocky Linux developers. This tool is useful when you need to share something publicly, but do not want to dominate the feed with your text. This is especially important when using Mattermost, which has bridges to other IRC services. The `rpaste` tool can be installed on any Rocky Linux system. If your desktop machine isn't Rocky Linux or if you simply do not want to install the tool, you can use it manually, by accessing the [pinnwand URL](https://rpa.st) and then paste the system output or text that you want to share. `rpaste` allows you to create this information automatically.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/rpaste.md:18
+#, no-wrap
+msgid "Installation of `rpaste` on Rocky Linux:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/gemstones/rpaste.md:19
+#, no-wrap
+msgid "sudo dnf --enablerepo=extras install rpaste\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/gemstones/rpaste.md:23
+#, no-wrap
+msgid "Uses"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/rpaste.md:26
+#, no-wrap
+msgid "For major system problems, you may need to send all of your system's information so that it can be reviewed for problems. To do this run:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/gemstones/rpaste.md:27
+#, no-wrap
+msgid "rpaste --sysinfo\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/rpaste.md:32
+#, no-wrap
+msgid "Which will return the link to the pinnwand page:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/rpaste.md:33
+#, no-wrap
+msgid ""
+"Uploading...\n"
+"Paste URL:   https://rpa.st/2GIQ\n"
+"Raw URL:     https://rpa.st/raw/2GIQ\n"
+"Removal URL: https://rpa.st/remove/YBWRFULDFCGTTJ4ASNLQ6UAQTA\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/rpaste.md:41
+#, no-wrap
+msgid "You can then review the information yourself in a browser and decide if you want to keep it or remove it and start over. If you want to keep it, you can copy the \"Paste URL\" and share that with whomever you are working with, or in the feed on Mattermost. To remove, simply copy the \"Removal URL\" and open that in your browser.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/rpaste.md:43
+#, no-wrap
+msgid "You can add content to your pastebin by piping the content. As an example, if you wanted to add content from your `/var/log/messages` file from March 10, you might do this:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/rpaste.md:44
+#, no-wrap
+msgid "sudo more /var/log/messages | grep 'Mar 10' | rpaste\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/gemstones/rpaste.md:48
+#, no-wrap
+msgid "`rpaste` help"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/rpaste.md:51
+#, no-wrap
+msgid "To get help with the command, simply type:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/gemstones/rpaste.md:52
+#, no-wrap
+msgid "rpaste --help\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/rpaste.md:57
+#, no-wrap
+msgid "Which gives the following output:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/rpaste.md:58
+#, no-wrap
+msgid ""
+"rpaste: A paste utility originally made for the Rocky paste service\n"
+"\n"
+"Usage: rpaste [options] [filepath]\n"
+"       command | rpaste [options]\n"
+"\n"
+"This command can take a file or standard in as input\n"
+"\n"
+"Options:\n"
+"--life value, -x value      Sets the life time of a paste (1hour, 1day, 1week) (default: 1hour)\n"
+"--type value, -t value      Sets the syntax highlighting (default: text)\n"
+"--sysinfo, -s               Collects general system information (disables stdin and file input) (default: false)\n"
+"--dry, -d                   Turns on dry mode, which doesn't paste the output, but shows the data to stdin (default: false)\n"
+"--pastebin value, -p value  Sets the paste bin service to send to. Current supported: rpaste, fpaste (default: \"rpaste\")\n"
+"--help, -h                  show help (default: false)\n"
+"--version, -v               print the version (default: false)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/rpaste.md:79
+#, no-wrap
+msgid "It is sometimes important to share a large amount of text when working on a problem, sharing code or text, etc. Using `rpaste` for this will save others from having to view large amounts of text content that isn't important to them. It is important Rocky Linux chat etiquette as well.\n"
+msgstr ""

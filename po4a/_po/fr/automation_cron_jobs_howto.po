@@ -1,0 +1,722 @@
+# French translations for po package
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-16 16:28+0000\n"
+"PO-Revision-Date: 2023-06-16 16:28+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/06-users.md:308
+#: ../src/docs/books/admin_guide/06-users.md:644
+#: ../src/docs/books/admin_guide/07-file-systems.md:195
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:30
+#: ../src/docs/books/learning_bash/01-first-script.md:46
+#: ../src/docs/books/learning_bash/01-first-script.md:77
+#: ../src/docs/books/learning_bash/02-using-variables.md:185
+#: ../src/docs/books/learning_bash/05-tests.md:63
+#: ../src/docs/books/lxd_server/07-configurations.md:102
+#: ../src/docs/books/nvchad/install_nvchad.md:182
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:53
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:133
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:153
+#: ../src/docs/guides/automation/cron_jobs_howto.md:83
+#: ../src/docs/guides/automation/cron_jobs_howto.md:125
+#: ../src/docs/guides/automation/cron_jobs_howto.md:160
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:44
+#: ../src/docs/guides/cms/dokuwiki_server.md:216
+#: ../src/docs/guides/communications/asterisk_installation.md:12
+#: ../src/docs/guides/containers/podman-nextcloud.md:361
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:72
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:350
+#: ../src/docs/guides/desktop/kde_installation.md:16
+#: ../src/docs/guides/file_sharing/sftp.md:54
+#: ../src/docs/guides/file_sharing/sftp.md:129
+#: ../src/docs/guides/file_sharing/sftp.md:321
+#: ../src/docs/guides/proxies/pound.md:62
+#: ../src/docs/guides/proxies/pound.md:418 ../src/docs/index.md:40
+#: ../src/docs/release_notes/9_1.md:16
+#, no-wrap
+msgid "!!! note\n"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
+#: ../src/docs/books/learning_ansible/05-deployments.md:31
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/00-toc.md:13
+#: ../src/docs/books/nvchad/index.md:12
+#: ../src/docs/books/nvchad/plugins/index.md:14
+#: ../src/docs/books/nvchad/plugins/md_preview.md:14
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
+#: ../src/docs/books/nvchad/vale_nvchad.md:12
+#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
+#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
+#: ../src/docs/gemstones/string_color.md:11
+#: ../src/docs/guides/automation/cron_jobs_howto.md:25
+#: ../src/docs/guides/automation/olivetin.md:14
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
+#: ../src/docs/guides/backup/rsnapshot_backup.md:22
+#: ../src/docs/guides/backup/rsync_ssh.md:24
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
+#: ../src/docs/guides/cms/dokuwiki_server.md:23
+#: ../src/docs/guides/containers/lxd_web_servers.md:10
+#: ../src/docs/guides/containers/podman-nextcloud.md:13
+#: ../src/docs/guides/contribute/local_docs.md:11
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
+#: ../src/docs/guides/contribute/mkdocs_venv.md:14
+#: ../src/docs/guides/contribute/style_guide.md:14
+#: ../src/docs/guides/database/database_mariadb-server.md:21
+#: ../src/docs/guides/desktop/kde_installation.md:11
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
+#: ../src/docs/guides/editors/micro.md:14
+#: ../src/docs/guides/email/postfix_reporting.md:22
+#: ../src/docs/guides/file_sharing/glusterfs.md:16
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
+#: ../src/docs/guides/file_sharing/sftp.md:16
+#: ../src/docs/guides/migrate2rocky.md:18
+#: ../src/docs/guides/network/basic_network_configuration.md:12
+#: ../src/docs/guides/network/librenms_monitoring_server.md:13
+#: ../src/docs/guides/package_management/index.md:1
+#: ../src/docs/guides/package_management/index.md:5
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
+#: ../src/docs/guides/proxies/pound.md:17
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
+#: ../src/docs/guides/security/firewalld-beginners.md:10
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
+#: ../src/docs/guides/security/ssh_public_private_keys.md:21
+#: ../src/docs/guides/security/ssl_keys_https.md:22
+#: ../src/docs/guides/virtualization/vbox-rocky.md:13
+#: ../src/docs/guides/web/apache-sites-enabled.md:25
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
+#: ../src/docs/guides/web/nginx-mainline.md:13
+#: ../src/docs/guides/web/nginx-multisite.md:14
+#: ../src/docs/labs/security/introduction.md:1
+#: ../src/docs/labs/security/introduction.md:5
+#, fuzzy, no-wrap
+#| msgid "Introduction to Linux"
+msgid "Introduction"
+msgstr "Introduction à Linux"
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:67
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:94
+#: ../src/docs/books/nvchad/vale_nvchad.md:36
+#: ../src/docs/guides/automation/cron_jobs_howto.md:77
+#: ../src/docs/guides/contribute/navigation.md:53
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:84
+#: ../src/docs/guides/database/database_mariadb-server.md:48
+#: ../src/docs/guides/file_sharing/sftp.md:482
+#: ../src/docs/guides/file_sharing/sftp.md:569
+#: ../src/docs/guides/proxies/pound.md:40
+#: ../src/docs/guides/security/dnf_automatic.md:67
+#: ../src/docs/guides/security/firewalld.md:102
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:115
+#, no-wrap
+msgid "!!! tip\n"
+msgstr ""
+
+#. type: YAML Front Matter: contributors
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/01-install.md:1
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:1
+#: ../src/docs/books/lxd_server/03-lxdinit.md:1
+#: ../src/docs/books/lxd_server/04-firewall.md:1
+#: ../src/docs/books/lxd_server/05-lxd_images.md:1
+#: ../src/docs/books/lxd_server/06-profiles.md:1
+#: ../src/docs/books/lxd_server/07-configurations.md:1
+#: ../src/docs/books/lxd_server/08-snapshots.md:1
+#: ../src/docs/books/lxd_server/09-snapshot_server.md:1
+#: ../src/docs/books/lxd_server/10-automating.md:1
+#: ../src/docs/gemstones/bash_stub.md:1
+#: ../src/docs/guides/automation/cron_jobs_howto.md:1
+#: ../src/docs/guides/backup/rsnapshot_backup.md:1
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:1
+#: ../src/docs/guides/cms/dokuwiki_server.md:1
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:1
+#: ../src/docs/guides/contribute/navigation.md:1
+#: ../src/docs/guides/desktop/kde_installation.md:1
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:1
+#: ../src/docs/guides/email/postfix_reporting.md:1
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:1
+#: ../src/docs/guides/file_sharing/sftp.md:1
+#: ../src/docs/guides/network/librenms_monitoring_server.md:1
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
+#: ../src/docs/guides/security/ssh_public_private_keys.md:1
+#: ../src/docs/guides/security/ssl_keys_https.md:1
+#: ../src/docs/guides/web/apache-sites-enabled.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
+#, no-wrap
+msgid "Ezequiel Bruni"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/lxd_server/00-toc.md:48 ../src/docs/gemstones/rpaste.md:76
+#: ../src/docs/guides/automation/cron_jobs_howto.md:185
+#: ../src/docs/guides/backup/rsync_ssh.md:161
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:322
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:632
+#: ../src/docs/guides/file_sharing/glusterfs.md:339
+#: ../src/docs/guides/network/librenms_monitoring_server.md:657
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:480
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:339
+#, no-wrap
+msgid "Conclusions"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/05-lxd_images.md:86
+#: ../src/docs/guides/automation/cron_jobs_howto.md:44
+#: ../src/docs/guides/network/librenms_monitoring_server.md:538
+#, no-wrap
+msgid "and\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/lxd_server/30-appendix_a.md:15
+#: ../src/docs/books/nvchad/vale_nvchad.md:16
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:20
+#: ../src/docs/guides/automation/anacron.md:10
+#: ../src/docs/guides/automation/cron_jobs_howto.md:14
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:13
+#: ../src/docs/guides/backup/rsnapshot_backup.md:13
+#: ../src/docs/guides/backup/rsync_ssh.md:12
+#: ../src/docs/guides/communications/asterisk_installation.md:25
+#: ../src/docs/guides/database/database_mariadb-server.md:13
+#: ../src/docs/guides/desktop/kde_installation.md:20
+#: ../src/docs/guides/desktop/mate_installation.md:17
+#: ../src/docs/guides/desktop/xfce_installation.md:17
+#: ../src/docs/guides/editors/micro.md:33
+#: ../src/docs/guides/email/postfix_reporting.md:14
+#: ../src/docs/guides/file_sharing/glusterfs.md:10
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:14
+#: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:14
+#: ../src/docs/guides/network/basic_network_configuration.md:16
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:8
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:14
+#: ../src/docs/guides/security/ssh_public_private_keys.md:14
+#: ../src/docs/guides/security/ssl_keys_https.md:14
+#: ../src/docs/guides/virtualization/vbox-rocky.md:19
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:15
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:15
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:14
+#: ../src/docs/guides/web/mod_SSL_apache.md:14
+#, no-wrap
+msgid "Prerequisites"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:1
+#: ../src/docs/guides/automation/cron_jobs_howto.md:1
+#, no-wrap
+msgid "cron"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/automation/cron_jobs_howto.md:1
+#, no-wrap
+msgid "job automation"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/automation/cron_jobs_howto.md:1
+#: ../src/docs/guides/automation/olivetin.md:1
+#: ../src/docs/guides/security/dnf_automatic.md:1
+#, no-wrap
+msgid "automation"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/guides/automation/cron_jobs_howto.md:1
+#, no-wrap
+msgid "cron - Automating Commands"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/guides/automation/cron_jobs_howto.md:12
+#, no-wrap
+msgid "Automating Processes with `cron` and `crontab`"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/cron_jobs_howto.md:18
+#: ../src/docs/guides/automation/olivetin.md:38
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:25
+#, no-wrap
+msgid "A computer running Rocky Linux\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/cron_jobs_howto.md:18
+#, no-wrap
+msgid "Some comfort with modifying configuration files from the command-line by using your favorite editor (using `vi` here)\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/automation/cron_jobs_howto.md:19
+#, no-wrap
+msgid "<a name=\"assumptions\"></a> Assumptions"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/cron_jobs_howto.md:22
+#, no-wrap
+msgid "Basic knowledge of bash, python, or other scripting or programming tools, and you want to have a script run automatically\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/cron_jobs_howto.md:22
+#, no-wrap
+msgid "That you are either running as the root user or have switched to root with `sudo -s`  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:24
+#, no-wrap
+msgid "**(You can run certain scripts in your own directories as your own user. In this case, switching to root is not necessary.)**\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:28
+#, no-wrap
+msgid "Linux provides the _cron_ system, a time-based job scheduler, for automating processes. It is simplistic and yet quite powerful. Want a script or program to run every day at 5 PM? This is where you set that up.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:30
+#, no-wrap
+msgid "The _crontab_ is essentially a list where users add their own automated tasks and jobs, and it has many options that can simplify things even further. This document will explore some of these. It is a good refresher for those with some experience, and new users can add the `cron` system to their repertoire.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:32
+#, no-wrap
+msgid "`anacron` is discussed briefly here in reference to the `cron` \"dot\" directories. `anacron` is run by `cron`, and is helpful for machines that are not up all the time, such as workstations and laptops. The reason for this is that while `cron` runs jobs on a schedule, if the machine is off when the job is scheduled, the job does not run. With `anacron` the job is picked up and run when the machine is on again, even if the scheduled run was in the past. `anacron` though, uses a more randomized approach to running tasks where the timing is not exact. This makes sense for workstations and laptops, but not so much for servers. This can be a problem for things such as server backups, for instance, needing to run a job at a specific time. That is where `cron` provides the best solution for server administrators. Still, server administrators and workstation or notebook users can gain something from both approaches. You can mix and match based on your needs. For more on `anacron` see [anacron - Automating commands](anacron.md).\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/automation/cron_jobs_howto.md:33
+#, no-wrap
+msgid "<a name=\"starting-easy\"></a>Starting Easy - The `cron` Dot Directories"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:36
+#, no-wrap
+msgid "Built into every Linux system for many versions now, the `cron` \"dot\" directories help to automate processes quickly. These show up as directories that the `cron` system calls based on their naming conventions. They are run differently, however, based on the process assigned to call them, `anacron` or `cron`. The default behavior is to use `anacron`, but this can be changed by a server, workstation or notebook administrator.\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/guides/automation/cron_jobs_howto.md:37
+#, no-wrap
+msgid "<a name=\"for_servers\"></a>For Servers"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:40
+#, no-wrap
+msgid "As stated in the introduction, `cron` normally runs `anacron` these days to run scripts in these \"dot\" directories. You *may*, want to use these \"dot\" directories on servers as well, and if that is the case, there are two steps that you can take to verify that these \"dot\" directories run on a strict schedule. To do this, you need to install a package and remove another one:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:42
+#, no-wrap
+msgid "`dnf install cronie-noanacron`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:46
+#, no-wrap
+msgid "`dnf remove cronie-anacron`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:48
+#, no-wrap
+msgid "As you might expect, this removes `anacron` from the server and reverts to running tasks within the \"dot\" directories on a strict schedule. This is defined by this file: `/etc/cron.d/dailyjobs`, which has the following contents:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/cron_jobs_howto.md:49
+#, no-wrap
+msgid ""
+"# Run the daily, weekly, and monthly jobs if cronie-anacron is not installed\n"
+"SHELL=/bin/bash\n"
+"PATH=/sbin:/bin:/usr/sbin:/usr/bin\n"
+"MAILTO=root\n"
+"\n"
+"# run-parts\n"
+"02 4 * * * root [ ! -f /etc/cron.hourly/0anacron ] && run-parts /etc/cron.daily\n"
+"22 4 * * 0 root [ ! -f /etc/cron.hourly/0anacron ] && run-parts /etc/cron.weekly\n"
+"42 4 1 * * root [ ! -f /etc/cron.hourly/0anacron ] && run-parts /etc/cron.monthly\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:62
+#, no-wrap
+msgid "This translates to the following:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/cron_jobs_howto.md:66
+#, no-wrap
+msgid "run scripts in `cron.daily` at 04:02:00 every day.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/cron_jobs_howto.md:66
+#, no-wrap
+msgid "run scripts in `cron.weekly` at 04:22:00 on Sunday every week.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/cron_jobs_howto.md:66
+#, no-wrap
+msgid "run scripts in `cron.monthly` at 04:42:00 on the first day of every month.\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/guides/automation/cron_jobs_howto.md:67
+#, no-wrap
+msgid "<a name=\"for_workstations\"></a>For Workstations"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:70
+#, no-wrap
+msgid "If you want to run scripts on a workstation or notebook in the `cron` \"dot\" directories, nothing special is needed. Just copy your script file into the directory in question, and make sure it is executable. Here are the directories:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/cron_jobs_howto.md:75
+#, no-wrap
+msgid "`/etc/cron.hourly` - Scripts placed here will run one minute past the hour every hour. (this is run by `cron` regardless of whether `anacron` is installed or not)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/cron_jobs_howto.md:75
+#, no-wrap
+msgid "`/etc/cron.daily` - Scripts placed here will run every day. `anacron` adjusts the timing of these. (see tip)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/cron_jobs_howto.md:75
+#, no-wrap
+msgid "`/etc/cron.weekly` - Scripts placed here will run every 7 days, based on the calendar day of the last run time. (see tip)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/cron_jobs_howto.md:75
+#, no-wrap
+msgid "`/etc/cron.monthly` - Scripts placed here will run monthly based on the calendar day of the last run time. (see tip)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:79
+#, no-wrap
+msgid "    These are likely to be run at similar (but not exactly the same) times every day, week, and month. For more exact running times, see the @options below.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:81
+#, no-wrap
+msgid "Provided you are good with just letting the system auto-run your scripts, and allowing them to run sometime during the specified time, it simplifies the automation of tasks.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:85
+#, no-wrap
+msgid "    There is no rule that says a server administrator cannot use the randomized run times which `anacron` uses to run scripts in the \"dot\" directories. The use case for this would be for a script that is not time sensitive.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/automation/cron_jobs_howto.md:86
+#, no-wrap
+msgid "Create Your Own `cron`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:89
+#, no-wrap
+msgid "If the automated, randomized times do not work well in [For Workstations above](#for-workstations), and the scheduled times in the [For Servers above](#for-servers), then you can create your own. In this example, we are assuming you are doing this as root. [see Assumptions](#assumptions) To do this, type the following:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:91
+#: ../src/docs/guides/automation/cron_jobs_howto.md:131
+#: ../src/docs/guides/backup/rsnapshot_backup.md:412
+#: ../src/docs/guides/backup/rsync_ssh.md:123
+#, no-wrap
+msgid "`crontab -e`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:93
+#, no-wrap
+msgid "This will pull up root user's `crontab` as it exists at this moment in your chosen editor, and may look something like this. Go ahead and read through this commented version, as it contains descriptions of each field that we will be using next:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/automation/cron_jobs_howto.md:94
+#, no-wrap
+msgid ""
+"# Edit this file to introduce tasks to be run by cron.\n"
+"#\n"
+"# Each task to run has to be defined through a single line\n"
+"# indicating with different fields when the task will be run\n"
+"# and what command to run for the task\n"
+"#\n"
+"# To define the time you can provide concrete values for\n"
+"# minute (m), hour (h), day of month (dom), month (mon),\n"
+"# and day of week (dow) or use '*' in these fields (for 'any').\n"
+"#\n"
+"# Notice that tasks will be started based on the cron's system\n"
+"# daemon's notion of time and timezones.\n"
+"#\n"
+"# Output of the crontab jobs (including errors) is sent through\n"
+"# email to the user the crontab file belongs to (unless redirected).\n"
+"# cron\n"
+"# For example, you can run a backup of all your user accounts\n"
+"# at 5 a.m every week with:\n"
+"# 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/\n"
+"#\n"
+"# For more information see the manual pages of crontab(5) and cron(8)\n"
+"#\n"
+"# m h  dom mon dow   command\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:121
+#, no-wrap
+msgid "Notice that this particular `crontab` file has some of its own documentation built-in. That is not always the case. When modifying a `crontab` on a container or minimalist operating system, the `crontab` will be an empty file unless an entry is in it.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:123
+#, no-wrap
+msgid "Assume that you have a backup script that you want to run at 10 PM at night. The `crontab` uses a 24 hour clock, this would be 22:00. Assume that the backup script is called \"backup\" and that it is currently in the _/usr/local/sbin_ directory.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:127
+#, no-wrap
+msgid "    Remember that this script needs to also be executable (`chmod +x`) in order for the `cron` to run it.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:129
+#, no-wrap
+msgid "To add the job, you:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:133
+#, no-wrap
+msgid "`crontab` stands for \"cron table\" and the format of the file is, in fact, a loose table layout. Now that you are in the `crontab`, go to the bottom of the file and add your new entry. If you are using `vi` as your default system editor, then this is done with the following keys:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:135
+#, no-wrap
+msgid "`Shift : $`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:137
+#, no-wrap
+msgid "Now that you are at the bottom of the file, insert a line and type a brief comment to describe what is going on with your entry. This is done by adding a \"#\" to the beginning of the line:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:139
+#, no-wrap
+msgid "`# Backing up the system every night at 10PM`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:141
+#, no-wrap
+msgid "Now hit enter. You should still be in the insert mode, so the next step is to add your entry. As shown in our empty commented `crontab` (above) this is **m** for minutes, **h** for hours, **dom** for day of month, **mon** for month, and **dow** for day of week.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:143
+#, no-wrap
+msgid "To run our backup script every day at 10:00, the entry would look like this:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:145
+#, no-wrap
+msgid "`00  22  *  *  *   /usr/local/sbin/backup`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:147
+#, no-wrap
+msgid "This says run the script at 10 PM, every day of the month, every month, and every day of the week. This is a simplistic example and things can get quite complicated when you need specifics.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/automation/cron_jobs_howto.md:148
+#, no-wrap
+msgid "The @options for `crontab`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:151
+#, no-wrap
+msgid "Another way to run jobs at a strictly scheduled time (i.e., day, week, month, year, and so on.) is to use the @options, which offer the ability to use more natural timing. The @options consist of:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/cron_jobs_howto.md:158
+#, no-wrap
+msgid "`@hourly` runs the script every hour of every day at 0 minutes past the hour. (this is exactly the result of placing your script in `/etc/cron.hourly` too)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/cron_jobs_howto.md:158
+#, no-wrap
+msgid "`@daily` runs the script every day at midnight.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/cron_jobs_howto.md:158
+#, no-wrap
+msgid "`@weekly` runs the script every week at midnight on Sunday.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/cron_jobs_howto.md:158
+#, no-wrap
+msgid "`@monthly` runs the script every month at midnight on the first day of the month.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/cron_jobs_howto.md:158
+#, no-wrap
+msgid "`@yearly` runs the script every year at midnight on the first day of January.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/cron_jobs_howto.md:158
+#, no-wrap
+msgid "`@reboot` runs the script on system startup only.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:162
+#, no-wrap
+msgid "    Using these `crontab` entries bypasses the `anacron` system and reverts to the `crond.service` whether `anacron` is installed or not.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:164
+#, no-wrap
+msgid "For our backup script example, if we use the @daily option to run the backup script at midnight, the entry would look like this:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:166
+#, no-wrap
+msgid "`@daily  /usr/local/sbin/backup`\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/automation/cron_jobs_howto.md:167
+#, no-wrap
+msgid "More Complex Options"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:170
+#, no-wrap
+msgid "So far, everything we have talked about has had pretty simplistic options, but what about the more complex task timings? Say that you want to run your backup script every 10 minutes during the day (probably not a practical thing to do, but hey, this is an example!). To do this you would write:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:172
+#, no-wrap
+msgid "`*/10  *   *   *   *   /usr/local/sbin/backup`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:174
+#, no-wrap
+msgid "What if you wanted to run the backup every 10 minutes, but only on Monday, Wednesday, and Friday?:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:176
+#, no-wrap
+msgid "`*/10  *   *   *   1,3,5   /usr/local/sbin/backup`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:178
+#, no-wrap
+msgid "What about every 10 minutes every day except Saturday and Sunday?:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:180
+#, no-wrap
+msgid "`*/10  *   *   *    1-5    /usr/local/sbin/backup`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:182
+#, no-wrap
+msgid "In the table, the commas lets you specify individual entries within a field,  and the dash lets you specify a range of values within a field. This can happen in any of the fields, and on many fields at the same time. As you can see, things can get pretty complicated.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:184
+#, no-wrap
+msgid "When determining when to run a script, you need to take time and plan it out, particularly if the criteria are complex.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:188
+#, no-wrap
+msgid "The _cron/crontab_ system is a powerful tool for the Rocky Linux systems administrator or desktop user. It allows you to automate tasks and scripts so that you do not have to remember to run them manually. There are more examples provided here:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/cron_jobs_howto.md:191
+#, no-wrap
+msgid "For machines that are **not** on 24 hours a day, explore [anacron - Automating commands](anacron.md).\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/cron_jobs_howto.md:191
+#, no-wrap
+msgid "For a concise description of `cron` processes, check out [cronie - Timed Tasks](cronie.md)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/cron_jobs_howto.md:192
+#, no-wrap
+msgid "While the basics are pretty easy, you can get more complex. For more information on `crontab` head up to the [crontab manual page](https://man7.org/linux/man-pages/man5/crontab.5.html). On most systems, you can also enter `man crontab` for additional command details. You can also do a web search for \"crontab\" which will give you a wealth of results to help you fine-tune your `crontab` skills.\n"
+msgstr ""

@@ -1,0 +1,1083 @@
+# French translations for po package
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-16 16:28+0000\n"
+"PO-Revision-Date: 2023-06-16 16:28+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/06-users.md:308
+#: ../src/docs/books/admin_guide/06-users.md:644
+#: ../src/docs/books/admin_guide/07-file-systems.md:195
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:30
+#: ../src/docs/books/learning_bash/01-first-script.md:46
+#: ../src/docs/books/learning_bash/01-first-script.md:77
+#: ../src/docs/books/learning_bash/02-using-variables.md:185
+#: ../src/docs/books/learning_bash/05-tests.md:63
+#: ../src/docs/books/lxd_server/07-configurations.md:102
+#: ../src/docs/books/nvchad/install_nvchad.md:182
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:53
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:133
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:153
+#: ../src/docs/guides/automation/cron_jobs_howto.md:83
+#: ../src/docs/guides/automation/cron_jobs_howto.md:125
+#: ../src/docs/guides/automation/cron_jobs_howto.md:160
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:44
+#: ../src/docs/guides/cms/dokuwiki_server.md:216
+#: ../src/docs/guides/communications/asterisk_installation.md:12
+#: ../src/docs/guides/containers/podman-nextcloud.md:361
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:72
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:350
+#: ../src/docs/guides/desktop/kde_installation.md:16
+#: ../src/docs/guides/file_sharing/sftp.md:54
+#: ../src/docs/guides/file_sharing/sftp.md:129
+#: ../src/docs/guides/file_sharing/sftp.md:321
+#: ../src/docs/guides/proxies/pound.md:62
+#: ../src/docs/guides/proxies/pound.md:418 ../src/docs/index.md:40
+#: ../src/docs/release_notes/9_1.md:16
+#, no-wrap
+msgid "!!! note\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:785
+#: ../src/docs/guides/containers/lxd_web_servers.md:73
+#: ../src/docs/guides/containers/lxd_web_servers.md:851
+#: ../src/docs/guides/containers/podman-nextcloud.md:51
+#, no-wrap
+msgid "dnf update\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/13-softwares.md:900
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:105
+#: ../src/docs/books/nvchad/template_chadrc.md:352
+#: ../src/docs/gemstones/bash_stub.md:103
+#: ../src/docs/gemstones/perl_search_replace.md:38
+#: ../src/docs/gemstones/sed_search_replace.md:72
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:172
+#: ../src/docs/guides/automation/olivetin.md:142
+#: ../src/docs/guides/cms/dokuwiki_server.md:306
+#: ../src/docs/guides/communications/asterisk_installation.md:261
+#: ../src/docs/guides/containers/lxd_web_servers.md:919
+#: ../src/docs/guides/containers/podman-nextcloud.md:456
+#: ../src/docs/guides/contribute/local_docs.md:47
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:322
+#: ../src/docs/guides/contribute/navigation.md:129
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:458
+#: ../src/docs/guides/database/database_mariadb-server.md:197
+#: ../src/docs/guides/desktop/kde_installation.md:105
+#: ../src/docs/guides/desktop/mate_installation.md:200
+#: ../src/docs/guides/desktop/xfce_installation.md:218
+#: ../src/docs/guides/editors/micro.md:79
+#: ../src/docs/guides/email/postfix_reporting.md:254
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:270
+#: ../src/docs/guides/file_sharing/sftp.md:765
+#: ../src/docs/guides/proxies/pound.md:460
+#: ../src/docs/guides/security/dnf_automatic.md:119
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:54
+#: ../src/docs/guides/security/firewalld-beginners.md:427
+#: ../src/docs/guides/security/firewalld.md:477
+#: ../src/docs/guides/security/pam.md:137
+#: ../src/docs/guides/security/ssl_keys_https.md:136
+#: ../src/docs/guides/virtualization/vbox-rocky.md:160
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:147
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:235
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:157
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:91
+#: ../src/docs/guides/web/mod_SSL_apache.md:171
+#: ../src/docs/guides/web/nginx-mainline.md:352
+#: ../src/docs/guides/web/nginx-multisite.md:359
+#, no-wrap
+msgid "Conclusion"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:338
+#: ../src/docs/books/admin_guide/14-special-authority.md:354
+#: ../src/docs/books/admin_guide/14-special-authority.md:404
+#: ../src/docs/books/admin_guide/14-special-authority.md:435
+#: ../src/docs/books/admin_guide/14-special-authority.md:690
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:83
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:102
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:253
+#: ../src/docs/books/lxd_server/04-firewall.md:76
+#: ../src/docs/books/lxd_server/08-snapshots.md:86
+#: ../src/docs/gemstones/RL9_network_manager.md:150
+#: ../src/docs/gemstones/nmtui.md:52
+#: ../src/docs/gemstones/view_kernel_conf.md:21
+#: ../src/docs/guides/backup/rsync_ssh.md:79
+#: ../src/docs/guides/cms/dokuwiki_server.md:226
+#: ../src/docs/guides/containers/lxd_web_servers.md:786
+#: ../src/docs/guides/containers/podman-nextcloud.md:270
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:96
+#: ../src/docs/guides/file_sharing/sftp.md:264
+#: ../src/docs/guides/package_management/index.md:10
+#: ../src/docs/guides/proxies/pound.md:211
+#: ../src/docs/guides/proxies/pound.md:265 ../src/docs/release_notes/8_4.md:20
+#, no-wrap
+msgid "!!! warning\n"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
+#: ../src/docs/books/learning_ansible/05-deployments.md:31
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/00-toc.md:13
+#: ../src/docs/books/nvchad/index.md:12
+#: ../src/docs/books/nvchad/plugins/index.md:14
+#: ../src/docs/books/nvchad/plugins/md_preview.md:14
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
+#: ../src/docs/books/nvchad/vale_nvchad.md:12
+#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
+#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
+#: ../src/docs/gemstones/string_color.md:11
+#: ../src/docs/guides/automation/cron_jobs_howto.md:25
+#: ../src/docs/guides/automation/olivetin.md:14
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
+#: ../src/docs/guides/backup/rsnapshot_backup.md:22
+#: ../src/docs/guides/backup/rsync_ssh.md:24
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
+#: ../src/docs/guides/cms/dokuwiki_server.md:23
+#: ../src/docs/guides/containers/lxd_web_servers.md:10
+#: ../src/docs/guides/containers/podman-nextcloud.md:13
+#: ../src/docs/guides/contribute/local_docs.md:11
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
+#: ../src/docs/guides/contribute/mkdocs_venv.md:14
+#: ../src/docs/guides/contribute/style_guide.md:14
+#: ../src/docs/guides/database/database_mariadb-server.md:21
+#: ../src/docs/guides/desktop/kde_installation.md:11
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
+#: ../src/docs/guides/editors/micro.md:14
+#: ../src/docs/guides/email/postfix_reporting.md:22
+#: ../src/docs/guides/file_sharing/glusterfs.md:16
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
+#: ../src/docs/guides/file_sharing/sftp.md:16
+#: ../src/docs/guides/migrate2rocky.md:18
+#: ../src/docs/guides/network/basic_network_configuration.md:12
+#: ../src/docs/guides/network/librenms_monitoring_server.md:13
+#: ../src/docs/guides/package_management/index.md:1
+#: ../src/docs/guides/package_management/index.md:5
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
+#: ../src/docs/guides/proxies/pound.md:17
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
+#: ../src/docs/guides/security/firewalld-beginners.md:10
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
+#: ../src/docs/guides/security/ssh_public_private_keys.md:21
+#: ../src/docs/guides/security/ssl_keys_https.md:22
+#: ../src/docs/guides/virtualization/vbox-rocky.md:13
+#: ../src/docs/guides/web/apache-sites-enabled.md:25
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
+#: ../src/docs/guides/web/nginx-mainline.md:13
+#: ../src/docs/guides/web/nginx-multisite.md:14
+#: ../src/docs/labs/security/introduction.md:1
+#: ../src/docs/labs/security/introduction.md:5
+#, fuzzy, no-wrap
+#| msgid "Introduction to Linux"
+msgid "Introduction"
+msgstr "Introduction à Linux"
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/dnf-swap.md:1
+#: ../src/docs/guides/containers/podman-nextcloud.md:1
+#, no-wrap
+msgid "containers"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:1
+#: ../src/docs/guides/containers/podman-nextcloud.md:1
+#, no-wrap
+msgid "nextcloud"
+msgstr ""
+
+#. type: YAML Front Matter: contributors
+#: ../src/docs/guides/containers/podman-nextcloud.md:1
+#: ../src/docs/guides/contribute/beginners.md:1
+#, no-wrap
+msgid "Ezequiel Bruni, Steven Spencer"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/containers/podman-nextcloud.md:1
+#, no-wrap
+msgid "podman"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/guides/containers/podman-nextcloud.md:1
+#, no-wrap
+msgid "Nextcloud on Podman"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/guides/containers/podman-nextcloud.md:11
+#, no-wrap
+msgid "Running Nextcloud as a Podman Container on Rocky Linux"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:16
+#, no-wrap
+msgid "This document explains all the required steps needed to build and run a [Nextcloud](https://nextcloud.com) instance as a Podman container on Rocky Linux. What's more, this entire guide was tested on a Raspberry Pi, so it should be compatible with every Rocky-supported processor architecture.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:18
+#, no-wrap
+msgid "The procedure is broken down into multiple steps, each with its own shell scripts for automation:\n"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/guides/containers/podman-nextcloud.md:24
+#, no-wrap
+msgid "Installing the `podman` and `buildah` packages to manage and build our containers, respectively\n"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: ../src/docs/guides/containers/podman-nextcloud.md:24
+#, no-wrap
+msgid "Creating a base image which will be repurposed for all of the containers we'll need\n"
+msgstr ""
+
+#. type: Bullet: '3. '
+#: ../src/docs/guides/containers/podman-nextcloud.md:24
+#, no-wrap
+msgid "Creating a `db-tools` container image with the required shell scripts for building and running your MariaDB database\n"
+msgstr ""
+
+#. type: Bullet: '4. '
+#: ../src/docs/guides/containers/podman-nextcloud.md:24
+#, no-wrap
+msgid "Creating and running MariaDB as a Podman container\n"
+msgstr ""
+
+#. type: Bullet: '5. '
+#: ../src/docs/guides/containers/podman-nextcloud.md:24
+#, no-wrap
+msgid "Creating and running Nextcloud as a Podman container, using the MariaDB Podman container as backend\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:26
+#, no-wrap
+msgid "You could run most of the commands in the guide manually, but setting up a few bash scripts will make your life a lot easier, especially when you want to repeat these steps with different settings, variables, or container names.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:28
+#, no-wrap
+msgid "!!! Note \"Note for Beginners:\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:30
+#, no-wrap
+msgid "    Podman is tool for managing containers, specifically OCI (Open Containers Initiative) containers. It's designed to be pretty much Docker-compatible, in that most if not all of the same commands will work for both tools. If \"Docker\" means nothing to you—or even if you're just curious—you can read more about Podman and how it works on [Podman's own website](https://podman.io).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:32
+#, no-wrap
+msgid "    `buildah` is a tool that builds Podman container images based on \"DockerFiles\".\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:34
+#, no-wrap
+msgid "    This guide was designed as an exercise to help people get familiar with running Podman containers in general, and on Rocky Linux specifically.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/containers/podman-nextcloud.md:35
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:19
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:13
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:19
+#: ../src/docs/guides/proxies/pound.md:27
+#: ../src/docs/guides/security/firewalld-beginners.md:36
+#: ../src/docs/guides/security/firewalld.md:25
+#: ../src/docs/guides/security/pam.md:13
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:14
+#: ../src/docs/guides/web/nginx-mainline.md:41
+#: ../src/docs/guides/web/nginx-multisite.md:28
+#, no-wrap
+msgid "Prerequisites and Assumptions"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:38
+#, no-wrap
+msgid "Here's everything you'll need, or need to know, in order to make this guide work:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/containers/podman-nextcloud.md:46
+#, no-wrap
+msgid "Familiarity with the command line, bash scripts, and editing Linux configuration files.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/containers/podman-nextcloud.md:46
+#, no-wrap
+msgid "SSH access if working on a remote machine.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/containers/podman-nextcloud.md:46
+#, no-wrap
+msgid "A command-line based text editor of your choice. We'll be using `vi` for this guide. \n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/containers/podman-nextcloud.md:46
+#, no-wrap
+msgid "An internet-connected Rocky Linux machine (again, a Raspberry Pi will work nicely).\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/containers/podman-nextcloud.md:46
+#, no-wrap
+msgid "Many of these commands must be run as root, so you'll need a root or sudo-capable user on the machine.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/containers/podman-nextcloud.md:46
+#, no-wrap
+msgid "Familiarity with web servers and MariaDB would definitely help.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/containers/podman-nextcloud.md:46
+#, no-wrap
+msgid "Familiarity with containers and maybe Docker would be a *definite* plus, but is not strictly essential.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/containers/podman-nextcloud.md:47
+#, no-wrap
+msgid "Step 01: Install `podman` and `buildah`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:50
+#, no-wrap
+msgid "First, make sure your system is up-to-date:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:56
+#, no-wrap
+msgid "Then you'll want to install the `epel-release` repository for all the extra packages we'll be using.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/containers/podman-nextcloud.md:57
+#, no-wrap
+msgid "dnf -y install epel-release \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:62
+#, no-wrap
+msgid "Once that's done, you can update again (which sometimes helps) or just go ahead and install the packages we need:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/containers/podman-nextcloud.md:63
+#, no-wrap
+msgid "dnf -y install podman buildah\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:68
+#, no-wrap
+msgid "Once they're installed, run `podman --version` and `buildah --version` to make sure everything is working correctly.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:70
+#, no-wrap
+msgid "To access Red Hat's registry for downloading container images, you'll need to run:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/containers/podman-nextcloud.md:71
+#, no-wrap
+msgid "vi /etc/containers/registries.conf\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:76
+#, no-wrap
+msgid "Find the section that looks like what you see below. If it's commented out, uncomment it.\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/containers/podman-nextcloud.md:77
+#, no-wrap
+msgid ""
+"[registries.insecure]\n"
+"registries = ['registry.access.redhat.com', 'registry.redhat.io', 'docker.io'] \n"
+"insecure = true\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/containers/podman-nextcloud.md:83
+#, no-wrap
+msgid "Step 02: Create the `base` Container Image"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:86
+#, no-wrap
+msgid "In this guide, we're working as the root user, but you can do this in any home directory. Change to the root directory if you're not already there:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/containers/podman-nextcloud.md:87
+#, no-wrap
+msgid "cd /root\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:92
+#, no-wrap
+msgid "Now make all of the directories you'll need for your various container builds:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/containers/podman-nextcloud.md:93
+#, no-wrap
+msgid "mkdir base db-tools mariadb nextcloud\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:98
+#, no-wrap
+msgid "Now change your working directory to the folder for the base image:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/containers/podman-nextcloud.md:99
+#, no-wrap
+msgid "cd /root/base\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:104
+#, no-wrap
+msgid "And make a file called DockerFile. Yes, Podman uses them too.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/containers/podman-nextcloud.md:105
+#: ../src/docs/guides/containers/podman-nextcloud.md:211
+#: ../src/docs/guides/containers/podman-nextcloud.md:356
+#, no-wrap
+msgid "vi Dockerfile\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:110
+#, no-wrap
+msgid "Copy and paste the following text into your brand new DockerFile.\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/containers/podman-nextcloud.md:111
+#, no-wrap
+msgid ""
+"FROM rockylinux/rockylinux:latest\n"
+"ENV container docker\n"
+"RUN yum -y install epel-release ; yum -y update\n"
+"RUN dnf module enable -y php:7.4\n"
+"RUN dnf install -y php\n"
+"RUN yum install -y bzip2 unzip lsof wget traceroute nmap tcpdump bridge-utils ; yum -y update\n"
+"RUN (cd /lib/systemd/system/sysinit.target.wants/; for i in *; do [ $i == \\\n"
+"systemd-tmpfiles-setup.service ] || rm -f $i; done); \\\n"
+"rm -f /lib/systemd/system/multi-user.target.wants/*;\\\n"
+"rm -f /etc/systemd/system/*.wants/*;\\\n"
+"rm -f /lib/systemd/system/local-fs.target.wants/*; \\\n"
+"rm -f /lib/systemd/system/sockets.target.wants/*udev*; \\\n"
+"rm -f /lib/systemd/system/sockets.target.wants/*initctl*; \\\n"
+"rm -f /lib/systemd/system/basic.target.wants/*;\\\n"
+"rm -f /lib/systemd/system/anaconda.target.wants/*;\n"
+"VOLUME [ \"/sys/fs/cgroup\" ]\n"
+"CMD [\"/usr/sbin/init\"]\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:132
+#, no-wrap
+msgid "Save and close the previous file, and make a new bash script file: \n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/containers/podman-nextcloud.md:133
+#: ../src/docs/guides/containers/podman-nextcloud.md:227
+#: ../src/docs/guides/containers/podman-nextcloud.md:318
+#: ../src/docs/guides/containers/podman-nextcloud.md:372
+#, no-wrap
+msgid "vi build.sh\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:138
+#, no-wrap
+msgid "Then paste in this content:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/containers/podman-nextcloud.md:139
+#, no-wrap
+msgid ""
+"#!/bin/bash\n"
+"clear\n"
+"buildah rmi `buildah images -q base` ;\n"
+"buildah bud --no-cache -t base . ;\n"
+"buildah images -a\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:148
+#, no-wrap
+msgid "Now make your build script executable with:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/containers/podman-nextcloud.md:149
+#: ../src/docs/guides/containers/podman-nextcloud.md:243
+#, no-wrap
+msgid "chmod +x build.sh\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:154
+#: ../src/docs/guides/containers/podman-nextcloud.md:248
+#, no-wrap
+msgid "And run it:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/containers/podman-nextcloud.md:155
+#: ../src/docs/guides/containers/podman-nextcloud.md:249
+#, no-wrap
+msgid "./build.sh\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:160
+#, no-wrap
+msgid "Wait until it's done, and move on to the next step.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/containers/podman-nextcloud.md:161
+#, no-wrap
+msgid "Step 03: Create the `db-tools` Container Image  "
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:164
+#, no-wrap
+msgid "For the purposes of this guide, we're keeping the database setup as simple as we can. You'll want to keep track of the following, and modify them as needed:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/containers/podman-nextcloud.md:169
+#, no-wrap
+msgid "Database name: ncdb\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/containers/podman-nextcloud.md:169
+#, no-wrap
+msgid "Database user: nc-user\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/containers/podman-nextcloud.md:169
+#, no-wrap
+msgid "Database pass: nc-pass\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/containers/podman-nextcloud.md:169
+#, no-wrap
+msgid "Your server IP address (we'll be using an example IP below)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:171
+#, no-wrap
+msgid "First, change to the folder where you'll be building the db-tools image:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/containers/podman-nextcloud.md:172
+#, no-wrap
+msgid "cd /root/db-tools\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:177
+#, no-wrap
+msgid "Now set up some bash scripts that will be used inside the Podman container image. First, make the script that will automatically build your database for you: \n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/containers/podman-nextcloud.md:178
+#, no-wrap
+msgid "vi db-create.sh\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:183
+#, no-wrap
+msgid "Now copy and paste the following code into that file, using your favorite text editor:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/containers/podman-nextcloud.md:184
+#, no-wrap
+msgid ""
+"#!/bin/bash\n"
+"mysql -h 10.1.1.160 -u root -p rockylinux << eof\n"
+"create database ncdb;\n"
+"grant all on ncdb.* to 'nc-user'@'10.1.1.160' identified by 'nc-pass';\n"
+"flush privileges;\n"
+"eof\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:194
+#, no-wrap
+msgid "Save and close, then repeat the steps with the script for deleting databases as needed:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/containers/podman-nextcloud.md:195
+#, no-wrap
+msgid "vi db-drop.sh\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:200
+#, no-wrap
+msgid "Copy and paste this code into the new file:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/containers/podman-nextcloud.md:201
+#, no-wrap
+msgid ""
+"#!/bin/bash\n"
+"mysql -h 10.1.1.160 -u root -p rockylinux << eof\n"
+"drop database ncdb;\n"
+"flush privileges;\n"
+"eof\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:210
+#, no-wrap
+msgid "Lastly, let's setup the DockerFile for the `db-tools` image:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:216
+#, no-wrap
+msgid "Copy and paste:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/containers/podman-nextcloud.md:217
+#, no-wrap
+msgid ""
+"FROM localhost/base\n"
+"RUN yum -y install mysql\n"
+"WORKDIR /root\n"
+"COPY db-drop.sh db-drop.sh\n"
+"COPY db-create.sh db-create.sh\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:226
+#, no-wrap
+msgid "And last but not least, create the bash script to build your image on command:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:232
+#, no-wrap
+msgid "The code you'll want:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/containers/podman-nextcloud.md:233
+#, no-wrap
+msgid ""
+"#!/bin/bash\n"
+"clear\n"
+"buildah rmi `buildah images -q db-tools` ;\n"
+"buildah bud --no-cache -t db-tools . ;\n"
+"buildah images -a\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:242
+#, no-wrap
+msgid "Save and close, then make the file executable:\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/containers/podman-nextcloud.md:253
+#, no-wrap
+msgid "Step 04: Create the MariaDB container image "
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:256
+#, no-wrap
+msgid "You're getting the hang of the process, right? It's time to build that actual database container. Change the working directory to `/root/mariadb`:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/containers/podman-nextcloud.md:257
+#, no-wrap
+msgid "cd /root/mariadb\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:262
+#, no-wrap
+msgid "Make a script to (re)build the container whenever you want:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/containers/podman-nextcloud.md:263
+#, no-wrap
+msgid "vi db-init.sh\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:268
+#, no-wrap
+msgid "And here's the code you'll need:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:272
+#, no-wrap
+msgid "    For the purposes of this guide, the following script will delete all Podman Volumes. If you have other applications running with their own volumes, modify/comment the line \"podman volume rm --all\";\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/containers/podman-nextcloud.md:273
+#, no-wrap
+msgid ""
+"#!/bin/bash\n"
+"clear\n"
+"echo \" \"\n"
+"echo \"Deleting existing volumes if any....\"\n"
+"podman volume rm --all ;\n"
+"echo \" \"\n"
+"echo \"Starting mariadb container.....\"\n"
+"podman run --name mariadb --label mariadb -d --net host -e MYSQL_ROOT_PASSWORD=rockylinux -v /sys/fs/cgroup:/sys/fs/cgroup:ro -v mariadb-data:/var/lib/mysql/data:Z mariadb ;\n"
+"\n"
+"echo \" \"\n"
+"echo \"Initializing mariadb (takes 2 minutes).....\"\n"
+"sleep 120 ;\n"
+"\n"
+"echo \" \"\n"
+"echo \"Creating ncdb Database for nextcloud .....\"\n"
+"podman run --rm --net host db-tools /root/db-create.sh ;\n"
+"\n"
+"echo \" \"\n"
+"echo \"Listing podman volumes....\"\n"
+"podman volume ls\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:297
+#, no-wrap
+msgid "Here's where you make a script to reset your database whenever you like:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/containers/podman-nextcloud.md:298
+#, no-wrap
+msgid "vi db-reset.sh\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:303
+#, no-wrap
+msgid "And here's the code:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/containers/podman-nextcloud.md:304
+#, no-wrap
+msgid ""
+"#!/bin/bash\n"
+"clear\n"
+"echo \" \"\n"
+"echo \"Deleting ncdb Database for nextcloud .....\"\n"
+"podman run --rm --net host db-tools /root/db-drop.sh ;\n"
+"\n"
+"echo \" \"\n"
+"echo \"Creating ncdb Database for nextcloud .....\"\n"
+"podman run --rm --net host db-tools /root/db-create.sh ;\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:317
+#, no-wrap
+msgid "And lastly, here's your build script that'll put the whole mariadb container together:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:323
+#, no-wrap
+msgid "With its code:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/containers/podman-nextcloud.md:324
+#, no-wrap
+msgid ""
+"#!/bin/bash\n"
+"clear\n"
+"buildah rmi `buildah images -q mariadb` ;\n"
+"buildah bud --no-cache -t mariadb . ;\n"
+"buildah images -a\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:333
+#, no-wrap
+msgid "Now just make your DockferFile (`vi Dockerfile`), and paste in the following single line:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/containers/podman-nextcloud.md:334
+#, no-wrap
+msgid "FROM arm64v8/mariadb\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:339
+#, no-wrap
+msgid "Now make your build script executable and run it:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/containers/podman-nextcloud.md:340
+#: ../src/docs/guides/containers/podman-nextcloud.md:424
+#, no-wrap
+msgid ""
+"chmod +x *.sh\n"
+"\n"
+"./build.sh\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/containers/podman-nextcloud.md:346
+#, no-wrap
+msgid "Step 05: Build and Run the Nextcloud Container"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:349
+#, no-wrap
+msgid "We're at the final step, and the process pretty much repeats itself. Change to the Nextcloud image directory:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/containers/podman-nextcloud.md:350
+#, no-wrap
+msgid "cd /root/nextcloud\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:355
+#, no-wrap
+msgid "Set up your DockerFile first this time, for variety:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:363
+#, no-wrap
+msgid "    This next bit assumes ARM architecture (for the Raspberry Pi), so if you are using another architecture, remember to change this. \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:365
+#, no-wrap
+msgid "And paste in this bit:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/containers/podman-nextcloud.md:366
+#, no-wrap
+msgid "FROM arm64v8/nextcloud\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:371
+#, no-wrap
+msgid "Npw create your build script:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:377
+#, no-wrap
+msgid "And paste in this code:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/containers/podman-nextcloud.md:378
+#, no-wrap
+msgid ""
+"#!/bin/bash\n"
+"clear\n"
+"buildah rmi `buildah images -q nextcloud` ;\n"
+"buildah bud --no-cache -t nextcloud . ;\n"
+"buildah images -a\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:387
+#, no-wrap
+msgid "Now, we're going to set up a bunch of local folders on the host server (*not* in any Podman container), so that we can rebuild our containers and databases without fear of losing all of our files:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/containers/podman-nextcloud.md:388
+#, no-wrap
+msgid "mkdir -p /usr/local/nc/nextcloud /usr/local/nc/apps /usr/local/nc/config /usr/local/nc/data\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:393
+#, no-wrap
+msgid "Lastly, we're going to create the script that will actually build the Nextcloud container for us:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/containers/podman-nextcloud.md:394
+#, no-wrap
+msgid "vi run.sh\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:399
+#, no-wrap
+msgid "And here's all the code you need for that. Make sure you change the IP address for `MYSQL_HOST` to the docker container that's running your MariaDB instance.\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/containers/podman-nextcloud.md:400
+#, no-wrap
+msgid ""
+"#!/bin/bash\n"
+"clear\n"
+"echo \" \"\n"
+"echo \"Starting nextloud container.....\"\n"
+"podman run --name nextcloud --net host --privileged -d -p 80:80 \\\n"
+"-e MYSQL_HOST=10.1.1.160 \\\n"
+"-e MYSQL_DATABASE=ncdb \\\n"
+"-e MYSQL_USER=nc-user \\\n"
+"-e MYSQL_PASSWORD=nc-pass \\\n"
+"-e NEXTCLOUD_ADMIN_USER=admin \\\n"
+"-e NEXTCLOUD_ADMIN_PASSWORD=rockylinux \\\n"
+"-e NEXTCLOUD_DATA_DIR=/var/www/html/data \\\n"
+"-e NEXTCLOUD_TRUSTED_DOMAINS=10.1.1.160 \\\n"
+"-v /sys/fs/cgroup:/sys/fs/cgroup:ro \\\n"
+"-v /usr/local/nc/nextcloud:/var/www/html \\\n"
+"-v /usr/local/nc/apps:/var/www/html/custom_apps \\\n"
+"-v /usr/local/nc/config:/var/www/html/config \\\n"
+"-v /usr/local/nc/data:/var/www/html/data \\\n"
+"nextcloud ;\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:423
+#, no-wrap
+msgid "Save and close that out, make all of your scripts executable, then run the image building script first: \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:431
+#, no-wrap
+msgid "To make sure all of your images have been built correctly, run `podman images`. You should see a list that looks like this:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/containers/podman-nextcloud.md:432
+#, no-wrap
+msgid ""
+"REPOSITORY                      TAG    IMAGE ID     CREATED      SIZE\n"
+"localhost/db-tools              latest 8f7ccb04ecab 6 days ago   557 MB\n"
+"localhost/base                  latest 03ae68ad2271 6 days ago   465 MB\n"
+"docker.io/arm64v8/mariadb       latest 89a126188478 11 days ago  405 MB\n"
+"docker.io/arm64v8/nextcloud     latest 579a44c1dc98 3 weeks ago  945 MB\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:441
+#, no-wrap
+msgid "If it all looks right, run the final script to get Nextcloud up and going:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/containers/podman-nextcloud.md:442
+#, no-wrap
+msgid "./run.sh\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:447
+#, no-wrap
+msgid "When you run `podman ps -a`, you should see a list of running containers that looks like this:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/containers/podman-nextcloud.md:448
+#, no-wrap
+msgid ""
+"CONTAINER ID IMAGE                              COMMAND              CREATED        STATUS            PORTS    NAMES\n"
+"9518756a259a docker.io/arm64v8/mariadb:latest   mariadbd             3 minutes  ago Up 3 minutes ago           mariadb\n"
+"32534e5a5890 docker.io/arm64v8/nextcloud:latest apache2-foregroun... 12 seconds ago Up 12 seconds ago          nextcloud\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:455
+#, no-wrap
+msgid "From there, you should be able to point your browser to your server IP address. If you are following along and have the same IP as our example, you can substitute that in here (e.g., http://your-server-ip) and see Nextcloud up and running.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/containers/podman-nextcloud.md:458
+#, no-wrap
+msgid "Obviously, this guide would have to be somewhat modified on a production server, especially if the Nextcloud instance is intended to be public-facing. Still, that should give you a basic idea of how Podman works, and how you can set it up with scripts and multiple base images to make rebuilds easier.\n"
+msgstr ""

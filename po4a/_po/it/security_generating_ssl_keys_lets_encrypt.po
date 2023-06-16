@@ -1,0 +1,955 @@
+# Italian translations for po package
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-16 16:28+0000\n"
+"PO-Revision-Date: 2023-06-16 16:28+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:43
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:220
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:271
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:334
+#: ../src/docs/books/admin_guide/05-vi.md:70
+#: ../src/docs/books/admin_guide/05-vi.md:206
+#: ../src/docs/books/admin_guide/05-vi.md:272
+#: ../src/docs/books/admin_guide/06-users.md:36
+#: ../src/docs/books/admin_guide/06-users.md:92
+#: ../src/docs/books/admin_guide/06-users.md:220
+#: ../src/docs/books/admin_guide/06-users.md:350
+#: ../src/docs/books/admin_guide/06-users.md:598
+#: ../src/docs/books/admin_guide/06-users.md:754
+#: ../src/docs/books/admin_guide/06-users.md:818
+#: ../src/docs/books/admin_guide/11-tasks.md:174
+#: ../src/docs/books/admin_guide/12-network.md:158
+#: ../src/docs/books/admin_guide/03-commands.md:516
+#: ../src/docs/books/admin_guide/03-commands.md:693
+#: ../src/docs/books/admin_guide/03-commands.md:1216
+#: ../src/docs/books/admin_guide/03-commands.md:1262
+#: ../src/docs/books/admin_guide/03-commands.md:1297
+#: ../src/docs/books/admin_guide/07-file-systems.md:395
+#: ../src/docs/books/admin_guide/07-file-systems.md:437
+#: ../src/docs/books/admin_guide/07-file-systems.md:447
+#: ../src/docs/books/admin_guide/07-file-systems.md:515
+#: ../src/docs/books/admin_guide/07-file-systems.md:556
+#: ../src/docs/books/admin_guide/07-file-systems.md:627
+#: ../src/docs/books/admin_guide/07-file-systems.md:653
+#: ../src/docs/books/admin_guide/07-file-systems.md:672
+#: ../src/docs/books/admin_guide/07-file-systems.md:676
+#: ../src/docs/books/admin_guide/07-file-systems.md:1019
+#: ../src/docs/books/admin_guide/08-process.md:49
+#: ../src/docs/books/admin_guide/08-process.md:238
+#: ../src/docs/books/admin_guide/09-backups.md:27
+#: ../src/docs/books/admin_guide/09-backups.md:116
+#: ../src/docs/books/admin_guide/09-backups.md:133
+#: ../src/docs/books/admin_guide/09-backups.md:148
+#: ../src/docs/books/admin_guide/09-backups.md:281
+#: ../src/docs/books/admin_guide/09-backups.md:285
+#: ../src/docs/books/admin_guide/09-backups.md:301
+#: ../src/docs/books/admin_guide/09-backups.md:342
+#: ../src/docs/books/admin_guide/09-backups.md:352
+#: ../src/docs/books/admin_guide/09-backups.md:554
+#: ../src/docs/books/admin_guide/09-backups.md:771
+#: ../src/docs/books/admin_guide/10-boot.md:114
+#: ../src/docs/books/admin_guide/10-boot.md:153
+#: ../src/docs/books/admin_guide/10-boot.md:165
+#: ../src/docs/books/admin_guide/13-softwares.md:22
+#: ../src/docs/books/learning_ansible/01-basic.md:51
+#: ../src/docs/books/learning_ansible/01-basic.md:104
+#: ../src/docs/books/learning_ansible/01-basic.md:112
+#: ../src/docs/books/learning_ansible/01-basic.md:328
+#: ../src/docs/books/learning_ansible/01-basic.md:415
+#: ../src/docs/books/learning_ansible/01-basic.md:492
+#: ../src/docs/books/learning_ansible/01-basic.md:633
+#: ../src/docs/books/learning_ansible/01-basic.md:656
+#: ../src/docs/books/learning_ansible/02-advanced.md:34
+#: ../src/docs/books/learning_ansible/02-advanced.md:150
+#: ../src/docs/books/learning_ansible/02-advanced.md:182
+#: ../src/docs/books/learning_ansible/02-advanced.md:269
+#: ../src/docs/books/learning_ansible/02-advanced.md:277
+#: ../src/docs/books/learning_ansible/02-advanced.md:287
+#: ../src/docs/books/learning_ansible/02-advanced.md:293
+#: ../src/docs/books/learning_ansible/02-advanced.md:360
+#: ../src/docs/books/learning_ansible/02-advanced.md:428
+#: ../src/docs/books/learning_ansible/02-advanced.md:601
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:33
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:58
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:77
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:96
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:113
+#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:65
+#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:432
+#: ../src/docs/books/learning_ansible/05-deployments.md:41
+#: ../src/docs/books/learning_ansible/05-deployments.md:124
+#: ../src/docs/books/learning_ansible/05-deployments.md:196
+#: ../src/docs/books/learning_ansible/05-deployments.md:616
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:36
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:40
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:80
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:214
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:32
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:75
+#: ../src/docs/books/learning_bash/02-using-variables.md:153
+#: ../src/docs/books/learning_bash/02-using-variables.md:193
+#: ../src/docs/books/learning_bash/05-tests.md:245
+#: ../src/docs/books/learning_bash/07-loops.md:180
+#: ../src/docs/books/lxd_server/04-firewall.md:80
+#: ../src/docs/books/nvchad/plugins/md_preview.md:140
+#: ../src/docs/books/nvchad/template_chadrc.md:239
+#: ../src/docs/gemstones/https_rsa_keygen.md:34
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:80
+#: ../src/docs/guides/8_6_installation.md:37
+#: ../src/docs/guides/8_6_installation.md:168
+#: ../src/docs/guides/8_6_installation.md:176
+#: ../src/docs/guides/8_6_installation.md:182
+#: ../src/docs/guides/8_6_installation.md:250
+#: ../src/docs/guides/automation/olivetin.md:60
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:307
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:323
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:486
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:533
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:667
+#: ../src/docs/guides/containers/lxd_web_servers.md:35
+#: ../src/docs/guides/containers/lxd_web_servers.md:45
+#: ../src/docs/guides/containers/lxd_web_servers.md:301
+#: ../src/docs/guides/containers/lxd_web_servers.md:352
+#: ../src/docs/guides/containers/lxd_web_servers.md:605
+#: ../src/docs/guides/containers/lxd_web_servers.md:665
+#: ../src/docs/guides/containers/lxd_web_servers.md:737
+#: ../src/docs/guides/containers/lxd_web_servers.md:796
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:53
+#: ../src/docs/guides/contribute/navigation.md:60
+#: ../src/docs/guides/custom-linux-kernel.md:453
+#: ../src/docs/guides/editors/micro.md:30
+#: ../src/docs/guides/file_sharing/glusterfs.md:46
+#: ../src/docs/guides/file_sharing/glusterfs.md:64
+#: ../src/docs/guides/file_sharing/glusterfs.md:102
+#: ../src/docs/guides/file_sharing/glusterfs.md:203
+#: ../src/docs/guides/installation.md:36 ../src/docs/guides/installation.md:175
+#: ../src/docs/guides/installation.md:183
+#: ../src/docs/guides/installation.md:193
+#: ../src/docs/guides/installation.md:266
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
+#: ../src/docs/guides/security/firewalld-beginners.md:89
+#: ../src/docs/guides/security/firewalld-beginners.md:144
+#: ../src/docs/guides/security/firewalld-beginners.md:258
+#: ../src/docs/guides/security/firewalld.md:51
+#: ../src/docs/guides/security/firewalld.md:94
+#: ../src/docs/guides/security/firewalld.md:228
+#: ../src/docs/guides/security/firewalld.md:372
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:72
+#: ../src/docs/guides/security/learning_selinux.md:137
+#: ../src/docs/guides/security/learning_selinux.md:253
+#: ../src/docs/guides/security/learning_selinux.md:356
+#: ../src/docs/guides/virtualization/vbox-rocky.md:27
+#: ../src/docs/guides/web/nginx-mainline.md:30
+#: ../src/docs/guides/web/nginx-mainline.md:99
+#: ../src/docs/guides/web/nginx-mainline.md:141
+#: ../src/docs/guides/web/nginx-mainline.md:254
+#: ../src/docs/guides/web/nginx-mainline.md:333
+#: ../src/docs/guides/web/nginx-multisite.md:73
+#: ../src/docs/guides/web/nginx-multisite.md:233
+#: ../src/docs/guides/web/nginx-multisite.md:292
+#: ../src/docs/guides/web/nginx-multisite.md:302
+#: ../src/docs/guides/web/php.md:33 ../src/docs/guides/web/php.md:76
+#: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
+#: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
+#: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
+#, no-wrap
+msgid "!!! Note\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:737
+#: ../src/docs/books/lxd_server/30-appendix_a.md:23
+#: ../src/docs/books/nvchad/nerd_fonts.md:28 ../src/docs/gemstones/rpaste.md:15
+#: ../src/docs/guides/file_sharing/glusterfs.md:89
+#: ../src/docs/guides/file_sharing/sftp.md:75
+#: ../src/docs/guides/security/dnf_automatic.md:26
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:29
+#: ../src/docs/guides/web/php.md:85 ../src/docs/guides/web/php.md:152
+#, no-wrap
+msgid "Installation"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:749
+#: ../src/docs/books/lxd_server/01-install.md:20
+#: ../src/docs/books/nvchad/install_nvim.md:46
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:49
+#: ../src/docs/guides/containers/lxd_web_servers.md:67
+#: ../src/docs/guides/containers/lxd_web_servers.md:624
+#: ../src/docs/guides/containers/lxd_web_servers.md:857
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:53
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:43
+#, no-wrap
+msgid "dnf install epel-release\n"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part3.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:1
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:1
+#: ../src/docs/guides/file_sharing/sftp.md:1
+#: ../src/docs/guides/security/dnf_automatic.md:1
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
+#: ../src/docs/guides/security/firewalld.md:1
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:1
+#: ../src/docs/guides/security/learning_selinux.md:1
+#: ../src/docs/guides/security/pam.md:1
+#: ../src/docs/guides/security/ssh_public_private_keys.md:1
+#: ../src/docs/guides/security/ssl_keys_https.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
+#, no-wrap
+msgid "security"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
+#: ../src/docs/books/learning_ansible/05-deployments.md:31
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/00-toc.md:13
+#: ../src/docs/books/nvchad/index.md:12
+#: ../src/docs/books/nvchad/plugins/index.md:14
+#: ../src/docs/books/nvchad/plugins/md_preview.md:14
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
+#: ../src/docs/books/nvchad/vale_nvchad.md:12
+#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
+#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
+#: ../src/docs/gemstones/string_color.md:11
+#: ../src/docs/guides/automation/cron_jobs_howto.md:25
+#: ../src/docs/guides/automation/olivetin.md:14
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
+#: ../src/docs/guides/backup/rsnapshot_backup.md:22
+#: ../src/docs/guides/backup/rsync_ssh.md:24
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
+#: ../src/docs/guides/cms/dokuwiki_server.md:23
+#: ../src/docs/guides/containers/lxd_web_servers.md:10
+#: ../src/docs/guides/containers/podman-nextcloud.md:13
+#: ../src/docs/guides/contribute/local_docs.md:11
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
+#: ../src/docs/guides/contribute/mkdocs_venv.md:14
+#: ../src/docs/guides/contribute/style_guide.md:14
+#: ../src/docs/guides/database/database_mariadb-server.md:21
+#: ../src/docs/guides/desktop/kde_installation.md:11
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
+#: ../src/docs/guides/editors/micro.md:14
+#: ../src/docs/guides/email/postfix_reporting.md:22
+#: ../src/docs/guides/file_sharing/glusterfs.md:16
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
+#: ../src/docs/guides/file_sharing/sftp.md:16
+#: ../src/docs/guides/migrate2rocky.md:18
+#: ../src/docs/guides/network/basic_network_configuration.md:12
+#: ../src/docs/guides/network/librenms_monitoring_server.md:13
+#: ../src/docs/guides/package_management/index.md:1
+#: ../src/docs/guides/package_management/index.md:5
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
+#: ../src/docs/guides/proxies/pound.md:17
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
+#: ../src/docs/guides/security/firewalld-beginners.md:10
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
+#: ../src/docs/guides/security/ssh_public_private_keys.md:21
+#: ../src/docs/guides/security/ssl_keys_https.md:22
+#: ../src/docs/guides/virtualization/vbox-rocky.md:13
+#: ../src/docs/guides/web/apache-sites-enabled.md:25
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
+#: ../src/docs/guides/web/nginx-mainline.md:13
+#: ../src/docs/guides/web/nginx-multisite.md:14
+#: ../src/docs/labs/security/introduction.md:1
+#: ../src/docs/labs/security/introduction.md:5
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/lxd_server/00-toc.md:48 ../src/docs/gemstones/rpaste.md:76
+#: ../src/docs/guides/automation/cron_jobs_howto.md:185
+#: ../src/docs/guides/backup/rsync_ssh.md:161
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:322
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:632
+#: ../src/docs/guides/file_sharing/glusterfs.md:339
+#: ../src/docs/guides/network/librenms_monitoring_server.md:657
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:480
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:339
+#, no-wrap
+msgid "Conclusions"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:99
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:232
+#: ../src/docs/guides/database/database_mariadb-server.md:40
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:156
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:44
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:152
+#, no-wrap
+msgid "And then:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/containers/lxd_web_servers.md:863
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:65
+#, no-wrap
+msgid "dnf install certbot python3-certbot-nginx\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/containers/lxd_web_servers.md:869
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:225
+#, no-wrap
+msgid "certbot --nginx\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:115
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:45
+#, no-wrap
+msgid "sudo -s\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/migrate2rocky.md:10
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:14
+#, no-wrap
+msgid "Prerequisites & Assumptions"
+msgstr ""
+
+#. type: YAML Front Matter: contributors
+#: ../src/docs/guides/security/firewalld.md:1
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:1
+#, no-wrap
+msgid "wsoyinka, Antoine Le Morvan, Ezequiel Bruni"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:1
+#: ../src/docs/guides/security/ssl_keys_https.md:1
+#, no-wrap
+msgid "ssl"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:1
+#, no-wrap
+msgid "certbot"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:1
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:12
+#, no-wrap
+msgid "Generating SSL Keys - Let's Encrypt"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:22
+#, no-wrap
+msgid "Comfort with the command line\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:22
+#, no-wrap
+msgid "Familiarity with securing web sites with SSL certificates is a plus\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:22
+#, no-wrap
+msgid "Knowledge of command line text editors (this example uses _vi_)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:22
+#, no-wrap
+msgid "An already running web server open to the world on port 80 (http)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:22
+#, no-wrap
+msgid "Familiarity with _ssh_ (secure shell) and the ability to access your server with _ssh_\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:22
+#, no-wrap
+msgid "All commands assume that you are either the root user or that you have used _sudo_ to gain root access.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:26
+#, no-wrap
+msgid "One of the most popular ways to secure a web site, currently, is using Let's Encrypt SSL certificates, which are also free.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:28
+#, no-wrap
+msgid "These are actual certificates, not self-signed or snake oil, etc., so they are great for a low-budget security solution. This document will walk you through the process of installing and using Let's Encrypt certificates on a Rocky Linux web server.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:32
+#, no-wrap
+msgid "To do the next steps, use _ssh_ to log into your server. If your server's fully qualified DNS name was www.myhost.com, then you would use:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:33
+#, no-wrap
+msgid "ssh -l root www.myhost.com\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:38
+#, no-wrap
+msgid "Or, if you must access your server as an unprivileged user first. Use your username:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:39
+#, no-wrap
+msgid "ssh -l username www.myhost.com\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:50
+#, no-wrap
+msgid "You will need your _sudo_ user's credentials in this case to gain access to the system as root.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:52
+#, no-wrap
+msgid "Let's Encrypt uses a package called _certbot_ which needs to be installed via the EPEL repositories. Add those first:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:58
+#, no-wrap
+msgid "Then, just install the appropriate packages, depending on whether you're using Apache or Nginx as your web server. For Apache that's:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:59
+#, no-wrap
+msgid "dnf install certbot python3-certbot-apache\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:64
+#, no-wrap
+msgid "For Nginx, just change out one... partial word?\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:70
+#, no-wrap
+msgid "You can always install both server modules if necessary, of course.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:74
+#, no-wrap
+msgid "    An earlier version of this guide required the snap package version of _certbot_, as it was found to be necessary at the time. The RPM versions have been re-tested recently, and are working now. That said, Certbot strongly recommends the use of the [snap install procedure](https://certbot.eff.org/instructions?ws=apache&os=centosrhel8). Both Rocky Linux 8 and 9 have _certbot_ available in the EPEL, so we are showing thatt procedure here. If you would like to use the procedure recommended by Certbot, just follow that procedure instead.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:76
+#, no-wrap
+msgid "Getting The Let's Encrypt Certificate for the Apache Server"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:79
+#, no-wrap
+msgid "There are two ways to retrieve your Let's Encrypt certificate, either using the command to modify the http configuration file for you, or to just retrieve the certificate. If you are using the procedure for a multi-site setup suggested for one or more sites in the procedure [Apache Web Server Multi-Site Setup](../web/apache-sites-enabled.md), then you will only want to retrieve your certificate.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:81
+#, no-wrap
+msgid "We are assuming that you **are** using this procedure so we will only retrieve the certificate. If you are running a standalone web server using the default configuration, you can retrieve the certificate and modify the configuration file in one step using:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:82
+#, no-wrap
+msgid "certbot --apache\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:87
+#, no-wrap
+msgid "That's really the easiest way to get things done. However, sometimes you want to take a more manual approach, and just want to grab the certificate. To retrieve the certificate only, use this command:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:88
+#, no-wrap
+msgid "certbot certonly --apache\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:93
+#, no-wrap
+msgid "Both commands will generate a set of prompts that you will need to answer. The first is to give an email address for important information:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:94
+#, no-wrap
+msgid ""
+"Saving debug log to /var/log/letsencrypt/letsencrypt.log\n"
+"Plugins selected: Authenticator apache, Installer apache\n"
+"Enter email address (used for urgent renewal and security notices)\n"
+" (Enter 'c' to cancel): yourusername@youremaildomain.com\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:102
+#, no-wrap
+msgid "The next asks you to read and accept the terms of the subscriber agreement. Once you have read the agreement answer 'Y' to continue:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:103
+#, no-wrap
+msgid ""
+"- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n"
+"Please read the Terms of Service at\n"
+"https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf. You must\n"
+"agree in order to register with the ACME server. Do you agree?\n"
+"- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n"
+"(Y)es/(N)o:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:113
+#, no-wrap
+msgid "The next is a request to share your email with the Electronic Frontier Foundation. Answer 'Y' or 'N' as is your preference:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:114
+#, no-wrap
+msgid ""
+"- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n"
+"Would you be willing, once your first certificate is successfully issued, to\n"
+"share your email address with the Electronic Frontier Foundation, a founding\n"
+"partner of the Let's Encrypt project and the non-profit organization that\n"
+"develops Certbot? We'd like to send you email about our work encrypting the web,\n"
+"EFF news, campaigns, and ways to support digital freedom.\n"
+"- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n"
+"(Y)es/(N)o:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:126
+#, no-wrap
+msgid "The next prompt asks you which domain you want the certificate for. It should display a domain in the listing based on your running web server. If so, enter the number next to the domain that you are getting the certificate for. In this case there is only one option ('1'):\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:127
+#, no-wrap
+msgid ""
+"Which names would you like to activate HTTPS for?\n"
+"- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n"
+"1: yourdomain.com\n"
+"- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n"
+"Select the appropriate numbers separated by commas and/or spaces, or leave input\n"
+"blank to select all options shown (Enter 'c' to cancel):\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:137
+#, no-wrap
+msgid "If all goes well, you should receive the following message:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:138
+#, no-wrap
+msgid ""
+"Requesting a certificate for yourdomain.com\n"
+"Performing the following challenges:\n"
+"http-01 challenge for yourdomain.com\n"
+"Waiting for verification...\n"
+"Cleaning up challenges\n"
+"Subscribe to the EFF mailing list (email: yourusername@youremaildomain.com).\n"
+"\n"
+"IMPORTANT NOTES:\n"
+" - Congratulations! Your certificate and chain have been saved at:\n"
+"   /etc/letsencrypt/live/yourdomain.com/fullchain.pem\n"
+"   Your key file has been saved at:\n"
+"   /etc/letsencrypt/live/yourdomain.com/privkey.pem\n"
+"   Your certificate will expire on 2021-07-01. To obtain a new or\n"
+"   tweaked version of this certificate in the future, simply run\n"
+"   certbot again. To non-interactively renew *all* of your\n"
+"   certificates, run \"certbot renew\"\n"
+" - If you like Certbot, please consider supporting our work by:\n"
+"\n"
+"   Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate\n"
+"   Donating to EFF:                    https://eff.org/donate-le\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:161
+#, no-wrap
+msgid "The Site Configuration - https"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:164
+#, no-wrap
+msgid "Applying the configuration file to our site is slightly different than if we were using a purchased SSL certificate from another provider (and if we didn't let _certbot_ do it automatically).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:166
+#, no-wrap
+msgid "The certificate and chain file are included in a single PEM (Privacy Enhanced Mail) file. This is a common format for all certificate files now, so even though it has \"Mail\" in the reference, it is just a type of certificate file. To illustrate the configuration file, we will show it in it's entirety and then describe what is happening:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:167
+#, no-wrap
+msgid ""
+"<VirtualHost *:80>\n"
+"        ServerName www.yourdomain.com\n"
+"        ServerAdmin username@rockylinux.org\n"
+"        Redirect / https://www.yourdomain.com/\n"
+"</VirtualHost>\n"
+"<Virtual Host *:443>\n"
+"        ServerName www.yourdomain.com\n"
+"        ServerAdmin username@rockylinux.org\n"
+"        DocumentRoot /var/www/sub-domains/com.yourdomain.www/html\n"
+"        DirectoryIndex index.php index.htm index.html\n"
+"        Alias /icons/ /var/www/icons/\n"
+"        # ScriptAlias /cgi-bin/ /var/www/sub-domains/com.yourdomain.www/cgi-bin/\n"
+"\n"
+"\tCustomLog \"/var/log/httpd/com.yourdomain.www-access_log\" combined\n"
+"\tErrorLog  \"/var/log/httpd/com.yourdomain.www-error_log\"\n"
+"\n"
+"        SSLEngine on\n"
+"        SSLProtocol all -SSLv2 -SSLv3 -TLSv1\n"
+"        SSLHonorCipherOrder on\n"
+"        SSLCipherSuite EECDH+ECDSA+AESGCM:EECDH+aRSA+AESGCM:EECDH+ECDSA+SHA384:EECDH+ECDSA+SHA256:EECDH+aRSA+SHA384\n"
+":EECDH+aRSA+SHA256:EECDH+aRSA+RC4:EECDH:EDH+aRSA:RC4:!aNULL:!eNULL:!LOW:!3DES:!MD5:!EXP:!PSK:!SRP:!DSS\n"
+"\n"
+"        SSLCertificateFile /etc/letsencrypt/live/yourdomain.com/fullchain.pem\n"
+"        SSLCertificateKeyFile /etc/letsencrypt/live/yourdomain.com/privkey.pem\n"
+"        SSLCertificateChainFile /etc/letsencrypt/live/yourdomain.com/fullchain.pem\n"
+"\n"
+"        <Directory /var/www/sub-domains/com.yourdomain.www/html>\n"
+"                Options -ExecCGI -Indexes\n"
+"                AllowOverride None\n"
+"\n"
+"                Order deny,allow\n"
+"                Deny from all\n"
+"                Allow from all\n"
+"\n"
+"                Satisfy all\n"
+"        </Directory>\n"
+"</VirtualHost>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:208
+#, no-wrap
+msgid "Here's what's happening above. You may want to review the [Apache Web Server Multi-Site Setup](../web/apache-sites-enabled.md) to see the differences in the application of an SSL purchased from another provider and the Let's Encrypt certificate:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:216
+#, no-wrap
+msgid "Even though port 80 (standard http) is listening, we are redirecting all traffic to port 443 (https)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:216
+#, no-wrap
+msgid "SSLEngine on - simply says to use SSL\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:216
+#, no-wrap
+msgid "SSLProtocol all -SSLv2 -SSLv3 -TLSv1 - says to use all available protocols, except those that have been found to have vulnerabilities. You should research periodically which protocols are currently acceptable for use.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:216
+#, no-wrap
+msgid "SSLHonorCipherOrder on - this deals with the next line regarding the cipher suites, and says to deal with them in the order that they are given. This is another area where you should review the cipher suites that you want to include periodically\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:216
+#, no-wrap
+msgid "SSLCertificateFile - this is the PEM file, that contains the site certificate **AND** the intermediate certificate. We still need the 'SSLCertificateChainFile' line in our configuration, but it will simply specify the same PEM file again.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:216
+#, no-wrap
+msgid "SSLCertificateKeyFile - the PEM file for the private key, generated with the _certbot_ request.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:216
+#, no-wrap
+msgid "SSLCertificateChainFile - the certificate from your certificate provider, often called the intermediate certificate, in this case exactly like the 'SSLCertificateFile' location above.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:218
+#, no-wrap
+msgid "Once you have made all of your changes, simply restart _httpd_ and if it starts test your site to make sure you now have a valid certificate file showing. If so, you are ready to move on to the next step: automation.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:219
+#, no-wrap
+msgid "Using _certbot_ With Nginx"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:222
+#, no-wrap
+msgid "A quick note: using _certbot_ with Nginx is pretty much the same as with Apache. Here's the short, short version of the guide:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:224
+#, no-wrap
+msgid "Run this command to get started:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:230
+#, no-wrap
+msgid "You'll be asked a couple of questions as shown above, including your email address, and which site you want to get a certificate for. Assuming you have at least one site configured (with a domain name pointing at the server), you'll see a list like this:\n"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:231
+#, no-wrap
+msgid "yourwebsite.com\n"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:231
+#, no-wrap
+msgid "subdomain.yourwebsite.com\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:237
+#, no-wrap
+msgid "If you have more than one site, just press the number that corresponds to the site you want a certificate for.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:239
+#, no-wrap
+msgid "The rest of the text you'll see is awful similar to what's above. The results will be a bit different, of course. If you have a dead-simple Nginx configuration file that looks like this:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:240
+#, no-wrap
+msgid ""
+"server {\n"
+"    server_name yourwebsite.com;\n"
+"\n"
+"    listen 80;\n"
+"\tlisten [::]:80;\n"
+"\n"
+"    location / {\n"
+"        root   /usr/share/nginx/html;\n"
+"        index  index.html index.htm;\n"
+"    }\n"
+"}\n"
+"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:256
+#, no-wrap
+msgid "After _certbot_ gets through with it, it'll look like a bit this:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:257
+#, no-wrap
+msgid ""
+"server {\n"
+"    server_name  yourwebsite.com;\n"
+"\n"
+"    listen 443 ssl; # managed by Certbot\n"
+"    listen [::]:443 ssl; # managed by Certbot\n"
+"    ssl_certificate /etc/letsencrypt/live/yourwebsite.com/fullchain.pem; # managed by Certbot\n"
+"    ssl_certificate_key /etc/letsencrypt/live/yourwebsite.com/privkey.pem; # managed by Certbot\n"
+"    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot\n"
+"    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot\n"
+"\n"
+"    location / {\n"
+"        root   /usr/share/nginx/html;\n"
+"        index  index.html index.htm;\n"
+"    }\n"
+"}\n"
+"\n"
+"server {\n"
+"    if ($host = yourwebsite.com) {\n"
+"        return 301 https://$host$request_uri;\n"
+"    } # managed by Certbot\n"
+"\n"
+"\n"
+"  listen 80;\n"
+"  listen [::]:80;\n"
+"  server_name yourwebsite.com;\n"
+"    return 404; # managed by Certbot\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:288
+#, no-wrap
+msgid "Depending on a couple of things (for example, if you're using Nginx as a reverse proxy), you may need to dive into the new configuration file to fix up a few things that _certbot_ won't handle perfectly on its own.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:290
+#, no-wrap
+msgid "Or write your own configuration file the hard way.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:290
+#, no-wrap
+msgid "Automating Let's Encrypt Certificate Renewal"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:293
+#, no-wrap
+msgid "The beauty of installing _certbot_ is that the Let's Encrypt certificate will be automatically renewed. There is no need to create a process to do this. We do need to test the renewal with:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:294
+#, no-wrap
+msgid "certbot renew --dry-run\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:299
+#, no-wrap
+msgid "When you run this command, you'll get a nice output showing the renewal process:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:300
+#, no-wrap
+msgid ""
+"Saving debug log to /var/log/letsencrypt/letsencrypt.log\n"
+"\n"
+"- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n"
+"Processing /etc/letsencrypt/renewal/yourdomain.com.conf\n"
+"- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n"
+"Cert not due for renewal, but simulating renewal for dry run\n"
+"Plugins selected: Authenticator apache, Installer apache\n"
+"Account registered.\n"
+"Simulating renewal of an existing certificate for yourdomain.com\n"
+"Performing the following challenges:\n"
+"http-01 challenge for yourdomain.com\n"
+"Waiting for verification...\n"
+"Cleaning up challenges\n"
+"\n"
+"- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n"
+"new certificate deployed with reload of apache server; fullchain is\n"
+"/etc/letsencrypt/live/yourdomain.com/fullchain.pem\n"
+"- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n"
+"\n"
+"- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n"
+"Congratulations, all simulated renewals succeeded:\n"
+"  /etc/letsencrypt/live/yourdomain.com/fullchain.pem (success)\n"
+"- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:327
+#, no-wrap
+msgid "The command to renew _certbot_ can be found using one of the following methods:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:331
+#, no-wrap
+msgid "By listing the contents of `/etc/crontab/`\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:331
+#, no-wrap
+msgid "By listing the contents of `/etc/cron.*/*`\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:331
+#, no-wrap
+msgid "By running `systemctl list-timers`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:333
+#, no-wrap
+msgid "In this example, we are using the last option and we can see that _certbot_ exists and that it was installed with the `snap` procedure:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:334
+#, no-wrap
+msgid ""
+"sudo systemctl list-timers\n"
+"Sat 2021-04-03 07:12:00 UTC  14h left   n/a                          n/a          snap.certbot.renew.timer     snap.certbot.renew.service\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:342
+#, no-wrap
+msgid "Let's Encrypt SSL certificates are yet another option for securing your web site with an SSL. Once installed, the system provides automatic renewal of certificates and will encrypt traffic to your web site.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:343
+#, no-wrap
+msgid "It should be noted that Let's Encrypt certificates are used for standard DV (Domain Validation) certificates. They cannot be used for OV (Organization Validation) or EV (Extended Validation) certificates.\n"
+msgstr ""

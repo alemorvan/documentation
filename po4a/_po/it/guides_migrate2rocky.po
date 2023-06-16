@@ -1,0 +1,383 @@
+# Italian translations for po package
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the po package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po 4a\n"
+"POT-Creation-Date: 2023-06-16 16:28+0000\n"
+"PO-Revision-Date: 2023-06-16 16:28+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Title #
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
+#: ../src/docs/books/learning_ansible/05-deployments.md:31
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/00-toc.md:13
+#: ../src/docs/books/nvchad/index.md:12
+#: ../src/docs/books/nvchad/plugins/index.md:14
+#: ../src/docs/books/nvchad/plugins/md_preview.md:14
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
+#: ../src/docs/books/nvchad/vale_nvchad.md:12
+#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
+#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
+#: ../src/docs/gemstones/string_color.md:11
+#: ../src/docs/guides/automation/cron_jobs_howto.md:25
+#: ../src/docs/guides/automation/olivetin.md:14
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
+#: ../src/docs/guides/backup/rsnapshot_backup.md:22
+#: ../src/docs/guides/backup/rsync_ssh.md:24
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
+#: ../src/docs/guides/cms/dokuwiki_server.md:23
+#: ../src/docs/guides/containers/lxd_web_servers.md:10
+#: ../src/docs/guides/containers/podman-nextcloud.md:13
+#: ../src/docs/guides/contribute/local_docs.md:11
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
+#: ../src/docs/guides/contribute/mkdocs_venv.md:14
+#: ../src/docs/guides/contribute/style_guide.md:14
+#: ../src/docs/guides/database/database_mariadb-server.md:21
+#: ../src/docs/guides/desktop/kde_installation.md:11
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
+#: ../src/docs/guides/editors/micro.md:14
+#: ../src/docs/guides/email/postfix_reporting.md:22
+#: ../src/docs/guides/file_sharing/glusterfs.md:16
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
+#: ../src/docs/guides/file_sharing/sftp.md:16
+#: ../src/docs/guides/migrate2rocky.md:18
+#: ../src/docs/guides/network/basic_network_configuration.md:12
+#: ../src/docs/guides/network/librenms_monitoring_server.md:13
+#: ../src/docs/guides/package_management/index.md:1
+#: ../src/docs/guides/package_management/index.md:5
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
+#: ../src/docs/guides/proxies/pound.md:17
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
+#: ../src/docs/guides/security/firewalld-beginners.md:10
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
+#: ../src/docs/guides/security/ssh_public_private_keys.md:21
+#: ../src/docs/guides/security/ssl_keys_https.md:22
+#: ../src/docs/guides/virtualization/vbox-rocky.md:13
+#: ../src/docs/guides/web/apache-sites-enabled.md:25
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
+#: ../src/docs/guides/web/nginx-mainline.md:13
+#: ../src/docs/guides/web/nginx-multisite.md:14
+#: ../src/docs/labs/security/introduction.md:1
+#: ../src/docs/labs/security/introduction.md:5
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: YAML Front Matter: contributors
+#: ../src/docs/guides/8_6_installation.md:1
+#: ../src/docs/guides/migrate2rocky.md:1
+#, no-wrap
+msgid "tianci li, Steven Spencer"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/guides/migrate2rocky.md:1
+#, no-wrap
+msgid "Migrating To Rocky Linux"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/guides/migrate2rocky.md:8
+#, no-wrap
+msgid "How to Migrate to Rocky Linux from CentOS Stream, CentOS, Alma Linux, RHEL, or Oracle Linux"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/migrate2rocky.md:10
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:14
+#, no-wrap
+msgid "Prerequisites & Assumptions"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/migrate2rocky.md:17
+#, no-wrap
+msgid "CentOS Stream, CentOS, Alma Linux, RHEL, or Oracle Linux running well on a hardware server or VPS. The current supported version for each of these is 8.7 or 9.1.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/migrate2rocky.md:17
+#, no-wrap
+msgid "A working knowledge of the command line.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/migrate2rocky.md:17
+#, no-wrap
+msgid "A working knowledge of SSH for remote machines.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/migrate2rocky.md:17
+#, no-wrap
+msgid "A mildly risk-taking attitude.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/migrate2rocky.md:17
+#, no-wrap
+msgid "All commands should be run as root. Either log in as root, or get ready to type \"sudo\" a lot.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/migrate2rocky.md:21
+#, no-wrap
+msgid "In this guide, you'll learn how to convert all of the OSes listed above to fully functional Rocky Linux installs. This is probably one of the most roundabout ways of installing Rocky Linux, but it'll come in handy for people in a variety of situations.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/migrate2rocky.md:23
+#, no-wrap
+msgid "For example, some server providers won't support Rocky Linux by default for a while. Or you may have a production server that you want to convert to Rocky Linux without reinstalling everything.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/migrate2rocky.md:25
+#, no-wrap
+msgid "Well, we've got the tool for you: [migrate2rocky](https://github.com/rocky-linux/rocky-tools/tree/main/migrate2rocky).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/migrate2rocky.md:27
+#, no-wrap
+msgid "It's a script that, when executed, will change out all of your repositories to those of Rocky Linux. Packages will be installed and upgraded/downgraded as necessary, and all of your OS' branding will change too.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/migrate2rocky.md:29
+#, no-wrap
+msgid "Don't worry, if you're new to systems administration, I'll be keeping this as user-friendly as possible. Well, as user friendly as the command line gets.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/migrate2rocky.md:30
+#, no-wrap
+msgid "Caveats and warnings"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/guides/migrate2rocky.md:34
+#, no-wrap
+msgid "Do check out migrate2rocky's README page (linked above), because there is a known clash between the script and Katello's repositories. In time, it's probable that we'll discover (and eventually patch) more clashes and incompatibilities, so you'll want to know about those, especially for production servers.\n"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: ../src/docs/guides/migrate2rocky.md:34
+#, no-wrap
+msgid "This script is most likely to work without incident on completely fresh installs. _If you want to convert a production server, for the love of all that is holy and good, **make a data backup and system snapshot, or do it in a staging environment first.**_\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/migrate2rocky.md:36
+#, no-wrap
+msgid "Okay? We ready? Let's do this.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/migrate2rocky.md:37
+#, no-wrap
+msgid "Prepare your server"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/migrate2rocky.md:40
+#, no-wrap
+msgid "You'll need to grab the actual script file from the repository. This can be done in a number of ways.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/migrate2rocky.md:41
+#, no-wrap
+msgid "The manual way"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/migrate2rocky.md:44
+#, no-wrap
+msgid "Download the compressed files from GitHub and extract the one you need (That'd be *migrate2rocky.sh*). You can find zip files for any GitHub repo on the right-ish side of the repo's main page:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/migrate2rocky.md:46
+#, no-wrap
+msgid "![The \"Download Zip\" button](images/migrate2rocky-github-zip.png)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/migrate2rocky.md:48
+#, no-wrap
+msgid "Then, upload the executable to your server with ssh by running this command on your local machine:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/migrate2rocky.md:49
+#, no-wrap
+msgid "scp PATH/TO/FILE/migrate2rocky.sh root@yourdomain.com:/home/\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/migrate2rocky.md:54
+#, no-wrap
+msgid "Just, you know, adjust all the file paths and server domains or IP addresses as needed.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/migrate2rocky.md:55
+#, no-wrap
+msgid "The git way"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/migrate2rocky.md:58
+#, no-wrap
+msgid "Install git on your server with:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/migrate2rocky.md:59
+#, no-wrap
+msgid "dnf install git\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/migrate2rocky.md:64
+#, no-wrap
+msgid "Then clone the rocky-tools repository with:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/migrate2rocky.md:65
+#, no-wrap
+msgid "git clone https://github.com/rocky-linux/rocky-tools.git\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/migrate2rocky.md:70
+#, no-wrap
+msgid "Note: this method will download all of the scripts and files in the rocky-tools repository.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/migrate2rocky.md:71
+#, no-wrap
+msgid "The easy way"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/migrate2rocky.md:74
+#, no-wrap
+msgid "This is probably the easiest way to obtain the script. You only need a suitable HTTP client (curl, wget, lynx and so on) installed on the server.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/migrate2rocky.md:76
+#, no-wrap
+msgid "Assuming you have the `curl` utility installed, run this command to download the script into whatever directory you're using:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/migrate2rocky.md:77
+#, no-wrap
+msgid "curl https://raw.githubusercontent.com/rocky-linux/rocky-tools/main/migrate2rocky/migrate2rocky.sh -o migrate2rocky.sh\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/migrate2rocky.md:82
+#, no-wrap
+msgid "That command will download the file straight to your server, and *only* the file you want. But again, there are security concerns that suggest this isn't necessarily the best practice, so keep that in mind.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/migrate2rocky.md:83
+#, no-wrap
+msgid "Execution scripts and installation"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/migrate2rocky.md:86
+#, no-wrap
+msgid "Use the `cd` command to switch to the directory where the script is located, make sure the file is executable and give the owner of the script file x permissions.\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/migrate2rocky.md:87
+#, no-wrap
+msgid "chmod u+x migrate2rocky.sh\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/migrate2rocky.md:92
+#, no-wrap
+msgid "And now, at long last, execute the script:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/migrate2rocky.md:93
+#, no-wrap
+msgid "./migrate2rocky.sh -r\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/migrate2rocky.md:98
+#, no-wrap
+msgid "That \"-r\" option tells the script to just go ahead and install everything.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/migrate2rocky.md:100
+#, no-wrap
+msgid "If you've done everything right, your terminal window should look a bit like this:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/migrate2rocky.md:102
+#, no-wrap
+msgid "![a successful script startup](images/migrate2rocky-convert-01.png)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/migrate2rocky.md:104
+#, no-wrap
+msgid "Now, it'll take the script a while to convert everything, depending on the actual machine/server, and the connection it has to the wider internet.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/migrate2rocky.md:106
+#, no-wrap
+msgid "If you see a **Complete!** message at the end, then everything is fine and you can restart the server.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/migrate2rocky.md:108
+#, no-wrap
+msgid "![a successful OS migration message](images/migrate2rocky-convert-02.png)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/migrate2rocky.md:110
+#, no-wrap
+msgid "Give it some time, log back in, and you should have a fancy schmancy new Rocky Linux server to play wi... I mean do very serious work on. Run the `hostnamectl` command to check that your OS was migrated properly, and you're good to go.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/migrate2rocky.md:111
+#, no-wrap
+msgid "![The results of the hostnamectl command](images/migrate2rocky-convert-03.png)\n"
+msgstr ""
