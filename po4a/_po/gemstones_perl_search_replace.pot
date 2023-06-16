@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-16 15:40+0000\n"
+"POT-Creation-Date: 2023-06-16 16:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,19 +60,19 @@ msgstr ""
 msgid "Conclusion"
 msgstr ""
 
-#. type: Yaml Front Matter Array Element: tags
+#. type: YAML Front Matter: tags
 #: ../src/docs/gemstones/perl_search_replace.md:1
 #, no-wrap
 msgid "perl"
 msgstr ""
 
-#. type: Yaml Front Matter Array Element: tags
+#. type: YAML Front Matter: tags
 #: ../src/docs/gemstones/perl_search_replace.md:1
 #, no-wrap
 msgid "search"
 msgstr ""
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: ../src/docs/gemstones/perl_search_replace.md:1
 #, no-wrap
 msgid "perl - Search and Replace"

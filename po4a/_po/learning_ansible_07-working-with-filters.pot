@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-16 15:40+0000\n"
+"POT-Creation-Date: 2023-06-16 16:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -318,7 +318,7 @@ msgstr ""
 msgid "Example:\n"
 msgstr ""
 
-#. type: Yaml Front Matter Hash Value: contributors
+#. type: YAML Front Matter: contributors
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:1
 #: ../src/docs/books/disa_stig/disa_stig_part3.md:1
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:1
@@ -387,7 +387,7 @@ msgid ""
 "**Complexity**: :star: :star: :star: :star:\n"
 msgstr ""
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: ../src/docs/books/learning_ansible/07-working-with-filters.md:1
 #, no-wrap
 msgid "Working With Filters"

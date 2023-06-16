@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-16 15:40+0000\n"
+"POT-Creation-Date: 2023-06-16 16:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -189,7 +189,7 @@ msgstr ""
 msgid "Keyboard"
 msgstr ""
 
-#. type: Yaml Front Matter Array Element: tags
+#. type: YAML Front Matter: tags
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:1
 #: ../src/docs/guides/contribute/navigation.md:1
 #: ../src/docs/guides/contribute/rockydocs_formatting.md:1
@@ -198,19 +198,19 @@ msgstr ""
 msgid "contribute"
 msgstr ""
 
-#. type: Yaml Front Matter Hash Value: contributors
+#. type: YAML Front Matter: contributors
 #: ../src/docs/guides/contribute/rockydocs_formatting.md:1
 #, no-wrap
 msgid "tianci li, Ezequiel Bruni, Krista Burdine"
 msgstr ""
 
-#. type: Yaml Front Matter Array Element: tags
+#. type: YAML Front Matter: tags
 #: ../src/docs/guides/contribute/rockydocs_formatting.md:1
 #, no-wrap
 msgid "formatting"
 msgstr ""
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: ../src/docs/guides/contribute/rockydocs_formatting.md:1
 #, no-wrap
 msgid "Rocky Docs Formatting"

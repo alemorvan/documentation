@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-16 15:40+0000\n"
+"POT-Creation-Date: 2023-06-16 16:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,13 +16,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Yaml Front Matter Hash Value: contributors
+#. type: YAML Front Matter: contributors
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:1
 #, no-wrap
 msgid "Amin Vakil, Steven Spencer"
 msgstr ""
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:1
 #, no-wrap
 msgid "Adding a Rocky Mirror"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-16 15:40+0000\n"
+"POT-Creation-Date: 2023-06-16 16:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -140,25 +140,25 @@ msgstr ""
 msgid "Conclusions and final thoughts"
 msgstr ""
 
-#. type: Yaml Front Matter Hash Value: contributors
+#. type: YAML Front Matter: contributors
 #: ../src/docs/books/nvchad/vale_nvchad.md:1
 #, no-wrap
 msgid "Franco Colussi, Krista Burdine, Serge"
 msgstr ""
 
-#. type: Yaml Front Matter Array Element: tags
+#. type: YAML Front Matter: tags
 #: ../src/docs/books/nvchad/vale_nvchad.md:1
 #, no-wrap
 msgid "vale"
 msgstr ""
 
-#. type: Yaml Front Matter Array Element: tags
+#. type: YAML Front Matter: tags
 #: ../src/docs/books/nvchad/vale_nvchad.md:1
 #, no-wrap
 msgid "linters"
 msgstr ""
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: ../src/docs/books/nvchad/vale_nvchad.md:1
 #, no-wrap
 msgid "Using vale in NvChad"

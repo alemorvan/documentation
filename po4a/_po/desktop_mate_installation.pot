@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-16 15:40+0000\n"
+"POT-Creation-Date: 2023-06-16 16:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -93,7 +93,7 @@ msgstr ""
 msgid "Prerequisites"
 msgstr ""
 
-#. type: Yaml Front Matter Array Element: tags
+#. type: YAML Front Matter: tags
 #: ../src/docs/guides/desktop/kde_installation.md:1
 #: ../src/docs/guides/desktop/mate_installation.md:1
 #: ../src/docs/guides/desktop/xfce_installation.md:1
@@ -155,19 +155,19 @@ msgstr ""
 msgid "**Begin Installation** - Once all of the settings have been set or verified, go ahead and click this option.\n"
 msgstr ""
 
-#. type: Yaml Front Matter Hash Value: contributors
+#. type: YAML Front Matter: contributors
 #: ../src/docs/guides/desktop/mate_installation.md:1
 #, no-wrap
 msgid "Steven Spencer, Serge"
 msgstr ""
 
-#. type: Yaml Front Matter Array Element: tags
+#. type: YAML Front Matter: tags
 #: ../src/docs/guides/desktop/mate_installation.md:1
 #, no-wrap
 msgid "mate"
 msgstr ""
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: ../src/docs/guides/desktop/mate_installation.md:1
 #, no-wrap
 msgid "MATE Desktop"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-16 15:40+0000\n"
+"POT-Creation-Date: 2023-06-16 16:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -265,7 +265,7 @@ msgstr ""
 msgid "Conclusion"
 msgstr ""
 
-#. type: Yaml Front Matter Hash Value: contributors
+#. type: YAML Front Matter: contributors
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:1
 #: ../src/docs/books/disa_stig/disa_stig_part3.md:1
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:1
@@ -325,7 +325,7 @@ msgstr ""
 msgid "Steven Spencer"
 msgstr ""
 
-#. type: Yaml Front Matter Array Element: tags
+#. type: YAML Front Matter: tags
 #: ../src/docs/books/nvchad/additional_software.md:1
 #: ../src/docs/books/nvchad/index.md:1
 #: ../src/docs/books/nvchad/install_nvchad.md:1
@@ -344,7 +344,7 @@ msgstr ""
 msgid "nvchad"
 msgstr ""
 
-#. type: Yaml Front Matter Array Element: tags
+#. type: YAML Front Matter: tags
 #: ../src/docs/books/nvchad/additional_software.md:1
 #: ../src/docs/books/nvchad/index.md:1
 #: ../src/docs/books/nvchad/install_nvchad.md:1
@@ -360,7 +360,7 @@ msgstr ""
 msgid "coding"
 msgstr ""
 
-#. type: Yaml Front Matter Array Element: tags
+#. type: YAML Front Matter: tags
 #: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:1
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:1
 #: ../src/docs/books/nvchad/plugins/index.md:1
@@ -371,7 +371,7 @@ msgstr ""
 msgid "plugins"
 msgstr ""
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: ../src/docs/books/nvchad/template_chadrc.md:1
 #, no-wrap
 msgid "Chadrc Template"

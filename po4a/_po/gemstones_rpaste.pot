@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-16 15:40+0000\n"
+"POT-Creation-Date: 2023-06-16 16:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,7 +43,7 @@ msgstr ""
 msgid "Conclusions"
 msgstr ""
 
-#. type: Yaml Front Matter Hash Value: contributors
+#. type: YAML Front Matter: contributors
 #: ../src/docs/books/lxd_server/30-appendix_a.md:1
 #: ../src/docs/gemstones/dnf-swap.md:1 ../src/docs/gemstones/docker.md:1
 #: ../src/docs/gemstones/rpaste.md:1
@@ -53,25 +53,25 @@ msgstr ""
 msgid "Colussi Franco"
 msgstr ""
 
-#. type: Yaml Front Matter Array Element: tags
+#. type: YAML Front Matter: tags
 #: ../src/docs/gemstones/rpaste.md:1
 #, no-wrap
 msgid "rpaste"
 msgstr ""
 
-#. type: Yaml Front Matter Array Element: tags
+#. type: YAML Front Matter: tags
 #: ../src/docs/gemstones/rpaste.md:1
 #, no-wrap
 msgid "Mattermost"
 msgstr ""
 
-#. type: Yaml Front Matter Array Element: tags
+#. type: YAML Front Matter: tags
 #: ../src/docs/gemstones/rpaste.md:1
 #, no-wrap
 msgid "pastebin"
 msgstr ""
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: ../src/docs/gemstones/rpaste.md:1
 #, no-wrap
 msgid "rpaste - Pastebin Tool"
