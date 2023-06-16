@@ -13,8 +13,8 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/learning_bash_06-conditional-structures.pot\n"
-"X-Crowdin-File-ID: 1409\n"
+"X-Crowdin-File: /po4a/po4a/_po/learning_bash_07-loops.pot\n"
+"X-Crowdin-File-ID: 1411\n"
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:12
@@ -51,33 +51,159 @@ msgid "**Reading time**: 20 minutes\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/04-advanced-commands.md:296
-#: ../src/docs/books/admin_guide/04-advanced-commands.md:338
-#: ../src/docs/books/admin_guide/06-users.md:539
-#: ../src/docs/books/admin_guide/06-users.md:622
-#: ../src/docs/books/admin_guide/06-users.md:719
-#: ../src/docs/books/admin_guide/06-users.md:798
-#: ../src/docs/books/admin_guide/06-users.md:930
-#: ../src/docs/books/admin_guide/11-tasks.md:216
-#: ../src/docs/books/admin_guide/12-network.md:537
-#: ../src/docs/books/admin_guide/03-commands.md:214
-#: ../src/docs/books/admin_guide/03-commands.md:318
-#: ../src/docs/books/admin_guide/03-commands.md:720
-#: ../src/docs/books/admin_guide/03-commands.md:1399
-#: ../src/docs/books/admin_guide/08-process.md:385
-#: ../src/docs/books/admin_guide/09-backups.md:370
-#: ../src/docs/books/admin_guide/09-backups.md:720
-#: ../src/docs/books/admin_guide/10-boot.md:207
-#: ../src/docs/books/admin_guide/13-softwares.md:925
-#: ../src/docs/books/admin_guide/13-softwares.md:1009
-#: ../src/docs/books/learning_ansible/01-basic.md:286
-#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:169
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:54
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:125
-#: ../src/docs/guides/security/learning_selinux.md:289
-#: ../src/docs/guides/security/pam.md:287
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:43
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:220
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:271
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:334
+#: ../src/docs/books/admin_guide/05-vi.md:70
+#: ../src/docs/books/admin_guide/05-vi.md:206
+#: ../src/docs/books/admin_guide/05-vi.md:272
+#: ../src/docs/books/admin_guide/06-users.md:36
+#: ../src/docs/books/admin_guide/06-users.md:92
+#: ../src/docs/books/admin_guide/06-users.md:220
+#: ../src/docs/books/admin_guide/06-users.md:350
+#: ../src/docs/books/admin_guide/06-users.md:598
+#: ../src/docs/books/admin_guide/06-users.md:754
+#: ../src/docs/books/admin_guide/06-users.md:818
+#: ../src/docs/books/admin_guide/11-tasks.md:174
+#: ../src/docs/books/admin_guide/12-network.md:158
+#: ../src/docs/books/admin_guide/03-commands.md:516
+#: ../src/docs/books/admin_guide/03-commands.md:693
+#: ../src/docs/books/admin_guide/03-commands.md:1216
+#: ../src/docs/books/admin_guide/03-commands.md:1262
+#: ../src/docs/books/admin_guide/03-commands.md:1297
+#: ../src/docs/books/admin_guide/07-file-systems.md:395
+#: ../src/docs/books/admin_guide/07-file-systems.md:437
+#: ../src/docs/books/admin_guide/07-file-systems.md:447
+#: ../src/docs/books/admin_guide/07-file-systems.md:515
+#: ../src/docs/books/admin_guide/07-file-systems.md:556
+#: ../src/docs/books/admin_guide/07-file-systems.md:627
+#: ../src/docs/books/admin_guide/07-file-systems.md:653
+#: ../src/docs/books/admin_guide/07-file-systems.md:672
+#: ../src/docs/books/admin_guide/07-file-systems.md:676
+#: ../src/docs/books/admin_guide/07-file-systems.md:1019
+#: ../src/docs/books/admin_guide/08-process.md:49
+#: ../src/docs/books/admin_guide/08-process.md:238
+#: ../src/docs/books/admin_guide/09-backups.md:27
+#: ../src/docs/books/admin_guide/09-backups.md:116
+#: ../src/docs/books/admin_guide/09-backups.md:133
+#: ../src/docs/books/admin_guide/09-backups.md:148
+#: ../src/docs/books/admin_guide/09-backups.md:281
+#: ../src/docs/books/admin_guide/09-backups.md:285
+#: ../src/docs/books/admin_guide/09-backups.md:301
+#: ../src/docs/books/admin_guide/09-backups.md:342
+#: ../src/docs/books/admin_guide/09-backups.md:352
+#: ../src/docs/books/admin_guide/09-backups.md:554
+#: ../src/docs/books/admin_guide/09-backups.md:771
+#: ../src/docs/books/admin_guide/10-boot.md:114
+#: ../src/docs/books/admin_guide/10-boot.md:153
+#: ../src/docs/books/admin_guide/10-boot.md:165
+#: ../src/docs/books/admin_guide/13-softwares.md:22
+#: ../src/docs/books/learning_ansible/01-basic.md:51
+#: ../src/docs/books/learning_ansible/01-basic.md:104
+#: ../src/docs/books/learning_ansible/01-basic.md:112
+#: ../src/docs/books/learning_ansible/01-basic.md:328
+#: ../src/docs/books/learning_ansible/01-basic.md:415
+#: ../src/docs/books/learning_ansible/01-basic.md:492
+#: ../src/docs/books/learning_ansible/01-basic.md:633
+#: ../src/docs/books/learning_ansible/01-basic.md:656
+#: ../src/docs/books/learning_ansible/02-advanced.md:34
+#: ../src/docs/books/learning_ansible/02-advanced.md:150
+#: ../src/docs/books/learning_ansible/02-advanced.md:182
+#: ../src/docs/books/learning_ansible/02-advanced.md:269
+#: ../src/docs/books/learning_ansible/02-advanced.md:277
+#: ../src/docs/books/learning_ansible/02-advanced.md:287
+#: ../src/docs/books/learning_ansible/02-advanced.md:293
+#: ../src/docs/books/learning_ansible/02-advanced.md:360
+#: ../src/docs/books/learning_ansible/02-advanced.md:428
+#: ../src/docs/books/learning_ansible/02-advanced.md:601
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:33
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:58
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:77
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:96
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:113
+#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:65
+#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:432
+#: ../src/docs/books/learning_ansible/05-deployments.md:41
+#: ../src/docs/books/learning_ansible/05-deployments.md:124
+#: ../src/docs/books/learning_ansible/05-deployments.md:196
+#: ../src/docs/books/learning_ansible/05-deployments.md:616
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:36
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:40
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:80
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:214
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:32
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:75
+#: ../src/docs/books/learning_bash/02-using-variables.md:153
+#: ../src/docs/books/learning_bash/02-using-variables.md:193
+#: ../src/docs/books/learning_bash/05-tests.md:245
+#: ../src/docs/books/learning_bash/07-loops.md:180
+#: ../src/docs/books/lxd_server/04-firewall.md:80
+#: ../src/docs/books/nvchad/plugins/md_preview.md:140
+#: ../src/docs/books/nvchad/template_chadrc.md:239
+#: ../src/docs/gemstones/https_rsa_keygen.md:34
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:80
+#: ../src/docs/guides/8_6_installation.md:37
+#: ../src/docs/guides/8_6_installation.md:168
+#: ../src/docs/guides/8_6_installation.md:176
+#: ../src/docs/guides/8_6_installation.md:182
+#: ../src/docs/guides/8_6_installation.md:250
+#: ../src/docs/guides/automation/olivetin.md:60
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:307
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:323
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:486
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:533
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:667
+#: ../src/docs/guides/containers/lxd_web_servers.md:35
+#: ../src/docs/guides/containers/lxd_web_servers.md:45
+#: ../src/docs/guides/containers/lxd_web_servers.md:301
+#: ../src/docs/guides/containers/lxd_web_servers.md:352
+#: ../src/docs/guides/containers/lxd_web_servers.md:605
+#: ../src/docs/guides/containers/lxd_web_servers.md:665
+#: ../src/docs/guides/containers/lxd_web_servers.md:737
+#: ../src/docs/guides/containers/lxd_web_servers.md:796
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:53
+#: ../src/docs/guides/contribute/navigation.md:60
+#: ../src/docs/guides/custom-linux-kernel.md:453
+#: ../src/docs/guides/editors/micro.md:30
+#: ../src/docs/guides/file_sharing/glusterfs.md:46
+#: ../src/docs/guides/file_sharing/glusterfs.md:64
+#: ../src/docs/guides/file_sharing/glusterfs.md:102
+#: ../src/docs/guides/file_sharing/glusterfs.md:203
+#: ../src/docs/guides/installation.md:36 ../src/docs/guides/installation.md:175
+#: ../src/docs/guides/installation.md:183
+#: ../src/docs/guides/installation.md:193
+#: ../src/docs/guides/installation.md:266
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
+#: ../src/docs/guides/security/firewalld-beginners.md:89
+#: ../src/docs/guides/security/firewalld-beginners.md:144
+#: ../src/docs/guides/security/firewalld-beginners.md:258
+#: ../src/docs/guides/security/firewalld.md:51
+#: ../src/docs/guides/security/firewalld.md:94
+#: ../src/docs/guides/security/firewalld.md:228
+#: ../src/docs/guides/security/firewalld.md:372
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:72
+#: ../src/docs/guides/security/learning_selinux.md:137
+#: ../src/docs/guides/security/learning_selinux.md:253
+#: ../src/docs/guides/security/learning_selinux.md:356
+#: ../src/docs/guides/virtualization/vbox-rocky.md:27
+#: ../src/docs/guides/web/nginx-mainline.md:30
+#: ../src/docs/guides/web/nginx-mainline.md:99
+#: ../src/docs/guides/web/nginx-mainline.md:141
+#: ../src/docs/guides/web/nginx-mainline.md:254
+#: ../src/docs/guides/web/nginx-mainline.md:333
+#: ../src/docs/guides/web/nginx-multisite.md:73
+#: ../src/docs/guides/web/nginx-multisite.md:233
+#: ../src/docs/guides/web/nginx-multisite.md:292
+#: ../src/docs/guides/web/nginx-multisite.md:302
+#: ../src/docs/guides/web/php.md:33 ../src/docs/guides/web/php.md:76
+#: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
+#: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
+#: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
 #, no-wrap
-msgid "Examples:\n"
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Plain text
@@ -320,323 +446,539 @@ msgid "**Complexity**: :star: :star: :star:  \n"
 msgstr ""
 
 #. type: Title #
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:1
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:12
+#: ../src/docs/books/learning_bash/07-loops.md:1
+#: ../src/docs/books/learning_bash/07-loops.md:12
 #, no-wrap
-msgid "Bash - Conditional structures if and case"
+msgid "Bash - Loops"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:18
+#: ../src/docs/books/learning_bash/07-loops.md:19
 #, no-wrap
-msgid ":heavy_check_mark: use the conditional syntax `if`;  \n"
+msgid ":heavy_check_mark: use loops;\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:19
+#: ../src/docs/books/learning_bash/07-loops.md:21
 #, no-wrap
-msgid ":heavy_check_mark: use the conditional syntax `case`;  \n"
+msgid ":checkered_flag: **linux**, **script**, **bash**, **loops**\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:22
+#: ../src/docs/books/learning_bash/07-loops.md:30
 #, no-wrap
-msgid ":checkered_flag: **linux**, **script**, **bash**, **conditional structures**\n"
+msgid "The bash shell allows for the use of **loops**. These structures allow for the execution of **a block of commands several times** (from 0 to infinity) according to a statically defined value, dynamically or on condition:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/07-loops.md:35
+#, no-wrap
+msgid "`while`\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/07-loops.md:35
+#, no-wrap
+msgid "`until`\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/07-loops.md:35
+#, no-wrap
+msgid "`for`\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/07-loops.md:35
+#, no-wrap
+msgid "`select`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/07-loops.md:37
+#, no-wrap
+msgid "Whatever the loop used, the commands to be repeated are placed **between the words** `do` and `done`.\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:30
+#: ../src/docs/books/learning_bash/07-loops.md:38
 #, no-wrap
-msgid "Conditional structures"
+msgid "The while conditional loop structure"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:33
+#: ../src/docs/books/learning_bash/07-loops.md:41
 #, no-wrap
-msgid "If the `$?` variable is used to know the result of a test or the execution of a command, it can only be displayed and has no effect on the execution of a script.\n"
+msgid "The `while` / `do` / `done` structure evaluates the command placed after `while`.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:36
+#: ../src/docs/books/learning_bash/07-loops.md:43
 #, no-wrap
-msgid "But we can use it in a condition.\n"
-"**If** the test is good **then** I do this action **otherwise** I do this other action.\n"
+msgid "If this command is true (`$? = 0`), the commands placed between `do` and `done` are executed. The script then returns to the beginning to evaluate the command again.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:38
+#: ../src/docs/books/learning_bash/07-loops.md:45
 #, no-wrap
-msgid "Syntax of the conditional alternative `if`:\n"
+msgid "When the evaluated command is false (`$? != 0`), the shell resumes the execution of the script at the first command after done.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/07-loops.md:47
+#, no-wrap
+msgid "Syntax of the conditional loop structure `while`:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:39
+#: ../src/docs/books/learning_bash/07-loops.md:48
 #, no-wrap
-msgid "if command\n"
-"then\n"
-"    command if $?=0\n"
-"else\n"
-"    command if $?!=0\n"
-"fi\n"
+msgid "while command\n"
+"do\n"
+"  command if $? = 0\n"
+"done\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:50
+#: ../src/docs/books/learning_bash/07-loops.md:56
 #, no-wrap
-msgid "The command placed after the word `if` can be any command since it is its return code (`$?`) that will be evaluated.\n"
-"It is often convenient to use the `test` command to define several actions depending on the result of this test (file exists, variable not empty, write rights set).\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:52
-#, no-wrap
-msgid "Using a classical command (`mkdir`, `tar`, ...) allows you to define the actions to be performed in case of success, or the error messages to be displayed in case of failure.\n"
+msgid "Example using the `while` conditional structure:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:55
+#: ../src/docs/books/learning_bash/07-loops.md:57
 #, no-wrap
-msgid "if [[ -e /etc/passwd ]]\n"
-"then\n"
-"    echo \"The file exists\"\n"
-"else\n"
-"    echo \"The file does not exist\"\n"
-"fi\n\n"
-"if mkdir rep\n"
-"then\n"
-"    cd rep\n"
-"fi\n"
+msgid "while [[ -e /etc/passwd ]]\n"
+"do\n"
+"  echo \"The file exists\"\n"
+"done\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:70
+#: ../src/docs/books/learning_bash/07-loops.md:65
 #, no-wrap
-msgid "If the `else` block starts with a new `if` structure, you can merge the `else` and `if` with `elif` as shown below:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:71
-#, no-wrap
-msgid "[...]\n"
-"else\n"
-"  if [[ -e /etc/ ]]\n"
-"[...]\n\n"
-"[...]\n"
-"# is equivalent to\n"
-"elif [[ -e /etc ]]\n"
-"[...]\n"
+msgid "If the evaluated command does not vary, the loop will be infinite and the shell will never execute the commands placed after the script. This can be intentional, but it can also be an error. So you have to be **very careful with the commands that manage the loop and find a way to get out of it**.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:84
+#: ../src/docs/books/learning_bash/07-loops.md:67
 #, no-wrap
-msgid "!!! Note \"Summary\"\n"
+msgid "To get out of a `while` loop, you have to make sure that the command being evaluated is no longer true, which is not always possible.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:86
+#: ../src/docs/books/learning_bash/07-loops.md:69
 #, no-wrap
-msgid "    The structure `if` / `then` / `else` / `fi` evaluates the command placed after if:\n"
+msgid "There are commands that allow you to change the behavior of a loop:\n"
 msgstr ""
 
-#. type: Bullet: '    * '
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:89
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/07-loops.md:73
 #, no-wrap
-msgid "If the return code of this command is `0` (`true`) the shell will execute the commands placed after `then`;\n"
+msgid "`exit`\n"
 msgstr ""
 
-#. type: Bullet: '    * '
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:89
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/07-loops.md:73
 #, no-wrap
-msgid "If the return code is different from `0` (`false`) the shell will execute the commands placed after `else`.\n"
+msgid "`break`\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:91
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/07-loops.md:73
 #, no-wrap
-msgid "    The `else` block is optional.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:93
-#, no-wrap
-msgid "    There is often a need to perform some actions only if the evaluation of the command is true and to do nothing if it is false.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:95
-#, no-wrap
-msgid "    The word `fi` closes the structure.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:97
-#, no-wrap
-msgid "When there is only one command to execute in the `then` block, it is possible to use a simpler syntax.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:99
-#, no-wrap
-msgid "The command to execute if `$?` is `true` is placed after `&&` while the command to execute if `$?` is `false` is placed after `||` (optional).\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:102
-#, no-wrap
-msgid "[[ -e /etc/passwd ]] && echo \"The file exists\" || echo \"The file does not exist\"\n"
-"mkdir dir && echo \"The directory is created\".\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:108
-#, no-wrap
-msgid "It is also possible to evaluate and replace a variable with a lighter structure than `if`.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:110
-#, no-wrap
-msgid "This syntax implements the braces:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:123
-#, no-wrap
-msgid "* Displays a replacement value if the variable is empty:\n"
-"    ```\n"
-"    ${variable:-value}\n"
-"    ```\n"
-"* Displays a replacement value if the variable is not empty:\n"
-"    ```\n"
-"    ${variable:+value}\n"
-"    ```\n"
-"* Assigns a new value to the variable if it is empty:\n"
-"    ```\n"
-"    ${variable:=value}\n"
-"    ```\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:126
-#, no-wrap
-msgid "name=\"\"\n"
-"echo ${name:-linux}\n"
-"linux\n"
-"echo $name\n\n"
-"echo ${name:=linux}\n"
-"linux\n"
-"echo $name\n"
-"linux\n"
-"echo ${name:+tux}\n"
-"tux\n"
-"echo $name\n"
-"linux\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:143
-#, no-wrap
-msgid "!!! hint\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:145
-#, no-wrap
-msgid "    When deciding on the use of `if`, `then`, `else`, `fi` OR the use of the simpler syntax examples described, keep in mind the readability of your script. If no one is going to use the script but yourself, then you can use what works best for you. If someone else might need to review, debug, or trace through the script that you create, either use the more self documenting form (`if`,`then`, etc) or make sure that you document your script thoroughly so that the simpler syntax is actually understood by those who may need to modify and use the script. Documenting the script is *always* a good thing to do anyway, as noted several times earlier in these lessons.\n"
+msgid "`continue`\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:146
+#: ../src/docs/books/learning_bash/07-loops.md:74
 #, no-wrap
-msgid "Alternative conditional: structure `case`"
+msgid "The exit command"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:150
+#: ../src/docs/books/learning_bash/07-loops.md:77
 #, no-wrap
-msgid "A succession of `if` structures can quickly become heavy and complex. When it concerns the evaluation of the same variable, it is possible to use a conditional structure with several branches.\n"
-"The values of the variable can be specified or belong to a list of possibilities.\n"
+msgid "The `exit` command ends the execution of the script.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:152
+#: ../src/docs/books/learning_bash/07-loops.md:79
 #, no-wrap
-msgid "**Wildcards can be used**.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:154
-#, no-wrap
-msgid "The structure `case ... in` / `esac` evaluates the variable placed after `case` and compares it with the defined values.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:156
-#, no-wrap
-msgid "At the first equality found, the commands placed between `)` and `;;` are executed.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:158
-#, no-wrap
-msgid "The variable evaluated and the values proposed can be strings or results of sub-executions of commands.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:160
-#, no-wrap
-msgid "Placed at the end of the structure, the choice `*` indicates the actions to be executed for all the values that have not been previously tested.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:162
-#, no-wrap
-msgid "Syntax of the conditional alternative case:\n"
+msgid "Syntax of the `exit` command :\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:163
+#: ../src/docs/books/learning_bash/07-loops.md:80
 #, no-wrap
-msgid "case $variable in\n"
-"  value1)\n"
-"    commands if $variable = value1\n"
-"    ;;\n"
-"  value2)\n"
-"    commands if $variable = value2\n"
-"    ;;\n"
-"  [..]\n"
-"  *)\n"
-"    commands for all values of $variable != of value1 and value2\n"
-"    ;;\n"
-"esac\n"
+msgid "exit [n]\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:179
+#: ../src/docs/books/learning_bash/07-loops.md:85
 #, no-wrap
-msgid "When the value is subject to variation, it is advisable to use wildcards `[]` to specify the possibilities:\n"
+msgid "Example using the `exit` command :\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:180
+#: ../src/docs/books/learning_bash/07-loops.md:86
 #, no-wrap
-msgid "[Yy][Ee][Ss])\n"
-"  echo \"yes\"\n"
-"  ;;\n"
+msgid "bash # to avoid being disconnected after the \"exit 1\n"
+"exit 1\n"
+"echo $?\n"
+"1\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:187
+#: ../src/docs/books/learning_bash/07-loops.md:95
 #, no-wrap
-msgid "The character `|` also allows you to specify a value or another:\n"
+msgid "The `exit` command ends the script immediately. It is possible to specify the return code of the script by giving it as an argument (from `0` to `255`).\n"
+"If no argument is given, the return code of the last command of the script will be passed to the `$?` variable.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_bash/07-loops.md:96
+#, no-wrap
+msgid "The `break` / `continue` commands"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/07-loops.md:99
+#, no-wrap
+msgid "The `break` command allows you to interrupt the loop by going to the first command after `done`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/07-loops.md:101
+#, no-wrap
+msgid "The `continue` command allows you to restart the loop by going back to the first command after `done`.\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:188
+#: ../src/docs/books/learning_bash/07-loops.md:102
 #, no-wrap
-msgid "\"yes\" | \"YES\")\n"
-"  echo \"yes\"\n"
-"  ;;\n"
+msgid "while [[ -d / ]]                                                   INT ✘  17s \n"
+"do\n"
+"  echo \"Do you want to continue? (yes/no)\"\n"
+"  read ans\n"
+"  [[ $ans = \"yes\" ]] && continue\n"
+"  [[ $ans = \"no\" ]] && break\n"
+"done\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_bash/07-loops.md:112
+#, no-wrap
+msgid "The `true` / `false` commands"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/07-loops.md:115
+#, no-wrap
+msgid "The `true` command always returns `true` while the `false` command always returns `false`.\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/07-loops.md:116
+#, no-wrap
+msgid "true\n"
+"echo $?\n"
+"0\n"
+"false\n"
+"echo $?\n"
+"1\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/07-loops.md:126
+#, no-wrap
+msgid "Used as a condition of a loop, they allow for either an execution of an infinite loop or the deactivation of this loop.\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/07-loops.md:129
+#, no-wrap
+msgid "while true\n"
+"do\n"
+"  echo \"Do you want to continue? (yes/no)\"\n"
+"  read ans\n"
+"  [[ $ans = \"yes\" ]] && continue\n"
+"  [[ $ans = \"no\" ]] && break\n"
+"done\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_bash/07-loops.md:139
+#, no-wrap
+msgid "The `until` conditional loop structure"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/07-loops.md:142
+#, no-wrap
+msgid "The `until` / `do` / `done` structure evaluates the command placed after `until`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/07-loops.md:144
+#, no-wrap
+msgid "If this command is false (`$? != 0`), the commands placed between `do` and `done` are executed. The script then returns to the beginning to evaluate the command again.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/07-loops.md:146
+#, no-wrap
+msgid "When the evaluated command is true (`$? = 0`), the shell resumes the execution of the script at the first command after `done`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/07-loops.md:148
+#, no-wrap
+msgid "Syntax of the conditional loop structure `until`:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/07-loops.md:149
+#, no-wrap
+msgid "until command\n"
+"do\n"
+"  command if $? != 0\n"
+"done\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/07-loops.md:157
+#, no-wrap
+msgid "Example of the use of the conditional structure `until`:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/07-loops.md:158
+#, no-wrap
+msgid "until [[ -e test_until ]]\n"
+"do\n"
+"  echo \"The file does not exist\"\n"
+"  touch test_until\n"
+"done\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_bash/07-loops.md:166
+#, no-wrap
+msgid "The alternative choice structure `select`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/07-loops.md:169
+#, no-wrap
+msgid "The structure `select` / `do` / `done` allows for the display of a menu with several choices and an input request.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/07-loops.md:171
+#, no-wrap
+msgid "Each item in the list has a numbered choice. When you enter a choice, the value chosen is assigned to the variable placed after `select` (created for this purpose).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/07-loops.md:173
+#, no-wrap
+msgid "It then executes the commands placed between `do` and `done` with this value.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/07-loops.md:176
+#, no-wrap
+msgid "The variable `PS3` contains the invitation to enter the choice;\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/07-loops.md:176
+#, no-wrap
+msgid "The variable `REPLY` will return the number of the choice.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/07-loops.md:178
+#, no-wrap
+msgid "A `break` command is needed to exit the loop.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/07-loops.md:182
+#, no-wrap
+msgid "    The `select` structure is very useful for small and simple menus. To customize a more complete display, the `echo` and `read` commands must be used in a `while` loop.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/07-loops.md:184
+#, no-wrap
+msgid "Syntax of the conditional loop structure `select`:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/07-loops.md:185
+#, no-wrap
+msgid "PS3=\"Your choice:\"\n"
+"select variable in var1 var2 var3\n"
+"do\n"
+"  commands\n"
+"done\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/07-loops.md:194
+#, no-wrap
+msgid "Example of the use of the conditional structure `select`:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/07-loops.md:195
+#, no-wrap
+msgid "PS3=\"Your choice: \"\n"
+"select choice in coffee tea chocolate\n"
+"do\n"
+"  echo \"You have chosen the $REPLY: $choice\"\n"
+"done\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/07-loops.md:204
+#, no-wrap
+msgid "If this script is run, it shows something like this:\n"
+msgstr ""
+
+#. type: Bullet: '1) '
+#: ../src/docs/books/learning_bash/07-loops.md:205
+#, no-wrap
+msgid "Coffee\n"
+msgstr ""
+
+#. type: Bullet: '2) '
+#: ../src/docs/books/learning_bash/07-loops.md:205
+#, no-wrap
+msgid "Tea\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/07-loops.md:205
+#, no-wrap
+msgid "3) Chocolate\n"
+"Your choice : 2\n"
+"You have chosen choice 2: Tea\n"
+"Your choice:\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_bash/07-loops.md:214
+#, no-wrap
+msgid "The loop structure on a list of values `for`"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/07-loops.md:217
+#, no-wrap
+msgid "The `for` / `do` / `done` structure assigns the first element of the list to the variable placed after `for` (created on this occasion). It then executes the commands placed between `do` and `done` with this value. The script then returns to the beginning to assign the next element of the list to the working variable. When the last element has been used, the shell resumes execution at the first command after `done`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/07-loops.md:219
+#, no-wrap
+msgid "Syntax of the loop structure on list of values `for`:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/07-loops.md:220
+#, no-wrap
+msgid "for variable in list\n"
+"do\n"
+"  commands\n"
+"done\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/07-loops.md:228
+#, no-wrap
+msgid "Example of using the conditional structure `for`:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/07-loops.md:229
+#, no-wrap
+msgid "for file in /home /etc/passwd /root/fic.txt\n"
+"do\n"
+"  file $file\n"
+"done\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/07-loops.md:237
+#, no-wrap
+msgid "Any command producing a list of values can be placed after the `in` using a sub-execution.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/07-loops.md:240
+#, no-wrap
+msgid "With the variable `IFS` containing `$' \\t\\n'`, the `for` loop will take **each word** of the result of this command as a list of elements to loop on.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/07-loops.md:240
+#, no-wrap
+msgid "With the `IFS` variable containing `$'\\t\\n'` (i.e. without spaces), the `for` loop will take each line of the result of this command.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/07-loops.md:242
+#, no-wrap
+msgid "This can be the files in a directory. In this case, the variable will take as a value each of the words of the file names present:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/07-loops.md:243
+#, no-wrap
+msgid "for file in $(ls -d /tmp/*)\n"
+"do\n"
+"  echo $file\n"
+"done\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/07-loops.md:251
+#, no-wrap
+msgid "It can be a file. In this case, the variable will take as a value each word contained in the file browsed, from the beginning to the end:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/07-loops.md:252
+#, no-wrap
+msgid "cat my_file.txt\n"
+"first line\n"
+"second line\n"
+"third line\n"
+"for LINE in $(cat my_file.txt); do echo $LINE; done\n"
+"first\n"
+"line\n"
+"second\n"
+"line\n"
+"third line\n"
+"line\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/07-loops.md:267
+#, no-wrap
+msgid "To read a file line by line, you must modify the value of the `IFS` environment variable.\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/07-loops.md:268
+#, no-wrap
+msgid "IFS=$'\\t\\n'\n"
+"for LINE in $(cat my_file.txt); do echo $LINE; done\n"
+"first line\n"
+"second line\n"
+"third line\n"
 msgstr ""
 
