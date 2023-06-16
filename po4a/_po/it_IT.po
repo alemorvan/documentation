@@ -13,8 +13,8 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: it\n"
-"X-Crowdin-File: /po4a/po4a/_po/gemstones_setup_local_repo.pot\n"
-"X-Crowdin-File-ID: 1315\n"
+"X-Crowdin-File: /po4a/po4a/_po/gemstones_string_color.pot\n"
+"X-Crowdin-File-ID: 1317\n"
 
 #. type: YAML Front Matter: contributors
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:1
@@ -140,90 +140,173 @@ msgstr ""
 msgid "Introduction"
 msgstr ""
 
-#. type: Title ###
-#: ../src/docs/books/nvchad/plugins/index.md:22
-#: ../src/docs/gemstones/setup_local_repo.md:12
-#: ../src/docs/guides/contribute/mkdocs_venv.md:30
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/learning_bash/00-toc.md:1
+#: ../src/docs/books/learning_bash/01-first-script.md:1
+#: ../src/docs/books/learning_bash/02-using-variables.md:1
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:1
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:1
+#: ../src/docs/books/learning_bash/05-tests.md:1
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:1
+#: ../src/docs/books/learning_bash/07-loops.md:1
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:1
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:1
+#: ../src/docs/gemstones/string_color.md:1
+#: ../src/docs/guides/automation/olivetin.md:1
 #, no-wrap
-msgid "Requirements"
+msgid "bash"
 msgstr ""
 
-#. type: Title #
-#: ../src/docs/gemstones/htop.md:101
-#: ../src/docs/gemstones/setup_local_repo.md:49
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/string_color.md:1
 #, no-wrap
-msgid "End"
+msgid "color"
 msgstr ""
 
 #. type: YAML Front Matter: title
-#: ../src/docs/gemstones/setup_local_repo.md:1
+#: ../src/docs/gemstones/string_color.md:1
 #, no-wrap
-msgid "Setup Local Rocky Repositories"
+msgid "bash - String Color"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/gemstones/setup_local_repo.md:11
+#: ../src/docs/gemstones/string_color.md:14
 #, no-wrap
-msgid "Sometimes you need to have Rocky repositories local for building virtual machines, lab environments, etc.  It can also help save bandwidth if that is a concern.  This article will walk you through using `rsync` to copy Rocky repositories to a local web server.  Building a web server is out of the scope of this short article.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/setup_local_repo.md:15
-#, no-wrap
-msgid "A web server\n"
+msgid "When we download bash scripts that have been written by others in our daily work, sometimes some key strings are marked with special colors. How can this effect be achieved by writing in a script?\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/gemstones/setup_local_repo.md:16
+#: ../src/docs/gemstones/string_color.md:15
 #, no-wrap
-msgid "Code"
+msgid "Font color"
 msgstr ""
 
-#. type: Fenced code block
-#: ../src/docs/gemstones/setup_local_repo.md:18
+#. type: Plain text
+#: ../src/docs/gemstones/string_color.md:27
+#, no-wrap
+msgid "| **color code** | **description** |\n"
+"|    :---:       |    :---:     |\n"
+"|  30            |    black     |\n"
+"|  31            |     red      |\n"
+"|  32            |    green     |\n"
+"|  33            |    yellow    |\n"
+"|  34            |     blue     | \n"
+"|  35            |     purple   |\n"
+"|  36            |   dark green |\n"
+"|  37            |    white     |\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/gemstones/string_color.md:28
+#, no-wrap
+msgid "Background color of font"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/string_color.md:40
+#, no-wrap
+msgid "| **background color code** | **description** |\n"
+"|    :---:       |    :---:     |\n"
+"|     40         |    black     |\n"
+"|     41         |    crimson   |\n"
+"|     42         |    green     |\n"
+"|     43         |    yellow    |\n"
+"|     44         |    blue      |\n"
+"|     45         |    purple    |\n"
+"|     46         |  dark green  |\n"
+"|     47         |   white      |\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/gemstones/string_color.md:41
+#, no-wrap
+msgid "Display mode"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/string_color.md:51
+#, no-wrap
+msgid "| **code** | **description** |\n"
+"|  :---:   |    :---:     |\n"
+"|    0     |Terminal default settings|\n"
+"|    1     |Highlight|\n"
+"|    4     |Underline|\n"
+"|    5     |Cursor blinks|\n"
+"|    7     |Reverse display|\n"
+"|    8     |Hide |\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/gemstones/string_color.md:52
+#, no-wrap
+msgid "Mode of execution"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/string_color.md:56
+#, no-wrap
+msgid "* **\\033[1;31;40m**\n"
+"\"1\" indicates the display mode, which is optional. \"31\" indicates the font color. \"40m\" indicates the font background color\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/string_color.md:59
+#, no-wrap
+msgid "* **\\033[0m**\n"
+"Restore the terminal default color, that is, cancel the color setting\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/gemstones/string_color.md:60
+#, no-wrap
+msgid "Script example"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/string_color.md:63
+#, no-wrap
+msgid "We can write a script to observe the color change.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/string_color.md:64
 #, no-wrap
 msgid "#!/bin/bash\n"
-"repos_base_dir=\"/web/path\"\n\n"
-"# Start sync if base repo directory exist\n"
-"if [[ -d \"$repos_base_dir\" ]] ; then\n"
-"  # Start Sync\n"
-"  rsync  -avSHP --progress --delete --exclude-from=/opt/scripts/excludes.txt rsync://ord.mirror.rackspace.com/rocky  \"$repos_base_dir\" --delete-excluded\n"
-"  # Download Rocky 8 repository key\n"
-"  if [[ -e /web/path/RPM-GPG-KEY-rockyofficial ]]; then\n"
-"     exit\n"
-"  else\n"
-"      wget -P $repos_base_dir https://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-rockyofficial\n"
-"  fi\n"
-"fi\n"
+"# Font color cycle\n"
+"for color1 in {31..37}\n"
+"    do\n"
+"        echo -e \"\\033[0;${color1};40m---hello! Rocky---\\033[0m\"\n"
+"    done\n\n"
+"echo \"-------\"\n\n"
+"# Background color cycle\n"
+"for color2 in {40..47}\n"
+"    do\n"
+"        echo -e \"\\033[30;${color2}m---hello! Rocky---\\033[0m\"\n"
+"    done\n\n"
+"echo \"-------\"\n\n"
+"# Cycle of display mode\n"
+"for color3 in 0 1 4 5 7 8\n"
+"    do\n"
+"        echo -e \"\\033[${color3};37;40m---hello! Rocky---\\033[0m\"\n"
+"    done\n"
 msgstr ""
 
-#. type: Title ##
-#: ../src/docs/gemstones/setup_local_repo.md:35
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/string_color.md:89
 #, no-wrap
-msgid "Breakdown"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/setup_local_repo.md:38
-#, no-wrap
-msgid "This simple shell script uses `rsync` to pull repository files from the nearest mirror.  It also utilizes the \"exclude\" option which is defined in a text file in the form of keywords that should not be included.  Excludes are good if you have limited disk space or just do not want everything for whatever reason.  We can use  `*` as a wildcard character.  Be careful using  `*/ng` as it will exclude anything that matches those characters.  An example is below:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/gemstones/setup_local_repo.md:39
-#, no-wrap
-msgid "*/source*\n"
-"*/debug*\n"
-"*/images*\n"
-"*/Devel*\n"
-"8/*\n"
-"8.4-RC1/*\n"
-"8.4-RC1\n"
+msgid "Shell > chmod a+x color_set.sh\n"
+"Shell > ./color_set.sh\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/gemstones/setup_local_repo.md:50
+#: ../src/docs/gemstones/string_color.md:95
 #, no-wrap
-msgid "A simple script that can help save bandwidth or make building out a lab environment a little easier.\n"
+msgid "The effect is as follows:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/string_color.md:96
+#, no-wrap
+msgid "![image1](./images/string_color_image1.png)\n"
 msgstr ""
 
