@@ -13,164 +13,8 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: it\n"
-"X-Crowdin-File: /po4a/po4a/_po/plugins_md_preview.pot\n"
-"X-Crowdin-File-ID: 1497\n"
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/04-advanced-commands.md:43
-#: ../src/docs/books/admin_guide/04-advanced-commands.md:220
-#: ../src/docs/books/admin_guide/04-advanced-commands.md:271
-#: ../src/docs/books/admin_guide/04-advanced-commands.md:334
-#: ../src/docs/books/admin_guide/05-vi.md:70
-#: ../src/docs/books/admin_guide/05-vi.md:206
-#: ../src/docs/books/admin_guide/05-vi.md:272
-#: ../src/docs/books/admin_guide/06-users.md:36
-#: ../src/docs/books/admin_guide/06-users.md:92
-#: ../src/docs/books/admin_guide/06-users.md:220
-#: ../src/docs/books/admin_guide/06-users.md:350
-#: ../src/docs/books/admin_guide/06-users.md:598
-#: ../src/docs/books/admin_guide/06-users.md:754
-#: ../src/docs/books/admin_guide/06-users.md:818
-#: ../src/docs/books/admin_guide/11-tasks.md:174
-#: ../src/docs/books/admin_guide/12-network.md:158
-#: ../src/docs/books/admin_guide/03-commands.md:516
-#: ../src/docs/books/admin_guide/03-commands.md:693
-#: ../src/docs/books/admin_guide/03-commands.md:1216
-#: ../src/docs/books/admin_guide/03-commands.md:1262
-#: ../src/docs/books/admin_guide/03-commands.md:1297
-#: ../src/docs/books/admin_guide/07-file-systems.md:395
-#: ../src/docs/books/admin_guide/07-file-systems.md:437
-#: ../src/docs/books/admin_guide/07-file-systems.md:447
-#: ../src/docs/books/admin_guide/07-file-systems.md:515
-#: ../src/docs/books/admin_guide/07-file-systems.md:556
-#: ../src/docs/books/admin_guide/07-file-systems.md:627
-#: ../src/docs/books/admin_guide/07-file-systems.md:653
-#: ../src/docs/books/admin_guide/07-file-systems.md:672
-#: ../src/docs/books/admin_guide/07-file-systems.md:676
-#: ../src/docs/books/admin_guide/07-file-systems.md:1019
-#: ../src/docs/books/admin_guide/08-process.md:49
-#: ../src/docs/books/admin_guide/08-process.md:238
-#: ../src/docs/books/admin_guide/09-backups.md:27
-#: ../src/docs/books/admin_guide/09-backups.md:116
-#: ../src/docs/books/admin_guide/09-backups.md:133
-#: ../src/docs/books/admin_guide/09-backups.md:148
-#: ../src/docs/books/admin_guide/09-backups.md:281
-#: ../src/docs/books/admin_guide/09-backups.md:285
-#: ../src/docs/books/admin_guide/09-backups.md:301
-#: ../src/docs/books/admin_guide/09-backups.md:342
-#: ../src/docs/books/admin_guide/09-backups.md:352
-#: ../src/docs/books/admin_guide/09-backups.md:554
-#: ../src/docs/books/admin_guide/09-backups.md:771
-#: ../src/docs/books/admin_guide/10-boot.md:114
-#: ../src/docs/books/admin_guide/10-boot.md:153
-#: ../src/docs/books/admin_guide/10-boot.md:165
-#: ../src/docs/books/admin_guide/13-softwares.md:22
-#: ../src/docs/books/learning_ansible/01-basic.md:51
-#: ../src/docs/books/learning_ansible/01-basic.md:104
-#: ../src/docs/books/learning_ansible/01-basic.md:112
-#: ../src/docs/books/learning_ansible/01-basic.md:328
-#: ../src/docs/books/learning_ansible/01-basic.md:415
-#: ../src/docs/books/learning_ansible/01-basic.md:492
-#: ../src/docs/books/learning_ansible/01-basic.md:633
-#: ../src/docs/books/learning_ansible/01-basic.md:656
-#: ../src/docs/books/learning_ansible/02-advanced.md:34
-#: ../src/docs/books/learning_ansible/02-advanced.md:150
-#: ../src/docs/books/learning_ansible/02-advanced.md:182
-#: ../src/docs/books/learning_ansible/02-advanced.md:269
-#: ../src/docs/books/learning_ansible/02-advanced.md:277
-#: ../src/docs/books/learning_ansible/02-advanced.md:287
-#: ../src/docs/books/learning_ansible/02-advanced.md:293
-#: ../src/docs/books/learning_ansible/02-advanced.md:360
-#: ../src/docs/books/learning_ansible/02-advanced.md:428
-#: ../src/docs/books/learning_ansible/02-advanced.md:601
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:33
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:58
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:77
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:96
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:113
-#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:65
-#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:432
-#: ../src/docs/books/learning_ansible/05-deployments.md:41
-#: ../src/docs/books/learning_ansible/05-deployments.md:124
-#: ../src/docs/books/learning_ansible/05-deployments.md:196
-#: ../src/docs/books/learning_ansible/05-deployments.md:616
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:36
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:40
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:80
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:214
-#: ../src/docs/books/learning_ansible/07-working-with-filters.md:32
-#: ../src/docs/books/learning_ansible/07-working-with-filters.md:75
-#: ../src/docs/books/learning_bash/02-using-variables.md:153
-#: ../src/docs/books/learning_bash/02-using-variables.md:193
-#: ../src/docs/books/learning_bash/05-tests.md:245
-#: ../src/docs/books/learning_bash/07-loops.md:180
-#: ../src/docs/books/lxd_server/04-firewall.md:80
-#: ../src/docs/books/nvchad/plugins/md_preview.md:140
-#: ../src/docs/books/nvchad/template_chadrc.md:239
-#: ../src/docs/gemstones/https_rsa_keygen.md:34
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:80
-#: ../src/docs/guides/8_6_installation.md:37
-#: ../src/docs/guides/8_6_installation.md:168
-#: ../src/docs/guides/8_6_installation.md:176
-#: ../src/docs/guides/8_6_installation.md:182
-#: ../src/docs/guides/8_6_installation.md:250
-#: ../src/docs/guides/automation/olivetin.md:60
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:307
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:323
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:486
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:533
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:667
-#: ../src/docs/guides/containers/lxd_web_servers.md:35
-#: ../src/docs/guides/containers/lxd_web_servers.md:45
-#: ../src/docs/guides/containers/lxd_web_servers.md:301
-#: ../src/docs/guides/containers/lxd_web_servers.md:352
-#: ../src/docs/guides/containers/lxd_web_servers.md:605
-#: ../src/docs/guides/containers/lxd_web_servers.md:665
-#: ../src/docs/guides/containers/lxd_web_servers.md:737
-#: ../src/docs/guides/containers/lxd_web_servers.md:796
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:53
-#: ../src/docs/guides/contribute/navigation.md:60
-#: ../src/docs/guides/custom-linux-kernel.md:453
-#: ../src/docs/guides/editors/micro.md:30
-#: ../src/docs/guides/file_sharing/glusterfs.md:46
-#: ../src/docs/guides/file_sharing/glusterfs.md:64
-#: ../src/docs/guides/file_sharing/glusterfs.md:102
-#: ../src/docs/guides/file_sharing/glusterfs.md:203
-#: ../src/docs/guides/installation.md:36 ../src/docs/guides/installation.md:175
-#: ../src/docs/guides/installation.md:183
-#: ../src/docs/guides/installation.md:193
-#: ../src/docs/guides/installation.md:266
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
-#: ../src/docs/guides/security/firewalld-beginners.md:89
-#: ../src/docs/guides/security/firewalld-beginners.md:144
-#: ../src/docs/guides/security/firewalld-beginners.md:258
-#: ../src/docs/guides/security/firewalld.md:51
-#: ../src/docs/guides/security/firewalld.md:94
-#: ../src/docs/guides/security/firewalld.md:228
-#: ../src/docs/guides/security/firewalld.md:372
-#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:72
-#: ../src/docs/guides/security/learning_selinux.md:137
-#: ../src/docs/guides/security/learning_selinux.md:253
-#: ../src/docs/guides/security/learning_selinux.md:356
-#: ../src/docs/guides/virtualization/vbox-rocky.md:27
-#: ../src/docs/guides/web/nginx-mainline.md:30
-#: ../src/docs/guides/web/nginx-mainline.md:99
-#: ../src/docs/guides/web/nginx-mainline.md:141
-#: ../src/docs/guides/web/nginx-mainline.md:254
-#: ../src/docs/guides/web/nginx-mainline.md:333
-#: ../src/docs/guides/web/nginx-multisite.md:73
-#: ../src/docs/guides/web/nginx-multisite.md:233
-#: ../src/docs/guides/web/nginx-multisite.md:292
-#: ../src/docs/guides/web/nginx-multisite.md:302
-#: ../src/docs/guides/web/php.md:33 ../src/docs/guides/web/php.md:76
-#: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
-#: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
-#: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-#, no-wrap
-msgid "!!! Note\n"
-msgstr ""
+"X-Crowdin-File: /po4a/po4a/_po/plugins_projectmgr.pot\n"
+"X-Crowdin-File-ID: 1499\n"
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/05-vi.md:90
@@ -395,273 +239,6 @@ msgstr ""
 msgid "plugins"
 msgstr ""
 
-#. type: Title #
-#: ../src/docs/books/nvchad/plugins/md_preview.md:1
-#: ../src/docs/books/nvchad/plugins/md_preview.md:12
-#, no-wrap
-msgid "Markdown Preview"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:17
-#, no-wrap
-msgid "One of the features of the Markdown language that make it widely used in writing technical documentation is its convertibility. Code can be converted for display in many formats (HTML, PDF, plain text,..), therefore making content usable in numerous scenarios.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:19
-#, no-wrap
-msgid "Specifically, documentation written for Rocky Linux is converted to `HTML` using a *python* application. The application converts documents written in *markdown* to static HTML pages.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:21
-#, no-wrap
-msgid "The problem arises when writing your documentation for Rocky Linux, of verifying its correct display when converted to `HTML` code.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:23
-#, no-wrap
-msgid "To integrate this functionality into your editor, two of the plugins available for this purpose, [toppair/peek.nvim](https://github.com/toppair/peek.nvim) and [markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim), will be illustrated on this page. Both of these support *github-style*, the choice of browser to use for preview, and synchronized scrolling with the editor.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/nvchad/plugins/md_preview.md:24
-#, no-wrap
-msgid "Peek.nvim"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:27
-#, no-wrap
-msgid "[Peek](https://github.com/toppair/peek.nvim) uses [Deno](https://deno.com/manual) a JavaScript, TypeScript and WebAssembly runtime with default secure settings for its operation. By default Deno does not allow any file, network or environment access unless explicitly enabled.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:29
-#, no-wrap
-msgid "If you have also installed the [Template Chadrc](../template_chadrc.md) this component will already be available as it is one of the language servers installed by default. In case it is not yet present in the editor you can install it with the command `:MasonInstall deno`.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:33
-#, no-wrap
-msgid "    The language server **must** be installed before proceeding to install the plugin. Otherwise the installation will fail and it will be necessary to remove the code from **/custom/plugins.lua**, perform a configuration cleanup by opening `Lazy` and typing <kbd>X</kbd> to delete the plugin and then repeat the installation procedure.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:35
-#, no-wrap
-msgid "To install the plugin you will have to edit the file **/custom/plugins.lua** by adding the following block of code:\n"
-msgstr ""
-
-#. type: Fenced code block (lua)
-#: ../src/docs/books/nvchad/plugins/md_preview.md:36
-#, no-wrap
-msgid "{\n"
-"    \"toppair/peek.nvim\",\n"
-"    build = \"deno task --quiet build:fast\",\n"
-"    keys = {\n"
-"        {\n"
-"        \"<leader>op\",\n"
-"            function()\n"
-"            local peek = require(\"peek\")\n"
-"                if peek.is_open() then\n"
-"            peek.close()\n"
-"            else\n"
-"            peek.open()\n"
-"            end\n"
-"        end,\n"
-"        desc = \"Peek (Markdown Preview)\",\n"
-"        },\n"
-"},\n"
-"    opts = { theme = \"dark\", app = \"browser\" },\n"
-"},\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:59
-#, no-wrap
-msgid "Once you have saved the file you can perform its installation by opening the plugins manager interface with the `:Lazy` command. The plugins manager will have already recognized it automatically and will allow you to install it by typing <kbd>I</kbd>.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:61
-#, no-wrap
-msgid "To get the full functionality, however, you must close NvChad (*nvim*) and reopen it. This is to allow the editor to load those of **Peek** into the configuration.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:63
-#, no-wrap
-msgid "Its configuration already includes the command to activate it `<leader>op` which on the keyboard translates to <kbd>Space</kbd> + <kbd>o</kbd> followed by <kbd>p</kbd>.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:65
-#, no-wrap
-msgid "![Peek](./images/peek_command.png)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:67
-#, no-wrap
-msgid "You also have the string:\n"
-msgstr ""
-
-#. type: Fenced code block (lua)
-#: ../src/docs/books/nvchad/plugins/md_preview.md:68
-#, no-wrap
-msgid "opts = { theme = \"dark\", app = \"browser\" },\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:73
-#, no-wrap
-msgid "Which allows you to pass options for the light or dark theme of the preview and the method to be used for display.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:75
-#, no-wrap
-msgid "In this configuration, the \"browser\" method was chosen, which opens the file to be viewed in the system's default browser, but the plugin allows through the \"webview\" method to preview the file using only **Deno** via the [webview_deno](https://github.com/webview/webview_deno) component.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:77
-#, no-wrap
-msgid "![Peek Webview](./images/peek_webview.png)\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/nvchad/plugins/md_preview.md:78
-#, no-wrap
-msgid "Markdown-preview.nvim"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:81
-#, no-wrap
-msgid "[Markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim) is a plugin written in `node.js` (JavaScript). Its installation on NvChad does not require any dependencies as the developers provide a precompiled version that works perfectly in the editor.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:83
-#, no-wrap
-msgid "To install this version you will need to add this code block to your **/custom/plugins.lua**:\n"
-msgstr ""
-
-#. type: Fenced code block (lua)
-#: ../src/docs/books/nvchad/plugins/md_preview.md:84
-#, no-wrap
-msgid "{\n"
-"    \"iamcco/markdown-preview.nvim\",\n"
-"    cmd = {\"MarkdownPreview\", \"MarkdownPreviewStop\"},\n"
-"    lazy = false,\n"
-"    build = function() vim.fn[\"mkdp#util#install\"]() end,\n"
-"    init = function()\n"
-"        vim.g.mkdp_theme = 'dark'\n"
-"    end\n"
-"},\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:97
-#, no-wrap
-msgid "As with the previous plugin, you will need to close the editor and reopen it to give NvChad a chance to load the new configuration. Again you can pass to the plugin some custom options described in the [dedicated section](https://github.com/iamcco/markdown-preview.nvim#markdownpreview-config) of the project repository.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:99
-#, no-wrap
-msgid "However, the options must be modified to fit the configuration of `lazy.nvim`, particularly the option configured in this example:\n"
-msgstr ""
-
-#. type: Fenced code block (lua)
-#: ../src/docs/books/nvchad/plugins/md_preview.md:100
-#, no-wrap
-msgid "vim.g.mkdp_theme = 'dark'\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:105
-#, no-wrap
-msgid "It corresponds to the option described on the project site as:\n"
-msgstr ""
-
-#. type: Fenced code block (lua)
-#: ../src/docs/books/nvchad/plugins/md_preview.md:106
-#, no-wrap
-msgid "let g:mkdp_theme = 'dark'\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:111
-#, no-wrap
-msgid "As you can see, to set the options you will have to modify the initial part of them to make them interpretable. To give another example let us take the option that allows you to choose which browser to use for the preview that is specified like this:\n"
-msgstr ""
-
-#. type: Fenced code block (lua)
-#: ../src/docs/books/nvchad/plugins/md_preview.md:112
-#, no-wrap
-msgid "let g:mkdp_browser = '/usr/bin/chromium-browser'\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:117
-#, no-wrap
-msgid "To interpret this correctly in NvChad it will have to be modified by replacing `let g:` with `vim.g.`.\n"
-msgstr ""
-
-#. type: Fenced code block (lua)
-#: ../src/docs/books/nvchad/plugins/md_preview.md:119
-#, no-wrap
-msgid "vim.g.mkdp_browser = '/usr/bin/chromium-browser'\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:124
-#, no-wrap
-msgid "This way the next time NvChad is opened, `chromium-browser` will be used regardless of the system's default browser.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:126
-#, no-wrap
-msgid "The configuration also provides the commands `:MarkdownPreview` and `:MarkdownPreviewStop` to open and close the preview, respectively. For faster access to the commands you can map them to the **/custom/mapping.lua** file as follows:\n"
-msgstr ""
-
-#. type: Fenced code block (lua)
-#: ../src/docs/books/nvchad/plugins/md_preview.md:127
-#, no-wrap
-msgid "-- binding for Markdown Preview\n"
-"M.mdpreview = {\n"
-"  n = {\n"
-"    [\"<leader>mp\"] = { \"<cmd> MarkdownPreview<CR>\", \"Open Preview\"},\n"
-"    [\"<leader>mc\"] = { \"<cmd> MarkdownPreviewStop<CR>\", \"Close Preview\"},\n"
-"    },\n"
-"}\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:138
-#, no-wrap
-msgid "This will allow you to open the markdown preview by typing <kbd>Enter</kbd> + <kbd>m</kbd> followed by <kbd>p</kbd> and close it with the combination <kbd>Enter</kbd> + <kbd>m</kbd> followed by <kbd>c</kbd>.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:142
-#, no-wrap
-msgid "    The plugin also provides the command `:MarkdownPreviewToggle` but at the time of writing this document it does not seem to work properly. If you try to invoke it, it will not change the preview theme but will open a new browser Tab with the same preview.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:144
-#, no-wrap
-msgid "![Markdown Preview](./images/markdown_preview_nvim.png)\n"
-msgstr ""
-
 #. type: Title ##
 #: ../src/docs/books/nvchad/plugins/md_preview.md:145
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:157
@@ -671,21 +248,343 @@ msgstr ""
 msgid "Conclusions and final thoughts"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:148
+#. type: Title #
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:1
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:12
 #, no-wrap
-msgid "A preview of what you are writing can be useful, both for those new to this editor and for those with a more in-depth knowledge of the Markdown language. The preview allows you to assess the impact of the code once converted, and any errors it contains.\n"
+msgid "Project Manager"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:150
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:17
 #, no-wrap
-msgid "The choice of which plugin to use is totally subjective, and we encourage you to try both to assess which one might be best for you.\n"
+msgid "One of the features that an IDE must surely have is the ability to manage the various projects that a developer or publisher works on. Being able to select the project to work on once NvChad is open, without the need to type commands in the *statusline* to achieve the goal. This saves time and allows for simplified management in the case of a large number of projects.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/plugins/md_preview.md:151
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:19
 #, no-wrap
-msgid "The use of one of these plugins allows you to contribute documents to the documentation on Rocky Linux that conform to the code used therefore alleviating the work of documentation reviewers.\n"
+msgid "Using [charludo/projectmgr.nvim](https://github.com/charludo/projectmgr.nvim) will integrate this functionality. The plugin provides excellent integration with `Telescope` and some interesting additional features such as the ability to synchronize a *git* repository when opening the *project*.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:21
+#, no-wrap
+msgid "The plugin also tracks the status of the editor when it closes allowing you to have, when you next open it, all the pages you were working on.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:22
+#, no-wrap
+msgid "Plugin installation"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:25
+#, no-wrap
+msgid "To install the plugin you will need to edit the **custom/plugins.lua** file by adding the following block of code:\n"
+msgstr ""
+
+#. type: Fenced code block (lua)
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:26
+#, no-wrap
+msgid "{\n"
+"    \"charludo/projectmgr.nvim\",\n"
+"    lazy = false, -- important!\n"
+"},\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:34
+#, no-wrap
+msgid "Once you have saved the file, the plugin will be available for installation. To install it open *lazy.nvim* with the command `:Lazy` and type <kbd>I</kbd>. Once the installation finishes you will have to exit the editor and reopen it to have it read the new configuration you entered.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:36
+#, no-wrap
+msgid "The plugin provides a single command `:ProjectMgr` that opens an interactive buffer from which you can perform all operations by using keyboard shortcuts. When first opened, the buffer will be empty as this screenshot shows:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:38
+#, no-wrap
+msgid "![ProjectMgr Init](./images/projectmgr_init.png)\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:39
+#, no-wrap
+msgid "Using the Project Manager"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:42
+#, no-wrap
+msgid "All operations are performed with the <kbd>Ctrl</kbd> key followed by a letter (e.g. `<C-a`), while the `<CR>` key corresponds to the <kbd>Enter</kbd> key.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:44
+#, no-wrap
+msgid "The following table shows all available operations\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:52
+#, no-wrap
+msgid "| Key     | Operation                                       |\n"
+"|-------- | ----------------------------------------------- |\n"
+"| `<CR>`  | Opens the project under the cursor              |\n"
+"| `<C-a>` | Adds a project through an interactive procedure |\n"
+"| `<C-d>` | Delete a project                                |\n"
+"| `<C-e>` | Change project settings                         |\n"
+"| `<C-q>` | Close buffer                                    |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:54
+#, no-wrap
+msgid "To add your first project you will need to use the combination <kbd>Ctrl</kbd> + <kbd>a</kbd> which will open an interactive menu in the *statusline*. In this example a clone of the Rocky Linux documentation saved in **~/lab/rockydocs/documentation** will be used.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:56
+#, no-wrap
+msgid "The first question will ask you for the name of the project:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:58
+#, no-wrap
+msgid "> Project Name: documentation\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:60
+#, no-wrap
+msgid "It will follow the project path:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:62
+#, no-wrap
+msgid "> Project Path: ~/lab/rockydocs/documentation/\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:64
+#, no-wrap
+msgid "This is followed by the ability to set commands to be run when opening and closing the project. These commands refer to those executable in the editor and not to the **bash** language.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:66
+#, no-wrap
+msgid "You have, for example, the possibility to open contextually when opening the editor a side buffer with *NvimTree* with the command `NvimTreeToggle`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:68
+#, no-wrap
+msgid "> Startup Command (optional): NvimTreeToggle\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:70
+#, no-wrap
+msgid "Or to run a command before closing the editor.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:72
+#, no-wrap
+msgid "> Exit Command (optional):\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:74
+#, no-wrap
+msgid "Commands should be entered by omitting the colon `:` used to run the same commands in the *statusline.*\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:76
+#, no-wrap
+msgid "Once the configuration is finished, your project will be available in the buffer. To open it, select it and press <kbd>Enter</kbd>.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:78
+#, no-wrap
+msgid "![ProjectMgr Add](./images/projectmgr_add.png)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:80
+#, no-wrap
+msgid "As you can see from the screenshot in the **Config & Info** section, the plugin has recognized the folder as managed by *Git* and provides us with some information about it.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:82
+#, no-wrap
+msgid "Editing a project is done with <kbd>Ctrl</kbd> + <kbd>e</kbd> and consists of a new interactive loop, while any deletion is accomplished with the combination <kbd>Ctrl</kbd> + <kbd>d</kbd>.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:83
+#, no-wrap
+msgid "Additional functions"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:86
+#, no-wrap
+msgid "The plugin provides some additional functions specified in the [dedicated section](https://github.com/charludo/projectmgr.nvim#%EF%B8%8F-configuration). The most interesting ones are the ability to synchronize a git repository when opening the project and the ability to store the status of the editor when closing it. Both features are already present in the default configuration file, although, the functionality regarding *Git* is disabled.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:88
+#, no-wrap
+msgid "To add repository synchronization when opening projects you will need to add the following code to the initial plugin configuration:\n"
+msgstr ""
+
+#. type: Fenced code block (lua)
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:89
+#, no-wrap
+msgid "config = function()\n"
+"    require(\"projectmgr\").setup({\n"
+"        autogit = {\n"
+"            enabled = true,\n"
+"            command = \"git pull --ff-only >> .git/fastforward.log 2>&1\",\n"
+"        },\n"
+"    })\n"
+"end,\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:101
+#, no-wrap
+msgid "As you can see from the code the `require(\"projectmgr\").setup` function is called, which allows you to override the default settings. Anything you set inside it will change how it works.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:103
+#, no-wrap
+msgid "The `git pull --ff-only` command performs a *fast forward* synchronization of the repository, downloading only those files that have no conflicts and can be updated without intervention on your part.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:105
+#, no-wrap
+msgid "The result of the command also is directed to the file **.git/fastforward.log** to prevent it from being displayed on the terminal where NvChad is running and to have a synchronization history available.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:107
+#, no-wrap
+msgid "Also provided is the option to save the session when it closes. This allows you to return to the pages you were working on by selecting the project and opening it again.\n"
+msgstr ""
+
+#. type: Fenced code block (lua)
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:108
+#, no-wrap
+msgid "session = { enabled = true, file = \"Session.vim\" },\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:113
+#, no-wrap
+msgid "This option is enabled by default but it writes the **Session.vim** file to the *root* directory of the project and this is not desirable in the case of Rocky Linux documentation. In this example, it is saved in the `.git` folder which is not under version control.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:115
+#, no-wrap
+msgid "Adjust the path of **Session.vim** and **fastforward.log** according to your needs.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:117
+#, no-wrap
+msgid "Once the changes are complete, your configuration should look as follows:\n"
+msgstr ""
+
+#. type: Fenced code block (lua)
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:118
+#, no-wrap
+msgid "{\n"
+"    \"charludo/projectmgr.nvim\",\n"
+"    lazy = false, -- important!\n"
+"    config = function()\n"
+"        require(\"projectmgr\").setup({\n"
+"            autogit = {\n"
+"                enabled = true,\n"
+"                command = \"git pull --ff-only > .git/fastforward.log 2>&1\",\n"
+"            },\n"
+"            session = { enabled = true, file = \".git/Session.vim\" },\n"
+"        })\n"
+"    end,\n"
+"},\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:135
+#, no-wrap
+msgid "Now each time you open your projects, updated files will be automatically downloaded from the Git repository and you will have the latest files you were working on open in the editor ready for editing.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:139
+#, no-wrap
+msgid "    Open files in NvChad's saved session buffers are not automatically updated.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:141
+#, no-wrap
+msgid "To check if the open files do not match those updated from the repository you can use the `:checktime` command, which checks if the files open in the editor have been modified outside NvChad and alerts you to the need to update the buffers.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:142
+#, no-wrap
+msgid "Mapping"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:145
+#, no-wrap
+msgid "To speed up the opening of your projects, you can create a keyboard shortcut to put in your mapping in **/custom/mapping.lua**. An example might be:\n"
+msgstr ""
+
+#. type: Fenced code block (lua)
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:146
+#, no-wrap
+msgid "-- Projects\n"
+"M.projects = {\n"
+"  n = {\n"
+"    [\"<leader>fp\"] = { \"<cmd> ProjectMgr<CR>\", \"Open Projects\"}\n"
+"    },\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:156
+#, no-wrap
+msgid "With the editor in the **NORMAL** state you can open the project manager with the combination <kbd>Space</kbd> + <kbd>f</kbd> followed by <kbd>p</kbd>.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:160
+#, no-wrap
+msgid "As the number of projects you are working on increases, it might be useful to have a tool to help you manage them all. This plugin will allow you to speed up your work by reducing the time it takes to access the files you need to edit.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:161
+#, no-wrap
+msgid "We should also point out the excellent integration with `Telescope` which makes project management very functional.\n"
 msgstr ""
 
