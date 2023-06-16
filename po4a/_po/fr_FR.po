@@ -13,8 +13,120 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/apache_hardened_webserver_index.pot\n"
-"X-Crowdin-File-ID: 1239\n"
+"X-Crowdin-File: /po4a/po4a/_po/apache_hardened_webserver_modsecurity.pot\n"
+"X-Crowdin-File-ID: 1241\n"
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:44
+#: ../src/docs/books/admin_guide/05-vi.md:397
+#: ../src/docs/books/admin_guide/05-vi.md:405
+#: ../src/docs/books/admin_guide/05-vi.md:411
+#: ../src/docs/books/admin_guide/05-vi.md:417
+#: ../src/docs/books/admin_guide/05-vi.md:423
+#: ../src/docs/books/admin_guide/06-users.md:75
+#: ../src/docs/books/admin_guide/06-users.md:113
+#: ../src/docs/books/admin_guide/06-users.md:141
+#: ../src/docs/books/admin_guide/06-users.md:279
+#: ../src/docs/books/admin_guide/06-users.md:344
+#: ../src/docs/books/admin_guide/06-users.md:369
+#: ../src/docs/books/admin_guide/06-users.md:392
+#: ../src/docs/books/admin_guide/06-users.md:588
+#: ../src/docs/books/admin_guide/06-users.md:656
+#: ../src/docs/books/admin_guide/06-users.md:671
+#: ../src/docs/books/admin_guide/06-users.md:740
+#: ../src/docs/books/admin_guide/06-users.md:764
+#: ../src/docs/books/admin_guide/06-users.md:782
+#: ../src/docs/books/admin_guide/11-tasks.md:140
+#: ../src/docs/books/admin_guide/12-network.md:47
+#: ../src/docs/books/admin_guide/12-network.md:481
+#: ../src/docs/books/admin_guide/12-network.md:562
+#: ../src/docs/books/admin_guide/12-network.md:583
+#: ../src/docs/books/admin_guide/12-network.md:624
+#: ../src/docs/books/admin_guide/12-network.md:649
+#: ../src/docs/books/admin_guide/12-network.md:666
+#: ../src/docs/books/admin_guide/12-network.md:694
+#: ../src/docs/books/admin_guide/12-network.md:707
+#: ../src/docs/books/admin_guide/12-network.md:720
+#: ../src/docs/books/admin_guide/03-commands.md:126
+#: ../src/docs/books/admin_guide/03-commands.md:162
+#: ../src/docs/books/admin_guide/03-commands.md:470
+#: ../src/docs/books/admin_guide/03-commands.md:619
+#: ../src/docs/books/admin_guide/03-commands.md:641
+#: ../src/docs/books/admin_guide/03-commands.md:661
+#: ../src/docs/books/admin_guide/03-commands.md:778
+#: ../src/docs/books/admin_guide/03-commands.md:826
+#: ../src/docs/books/admin_guide/03-commands.md:842
+#: ../src/docs/books/admin_guide/03-commands.md:962
+#: ../src/docs/books/admin_guide/03-commands.md:985
+#: ../src/docs/books/admin_guide/03-commands.md:1174
+#: ../src/docs/books/admin_guide/03-commands.md:1195
+#: ../src/docs/books/admin_guide/07-file-systems.md:132
+#: ../src/docs/books/admin_guide/07-file-systems.md:237
+#: ../src/docs/books/admin_guide/07-file-systems.md:267
+#: ../src/docs/books/admin_guide/07-file-systems.md:286
+#: ../src/docs/books/admin_guide/07-file-systems.md:313
+#: ../src/docs/books/admin_guide/07-file-systems.md:327
+#: ../src/docs/books/admin_guide/07-file-systems.md:341
+#: ../src/docs/books/admin_guide/07-file-systems.md:379
+#: ../src/docs/books/admin_guide/07-file-systems.md:490
+#: ../src/docs/books/admin_guide/07-file-systems.md:612
+#: ../src/docs/books/admin_guide/07-file-systems.md:639
+#: ../src/docs/books/admin_guide/07-file-systems.md:993
+#: ../src/docs/books/admin_guide/08-process.md:60
+#: ../src/docs/books/admin_guide/08-process.md:198
+#: ../src/docs/books/admin_guide/08-process.md:230
+#: ../src/docs/books/admin_guide/08-process.md:250
+#: ../src/docs/books/admin_guide/08-process.md:287
+#: ../src/docs/books/admin_guide/08-process.md:312
+#: ../src/docs/books/admin_guide/08-process.md:330
+#: ../src/docs/books/admin_guide/09-backups.md:228
+#: ../src/docs/books/admin_guide/09-backups.md:253
+#: ../src/docs/books/admin_guide/09-backups.md:568
+#: ../src/docs/books/admin_guide/09-backups.md:632
+#: ../src/docs/books/admin_guide/09-backups.md:677
+#: ../src/docs/books/admin_guide/09-backups.md:700
+#: ../src/docs/books/admin_guide/09-backups.md:785
+#: ../src/docs/books/admin_guide/09-backups.md:807
+#: ../src/docs/books/admin_guide/09-backups.md:829
+#: ../src/docs/books/admin_guide/09-backups.md:855
+#: ../src/docs/books/admin_guide/10-boot.md:322
+#: ../src/docs/books/admin_guide/13-softwares.md:67
+#: ../src/docs/books/admin_guide/13-softwares.md:79
+#: ../src/docs/books/admin_guide/13-softwares.md:152
+#: ../src/docs/books/admin_guide/13-softwares.md:350
+#: ../src/docs/books/admin_guide/13-softwares.md:505
+#: ../src/docs/books/admin_guide/13-softwares.md:513
+#: ../src/docs/books/learning_ansible/01-basic.md:180
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:92
+#: ../src/docs/books/learning_bash/01-first-script.md:119
+#: ../src/docs/books/learning_bash/02-using-variables.md:128
+#: ../src/docs/books/learning_bash/02-using-variables.md:142
+#: ../src/docs/books/learning_bash/02-using-variables.md:204
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:118
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:216
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:338
+#: ../src/docs/books/learning_bash/05-tests.md:141
+#: ../src/docs/books/learning_bash/05-tests.md:199
+#: ../src/docs/books/learning_bash/05-tests.md:222
+#: ../src/docs/books/learning_bash/05-tests.md:313
+#: ../src/docs/books/learning_bash/05-tests.md:338
+#: ../src/docs/books/learning_bash/05-tests.md:354
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:101
+#: ../src/docs/books/learning_bash/07-loops.md:128
+#: ../src/docs/guides/security/learning_selinux.md:92
+#: ../src/docs/guides/security/learning_selinux.md:147
+#: ../src/docs/guides/security/learning_selinux.md:200
+#: ../src/docs/guides/security/learning_selinux.md:213
+#: ../src/docs/guides/security/learning_selinux.md:305
+#: ../src/docs/guides/security/learning_selinux.md:321
+#: ../src/docs/guides/security/learning_selinux.md:339
+#: ../src/docs/guides/security/learning_selinux.md:360
+#: ../src/docs/guides/security/learning_selinux.md:394
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:154
+#: ../src/docs/guides/web/php.md:255
+#, no-wrap
+msgid "Example:\n"
+msgstr ""
 
 #. type: Title ##
 #: ../src/docs/books/admin_guide/13-softwares.md:900
@@ -184,11 +296,36 @@ msgid "Ezequiel Bruni"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/gemstones/sed_search_replace.md:10
-#: ../src/docs/guides/proxies/pound.md:53
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:60
+#: ../src/docs/books/lxd_server/30-appendix_a.md:15
+#: ../src/docs/books/nvchad/vale_nvchad.md:16
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:20
+#: ../src/docs/guides/automation/anacron.md:10
+#: ../src/docs/guides/automation/cron_jobs_howto.md:14
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:13
+#: ../src/docs/guides/backup/rsnapshot_backup.md:13
+#: ../src/docs/guides/backup/rsync_ssh.md:12
+#: ../src/docs/guides/communications/asterisk_installation.md:25
+#: ../src/docs/guides/database/database_mariadb-server.md:13
+#: ../src/docs/guides/desktop/kde_installation.md:20
+#: ../src/docs/guides/desktop/mate_installation.md:17
+#: ../src/docs/guides/desktop/xfce_installation.md:17
+#: ../src/docs/guides/editors/micro.md:33
+#: ../src/docs/guides/email/postfix_reporting.md:14
+#: ../src/docs/guides/file_sharing/glusterfs.md:10
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:14
+#: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:14
+#: ../src/docs/guides/network/basic_network_configuration.md:16
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:8
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:14
+#: ../src/docs/guides/security/ssh_public_private_keys.md:14
+#: ../src/docs/guides/security/ssl_keys_https.md:14
+#: ../src/docs/guides/virtualization/vbox-rocky.md:19
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:15
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:15
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:14
+#: ../src/docs/guides/web/mod_SSL_apache.md:14
 #, no-wrap
-msgid "Conventions"
+msgid "Prerequisites"
 msgstr ""
 
 #. type: Yaml Front Matter Array Element: tags
@@ -204,59 +341,19 @@ msgstr ""
 msgid "web"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/cms/dokuwiki_server.md:234
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:83
+#. type: Fenced code block
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:124
+#: ../src/docs/guides/containers/lxd_web_servers.md:563
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:60
 #, no-wrap
-msgid "`vi /etc/firewall.conf`\n"
+msgid "systemctl start httpd\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/cms/dokuwiki_server.md:258
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:130
+#. type: Fenced code block
+#: ../src/docs/guides/proxies/pound.md:198
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:229
 #, no-wrap
-msgid "`chmod +x /etc/firewall.conf`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/cms/dokuwiki_server.md:262
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:142
-#, no-wrap
-msgid "`/etc/firewall.conf`\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/containers/podman-nextcloud.md:35
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:19
-#: ../src/docs/guides/dns/private_dns_server_using_bind.md:13
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:19
-#: ../src/docs/guides/proxies/pound.md:27
-#: ../src/docs/guides/security/firewalld-beginners.md:36
-#: ../src/docs/guides/security/firewalld.md:25
-#: ../src/docs/guides/security/pam.md:13
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:14
-#: ../src/docs/guides/web/nginx-mainline.md:41
-#: ../src/docs/guides/web/nginx-multisite.md:28
-#, no-wrap
-msgid "Prerequisites and Assumptions"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/database/database_mariadb-server.md:20
-#: ../src/docs/guides/file_sharing/glusterfs.md:15
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:22
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:21
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
-#, no-wrap
-msgid "A heavy comfort level with issuing commands from the command-line, viewing logs, and other general systems administrator duties\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/enabling_iptables_firewall.md:53
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:134
-#, no-wrap
-msgid "`systemctl enable iptables`\n"
+msgid "systemctl restart httpd\n"
 msgstr ""
 
 #. type: Yaml Front Matter Array Element: tags
@@ -267,376 +364,479 @@ msgstr ""
 msgid "apache"
 msgstr ""
 
+#. type: Yaml Front Matter Array Element: tags
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
+#: ../src/docs/guides/web/nginx-mainline.md:1
+#: ../src/docs/guides/web/nginx-multisite.md:1
+#, no-wrap
+msgid "nginx"
+msgstr ""
+
 #. type: Title #
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:12
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:13
 #, no-wrap
-msgid "Apache Hardened Webserver"
+msgid "Web-based Application Firewall (WAF)"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:23
 #, no-wrap
-msgid "A Rocky Linux web server running Apache\n"
+msgid "A Rocky Linux Web Server running Apache.\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:23
 #, no-wrap
-msgid "A comfort level with a command line editor (our examples use _vi_ which will usually invoke the _vim_ editor, but you can substitute your favorite editor)\n"
+msgid "Proficiency with a command-line editor (we are using _vi_ in this example).\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:23
 #, no-wrap
-msgid "Assumes an _iptables_ firewall, rather than _firewalld_ or a hardware firewall.\n"
+msgid "A heavy comfort level with issuing commands from the command-line, viewing logs, and other general systems administrator duties.\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:23
 #, no-wrap
-msgid "Assumes the use of a gateway hardware firewall that our trusted devices will sit behind.\n"
+msgid "An understanding that installing this tool also requires monitoring of actions and tuning to your environment.\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:23
 #, no-wrap
-msgid "Assumes a public IP address directly applied to the web server. We are substituting a private IP address for all of our examples.\n"
+msgid "An account on Comodo's WAF site.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:23
+#, no-wrap
+msgid "All commands are run as the root user or sudo.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:26
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:27
 #, no-wrap
-msgid "Whether you are hosting multiple websites for customers, or a single, very important, website for your business, hardening your web server will give you peace of mind, at the expense of a little more up-front work for the administrator.\n"
+msgid "_mod\\_security_ is an open-source web-based application firewall (WAF). It is just one possible component of a hardened Apache web server setup and can be used with, or without, other tools.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:28
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:29
 #, no-wrap
-msgid "With multiple web sites uploaded by your customers, you can pretty much be guaranteed that one of them will upload a Content Management System (CMS) with the possibility of vulnerabilities. Most customers are focused on ease of use, not security, and what happens is that updating their own CMS becomes a process that falls out of their priority list altogether.\n"
+msgid "If you'd like to use this along with other tools for hardening, refer back to the [Apache Hardened Web Server guide](index.md). This document also uses all of the assumptions and conventions outlined in that original document, so it is a good idea to review it before continuing.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:30
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:31
 #, no-wrap
-msgid "While notifying customers of vulnerabilities in their CMS may be possible for a company with a large IT staff, it may not be possible for a small department. The best defense is a hardened web server.\n"
+msgid "One thing that is missing with _mod\\_security_ when installed from the generic Rocky Linux repositories, is that the rules installed are minimal at best. To get a more extensive package of free mod_security rules, we are using [Comodo's](https://www.comodo.com/) WAF installation procedure after installing the base package.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:32
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:33
 #, no-wrap
-msgid "Web server hardening can take many forms, which may include any or all of the below tools, and possibly others not defined here.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:34
-#, no-wrap
-msgid "You might elect to use a couple of these tools, and not the others, so for clarity and readability this document is split out into separate documents for each tool. The exception will be the packet-based firewall (_iptables_) which will be included in this main document.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:41
-#, no-wrap
-msgid "A good packet filter firewall based on ports (iptables, firewalld, or hardware firewall - we will use _iptables_ for our example) [_iptables_ procedure](#iptablesstart)\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:41
-#, no-wrap
-msgid "A Host-based Intrusion Detection System (HIDS), in this case _ossec-hids_ [Apache Hardened Web Server - ossec-hids](ossec-hids.md)\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:41
-#, no-wrap
-msgid "A Web-based Application Firewall (WAF), with _mod\\_security_ rules [Apache Hardened Web Server - mod_security](modsecurity.md)\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:41
-#, no-wrap
-msgid "Rootkit Hunter (rkhunter): A scan tool that checks against Linux malware [Apache Hardened Web Server - rkhunter](rkhunter.md)\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:41
-#, no-wrap
-msgid "Database security (we are using _mariadb-server_ here) [MariaDB Database Server](../../database/database_mariadb-server.md)\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:41
-#, no-wrap
-msgid "A secure FTP or SFTP server (we are using _vsftpd_ here) [Secure FTP Server - vsftpd](../../file_sharing/secure_ftp_server_vsftpd.md) but we also have _sftp_ and SSH lock down procedures [here](../../file_sharing/sftp.md)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:43
-#, no-wrap
-msgid "This procedure does not replace the [Apache Web Server Multi-Site Setup](../apache-sites-enabled.md), it simply adds these security elements to it. If you haven't read it, take some time to look at it before proceeding.\n"
+msgid "Note that Comodo is a business that sells lots of tools to help secure networks. The free _mod\\_security_ tools may not be free forever and they do require that you setup a login with Comodo in order to gain access to the rules.\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:44
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:34
 #, no-wrap
-msgid "Other Considerations"
+msgid "Installing mod_security"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:47
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:37
 #, no-wrap
-msgid "Some of the tools outlined here have both free and fee-based options. Depending on your needs or support requirements, you may want to consider the fee-based versions. You should research what is out there and make a decision after weighing all of your options.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:49
-#, no-wrap
-msgid "Know, too, that most of these options can be purchased as hardware appliances. If you'd prefer not to hassle with installing and maintaining your own system, there are options available other than those outlined here.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:51
-#, no-wrap
-msgid "This document uses a straight _iptables_ firewall and requires [this procedure on Rocky Linux to disable firewalld and enable the iptables services](../../security/enabling_iptables_firewall.md). Since this document was first written, we now have a couple of excellent _firewalld_ guides; one that allows someone with knowledge of _iptables_ to transfer what they know to _firewalld_ [here](../../security/firewalld.md), and one that is a more dedicated to beginners [here](../../security/firewalld-beginners.md).\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:53
-#, no-wrap
-msgid "If you prefer to use _firewalld_, simply skip this step and apply the rules needed. The firewall in our examples here, needs no OUTPUT or FORWARD chains, only INPUT. Your needs may differ!\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:55
-#, no-wrap
-msgid "All of these tools need to be tuned to your system. That can only be done with careful monitoring of logs, and reported web experience by your customers. In addition, you will find that there will be ongoing tuning required over time.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:57
-#, no-wrap
-msgid "Even though we are using a private IP address to simulate a public one, all of this _could_ have been done using a one-to-one NAT on the hardware firewall and connecting the web server to that hardware firewall, rather than to the gateway router, with a private IP address.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:59
-#, no-wrap
-msgid "Explaining that requires digging into the hardware firewall shown below, and since that is outside of the scope of this document, it is better to stick with our example of a simulated public IP address.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:66
-#, no-wrap
-msgid "**IP Addresses:** We are simulating the public IP address here with a private block: 192.168.1.0/24 and we are using the LAN IP address block as 10.0.0.0/24  In other words, it cannot be routed over the Internet. In reality, neither IP block can be routed over the Internet as they are both reserved for private use, but there is no good way to simulate the public IP block, without using a real IP address that is assigned to some company. Just remember that for our purposes, the 192.168.1.0/24 block is the \"public\" IP block and the 10.0.0.0/24 is the \"private\" IP block.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:66
-#, no-wrap
-msgid "**Hardware Firewall:** This is the firewall that controls access to your server room devices from your trusted network. This is not the same as our _iptables_ firewall, though it could be another instance of _iptables_ running on another machine. This device will allow ICMP (ping) and SSH (secure shell) to our trusted devices. Defining this device is outside of the scope of this document. The author has used both [PfSense](https://www.pfsense.org/) and [OPNSense](https://opnsense.org/) and installed on dedicated hardware for this device with great success. This device will have two IP addresses assigned to it. One that will connect to the Internet router's simulated public IP (192.168.1.2) and one that will connect to our local area network, 10.0.0.1.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:66
-#, no-wrap
-msgid "**Internet Router IP:** We are simulating this with 192.168.1.1/24\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:66
-#, no-wrap
-msgid "**Web Server IP:** This is the \"public\" IP address assigned to our web server. Again, we are simulating this with the private IP address 192.168.1.10/24\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:68
-#, no-wrap
-msgid "![Hardened Webserver](images/hardened_webserver_figure1.jpeg)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:70
-#, no-wrap
-msgid "The diagram above shows our general layout. The _iptables_ packet-based firewall runs on the web server (shown above).\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:72
-#, no-wrap
-msgid "Install Packages"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:75
-#, no-wrap
-msgid "Each individual package section has the needed installation files and any configuration procedure listed. The installation instructions for _iptables_ is part of the [disable firewalld and enable the iptables services](../../security/enabling_iptables_firewall.md) procedure.\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:76
-#, no-wrap
-msgid "<a name=\"iptablesstart\"></a>Configuring iptables"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:79
-#, no-wrap
-msgid "This portion of the documentation assumes that you have elected to install the _iptables_ services and utilities and that you are not planning on using _firewalld_.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:81
-#, no-wrap
-msgid "If you are planning on using _firewalld_, you can use this _iptables_ script to guide you in creating the appropriate rules in the _firewalld_ format. Once the script is shown here, we will break it down to describe what is happening. Only the INPUT chain is needed here. The script is being placed in the /etc/ directory and for our example, it is named firewall.conf:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:85
-#, no-wrap
-msgid "and the contents will be:\n"
+msgid "To install the base package, use this command which will install any missing dependencies. We also need _wget_ so if you haven't installed it, do that as well:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:86
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:38
 #, no-wrap
-msgid "#!/bin/sh\n"
-"#\n"
-"#IPTABLES=/usr/sbin/iptables\n\n"
-"#  Unless specified, the defaults for OUTPUT is ACCEPT\n"
-"#    The default for FORWARD and INPUT is DROP\n"
-"#\n"
-"echo \"   clearing any existing rules and setting default policy..\"\n"
-"iptables -F INPUT\n"
-"iptables -P INPUT DROP\n"
-"iptables -A INPUT -p tcp -m tcp -s 192.168.1.2 --dport 22 -j ACCEPT\n"
-"iptables -A INPUT -p icmp -m icmp --icmp-type 8 -s 192.168.1.2 -j ACCEPT\n"
-"# dns rules\n"
-"iptables -A INPUT -p udp -m udp -s 8.8.8.8 --sport 53 -d 0/0 -j ACCEPT\n"
-"iptables -A INPUT -p udp -m udp -s 8.8.4.4 --sport 53 -d 0/0 -j ACCEPT\n"
-"# web ports\n"
-"iptables -A INPUT -p tcp -m tcp --dport 80 -j ACCEPT\n"
-"iptables -A INPUT -p tcp -m tcp --dport 443 -j ACCEPT\n"
-"# ftp ports\n"
-"iptables -A INPUT -p tcp -m tcp --dport 20-21 -j ACCEPT\n"
-"iptables -A INPUT -p tcp -m tcp --dport 7000-7500 -j ACCEPT\n"
-"iptables -A INPUT -i lo -j ACCEPT\n"
-"iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT\n"
-"iptables -A INPUT -p tcp -j REJECT --reject-with tcp-reset\n"
-"iptables -A INPUT -p udp -j REJECT --reject-with icmp-port-unreachable\n\n"
-"/usr/sbin/service iptables save\n"
+msgid "dnf install mod_security wget\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:42
+#, no-wrap
+msgid "Setting Up Your Comodo account"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:116
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:45
 #, no-wrap
-msgid "So here's what is happening above:\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:126
-#, no-wrap
-msgid "When we start, we flush all of the rules\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:126
-#, no-wrap
-msgid "We then set the default policy for our INPUT chain to DROP, which says, \"Hey, if we haven't explicitly allowed you here, then we are dropping you!\"\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:126
-#, no-wrap
-msgid "Then we allow SSH (port 22) from our trusted network, the devices behind the hardware firewall\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:126
-#, no-wrap
-msgid "We allow DNS from some public DNS resolvers. (these can also be local DNS servers, if you have them)\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:126
-#, no-wrap
-msgid "We allow our web traffic in from anywhere over port 80 and 443.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:126
-#, no-wrap
-msgid "We allow standard FTP (ports 20-21) and the passive ports needed to exchange two-way communications in FTP (7000-7500). These ports can be arbitrarily changed to other ports based on your ftp server configuration.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:126
-#, no-wrap
-msgid "We allow any traffic on the local interface (127.0.0.1)\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:126
-#, no-wrap
-msgid "Then we say, that any traffic that has successfully connected based on the rules, should be allowed other traffic (ports) to maintain their connection (ESTABLISHED,RELATED).\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:126
-#, no-wrap
-msgid "And finally, we reject all other traffic and set the script to save the rules where _iptables_ expects to find them.\n"
+msgid "To setup your free account, go to [Comodo's WAF site](https://waf.comodo.com/), and click the \"Signup\" link at the top of the page. You will be required to setup username and password information, but no credit-card or other billing will be done.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:128
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:47
 #, no-wrap
-msgid "Once this script is there, we need to make it executable:\n"
+msgid "The credentials that you use for signing on to the web site will be used in your setup of Comodo's software and also to obtain the rules, so you will need to keep these safe in a password manager somewhere.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:132
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:49
 #, no-wrap
-msgid "We need to enable _iptables_ if we haven't already:\n"
+msgid "Please note that the \"Terms and Conditions\" section of the form that you need to fill out to use Comodo Web Application Firewall (CWAF) is written to cover all of their products and services. That said, you should read this carefully before agreeing to the terms!\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:50
+#, no-wrap
+msgid "Installing CWAF"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:136
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:53
 #, no-wrap
-msgid "We need to start _iptables_:\n"
+msgid "Before you start, in order for the script to actually run after we download it, you are going to need some development tools. Install the package with:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:54
+#, no-wrap
+msgid "dnf group install 'Development Tools'\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:138
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:59
 #, no-wrap
-msgid "`systemctl start iptables`\n"
+msgid "In addition, you will need to have your web server running for Comodo to see _mod\\_security_ correctly. So, start it if it is not already running:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:140
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:65
 #, no-wrap
-msgid "We need to run /etc/firewall.conf:\n"
+msgid "After signing up with Comodo, you will get an email with instructions on what to do next. Essentially, what you need to do is to login to the web site with your new credentials and then download the client install script.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:144
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:67
 #, no-wrap
-msgid "If we add new rules to the /etc/firewall.conf, just run it again to take those rules live. Keep in mind that with a default DROP policy for the INPUT chain, if you make a mistake, you could lock yourself out remotely.\n"
+msgid "From the root directory of your server, use the wget command to download the installer:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:68
+#, no-wrap
+msgid "wget https://waf.comodo.com/cpanel/cwaf_client_install.sh\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:146
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:73
 #, no-wrap
-msgid "You can always fix this however, from the console on the server. Because the _iptables_ service is enabled, a reboot will restore all rules that have been added with `/etc/firewall.conf`.\n"
+msgid "Run the installer by typing:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:74
+#, no-wrap
+msgid "bash cwaf_client_install.sh\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:150
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:79
 #, no-wrap
-msgid "There are a number of ways to harden an Apache web server to make it more secure. Each operates independently of the other options, so you can choose to install any, or all, of them based on your needs.\n"
+msgid "This will extract the installer and start the process, echoing to the screen. You'll get a message part way down:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:80
+#, no-wrap
+msgid "No web host management panel found, continue in 'standalone' mode? [y/n]:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:151
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:85
 #, no-wrap
-msgid "Each requires some configuration with various tuning required for some to meet your specific needs. Since web services are constantly under attack 24/7 by unscrupulous actors, implementing at least some of these will help an administrator sleep at night.\n"
+msgid "Type \"y\" and let the script continue.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:87
+#, no-wrap
+msgid "You may also get this notice:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:88
+#, no-wrap
+msgid "Some required perl modules are missed. Install them? This can take a while. [y/n]:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:93
+#, no-wrap
+msgid "If so type \"y\" and allow those missing modules to install.\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:94
+#, no-wrap
+msgid "Enter CWAF login: username@domain.com\n"
+"Enter password for 'username@domain.com' (will not be shown): *************************\n"
+"Confirm password for 'username@domain.com' (will not be shown): ************************\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:101
+#, no-wrap
+msgid "Please note here that you will probably have to download the rules and install them in the correct location, as the password field requires a punctuation or special character, but the configuration file apparently has issues with this when sending it to Comodo's site from the installer or update script.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:103
+#, no-wrap
+msgid "These scripts will always fail with a credentials error. This probably doesn't affect administrators who have web servers running with a GUI front end (Cpanel / Plesk) but if you are running the program standalone as we are in our example, it does. [You can find the workaround below](#cwaf_fix).\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:104
+#, no-wrap
+msgid "Enter absolute CWAF installation path prefix (/cwaf will be appended): /usr/local\n"
+"Install into '/usr/local/cwaf' ? [y/n]:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:110
+#, no-wrap
+msgid "Just accept the path as given and then type \"y\" in the next field for the install path.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:112
+#, no-wrap
+msgid "If you have a non-standard path to the configuration file for Apache/nginx, you would enter it here, otherwise just hit 'Enter' for no changes:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:113
+#, no-wrap
+msgid "If you have non-standard Apache/nginx config path enter it here:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:118
+#, no-wrap
+msgid "Here is where the failure comes in, and the only workaround is to manually download and install the rules. Answer the prompts as shown below:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:119
+#, no-wrap
+msgid "Do you want to use HTTP GUI to manage CWAF rules? [y/n]: n\n"
+"Do you want to protect your server with default rule set? [y/n]: y\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:125
+#, no-wrap
+msgid "But expect to get the next message as well:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:126
+#, no-wrap
+msgid " Warning! Rules have not been updated. Check your credentials and try again later manually\n"
+"+------------------------------------------------------\n"
+"| LOG : Warning! Rules have not been updated. Check your credentials and try again later manually\n"
+"+------------------------------------------------------\n"
+"| Installation complete!\n"
+"| Please add the line:\n"
+"|   Include \"/usr/local/cwaf/etc/modsec2_standalone.conf\"\n"
+"| to Apache config file.\n"
+"| To update ModSecurity ruleset run\n"
+"|   /usr/local/cwaf/scripts/updater.pl\n"
+"| Restart Apache after that.\n"
+"| You may find useful utility /usr/local/cwaf/scripts/cwaf-cli.pl\n"
+"| Also you may examine file\n"
+"|   /usr/local/cwaf/INFO.TXT\n"
+"| for some useful software information.\n"
+"+------------------------------------------------------\n"
+"| LOG : All Done!\n"
+"| LOG : Exiting\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:148
+#, no-wrap
+msgid "That's a little frustrating. You can go to your account on the Comodo web site and change your password and re-run the install script, BUT it won't change anything. The credentials will still fail.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:149
+#, no-wrap
+msgid "<a name=\"cwaf_fix\"></a> CWAF Rules File Workaround"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:152
+#, no-wrap
+msgid "To fix this, we need to manually install the rules from the web site. This is done by logging into your account on https://waf.comodo.com and clicking on the the \"Download Full Rule Set\" link. You'll then need to copy the rules to your web server using scp'\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:155
+#, no-wrap
+msgid "scp cwaf_rules-1.233.tgz root@mywebserversdomainname.com:/root/\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:160
+#, no-wrap
+msgid "Once the tar gzip file has been copied over, move the file to the rules directory:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:161
+#, no-wrap
+msgid "mv /root/cwaf_rules-1.233.tgz /usr/local/cwaf/rules/\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:166
+#, no-wrap
+msgid "Then navigate to the rules directory:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:167
+#, no-wrap
+msgid "cd /usr/local/cwaf/rules/\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:172
+#, no-wrap
+msgid "And uncompress the rules:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:173
+#, no-wrap
+msgid "tar xzvf cwaf_rules-1.233.tgz\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:178
+#, no-wrap
+msgid "Any partial updates to the rules will have to be handled in the same way.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:180
+#, no-wrap
+msgid "This is where paying for rules and support can come in handy. It all depends on your budget.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:181
+#, no-wrap
+msgid "Configuring CWAF"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:184
+#, no-wrap
+msgid "When we installed _mod\\_security_, the default configuration file was installed in `/etc/httpd/conf.d/mod_security.conf`. The next thing we need to do is to modify this in two places. Start by editing the file:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:185
+#, no-wrap
+msgid "vi /etc/httpd/conf.d/mod_security.conf\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:190
+#, no-wrap
+msgid "At the very top of the file, you will see:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:191
+#, no-wrap
+msgid "<IfModule mod_security2.c>\n"
+"    # Default recommended configuration\n"
+"    SecRuleEngine On\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:198
+#, no-wrap
+msgid "Beneath the `SecRuleEngine On` line add `SecStatusEngine On` so that the top of the file will now look like this:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:199
+#, no-wrap
+msgid "<IfModule mod_security2.c>\n"
+"    # Default recommended configuration\n"
+"    SecRuleEngine On\n"
+"    SecStatusEngine On\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:207
+#, no-wrap
+msgid "Next go to the bottom of this configuration file. We need to tell _mod\\_security_ where to load the rules. You should see this at the bottom of the file before you make changes:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:208
+#, no-wrap
+msgid "    # ModSecurity Core Rules Set and Local configuration\n"
+"\tIncludeOptional modsecurity.d/*.conf\n"
+"\tIncludeOptional modsecurity.d/activated_rules/*.conf\n"
+"\tIncludeOptional modsecurity.d/local_rules/*.conf\n"
+"</IfModule>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:217
+#, no-wrap
+msgid "We need to add in one line at the bottom to add the CWAF configuration, which in turn loads the CWAF rules. That line is `Include \"/usr/local/cwaf/etc/cwaf.conf\"`. The bottom of this file should look like this when you are done:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:218
+#, no-wrap
+msgid "    # ModSecurity Core Rules Set and Local configuration\n"
+"\tIncludeOptional modsecurity.d/*.conf\n"
+"\tIncludeOptional modsecurity.d/activated_rules/*.conf\n"
+"\tIncludeOptional modsecurity.d/local_rules/*.conf\n"
+"   \tInclude \"/usr/local/cwaf/etc/cwaf.conf\"\n"
+"</IfModule>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:228
+#, no-wrap
+msgid "Now save your changes (with vi it's `SHIFT+:+wq!`) and restart httpd:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:234
+#, no-wrap
+msgid "If httpd starts OK, then you are ready to start using _mod\\_security_ with the CWAF.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:238
+#, no-wrap
+msgid "_mod\\_security_ with CWAF is another tool that can be used to help harden an Apache web server. Because CWAF's passwords require punctuation and because the standalone installation does not send that punctuation correctly, managing CWAF rules requires logging into the CWAF site and downloading rules and changes.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:240
+#, no-wrap
+msgid "_mod\\_security_, like other hardening tools, has the potential of false-positive responses, so you must be prepared to tune this tool to your installation.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:241
+#, no-wrap
+msgid "Like other solutions mentioned in the [Apache Hardened Web Server guide](index.md), there are other free and fee-based solutions for _mod\\_security_ rules, and for that matter, other WAF applications available. You can take a look at one of these at [Atomicorp's _mod\\_security_ site](https://atomicorp.com/atomic-modsecurity-rules/).\n"
 msgstr ""
 
