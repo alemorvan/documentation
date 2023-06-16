@@ -13,8 +13,208 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/automation_cronie.pot\n"
-"X-Crowdin-File-ID: 1249\n"
+"X-Crowdin-File: /po4a/po4a/_po/automation_olivetin.pot\n"
+"X-Crowdin-File-ID: 1251\n"
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:43
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:220
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:271
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:334
+#: ../src/docs/books/admin_guide/05-vi.md:70
+#: ../src/docs/books/admin_guide/05-vi.md:206
+#: ../src/docs/books/admin_guide/05-vi.md:272
+#: ../src/docs/books/admin_guide/06-users.md:36
+#: ../src/docs/books/admin_guide/06-users.md:92
+#: ../src/docs/books/admin_guide/06-users.md:220
+#: ../src/docs/books/admin_guide/06-users.md:350
+#: ../src/docs/books/admin_guide/06-users.md:598
+#: ../src/docs/books/admin_guide/06-users.md:754
+#: ../src/docs/books/admin_guide/06-users.md:818
+#: ../src/docs/books/admin_guide/11-tasks.md:174
+#: ../src/docs/books/admin_guide/12-network.md:158
+#: ../src/docs/books/admin_guide/03-commands.md:516
+#: ../src/docs/books/admin_guide/03-commands.md:693
+#: ../src/docs/books/admin_guide/03-commands.md:1216
+#: ../src/docs/books/admin_guide/03-commands.md:1262
+#: ../src/docs/books/admin_guide/03-commands.md:1297
+#: ../src/docs/books/admin_guide/07-file-systems.md:395
+#: ../src/docs/books/admin_guide/07-file-systems.md:437
+#: ../src/docs/books/admin_guide/07-file-systems.md:447
+#: ../src/docs/books/admin_guide/07-file-systems.md:515
+#: ../src/docs/books/admin_guide/07-file-systems.md:556
+#: ../src/docs/books/admin_guide/07-file-systems.md:627
+#: ../src/docs/books/admin_guide/07-file-systems.md:653
+#: ../src/docs/books/admin_guide/07-file-systems.md:672
+#: ../src/docs/books/admin_guide/07-file-systems.md:676
+#: ../src/docs/books/admin_guide/07-file-systems.md:1019
+#: ../src/docs/books/admin_guide/08-process.md:49
+#: ../src/docs/books/admin_guide/08-process.md:238
+#: ../src/docs/books/admin_guide/09-backups.md:27
+#: ../src/docs/books/admin_guide/09-backups.md:116
+#: ../src/docs/books/admin_guide/09-backups.md:133
+#: ../src/docs/books/admin_guide/09-backups.md:148
+#: ../src/docs/books/admin_guide/09-backups.md:281
+#: ../src/docs/books/admin_guide/09-backups.md:285
+#: ../src/docs/books/admin_guide/09-backups.md:301
+#: ../src/docs/books/admin_guide/09-backups.md:342
+#: ../src/docs/books/admin_guide/09-backups.md:352
+#: ../src/docs/books/admin_guide/09-backups.md:554
+#: ../src/docs/books/admin_guide/09-backups.md:771
+#: ../src/docs/books/admin_guide/10-boot.md:114
+#: ../src/docs/books/admin_guide/10-boot.md:153
+#: ../src/docs/books/admin_guide/10-boot.md:165
+#: ../src/docs/books/admin_guide/13-softwares.md:22
+#: ../src/docs/books/learning_ansible/01-basic.md:51
+#: ../src/docs/books/learning_ansible/01-basic.md:104
+#: ../src/docs/books/learning_ansible/01-basic.md:112
+#: ../src/docs/books/learning_ansible/01-basic.md:328
+#: ../src/docs/books/learning_ansible/01-basic.md:415
+#: ../src/docs/books/learning_ansible/01-basic.md:492
+#: ../src/docs/books/learning_ansible/01-basic.md:633
+#: ../src/docs/books/learning_ansible/01-basic.md:656
+#: ../src/docs/books/learning_ansible/02-advanced.md:34
+#: ../src/docs/books/learning_ansible/02-advanced.md:150
+#: ../src/docs/books/learning_ansible/02-advanced.md:182
+#: ../src/docs/books/learning_ansible/02-advanced.md:269
+#: ../src/docs/books/learning_ansible/02-advanced.md:277
+#: ../src/docs/books/learning_ansible/02-advanced.md:287
+#: ../src/docs/books/learning_ansible/02-advanced.md:293
+#: ../src/docs/books/learning_ansible/02-advanced.md:360
+#: ../src/docs/books/learning_ansible/02-advanced.md:428
+#: ../src/docs/books/learning_ansible/02-advanced.md:601
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:33
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:58
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:77
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:96
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:113
+#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:65
+#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:432
+#: ../src/docs/books/learning_ansible/05-deployments.md:41
+#: ../src/docs/books/learning_ansible/05-deployments.md:124
+#: ../src/docs/books/learning_ansible/05-deployments.md:196
+#: ../src/docs/books/learning_ansible/05-deployments.md:616
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:36
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:40
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:80
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:214
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:32
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:75
+#: ../src/docs/books/learning_bash/02-using-variables.md:153
+#: ../src/docs/books/learning_bash/02-using-variables.md:193
+#: ../src/docs/books/learning_bash/05-tests.md:245
+#: ../src/docs/books/learning_bash/07-loops.md:180
+#: ../src/docs/books/lxd_server/04-firewall.md:80
+#: ../src/docs/books/nvchad/plugins/md_preview.md:140
+#: ../src/docs/books/nvchad/template_chadrc.md:239
+#: ../src/docs/gemstones/https_rsa_keygen.md:34
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:80
+#: ../src/docs/guides/8_6_installation.md:37
+#: ../src/docs/guides/8_6_installation.md:168
+#: ../src/docs/guides/8_6_installation.md:176
+#: ../src/docs/guides/8_6_installation.md:182
+#: ../src/docs/guides/8_6_installation.md:250
+#: ../src/docs/guides/automation/olivetin.md:60
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:307
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:323
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:486
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:533
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:667
+#: ../src/docs/guides/containers/lxd_web_servers.md:35
+#: ../src/docs/guides/containers/lxd_web_servers.md:45
+#: ../src/docs/guides/containers/lxd_web_servers.md:301
+#: ../src/docs/guides/containers/lxd_web_servers.md:352
+#: ../src/docs/guides/containers/lxd_web_servers.md:605
+#: ../src/docs/guides/containers/lxd_web_servers.md:665
+#: ../src/docs/guides/containers/lxd_web_servers.md:737
+#: ../src/docs/guides/containers/lxd_web_servers.md:796
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:53
+#: ../src/docs/guides/contribute/navigation.md:60
+#: ../src/docs/guides/custom-linux-kernel.md:453
+#: ../src/docs/guides/editors/micro.md:30
+#: ../src/docs/guides/file_sharing/glusterfs.md:46
+#: ../src/docs/guides/file_sharing/glusterfs.md:64
+#: ../src/docs/guides/file_sharing/glusterfs.md:102
+#: ../src/docs/guides/file_sharing/glusterfs.md:203
+#: ../src/docs/guides/installation.md:36 ../src/docs/guides/installation.md:175
+#: ../src/docs/guides/installation.md:183
+#: ../src/docs/guides/installation.md:193
+#: ../src/docs/guides/installation.md:266
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
+#: ../src/docs/guides/security/firewalld-beginners.md:89
+#: ../src/docs/guides/security/firewalld-beginners.md:144
+#: ../src/docs/guides/security/firewalld-beginners.md:258
+#: ../src/docs/guides/security/firewalld.md:51
+#: ../src/docs/guides/security/firewalld.md:94
+#: ../src/docs/guides/security/firewalld.md:228
+#: ../src/docs/guides/security/firewalld.md:372
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:72
+#: ../src/docs/guides/security/learning_selinux.md:137
+#: ../src/docs/guides/security/learning_selinux.md:253
+#: ../src/docs/guides/security/learning_selinux.md:356
+#: ../src/docs/guides/virtualization/vbox-rocky.md:27
+#: ../src/docs/guides/web/nginx-mainline.md:30
+#: ../src/docs/guides/web/nginx-mainline.md:99
+#: ../src/docs/guides/web/nginx-mainline.md:141
+#: ../src/docs/guides/web/nginx-mainline.md:254
+#: ../src/docs/guides/web/nginx-mainline.md:333
+#: ../src/docs/guides/web/nginx-multisite.md:73
+#: ../src/docs/guides/web/nginx-multisite.md:233
+#: ../src/docs/guides/web/nginx-multisite.md:292
+#: ../src/docs/guides/web/nginx-multisite.md:302
+#: ../src/docs/guides/web/php.md:33 ../src/docs/guides/web/php.md:76
+#: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
+#: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
+#: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
+#, no-wrap
+msgid "!!! Note\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/13-softwares.md:900
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:105
+#: ../src/docs/books/nvchad/template_chadrc.md:352
+#: ../src/docs/gemstones/bash_stub.md:103
+#: ../src/docs/gemstones/perl_search_replace.md:38
+#: ../src/docs/gemstones/sed_search_replace.md:72
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:172
+#: ../src/docs/guides/automation/olivetin.md:142
+#: ../src/docs/guides/cms/dokuwiki_server.md:306
+#: ../src/docs/guides/communications/asterisk_installation.md:261
+#: ../src/docs/guides/containers/lxd_web_servers.md:919
+#: ../src/docs/guides/containers/podman-nextcloud.md:456
+#: ../src/docs/guides/contribute/local_docs.md:47
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:322
+#: ../src/docs/guides/contribute/navigation.md:129
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:458
+#: ../src/docs/guides/database/database_mariadb-server.md:197
+#: ../src/docs/guides/desktop/kde_installation.md:105
+#: ../src/docs/guides/desktop/mate_installation.md:200
+#: ../src/docs/guides/desktop/xfce_installation.md:218
+#: ../src/docs/guides/editors/micro.md:79
+#: ../src/docs/guides/email/postfix_reporting.md:254
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:270
+#: ../src/docs/guides/file_sharing/sftp.md:765
+#: ../src/docs/guides/proxies/pound.md:460
+#: ../src/docs/guides/security/dnf_automatic.md:119
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:54
+#: ../src/docs/guides/security/firewalld-beginners.md:427
+#: ../src/docs/guides/security/firewalld.md:477
+#: ../src/docs/guides/security/pam.md:137
+#: ../src/docs/guides/security/ssl_keys_https.md:136
+#: ../src/docs/guides/virtualization/vbox-rocky.md:160
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:147
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:235
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:157
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:91
+#: ../src/docs/guides/web/mod_SSL_apache.md:171
+#: ../src/docs/guides/web/nginx-mainline.md:352
+#: ../src/docs/guides/web/nginx-multisite.md:359
+#, no-wrap
+msgid "Conclusion"
+msgstr ""
 
 #. type: YAML Front Matter: contributors
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:1
@@ -76,286 +276,409 @@ msgstr ""
 msgid "Steven Spencer"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/guides/automation/anacron.md:15
-#: ../src/docs/guides/automation/cronie.md:14
+#. type: Title #
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
+#: ../src/docs/books/learning_ansible/05-deployments.md:31
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/00-toc.md:13
+#: ../src/docs/books/nvchad/index.md:12
+#: ../src/docs/books/nvchad/plugins/index.md:14
+#: ../src/docs/books/nvchad/plugins/md_preview.md:14
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
+#: ../src/docs/books/nvchad/vale_nvchad.md:12
+#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
+#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
+#: ../src/docs/gemstones/string_color.md:11
+#: ../src/docs/guides/automation/cron_jobs_howto.md:25
+#: ../src/docs/guides/automation/olivetin.md:14
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
+#: ../src/docs/guides/backup/rsnapshot_backup.md:22
+#: ../src/docs/guides/backup/rsync_ssh.md:24
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
+#: ../src/docs/guides/cms/dokuwiki_server.md:23
+#: ../src/docs/guides/containers/lxd_web_servers.md:10
+#: ../src/docs/guides/containers/podman-nextcloud.md:13
+#: ../src/docs/guides/contribute/local_docs.md:11
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
+#: ../src/docs/guides/contribute/mkdocs_venv.md:14
+#: ../src/docs/guides/contribute/style_guide.md:14
+#: ../src/docs/guides/database/database_mariadb-server.md:21
+#: ../src/docs/guides/desktop/kde_installation.md:11
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
+#: ../src/docs/guides/editors/micro.md:14
+#: ../src/docs/guides/email/postfix_reporting.md:22
+#: ../src/docs/guides/file_sharing/glusterfs.md:16
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
+#: ../src/docs/guides/file_sharing/sftp.md:16
+#: ../src/docs/guides/migrate2rocky.md:18
+#: ../src/docs/guides/network/basic_network_configuration.md:12
+#: ../src/docs/guides/network/librenms_monitoring_server.md:13
+#: ../src/docs/guides/package_management/index.md:1
+#: ../src/docs/guides/package_management/index.md:5
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
+#: ../src/docs/guides/proxies/pound.md:17
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
+#: ../src/docs/guides/security/firewalld-beginners.md:10
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
+#: ../src/docs/guides/security/ssh_public_private_keys.md:21
+#: ../src/docs/guides/security/ssl_keys_https.md:22
+#: ../src/docs/guides/virtualization/vbox-rocky.md:13
+#: ../src/docs/guides/web/apache-sites-enabled.md:25
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
+#: ../src/docs/guides/web/nginx-mainline.md:13
+#: ../src/docs/guides/web/nginx-multisite.md:14
+#: ../src/docs/labs/security/introduction.md:1
+#: ../src/docs/labs/security/introduction.md:5
 #, no-wrap
-msgid "A computer running Rocky Linux.\n"
+msgid "Introduction"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/learning_bash/00-toc.md:1
+#: ../src/docs/books/learning_bash/01-first-script.md:1
+#: ../src/docs/books/learning_bash/02-using-variables.md:1
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:1
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:1
+#: ../src/docs/books/learning_bash/05-tests.md:1
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:1
+#: ../src/docs/books/learning_bash/07-loops.md:1
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:1
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:1
+#: ../src/docs/gemstones/string_color.md:1
+#: ../src/docs/guides/automation/olivetin.md:1
+#, no-wrap
+msgid "bash"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/automation/cron_jobs_howto.md:1
+#: ../src/docs/guides/automation/olivetin.md:1
+#: ../src/docs/guides/security/dnf_automatic.md:1
+#, no-wrap
+msgid "automation"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/cron_jobs_howto.md:18
+#: ../src/docs/guides/automation/olivetin.md:38
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:25
+#, no-wrap
+msgid "A computer running Rocky Linux\n"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/automation/olivetin.md:1
+#: ../src/docs/guides/file_sharing/sftp.md:1
+#: ../src/docs/guides/web/apache-sites-enabled.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:1
+#: ../src/docs/guides/web/nginx-mainline.md:1
+#: ../src/docs/guides/web/nginx-multisite.md:1 ../src/docs/guides/web/php.md:1
+#, no-wrap
+msgid "web"
 msgstr ""
 
 #. type: YAML Front Matter: title
-#: ../src/docs/guides/automation/cronie.md:1
+#: ../src/docs/guides/automation/olivetin.md:1
 #, no-wrap
-msgid "cronie - Timed Tasks"
+msgid "OliveTin"
 msgstr ""
 
 #. type: Title #
-#: ../src/docs/guides/automation/cronie.md:8
+#: ../src/docs/guides/automation/olivetin.md:12
 #, no-wrap
-msgid "Prerequisite"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/automation/cronie.md:14
-#, no-wrap
-msgid "Know how to use your favorite editor to change the configuration file in the command line environment (this article will use `vi`).\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/automation/cronie.md:14
-#, no-wrap
-msgid "You have understood the basic knowledge of bash, python or other scripting or programming tools, and expect to run the script automatically.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/automation/cronie.md:14
-#, no-wrap
-msgid "You have connected to your computer by SSH (it can be root user or ordinary user with UID greater than 1000).\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/automation/cronie.md:15
-#, no-wrap
-msgid "cron Introduction"
+msgid "How to Install & Use OliveTin on Rocky Linux"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/automation/cronie.md:18
+#: ../src/docs/guides/automation/olivetin.md:17
 #, no-wrap
-msgid "GNU/Linux provides the *cron* system, which is a time-based `cron` jobs program for automated processes. It is not hard, but quite powerful. Want a script or program to run at 5 pm every day? `cron` can do it. There are different branches (or variants) of `cron`, which have the same functions. In this document, **cronie** is used, and the version is 1.5.2. You can click [here](https://github.com/cronie-crond/cronie) to find the latest version and update log.\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/automation/cronie.md:19
-#, no-wrap
-msgid "cronie's Description"
-msgstr ""
-
-#. type: Bullet: '*  '
-#: ../src/docs/guides/automation/cronie.md:27
-#, no-wrap
-msgid "**cronie** -package name, Rocky Linux includes cronie by default;\n"
-msgstr ""
-
-#. type: Bullet: '*  '
-#: ../src/docs/guides/automation/cronie.md:27
-#, no-wrap
-msgid "**crontab** -command to maintain `crontab` (task schedule) for each user;\n"
-msgstr ""
-
-#. type: Bullet: '*  '
-#: ../src/docs/guides/automation/cronie.md:27
-#, no-wrap
-msgid "**crond.service** -cronie's daemon, you can manage the daemon by `systemctl start | restart | stop | status` ;\n"
-msgstr ""
-
-#. type: Bullet: '*  '
-#: ../src/docs/guides/automation/cronie.md:27
-#, no-wrap
-msgid "**/etc/crontab** -Assign cron jobs to different users, usually we are more accustomed to using `crontab -e` . For example, if you are currently logged in as the root user, type `crontab -e` and you will see specific cron jobs in the file /var/spool/cron/root after saving.\n"
-msgstr ""
-
-#. type: Bullet: '*  '
-#: ../src/docs/guides/automation/cronie.md:27
-#, no-wrap
-msgid "**/var/log/cron \\* ** -Cronie's log, by default, does log rotation and ends with a date suffix. \\* Here means wildcard\n"
-msgstr ""
-
-#. type: Bullet: '*  '
-#: ../src/docs/guides/automation/cronie.md:27
-#, no-wrap
-msgid "**anacron** -part of cronie . For more information about `anacron`, see [anacron-automation commands](anacron.md).\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/automation/cronie.md:28
-#, no-wrap
-msgid "`crontab` Command"
+msgid "Have you ever gotten tired of typing in the same CLI commands over and over again? Have you ever wanted everyone else in your house to be able to restart the Plex server without your intervention? Do you want to just type in a name in a web panel, push a button, and watch a customized Docker/LXD container magically appear?\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/automation/cronie.md:31
+#: ../src/docs/guides/automation/olivetin.md:19
 #, no-wrap
-msgid "`crontab` is a command obtained after installation of the cronie package. Compared with `anacron`, it is more suitable for servers that work 7 \\* 24 hours a day. Common options of `crontab` are:\n"
+msgid "Then you might want to check out OliveTin. OliveTin is literally just an app that lets you generate a web page from a configuration file, and that web page has buttons. Push the buttons, and OliveTin will run preset bash commands that you set up yourself.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/olivetin.md:21
+#, no-wrap
+msgid "Sure, you could technically create something like this yourself, from scratch, with enough programming experience... but this is *way* easier. It looks a little something like this when set up (image courtesy of the [OliveTin repository](https://github.com/OliveTin/OliveTin)):\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/olivetin.md:23
+#, no-wrap
+msgid "![A screenshot of OliveTin on the desktop; it features several squares in a grid, with labels and actions for each command that can be run.](olivetin/screenshotDesktop.png)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/olivetin.md:25
+#, no-wrap
+msgid "!!! Warning \"NEVER run this app on a public server\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/olivetin.md:27
+#, no-wrap
+msgid "    This app is, by design and the creator's own admission, meant to be used on local networks, *maybe* on dev setups. However, it has no user authentication system at present, and (until the developer fixes this) *runs as root by default*.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/olivetin.md:29
+#, no-wrap
+msgid "    So yeah, use this all you want on a secured and firewalled network. *Don't* put it on anything meant to be used by the public. For now.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/automation/olivetin.md:30
+#, no-wrap
+msgid "Prerequisites and assumptions"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/olivetin.md:33
+#, no-wrap
+msgid "To follow this guide you will need:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/olivetin.md:38
+#, no-wrap
+msgid "A minimal amount of comfort or experience with the command line.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/olivetin.md:38
+#, no-wrap
+msgid "Root access, or  the ability to use `sudo`.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/automation/olivetin.md:38
+#, no-wrap
+msgid "To learn the basics of YAML. It is not hard; you'll get the hang of it down below.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/automation/olivetin.md:39
+#, no-wrap
+msgid "Installing OliveTin"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/olivetin.md:42
+#, no-wrap
+msgid "OliveTin includes pre-built RPMs. Just download the latest release here for your architecture, and install it. If you're following this guide on a workstation with a graphical desktop, just download the file and double click on it in your file manager of choice.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/olivetin.md:44
+#, no-wrap
+msgid "If you're installing this app on a server, then you can download it on your work machine and upload it via SSH/SCP/SFTP, or do the thing some people say not to do, and download it with `wget`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/olivetin.md:46
+#, no-wrap
+msgid "e.g.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
-#: ../src/docs/guides/automation/cronie.md:32
+#: ../src/docs/guides/automation/olivetin.md:47
 #, no-wrap
-msgid "-e # edit crontab scheduled tasks\n"
-"the -l # View crontab task\n"
-"-r # delete all the current user's crontab tasks\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/automation/cronie.md:38
-#, no-wrap
-msgid "Use of cronie"
+msgid "wget https://github.com/OliveTin/OliveTin/releases/download/2022-04-07/OliveTin_2022-04-07_linux_amd64.rpm\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/automation/cronie.md:41
+#: ../src/docs/guides/automation/olivetin.md:52
 #, no-wrap
-msgid "To allow different users to execute different commands (or scripts) at different times, they can be written into this file. However, usually we are more accustomed to using `crontab -e`.\n"
+msgid "Then install the app with (again, for example):\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
-#: ../src/docs/guides/automation/cronie.md:42
+#: ../src/docs/guides/automation/olivetin.md:53
 #, no-wrap
-msgid "shell > cat /etc/crontab\n"
-"SHELL=/bin/bash\n"
-"PATH=/sbin:/bin:/usr/sbin:/usr/bin\n"
-"MAILTO=root\n"
-"# For details see man 4 crontabs\n"
-"# Example of job definition:\n"
-"# .---------------- minute (0-59)\n"
-"# | .------------- hour (0-23)\n"
-"# | | .---------- day of month (1-31)\n"
-"# | | | .------- month (1-12) OR jan,feb,mar,apr ...\n"
-"# | | | | .---- day of week (0-6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat\n"
-"# | | | | |\n"
-"# * * * * * user-name command to be executed\n"
+msgid "sudo rpm -i OliveTin_2022-04-07_linux_amd64.rpm\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/automation/cronie.md:65
+#: ../src/docs/guides/automation/olivetin.md:58
 #, no-wrap
-msgid "|Parameter|Meaning|Value Range|\n"
-"|---|---|---|\n"
-"|The 1st\\*|The first minute of the hour|0-59|\n"
-"|The 2nd\\*|Hour of the day|0-23|\n"
-"|The 3rd\\*|Day of the month|1-31|\n"
-"|The 4th\\*|The month of the year|1-12|\n"
-"|The 5th\\*|Day of the week|0-7 (0 and 7 both indicate Sunday)|\n"
+msgid "OliveTin can run as a normal `systemd` service, but do not enable it just yet. You need to set up your configuration file first.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/automation/cronie.md:67
+#: ../src/docs/guides/automation/olivetin.md:62
 #, no-wrap
-msgid "In the example that follows, assuming you are performing this operation as the root user, type the following: \n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/automation/cronie.md:69
-#, no-wrap
-msgid "`crontab -e` which will bring up the timed tasks of the root user. If you use `vi` as the default system editor, press <kbd>i</kbd> key to enter the insert mode. \n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/automation/cronie.md:69
-#, no-wrap
-msgid "\"#\" means this is a line of comment.  \n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/automation/cronie.md:71
-#, no-wrap
-msgid "# Nightly 10:00 backup system\n"
-"00 22 *  *  * /usr/local/sbin/backup\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/automation/cronie.md:78
-#, no-wrap
-msgid "Once the above has been entered (again assuming `vi` is the system editor), press <kbd>ESC</kbd> to exit insert mode.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/automation/cronie.md:78
-#, no-wrap
-msgid "Save and exit your file with <kbd>SHIFT</kbd>+<kbd>:</kbd>+<kbd>wq!</kbd> (displayed at the bottom of the editor).\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/automation/cronie.md:80
-#, no-wrap
-msgid "Now the script will run every night at 22:00. This is a simplistic example. Things can become more complicated if you need something more elaborate.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/automation/cronie.md:82
-#: ../src/docs/guides/automation/cronie.md:106
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:109
-#, no-wrap
-msgid "!!! tip \"Attention\"\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/automation/cronie.md:84
-#, no-wrap
-msgid "    The script needs to have execute permission (`chmod +x`) before cronie can run it.\n"
-msgstr ""
-
-#. type: Title ####
-#: ../src/docs/guides/automation/cronie.md:85
-#, no-wrap
-msgid "Complex Options"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/automation/cronie.md:88
-#, no-wrap
-msgid "The content discussed so far are simplistic options, but what about more complex timed tasks?\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/automation/cronie.md:89
-#, no-wrap
-msgid "# Suppose you want to run every 10 minutes backup script (may be impractical, however, it is only an example!) Throughout the day. To this end, the following will be written:\n"
-"* /10 *  *  *  * /usr/local/sbin/backup\n"
-"#What if you only want to run a backup every 10 minutes on Monday, Wednesday, and Friday? :\n"
-"* /10 *  *  * 1,3,5 /usr/local/sbin/backup\n"
-"# In addition to Saturdays and Sundays, once every 10 minutes, every day, how to back up?\n"
-"* /10 *  *  * 1-5 /usr/local/sbin/backup\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/automation/cronie.md:104
-#, no-wrap
-msgid "|Special Symbols|Meaning|\n"
-"|---|---|\n"
-"|* | represents any time. For example, the first * means any minute, and the second * means any hour |\n"
-"|, | stands for discontinuous time, such as \"0 8,12,16 * * * \", which means that the command will run once every day at 8:00, 12:00, and 16:00 |\n"
-"|- | represents a continuous time range, such as \"0 5 * * 1-6 \", which means that a command will run at five o'clock in the morning every day from Monday to Saturday |\n"
-"|*/n | Represents how often the interval will run, such as \"*/10 * * * *\" means that it  every 10 minutes |\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/automation/cronie.md:108
-#, no-wrap
-msgid "    The smallest time unit that cronie can recognize is 1 minute; when using, for example, `30 4 1,15 * 5 command` , it will cause the command to run on the 1st and 15th of each month and 4:30 in the morning of every Friday ; The output information of some scripts or commands will prevent the execution of timed tasks, and output redirection is required, such as this- `*/10 * * * * /usr/local/sbin/backup &> /dev/null`\n"
+msgid "    After some testing, I have determined that these same install instructions will work just fine in a Rocky Linux LXD container. For anyone who likes Docker, pre-built images are available.\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/automation/cronie.md:109
+#: ../src/docs/guides/automation/olivetin.md:63
 #, no-wrap
-msgid "Q and A"
+msgid "Configuring OliveTin Actions"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/automation/cronie.md:120
+#: ../src/docs/guides/automation/olivetin.md:66
 #, no-wrap
-msgid "1. /etc/crontab and `crontab -e` , is there any difference between the two methods?\n"
-" `crontab -e` does not need to specify a user (the currently logged-in user is used by default), while /etc/crontab needs to specify a user.\n"
-"2. What should you do if the specified command or script is not run correctly?\n"
-"Check the /var/log/cron* file, use `journalctl -u crond.service` to check the information about the daemon process, whether the script has x permission, etc., for troubleshooting.\n"
-"3. In addition to cronie, what cron variants are there?\n"
-"[ dcron ](http://www.jimpryor.net/linux/dcron.html), the latest version is 4.5 (2011-50-01).\n"
-"[ fcron ](http://fcron.free.fr/), the latest version is 3.3.0 (dev, 2016-08-14).\n"
-"[ bcron ](http://untroubled.org/bcron/), the latest version is 0.11 (2015-08-12).\n"
-"[ cronsun ](https://github.com/shunfei/cronsun), the latest version 0.3.5 (2018-11-20).\n"
+msgid "OliveTin can do anything bash can do, and more. You can use it to run apps with CLI options, run bash scripts, restart services, and so on. To get started, open up the configuration file with the text editor of your choice with root/sudo:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/automation/olivetin.md:67
+#, no-wrap
+msgid "sudo nano /etc/OliveTin/config.yaml\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/olivetin.md:72
+#, no-wrap
+msgid "The most basic kind of action is a button; you click it, and the command is run on the host computer. You can define it in the YAML file like so:\n"
+msgstr ""
+
+#. type: Fenced code block (yaml)
+#: ../src/docs/guides/automation/olivetin.md:73
+#, no-wrap
+msgid "actions:\n"
+"  - title: Restart Nginx\n"
+"    shell: systemctl restart nginx\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/olivetin.md:80
+#, no-wrap
+msgid "You can also add custom icons to every action like with unicode emoji:\n"
+msgstr ""
+
+#. type: Fenced code block (yaml)
+#: ../src/docs/guides/automation/olivetin.md:81
+#, no-wrap
+msgid "actions:\n"
+"  - title: Restart Nginx\n"
+"    icon: \"&#1F504\"\n"
+"    shell: systemctl restart nginx\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/olivetin.md:89
+#, no-wrap
+msgid "I'm not going to go into every detail of the customization options, but you can also use text inputs and dropdown menus to add variables and options to the commands you want to run. If you do, OliveTin will prompt you for input before the command is run.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/olivetin.md:91
+#, no-wrap
+msgid "Doing this, you can run any program, control remote machines with SSH, trigger webhooks, and more. Check out [the official documentation](https://docs.olivetin.app/actions.html) for more ideas.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/olivetin.md:93
+#, no-wrap
+msgid "But here's an example of my own: I have a personal script that I use to generate LXD containers with web servers pre-installed on them. With OliveTin, I was able to quickly make a GUI for said script like this:\n"
+msgstr ""
+
+#. type: Fenced code block (yaml)
+#: ../src/docs/guides/automation/olivetin.md:94
+#, no-wrap
+msgid "actions:\n"
+"- title: Build Container\n"
+"  shell: sh /home/ezequiel/server-scripts/rocky-host/buildcontainer -c {{ containerName }} -d {{ domainName }} {{ softwarePackage }}\n"
+"  timeout: 60\n"
+"  arguments:\n"
+"    - name: containerName\n"
+"      title: Container Name\n"
+"      type: ascii_identifier\n\n"
+"    - name: domainName\n"
+"      title: Domain\n"
+"      type: ascii_identifier\n\n"
+"    - name: softwarePackage\n"
+"      title: Default Software\n"
+"      choices:\n"
+"        - title: None\n"
+"          value:\n\n"
+"        - title: Nginx\n"
+"          value: -s nginx\n\n"
+"        - title: Nginx & PHP\n"
+"          value: -s nginx-php\n\n"
+"        - title: mariadb\n"
+"          value: -s mariadb\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/olivetin.md:125
+#, no-wrap
+msgid "On the front end, that looks like this (and yes, OliveTin has a dark mode, and I *really* need to change that icon):\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/olivetin.md:127
+#, no-wrap
+msgid "![A form with three text inputs and a dropdown menu](olivetin/containeraction.png)\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/automation/cronie.md:121
-#: ../src/docs/guides/contribute/style_guide.md:137
+#: ../src/docs/guides/automation/olivetin.md:128
 #, no-wrap
-msgid "Summary"
+msgid "Enabling OliveTin"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/automation/cronie.md:123
+#: ../src/docs/guides/automation/olivetin.md:131
 #, no-wrap
-msgid "For Rocky Linux desktop users or system administrators, cronie is a very powerful tool. It allows you to automate tasks and scripts so you do not have to remember to run them manually. Although the basic knowledge is not hard, the actual task can be complex. For more information about `crontab`, visit [crontab man page](https://man7.org/linux/man-pages/man5/crontab.5.html). You can also search for \"crontab\" on the Internet, which provides you with a large number of search results and help you fine-tune the `crontab` expression.\n"
+msgid "Once you have your configuration file built the way you want it, just enable and start OliveTin with:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/automation/olivetin.md:132
+#, no-wrap
+msgid "sudo systemctl enable --now OliveTin\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/olivetin.md:137
+#, no-wrap
+msgid "Every time you edit the configuration file, you'll need to restart the service in the usual way:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/automation/olivetin.md:138
+#, no-wrap
+msgid "sudo systemctl restart OliveTin\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/olivetin.md:145
+#, no-wrap
+msgid "OliveTin is a pretty great way to run everything from a bash commands to some fairly complex operations with scripts. Remember, that everything runs as root by default, unless you use su/sudo in your shell commands to change the user for that particular command.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/olivetin.md:147
+#, no-wrap
+msgid "As such, you should be careful how you set this whole thing up, especially if you plan to give access to (for example) your family, to control home servers and appliances, and so on.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/olivetin.md:149
+#, no-wrap
+msgid "And again, do not put this on a public server unless you're ready to try and secure the page yourself.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/automation/olivetin.md:150
+#, no-wrap
+msgid "Otherwise, have fun with it. It is a neat little tool.\n"
 msgstr ""
 
