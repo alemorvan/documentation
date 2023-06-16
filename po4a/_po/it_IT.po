@@ -13,62 +13,364 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: it\n"
-"X-Crowdin-File: /po4a/po4a/_po/package_management_package_debranding.pot\n"
-"X-Crowdin-File-ID: 1489\n"
+"X-Crowdin-File: /po4a/po4a/_po/package_management_package_dev_start.pot\n"
+"X-Crowdin-File-ID: 1491\n"
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:18
+#: ../src/docs/guides/package_management/package_dev_start.md:10
+#, no-wrap
+msgid "Rocky Devtools refers to a set of home grown scripts and utlities created by members of the Rocky Linux community to help with sourcing, creating, branding, patching and building software packages distributed with the Rocky Linux Operating system.\n"
+"Rocky devtools consists of `rockyget`, `rockybuild`, `rockypatch`, and `rockyprep`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:22
+#: ../src/docs/guides/package_management/package_dev_start.md:14
+#, no-wrap
+msgid "You'll need an existing modern RPM based Linux system to install and use Rocky devtools.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:24
+#: ../src/docs/guides/package_management/package_dev_start.md:16
+#, no-wrap
+msgid "Let's walk through a typical installation and usage scenario of the devtools.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/package_management/developer_start2.md:25
+#: ../src/docs/guides/package_management/package_dev_start.md:23
+#, no-wrap
+msgid "1. Download Rocky Devtools"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:28
+#: ../src/docs/guides/package_management/package_dev_start.md:26
+#, no-wrap
+msgid "Download the devtools zipped source from the following URL:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:30
+#: ../src/docs/guides/package_management/package_dev_start.md:28
+#, no-wrap
+msgid "https://github.com/rocky-linux/devtools/archive/refs/heads/main.zip\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:32
+#: ../src/docs/guides/package_management/package_dev_start.md:30
+#, no-wrap
+msgid "Here we use the `curl` command:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/package_management/developer_start2.md:33
+#: ../src/docs/guides/package_management/package_dev_start.md:31
+#, no-wrap
+msgid "curl -OJL https://github.com/rocky-linux/devtools/archive/refs/heads/main.zip\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:38
+#: ../src/docs/guides/package_management/package_dev_start.md:36
+#, no-wrap
+msgid "You should now have a zipped archive named `devtools-main.zip`\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/package_management/developer_start2.md:40
+#: ../src/docs/guides/package_management/package_dev_start.md:38
+#, no-wrap
+msgid "2. Install Rocky Devtools"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:43
+#: ../src/docs/guides/package_management/package_dev_start.md:41
+#, no-wrap
+msgid "Locate and uncompress the devtools archive that you just downloaded.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:45
+#: ../src/docs/guides/package_management/package_dev_start.md:43
+#, no-wrap
+msgid "Here we'll use the `unzip` command line utility:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:51
+#: ../src/docs/guides/package_management/package_dev_start.md:49
+#, no-wrap
+msgid "Change your working directory to the new devtool source directory that was just created:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/package_management/developer_start2.md:52
+#: ../src/docs/guides/package_management/package_dev_start.md:50
+#, no-wrap
+msgid "cd devtools-main\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:57
+#: ../src/docs/guides/package_management/package_dev_start.md:55
+#, no-wrap
+msgid "Run `make` to configure and compile devtools:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/package_management/developer_start2.md:58
+#: ../src/docs/guides/package_management/package_dev_start.md:56
+#, no-wrap
+msgid "make\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:63
+#: ../src/docs/guides/package_management/package_dev_start.md:61
+#, no-wrap
+msgid "Install devtools:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/package_management/developer_start2.md:64
+#: ../src/docs/guides/package_management/package_dev_start.md:62
+#, no-wrap
+msgid "sudo make install\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/package_management/developer_start2.md:68
+#: ../src/docs/guides/package_management/package_dev_start.md:66
+#, no-wrap
+msgid "3. Use Rocky Devtools (rockyget) to search for and download Source RPMs (SRPMs)"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:73
+#: ../src/docs/guides/package_management/package_dev_start.md:71
+#, no-wrap
+msgid "Let's use `rockyget` to download the SRPM for the popular `sed` package:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/package_management/developer_start2.md:74
+#: ../src/docs/guides/package_management/package_dev_start.md:72
+#, no-wrap
+msgid "rockyget sed\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:78
+#: ../src/docs/guides/package_management/package_dev_start.md:76
+#, no-wrap
+msgid "The first time rockyget is run, it will automatically create a directory structure that roughly mimics the repository structure of Rocky's build servers. For example the `~/rocky/rpms` folder will be automaically created.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:80
+#: ../src/docs/guides/package_management/package_dev_start.md:78
+#, no-wrap
+msgid "For our current sed example, its sources will be stored under the following sample folder hierchy:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/package_management/developer_start2.md:81
+#: ../src/docs/guides/package_management/package_dev_start.md:79
+#, no-wrap
+msgid "~rocky/rpms/sed/\n"
+"└── r8\n"
+"    ├── SOURCES\n"
+"    │   ├── sed-4.2.2-binary_copy_args.patch\n"
+"    │   ├── sed-4.5.tar.xz\n"
+"    │   ├── sedfaq.txt\n"
+"    │   ├── sed-fuse.patch\n"
+"    │   └── sed-selinux.patch\n"
+"    └── SPECS\n"
+"        └── sed.spec\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/package_management/developer_start2.md:94
+#: ../src/docs/guides/package_management/package_dev_start.md:92
+#, no-wrap
+msgid "TIP :"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:96
+#: ../src/docs/guides/package_management/package_dev_start.md:94
+#, no-wrap
+msgid "Once you have the original sources, this might be a good time to look through the SPECs file (`~rocky/rpms/sed/SPECS/specs.spec`) to look for potential debranding opportinites in the given package. Debranding might include replacing upstream artwork/logos and so on.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/package_management/developer_start2.md:97
+#: ../src/docs/guides/package_management/package_dev_start.md:95
+#, no-wrap
+msgid "TIP"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:99
+#: ../src/docs/guides/package_management/package_dev_start.md:97
+#, no-wrap
+msgid "If you are looking for other Rocky packages to build and experiment with, you can browse the list of packages that are currently failing in the Rocky automated build environment [here](https://kojidev.rockylinux.org/koji/builds?state=3&order=-build_id)  -  https://kojidev.rockylinux.org/koji/builds?state=3&order=-build_id\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/package_management/developer_start2.md:101
+#: ../src/docs/guides/package_management/package_dev_start.md:99
+#, no-wrap
+msgid "4. Use Rocky Devtools (rockybuild) to build a new package for the Rocky OS"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:106
+#: ../src/docs/guides/package_management/package_dev_start.md:104
+#, no-wrap
+msgid "Use `rockybuild` to build the sed utility:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/package_management/developer_start2.md:107
+#: ../src/docs/guides/package_management/package_dev_start.md:105
+#, no-wrap
+msgid "rockybuild sed\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:112
+#: ../src/docs/guides/package_management/package_dev_start.md:110
+#, no-wrap
+msgid "The time needed to complete the build process/step depends on the size and complexity of the application you are trying to build.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:114
+#: ../src/docs/guides/package_management/package_dev_start.md:112
+#, no-wrap
+msgid "At the end of the `rockybuild` run, an output similar to the one here indicates that the build completed successfully.\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/package_management/developer_start2.md:115
+#: ../src/docs/guides/package_management/package_dev_start.md:113
+#, no-wrap
+msgid "..........\n"
+"+ exit 0\n"
+"Finish: rpmbuild sed-4.5-2.el8.src.rpm\n"
+"Finish: build phase for sed-4.5-2.el8.src.rpm\n"
+"INFO: Done(~/rocky/rpms/sed/r8/SRPMS/sed-4.5-2.el8.src.rpm) Config(baseos) 4 minutes 34 seconds\n"
+"INFO: Results and/or logs in: /home/centos/rocky/builds/sed/r8\n"
+"........\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:127
+#: ../src/docs/guides/package_management/package_dev_start.md:125
+#, no-wrap
+msgid "If all goes well you should end up with a Rocky ready SRPM file under the `~/rocky/builds/sed/r8` directory.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:129
+#: ../src/docs/guides/package_management/package_dev_start.md:127
+#, no-wrap
+msgid "`~/rocky/rpms/sed/r8/SRPMS/sed-4.5-2.el8.src.rpm`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:135
+#: ../src/docs/guides/package_management/package_dev_start.md:133
+#, no-wrap
+msgid "The previous rockybuild process will generate some log files that can be used in debugging failed application builds. The results and/or logs of the build process are stored under the `~/rocky/builds/<PACKAGE NAME>/r8`. For example `~/rocky/builds/sed/r8`\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/package_management/developer_start2.md:137
+#: ../src/docs/guides/package_management/package_dev_start.md:135
+#, no-wrap
+msgid "~/rocky/builds/sed/r8\n"
+"├── build.log\n"
+"├── hw_info.log\n"
+"├── installed_pkgs.log\n"
+"├── root.log\n"
+"├── sed-4.5-2.el8_3.src.rpm\n"
+"├── sed-4.5-2.el8_3.x86_64.rpm\n"
+"├── sed-debuginfo-4.5-2.el8_3.x86_64.rpm\n"
+"├── sed-debugsource-4.5-2.el8_3.x86_64.rpm\n"
+"└── state.log\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:151
+#: ../src/docs/guides/package_management/package_dev_start.md:148
+#, no-wrap
+msgid "The main files to search for clues for the causes any error(s) are the build.log and root.log.     The build.log file should detail all build errors and the root.log file will contain information about the chroot environment setup and tear down processes. With everything else being equal, most of the build debugging/troubleshooting process can be performed with the contents of the build.log file.\n"
+msgstr ""
 
 #. type: YAML Front Matter: title
-#: ../src/docs/guides/package_management/package_debranding.md:1
+#: ../src/docs/guides/package_management/package_dev_start.md:1
 #, no-wrap
-msgid "Package Debranding"
+msgid "Packaging And Developer Guide"
 msgstr ""
 
 #. type: Title #
-#: ../src/docs/guides/package_management/package_debranding.md:5
+#: ../src/docs/guides/package_management/package_dev_start.md:5
 #, no-wrap
-msgid "Rocky package debranding How-To"
+msgid "Packaging and developer starter guide"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/package_management/package_debranding.md:8
+#: ../src/docs/guides/package_management/package_dev_start.md:12
 #, no-wrap
-msgid "This explains how to debrand a package for the Rocky Linux distribution.\n"
+msgid "At a low level Rocky Devtools is a wrapper for running some custom and tradtional programs that are used for various package management tasks. Rocky Devtools relies heavily on [`srpmproc`](https://github.com/mstg/srpmproc), `go`, `git`, and `rpmbuild`.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/package_management/package_dev_start.md:17
+#, no-wrap
+msgid "Dependencies"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/package_management/package_debranding.md:11
+#: ../src/docs/guides/package_management/package_dev_start.md:19
 #, no-wrap
-msgid "General Instructions\n"
+msgid "Several packages are required on the system before you can begin to use the devtools. These commands have been tested on Rocky Linux but should work on CentOS 8 / RHEL 8 too\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/package_management/package_dev_start.md:19
+#, no-wrap
+msgid "dnf install git make golang\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/package_management/package_dev_start.md:44
+#, no-wrap
+msgid "unzip devtools-main.zip\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/package_management/package_debranding.md:13
+#: ../src/docs/guides/package_management/package_dev_start.md:69
 #, no-wrap
-msgid "First, identify the files in the package that need to be changed. They could be text files, image files, or others. You can identify the file(s) by digging into git.centos.org/rpms/PACKAGE/\n"
+msgid "Once installed, the main utility for finding and downloading SRPMs is the `rockyget` utility.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/package_management/package_debranding.md:15
+#: ../src/docs/guides/package_management/package_dev_start.md:102
 #, no-wrap
-msgid "Develop replacements for these files, but with Rocky branding placed instead. Diff/patch files may be needed as well for certain types of text, depends on the content being replaced.\n"
+msgid "Under the hood, `rockybuild` calls `rpmbuild` and `mock` utilities to build the source package in a chroot environment for the application specified on the command-line. It relies on the application sources and RPM SPEC file that was automatically downloaded via the `rockyget` command.\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/package_management/package_debranding.md:18
+#. type: Title ##
+#: ../src/docs/guides/package_management/package_dev_start.md:130
 #, no-wrap
-msgid "Replacement files go under https://git.rockylinux.org/patch/PACKAGE/ROCKY/_supporting/\n"
-"Config file (specifying how to apply the patches) goes in https://git.rockylinux.org/patch/PACKAGE/ROCKY/CFG/*.cfg\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/package_management/package_debranding.md:21
-#, no-wrap
-msgid "Note: Use spaces, not tabs.\n"
-"When srpmproc goes to import the package to Rocky, it will see the work done in https://git.rockylinux.org/patch/PACKAGE , and apply the stored debranding patches by reading the config file(s) under ROCKY/CFG/*.cfg\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/package_management/package_debranding.md:23
-#, no-wrap
-msgid "from [debranding wiki page](https://wiki.rockylinux.org/team/release_engineering/debranding/)\n"
+msgid "5. Debugging a failed package build"
 msgstr ""
 
