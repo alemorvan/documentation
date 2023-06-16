@@ -75,7 +75,8 @@ echo "
 # Path of files where to locate .pot and .po
 [po4a_paths] ${PO_DIR}/\$master.pot \$lang:${PO_DIR}/\$lang/\$master.\$lang.po
 # Options to pass to po4a
-[po4a_alias: md] text opt:\"-o markdown -o yfm_keys=title,contributors -o neverwrap --master-charset utf8 --localized-charset utf8\"
+[po4a_alias: md] text opt:\"-o markdown -o yfm_keys=title,contributors -o neverwrap \"
+[options] --master-charset UTF-8 --localized-charset UTF-8
 
 " > "${po4a_conf}"
 
