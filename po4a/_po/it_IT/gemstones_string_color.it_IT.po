@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -172,10 +172,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/string_color.md:14
-msgid ""
-"When we download bash scripts that have been written by others in our daily "
-"work, sometimes some key strings are marked with special colors. How can "
-"this effect be achieved by writing in a script?"
+#, no-wrap
+msgid "When we download bash scripts that have been written by others in our daily work, sometimes some key strings are marked with special colors. How can this effect be achieved by writing in a script?\n"
 msgstr ""
 
 #. type: Title ##
@@ -272,7 +270,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/string_color.md:63
-msgid "We can write a script to observe the color change."
+#, no-wrap
+msgid "We can write a script to observe the color change.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -313,10 +312,12 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/string_color.md:95
-msgid "The effect is as follows:"
+#, no-wrap
+msgid "The effect is as follows:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/string_color.md:96
-msgid "![image1](./images/string_color_image1.png)"
+#, no-wrap
+msgid "![image1](./images/string_color_image1.png)\n"
 msgstr ""

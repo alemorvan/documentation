@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -91,34 +91,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_rsync/02_rsync_demo01.md:11
-msgid ""
-"`rsync` needs to perform user authentication before data synchronization. "
-"**There are two protocol methods for authentication: SSH protocol and rsync "
-"protocol (the default port of rsync protocol is 873)**"
+#, no-wrap
+msgid "`rsync` needs to perform user authentication before data synchronization. **There are two protocol methods for authentication: SSH protocol and rsync protocol (the default port of rsync protocol is 873)**\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_rsync/02_rsync_demo01.md:14
-msgid ""
-"SSH protocol verification login method: use SSH protocol as the basis for "
-"user identity authentication (that is, use the system user and password of "
-"GNU/Linux itself for verification), and then perform data synchronization."
+#, no-wrap
+msgid "SSH protocol verification login method: use SSH protocol as the basis for user identity authentication (that is, use the system user and password of GNU/Linux itself for verification), and then perform data synchronization.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_rsync/02_rsync_demo01.md:14
-msgid ""
-"rsync protocol verification login method: use rsync protocol for user "
-"identity authentication (non-GNU/Linux system users, similar to vsftpd "
-"virtual users), and then perform data synchronization."
+#, no-wrap
+msgid "rsync protocol verification login method: use rsync protocol for user identity authentication (non-GNU/Linux system users, similar to vsftpd virtual users), and then perform data synchronization.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_rsync/02_rsync_demo01.md:16
-msgid ""
-"Before the specific demonstration of rsync synchronization, you need to use "
-"the `rsync` command. In Rocky Linux 8, the rsync rpm package is installed by "
-"default, and the version is 3.1.3-12, as follows:"
+#, no-wrap
+msgid "Before the specific demonstration of rsync synchronization, you need to use the `rsync` command. In Rocky Linux 8, the rsync rpm package is installed by default, and the version is 3.1.3-12, as follows:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -152,8 +144,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_rsync/02_rsync_demo01.md:41
-msgid ""
-"The author's personal use: `rsync -avz original location target location`"
+#, no-wrap
+msgid "The author's personal use: `rsync -avz original location target location`\n"
 msgstr ""
 
 #. type: Title ##
@@ -164,14 +156,18 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_rsync/02_rsync_demo01.md:48
+#, no-wrap
 msgid ""
-"|Item|Description| |---|---| | Rocky Linux 8(Server) | 192.168.100.4/24 | | "
-"Fedora 34(client) | 192.168.100.5/24 |"
+"|Item|Description|\n"
+"|---|---|\n"
+"| Rocky Linux 8(Server) | 192.168.100.4/24 |\n"
+"| Fedora 34(client) | 192.168.100.5/24 |\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_rsync/02_rsync_demo01.md:50
-msgid "You can use Fedora 34 to upload and download"
+#, no-wrap
+msgid "You can use Fedora 34 to upload and download\n"
 msgstr ""
 
 #. type: Fenced code block (mermaid)
@@ -185,7 +181,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_rsync/02_rsync_demo01.md:58
-msgid "You can also use Rocky Linux 8 to upload and download"
+#, no-wrap
+msgid "You can also use Rocky Linux 8 to upload and download\n"
 msgstr ""
 
 #. type: Fenced code block (mermaid)
@@ -216,7 +213,8 @@ msgstr ""
 #: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:136
 #: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:140
 #: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:146
-msgid "!!! tip \"tip\""
+#, no-wrap
+msgid "!!! tip \"tip\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -234,8 +232,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_rsync/02_rsync_demo01.md:74
-msgid ""
-"Since it is based on the SSH protocol, we first create a user in the server:"
+#, no-wrap
+msgid "Since it is based on the SSH protocol, we first create a user in the server:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -248,9 +246,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_rsync/02_rsync_demo01.md:81
-msgid ""
-"On the client side, we pull/download it, and the file on the server is /"
-"rsync/aabbcc"
+#, no-wrap
+msgid "On the client side, we pull/download it, and the file on the server is /rsync/aabbcc\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -270,7 +267,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_rsync/02_rsync_demo01.md:94
-msgid "The transfer was successful."
+#, no-wrap
+msgid "The transfer was successful.\n"
 msgstr ""
 
 #. type: Plain text
@@ -311,9 +309,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_rsync/02_rsync_demo01.md:118
-msgid ""
-"First check the permissions of the /rsync/ directory. Obviously, there is no "
-"\"w\" permission. We can use `setfacl` to give permission:"
+#, no-wrap
+msgid "First check the permissions of the /rsync/ directory. Obviously, there is no \"w\" permission. We can use `setfacl` to give permission:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -343,7 +340,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_rsync/02_rsync_demo01.md:139
-msgid "Try again, success!"
+#, no-wrap
+msgid "Try again, success!\n"
 msgstr ""
 
 #. type: Fenced code block (bash)

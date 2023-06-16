@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -123,9 +123,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/01-install.md:15
-msgid ""
-"Throughout this chapter you will need to be the root user or you will need "
-"to be able to _sudo_ to root."
+#, no-wrap
+msgid "Throughout this chapter you will need to be the root user or you will need to be able to _sudo_ to root.\n"
 msgstr ""
 
 #. type: Title ##
@@ -137,15 +136,15 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/books/lxd_server/01-install.md:19
 #: ../src/docs/guides/containers/lxd_web_servers.md:66
-msgid ""
-"LXD requires the EPEL (Extra Packages for Enterprise Linux) repository, "
-"which is easy to install using:"
+#, no-wrap
+msgid "LXD requires the EPEL (Extra Packages for Enterprise Linux) repository, which is easy to install using:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/01-install.md:25
 #: ../src/docs/guides/containers/lxd_web_servers.md:72
-msgid "Once installed, check for updates:"
+#, no-wrap
+msgid "Once installed, check for updates:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -156,9 +155,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/01-install.md:31
-msgid ""
-"If there were any kernel updates during the upgrade process, reboot the "
-"server."
+#, no-wrap
+msgid "If there were any kernel updates during the upgrade process, reboot the server.\n"
 msgstr ""
 
 #. type: Title ###
@@ -169,7 +167,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/01-install.md:35
-msgid "Install the OpenZFS repository with:"
+#, no-wrap
+msgid "Install the OpenZFS repository with:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -186,9 +185,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/01-install.md:43
-msgid ""
-"LXD must be installed from a snap for Rocky Linux. For this reason, we need "
-"to install `snapd` (and a few other useful programs) with:"
+#, no-wrap
+msgid "LXD must be installed from a snap for Rocky Linux. For this reason, we need to install `snapd` (and a few other useful programs) with:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -199,7 +197,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/01-install.md:49
-msgid "And now enable and start snapd:"
+#, no-wrap
+msgid "And now enable and start snapd:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -212,7 +211,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/books/lxd_server/01-install.md:55
 #: ../src/docs/guides/containers/lxd_web_servers.md:94
-msgid "And then run:"
+#, no-wrap
+msgid "And then run:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -224,7 +224,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/01-install.md:61
-msgid "Reboot the server before continuing here."
+#, no-wrap
+msgid "Reboot the server before continuing here.\n"
 msgstr ""
 
 #. type: Title ###
@@ -236,9 +237,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/01-install.md:65
-msgid ""
-"Installing LXD requires the use of the snap command. At this point, we are "
-"just installing it, we are not doing the set up:"
+#, no-wrap
+msgid "Installing LXD requires the use of the snap command. At this point, we are just installing it, we are not doing the set up:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -268,18 +268,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/01-install.md:79
-msgid ""
-"Most server kernel settings are not sufficient to run a large number of "
-"containers. If we assume from the beginning that we will be using our server "
-"in production, then we need to make these changes up front to avoid errors "
-"such as \"Too many open files\" from occurring."
+#, no-wrap
+msgid "Most server kernel settings are not sufficient to run a large number of containers. If we assume from the beginning that we will be using our server in production, then we need to make these changes up front to avoid errors such as \"Too many open files\" from occurring.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/01-install.md:81
-msgid ""
-"Luckily, tweaking the settings for LXD is easy with a few file modifications "
-"and a reboot."
+#, no-wrap
+msgid "Luckily, tweaking the settings for LXD is easy with a few file modifications and a reboot.\n"
 msgstr ""
 
 #. type: Title ###
@@ -290,10 +286,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/01-install.md:85
-msgid ""
-"The first file we need to modify is the limits.conf file. This file is self-"
-"documented, so look at the explanations in the file as to what this file "
-"does. To make our modifications type:"
+#, no-wrap
+msgid "The first file we need to modify is the limits.conf file. This file is self-documented, so look at the explanations in the file as to what this file does. To make our modifications type:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -304,11 +298,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/01-install.md:91
-msgid ""
-"This entire file is remarked/commented out and, at the bottom, shows the "
-"current default settings. In the blank space above the end of file marker "
-"(#End of file) we need to add our custom settings. The end of the file will "
-"look like this when you are done:"
+#, no-wrap
+msgid "This entire file is remarked/commented out and, at the bottom, shows the current default settings. In the blank space above the end of file marker (#End of file) we need to add our custom settings. The end of the file will look like this when you are done:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -327,7 +318,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/01-install.md:104
-msgid "Save your changes and exit. (`SHIFT:wq!` for _vi_)"
+#, no-wrap
+msgid "Save your changes and exit. (`SHIFT:wq!` for _vi_)\n"
 msgstr ""
 
 #. type: Title ###
@@ -338,18 +330,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/01-install.md:108
-msgid ""
-"With _systemd_, we can make changes to our system's overall configuration "
-"and kernel options *without* modifying the main configuration file. Instead, "
-"we'll put our settings in a separate file that will simply override the "
-"particular settings we need."
+#, no-wrap
+msgid "With _systemd_, we can make changes to our system's overall configuration and kernel options *without* modifying the main configuration file. Instead, we'll put our settings in a separate file that will simply override the particular settings we need.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/01-install.md:110
-msgid ""
-"To make these kernel changes, we are going to create a file called _90-lxd-"
-"override.conf_ in /etc/sysctl.d. To do this type:"
+#, no-wrap
+msgid "To make these kernel changes, we are going to create a file called _90-lxd-override.conf_ in /etc/sysctl.d. To do this type:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -360,7 +348,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/01-install.md:116
-msgid "!!! warning \"RL 9 and MAX value of `net.core.bpf_jit_limit`\""
+#, no-wrap
+msgid "!!! warning \"RL 9 and MAX value of `net.core.bpf_jit_limit`\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -371,9 +360,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/01-install.md:120
-msgid ""
-"Place the following content in that file. Note that if you are wondering "
-"what we are doing here, the file content below is self-documenting:"
+#, no-wrap
+msgid "Place the following content in that file. Note that if you are wondering what we are doing here, the file content below is self-documenting:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -436,12 +424,14 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/books/lxd_server/01-install.md:176
 #: ../src/docs/books/lxd_server/10-automating.md:65
-msgid "Save your changes and exit."
+#, no-wrap
+msgid "Save your changes and exit.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/01-install.md:178
-msgid "At this point you should reboot the server."
+#, no-wrap
+msgid "At this point you should reboot the server.\n"
 msgstr ""
 
 #. type: Title ###
@@ -452,17 +442,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/01-install.md:182
-msgid ""
-"Once the reboot has been completed, log back in as to the server. We need to "
-"spot check that our override file has actually done the job."
+#, no-wrap
+msgid "Once the reboot has been completed, log back in as to the server. We need to spot check that our override file has actually done the job.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/01-install.md:184
-msgid ""
-"This is easy to do. There's no need to check every setting unless you want "
-"to, but checking a few will verify that the settings have been changed. This "
-"is done with the _sysctl_ command:"
+#, no-wrap
+msgid "This is easy to do. There's no need to check every setting unless you want to, but checking a few will verify that the settings have been changed. This is done with the _sysctl_ command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -473,7 +460,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/01-install.md:190
-msgid "Which should show you:"
+#, no-wrap
+msgid "Which should show you:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -484,7 +472,6 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/01-install.md:195
-msgid ""
-"Do the same with a few other settings in the override file (above) to verify "
-"that changes have been made."
+#, no-wrap
+msgid "Do the same with a few other settings in the override file (above) to verify that changes have been made.\n"
 msgstr ""

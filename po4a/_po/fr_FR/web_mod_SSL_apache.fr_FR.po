@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -108,14 +108,16 @@ msgstr ""
 #: ../src/docs/guides/desktop/mate_installation.md:154
 #: ../src/docs/guides/desktop/xfce_installation.md:110
 #: ../src/docs/guides/web/mod_SSL_apache.md:25
-msgid "Minimal"
+#, no-wrap
+msgid "Minimal\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/desktop/mate_installation.md:154
 #: ../src/docs/guides/desktop/xfce_installation.md:110
 #: ../src/docs/guides/web/mod_SSL_apache.md:25
-msgid "Standard"
+#, no-wrap
+msgid "Standard\n"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
@@ -138,30 +140,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:11
-msgid ""
-"Apache Web-Server has been used for many years now; 'mod_ssl' is used to "
-"provide greater security for the Web-Server and can be installed on almost "
-"any version of Linux, including Rocky Linux. The installation of 'mod_ssl' "
-"will be part of the creation of a Lamp-Server for Rocky Linux."
+#, no-wrap
+msgid "Apache Web-Server has been used for many years now; 'mod_ssl' is used to provide greater security for the Web-Server and can be installed on almost any version of Linux, including Rocky Linux. The installation of 'mod_ssl' will be part of the creation of a Lamp-Server for Rocky Linux.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:13
-msgid ""
-"This procedure is designed to get you up and running with Rocky Linux using "
-"'mod_ssl' in an Apache Web-Server environment.."
+#, no-wrap
+msgid "This procedure is designed to get you up and running with Rocky Linux using 'mod_ssl' in an Apache Web-Server environment..\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/mod_SSL_apache.md:18
-msgid "A Workstation or Server, preferably with Rocky Linux already installed."
+#, no-wrap
+msgid "A Workstation or Server, preferably with Rocky Linux already installed.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/mod_SSL_apache.md:18
-msgid ""
-"You should be in the Root environment or type `sudo` before all of the "
-"commands you enter."
+#, no-wrap
+msgid "You should be in the Root environment or type `sudo` before all of the commands you enter.\n"
 msgstr ""
 
 #. type: Title ##
@@ -172,7 +170,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:22
-msgid "When installing Rocky Linux, we used the following sets of packages:"
+#, no-wrap
+msgid "When installing Rocky Linux, we used the following sets of packages:\n"
 msgstr ""
 
 #. type: Title ##
@@ -183,14 +182,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:29
-msgid ""
-"First, run the system update command to let the server rebuild the "
-"repository cache, so that it could recognize the packages available."
+#, no-wrap
+msgid "First, run the system update command to let the server rebuild the repository cache, so that it could recognize the packages available.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:31
-msgid "`dnf update`"
+#, no-wrap
+msgid "`dnf update`\n"
 msgstr ""
 
 #. type: Title ##
@@ -201,9 +200,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:35
-msgid ""
-"With a conventional Rocky Linux Server Installation all necessary "
-"Repositories should be in place."
+#, no-wrap
+msgid "With a conventional Rocky Linux Server Installation all necessary Repositories should be in place.\n"
 msgstr ""
 
 #. type: Title ##
@@ -214,18 +212,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:39
-msgid "Just to be sure check your Repository Listing with:"
+#, no-wrap
+msgid "Just to be sure check your Repository Listing with:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:41
-msgid "`dnf repolist`"
+#, no-wrap
+msgid "`dnf repolist`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:43
-msgid ""
-"You should get the following back showing all of the enabled repositories:"
+#, no-wrap
+msgid "You should get the following back showing all of the enabled repositories:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -240,27 +240,34 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:54
-msgid "To install 'mod_ssl', run:"
+#, no-wrap
+msgid "To install 'mod_ssl', run:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:56
-msgid "`dnf install mod_ssl`"
+#, no-wrap
+msgid "`dnf install mod_ssl`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:58
-msgid "To enable the 'mod_ssl' module, run:"
+#, no-wrap
+msgid "To enable the 'mod_ssl' module, run:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:61
-msgid "`apachectl restart httpd` `apachectl -M | grep ssl`"
+#, no-wrap
+msgid ""
+"`apachectl restart httpd`\n"
+"`apachectl -M | grep ssl`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:63
-msgid "You should see an output as such:"
+#, no-wrap
+msgid "You should see an output as such:\n"
 msgstr ""
 
 #. type: Plain text
@@ -277,7 +284,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:69
-msgid "To allow incoming traffic with HTTPS, run:"
+#, no-wrap
+msgid "To allow incoming traffic with HTTPS, run:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -290,10 +298,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:76
-msgid ""
-"At this point you should be able to access the Apache Web-Server via HTTPS. "
-"Enter `https://your-server-ip` or `https://your-server-hostname` to confirm "
-"the 'mod_ssl' configuration."
+#, no-wrap
+msgid "At this point you should be able to access the Apache Web-Server via HTTPS. Enter `https://your-server-ip` or `https://your-server-hostname` to confirm the 'mod_ssl' configuration.\n"
 msgstr ""
 
 #. type: Title ##
@@ -304,21 +310,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:80
-msgid ""
-"To generate a new self-signed certificate for Host rocky8 with 365 days "
-"expiry, run:"
+#, no-wrap
+msgid "To generate a new self-signed certificate for Host rocky8 with 365 days expiry, run:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:82
-msgid ""
-"`openssl req -newkey rsa:2048 -nodes -keyout /etc/pki/tls/private/httpd.key -"
-"x509 -days 365 -out /etc/pki/tls/certs/httpd.crt`"
+#, no-wrap
+msgid "`openssl req -newkey rsa:2048 -nodes -keyout /etc/pki/tls/private/httpd.key -x509 -days 365 -out /etc/pki/tls/certs/httpd.crt`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:84
-msgid "You will see the following output:"
+#, no-wrap
+msgid "You will see the following output:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -348,9 +353,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:107
-msgid ""
-"After this command completes execution, the following two SSL files will be "
-"created, run:"
+#, no-wrap
+msgid "After this command completes execution, the following two SSL files will be created, run:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -371,24 +375,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:118
-msgid ""
-"To include your newly created SSL certificate into the Apache web-server "
-"configuration open the ssl.conf file by running:"
+#, no-wrap
+msgid "To include your newly created SSL certificate into the Apache web-server configuration open the ssl.conf file by running:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:120
-msgid "`nano /etc/httpd/conf.d/ssl.conf`"
+#, no-wrap
+msgid "`nano /etc/httpd/conf.d/ssl.conf`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:122
-msgid "Then change the following lines:"
+#, no-wrap
+msgid "Then change the following lines:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:124
-msgid "FROM:"
+#, no-wrap
+msgid "FROM:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -401,7 +407,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:129
-msgid "TO:"
+#, no-wrap
+msgid "TO:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -414,13 +421,15 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:135
-msgid "Then reload the Apache Web-Server by running:"
+#, no-wrap
+msgid "Then reload the Apache Web-Server by running:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:137
 #: ../src/docs/guides/web/mod_SSL_apache.md:164
-msgid "`systemctl reload httpd`"
+#, no-wrap
+msgid "`systemctl reload httpd`\n"
 msgstr ""
 
 #. type: Title ##
@@ -431,12 +440,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:141
-msgid "Enter the following in a web browser:"
+#, no-wrap
+msgid "Enter the following in a web browser:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:143
-msgid "`https://your-server-ip` or `https://your-server-hostname`"
+#, no-wrap
+msgid "`https://your-server-ip` or `https://your-server-hostname`\n"
 msgstr ""
 
 #. type: Title ##
@@ -447,19 +458,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:147
-msgid "Create a new file by running:"
+#, no-wrap
+msgid "Create a new file by running:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:149
-msgid "`nano /etc/httpd/conf.d/redirect_http.conf`"
+#, no-wrap
+msgid "`nano /etc/httpd/conf.d/redirect_http.conf`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:151
-msgid ""
-"Insert the following content and save file, replacing \"your-server-hostname"
-"\" with your hostname."
+#, no-wrap
+msgid "Insert the following content and save file, replacing \"your-server-hostname\" with your hostname.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -476,15 +488,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:162
-msgid "Apply the change when reloading the Apache service by running:"
+#, no-wrap
+msgid "Apply the change when reloading the Apache service by running:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:166
-msgid ""
-"The Apache Web-Server will now be configured to redirect any incoming "
-"traffic from `http://your-server-hostname` to `https://your-server-hostname` "
-"URL."
+#, no-wrap
+msgid "The Apache Web-Server will now be configured to  redirect any incoming traffic from `http://your-server-hostname` to `https://your-server-hostname` URL.\n"
 msgstr ""
 
 #. type: Title ##
@@ -495,16 +506,12 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:170
-msgid ""
-"We have seen how to install and configure 'mod_ssl'. And, create a new SSL "
-"Certificate in order to run a Web-Server under HTTPS Service."
+#, no-wrap
+msgid "We have seen how to install and configure 'mod_ssl'. And, create a new SSL Certificate in order to run a Web-Server under HTTPS Service.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/mod_SSL_apache.md:173
-msgid ""
-"This tutorial will be part of the tutorial covering installing a LAMP "
-"(Linux, Apache Web-Server, Maria Database-Server, and PHP Scripting "
-"Language), Server on Rocky Linux version 8.x. Eventually we will be "
-"including images to help better understand the installation."
+#, no-wrap
+msgid "This tutorial will be part of the tutorial covering installing a LAMP (Linux, Apache Web-Server, Maria Database-Server, and PHP Scripting Language), Server on Rocky Linux version 8.x. Eventually we will be including images to help better understand the installation.\n"
 msgstr ""

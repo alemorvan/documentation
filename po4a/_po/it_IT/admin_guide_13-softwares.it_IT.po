@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -158,7 +158,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -185,7 +184,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Plain text
@@ -214,7 +214,8 @@ msgstr ""
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:125
 #: ../src/docs/guides/security/learning_selinux.md:289
 #: ../src/docs/guides/security/pam.md:287
-msgid "Examples:"
+#, no-wrap
+msgid "Examples:\n"
 msgstr ""
 
 #. type: Plain text
@@ -325,7 +326,8 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:394
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:154
 #: ../src/docs/guides/web/php.md:255
-msgid "Example:"
+#, no-wrap
+msgid "Example:\n"
 msgstr ""
 
 #. type: Plain text
@@ -373,7 +375,8 @@ msgstr ""
 #: ../src/docs/guides/8_6_installation.md:133
 #: ../src/docs/guides/installation.md:66 ../src/docs/guides/installation.md:138
 #: ../src/docs/guides/virtualization/vbox-rocky.md:123
-msgid "!!! Tip"
+#, no-wrap
+msgid "!!! Tip\n"
 msgstr ""
 
 #. type: Plain text
@@ -429,7 +432,8 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:243
 #: ../src/docs/guides/security/learning_selinux.md:263
 #: ../src/docs/guides/web/php.md:145
-msgid "!!! Warning"
+#, no-wrap
+msgid "!!! Warning\n"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
@@ -466,27 +470,30 @@ msgstr ""
 msgid "software management"
 msgstr ""
 
-#. type: Bullet: '* '
+#. type: Title ##
 #: ../src/docs/books/admin_guide/13-softwares.md:1
 #: ../src/docs/books/admin_guide/13-softwares.md:12
-#: ../src/docs/release_notes/9_1.md:43 ../src/docs/release_notes/9_2.md:217
+#: ../src/docs/release_notes/9_1.md:43
 #, no-wrap
 msgid "Software Management"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:17
-msgid "On a Linux system, it is possible to install software in two ways:"
+#, no-wrap
+msgid "On a Linux system, it is possible to install software in two ways:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/13-softwares.md:20
-msgid "Using an installation package;"
+#, no-wrap
+msgid "Using an installation package;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/13-softwares.md:20
-msgid "Compiling from source files."
+#, no-wrap
+msgid "Compiling from source files.\n"
 msgstr ""
 
 #. type: Plain text
@@ -527,12 +534,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:36
-msgid "The name of an RPM package follows a specific nomenclature:"
+#, no-wrap
+msgid "The name of an RPM package follows a specific nomenclature:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:38
-msgid "![Illustration of a package name](images/software-001.png)"
+#, no-wrap
+msgid "![Illustration of a package name](images/software-001.png)\n"
 msgstr ""
 
 #. type: Title ###
@@ -543,7 +552,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:42
-msgid "The rpm command allows you to install a package."
+#, no-wrap
+msgid "The rpm command allows you to install a package.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -554,7 +564,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:48
-msgid "Example (for a package named 'package'):"
+#, no-wrap
+msgid "Example (for a package named 'package'):\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -579,17 +590,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:63
-msgid ""
-"The `rpm` command also allows you to query the system package database by "
-"adding the `-q` option."
+#, no-wrap
+msgid "The `rpm` command also allows you to query the system package database by adding the `-q` option.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:65
-msgid ""
-"It is possible to execute several types of queries to obtain different "
-"information about the installed packages. The RPM database is located in the "
-"directory `/var/lib/rpm`."
+#, no-wrap
+msgid "It is possible to execute several types of queries to obtain different information about the installed packages. The RPM database is located in the directory `/var/lib/rpm`.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -600,7 +608,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:73
-msgid "This command queries all the packages installed on the system."
+#, no-wrap
+msgid "This command queries all the packages installed on the system.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -644,7 +653,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:102
-msgid "Example: list the last installed packages:"
+#, no-wrap
+msgid "Example: list the last installed packages:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -666,7 +676,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:118
-msgid "Example: list the installation history of the kernel:"
+#, no-wrap
+msgid "Example: list the installation history of the kernel:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -680,7 +691,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:126
-msgid "Example: list all installed packages with a specific name using `grep`:"
+#, no-wrap
+msgid "Example: list all installed packages with a specific name using `grep`:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -708,19 +720,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:140
-msgid ""
-"The `dnf` command allows the management of packages by comparing those "
-"installed on the system with those in the repositories defined on the "
-"server. It also automatically installs dependencies, if they are also "
-"present in the repositories."
+#, no-wrap
+msgid "The `dnf` command allows the management of packages by comparing those installed on the system with those in the repositories defined on the server. It also automatically installs dependencies, if they are also present in the repositories.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:142
-msgid ""
-"`dnf` is the manager used by many RedHat based distributions (RockyLinux, "
-"Fedora, CentOS, ...). Its equivalent in the Debian world is **APT** "
-"(**A**dvanced **P**ackaging **T**ool)."
+#, no-wrap
+msgid "`dnf` is the manager used by many RedHat based distributions (RockyLinux, Fedora, CentOS, ...). Its equivalent in the Debian world is **APT** (**A**dvanced **P**ackaging **T**ool).\n"
 msgstr ""
 
 #. type: Title ###
@@ -731,9 +738,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:146
-msgid ""
-"The `dnf` command allows you to install a package by specifying only the "
-"short name."
+#, no-wrap
+msgid "The `dnf` command allows you to install a package by specifying only the short name.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -750,7 +756,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:158
-msgid "Only the short name of the package is required."
+#, no-wrap
+msgid "Only the short name of the package is required.\n"
 msgstr ""
 
 #. type: Plain text
@@ -770,10 +777,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:171
-msgid ""
-"The `dnf install` command allows you to install the desired package without "
-"worrying about its dependencies, which will be resolved directly by `dnf` "
-"itself."
+#, no-wrap
+msgid "The `dnf install` command allows you to install the desired package without worrying about its dependencies, which will be resolved directly by `dnf` itself.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -807,11 +812,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:199
-msgid ""
-"In case you don't remember the exact name of the package, you can search for "
-"it with the command `dnf search name`. As you can see, there is a section "
-"that contains the exact name and another one that contains the package "
-"correspondence, all of which are highlighted for easier searching."
+#, no-wrap
+msgid "In case you don't remember the exact name of the package, you can search for it with the command `dnf search name`. As you can see, there is a section that contains the exact name and another one that contains the package correspondence, all of which are highlighted for easier searching.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -839,10 +841,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:221
-msgid ""
-"Another way to search for a package by entering an additional search key is "
-"to send the result of the `dnf` command through a pipe to the grep command "
-"with the desired key."
+#, no-wrap
+msgid "Another way to search for a package by entering an additional search key is to send the result of the `dnf` command through a pipe to the grep command with the desired key.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -861,9 +861,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:235
-msgid ""
-"The `dnf remove` command removes a package from the system and its "
-"dependencies. Below is an excerpt of the **dnf remove httpd** command."
+#, no-wrap
+msgid "The `dnf remove` command removes a package from the system and its dependencies. Below is an excerpt of the **dnf remove httpd** command.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -894,9 +893,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:260
-msgid ""
-"The `dnf list` command lists all the packages installed on the system and "
-"present in the repository. It accepts several parameters:"
+#, no-wrap
+msgid "The `dnf list` command lists all the packages installed on the system and present in the repository. It accepts several parameters:\n"
 msgstr ""
 
 #. type: Plain text
@@ -914,9 +912,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:270
-msgid ""
-"The `dnf info` command, as you might expect, provides detailed information "
-"about a package:"
+#, no-wrap
+msgid "The `dnf info` command, as you might expect, provides detailed information about a package:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -957,15 +954,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:305
-msgid ""
-"Sometimes you only know the executable you want to use but not the package "
-"that contains it, in this case you can use the command `dnf provides */"
-"package_name` which will search the database for you for the desired match."
+#, no-wrap
+msgid "Sometimes you only know the executable you want to use but not the package that contains it, in this case you can use the command `dnf provides */package_name` which will search the database for you for the desired match.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:307
-msgid "Example of a search for the `semanage` command:"
+#, no-wrap
+msgid "Example of a search for the `semanage` command:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -988,9 +984,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:324
-msgid ""
-"The `dnf autoremove` command does not need any parameters. Dnf takes care of "
-"searching for candidate packages for removal."
+#, no-wrap
+msgid "The `dnf autoremove` command does not need any parameters. Dnf takes care of searching for candidate packages for removal.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1023,10 +1018,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:342
-msgid ""
-"The `dnf repolist` command lists the repositories configured on the system. "
-"By default, it lists only the enabled repositories but can be used with "
-"these parameters:"
+#, no-wrap
+msgid "The `dnf repolist` command lists the repositories configured on the system. By default, it lists only the enabled repositories but can be used with these parameters:\n"
 msgstr ""
 
 #. type: Plain text
@@ -1057,7 +1050,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:364
-msgid "And an excerpt of the command with the `--all` flag."
+#, no-wrap
+msgid "And an excerpt of the command with the `--all` flag.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1085,7 +1079,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:386
-msgid "And below is an excerpt from the list of disabled repositories."
+#, no-wrap
+msgid "And below is an excerpt from the list of disabled repositories.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1109,9 +1104,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:404
-msgid ""
-"Using the `-v` option enhances the list with a lot of additional "
-"information. Below you can see part of the result of the command."
+#, no-wrap
+msgid "Using the `-v` option enhances the list with a lot of additional information. Below you can see part of the result of the command.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1138,7 +1132,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:425
-msgid "!!! info \"Using Groups\""
+#, no-wrap
+msgid "!!! info \"Using Groups\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -1149,7 +1144,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:429
-msgid "The `dnf grouplist` command lists all available groups."
+#, no-wrap
+msgid "The `dnf grouplist` command lists all available groups.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1182,8 +1178,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:456
-msgid ""
-"The `dnf groupinstall` command allows you to install one of these groups."
+#, no-wrap
+msgid "The `dnf groupinstall` command allows you to install one of these groups.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1207,15 +1203,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:474
-msgid ""
-"Note that it is good practice to enclose the group name in double quotes as "
-"without the command it will only execute correctly if the group name does "
-"not contain spaces."
+#, no-wrap
+msgid "Note that it is good practice to enclose the group name in double quotes as without the command it will only execute correctly if the group name does not contain spaces.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:476
-msgid "So a `dnf groupinstall Network Servers` produces the following error."
+#, no-wrap
+msgid "So a `dnf groupinstall Network Servers` produces the following error.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1231,16 +1226,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:486
-msgid ""
-"The corresponding command to remove a group is `dnf groupremove \"name group"
-"\"`."
+#, no-wrap
+msgid "The corresponding command to remove a group is `dnf groupremove \"name group\"`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:488
-msgid ""
-"The `dnf clean` command cleans all caches and temporary files created by "
-"`dnf`. It can be used with the following parameters."
+#, no-wrap
+msgid "The `dnf clean` command cleans all caches and temporary files created by `dnf`. It can be used with the following parameters.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1264,16 +1257,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:501
-msgid ""
-"The DNF manager relies on one or more configuration files to target the "
-"repositories containing the RPM packages."
+#, no-wrap
+msgid "The DNF manager relies on one or more configuration files to target the repositories containing the RPM packages.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:503
-msgid ""
-"These files are located in `/etc/yum.repos.d/` and must end with `.repo` in "
-"order to be used by DNF."
+#, no-wrap
+msgid "These files are located in `/etc/yum.repos.d/` and must end with `.repo` in order to be used by DNF.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1284,9 +1275,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:511
-msgid ""
-"Each `.repo` file consists of at least the following information, one "
-"directive per line."
+#, no-wrap
+msgid "Each `.repo` file consists of at least the following information, one directive per line.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1304,10 +1294,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:525
-msgid ""
-"By default, the `enabled` directive is absent which means that the "
-"repository is enabled. To disable a repository, you must specify the "
-"`enabled=0` directive."
+#, no-wrap
+msgid "By default, the `enabled` directive is absent which means that the repository is enabled. To disable a repository, you must specify the `enabled=0` directive.\n"
 msgstr ""
 
 #. type: Title ##
@@ -1318,14 +1306,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:529
-msgid ""
-"Modules were introduced in Rocky Linux 8 by the upstream. In order to use "
-"modules, the AppStream repository must exist and be enabled."
+#, no-wrap
+msgid "Modules were introduced in Rocky Linux 8 by the upstream. In order to use modules, the AppStream repository must exist and be enabled.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:531
-msgid "!!! hint \"Package Confusion\""
+#, no-wrap
+msgid "!!! hint \"Package Confusion\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -1342,34 +1330,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:537
-msgid ""
-"Modules come from the AppStream repository and contain both streams and "
-"profiles. These can be described as follows:"
+#, no-wrap
+msgid "Modules come from the AppStream repository and contain both streams and profiles. These can be described as follows:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/13-softwares.md:539
-msgid ""
-"**module streams:** A module stream can be thought of as a separate "
-"repository within the AppStream repository that contains different "
-"application versions. These module repositories contain the application "
-"RPMs, dependencies, and documentation for that particular stream. An example "
-"of a module stream in Rocky Linux 8 would be `postgresql`. If you install "
-"`postgresql` using the standard `sudo dnf install postgresql` you will get "
-"version 10. However, using modules, you can instead install versions 9.6, 12 "
-"or 13."
+#, no-wrap
+msgid "**module streams:** A module stream can be thought of as a separate repository within the AppStream repository that contains different application versions. These module repositories contain the application RPMs, dependencies, and documentation for that particular stream. An example of a module stream in Rocky Linux 8 would be `postgresql`. If you install `postgresql` using the standard `sudo dnf install postgresql` you will get version 10. However, using modules, you can instead install versions 9.6, 12 or 13.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/13-softwares.md:541
-msgid ""
-"**module profiles:** What a module profile does is take into consideration "
-"the use case for the module stream when installing the package. Applying a "
-"profile adjusts the package RPMs, dependencies and documentation to account "
-"for the module's use. Using the same `postgresql` stream in our example, you "
-"can apply a profile of either \"server\" or \"client\". Obviously, you do "
-"not need the same packages installed on your system if you are just going to "
-"use `postgresql` as a client to access a server."
+#, no-wrap
+msgid "**module profiles:** What a module profile does is take into consideration the use case for the module stream when installing the package. Applying a profile adjusts the package RPMs, dependencies and documentation to account for the module's use. Using the same `postgresql` stream in our example, you can apply a profile of either \"server\" or \"client\". Obviously, you do not need the same packages installed on your system if you are just going to use `postgresql` as a client to access a server.\n"
 msgstr ""
 
 #. type: Title ###
@@ -1380,8 +1354,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:545
-msgid ""
-"You can obtain a list of all modules by executing the following command:"
+#, no-wrap
+msgid "You can obtain a list of all modules by executing the following command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1392,12 +1366,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:551
-msgid ""
-"This will give you a long list of the available modules and the profiles "
-"that can be used for them. The thing is you probably already know what "
-"package you are interested in, so to find out if there are modules for a "
-"particular package, add the package name after \"list\". We will use our "
-"`postgresql` package example again here:"
+#, no-wrap
+msgid "This will give you a long list of the available modules and the profiles that can be used for them. The thing is you probably already know what package you are interested in, so to find out if there are modules for a particular package, add the package name after \"list\". We will use our `postgresql` package example again here:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1408,7 +1378,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:557
-msgid "This will give you output that looks like this:"
+#, no-wrap
+msgid "This will give you output that looks like this:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1426,11 +1397,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:568
-msgid ""
-"Notice in the listing the \"[d]\". This means that this is the default. It "
-"shows that the default version is 10 and that regardless of which version "
-"you choose, if you do not specify a profile, then the server profile will be "
-"the profile used, as it is the default as well."
+#, no-wrap
+msgid "Notice in the listing the \"[d]\". This means that this is the default. It shows that the default version is 10 and that regardless of which version you choose, if you do not specify a profile, then the server profile will be the profile used, as it is the default as well.\n"
 msgstr ""
 
 #. type: Title ###
@@ -1441,9 +1409,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:572
-msgid ""
-"Using our example `postgresql` package, let's say that we want to enable "
-"version 12. To do this, you simply use the following:"
+#, no-wrap
+msgid "Using our example `postgresql` package, let's say that we want to enable version 12. To do this, you simply use the following:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1454,16 +1421,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:578
-msgid ""
-"Here the enable command requires the module name followed by a \":\" and the "
-"stream name."
+#, no-wrap
+msgid "Here the enable command requires the module name followed by a \":\" and the stream name.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:580
-msgid ""
-"To verify that you have enabled `postgresql` module stream version 12, use "
-"your list command again which should show you the following output:"
+#, no-wrap
+msgid "To verify that you have enabled `postgresql` module stream version 12, use your list command again which should show you the following output:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1480,9 +1445,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:591
-msgid ""
-"Here we can see the \"[e]\" for \"enabled\" next to stream 12, so we know "
-"that version 12 is enabled."
+#, no-wrap
+msgid "Here we can see the \"[e]\" for \"enabled\" next to stream 12, so we know that version 12 is enabled.\n"
 msgstr ""
 
 #. type: Title ###
@@ -1493,10 +1457,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:595
-msgid ""
-"Now that our module stream is enabled, the next step is to install "
-"`postgresql`, the client application for the postgresql server. This can be "
-"achieved by running the following command:"
+#, no-wrap
+msgid "Now that our module stream is enabled, the next step is to install `postgresql`, the client application for the postgresql server. This can be achieved by running the following command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1508,7 +1470,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:601
 #: ../src/docs/books/admin_guide/13-softwares.md:630
-msgid "Which should give you this output:"
+#, no-wrap
+msgid "Which should give you this output:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1533,7 +1496,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:620
-msgid "After approving by typing \"y\" you installed the application."
+#, no-wrap
+msgid "After approving by typing \"y\" you installed the application.\n"
 msgstr ""
 
 #. type: Title ###
@@ -1544,11 +1508,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:624
-msgid ""
-"It's also possible to directly install packages without even having to "
-"enable the module stream! In this example, let's assume that we only want "
-"the client profile applied to our installation. To do this, we simply enter "
-"this command:"
+#, no-wrap
+msgid "It's also possible to directly install packages without even having to enable the module stream! In this example, let's assume that we only want the client profile applied to our installation. To do this, we simply enter this command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1584,9 +1545,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:654
-msgid ""
-"Answering \"y\" to the prompt will install everything you need to use "
-"postgresql version 12 as a client."
+#, no-wrap
+msgid "Answering \"y\" to the prompt will install everything you need to use postgresql version 12 as a client.\n"
 msgstr ""
 
 #. type: Title ###
@@ -1597,10 +1557,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:658
-msgid ""
-"After you install, you may decide that for whatever reason, you need a "
-"different version of the stream. The first step is to remove your packages. "
-"Using our example `postgresql` package again, we would do this with:"
+#, no-wrap
+msgid "After you install, you may decide that for whatever reason, you need a different version of the stream. The first step is to remove your packages. Using our example `postgresql` package again, we would do this with:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1611,17 +1569,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:664
-msgid ""
-"This will display similar output as the install procedure above, except it "
-"will be removing the package and all of its dependencies. Answer \"y\" to "
-"the prompt and hit enter to uninstall `postgresql`."
+#, no-wrap
+msgid "This will display similar output as the install procedure above, except it will be removing the package and all of its dependencies. Answer \"y\" to the prompt and hit enter to uninstall `postgresql`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:666
-msgid ""
-"Once this step is complete, you can issue the reset command for the module "
-"using:"
+#, no-wrap
+msgid "Once this step is complete, you can issue the reset command for the module using:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1632,7 +1587,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:672
-msgid "Which will give you output like this:"
+#, no-wrap
+msgid "Which will give you output like this:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1656,25 +1612,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:690
-msgid ""
-"Answering \"y\" to the prompt will then reset `postgresql` back to the "
-"default stream with the stream that we had enabled (12 in our example) no "
-"longer enabled:"
+#, no-wrap
+msgid "Answering \"y\" to the prompt will then reset `postgresql` back to the default stream with the stream that we had enabled (12 in our example) no longer enabled:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:701
-msgid "Now you can use the default."
+#, no-wrap
+msgid "Now you can use the default.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:703
-msgid ""
-"You can also use the switch-to sub-command to switch from one enabled stream "
-"to another. Using this method not only switches to the new stream, but "
-"installs the needed packages (either downgrade or upgrade) without a "
-"separate step. To use this method to enable `postgresql` stream version 13 "
-"and use the \"client\" profile, you would use:"
+#, no-wrap
+msgid "You can also use the switch-to sub-command to switch from one enabled stream to another. Using this method not only switches to the new stream, but installs the needed packages (either downgrade or upgrade) without a separate step. To use this method to enable `postgresql` stream version 13 and use the \"client\" profile, you would use:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1691,19 +1642,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:711
-msgid ""
-"There may be times when you wish to disable the ability to install packages "
-"from a module stream. In the case of our `postgresql` example, this could be "
-"because you want to use the repository directly from [PostgreSQL](https://"
-"www.postgresql.org/download/linux/redhat/) so that you could use a newer "
-"version (at the time of this writing, versions 14 and 15 are available from "
-"this repository). Disabling a module stream, makes installing any of those "
-"packages impossible without first enabling them again."
+#, no-wrap
+msgid "There may be times when you wish to disable the ability to install packages from a module stream. In the case of our `postgresql` example, this could be because you want to use the repository directly from [PostgreSQL](https://www.postgresql.org/download/linux/redhat/) so that you could use a newer version (at the time of this writing, versions 14 and 15 are available from this repository). Disabling a module stream, makes installing any of those packages impossible without first enabling them again.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:713
-msgid "To disable the module streams for `postgresql` simply do:"
+#, no-wrap
+msgid "To disable the module streams for `postgresql` simply do:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1714,9 +1660,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:719
-msgid ""
-"And if you list out the `postgresql` modules again, you will see the "
-"following showing all `postgresql` module versions disabled:"
+#, no-wrap
+msgid "And if you list out the `postgresql` modules again, you will see the following showing all `postgresql` module versions disabled:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1751,13 +1696,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:736
-msgid ""
-"It provides packages that are not included in the official RHEL "
-"repositories. These are not included because they are not considered "
-"necessary in an enterprise environment or deemed outside the scope of RHEL. "
-"We must not forget that RHEL is an enterprise class distribution, and "
-"desktop utilities or other specialized software may not be a priority for an "
-"enterprise project."
+#, no-wrap
+msgid "It provides packages that are not included in the official RHEL repositories. These are not included because they are not considered necessary in an enterprise environment or deemed outside the scope of RHEL. We must not forget that RHEL is an enterprise class distribution, and desktop utilities or other specialized software may not be a priority for an enterprise project.\n"
 msgstr ""
 
 #. type: Title ###
@@ -1775,14 +1715,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:740
-msgid ""
-"Installation of the necessary files can be easily done with the package "
-"provided by default from Rocky Linux."
+#, no-wrap
+msgid "Installation of the necessary files can be easily done with the package provided by default from Rocky Linux.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:742
-msgid "If you are behind an internet proxy:"
+#, no-wrap
+msgid "If you are behind an internet proxy:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1793,7 +1733,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:748
-msgid "Then:"
+#, no-wrap
+msgid "Then:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1812,9 +1753,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:754
-msgid ""
-"Once installed you can check that the package has been installed correctly "
-"with the command `dnf info`."
+#, no-wrap
+msgid "Once installed you can check that the package has been installed correctly with the command `dnf info`.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1841,16 +1781,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:775
-msgid ""
-"The package, as you can see from the package description above, does not "
-"contain executables, libraries, etc... but only the configuration files and "
-"GPG keys for setting up the repository."
+#, no-wrap
+msgid "The package, as you can see from the package description above, does not contain executables, libraries, etc... but only the configuration files and GPG keys for setting up the repository.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:777
-msgid ""
-"Another way to verify the correct installation is to query the rpm database."
+#, no-wrap
+msgid "Another way to verify the correct installation is to query the rpm database.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1863,10 +1801,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:784
-msgid ""
-"Now you need to run an update to let `dnf` recognize the repository. You "
-"will be asked to accept the GPG keys of the repositories. Clearly, you have "
-"to answer YES in order to use them."
+#, no-wrap
+msgid "Now you need to run an update to let `dnf` recognize the repository. You will be asked to accept the GPG keys of the repositories. Clearly, you have to answer YES in order to use them.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1880,10 +1816,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:790
-msgid ""
-"Once the update is complete you can check that the repository has been "
-"configured correctly with the `dnf repolist` command which should now list "
-"the new repositories."
+#, no-wrap
+msgid "Once the update is complete you can check that the repository has been configured correctly with the `dnf repolist` command which should now list the new repositories.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1900,7 +1834,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:801
-msgid "The repository configuration files are located in `/etc/yum.repos.d/`."
+#, no-wrap
+msgid "The repository configuration files are located in `/etc/yum.repos.d/`.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1916,7 +1851,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:811
-msgid "And below we can see the contents of the file `epel.repo`."
+#, no-wrap
+msgid "And below we can see the contents of the file `epel.repo`.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1963,10 +1899,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:848
-msgid ""
-"At this point, once configured, we are ready to install the packages from "
-"EPEL. To start, we can list the packages available in the repository with "
-"the command:"
+#, no-wrap
+msgid "At this point, once configured, we are ready to install the packages from EPEL. To start, we can list the packages available in the repository with the command:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1977,7 +1911,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:854
-msgid "And an excerpt of the command"
+#, no-wrap
+msgid "And an excerpt of the command\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2003,19 +1938,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:874
-msgid ""
-"From the command we can see that to install from EPEL we must force **dnf** "
-"to query the requested repository with the options `--disablerepo` and `--"
-"enablerepo`, this is because otherwise a match found in other optional "
-"repositories (RPM Fusion, REMI, ELRepo, etc.) could be newer and therefore "
-"have priority. These options are not necessary if you have only installed "
-"EPEL as an optional repository because the packages in the repository will "
-"never be available in the official ones. At least in the same version!"
+#, no-wrap
+msgid "From the command we can see that to install from EPEL we must force **dnf** to query the requested repository with the options `--disablerepo` and `--enablerepo`, this is because otherwise a match found in other optional repositories (RPM Fusion, REMI, ELRepo, etc.) could be newer and therefore have priority. These options are not necessary if you have only installed EPEL as an optional repository because the packages in the repository will never be available in the official ones. At least in the same version!\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:876
-msgid "!!! attention \"Support consideration\""
+#, no-wrap
+msgid "!!! attention \"Support consideration\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -2026,7 +1956,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:880
-msgid "So, to install a package from the EPEL repositories you would use:"
+#, no-wrap
+msgid "So, to install a package from the EPEL repositories you would use:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2097,10 +2028,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:903
-msgid ""
-"EPEL is not an official repository for RHEL, but it can be useful for "
-"administrators and developers who work with RHEL or derivatives and need "
-"some utilities prepared for RHEL from a source they can feel confident about."
+#, no-wrap
+msgid "EPEL is not an official repository for RHEL, but it can be useful for administrators and developers who work with RHEL or derivatives and need some utilities prepared for RHEL from a source they can feel confident about.\n"
 msgstr ""
 
 #. type: Title ##
@@ -2111,9 +2040,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:907
-msgid ""
-"The `dnf-plugins-core` package adds plugins to `dnf` that will be useful for "
-"managing your repositories."
+#, no-wrap
+msgid "The `dnf-plugins-core` package adds plugins to `dnf` that will be useful for managing your repositories.\n"
 msgstr ""
 
 #. type: Plain text
@@ -2126,7 +2054,8 @@ msgstr ""
 #: ../src/docs/labs/security/lab9-cryptography.md:125
 #: ../src/docs/labs/security/lab9-cryptography.md:322
 #: ../src/docs/labs/security/lab9-cryptography.md:516
-msgid "!!! NOTE"
+#, no-wrap
+msgid "!!! NOTE\n"
 msgstr ""
 
 #. type: Plain text
@@ -2137,7 +2066,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:913
-msgid "Install the package on your system:"
+#, no-wrap
+msgid "Install the package on your system:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2148,9 +2078,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:919
-msgid ""
-"Not all plugins will be presented here but you can refer to the package "
-"documentation for a complete list of plugins and detailed information."
+#, no-wrap
+msgid "Not all plugins will be presented here but you can refer to the package documentation for a complete list of plugins and detailed information.\n"
 msgstr ""
 
 #. type: Title ###
@@ -2161,12 +2090,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:923
-msgid "Manage DNF options, add repos, or disable them."
+#, no-wrap
+msgid "Manage DNF options, add repos, or disable them.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/13-softwares.md:927
-msgid "Download a `.repo` file and use it:"
+#, no-wrap
+msgid "Download a `.repo` file and use it:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2177,7 +2108,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/13-softwares.md:933
-msgid "You can also set an url as a base url for a repo:"
+#, no-wrap
+msgid "You can also set an url as a base url for a repo:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2188,7 +2120,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/13-softwares.md:939
-msgid "Enable or disable one or more repos:"
+#, no-wrap
+msgid "Enable or disable one or more repos:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2201,7 +2134,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/13-softwares.md:946
-msgid "Add a proxy to your config file:"
+#, no-wrap
+msgid "Add a proxy to your config file:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2218,12 +2152,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:954
-msgid "`copr` is an automatic rpm forge, providing a repo with built packages."
+#, no-wrap
+msgid "`copr` is an automatic rpm forge, providing a repo with built packages.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/13-softwares.md:956
-msgid "Activate a copr repo:"
+#, no-wrap
+msgid "Activate a copr repo:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2240,7 +2176,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:964
-msgid "Download rpm package instead of installing it:"
+#, no-wrap
+msgid "Download rpm package instead of installing it:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2251,7 +2188,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:970
-msgid "If you just want to obtain the remote location url of the package:"
+#, no-wrap
+msgid "If you just want to obtain the remote location url of the package:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2262,7 +2200,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:976
-msgid "Or if you want to also download the dependencies:"
+#, no-wrap
+msgid "Or if you want to also download the dependencies:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2279,17 +2218,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:984
-msgid ""
-"After running a `dnf update`, the running processes will continue to run but "
-"with the old binaries. In order to take into account the code changes and "
-"especially the security updates, they have to be restarted."
+#, no-wrap
+msgid "After running a `dnf update`, the running processes will continue to run but with the old binaries. In order to take into account the code changes and especially the security updates, they have to be restarted.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:986
-msgid ""
-"The `needs-restarting` plugin will allow you to detect processes that are in "
-"this case."
+#, no-wrap
+msgid "The `needs-restarting` plugin will allow you to detect processes that are in this case.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2318,15 +2254,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:1001
-msgid ""
-"Sometimes it is useful to protect packages from all updates or to exclude "
-"certain versions of a package (because of known problems for example). For "
-"this purpose, the versionlock plugin will be of great help."
+#, no-wrap
+msgid "Sometimes it is useful to protect packages from all updates or to exclude certain versions of a package (because of known problems for example). For this purpose, the versionlock plugin will be of great help. \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/13-softwares.md:1003
-msgid "You need to install an extra package:"
+#, no-wrap
+msgid "You need to install an extra package:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2337,7 +2272,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/13-softwares.md:1011
-msgid "Lock the ansible version:"
+#, no-wrap
+msgid "Lock the ansible version:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2350,7 +2286,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/13-softwares.md:1018
-msgid "List locked packages:"
+#, no-wrap
+msgid "List locked packages:\n"
 msgstr ""
 
 #. type: Fenced code block

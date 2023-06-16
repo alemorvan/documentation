@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -145,30 +145,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nerd_fonts.md:15
-msgid ""
-"Installation of Nerd Fonts does not change the function of Neovim or NvChad, "
-"but simply adds fonts that are more pleasing to the eye than whatever the "
-"standard terminal font is currently."
+#, no-wrap
+msgid "Installation of Nerd Fonts does not change the function of Neovim or NvChad, but simply adds fonts that are more pleasing to the eye than whatever the standard terminal font is currently. \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nerd_fonts.md:17
-msgid ""
-"![Nerd Fonts](images/nerd_fonts_site_small.png){ align=right } Nerd Fonts "
-"are a collection of modified fonts aimed at developers. In particular, "
-"\"iconic fonts\" such as Font Awesome, Devicons, Octicons etc. are used to "
-"add extra glyphs."
+#, no-wrap
+msgid "![Nerd Fonts](images/nerd_fonts_site_small.png){ align=right } Nerd Fonts are a collection of modified fonts aimed at developers. In particular, \"iconic fonts\" such as Font Awesome, Devicons, Octicons etc. are used to add extra glyphs.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nerd_fonts.md:19
-msgid ""
-"Nerd Fonts takes the most popular programming fonts and modifies them by "
-"adding a group of glyphs (icons). A font patcher is also available if the "
-"font you'd like to use has not already been edited. A convenient preview is "
-"available on the site, allowing you to see how the font should look in the "
-"editor. For more information, check the project's main [site](https://www."
-"nerdfonts.com/)."
+#, no-wrap
+msgid "Nerd Fonts takes the most popular programming fonts and modifies them by adding a group of glyphs (icons). A font patcher is also available if the font you'd like to use has not already been edited. A convenient preview is available on the site, allowing you to see how the font should look in the editor. For more information, check the project's main [site](https://www.nerdfonts.com/).\n"
 msgstr ""
 
 #. type: Title ##
@@ -179,7 +169,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nerd_fonts.md:23
-msgid "Fonts are available for download at:"
+#, no-wrap
+msgid "Fonts are available for download at:\n"
 msgstr ""
 
 #. type: Fenced code block (text)
@@ -190,16 +181,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nerd_fonts.md:31
-msgid ""
-"The procedure for installing fonts on Rocky Linux is to save the fonts you "
-"want to add somewhere, and then install them with the `fc-cache` command. "
-"This procedure is not a true installation so much as a registration of the "
-"new fonts in the system."
+#, no-wrap
+msgid "The procedure for installing fonts on Rocky Linux is to save the fonts you want to add somewhere, and then install them with the `fc-cache` command. This procedure is not a true installation so much as a registration of the new fonts in the system.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nerd_fonts.md:33
-msgid "!!! warning \"Creation of compressed packages\""
+#, no-wrap
+msgid "!!! warning \"Creation of compressed packages\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -210,12 +199,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nerd_fonts.md:37
-msgid "For this guide we will use the `Sauce Code Pro Nerd` font."
+#, no-wrap
+msgid "For this guide we will use the `Sauce Code Pro Nerd` font.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nerd_fonts.md:39
-msgid "Download the package with:"
+#, no-wrap
+msgid "Download the package with:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -226,9 +217,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nerd_fonts.md:45
-msgid ""
-"Next, unzip the contents of the folder and copy the fonts to `~/.local/share/"
-"fonts/` with:"
+#, no-wrap
+msgid "Next, unzip the contents of the folder and copy the fonts to `~/.local/share/fonts/` with:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -253,20 +243,18 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nerd_fonts.md:55
-msgid ""
-"At this point the Nerd Font of your choice should be available for "
-"selection. To actually select it you must refer to the desktop you are using."
+#, no-wrap
+msgid "At this point the Nerd Font of your choice should be available for selection. To actually select it you must refer to the desktop you are using.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nerd_fonts.md:57
-msgid "![Font Manager](images/font_nerd_view.png)"
+#, no-wrap
+msgid "![Font Manager](images/font_nerd_view.png) \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nerd_fonts.md:58
-msgid ""
-"If you are using the default Rocky Linux desktop (Gnome), to change the font "
-"in the terminal emulator you will just need to open `gnome-terminal`, go to "
-"\"Preferences\", and set the Nerd Font for your profile."
+#, no-wrap
+msgid "If you are using the default Rocky Linux desktop (Gnome), to change the font in the terminal emulator you will just need to open `gnome-terminal`, go to \"Preferences\", and set the Nerd Font for your profile.\n"
 msgstr ""

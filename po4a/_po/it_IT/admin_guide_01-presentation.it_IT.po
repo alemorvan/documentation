@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -31,7 +31,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:8
-msgid "In this chapter you will learn about GNU/Linux distributions."
+#, no-wrap
+msgid "In this chapter you will learn about GNU/Linux distributions.\n"
 msgstr ""
 
 #. type: Plain text
@@ -67,7 +68,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:20
-msgid ":checkered_flag: **generalities**, **linux**, **distributions**"
+#, no-wrap
+msgid ":checkered_flag: **generalities**, **linux**, **distributions**\n"
 msgstr ""
 
 #. type: Plain text
@@ -96,13 +98,15 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:31
-msgid "Linux, UNIX, BSD, Windows, and MacOS are all **operating systems**."
+#, no-wrap
+msgid "Linux, UNIX, BSD, Windows, and MacOS are all **operating systems**.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:33
 #: ../src/docs/guides/contribute/rockydocs_formatting.md:76
-msgid "!!! abstract"
+#, no-wrap
+msgid "!!! abstract\n"
 msgstr ""
 
 #. type: Plain text
@@ -113,57 +117,60 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:37
-msgid "As part of this management of resources, the operating system has to:"
+#, no-wrap
+msgid "As part of this management of resources, the operating system has to:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:47
-msgid "Manage the **physical** or **virtual** memory."
+#, no-wrap
+msgid "Manage the **physical** or **virtual** memory.\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/books/admin_guide/01-presentation.md:47
-msgid ""
-"The **physical memory** is made up of the RAM bars and the processor cache "
-"memory, which are used for the execution of programs."
+#, no-wrap
+msgid "The **physical memory** is made up of the RAM bars and the processor cache memory, which are used for the execution of programs.\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/books/admin_guide/01-presentation.md:47
+#, no-wrap
+msgid "The **virtual memory** is a location on the hard disk (the **swap** partition) that allows the unloading of the physical memory and the saving of the current state of the system during the electrical shutdown of the computer.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/01-presentation.md:47
+#, no-wrap
 msgid ""
-"The **virtual memory** is a location on the hard disk (the **swap** "
-"partition) that allows the unloading of the physical memory and the saving "
-"of the current state of the system during the electrical shutdown of the "
-"computer."
+"Intercept **access to peripherals**.\n"
+"Software is rarely allowed to access hardware directly (except for graphics cards for very specific needs).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:47
+#, no-wrap
 msgid ""
-"Intercept **access to peripherals**.  Software is rarely allowed to access "
-"hardware directly (except for graphics cards for very specific needs)."
+"Provide applications with proper **task management**.\n"
+"The operating system is responsible for scheduling processes to occupy the processor.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:47
-msgid ""
-"Provide applications with proper **task management**.  The operating system "
-"is responsible for scheduling processes to occupy the processor."
+#, no-wrap
+msgid "**Protect files** from unauthorized access.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:47
-msgid "**Protect files** from unauthorized access."
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/01-presentation.md:47
-msgid "**Collect information** about programs in use or in progress."
+#, no-wrap
+msgid "**Collect information** about programs in use or in progress.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:49
-msgid "![Operation of an operating system](images/operating_system.png)"
+#, no-wrap
+msgid "![Operation of an operating system](images/operating_system.png)\n"
 msgstr ""
 
 #. type: Title ##
@@ -186,43 +193,34 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:58
+#, no-wrap
 msgid ""
-"**1964 — 1968**: MULTICS (MULTiplexed Information and Computing Service) is "
-"developed for MIT, Bell Labs (AT&T) and General Electric."
+"**1964 — 1968**:\n"
+"MULTICS (MULTiplexed Information and Computing Service) is developed for MIT, Bell Labs (AT&T) and General Electric.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:60
-msgid ""
-"**1969 — 1971**: After the withdrawal of Bell (1969) and then General "
-"Electric from the project, two developers, Ken Thompson and Dennis Ritchie "
-"(joined later by Brian Kernighan), judging MULTICS to be too complex, begin "
-"development of UNIX (UNiplexed Information and Computing Service). While it "
-"was originally created in Assembly language, the creators of UNIX eventually "
-"develop the B language and then the C language (1971) and completely rewrite "
-"UNIX. As it was developed in 1970, the reference (epoch) date for the start "
-"of time of UNIX/Linux systems is set at January 01, 1970."
+#, no-wrap
+msgid "**1969 — 1971**: After the withdrawal of Bell (1969) and then General Electric from the project, two developers, Ken Thompson and Dennis Ritchie (joined later by Brian Kernighan), judging MULTICS to be too complex, begin development of UNIX (UNiplexed Information and Computing Service). While it was originally created in Assembly language, the creators of UNIX eventually develop the B language and then the C language (1971) and completely rewrite UNIX. As it was developed in 1970, the reference (epoch) date for the start of time of UNIX/Linux systems is set at January 01, 1970.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:62
-msgid ""
-"The C language remains one of the most popular programming languages today. "
-"A low-level language, close to the hardware, it allows the adaptation of the "
-"operating system to any machine architecture having a C compiler."
+#, no-wrap
+msgid "The C language remains one of the most popular programming languages today. A low-level language, close to the hardware, it allows the adaptation of the operating system to any machine architecture having a C compiler.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:64
-msgid ""
-"UNIX is an open and evolving operating system that has played a major role "
-"in the history of computing. It forms the basis for many other systems such "
-"as Linux, BSD, MacOS, and more."
+#, no-wrap
+msgid "UNIX is an open and evolving operating system that has played a major role in the history of computing. It forms the basis for many other systems such as Linux, BSD, MacOS, and more.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:66
-msgid "UNIX is still relevant today (HP-UX, AIX, Solaris, etc.)."
+#, no-wrap
+msgid "UNIX is still relevant today (HP-UX, AIX, Solaris, etc.).\n"
 msgstr ""
 
 #. type: Title ####
@@ -233,21 +231,14 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:70
-msgid ""
-"**1984**: Richard Matthew Stallman launched the GNU (GNU's Not Unix) "
-"Project, which aims to establish a **free** and **open** Unix system, in "
-"which the more important tools are: gcc compiler, bash shell, Emacs editor "
-"and so on. GNU is a Unix-like operating system. The development of GNU, "
-"started in January 1984, is known as the GNU Project. Many of the programs "
-"in GNU are released under the auspices of the GNU Project; those we call GNU "
-"packages."
+#, no-wrap
+msgid "**1984**: Richard Matthew Stallman launched the GNU (GNU's Not Unix) Project, which aims to establish a **free** and **open** Unix system, in which the more important tools are: gcc compiler, bash shell, Emacs editor and so on. GNU is a Unix-like operating system. The development of GNU, started in January 1984, is known as the GNU Project. Many of the programs in GNU are released under the auspices of the GNU Project; those we call GNU packages.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:72
-msgid ""
-"**1990**: GNU's own kernel, the GNU Hurd, was started in 1990 (before Linux "
-"was started)."
+#, no-wrap
+msgid "**1990**: GNU's own kernel, the GNU Hurd, was started in 1990 (before Linux was started).\n"
 msgstr ""
 
 #. type: Title ####
@@ -258,10 +249,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:76
-msgid ""
-"**1987**: Andrew S. Tanenbaum develops MINIX, a simplified UNIX, to teach "
-"operating systems in a simple way. Mr. Tanenbaum makes the source code of "
-"his operating system available."
+#, no-wrap
+msgid "**1987**: Andrew S. Tanenbaum develops MINIX, a simplified UNIX, to teach operating systems in a simple way. Mr. Tanenbaum makes the source code of his operating system available.\n"
 msgstr ""
 
 #. type: Title ####
@@ -272,64 +261,50 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:80
-msgid ""
-"**1991**: A Finnish student, **Linus Torvalds**, creates an operating system "
-"that runs on his personal computer and names it Linux. He publishes his "
-"first version, called 0.02, on the Usenet discussion forum, and other "
-"developers help him improve his system. The term Linux is a play on words "
-"between the founder's first name, Linus, and UNIX."
+#, no-wrap
+msgid "**1991**: A Finnish student, **Linus Torvalds**, creates an operating system that runs on his personal computer and names it Linux. He publishes his first version, called 0.02, on the Usenet discussion forum, and other developers help him improve his system. The term Linux is a play on words between the founder's first name, Linus, and UNIX.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:82
-msgid ""
-"**1993**: The Debian distribution is created. Debian is a non-commercial, "
-"community-based distribution. Originally developed for use on servers, it is "
-"well-suited for this role; however it is a universal system, usable on a "
-"personal computer as well. Debian forms the basis for many other "
-"distributions, such as Mint or Ubuntu."
+#, no-wrap
+msgid "**1993**: The Debian distribution is created. Debian is a non-commercial, community-based distribution. Originally developed for use on servers, it is  well-suited for this role; however it is a universal system, usable on a personal computer as well. Debian forms the basis for many other distributions, such as Mint or Ubuntu.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:84
-msgid ""
-"**1994**: The commercial distribution Red Hat is created by the company Red "
-"Hat, which is today the leading distributor of the GNU/Linux operating "
-"system. Red Hat supports the community version Fedora and until recently the "
-"free distribution CentOS."
+#, no-wrap
+msgid "**1994**: The commercial distribution Red Hat is created by the company Red Hat, which is today the leading distributor of the GNU/Linux operating system. Red Hat supports the community version Fedora and until recently the free distribution CentOS.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:86
-msgid ""
-"**1997**: The KDE desktop environment is created. It is based on the Qt "
-"component library and the C++ development language."
+#, no-wrap
+msgid "**1997**: The KDE desktop environment is created. It is based on the Qt component library and the C++ development language.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:88
-msgid ""
-"**1999**: The GNOME desktop environment is created. It is based on the GTK+ "
-"component library."
+#, no-wrap
+msgid "**1999**: The GNOME desktop environment is created. It is based on the GTK+ component library.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:90
-msgid ""
-"**2002**: The Arch distribution is created. Its distinctive is that it "
-"offers rolling release (continuous update)."
+#, no-wrap
+msgid "**2002**: The Arch distribution is created. Its distinctive is that it offers rolling release (continuous update).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:92
-msgid ""
-"**2004**: Ubuntu is created by the Canonical company (Mark Shuttleworth). It "
-"is based on Debian but includes free and proprietary software."
+#, no-wrap
+msgid "**2004**: Ubuntu is created by the Canonical company (Mark Shuttleworth). It is based on Debian but includes free and proprietary software.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:94
-msgid "**2021**: Rocky Linux is created, based on Red Hat distribution."
+#, no-wrap
+msgid "**2021**: Rocky Linux is created, based on Red Hat distribution.\n"
 msgstr ""
 
 #. type: Plain text
@@ -349,7 +324,8 @@ msgstr ""
 #: ../src/docs/books/admin_guide/14-special-authority.md:477
 #: ../src/docs/gemstones/RL9_network_manager.md:132
 #: ../src/docs/guides/contribute/rockydocs_formatting.md:80
-msgid "!!! info"
+#, no-wrap
+msgid "!!! info\n"
 msgstr ""
 
 #. type: Plain text
@@ -375,19 +351,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:106
-msgid ""
-"Despite its prevalence, Linux remains relatively unknown by the general "
-"public. Linux is hidden within **smartphones**, **televisions**, **internet "
-"boxes**, etc. Almost **70% of the websites** in the world are hosted on a "
-"Linux or UNIX server!"
+#, no-wrap
+msgid "Despite its prevalence, Linux remains relatively unknown by the general public. Linux is hidden within **smartphones**, **televisions**, **internet boxes**, etc. Almost **70% of the websites** in the world are hosted on a Linux or UNIX server!\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:108
-msgid ""
-"Linux equips about **3% of personal computers** but more than **82% of "
-"smartphones**. The **Android** operating system, for example, uses a Linux "
-"kernel."
+#, no-wrap
+msgid "Linux equips about **3% of personal computers** but more than **82% of smartphones**. The **Android** operating system, for example, uses a Linux kernel.\n"
 msgstr ""
 
 #. type: Plain text
@@ -398,11 +369,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:112
-msgid ""
-"Linux equips 100% of the top 500 supercomputers since 2018. A supercomputer "
-"is a computer designed to achieve the highest possible performance with the "
-"techniques known at the time of its design, especially with regard to "
-"computing speed."
+#, no-wrap
+msgid "Linux equips 100% of the top 500 supercomputers since 2018. A supercomputer is a computer designed to achieve the highest possible performance with the techniques known at the time of its design, especially with regard to computing speed.\n"
 msgstr ""
 
 #. type: Title ###
@@ -413,56 +381,62 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:125
-msgid "The **kernel** is the first software component."
+#, no-wrap
+msgid "The **kernel** is the first software component.\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/books/admin_guide/01-presentation.md:125
-msgid "It is the heart of the Linux system."
+#, no-wrap
+msgid "It is the heart of the Linux system.\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/books/admin_guide/01-presentation.md:125
-msgid "It manages the hardware resources of the system."
+#, no-wrap
+msgid "It manages the hardware resources of the system.\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/books/admin_guide/01-presentation.md:125
-msgid ""
-"The other software components must go through it to access the hardware."
+#, no-wrap
+msgid "The other software components must go through it to access the hardware.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:125
-msgid ""
-"The **shell** is a utility that interprets user commands and ensures their "
-"execution."
+#, no-wrap
+msgid "The **shell** is a utility that interprets user commands and ensures their execution.\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/books/admin_guide/01-presentation.md:125
-msgid ""
-"Main shells: Bourne shell, C shell, Korn shell and Bourne-Again shell (bash)."
+#, no-wrap
+msgid "Main shells: Bourne shell, C shell, Korn shell and Bourne-Again shell (bash).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:125
-msgid "**Applications** are user programs including but not limited to:"
+#, no-wrap
+msgid "**Applications** are user programs including but not limited to:\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/books/admin_guide/01-presentation.md:125
-msgid "Internet browsers"
+#, no-wrap
+msgid "Internet browsers\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/books/admin_guide/01-presentation.md:125
-msgid "Word processors"
+#, no-wrap
+msgid "Word processors\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/books/admin_guide/01-presentation.md:125
-msgid "Spreadsheets"
+#, no-wrap
+msgid "Spreadsheets\n"
 msgstr ""
 
 #. type: Title ####
@@ -473,30 +447,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:129
-msgid ""
-"Linux belongs to the family of time-sharing operating systems. It divides "
-"processing time between several programs, switching from one to another in a "
-"transparent way for the user. This implies:"
+#, no-wrap
+msgid "Linux belongs to the family of time-sharing operating systems. It divides processing time between several programs, switching from one to another in a transparent way for the user. This implies:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:134
-msgid "Simultaneous execution of several programs."
+#, no-wrap
+msgid "Simultaneous execution of several programs.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:134
-msgid "Distribution of CPU time by the scheduler."
+#, no-wrap
+msgid "Distribution of CPU time by the scheduler.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:134
-msgid "Reduction of problems caused by a failed application."
+#, no-wrap
+msgid "Reduction of problems caused by a failed application.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:134
-msgid "Reduced performance in the event of too many programs running."
+#, no-wrap
+msgid "Reduced performance in the event of too many programs running.\n"
 msgstr ""
 
 #. type: Title ####
@@ -507,13 +483,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:138
-msgid ""
-"The purpose of MULTICS was to allow several users to work from several "
-"terminals (screen and keyboard) from a single computer (very expensive at "
-"the time). Linux, inspired by this operating system, kept this ability to "
-"work with several users simultaneously and independently, each one having "
-"their own user account with memory space and access rights to files and "
-"software."
+#, no-wrap
+msgid "The purpose of MULTICS was to allow several users to work from several terminals (screen and keyboard) from a single computer (very expensive at the time). Linux, inspired by this operating system, kept this ability to work with several users simultaneously and independently, each one having their own user account with memory space and access rights to files and software.\n"
 msgstr ""
 
 #. type: Title ####
@@ -524,9 +495,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:142
-msgid ""
-"Linux is able to work with multi-processor computers or with multi-core "
-"processors."
+#, no-wrap
+msgid "Linux is able to work with multi-processor computers or with multi-core processors.\n"
 msgstr ""
 
 #. type: Title ####
@@ -537,39 +507,44 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:146
-msgid ""
-"Linux is written in a high-level language that can be adapted to different "
-"types of platforms during compilation. This allows it to run on:"
+#, no-wrap
+msgid "Linux is written in a high-level language that can be adapted to different types of platforms during compilation. This allows it to run on:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:153
-msgid "Home computers (PC and laptop)"
+#, no-wrap
+msgid "Home computers (PC and laptop)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:153
-msgid "Servers (data and applications)"
+#, no-wrap
+msgid "Servers (data and applications)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:153
-msgid "Portable computers (smartphones and tablets)"
+#, no-wrap
+msgid "Portable computers (smartphones and tablets)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:153
-msgid "Embedded systems (car computers)"
+#, no-wrap
+msgid "Embedded systems (car computers)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:153
-msgid "Active network elements (routers and switches)"
+#, no-wrap
+msgid "Active network elements (routers and switches)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:153
-msgid "Household appliances (TVs and refrigerators)"
+#, no-wrap
+msgid "Household appliances (TVs and refrigerators)\n"
 msgstr ""
 
 #. type: Title ####
@@ -580,13 +555,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:157
-msgid ""
-"Linux is based on recognized standards such as [POSIX](http://en.wikipedia."
-"org/wiki/POSIX), [TCP/IP](https://en.wikipedia.org/wiki/"
-"Internet_protocol_suite), [NFS](https://en.wikipedia.org/wiki/"
-"Network_File_System), and [Samba](https://en.wikipedia.org/wiki/"
-"Samba_(software)), which allow it to share data and services with other "
-"application systems."
+#, no-wrap
+msgid "Linux is based on recognized standards such as [POSIX](http://en.wikipedia.org/wiki/POSIX), [TCP/IP](https://en.wikipedia.org/wiki/Internet_protocol_suite), [NFS](https://en.wikipedia.org/wiki/Network_File_System), and [Samba](https://en.wikipedia.org/wiki/Samba_(software)), which allow it to share data and services with other application systems.\n"
 msgstr ""
 
 #. type: Title ###
@@ -597,36 +567,38 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:166
-msgid "Treat everything as a file."
+#, no-wrap
+msgid "Treat everything as a file.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:166
-msgid "Value portability."
+#, no-wrap
+msgid "Value portability.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:166
-msgid "Do one thing and do it well."
+#, no-wrap
+msgid "Do one thing and do it well.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:166
-msgid "KISS: Keep It Simple Stupid."
+#, no-wrap
+msgid "KISS: Keep It Simple Stupid.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:166
-msgid ""
-"\"UNIX is basically a simple operating system, but you have to be a genius "
-"to understand the simplicity.\" (__Dennis Ritchie__)"
+#, no-wrap
+msgid "\"UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity.\" (__Dennis Ritchie__)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:166
-msgid ""
-"\"Unix is user-friendly. It just isn't promiscuous about which users it's "
-"friendly with.\" (__Steven King__)"
+#, no-wrap
+msgid "\"Unix is user-friendly. It just isn't promiscuous about which users it's friendly with.\" (__Steven King__)\n"
 msgstr ""
 
 #. type: Title ##
@@ -637,30 +609,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:170
-msgid ""
-"A Linux distribution is a **consistent set of software** assembled around "
-"the Linux kernel, ready to be installed along with the necessary components "
-"to manage itself (installation, removal, configuration). There are "
-"**associative** or **community** distributions (Debian, Rocky) and "
-"**commercial** distributions (Red Hat, Ubuntu)."
+#, no-wrap
+msgid "A Linux distribution is a **consistent set of software** assembled around the Linux kernel, ready to be installed along with the necessary components to manage itself (installation, removal, configuration). There are **associative** or **community** distributions (Debian, Rocky) and **commercial** distributions (Red Hat, Ubuntu).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:172
-msgid ""
-"Each distribution offers one or more **desktop environments**, and provides "
-"a set of pre-installed software and a library of additional software. "
-"Configuration options (kernel or services options for example) are specific "
-"to each distribution."
+#, no-wrap
+msgid "Each distribution offers one or more **desktop environments**, and provides a set of pre-installed software and a library of additional software. Configuration options (kernel or services options for example) are specific to each distribution.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:174
-msgid ""
-"This principle allows distributions to be geared to **beginners** (Ubuntu, "
-"Linux Mint...) or fully customizable for **advanced users** (Gentoo, Arch); "
-"distributions can also be more adept with **servers** (Debian, Red Hat) or "
-"**workstations** (Fedora)."
+#, no-wrap
+msgid "This principle allows distributions to be geared to **beginners** (Ubuntu, Linux Mint...) or fully customizable for **advanced users** (Gentoo, Arch);  distributions can also be more adept with **servers** (Debian, Red Hat) or **workstations** (Fedora).\n"
 msgstr ""
 
 #. type: Title ###
@@ -671,53 +633,44 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:178
-msgid ""
-"There are many graphic environments such as **GNOME**, **KDE**, **LXDE**, "
-"**XFCE**, etc. There is something for everyone, and their **ergonomics** "
-"hold their own against Microsoft or Apple systems."
+#, no-wrap
+msgid "There are many graphic environments such as **GNOME**, **KDE**, **LXDE**, **XFCE**, etc. There is something for everyone, and their **ergonomics** hold their own against Microsoft or Apple systems.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:180
-msgid ""
-"So why is there so little enthusiasm for Linux, when this system is "
-"practically **virus free**? Could it be because so many editors (Adobe) and "
-"manufacturers (Nvidia) do not play the free game and do not provide a "
-"version of their software or __drivers__ for GNU/Linux? Perhaps it's fear of "
-"change, or the difficulty of finding where to buy a Linux computer, or too "
-"few games distributed under Linux. That last excuse at least shouldn't be "
-"true for long, with the advent of the game engine Steam for Linux."
+#, no-wrap
+msgid "So why is there so little enthusiasm for Linux, when this system is practically **virus free**? Could it be because so many editors (Adobe) and manufacturers (Nvidia) do not play the free game and do not provide a version of their software or __drivers__ for GNU/Linux? Perhaps it's fear of change, or the difficulty of finding where to buy a Linux computer, or too few games distributed under Linux. That last excuse at least shouldn't be true for long, with the advent of the game engine Steam for Linux.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:182
-msgid "![GNOME Desktop](images/01-presentation-gnome.png)"
+#, no-wrap
+msgid "![GNOME Desktop](images/01-presentation-gnome.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:184
-msgid ""
-"The **GNOME 3** desktop environment no longer uses the concept of desktop "
-"but that of GNOME Shell (not to be confused with the command line shell). It "
-"serves as a desktop, a dashboard, a notification area and a window selector. "
-"The GNOME desktop environment is based on the **GTK+** component library."
+#, no-wrap
+msgid "The **GNOME 3** desktop environment no longer uses the concept of desktop but that of GNOME Shell (not to be confused with the command line shell). It serves as a desktop, a dashboard, a notification area and a window selector. The GNOME desktop environment is based on the **GTK+** component library.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:186
-msgid "![KDE Desktop](images/01-presentation-kde.png)"
+#, no-wrap
+msgid "![KDE Desktop](images/01-presentation-kde.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:188
-msgid ""
-"The **KDE** desktop environment is based on the **Qt** component library. It "
-"is traditionally recommended for users familiar with a Windows environment."
+#, no-wrap
+msgid "The **KDE** desktop environment is based on the **Qt** component library. It is traditionally recommended for users familiar with a Windows environment.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:190
-msgid "![Tux - The Linux mascot](images/tux.png)"
+#, no-wrap
+msgid "![Tux - The Linux mascot](images/tux.png)\n"
 msgstr ""
 
 #. type: Title ###
@@ -728,18 +681,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:194
-msgid ""
-"A user of a Microsoft or Mac operating system must purchase a license to use "
-"the operating system. This license has a cost, although it is usually "
-"transparent (the price of the license is included in the price of the "
-"computer)."
+#, no-wrap
+msgid "A user of a Microsoft or Mac operating system must purchase a license to use the operating system. This license has a cost, although it is usually transparent (the price of the license is included in the price of the computer).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:196
-msgid ""
-"In the **GNU/Linux** world, the Free Software movement provides mostly free "
-"distributions."
+#, no-wrap
+msgid "In the **GNU/Linux** world, the Free Software movement provides mostly free distributions.\n"
 msgstr ""
 
 #. type: Plain text
@@ -756,10 +705,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:202
-msgid ""
-"A free software is necessarily open-source, but the opposite is not true "
-"since open-source software is distinct from the freedom offered by the GPL "
-"license."
+#, no-wrap
+msgid "A free software is necessarily open-source, but the opposite is not true since open-source software is distinct from the freedom offered by the GPL license.\n"
 msgstr ""
 
 #. type: Title ####
@@ -770,48 +717,44 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:206
-msgid ""
-"The **GPL** guarantees the author of a software its intellectual property, "
-"but allows modification, redistribution or resale of software by third "
-"parties, provided that the source code is included with the software. The "
-"GPL is the license that came out of the **GNU** (GNU is Not UNIX) project, "
-"which was instrumental in creating Linux."
+#, no-wrap
+msgid "The **GPL** guarantees the author of a software its intellectual property, but allows modification, redistribution or resale of software by third parties, provided that the source code is included with the software. The GPL is the license that came out of the **GNU** (GNU is Not UNIX) project, which was instrumental in creating Linux.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:208
-msgid "It implies:"
+#, no-wrap
+msgid "It implies:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:213
-msgid "The freedom to run the program, for any purpose."
+#, no-wrap
+msgid "The freedom to run the program, for any purpose.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:213
-msgid "The freedom to study how the program works and adapt it to your needs."
+#, no-wrap
+msgid "The freedom to study how the program works and adapt it to your needs.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:213
-msgid "The freedom to redistribute copies."
+#, no-wrap
+msgid "The freedom to redistribute copies.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:213
-msgid ""
-"The freedom to improve the program, and publish those improvements for the "
-"benefit of the whole community."
+#, no-wrap
+msgid "The freedom to improve the program, and publish those improvements for the benefit of the whole community.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:215
-msgid ""
-"On the other hand, even products licensed under the GPL can have a cost. "
-"This is not for the product itself, but the **guarantee that a team of "
-"developers will continue to work on it to make it evolve and troubleshoot "
-"errors, or even provide support to users**."
+#, no-wrap
+msgid "On the other hand, even products licensed under the GPL can have a cost. This is not for the product itself, but the **guarantee that a team of developers will continue to work on it to make it evolve and troubleshoot errors, or even provide support to users**.\n"
 msgstr ""
 
 #. type: Title ##
@@ -822,35 +765,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:219
-msgid "A Linux distribution excels for:"
+#, no-wrap
+msgid "A Linux distribution excels for:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:224
-msgid "**Servers**: HTTP, email, groupware, file sharing, etc."
+#, no-wrap
+msgid "**Servers**: HTTP, email, groupware, file sharing, etc.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:224
-msgid "**Security**: Gateway, firewall, router, proxy, etc."
+#, no-wrap
+msgid "**Security**: Gateway, firewall, router, proxy, etc.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:224
-msgid "**Central computers**: Banks, insurance, industry, etc."
+#, no-wrap
+msgid "**Central computers**: Banks, insurance, industry, etc.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:224
-msgid "**Embedded systems**: Routers, Internet boxes, SmartTVs, etc."
+#, no-wrap
+msgid "**Embedded systems**: Routers, Internet boxes, SmartTVs, etc.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:226
-msgid ""
-"Linux is a suitable choice for hosting databases or websites, or as a mail "
-"server, DNS or firewall. In short, Linux can do just about anything, which "
-"explains the quantity of specific distributions."
+#, no-wrap
+msgid "Linux is a suitable choice for hosting databases or websites, or as a mail server, DNS or firewall. In short, Linux can do just about anything, which explains the quantity of specific distributions.\n"
 msgstr ""
 
 #. type: Title ##
@@ -876,43 +822,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:232
-msgid ""
-"The **shell**, known as _command interface_, allows users to send commands "
-"to the operating system. It is less visible today since the implementation "
-"of graphical interfaces, but remains a privileged means on Linux systems "
-"which do not all have graphical interfaces and whose services do not always "
-"have a setting interface."
+#, no-wrap
+msgid "The **shell**, known as _command interface_, allows users to send commands to the operating system. It is less visible today since the implementation of graphical interfaces, but remains a privileged means on Linux systems which do not all have graphical interfaces and whose services do not always have a setting interface.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:234
-msgid ""
-"It offers a real programming language including classical structures (loops, "
-"alternatives) and common constituents (variables, passing of parameters, and "
-"sub-programs). It allows the creation of scripts to automate certain actions "
-"(backups, creation of users, system monitoring, etc.)."
+#, no-wrap
+msgid "It offers a real programming language including classical structures (loops, alternatives) and common constituents (variables, passing of parameters, and sub-programs). It allows the creation of scripts to automate certain actions (backups, creation of users, system monitoring, etc.).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:236
-msgid ""
-"There are several types of shells available and configurable on a platform "
-"or according to the user's preference. A few examples include:"
+#, no-wrap
+msgid "There are several types of shells available and configurable on a platform or according to the user's preference. A few examples include:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:240
-msgid "sh, the POSIX standard shell"
+#, no-wrap
+msgid "sh, the POSIX standard shell\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:240
-msgid "csh, command-oriented shell in C"
+#, no-wrap
+msgid "csh, command-oriented shell in C\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:240
-msgid "bash, Bourne-Again Shell, Linux shell"
+#, no-wrap
+msgid "bash, Bourne-Again Shell, Linux shell\n"
 msgstr ""
 
 #. type: Title ###
@@ -923,31 +864,32 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:248
-msgid "Command execution (checks the command given and executes it)."
+#, no-wrap
+msgid "Command execution (checks the command given and executes it).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:248
-msgid ""
-"Input/Output redirection (returns data to a file instead of writing it on "
-"the screen)."
+#, no-wrap
+msgid "Input/Output redirection (returns data to a file instead of writing it on the screen).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:248
-msgid "Connection process (manages the user's connection)."
+#, no-wrap
+msgid "Connection process (manages the user's connection).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:248
-msgid "Interpreted programming language (allowing the creation of scripts)."
+#, no-wrap
+msgid "Interpreted programming language (allowing the creation of scripts).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/01-presentation.md:248
-msgid ""
-"Environment variables (access to information specific to the system during "
-"operation)."
+#, no-wrap
+msgid "Environment variables (access to information specific to the system during operation).\n"
 msgstr ""
 
 #. type: Title ###
@@ -958,7 +900,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:252
-msgid "![Operating principle of the SHELL](images/shell-principle.png)"
+#, no-wrap
+msgid "![Operating principle of the SHELL](images/shell-principle.png)\n"
 msgstr ""
 
 #. type: Title ##
@@ -970,9 +913,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:256
-msgid ""
-":heavy_check_mark: An operating system is a set of programs for managing the "
-"available resources of a computer:"
+#, no-wrap
+msgid ":heavy_check_mark: An operating system is a set of programs for managing the available resources of a computer:\n"
 msgstr ""
 
 #. type: Bullet: '- '
@@ -982,204 +924,247 @@ msgstr ""
 #: ../src/docs/books/learning_bash/08-check-your-knowledge.md:18
 #: ../src/docs/books/learning_bash/08-check-your-knowledge.md:23
 #: ../src/docs/books/learning_bash/08-check-your-knowledge.md:28
-msgid "[ ] True"
+#, no-wrap
+msgid "[ ] True   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:259
-#: ../src/docs/books/admin_guide/01-presentation.md:303
-#: ../src/docs/books/admin_guide/01-presentation.md:308
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:40
 #: ../src/docs/books/learning_bash/08-check-your-knowledge.md:18
 #: ../src/docs/books/learning_bash/08-check-your-knowledge.md:23
 #: ../src/docs/books/learning_bash/08-check-your-knowledge.md:28
-msgid "[ ] False"
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:54
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:77
+#, no-wrap
+msgid "[ ] False\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:261
-msgid ":heavy_check_mark: The operating system is necessary to:"
+#, no-wrap
+msgid ":heavy_check_mark: The operating system is necessary to:\n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:266
-msgid "[ ] Manage physical and virtual memory"
+#, no-wrap
+msgid "[ ] Manage physical and virtual memory   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:266
-msgid "[ ] Allow direct access to peripherals"
+#, no-wrap
+msgid "[ ] Allow direct access to peripherals   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:266
-msgid "[ ] Subcontract the management of tasks to the processor"
+#, no-wrap
+msgid "[ ] Subcontract the management of tasks to the processor   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:266
-msgid "[ ] Collect information about the programs used or in use"
+#, no-wrap
+msgid "[ ] Collect information about the programs used or in use   \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:268
-msgid ""
-":heavy_check_mark: Among these personalities, which ones participated in the "
-"development of UNIX:"
+#, no-wrap
+msgid ":heavy_check_mark: Among these personalities, which ones participated in the development of UNIX:\n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:274
-msgid "[ ] Linus Torvalds"
+#, no-wrap
+msgid "[ ] Linus Torvalds   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:274
-msgid "[ ] Ken Thompson"
+#, no-wrap
+msgid "[ ] Ken Thompson   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:274
-msgid "[ ] Lionel Richie"
+#, no-wrap
+msgid "[ ] Lionel Richie   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:274
-msgid "[ ] Brian Kernighan"
+#, no-wrap
+msgid "[ ] Brian Kernighan   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:274
-msgid "[ ] Andrew Stuart Tanenbaum"
+#, no-wrap
+msgid "[ ] Andrew Stuart Tanenbaum   \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:276
-msgid ""
-":heavy_check_mark: The original nationality of Linus Torvalds, creator of "
-"the Linux kernel, is:"
+#, no-wrap
+msgid ":heavy_check_mark: The original nationality of Linus Torvalds, creator of the Linux kernel, is:\n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:281
-msgid "[ ] Swedish"
+#, no-wrap
+msgid "[ ] Swedish   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:281
-msgid "[ ] Finnish"
+#, no-wrap
+msgid "[ ] Finnish   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:281
-msgid "[ ] Norwegian"
+#, no-wrap
+msgid "[ ] Norwegian   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:281
-msgid "[ ] Flemish"
+#, no-wrap
+msgid "[ ] Flemish   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:281
-msgid "[ ] French"
+#, no-wrap
+msgid "[ ] French  \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:284
-msgid ":heavy_check_mark: Which of the following distributions is the oldest:"
+#, no-wrap
+msgid ":heavy_check_mark: Which of the following distributions is the oldest:\n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:289
-msgid "[ ] Debian"
+#, no-wrap
+msgid "[ ] Debian   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:289
-msgid "[ ] Slackware"
+#, no-wrap
+msgid "[ ] Slackware   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:289
-msgid "[ ] Red Hat"
+#, no-wrap
+msgid "[ ] Red Hat   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:289
-msgid "[ ] Arch"
+#, no-wrap
+msgid "[ ] Arch\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:291
-msgid ":heavy_check_mark: Is the Linux kernel:"
+#, no-wrap
+msgid ":heavy_check_mark: Is the Linux kernel:\n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:298
-msgid "[ ] Multi-tasking"
+#, no-wrap
+msgid "[ ] Multi-tasking   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:298
-msgid "[ ] Multi-user"
+#, no-wrap
+msgid "[ ] Multi-user   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:298
-msgid "[ ] Multi-processor"
+#, no-wrap
+msgid "[ ] Multi-processor   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:298
-msgid "[ ] Multi-core"
+#, no-wrap
+msgid "[ ] Multi-core   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:298
-msgid "[ ] Cross-platform"
+#, no-wrap
+msgid "[ ] Cross-platform   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:298
-msgid "[ ] Open"
+#, no-wrap
+msgid "[ ] Open   \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:300
-msgid ":heavy_check_mark: Is free software necessarily open-source?"
+#, no-wrap
+msgid ":heavy_check_mark: Is free software necessarily open-source?\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/admin_guide/01-presentation.md:303
+#: ../src/docs/books/admin_guide/01-presentation.md:308
+#, no-wrap
+msgid "[ ] False   \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:305
-msgid ":heavy_check_mark: Is open-source software necessarily free?"
+#, no-wrap
+msgid ":heavy_check_mark: Is open-source software necessarily free?\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:310
-msgid ":heavy_check_mark: Which of the following is not a shell:"
+#, no-wrap
+msgid ":heavy_check_mark: Which of the following is not a shell:\n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:315
-msgid "[ ] Jason"
+#, no-wrap
+msgid "[ ] Jason   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:315
-msgid "[ ] Jason-Bourne shell (jbsh)"
+#, no-wrap
+msgid "[ ] Jason-Bourne shell (jbsh)   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:315
-msgid "[ ] Bourne-Again shell (bash)"
+#, no-wrap
+msgid "[ ] Bourne-Again shell (bash)   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:315
-msgid "[ ] C shell (csh)"
+#, no-wrap
+msgid "[ ] C shell (csh)   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/01-presentation.md:315
-msgid "[ ] Korn shell (ksh)"
+#, no-wrap
+msgid "[ ] Korn shell (ksh)   \n"
 msgstr ""

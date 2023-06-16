@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -177,7 +177,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -204,7 +203,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Plain text
@@ -233,7 +233,8 @@ msgstr ""
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:125
 #: ../src/docs/guides/security/learning_selinux.md:289
 #: ../src/docs/guides/security/pam.md:287
-msgid "Examples:"
+#, no-wrap
+msgid "Examples:\n"
 msgstr ""
 
 #. type: Plain text
@@ -344,7 +345,8 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:394
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:154
 #: ../src/docs/guides/web/php.md:255
-msgid "Example:"
+#, no-wrap
+msgid "Example:\n"
 msgstr ""
 
 #. type: Plain text
@@ -392,7 +394,8 @@ msgstr ""
 #: ../src/docs/guides/8_6_installation.md:133
 #: ../src/docs/guides/installation.md:66 ../src/docs/guides/installation.md:138
 #: ../src/docs/guides/virtualization/vbox-rocky.md:123
-msgid "!!! Tip"
+#, no-wrap
+msgid "!!! Tip\n"
 msgstr ""
 
 #. type: Plain text
@@ -448,7 +451,8 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:243
 #: ../src/docs/guides/security/learning_selinux.md:263
 #: ../src/docs/guides/web/php.md:145
-msgid "!!! Warning"
+#, no-wrap
+msgid "!!! Warning\n"
 msgstr ""
 
 #. type: Plain text
@@ -490,7 +494,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:8
-msgid "In this chapter you will learn how to work with and manage the network."
+#, no-wrap
+msgid "In this chapter you will learn how to work with and manage the network.\n"
 msgstr ""
 
 #. type: Plain text
@@ -511,136 +516,146 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:20
-msgid ":checkered_flag: **network**, **linux**, **ip**"
+#, no-wrap
+msgid ":checkered_flag: **network**, **linux**, **ip**\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:31
-msgid "To illustrate this chapter, we will use the following architecture."
+#, no-wrap
+msgid "To illustrate this chapter, we will use the following architecture.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:33
-msgid "![Illustration of our network architecture](images/network-001.png)"
+#, no-wrap
+msgid "![Illustration of our network architecture](images/network-001.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:35
-msgid "It will allow us to consider:"
+#, no-wrap
+msgid "It will allow us to consider:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:39
-msgid "integration in a LAN (local area network);"
+#, no-wrap
+msgid "integration in a LAN (local area network);\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:39
-msgid "the configuration of a gateway to reach a remote server;"
+#, no-wrap
+msgid "the configuration of a gateway to reach a remote server;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:39
-msgid ""
-"the configuration of a DNS server and the implementation of name resolution."
+#, no-wrap
+msgid "the configuration of a DNS server and the implementation of name resolution.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:41
-msgid "The minimum parameters to be defined for the machine are:"
+#, no-wrap
+msgid "The minimum parameters to be defined for the machine are:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:45
-msgid "the name of the machine;"
+#, no-wrap
+msgid "the name of the machine;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:45
-msgid "the IP address;"
+#, no-wrap
+msgid "the IP address;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:45
-msgid "the subnet mask."
+#, no-wrap
+msgid "the subnet mask.\n"
 msgstr ""
 
 #. type: Bullet: '*   '
 #: ../src/docs/books/admin_guide/12-network.md:51
-msgid "`pc-rocky`;"
+#, no-wrap
+msgid "`pc-rocky`;\n"
 msgstr ""
 
 #. type: Bullet: '*   '
 #: ../src/docs/books/admin_guide/12-network.md:51
-msgid "`192.168.1.10`;"
+#, no-wrap
+msgid "`192.168.1.10`;\n"
 msgstr ""
 
 #. type: Bullet: '*   '
 #: ../src/docs/books/admin_guide/12-network.md:51
-msgid "`255.255.255.0`."
+#, no-wrap
+msgid "`255.255.255.0`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:53
-msgid "The notation called CIDR is more and more frequent: 192.168.1.10/24"
+#, no-wrap
+msgid "The notation called CIDR is more and more frequent: 192.168.1.10/24\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:55
-msgid ""
-"IP addresses are used for the proper routing of messages (packets). They are "
-"divided into two parts:"
+#, no-wrap
+msgid "IP addresses are used for the proper routing of messages (packets). They are divided into two parts:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:58
-msgid "the fixed part, identifying the network;"
+#, no-wrap
+msgid "the fixed part, identifying the network;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:58
-msgid "the identifier of the host in the network."
+#, no-wrap
+msgid "the identifier of the host in the network.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:60
-msgid "The subnet mask is a set of **4 bytes** intended to isolate:"
+#, no-wrap
+msgid "The subnet mask is a set of **4 bytes** intended to isolate:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:63
-msgid ""
-"the network address (**NetID** or **SubnetID**) by performing a bitwise "
-"logical AND between the IP address and the mask;"
+#, no-wrap
+msgid "the network address (**NetID** or **SubnetID**) by performing a bitwise logical AND between the IP address and the mask;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:63
-msgid ""
-"the host address (**HostID**) by performing a bitwise logical AND between "
-"the IP address and the complement of the mask."
+#, no-wrap
+msgid "the host address (**HostID**) by performing a bitwise logical AND between the IP address and the complement of the mask.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:65
-msgid ""
-"There are also specific addresses within a network, which must be "
-"identified. The first address of a range as well as the last one have a "
-"particular role:"
+#, no-wrap
+msgid "There are also specific addresses within a network, which must be identified. The first address of a range as well as the last one have a particular role:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:67
-msgid ""
-"The first address of a range is the **network address**. It is used to "
-"identify networks and to route information from one network to another."
+#, no-wrap
+msgid "The first address of a range is the **network address**. It is used to identify networks and to route information from one network to another.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:69
-msgid ""
-"The last address of a range is the **broadcast address**. It is used to "
-"broadcast information to all the machines on the network."
+#, no-wrap
+msgid "The last address of a range is the **broadcast address**. It is used to broadcast information to all the machines on the network.\n"
 msgstr ""
 
 #. type: Title ###
@@ -651,12 +666,10 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:74
+#, no-wrap
 msgid ""
-"A **MAC address** is a physical identifier written in the factory onto the "
-"device. This is sometimes referred to as the hardware address. It consists "
-"of 6 bytes often given in hexadecimal form (for example 5E:FF:56:A2:AF:15).  "
-"It is composed of: 3 bytes of the manufacturer identifier and 3 bytes of the "
-"serial number."
+"A **MAC address** is a physical identifier written in the factory onto the device. This is sometimes referred to as the hardware address. It consists of 6 bytes often given in hexadecimal form (for example 5E:FF:56:A2:AF:15).\n"
+"It is composed of: 3 bytes of the manufacturer identifier and 3 bytes of the serial number.\n"
 msgstr ""
 
 #. type: Plain text
@@ -667,50 +680,40 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:81
+#, no-wrap
 msgid ""
-"An Internet Protocol (**IP**) address is an identification number "
-"permanently or temporarily assigned to each device connected to a computer "
-"network using the Internet Protocol.  One part defines the network address "
-"(NetID or SubnetID as the case may be), the other part defines the address "
-"of the host in the network (HostID). The relative size of each part varies "
-"according to the network (sub)mask."
+"An Internet Protocol (**IP**) address is an identification number permanently or temporarily assigned to each device connected to a computer network using the Internet Protocol.\n"
+"One part defines the network address (NetID or SubnetID as the case may be), the other part defines the address of the host in the network (HostID). The relative size of each part varies according to the network (sub)mask.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:83
-msgid ""
-"An IPv4 address defines an address on 4 bytes. The number of available "
-"addresses being close to saturation a new standard was created, the IPv6 "
-"defined on 16 bytes."
+#, no-wrap
+msgid "An IPv4 address defines an address on 4 bytes. The number of available addresses being close to saturation a new standard was created, the IPv6 defined on 16 bytes.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:85
-msgid ""
-"IPv6 is often represented by 8 groups of 2 bytes separated by a colon. "
-"Insignificant zeros can be omitted, one or more groups of 4 consecutive "
-"zeros can be replaced by a double colon."
+#, no-wrap
+msgid "IPv6 is often represented by 8 groups of 2 bytes separated by a colon. Insignificant zeros can be omitted, one or more groups of 4 consecutive zeros can be replaced by a double colon.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:87
-msgid ""
-"Subnet masks have from 0 to 128 bits. (for example "
-"21ac:0000:0000:0611:21e0:00ba:321b:54da/64 or 21ac::611:21e0:ba:321b:54da/64)"
+#, no-wrap
+msgid "Subnet masks have from 0 to 128 bits. (for example 21ac:0000:0000:0611:21e0:00ba:321b:54da/64 or 21ac::611:21e0:ba:321b:54da/64)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:89
-msgid ""
-"In a web address or URL (Uniform Resource Locator), an ip address can be "
-"followed by a colon and the port address (which indicates the application to "
-"which the data is destined). Also to avoid confusion in a URL, the IPv6 "
-"address is written in square brackets [ ], colon, port address."
+#, no-wrap
+msgid "In a web address or URL (Uniform Resource Locator), an ip address can be followed by a colon and the port address (which indicates the application to which the data is destined). Also to avoid confusion in a URL, the IPv6 address is written in square brackets [ ], colon, port address.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:91
-msgid "IP and MAC addresses must be unique on a network!"
+#, no-wrap
+msgid "IP and MAC addresses must be unique on a network!\n"
 msgstr ""
 
 #. type: Title ###
@@ -721,30 +724,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:95
-msgid ""
-"Client machines can be part of a DNS (**Domain Name System**, e.g., "
-"`mydomain.lan`) domain."
+#, no-wrap
+msgid "Client machines can be part of a DNS (**Domain Name System**, e.g., `mydomain.lan`) domain.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:97
-msgid ""
-"The fully qualified machine name (**FQDN**) becomes `pc-rocky.mydomain.lan`."
+#, no-wrap
+msgid "The fully qualified machine name (**FQDN**) becomes `pc-rocky.mydomain.lan`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:99
-msgid ""
-"A set of computers can be grouped into a logical, name-resolving, set called "
-"a DNS domain. A DNS domain is not, of course, limited to a single physical "
-"network."
+#, no-wrap
+msgid "A set of computers can be grouped into a logical, name-resolving, set called a DNS domain. A DNS domain is not, of course, limited to a single physical network.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:101
-msgid ""
-"In order for a computer to be part of a DNS domain, it must be given a DNS "
-"suffix (here `mydomain.lan`) as well as servers that it can query."
+#, no-wrap
+msgid "In order for a computer to be part of a DNS domain, it must be given a DNS suffix (here `mydomain.lan`) as well as servers that it can query.\n"
 msgstr ""
 
 #. type: Title ###
@@ -755,7 +754,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:105
-msgid "!!! Note \"Memory aid\""
+#, no-wrap
+msgid "!!! Note \"Memory aid\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -848,39 +848,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:145
-msgid ""
-"The Linux kernel assigns interface names with a specific prefix depending on "
-"the type. Traditionally, all **Ethernet** interfaces, for example, began "
-"with **eth**. The prefix was followed by a number, the first being 0 (eth0, "
-"eth1, eth2...). The wifi interfaces were given a wlan prefix."
+#, no-wrap
+msgid "The Linux kernel assigns interface names with a specific prefix depending on the type. Traditionally, all **Ethernet** interfaces, for example, began with **eth**. The prefix was followed by a number, the first being 0 (eth0, eth1, eth2...). The wifi interfaces were given a wlan prefix.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:147
-msgid ""
-"On Rocky8 Linux distributions, systemd will name interfaces with the new "
-"following policy where \"X\" represents a number:"
+#, no-wrap
+msgid "On Rocky8 Linux distributions, systemd will name interfaces with the new following policy where \"X\" represents a number:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:152
-msgid "`enoX`: on-board devices"
+#, no-wrap
+msgid "`enoX`:  on-board devices\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:152
-msgid "`ensX`: PCI Express hotplug slot"
+#, no-wrap
+msgid "`ensX`: PCI Express hotplug slot\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:152
-msgid ""
-"`enpXsX`: physical/geographical location of the connector of the hardware"
+#, no-wrap
+msgid "`enpXsX`: physical/geographical location of the connector of the hardware\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:152
-msgid "..."
+#, no-wrap
+msgid "...\n"
 msgstr ""
 
 #. type: Title ##
@@ -891,7 +890,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:156
-msgid "Forget the old `ifconfig` command! Think `ip`!"
+#, no-wrap
+msgid "Forget the old `ifconfig` command! Think `ip`!\n"
 msgstr ""
 
 #. type: Plain text
@@ -932,7 +932,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:172
-msgid "The `hostname` command displays or sets the host name of the system"
+#, no-wrap
+msgid "The `hostname` command displays or sets the host name of the system\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -959,16 +960,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:187
-msgid ""
-"To assign a host name, it is possible to use the `hostname` command, but the "
-"changes will not be retained at the next boot. The command with no arguments "
-"displays the host name."
+#, no-wrap
+msgid "To assign a host name, it is possible to use the `hostname` command, but the changes will not be retained at the next boot. The command with no arguments displays the host name.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:189
-msgid ""
-"To set the host name, the file `/etc/sysconfig/network` must be modified:"
+#, no-wrap
+msgid "To set the host name, the file `/etc/sysconfig/network` must be modified:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -981,30 +980,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:196
-msgid ""
-"The RedHat boot script also consults the `/etc/hosts` file to resolve the "
-"host name of the system."
+#, no-wrap
+msgid "The RedHat boot script also consults the `/etc/hosts` file to resolve the host name of the system.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:198
-msgid ""
-"When the system boots, Linux evaluates the `HOSTNAME` value in the `/etc/"
-"sysconfig/network` file."
+#, no-wrap
+msgid "When the system boots, Linux evaluates the `HOSTNAME` value in the `/etc/sysconfig/network` file.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:200
-msgid ""
-"It then uses the `/etc/hosts` file to evaluate the main IP address of the "
-"server and its host name. It deduces the DNS domain name."
+#, no-wrap
+msgid "It then uses the `/etc/hosts` file to evaluate the main IP address of the server and its host name. It deduces the DNS domain name.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:202
-msgid ""
-"It is therefore essential to fill in these two files before any "
-"configuration of network services."
+#, no-wrap
+msgid "It is therefore essential to fill in these two files before any configuration of network services.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1021,9 +1016,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:210
-msgid ""
-"The `/etc/hosts` file is a static host name mapping table, which follows the "
-"following format:"
+#, no-wrap
+msgid "The `/etc/hosts` file is a static host name mapping table, which follows the following format:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1034,7 +1028,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:216
-msgid "Example of `/etc/hosts` file:"
+#, no-wrap
+msgid "Example of `/etc/hosts` file:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1048,9 +1043,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:224
-msgid ""
-"The `/etc/hosts` file is still used by the system, especially at boot time "
-"when the system FQDN is determined."
+#, no-wrap
+msgid "The `/etc/hosts` file is still used by the system, especially at boot time when the system FQDN is determined.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1061,17 +1055,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:230
-msgid ""
-"If the **DNS** service (**D**omain **N**ame **S**ervice) is not in place, "
-"you must fill in all the names in the hosts file for each of your machines."
+#, no-wrap
+msgid "If the **DNS** service (**D**omain **N**ame **S**ervice) is not in place, you must fill in all the names in the hosts file for each of your machines.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:232
-msgid ""
-"The `/etc/hosts` file contains one line per entry, with the IP address, the "
-"FQDN, then the host name (in that order) and a series of aliases (alias1 "
-"alias2 ...). The alias is an option."
+#, no-wrap
+msgid "The `/etc/hosts` file contains one line per entry, with the IP address, the FQDN, then the host name (in that order) and a series of aliases (alias1 alias2 ...). The alias is an option.\n"
 msgstr ""
 
 #. type: Title ##
@@ -1082,17 +1073,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:236
-msgid ""
-"The **NSS** (**N**ame **S**ervice **S**witch) allows configuration files (e."
-"g., `/etc/passwd`, `/etc/group`, `/etc/hosts`) to be substituted for one or "
-"more centralized databases."
+#, no-wrap
+msgid "The **NSS** (**N**ame **S**ervice **S**witch) allows configuration files (e.g., `/etc/passwd`, `/etc/group`, `/etc/hosts`) to be substituted for one or more centralized databases.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:238
-msgid ""
-"The `/etc/nsswitch.conf` file is used to configure the name service "
-"databases."
+#, no-wrap
+msgid "The `/etc/nsswitch.conf` file is used to configure the name service databases.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1108,25 +1096,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:248
-msgid ""
-"In this case, Linux will first look for a host name match (`hosts:` line) in "
-"the `/etc/hosts` file (`files` value) before querying DNS (`dns` value)! "
-"This behavior can simply be changed by editing the `/etc/nsswitch.conf` file."
+#, no-wrap
+msgid "In this case, Linux will first look for a host name match (`hosts:` line) in the `/etc/hosts` file (`files` value) before querying DNS (`dns` value)! This behavior can simply be changed by editing the `/etc/nsswitch.conf` file.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:250
-msgid ""
-"Of course, it is possible to imagine querying an LDAP, MySQL or other server "
-"by configuring the name service to respond to system requests for hosts, "
-"users, groups, etc."
+#, no-wrap
+msgid "Of course, it is possible to imagine querying an LDAP, MySQL or other server by configuring the name service to respond to system requests for hosts, users, groups, etc.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:252
-msgid ""
-"The resolution of the name service can be tested with the `getent` command "
-"that we will see later in this course."
+#, no-wrap
+msgid "The resolution of the name service can be tested with the `getent` command that we will see later in this course.\n"
 msgstr ""
 
 #. type: Title ##
@@ -1137,8 +1120,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:256
-msgid ""
-"The `/etc/resolv.conf` file contains the DNS name resolution configuration."
+#, no-wrap
+msgid "The `/etc/resolv.conf` file contains the DNS name resolution configuration.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1159,19 +1142,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:269
-msgid ""
-"Newer generations of distributions have generally integrated the "
-"`NetworkManager` service. This service allows you to manage the "
-"configuration more efficiently, either in graphical or console mode."
+#, no-wrap
+msgid "Newer generations of distributions have generally integrated the `NetworkManager` service. This service allows you to manage the configuration more efficiently, either in graphical or console mode.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:271
-msgid ""
-"It allows for the addition of DNS servers from the configuration file of a "
-"network interface. It then dynamically populates the `/etc/resolv.conf` file "
-"which should never be edited directly, otherwise the configuration changes "
-"will be lost the next time the network service is started."
+#, no-wrap
+msgid "It allows for the addition of DNS servers from the configuration file of a network interface. It then dynamically populates the `/etc/resolv.conf` file which should never be edited directly, otherwise the configuration changes will be lost the next time the network service is started.\n"
 msgstr ""
 
 #. type: Title ##
@@ -1182,14 +1160,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:275
-msgid ""
-"The `ip` command from the `iproute2` package allows you to configure an "
-"interface and its routing table."
+#, no-wrap
+msgid "The `ip` command from the `iproute2` package allows you to configure an interface and its routing table.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:277
-msgid "Display interfaces:"
+#, no-wrap
+msgid "Display interfaces:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1200,7 +1178,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:283
-msgid "Display interfaces information:"
+#, no-wrap
+msgid "Display interfaces information:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1211,7 +1190,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:289
-msgid "Display the information of an interface:"
+#, no-wrap
+msgid "Display the information of an interface:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1222,7 +1202,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:295
-msgid "Display the ARP table:"
+#, no-wrap
+msgid "Display the ARP table:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1233,9 +1214,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:301
-msgid ""
-"All historical network management commands have been grouped under the `ip` "
-"command, which is well known to network administrators."
+#, no-wrap
+msgid "All historical network management commands have been grouped under the `ip` command, which is well known to network administrators.\n"
 msgstr ""
 
 #. type: Title ##
@@ -1246,26 +1226,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:305
-msgid ""
-"The **DHCP** protocol (**D**ynamic **H**ost **C**ontrol **P**rotocol) allows "
-"you to obtain a complete IP configuration via the network. This is the "
-"default configuration mode of a network interface under Rocky Linux, which "
-"explains why a system connected to the network of an Internet router can "
-"function without additional configuration."
+#, no-wrap
+msgid "The **DHCP** protocol (**D**ynamic **H**ost **C**ontrol **P**rotocol) allows you to obtain a complete IP configuration via the network. This is the default configuration mode of a network interface under Rocky Linux, which explains why a system connected to the network of an Internet router can function without additional configuration.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:307
-msgid ""
-"The configuration of interfaces under Rocky Linux is done in the `/etc/"
-"sysconfig/network-scripts/` folder."
+#, no-wrap
+msgid "The configuration of interfaces under Rocky Linux is done in the `/etc/sysconfig/network-scripts/` folder.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:309
-msgid ""
-"For each Ethernet interface, a `ifcfg-ethX` file allows for the "
-"configuration of the associated interface."
+#, no-wrap
+msgid "For each Ethernet interface, a `ifcfg-ethX` file allows for the configuration of the associated interface.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1280,7 +1254,8 @@ msgstr ""
 
 #. type: Bullet: '*  '
 #: ../src/docs/books/admin_guide/12-network.md:318
-msgid "Interface name: (must be in the file name)"
+#, no-wrap
+msgid "Interface name: (must be in the file name)\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1291,7 +1266,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:324
-msgid "Automatically start the interface:"
+#, no-wrap
+msgid "Automatically start the interface:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1302,7 +1278,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:330
-msgid "Make a DHCP request when the interface starts up:"
+#, no-wrap
+msgid "Make a DHCP request when the interface starts up:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1313,9 +1290,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:336
-msgid ""
-"Specify the MAC address (optional but useful when there are several "
-"interfaces):"
+#, no-wrap
+msgid "Specify the MAC address (optional but useful when there are several interfaces):\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1332,7 +1308,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:346
-msgid "Restart the network service:"
+#, no-wrap
+msgid "Restart the network service:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1349,7 +1326,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:354
-msgid "The static configuration requires at least:"
+#, no-wrap
+msgid "The static configuration requires at least:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1365,9 +1343,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:364
-msgid ""
-"Here we are replacing \"dhcp\" with \"none\" which equals static "
-"configuration:"
+#, no-wrap
+msgid "Here we are replacing \"dhcp\" with \"none\" which equals static configuration:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1378,7 +1355,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:370
-msgid "IP Address:"
+#, no-wrap
+msgid "IP Address:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1389,7 +1367,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:376
-msgid "Subnet mask:"
+#, no-wrap
+msgid "Subnet mask:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1400,7 +1379,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:382
-msgid "The mask can be specified with a prefix:"
+#, no-wrap
+msgid "The mask can be specified with a prefix:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1423,7 +1403,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:394
-msgid "![Network architecture with a gateway](images/network-002.png)"
+#, no-wrap
+msgid "![Network architecture with a gateway](images/network-002.png)\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1441,7 +1422,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:406
-msgid "The `ip route` command:"
+#, no-wrap
+msgid "The `ip route` command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1455,26 +1437,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:414
-msgid ""
-"It is a good idea to know how to read a routing table, especially in an "
-"environment with multiple network interfaces."
+#, no-wrap
+msgid "It is a good idea to know how to read a routing table, especially in an environment with multiple network interfaces.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:416
-msgid ""
-"In the example shown, the `192.168.1.0/24` network is reachable directly "
-"from the `eth0` device, so there is a metric at `1` (does not traverse a "
-"router)."
+#, no-wrap
+msgid "In the example shown, the `192.168.1.0/24` network is reachable directly from the `eth0` device, so there is a metric at `1` (does not traverse a router).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:418
-msgid ""
-"All other networks than the previous one will be reachable, again from the "
-"`eth0` device, but this time the packets will be addressed to a "
-"`192.168.1.254` gateway. The routing protocol is a static protocol (although "
-"it is possible to add a route to a dynamically assigned address in Linux)."
+#, no-wrap
+msgid "All other networks than the previous one will be reachable, again from the `eth0` device, but this time the packets will be addressed to a `192.168.1.254` gateway. The routing protocol is a static protocol (although it is possible to add a route to a dynamically assigned address in Linux).\n"
 msgstr ""
 
 #. type: Title ##
@@ -1486,12 +1462,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:422
-msgid "A system needs to resolve:"
+#, no-wrap
+msgid "A system needs to resolve:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:424
-msgid "FQDNs into IP addresses"
+#, no-wrap
+msgid "FQDNs into IP addresses\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1502,7 +1480,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:430
-msgid "IP addresses into names"
+#, no-wrap
+msgid "IP addresses into names\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1513,7 +1492,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/12-network.md:436
-msgid "or to obtain information about an area:"
+#, no-wrap
+msgid "or to obtain information about an area:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1540,7 +1520,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:455
-msgid "In this case, to reach the DNS, you have to go through the gateway."
+#, no-wrap
+msgid "In this case, to reach the DNS, you have to go through the gateway.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1556,7 +1537,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:465
-msgid "The file has been updated by NetworkManager."
+#, no-wrap
+msgid "The file has been updated by NetworkManager.\n"
 msgstr ""
 
 #. type: Title ##
@@ -1568,21 +1550,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:469
-msgid ""
-"The `ping` command sends datagrams to another machine and waits for a "
-"response."
+#, no-wrap
+msgid "The `ping` command sends datagrams to another machine and waits for a response.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:471
-msgid ""
-"It is the basic command for testing the network because it checks the "
-"connectivity between your network interface and another."
+#, no-wrap
+msgid "It is the basic command for testing the network because it checks the connectivity between your network interface and another.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:473
-msgid "Syntax of the `ping` command:"
+#, no-wrap
+msgid "Syntax of the `ping` command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1593,9 +1574,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:479
-msgid ""
-"The `-c` (count) option allows you to stop the command after the countdown "
-"in seconds."
+#, no-wrap
+msgid "The `-c` (count) option allows you to stop the command after the countdown in seconds.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1612,7 +1592,8 @@ msgstr ""
 
 #. type: Bullet: '1) '
 #: ../src/docs/books/admin_guide/12-network.md:491
-msgid "Validate the TCP/IP software layer"
+#, no-wrap
+msgid "Validate the TCP/IP software layer\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1623,15 +1604,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:497
-msgid ""
-"\"Pinging\" the inner loop does not detect a hardware failure on the network "
-"interface. It simply determines whether the IP software configuration is "
-"correct."
+#, no-wrap
+msgid "\"Pinging\" the inner loop does not detect a hardware failure on the network interface. It simply determines whether the IP software configuration is correct.\n"
 msgstr ""
 
 #. type: Bullet: '2) '
 #: ../src/docs/books/admin_guide/12-network.md:499
-msgid "Validate the network card"
+#, no-wrap
+msgid "Validate the network card\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1642,23 +1622,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:505
-msgid ""
-"To determine that the network card is functional, we must now ping its IP "
-"address. The network card, if the network cable is not connected, should be "
-"in a \"down\" state."
+#, no-wrap
+msgid "To determine that the network card is functional, we must now ping its IP address. The network card, if the network cable is not connected, should be in a \"down\" state.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:507
-msgid ""
-"If the ping does not work, first check the network cable to your network "
-"switch and reassemble the interface (see the `if up` command), then check "
-"the interface itself."
+#, no-wrap
+msgid "If the ping does not work, first check the network cable to your network switch and reassemble the interface (see the `if up` command), then check the interface itself.\n"
 msgstr ""
 
 #. type: Bullet: '3) '
 #: ../src/docs/books/admin_guide/12-network.md:509
-msgid "Validate the connectivity of the gateway"
+#, no-wrap
+msgid "Validate the connectivity of the gateway\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1669,7 +1646,8 @@ msgstr ""
 
 #. type: Bullet: '4) '
 #: ../src/docs/books/admin_guide/12-network.md:515
-msgid "Validate the connectivity of a remote server"
+#, no-wrap
+msgid "Validate the connectivity of a remote server\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1680,7 +1658,8 @@ msgstr ""
 
 #. type: Bullet: '5) '
 #: ../src/docs/books/admin_guide/12-network.md:521
-msgid "Validate the DNS service"
+#, no-wrap
+msgid "Validate the DNS service\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1697,12 +1676,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:529
-msgid "The `dig` command is used to query the DNS server."
+#, no-wrap
+msgid "The `dig` command is used to query the DNS server.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:531
-msgid "The `dig` command syntax:"
+#, no-wrap
+msgid "The `dig` command syntax:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1724,16 +1705,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:547
-msgid ""
-"The `dig` command is used to query DNS servers. It is very verbose by "
-"default, but this behavior can be changed with the `+short` option."
+#, no-wrap
+msgid "The `dig` command is used to query DNS servers. It is very verbose by default, but this behavior can be changed with the `+short` option.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:549
-msgid ""
-"It is also possible to specify a DNS **record type** to resolve, such as an "
-"MX **type** to get information about the mail exchangers for a domain."
+#, no-wrap
+msgid "It is also possible to specify a DNS **record type** to resolve, such as an MX **type** to get information about the mail exchangers for a domain.\n"
 msgstr ""
 
 #. type: Title ###
@@ -1744,14 +1723,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:553
-msgid ""
-"The `getent` (get entry) command is used to get an NSSwitch entry (`hosts` + "
-"`dns`)"
+#, no-wrap
+msgid "The `getent` (get entry) command is used to get an NSSwitch entry (`hosts` + `dns`)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:555
-msgid "Syntax of the `getent` command:"
+#, no-wrap
+msgid "Syntax of the `getent` command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1770,17 +1749,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:569
-msgid ""
-"Querying only a DNS server may return an erroneous result that does not take "
-"into account the contents of a `hosts` file, although this should be rare "
-"nowadays."
+#, no-wrap
+msgid "Querying only a DNS server may return an erroneous result that does not take into account the contents of a `hosts` file, although this should be rare nowadays.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:571
-msgid ""
-"To take the `/etc/hosts` file into account as well, the NSSwitch name "
-"service must be queried, which will take care of any DNS resolution."
+#, no-wrap
+msgid "To take the `/etc/hosts` file into account as well, the NSSwitch name service must be queried, which will take care of any DNS resolution.\n"
 msgstr ""
 
 #. type: Title ###
@@ -1791,14 +1767,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:575
-msgid ""
-"The `ipcalc` (**ip calculation**) command is used to calculate the address "
-"of a network or broadcast from an IP address and a mask."
+#, no-wrap
+msgid "The `ipcalc` (**ip calculation**) command is used to calculate the address of a network or broadcast from an IP address and a mask.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:577
-msgid "Syntax of the `ipcalc` command:"
+#, no-wrap
+msgid "Syntax of the `ipcalc` command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1842,12 +1818,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:603
-msgid ""
-"`ipcalc` is a simple way to calculate the IP information of a host. The "
-"various options indicate what information `ipcalc` should display on the "
-"standard output. Multiple options can be specified. An IP address on which "
-"to operate must be specified. Most operations also require a network mask or "
-"CIDR prefix."
+#, no-wrap
+msgid "`ipcalc` is a simple way to calculate the IP information of a host. The various options indicate what information `ipcalc` should display on the standard output. Multiple options can be specified. An IP address on which to operate must be specified. Most operations also require a network mask or CIDR prefix.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1872,14 +1844,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:616
-msgid ""
-"The `ss` (**socket statistics**) command displays the listening ports on the "
-"network."
+#, no-wrap
+msgid "The `ss` (**socket statistics**) command displays the listening ports on the network.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:618
-msgid "Syntax of the `ss` command:"
+#, no-wrap
+msgid "Syntax of the `ss` command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1898,16 +1870,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:631
-msgid ""
-"The commands `ss` and `netstat` (to follow) will be very important for the "
-"rest of your Linux life."
+#, no-wrap
+msgid "The commands `ss` and `netstat` (to follow) will be very important for the rest of your Linux life.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:633
-msgid ""
-"When implementing network services, it is very common to check with one of "
-"these two commands that the service is listening on the expected ports."
+#, no-wrap
+msgid "When implementing network services, it is very common to check with one of these two commands that the service is listening on the expected ports.\n"
 msgstr ""
 
 #. type: Title ###
@@ -1924,14 +1894,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:641
-msgid ""
-"The `netstat` command (**network statistics**) displays the listening ports "
-"on the network."
+#, no-wrap
+msgid "The `netstat` command (**network statistics**) displays the listening ports on the network.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:643
-msgid "Syntax of the `netstat` command:"
+#, no-wrap
+msgid "Syntax of the `netstat` command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1956,18 +1926,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:658
-msgid ""
-"A misconfiguration can cause multiple interfaces to use the same IP address. "
-"This can happen when a network has multiple DHCP servers or when the same IP "
-"address is manually assigned multiple times."
+#, no-wrap
+msgid "A misconfiguration can cause multiple interfaces to use the same IP address. This can happen when a network has multiple DHCP servers or when the same IP address is manually assigned multiple times.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:660
-msgid ""
-"When the network is malfunctioning, and when an IP address conflict could be "
-"the cause, it is possible to use the `arp-scan` software (requires the EPEL "
-"repository):"
+#, no-wrap
+msgid "When the network is malfunctioning, and when an IP address conflict could be the cause, it is possible to use the `arp-scan` software (requires the EPEL repository):\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2007,7 +1973,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:688
-msgid "The `ip` command can hot add an IP address to an interface"
+#, no-wrap
+msgid "The `ip` command can hot add an IP address to an interface\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2024,8 +1991,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:700
-msgid ""
-"The `ip` command allows for the activation or deactivation of an interface:"
+#, no-wrap
+msgid "The `ip` command allows for the activation or deactivation of an interface:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2046,7 +2013,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:714
-msgid "The `ip` command is used to add a route:"
+#, no-wrap
+msgid "The `ip` command is used to add a route:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2072,21 +2040,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:729
-msgid "The files used in this chapter are:"
+#, no-wrap
+msgid "The files used in this chapter are:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:731
-msgid ""
-"![Synthesis of the files implemented in the network part](images/network-003."
-"png)"
+#, no-wrap
+msgid "![Synthesis of the files implemented in the network part](images/network-003.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:733
-msgid ""
-"A complete interface configuration could be this (file `/etc/sysconfig/"
-"network-scripts/ifcfg-eth0`):"
+#, no-wrap
+msgid "A complete interface configuration could be this (file `/etc/sysconfig/network-scripts/ifcfg-eth0`):\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2107,36 +2074,42 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:748
-msgid "The troubleshooting method should go from closest to farthest:"
+#, no-wrap
+msgid "The troubleshooting method should go from closest to farthest:\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/books/admin_guide/12-network.md:754
-msgid "ping localhost (software test)"
+#, no-wrap
+msgid "ping localhost (software test)\n"
 msgstr ""
 
 #. type: Bullet: '2. '
 #: ../src/docs/books/admin_guide/12-network.md:754
-msgid "ping IP-address (hardware test)"
+#, no-wrap
+msgid "ping IP-address (hardware test)\n"
 msgstr ""
 
 #. type: Bullet: '3. '
 #: ../src/docs/books/admin_guide/12-network.md:754
-msgid "ping gateway (connectivity test)"
+#, no-wrap
+msgid "ping gateway (connectivity test)\n"
 msgstr ""
 
 #. type: Bullet: '4. '
 #: ../src/docs/books/admin_guide/12-network.md:754
-msgid "ping remote server (routing test)"
+#, no-wrap
+msgid "ping remote server (routing test)\n"
 msgstr ""
 
 #. type: Bullet: '5. '
 #: ../src/docs/books/admin_guide/12-network.md:754
-msgid "DNS query (dig or ping)"
+#, no-wrap
+msgid "DNS query (dig or ping)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/12-network.md:755
-msgid ""
-"![Method of troubleshooting or network validation](images/network-004.png)"
+#, no-wrap
+msgid "![Method of troubleshooting or network validation](images/network-004.png)\n"
 msgstr ""

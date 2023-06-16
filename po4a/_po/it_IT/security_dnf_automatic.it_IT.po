@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -170,8 +170,8 @@ msgstr ""
 #: ../src/docs/guides/security/dnf_automatic.md:67
 #: ../src/docs/guides/security/firewalld.md:102
 #: ../src/docs/labs/sys_admin_1/lab7-software_management.md:115
-#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:368
-msgid "!!! tip"
+#, no-wrap
+msgid "!!! tip\n"
 msgstr ""
 
 #. type: Title ###
@@ -220,24 +220,22 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/dnf_automatic.md:17
+#, no-wrap
 msgid ""
-"Managing the installation of security updates is an important matter for the "
-"system administrator. The process of providing software updates is a well-"
-"trodden path that ultimately causes few problems.  For these reasons, it is "
-"reasonable to automate the download and application of updates daily and "
-"automatically on Rocky servers."
+"Managing the installation of security updates is an important matter for the system administrator. The process of providing software updates is a well-trodden path that ultimately causes few problems.\n"
+"For these reasons, it is reasonable to automate the download and application of updates daily and automatically on Rocky servers.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/dnf_automatic.md:19
-msgid ""
-"The security of your information system will be strengthened. `dnf-"
-"automatic` is an additional tool that will allow you to achieve this."
+#, no-wrap
+msgid "The security of your information system will be strengthened. `dnf-automatic` is an additional tool that will allow you to achieve this.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/dnf_automatic.md:21
-msgid "!!! tip \"If you are worried...\""
+#, no-wrap
+msgid "!!! tip \"If you are worried...\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -254,7 +252,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/dnf_automatic.md:29
-msgid "You can install `dnf-automatic` from the rocky repositories:"
+#, no-wrap
+msgid "You can install `dnf-automatic` from the rocky repositories:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -265,11 +264,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/dnf_automatic.md:37
-msgid ""
-"By default, the update process will start at 6am, with a random extra time "
-"delta to avoid all your machines updating at the same time. To change this "
-"behavior, you must override the timer configuration associated with the "
-"application service:"
+#, no-wrap
+msgid "By default, the update process will start at 6am, with a random extra time delta to avoid all your machines updating at the same time. To change this behavior, you must override the timer configuration associated with the application service:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -295,16 +291,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/dnf_automatic.md:57
-msgid ""
-"This configuration reduces the start-up delay between 6:00 and 6:10 am. (A "
-"server that would be shut down at this time would be automatically patched "
-"after its restart.)"
+#, no-wrap
+msgid "This configuration reduces the start-up delay between 6:00 and 6:10 am. (A server that would be shut down at this time would be automatically patched after its restart.)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/dnf_automatic.md:59
-msgid ""
-"Then activate the timer associated to the service (not the service itself):"
+#, no-wrap
+msgid "Then activate the timer associated to the service (not the service itself):\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -327,7 +321,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/dnf_automatic.md:71
-msgid "The process under CentOS 7 is similar but uses: `yum-cron`."
+#, no-wrap
+msgid "The process under CentOS 7 is similar but uses: `yum-cron`.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -338,14 +333,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/dnf_automatic.md:77
-msgid ""
-"The configuration of the service is done this time in the file `/etc/yum/yum-"
-"cron.conf`."
+#, no-wrap
+msgid "The configuration of the service is done this time in the file `/etc/yum/yum-cron.conf`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/dnf_automatic.md:79
-msgid "Set configuration as needed:"
+#, no-wrap
+msgid "Set configuration as needed:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -384,12 +379,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/dnf_automatic.md:112
-msgid "The comments in the configuration file speak for themselves."
+#, no-wrap
+msgid "The comments in the configuration file speak for themselves.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/dnf_automatic.md:114
-msgid "You can now enable the service and start it:"
+#, no-wrap
+msgid "You can now enable the service and start it:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -400,7 +397,6 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/dnf_automatic.md:121
-msgid ""
-"The automatic update of packages is easily activated and considerably "
-"increases the security of your information system."
+#, no-wrap
+msgid "The automatic update of packages is easily activated and considerably increases the security of your information system.\n"
 msgstr ""

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -143,7 +143,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -170,7 +169,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Title ##
@@ -320,7 +320,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/books/learning_bash/05-tests.md:111
 #: ../src/docs/guides/file_sharing/glusterfs.md:133
-msgid "or:"
+#, no-wrap
+msgid "or:\n"
 msgstr ""
 
 #. type: Title ##
@@ -375,8 +376,8 @@ msgstr ""
 #: ../src/docs/guides/file_sharing/glusterfs.md:15
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
-msgid ""
-"Proficiency with a command-line editor (we are using _vi_ in this example)"
+#, no-wrap
+msgid "Proficiency with a command-line editor (we are using _vi_ in this example)\n"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -386,9 +387,8 @@ msgstr ""
 #: ../src/docs/guides/web/apache_hardened_webserver/index.md:22
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:21
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
-msgid ""
-"A heavy comfort level with issuing commands from the command-line, viewing "
-"logs, and other general systems administrator duties"
+#, no-wrap
+msgid "A heavy comfort level with issuing commands from the command-line, viewing logs, and other general systems administrator duties\n"
 msgstr ""
 
 #. type: YAML Front Matter: title
@@ -407,62 +407,62 @@ msgstr ""
 #: ../src/docs/guides/file_sharing/glusterfs.md:15
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
-msgid "All commands are run as the root user or sudo"
+#, no-wrap
+msgid "All commands are run as the root user or sudo\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:19
-msgid "GlusterFS is a distributed file system."
+#, no-wrap
+msgid "GlusterFS is a distributed file system.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:21
-msgid ""
-"It allows for storage of large amount of data distributed across clusters of "
-"servers with a very high availability."
+#, no-wrap
+msgid "It allows for storage of large amount of data distributed across clusters of servers with a very high availability.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:23
-msgid ""
-"It is composed of a server part to be installed on all the nodes of the "
-"server clusters."
+#, no-wrap
+msgid "It is composed of a server part to be installed on all the nodes of the server clusters.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:25
-msgid ""
-"Clients can access the data via the `glusterfs` client or the `mount` "
-"command."
+#, no-wrap
+msgid "Clients can access the data via the `glusterfs` client or the `mount` command.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:27
-msgid "GlusterFS can operate in two modes:"
+#, no-wrap
+msgid "GlusterFS can operate in two modes:\n"
 msgstr ""
 
 #. type: Bullet: '  * '
 #: ../src/docs/guides/file_sharing/glusterfs.md:30
-msgid "replicated mode: each node of the cluster has all the data."
+#, no-wrap
+msgid "replicated mode: each node of the cluster has all the data.\n"
 msgstr ""
 
 #. type: Bullet: '  * '
 #: ../src/docs/guides/file_sharing/glusterfs.md:30
-msgid ""
-"distributed mode: no data redundancy. If a storage fails, the data on the "
-"failed node is lost."
+#, no-wrap
+msgid "distributed mode: no data redundancy. If a storage fails, the data on the failed node is lost.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:32
-msgid ""
-"Both modes can be used together to provide both a replicated and distributed "
-"file system as long as you have the right number of servers."
+#, no-wrap
+msgid "Both modes can be used together to provide both a replicated and distributed file system as long as you have the right number of servers.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:34
-msgid "Data is stored inside bricks."
+#, no-wrap
+msgid "Data is stored inside bricks.\n"
 msgstr ""
 
 #. type: Plain text
@@ -479,24 +479,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:40
-msgid ""
-"Our fictitious platform is composed of two servers and a client, all Rocky "
-"Linux servers."
+#, no-wrap
+msgid "Our fictitious platform is composed of two servers and a client, all Rocky Linux servers.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/glusterfs.md:44
-msgid "First node: node1.cluster.local - 192.168.1.10"
+#, no-wrap
+msgid "First node: node1.cluster.local - 192.168.1.10\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/glusterfs.md:44
-msgid "Second node: node2.cluster.local - 192.168.1.11"
+#, no-wrap
+msgid "Second node: node2.cluster.local - 192.168.1.11\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/glusterfs.md:44
-msgid "Client1: client1.clients.local - 192.168.1.12"
+#, no-wrap
+msgid "Client1: client1.clients.local - 192.168.1.12\n"
 msgstr ""
 
 #. type: Plain text
@@ -507,7 +509,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:50
-msgid "Each server in the cluster has a second disk for data storage."
+#, no-wrap
+msgid "Each server in the cluster has a second disk for data storage.\n"
 msgstr ""
 
 #. type: Title ##
@@ -518,9 +521,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:54
-msgid ""
-"We will create a new LVM logical volume that will be mounted on `/data/"
-"glusterfs/vol0` on both of the cluster's servers:"
+#, no-wrap
+msgid "We will create a new LVM logical volume that will be mounted on `/data/glusterfs/vol0` on both of the cluster's servers:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -551,7 +553,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:72
-msgid "We can now add that logical volume to the `/etc/fstab` file:"
+#, no-wrap
+msgid "We can now add that logical volume to the `/etc/fstab` file:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -562,7 +565,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:78
-msgid "And mount it:"
+#, no-wrap
+msgid "And mount it:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -573,9 +577,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:84
-msgid ""
-"As the data is stored in a sub-volume called brick, we can create a "
-"directory in this new data space dedicated to it:"
+#, no-wrap
+msgid "As the data is stored in a sub-volume called brick, we can create a directory in this new data space dedicated to it:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -586,22 +589,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:92
-msgid ""
-"At the time of writing this documentation, the original CentOS Storage SIG "
-"repository is no longer available and the RockyLinux repository is not yet "
-"available."
+#, no-wrap
+msgid "At the time of writing this documentation, the original CentOS Storage SIG repository is no longer available and the RockyLinux repository is not yet available.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:94
-msgid "However, we will use (for the time being) the archived version."
+#, no-wrap
+msgid "However, we will use (for the time being) the archived version.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:96
-msgid ""
-"First of all, it is necessary to add the dedicated repository to gluster (in "
-"version 9) on both servers:"
+#, no-wrap
+msgid "First of all, it is necessary to add the dedicated repository to gluster (in version 9) on both servers:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -618,9 +619,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:106
-msgid ""
-"As the repo list and url is not available anymore, let's change the content "
-"of the `/etc/yum.repos.d/CentOS-Gluster-9.repo`:"
+#, no-wrap
+msgid "As the repo list and url is not available anymore, let's change the content of the `/etc/yum.repos.d/CentOS-Gluster-9.repo`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -638,7 +638,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:118
-msgid "We are now ready to install the glusterfs server:"
+#, no-wrap
+msgid "We are now ready to install the glusterfs server:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -655,7 +656,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:126
-msgid "A few rules are necessary for the service to work:"
+#, no-wrap
+msgid "A few rules are necessary for the service to work:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -677,11 +679,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:143
-msgid ""
-"You can let DNS handle the name resolution of the servers in your cluster, "
-"or you can choose to relieve the servers of this task by inserting records "
-"for each of them in your `/etc/hosts` files. This will also keep things "
-"running even in the event of a DNS failure."
+#, no-wrap
+msgid "You can let DNS handle the name resolution of the servers in your cluster, or you can choose to relieve the servers of this task by inserting records for each of them in your `/etc/hosts` files. This will also keep things running even in the event of a DNS failure.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -700,7 +699,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:152
-msgid "Without further delay, let's start the service:"
+#, no-wrap
+msgid "Without further delay, let's start the service:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -713,13 +713,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:159
-msgid "We are ready to join the two nodes to the same pool."
+#, no-wrap
+msgid "We are ready to join the two nodes to the same pool.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:161
-msgid ""
-"This command is to be performed only once on a single node (here on node1):"
+#, no-wrap
+msgid "This command is to be performed only once on a single node (here on node1):\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -732,7 +733,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:168
-msgid "Verify:"
+#, no-wrap
+msgid "Verify:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -766,7 +768,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:193
-msgid "We can now create a volume with 2 replicas:"
+#, no-wrap
+msgid "We can now create a volume with 2 replicas:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -788,7 +791,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:207
-msgid "We can now start the volume to access data:"
+#, no-wrap
+msgid "We can now start the volume to access data:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -802,7 +806,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:215
-msgid "Check the volume state:"
+#, no-wrap
+msgid "Check the volume state:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -851,12 +856,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:255
-msgid "The status must be \"Started\"."
+#, no-wrap
+msgid "The status must be \"Started\".\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:257
-msgid "We can already restrict access on the volume a little bit:"
+#, no-wrap
+msgid "We can already restrict access on the volume a little bit:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -867,7 +874,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:263
-msgid "It's as simple as that"
+#, no-wrap
+msgid "It's as simple as that\n"
 msgstr ""
 
 #. type: Title ##
@@ -878,12 +886,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:267
-msgid "There are several ways to access our data from a client."
+#, no-wrap
+msgid "There are several ways to access our data from a client.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:269
-msgid "The preferred method:"
+#, no-wrap
+msgid "The preferred method:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -897,20 +907,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:277
-msgid ""
-"There are no additional repositories to configure. The client is already "
-"present in the base repos."
+#, no-wrap
+msgid "There are no additional repositories to configure. The client is already present in the base repos.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:279
-msgid ""
-"Create a file and check that it is present on all the nodes of the cluster:"
+#, no-wrap
+msgid "Create a file and check that it is present on all the nodes of the cluster:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:281
-msgid "On client:"
+#, no-wrap
+msgid "On client:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -921,7 +931,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:287
-msgid "On both servers:"
+#, no-wrap
+msgid "On both servers:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -935,14 +946,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:295
-msgid ""
-"Sound good! But what happens if the node 1 fails? It is the one that was "
-"specified when mounting the remote access."
+#, no-wrap
+msgid "Sound good! But what happens if the node 1 fails? It is the one that was specified when mounting the remote access.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:297
-msgid "Let's stop the node one:"
+#, no-wrap
+msgid "Let's stop the node one:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -953,7 +964,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:303
-msgid "Check status on node2:"
+#, no-wrap
+msgid "Check status on node2:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -983,12 +995,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:327
-msgid "The node1 is away."
+#, no-wrap
+msgid "The node1 is away.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:329
-msgid "And on client:"
+#, no-wrap
+msgid "And on client:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1001,24 +1015,18 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:336
-msgid "File is already there."
+#, no-wrap
+msgid "File is already there.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:338
-msgid ""
-"Upon connection, the glusterfs client receives a list of nodes it can "
-"address, which explains the transparent switchover we just witnessed."
+#, no-wrap
+msgid "Upon connection, the glusterfs client receives a list of nodes it can address, which explains the transparent switchover we just witnessed.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/glusterfs.md:341
-msgid ""
-"While there are no current repositories, using the archived repositories "
-"that CentOS had for GlusterFS will still work. As outlined, GlusterFS is "
-"pretty easy to install and maintain. Using the command line tools is a "
-"pretty straight forward process. GlusterFS will help with creating and "
-"maintaining high-availability clusters for data storage and redundancy. You "
-"can find more information on GlusterFS and tool usage from the [official "
-"documentation pages.](https://docs.gluster.org/en/latest/)"
+#, no-wrap
+msgid "While there are no current repositories, using the archived repositories that CentOS had for GlusterFS will still work. As outlined, GlusterFS is pretty easy to install and maintain. Using the command line tools is a pretty straight forward process. GlusterFS will help with creating and maintaining high-availability clusters for data storage and redundancy. You can find more information on GlusterFS and tool usage from the [official documentation pages.](https://docs.gluster.org/en/latest/)\n"
 msgstr ""

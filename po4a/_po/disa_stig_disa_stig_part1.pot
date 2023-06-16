@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -205,17 +205,6 @@ msgstr ""
 msgid "About The Author"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/books/disa_stig/disa_stig_part2.md:112
-#: ../src/docs/books/disa_stig/disa_stig_part1.md:145
-msgid ""
-"Scott Shinn is the CTO for Atomicorp, and part of the Rocky Linux Security "
-"team. He has been involved with federal information systems at the White "
-"House, Department of Defense, and Intelligence Community since 1995. Part of "
-"that was creating STIG’s and the requirement that you use them and I am so "
-"very sorry about that."
-msgstr ""
-
 #. type: YAML Front Matter: title
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:1
 #, no-wrap
@@ -236,56 +225,50 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:22
-msgid "DISA - Defense Information Systems Agency"
+#, no-wrap
+msgid "DISA - Defense Information Systems Agency\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:22
-msgid "RHEL8 - Red Hat Enterprise Linux 8"
+#, no-wrap
+msgid "RHEL8 - Red Hat Enterprise Linux 8\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:22
-msgid "STIG - Secure Technical Implementation Guide"
+#, no-wrap
+msgid "STIG - Secure Technical Implementation Guide\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:22
-msgid "SCAP - Secure Content Automation Protocol"
+#, no-wrap
+msgid "SCAP - Secure Content Automation Protocol\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:22
-msgid "DoD - Department of Defense"
+#, no-wrap
+msgid "DoD - Department of Defense\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:26
-msgid ""
-"In this guide we are going to cover how to apply the [DISA STIG for RHEL8]"
-"(https://www.stigviewer.com/stig/red_hat_enterprise_linux_8/) for a New "
-"Installation of Rocky Linux 8. As multi-part series, we will also be "
-"covering how to test STIG compliance, adapt STIG settings, and apply other "
-"STIG content in this environment."
+#, no-wrap
+msgid "In this guide we are going to cover how to apply the [DISA STIG for RHEL8](https://www.stigviewer.com/stig/red_hat_enterprise_linux_8/) for a New Installation of Rocky Linux 8. As multi-part series, we will also be covering how to test STIG compliance, adapt STIG settings, and apply other STIG content in this environment.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:28
-msgid ""
-"Rocky Linux is a bug for bug derivative of RHEL and as such the content "
-"published for the DISA RHEL8 STIG is in parity for both operating systems.  "
-"Even better news, applying STIG settings is built into the Rocky Linux 8 "
-"anaconda installer, under Security Profiles.  Under the hood this is all "
-"powered by a tool called [OpenSCAP](https://www.open-scap.org/), which lets "
-"you both configure the system to be compliant with the DISA STIG (fast!), "
-"and also test the systems compliance after you’ve installed."
+#, no-wrap
+msgid "Rocky Linux is a bug for bug derivative of RHEL and as such the content published for the DISA RHEL8 STIG is in parity for both operating systems.  Even better news, applying STIG settings is built into the Rocky Linux 8 anaconda installer, under Security Profiles.  Under the hood this is all powered by a tool called [OpenSCAP](https://www.open-scap.org/), which lets you both configure the system to be compliant with the DISA STIG (fast!), and also test the systems compliance after you’ve installed.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:30
-msgid ""
-"I’ll be doing this on a virtual machine in my environment, but everything "
-"here would apply the exact same way on bare iron."
+#, no-wrap
+msgid "I’ll be doing this on a virtual machine in my environment, but everything here would apply the exact same way on bare iron.\n"
 msgstr ""
 
 #. type: Title ###
@@ -296,22 +279,26 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:36
-msgid "2G memory"
+#, no-wrap
+msgid "2G memory\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:36
-msgid "30G disk"
+#, no-wrap
+msgid "30G disk\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:36
-msgid "1 core"
+#, no-wrap
+msgid "1 core\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:38
-msgid "![Virtual Machine](images/disa_stig_pt1_img1.jpg)"
+#, no-wrap
+msgid "![Virtual Machine](images/disa_stig_pt1_img1.jpg)\n"
 msgstr ""
 
 #. type: Title ###
@@ -322,16 +309,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:42
-msgid ""
-"[Download Rocky Linux DVD](https://download.rockylinux.org/pub/rocky/8/isos/"
-"x86_64/Rocky-8.6-x86_64-dvd1.iso).  **Note:** The minimal ISO does not "
-"contain the content needed to apply the STIG for Rocky Linux 8, you need to "
-"use the DVD or a network install."
+#, no-wrap
+msgid "[Download Rocky Linux DVD](https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.6-x86_64-dvd1.iso).  **Note:** The minimal ISO does not contain the content needed to apply the STIG for Rocky Linux 8, you need to use the DVD or a network install.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:44
-msgid "![Download Rocky](images/disa_stig_pt1_img2.jpg)"
+#, no-wrap
+msgid "![Download Rocky](images/disa_stig_pt1_img2.jpg)\n"
 msgstr ""
 
 #. type: Title ###
@@ -342,7 +327,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:48
-msgid "![Boot The Installer](images/disa_stig_pt1_img3.jpg)"
+#, no-wrap
+msgid "![Boot The Installer](images/disa_stig_pt1_img3.jpg)\n"
 msgstr ""
 
 #. type: Title ###
@@ -353,19 +339,16 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:52
-msgid ""
-"This is probably the most complicated step in the installation, and a "
-"requirement to be compliant with the STIG. You will need to partition the "
-"operating system's filesystem in a way that will probably create new "
-"problems. In other words: You’re going to need to know exactly what your "
-"storage requirements are."
+#, no-wrap
+msgid "This is probably the most complicated step in the installation, and a requirement to be compliant with the STIG. You will need to partition the operating system's filesystem in a way that will probably create new problems. In other words: You’re going to need to know exactly what your storage requirements are.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:54
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:80
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:86
-msgid "!!! tip \"Pro-Tip\""
+#, no-wrap
+msgid "!!! tip \"Pro-Tip\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -376,79 +359,92 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:58
-msgid "![Partitioning](images/disa_stig_pt1_img4.jpg)"
+#, no-wrap
+msgid "![Partitioning](images/disa_stig_pt1_img4.jpg)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:60
-msgid "Select \"Custom\" and then \"Done\""
+#, no-wrap
+msgid "Select \"Custom\" and then \"Done\"\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:62
-msgid "![Partitioning Custom](images/disa_stig_pt1_img5.jpg)"
+#, no-wrap
+msgid "![Partitioning Custom](images/disa_stig_pt1_img5.jpg)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:64
-msgid "Start Adding Partitions"
+#, no-wrap
+msgid "Start Adding Partitions\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:66
-msgid "![Add Partitions](images/disa_stig_pt1_img6.jpg)"
+#, no-wrap
+msgid "![Add Partitions](images/disa_stig_pt1_img6.jpg)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:68
-msgid ""
-"DISA STIG partitioning scheme for a 30G disk. My use case is as a simple web "
-"server:"
+#, no-wrap
+msgid "DISA STIG partitioning scheme for a 30G disk. My use case is as a simple web server:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:78
-msgid "/ (10G)"
+#, no-wrap
+msgid "/  (10G)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:78
-msgid "/boot (500m)"
+#, no-wrap
+msgid "/boot (500m)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:78
-msgid "/var (10G)"
+#, no-wrap
+msgid "/var (10G)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:78
-msgid "/var/log (4G)"
+#, no-wrap
+msgid "/var/log (4G)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:78
-msgid "/var/log/audit (1G)"
+#, no-wrap
+msgid "/var/log/audit (1G)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:78
-msgid "/home (1G)"
+#, no-wrap
+msgid "/home (1G)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:78
-msgid "/tmp (1G)"
+#, no-wrap
+msgid "/tmp  (1G)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:78
-msgid "/var/tmp (1G)"
+#, no-wrap
+msgid "/var/tmp (1G)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:78
-msgid "Swap (2G)"
+#, no-wrap
+msgid "Swap (2G)\n"
 msgstr ""
 
 #. type: Plain text
@@ -459,7 +455,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:84
-msgid "![Slash Partition](images/disa_stig_pt1_img7.jpg)"
+#, no-wrap
+msgid "![Slash Partition](images/disa_stig_pt1_img7.jpg)\n"
 msgstr ""
 
 #. type: Plain text
@@ -470,17 +467,20 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:90
-msgid "Click \"Done\", and \"Accept Changes\""
+#, no-wrap
+msgid "Click \"Done\", and \"Accept Changes\"\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:92
-msgid "![Confirm Partitioning](images/disa_stig_pt1_img8.jpg)"
+#, no-wrap
+msgid "![Confirm Partitioning](images/disa_stig_pt1_img8.jpg)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:94
-msgid "![Accept Changes](images/disa_stig_pt1_img9.jpg)"
+#, no-wrap
+msgid "![Accept Changes](images/disa_stig_pt1_img9.jpg)\n"
 msgstr ""
 
 #. type: Title ###
@@ -491,14 +491,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:98
-msgid ""
-"This will matter in **Step 6**, so if you are using a UI or a workstation "
-"configuration the security profile will be different."
+#, no-wrap
+msgid "This will matter in **Step 6**, so if you are using a UI or a workstation configuration the security profile will be different.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:100
-msgid "![Software Selection](images/disa_stig_pt1_img10.jpg)"
+#, no-wrap
+msgid "![Software Selection](images/disa_stig_pt1_img10.jpg)\n"
 msgstr ""
 
 #. type: Title ###
@@ -509,45 +509,44 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:104
-msgid ""
-"This is going to configure a number of security settings on the system based "
-"on the selected policy, leveraging the SCAP framework. It will modify the "
-"packages you selected in **Step 5**, adding or removing components needed.  "
-"If you _did_ select a GUI install in **Step 5**, and you use the non-GUI "
-"STIG in this step, it will remove the GUI. Adjust accordingly!"
+#, no-wrap
+msgid "This is going to configure a number of security settings on the system based on the selected policy, leveraging the SCAP framework. It will modify the packages you selected in **Step 5**, adding or removing components needed.  If you _did_ select a GUI install in **Step 5**, and you use the non-GUI STIG in this step, it will remove the GUI. Adjust accordingly!\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:106
-msgid "![Security Profile](images/disa_stig_pt1_img11.jpg)"
+#, no-wrap
+msgid "![Security Profile](images/disa_stig_pt1_img11.jpg)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:108
-msgid "Select the DISA STIG for Red Hat Enterprise Linux 8:"
+#, no-wrap
+msgid "Select the DISA STIG for Red Hat Enterprise Linux 8:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:110
-msgid "![DISA STIG](images/disa_stig_pt1_img12.jpg)"
+#, no-wrap
+msgid "![DISA STIG](images/disa_stig_pt1_img12.jpg)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:112
-msgid ""
-"Click \"Select Profile\", and note the changes it is going to make to the "
-"system. This will set options on mount points, add/remove applications, and "
-"make other configuration changes:"
+#, no-wrap
+msgid "Click \"Select Profile\", and note the changes it is going to make to the system. This will set options on mount points, add/remove applications, and make other configuration changes:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:114
-msgid "![Select Profile_A](images/disa_stig_pt1_img13.jpg)"
+#, no-wrap
+msgid "![Select Profile_A](images/disa_stig_pt1_img13.jpg)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:116
-msgid "![Select_Profile_B](images/disa_stig_pt1_img14.jpg)"
+#, no-wrap
+msgid "![Select_Profile_B](images/disa_stig_pt1_img14.jpg)\n"
 msgstr ""
 
 #. type: Title ###
@@ -558,7 +557,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:120
-msgid "![Finalize Profile](images/disa_stig_pt1_img15.jpg)"
+#, no-wrap
+msgid "![Finalize Profile](images/disa_stig_pt1_img15.jpg)\n"
 msgstr ""
 
 #. type: Title ###
@@ -569,15 +569,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:124
-msgid ""
-"In later tutorials we can get into joining this to a FreeIPA enterprise "
-"configuration. For now, we’ll treat this as a standalone. Note that I am not "
-"setting a root password, rather we give our default user `sudo` access."
+#, no-wrap
+msgid "In later tutorials we can get into joining this to a FreeIPA enterprise configuration. For now, we’ll treat this as a standalone. Note that I am not setting a root password, rather we give our default user `sudo` access.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:126
-msgid "![User Setup](images/disa_stig_pt1_img16.jpg)"
+#, no-wrap
+msgid "![User Setup](images/disa_stig_pt1_img16.jpg)\n"
 msgstr ""
 
 #. type: Title ###
@@ -588,7 +587,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:130
-msgid "![Begin Installation](images/disa_stig_pt1_img17.jpg)"
+#, no-wrap
+msgid "![Begin Installation](images/disa_stig_pt1_img17.jpg)\n"
 msgstr ""
 
 #. type: Title ###
@@ -599,7 +599,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:134
-msgid "![Reboot](images/disa_stig_pt1_img18.jpg)"
+#, no-wrap
+msgid "![Reboot](images/disa_stig_pt1_img18.jpg)\n"
 msgstr ""
 
 #. type: Title ###
@@ -610,15 +611,24 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:138
-msgid "![DoD Warning](images/disa_stig_pt1_img19.jpg)"
+#, no-wrap
+msgid "![DoD Warning](images/disa_stig_pt1_img19.jpg)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:140
-msgid "If all went well, you should see the default DoD warning banner here."
+#, no-wrap
+msgid "If all went well, you should see the default DoD warning banner here.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:142
-msgid "![Final Screen](images/disa_stig_pt1_img20.jpg)"
+#, no-wrap
+msgid "![Final Screen](images/disa_stig_pt1_img20.jpg)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:145
+#, no-wrap
+msgid "Scott Shinn is the CTO for Atomicorp, and part of the Rocky Linux Security team. He has been involved with federal information systems at the White House, Department of Defense, and Intelligence Community since 1995. Part of that was creating STIG’s and the requirement that you use them and I am so very sorry about that.\n"
 msgstr ""

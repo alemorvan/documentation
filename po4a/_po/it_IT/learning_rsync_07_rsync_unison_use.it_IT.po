@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -90,7 +90,8 @@ msgstr ""
 #: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:136
 #: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:140
 #: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:146
-msgid "!!! tip \"tip\""
+#, no-wrap
+msgid "!!! tip \"tip\"\n"
 msgstr ""
 
 #. type: YAML Front Matter: title
@@ -107,10 +108,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:11
-msgid ""
-"As we mentioned earlier, one-way synchronization uses rsync + inotify-tools. "
-"In some special usage scenarios, two-way synchronization may be required, "
-"which requires inotify-tools + unison."
+#, no-wrap
+msgid "As we mentioned earlier, one-way synchronization uses rsync + inotify-tools. In some special usage scenarios, two-way synchronization may be required, which requires inotify-tools + unison.\n"
 msgstr ""
 
 #. type: Title ##
@@ -121,28 +120,26 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:17
-msgid ""
-"Both Rocky Linux 8 and Fedora 34 require source code compilation and "
-"installation **inotify-tools**, which is not specifically expanded here."
+#, no-wrap
+msgid "Both Rocky Linux 8 and Fedora 34 require source code compilation and installation **inotify-tools**, which is not specifically expanded here.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:17
-msgid ""
-"Both machines must be password-free login authentication, here we use the "
-"SSH protocol for"
+#, no-wrap
+msgid "Both machines must be password-free login authentication, here we use the SSH protocol for\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:17
-msgid ""
-"[ocaml](https://github.com/ocaml/ocaml/) uses v4.12.0, [unison](https://"
-"github.com/bcpierce00/unison/) uses v2.51.4."
+#, no-wrap
+msgid "[ocaml](https://github.com/ocaml/ocaml/) uses v4.12.0, [unison](https://github.com/bcpierce00/unison/) uses v2.51.4.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:19
-msgid "After the environment is ready, it can be verified:"
+#, no-wrap
+msgid "After the environment is ready, it can be verified:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -181,9 +178,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:43
-msgid ""
-"Ocaml is a programming language, and the bottom layer of unison depends on "
-"it."
+#, no-wrap
+msgid "Ocaml is a programming language, and the bottom layer of unison depends on it.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -223,7 +219,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:70
-msgid "The same operation."
+#, no-wrap
+msgid "The same operation.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -155,43 +155,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part3.md:16
-msgid ""
-"In part 1 of this series we covered how to build our web server with the "
-"base RHEL8 DISA STIG applied, and in part 2 we learned how to test the STIG "
-"compliance with the OpenSCAP tool. Now we’re going to actually do something "
-"with the system, and build a simple web application and apply the DISA web "
-"server STIG: https://www.stigviewer.com/stig/web_server/"
+#, no-wrap
+msgid "In part 1 of this series we covered how to build our web server with the base RHEL8 DISA STIG applied, and in part 2 we learned how to test the STIG compliance with the OpenSCAP tool. Now we’re going to actually do something with the system, and build a simple web application and apply the DISA web server STIG: https://www.stigviewer.com/stig/web_server/\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part3.md:18
-msgid ""
-"First lets compare what we’re getting into here, the RHEL 8 DISA STIG is "
-"targeted at a very specific platform so the controls are pretty easy to "
-"understand in that context, test, and apply.  Application STIGs have to be "
-"portable across multiple platforms, so the content here is generic in order "
-"to work on different linux distributions (RHEL, Ubuntu, SuSE, etc)**. This "
-"means that tools like OpenSCAP won’t help us audit/remediate the "
-"configuration, we’re going to have to do this manually. Those STIGs are:"
+#, no-wrap
+msgid "First lets compare what we’re getting into here, the RHEL 8 DISA STIG is targeted at a very specific platform so the controls are pretty easy to understand in that context, test, and apply.  Application STIGs have to be portable across multiple platforms, so the content here is generic in order to work on different linux distributions (RHEL, Ubuntu, SuSE, etc)**. This means that tools like OpenSCAP won’t help us audit/remediate the configuration, we’re going to have to do this manually. Those STIGs are:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part3.md:21
-msgid "Apache 2.4 V2R5 - Server; which applies to the web server itself"
+#, no-wrap
+msgid "Apache 2.4 V2R5 - Server; which applies to the web server itself\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part3.md:21
-msgid "Apache 2.4 V2R5 - Site; Which applies to the web application / web site"
+#, no-wrap
+msgid "Apache 2.4 V2R5 - Site; Which applies to the web application / web site\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part3.md:23
-msgid ""
-"For our guide, we’re going to create a simple web server that does nothing "
-"more than serve static content. We can use the changes we make here to make "
-"a base image and then use this base image when we build more complex web "
-"servers later."
+#, no-wrap
+msgid "For our guide, we’re going to create a simple web server that does nothing more than serve static content. We can use the changes we make here to make a base image and then use this base image when we build more complex web servers later.\n"
 msgstr ""
 
 #. type: Title ##
@@ -202,14 +191,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part3.md:27
-msgid ""
-"Before you start, you'll need to refer back to Part 1 and apply the DISA "
-"STIG Security profile. Consider this step 0."
+#, no-wrap
+msgid "Before you start, you'll need to refer back to Part 1 and apply the DISA STIG Security profile. Consider this step 0.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part3.md:29
-msgid "1.) Install `apache` and `mod_ssl`"
+#, no-wrap
+msgid "1.) Install `apache` and `mod_ssl`\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -220,7 +209,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part3.md:35
-msgid "2.) Configuration changes"
+#, no-wrap
+msgid "2.) Configuration changes\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -274,13 +264,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part3.md:72
-msgid ""
-"If you’ve gotten this far, you’re probably interested in knowing more about "
-"what the STIG wants us to do. It helps to understand the importance of the "
-"control, and then how it applies to the application. Sometimes the control "
-"is technical (change X setting to Y)  and other times it's operational (how "
-"you use it).  Generally speaking, a technical control is something you can "
-"change with code, and an operational control probably isn’t."
+#, no-wrap
+msgid "If you’ve gotten this far, you’re probably interested in knowing more about what the STIG wants us to do. It helps to understand the importance of the control, and then how it applies to the application. Sometimes the control is technical (change X setting to Y)  and other times it's operational (how you use it).  Generally speaking, a technical control is something you can change with code, and an operational control probably isn’t.\n"
 msgstr ""
 
 #. type: Title ###
@@ -291,17 +276,20 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part3.md:78
-msgid "Cat I - (HIGH) - 5 Controls"
+#, no-wrap
+msgid "Cat I - (HIGH) - 5 Controls\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part3.md:78
-msgid "Cat II - (MEDIUM) - 41 Controls"
+#, no-wrap
+msgid "Cat II - (MEDIUM) - 41 Controls\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part3.md:78
-msgid "Cat III - (LOW) - 1 Controls"
+#, no-wrap
+msgid "Cat III - (LOW) - 1 Controls\n"
 msgstr ""
 
 #. type: Title ###
@@ -312,22 +300,20 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part3.md:83
-msgid "Technical - 24 controls"
+#, no-wrap
+msgid "Technical - 24  controls \n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part3.md:83
-msgid "Operational - 23 controls"
+#, no-wrap
+msgid "Operational  - 23 controls\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part3.md:85
-msgid ""
-"We’re not going to cover the “why” for these changes in this article, just "
-"what needs to happen if it is a technical control.  If there is nothing we "
-"can change like in the case of an Operational control, the **Fix:** field "
-"will be none. The good news in a lot of these cases, this is already the "
-"default in Rocky Linux 8, so you don’t need to change anything at all."
+#, no-wrap
+msgid "We’re not going to cover the “why” for these changes in this article, just what needs to happen if it is a technical control.  If there is nothing we can change like in the case of an Operational control, the **Fix:** field will be none. The good news in a lot of these cases, this is already the default in Rocky Linux 8, so you don’t need to change anything at all.\n"
 msgstr ""
 
 #. type: Title ##
@@ -801,10 +787,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part3.md:305
-msgid ""
-"Refer to https://httpd.apache.org/docs/2.4/mod/mod_remoteip.html for "
-"additional information on logging options based on your proxy/load balancing "
-"setup."
+#, no-wrap
+msgid "Refer to https://httpd.apache.org/docs/2.4/mod/mod_remoteip.html for additional information on logging options based on your proxy/load balancing setup.\n"
 msgstr ""
 
 #. type: Plain text
@@ -839,10 +823,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part3.md:319
-msgid ""
-"V-214251 Cookies exchanged between the Apache web server and client, such as "
-"session cookies, must have security settings that disallow cookie access "
-"outside the originating Apache web server and hosted application.\t"
+#, no-wrap
+msgid "V-214251 Cookies exchanged between the Apache web server and client, such as session cookies, must have security settings that disallow cookie access outside the originating Apache web server and hosted application.\t\n"
 msgstr ""
 
 #. type: Plain text
@@ -1064,10 +1046,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part3.md:446
+#, no-wrap
 msgid ""
-"Scott Shinn is the CTO for Atomicorp, and part of the Rocky Linux Security "
-"team. He has been involved with federal information systems at the White "
-"House, Department of Defense, and Intelligence Community since 1995. Part of "
-"that was creating STIG’s and the requirement th at you use them and I am so "
-"very sorry about that."
+"Scott Shinn is the CTO for Atomicorp, and part of the Rocky Linux Security team. He has been involved with federal information systems at the White House, Department of Defense, and Intelligence Community since 1995. Part of that was creating STIG’s and the requirement th\n"
+"at you use them and I am so very sorry about that.\n"
 msgstr ""

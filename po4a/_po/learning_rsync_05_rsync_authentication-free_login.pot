@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,7 +89,8 @@ msgstr ""
 #: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:136
 #: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:140
 #: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:146
-msgid "!!! tip \"tip\""
+#, no-wrap
+msgid "!!! tip \"tip\"\n"
 msgstr ""
 
 #. type: YAML Front Matter: title
@@ -106,19 +107,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_rsync/05_rsync_authentication-free_login.md:11
-msgid ""
-"From [rsync Brief Description](01_rsync_overview.md) we know that rsync is "
-"an incremental synchronization tool. Every time the `rsync` command is "
-"executed, data can be synchronized once, but data cannot be synchronized in "
-"real time. How to do it?"
+#, no-wrap
+msgid "From [rsync Brief Description](01_rsync_overview.md) we know that rsync is an incremental synchronization tool. Every time the `rsync` command is executed, data can be synchronized once, but data cannot be synchronized in real time. How to do it?\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_rsync/05_rsync_authentication-free_login.md:13
-msgid ""
-"With inotify-tools, this program tool can realize one-way real-time "
-"synchronization. Since it is real-time data synchronization, the "
-"prerequisite is to log in without password authentication."
+#, no-wrap
+msgid "With inotify-tools, this program tool can realize one-way real-time synchronization. Since it is real-time data synchronization, the prerequisite is to log in without password authentication.\n"
 msgstr ""
 
 #. type: Plain text
@@ -168,9 +164,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_rsync/05_rsync_authentication-free_login.md:45
-msgid ""
-"Then, use the `scp` command to upload the public key file to the server. For "
-"example, I upload this public key to the user **testrsync**"
+#, no-wrap
+msgid "Then, use the `scp` command to upload the public key file to the server. For example, I upload this public key to the user **testrsync**\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -187,7 +182,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_rsync/05_rsync_authentication-free_login.md:55
-msgid "Try to log in without secret authentication, success!"
+#, no-wrap
+msgid "Try to log in without secret authentication, success!\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -213,9 +209,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_rsync/05_rsync_authentication-free_login.md:69
-msgid ""
-"On the client side, the rsync service prepares an environment variable for "
-"the system-**RSYNC_PASSWORD**, which is empty by default, as shown below:"
+#, no-wrap
+msgid "On the client side, the rsync service prepares an environment variable for the system-**RSYNC_PASSWORD**, which is empty by default, as shown below:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -249,9 +244,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_rsync/05_rsync_authentication-free_login.md:88
-msgid ""
-"Try it, success! No new files appear here, so the list of transferred files "
-"is not displayed."
+#, no-wrap
+msgid "Try it, success! No new files appear here, so the list of transferred files is not displayed.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)

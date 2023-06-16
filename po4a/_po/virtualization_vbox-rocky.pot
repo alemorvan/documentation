@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -142,7 +142,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -169,7 +168,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Plain text
@@ -217,7 +217,8 @@ msgstr ""
 #: ../src/docs/guides/8_6_installation.md:133
 #: ../src/docs/guides/installation.md:66 ../src/docs/guides/installation.md:138
 #: ../src/docs/guides/virtualization/vbox-rocky.md:123
-msgid "!!! Tip"
+#, no-wrap
+msgid "!!! Tip\n"
 msgstr ""
 
 #. type: Title ##
@@ -361,29 +362,6 @@ msgstr ""
 msgid "Prerequisites"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/guides/8_6_installation.md:118
-#: ../src/docs/guides/installation.md:121
-#: ../src/docs/guides/virtualization/vbox-rocky.md:143
-#, no-wrap
-msgid "Time & Date"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/8_6_installation.md:151
-#: ../src/docs/guides/installation.md:156
-#: ../src/docs/guides/virtualization/vbox-rocky.md:143
-#, no-wrap
-msgid "Installation Destination"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/8_6_installation.md:163
-#: ../src/docs/guides/virtualization/vbox-rocky.md:143
-#, no-wrap
-msgid "Network & Hostname"
-msgstr ""
-
 #. type: Title ##
 #: ../src/docs/guides/proxies/pound.md:454
 #: ../src/docs/guides/virtualization/vbox-rocky.md:152
@@ -418,49 +396,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:16
-msgid ""
-"VirtualBox&reg; is a powerful virtualization product for both enterprise and "
-"home use. Once in a while, someone posts that they are having trouble "
-"getting Rocky Linux to run in VirtualBox&reg;. It has been tested multiple "
-"times going back to the release candidate, and works just fine. The problems "
-"people usually report often involve video."
+#, no-wrap
+msgid "VirtualBox&reg; is a powerful virtualization product for both enterprise and home use. Once in a while, someone posts that they are having trouble getting Rocky Linux to run in VirtualBox&reg;. It has been tested multiple times going back to the release candidate, and works just fine. The problems people usually report often involve video.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:18
-msgid ""
-"This document is an attempt to give a step-by-step set of instructions for "
-"getting Rocky Linux up and running in VirtualBox&reg;. The machine used to "
-"build this documentation was running Linux but, you can use any of the "
-"supported operating systems."
+#, no-wrap
+msgid "This document is an attempt to give a step-by-step set of instructions for getting Rocky Linux up and running in VirtualBox&reg;. The machine used to build this documentation was running Linux but, you can use any of the supported operating systems.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/virtualization/vbox-rocky.md:25
-msgid ""
-"A machine (Windows, Mac, Linux, Solaris) with available memory, and hard "
-"disk space to build and run the VirtualBox&reg; instance."
+#, no-wrap
+msgid "A machine (Windows, Mac, Linux, Solaris) with available memory, and hard disk space to build and run the VirtualBox&reg; instance.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/virtualization/vbox-rocky.md:25
-msgid ""
-"VirtualBox&reg; installed on your machine. You can find that [here](https://"
-"www.virtualbox.org/wiki/Downloads)."
+#, no-wrap
+msgid "VirtualBox&reg; installed on your machine. You can find that [here](https://www.virtualbox.org/wiki/Downloads).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/virtualization/vbox-rocky.md:25
-msgid ""
-"A copy of the Rocky Linux [DVD ISO](https://rockylinux.org/download) for "
-"your architecture. (x86_64 or ARM64)."
+#, no-wrap
+msgid "A copy of the Rocky Linux [DVD ISO](https://rockylinux.org/download) for your architecture. (x86_64 or ARM64).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/virtualization/vbox-rocky.md:25
-msgid ""
-"Ensure that your OS is 64 bit and that hardware virtualization is turned on "
-"in your BIOS."
+#, no-wrap
+msgid "Ensure that your OS is 64 bit and that hardware virtualization is turned on in your BIOS.\n"
 msgstr ""
 
 #. type: Plain text
@@ -477,9 +444,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:33
-msgid ""
-"Once you have VirtualBox&reg; installed, the next step is to start it. With "
-"no images installed you will get a screen that looks something like this:"
+#, no-wrap
+msgid "Once you have VirtualBox&reg; installed, the next step is to start it. With no images installed you will get a screen that looks something like this:\n"
 msgstr ""
 
 #. type: Plain text
@@ -496,32 +462,38 @@ msgstr ""
 
 #. type: Bullet: ' * '
 #: ../src/docs/guides/virtualization/vbox-rocky.md:44
-msgid "Click \"New\" (saw tooth icon)."
+#, no-wrap
+msgid "Click \"New\" (saw tooth icon).\n"
 msgstr ""
 
 #. type: Bullet: ' * '
 #: ../src/docs/guides/virtualization/vbox-rocky.md:44
-msgid "Type a name. Example: \"Rocky Linux 8.5\"."
+#, no-wrap
+msgid "Type a name. Example: \"Rocky Linux 8.5\".\n"
 msgstr ""
 
 #. type: Bullet: ' * '
 #: ../src/docs/guides/virtualization/vbox-rocky.md:44
-msgid "Leave the machine folder as automatically filled."
+#, no-wrap
+msgid "Leave the machine folder as automatically filled.\n"
 msgstr ""
 
 #. type: Bullet: ' * '
 #: ../src/docs/guides/virtualization/vbox-rocky.md:44
-msgid "Change the type to \"Linux\"."
+#, no-wrap
+msgid "Change the type to \"Linux\".\n"
 msgstr ""
 
 #. type: Bullet: ' * '
 #: ../src/docs/guides/virtualization/vbox-rocky.md:44
-msgid "And choose \"Red Hat (64-bit)\"."
+#, no-wrap
+msgid "And choose \"Red Hat (64-bit)\".\n"
 msgstr ""
 
 #. type: Bullet: ' * '
 #: ../src/docs/guides/virtualization/vbox-rocky.md:44
-msgid "Click \"Next\"."
+#, no-wrap
+msgid "Click \"Next\".\n"
 msgstr ""
 
 #. type: Plain text
@@ -532,111 +504,94 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:48
-msgid ""
-"Next, we need to allocate some RAM for this machine. By default, "
-"VirtualBox&reg; will automatically fill this to 1024 MB. That will not be "
-"optimum for any modern OS, including Rocky Linux. If you've got memory to "
-"spare, allocate 2 to 4 GB (2048 MB or 4096 MB) — or more. Keep in mind that "
-"VirtualBox&reg; is only going to use this memory while the virtual machine "
-"is running."
+#, no-wrap
+msgid "Next, we need to allocate some RAM for this machine. By default, VirtualBox&reg; will automatically fill this to 1024 MB. That will not be optimum for any modern OS, including Rocky Linux. If you've got memory to spare, allocate 2 to 4 GB (2048 MB or 4096 MB) — or more. Keep in mind that VirtualBox&reg; is only going to use this memory while the virtual machine is running.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:50
-msgid ""
-"There's no screenshot for this one, just change the value based on your "
-"available memory. Use your best judgement."
+#, no-wrap
+msgid "There's no screenshot for this one, just change the value based on your available memory. Use your best judgement.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:52
-msgid ""
-"Now we need to set up the hard disk size. By default, VirtualBox&reg; will "
-"automatically fill the \"Create a virtual hard disk now\" radio button."
+#, no-wrap
+msgid "Now we need to set up the hard disk size. By default, VirtualBox&reg; will automatically fill the \"Create a virtual hard disk now\" radio button.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:54
-msgid "![Hard Disk](../images/vbox-03.png)"
+#, no-wrap
+msgid "![Hard Disk](../images/vbox-03.png)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/virtualization/vbox-rocky.md:56
 #: ../src/docs/guides/virtualization/vbox-rocky.md:76
-msgid "Click \"Create\""
+#, no-wrap
+msgid "Click \"Create\"\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:58
-msgid ""
-"You will get a dialog box for creating various virtual hard disk types, and "
-"there are several hard disk types listed here. See the Oracle VirtualBox "
-"documentation for [more information](https://docs.oracle.com/en/"
-"virtualization/virtualbox/6.0/user/vdidetails.html) about selecting virtual "
-"hard disk types. For the purpose of this document, just keep the default "
-"(VDI):"
+#, no-wrap
+msgid "You will get a dialog box for creating various virtual hard disk types, and there are several hard disk types listed here. See the Oracle VirtualBox documentation for [more information](https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/vdidetails.html) about selecting virtual hard disk types. For the purpose of this document, just keep the default (VDI):\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:60
-msgid "![Hard Disk File Type](../images/vbox-04.png)"
+#, no-wrap
+msgid "![Hard Disk File Type](../images/vbox-04.png)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/virtualization/vbox-rocky.md:62
 #: ../src/docs/guides/virtualization/vbox-rocky.md:70
-msgid "Click \"Next\""
+#, no-wrap
+msgid "Click \"Next\"\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:64
-msgid ""
-"The next screen deals with the storage on the physical hard disk. There are "
-"two options. \"Fixed Size\" will be slower to create, faster to use, but "
-"less flexible in terms of space (if you need more space, you are stuck with "
-"what you created)."
+#, no-wrap
+msgid "The next screen deals with the storage on the physical hard disk. There are two options. \"Fixed Size\" will be slower to create, faster to use, but less flexible in terms of space (if you need more space, you are stuck with what you created).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:66
-msgid ""
-"The default option, \"Dynamically Allocated\", will be faster to create, "
-"slower to use, but will give you the option to grow if your disk space needs "
-"to change. For the purpose of this document, we are just accepting the "
-"default of \"Dynamically allocated.\""
+#, no-wrap
+msgid "The default option, \"Dynamically Allocated\", will be faster to create, slower to use, but will give you the option to grow if your disk space needs to change. For the purpose of this document, we are just accepting the default of \"Dynamically allocated.\"\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:68
-msgid "![Storage On Physical Hard Disk](../images/vbox-05.png)"
+#, no-wrap
+msgid "![Storage On Physical Hard Disk](../images/vbox-05.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:72
-msgid ""
-"VirtualBox&reg; now gives you the option to specify where you want the "
-"virtual hard disk file to be located as well as the option to expand the "
-"default 8 GB virtual hard disk space. This option is good, because 8 GB of "
-"hard disk space isn't enough to install, much less use, any of the GUI "
-"install options. Set this to 20 GB (or more) depending on what you want to "
-"use the virtual machine for, and how much free disk space you have available:"
+#, no-wrap
+msgid "VirtualBox&reg; now gives you the option to specify where you want the virtual hard disk file to be located as well as the option to expand the default 8 GB virtual hard disk space. This option is good, because 8 GB of hard disk space isn't enough to install, much less use, any of the GUI install options. Set this to 20 GB (or more) depending on what you want to use the virtual machine for, and how much free disk space you have available:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:74
-msgid "![File Location And Size](../images/vbox-06.png)"
+#, no-wrap
+msgid "![File Location And Size](../images/vbox-06.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:78
-msgid ""
-"We've finished the basic configuration. You should have a screen that looks "
-"something like this:"
+#, no-wrap
+msgid "We've finished the basic configuration. You should have a screen that looks something like this:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:80
-msgid "![Basic Configuration Complete](../images/vbox-07.png)"
+#, no-wrap
+msgid "![Basic Configuration Complete](../images/vbox-07.png)\n"
 msgstr ""
 
 #. type: Title ##
@@ -647,82 +602,87 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:84
-msgid ""
-"Our next step is to attach the ISO image that you downloaded earlier as a "
-"virtual CD ROM device. Click on the \"Settings\" (gear icon) and you should "
-"get the following screen:"
+#, no-wrap
+msgid "Our next step is to attach the ISO image that you downloaded earlier as a virtual CD ROM device. Click on the \"Settings\" (gear icon) and you should get the following screen:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:86
-msgid "![Settings](../images/vbox-08.png)"
+#, no-wrap
+msgid "![Settings](../images/vbox-08.png)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/virtualization/vbox-rocky.md:93
-msgid "Click the \"Storage\" item in the left-hand menu."
+#, no-wrap
+msgid "Click the \"Storage\" item in the left-hand menu.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/virtualization/vbox-rocky.md:93
-msgid ""
-"Under \"Storage Devices\" in the middle section, click the CD icon that says "
-"\"Empty\"."
+#, no-wrap
+msgid "Under \"Storage Devices\" in the middle section, click the CD icon that says \"Empty\".\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/virtualization/vbox-rocky.md:93
-msgid "Under \"Attributes\" on the right-hand side, click the CD icon."
+#, no-wrap
+msgid "Under \"Attributes\" on the right-hand side, click the CD icon.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/virtualization/vbox-rocky.md:93
-msgid "Select \"Choose/Create a Virtual Optical Disk\"."
+#, no-wrap
+msgid "Select \"Choose/Create a Virtual Optical Disk\".\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/virtualization/vbox-rocky.md:93
-msgid ""
-"Click the \"Add\" button (plus sign icon) and navigate to where your Rocky "
-"Linux ISO image is stored."
+#, no-wrap
+msgid "Click the \"Add\" button (plus sign icon) and navigate to where your Rocky Linux ISO image is stored.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/virtualization/vbox-rocky.md:93
-msgid "Select the ISO and click \"Open\"."
+#, no-wrap
+msgid "Select the ISO and click \"Open\".\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:95
-msgid "You should now have the ISO added to the available devices like this:"
+#, no-wrap
+msgid "You should now have the ISO added to the available devices like this:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:97
-msgid "![ISO Image Added](../images/vbox-09.png)"
+#, no-wrap
+msgid "![ISO Image Added](../images/vbox-09.png)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/virtualization/vbox-rocky.md:99
-msgid "Highlight the ISO image and then click \"Choose\"."
+#, no-wrap
+msgid "Highlight the ISO image and then click \"Choose\".\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:101
-msgid ""
-"The Rocky Linux ISO image now shows selected under the \"Controller:IDE\" in "
-"the middle section:"
+#, no-wrap
+msgid "The Rocky Linux ISO image now shows selected under the \"Controller:IDE\" in the middle section:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:103
-msgid "![ISO Image Selected](../images/vbox-10.png)"
+#, no-wrap
+msgid "![ISO Image Selected](../images/vbox-10.png)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/virtualization/vbox-rocky.md:105
 #: ../src/docs/guides/virtualization/vbox-rocky.md:131
-msgid "Click \"OK\""
+#, no-wrap
+msgid "Click \"OK\"\n"
 msgstr ""
 
 #. type: Title ###
@@ -733,65 +693,50 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:109
-msgid ""
-"VirtualBox&reg; sets up 16 MB of memory to use for video. That is fine if "
-"you are planning on running a bare-bones server without a GUI, but as soon "
-"as you add graphics, that's not enough. Users who keep this setting often "
-"see a hanging boot screen that never finishes, or other errors."
+#, no-wrap
+msgid "VirtualBox&reg; sets up 16 MB of memory to use for video. That is fine if you are planning on running a bare-bones server without a GUI, but as soon as you add graphics, that's not enough. Users who keep this setting often see a hanging boot screen that never finishes, or other errors.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:111
-msgid ""
-"If you are going to be running Rocky Linux with a GUI, you should allocate "
-"enough memory to easily run the graphics. If your machine is a bit thin on "
-"memory, adjust this value upwards 16 MB at a time until things run smoothly. "
-"Your host machine's video resolution is also a factor that you need to "
-"consider."
+#, no-wrap
+msgid "If you are going to be running Rocky Linux with a GUI, you should allocate enough memory to easily run the graphics. If your machine is a bit thin on memory, adjust this value upwards 16 MB at a time until things run smoothly. Your host machine's video resolution is also a factor that you need to consider.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:113
-msgid ""
-"Think carefully about what you want your Rocky Linux virtual machine to do, "
-"and try to allocate video memory that is compatible with your host machine "
-"and your other requirements. You can find more information on display "
-"settings from [Oracle's official documentation](https://docs.oracle.com/en/"
-"virtualization/virtualbox/6.0/user/settings-display.html)."
+#, no-wrap
+msgid "Think carefully about what you want your Rocky Linux virtual machine to do, and try to allocate video memory that is compatible with your host machine and your other requirements. You can find more information on display settings from [Oracle's official documentation](https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/settings-display.html).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:115
-msgid ""
-"If you've got plenty of memory, you can set this value to the maximum of 128 "
-"MB. To fix this before we start the virtual machine, click on the \"Settings"
-"\" (gear icon) and you should get the same settings screen that we got when "
-"attaching our ISO image (above)."
+#, no-wrap
+msgid "If you've got plenty of memory, you can set this value to the maximum of 128 MB. To fix this before we start the virtual machine, click on the \"Settings\" (gear icon) and you should get the same settings screen that we got when attaching our ISO image (above).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:117
-msgid "This time:"
+#, no-wrap
+msgid "This time:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/virtualization/vbox-rocky.md:121
-msgid "Click on \"Display\" on the left-hand side."
+#, no-wrap
+msgid "Click on \"Display\" on the left-hand side.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/virtualization/vbox-rocky.md:121
-msgid ""
-"In the \"Screen\" tab on the right-hand side, you'll notice the \"Video "
-"Memory\" option with the default set to 16 MB."
+#, no-wrap
+msgid "In the \"Screen\" tab on the right-hand side, you'll notice the \"Video Memory\" option with the default set to 16 MB.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/virtualization/vbox-rocky.md:121
-msgid ""
-"Change this to the value that you want. You can adjust this upwards by "
-"coming back to this screen anytime. In our example, we are selecting 128 MB "
-"now."
+#, no-wrap
+msgid "Change this to the value that you want. You can adjust this upwards by coming back to this screen anytime. In our example, we are selecting 128 MB now.\n"
 msgstr ""
 
 #. type: Plain text
@@ -802,12 +747,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:127
-msgid "Your screen should look something like this:"
+#, no-wrap
+msgid "Your screen should look something like this:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:129
-msgid "![Settings Video](../images/vbox-12.png)"
+#, no-wrap
+msgid "![Settings Video](../images/vbox-12.png)\n"
 msgstr ""
 
 #. type: Title ##
@@ -818,76 +765,80 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:135
-msgid ""
-"We've set everything up so that we can start the installation. Note that "
-"there are no particular differences in the install of Rocky Linux on a "
-"VirtualBox&reg; machine compared to stand-alone hardware. The installation "
-"steps are the same."
+#, no-wrap
+msgid "We've set everything up so that we can start the installation. Note that there are no particular differences in the install of Rocky Linux on a VirtualBox&reg; machine compared to stand-alone hardware. The installation steps are the same.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:137
-msgid ""
-"Now that we have everything prepared for the install, you just need to click "
-"\"Start\" (green right-arrow icon) to start installing Rocky. Once you click "
-"past the language selection screen, your next screen is the \"Installation "
-"Summary\" screen. You need to set any of these items that pertain to you, "
-"but the following are musts:"
+#, no-wrap
+msgid "Now that we have everything prepared for the install, you just need to click \"Start\" (green right-arrow icon) to start installing Rocky. Once you click past the language selection screen, your next screen is the \"Installation Summary\" screen. You need to set any of these items that pertain to you, but the following are musts:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/virtualization/vbox-rocky.md:143
-msgid ""
-"Software Selection (if you want something besides the default \"Server with "
-"GUI\")"
+#, no-wrap
+msgid "Time & Date\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/virtualization/vbox-rocky.md:143
-msgid "User Settings"
+#, no-wrap
+msgid "Software Selection (if you want something besides the default \"Server with GUI\")\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/virtualization/vbox-rocky.md:143
+#, no-wrap
+msgid "Installation Destination\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/virtualization/vbox-rocky.md:143
+#, no-wrap
+msgid "Network & Hostname\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/virtualization/vbox-rocky.md:143
+#, no-wrap
+msgid "User Settings\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:145
-msgid ""
-"If you are unsure of any of these settings, refer to the document for "
-"[Installing Rocky](../installation.md)."
+#, no-wrap
+msgid "If you are unsure of any of these settings, refer to the document for [Installing Rocky](../installation.md).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:147
-msgid ""
-"Once you have finished the installation, you should have a running "
-"VirtualBox&reg; instance of Rocky Linux."
+#, no-wrap
+msgid "Once you have finished the installation, you should have a running VirtualBox&reg; instance of Rocky Linux.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:149
-msgid ""
-"After installing and rebooting you will get a EULA license agreement screen "
-"that you need to agree to, and once you've clicked \"Finish Configuration\", "
-"you should get either a graphical (if you chose a GUI option) or command "
-"line login. The author chose the default \"Server with GUI\" for demo "
-"purposes:"
+#, no-wrap
+msgid "After installing and rebooting you will get a EULA license agreement screen that you need to agree to,  and once you've clicked \"Finish Configuration\", you should get either a graphical (if you chose a GUI option) or command line login. The author chose the default \"Server with GUI\" for demo purposes:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:151
-msgid "![A Running Rocky VirtualBox Machine](../images/vbox-11.png)"
+#, no-wrap
+msgid "![A Running Rocky VirtualBox Machine](../images/vbox-11.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:155
-msgid ""
-"It is not the intent of this document to make you an expert on all of the "
-"features that VirtualBox&reg; can provide. For information on how to do "
-"specific things please check the [official documentation](https://docs."
-"oracle.com/en/virtualization/virtualbox/6.0/user/)."
+#, no-wrap
+msgid "It is not the intent of this document to make you an expert on all of the features that VirtualBox&reg; can provide. For information on how to do specific things please check the [official documentation](https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:157
-msgid "!!! tip \"Advanced Tip\""
+#, no-wrap
+msgid "!!! tip \"Advanced Tip\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -898,10 +849,6 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/virtualization/vbox-rocky.md:162
-msgid ""
-"It is easy to create, install, and run a VirtualBox&reg; Rocky Linux "
-"machine. While far from an exhaustive guide, following the steps above "
-"should get you a running Rocky Linux install. If you use VirtualBox&reg; and "
-"have a specific configuration that you would like to share, the author "
-"invites you to submit new sections to this document."
+#, no-wrap
+msgid "It is easy to create, install, and run a VirtualBox&reg; Rocky Linux machine. While far from an exhaustive guide, following the steps above should get you a running Rocky Linux install. If you use VirtualBox&reg; and have a specific configuration that you would like to share, the author invites you to submit new sections to this document.\n"
 msgstr ""

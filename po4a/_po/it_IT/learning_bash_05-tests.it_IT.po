@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -173,7 +173,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -200,7 +199,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Plain text
@@ -311,7 +311,8 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:394
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:154
 #: ../src/docs/guides/web/php.md:255
-msgid "Example:"
+#, no-wrap
+msgid "Example:\n"
 msgstr ""
 
 #. type: Plain text
@@ -367,7 +368,8 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:243
 #: ../src/docs/guides/security/learning_selinux.md:263
 #: ../src/docs/guides/web/php.md:145
-msgid "!!! Warning"
+#, no-wrap
+msgid "!!! Warning\n"
 msgstr ""
 
 #. type: Plain text
@@ -400,7 +402,8 @@ msgstr ""
 #: ../src/docs/guides/proxies/pound.md:62
 #: ../src/docs/guides/proxies/pound.md:418 ../src/docs/index.md:40
 #: ../src/docs/release_notes/9_1.md:16
-msgid "!!! note"
+#, no-wrap
+msgid "!!! note\n"
 msgstr ""
 
 #. type: Plain text
@@ -440,7 +443,8 @@ msgstr ""
 #: ../src/docs/labs/security/lab9-cryptography.md:125
 #: ../src/docs/labs/security/lab9-cryptography.md:322
 #: ../src/docs/labs/security/lab9-cryptography.md:516
-msgid "!!! NOTE"
+#, no-wrap
+msgid "!!! NOTE\n"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
@@ -539,7 +543,8 @@ msgstr ""
 #: ../src/docs/books/learning_bash/02-using-variables.md:26
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:26
 #: ../src/docs/books/learning_bash/05-tests.md:24
-msgid ":checkered_flag: **linux**, **script**, **bash**, **variable**"
+#, no-wrap
+msgid ":checkered_flag: **linux**, **script**, **bash**, **variable**\n"
 msgstr ""
 
 #. type: Title #
@@ -583,38 +588,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/05-tests.md:33
-msgid ""
-"Upon completion, all commands executed by the shell return a **return code** "
-"(also called **status** or **exit code**)."
+#, no-wrap
+msgid "Upon completion, all commands executed by the shell return a **return code** (also called **status** or **exit code**).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_bash/05-tests.md:36
-msgid ""
-"If the command ran correctly, the convention is that the status code will be "
-"**zero**."
+#, no-wrap
+msgid "If the command ran correctly, the convention is that the status code will be **zero**.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_bash/05-tests.md:36
-msgid ""
-"If the command encountered a problem during its execution, its status code "
-"will have a **non-zero value**. There are many reasons for this: lack of "
-"access rights, missing file, incorrect input, etc."
+#, no-wrap
+msgid "If the command encountered a problem during its execution, its status code will have a **non-zero value**. There are many reasons for this: lack of access rights, missing file, incorrect input, etc.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/05-tests.md:38
-msgid ""
-"You should refer to the manual of the `man command` to know the different "
-"values of the return code provided by the developers."
+#, no-wrap
+msgid "You should refer to the manual of the `man command` to know the different values of the return code provided by the developers.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/05-tests.md:40
-msgid ""
-"The return code is not visible directly, but is stored in a special "
-"variable: `$?`."
+#, no-wrap
+msgid "The return code is not visible directly, but is stored in a special variable: `$?`.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -666,8 +665,8 @@ msgstr ""
 #: ../src/docs/guides/security/dnf_automatic.md:67
 #: ../src/docs/guides/security/firewalld.md:102
 #: ../src/docs/labs/sys_admin_1/lab7-software_management.md:115
-#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:368
-msgid "!!! tip"
+#, no-wrap
+msgid "!!! tip\n"
 msgstr ""
 
 #. type: Plain text
@@ -693,9 +692,10 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/05-tests.md:82
+#, no-wrap
 msgid ""
-"It is also possible to create return codes in a script.  To do so, you just "
-"need to add a numeric argument to the `exit` command."
+"It is also possible to create return codes in a script.\n"
+"To do so, you just need to add a numeric argument to the `exit` command.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -710,44 +710,50 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/05-tests.md:91
-msgid ""
-"In addition to the correct execution of a command, the shell offers the "
-"possibility to run tests on many patterns:"
+#, no-wrap
+msgid "In addition to the correct execution of a command, the shell offers the possibility to run tests on many patterns:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_bash/05-tests.md:95
-msgid "**Files**: existence, type, rights, comparison;"
+#, no-wrap
+msgid "**Files**: existence, type, rights, comparison;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_bash/05-tests.md:95
-msgid "**Strings**: length, comparison;"
+#, no-wrap
+msgid "**Strings**: length, comparison;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_bash/05-tests.md:95
-msgid "**Numeric integers**: value, comparison."
+#, no-wrap
+msgid "**Numeric integers**: value, comparison.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/05-tests.md:97
-msgid "The result of the test:"
+#, no-wrap
+msgid "The result of the test:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_bash/05-tests.md:101
-msgid "`$?=0` : the test was correctly executed and is true;"
+#, no-wrap
+msgid "`$?=0` : the test was correctly executed and is true;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_bash/05-tests.md:101
-msgid "`$?=1` : the test was correctly executed and is false;"
+#, no-wrap
+msgid "`$?=1` : the test was correctly executed and is false;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_bash/05-tests.md:101
-msgid "`$?=2` : the test was not correctly executed."
+#, no-wrap
+msgid "`$?=2` : the test was not correctly executed.\n"
 msgstr ""
 
 #. type: Title ##
@@ -758,7 +764,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/05-tests.md:105
-msgid "Syntax of the `test` command for a file:"
+#, no-wrap
+msgid "Syntax of the `test` command for a file:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -770,7 +777,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/books/learning_bash/05-tests.md:111
 #: ../src/docs/guides/file_sharing/glusterfs.md:133
-msgid "or:"
+#, no-wrap
+msgid "or:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -787,7 +795,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/05-tests.md:121
-msgid "Options of the test command on files:"
+#, no-wrap
+msgid "Options of the test command on files:\n"
 msgstr ""
 
 #. type: Plain text
@@ -827,9 +836,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/05-tests.md:152
-msgid ""
-"An internal command to some shells (including bash) that is more modern, and "
-"provides more features than the external command `test`, has been created."
+#, no-wrap
+msgid "An internal command to some shells (including bash) that is more modern, and provides more features than the external command `test`, has been created.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -855,7 +863,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/05-tests.md:166
-msgid "It is also possible to compare two files:"
+#, no-wrap
+msgid "It is also possible to compare two files:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -883,7 +892,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/05-tests.md:180
-msgid "It is possible to test variables:"
+#, no-wrap
+msgid "It is possible to test variables:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -910,7 +920,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/05-tests.md:193
-msgid "It is also possible to compare two strings:"
+#, no-wrap
+msgid "It is also possible to compare two strings:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -948,7 +959,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/05-tests.md:216
-msgid "Syntax for testing integers:"
+#, no-wrap
+msgid "Syntax for testing integers:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1017,14 +1029,14 @@ msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/books/learning_bash/05-tests.md:261
-msgid ""
-"In the first case, it will mean that the two characters have the same value "
-"in the ASCII table."
+#, no-wrap
+msgid "In the first case, it will mean that the two characters have the same value in the ASCII table.\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/books/learning_bash/05-tests.md:261
-msgid "In the second case, it will mean that the two numbers are equal."
+#, no-wrap
+msgid "In the second case, it will mean that the two numbers are equal.\n"
 msgstr ""
 
 #. type: Title ##
@@ -1035,10 +1047,10 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/05-tests.md:266
+#, no-wrap
 msgid ""
-"The combination of tests allows you to perform several tests in one "
-"command.  It is possible to test the same argument (file, string or numeric) "
-"several times or different arguments."
+"The combination of tests allows you to perform several tests in one command.\n"
+"It is possible to test the same argument (file, string or numeric) several times or different arguments.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1070,7 +1082,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/05-tests.md:286
-msgid "With the internal command, it is better to use this syntax:"
+#, no-wrap
+msgid "With the internal command, it is better to use this syntax:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1081,7 +1094,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/05-tests.md:292
-msgid "Tests can be grouped with parentheses `(` `)` to give them priority."
+#, no-wrap
+msgid "Tests can be grouped with parentheses `(` `)` to give them priority.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1092,9 +1106,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/05-tests.md:298
-msgid ""
-"The `!` character is used to perform the reverse test of the one requested "
-"by the option:"
+#, no-wrap
+msgid "The `!` character is used to perform the reverse test of the one requested by the option:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1113,7 +1126,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/05-tests.md:307
-msgid "The `expr` command performs an operation with numeric integers."
+#, no-wrap
+msgid "The `expr` command performs an operation with numeric integers.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1159,7 +1173,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/05-tests.md:336
-msgid "The `typeset -i` command declares a variable as an integer."
+#, no-wrap
+msgid "The `typeset -i` command declares a variable as an integer.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1183,7 +1198,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/05-tests.md:352
-msgid "The `let` command tests if a character is numeric."
+#, no-wrap
+msgid "The `let` command  tests if a character is numeric.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1219,7 +1235,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/05-tests.md:377
-msgid "The `let` command also allows you to perform mathematical operations:"
+#, no-wrap
+msgid "The `let` command also allows you to perform mathematical operations:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1233,7 +1250,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/05-tests.md:385
-msgid "`let` can be substituted by `$(( ))`."
+#, no-wrap
+msgid "`let` can be substituted by `$(( ))`.\n"
 msgstr ""
 
 #. type: Fenced code block

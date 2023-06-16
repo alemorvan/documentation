@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -142,7 +142,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -169,7 +168,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Title ###
@@ -187,7 +187,8 @@ msgstr ""
 #: ../src/docs/gemstones/markdown-demo-v2.md:57
 #: ../src/docs/guides/custom-linux-kernel.md:51
 #: ../src/docs/guides/custom-linux-kernel.md:197
-msgid "!!! TIP"
+#, no-wrap
+msgid "!!! TIP\n"
 msgstr ""
 
 #. type: YAML Front Matter: tags
@@ -217,61 +218,50 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:12
-msgid ""
-"In this guide, we’ll walk through the process of acquiring a kernel source "
-"tree, configuring it, compiling it, and, finally, installing and booting the "
-"kernel."
+#, no-wrap
+msgid "In this guide, we’ll walk through the process of acquiring a kernel source tree, configuring it, compiling it, and, finally, installing and booting the kernel.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:14
-msgid ""
-"!!! warning \"Kernel rebuilds are not recommended nor supported for Rocky "
-"Linux. Before building a custom kernel or even considering it, ask yourself "
-"the following questions:\""
+#, no-wrap
+msgid "!!! warning \"Kernel rebuilds are not recommended nor supported for Rocky Linux. Before building a custom kernel or even considering it, ask yourself the following questions:\"\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/custom-linux-kernel.md:21
-msgid ""
-"Is the functionality you need available by installing a kernel module from "
-"[elrepo](https://elrepo.org)?"
+#, no-wrap
+msgid "Is the functionality you need available by installing a kernel module from [elrepo](https://elrepo.org)?\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/custom-linux-kernel.md:21
-msgid ""
-"Is the functionality you need available as a separate module from the kernel "
-"itself?"
+#, no-wrap
+msgid "Is the functionality you need available as a separate module from the kernel itself?\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/custom-linux-kernel.md:21
-msgid "Are you willing to maintain your own security posture?"
+#, no-wrap
+msgid "Are you willing to maintain your own security posture?\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/custom-linux-kernel.md:21
-msgid ""
-"**Are you sure**? Rocky Linux and most other EL derivatives were designed to "
-"function as a complete environment. Replacing critical components can affect "
-"how the system acts."
+#, no-wrap
+msgid "**Are you sure**? Rocky Linux and most other EL derivatives were designed to function as a complete environment. Replacing critical components can affect how the system acts.\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/custom-linux-kernel.md:21
-msgid ""
-"**Are you ABSOLUTELY sure**? 99.9% of the users no longer need to build "
-"their own kernel. You may simply need a kernel module/driver, in which case, "
-"you can use [elrepo](https://elrepo.org) or build your own kernel module "
-"(kmod/dkms)"
+#, no-wrap
+msgid "**Are you ABSOLUTELY sure**? 99.9% of the users no longer need to build their own kernel. You may simply need a kernel module/driver, in which case, you can use [elrepo](https://elrepo.org) or build your own kernel module (kmod/dkms)\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/custom-linux-kernel.md:21
-msgid ""
-"**Are you sure you do not just want a newer kernel version**? Newer kernels "
-"can be found at [elrepo](https://elrepo.org)"
+#, no-wrap
+msgid "**Are you sure you do not just want a newer kernel version**? Newer kernels can be found at [elrepo](https://elrepo.org)\n"
 msgstr ""
 
 #. type: Plain text
@@ -288,28 +278,24 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:28
+#, no-wrap
 msgid ""
-"Most often, when people say _Linux_, they are usually referring to a "
-"\"_Linux distribution_\" —for example, Rocky Linux and Debian are types of "
-"Linux distribution. A distribution comprises everything necessary to get "
-"Linux to exist as a functional operating system.  Distributions make use of "
-"code from various open source projects that are independent of Linux."
+"Most often, when people say _Linux_, they are usually referring to a \"_Linux distribution_\" —for example, Rocky Linux and Debian are types of Linux distribution. A distribution comprises everything necessary to get Linux to exist as a functional operating system.\n"
+"Distributions make use of code from various open source projects that are independent of Linux.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:30
-msgid ""
-"Linux is The kernel. The kernel literally sits right at the heart of the "
-"[operating system] matter."
+#, no-wrap
+msgid "Linux is The kernel. The kernel literally sits right at the heart of the [operating system] matter.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:33
+#, no-wrap
 msgid ""
-"The only thing more fundamental than the kernel is the system hardware "
-"itself.  Although the kernel is a small part of a complete Linux "
-"distribution, it is by far the most critical element. If the kernel fails or "
-"crashes, the rest of the system goes with it."
+"The only thing more fundamental than the kernel is the system hardware itself.\n"
+"Although the kernel is a small part of a complete Linux distribution, it is by far the most critical element. If the kernel fails or crashes, the rest of the system goes with it.\n"
 msgstr ""
 
 #. type: Title ##
@@ -320,41 +306,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:38
-msgid ""
-"The Rocky Linux distribution has the source code for the specific kernel "
-"version it supports available in one form or another. These could be in the "
-"form of a compiled binary (*.src.rpm), a source RPM (*.srpm), or the like."
+#, no-wrap
+msgid "The Rocky Linux distribution has the source code for the specific kernel version it supports available in one form or another. These could be in the form of a compiled binary (*.src.rpm), a source RPM (*.srpm), or the like.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:40
-msgid ""
-"If you need to download a different (possibly newer) version than the one "
-"your specific Rocky Linux distro provides, the first place to look for the "
-"source code is at the official kernel web site:"
+#, no-wrap
+msgid "If you need to download a different (possibly newer) version than the one your specific Rocky Linux distro provides, the first place to look for the source code is at the official kernel web site:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:42
-msgid "[www.kernel.org](https://www.kernel.org)"
+#, no-wrap
+msgid "[www.kernel.org](https://www.kernel.org)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:44
-msgid ""
-"This site maintains a listing of web sites mirroring the kernel source, as "
-"well as tons of other open source software, distributions and general-"
-"purpose utilities."
+#, no-wrap
+msgid "This site maintains a listing of web sites mirroring the kernel source, as well as tons of other open source software, distributions and general-purpose utilities.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:46
-msgid "The list of mirrors is maintained at:"
+#, no-wrap
+msgid "The list of mirrors is maintained at:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:48
-msgid "[mirrors.kernel.org](http://mirrors.kernel.org)"
+#, no-wrap
+msgid "[mirrors.kernel.org](http://mirrors.kernel.org)\n"
 msgstr ""
 
 #. type: Plain text
@@ -383,31 +366,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:61
-msgid ""
-"The web site listing of kernels available will contain folders for v1.0, "
-"v2.5, v2.6, v3.0, v3.x, v4.x, v5.x, v6.x and so forth. Before you follow "
-"your natural inclination to get the latest version, make sure you understand "
-"how the Linux kernel versioning system works."
+#, no-wrap
+msgid "The web site listing of kernels available will contain folders for v1.0, v2.5, v2.6, v3.0, v3.x, v4.x, v5.x, v6.x and so forth. Before you follow your natural inclination to get the latest version, make sure you understand how the Linux kernel versioning system works.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:63
-msgid ""
-"The current convention is to name and number major new kernel releases as "
-"“Linux 5.x” (also called the vanilla or mainline kernels). Thus the first of "
-"this series will be Linux version 5.0 (same as 5.0.0), the next will be "
-"Linux version 5.1 (same as 5.1.0), followed by Linux version 5.2, and so on."
+#, no-wrap
+msgid "The current convention is to name and number major new kernel releases as “Linux 5.x” (also called the vanilla or mainline kernels). Thus the first of this series will be Linux version 5.0 (same as 5.0.0), the next will be Linux version 5.1 (same as 5.1.0), followed by Linux version 5.2, and so on.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:65
-msgid ""
-"Any minor changes or updates within each major release version will be "
-"reflected by increments to the third digit. These are commonly referred to "
-"as stable point releases. Thus, the next stable point release for the 5.0.0 "
-"series kernel will be Linux version 5.0.1, followed by version 5.0.2, and so "
-"forth. Another way of stating this is to say, for example, that Linux "
-"version 5.0.4 is the fourth stable release based on the Linux 5.0.0 series."
+#, no-wrap
+msgid "Any minor changes or updates within each major release version will be reflected by increments to the third digit. These are commonly referred to as stable point releases. Thus, the next stable point release for the 5.0.0 series kernel will be Linux version 5.0.1, followed by version 5.0.2, and so forth. Another way of stating this is to say, for example, that Linux version 5.0.4 is the fourth stable release based on the Linux 5.0.0 series.\n"
 msgstr ""
 
 #. type: Title ##
@@ -418,19 +390,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:69
-msgid ""
-"A common source of failure encountered during the kernel build process may "
-"be caused by not having all the requisite software available for compiling "
-"and building the mainline Linux Kernel.  The missing tools and libraries can "
-"be installed using the DNF package manager on a Rocky Linux distro. We’ll "
-"take care of this in this section."
+#, no-wrap
+msgid "A common source of failure encountered during the kernel build process may be caused by not having all the requisite software available for compiling and building the mainline Linux Kernel.  The missing tools and libraries can be installed using the DNF package manager on a Rocky Linux distro. We’ll take care of this in this section.\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/guides/custom-linux-kernel.md:71
-msgid ""
-"On a Rocky Linux distro, you can quickly get most of the necessary "
-"development tools installed by running this command:"
+#, no-wrap
+msgid "On a Rocky Linux distro, you can quickly get most of the necessary development tools installed by running this command:\n"
 msgstr ""
 
 #. type: Plain text
@@ -459,9 +426,8 @@ msgstr ""
 
 #. type: Bullet: '2. '
 #: ../src/docs/guides/custom-linux-kernel.md:83
-msgid ""
-"Some other libraries, header files and applications that you might need can "
-"also be obtained by installing the following packages. Type:"
+#, no-wrap
+msgid "Some other libraries, header files and applications that you might need can also be obtained by installing the following packages. Type:\n"
 msgstr ""
 
 #. type: Plain text
@@ -476,10 +442,8 @@ msgstr ""
 
 #. type: Bullet: '3. '
 #: ../src/docs/guides/custom-linux-kernel.md:90
-msgid ""
-"Next, we need some other utilities that are only available in some supported "
-"3rd party repositories. One of such repositories is the Powertools repo. "
-"Let’s enable that repo on our Rocky system. Type:"
+#, no-wrap
+msgid "Next, we need some other utilities that are only available in some supported 3rd party repositories. One of such repositories is the Powertools repo. Let’s enable that repo on our Rocky system. Type:\n"
 msgstr ""
 
 #. type: Plain text
@@ -493,9 +457,8 @@ msgstr ""
 
 #. type: Bullet: '4. '
 #: ../src/docs/guides/custom-linux-kernel.md:96
-msgid ""
-"Finally, let’s install one of the needed packages from the Powertool repo. "
-"Type:"
+#, no-wrap
+msgid "Finally, let’s install one of the needed packages from the Powertool repo. Type:\n"
 msgstr ""
 
 #. type: Plain text
@@ -509,8 +472,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:102
-msgid ""
-"That’s it for the prerequisite packages needed for actual Kernel building!"
+#, no-wrap
+msgid "That’s it for the prerequisite packages needed for actual Kernel building!\n"
 msgstr ""
 
 #. type: Title ##
@@ -521,28 +484,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:106
-msgid ""
-"The version of the kernel that we are going to build in the following "
-"section is version 5.16.9, which is available at:"
+#, no-wrap
+msgid "The version of the kernel that we are going to build in the following section is version 5.16.9, which is available at:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:108
-msgid ""
-"[www.kernel.org/pub/linux/kernel/v5.x/linux-5.16.9.tar.xz](https://www."
-"kernel.org/pub/linux/kernel/v5.x/linux-5.16.9.tar.xz)"
+#, no-wrap
+msgid "[www.kernel.org/pub/linux/kernel/v5.x/linux-5.16.9.tar.xz](https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.16.9.tar.xz)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:110
-msgid "Let’s begin the process."
+#, no-wrap
+msgid "Let’s begin the process.\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/guides/custom-linux-kernel.md:112
-msgid ""
-"First, use the following curl command to download the needed kernel source "
-"into your current working directory. Type:"
+#, no-wrap
+msgid "First, use the following curl command to download the needed kernel source into your current working directory. Type:\n"
 msgstr ""
 
 #. type: Plain text
@@ -557,10 +518,8 @@ msgstr ""
 
 #. type: Bullet: '2. '
 #: ../src/docs/guides/custom-linux-kernel.md:119
-msgid ""
-"The kernel source that you will download from the Internet is a file that "
-"has been compressed and tarred. Therefore, to use the source, you need to "
-"decompress and untar the source file."
+#, no-wrap
+msgid "The kernel source that you will download from the Internet is a file that has been compressed and tarred. Therefore, to use the source, you need to decompress and untar the source file.\n"
 msgstr ""
 
 #. type: Plain text
@@ -586,63 +545,56 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:129
-msgid ""
-"In this section, we’re going to review the process of configuring and "
-"building a kernel. This is in contrast to macOS or Windows-based operating "
-"systems, which come preconfigured and therefore contain support for many "
-"features you may or may not want."
+#, no-wrap
+msgid "In this section, we’re going to review the process of configuring and building a kernel. This is in contrast to macOS or Windows-based operating systems, which come preconfigured and therefore contain support for many features you may or may not want.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:131
-msgid ""
-"The Linux design philosophy allows the individual to decide on the important "
-"parts of the kernel.This individualized design has the important benefit of "
-"letting you thin down the feature list so that Linux can run as efficiently "
-"as possible."
+#, no-wrap
+msgid "The Linux design philosophy allows the individual to decide on the important parts of the kernel.This individualized design has the important benefit of letting you thin down the feature list so that Linux can run as efficiently as possible.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:133
-msgid ""
-"This is also one of the reasons why it is possible to customize Linux to run "
-"in various hardware setups, from low-end systems, to embedded systems, to "
-"high-end systems."
+#, no-wrap
+msgid "This is also one of the reasons why it is possible to customize Linux to run in various hardware setups, from low-end systems, to embedded systems, to high-end systems.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:135
-msgid "Two main steps are required in building a kernel:"
+#, no-wrap
+msgid "Two main steps are required in building a kernel:\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: ../src/docs/guides/custom-linux-kernel.md:138
-msgid "- configuring - compiling"
+#, no-wrap
+msgid "configuring\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/guides/custom-linux-kernel.md:138
+#, no-wrap
+msgid "compiling\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:140
-msgid ""
-"The first step in building the kernel is configuring its features. Usually, "
-"your desired feature list will be based on whatever hardware you need to "
-"support. This, of course, means that you’ll need a list of that hardware."
+#, no-wrap
+msgid "The first step in building the kernel is configuring its features. Usually, your desired feature list will be based on whatever hardware you need to support. This, of course, means that you’ll need a list of that hardware.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:142
-msgid ""
-"On a system that is already running Linux, you can run commands like – "
-"lspci, lshw and so on to help show detailed information about the exact "
-"hardware setup on your system. On RPM-based distros these utilities are "
-"provided by the pciutils*.rpm and lshw*.rpm packages."
+#, no-wrap
+msgid "On a system that is already running Linux, you can run commands like – lspci, lshw and so on to help show detailed information about the exact hardware setup on your system. On  RPM-based distros these utilities are provided by the pciutils*.rpm and lshw*.rpm packages.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:144
-msgid ""
-"Having a better understanding of what constitutes your underlying hardware "
-"can help you better determine what you need in your custom kernel. You’re "
-"ready to start configuring the kernel."
+#, no-wrap
+msgid "Having a better understanding of what constitutes your underlying hardware can help you better determine what you need in your custom kernel. You’re ready to start configuring the kernel.\n"
 msgstr ""
 
 #. type: Title ###
@@ -653,32 +605,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:148
-msgid ""
-"With a rough idea of the types of hardware and features that our new kernel "
-"needs to support, we can begin the actual configuration. But first, some "
-"background information."
+#, no-wrap
+msgid "With a rough idea of the types of hardware and features that our new kernel needs to support, we can begin the actual configuration. But first, some background information.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:150
-msgid ""
-"The Linux kernel source tree contains several files named Makefile (a "
-"makefile is simply a text file with directives and it also describes the "
-"relationships among the files in a program)."
+#, no-wrap
+msgid "The Linux kernel source tree contains several files named Makefile (a makefile is simply a text file with directives and it also describes the relationships among the files in a program).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:152
-msgid ""
-"These makefiles help to glue together the thousands of other files that make "
-"up the kernel source. What is more important to us here is that the "
-"makefiles also contain targets. The targets are the commands, or directives, "
-"that are executed by the make program."
+#, no-wrap
+msgid "These makefiles help to glue together the thousands of other files that make up the kernel source. What is more important to us here is that the makefiles also contain targets. The targets are the commands, or directives, that are executed by the make program.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:155
-msgid "!!! warning \"warning: Avoid Needless Kernel Upgrades\""
+#, no-wrap
+msgid "!!! warning \"warning: Avoid Needless Kernel Upgrades\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -689,12 +635,14 @@ msgstr ""
 
 #. type: Bullet: '    - '
 #: ../src/docs/guides/custom-linux-kernel.md:160
-msgid "A security or bug fix affects your system and must be applied"
+#, no-wrap
+msgid "A security or bug fix affects your system and must be applied\n"
 msgstr ""
 
 #. type: Bullet: '    - '
 #: ../src/docs/guides/custom-linux-kernel.md:160
-msgid "You need a specific new feature in a stable release"
+#, no-wrap
+msgid "You need a specific new feature in a stable release\n"
 msgstr ""
 
 #. type: Plain text
@@ -711,33 +659,50 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:166
-msgid ""
-"The Makefile in the root of the kernel source tree contains specific targets "
-"that can be used in prepping the kernel build environment, configuring the "
-"kernel, compiling the kernel, installing the kernel, and so on. Some of the "
-"targets are discussed in more detail here:"
+#, no-wrap
+msgid "The Makefile in the root of the kernel source tree contains specific targets that can be used in prepping the kernel build environment, configuring the kernel, compiling the kernel, installing the kernel, and so on. Some of the targets are discussed in more detail here:\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: ../src/docs/guides/custom-linux-kernel.md:174
-msgid ""
-"- **make mrproper** This target cleans up the build environment of any stale "
-"files and dependencies that might have been left over from a previous kernel "
-"build. All previous kernel configurations will be cleaned (deleted) from the "
-"build environment.  - **make clean** This target does not do as thorough a "
-"job as the mrproper target. It deletes only most generated files. It does "
-"not delete the kernel configuration file (.config).  - **make menuconfig** "
-"This target invokes a text-based editor interface with menus, option lists, "
-"and text-based dialog boxes for configuring the kernel.  - **make xconfig** "
-"This is a GUI based kernel configuration tool/target that relies on the Qt "
-"graphical development libraries. These libraries are used by KDE/Plasma-"
-"based applications.  - **make gconfig** This is also a GUI based kernel "
-"configuration tool/target, but it relies on the GTK+ toolkit. This GTK "
-"toolkit is heavily used in the GNOME desktop world.  - **make olddefconfig** "
-"This target uses the existing .config file in the current working directory, "
-"updates the dependencies, and automatically sets new symbols to their "
-"default values.  - **make help** This target will show you all the other "
-"possible make targets and also serves as a quick online help system."
+#, no-wrap
+msgid "**make mrproper** This target cleans up the build environment of any stale files and dependencies that might have been left over from a previous kernel build. All previous kernel configurations will be cleaned (deleted) from the build environment.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/guides/custom-linux-kernel.md:174
+#, no-wrap
+msgid "**make clean** This target does not do as thorough a job as the mrproper target. It deletes only most generated files. It does not delete the kernel configuration file (.config).\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/guides/custom-linux-kernel.md:174
+#, no-wrap
+msgid "**make menuconfig** This target invokes a text-based editor interface with menus, option lists, and text-based dialog boxes for configuring the kernel.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/guides/custom-linux-kernel.md:174
+#, no-wrap
+msgid "**make xconfig** This is a GUI based kernel configuration tool/target that relies on the Qt graphical development libraries. These libraries are used by KDE/Plasma-based applications.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/guides/custom-linux-kernel.md:174
+#, no-wrap
+msgid "**make gconfig** This is also a GUI  based kernel configuration tool/target, but it relies on the GTK+  toolkit. This GTK toolkit is heavily used in the GNOME desktop world.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/guides/custom-linux-kernel.md:174
+#, no-wrap
+msgid "**make olddefconfig** This target uses the existing .config file in the current working directory, updates the dependencies, and automatically sets new symbols to their default values.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/guides/custom-linux-kernel.md:174
+#, no-wrap
+msgid "**make help** This target will show you all the other possible make targets and also serves as a quick online help system.\n"
 msgstr ""
 
 #. type: Plain text
@@ -748,18 +713,16 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:178
-msgid ""
-"It has a simple and clean interface that can be easily navigated with your "
-"keyboard and is almost intuitive to use."
+#, no-wrap
+msgid "It has a simple and clean interface that can be easily navigated with your keyboard and is almost intuitive to use.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:181
+#, no-wrap
 msgid ""
-"We need to change (cd) into the kernel source directory, after which we can "
-"begin the kernel configuration.  But before beginning the actual kernel "
-"configuration, you should clean (prepare) the kernel build environment by "
-"using the make mrproper command:"
+"We need to change (cd) into the kernel source directory, after which we can begin the kernel configuration.\n"
+"But before beginning the actual kernel configuration, you should clean (prepare) the kernel build environment by using the make mrproper command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -778,33 +741,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:190
-msgid ""
-"Next, we will step through the process of configuring a Linux 5.* series "
-"kernel. To explore some of the innards of this process, we will enable the "
-"support of a specific feature that we’ll pretend is a MUST have feature on "
-"the system. Once you understand how this works, you can apply the same "
-"procedure to add support for any other new kernel feature that you want. "
-"Specifically, we’ll enable support for the NTFS file system into our custom "
-"kernel."
+#, no-wrap
+msgid "Next, we will step through the process of configuring a Linux 5.* series kernel. To explore some of the innards of this process, we will enable the support of a specific feature that we’ll pretend is a MUST have feature on the system. Once you understand how this works, you can apply the same procedure to add support for any other new kernel feature that you want. Specifically, we’ll enable support for the NTFS file system into our custom kernel.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:192
-msgid ""
-"Most modern Linux distros ship with a kernel configuration file for the "
-"running kernel available on the local file system as a compressed or regular "
-"file. On our sample Rocky system, this file resides in the /boot directory "
-"and is usually named something like config-4.*."
+#, no-wrap
+msgid "Most modern Linux distros ship with a kernel configuration file for the running kernel available on the local file system as a compressed or regular file. On our sample Rocky system, this file resides in the /boot directory and is usually named something like config-4.*.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:194
-msgid ""
-"The configuration file contains a list of the options and features that were "
-"enabled for the particular kernel it represents. A config file similar to "
-"this one is what we aim to create through the process of configuring the "
-"kernel. The only difference between the file we’ll create and the ready-made "
-"one is that we will add further minor customization to ours."
+#, no-wrap
+msgid "The configuration file contains a list of the options and features that were enabled for the particular kernel it represents. A config file similar to this one is what we aim to create through the process of configuring the kernel. The only difference between the file we’ll create and the ready-made one is that we will add further minor customization to ours.\n"
 msgstr ""
 
 #. type: Plain text
@@ -815,11 +765,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:201
-msgid ""
-"The following steps cover how to configure the kernel. We will be using a "
-"text-based kernel configuration utility, which will allow you to follow "
-"along in your terminal regardless of whether you are using a GUI desktop "
-"environment or not."
+#, no-wrap
+msgid "The following steps cover how to configure the kernel. We will be using a text-based kernel configuration utility, which will allow you to follow along in your terminal regardless of whether you are using a GUI desktop environment or not.\n"
 msgstr ""
 
 #. type: Plain text
@@ -847,7 +794,8 @@ msgstr ""
 
 #. type: Bullet: '2. '
 #: ../src/docs/guides/custom-linux-kernel.md:213
-msgid "Launch the graphical kernel configuration utility:"
+#, no-wrap
+msgid "Launch the graphical kernel configuration utility:\n"
 msgstr ""
 
 #. type: Plain text
@@ -867,7 +815,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:221
-msgid "![Main Kernel Configuration screen](images/Il01-kernel.png)"
+#, no-wrap
+msgid "![Main Kernel Configuration screen](images/Il01-kernel.png)\n"
 msgstr ""
 
 #. type: Plain text
@@ -881,9 +830,8 @@ msgstr ""
 
 #. type: Bullet: '3. '
 #: ../src/docs/guides/custom-linux-kernel.md:227
-msgid ""
-"Next, for demonstration purposes we’ll add support for NTFS into our custom "
-"kernel."
+#, no-wrap
+msgid "Next, for demonstration purposes we’ll add support for NTFS into our custom kernel.\n"
 msgstr ""
 
 #. type: Plain text
@@ -900,8 +848,8 @@ msgstr ""
 
 #. type: Bullet: '4. '
 #: ../src/docs/guides/custom-linux-kernel.md:233
-msgid ""
-"In the DOS/FAT/NT Filesystems section, navigate to NTFS file system support."
+#, no-wrap
+msgid "In the DOS/FAT/NT Filesystems section, navigate to NTFS file system support.\n"
 msgstr ""
 
 #. type: Plain text
@@ -952,40 +900,32 @@ msgstr ""
 
 #. type: Bullet: '5. '
 #: ../src/docs/guides/custom-linux-kernel.md:250
-msgid ""
-"Navigate back to the parent File Systems screen by pressing the esc key "
-"twice on your keyboard in the DOS/FAT/NT Filesystems screen.Return to the "
-"main kernel configuration screen by pressing esc twice again on your "
-"keyboard."
+#, no-wrap
+msgid "Navigate back to the parent File Systems screen by pressing the esc key twice on your keyboard in the DOS/FAT/NT Filesystems screen.Return to the main kernel configuration screen by pressing esc twice again on your keyboard.\n"
 msgstr ""
 
 #. type: Bullet: '6. '
 #: ../src/docs/guides/custom-linux-kernel.md:252
-msgid ""
-"Finally, save your changes to the .config file in the root of your kernel "
-"source tree and exit the kernel configuration application after saving the "
-"file by pressing esc twice again on your keyboard."
+#, no-wrap
+msgid "Finally, save your changes to the .config file in the root of your kernel source tree and exit the kernel configuration application after saving the file by pressing esc twice again on your keyboard.\n"
 msgstr ""
 
 #. type: Bullet: '7. '
 #: ../src/docs/guides/custom-linux-kernel.md:254
-msgid ""
-"A dialog box will appear prompting you to save your new configuration. Make "
-"sure that Yes is selected and then press enter."
+#, no-wrap
+msgid "A dialog box will appear prompting you to save your new configuration. Make sure that Yes is selected and then press enter.\n"
 msgstr ""
 
 #. type: Bullet: '8. '
 #: ../src/docs/guides/custom-linux-kernel.md:256
-msgid ""
-"After the kernel configuration utility exits, you will be thrown back to "
-"your shell—inside the kernel source tree.You are almost ready to build your "
-"kernel!"
+#, no-wrap
+msgid "After the kernel configuration utility exits, you will be thrown back to your shell—inside the kernel source tree.You are almost ready to build your kernel!\n"
 msgstr ""
 
 #. type: Bullet: '9. '
 #: ../src/docs/guides/custom-linux-kernel.md:258
-msgid ""
-"We need to complete a few more customizations on our Rocky distro. Type:"
+#, no-wrap
+msgid "We need to complete a few more customizations on our Rocky distro. Type:\n"
 msgstr ""
 
 #. type: Plain text
@@ -1037,41 +977,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:283
-msgid ""
-"In the preceding section, we walked through the process of creating a "
-"configuration file for the custom kernel that we want to build. In this "
-"section, we will perform the actual build of the kernel. But before doing "
-"this, we will add one more simple customization to the entire process."
+#, no-wrap
+msgid "In the preceding section, we walked through the process of creating a configuration file for the custom kernel that we want to build. In this section, we will perform the actual build of the kernel. But before doing this, we will add one more simple customization to the entire process.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:285
-msgid ""
-"The final customization will be to add an extra piece of information used in "
-"the final name of our kernel. This will help us be able to differentiate "
-"this kernel from any other kernel with the same version number. We will add "
-"the tag “custom” to the kernel version information. This can be done by "
-"editing the main Makefile and appending the tag that we want to the "
-"EXTRAVERSION variable."
+#, no-wrap
+msgid "The final customization will be to add an extra piece of information used in the final name of our kernel. This will help us be able to differentiate this kernel from any other kernel with the same version number. We will add the tag “custom” to the kernel version information. This can be done by editing the main Makefile and appending the tag that we want to the EXTRAVERSION variable.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:287
-msgid ""
-"The compilation stage of the kernel-building process is by far the easiest, "
-"but it also takes the most time. All that is needed at this point is simply "
-"to execute the make command, which will then automatically generate and take "
-"care of any dependency issues, compile the kernel itself, and compile any "
-"features (or drivers) that were enabled as loadable modules."
+#, no-wrap
+msgid "The compilation stage of the kernel-building process is by far the easiest, but it also takes the most time. All that is needed at this point is simply to execute the make command, which will then automatically generate and take care of any dependency issues, compile the kernel itself, and compile any features (or drivers) that were enabled as loadable modules.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:289
-msgid ""
-"Because of the amount of code that needs to be compiled, be prepared to wait "
-"a few minutes, at the very least, depending on the processing power of your "
-"system. Let’s dig into the specific steps required to compile your new "
-"kernel."
+#, no-wrap
+msgid "Because of the amount of code that needs to be compiled, be prepared to wait a few minutes, at the very least, depending on the processing power of your system. Let’s dig into the specific steps required to compile your new kernel.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1129,9 +1054,8 @@ msgstr ""
 
 #. type: Bullet: '2. '
 #: ../src/docs/guides/custom-linux-kernel.md:312
-msgid ""
-"Pass the kernelversion target to the make command to view the full version "
-"of the kernel that you just customized:"
+#, no-wrap
+msgid "Pass the kernelversion target to the make command to view the full version of the kernel that you just customized:\n"
 msgstr ""
 
 #. type: Plain text
@@ -1176,9 +1100,8 @@ msgstr ""
 
 #. type: Bullet: '3. '
 #: ../src/docs/guides/custom-linux-kernel.md:331
-msgid ""
-"The only command that is needed here to compile the kernel is the make "
-"command:"
+#, no-wrap
+msgid "The only command that is needed here to compile the kernel is the make command:\n"
 msgstr ""
 
 #. type: Plain text
@@ -1204,9 +1127,8 @@ msgstr ""
 
 #. type: Bullet: '4. '
 #: ../src/docs/guides/custom-linux-kernel.md:349
-msgid ""
-"The end product of this command (that is, the kernel) is sitting pretty and "
-"waiting in the path:"
+#, no-wrap
+msgid "The end product of this command (that is, the kernel) is sitting pretty and waiting in the path:\n"
 msgstr ""
 
 #. type: Plain text
@@ -1220,9 +1142,8 @@ msgstr ""
 
 #. type: Bullet: '5. '
 #: ../src/docs/guides/custom-linux-kernel.md:355
-msgid ""
-"Because we compiled portions of the kernel as modules (for example, the NTFS "
-"module), we need to install the modules. Type the following:"
+#, no-wrap
+msgid "Because we compiled portions of the kernel as modules (for example, the NTFS module), we need to install the modules. Type the following:\n"
 msgstr ""
 
 #. type: Plain text
@@ -1272,45 +1193,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:375
-msgid ""
-"The corresponding map file for this will be located at ~/build/kernel/System."
-"map. You’ll need both files for the install phase."
+#, no-wrap
+msgid "The corresponding map file for this will be located at ~/build/kernel/System.map. You’ll need both files for the install phase.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:377
-msgid ""
-"The System.map file is useful when the kernel is misbehaving and generating "
-"“Oops” messages. An “Oops” is generated on some kernel errors because of "
-"kernel bugs or faulty hardware."
+#, no-wrap
+msgid "The System.map file is useful when the kernel is misbehaving and generating “Oops” messages. An “Oops” is generated on some kernel errors because of kernel bugs or faulty hardware.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:379
-msgid ""
-"This error is akin to the Blue Screen of Death (BSOD) in Microsoft Windows. "
-"These messages include a lot of detail about the current state of the "
-"system, including several hexadecimal numbers."
+#, no-wrap
+msgid "This error is akin to the Blue Screen of Death (BSOD) in Microsoft Windows. These messages include a lot of detail about the current state of the system, including several hexadecimal numbers.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:381
-msgid ""
-"System.map gives Linux a chance to turn those hexadecimal numbers into "
-"readable names, making debugging easier. Although this is mostly for the "
-"benefit of developers, it can be handy when you’re reporting a problem."
+#, no-wrap
+msgid "System.map gives Linux a chance to turn those hexadecimal numbers into readable names, making debugging easier. Although this is mostly for the benefit of developers, it can be handy when you’re reporting a problem.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:383
-msgid "Let’s go through the steps required to install the new kernel image."
+#, no-wrap
+msgid "Let’s go through the steps required to install the new kernel image.\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/guides/custom-linux-kernel.md:385
-msgid ""
-"While in the root of your kernel build directory, copy and rename the "
-"bzImage file into the /boot directory:"
+#, no-wrap
+msgid "While in the root of your kernel build directory, copy and rename the bzImage file into the /boot directory:\n"
 msgstr ""
 
 #. type: Plain text
@@ -1353,10 +1267,8 @@ msgstr ""
 
 #. type: Bullet: '2. '
 #: ../src/docs/guides/custom-linux-kernel.md:403
-msgid ""
-"Now that the kernel image is in place, copy over and rename the "
-"corresponding System.map file into the /boot directory using the same naming "
-"convention:"
+#, no-wrap
+msgid "Now that the kernel image is in place, copy over and rename the corresponding System.map file into the /boot directory using the same naming convention:\n"
 msgstr ""
 
 #. type: Plain text
@@ -1371,10 +1283,8 @@ msgstr ""
 
 #. type: Bullet: '3. '
 #: ../src/docs/guides/custom-linux-kernel.md:410
-msgid ""
-"With the kernel in place, the System.map file in place, and the modules in "
-"place, we are now ready for the final step. The syntax for the command "
-"needed is:"
+#, no-wrap
+msgid "With the kernel in place, the System.map file in place, and the modules in place, we are now ready for the final step. The syntax for the command needed is:\n"
 msgstr ""
 
 #. type: Plain text
@@ -1410,17 +1320,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:425
-msgid ""
-"The kernel-install command used here is a nifty little shell script. It "
-"might not be available in every Linux distribution, but it is available in "
-"newer Fedora, RHEL, CentOS distros. This tool automates a lot of the final "
-"manual things we’d ordinarily have to do to set up the system to boot the "
-"new kernel we just built."
+#, no-wrap
+msgid "The kernel-install command used here is a nifty little shell script. It might not be available in every Linux distribution, but it is available in newer Fedora, RHEL, CentOS distros. This tool automates a lot of the final manual things we’d ordinarily have to do to set up the system to boot the new kernel we just built.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:427
-msgid "In particular, the tool does the following:"
+#, no-wrap
+msgid "In particular, the tool does the following:\n"
 msgstr ""
 
 #. type: Plain text
@@ -1441,20 +1348,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:436
-msgid ""
-"And for systems running the legacy versions of GRUB, this will be the /boot/"
-"grub/grub.conf or /boot/grub/menu.lst file. And for very new distros that "
-"have implemented the new Boot Loader Specification (BLS) a new boot loader "
-"entry will be added to the /boot/loader/entries/ directory or any directory "
-"pointed to by the variable named \"blsdir\"."
+#, no-wrap
+msgid "And for systems running the legacy versions of GRUB, this will be the /boot/grub/grub.conf or /boot/grub/menu.lst file. And for very new distros that have implemented the new Boot Loader Specification (BLS) a new boot loader entry will be added to the /boot/loader/entries/  directory or any directory pointed to by the variable named \"blsdir\".\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:438
-msgid ""
-"On our demo EFI based Rocky server running GRUB 2 using BLS, a new boot "
-"entry is created in the boot loader file located here: `/boot/loader/"
-"entries/6fa25ca775f64accb0d3e53f0e4e6e92-5.16.9-custom.conf`"
+#, no-wrap
+msgid "On our demo EFI based Rocky server running GRUB 2 using BLS, a new boot entry is created in the boot loader file located here: `/boot/loader/entries/6fa25ca775f64accb0d3e53f0e4e6e92-5.16.9-custom.conf`\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1487,18 +1388,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:458
-msgid ""
-"The next stage is to test the new kernel to make sure that the system can "
-"indeed boot with it."
+#, no-wrap
+msgid "The next stage is to test the new kernel to make sure that the system can indeed boot with it.\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/guides/custom-linux-kernel.md:460
-msgid ""
-"Assuming you did everything the exact way that the doctor prescribed and "
-"that everything worked out exactly as the doctor said it would, you can "
-"safely reboot the system and select the new kernel from the boot loader menu "
-"during system bootup:"
+#, no-wrap
+msgid "Assuming you did everything the exact way that the doctor prescribed and that everything worked out exactly as the doctor said it would, you can safely reboot the system and select the new kernel from the boot loader menu during system bootup:\n"
 msgstr ""
 
 #. type: Plain text
@@ -1512,9 +1409,8 @@ msgstr ""
 
 #. type: Bullet: '2. '
 #: ../src/docs/guides/custom-linux-kernel.md:466
-msgid ""
-"After the system boots up, you can use the uname command to find out the "
-"name of the current kernel:"
+#, no-wrap
+msgid "After the system boots up, you can use the uname command to find out the name of the current kernel:\n"
 msgstr ""
 
 #. type: Plain text
@@ -1529,11 +1425,8 @@ msgstr ""
 
 #. type: Bullet: '3. '
 #: ../src/docs/guides/custom-linux-kernel.md:473
-msgid ""
-"You will recall that one of the features that we added to our new kernel is "
-"the ability to support the NTFS file system. Make sure that the new kernel "
-"does indeed have support for NTFS by displaying information about the NTFS "
-"module:"
+#, no-wrap
+msgid "You will recall that one of the features that we added to our new kernel is the ability to support the NTFS file system. Make sure that the new kernel does indeed have support for NTFS by displaying information about the NTFS module:\n"
 msgstr ""
 
 #. type: Plain text
@@ -1552,5 +1445,6 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/custom-linux-kernel.md:483
-msgid "And that’s it !"
+#, no-wrap
+msgid "And that’s it !\n"
 msgstr ""

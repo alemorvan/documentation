@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -31,18 +31,16 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/package_management/package_signing.md:10
+#, no-wrap
 msgid ""
-"RPMs produced by us should be cryptographically signed with a Rocky Linux "
-"key, which guarantees to users that the package was indeed built by the "
-"Rocky Linux project."
+"RPMs produced by us should be cryptographically signed with a Rocky Linux key, which guarantees to users that the package was\n"
+"indeed built by the Rocky Linux project.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/package_management/package_signing.md:12
+#, no-wrap
 msgid ""
-"The package will also need to be put through some testing - preferably "
-"automated. The nature of the testing is yet to be determined, but we’ll want "
-"to do some sanity checks at the bare minimum before unleashing it on the "
-"world. (Is this package installable? Did we accidentally miss any files? "
-"Does it cause dnf/yum dependency conflicts? etc.)"
+"The package will also need to be put through some testing - preferably automated. The nature of the testing is yet to be determined,\n"
+"but we’ll want to do some sanity checks at the bare minimum before unleashing it on the world. (Is this package installable? Did we accidentally miss any files? Does it cause dnf/yum dependency conflicts? etc.)\n"
 msgstr ""

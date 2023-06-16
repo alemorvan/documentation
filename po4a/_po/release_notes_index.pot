@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,10 +53,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/index.md:11
-msgid ""
-"Welcome to our listing of release notes for Rocky Linux. The most recent "
-"released versions are listed in the menu with the newest first. Release "
-"dates and support information are below."
+#, no-wrap
+msgid "Welcome to our listing of release notes for Rocky Linux. The most recent released versions are listed in the menu with the newest first. Release dates and support information are below.\n"
 msgstr ""
 
 #. type: Title ##
@@ -73,10 +71,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/index.md:19
-msgid ""
-"Rocky 9 (Code Name \"Blue Onyx\") has general support until 31 May 2027 and "
-"security support through 31 May 2032. The supported architectures are x86_64-"
-"v2, aarch64, ppc64le, and s390x."
+#, no-wrap
+msgid "Rocky 9 (Code Name \"Blue Onyx\") has general support until 31 May 2027 and security support through 31 May 2032. The supported architectures are x86_64-v2, aarch64, ppc64le, and s390x.\n"
 msgstr ""
 
 #. type: Title ###
@@ -104,10 +100,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/index.md:33
-msgid ""
-"Rocky 8 (Code Name \"Green Obsidian\") has general support until 1 May 2024 "
-"and security support through 01 May 2029. The supported architectures are "
-"x86_64 and aarch64."
+#, no-wrap
+msgid "Rocky 8 (Code Name \"Green Obsidian\") has general support until 1 May 2024 and security support through 01 May 2029. The supported architectures are x86_64 and aarch64.\n"
 msgstr ""
 
 #. type: Plain text
@@ -125,7 +119,6 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/index.md:44
-msgid ""
-"If you have any questions or comments, please join the discussion [here]"
-"(https://chat.rockylinux.org/rocky-linux/channels/documentation)."
+#, no-wrap
+msgid "If you have any questions or comments, please join the discussion [here](https://chat.rockylinux.org/rocky-linux/channels/documentation).\n"
 msgstr ""

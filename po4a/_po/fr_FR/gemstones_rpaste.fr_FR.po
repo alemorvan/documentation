@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -86,22 +86,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/rpaste.md:14
-msgid ""
-"`rpaste` is a tool for sharing code, log output, and other extra long text. "
-"It is a pastebin created by the Rocky Linux developers. This tool is useful "
-"when you need to share something publicly, but do not want to dominate the "
-"feed with your text. This is especially important when using Mattermost, "
-"which has bridges to other IRC services. The `rpaste` tool can be installed "
-"on any Rocky Linux system. If your desktop machine isn't Rocky Linux or if "
-"you simply do not want to install the tool, you can use it manually, by "
-"accessing the [pinnwand URL](https://rpa.st) and then paste the system "
-"output or text that you want to share. `rpaste` allows you to create this "
-"information automatically."
+#, no-wrap
+msgid "`rpaste` is a tool for sharing code, log output, and other extra long text. It is a pastebin created by the Rocky Linux developers. This tool is useful when you need to share something publicly, but do not want to dominate the feed with your text. This is especially important when using Mattermost, which has bridges to other IRC services. The `rpaste` tool can be installed on any Rocky Linux system. If your desktop machine isn't Rocky Linux or if you simply do not want to install the tool, you can use it manually, by accessing the [pinnwand URL](https://rpa.st) and then paste the system output or text that you want to share. `rpaste` allows you to create this information automatically.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/rpaste.md:18
-msgid "Installation of `rpaste` on Rocky Linux:"
+#, no-wrap
+msgid "Installation of `rpaste` on Rocky Linux:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -118,9 +110,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/rpaste.md:26
-msgid ""
-"For major system problems, you may need to send all of your system's "
-"information so that it can be reviewed for problems. To do this run:"
+#, no-wrap
+msgid "For major system problems, you may need to send all of your system's information so that it can be reviewed for problems. To do this run:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -131,7 +122,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/rpaste.md:32
-msgid "Which will return the link to the pinnwand page:"
+#, no-wrap
+msgid "Which will return the link to the pinnwand page:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -146,20 +138,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/rpaste.md:41
-msgid ""
-"You can then review the information yourself in a browser and decide if you "
-"want to keep it or remove it and start over. If you want to keep it, you can "
-"copy the \"Paste URL\" and share that with whomever you are working with, or "
-"in the feed on Mattermost. To remove, simply copy the \"Removal URL\" and "
-"open that in your browser."
+#, no-wrap
+msgid "You can then review the information yourself in a browser and decide if you want to keep it or remove it and start over. If you want to keep it, you can copy the \"Paste URL\" and share that with whomever you are working with, or in the feed on Mattermost. To remove, simply copy the \"Removal URL\" and open that in your browser.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/rpaste.md:43
-msgid ""
-"You can add content to your pastebin by piping the content. As an example, "
-"if you wanted to add content from your `/var/log/messages` file from March "
-"10, you might do this:"
+#, no-wrap
+msgid "You can add content to your pastebin by piping the content. As an example, if you wanted to add content from your `/var/log/messages` file from March 10, you might do this:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -176,7 +162,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/rpaste.md:51
-msgid "To get help with the command, simply type:"
+#, no-wrap
+msgid "To get help with the command, simply type:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -187,7 +174,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/rpaste.md:57
-msgid "Which gives the following output:"
+#, no-wrap
+msgid "Which gives the following output:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -213,9 +201,6 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/rpaste.md:79
-msgid ""
-"It is sometimes important to share a large amount of text when working on a "
-"problem, sharing code or text, etc. Using `rpaste` for this will save others "
-"from having to view large amounts of text content that isn't important to "
-"them. It is important Rocky Linux chat etiquette as well."
+#, no-wrap
+msgid "It is sometimes important to share a large amount of text when working on a problem, sharing code or text, etc. Using `rpaste` for this will save others from having to view large amounts of text content that isn't important to them. It is important Rocky Linux chat etiquette as well.\n"
 msgstr ""

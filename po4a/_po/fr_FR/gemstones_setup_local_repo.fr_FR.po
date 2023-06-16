@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -164,17 +164,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/setup_local_repo.md:11
-msgid ""
-"Sometimes you need to have Rocky repositories local for building virtual "
-"machines, lab environments, etc.  It can also help save bandwidth if that is "
-"a concern.  This article will walk you through using `rsync` to copy Rocky "
-"repositories to a local web server.  Building a web server is out of the "
-"scope of this short article."
+#, no-wrap
+msgid "Sometimes you need to have Rocky repositories local for building virtual machines, lab environments, etc.  It can also help save bandwidth if that is a concern.  This article will walk you through using `rsync` to copy Rocky repositories to a local web server.  Building a web server is out of the scope of this short article.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/setup_local_repo.md:15
-msgid "A web server"
+#, no-wrap
+msgid "A web server\n"
 msgstr ""
 
 #. type: Title ##
@@ -211,14 +208,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/setup_local_repo.md:38
-msgid ""
-"This simple shell script uses `rsync` to pull repository files from the "
-"nearest mirror.  It also utilizes the \"exclude\" option which is defined in "
-"a text file in the form of keywords that should not be included.  Excludes "
-"are good if you have limited disk space or just do not want everything for "
-"whatever reason.  We can use `*` as a wildcard character.  Be careful using "
-"`*/ng` as it will exclude anything that matches those characters.  An "
-"example is below:"
+#, no-wrap
+msgid "This simple shell script uses `rsync` to pull repository files from the nearest mirror.  It also utilizes the \"exclude\" option which is defined in a text file in the form of keywords that should not be included.  Excludes are good if you have limited disk space or just do not want everything for whatever reason.  We can use  `*` as a wildcard character.  Be careful using  `*/ng` as it will exclude anything that matches those characters.  An example is below:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -236,7 +227,6 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/setup_local_repo.md:50
-msgid ""
-"A simple script that can help save bandwidth or make building out a lab "
-"environment a little easier."
+#, no-wrap
+msgid "A simple script that can help save bandwidth or make building out a lab environment a little easier.\n"
 msgstr ""

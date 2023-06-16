@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -142,7 +142,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -169,7 +168,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Title ##
@@ -230,8 +230,8 @@ msgstr ""
 #: ../src/docs/guides/security/dnf_automatic.md:67
 #: ../src/docs/guides/security/firewalld.md:102
 #: ../src/docs/labs/sys_admin_1/lab7-software_management.md:115
-#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:368
-msgid "!!! tip"
+#, no-wrap
+msgid "!!! tip\n"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
@@ -321,18 +321,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/navigation.md:15
-msgid ""
-"When the documentation project got started, it was hoped that menus in "
-"Mkdocs would be as automatic as possible, making manual editing of "
-"navigation rare. After a few months of generating documents, it became clear "
-"that just placing documents in the correct folder and letting Mkdocs "
-"generate the navigation could not be depended on to keep things clean and "
-"neat. We needed categories, something that Mkdocs does not provide unless "
-"the documents are placed in specific folders. Mkdocs will then create a "
-"navigation with an alphabetic sort. Creating a folder structure that fixes "
-"navigation isn't the entire picture however. Even that will sometimes need "
-"additional changes to keep things organized. For instance, capitalization "
-"without modifying the lower-case folder structure."
+#, no-wrap
+msgid "When the documentation project got started, it was hoped that menus in Mkdocs would be as automatic as possible, making manual editing of navigation rare. After a few months of generating documents, it became clear that just placing documents in the correct folder and letting Mkdocs generate the navigation could not be depended on to keep things clean and neat. We needed categories, something that Mkdocs does not provide unless the documents are placed in specific folders. Mkdocs will then create a navigation with an alphabetic sort. Creating a folder structure that fixes navigation isn't the entire picture however. Even that will sometimes need additional changes to keep things organized. For instance, capitalization without modifying the lower-case folder structure.\n"
 msgstr ""
 
 #. type: Title ##
@@ -343,50 +333,44 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/navigation.md:19
-msgid "Our goals were:"
+#, no-wrap
+msgid "Our goals were:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/navigation.md:24
-msgid ""
-"Create the folder structure as needed now (new folders may be required in "
-"the future)."
+#, no-wrap
+msgid "Create the folder structure as needed now (new folders may be required in the future).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/navigation.md:24
-msgid ""
-"Adjust the navigation so that the the Rocky Installation, Migration, and "
-"Contribution areas were at the top."
+#, no-wrap
+msgid "Adjust the navigation so that the the Rocky Installation, Migration, and Contribution areas were at the top.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/navigation.md:24
-msgid ""
-"Adjust the navigation to better name some folders, and enable correct "
-"capitalization. As an example, \"DNS\" and \"File Sharing Services\", which "
-"otherwise show up as \"Dns\" and \"File sharing\" without some manipulation."
+#, no-wrap
+msgid "Adjust the navigation to better name some folders, and enable correct capitalization. As an example, \"DNS\" and \"File Sharing Services\", which otherwise show up as \"Dns\" and \"File sharing\" without some manipulation.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/navigation.md:24
-msgid ""
-"Make sure that these navigation files are restricted to Managers and Editors."
+#, no-wrap
+msgid "Make sure that these navigation files are restricted to Managers and Editors.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/navigation.md:26
-msgid ""
-"This last item may seem unnecessary to some reading this, but it will become "
-"clearer as this document continues."
+#, no-wrap
+msgid "This last item may seem unnecessary to some reading this, but it will become clearer as this document continues.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/navigation.md:30
-msgid ""
-"It is assumed that you have a local clone of the Rocky GitHub repository: "
-"[https://github.com/rocky-linux/documentation](https://github.com/rocky-"
-"linux/documentation)."
+#, no-wrap
+msgid "It is assumed that you have a local clone of the Rocky GitHub repository: [https://github.com/rocky-linux/documentation](https://github.com/rocky-linux/documentation).\n"
 msgstr ""
 
 #. type: Title ##
@@ -397,104 +381,86 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/navigation.md:34
-msgid ""
-"With these changes comes a real need to \"see\" how any changes you are "
-"making affect content, in the context of the website, _BEFORE_ that content "
-"is committed to the document repository, and subsequently goes 'live'."
+#, no-wrap
+msgid "With these changes comes a real need to \"see\" how any changes you are making affect content, in the context of the website, _BEFORE_ that content is committed to the document repository, and subsequently goes 'live'.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/navigation.md:36
-msgid ""
-"MkDocs is a [Python](https://www.python.org) application and the extra "
-"packages it uses are also Python code, this means that the environment "
-"required to run MkDocs needs to be a **correctly configured Python "
-"environment**. Setting up Python for development tasks (which is what is "
-"being done running MkDocs) is not a trivial task, and instructions for that "
-"are out of the scope of this document. Some considerations are:"
+#, no-wrap
+msgid "MkDocs is a [Python](https://www.python.org) application and the extra packages it uses are also Python code, this means that the environment required to run MkDocs needs to be a **correctly configured Python environment**. Setting up Python for development tasks (which is what is being done running MkDocs) is not a trivial task, and instructions for that are out of the scope of this document. Some considerations are:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/navigation.md:42
-msgid ""
-"The version of Python, it should be >= 3.8, also **particular care must be "
-"taken not to use the 'system' Python version of a computer if the computer "
-"runs Linux/macOS**. For example, as of the writing of this document, the "
-"system version of Python on macOS is still version 2.7."
+#, no-wrap
+msgid "The version of Python, it should be >= 3.8, also **particular care must be taken not to use the 'system' Python version of a computer if the computer runs Linux/macOS**. For example, as of the writing of this document, the system version of Python on macOS is still version 2.7.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/navigation.md:42
-msgid ""
-"Running a Python 'virtual environment'. When running Python application "
-"project and installing packages, for example MkDocs, it is **strongly "
-"recommended** by the Python community to [create an isolated virtual "
-"environment](https://realpython.com/python-virtual-environments-a-primer/) "
-"for each project."
+#, no-wrap
+msgid "Running a Python 'virtual environment'. When running Python application project and installing packages, for example MkDocs, it is **strongly recommended** by the Python community to [create an isolated virtual environment](https://realpython.com/python-virtual-environments-a-primer/) for each project.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/navigation.md:42
-msgid ""
-"Use a modern IDE (Integrated Development Environment) that supports Python "
-"well. Two popular IDEs, which also have integrated support for running "
-"virtual environments, are:"
+#, no-wrap
+msgid "Use a modern IDE (Integrated Development Environment) that supports Python well. Two popular IDEs, which also have integrated support for running virtual environments, are:\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/contribute/navigation.md:42
-msgid ""
-"PyCharm - (free version available) the leading IDE for Python https://www."
-"jetbrains.com/pycharm/"
+#, no-wrap
+msgid "PyCharm - (free version available) the leading IDE for Python https://www.jetbrains.com/pycharm/\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/contribute/navigation.md:42
-msgid ""
-"Visual Studio Code- (free version available) from Microsoft https://code."
-"visualstudio.com"
+#, no-wrap
+msgid "Visual Studio Code- (free version available) from Microsoft https://code.visualstudio.com\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/navigation.md:44
-msgid "Doing this effectively requires:"
+#, no-wrap
+msgid "Doing this effectively requires:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/navigation.md:51
-msgid ""
-"Setting up a new Python project which, ideally, uses a virtual environment "
-"(above)."
+#, no-wrap
+msgid "Setting up a new Python project which, ideally, uses a virtual environment (above).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/navigation.md:51
-msgid "Installing `mkdocs`"
+#, no-wrap
+msgid "Installing `mkdocs`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/navigation.md:51
-msgid "Installing some python plugins"
+#, no-wrap
+msgid "Installing some python plugins\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/navigation.md:51
-msgid ""
-"Cloning this Rocky GitHub repository:[https://github.com/rocky-linux/docs."
-"rockylinux.org](https://github.com/rocky-linux/docs.rockylinux.org)"
+#, no-wrap
+msgid "Cloning this Rocky GitHub repository:[https://github.com/rocky-linux/docs.rockylinux.org](https://github.com/rocky-linux/docs.rockylinux.org)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/navigation.md:51
-msgid ""
-"Linking to the `docs` folder within your cloned documentation repository "
-"(you can also just modify the mkdocs.yml file if you wish to load the "
-"correct folder, but linking keeps your mkdocs environment cleaner)"
+#, no-wrap
+msgid "Linking to the `docs` folder within your cloned documentation repository (you can also just modify the mkdocs.yml file if you wish to load the correct folder, but linking keeps your mkdocs environment cleaner)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/navigation.md:51
-msgid "Running `mkdocs serve` within your clone of docs.rockylinux.org"
+#, no-wrap
+msgid "Running `mkdocs serve` within your clone of docs.rockylinux.org\n"
 msgstr ""
 
 #. type: Plain text
@@ -505,12 +471,14 @@ msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/contribute/navigation.md:58
-msgid "[Local Documentation - Docker](rockydocs_web_dev.md)"
+#, no-wrap
+msgid "[Local Documentation - Docker](rockydocs_web_dev.md)\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/contribute/navigation.md:58
-msgid "[Local Documentation - LXD](mkdocs_lsyncd.md)"
+#, no-wrap
+msgid "[Local Documentation - LXD](mkdocs_lsyncd.md)\n"
 msgstr ""
 
 #. type: Plain text
@@ -529,19 +497,20 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/navigation.md:68
-msgid "Install `mkdocs` with the python environment: `pip install mkdocs`"
+#, no-wrap
+msgid "Install `mkdocs` with the python environment: `pip install mkdocs`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/navigation.md:68
-msgid ""
-"Install needed plugins: `pip install mkdocs-material mkdocs-localsearch "
-"mkdocs-awesome-pages-plugin mkdocs-redirects mkdocs-i18n`"
+#, no-wrap
+msgid "Install needed plugins:  `pip install mkdocs-material mkdocs-localsearch mkdocs-awesome-pages-plugin mkdocs-redirects mkdocs-i18n`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/navigation.md:68
-msgid "Clone the repository (noted above)"
+#, no-wrap
+msgid "Clone the repository (noted above)\n"
 msgstr ""
 
 #. type: Title ###
@@ -552,30 +521,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/navigation.md:72
-msgid ""
-"Inside your docs.rockylinux.org local (clone), do the following. This "
-"assumes the location of your documentation clone, so modify as needed:"
+#, no-wrap
+msgid "Inside your docs.rockylinux.org local (clone), do the following. This assumes the location of your documentation clone, so modify as needed:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/navigation.md:74
-msgid "`ln -s /home/username/documentation/docs docs`"
+#, no-wrap
+msgid "`ln -s /home/username/documentation/docs docs`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/navigation.md:76
-msgid ""
-"Again, if you desire, you can modify the local copy of the `mkdocs.yml` file "
-"to set the path. If using this method, you would modify this line to point "
-"to your `documentation/docs` folder:"
+#, no-wrap
+msgid "Again, if you desire, you can modify the local copy of the `mkdocs.yml` file to set the path. If using this method, you would modify this line to point to your `documentation/docs` folder:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/navigation.md:82
-msgid ""
-"Once completed, you can try running `mkdocs serve` to see if you get your "
-"desired content. This will run on a your localhost on port 8000 example: "
-"[http://127.0.0.1:8000/](http://127.0.0.1:8000/)"
+#, no-wrap
+msgid "Once completed, you can try running `mkdocs serve` to see if you get your desired content. This will run on a your localhost on port 8000 example: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)\n"
 msgstr ""
 
 #. type: Title ##
@@ -586,16 +551,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/navigation.md:86
-msgid ""
-"Navigation is handled with mkdocs `.pages` files **OR** by the value of the "
-"\"title:\" meta in the document front matter. The `.pages` files are not "
-"terribly complex, BUT, if something is left out, it can cause the server to "
-"fail to load. That's why this procedure is **ONLY** for Managers and "
-"Editors. These individuals are going to have the tools in place (local "
-"install of mkdocs, plus clones of both documentation and docs.rockylinux."
-"org) so that something pushed and merged to GitHub will not break the "
-"serving of the documentation website. A contributor cannot be expected to "
-"have even one of these requirements in place."
+#, no-wrap
+msgid "Navigation is handled with mkdocs `.pages` files **OR** by the value of the \"title:\" meta in the document front matter. The `.pages` files are not terribly complex, BUT, if something is left out, it can cause the server to fail to load. That's why this procedure is **ONLY** for Managers and Editors. These individuals are going to have the tools in place (local install of mkdocs, plus clones of both documentation and docs.rockylinux.org) so that something pushed and merged to GitHub will not break the serving of the documentation website. A contributor cannot be expected to have even one of these requirements in place.\n"
 msgstr ""
 
 #. type: Title ###
@@ -606,11 +563,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/navigation.md:91
-msgid ""
-"As already stated, the `.pages` files are generally pretty simple. They are "
-"a YAML formatted file that `mkdocs` reads before rendering the content. To "
-"take a look at one of the more complex `.pages` files, let's look at the one "
-"created to help format the side navigation:"
+#, no-wrap
+msgid "As already stated, the `.pages` files are generally pretty simple. They are a YAML formatted file that `mkdocs` reads before rendering the content. To take a look at one of the more complex `.pages` files, let's look at the one created to help format the side navigation:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -644,31 +598,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/navigation.md:118
-msgid ""
-"Here, the `index*md` shows the \"Guides Home: \", `installation*.md` shows "
-"the \"Installing Rocky Linux\" document link, and the `migrate2rocky*.md` "
-"shows the \"Migrating To Rocky Linux\" document link. The \"*\" within each "
-"of these links allows for that document in _any_ language. Finally, by "
-"placing \"Contribute\" next, it falls beneath these items rather than in the "
-"normal (alphabetic) sort order. If you look down the list, you can see what "
-"each item is doing. Note that after the \"Package Management: "
-"package_management\" entry, there are actually two more folders (security "
-"and web). These do not require any additional formatting, so we are just "
-"telling `mkdocs` to load them normally with the \"-...\""
+#, no-wrap
+msgid "Here, the `index*md` shows the \"Guides Home: \", `installation*.md` shows the \"Installing Rocky Linux\" document link, and the `migrate2rocky*.md` shows the \"Migrating To Rocky Linux\" document link. The \"*\" within each of these links allows for that document in _any_ language. Finally, by placing \"Contribute\" next, it falls beneath these items rather than in the normal (alphabetic) sort order. If you look down the list, you can see what each item is doing. Note that after the \"Package Management: package_management\" entry, there are actually two more folders (security and web). These do not require any additional formatting, so we are just telling `mkdocs` to load them normally with the \"-...\"\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/navigation.md:120
-msgid ""
-"You can also use YAML formatting within an actual file. A reason for doing "
-"this might be that the beginning heading of the file is so long, that it "
-"just doesn't display well in the navigation section.  As an example, take "
-"this document heading \"# `mod_ssl` on Rocky Linux in an httpd Apache Web-"
-"Server Environment\". That is very long. It displays very poorly in the side "
-"navigation once the \"Web\" navigation item is opened. To fix this, you can "
-"either work with the author to change his heading, or, you can change how it "
-"displays in the menu by adding a title before the heading inside the "
-"document. For the example document, there is a title added:"
+#, no-wrap
+msgid "You can also use YAML formatting within an actual file. A reason for doing this might be that the beginning heading of the file is so long, that it just doesn't display well in the navigation section.  As an example, take this document heading \"# `mod_ssl` on Rocky Linux in an httpd Apache Web-Server Environment\". That is very long. It displays very poorly in the side navigation once the \"Web\" navigation item is opened. To fix this, you can either work with the author to change his heading, or, you can change how it displays in the menu by adding a title before the heading inside the document. For the example document, there is a title added:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -682,26 +619,18 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/navigation.md:126
-msgid ""
-"This changes the title as far as the navigation is concerned, but leaves the "
-"author's original title in place within the document."
+#, no-wrap
+msgid "This changes the title as far as the navigation is concerned, but leaves the author's original title in place within the document.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/navigation.md:128
-msgid ""
-"There will probably not be a lot of need for additional `.pages` files. They "
-"should be used economically."
+#, no-wrap
+msgid "There will probably not be a lot of need for additional `.pages` files. They should be used economically.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/navigation.md:131
-msgid ""
-"While the navigational changes that might need to be made are not difficult, "
-"the potential for breaking the live documentation exists. For this reason, "
-"only managers and editors with the appropriate tooling in place should have "
-"the permissions to edit these files. Having a full environment available to "
-"view what the live pages are going to look like, keeps the manager or editor "
-"from making a mistake while editing these files that also breaks the live "
-"documentation."
+#, no-wrap
+msgid "While the navigational changes that might need to be made are not difficult, the potential for breaking the live documentation exists. For this reason, only managers and editors with the appropriate tooling in place should have the permissions to edit these files. Having a full environment available to view what the live pages are going to look like, keeps the manager or editor from making a mistake while editing these files that also breaks the live documentation.\n"
 msgstr ""

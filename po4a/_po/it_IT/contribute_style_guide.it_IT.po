@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -209,23 +209,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/style_guide.md:21
-msgid ""
-"This guide outlines English-language style standards to **improve "
-"readability, highlight special cases,** and **enhance translation work** "
-"across Rocky Linux documentation. For style questions not addressed in this "
-"guide, please refer to the following:"
+#, no-wrap
+msgid "This guide outlines English-language style standards to **improve readability, highlight special cases,** and **enhance translation work** across Rocky Linux documentation. For style questions not addressed in this guide, please refer to the following:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:24
-msgid "[Merriam Webster Dictionary](https://www.merriam-webster.com/)"
+#, no-wrap
+msgid "[Merriam Webster Dictionary](https://www.merriam-webster.com/)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:24
-msgid ""
-"[Chicago Manual of Style (CMOS), 17th ed.](https://www.chicagomanualofstyle."
-"org/home.html)"
+#, no-wrap
+msgid "[Chicago Manual of Style (CMOS), 17th ed.](https://www.chicagomanualofstyle.org/home.html)\n"
 msgstr ""
 
 #. type: Title ##
@@ -236,29 +233,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/style_guide.md:28
-msgid ""
-"For a more complete understanding of contributing, please consult our "
-"related guides:"
+#, no-wrap
+msgid "For a more complete understanding of contributing, please consult our related guides:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:32
-msgid ""
-"[Rocky Linux Contribution Guide](https://docs.rockylinux.org/guides/"
-"contribute/) for system and software requirements for getting started."
+#, no-wrap
+msgid "[Rocky Linux Contribution Guide](https://docs.rockylinux.org/guides/contribute/) for system and software requirements for getting started.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:32
-msgid ""
-"[Rocky Linux First Time Contributors Guide](../beginners/) for an "
-"orientation to GitHub, our documentation home base."
+#, no-wrap
+msgid "[Rocky Linux First Time Contributors Guide](../beginners/) for an orientation to GitHub, our documentation home base.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:32
-msgid ""
-"[Rocky Docs Formatting](../rockydocs_formatting/) for Markdown structure."
+#, no-wrap
+msgid "[Rocky Docs Formatting](../rockydocs_formatting/) for Markdown structure.\n"
 msgstr ""
 
 #. type: Title ##
@@ -287,47 +281,38 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:47
-msgid ""
-"Double quotation marks (“Chicago style”) rather than single quotation marks "
-"(‘Oxford style’)."
+#, no-wrap
+msgid "Double quotation marks (“Chicago style”) rather than single quotation marks (‘Oxford style’).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:47
-msgid ""
-"Periods and commas go inside quotation marks “like this,” rather than “like "
-"this”."
+#, no-wrap
+msgid "Periods and commas go inside quotation marks “like this,” rather than “like this”.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:47
-msgid ""
-"The em dash {shift}+{option}+{-} has no spaces before or after—like this—and "
-"is preferred for parenthetical phrases."
+#, no-wrap
+msgid "The em dash {shift}+{option}+{-} has no spaces before or after—like this—and is preferred for parenthetical phrases.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:47
-msgid ""
-"Use a serial comma before the “and” in a list of three items: “Peas, "
-"mustard, and carrots.”"
+#, no-wrap
+msgid "Use a serial comma before the “and” in a list of three items: “Peas, mustard, and carrots.”\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:47
-msgid ""
-"Headings should be generally made in headline-style capitalization: "
-"Capitalize the first and last words, as well as all nouns, pronouns, verbs, "
-"and adverbs. If your document works better with sentence-style "
-"capitalization, perhaps because you make frequent references to acronyms, "
-"just make it consistent within the entire document."
+#, no-wrap
+msgid "Headings should be generally made in headline-style capitalization: Capitalize the first and last words, as well as all nouns, pronouns, verbs, and adverbs. If your document works better with sentence-style capitalization, perhaps because you make frequent references to acronyms, just make it consistent within the entire document.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:47
-msgid ""
-"Headings do not need a period or semicolon at the end, even with sentence-"
-"style capitalization, unless ending in an abbreviation."
+#, no-wrap
+msgid "Headings do not need a period or semicolon at the end, even with sentence-style capitalization, unless ending in an abbreviation.\n"
 msgstr ""
 
 #. type: Title ###
@@ -338,103 +323,92 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:65
-msgid ""
-"**Plain language.** This can be described as a *less-conversational* style. "
-"Most of our documentation fits within this standard."
+#, no-wrap
+msgid "**Plain language.** This can be described as a *less-conversational* style. Most of our documentation fits within this standard.\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/contribute/style_guide.md:65
-msgid "Avoid metaphors and idioms."
+#, no-wrap
+msgid "Avoid metaphors and idioms.\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/contribute/style_guide.md:65
-msgid "Say what you mean in as few words as possible."
+#, no-wrap
+msgid "Say what you mean in as few words as possible.\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/contribute/style_guide.md:65
-msgid ""
-"Identify and avoid unnecessarily technical terms. Consider that your "
-"audience is mostly people who have some familiarity with the subject matter, "
-"but may not be subject-matter experts."
+#, no-wrap
+msgid "Identify and avoid unnecessarily technical terms. Consider that your audience is mostly people who have some familiarity with the subject matter, but may not be subject-matter experts.\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/contribute/style_guide.md:65
-msgid "Exceptions to plain language:"
+#, no-wrap
+msgid "Exceptions to plain language:\n"
 msgstr ""
 
 #. type: Bullet: '        * '
 #: ../src/docs/guides/contribute/style_guide.md:65
-msgid ""
-"For documentation addressed to newcomers or beginners, or for writing "
-"content such as a blog post, a more conversational style is appropriate."
+#, no-wrap
+msgid "For documentation addressed to newcomers or beginners, or for writing content such as a blog post, a more conversational style is appropriate.\n"
 msgstr ""
 
 #. type: Bullet: '        * '
 #: ../src/docs/guides/contribute/style_guide.md:65
-msgid ""
-"For documentation addressed to advanced users or API (Application "
-"Programming Interface) documentation, a more formal or terse wording style "
-"is appropriate."
+#, no-wrap
+msgid "For documentation addressed to advanced users or API (Application Programming Interface) documentation, a more formal or terse wording style is appropriate.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:65
-msgid "**Inclusive language.**"
+#, no-wrap
+msgid "**Inclusive language.**\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/contribute/style_guide.md:65
-msgid ""
-"Language use evolves over time. Certain words have evolved to carry negative "
-"connotations so documentation should be rewritten to use new words."
+#, no-wrap
+msgid "Language use evolves over time. Certain words have evolved to carry negative connotations so documentation should be rewritten to use new words.\n"
 msgstr ""
 
 #. type: Bullet: '        * '
 #: ../src/docs/guides/contribute/style_guide.md:65
-msgid ""
-"*Master/slave* becomes *primary/secondary* or an agreed upon organizational "
-"standard."
+#, no-wrap
+msgid "*Master/slave* becomes *primary/secondary* or an agreed upon organizational standard.\n"
 msgstr ""
 
 #. type: Bullet: '        * '
 #: ../src/docs/guides/contribute/style_guide.md:65
-msgid ""
-"*Blacklist/whitelist* becomes *blocklist/allowlist* or an agreed upon "
-"organizational standard."
+#, no-wrap
+msgid "*Blacklist/whitelist* becomes *blocklist/allowlist* or an agreed upon organizational standard.\n"
 msgstr ""
 
 #. type: Bullet: '        * '
 #: ../src/docs/guides/contribute/style_guide.md:65
-msgid "You may think of other relevant examples as you create documentation."
+#, no-wrap
+msgid "You may think of other relevant examples as you create documentation.\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/contribute/style_guide.md:65
-msgid ""
-"When speaking of a person of *unknown* or *non-binary* gender, it is now "
-"considered acceptable to use “they” as a singular pronoun."
+#, no-wrap
+msgid "When speaking of a person of *unknown* or *non-binary* gender, it is now considered acceptable to use “they” as a singular pronoun.\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/contribute/style_guide.md:65
-msgid ""
-"When speaking of one’s capabilities, frame answers as *abilities* rather "
-"than *limitations.* For example, if you are wondering whether we have "
-"documentation about running Steam on Rocky Linux, the answer is not just "
-"“no.” Rather, “Sounds like that’s a great place for you to create something "
-"to add to our tree!”"
+#, no-wrap
+msgid "When speaking of one’s capabilities, frame answers as *abilities* rather than *limitations.* For example, if you are wondering whether we have documentation about running Steam on Rocky Linux, the answer is not just “no.” Rather, “Sounds like that’s a great place for you to create something to add to our tree!”\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:65
-msgid ""
-"**Avoid contractions.** This assists with translation efforts. The exception "
-"to this is when writing something in a more conversational tone, such as "
-"blog posts or welcome instructions for new members of the community."
+#, no-wrap
+msgid "**Avoid contractions.** This assists with translation efforts. The exception to this is when writing something in a more conversational tone, such as blog posts or welcome instructions for new members of the community.\n"
 msgstr ""
 
 #. type: Title ##
@@ -451,13 +425,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/style_guide.md:71
-msgid ""
-"When possible use the name of the month in the format {day} {Month} {year}. "
-"However, {Month} {day}, {year} is also acceptable to resolve clarity or "
-"appearance issues. Either way, to avoid creating confusion, write out month "
-"names rather than using a series of numbers.  For example: 24 January 2023, "
-"but January 24, 2023 is also acceptable—with both preferable over 1/24/2023 "
-"or 24/01/2023."
+#, no-wrap
+msgid "When possible use the name of the month in the format {day} {Month} {year}. However, {Month} {day}, {year} is also acceptable to resolve clarity or appearance issues. Either way, to avoid creating confusion, write out month names rather than using a series of numbers.  For example: 24 January 2023, but January 24, 2023 is also acceptable—with both preferable over 1/24/2023 or 24/01/2023.\n"
 msgstr ""
 
 #. type: Title ###
@@ -468,14 +437,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/style_guide.md:75
-msgid ""
-"If you have a procedure with only one step, use a bullet rather than a "
-"number. For example:"
+#, no-wrap
+msgid "If you have a procedure with only one step, use a bullet rather than a number. For example:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:77
-msgid "Implement this idea and move on."
+#, no-wrap
+msgid "Implement this idea and move on.\n"
 msgstr ""
 
 #. type: Title ###
@@ -486,10 +455,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:81
-msgid ""
-"Text instructions regarding a UI: When describing a command to be entered "
-"into a user interface, use the word “enter” rather than “put” or “type.” Use "
-"a codeblock to write out the command (i.e., set it off with backticks):"
+#, no-wrap
+msgid "Text instructions regarding a UI: When describing a command to be entered into a user interface, use the word “enter” rather than “put” or “type.” Use a codeblock to write out the command (i.e., set it off with backticks):\n"
 msgstr ""
 
 #. type: Plain text
@@ -502,10 +469,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:86
-msgid ""
-"Names of UI elements: **Bold** names of UI elements such as buttons, menu "
-"items, names of dialog boxes, and more, even if the word will not be "
-"clickable:"
+#, no-wrap
+msgid "Names of UI elements: **Bold** names of UI elements such as buttons, menu items, names of dialog boxes, and more, even if the word will not be clickable:\n"
 msgstr ""
 
 #. type: Plain text
@@ -530,39 +495,38 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:99
-msgid "**Abstract.** A brief statement of what to expect from this page"
+#, no-wrap
+msgid "**Abstract.** A brief statement of what to expect from this page\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:99
-msgid ""
-"**Objectives.** A bulleted list of what this page will convey to the reader"
+#, no-wrap
+msgid "**Objectives.** A bulleted list of what this page will convey to the reader\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:99
-msgid "**Skills** required/learned."
+#, no-wrap
+msgid "**Skills** required/learned.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:99
-msgid "**Difficulty level.** 1 star for easy, 2 for intermediate, etc."
+#, no-wrap
+msgid "**Difficulty level.** 1 star for easy, 2 for intermediate, etc.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:99
-msgid ""
-"**Reading time.** Divide the number of words in your document by a reading "
-"rate of 75 words per minute to determine this number."
+#, no-wrap
+msgid "**Reading time.** Divide the number of words in your document by a reading rate of 75 words per minute to determine this number.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/style_guide.md:103
-msgid ""
-"Within Markdown, admonitions are a way to put information into a box to "
-"highlight it. They are not essential to documentation, but they are a tool "
-"you may find useful. Learn more about admonitions from our [Rocky Formatting "
-"doc](../rockydocs_formatting/)."
+#, no-wrap
+msgid "Within Markdown, admonitions are a way to put information into a box to highlight it. They are not essential to documentation, but they are a tool you may find useful. Learn more about admonitions from our [Rocky Formatting doc](../rockydocs_formatting/).\n"
 msgstr ""
 
 #. type: Title ##
@@ -586,22 +550,20 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:113
-msgid ""
-"Provide text descriptions in alt-text or captions for every non-text item "
-"such as diagrams, images, or icons."
+#, no-wrap
+msgid "Provide text descriptions in alt-text or captions for every non-text item such as diagrams, images, or icons.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:113
-msgid "Avoid screenshots of text when possible."
+#, no-wrap
+msgid "Avoid screenshots of text when possible.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:113
-msgid ""
-"Make alt-text meaningful, not just descriptive. For action icons, for "
-"example, enter a description of the function rather than a description of "
-"its appearance."
+#, no-wrap
+msgid "Make alt-text meaningful, not just descriptive. For action icons, for example, enter a description of the function rather than a description of its appearance.\n"
 msgstr ""
 
 #. type: Title ###
@@ -612,30 +574,32 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:118
-msgid ""
-"Make links descriptive, so it is obvious where they will lead either from "
-"the text itself or from context. Avoid hyperlinks with names like “click "
-"here.”"
+#, no-wrap
+msgid "Make links descriptive, so it is obvious where they will lead either from the text itself or from context. Avoid hyperlinks with names like “click here.”\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:118
-msgid "Verify that all links work as described."
+#, no-wrap
+msgid "Verify that all links work as described.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:124
-msgid "Create tables with a logical order left to right, top to bottom."
+#, no-wrap
+msgid "Create tables with a logical order left to right, top to bottom.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:124
-msgid "Avoid blank cells at the top or left of the table."
+#, no-wrap
+msgid "Avoid blank cells at the top or left of the table.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:124
-msgid "Avoid merged cells that span multiple columns."
+#, no-wrap
+msgid "Avoid merged cells that span multiple columns.\n"
 msgstr ""
 
 #. type: Title ###
@@ -646,29 +610,20 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:130
-msgid ""
-"Some elements in Markdown, such as admonitions, have an assigned color to "
-"assist with visual comprehension. In general they also have an assigned "
-"name; for example, the “danger” admonition displays a red box but also has "
-"the descriptor “danger” built into the description. But when creating a "
-"custom admonition, be aware that color cannot be the only means of "
-"communicating a command or level of warning."
+#, no-wrap
+msgid "Some elements in Markdown, such as admonitions, have an assigned color to assist with visual comprehension. In general they also have an assigned name; for example, the “danger” admonition displays a red box but also has the descriptor “danger” built into the description. But when creating a custom admonition, be aware that color cannot be the only means of communicating a command or level of warning.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:130
-msgid ""
-"Any command that includes a sensory direction, such as *above* or *below*, "
-"*color*, *size*, *visual location* on the page, etc., should also include a "
-"direction that is communicable by only text description."
+#, no-wrap
+msgid "Any command that includes a sensory direction, such as *above* or *below*, *color*, *size*, *visual location* on the page, etc., should also include a direction that is communicable by only text description.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:130
-msgid ""
-"When creating a graphical element, make sure that there is enough contrast "
-"between the foreground and background colors to be easy for a screen reader "
-"to interpret."
+#, no-wrap
+msgid "When creating a graphical element, make sure that there is enough contrast between the foreground and background colors to be easy for a screen reader to interpret.\n"
 msgstr ""
 
 #. type: Title ###
@@ -679,40 +634,36 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:136
-msgid "Use all levels of headings without skipping any levels."
+#, no-wrap
+msgid "Use all levels of headings without skipping any levels.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:136
-msgid "Nest all material under headings to aid in readability."
+#, no-wrap
+msgid "Nest all material under headings to aid in readability.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/style_guide.md:136
-msgid "Remember that in Markdown only one Level One heading may be used."
+#, no-wrap
+msgid "Remember that in Markdown only one Level One heading may be used.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/style_guide.md:140
-msgid ""
-"This document lays out our contribution standards, including **style "
-"guidelines,** how to **structure** your document, and ways to incorporate "
-"**inclusivity** and **accessibility** into the text. These are the standards "
-"to which we aspire. As you are able, keep these standards in mind when "
-"creating and modifying documentation."
+#, no-wrap
+msgid "This document lays out our contribution standards, including **style guidelines,** how to **structure** your document, and ways to incorporate **inclusivity** and **accessibility** into the text. These are the standards to which we aspire. As you are able, keep these standards in mind when creating and modifying documentation.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/style_guide.md:142
-msgid ""
-"However—and do not miss this caveat—**treat these standards as a tool, not "
-"an obstacle.** In the spirit of inclusivity and accessibility, we want to "
-"make sure your contribution has a smooth entry into the Rocky family tree. "
-"We are a friendly and helpful team of documentarians and stylists, and we "
-"will help shepherd your document into its final form."
+#, no-wrap
+msgid "However—and do not miss this caveat—**treat these standards as a tool, not an obstacle.** In the spirit of inclusivity and accessibility, we want to make sure your contribution has a smooth entry into the Rocky family tree. We are a friendly and helpful team of documentarians and stylists, and we will help shepherd your document into its final form.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/style_guide.md:143
-msgid "Are you ready? Let’s get started!"
+#, no-wrap
+msgid "Are you ready? Let’s get started!\n"
 msgstr ""

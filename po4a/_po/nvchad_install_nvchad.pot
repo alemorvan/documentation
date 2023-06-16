@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,7 +46,8 @@ msgstr ""
 #: ../src/docs/guides/proxies/pound.md:62
 #: ../src/docs/guides/proxies/pound.md:418 ../src/docs/index.md:40
 #: ../src/docs/release_notes/9_1.md:16
-msgid "!!! note"
+#, no-wrap
+msgid "!!! note\n"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
@@ -164,54 +165,56 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:16
-msgid ""
-"As specified on the NvChad site you need to make sure you meet the following "
-"requirements:"
+#, no-wrap
+msgid "As specified on the NvChad site you need to make sure you meet the following requirements:\n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/nvchad/install_nvchad.md:23
-msgid "[Neovim 0.8.3](https://github.com/neovim/neovim/releases/tag/v0.8.3)."
+#, no-wrap
+msgid "[Neovim 0.8.3](https://github.com/neovim/neovim/releases/tag/v0.8.3).\n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/nvchad/install_nvchad.md:23
-msgid ""
-"[Nerd Font](https://www.nerdfonts.com/) Set it in your terminal emulator."
+#, no-wrap
+msgid "[Nerd Font](https://www.nerdfonts.com/) Set it in your terminal emulator.\n"
 msgstr ""
 
 #. type: Bullet: '  - '
 #: ../src/docs/books/nvchad/install_nvchad.md:23
-msgid "Make sure the nerd font you set doesn't end with **Mono**"
+#, no-wrap
+msgid "Make sure the nerd font you set doesn't end with **Mono**\n"
 msgstr ""
 
 #. type: Bullet: '   - '
 #: ../src/docs/books/nvchad/install_nvchad.md:23
-msgid "**Example :** Iosevka Nerd Font and not ~~Iosevka Nerd Font Mono~~"
+#, no-wrap
+msgid "**Example :** Iosevka Nerd Font and not ~~Iosevka Nerd Font Mono~~ \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/nvchad/install_nvchad.md:23
-msgid ""
-"[Ripgrep](https://github.com/BurntSushi/ripgrep) is required for grep "
-"searching with Telescope **(OPTIONAL)**."
+#, no-wrap
+msgid "[Ripgrep](https://github.com/BurntSushi/ripgrep) is required for grep searching with Telescope **(OPTIONAL)**. \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/nvchad/install_nvchad.md:23
-msgid "GCC"
+#, no-wrap
+msgid "GCC\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:25
-msgid ""
-"This is actually not a real \"installation\" but rather writing a custom "
-"Neovim configuration for our user."
+#, no-wrap
+msgid "This is actually not a real \"installation\" but rather writing a custom Neovim configuration for our user.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:27
-msgid "!!! warning \"Performing a Clean Installation\""
+#, no-wrap
+msgid "!!! warning \"Performing a Clean Installation\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -229,9 +232,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:33
-msgid ""
-"If you have used the Neovim installation before, it will have created three "
-"folders in which to write your files, which are:"
+#, no-wrap
+msgid "If you have used the Neovim installation before, it will have created three folders in which to write your files, which are:\n"
 msgstr ""
 
 #. type: Fenced code block (text)
@@ -245,9 +247,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:41
-msgid ""
-"To perform a clean installation of the configuration, we need to back up the "
-"previous one first:"
+#, no-wrap
+msgid "To perform a clean installation of the configuration, we need to back up the previous one first:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -262,7 +263,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:50
-msgid "And then we delete all previous configurations and files:"
+#, no-wrap
+msgid "And then we delete all previous configurations and files:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -276,14 +278,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:58
-msgid "Now that we have cleaned up, we can move on to installing NvChad."
+#, no-wrap
+msgid "Now that we have cleaned up, we can move on to installing NvChad.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:60
-msgid ""
-"To do this, simply run the following command from any location within your "
-"_home directory_:"
+#, no-wrap
+msgid "To do this, simply run the following command from any location within your _home directory_:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -294,28 +296,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:66
-msgid ""
-"The first part of the command clones the NvChad repository to the `~/.config/"
-"nvim` folder; this is Neovim's default path for searching the user "
-"configuration. The `--depth 1` option instructs _git_ to clone only the "
-"repository set as \"default\" on GitHub."
+#, no-wrap
+msgid "The first part of the command clones the NvChad repository to the `~/.config/nvim` folder; this is Neovim's default path for searching the user configuration. The `--depth 1` option instructs _git_ to clone only the repository set as \"default\" on GitHub.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:68
-msgid ""
-"Once the cloning process is finished in the second part of the command, the "
-"Neovim executable (_nvim_) is called, which upon finding a configuration "
-"folder will start importing the configurations encountered in the `init.lua` "
-"files of it in a predefined order."
+#, no-wrap
+msgid "Once the cloning process is finished in the second part of the command, the Neovim executable (_nvim_) is called, which upon finding a configuration folder will start importing the configurations encountered in the `init.lua` files of it in a predefined order.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:70
-msgid ""
-"Before starting the bootstrap, the installation will offer us the "
-"installation of a base structure (_template chadrc_) for our further "
-"customizations:"
+#, no-wrap
+msgid "Before starting the bootstrap, the installation will offer us the installation of a base structure (_template chadrc_) for our further customizations:\n"
 msgstr ""
 
 #. type: Plain text
@@ -326,63 +320,50 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:74
-msgid ""
-"Although choosing to install the recommended structure is not mandatory, it "
-"is definitely recommended for anyone new to this Editor. Current users of "
-"NvChad who already have a `custom` folder will be able to continue using it "
-"after making the necessary changes."
+#, no-wrap
+msgid "Although choosing to install the recommended structure is not mandatory, it is definitely recommended for anyone new to this Editor. Current users of NvChad who already have a `custom` folder will be able to continue using it after making the necessary changes.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:76
-msgid ""
-"The structure created by the template will also be used in this guide for "
-"developing the configuration to be used for writing documents in Markdown."
+#, no-wrap
+msgid "The structure created by the template will also be used in this guide for developing the configuration to be used for writing documents in Markdown.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:78
-msgid ""
-"For those who want to learn more about this topic before starting the "
-"installation, they can consult the dedicated page [Template Chadrc]"
-"(template_chadrc.md)."
+#, no-wrap
+msgid "For those who want to learn more about this topic before starting the installation, they can consult the dedicated page [Template Chadrc](template_chadrc.md).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:80
-msgid ""
-"The page contains information about the structure of the folder that will be "
-"created, the functions of related files, and other useful information for "
-"customizing NvChad."
+#, no-wrap
+msgid "The page contains information about the structure of the folder that will be created, the functions of related files, and other useful information for customizing NvChad.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:82
-msgid ""
-"At this point the downloading and configuration of the basic plugins and if "
-"we have chosen to install the template as well the installation of the "
-"configured language server will begin. Once the process is complete we will "
-"have our Editor ready to use."
+#, no-wrap
+msgid "At this point the downloading and configuration of the basic plugins and if we have chosen to install the template as well the installation of the configured language server will begin. Once the process is complete we will have our Editor ready to use.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:84
-msgid "![Installation](images/installed_first_time.png)"
+#, no-wrap
+msgid "![Installation](images/installed_first_time.png) \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:86
-msgid ""
-"As can be seen from the screenshot below, thanks to the configuration "
-"changes made, the editor has completely changed in appearance from the basic "
-"version of Neovim. It should be remembered, however, that although the "
-"configuration of NvChad completely transforms the editor, the base remains "
-"Neovim."
+#, no-wrap
+msgid "As can be seen from the screenshot below, thanks to the configuration changes made, the editor has completely changed in appearance from the basic version of Neovim. It should be remembered, however, that although the configuration of NvChad completely transforms the editor, the base remains Neovim.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:88
-msgid "![NvChad Rockydocs](images/nvchad_ui.png)"
+#, no-wrap
+msgid "![NvChad Rockydocs](images/nvchad_ui.png)\n"
 msgstr ""
 
 #. type: Title ###
@@ -393,9 +374,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:92
-msgid ""
-"Let us now go on to analyze the structure that the configuration created, "
-"the structure is as follows:"
+#, no-wrap
+msgid "Let us now go on to analyze the structure that the configuration created, the structure is as follows:\n"
 msgstr ""
 
 #. type: Fenced code block (text)
@@ -429,9 +409,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:120
-msgid ""
-"And if we chose to also install the _template chadrc_ we will also have the "
-"`nvim/lua/custom` folder with the following structure:"
+#, no-wrap
+msgid "And if we chose to also install the _template chadrc_ we will also have the `nvim/lua/custom` folder with the following structure:\n"
 msgstr ""
 
 #. type: Fenced code block (text)
@@ -452,20 +431,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:136
-msgid ""
-"The first file we encounter is the `init.lua` file which initializes the "
-"configuration by inserting the `lua/core` folder and `lua/core/utils.lua` "
-"(and if present, the `lua/custom/init.lua`) files into the _nvim_ tree. Runs "
-"the bootstrap of `lazy.nvim` (the plugin manager) and once finished "
-"initialize the `plugins` folder."
+#, no-wrap
+msgid "The first file we encounter is the `init.lua` file which initializes the configuration by inserting the `lua/core` folder and `lua/core/utils.lua` (and if present, the `lua/custom/init.lua`) files into the _nvim_ tree. Runs the bootstrap of `lazy.nvim` (the plugin manager) and once finished initialize the `plugins` folder.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:138
-msgid ""
-"In particular, the `load_mappings()` function is called for loading keyboard "
-"shortcuts. In addition, the `gen_chadrc_template()` function provides the "
-"subroutine for creating the `custom` folder."
+#, no-wrap
+msgid "In particular, the `load_mappings()` function is called for loading keyboard shortcuts. In addition, the `gen_chadrc_template()` function provides the subroutine for creating the `custom` folder. \n"
 msgstr ""
 
 #. type: Fenced code block (lua)
@@ -498,24 +471,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:165
-msgid ""
-"Inclusion of the `core` folder also results in the inclusion of the `core/"
-"init.lua` file, which overrides some Neovim interface configurations and "
-"prepares for buffer management."
+#, no-wrap
+msgid "Inclusion of the `core` folder also results in the inclusion of the `core/init.lua` file, which overrides some Neovim interface configurations and prepares for buffer management.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:167
-msgid ""
-"As we can see, each `init.lua` file is included following a well-established "
-"order. This is used to selectively override the various options from the "
-"basic settings. Broadly speaking, we can say that `init.lua` files have the "
-"functions to load global options, autocmds, or anything else."
+#, no-wrap
+msgid "As we can see, each `init.lua` file is included following a well-established order. This is used to selectively override the various options from the basic settings. Broadly speaking, we can say that `init.lua` files have the functions to load global options, autocmds, or anything else.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:169
-msgid "This is the call that returns basic command mappings:"
+#, no-wrap
+msgid "This is the call that returns basic command mappings:\n"
 msgstr ""
 
 #. type: Fenced code block (lua)
@@ -526,35 +495,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:175
-msgid ""
-"This sets four main keys from which, in association with other keys, "
-"commands can be launched. The main keys are:"
+#, no-wrap
+msgid "This sets four main keys from which, in association with other keys, commands can be launched. The main keys are:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/nvchad/install_nvchad.md:180
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:26
 #: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:22
-msgid "C = <kbd>CTRL</kbd>"
+#, no-wrap
+msgid "C = <kbd>CTRL</kbd>\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/nvchad/install_nvchad.md:180
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:26
 #: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:22
-msgid "leader = <kbd>SPACE</kbd>"
+#, no-wrap
+msgid "leader = <kbd>SPACE</kbd>\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/nvchad/install_nvchad.md:180
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:26
 #: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:22
-msgid "A = <kbd>ALT</kbd>"
+#, no-wrap
+msgid "A = <kbd>ALT</kbd>\n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/nvchad/install_nvchad.md:180
-msgid "S = <kbd>SHIFT</kbd>"
+#, no-wrap
+msgid "S = <kbd>SHIFT</kbd>\n"
 msgstr ""
 
 #. type: Plain text
@@ -565,14 +537,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:186
-msgid ""
-"The default mapping is contained in _core/mapping.lua_ but can be extended "
-"with other custom commands using its own _mappings.lua_."
+#, no-wrap
+msgid "The default mapping is contained in _core/mapping.lua_ but can be extended with other custom commands using its own _mappings.lua_.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:188
-msgid "Some examples of the standard mapping are:"
+#, no-wrap
+msgid "Some examples of the standard mapping are:\n"
 msgstr ""
 
 #. type: Fenced code block (text)
@@ -586,29 +558,18 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:196
-msgid ""
-"There are many combinations pre-set for you, and they cover all the uses of "
-"NvChad. It is worth pausing to analyze the key mappings before starting to "
-"use your NvChad-configured instance of Neovim."
+#, no-wrap
+msgid "There are many combinations pre-set for you, and they cover all the uses of NvChad. It is worth pausing to analyze the key mappings before starting to use your NvChad-configured instance of Neovim.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:198
-msgid ""
-"Continuing with the structural analysis, we find the _lua/plugins_ folder, "
-"which contains the setup of the built-in plugins and their configurations. "
-"The main plugins in the configuration will be described in the next section. "
-"As we can see, the _core/plugins_ folder also contains an `init.lua` file, "
-"which is used here for the installation and subsequent compilation of the "
-"plugins."
+#, no-wrap
+msgid "Continuing with the structural analysis, we find the _lua/plugins_ folder, which contains the setup of the built-in plugins and their configurations. The main plugins in the configuration will be described in the next section. As we can see, the _core/plugins_ folder also contains an `init.lua` file, which is used here for the installation and subsequent compilation of the plugins.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/install_nvchad.md:199
-msgid ""
-"Finally, we find the `lazy-lock.json` file. This file allows us to "
-"synchronize the configuration of NvChad plugins across multiple "
-"workstations, so that we have the same functionality on all the workstations "
-"used. Its function will be better explained in the section dedicated to the "
-"plugins manager."
+#, no-wrap
+msgid "Finally, we find the `lazy-lock.json` file. This file allows us to synchronize the configuration of NvChad plugins across multiple workstations, so that we have the same functionality on all the workstations used. Its function will be better explained in the section dedicated to the plugins manager.\n"
 msgstr ""

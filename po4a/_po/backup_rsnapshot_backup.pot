@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -120,7 +120,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/books/lxd_server/06-profiles.md:195
 #: ../src/docs/guides/backup/rsnapshot_backup.md:414
-msgid "And add this line:"
+#, no-wrap
+msgid "And add this line:\n"
 msgstr ""
 
 #. type: Title ##
@@ -169,7 +170,8 @@ msgstr ""
 #: ../src/docs/guides/automation/cron_jobs_howto.md:131
 #: ../src/docs/guides/backup/rsnapshot_backup.md:412
 #: ../src/docs/guides/backup/rsync_ssh.md:123
-msgid "`crontab -e`"
+#, no-wrap
+msgid "`crontab -e`\n"
 msgstr ""
 
 #. type: YAML Front Matter: tags
@@ -198,72 +200,62 @@ msgstr ""
 
 #. type: Bullet: '  * '
 #: ../src/docs/guides/backup/rsnapshot_backup.md:21
-msgid ""
-"Know how to install additional repositories and snapshots from the command-"
-"line"
+#, no-wrap
+msgid "Know how to install additional repositories and snapshots from the command-line\n"
 msgstr ""
 
 #. type: Bullet: '  * '
 #: ../src/docs/guides/backup/rsnapshot_backup.md:21
-msgid ""
-"Know about mounting filesystems external of your machine (external hard "
-"drive, remote filesystem, etc.)"
+#, no-wrap
+msgid "Know about mounting filesystems external of your machine (external hard drive, remote filesystem, etc.)\n"
 msgstr ""
 
 #. type: Bullet: '  * '
 #: ../src/docs/guides/backup/rsnapshot_backup.md:21
-msgid ""
-"Know how to use an editor (`vi` is used here, but you can use your favorite "
-"editor)"
+#, no-wrap
+msgid "Know how to use an editor (`vi` is used here, but you can use your favorite editor)\n"
 msgstr ""
 
 #. type: Bullet: '  * '
 #: ../src/docs/guides/backup/rsnapshot_backup.md:21
-msgid "Know a little BASH scripting"
+#, no-wrap
+msgid "Know a little BASH scripting\n"
 msgstr ""
 
 #. type: Bullet: '  * '
 #: ../src/docs/guides/backup/rsnapshot_backup.md:21
-msgid "Know how to modify the crontab for the root user"
+#, no-wrap
+msgid "Know how to modify the crontab for the root user\n"
 msgstr ""
 
 #. type: Bullet: '  * '
 #: ../src/docs/guides/backup/rsnapshot_backup.md:21
-msgid ""
-"Knowledge of SSH public and private keys (only if you plan to run remote "
-"backups from another server)"
+#, no-wrap
+msgid "Knowledge of SSH public and private keys (only if you plan to run remote backups from another server)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:25
-msgid ""
-"_rsnapshot_ is a very powerful backup utility that can be installed on any "
-"Linux-based machine. It can either back up a machine locally, or you can "
-"back up multiple machines, say servers for instance, from a single machine."
+#, no-wrap
+msgid "_rsnapshot_ is a very powerful backup utility that can be installed on any Linux-based machine. It can either back up a machine locally, or you can back up multiple machines, say servers for instance, from a single machine.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:27
-msgid ""
-"_rsnapshot_ uses `rsync` and is written entirely in perl with no library "
-"dependencies, so there are no weird requirements for installation. In the "
-"case of Rocky Linux, you should generally be able to install _rnapshot_ by "
-"using the EPEL repository. After the initial release of Rocky Linux 9.0, "
-"there was a period of time when the EPEL did not contain the _rsnapshot_ "
-"package. That has since been rectified, but we have included a method of "
-"installing from source just in case this should happen again."
+#, no-wrap
+msgid "_rsnapshot_ uses `rsync` and is written entirely in perl with no library dependencies, so there are no weird requirements for installation. In the case of Rocky Linux, you should generally be able to install _rnapshot_ by using the EPEL repository. After the initial release of Rocky Linux 9.0, there was a period of time when the EPEL did not contain the _rsnapshot_ package. That has since been rectified, but we have included a method of installing from source just in case this should happen again.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:29
-msgid ""
-"This documentation covers the installation of _rsnapshot_ on Rocky Linux "
-"only."
+#, no-wrap
+msgid "This documentation covers the installation of _rsnapshot_ on Rocky Linux only.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:31
-msgid "=== \"EPEL Install\""
+#, no-wrap
+msgid "=== \"EPEL Install\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -371,7 +363,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:79
-msgid "=== \"Source Install\""
+#, no-wrap
+msgid "=== \"Source Install\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -430,7 +423,8 @@ msgstr ""
 
 #. type: Bullet: '    1. '
 #: ../src/docs/guides/backup/rsnapshot_backup.md:113
-msgid "Go to https://github.com/rsnapshot/rsnapshot"
+#, no-wrap
+msgid "Go to https://github.com/rsnapshot/rsnapshot\n"
 msgstr ""
 
 #. type: Plain text
@@ -577,23 +571,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:161
-msgid ""
-"In this step, we show how to mount a hard drive, such as an external USB "
-"hard drive, that will be used to back up your system. This particular step "
-"is only necessary if you are backing up a single machine or server, as seen "
-"in our first example below."
+#, no-wrap
+msgid "In this step, we show how to mount a hard drive, such as an external USB hard drive, that will be used to back up your system. This particular step is only necessary if you are backing up a single machine or server, as seen in our first example below.\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/guides/backup/rsnapshot_backup.md:163
-msgid "Plug in the USB drive."
+#, no-wrap
+msgid "Plug in the USB drive.\n"
 msgstr ""
 
 #. type: Bullet: '2. '
 #: ../src/docs/guides/backup/rsnapshot_backup.md:163
-msgid ""
-"Type `dmesg | grep sd` which should show you the drive you want to use. In "
-"this case, it'll be called _sda1_."
+#, no-wrap
+msgid "Type `dmesg | grep sd` which should show you the drive you want to use. In this case, it'll be called _sda1_.  \n"
 msgstr ""
 
 #. type: Plain text
@@ -606,31 +597,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:172
+#, no-wrap
 msgid ""
-"To do that, take the drive information revealed in the `dmesg` command above "
-"and type `mount | grep sda1`, which should show something like this: `/dev/"
-"sda1 on /media/username/8ea89e5e-9291-45c1-961d-99c346a2628a` 4. Type `sudo "
-"umount /dev/sda1` to unmount your external hard drive.  5. Next, create a "
-"new mount point for the backup: `sudo mkdir /mnt/backup` 6. Now mount the "
-"drive to your backup folder location: `sudo mount /dev/sda1 /mnt/backup` 7. "
-"Now type `mount | grep sda1` again, and you should see something like this: "
-"`/dev/sda1 on /mnt/backup type ext2 (rw,relatime)` 8. Next create a "
-"directory that must exist for the backup to continue on the mounted drive. "
-"We are using a folder called \"storage\" for this example: `sudo mkdir /mnt/"
-"backup/storage`"
+"To do that, take the drive information revealed in the `dmesg` command above and type `mount | grep sda1`, which should show something like this: `/dev/sda1 on /media/username/8ea89e5e-9291-45c1-961d-99c346a2628a`\n"
+"4. Type `sudo umount /dev/sda1` to unmount your external hard drive.\n"
+"5. Next, create a new mount point for the backup: `sudo mkdir /mnt/backup`\n"
+"6. Now mount the drive to your backup folder location: `sudo mount /dev/sda1 /mnt/backup`\n"
+"7. Now type `mount | grep sda1` again, and you should see something like this: `/dev/sda1 on /mnt/backup type ext2 (rw,relatime)`\n"
+"8. Next create a directory that must exist for the backup to continue on the mounted drive. We are using a folder called \"storage\" for this example: `sudo mkdir /mnt/backup/storage`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:174
-msgid ""
-"Note that for a single machine, you will have to either repeat the `umount` "
-"and `mount` steps each time the drive is plugged in again, or each time the "
-"system reboots, or automate these commands with a script."
+#, no-wrap
+msgid "Note that for a single machine, you will have to either repeat the `umount` and `mount` steps each time the drive is plugged in again, or each time the system reboots, or automate these commands with a script.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:176
-msgid "We recommend automation. Automation is the sysadmin way."
+#, no-wrap
+msgid "We recommend automation. Automation is the sysadmin way.\n"
 msgstr ""
 
 #. type: Title ##
@@ -641,35 +627,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:180
-msgid ""
-"This is the most important step. It's easy to make a mistake when making "
-"changes to the configuration file. The _rsnapshot_ configuration requires "
-"tabs for any separation between elements, and a warning to that effect is at "
-"the very top of the configuration file."
+#, no-wrap
+msgid "This is the most important step. It's easy to make a mistake when making changes to the configuration file. The _rsnapshot_ configuration requires tabs for any separation between elements, and a warning to that effect is at the very top of the configuration file.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:182
-msgid ""
-"A space character will cause the entire configuration—and your backup—to "
-"fail. For instance, near the top of the configuration file is a section for "
-"the `# SNAPSHOT ROOT DIRECTORY #`. If you were adding this in from scratch, "
-"you would type `snapshot_root` then TAB and then type `/"
-"whatever_the_path_to_the_snapshot_root_will_be/`"
+#, no-wrap
+msgid "A space character will cause the entire configuration—and your backup—to fail. For instance, near the top of the configuration file is a section for the `# SNAPSHOT ROOT DIRECTORY #`. If you were adding this in from scratch, you would type `snapshot_root` then TAB and then type `/whatever_the_path_to_the_snapshot_root_will_be/`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:184
-msgid ""
-"The best thing is that the default configuration that comes with _rsnapshot_ "
-"only needs minor changes to make it work for a backup of a local machine. "
-"It's always a good idea, though, to make a backup copy of the configuration "
-"file before you start editing:"
+#, no-wrap
+msgid "The best thing is that the default configuration that comes with _rsnapshot_ only needs minor changes to make it work for a backup of a local machine. It's always a good idea, though, to make a backup copy of the configuration file before you start editing:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:186
-msgid "`cp /etc/rsnapshot.conf /etc/rsnapshot.conf.bak`"
+#, no-wrap
+msgid "`cp /etc/rsnapshot.conf /etc/rsnapshot.conf.bak`\n"
 msgstr ""
 
 #. type: Title ##
@@ -680,24 +657,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:190
-msgid ""
-"In this case, _rsnapshot_ is going to be run locally to back up a particular "
-"machine. In this example, we'll break down the configuration file, and show "
-"you exactly what you need to change."
+#, no-wrap
+msgid "In this case, _rsnapshot_ is going to be run locally to back up a particular machine. In this example, we'll break down the configuration file, and show you exactly what you need to change.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:192
-msgid ""
-"You will need to use `vi` (or edit with your favorite editor) to open the _/"
-"etc/rsnapshot.conf_ file."
+#, no-wrap
+msgid "You will need to use `vi` (or edit with your favorite editor) to open the _/etc/rsnapshot.conf_ file.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:194
-msgid ""
-"The first thing to change is the _snapshot_root_ setting which by default "
-"has this value:"
+#, no-wrap
+msgid "The first thing to change is the _snapshot_root_ setting which by default has this value:\n"
 msgstr ""
 
 #. type: Plain text
@@ -709,9 +682,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:198
-msgid ""
-"We need to change this to our mount point that we created above plus the "
-"addition of \"storage\"."
+#, no-wrap
+msgid "We need to change this to our mount point that we created above plus the addition of \"storage\".\n"
 msgstr ""
 
 #. type: Plain text
@@ -722,23 +694,21 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:202
-msgid ""
-"We also want to tell the backup NOT to run if the drive is not mounted. To "
-"do this, remove the \"#\" sign (also called a remark, pound sign, number "
-"sign, hash symbol, etc.) next to `no_create_root` so that it looks like this:"
+#, no-wrap
+msgid "We also want to tell the backup NOT to run if the drive is not mounted. To do this, remove the \"#\" sign (also called a remark, pound sign, number sign, hash symbol, etc.) next to `no_create_root` so that it looks like this:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:204
 #: ../src/docs/guides/backup/rsnapshot_backup.md:348
-msgid "`no_create_root 1`"
+#, no-wrap
+msgid "`no_create_root 1`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:206
-msgid ""
-"Next go down to the section titled `# EXTERNAL PROGRAM DEPENDENCIES #` and "
-"remove the comment (again, the \"#\" sign) from this line:"
+#, no-wrap
+msgid "Next go down to the section titled `# EXTERNAL PROGRAM DEPENDENCIES #` and remove the comment (again, the \"#\" sign) from this line:\n"
 msgstr ""
 
 #. type: Plain text
@@ -749,7 +719,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:210
-msgid "So that it now reads:"
+#, no-wrap
+msgid "So that it now reads:\n"
 msgstr ""
 
 #. type: Plain text
@@ -760,10 +731,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:214
-msgid ""
-"While we do not need `cmd_ssh` for this particular configuration, we will "
-"need it for our other option below and it doesn't hurt to have it enabled. "
-"So find the line that says:"
+#, no-wrap
+msgid "While we do not need `cmd_ssh` for this particular configuration, we will need it for our other option below and it doesn't hurt to have it enabled. So find the line that says:\n"
 msgstr ""
 
 #. type: Plain text
@@ -774,7 +743,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:218
-msgid "And remove the \"#\" sign so that it looks like this:"
+#, no-wrap
+msgid "And remove the \"#\" sign so that it looks like this:\n"
 msgstr ""
 
 #. type: Plain text
@@ -791,19 +761,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:224
-msgid ""
-"This has been changed from earlier versions of _rsnapshot_ from `hourly, "
-"daily, monthly, yearly` to `alpha, beta, gamma, delta`. Which is a bit "
-"confusing. What you need to do is add a remark to any interval that you "
-"won't be using. In the configuration, delta is already remarked out."
+#, no-wrap
+msgid "This has been changed from earlier versions of _rsnapshot_ from `hourly, daily, monthly, yearly` to `alpha, beta, gamma, delta`. Which is a bit confusing. What you need to do is add a remark to any interval that you won't be using. In the configuration, delta is already remarked out.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:226
-msgid ""
-"For this example, we aren't going to be running any other increments other "
-"than a nightly backup, so just add a remark to alpha and gamma so that the "
-"configuration looks like this when you are done:"
+#, no-wrap
+msgid "For this example, we aren't going to be running any other increments other than a nightly backup, so just add a remark to alpha and gamma so that the configuration looks like this when you are done:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -818,7 +783,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:235
-msgid "Now skip down to the logfile line, which by default should read:"
+#, no-wrap
+msgid "Now skip down to the logfile line, which by default should read:\n"
 msgstr ""
 
 #. type: Plain text
@@ -829,7 +795,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:239
-msgid "And remove the remark so that it is enabled:"
+#, no-wrap
+msgid "And remove the remark so that it is enabled:\n"
 msgstr ""
 
 #. type: Plain text
@@ -840,17 +807,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:243
-msgid ""
-"Finally, skip down to the `### BACKUP POINTS / SCRIPTS ###` section and add "
-"any directories that you want to add in the `# LOCALHOST` section, remember "
-"to use TAB rather than SPACE between elements!"
+#, no-wrap
+msgid "Finally, skip down to the `### BACKUP POINTS / SCRIPTS ###` section and add any directories that you want to add in the `# LOCALHOST` section, remember to use TAB rather than SPACE between elements!\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:245
-msgid ""
-"For now write your changes (`SHIFT :wq!` for `vi`) and exit the "
-"configuration file."
+#, no-wrap
+msgid "For now write your changes (`SHIFT :wq!` for `vi`) and exit the configuration file.\n"
 msgstr ""
 
 #. type: Title ###
@@ -861,37 +825,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:249
-msgid ""
-"We want to make sure that we didn't add spaces or any other glaring errors "
-"to our configuration file while we were editing it. To do this, we run "
-"_rsnapshot_ against our configuration with the `configtest` option:"
+#, no-wrap
+msgid "We want to make sure that we didn't add spaces or any other glaring errors to our configuration file while we were editing it. To do this, we run _rsnapshot_ against our configuration with the `configtest` option:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:251
-msgid ""
-"`rsnapshot configtest` will show `Syntax OK` if there are no errors in the "
-"configuration."
+#, no-wrap
+msgid "`rsnapshot configtest` will show `Syntax OK` if there are no errors in the configuration.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:253
-msgid ""
-"You should get into the habit of running `configtest` against a particular "
-"configuration. The reason for that will be more evident when we get into the "
-"**Multiple Machine or Multiple Server Backups** section."
+#, no-wrap
+msgid "You should get into the habit of running `configtest` against a particular configuration. The reason for that will be more evident when we get into the **Multiple Machine or Multiple Server Backups** section.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:255
-msgid ""
-"To run `configtest` against a particular configuration file, run it with the "
-"-c option to specify the configuration:"
+#, no-wrap
+msgid "To run `configtest` against a particular configuration file, run it with the -c option to specify the configuration:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:257
-msgid "`rsnapshot -c /etc/rsnapshot.conf configtest`"
+#, no-wrap
+msgid "`rsnapshot -c /etc/rsnapshot.conf configtest`\n"
 msgstr ""
 
 #. type: Title ##
@@ -902,29 +861,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:261
-msgid ""
-"Everything has checked out, so it's time to go ahead and run the backup for "
-"the first time. You can run this in test mode first if you like, so that you "
-"can see what the backup script is going to do."
+#, no-wrap
+msgid "Everything has checked out, so it's time to go ahead and run the backup for the first time. You can run this in test mode first if you like, so that you can see what the backup script is going to do.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:263
-msgid ""
-"Again, to do this you don't necessarily have to specify the configuration in "
-"this case, but you should get into the habit of doing so:"
+#, no-wrap
+msgid "Again, to do this you don't necessarily have to specify the configuration in this case, but you should get into the habit of doing so:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:265
-msgid "`rsnapshot -c /etc/rsnapshot.conf -t beta`"
+#, no-wrap
+msgid "`rsnapshot -c /etc/rsnapshot.conf -t beta`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:267
-msgid ""
-"Which should return something like this, showing you what will happen when "
-"the backup is actually run:"
+#, no-wrap
+msgid "Which should return something like this, showing you what will happen when the backup is actually run:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -946,23 +902,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:283
-msgid ""
-"Once you are satisfied with the test, go ahead and run it manually the first "
-"time without the test:"
+#, no-wrap
+msgid "Once you are satisfied with the test, go ahead and run it manually the first time without the test:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:285
-msgid "`rsnapshot -c /etc/rsnapshot.conf beta`"
+#, no-wrap
+msgid "`rsnapshot -c /etc/rsnapshot.conf beta`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:287
-msgid ""
-"When the backup finishes, navigate to /mnt/backup and take a look at the "
-"directory structure that was created there. There will be a `storage/beta.0/"
-"localhost` directory, followed by the directories that you specified to "
-"backup."
+#, no-wrap
+msgid "When the backup finishes, navigate to /mnt/backup and take a look at the directory structure that was created there. There will be a `storage/beta.0/localhost` directory, followed by the directories that you specified to backup.\n"
 msgstr ""
 
 #. type: Title ###
@@ -973,37 +926,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:291
-msgid ""
-"Each time the backup is run, it will create a new beta increment, 0-6, or 7 "
-"days worth of backups. The newest backup will always be beta.0 whereas "
-"yesterday's backup will always be beta.1."
+#, no-wrap
+msgid "Each time the backup is run, it will create a new beta increment, 0-6, or 7 days worth of backups. The newest backup will always be beta.0 whereas yesterday's backup will always be beta.1.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:293
-msgid ""
-"The size of each of these backups will appear to take up the same amount (or "
-"more) of disk space, but this is because of _rsnapshot's_ use of hard links. "
-"To restore files from yesterday's backup, you would simply copy them back "
-"from beta.1's directory structure."
+#, no-wrap
+msgid "The size of each of these backups will appear to take up the same amount (or more) of disk space, but this is because of _rsnapshot's_ use of hard links. To restore files from yesterday's backup, you would simply copy them back from beta.1's directory structure.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:295
-msgid ""
-"Each backup is only an incremental backup from the previous run, BUT, "
-"because of the use of hard links, each backup directory, contains either the "
-"file or the hard-link to the file in whichever directory it was actually "
-"backed up in."
+#, no-wrap
+msgid "Each backup is only an incremental backup from the previous run, BUT, because of the use of hard links, each backup directory, contains either the file or the hard-link to the file in whichever directory it was actually backed up in.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:297
-msgid ""
-"So to restore files, you don't have to pick and choose which directory or "
-"increment to restore them from, just what time stamp the backup should have "
-"that you are restoring. It's a great system and uses far less disk space "
-"than many other backup solutions."
+#, no-wrap
+msgid "So to restore files, you don't have to pick and choose which directory or increment to restore them from, just what time stamp the backup should have that you are restoring. It's a great system and uses far less disk space than many other backup solutions.\n"
 msgstr ""
 
 #. type: Title ##
@@ -1014,29 +956,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:301
-msgid ""
-"Once everything has been tested and we know that things will work without "
-"issue, the next step is to set up the crontab for the root user, so that all "
-"of this can be done automatically every day:"
+#, no-wrap
+msgid "Once everything has been tested and we know that things will work without issue, the next step is to set up the crontab for the root user, so that all of this can be done automatically every day:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:303
-msgid "`sudo crontab -e`"
+#, no-wrap
+msgid "`sudo crontab -e`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:305
-msgid ""
-"If you haven't run this before, choose vim.basic as your editor or your own "
-"editor preference when the `Select an editor` line comes up."
+#, no-wrap
+msgid "If you haven't run this before, choose vim.basic as your editor or your own editor preference when the `Select an editor` line comes up.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:307
-msgid ""
-"We are going to set our backup to automatically run at 11 PM, so we will add "
-"this to the crontab:"
+#, no-wrap
+msgid "We are going to set our backup to automatically run at 11 PM, so we will add this to the crontab:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1055,56 +994,44 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:316
-msgid ""
-"Doing backups of multiple machines from a machine with a RAID array or large "
-"storage capacity, either on premises or from across the Internet works very "
-"well."
+#, no-wrap
+msgid "Doing backups of multiple machines from a machine with a RAID array or large storage capacity, either on premises or from across the Internet works very well.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:318
-msgid ""
-"If running these backups from across the Internet, you need to make sure "
-"that both locations have adequate bandwidth for the backups to occur. You "
-"can use _rsnapshot_ to synchronize an on-site server with an off-site backup "
-"array or backup server to improve data redundancy."
+#, no-wrap
+msgid "If running these backups from across the Internet, you need to make sure that both locations have adequate bandwidth for the backups to occur. You can use _rsnapshot_ to synchronize an on-site server with an off-site backup array or backup server to improve data redundancy.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:322
-msgid ""
-"We are assuming that you are running _rsnapshot_ from a machine remotely, on-"
-"premise. This exact configuration can be duplicated, as indicated above, "
-"remotely off-premise as well."
+#, no-wrap
+msgid "We are assuming that you are running _rsnapshot_ from a machine remotely, on-premise. This exact configuration can be duplicated, as indicated above, remotely off-premise as well.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:324
-msgid ""
-"In this case, you will want to install _rsnapshot_ on the machine that is "
-"doing all of the backups. We are also assuming:"
+#, no-wrap
+msgid "In this case, you will want to install _rsnapshot_ on the machine that is doing all of the backups. We are also assuming:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/rsnapshot_backup.md:328
-msgid ""
-"That the servers you will be backing up to, have a firewall rule that allows "
-"the remote machine to SSH into it"
+#, no-wrap
+msgid "That the servers you will be backing up to, have a firewall rule that allows the remote machine to SSH into it\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/rsnapshot_backup.md:328
-msgid ""
-"That each server that you will be backing up has a recent version of `rsync` "
-"installed. For Rocky Linux servers, run `dnf install rsync` to update your "
-"system's version of `rsync`."
+#, no-wrap
+msgid "That each server that you will be backing up has a recent version of `rsync` installed. For Rocky Linux servers, run `dnf install rsync` to update your system's version of `rsync`.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/rsnapshot_backup.md:328
-msgid ""
-"That you've either connected to the machine as the root user, or that you "
-"have run `sudo -s` to switch to the root user."
+#, no-wrap
+msgid "That you've either connected to the machine as the root user, or that you have run `sudo -s` to switch to the root user.\n"
 msgstr ""
 
 #. type: Title ##
@@ -1115,24 +1042,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:332
-msgid ""
-"For the server that will be running the backups, we need to generate an SSH "
-"key-pair for use during the backups. For our example, we will be creating "
-"RSA keys."
+#, no-wrap
+msgid "For the server that will be running the backups, we need to generate an SSH key-pair for use during the backups. For our example, we will be creating RSA keys.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:334
-msgid ""
-"If you already have a set of keys generated, you can skip this step. You can "
-"find out by doing an `ls -al .ssh` and looking for an `id_rsa` and `id_rsa."
-"pub` key pair. If none exists, use the following link to set up keys for "
-"your machine and the server(s) that you want to access:"
+#, no-wrap
+msgid "If you already have a set of keys generated, you can skip this step. You can find out by doing an `ls -al .ssh` and looking for an `id_rsa` and `id_rsa.pub` key pair. If none exists, use the following link to set up keys for your machine and the server(s) that you want to access:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:336
-msgid "[SSH Public Private Key Pairs](../security/ssh_public_private_keys.md)"
+#, no-wrap
+msgid "[SSH Public Private Key Pairs](../security/ssh_public_private_keys.md)\n"
 msgstr ""
 
 #. type: Title ##
@@ -1143,63 +1066,62 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:340
-msgid ""
-"The configuration file needs to be just like the one we created for the "
-"**Basic Machine or Single Server Backup** above, except that we want to "
-"change some of the options."
+#, no-wrap
+msgid "The configuration file needs to be just like the one we created for the **Basic Machine or Single Server Backup** above, except that we want to change some of the options.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:342
-msgid "The snapshot root can be reverted back to the default like so:"
+#, no-wrap
+msgid "The snapshot root can be reverted back to the default like so:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:346
-msgid "And this line:"
+#, no-wrap
+msgid "And this line:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:350
-msgid "... can be commented out again:"
+#, no-wrap
+msgid "... can be commented out again:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:352
-msgid "`#no_create_root 1`"
+#, no-wrap
+msgid "`#no_create_root 1`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:354
-msgid ""
-"The other difference here is that each machine will have its very own "
-"configuration. Once you get used to this, you'll simply copy one of your "
-"existing configuration files over to a new name and then modify it to fit "
-"any additional machines that you want to backup."
+#, no-wrap
+msgid "The other difference here is that each machine will have its very own configuration. Once you get used to this, you'll simply copy one of your existing configuration files over to a new name and then modify it to fit any additional machines that you want to backup.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:356
-msgid ""
-"For now, we want to modify the configuration file just like we did above, "
-"and then save it. Then copy that file as a template for our first server:"
+#, no-wrap
+msgid "For now, we want to modify the configuration file just like we did above, and then save it. Then copy that file as a template for our first server:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:358
-msgid "`cp /etc/rsnapshot.conf /etc/rsnapshot_web.conf`"
+#, no-wrap
+msgid "`cp /etc/rsnapshot.conf /etc/rsnapshot_web.conf`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:360
-msgid ""
-"We want to modify the new configuration file and create the log and lockfile "
-"with the machine's name:"
+#, no-wrap
+msgid "We want to modify the new configuration file and create the log and lockfile with the machine's name:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:362
-msgid "`logfile /var/log/rsnapshot_web.log`"
+#, no-wrap
+msgid "`logfile /var/log/rsnapshot_web.log`\n"
 msgstr ""
 
 #. type: Plain text
@@ -1210,15 +1132,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:366
-msgid ""
-"Next, we want to modify rsnapshot_web.conf so that it includes the "
-"directories we want to back up. The only thing that is different here is the "
-"target."
+#, no-wrap
+msgid "Next, we want to modify rsnapshot_web.conf so that it includes the directories we want to back up. The only thing that is different here is the target.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:368
-msgid "Here's an example of the web.ourdomain.com configuration:"
+#, no-wrap
+msgid "Here's an example of the web.ourdomain.com configuration:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1241,34 +1162,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:381
-msgid ""
-"Just like before, we can now check the configuration to make sure it is "
-"syntactically correct:"
+#, no-wrap
+msgid "Just like before, we can now check the configuration to make sure it is syntactically correct:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:383
-msgid "`rsnapshot -c /etc/rsnapshot_web.conf configtest`"
+#, no-wrap
+msgid "`rsnapshot -c /etc/rsnapshot_web.conf configtest`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:385
-msgid ""
-"And just like before, we are looking for the `Syntax OK` message. If all is "
-"well, we can execute the backup manually:"
+#, no-wrap
+msgid "And just like before, we are looking for the `Syntax OK` message. If all is well, we can execute the backup manually:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:387
-msgid "`/usr/bin/rsnapshot -c /etc/rsnapshot_web.conf beta`"
+#, no-wrap
+msgid "`/usr/bin/rsnapshot -c /etc/rsnapshot_web.conf beta`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:389
-msgid ""
-"Assuming that everything works alright, we can then create the configuration "
-"files for the mail server (rsnapshot_mail.conf) and portal server "
-"(rsnapshot_portal.conf), test them, and do a trial backup."
+#, no-wrap
+msgid "Assuming that everything works alright, we can then create the configuration files for the mail server (rsnapshot_mail.conf) and portal server (rsnapshot_portal.conf), test them, and do a trial backup.\n"
 msgstr ""
 
 #. type: Title ##
@@ -1279,21 +1198,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:393
-msgid ""
-"Automating backups for the multiple machine/server version is slightly "
-"different. We want to create a bash script to call the backups in order. "
-"When one finishes the next will start. This script will look something like "
-"this and be stored in /usr/local/sbin:"
+#, no-wrap
+msgid "Automating backups for the multiple machine/server version is slightly different. We want to create a bash script to call the backups in order. When one finishes the next will start. This script will look something like this and be stored in /usr/local/sbin:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:395
-msgid "`vi /usr/local/sbin/backup_all`"
+#, no-wrap
+msgid "`vi /usr/local/sbin/backup_all`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:397
-msgid "With the content:"
+#, no-wrap
+msgid "With the content:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1309,17 +1227,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:406
-msgid "Then we make the script executable:"
+#, no-wrap
+msgid "Then we make the script executable:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:408
-msgid "`chmod +x /usr/local/sbin/backup_all`"
+#, no-wrap
+msgid "`chmod +x /usr/local/sbin/backup_all`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:410
-msgid "Then create the crontab for root to run the backup script:"
+#, no-wrap
+msgid "Then create the crontab for root to run the backup script:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1338,12 +1259,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:423
-msgid ""
-"To make sure that everything is backing up according to plan, you might want "
-"to send the backup log files to your email. If your are running multiple "
-"machine backups using _rsnapshot_, each log file will have its own name, "
-"which you can then send to your email for review by [Using the postfix For "
-"Server Process Reporting](../email/postfix_reporting.md) procedure."
+#, no-wrap
+msgid "To make sure that everything is backing up according to plan, you might want to send the backup log files to your email. If your are running multiple machine backups using _rsnapshot_, each log file will have its own name, which you can then send to your email for review by [Using the postfix For Server Process Reporting](../email/postfix_reporting.md) procedure.\n"
 msgstr ""
 
 #. type: Title ##
@@ -1354,10 +1271,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:427
-msgid ""
-"Restoring a backup, either a few files or a complete restore, involves "
-"copying the files you want from the directory with the date that you want to "
-"restore from back to your machine. Simple!"
+#, no-wrap
+msgid "Restoring a backup, either a few files or a complete restore, involves copying the files you want from the directory with the date that you want to restore from back to your machine. Simple!\n"
 msgstr ""
 
 #. type: Title ##
@@ -1368,15 +1283,12 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:431
-msgid ""
-"Getting the setup right with _rsnapshot_ is a little daunting at first, but "
-"can save you loads of time backing up your machines or servers."
+#, no-wrap
+msgid "Getting the setup right with _rsnapshot_ is a little daunting at first, but can save you loads of time backing up your machines or servers.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsnapshot_backup.md:432
-msgid ""
-"_rsnapshot_ is very powerful, very fast, and very economical on disk space "
-"usage. You can find more information on _rsnapshot_, by visiting [rsnapshot."
-"org](https://rsnapshot.org/download.html)"
+#, no-wrap
+msgid "_rsnapshot_ is very powerful, very fast, and very economical on disk space usage. You can find more information on _rsnapshot_, by visiting [rsnapshot.org](https://rsnapshot.org/download.html)\n"
 msgstr ""

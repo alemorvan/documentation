@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -158,7 +158,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -185,7 +184,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Plain text
@@ -214,7 +214,8 @@ msgstr ""
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:125
 #: ../src/docs/guides/security/learning_selinux.md:289
 #: ../src/docs/guides/security/pam.md:287
-msgid "Examples:"
+#, no-wrap
+msgid "Examples:\n"
 msgstr ""
 
 #. type: Plain text
@@ -336,7 +337,8 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:394
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:154
 #: ../src/docs/guides/web/php.md:255
-msgid "Example:"
+#, no-wrap
+msgid "Example:\n"
 msgstr ""
 
 #. type: Plain text
@@ -384,7 +386,8 @@ msgstr ""
 #: ../src/docs/guides/8_6_installation.md:133
 #: ../src/docs/guides/installation.md:66 ../src/docs/guides/installation.md:138
 #: ../src/docs/guides/virtualization/vbox-rocky.md:123
-msgid "!!! Tip"
+#, no-wrap
+msgid "!!! Tip\n"
 msgstr ""
 
 #. type: Plain text
@@ -440,7 +443,8 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:243
 #: ../src/docs/guides/security/learning_selinux.md:263
 #: ../src/docs/guides/web/php.md:145
-msgid "!!! Warning"
+#, no-wrap
+msgid "!!! Warning\n"
 msgstr ""
 
 #. type: Title #
@@ -452,7 +456,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:8
-msgid "In this chapter you will learn how to manage scheduled tasks."
+#, no-wrap
+msgid "In this chapter you will learn how to manage scheduled tasks.\n"
 msgstr ""
 
 #. type: Plain text
@@ -466,7 +471,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:18
-msgid ":checkered_flag: **crontab**, **crond**, **scheduling**, **linux**"
+#, no-wrap
+msgid ":checkered_flag: **crontab**, **crond**, **scheduling**, **linux**\n"
 msgstr ""
 
 #. type: Plain text
@@ -496,49 +502,50 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:29
-msgid ""
-"The scheduling of tasks is managed with the `cron` utility. It allows the "
-"periodic execution of tasks."
+#, no-wrap
+msgid "The scheduling of tasks is managed with the `cron` utility. It allows the periodic execution of tasks.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:31
-msgid ""
-"It is reserved to the administrator for system tasks but can be used by "
-"normal users for tasks or scripts that they have access to. To access the "
-"`cron` utility, we use: `crontab`."
+#, no-wrap
+msgid "It is reserved to the administrator for system tasks but can be used by normal users for tasks or scripts that they have access to. To access the `cron` utility, we use: `crontab`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:33
-msgid "The `cron` service is used for:"
+#, no-wrap
+msgid "The `cron` service is used for:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/11-tasks.md:38
-msgid "Repetitive administration operations;"
+#, no-wrap
+msgid "Repetitive administration operations;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/11-tasks.md:38
-msgid "Backups;"
+#, no-wrap
+msgid "Backups;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/11-tasks.md:38
-msgid "Monitoring of system activity;"
+#, no-wrap
+msgid "Monitoring of system activity;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/11-tasks.md:38
-msgid "Program execution."
+#, no-wrap
+msgid "Program execution.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:40
-msgid ""
-"`crontab` is short for **cron table**, but can be thought of as a task "
-"scheduling table."
+#, no-wrap
+msgid "`crontab` is short for **cron table**, but can be thought of as a task scheduling table.\n"
 msgstr ""
 
 #. type: Plain text
@@ -555,12 +562,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:48
-msgid "The `cron` service is run by a `crond` daemon present in memory."
+#, no-wrap
+msgid "The `cron` service is run by a `crond` daemon present in memory.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:50
-msgid "To check its status:"
+#, no-wrap
+msgid "To check its status:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -577,7 +586,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:60
-msgid "Initialization of the `crond` daemon in manual:"
+#, no-wrap
+msgid "Initialization of the `crond` daemon in manual:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -588,7 +598,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:66
-msgid "Initialization of the `crond` daemon at startup:"
+#, no-wrap
+msgid "Initialization of the `crond` daemon at startup:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -597,39 +608,38 @@ msgstr ""
 msgid "[root]# systemctl enable crond\n"
 msgstr ""
 
-#. type: Bullet: '* '
+#. type: Title ###
 #: ../src/docs/books/admin_guide/11-tasks.md:71
 #: ../src/docs/release_notes/8_4.md:51 ../src/docs/release_notes/8_6.md:17
 #: ../src/docs/release_notes/8_7.md:39 ../src/docs/release_notes/8_8.md:54
-#: ../src/docs/release_notes/8_8.md:154 ../src/docs/release_notes/9_0.md:34
-#: ../src/docs/release_notes/9_1.md:47 ../src/docs/release_notes/9_2.md:104
-#: ../src/docs/release_notes/9_2.md:217
+#: ../src/docs/release_notes/9_0.md:34 ../src/docs/release_notes/9_1.md:47
+#: ../src/docs/release_notes/9_2.md:104
 #, no-wrap
 msgid "Security"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:74
-msgid ""
-"In order to implement a schedule, a user must have permission to use the "
-"`cron` service."
+#, no-wrap
+msgid "In order to implement a schedule, a user must have permission to use the `cron` service.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:76
-msgid ""
-"This permission varies according to the information contained in the files "
-"below:"
+#, no-wrap
+msgid "This permission varies according to the information contained in the files below:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/11-tasks.md:79
-msgid "`/etc/cron.allow`"
+#, no-wrap
+msgid "`/etc/cron.allow`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/11-tasks.md:79
-msgid "`/etc/cron.deny`"
+#, no-wrap
+msgid "`/etc/cron.deny`\n"
 msgstr ""
 
 #. type: Plain text
@@ -646,17 +656,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:87
-msgid "File `/etc/cron.allow`"
+#, no-wrap
+msgid "File `/etc/cron.allow`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:89
-msgid "Only users contained in this file are allowed to use `cron`."
+#, no-wrap
+msgid "Only users contained in this file are allowed to use `cron`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:91
-msgid "If it exists and is empty, no users can use `cron`."
+#, no-wrap
+msgid "If it exists and is empty, no users can use `cron`.\n"
 msgstr ""
 
 #. type: Plain text
@@ -667,24 +680,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:97
-msgid "File `/etc/cron.deny`"
+#, no-wrap
+msgid "File `/etc/cron.deny`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:99
-msgid "Users in this file are not allowed to use `cron`."
+#, no-wrap
+msgid "Users in this file are not allowed to use `cron`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:101
-msgid "If it is empty, all users can use `cron`."
+#, no-wrap
+msgid "If it is empty, all users can use `cron`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:103
-msgid ""
-"By default, `/etc/cron.deny` exists and is empty and `/etc/cron.allow` does "
-"not exist."
+#, no-wrap
+msgid "By default, `/etc/cron.deny` exists and is empty and `/etc/cron.allow` does not exist.\n"
 msgstr ""
 
 #. type: Title ###
@@ -695,7 +710,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:107
-msgid "Only **user1** will be able to use `cron`."
+#, no-wrap
+msgid "Only **user1** will be able to use `cron`.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -714,7 +730,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:115
-msgid "Only **user2** will not be able to use `cron`."
+#, no-wrap
+msgid "Only **user2** will not be able to use `cron`.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -727,7 +744,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:122
-msgid "`cron.allow` must not be present."
+#, no-wrap
+msgid "`cron.allow` must not be present.\n"
 msgstr ""
 
 #. type: Title ##
@@ -738,22 +756,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:126
-msgid ""
-"When a user schedules a task, a file with his name is created under `/var/"
-"spool/cron/`."
+#, no-wrap
+msgid "When a user schedules a task, a file with his name is created under `/var/spool/cron/`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:128
-msgid ""
-"This file contains all the information the `crond` needs to know regarding "
-"all tasks created by this user, the commands or programs to run, and when to "
-"run them (hour, minute, day ...)."
+#, no-wrap
+msgid "This file contains all the information the `crond` needs to know regarding all tasks created by this user, the commands or programs to run, and when to run them (hour, minute, day ...).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:130
-msgid "![Cron tree](images/tasks-001.png)"
+#, no-wrap
+msgid "![Cron tree](images/tasks-001.png)\n"
 msgstr ""
 
 #. type: Title ###
@@ -764,7 +780,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:134
-msgid "The `crontab` command is used to manage the schedule file."
+#, no-wrap
+msgid "The `crontab` command is used to manage the schedule file.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -817,39 +834,44 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:163
-msgid "The uses of `crontab` are many and include:"
+#, no-wrap
+msgid "The uses of `crontab` are many and include:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/11-tasks.md:166
-msgid "Modifications to the `crontab` files taken into account immediately;"
+#, no-wrap
+msgid "Modifications to the `crontab` files taken into account immediately;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/11-tasks.md:166
-msgid "No need to restart."
+#, no-wrap
+msgid "No need to restart.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:168
-msgid "On the other hand, the following points must be taken into account:"
+#, no-wrap
+msgid "On the other hand, the following points must be taken into account:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/11-tasks.md:172
-msgid "The program must be autonomous;"
+#, no-wrap
+msgid "The program must be autonomous;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/11-tasks.md:172
-msgid "Provide redirections (stdin, stdout, stderr);"
+#, no-wrap
+msgid "Provide redirections (stdin, stdout, stderr);\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/11-tasks.md:172
-msgid ""
-"It is not relevant to run commands that use input/output requests on a "
-"terminal."
+#, no-wrap
+msgid "It is not relevant to run commands that use input/output requests on a terminal.\n"
 msgstr ""
 
 #. type: Plain text
@@ -866,32 +888,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:180
-msgid "The `crontab` file is structured according to the following rules."
+#, no-wrap
+msgid "The `crontab` file is structured according to the following rules.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/11-tasks.md:186
-msgid "Each line of this file corresponds to a schedule;"
+#, no-wrap
+msgid "Each line of this file corresponds to a schedule;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/11-tasks.md:186
-msgid "Each line has six fields, 5 for the time and 1 for the order;"
+#, no-wrap
+msgid "Each line has six fields, 5 for the time and 1 for the order;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/11-tasks.md:186
-msgid "Each field is separated by a space or a tab;"
+#, no-wrap
+msgid "Each field is separated by a space or a tab;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/11-tasks.md:186
-msgid "Each line ends with a carriage return;"
+#, no-wrap
+msgid "Each line ends with a carriage return;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/11-tasks.md:186
-msgid "A `#` at the beginning of the line comments it."
+#, no-wrap
+msgid "A `#` at the beginning of the line comments it.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -925,9 +953,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:207
-msgid ""
-"In order to simplify the notation for the definition of time, it is "
-"advisable to use special symbols."
+#, no-wrap
+msgid "In order to simplify the notation for the definition of time, it is advisable to use special symbols.\n"
 msgstr ""
 
 #. type: Plain text
@@ -944,7 +971,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:218
-msgid "Script executed on April 15 at 10:25 am:"
+#, no-wrap
+msgid "Script executed on April 15 at 10:25 am:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -955,7 +983,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:224
-msgid "Run at 11am and then at 4pm every day:"
+#, no-wrap
+msgid "Run at 11am and then at 4pm every day:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -966,7 +995,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:230
-msgid "Run every hour from 11am to 4pm every day:"
+#, no-wrap
+msgid "Run every hour from 11am to 4pm every day:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -977,7 +1007,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:236
-msgid "Run every 10 minutes during working hours:"
+#, no-wrap
+msgid "Run every 10 minutes during working hours:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -988,7 +1019,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:242
-msgid "For the root user, `crontab` also has some special time settings:"
+#, no-wrap
+msgid "For the root user, `crontab` also has some special time settings:\n"
 msgstr ""
 
 #. type: Plain text
@@ -1013,32 +1045,36 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:255
-msgid "A user, rockstar, wants to edit his `crontab` file:"
+#, no-wrap
+msgid "A user, rockstar, wants to edit his `crontab` file:\n"
 msgstr ""
 
 #. type: Bullet: '1) '
 #: ../src/docs/books/admin_guide/11-tasks.md:257
-msgid ""
-"`crond` checks to see if he is allowed (`/etc/cron.allow` and `/etc/cron."
-"deny`)."
+#, no-wrap
+msgid "`crond` checks to see if he is allowed (`/etc/cron.allow` and `/etc/cron.deny`).\n"
 msgstr ""
 
 #. type: Bullet: '2) '
 #: ../src/docs/books/admin_guide/11-tasks.md:259
-msgid "If he is, he accesses his `crontab` file (`/var/spool/cron/rockstar`)."
+#, no-wrap
+msgid "If he is, he accesses his `crontab` file (`/var/spool/cron/rockstar`).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/11-tasks.md:261
-msgid "Every minute `crond` reads the schedule files."
+#, no-wrap
+msgid "Every minute `crond` reads the schedule files.\n"
 msgstr ""
 
 #. type: Bullet: '3) '
 #: ../src/docs/books/admin_guide/11-tasks.md:263
-msgid "It executes the scheduled tasks."
+#, no-wrap
+msgid "It executes the scheduled tasks.\n"
 msgstr ""
 
 #. type: Bullet: '4) '
 #: ../src/docs/books/admin_guide/11-tasks.md:264
-msgid "It reports systematically in a log file (`/var/log/cron`)."
+#, no-wrap
+msgid "It reports systematically in a log file (`/var/log/cron`).\n"
 msgstr ""

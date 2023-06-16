@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,8 @@ msgstr ""
 #: ../src/docs/books/admin_guide/14-special-authority.md:477
 #: ../src/docs/gemstones/RL9_network_manager.md:132
 #: ../src/docs/guides/contribute/rockydocs_formatting.md:80
-msgid "!!! info"
+#, no-wrap
+msgid "!!! info\n"
 msgstr ""
 
 #. type: Plain text
@@ -176,7 +177,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -203,7 +203,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Plain text
@@ -314,7 +315,8 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:394
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:154
 #: ../src/docs/guides/web/php.md:255
-msgid "Example:"
+#, no-wrap
+msgid "Example:\n"
 msgstr ""
 
 #. type: Plain text
@@ -370,7 +372,8 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:243
 #: ../src/docs/guides/security/learning_selinux.md:263
 #: ../src/docs/guides/web/php.md:145
-msgid "!!! Warning"
+#, no-wrap
+msgid "!!! Warning\n"
 msgstr ""
 
 #. type: Plain text
@@ -403,7 +406,8 @@ msgstr ""
 #: ../src/docs/guides/proxies/pound.md:62
 #: ../src/docs/guides/proxies/pound.md:418 ../src/docs/index.md:40
 #: ../src/docs/release_notes/9_1.md:16
-msgid "!!! note"
+#, no-wrap
+msgid "!!! note\n"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
@@ -433,7 +437,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:13
-msgid "In this chapter you will learn how to work with files systems."
+#, no-wrap
+msgid "In this chapter you will learn how to work with files systems.\n"
 msgstr ""
 
 #. type: Plain text
@@ -453,7 +458,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:23
-msgid "and also discover:"
+#, no-wrap
+msgid "and also discover:\n"
 msgstr ""
 
 #. type: Plain text
@@ -466,8 +472,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:28
-msgid ""
-":checkered_flag: **hardware**, **disk**, **partition**, **lvm**, **linux**"
+#, no-wrap
+msgid ":checkered_flag: **hardware**, **disk**, **partition**, **lvm**, **linux**\n"
 msgstr ""
 
 #. type: Plain text
@@ -486,36 +492,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:39
-msgid ""
-"Partitioning will allow the installation of several operating systems "
-"because it is impossible to have several of them cohabit on the same logical "
-"drive. Partitioning also allows the separation of data logically (security, "
-"access optimization, ...)."
+#, no-wrap
+msgid "Partitioning will allow the installation of several operating systems because it is impossible to have several of them cohabit on the same logical drive. Partitioning also allows the separation of data logically (security, access optimization, ...).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:41
-msgid ""
-"The division of the physical disk into partitioned volumes is recorded in "
-"the partition table, stored in the first sector of the disk (MBR: _Master "
-"Boot Record_)."
+#, no-wrap
+msgid "The division of the physical disk into partitioned volumes is recorded in the partition table, stored in the first sector of the disk (MBR: _Master Boot Record_).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:43
-msgid ""
-"For **MBR** partition table types, the same physical disk can be divided "
-"into a maximum of 4 partitions:"
+#, no-wrap
+msgid "For **MBR** partition table types, the same physical disk can be divided into a maximum of 4 partitions:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:46
-msgid "*Primary partition* (or main partition)"
+#, no-wrap
+msgid "*Primary partition* (or main partition)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:46
-msgid "*Extended partition*"
+#, no-wrap
+msgid "*Extended partition*\n"
 msgstr ""
 
 #. type: Plain text
@@ -526,12 +528,14 @@ msgstr ""
 
 #. type: Bullet: '    1. '
 #: ../src/docs/books/admin_guide/07-file-systems.md:53
-msgid "Three primary partitions plus one extended partition"
+#, no-wrap
+msgid "Three primary partitions plus one extended partition\n"
 msgstr ""
 
 #. type: Bullet: '    2. '
 #: ../src/docs/books/admin_guide/07-file-systems.md:53
-msgid "Four primary partitions"
+#, no-wrap
+msgid "Four primary partitions \n"
 msgstr ""
 
 #. type: Plain text
@@ -542,15 +546,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:57
-msgid ""
-"![Breakdown into only 4 primary partitions](images/07-file-systems-001.png)"
+#, no-wrap
+msgid "![Breakdown into only 4 primary partitions](images/07-file-systems-001.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:59
-msgid ""
-"![Breakdown into 3 primary partitions and one extended](images/07-file-"
-"systems-002.png)"
+#, no-wrap
+msgid "![Breakdown into 3 primary partitions and one extended](images/07-file-systems-002.png)\n"
 msgstr ""
 
 #. type: Title ###
@@ -561,9 +564,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:63
-msgid ""
-"In the world of GNU/Linux, everything is a file. For disks, they are "
-"recognized in the system as:"
+#, no-wrap
+msgid "In the world of GNU/Linux, everything is a file. For disks, they are recognized in the system as:\n"
 msgstr ""
 
 #. type: Plain text
@@ -589,28 +591,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:76
-msgid "The Linux kernel contains drivers for most hardware devices."
+#, no-wrap
+msgid "The Linux kernel contains drivers for most hardware devices.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:78
-msgid ""
-"What we call _devices_ are the files, stored without `/dev`, identifying the "
-"different hardware detected by the motherboard."
+#, no-wrap
+msgid "What we call _devices_ are the files, stored without `/dev`, identifying the different hardware detected by the motherboard.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:80
-msgid ""
-"The service called udev is responsible for applying the naming conventions "
-"(rules) and applying them to the devices it detects."
+#, no-wrap
+msgid "The service called udev is responsible for applying the naming conventions (rules) and applying them to the devices it detects.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:82
-msgid ""
-"For more information, please see [here](https://www.kernel.org/doc/html/"
-"latest/admin-guide/devices.html)."
+#, no-wrap
+msgid "For more information, please see [here](https://www.kernel.org/doc/html/latest/admin-guide/devices.html).\n"
 msgstr ""
 
 #. type: Title ###
@@ -621,9 +621,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:86
-msgid ""
-"The number after the block device (storage device) indicates a partition. "
-"For MBR partition tables, the number 5 must be the first logical partition."
+#, no-wrap
+msgid "The number after the block device (storage device) indicates a partition. For MBR partition tables, the number 5 must be the first logical partition.\n"
 msgstr ""
 
 #. type: Plain text
@@ -634,24 +633,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:92
-msgid "![Identification of partitions](images/07-file-systems-003.png)"
+#, no-wrap
+msgid "![Identification of partitions](images/07-file-systems-003.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:94
-msgid ""
-"There are at least two commands for partitioning a disk: `fdisk` and "
-"`cfdisk`. Both commands have an interactive menu. `cfdisk` is more reliable "
-"and better optimized, so it is best to use it."
+#, no-wrap
+msgid "There are at least two commands for partitioning a disk: `fdisk` and `cfdisk`. Both commands have an interactive menu. `cfdisk` is more reliable and better optimized, so it is best to use it.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:96
-msgid ""
-"The only reason to use `fdisk` is when you want to list all logical devices "
-"with the `-l` option. `fdisk` uses MBR partition tables, so it is not "
-"supported for **GPT** partition tables and cannot be processed for disks "
-"larger than **2TB**."
+#, no-wrap
+msgid "The only reason to use `fdisk` is when you want to list all logical devices with the `-l` option. `fdisk` uses MBR partition tables, so it is not supported for **GPT** partition tables and cannot be processed for disks larger than **2TB**.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -671,17 +666,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:106
-msgid ""
-"The `parted` (_partition editor_) command is able to partition a disk "
-"without the drawbacks of `fdisk`."
+#, no-wrap
+msgid "The `parted` (_partition editor_) command is able to partition a disk without the drawbacks of `fdisk`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:108
-msgid ""
-"The `parted` command can be used either on the command-line or "
-"interactively. It also has a recovery function capable of rewriting a "
-"deleted partition table."
+#, no-wrap
+msgid "The `parted` command can be used either on the command-line or interactively. It also has a recovery function capable of rewriting a deleted partition table.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -692,38 +684,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:114
-msgid ""
-"Under graphical interface, there is the very complete `gparted` tool: "
-"*G*nome *PAR*tition *ED*itor."
+#, no-wrap
+msgid "Under graphical interface, there is the very complete `gparted` tool: *G*nome *PAR*tition *ED*itor.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:116
-msgid "The `gparted -l` command lists all logical devices on a computer."
+#, no-wrap
+msgid "The `gparted -l` command lists all logical devices on a computer.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:118
-msgid ""
-"The `gparted` command, when run without any arguments, will show an "
-"interactive mode with its internal options:"
+#, no-wrap
+msgid "The `gparted` command, when run without any arguments, will show an interactive mode with its internal options:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:122
-msgid "`help` or an incorrect command will display these options."
+#, no-wrap
+msgid "`help` or an incorrect command will display these options.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:122
-msgid ""
-"`print all` in this mode will have the same result as `gparted -l` on the "
-"command line."
+#, no-wrap
+msgid "`print all` in this mode will have the same result as `gparted -l` on the command line.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:122
-msgid "`quit` to return to the prompt."
+#, no-wrap
+msgid "`quit` to return to the prompt.\n"
 msgstr ""
 
 #. type: Title ###
@@ -734,7 +726,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:126
-msgid "The `cfdisk` command is used to manage partitions."
+#, no-wrap
+msgid "The `cfdisk` command is used to manage partitions.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -767,40 +760,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:153
-msgid ""
-"The preparation, without _LVM_, of the physical media goes through five "
-"steps:"
+#, no-wrap
+msgid "The preparation, without _LVM_, of the physical media goes through five steps:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:159
-msgid "Setting up the physical disk;"
+#, no-wrap
+msgid "Setting up the physical disk;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:159
-msgid ""
-"Partitioning of the volumes (geographical division of the disk, possibility "
-"of installing several systems, ...);"
+#, no-wrap
+msgid "Partitioning of the volumes (geographical division of the disk, possibility of installing several systems, ...);\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:159
-msgid ""
-"Creation of the file systems (allows the operating system to manage the "
-"files, the tree structure, the rights, ...);"
+#, no-wrap
+msgid "Creation of the file systems (allows the operating system to manage the files, the tree structure, the rights, ...);\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:159
-msgid ""
-"Mounting of file systems (registration of the file system in the tree "
-"structure);"
+#, no-wrap
+msgid "Mounting of file systems (registration of the file system in the tree structure);\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:159
-msgid "Manage user access."
+#, no-wrap
+msgid "Manage user access.\n"
 msgstr ""
 
 #. type: Title ##
@@ -817,63 +808,62 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:165
-msgid ""
-"The partition created by the **standard partition** cannot dynamically "
-"adjust the resources of the hard disk, once the partition is mounted, the "
-"capacity is completely fixed, this constraint is unacceptable on the server. "
-"Although the standard partition can be forcibly expanded or shrunk through "
-"certain technical means, it is easy to cause data loss. LVM can solve this "
-"problem very well. LVM is available under Linux from kernel version 2.4, and "
-"its main features are:"
+#, no-wrap
+msgid "The partition created by the **standard partition** cannot dynamically adjust the resources of the hard disk, once the partition is mounted, the capacity is completely fixed, this constraint is unacceptable on the server. Although the standard partition can be forcibly expanded or shrunk through certain technical means, it is easy to cause data loss. LVM can solve this problem very well. LVM is available under Linux from kernel version 2.4, and its main features are:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:171
-msgid "More flexible disk capacity;"
+#, no-wrap
+msgid "More flexible disk capacity;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:171
-msgid "Online data movement;"
+#, no-wrap
+msgid "Online data movement;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:171
-msgid "Disks in _stripe_ mode;"
+#, no-wrap
+msgid "Disks in _stripe_ mode;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:171
-msgid "Mirrored volumes (recopy);"
+#, no-wrap
+msgid "Mirrored volumes (recopy);\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:171
-msgid "Volume snapshots (_snapshot_)."
+#, no-wrap
+msgid "Volume snapshots (_snapshot_).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:173
-msgid "The principle of LVM is very simple:"
+#, no-wrap
+msgid "The principle of LVM is very simple: \n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:177
-msgid ""
-"a logical abstraction layer is added between the physical disk (or disk "
-"partition) and the file system"
+#, no-wrap
+msgid "a logical abstraction layer is added between the physical disk (or disk partition) and the file system\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:177
-msgid "merge multiple disks (or disk partition) into Volume Group(**VG**)"
+#, no-wrap
+msgid "merge multiple disks (or disk partition) into Volume Group(**VG**) \n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:177
-msgid ""
-"perform underlying disk management operations on them through something "
-"called Logical Volume(**LV**)."
+#, no-wrap
+msgid "perform underlying disk management operations on them through something called Logical Volume(**LV**).\n"
 msgstr ""
 
 #. type: Plain text
@@ -914,15 +904,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:191
-msgid "![Volume group, PE size equal to 4MB](images/07-file-systems-004.png)"
+#, no-wrap
+msgid "![Volume group, PE size equal to 4MB](images/07-file-systems-004.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:193
-msgid ""
-"The disadvantage is that if one of the physical volumes becomes out of "
-"order, then all the logical volumes that use this physical volume are lost. "
-"You will have to use LVM on raid disks."
+#, no-wrap
+msgid "The disadvantage is that if one of the physical volumes becomes out of order, then all the logical volumes that use this physical volume are lost. You will have to use LVM on raid disks.\n"
 msgstr ""
 
 #. type: Plain text
@@ -945,34 +934,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:205
-msgid ""
-"There are several storage mechanisms when storing data to **LV**, two of "
-"which are:"
+#, no-wrap
+msgid "There are several storage mechanisms when storing data to **LV**, two of which are:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:209
-msgid "Linear volumes;"
+#, no-wrap
+msgid "Linear volumes;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:209
-msgid "Volumes in _stripe_ mode;"
+#, no-wrap
+msgid "Volumes in _stripe_ mode;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:209
-msgid "Mirrored volumes."
+#, no-wrap
+msgid "Mirrored volumes.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:211
-msgid "![Linear volumes](images/07-file-systems-005.png)"
+#, no-wrap
+msgid "![Linear volumes](images/07-file-systems-005.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:213
-msgid "![Volumes in stripe mode](images/07-file-systems-006.png)"
+#, no-wrap
+msgid "![Volumes in stripe mode](images/07-file-systems-006.png)\n"
 msgstr ""
 
 #. type: Title ###
@@ -983,7 +976,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:217
-msgid "The main relevant commands are as follows:"
+#, no-wrap
+msgid "The main relevant commands are as follows:\n"
 msgstr ""
 
 #. type: Plain text
@@ -1009,9 +1003,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:231
-msgid ""
-"The `pvcreate` command is used to create physical volumes. It turns Linux "
-"partitions (or disks) into physical volumes."
+#, no-wrap
+msgid "The `pvcreate` command is used to create physical volumes. It turns Linux partitions (or disks) into physical volumes.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1030,9 +1023,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:244
-msgid ""
-"You can also use a whole disk (which facilitates disk size increases in "
-"virtual environments for example)."
+#, no-wrap
+msgid "You can also use a whole disk (which facilitates disk size increases in virtual environments for example).\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1064,9 +1056,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:261
-msgid ""
-"The `vgcreate` command is used to create volume groups. It groups one or "
-"more physical volumes into a volume group."
+#, no-wrap
+msgid "The `vgcreate` command is used to create volume groups. It groups one or more physical volumes into a volume group.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1095,9 +1086,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:280
-msgid ""
-"The `lvcreate` command creates logical volumes. The file system is then "
-"created on these logical volumes."
+#, no-wrap
+msgid "The `lvcreate` command creates logical volumes. The file system is then created on these logical volumes.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1145,9 +1135,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:307
-msgid ""
-"The `pvdisplay` command allows you to view information about the physical "
-"volumes."
+#, no-wrap
+msgid "The `pvdisplay` command allows you to view information about the physical volumes.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1170,8 +1159,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:321
-msgid ""
-"The `vgdisplay` command allows you to view information about volume groups."
+#, no-wrap
+msgid "The `vgdisplay` command allows you to view information about volume groups.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1194,9 +1183,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:335
-msgid ""
-"The `lvdisplay` command allows you to view information about the logical "
-"volumes."
+#, no-wrap
+msgid "The `lvdisplay` command allows you to view information about the logical volumes.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1219,49 +1207,56 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:349
-msgid ""
-"The preparation with LVM of the physical support is broken down into the "
-"following:"
+#, no-wrap
+msgid "The preparation with LVM of the physical support is broken down into the following:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:358
-msgid "Setting up the physical disk"
+#, no-wrap
+msgid "Setting up the physical disk\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:358
-msgid "Partitioning of the volumes"
+#, no-wrap
+msgid "Partitioning of the volumes\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:358
-msgid "**LVM physical volume**"
+#, no-wrap
+msgid "**LVM physical volume**\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:358
-msgid "**LVM volume groups**"
+#, no-wrap
+msgid "**LVM volume groups**\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:358
-msgid "**LVM logical volumes**"
+#, no-wrap
+msgid "**LVM logical volumes**\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:358
-msgid "Creating file systems"
+#, no-wrap
+msgid "Creating file systems\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:358
-msgid "Mounting file systems"
+#, no-wrap
+msgid "Mounting file systems\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:358
-msgid "Manage user access"
+#, no-wrap
+msgid "Manage user access\n"
 msgstr ""
 
 #. type: Title ##
@@ -1272,34 +1267,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:362
-msgid "A _file system_ **FS** is in charge of the following actions:"
+#, no-wrap
+msgid "A _file system_ **FS** is in charge of the following actions:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:367
-msgid "Securing access and modification rights to files;"
+#, no-wrap
+msgid "Securing access and modification rights to files;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:367
-msgid "Manipulating files: create, read, modify and delete;"
+#, no-wrap
+msgid "Manipulating files: create, read, modify and delete;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:367
-msgid "Locating files on the disk;"
+#, no-wrap
+msgid "Locating files on the disk;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:367
-msgid "Managing partition space."
+#, no-wrap
+msgid "Managing partition space.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:369
-msgid ""
-"The Linux operating system is able to use different file systems (ext2, "
-"ext3, ext4, FAT16, FAT32, NTFS, HFS, BtrFS, JFS, XFS, ...)."
+#, no-wrap
+msgid "The Linux operating system is able to use different file systems (ext2, ext3, ext4, FAT16, FAT32, NTFS, HFS, BtrFS, JFS, XFS, ...).\n"
 msgstr ""
 
 #. type: Title ###
@@ -1310,9 +1309,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:373
-msgid ""
-"The `mkfs`(make file system) command allows you to create a Linux file "
-"system."
+#, no-wrap
+msgid "The `mkfs`(make file system) command allows you to create a Linux file system. \n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1344,10 +1342,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:393
-msgid ""
-"Each file system has a structure which is identical on each partition. A "
-"**Boot Sector** and a **Super block** initialized by the system and then an "
-"**Inode table** and a **Data block** initialized by the administrator."
+#, no-wrap
+msgid "Each file system has a structure which is identical on each partition. A **Boot Sector** and a **Super block** initialized by the system and then an **Inode table** and a **Data block** initialized by the administrator.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1364,25 +1360,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:401
-msgid ""
-"Boot sector is the first sector of bootable storage media, that is, 0 "
-"cylinder, 0 track, 1 sector(1 sector equals 512 bytes). It consists of three "
-"parts:"
+#, no-wrap
+msgid "Boot sector is the first sector of bootable storage media, that is, 0 cylinder, 0 track, 1 sector(1 sector equals 512 bytes). It consists of three parts:\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/books/admin_guide/07-file-systems.md:405
-msgid "MBR(master boot record): 446 bytes."
+#, no-wrap
+msgid "MBR(master boot record): 446 bytes.\n"
 msgstr ""
 
 #. type: Bullet: '2. '
 #: ../src/docs/books/admin_guide/07-file-systems.md:405
-msgid "DPT(disk partition table): 64 bytes."
+#, no-wrap
+msgid "DPT(disk partition table): 64 bytes.\n"
 msgstr ""
 
 #. type: Bullet: '3. '
 #: ../src/docs/books/admin_guide/07-file-systems.md:405
-msgid "BRID(boot record ID): 2 bytes."
+#, no-wrap
+msgid "BRID(boot record ID): 2 bytes.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1404,75 +1401,82 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:415
-msgid ""
-"The size of the **Super block** table is defined at creation. It is present "
-"on each partition and contains the elements necessary for its utilization."
+#, no-wrap
+msgid "The size of the **Super block** table is defined at creation. It is present on each partition and contains the elements necessary for its utilization.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:417
-msgid "It describes the File System:"
+#, no-wrap
+msgid "It describes the File System:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:427
-msgid "Name of the Logical Volume;"
+#, no-wrap
+msgid "Name of the Logical Volume;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:427
-msgid "Name of the File System;"
+#, no-wrap
+msgid "Name of the File System;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:427
-msgid "Type of the File System;"
+#, no-wrap
+msgid "Type of the File System;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:427
-msgid "File System Status;"
+#, no-wrap
+msgid "File System Status;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:427
-msgid "Size of the File System;"
+#, no-wrap
+msgid "Size of the File System;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:427
-msgid "Number of free blocks;"
+#, no-wrap
+msgid "Number of free blocks;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:427
-msgid "Pointer to the beginning of the list of free blocks;"
+#, no-wrap
+msgid "Pointer to the beginning of the list of free blocks;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:427
-msgid "Size of the inode list;"
+#, no-wrap
+msgid "Size of the inode list;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:427
-msgid "Number and list of free inodes."
+#, no-wrap
+msgid "Number and list of free inodes.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:429
 #: ../src/docs/books/admin_guide/07-file-systems.md:441
-msgid ""
-"A copy is loaded in the central memory as soon as the system is initialized. "
-"This copy is updated as soon as it is modified and the system saves it "
-"periodically (command `sync`)."
+#, no-wrap
+msgid "A copy is loaded in the central memory as soon as the system is initialized. This copy is updated as soon as it is modified and the system saves it periodically (command `sync`).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:431
 #: ../src/docs/books/admin_guide/07-file-systems.md:443
-msgid ""
-"When the system stops, it also copies this table in memory to its block."
+#, no-wrap
+msgid "When the system stops, it also copies this table in memory to its block.\n"
 msgstr ""
 
 #. type: Title ###
@@ -1483,11 +1487,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:435
-msgid ""
-"The size of the **inode table** is defined at its creation and is stored on "
-"the partition. It consists of records, called inodes, corresponding to the "
-"files created. Each record contains the addresses of the data blocks making "
-"up the file."
+#, no-wrap
+msgid "The size of the **inode table** is defined at its creation and is stored on the partition. It consists of records, called inodes, corresponding to the files created. Each record contains the addresses of the data blocks making up the file.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1498,7 +1499,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:445
-msgid "A file is managed by its inode number."
+#, no-wrap
+msgid "A file is managed by its inode number.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1509,59 +1511,68 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:451
-msgid "Information present in the *inode table* :"
+#, no-wrap
+msgid "Information present in the *inode table* :\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:462
-msgid "Inode number;"
+#, no-wrap
+msgid "Inode number;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:462
-msgid "File type and access permissions;"
+#, no-wrap
+msgid "File type and access permissions;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:462
-msgid "Owner identification number;"
+#, no-wrap
+msgid "Owner identification number;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:462
-msgid "Identification number of the owner group;"
+#, no-wrap
+msgid "Identification number of the owner group;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:462
-msgid "Number of links on this file;"
+#, no-wrap
+msgid "Number of links on this file;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:462
-msgid "Size of the file in bytes;"
+#, no-wrap
+msgid "Size of the file in bytes;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:462
-msgid "Date the file was last accessed;"
+#, no-wrap
+msgid "Date the file was last accessed;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:462
-msgid "Date the file was last modified;"
+#, no-wrap
+msgid "Date the file was last modified;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:462
-msgid "Date of the last modification of the inode (= creation);"
+#, no-wrap
+msgid "Date of the last modification of the inode (= creation);\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:462
-msgid ""
-"Table of several pointers (block table) to the logical blocks containing the "
-"pieces of the file."
+#, no-wrap
+msgid "Table of several pointers (block table) to the logical blocks containing the pieces of the file.\n"
 msgstr ""
 
 #. type: Title ###
@@ -1572,10 +1583,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:466
-msgid ""
-"Its size corresponds to the rest of the available space of the partition. "
-"This area contains the catalogs corresponding to each directory and the data "
-"blocks corresponding to the contents of the files."
+#, no-wrap
+msgid "Its size corresponds to the rest of the available space of the partition. This area contains the catalogs corresponding to each directory and the data blocks corresponding to the contents of the files.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1586,12 +1595,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:470
-msgid "These tables are written to the hard disk when the system is shut down."
+#, no-wrap
+msgid "These tables are written to the hard disk when the system is shut down.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:472
-msgid "!!! danger \"Attention\""
+#, no-wrap
+msgid "!!! danger \"Attention\" \n"
 msgstr ""
 
 #. type: Plain text
@@ -1608,17 +1619,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:478
-msgid ""
-"It is possible to check the consistency of a file system with the `fsck` "
-"command."
+#, no-wrap
+msgid "It is possible to check the consistency of a file system with the `fsck` command.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:480
-msgid ""
-"In case of errors, solutions are proposed to repair the inconsistencies. "
-"After repair, files that remain without entries in the inode table are "
-"attached to the `/lost+found` folder of the logical drive."
+#, no-wrap
+msgid "In case of errors, solutions are proposed to repair the inconsistencies. After repair, files that remain without entries in the inode table are attached to the `/lost+found` folder of the logical drive.\n"
 msgstr ""
 
 #. type: Title ####
@@ -1629,9 +1637,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:484
-msgid ""
-"The `fsck` command is a console-mode integrity check and repair tool for "
-"Linux file systems."
+#, no-wrap
+msgid "The `fsck` command is a console-mode integrity check and repair tool for Linux file systems.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1648,9 +1655,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:496
-msgid ""
-"To check the root partition, it is possible to create a `forcefsck` file and "
-"reboot or run `shutdown` with the `-F` option."
+#, no-wrap
+msgid "To check the root partition, it is possible to create a `forcefsck` file and reboot or run `shutdown` with the `-F` option.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1677,14 +1683,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:511
-msgid ""
-"By definition, a File System is a tree structure of directories built from a "
-"root directory (a logical device can only contain one file system)."
+#, no-wrap
+msgid "By definition, a File System is a tree structure of directories built from a root directory (a logical device can only contain one file system).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:513
-msgid "![Organization of a file system](images/07-file-systems-008.png)"
+#, no-wrap
+msgid "![Organization of a file system](images/07-file-systems-008.png)\n"
 msgstr ""
 
 #. type: Plain text
@@ -1695,16 +1701,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:519
-msgid ""
-"Text document, directory, binary, partition, network resource, screen, "
-"keyboard, Unix kernel, user program, ..."
+#, no-wrap
+msgid "Text document, directory, binary, partition, network resource, screen, keyboard, Unix kernel, user program, ...\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:521
-msgid ""
-"Linux meets the **FHS** (_Filesystems Hierarchy Standard_) (see `man hier`) "
-"which defines the names of folders and their roles."
+#, no-wrap
+msgid "Linux meets the **FHS** (_Filesystems Hierarchy Standard_) (see `man hier`) which defines the names of folders and their roles.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1738,28 +1742,26 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:550
-msgid ""
-"To perform a mount or unmount, at the tree level, you must not be under its "
-"mount point."
+#, no-wrap
+msgid "To perform a mount or unmount, at the tree level, you must not be under its mount point.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:550
-msgid ""
-"Mounting on a non-empty directory does not delete the content. It is only "
-"hidden."
+#, no-wrap
+msgid "Mounting on a non-empty directory does not delete the content. It is only hidden.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:550
-msgid "Only the administrator can perform mounts."
+#, no-wrap
+msgid "Only the administrator can perform mounts.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:550
-msgid ""
-"Mount points to be automatically mounted at boot time must be entered in `/"
-"etc/fstab`."
+#, no-wrap
+msgid "Mount points to be automatically mounted at boot time must be entered in `/etc/fstab`.\n"
 msgstr ""
 
 #. type: Title ###
@@ -1770,10 +1772,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:554
-msgid ""
-"The `/etc/fstab` file is read at system startup and contains the mounts to "
-"be performed. Each file system to be mounted is described on a single line, "
-"the fields being separated by spaces or tabs."
+#, no-wrap
+msgid "The `/etc/fstab` file is read at system startup and contains the mounts to be performed. Each file system to be mounted is described on a single line, the fields being separated by spaces or tabs.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1812,10 +1812,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:580
-msgid ""
-"The `mount -a` command allows you to mount automatically based on the "
-"contents of the configuration file `/etc/fstab`, the mounted information is "
-"then written to `/etc/mtab`."
+#, no-wrap
+msgid "The `mount -a` command allows you to mount automatically based on the contents of the configuration file `/etc/fstab`, the mounted information is then written to `/etc/mtab`.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1872,9 +1870,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:606
-msgid ""
-"The `mount` command allows you to mount and view the logical drives in the "
-"tree."
+#, no-wrap
+msgid "The `mount` command allows you to mount and view the logical drives in the tree.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1917,7 +1914,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:633
-msgid "The `umount` command is used to unmount logical drives."
+#, no-wrap
+msgid "The `umount` command is used to unmount logical drives.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1960,39 +1958,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:659
-msgid ""
-"As in any system, in order to be able to find one's way through the tree "
-"structure and the file management, it is important to respect the file "
-"naming rules."
+#, no-wrap
+msgid "As in any system, in order to be able to find one's way through the tree structure and the file management, it is important to respect the file naming rules.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:664
-msgid "Files are coded on 255 characters;"
+#, no-wrap
+msgid "Files are coded on 255 characters;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:664
-msgid "All ASCII characters can be used;"
+#, no-wrap
+msgid "All ASCII characters can be used;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:664
-msgid "Uppercase and lowercase letters are differentiated;"
+#, no-wrap
+msgid "Uppercase and lowercase letters are differentiated;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:664
-msgid ""
-"Most files have no concept of file extension. In the GNU/Linux world, most "
-"file extensions are not required, except for a few (for example, .jpg, ."
-"mp4, .gif, etc.)."
+#, no-wrap
+msgid "Most files have no concept of file extension. In the GNU/Linux world, most file extensions are not required, except for a few (for example, .jpg, .mp4, .gif, etc.).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:666
-msgid ""
-"Groups of words separated by spaces must be enclosed in quotation marks:"
+#, no-wrap
+msgid "Groups of words separated by spaces must be enclosed in quotation marks:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2015,49 +2012,56 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:680
-msgid "Examples of file extension agreements:"
+#, no-wrap
+msgid "Examples of file extension agreements:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:689
-msgid "`.c` : source file in C language;"
+#, no-wrap
+msgid "`.c` : source file in C language;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:689
-msgid "`.h` : C and Fortran header file;"
+#, no-wrap
+msgid "`.h` : C and Fortran header file;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:689
-msgid "`.o` : object file in C language;"
+#, no-wrap
+msgid "`.o` : object file in C language;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:689
-msgid "`.tar` : data file archived with the `tar` utility;"
+#, no-wrap
+msgid "`.tar` : data file archived with the `tar` utility;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:689
-msgid "`.cpio` : data file archived with the `cpio` utility;"
+#, no-wrap
+msgid "`.cpio` : data file archived with the `cpio` utility;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:689
-msgid "`.gz` : data file compressed with the `gzip` utility;"
+#, no-wrap
+msgid "`.gz` : data file compressed with the `gzip` utility;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:689
-msgid ""
-"`.tgz` : data file archived with the `tar` utility and compressed with the "
-"`gzip` utility;"
+#, no-wrap
+msgid "`.tgz` : data file archived with the `tar` utility and compressed with the `gzip` utility;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:689
-msgid "`.html` : web page."
+#, no-wrap
+msgid "`.html` : web page.\n"
 msgstr ""
 
 #. type: Title ###
@@ -2094,7 +2098,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:711
-msgid "In the GNU/Linux world, there are seven file types:"
+#, no-wrap
+msgid "In the GNU/Linux world, there are seven file types:\n"
 msgstr ""
 
 #. type: Plain text
@@ -2120,9 +2125,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:725
-msgid ""
-"In each directory, there are two hidden files: **.** and **..**. You need to "
-"use `ls -al` to view, for example:"
+#, no-wrap
+msgid "In each directory, there are two hidden files:  **.** and **..**. You need to use `ls -al` to view, for example:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2152,32 +2156,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:745
-msgid ""
-"In order to communicate with peripherals (hard disks, printers...), Linux "
-"uses interface files called special files (_device file_ or _special file_). "
-"They allow identification by the peripherals."
+#, no-wrap
+msgid "In order to communicate with peripherals (hard disks, printers...), Linux uses interface files called special files (_device file_ or _special file_). They allow identification by the peripherals.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:747
-msgid ""
-"These files are special because they do not contain data but specify the "
-"access mode to communicate with the device."
+#, no-wrap
+msgid "These files are special because they do not contain data but specify the access mode to communicate with the device.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:749
-msgid "They are defined in two modes:"
+#, no-wrap
+msgid "They are defined in two modes:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:752
-msgid "**block** mode;"
+#, no-wrap
+msgid "**block** mode;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:752
-msgid "**character** mode."
+#, no-wrap
+msgid "**character** mode.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2201,7 +2205,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:766
-msgid "These are the pipe (_pipes_) and the _socket_ files."
+#, no-wrap
+msgid "These are the pipe (_pipes_) and the _socket_ files.\n"
 msgstr ""
 
 #. type: Plain text
@@ -2214,9 +2219,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:771
-msgid ""
-"**Socket files** allow bidirectional inter-process communication (on local "
-"or remote systems). They use an _inode_ of the file system."
+#, no-wrap
+msgid "**Socket files** allow bidirectional inter-process communication (on local or remote systems). They use an _inode_ of the file system.\n"
 msgstr ""
 
 #. type: Title ####
@@ -2227,29 +2231,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:775
-msgid ""
-"These files give the possibility to give several logical names to the same "
-"physical file. A new access point to the file is therefore created."
+#, no-wrap
+msgid "These files give the possibility to give several logical names to the same physical file. A new access point to the file is therefore created.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:777
-msgid "There are two types of link files:"
+#, no-wrap
+msgid "There are two types of link files:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:780
-msgid "Soft link file, also called symbolic link files;"
+#, no-wrap
+msgid "Soft link file, also called symbolic link files;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:780
-msgid "Hard link file, also called physical link files."
+#, no-wrap
+msgid "Hard link file, also called physical link files.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:782
-msgid "Their main features are:"
+#, no-wrap
+msgid "Their main features are:\n"
 msgstr ""
 
 #. type: Plain text
@@ -2264,7 +2271,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:789
-msgid "Specific examples are as follows:"
+#, no-wrap
+msgid "Specific examples are as follows:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2283,7 +2291,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:802
-msgid "![Present the effect](images/07-file-systems-019.png)"
+#, no-wrap
+msgid "![Present the effect](images/07-file-systems-019.png)\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2315,24 +2324,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:824
-msgid ""
-"Linux is a multi-user operating system where the control of access to files "
-"is essential."
+#, no-wrap
+msgid "Linux is a multi-user operating system where the control of access to files is essential.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:826
-msgid "These controls are functions of:"
+#, no-wrap
+msgid "These controls are functions of:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:829
-msgid "file access permissions ;"
+#, no-wrap
+msgid "file access permissions ;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:829
-msgid "users (_ugo_ _Users Groups Others_)."
+#, no-wrap
+msgid "users (_ugo_ _Users Groups Others_).\n"
 msgstr ""
 
 #. type: Title ###
@@ -2343,7 +2354,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:833
-msgid "The description of **file permissions** is as follows:"
+#, no-wrap
+msgid "The description of **file permissions** is as follows:\n"
 msgstr ""
 
 #. type: Plain text
@@ -2360,7 +2372,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:842
-msgid "The description of **directory permissions** is as follows:"
+#, no-wrap
+msgid "The description of **directory permissions** is as follows:\n"
 msgstr ""
 
 #. type: Plain text
@@ -2412,9 +2425,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:869
-msgid ""
-"The display of rights is done with the command `ls -l`. It is the last 9 "
-"characters of the block of 10. More precisely 3 times 3 characters."
+#, no-wrap
+msgid "The display of rights is done with the command `ls -l`. It is the last 9 characters of the block of 10. More precisely 3 times 3 characters.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2441,22 +2453,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:885
-msgid ""
-"By default, the _owner_ of a file is the one who creates it. The _group_ of "
-"the file is the group of the owner who created the file. The _others_ are "
-"those which are not concerned by the previous cases."
+#, no-wrap
+msgid "By default, the _owner_ of a file is the one who creates it. The _group_ of the file is the group of the owner who created the file. The _others_ are those which are not concerned by the previous cases.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:887
-msgid "The attributes are changed with the `chmod` command."
+#, no-wrap
+msgid "The attributes are changed with the `chmod` command.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:889
-msgid ""
-"Only the administrator and the owner of a file can change the rights of a "
-"file."
+#, no-wrap
+msgid "Only the administrator and the owner of a file can change the rights of a file.\n"
 msgstr ""
 
 #. type: Title ####
@@ -2467,8 +2477,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:893
-msgid ""
-"The `chmod` command allows you to change the access permissions to a file."
+#, no-wrap
+msgid "The `chmod` command allows you to change the access permissions to a file.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2494,9 +2504,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:907
-msgid ""
-"The mode indication can be an octal representation (e.g. `744`) or a "
-"symbolic representation ([`ugoa`][`+=-`][`rwxst`])."
+#, no-wrap
+msgid "The mode indication can be an octal representation (e.g. `744`) or a symbolic representation ([`ugoa`][`+=-`][`rwxst`]).\n"
 msgstr ""
 
 #. type: Title #####
@@ -2519,24 +2528,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:918
-msgid ""
-"Add the three numbers together to get one user type permission. E.g. "
-"**755=rwxr-xr-x**."
+#, no-wrap
+msgid "Add the three numbers together to get one user type permission. E.g. **755=rwxr-xr-x**.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:920
-msgid "![Octal representation](images/07-file-systems-011.png)"
+#, no-wrap
+msgid "![Octal representation](images/07-file-systems-011.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:922
-msgid "![Rights 777](images/07-file-systems-012.png)"
+#, no-wrap
+msgid "![Rights 777](images/07-file-systems-012.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:924
-msgid "![Rights 741](images/07-file-systems-013.png)"
+#, no-wrap
+msgid "![Rights 741](images/07-file-systems-013.png)\n"
 msgstr ""
 
 #. type: Plain text
@@ -2569,14 +2580,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:945
-msgid ""
-"This method can be considered as a \"literal\" association between a user "
-"type, an operator, and rights."
+#, no-wrap
+msgid "This method can be considered as a \"literal\" association between a user type, an operator, and rights.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:947
-msgid "![Symbolic method](images/07-file-systems-014.png)"
+#, no-wrap
+msgid "![Symbolic method](images/07-file-systems-014.png)\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2596,49 +2607,56 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:957
-msgid "When a file or directory is created, it already has permissions."
+#, no-wrap
+msgid "When a file or directory is created, it already has permissions.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:960
-msgid "For a directory: `rwxr-xr-x` or _755_."
+#, no-wrap
+msgid "For a directory: `rwxr-xr-x` or _755_.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:960
-msgid "For a file: `rw-r-r-` or _644_."
+#, no-wrap
+msgid "For a file: `rw-r-r-` or _644_.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:962
-msgid "This behavior is defined by the **default mask**."
+#, no-wrap
+msgid "This behavior is defined by the **default mask**.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:964
-msgid ""
-"The principle is to remove the value defined by the mask at maximum rights "
-"without the execution right."
+#, no-wrap
+msgid "The principle is to remove the value defined by the mask at maximum rights without the execution right.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:966
-msgid "For a directory:"
+#, no-wrap
+msgid "For a directory:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:968
-msgid "![How the SUID works](images/07-file-systems-017.png)"
+#, no-wrap
+msgid "![How the SUID works](images/07-file-systems-017.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:970
-msgid "For a file, the execution rights are removed:"
+#, no-wrap
+msgid "For a file, the execution rights are removed:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:972
-msgid "![Default rights of a file](images/07-file-systems-018.png)"
+#, no-wrap
+msgid "![Default rights of a file](images/07-file-systems-018.png)\n"
 msgstr ""
 
 #. type: Plain text
@@ -2667,7 +2685,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:987
-msgid "The `umask` command allows you to display and modify the mask."
+#, no-wrap
+msgid "The `umask` command allows you to display and modify the mask.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2725,38 +2744,42 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:1027
-msgid "To keep the value, you have to modify the following profile files："
+#, no-wrap
+msgid "To keep the value, you have to modify the following profile files：\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:1029
-msgid "For all users:"
+#, no-wrap
+msgid "For all users:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:1032
-msgid "`/etc/profile`"
+#, no-wrap
+msgid "`/etc/profile`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:1032
-msgid "`/etc/bashrc`"
+#, no-wrap
+msgid "`/etc/bashrc`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:1034
-msgid "For a particular user:"
+#, no-wrap
+msgid "For a particular user:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/07-file-systems.md:1036
-msgid "`~/.bashrc`"
+#, no-wrap
+msgid "`~/.bashrc`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/07-file-systems.md:1037
-msgid ""
-"When the above file is written, it actually overrides the **UMASK** "
-"parameter of `/etc/login.defs`. If you want to improve the security of the "
-"operating system, you can set umask to **027** or **077**."
+#, no-wrap
+msgid "When the above file is written, it actually overrides the **UMASK** parameter of `/etc/login.defs`. If you want to improve the security of the operating system, you can set umask to **027** or **077**.\n"
 msgstr ""

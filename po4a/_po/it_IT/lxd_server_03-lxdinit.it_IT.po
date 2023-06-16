@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -116,12 +116,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/03-lxdinit.md:16
-msgid ""
-"Throughout this chapter you will need to be root or able to `sudo` to become "
-"root. In addition, we are assuming that you have setup a ZFS storage pool as "
-"described in [Chapter 2](02-zfs_setup). You can use a different storage pool "
-"if you have chosen not to use ZFS, but you will need to make adjustments to "
-"the initialization questions and answers."
+#, no-wrap
+msgid "Throughout this chapter you will need to be root or able to `sudo` to become root. In addition, we are assuming that you have setup a ZFS storage pool as described in [Chapter 2](02-zfs_setup). You can use a different storage pool if you have chosen not to use ZFS, but you will need to make adjustments to the initialization questions and answers.\n"
 msgstr ""
 
 #. type: Title ###
@@ -135,10 +131,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/books/lxd_server/03-lxdinit.md:20
 #: ../src/docs/guides/containers/lxd_web_servers.md:118
-msgid ""
-"Now that the environment is all set up, we are ready to initialize LXD. This "
-"is an automated script that asks a series of questions to get your LXD "
-"instance up and running:"
+#, no-wrap
+msgid "Now that the environment is all set up, we are ready to initialize LXD. This is an automated script that asks a series of questions to get your LXD instance up and running:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -152,9 +146,8 @@ msgstr ""
 #: ../src/docs/books/lxd_server/03-lxdinit.md:26
 #: ../src/docs/books/lxd_server/30-appendix_a.md:68
 #: ../src/docs/guides/containers/lxd_web_servers.md:124
-msgid ""
-"Here are the questions and our answers for the script, with a little "
-"explanation where warranted:"
+#, no-wrap
+msgid "Here are the questions and our answers for the script, with a little explanation where warranted:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -168,9 +161,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/books/lxd_server/03-lxdinit.md:32
 #: ../src/docs/books/lxd_server/30-appendix_a.md:74
-msgid ""
-"If you are interested in clustering, do some additional research on that "
-"[here](https://linuxcontainers.org/lxd/docs/master/clustering/)"
+#, no-wrap
+msgid "If you are interested in clustering, do some additional research on that [here](https://linuxcontainers.org/lxd/docs/master/clustering/)\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -182,9 +174,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/03-lxdinit.md:38
-msgid ""
-"This may seem counter-intuitive, since we have already created our ZFS pool, "
-"but it will be resolved in a later question. Accept the default."
+#, no-wrap
+msgid "This may seem counter-intuitive, since we have already created our ZFS pool, but it will be resolved in a later question. Accept the default.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -195,9 +186,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/03-lxdinit.md:44
-msgid ""
-"You could leave this as default if you wanted to, but we have chosen to use "
-"the same name we gave our ZFS pool."
+#, no-wrap
+msgid "You could leave this as default if you wanted to, but we have chosen to use the same name we gave our ZFS pool.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -208,7 +198,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/03-lxdinit.md:50
-msgid "Obviously we want to accept the default."
+#, no-wrap
+msgid "Obviously we want to accept the default.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -219,8 +210,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/03-lxdinit.md:56
-msgid ""
-"Here's where the earlier question about creating a storage pool is resolved."
+#, no-wrap
+msgid "Here's where the earlier question about creating a storage pool is resolved.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -234,7 +225,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/books/lxd_server/03-lxdinit.md:63
 #: ../src/docs/books/lxd_server/30-appendix_a.md:94
-msgid "Metal As A Service (MAAS) is outside the scope of this document."
+#, no-wrap
+msgid "Metal As A Service (MAAS) is outside the scope of this document.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -251,9 +243,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/books/lxd_server/03-lxdinit.md:72
 #: ../src/docs/books/lxd_server/30-appendix_a.md:103
-msgid ""
-"If you want to use IPv6 on your LXD containers, you can turn on this option. "
-"That is up to you."
+#, no-wrap
+msgid "If you want to use IPv6 on your LXD containers, you can turn on this option. That is up to you.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -267,7 +258,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/books/lxd_server/03-lxdinit.md:78
 #: ../src/docs/books/lxd_server/30-appendix_a.md:109
-msgid "This is necessary to snapshot the server, so answer \"yes\" here."
+#, no-wrap
+msgid "This is necessary to snapshot the server, so answer \"yes\" here.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -283,11 +275,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/03-lxdinit.md:87
-msgid ""
-"This trust password is how you will connect to the snapshot server or back "
-"from the snapshot server, so set this with something that makes sense in "
-"your environment. Save this entry to a secure location, such as a password "
-"manager."
+#, no-wrap
+msgid "This trust password is how you will connect to the snapshot server or back from the snapshot server, so set this with something that makes sense in your environment. Save this entry to a secure location, such as a password manager.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -308,11 +297,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/03-lxdinit.md:96
-msgid ""
-"Before we continue on, we need to create our \"lxdadmin\" user and make sure "
-"that it has the privileges it needs. We need the \"lxdadmin\" user to be "
-"able to _sudo_ to root and we need it to be a member of the lxd group. To "
-"add the user and make sure it is a member of both groups do:"
+#, no-wrap
+msgid "Before we continue on, we need to create our \"lxdadmin\" user and make sure that it has the privileges it needs. We need the \"lxdadmin\" user to be able to _sudo_ to root and we need it to be a member of the lxd group. To add the user and make sure it is a member of both groups do:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -325,7 +311,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/books/lxd_server/03-lxdinit.md:102
 #: ../src/docs/guides/containers/lxd_web_servers.md:222
-msgid "Then set the password:"
+#, no-wrap
+msgid "Then set the password:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -338,5 +325,6 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/books/lxd_server/03-lxdinit.md:107
 #: ../src/docs/guides/containers/lxd_web_servers.md:228
-msgid "As with the other passwords, save this to a secure location."
+#, no-wrap
+msgid "As with the other passwords, save this to a secure location.\n"
 msgstr ""

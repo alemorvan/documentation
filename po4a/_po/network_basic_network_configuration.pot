@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -118,7 +118,8 @@ msgstr ""
 #: ../src/docs/guides/desktop/xfce_installation.md:23
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:237
 #: ../src/docs/guides/network/basic_network_configuration.md:23
-msgid "=== \"9\""
+#, no-wrap
+msgid "=== \"9\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -126,7 +127,8 @@ msgstr ""
 #: ../src/docs/guides/desktop/xfce_installation.md:99
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:411
 #: ../src/docs/guides/network/basic_network_configuration.md:359
-msgid "=== \"8\""
+#, no-wrap
+msgid "=== \"8\"\n"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
@@ -162,33 +164,30 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/network/basic_network_configuration.md:15
-msgid ""
-"You can't do much with a computer these days without network connectivity. "
-"Whether you need to update the packages on a server or simply browse "
-"external websites from your laptop, you will need network access! This guide "
-"aims to provide Rocky Linux users the basic knowledge on setting up network "
-"connectivity."
+#, no-wrap
+msgid "You can't do much with a computer these days without network connectivity. Whether you need to update the packages on a server or simply browse external websites from your laptop, you will need network access! This guide aims to provide Rocky Linux users the basic knowledge on setting up network connectivity.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/network/basic_network_configuration.md:21
 #: ../src/docs/guides/network/basic_network_configuration.md:33
 #: ../src/docs/guides/security/ssh_public_private_keys.md:20
-msgid "A certain amount of comfort operating from the command line"
+#, no-wrap
+msgid "A certain amount of comfort operating from the command line\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/network/basic_network_configuration.md:21
 #: ../src/docs/guides/network/basic_network_configuration.md:33
-msgid ""
-"Elevated or administrative privileges on the system (For example root, "
-"`sudo` and so on)"
+#, no-wrap
+msgid "Elevated or administrative privileges on the system (For example root, `sudo` and so on)\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/network/basic_network_configuration.md:21
 #: ../src/docs/guides/network/basic_network_configuration.md:33
-msgid "Optional: familiarity with networking concepts"
+#, no-wrap
+msgid "Optional: familiarity with networking concepts\n"
 msgstr ""
 
 #. type: Plain text
@@ -393,9 +392,8 @@ msgstr ""
 
 #. type: Bullet: '    1. '
 #: ../src/docs/guides/network/basic_network_configuration.md:117
-msgid ""
-"First, run the `nmtui` command at the command-line which should show you the "
-"following"
+#, no-wrap
+msgid "First, run the `nmtui` command at the command-line which should show you the following\n"
 msgstr ""
 
 #. type: Plain text
@@ -406,18 +404,14 @@ msgstr ""
 
 #. type: Bullet: '    2. '
 #: ../src/docs/guides/network/basic_network_configuration.md:121
-msgid ""
-"It's already on the selection we need \"Edit a connection\" so hit the "
-"<kbd>TAB</kbd> key so that \"OK\" is highlighted and hit <kbd>ENTER</kbd>"
+#, no-wrap
+msgid "It's already on the selection we need \"Edit a connection\" so hit the <kbd>TAB</kbd> key so that \"OK\" is highlighted and hit <kbd>ENTER</kbd>\n"
 msgstr ""
 
 #. type: Bullet: '    3. '
 #: ../src/docs/guides/network/basic_network_configuration.md:123
-msgid ""
-"This will bring up a screen showing the Ethernet connections on the machine "
-"and allow you to choose one. In our case, there is *ONLY* one, so it is "
-"already highlighted, we simply need to hit the <kbd>TAB</kbd> key until "
-"\"Edit\" is highlighted and then hit <kbd>ENTER</kbd>"
+#, no-wrap
+msgid "This will bring up a screen showing the Ethernet connections on the machine and allow you to choose one. In our case, there is *ONLY* one, so it is already highlighted, we simply need to hit the <kbd>TAB</kbd> key until \"Edit\" is highlighted and then hit <kbd>ENTER</kbd>\n"
 msgstr ""
 
 #. type: Plain text
@@ -428,11 +422,8 @@ msgstr ""
 
 #. type: Bullet: '    4. '
 #: ../src/docs/guides/network/basic_network_configuration.md:127
-msgid ""
-"Once we've done this, we will be to the screen that shows our current "
-"configuration. What we need to do is switch from \"Manual\" to \"Automatic\" "
-"so hit the <kbd>TAB</kbd> key several times until you get to where \"Manual"
-"\" is highlighted and then hit <kbd>ENTER</kbd>."
+#, no-wrap
+msgid "Once we've done this, we will be to the screen that shows our current configuration. What we need to do is switch from \"Manual\" to \"Automatic\" so hit the <kbd>TAB</kbd> key several times until you get to where \"Manual\" is highlighted and then hit <kbd>ENTER</kbd>.\n"
 msgstr ""
 
 #. type: Plain text
@@ -443,8 +434,8 @@ msgstr ""
 
 #. type: Bullet: '    5. '
 #: ../src/docs/guides/network/basic_network_configuration.md:131
-msgid ""
-"Arrow up until \"Automatic\" is highlighted and then hit <kbd>ENTER</kbd>"
+#, no-wrap
+msgid "Arrow up until \"Automatic\" is highlighted and then hit <kbd>ENTER</kbd>\n"
 msgstr ""
 
 #. type: Plain text
@@ -455,10 +446,8 @@ msgstr ""
 
 #. type: Bullet: '    6. '
 #: ../src/docs/guides/network/basic_network_configuration.md:135
-msgid ""
-"Once we have switched the interface over to \"Automatic\" we need to remove "
-"the statically assigned IP so hit the <kbd>TAB</kbd> key until the \"Remove"
-"\" is highlighted next to the IP address and hit <kbd>ENTER</kbd>."
+#, no-wrap
+msgid "Once we have switched the interface over to \"Automatic\" we need to remove the statically assigned IP so hit the <kbd>TAB</kbd> key until the \"Remove\" is highlighted next to the IP address and hit <kbd>ENTER</kbd>.\n"
 msgstr ""
 
 #. type: Plain text
@@ -469,10 +458,8 @@ msgstr ""
 
 #. type: Bullet: '    7. '
 #: ../src/docs/guides/network/basic_network_configuration.md:139
-msgid ""
-"Finally, hit the <kbd>TAB</kbd> key several times until you get to the "
-"bottom of the `nmtui` screen and the \"OK\" is highlighted and hit "
-"<kbd>ENTER</kbd>"
+#, no-wrap
+msgid "Finally, hit the <kbd>TAB</kbd> key several times until you get to the bottom of the `nmtui` screen and the \"OK\" is highlighted and hit <kbd>ENTER</kbd>\n"
 msgstr ""
 
 #. type: Plain text
@@ -552,22 +539,26 @@ msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/network/basic_network_configuration.md:175
-msgid "Remove the IPv4 Gateway"
+#, no-wrap
+msgid "Remove the IPv4 Gateway \n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/network/basic_network_configuration.md:175
-msgid "Remove the IPv4 Address that we statically assigned"
+#, no-wrap
+msgid "Remove the IPv4 Address that we statically assigned\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/network/basic_network_configuration.md:175
-msgid "Change the IPv4 Method to automatic"
+#, no-wrap
+msgid "Change the IPv4 Method to automatic\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/network/basic_network_configuration.md:175
-msgid "Down and Up the interface"
+#, no-wrap
+msgid "Down and Up the interface\n"
 msgstr ""
 
 #. type: Plain text
@@ -668,23 +659,27 @@ msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/network/basic_network_configuration.md:222
-msgid "interface name: enp0s3"
+#, no-wrap
+msgid "interface name: enp0s3\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/network/basic_network_configuration.md:222
-msgid "ip address: 192.168.1.151"
+#, no-wrap
+msgid "ip address: 192.168.1.151\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/network/basic_network_configuration.md:222
 #: ../src/docs/guides/network/basic_network_configuration.md:565
-msgid "subnet mask: 24"
+#, no-wrap
+msgid "subnet mask: 24\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/network/basic_network_configuration.md:222
-msgid "gateway: 192.168.1.1"
+#, no-wrap
+msgid "gateway: 192.168.1.1\n"
 msgstr ""
 
 #. type: Plain text
@@ -721,15 +716,15 @@ msgstr ""
 #. type: Bullet: '        * '
 #: ../src/docs/guides/network/basic_network_configuration.md:235
 #: ../src/docs/guides/network/basic_network_configuration.md:578
-msgid "use the `-c` flag to get a more readable coloured output: `ip -c a`."
+#, no-wrap
+msgid "use the `-c` flag to get a more readable coloured output: `ip -c a`.\n"
 msgstr ""
 
 #. type: Bullet: '	    * '
 #: ../src/docs/guides/network/basic_network_configuration.md:235
 #: ../src/docs/guides/network/basic_network_configuration.md:578
-msgid ""
-"`ip` accepts abbreviation so `ip a`, `ip addr` and `ip address` are "
-"equivalent"
+#, no-wrap
+msgid "`ip` accepts abbreviation so `ip a`, `ip addr` and `ip address` are equivalent\n"
 msgstr ""
 
 #. type: Plain text
@@ -1122,19 +1117,20 @@ msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/network/basic_network_configuration.md:418
-msgid "IPADDR: the IP address to assign the interface"
+#, no-wrap
+msgid "IPADDR: the IP address to assign the interface\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/network/basic_network_configuration.md:418
-msgid ""
-"PREFIX: the subnet mask in [CIDR notation](https://en.wikipedia.org/wiki/"
-"Classless_Inter-Domain_Routing#CIDR_notation)"
+#, no-wrap
+msgid "PREFIX: the subnet mask in [CIDR notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation)\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/network/basic_network_configuration.md:418
-msgid "GATEWAY: the default gateway"
+#, no-wrap
+msgid "GATEWAY: the default gateway\n"
 msgstr ""
 
 #. type: Plain text
@@ -1157,12 +1153,14 @@ msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/network/basic_network_configuration.md:427
-msgid "DNS1: IP address of the main nameserver"
+#, no-wrap
+msgid "DNS1: IP address of the main nameserver\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/network/basic_network_configuration.md:427
-msgid "DNS2: the secondary nameserver IP address"
+#, no-wrap
+msgid "DNS2: the secondary nameserver IP address\n"
 msgstr ""
 
 #. type: Plain text
@@ -1307,16 +1305,14 @@ msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/network/basic_network_configuration.md:504
-msgid ""
-"`auto`: the appropriate automatic method (DHCP, PPP, etc) is used for the "
-"interface and most other properties can be left unset."
+#, no-wrap
+msgid "`auto`: the appropriate automatic method (DHCP, PPP, etc) is used for the interface and most other properties can be left unset.\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/network/basic_network_configuration.md:504
-msgid ""
-"`manual`: static IP addressing is used and at least one IP address must be "
-"given in the 'addresses' property."
+#, no-wrap
+msgid "`manual`: static IP addressing is used and at least one IP address must be given in the 'addresses' property.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1437,17 +1433,20 @@ msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/network/basic_network_configuration.md:565
-msgid "interface name: ens19"
+#, no-wrap
+msgid "interface name: ens19\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/network/basic_network_configuration.md:565
-msgid "ip address: 192.168.20.10"
+#, no-wrap
+msgid "ip address: 192.168.20.10\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/network/basic_network_configuration.md:565
-msgid "gateway: 192.168.20.254"
+#, no-wrap
+msgid "gateway: 192.168.20.254\n"
 msgstr ""
 
 #. type: Plain text

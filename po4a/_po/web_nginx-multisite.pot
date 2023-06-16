@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -142,7 +142,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -169,7 +168,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Title ##
@@ -416,70 +416,56 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:17
-msgid ""
-"Here it is, my promised guide to Nginx multisite setups on Rocky Linux. I'm "
-"going to start off with a note for beginners; the rest of you know what "
-"you're here for, so scroll on down."
+#, no-wrap
+msgid "Here it is, my promised guide to Nginx multisite setups on Rocky Linux. I'm going to start off with a note for beginners; the rest of you know what you're here for, so scroll on down.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:19
-msgid ""
-"Hi Newbies! One of the things that Nginx does *very* well is direct traffic "
-"from one central point to multiple websites and apps on one server, or on "
-"several other servers. This feature is called a \"reverse proxy\", and the "
-"relative ease with which Nginx does this is one of the reasons I started "
-"using it."
+#, no-wrap
+msgid "Hi Newbies! One of the things that Nginx does *very* well is direct traffic from one central point to multiple websites and apps on one server, or on several other servers. This feature is called a \"reverse proxy\", and the relative ease with which Nginx does this is one of the reasons I started using it.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:21
-msgid ""
-"Here I'll be showing you how to manage multiple websites on a single Nginx "
-"installation, and how to do it in a simple and organized way that will let "
-"you make changes quickly and easily."
+#, no-wrap
+msgid "Here I'll be showing you how to manage multiple websites on a single Nginx installation, and how to do it in a simple and organized way that will let you make changes quickly and easily.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:23
-msgid ""
-"For those looking for a similar setup for Apache, take a [look at this "
-"guide.](apache-sites-enabled.md)"
+#, no-wrap
+msgid "For those looking for a similar setup for Apache, take a [look at this guide.](apache-sites-enabled.md)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:25
-msgid ""
-"I'll be explaining a *lot* of details... but in the end, the whole process "
-"basically involves setting up some folders, and making some small text "
-"files. We won't be using overly-complicated website configurations for this "
-"guide, so relax with a coffee and have some fun. Once you know how to do it, "
-"it'll only take minutes to do every time. This one's easy.\\*"
+#, no-wrap
+msgid "I'll be explaining a *lot* of details... but in the end, the whole process basically involves setting up some folders, and making some small text files. We won't be using overly-complicated website configurations for this guide, so relax with a coffee and have some fun. Once you know how to do it, it'll only take minutes to do every time. This one's easy.\\*\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:27
-msgid "\\* For given values of \"easy\"."
+#, no-wrap
+msgid "\\* For given values of \"easy\".\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:31
-msgid "This is everything you'll need:"
+#, no-wrap
+msgid "This is everything you'll need:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/nginx-multisite.md:34
-msgid ""
-"A Rocky Linux server connected to the internet, with Nginx already running "
-"on it. If you haven't gotten that far, you can follow [our guide to "
-"installing Nginx](nginx-mainline.md) first."
+#, no-wrap
+msgid "A Rocky Linux server connected to the internet, with Nginx already running on it. If you haven't gotten that far, you can follow [our guide to installing Nginx](nginx-mainline.md) first.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/nginx-multisite.md:34
-msgid ""
-"Some comfort with doing things on the command line, and a terminal-based "
-"text editor like `nano` installed."
+#, no-wrap
+msgid "Some comfort with doing things on the command line, and a terminal-based text editor like `nano` installed.\n"
 msgstr ""
 
 #. type: Plain text
@@ -496,9 +482,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/nginx-multisite.md:40
-msgid ""
-"At least one domain pointed at your server for one of the test websites. You "
-"can use either a second domain or a subdomain for the other."
+#, no-wrap
+msgid "At least one domain pointed at your server for one of the test websites. You can use either a second domain or a subdomain for the other.\n"
 msgstr ""
 
 #. type: Plain text
@@ -509,17 +494,14 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/nginx-multisite.md:47
-msgid ""
-"We are assuming that you're running Nginx on a bare metal server or regular "
-"VPS, and that SELinux is running. All instructions will be compatible with "
-"SELinux by default."
+#, no-wrap
+msgid "We are assuming that you're running Nginx on a bare metal server or regular VPS, and that SELinux is running. All instructions will be compatible with SELinux by default.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/nginx-multisite.md:47
-msgid ""
-"*All commands must be run as root,* either by logging in as the root user, "
-"or using `sudo`."
+#, no-wrap
+msgid "*All commands must be run as root,* either by logging in as the root user, or using `sudo`.\n"
 msgstr ""
 
 #. type: Title ##
@@ -536,12 +518,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:52
-msgid ""
-"First, you're going to need a couple of folders for your website files. When "
-"you first install Nginx, all of the \"demo\" website files will be in `/usr/"
-"share/nginx/html`. That's fine if you're hosting just the one site, but "
-"we're going to get fancy. Ignore the `html` directory for now, and just "
-"navigate its parent folder:"
+#, no-wrap
+msgid "First, you're going to need a couple of folders for your website files. When you first install Nginx, all of the \"demo\" website files will be in `/usr/share/nginx/html`. That's fine if you're hosting just the one site, but we're going to get fancy. Ignore the `html` directory for now, and just navigate its parent folder:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -558,15 +536,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:60
-msgid ""
-"eg. \"yourwebsite.com\" would go in a folder called `com.yourwebsite`. Mind "
-"you, you can *literally* name these folders whatever you want, but there's a "
-"good reason for this method, which I've outlined below."
+#, no-wrap
+msgid "eg. \"yourwebsite.com\" would go in a folder called `com.yourwebsite`. Mind you, you can *literally* name these folders whatever you want, but there's a good reason for this method, which I've outlined below.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:62
-msgid "For now, just make your folders:"
+#, no-wrap
+msgid "For now, just make your folders:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -579,18 +556,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:69
-msgid ""
-"So that command will make, for example, the `test.server.site1` folder, and "
-"put another folder called `html` inside of it. That is where you're going to "
-"put the actual files you want to serve via the web server. (You could also "
-"call it \"webroot\" or something like that.)"
+#, no-wrap
+msgid "So that command will make, for example, the `test.server.site1` folder, and put another folder called `html` inside of it. That is where you're going to put the actual files you want to serve via the web server. (You could also call it \"webroot\" or something like that.)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:71
-msgid ""
-"This is so you can put website-related files that you *don't* want to make "
-"public in the parent directory, while still keeping everything in one place."
+#, no-wrap
+msgid "This is so you can put website-related files that you *don't* want to make public in the parent directory, while still keeping everything in one place.\n"
 msgstr ""
 
 #. type: Plain text
@@ -601,9 +574,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:77
-msgid ""
-"For this test, we're keeping the \"websites\" themselves very simple. Just "
-"make an HTML file in the first folder with your favorite text editor:"
+#, no-wrap
+msgid "For this test, we're keeping the \"websites\" themselves very simple. Just make an HTML file in the first folder with your favorite text editor:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -614,7 +586,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:83
-msgid "Then paste in the following bit of HTML:"
+#, no-wrap
+msgid "Then paste in the following bit of HTML:\n"
 msgstr ""
 
 #. type: Fenced code block (html)
@@ -637,15 +610,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:100
-msgid ""
-"Save and close your file, then repeat the steps with the `test.server.site2` "
-"folder, changing \"Site 1\" to \"Site 2\" in the HTML code above. This is "
-"just so we can be sure everything is working as intended later on."
+#, no-wrap
+msgid "Save and close your file, then repeat the steps with the `test.server.site2` folder, changing \"Site 1\" to \"Site 2\" in the HTML code above. This is just so we can be sure everything is working as intended later on.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:102
-msgid "Your test websites are done, let's move on."
+#, no-wrap
+msgid "Your test websites are done, let's move on.\n"
 msgstr ""
 
 #. type: Title ###
@@ -656,9 +628,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:106
-msgid ""
-"Now let's go to the Nginx settings and configuration folder, which is where "
-"we'll be working for the rest of this guide:"
+#, no-wrap
+msgid "Now let's go to the Nginx settings and configuration folder, which is where we'll be working for the rest of this guide:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -669,40 +640,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:112
-msgid ""
-"If you run the `ls` command to see what files and folders are in here, "
-"you'll see a bunch of different things, most of which are irrelevant today. "
-"The ones to note are these:"
+#, no-wrap
+msgid "If you run the `ls` command to see what files and folders are in here, you'll see a bunch of different things, most of which are irrelevant today. The ones to note are these:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/nginx-multisite.md:116
-msgid ""
-"`nginx.conf` is the file that contains, you guessed it, the default Nginx "
-"configuration. We'll be editing that later."
+#, no-wrap
+msgid "`nginx.conf` is the file that contains, you guessed it, the default Nginx configuration. We'll be editing that later.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/nginx-multisite.md:116
-msgid ""
-"`conf.d` is a directory where you can put custom configuration files. You "
-"*could* use this for websites, but it's better to use it for feature-"
-"specific settings that you want on all of your websites."
+#, no-wrap
+msgid "`conf.d` is a directory where you can put custom configuration files. You *could* use this for websites, but it's better to use it for feature-specific settings that you want on all of your websites.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/nginx-multisite.md:116
-msgid ""
-"`default.d` is a directory where your website config *might* go if you were "
-"only running one site on the server, or if your server has a \"primary\" "
-"website. Leave it alone for now."
+#, no-wrap
+msgid "`default.d` is a directory where your website config *might* go if you were only running one site on the server, or if your server has a \"primary\" website. Leave it alone for now.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:118
-msgid ""
-"We want to create two new folders called `sites-available` and `sites-"
-"enabled`:"
+#, no-wrap
+msgid "We want to create two new folders called `sites-available` and `sites-enabled`:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -715,22 +678,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:125
-msgid ""
-"What we're going to do is put all of our website configuration files in the "
-"`sites-available` folder. There, you can work on the configuration files as "
-"long as you need to, until you're ready to activate the files with a "
-"symbolic link to the `sites-enabled` folder."
+#, no-wrap
+msgid "What we're going to do is put all of our website configuration files in the `sites-available` folder. There, you can work on the configuration files as long as you need to, until you're ready to activate the files with a symbolic link to the `sites-enabled` folder.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:127
-msgid ""
-"I'll show you how that works below. For now, we're done with making folders."
+#, no-wrap
+msgid "I'll show you how that works below. For now, we're done with making folders.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:129
-msgid "!!! Note \"Why you (might) want to write your domains backwards:\""
+#, no-wrap
+msgid "!!! Note \"Why you (might) want to write your domains backwards:\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -791,18 +752,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:153
-msgid ""
-"By default, Rocky Linux's implementation of Nginx is open to all HTTP "
-"traffic, and directs it all to the demo page you might have seen in our "
-"guide to installing Nginx. We don't want that. We want traffic from the "
-"domains we specify to go to the websites we specify."
+#, no-wrap
+msgid "By default, Rocky Linux's implementation of Nginx is open to all HTTP traffic, and directs it all to the demo page you might have seen in our guide to installing Nginx. We don't want that. We want traffic from the domains we specify to go to the websites we specify.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:155
-msgid ""
-"So from the `/etc/nginx/` directory, open up `nginx.conf` in your favorite "
-"text editor:"
+#, no-wrap
+msgid "So from the `/etc/nginx/` directory, open up `nginx.conf` in your favorite text editor:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -813,7 +770,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:161
-msgid "First, find the line that looks like this:"
+#, no-wrap
+msgid "First, find the line that looks like this:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -824,7 +782,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:167
-msgid "And **add** this bit just below it:"
+#, no-wrap
+msgid "And **add** this bit just below it:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -835,9 +794,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:173
-msgid ""
-"That will load in our website configuration files when they're ready to go "
-"live."
+#, no-wrap
+msgid "That will load in our website configuration files when they're ready to go live.\n"
 msgstr ""
 
 #. type: Plain text
@@ -871,7 +829,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:197
-msgid "What that would look like \"commented out\":"
+#, no-wrap
+msgid "What that would look like \"commented out\":\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -899,20 +858,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:219
-msgid ""
-"If you're a beginner, you might want to keep the commented code around for "
-"reference, and that goes for the example HTTPS code that's already commented "
-"out further down in the file."
+#, no-wrap
+msgid "If you're a beginner, you might want to keep the commented code around for reference, and that goes for the example HTTPS code that's already commented out further down in the file.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:221
-msgid "Save and close the file, then restart the server with:"
+#, no-wrap
+msgid "Save and close the file, then restart the server with:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:227
-msgid "Now no one will see the demo page, at least."
+#, no-wrap
+msgid "Now no one will see the demo page, at least.\n"
 msgstr ""
 
 #. type: Title ###
@@ -923,10 +882,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:231
-msgid ""
-"Now let's make your test websites available on the server. As previously "
-"mentioned, we're going to to this with symbolic links so we have an easy way "
-"of turning the websites on and off at will."
+#, no-wrap
+msgid "Now let's make your test websites available on the server. As previously mentioned, we're going to to this with symbolic links so we have an easy way of turning the websites on and off at will.\n"
 msgstr ""
 
 #. type: Plain text
@@ -943,9 +900,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:240
-msgid ""
-"I'll show you what I mean. Make a configuration file for the first website "
-"like so:"
+#, no-wrap
+msgid "I'll show you what I mean. Make a configuration file for the first website like so:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -956,10 +912,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:246
-msgid ""
-"Now paste in this code. This is about the simplest working Nginx "
-"configuration you can have, and should work fine for most static HTML "
-"websites:"
+#, no-wrap
+msgid "Now paste in this code. This is about the simplest working Nginx configuration you can have, and should work fine for most static HTML websites:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -989,16 +943,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:270
-msgid ""
-"And heck, everything from the document root on down is technically optional. "
-"Useful and recommended, but not strictly required for the website to "
-"function."
+#, no-wrap
+msgid "And heck, everything from the document root on down is technically optional. Useful and recommended, but not strictly required for the website to function.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:272
-msgid ""
-"Anyway, save and close the file, then go into `sites-enabled` directory:"
+#, no-wrap
+msgid "Anyway, save and close the file, then go into `sites-enabled` directory:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1009,9 +961,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:278
-msgid ""
-"Now, create a symbolic link to the configuration file you just made in the "
-"`sites-available` folder.:"
+#, no-wrap
+msgid "Now, create a symbolic link to the configuration file you just made in the `sites-available` folder.:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1022,18 +973,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:284
-msgid ""
-"Test your configuration with the `nginx -t` command, and if you get a "
-"message saying everything is okay, reload the server:"
+#, no-wrap
+msgid "Test your configuration with the `nginx -t` command, and if you get a message saying everything is okay, reload the server:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:290
-msgid ""
-"Then point your browser at the domain you're using for this first site (in "
-"my case: site1.server.test), and look for that \"This is Site 1\" message we "
-"put in the HTML file. If you have `curl` installed on your system, you could "
-"run `curl site1.server.test` and see if the HTML code loads in your terminal."
+#, no-wrap
+msgid "Then point your browser at the domain you're using for this first site (in my case: site1.server.test), and look for that \"This is Site 1\" message we put in the HTML file. If you have `curl` installed on your system, you could run `curl site1.server.test` and see if the HTML code loads in your terminal.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1050,19 +997,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:298
-msgid ""
-"If *all* of that goes right, *repeat the steps above, changing the names of "
-"the files and the content of the configuration files* as you go. \"site1\" "
-"to \"site2\" and all of that. Once you have configuration files and symbolic "
-"links for both Site 1 and Site 2, and have restarted Nginx, it should look "
-"like this:"
+#, no-wrap
+msgid "If *all* of that goes right, *repeat the steps above, changing the names of the files and the content of the configuration files* as you go. \"site1\" to \"site2\" and all of that. Once you have configuration files and symbolic links for both Site 1 and Site 2, and have restarted Nginx, it should look like this:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:300
-msgid ""
-"![A screenshot of the two test websites side by side](nginx/images/multisite-"
-"nginx.png)"
+#, no-wrap
+msgid "![A screenshot of the two test websites side by side](nginx/images/multisite-nginx.png)\n"
 msgstr ""
 
 #. type: Plain text
@@ -1094,9 +1036,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:314
-msgid ""
-"If you need to stop one of your websites to work on it before taking it live "
-"again, just delete the symbolic link in sites-enabled:"
+#, no-wrap
+msgid "If you need to stop one of your websites to work on it before taking it live again, just delete the symbolic link in sites-enabled:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1107,9 +1048,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:320
-msgid ""
-"Then restart Nginx as usual. To take the site back online, you'll need to re-"
-"create the symbolic link, and restart Nginx again."
+#, no-wrap
+msgid "Then restart Nginx as usual. To take the site back online, you'll need to re-create the symbolic link, and restart Nginx again.\n"
 msgstr ""
 
 #. type: Title ##
@@ -1120,41 +1060,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:324
-msgid "This part's definitely for beginners. Everyone else can probably skip."
+#, no-wrap
+msgid "This part's definitely for beginners. Everyone else can probably skip.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:326
-msgid ""
-"So this section *only* applies if you're trying out this guide in a local "
-"development environment. That is, if you're running your test server on your "
-"workstation, or on another machine in your local home or business network."
+#, no-wrap
+msgid "So this section *only* applies if you're trying out this guide in a local development environment. That is, if you're running your test server on your workstation, or on another machine in your local home or business network.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:328
-msgid ""
-"Since pointing external domains at your local machines is a hassle (and "
-"potentially dangerous if you don't know what you're doing), you can set up "
-"some \"fake\" domains that will work just fine on your local network, and "
-"nowhere else."
+#, no-wrap
+msgid "Since pointing external domains at your local machines is a hassle (and potentially dangerous if you don't know what you're doing), you can set up some \"fake\" domains that will work just fine on your local network, and nowhere else.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:330
-msgid ""
-"The easiest way to do this is with the hosts file on your computer. The "
-"hosts file is literally just a text file that can override DNS settings. As "
-"in, you can manually specify a domain name to go with any IP address you "
-"want. It'll *only* work on that one computer, though."
+#, no-wrap
+msgid "The easiest way to do this is with the hosts file on your computer. The hosts file is literally just a text file that can override DNS settings. As in, you can manually specify a domain name to go with any IP address you want. It'll *only* work on that one computer, though.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:332
-msgid ""
-"So on Mac and Linux, the hosts file is in the `/etc/` directory, and can be "
-"edited via the command line super easily (you'll need root access). Assuming "
-"you're working on a Rocky Linux workstation, just run:"
+#, no-wrap
+msgid "So on Mac and Linux, the hosts file is in the `/etc/` directory, and can be edited via the command line super easily (you'll need root access). Assuming you're working on a Rocky Linux workstation, just run:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1165,19 +1096,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:338
-msgid ""
-"On Windows, the hosts file is located at `C:\\Windows\\system32\\drivers\\etc"
-"\\hosts`, and you can just use whatever GUI text editor you want as long as "
-"you have Admin access."
+#, no-wrap
+msgid "On Windows, the hosts file is located at `C:\\Windows\\system32\\drivers\\etc\\hosts`, and you can just use whatever GUI text editor you want as long as you have Admin access.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:340
-msgid ""
-"So if you're working on a Rocky Linux computer, and are running your Nginx "
-"server on the same machine, you'd just open up the file, and define the "
-"domains/IP addresses you want. If you're running your workstation and test "
-"server on the same machine, that'd be:"
+#, no-wrap
+msgid "So if you're working on a Rocky Linux computer, and are running your Nginx server on the same machine, you'd just open up the file, and define the domains/IP addresses you want. If you're running your workstation and test server on the same machine, that'd be:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1190,9 +1116,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:347
-msgid ""
-"If you're running your Nginx server on another machine on the network, just "
-"use the address of that machine, eg.:"
+#, no-wrap
+msgid "If you're running your Nginx server on another machine on the network, just use the address of that machine, eg.:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1205,9 +1130,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:354
-msgid ""
-"Then you'll be able to point your browser to those domains and it should "
-"work as intended."
+#, no-wrap
+msgid "Then you'll be able to point your browser to those domains and it should work as intended.\n"
 msgstr ""
 
 #. type: Title ##
@@ -1218,26 +1142,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:358
-msgid ""
-"Go check out [our guide to getting SSL certificates with Let's Encrypt and "
-"certbot](../security/generating_ssl_keys_lets_encrypt.md). The instructions "
-"there will work just fine."
+#, no-wrap
+msgid "Go check out [our guide to getting SSL certificates with Let's Encrypt and certbot](../security/generating_ssl_keys_lets_encrypt.md). The instructions there will work just fine.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:362
-msgid ""
-"Remember, most of the folder/file organization and naming conventions here "
-"are technically optional. Your website configuration files mostly just have "
-"to go anywhere inside `/etc/nginx/` and `nginx.conf` needs to know where "
-"those files are."
+#, no-wrap
+msgid "Remember, most of the folder/file organization and naming conventions here are technically optional. Your website configuration files mostly just have to go anywhere inside `/etc/nginx/` and `nginx.conf` needs to know where those files are.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-multisite.md:364
-msgid ""
-"The actual website files should be somewhere in `/usr/share/nginx/`, and the "
-"rest is gravy."
+#, no-wrap
+msgid "The actual website files should be somewhere in `/usr/share/nginx/`, and the rest is gravy.\n"
 msgstr ""
 
 #. type: Plain text

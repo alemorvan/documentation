@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -164,7 +164,8 @@ msgstr ""
 #: ../src/docs/guides/desktop/xfce_installation.md:23
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:237
 #: ../src/docs/guides/network/basic_network_configuration.md:23
-msgid "=== \"9\""
+#, no-wrap
+msgid "=== \"9\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -172,7 +173,8 @@ msgstr ""
 #: ../src/docs/guides/desktop/xfce_installation.md:99
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:411
 #: ../src/docs/guides/network/basic_network_configuration.md:359
-msgid "=== \"8\""
+#, no-wrap
+msgid "=== \"8\"\n"
 msgstr ""
 
 #. type: YAML Front Matter: tags
@@ -202,79 +204,62 @@ msgstr ""
 #. type: Bullet: '* '
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:21
 #: ../src/docs/guides/web/apache-sites-enabled.md:18
-msgid "A server running Rocky Linux"
+#, no-wrap
+msgid "A server running Rocky Linux\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:21
-msgid ""
-"Several internal servers that need to be accessed only locally, but not over "
-"the Internet"
+#, no-wrap
+msgid "Several internal servers that need to be accessed only locally, but not over the Internet\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:21
-msgid ""
-"Several workstations that need access to these same servers that exist on "
-"the same network"
+#, no-wrap
+msgid "Several workstations that need access to these same servers that exist on the same network\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:21
-msgid "A healthy comfort level with entering commands from command line"
+#, no-wrap
+msgid "A healthy comfort level with entering commands from command line\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:21
-msgid ""
-"Familiarity with a command line editor (we are using _vi_ in this example)"
+#, no-wrap
+msgid "Familiarity with a command line editor (we are using _vi_ in this example)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:21
-msgid ""
-"Able to use either _firewalld_ or _iptables_ for creating firewall rules. "
-"We've provided both _iptables_ and _firewalld_ options. If you plan to use "
-"_iptables_, use the [Enabling Iptables Firewall procedure](../security/"
-"enabling_iptables_firewall.md)"
+#, no-wrap
+msgid "Able to use either _firewalld_ or _iptables_ for creating firewall rules. We've provided both _iptables_ and _firewalld_ options. If you plan to use _iptables_, use the [Enabling Iptables Firewall procedure](../security/enabling_iptables_firewall.md)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:25
-msgid ""
-"External, or public, DNS servers are used on the Internet to map host names "
-"to IP addresses and, in the case of PTR (known as \"pointer\" or \"reverse"
-"\") records, to map the IP to the host name. This is an essential part of "
-"the Internet. It makes your mail server, web server, FTP server, or many "
-"other servers and services work as expected no matter where you are."
+#, no-wrap
+msgid "External, or public, DNS servers are used on the Internet to map host names to IP addresses and, in the case of PTR (known as \"pointer\" or \"reverse\") records, to map the IP to the host name. This is an essential part of the Internet. It makes your mail server, web server, FTP server, or many other servers and services work as expected no matter where you are.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:27
-msgid ""
-"On a private network, particularly one that is being used for developing "
-"multiple systems, you can use your Rocky Linux workstation's */etc/hosts* "
-"file to map a name to an IP address."
+#, no-wrap
+msgid "On a private network, particularly one that is being used for developing multiple systems, you can use your Rocky Linux workstation's */etc/hosts* file to map a name to an IP address.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:29
-msgid ""
-"This will work for _your_ workstation, but not for any other machine on your "
-"network. If you want to make things universally applied, then the best "
-"method is to take some time out and create a local, private DNS server to "
-"handle this for all of your machines."
+#, no-wrap
+msgid "This will work for _your_ workstation, but not for any other machine on your network. If you want to make things universally applied, then the best method is to take some time out and create a local, private DNS server to handle this for all of your machines.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:31
-msgid ""
-"If you were creating production-level public DNS servers and resolvers, then "
-"this author would probably recommend the more robust [PowerDNS](https://www."
-"powerdns.com/) authoritative and recursive DNS, which is easily installed on "
-"Rocky Linux servers. However, that is simply overkill for a local network "
-"that won't be exposing its DNS servers to the outside world. That is why we "
-"have chosen _bind_ for this example."
+#, no-wrap
+msgid "If you were creating production-level public DNS servers and resolvers, then this author would probably recommend the more robust [PowerDNS](https://www.powerdns.com/) authoritative and recursive DNS, which is easily installed on Rocky Linux servers. However, that is simply overkill for a local network that won't be exposing its DNS servers to the outside world. That is why we have chosen _bind_ for this example.\n"
 msgstr ""
 
 #. type: Title ###
@@ -285,19 +270,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:35
-msgid ""
-"As stated, DNS separates services into authoritative and recursive servers. "
-"These services are now recommended to be separate from each other on "
-"separate hardware or containers."
+#, no-wrap
+msgid "As stated, DNS separates services into authoritative and recursive servers. These services are now recommended to be separate from each other on separate hardware or containers.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:37
-msgid ""
-"The authoritative server is the storage area for all IP addresses and host "
-"names, and the recursive server is used to lookup addresses and host names. "
-"In the case of our private DNS server, both the authoritative and the "
-"recursive server services will run together."
+#, no-wrap
+msgid "The authoritative server is the storage area for all IP addresses and host names, and the recursive server is used to lookup addresses and host names. In the case of our private DNS server, both the authoritative and the recursive server services will run together.\n"
 msgstr ""
 
 #. type: Title ##
@@ -308,9 +288,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:41
-msgid ""
-"The first step is to install packages. In the case of _bind_ we need to "
-"execute the following command:"
+#, no-wrap
+msgid "The first step is to install packages. In the case of _bind_ we need to execute the following command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -321,9 +300,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:47
-msgid ""
-"The service daemon for _bind_ is called _named_, and we need to enable this "
-"to start on boot:"
+#, no-wrap
+msgid "The service daemon for _bind_ is called _named_, and we need to enable this to start on boot:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -334,7 +312,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:53
-msgid "And then we need to start it:"
+#, no-wrap
+msgid "And then we need to start it:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -345,10 +324,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:61
-msgid ""
-"Before making changes to any configuration file, it is a good idea to make a "
-"backup copy of the original installed working file, in this case _named."
-"conf_:"
+#, no-wrap
+msgid "Before making changes to any configuration file, it is a good idea to make a backup copy of the original installed working file, in this case _named.conf_:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -359,18 +336,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:67
-msgid ""
-"That will help in the future if errors are introduced into the configuration "
-"file. It is *always* a good idea to make a backup copy before making changes."
+#, no-wrap
+msgid "That will help in the future if errors are introduced into the configuration file. It is *always* a good idea to make a backup copy before making changes.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:69
-msgid ""
-"These changes require us to edit the named.conf file, to do this, we are "
-"using _vi_, but you can substitute your favorite command line editor (the "
-"editor `nano` is also installed in Rocky Linux and is easier to use than "
-"`vi`):"
+#, no-wrap
+msgid "These changes require us to edit the named.conf file, to do this, we are using _vi_, but you can substitute your favorite command line editor (the editor `nano` is also installed in Rocky Linux and is easier to use than `vi`):\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -381,27 +354,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:75
-msgid ""
-"First thing we want to do is turn off listening on the localhost, this is "
-"done by remarking out with a \"#\" sign, these two lines in the \"options\" "
-"section. What this does is to effectively shut down any connection to the "
-"outside world."
+#, no-wrap
+msgid "First thing we want to do is turn off listening on the localhost, this is done by remarking out with a \"#\" sign, these two lines in the \"options\" section. What this does is to effectively shut down any connection to the outside world.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:77
-msgid ""
-"This is helpful, particularly when we go to add this DNS to our "
-"workstations, because we want the DNS server to only respond when the IP "
-"address requesting the service is local, and simply not respond at all if "
-"the service that is being looked up is on the Internet."
+#, no-wrap
+msgid "This is helpful, particularly when we go to add this DNS to our workstations, because we want the DNS server to only respond when the IP address requesting the service is local, and simply not respond at all if the service that is being looked up is on the Internet.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:79
-msgid ""
-"This way, the other configured DNS servers will take over nearly immediately "
-"to look up the Internet based services:"
+#, no-wrap
+msgid "This way, the other configured DNS servers will take over nearly immediately to look up the Internet based services:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -415,10 +381,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:87
-msgid ""
-"Finally, skip down to the bottom of the *named.conf* file and add a section "
-"for your network. Our example is using ourdomain, so sub in what you want to "
-"call your LAN hosts:"
+#, no-wrap
+msgid "Finally, skip down to the bottom of the *named.conf* file and add a section for your network. Our example is using ourdomain, so sub in what you want to call your LAN hosts:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -444,7 +408,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:107
-msgid "Now save your changes (for _vi_, `SHIFT:wq!`)"
+#, no-wrap
+msgid "Now save your changes (for _vi_, `SHIFT:wq!`)\n"
 msgstr ""
 
 #. type: Title ##
@@ -455,19 +420,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:111
-msgid ""
-"Next, we need to create two files in `/var/named`. These files are the ones "
-"that you will edit if you add machines to your network that you want to "
-"include in the DNS."
+#, no-wrap
+msgid "Next, we need to create two files in `/var/named`. These files are the ones that you will edit if you add machines to your network that you want to include in the DNS.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:113
-msgid ""
-"The first is the forward file to map our IP address to the hostname. Again, "
-"we are using \"ourdomain\" as our example here. Note that the IP of our "
-"local DNS here is 192.168.1.136. The hosts are added at the bottom of this "
-"file."
+#, no-wrap
+msgid "The first is the forward file to map our IP address to the hostname. Again, we are using \"ourdomain\" as our example here. Note that the IP of our local DNS here is 192.168.1.136. The hosts are added at the bottom of this file.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -478,7 +438,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:119
-msgid "The file will look something like this when you are done:"
+#, no-wrap
+msgid "The file will look something like this when you are done:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -508,18 +469,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:143
-msgid ""
-"Add as many hosts as you need to the bottom of the file along with their IP "
-"addresses and then save your changes."
+#, no-wrap
+msgid "Add as many hosts as you need to the bottom of the file along with their IP addresses and then save your changes.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:145
-msgid ""
-"Next, we need a reverse file to map our hostname to the IP address, In this "
-"case, the only part of the IP that you need is the last octet (in an IPv4 "
-"address each number separated by a period, is an octet) of the host and then "
-"the PTR and hostname."
+#, no-wrap
+msgid "Next, we need a reverse file to map our hostname to the IP address, In this case, the only part of the IP that you need is the last octet (in an IPv4 address each number separated by a period, is an octet) of the host and then the PTR and hostname.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -530,7 +487,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:151
-msgid "And the file should look something like this when you are done.:"
+#, no-wrap
+msgid "And the file should look something like this when you are done.:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -559,9 +517,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:174
-msgid ""
-"Add all of the hostnames that appear in the forward file and then save your "
-"changes."
+#, no-wrap
+msgid "Add all of the hostnames that appear in the forward file and then save your changes.\n"
 msgstr ""
 
 #. type: Title ###
@@ -572,87 +529,74 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:178
-msgid ""
-"Now that we have all of this added in and are preparing to restart our "
-"_bind_ DNS server, let's just explore some of the terminology that is used "
-"in these two files."
+#, no-wrap
+msgid "Now that we have all of this added in and are preparing to restart our _bind_ DNS server, let's just explore some of the terminology that is used in these two files.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:180
-msgid ""
-"Just making things work isn't good enough if you don't know what each term "
-"means, right?"
+#, no-wrap
+msgid "Just making things work isn't good enough if you don't know what each term means, right?\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:191
-msgid ""
-"**TTL** appears in both files and it stands for \"Time To Live\". TTL tells "
-"the DNS server how long to keep its cache in place before requesting a fresh "
-"copy. In this case, the TTL is the default setting for all records unless a "
-"specific record TTL is set. The default here is 86400 seconds or 24 hours."
+#, no-wrap
+msgid "**TTL** appears in both files and it stands for \"Time To Live\". TTL tells the DNS server how long to keep its cache in place before requesting a fresh copy. In this case, the TTL is the default setting for all records unless a specific record TTL is set. The default here is 86400 seconds or 24 hours.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:191
-msgid ""
-"**IN** stands for Internet. In this case, we aren't actually using the "
-"Internet, so think of this as the Intranet."
+#, no-wrap
+msgid "**IN** stands for Internet. In this case, we aren't actually using the Internet, so think of this as the Intranet.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:191
-msgid ""
-"**SOA** stands for \"Start Of Authority\" or what the primary DNS server is "
-"for the domain."
+#, no-wrap
+msgid "**SOA** stands for \"Start Of Authority\" or what the primary DNS server is for the domain.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:191
-msgid "**NS** stands for \"name server\""
+#, no-wrap
+msgid "**NS** stands for \"name server\"\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:191
-msgid ""
-"**Serial** is the value used by the DNS server to verify that the contents "
-"of the zone file are up-to-date."
+#, no-wrap
+msgid "**Serial** is the value used by the DNS server to verify that the contents of the zone file are up-to-date.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:191
-msgid ""
-"**Refresh** specifies how often a slave DNS server should do a zone transfer "
-"from the master."
+#, no-wrap
+msgid "**Refresh** specifies how often a slave DNS server should do a zone transfer from the master.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:191
-msgid ""
-"**Retry** specifies the length of time in seconds to wait before trying "
-"again on a failed zone transfer."
+#, no-wrap
+msgid "**Retry** specifies the length of time in seconds to wait before trying again on a failed zone transfer.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:191
-msgid ""
-"**Expire** specifies how long a slave server should wait to answer a query "
-"when the master is unreachable."
+#, no-wrap
+msgid "**Expire** specifies how long a slave server should wait to answer a query when the master is unreachable.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:191
-msgid ""
-"**A** Is the host address or forward record and is only in the forward file "
-"(above)."
+#, no-wrap
+msgid "**A** Is the host address or forward record and is only in the forward file (above).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:191
-msgid ""
-"**PTR** Is the pointer record better known as the \"reverse\" and is only in "
-"our reverse file (above)."
+#, no-wrap
+msgid "**PTR** Is the pointer record better known as the \"reverse\" and is only in our reverse file (above).\n"
 msgstr ""
 
 #. type: Title ##
@@ -663,15 +607,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:195
-msgid ""
-"Once we have gotten all of our files created, we need to make sure that the "
-"configuration files and zones are in good working order before we start the "
-"_bind_ service again."
+#, no-wrap
+msgid "Once we have gotten all of our files created, we need to make sure that the configuration files and zones are in good working order before we start the _bind_ service again.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:197
-msgid "Check the main configuration:"
+#, no-wrap
+msgid "Check the main configuration:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -682,12 +625,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:203
-msgid "This should return an empty result if everything is OK."
+#, no-wrap
+msgid "This should return an empty result if everything is OK.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:205
-msgid "Then check the forward zone:"
+#, no-wrap
+msgid "Then check the forward zone:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -698,7 +643,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:211
-msgid "This should return something like this if all is well:"
+#, no-wrap
+msgid "This should return something like this if all is well:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -711,7 +657,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:218
-msgid "And finally check the reverse zone:"
+#, no-wrap
+msgid "And finally check the reverse zone:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -722,7 +669,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:224
-msgid "Which should return something like this if all is well:"
+#, no-wrap
+msgid "Which should return something like this if all is well:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -735,7 +683,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:231
-msgid "Assuming that everything looks good, go ahead and restart _bind_:"
+#, no-wrap
+msgid "Assuming that everything looks good, go ahead and restart _bind_:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1378,53 +1327,50 @@ msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:538
-msgid ""
-"The first \"iptables\" line flushes the rules that are currently loaded (-F)."
+#, no-wrap
+msgid "The first \"iptables\" line flushes the rules that are currently loaded (-F).\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:538
-msgid ""
-"Next, we are setting a default policy for the INPUT chain of DROP. This "
-"means, if the traffic is not explicitly allowed here, it is dropped."
+#, no-wrap
+msgid "Next, we are setting a default policy for the INPUT chain of DROP. This means, if the traffic is not explicitly allowed here, it is dropped.\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:538
-msgid ""
-"Next, we have an SSH rule for our local network, so that we can get into the "
-"DNS server remotely."
+#, no-wrap
+msgid "Next, we have an SSH rule for our local network, so that we can get into the DNS server remotely.\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:538
-msgid ""
-"Then we have our DNS allow rule, only for our local network. Note that DNS "
-"uses the UDP protocol (User Datagram Protocol)."
+#, no-wrap
+msgid "Then we have our DNS allow rule, only for our local network. Note that DNS uses the UDP protocol (User Datagram Protocol).\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:538
-msgid "Next we allow INPUT from the local interface."
+#, no-wrap
+msgid "Next we allow INPUT from the local interface.\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:538
-msgid ""
-"Then if you have established a connection for something else, we are "
-"allowing related packets in as well."
+#, no-wrap
+msgid "Then if you have established a connection for something else, we are allowing related packets in as well.\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:538
-msgid "And finally we reject everything else."
+#, no-wrap
+msgid "And finally we reject everything else.\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:538
-msgid ""
-"The last line tells iptables to save the rules so that when the machine "
-"restarts, the rules will load as well."
+#, no-wrap
+msgid "The last line tells iptables to save the rules so that when the machine restarts, the rules will load as well.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1531,18 +1477,12 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:635
-msgid ""
-"While using */etc/hosts* on an individual workstation will get you access to "
-"a machine on your internal network, you can only use it on that one machine. "
-"By adding a private DNS server using _bind_, you can add hosts to the DNS "
-"and as long as the workstations have access to that private DNS server, they "
-"will be able to get to these local servers."
+#, no-wrap
+msgid "While using */etc/hosts* on an individual workstation will get you access to a machine on your internal network, you can only use it on that one machine. By adding a private DNS server using _bind_, you can add hosts to the DNS and as long as the workstations have access to that private DNS server, they will be able to get to these local servers.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:636
-msgid ""
-"If you don't need machines to resolve on the Internet, but do need local "
-"access from several machines to local servers, then consider using a private "
-"DNS server instead."
+#, no-wrap
+msgid "If you don't need machines to resolve on the Internet, but do need local access from several machines to local servers, then consider using a private DNS server instead.\n"
 msgstr ""

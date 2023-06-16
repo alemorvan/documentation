@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -177,7 +177,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -204,7 +203,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Plain text
@@ -315,7 +315,8 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:394
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:154
 #: ../src/docs/guides/web/php.md:255
-msgid "Example:"
+#, no-wrap
+msgid "Example:\n"
 msgstr ""
 
 #. type: Plain text
@@ -454,47 +455,50 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:19
-msgid ":heavy_check_mark: use loops;"
+#, no-wrap
+msgid ":heavy_check_mark: use loops;\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:21
-msgid ":checkered_flag: **linux**, **script**, **bash**, **loops**"
+#, no-wrap
+msgid ":checkered_flag: **linux**, **script**, **bash**, **loops**\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:30
-msgid ""
-"The bash shell allows for the use of **loops**. These structures allow for "
-"the execution of **a block of commands several times** (from 0 to infinity) "
-"according to a statically defined value, dynamically or on condition:"
+#, no-wrap
+msgid "The bash shell allows for the use of **loops**. These structures allow for the execution of **a block of commands several times** (from 0 to infinity) according to a statically defined value, dynamically or on condition:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_bash/07-loops.md:35
-msgid "`while`"
+#, no-wrap
+msgid "`while`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_bash/07-loops.md:35
-msgid "`until`"
+#, no-wrap
+msgid "`until`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_bash/07-loops.md:35
-msgid "`for`"
+#, no-wrap
+msgid "`for`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_bash/07-loops.md:35
-msgid "`select`"
+#, no-wrap
+msgid "`select`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:37
-msgid ""
-"Whatever the loop used, the commands to be repeated are placed **between the "
-"words** `do` and `done`."
+#, no-wrap
+msgid "Whatever the loop used, the commands to be repeated are placed **between the words** `do` and `done`.\n"
 msgstr ""
 
 #. type: Title ##
@@ -505,29 +509,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:41
-msgid ""
-"The `while` / `do` / `done` structure evaluates the command placed after "
-"`while`."
+#, no-wrap
+msgid "The `while` / `do` / `done` structure evaluates the command placed after `while`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:43
-msgid ""
-"If this command is true (`$? = 0`), the commands placed between `do` and "
-"`done` are executed. The script then returns to the beginning to evaluate "
-"the command again."
+#, no-wrap
+msgid "If this command is true (`$? = 0`), the commands placed between `do` and `done` are executed. The script then returns to the beginning to evaluate the command again.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:45
-msgid ""
-"When the evaluated command is false (`$? != 0`), the shell resumes the "
-"execution of the script at the first command after done."
+#, no-wrap
+msgid "When the evaluated command is false (`$? != 0`), the shell resumes the execution of the script at the first command after done.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:47
-msgid "Syntax of the conditional loop structure `while`:"
+#, no-wrap
+msgid "Syntax of the conditional loop structure `while`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -542,7 +543,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:56
-msgid "Example using the `while` conditional structure:"
+#, no-wrap
+msgid "Example using the `while` conditional structure:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -557,38 +559,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:65
-msgid ""
-"If the evaluated command does not vary, the loop will be infinite and the "
-"shell will never execute the commands placed after the script. This can be "
-"intentional, but it can also be an error. So you have to be **very careful "
-"with the commands that manage the loop and find a way to get out of it**."
+#, no-wrap
+msgid "If the evaluated command does not vary, the loop will be infinite and the shell will never execute the commands placed after the script. This can be intentional, but it can also be an error. So you have to be **very careful with the commands that manage the loop and find a way to get out of it**.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:67
-msgid ""
-"To get out of a `while` loop, you have to make sure that the command being "
-"evaluated is no longer true, which is not always possible."
+#, no-wrap
+msgid "To get out of a `while` loop, you have to make sure that the command being evaluated is no longer true, which is not always possible.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:69
-msgid "There are commands that allow you to change the behavior of a loop:"
+#, no-wrap
+msgid "There are commands that allow you to change the behavior of a loop:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_bash/07-loops.md:73
-msgid "`exit`"
+#, no-wrap
+msgid "`exit`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_bash/07-loops.md:73
-msgid "`break`"
+#, no-wrap
+msgid "`break`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_bash/07-loops.md:73
-msgid "`continue`"
+#, no-wrap
+msgid "`continue`\n"
 msgstr ""
 
 #. type: Title ##
@@ -599,12 +601,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:77
-msgid "The `exit` command ends the execution of the script."
+#, no-wrap
+msgid "The `exit` command ends the execution of the script.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:79
-msgid "Syntax of the `exit` command :"
+#, no-wrap
+msgid "Syntax of the `exit` command :\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -615,7 +619,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:85
-msgid "Example using the `exit` command :"
+#, no-wrap
+msgid "Example using the `exit` command :\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -630,11 +635,10 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:95
+#, no-wrap
 msgid ""
-"The `exit` command ends the script immediately. It is possible to specify "
-"the return code of the script by giving it as an argument (from `0` to "
-"`255`).  If no argument is given, the return code of the last command of the "
-"script will be passed to the `$?` variable."
+"The `exit` command ends the script immediately. It is possible to specify the return code of the script by giving it as an argument (from `0` to `255`).\n"
+"If no argument is given, the return code of the last command of the script will be passed to the `$?` variable.\n"
 msgstr ""
 
 #. type: Title ##
@@ -645,16 +649,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:99
-msgid ""
-"The `break` command allows you to interrupt the loop by going to the first "
-"command after `done`."
+#, no-wrap
+msgid "The `break` command allows you to interrupt the loop by going to the first command after `done`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:101
-msgid ""
-"The `continue` command allows you to restart the loop by going back to the "
-"first command after `done`."
+#, no-wrap
+msgid "The `continue` command allows you to restart the loop by going back to the first command after `done`.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -678,9 +680,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:115
-msgid ""
-"The `true` command always returns `true` while the `false` command always "
-"returns `false`."
+#, no-wrap
+msgid "The `true` command always returns `true` while the `false` command always returns `false`.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -697,9 +698,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:126
-msgid ""
-"Used as a condition of a loop, they allow for either an execution of an "
-"infinite loop or the deactivation of this loop."
+#, no-wrap
+msgid "Used as a condition of a loop, they allow for either an execution of an infinite loop or the deactivation of this loop.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -723,29 +723,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:142
-msgid ""
-"The `until` / `do` / `done` structure evaluates the command placed after "
-"`until`."
+#, no-wrap
+msgid "The `until` / `do` / `done` structure evaluates the command placed after `until`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:144
-msgid ""
-"If this command is false (`$? != 0`), the commands placed between `do` and "
-"`done` are executed. The script then returns to the beginning to evaluate "
-"the command again."
+#, no-wrap
+msgid "If this command is false (`$? != 0`), the commands placed between `do` and `done` are executed. The script then returns to the beginning to evaluate the command again.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:146
-msgid ""
-"When the evaluated command is true (`$? = 0`), the shell resumes the "
-"execution of the script at the first command after `done`."
+#, no-wrap
+msgid "When the evaluated command is true (`$? = 0`), the shell resumes the execution of the script at the first command after `done`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:148
-msgid "Syntax of the conditional loop structure `until`:"
+#, no-wrap
+msgid "Syntax of the conditional loop structure `until`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -760,7 +757,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:157
-msgid "Example of the use of the conditional structure `until`:"
+#, no-wrap
+msgid "Example of the use of the conditional structure `until`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -782,38 +780,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:169
-msgid ""
-"The structure `select` / `do` / `done` allows for the display of a menu with "
-"several choices and an input request."
+#, no-wrap
+msgid "The structure `select` / `do` / `done` allows for the display of a menu with several choices and an input request.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:171
-msgid ""
-"Each item in the list has a numbered choice. When you enter a choice, the "
-"value chosen is assigned to the variable placed after `select` (created for "
-"this purpose)."
+#, no-wrap
+msgid "Each item in the list has a numbered choice. When you enter a choice, the value chosen is assigned to the variable placed after `select` (created for this purpose).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:173
-msgid ""
-"It then executes the commands placed between `do` and `done` with this value."
+#, no-wrap
+msgid "It then executes the commands placed between `do` and `done` with this value.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_bash/07-loops.md:176
-msgid "The variable `PS3` contains the invitation to enter the choice;"
+#, no-wrap
+msgid "The variable `PS3` contains the invitation to enter the choice;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_bash/07-loops.md:176
-msgid "The variable `REPLY` will return the number of the choice."
+#, no-wrap
+msgid "The variable `REPLY` will return the number of the choice.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:178
-msgid "A `break` command is needed to exit the loop."
+#, no-wrap
+msgid "A `break` command is needed to exit the loop.\n"
 msgstr ""
 
 #. type: Plain text
@@ -824,7 +822,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:184
-msgid "Syntax of the conditional loop structure `select`:"
+#, no-wrap
+msgid "Syntax of the conditional loop structure `select`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -840,7 +839,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:194
-msgid "Example of the use of the conditional structure `select`:"
+#, no-wrap
+msgid "Example of the use of the conditional structure `select`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -856,17 +856,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:204
-msgid "If this script is run, it shows something like this:"
+#, no-wrap
+msgid "If this script is run, it shows something like this:\n"
 msgstr ""
 
 #. type: Bullet: '1) '
 #: ../src/docs/books/learning_bash/07-loops.md:205
-msgid "Coffee"
+#, no-wrap
+msgid "Coffee\n"
 msgstr ""
 
 #. type: Bullet: '2) '
 #: ../src/docs/books/learning_bash/07-loops.md:205
-msgid "Tea"
+#, no-wrap
+msgid "Tea\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -887,18 +890,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:217
-msgid ""
-"The `for` / `do` / `done` structure assigns the first element of the list to "
-"the variable placed after `for` (created on this occasion). It then executes "
-"the commands placed between `do` and `done` with this value. The script then "
-"returns to the beginning to assign the next element of the list to the "
-"working variable. When the last element has been used, the shell resumes "
-"execution at the first command after `done`."
+#, no-wrap
+msgid "The `for` / `do` / `done` structure assigns the first element of the list to the variable placed after `for` (created on this occasion). It then executes the commands placed between `do` and `done` with this value. The script then returns to the beginning to assign the next element of the list to the working variable. When the last element has been used, the shell resumes execution at the first command after `done`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:219
-msgid "Syntax of the loop structure on list of values `for`:"
+#, no-wrap
+msgid "Syntax of the loop structure on list of values `for`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -913,7 +912,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:228
-msgid "Example of using the conditional structure `for`:"
+#, no-wrap
+msgid "Example of using the conditional structure `for`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -928,30 +928,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:237
-msgid ""
-"Any command producing a list of values can be placed after the `in` using a "
-"sub-execution."
+#, no-wrap
+msgid "Any command producing a list of values can be placed after the `in` using a sub-execution.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_bash/07-loops.md:240
-msgid ""
-"With the variable `IFS` containing `$' \\t\\n'`, the `for` loop will take "
-"**each word** of the result of this command as a list of elements to loop on."
+#, no-wrap
+msgid "With the variable `IFS` containing `$' \\t\\n'`, the `for` loop will take **each word** of the result of this command as a list of elements to loop on.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_bash/07-loops.md:240
-msgid ""
-"With the `IFS` variable containing `$'\\t\\n'` (i.e. without spaces), the "
-"`for` loop will take each line of the result of this command."
+#, no-wrap
+msgid "With the `IFS` variable containing `$'\\t\\n'` (i.e. without spaces), the `for` loop will take each line of the result of this command.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:242
-msgid ""
-"This can be the files in a directory. In this case, the variable will take "
-"as a value each of the words of the file names present:"
+#, no-wrap
+msgid "This can be the files in a directory. In this case, the variable will take as a value each of the words of the file names present:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -966,9 +962,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:251
-msgid ""
-"It can be a file. In this case, the variable will take as a value each word "
-"contained in the file browsed, from the beginning to the end:"
+#, no-wrap
+msgid "It can be a file. In this case, the variable will take as a value each word contained in the file browsed, from the beginning to the end:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -990,9 +985,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/07-loops.md:267
-msgid ""
-"To read a file line by line, you must modify the value of the `IFS` "
-"environment variable."
+#, no-wrap
+msgid "To read a file line by line, you must modify the value of the `IFS` environment variable.\n"
 msgstr ""
 
 #. type: Fenced code block

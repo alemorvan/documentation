@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -62,9 +62,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/8_5.md:10
-msgid ""
-"Thank you for supporting Rocky Linux. These are the release notes for Rocky "
-"Linux 8.5, available for x86_64 and aarch64 (ARM) architectures."
+#, no-wrap
+msgid "Thank you for supporting Rocky Linux. These are the release notes for Rocky Linux 8.5, available for x86_64 and aarch64 (ARM) architectures.\n"
 msgstr ""
 
 #. type: Plain text
@@ -75,16 +74,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/8_5.md:14
-msgid "— Gregory Kurtzer"
+#, no-wrap
+msgid "— Gregory Kurtzer\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/8_5.md:19
-msgid ""
-"For a full listing of all changes which occurred upstream, please reference "
-"the [Release Notes for Red Hat Enterprise Linux 8.5](https://access.redhat."
-"com/documentation/en-us/red_hat_enterprise_linux/8/html/8.5_release_notes/"
-"overview#overview-major-changes)."
+#, no-wrap
+msgid "For a full listing of all changes which occurred upstream, please reference the [Release Notes for Red Hat Enterprise Linux 8.5](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/8.5_release_notes/overview#overview-major-changes).\n"
 msgstr ""
 
 #. type: Title ####
@@ -95,30 +92,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/8_5.md:23
-msgid ""
-"In less than 48 hours from RHEL-8.5 being released, we had successful tests "
-"on our ISOs and just before we were about to pull the string to go GA with "
-"8.5, Microsoft countersigned our Secure Boot shim. We quickly deliberated "
-"and decided to backtrack and incorporate that into the 8.5 release."
+#, no-wrap
+msgid "In less than 48 hours from RHEL-8.5 being released, we had successful tests on our ISOs and just before we were about to pull the string to go GA with 8.5, Microsoft countersigned our Secure Boot shim. We quickly deliberated and decided to backtrack and incorporate that into the 8.5 release.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/8_5.md:25
-msgid ""
-"There were some things that we had to get in order and resolved, but it is "
-"with great pleasure that this release includes the official Rocky Linux "
-"signed shim. Here is the full thread to the shim review: [https://github.com/"
-"rhboot/shim-review/issues/194](https://github.com/rhboot/shim-review/"
-"issues/194)."
+#, no-wrap
+msgid "There were some things that we had to get in order and resolved, but it is with great pleasure that this release includes the official Rocky Linux signed shim. Here is the full thread to the shim review: [https://github.com/rhboot/shim-review/issues/194](https://github.com/rhboot/shim-review/issues/194).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/8_5.md:27
-msgid ""
-"As with any security related diligence, it is important to be able to "
-"validate the Secure Boot shim is exactly what you expect and that it is "
-"properly activated. After installing Rocky Linux 8.5, please log in and run "
-"these commands to validate our secure boot shim:"
+#, no-wrap
+msgid "As with any security related diligence, it is important to be able to validate the Secure Boot shim is exactly what you expect and that it is properly activated. After installing Rocky Linux 8.5, please log in and run these commands to validate our secure boot shim:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -136,7 +123,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/8_5.md:39
-msgid "These commands should produce output similar to the following:"
+#, no-wrap
+msgid "These commands should produce output similar to the following:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -164,17 +152,20 @@ msgstr ""
 
 #. type: Bullet: '   * '
 #: ../src/docs/release_notes/8_5.md:65
-msgid "Ruby 3.0"
+#, no-wrap
+msgid "Ruby 3.0\n"
 msgstr ""
 
 #. type: Bullet: '   * '
 #: ../src/docs/release_notes/8_5.md:65
-msgid "nginx 1.20"
+#, no-wrap
+msgid "nginx 1.20\n"
 msgstr ""
 
 #. type: Bullet: '   * '
 #: ../src/docs/release_notes/8_5.md:65
-msgid "Node.js 16"
+#, no-wrap
+msgid "Node.js 16\n"
 msgstr ""
 
 #. type: Title ####
@@ -185,17 +176,20 @@ msgstr ""
 
 #. type: Bullet: '   * '
 #: ../src/docs/release_notes/8_5.md:71
-msgid "PHP to version 7.4.19"
+#, no-wrap
+msgid "PHP to version 7.4.19\n"
 msgstr ""
 
 #. type: Bullet: '   * '
 #: ../src/docs/release_notes/8_5.md:71
-msgid "Squid to version 4.15"
+#, no-wrap
+msgid "Squid to version 4.15\n"
 msgstr ""
 
 #. type: Bullet: '   * '
 #: ../src/docs/release_notes/8_5.md:71
-msgid "Mutt to version 2.0.7"
+#, no-wrap
+msgid "Mutt to version 2.0.7\n"
 msgstr ""
 
 #. type: Title ####
@@ -206,22 +200,26 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_5.md:78 ../src/docs/release_notes/8_6.md:60
-msgid "GCC Toolset 11"
+#, no-wrap
+msgid "GCC Toolset 11\n"
 msgstr ""
 
 #. type: Bullet: '   * '
 #: ../src/docs/release_notes/8_5.md:78
-msgid "LLVM Toolset 12.0.1"
+#, no-wrap
+msgid "LLVM Toolset 12.0.1\n"
 msgstr ""
 
 #. type: Bullet: '   * '
 #: ../src/docs/release_notes/8_5.md:78
-msgid "Rust Toolset 1.54.0"
+#, no-wrap
+msgid "Rust Toolset 1.54.0\n"
 msgstr ""
 
 #. type: Bullet: '   * '
 #: ../src/docs/release_notes/8_5.md:78
-msgid "Go Toolset 1.16.7"
+#, no-wrap
+msgid "Go Toolset 1.16.7\n"
 msgstr ""
 
 #. type: Title ####
@@ -232,26 +230,20 @@ msgstr ""
 
 #. type: Bullet: '   * '
 #: ../src/docs/release_notes/8_5.md:84
-msgid ""
-"Open Java Development Kit 17 (OpenJDK 17) is now available. For more "
-"information about the features introduced in this release and changes in the "
-"existing functionality, see OpenJDK features."
+#, no-wrap
+msgid "Open Java Development Kit 17 (OpenJDK 17) is now available. For more information about the features introduced in this release and changes in the existing functionality, see OpenJDK features.\n"
 msgstr ""
 
 #. type: Bullet: '   * '
 #: ../src/docs/release_notes/8_5.md:84
-msgid ""
-"OpenJDK 11 has been updated to version 11.0.13. For more information about "
-"the features introduced in this release and changes in the existing "
-"functionality, see Release notes for OpenJDK 11.0.13."
+#, no-wrap
+msgid "OpenJDK 11 has been updated to version 11.0.13. For more information about the features introduced in this release and changes in the existing functionality, see Release notes for OpenJDK 11.0.13.\n"
 msgstr ""
 
 #. type: Bullet: '   * '
 #: ../src/docs/release_notes/8_5.md:84
-msgid ""
-"OpenJDK 8 has been updated to version 8.0.312. For more information about "
-"the features introduced in this release and changes in the existing "
-"functionality, see Release notes for OpenJDK 8.0.312."
+#, no-wrap
+msgid "OpenJDK 8 has been updated to version 8.0.312. For more information about the features introduced in this release and changes in the existing functionality, see Release notes for OpenJDK 8.0.312.\n"
 msgstr ""
 
 #. type: Title ##
@@ -262,20 +254,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/8_5.md:88 ../src/docs/release_notes/8_6.md:66
-msgid ""
-"During network installation, the list of mirrors hosting BaseOS content from "
-"the MirrorList will be used by the FastestMirror DNF plugin, sorted "
-"heuristically by the time it takes to open a connection to the mirrors on "
-"their given protocol's port ([Source code](https://github.com/rpm-software-"
-"management/yum-utils/blob/master/plugins/fastestmirror/fastestmirror.py))."
+#, no-wrap
+msgid "During network installation, the list of mirrors hosting BaseOS content from the MirrorList will be used by the FastestMirror DNF plugin, sorted heuristically by the time it takes to open a connection to the mirrors on their given protocol's port ([Source code](https://github.com/rpm-software-management/yum-utils/blob/master/plugins/fastestmirror/fastestmirror.py)).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/8_5.md:90
-msgid ""
-"This change means that a Repository URL is no longer required when using "
-"Boot-only media and performing Network-based installations of Rocky (and "
-"other Enterprise) Linux!"
+#, no-wrap
+msgid "This change means that a Repository URL is no longer required when using Boot-only media and performing Network-based installations of Rocky (and other Enterprise) Linux!\n"
 msgstr ""
 
 #. type: Title ###
@@ -292,27 +278,26 @@ msgstr ""
 
 #. type: Bullet: '   * '
 #: ../src/docs/release_notes/8_5.md:98
-msgid "In the plus repository, thunderbird with PGP support was added"
+#, no-wrap
+msgid "In the plus repository, thunderbird with PGP support was added\n"
 msgstr ""
 
 #. type: Bullet: '   * '
 #: ../src/docs/release_notes/8_5.md:98
-msgid "In the plus repository, openldap-servers was added"
+#, no-wrap
+msgid "In the plus repository, openldap-servers was added\n"
 msgstr ""
 
 #. type: Bullet: '   * '
 #: ../src/docs/release_notes/8_5.md:98
-msgid ""
-"In the rockypi repository, rasperrypi2 kernel was added for raspberry "
-"specific aarch64 support"
+#, no-wrap
+msgid "In the rockypi repository, rasperrypi2 kernel was added for raspberry specific aarch64 support\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/8_5.md:100
-msgid ""
-"For a complete comparison of packages and their versions between Rocky Linux "
-"and Red Hat Enterprise Linux, please consult our [RepoCompare](https://"
-"repocompare.rockylinux.org) site."
+#, no-wrap
+msgid "For a complete comparison of packages and their versions between Rocky Linux and Red Hat Enterprise Linux, please consult our [RepoCompare](https://repocompare.rockylinux.org) site.\n"
 msgstr ""
 
 #. type: Title ###
@@ -323,16 +308,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/8_5.md:104
-msgid ""
-"Installation instructions for the latest Rocky Linux release can be found "
-"here:"
+#, no-wrap
+msgid "Installation instructions for the latest Rocky Linux release can be found here:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/8_5.md:106
-msgid ""
-"[https://docs.rockylinux.org/guides/installation/](https://docs.rockylinux."
-"org/guides/installation/)"
+#, no-wrap
+msgid "[https://docs.rockylinux.org/guides/installation/](https://docs.rockylinux.org/guides/installation/)\n"
 msgstr ""
 
 #. type: Title ###
@@ -343,12 +326,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/8_5.md:110
-msgid ""
-"Migrations to Rocky Linux 8.5 are supported from various Enterprise Linux "
-"distributions including, but not limited to CentOS Linux (including CentOS "
-"Stream) and Red Hat Enterprise Linux. For more details regarding supported "
-"upgrade paths and instructions on migrations, please consult the "
-"[documentation](https://docs.rockylinux.org/guides/migrate2rocky/)."
+#, no-wrap
+msgid "Migrations to Rocky Linux 8.5 are supported from various Enterprise Linux distributions including, but not limited to CentOS Linux (including CentOS Stream) and Red Hat Enterprise Linux. For more details regarding supported upgrade paths and instructions on migrations, please consult the [documentation](https://docs.rockylinux.org/guides/migrate2rocky/).\n"
 msgstr ""
 
 #. type: Title ####
@@ -359,7 +338,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/8_5.md:114
-msgid "To update your installation of Rocky Linux 8.4 Stable to 8.5, type:"
+#, no-wrap
+msgid "To update your installation of Rocky Linux 8.4 Stable to 8.5, type:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -370,13 +350,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/8_5.md:122
-msgid ""
-"Please see [Chapter 5 - Bug Fixes](https://access.redhat.com/documentation/"
-"en-us/red_hat_enterprise_linux/8/html/8.5_release_notes/bug_fixes)  and "
-"[Chapter 8 - Bug Fixes](https://access.redhat.com/documentation/en-us/"
-"red_hat_enterprise_linux/8/html/8.5_release_notes/known-issues) of the Red "
-"Hat Enterprise Linux 8.5 release notes for more information regarding bugs "
-"and known issues in the upstream distribution."
+#, no-wrap
+msgid "Please see [Chapter 5 - Bug Fixes](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/8.5_release_notes/bug_fixes)  and [Chapter 8 - Bug Fixes](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/8.5_release_notes/known-issues) of the Red Hat Enterprise Linux 8.5 release notes for more information regarding bugs and known issues in the upstream distribution.\n"
 msgstr ""
 
 #. type: Title ##
@@ -390,11 +365,6 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/8_5.md:126
-msgid ""
-"Please report any bugs you encounter to the Rocky Linux Bug Tracker. We also "
-"welcome you to join our community in any way you wish be it on our [Forums]"
-"(https://forums.rockylinux.org), [Mattermost](https://chat.rockylinux.org), "
-"[IRC on Libera.Chat](irc://irc.liberachat/rockylinux), [Reddit](https://"
-"reddit.com/r/rockylinux), [Mailing Lists](https://lists.resf.org), or any "
-"other way you wish to participate!"
+#, no-wrap
+msgid "Please report any bugs you encounter to the Rocky Linux Bug Tracker. We also welcome you to join our community in any way you wish be it on our [Forums](https://forums.rockylinux.org), [Mattermost](https://chat.rockylinux.org), [IRC on Libera.Chat](irc://irc.liberachat/rockylinux), [Reddit](https://reddit.com/r/rockylinux), [Mailing Lists](https://lists.resf.org), or any other way you wish to participate!\n"
 msgstr ""

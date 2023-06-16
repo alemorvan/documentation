@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,7 +46,8 @@ msgstr ""
 #: ../src/docs/guides/proxies/pound.md:62
 #: ../src/docs/guides/proxies/pound.md:418 ../src/docs/index.md:40
 #: ../src/docs/release_notes/9_1.md:16
-msgid "!!! note"
+#, no-wrap
+msgid "!!! note\n"
 msgstr ""
 
 #. type: Title ##
@@ -116,7 +117,8 @@ msgstr ""
 #: ../src/docs/guides/package_management/index.md:10
 #: ../src/docs/guides/proxies/pound.md:211
 #: ../src/docs/guides/proxies/pound.md:265 ../src/docs/release_notes/8_4.md:20
-msgid "!!! warning"
+#, no-wrap
+msgid "!!! warning\n"
 msgstr ""
 
 #. type: Title #
@@ -197,8 +199,8 @@ msgstr ""
 #: ../src/docs/guides/security/dnf_automatic.md:67
 #: ../src/docs/guides/security/firewalld.md:102
 #: ../src/docs/labs/sys_admin_1/lab7-software_management.md:115
-#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:368
-msgid "!!! tip"
+#, no-wrap
+msgid "!!! tip\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -301,7 +303,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:14
-msgid "!!! warning \"Pound Missing from EPEL-9\""
+#, no-wrap
+msgid "!!! warning \"Pound Missing from EPEL-9\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -312,87 +315,74 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:20
-msgid ""
-"Pound is a web server agnostic reverse proxy and load balancer that is very "
-"easy to setup and manage. It does not use a web service itself, but does "
-"listen on the web service ports (http, https)."
+#, no-wrap
+msgid "Pound is a web server agnostic reverse proxy and load balancer that is very easy to setup and manage. It does not use a web service itself, but does listen on the web service ports (http, https). \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:22
-msgid ""
-"Now, there are a lot of proxy server options, some referenced in these "
-"documentation pages. There is a document on using [HAProxy here]"
-"(haproxy_apache_lxd.md) and there have been references in other documents to "
-"using Nginx for a reverse proxy."
+#, no-wrap
+msgid "Now, there are a lot of proxy server options, some referenced in these documentation pages. There is a document on using [HAProxy here](haproxy_apache_lxd.md) and there have been references in other documents to using Nginx for a reverse proxy.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:24
-msgid ""
-"Load balancing services are quite useful for a busy web server environment. "
-"Many proxy servers, including the previously mentioned HAProxy, can be used "
-"for many service types."
+#, no-wrap
+msgid "Load balancing services are quite useful for a busy web server environment. Many proxy servers, including the previously mentioned HAProxy, can be used for many service types. \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:26
-msgid ""
-"In the case of Pound, it can only be used for web services, but it's good at "
-"what it does."
+#, no-wrap
+msgid "In the case of Pound, it can only be used for web services, but it's good at what it does.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:30
-msgid "The following are minimum requirements for using this procedure:"
+#, no-wrap
+msgid "The following are minimum requirements for using this procedure:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/proxies/pound.md:38
-msgid ""
-"A desire to load balance between a few websites, or a desire to learn a new "
-"tool do do the same."
+#, no-wrap
+msgid "A desire to load balance between a few websites, or a desire to learn a new tool do do the same.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/proxies/pound.md:38
-msgid ""
-"The ability to execute commands as the root user or use `sudo` to get there."
+#, no-wrap
+msgid "The ability to execute commands as the root user or use `sudo` to get there.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/proxies/pound.md:38
-msgid ""
-"Familiarity with a command-line editor. We are using `vi` or `vim` here, but "
-"feel free to substitute in your favorite editor."
+#, no-wrap
+msgid "Familiarity with a command-line editor. We are using `vi` or `vim` here, but feel free to substitute in your favorite editor.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/proxies/pound.md:38
-msgid "Comfort with changing the listen ports on a few types of web servers."
+#, no-wrap
+msgid "Comfort with changing the listen ports on a few types of web servers.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/proxies/pound.md:38
-msgid ""
-"We are assuming that both the Nginx and the Apache servers are already "
-"installed."
+#, no-wrap
+msgid "We are assuming that both the Nginx and the Apache servers are already installed.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/proxies/pound.md:38
-msgid ""
-"We are assuming that you are using Rocky Linux servers or containers for "
-"everything here."
+#, no-wrap
+msgid "We are assuming that you are using Rocky Linux servers or containers for everything here.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/proxies/pound.md:38
-msgid ""
-"While we make all kinds of statements regarding `https` below, this guide "
-"only deals with the `http` service. To properly do `https`, you'll need to "
-"configure your pound server with a real certificate from a real certificate "
-"authority."
+#, no-wrap
+msgid "While we make all kinds of statements regarding `https` below, this guide only deals with the `http` service. To properly do `https`, you'll need to configure your pound server with a real certificate from a real certificate authority.\n"
 msgstr ""
 
 #. type: Plain text
@@ -427,23 +417,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:56
-msgid ""
-"For this procedure, we are going to be using two web servers (known as back "
-"end servers), one running Nginx (192.168.1.111) and one running Apache "
-"(192.168.1.108)."
+#, no-wrap
+msgid "For this procedure, we are going to be using two web servers (known as back end servers), one running Nginx (192.168.1.111) and one running Apache (192.168.1.108). \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:58
-msgid "Our Pound server (192.168.1.103) will be considered the gateway."
+#, no-wrap
+msgid "Our Pound server (192.168.1.103) will be considered the gateway. \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:60
-msgid ""
-"We will be switching our listen ports on both of the back end servers to "
-"8080 for the Nginx server and 8081 for the Apache server. Everything will be "
-"detailed below as we go, so no need to worry about these for the moment."
+#, no-wrap
+msgid "We will be switching our listen ports on both of the back end servers to 8080 for the Nginx server and 8081 for the Apache server. Everything will be detailed below as we go, so no need to worry about these for the moment.\n"
 msgstr ""
 
 #. type: Plain text
@@ -460,9 +447,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:68
-msgid ""
-"To install Pound, we need to first install the EPEL (Extra Packages for "
-"Enterprise Linux) and run updates in case there is something new with EPEL:"
+#, no-wrap
+msgid "To install Pound, we need to first install the EPEL (Extra Packages for Enterprise Linux) and run updates in case there is something new with EPEL:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -473,7 +459,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:74
-msgid "Then just install Pound. (Yes, that's a capital \"P\"):"
+#, no-wrap
+msgid "Then just install Pound. (Yes, that's a capital \"P\"):\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -490,10 +477,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:82
-msgid ""
-"Now that the packages are installed we need to configure Pound. We will be "
-"using `vi` to update this, but if you prefer `nano` or something else, go "
-"ahead and substitute that in:"
+#, no-wrap
+msgid "Now that the packages are installed we need to configure Pound. We will be using `vi` to update this, but if you prefer `nano` or something else, go ahead and substitute that in:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -504,9 +489,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:88
-msgid ""
-"The file is set up with default information in it, which makes it easy to "
-"see most of the default components of Pound:"
+#, no-wrap
+msgid "The file is set up with default information in it, which makes it easy to see most of the default components of Pound:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -549,41 +533,32 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/proxies/pound.md:125
-msgid "The \"User\" and \"Group\" was taken care of when we did the install"
+#, no-wrap
+msgid "The \"User\" and \"Group\" was taken care of when we did the install\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/proxies/pound.md:125
-msgid "The \"Control\" file does not appear to be used anywhere."
+#, no-wrap
+msgid "The \"Control\" file does not appear to be used anywhere.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/proxies/pound.md:125
-msgid ""
-"The \"ListenHTTP\" section represents the service `http` (Port 80) and the "
-"\"Address\" that the proxy will listen on. We will change this to the actual "
-"IP of our Pound server."
+#, no-wrap
+msgid "The \"ListenHTTP\" section represents the service `http` (Port 80) and the \"Address\" that the proxy will listen on. We will change this to the actual IP of our Pound server.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/proxies/pound.md:125
-msgid ""
-"The \"ListenHTTPS\" section represents the service `https` (Port 443) and "
-"the \"Address\" that the proxy will listen on. As with the above, we will "
-"change this to the IP to that of the Pound server. The \"Cert\" option is "
-"the self-signed certificate provided by the Pound install process. You would "
-"want to replace this in a production environment with a real certificate "
-"using either one of these procedures: [Generating SSL Keys](../security/"
-"ssl_keys_https.md) or [SSL Keys with Let's Encrypt](../security/"
-"generating_ssl_keys_lets_encrypt.md)."
+#, no-wrap
+msgid "The \"ListenHTTPS\" section represents the service `https` (Port 443) and the \"Address\" that the proxy will listen on. As with the above, we will change this to the IP to that of the Pound server. The \"Cert\" option is the self-signed certificate provided by the Pound install process. You would want to replace this in a production environment with a real certificate using either one of these procedures: [Generating SSL Keys](../security/ssl_keys_https.md) or [SSL Keys with Let's Encrypt](../security/generating_ssl_keys_lets_encrypt.md).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/proxies/pound.md:125
-msgid ""
-"The \"Service\" section is where the \"BackEnd\" servers are configured "
-"along with their listening ports. You can have as many \"BackEnd\" servers "
-"as you need."
+#, no-wrap
+msgid "The \"Service\" section is where the \"BackEnd\" servers are configured along with their listening ports. You can have as many \"BackEnd\" servers as you need.\n"
 msgstr ""
 
 #. type: Title ###
@@ -594,23 +569,20 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/proxies/pound.md:130
-msgid ""
-"change the IP Address under both listen options to our Pound server IP, "
-"192.168.1.103"
+#, no-wrap
+msgid "change the IP Address under both listen options to our Pound server IP, 192.168.1.103\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/proxies/pound.md:130
-msgid ""
-"change the IP Addresses and ports under the \"BackEnd\" sections to match "
-"our configuration found in \"Conventions\" above (IPs and Ports)"
+#, no-wrap
+msgid "change the IP Addresses and ports under the \"BackEnd\" sections to match our configuration found in \"Conventions\" above (IPs and Ports)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:132
-msgid ""
-"When you are all done modifying the configuration you should have a changed "
-"file that looks something like this:"
+#, no-wrap
+msgid "When you are all done modifying the configuration you should have a changed file that looks something like this:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -653,10 +625,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:165
-msgid ""
-"Since we have set the listen port for Nginx in our Pound configuration to "
-"8080, we need to also make that change on our running Nginx server. We do "
-"this by modifying the `nginx.conf`:"
+#, no-wrap
+msgid "Since we have set the listen port for Nginx in our Pound configuration to 8080, we need to also make that change on our running Nginx server. We do this by modifying the `nginx.conf`:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -667,7 +637,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:171
-msgid "You just want to change the \"listen\" line to the new port number:"
+#, no-wrap
+msgid "You just want to change the \"listen\" line to the new port number:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -678,7 +649,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:177
-msgid "Save your changes and then restart the nginx service:"
+#, no-wrap
+msgid "Save your changes and then restart the nginx service:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -697,15 +669,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:185
-msgid ""
-"Since we have set the listen port for Apache in our Pound configuration to "
-"8081, we need to also make that change on our running Apache server. We do "
-"this by modifying the `httpd.conf`:"
+#, no-wrap
+msgid "Since we have set the listen port for Apache in our Pound configuration to 8081, we need to also make that change on our running Apache server. We do this by modifying the `httpd.conf`:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:191
-msgid "You want to change the \"Listen\" line to the new port number:"
+#, no-wrap
+msgid "You want to change the \"Listen\" line to the new port number:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -716,7 +687,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:197
-msgid "Save your changes and restart the httpd service:"
+#, no-wrap
+msgid "Save your changes and restart the httpd service:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -734,10 +706,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:205
-msgid ""
-"Once you have your web services up and running and listening on the right "
-"ports on each of our servers, the next step is to turn up the pound service "
-"on the Pound server:"
+#, no-wrap
+msgid "Once you have your web services up and running and listening on the right ports on each of our servers, the next step is to turn up the pound service on the Pound server:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -767,19 +737,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:223
-msgid ""
-"When you open your proxy server ip in a web browser you should be faced with "
-"one of these two screens:"
+#, no-wrap
+msgid "When you open your proxy server ip in a web browser you should be faced with one of these two screens:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:225
-msgid "![Pound Nginx](images/pound_nginx.jpg)"
+#, no-wrap
+msgid "![Pound Nginx](images/pound_nginx.jpg)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:227
-msgid "Or"
+#, no-wrap
+msgid "Or\n"
 msgstr ""
 
 #. type: Plain text
@@ -796,13 +767,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:233
-msgid ""
-"One thing that you may need to do when using a load balancer such as Pound, "
-"is to take the productions servers off-line for maintenance or to have a "
-"fall-back \"BackEnd\" for a complete outage. This is done with the "
-"\"Emergency\" declaration in the `pound.conf` file. You can only have one "
-"\"Emergency\" declaration per service. In our case, this would appear at the "
-"end of the \"Service\" section in our configuration file:"
+#, no-wrap
+msgid "One thing that you may need to do when using a load balancer such as Pound, is to take the productions servers off-line for maintenance or to have a fall-back \"BackEnd\" for a complete outage. This is done with the \"Emergency\" declaration in the `pound.conf` file. You can only have one \"Emergency\" declaration per service. In our case, this would appear at the end of the \"Service\" section in our configuration file:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -830,8 +796,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:255
-msgid ""
-"This server might only display a message that says, \"Down For Maintenance\"."
+#, no-wrap
+msgid "This server might only display a message that says, \"Down For Maintenance\".\n"
 msgstr ""
 
 #. type: Title ##
@@ -842,29 +808,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:259
-msgid ""
-"Something that most documents dealing with load balancing proxy servers will "
-"not deal with are the security issues. For instance, if this is a public "
-"facing web server, you will need to have the `http` and `https` services "
-"open to the world on the load balancing proxy. But what about the \"BackEnd"
-"\" servers?"
+#, no-wrap
+msgid "Something that most documents dealing with load balancing proxy servers will not deal with are the security issues. For instance, if this is a public facing web server, you will need to have the `http` and `https` services open to the world on the load balancing proxy. But what about the \"BackEnd\" servers? \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:261
-msgid ""
-"Those should only need to be accessed by their ports from the Pound server "
-"itself, but since the Pound server is redirecting to 8080 or 8081 on the "
-"BackEnd servers, and since the BackEnd servers have `http` listening on "
-"those subsequent ports, you can just use the service names for the firewall "
-"commands on those BackEnd servers."
+#, no-wrap
+msgid "Those should only need to be accessed by their ports from the Pound server itself, but since the Pound server is redirecting to 8080 or 8081 on the BackEnd servers, and since the BackEnd servers have `http` listening on those subsequent ports, you can just use the service names for the firewall commands on those BackEnd servers.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:263
-msgid ""
-"In this section we will deal with those concerns, and the `firewalld` "
-"commands needed to lock everything down."
+#, no-wrap
+msgid "In this section we will deal with those concerns, and the `firewalld` commands needed to lock everything down.\n"
 msgstr ""
 
 #. type: Plain text
@@ -887,28 +844,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:273
-msgid ""
-"For the Pound server, as noted above, we want to allow `http` and `https` "
-"from the world. You will need to consider whether `ssh` needs to be allowed "
-"from the world or not. If you are local to the server, this is probably "
-"**NOT** the case. We are assuming that the server here is available via your "
-"local network and that you have direct access to it, so we will be locking "
-"down `ssh` to our LAN IPs."
+#, no-wrap
+msgid "For the Pound server, as noted above, we want to allow `http` and `https` from the world. You will need to consider whether `ssh` needs to be allowed from the world or not. If you are local to the server, this is probably **NOT** the case. We are assuming that the server here is available via your local network and that you have direct access to it, so we will be locking down `ssh` to our LAN IPs.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:275
-msgid ""
-"To accomplish the above, we will use the built-in firewall for Rocky Linux, "
-"`firewalld` and the `firewall-cmd` command structure. For simplicity sake, "
-"we will also use two of the built-in zones, \"public\" and \"trusted\"."
+#, no-wrap
+msgid "To accomplish the above, we will use the built-in firewall for Rocky Linux, `firewalld` and the `firewall-cmd` command structure. For simplicity sake, we will also use two of the built-in zones, \"public\" and \"trusted\".\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:277
-msgid ""
-"Let's start by adding our source IPs to the \"trusted\" zone. This is our "
-"LAN here (in our example: 192.168.1.0/24):"
+#, no-wrap
+msgid "Let's start by adding our source IPs to the \"trusted\" zone. This is our LAN here (in our example: 192.168.1.0/24):\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -919,7 +868,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:283
-msgid "Then, let's add the `ssh` service to the zone:"
+#, no-wrap
+msgid "Then, let's add the `ssh` service to the zone:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -930,14 +880,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:289
-msgid "Once all of this is completed, reload the firewall with:"
+#, no-wrap
+msgid "Once all of this is completed, reload the firewall with:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:295
-msgid ""
-"And then list out the zone so that you can see everything with `firewall-cmd "
-"--zone=trusted --list-all` which should give you something like this:"
+#, no-wrap
+msgid "And then list out the zone so that you can see everything with `firewall-cmd --zone=trusted --list-all` which should give you something like this:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -963,10 +913,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:315
-msgid ""
-"Next we need to make changes to the \"public\" zone, which by default has "
-"the `ssh` service enabled. This needs to be carefully removed (again, we are "
-"assuming that you are **NOT** remote to the server here!) with the following:"
+#, no-wrap
+msgid "Next we need to make changes to the \"public\" zone, which by default has the `ssh` service enabled. This needs to be carefully removed (again, we are assuming that you are **NOT** remote to the server here!) with the following:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -977,7 +925,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:320
-msgid "We also need to add `http` and `https` services:"
+#, no-wrap
+msgid "We also need to add `http` and `https` services:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -989,14 +938,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:326
-msgid "Then we need to reload the firewall before you can see the changes:"
+#, no-wrap
+msgid "Then we need to reload the firewall before you can see the changes:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:332
-msgid ""
-"And then list out the public zone with `firewall-cmd --zone=public --list-"
-"all` which should show you something like this:"
+#, no-wrap
+msgid "And then list out the public zone with `firewall-cmd --zone=public --list-all` which should show you something like this:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1021,9 +970,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:351
-msgid ""
-"Within our lab environment, those are the only changes we need to make to "
-"our pound server load balancer."
+#, no-wrap
+msgid "Within our lab environment, those are the only changes we need to make to our pound server load balancer.\n"
 msgstr ""
 
 #. type: Title ###
@@ -1034,33 +982,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:355
-msgid ""
-"For the \"BackEnd\" servers, we do not need to allow access from the world "
-"for anything and definitely not for our listen ports that the load balancer "
-"will be using. We will need to allow `ssh` from the LAN IPs, and `http` and "
-"`https` from our pound load balancer."
+#, no-wrap
+msgid "For the \"BackEnd\" servers, we do not need to allow access from the world for anything and definitely not for our listen ports that the load balancer will be using. We will need to allow `ssh` from the LAN IPs, and `http` and `https` from our pound load balancer. \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:357
-msgid "That's pretty much it."
+#, no-wrap
+msgid "That's pretty much it. \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:359
-msgid ""
-"Again, we are going to add the `ssh` service to our \"trusted\" zone, with "
-"the essentially the same commands we used for our pound server. Then we are "
-"going to add a zone called \"balance\" that we will use for the remaining "
-"`http` and `https`, and set the source IPs to that of the load balancer. Are "
-"you having fun yet?"
+#, no-wrap
+msgid "Again, we are going to add the `ssh` service to our \"trusted\" zone, with the essentially the same commands we used for our pound server. Then we are going to add a zone called \"balance\" that we will use for the remaining `http` and `https`, and set the source IPs to that of the load balancer. Are you having fun yet?\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:361
-msgid ""
-"To be quick, let's use all of those commands that we used for the \"trusted"
-"\" zone in a single set of commands:"
+#, no-wrap
+msgid "To be quick, let's use all of those commands that we used for the \"trusted\" zone in a single set of commands:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1075,15 +1016,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:370
-msgid "After, the \"trusted\" zone should look like this:"
+#, no-wrap
+msgid "After, the \"trusted\" zone should look like this:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:389
-msgid ""
-"Again, test your `ssh` rule from an IP on the LAN, and then remove the `ssh` "
-"service from the \"public\" zone. **Remember our warning from above, and do "
-"this only if you have local access to the server!**"
+#, no-wrap
+msgid "Again, test your `ssh` rule from an IP on the LAN, and then remove the `ssh` service from the \"public\" zone. **Remember our warning from above, and do this only if you have local access to the server!**\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1097,7 +1037,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:397
-msgid "The public zone should now look like this:"
+#, no-wrap
+msgid "The public zone should now look like this:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1122,10 +1063,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:416
-msgid ""
-"Now let's add that new zone to deal with `http` and `https`. Remember that "
-"the source IP here needs to only be our load balancer (in our example: "
-"192.168.1.103):"
+#, no-wrap
+msgid "Now let's add that new zone to deal with `http` and `https`. Remember that the source IP here needs to only be our load balancer (in our example: 192.168.1.103):\n"
 msgstr ""
 
 #. type: Plain text
@@ -1149,7 +1088,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:432
-msgid "The result:"
+#, no-wrap
+msgid "The result:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1174,14 +1114,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:451
-msgid "Now repeat those steps on the other web server back end."
+#, no-wrap
+msgid "Now repeat those steps on the other web server back end.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:453
-msgid ""
-"Once you have your firewall rules added to everything, test your pound "
-"server again from your workstation browser."
+#, no-wrap
+msgid "Once you have your firewall rules added to everything, test your pound server again from your workstation browser.\n"
 msgstr ""
 
 #. type: Title ##
@@ -1193,40 +1133,30 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:457
-msgid ""
-"There are a *LOT* of options that can be included in your `pound.conf` file, "
-"including error message directives, logging options, time out values, etc. "
-"You can find more on what is available by [looking here.](https://linux.die."
-"net/man/8/pound)"
+#, no-wrap
+msgid "There are a *LOT* of options that can be included in your `pound.conf` file, including error message directives, logging options, time out values, etc. You can find more on what is available by [looking here.](https://linux.die.net/man/8/pound)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:459
-msgid ""
-"Conveniently, Pound automatically figures out if one of the \"BackEnd\" "
-"servers is off-line and disables it so that web services can continue "
-"without delay. It also automatically sees them again when they are back on-"
-"line."
+#, no-wrap
+msgid "Conveniently, Pound automatically figures out if one of the \"BackEnd\" servers is off-line and disables it so that web services can continue without delay. It also automatically sees them again when they are back on-line.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:463
-msgid ""
-"Pound offers another option for those who do not want to use HAProxy or "
-"Nginx as for load balancing."
+#, no-wrap
+msgid "Pound offers another option for those who do not want to use HAProxy or Nginx as for load balancing. \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:465
-msgid ""
-"Pound as a load balancing server is very easy to install, set up and use. As "
-"noted here, Pound can also be used as a reverse proxy, and there are a lot "
-"of proxy and load balancing options available."
+#, no-wrap
+msgid "Pound as a load balancing server is very easy to install, set up and use. As noted here, Pound can also be used as a reverse proxy, and there are a lot of proxy and load balancing options available. \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/pound.md:466
-msgid ""
-"And you should always remember to keep security in mind when setting up any "
-"service, including a load-balancing proxy server."
+#, no-wrap
+msgid "And you should always remember to keep security in mind when setting up any service, including a load-balancing proxy server.\n"
 msgstr ""

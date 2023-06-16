@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -162,7 +162,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -189,7 +188,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Plain text
@@ -204,9 +204,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/01-basic.md:506
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:430
-msgid ""
-"Collections are a distribution format for Ansible content that can include "
-"playbooks, roles, modules, and plugins."
+#, no-wrap
+msgid "Collections are a distribution format for Ansible content that can include playbooks, roles, modules, and plugins.\n"
 msgstr ""
 
 #. type: YAML Front Matter: title
@@ -223,9 +222,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:8
-msgid ""
-"In this chapter you will learn how to use, install, and manage Ansible roles "
-"and collections."
+#, no-wrap
+msgid "In this chapter you will learn how to use, install, and manage Ansible roles and collections.\n"
 msgstr ""
 
 #. type: Plain text
@@ -238,8 +236,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:17
-msgid ""
-":checkered_flag: **ansible**, **ansible-galaxy**, **roles**, **collections**"
+#, no-wrap
+msgid ":checkered_flag: **ansible**, **ansible-galaxy**, **roles**, **collections**\n"
 msgstr ""
 
 #. type: Plain text
@@ -253,16 +251,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:26
-msgid ""
-"[Ansible Galaxy](https://galaxy.ansible.com) provides Ansible Roles and "
-"Collections from the Ansible Community."
+#, no-wrap
+msgid "[Ansible Galaxy](https://galaxy.ansible.com) provides Ansible Roles and Collections from the Ansible Community.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:28
-msgid ""
-"The elements provided can be referenced in the playbooks and used out of the "
-"box"
+#, no-wrap
+msgid "The elements provided can be referenced in the playbooks and used out of the box\n"
 msgstr ""
 
 #. type: Title ##
@@ -273,14 +269,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:32
-msgid ""
-"The `ansible-galaxy` command manages roles and collections using [galaxy."
-"ansible.com](http://galaxy.ansible.com)."
+#, no-wrap
+msgid "The `ansible-galaxy` command manages roles and collections using [galaxy.ansible.com](http://galaxy.ansible.com).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:34
-msgid "To manage roles:"
+#, no-wrap
+msgid "To manage roles:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -305,7 +301,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:49
-msgid "To manage collections:"
+#, no-wrap
+msgid "To manage collections:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -333,7 +330,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:63
-msgid "An Ansible role is a unit that promotes the reusability of playbooks."
+#, no-wrap
+msgid "An Ansible role is a unit that promotes the reusability of playbooks.\n"
 msgstr ""
 
 #. type: Plain text
@@ -350,23 +348,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:71
-msgid ""
-"In order to highlight the interest of using roles, I suggest you to use the "
-"`alemorvan/patchmanagement` role, which will allow you to perform a lot of "
-"tasks (pre-update or post-update for example) during your update process, in "
-"only a few lines of code."
+#, no-wrap
+msgid "In order to highlight the interest of using roles, I suggest you to use the `alemorvan/patchmanagement` role, which will allow you to perform a lot of tasks (pre-update or post-update for example) during your update process, in only a few lines of code.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:73
-msgid ""
-"You can check the code in the github repo of the role [here](https://github."
-"com/alemorvan/patchmanagement)."
+#, no-wrap
+msgid "You can check the code in the github repo of the role [here](https://github.com/alemorvan/patchmanagement).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:75
-msgid "Install the role. This needs only one command:"
+#, no-wrap
+msgid "Install the role. This needs only one command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -377,7 +372,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:81
-msgid "Create a playbook to include the role:"
+#, no-wrap
+msgid "Create a playbook to include the role:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -398,20 +394,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:96
-msgid ""
-"With this role, you can add your own tasks for all your inventory or for "
-"only your targeted node."
+#, no-wrap
+msgid "With this role, you can add your own tasks for all your inventory or for only your targeted node.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:98
-msgid ""
-"Let's create tasks that will be run before and after the update process:"
+#, no-wrap
+msgid "Let's create tasks that will be run before and after the update process:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:100
-msgid "Create the `custom_tasks` folder:"
+#, no-wrap
+msgid "Create the `custom_tasks` folder:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -422,9 +418,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:106
-msgid ""
-"Create the `custom_tasks/pm_before_update_tasks_file.yml` (feel free to "
-"change the name and the content of this file)"
+#, no-wrap
+msgid "Create the `custom_tasks/pm_before_update_tasks_file.yml` (feel free to change the name and the content of this file)\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -439,9 +434,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:115
-msgid ""
-"Create the `custom_tasks/pm_after_update_tasks_file.yml` (feel free to "
-"change the name and the content of this file)"
+#, no-wrap
+msgid "Create the `custom_tasks/pm_after_update_tasks_file.yml` (feel free to change the name and the content of this file)\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -456,7 +450,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:124
-msgid "And launch your first Patch Management:"
+#, no-wrap
+msgid "And launch your first Patch Management:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -542,23 +537,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:204
-msgid "Pretty easy for such a complex process, isn't it?"
+#, no-wrap
+msgid "Pretty easy for such a complex process, isn't it?\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:206
-msgid ""
-"This is just one example of what can be done using roles made available by "
-"the community. Have a look at [galaxy.ansible.com](https://galaxy.ansible."
-"com/) to discover the roles that could be useful for you!"
+#, no-wrap
+msgid "This is just one example of what can be done using roles made available by the community. Have a look at [galaxy.ansible.com](https://galaxy.ansible.com/) to discover the roles that could be useful for you!\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:208
-msgid ""
-"You can also create your own roles for your own needs and publish them on "
-"the Internet if you feel like it. This is what we will briefly cover in the "
-"next chapter."
+#, no-wrap
+msgid "You can also create your own roles for your own needs and publish them on the Internet if you feel like it. This is what we will briefly cover in the next chapter.\n"
 msgstr ""
 
 #. type: Title ###
@@ -569,9 +561,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:212
-msgid ""
-"A role skeleton, serving as a starting point for custom role development, "
-"can be generated by the `ansible-galaxy` command:"
+#, no-wrap
+msgid "A role skeleton, serving as a starting point for custom role development, can be generated by the `ansible-galaxy` command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -584,9 +575,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:219
-msgid ""
-"The command will generate the following tree structure to contain the "
-"`rocky8` role:"
+#, no-wrap
+msgid "The command will generate the following tree structure to contain the `rocky8` role:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -617,45 +607,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:244
-msgid ""
-"Roles allow you to do away with the need to include files. There is no need "
-"to specify file paths or `include` directives in playbooks. You just have to "
-"specify a task, and Ansible takes care of the inclusions."
+#, no-wrap
+msgid "Roles allow you to do away with the need to include files. There is no need to specify file paths or `include` directives in playbooks. You just have to specify a task, and Ansible takes care of the inclusions.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:246
-msgid "The structure of a role is fairly obvious to understand."
+#, no-wrap
+msgid "The structure of a role is fairly obvious to understand.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:248
-msgid ""
-"Variables are simply stored either in `vars/main.yml` if the variables are "
-"not to be overridden, or in `default/main.yml` if you want to leave the "
-"possibility of overriding the variable content from outside your role."
+#, no-wrap
+msgid "Variables are simply stored either in `vars/main.yml` if the variables are not to be overridden, or in `default/main.yml` if you want to leave the possibility of overriding the variable content from outside your role.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:250
-msgid ""
-"The handlers, files, and templates needed for your code are stored in "
-"`handlers/main.yml`, `files` and `templates` respectively."
+#, no-wrap
+msgid "The handlers, files, and templates needed for your code are stored in `handlers/main.yml`, `files` and `templates` respectively.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:252
-msgid ""
-"All that remains is to define the code for your role's tasks in `tasks/main."
-"yml`."
+#, no-wrap
+msgid "All that remains is to define the code for your role's tasks in `tasks/main.yml`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:254
-msgid ""
-"Once all this is working well, you can use this role in your playbooks. You "
-"will be able to use your role without worrying about the technical aspect of "
-"its tasks, while customizing its operation with variables."
+#, no-wrap
+msgid "Once all this is working well, you can use this role in your playbooks. You will be able to use your role without worrying about the technical aspect of its tasks, while customizing its operation with variables.\n"
 msgstr ""
 
 #. type: Title ###
@@ -666,10 +649,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:258
-msgid ""
-"Let's implement this with a \"go anywhere\" role that will create a default "
-"user and install software packages. This role can be systematically applied "
-"to all your servers."
+#, no-wrap
+msgid "Let's implement this with a \"go anywhere\" role that will create a default user and install software packages. This role can be systematically applied to all your servers.\n"
 msgstr ""
 
 #. type: Title ####
@@ -680,9 +661,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:262
-msgid ""
-"We will create a `rockstar` user on all of our servers. As we don't want "
-"this user to be overridden, let's define it in the `vars/main.yml`:"
+#, no-wrap
+msgid "We will create a `rockstar` user on all of our servers. As we don't want this user to be overridden, let's define it in the `vars/main.yml`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -701,9 +681,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:275
-msgid ""
-"We can now use those variables inside our `tasks/main.yml` without any "
-"inclusion."
+#, no-wrap
+msgid "We can now use those variables inside our `tasks/main.yml` without any inclusion.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -725,9 +704,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:291
-msgid ""
-"To test your new role, let's create a `test-role.yml` playbook in the same "
-"directory as your role:"
+#, no-wrap
+msgid "To test your new role, let's create a `test-role.yml` playbook in the same directory as your role:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -747,7 +725,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:305
-msgid "and launch it:"
+#, no-wrap
+msgid "and launch it:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -773,22 +752,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:325
-msgid ""
-"Congratulations! You are now able to create great things with a playbook of "
-"only a few lines."
+#, no-wrap
+msgid "Congratulations! You are now able to create great things with a playbook of only a few lines.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:327
-msgid "Let's see the use of default variables."
+#, no-wrap
+msgid "Let's see the use of default variables.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:329
-msgid ""
-"Create a list of packages to install by default on your servers and an empty "
-"list of packages to uninstall. Edit the `defaults/main.yml` files and add "
-"those two lists:"
+#, no-wrap
+msgid "Create a list of packages to install by default on your servers and an empty list of packages to uninstall. Edit the `defaults/main.yml` files and add those two lists:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -803,7 +780,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:338
-msgid "and use them in your `tasks/main.yml`:"
+#, no-wrap
+msgid "and use them in your `tasks/main.yml`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -823,7 +801,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:352
-msgid "Test your role with the help of the playbook previously created:"
+#, no-wrap
+msgid "Test your role with the help of the playbook previously created:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -855,9 +834,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:378
-msgid ""
-"You can now override the `rocky8_remove_packages` in your playbook and "
-"uninstall for example `cockpit`:"
+#, no-wrap
+msgid "You can now override the `rocky8_remove_packages` in your playbook and uninstall for example `cockpit`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -907,13 +885,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:419
-msgid ""
-"Obviously, there is no limit to how much you can improve your role. Imagine "
-"that for one of your servers, you need a package that is in the list of "
-"those to be uninstalled. You could then, for example, create a new list that "
-"can be overridden and then remove from the list of packages to be "
-"uninstalled those in the list of specific packages to be installed by using "
-"the jinja `difference()` filter."
+#, no-wrap
+msgid "Obviously, there is no limit to how much you can improve your role. Imagine that for one of your servers, you need a package that is in the list of those to be uninstalled. You could then, for example, create a new list that can be overridden and then remove from the list of packages to be uninstalled those in the list of specific packages to be installed by using the jinja `difference()` filter.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -940,7 +913,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:436
-msgid "To install or upgrade a collection:"
+#, no-wrap
+msgid "To install or upgrade a collection:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -951,9 +925,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:442
-msgid ""
-"You can then use the newly installed collection using its namespace and name "
-"before the module's name or role's name:"
+#, no-wrap
+msgid "You can then use the newly installed collection using its namespace and name before the module's name or role's name:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -969,14 +942,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:452
-msgid ""
-"You can find a collection index [here](https://docs.ansible.com/ansible/"
-"latest/collections/index.html)."
+#, no-wrap
+msgid "You can find a collection index [here](https://docs.ansible.com/ansible/latest/collections/index.html).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:454
-msgid "Let's install the `community.general` collection:"
+#, no-wrap
+msgid "Let's install the `community.general` collection:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -994,14 +967,19 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:466
-msgid "We can now use the newly available module `yum_versionlock`:"
+#, no-wrap
+msgid "We can now use the newly available module `yum_versionlock`:\n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:467
+#, no-wrap
 msgid ""
-"name: Start a Patch Management hosts: ansible_clients become: true "
-"become_user: root tasks:"
+"name: Start a Patch Management\n"
+"hosts: ansible_clients\n"
+"become: true\n"
+"become_user: root\n"
+"tasks:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1062,9 +1040,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:519
-msgid ""
-"As with roles, you are able to create your own collection with the help of "
-"the `ansible-galaxy` command:"
+#, no-wrap
+msgid "As with roles, you are able to create your own collection with the help of the `ansible-galaxy` command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1091,6 +1068,6 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:536
-msgid ""
-"You can then store your own plugins or roles inside this new collection."
+#, no-wrap
+msgid "You can then store your own plugins or roles inside this new collection.\n"
 msgstr ""

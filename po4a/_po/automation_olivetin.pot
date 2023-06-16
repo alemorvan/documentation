@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -142,7 +142,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -169,7 +168,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Title ##
@@ -369,7 +369,8 @@ msgstr ""
 #: ../src/docs/guides/automation/cron_jobs_howto.md:18
 #: ../src/docs/guides/automation/olivetin.md:38
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:25
-msgid "A computer running Rocky Linux"
+#, no-wrap
+msgid "A computer running Rocky Linux\n"
 msgstr ""
 
 #. type: YAML Front Matter: tags
@@ -399,43 +400,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/olivetin.md:17
-msgid ""
-"Have you ever gotten tired of typing in the same CLI commands over and over "
-"again? Have you ever wanted everyone else in your house to be able to "
-"restart the Plex server without your intervention? Do you want to just type "
-"in a name in a web panel, push a button, and watch a customized Docker/LXD "
-"container magically appear?"
+#, no-wrap
+msgid "Have you ever gotten tired of typing in the same CLI commands over and over again? Have you ever wanted everyone else in your house to be able to restart the Plex server without your intervention? Do you want to just type in a name in a web panel, push a button, and watch a customized Docker/LXD container magically appear?\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/olivetin.md:19
-msgid ""
-"Then you might want to check out OliveTin. OliveTin is literally just an app "
-"that lets you generate a web page from a configuration file, and that web "
-"page has buttons. Push the buttons, and OliveTin will run preset bash "
-"commands that you set up yourself."
+#, no-wrap
+msgid "Then you might want to check out OliveTin. OliveTin is literally just an app that lets you generate a web page from a configuration file, and that web page has buttons. Push the buttons, and OliveTin will run preset bash commands that you set up yourself.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/olivetin.md:21
-msgid ""
-"Sure, you could technically create something like this yourself, from "
-"scratch, with enough programming experience... but this is *way* easier. It "
-"looks a little something like this when set up (image courtesy of the "
-"[OliveTin repository](https://github.com/OliveTin/OliveTin)):"
+#, no-wrap
+msgid "Sure, you could technically create something like this yourself, from scratch, with enough programming experience... but this is *way* easier. It looks a little something like this when set up (image courtesy of the [OliveTin repository](https://github.com/OliveTin/OliveTin)):\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/olivetin.md:23
-msgid ""
-"![A screenshot of OliveTin on the desktop; it features several squares in a "
-"grid, with labels and actions for each command that can be run.](olivetin/"
-"screenshotDesktop.png)"
+#, no-wrap
+msgid "![A screenshot of OliveTin on the desktop; it features several squares in a grid, with labels and actions for each command that can be run.](olivetin/screenshotDesktop.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/olivetin.md:25
-msgid "!!! Warning \"NEVER run this app on a public server\""
+#, no-wrap
+msgid "!!! Warning \"NEVER run this app on a public server\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -458,24 +448,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/olivetin.md:33
-msgid "To follow this guide you will need:"
+#, no-wrap
+msgid "To follow this guide you will need:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/olivetin.md:38
-msgid "A minimal amount of comfort or experience with the command line."
+#, no-wrap
+msgid "A minimal amount of comfort or experience with the command line.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/olivetin.md:38
-msgid "Root access, or the ability to use `sudo`."
+#, no-wrap
+msgid "Root access, or  the ability to use `sudo`.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/olivetin.md:38
-msgid ""
-"To learn the basics of YAML. It is not hard; you'll get the hang of it down "
-"below."
+#, no-wrap
+msgid "To learn the basics of YAML. It is not hard; you'll get the hang of it down below.\n"
 msgstr ""
 
 #. type: Title ##
@@ -486,24 +478,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/olivetin.md:42
-msgid ""
-"OliveTin includes pre-built RPMs. Just download the latest release here for "
-"your architecture, and install it. If you're following this guide on a "
-"workstation with a graphical desktop, just download the file and double "
-"click on it in your file manager of choice."
+#, no-wrap
+msgid "OliveTin includes pre-built RPMs. Just download the latest release here for your architecture, and install it. If you're following this guide on a workstation with a graphical desktop, just download the file and double click on it in your file manager of choice.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/olivetin.md:44
-msgid ""
-"If you're installing this app on a server, then you can download it on your "
-"work machine and upload it via SSH/SCP/SFTP, or do the thing some people say "
-"not to do, and download it with `wget`."
+#, no-wrap
+msgid "If you're installing this app on a server, then you can download it on your work machine and upload it via SSH/SCP/SFTP, or do the thing some people say not to do, and download it with `wget`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/olivetin.md:46
-msgid "e.g."
+#, no-wrap
+msgid "e.g.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -514,7 +502,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/olivetin.md:52
-msgid "Then install the app with (again, for example):"
+#, no-wrap
+msgid "Then install the app with (again, for example):\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -525,9 +514,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/olivetin.md:58
-msgid ""
-"OliveTin can run as a normal `systemd` service, but do not enable it just "
-"yet. You need to set up your configuration file first."
+#, no-wrap
+msgid "OliveTin can run as a normal `systemd` service, but do not enable it just yet. You need to set up your configuration file first.\n"
 msgstr ""
 
 #. type: Plain text
@@ -544,11 +532,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/olivetin.md:66
-msgid ""
-"OliveTin can do anything bash can do, and more. You can use it to run apps "
-"with CLI options, run bash scripts, restart services, and so on. To get "
-"started, open up the configuration file with the text editor of your choice "
-"with root/sudo:"
+#, no-wrap
+msgid "OliveTin can do anything bash can do, and more. You can use it to run apps with CLI options, run bash scripts, restart services, and so on. To get started, open up the configuration file with the text editor of your choice with root/sudo:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -559,9 +544,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/olivetin.md:72
-msgid ""
-"The most basic kind of action is a button; you click it, and the command is "
-"run on the host computer. You can define it in the YAML file like so:"
+#, no-wrap
+msgid "The most basic kind of action is a button; you click it, and the command is run on the host computer. You can define it in the YAML file like so:\n"
 msgstr ""
 
 #. type: Fenced code block (yaml)
@@ -575,7 +559,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/olivetin.md:80
-msgid "You can also add custom icons to every action like with unicode emoji:"
+#, no-wrap
+msgid "You can also add custom icons to every action like with unicode emoji:\n"
 msgstr ""
 
 #. type: Fenced code block (yaml)
@@ -590,27 +575,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/olivetin.md:89
-msgid ""
-"I'm not going to go into every detail of the customization options, but you "
-"can also use text inputs and dropdown menus to add variables and options to "
-"the commands you want to run. If you do, OliveTin will prompt you for input "
-"before the command is run."
+#, no-wrap
+msgid "I'm not going to go into every detail of the customization options, but you can also use text inputs and dropdown menus to add variables and options to the commands you want to run. If you do, OliveTin will prompt you for input before the command is run.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/olivetin.md:91
-msgid ""
-"Doing this, you can run any program, control remote machines with SSH, "
-"trigger webhooks, and more. Check out [the official documentation](https://"
-"docs.olivetin.app/actions.html) for more ideas."
+#, no-wrap
+msgid "Doing this, you can run any program, control remote machines with SSH, trigger webhooks, and more. Check out [the official documentation](https://docs.olivetin.app/actions.html) for more ideas.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/olivetin.md:93
-msgid ""
-"But here's an example of my own: I have a personal script that I use to "
-"generate LXD containers with web servers pre-installed on them. With "
-"OliveTin, I was able to quickly make a GUI for said script like this:"
+#, no-wrap
+msgid "But here's an example of my own: I have a personal script that I use to generate LXD containers with web servers pre-installed on them. With OliveTin, I was able to quickly make a GUI for said script like this:\n"
 msgstr ""
 
 #. type: Fenced code block (yaml)
@@ -648,16 +626,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/olivetin.md:125
-msgid ""
-"On the front end, that looks like this (and yes, OliveTin has a dark mode, "
-"and I *really* need to change that icon):"
+#, no-wrap
+msgid "On the front end, that looks like this (and yes, OliveTin has a dark mode, and I *really* need to change that icon):\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/olivetin.md:127
-msgid ""
-"![A form with three text inputs and a dropdown menu](olivetin/"
-"containeraction.png)"
+#, no-wrap
+msgid "![A form with three text inputs and a dropdown menu](olivetin/containeraction.png)\n"
 msgstr ""
 
 #. type: Title ##
@@ -668,9 +644,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/olivetin.md:131
-msgid ""
-"Once you have your configuration file built the way you want it, just enable "
-"and start OliveTin with:"
+#, no-wrap
+msgid "Once you have your configuration file built the way you want it, just enable and start OliveTin with:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -681,9 +656,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/olivetin.md:137
-msgid ""
-"Every time you edit the configuration file, you'll need to restart the "
-"service in the usual way:"
+#, no-wrap
+msgid "Every time you edit the configuration file, you'll need to restart the service in the usual way:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -694,29 +668,24 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/olivetin.md:145
-msgid ""
-"OliveTin is a pretty great way to run everything from a bash commands to "
-"some fairly complex operations with scripts. Remember, that everything runs "
-"as root by default, unless you use su/sudo in your shell commands to change "
-"the user for that particular command."
+#, no-wrap
+msgid "OliveTin is a pretty great way to run everything from a bash commands to some fairly complex operations with scripts. Remember, that everything runs as root by default, unless you use su/sudo in your shell commands to change the user for that particular command.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/olivetin.md:147
-msgid ""
-"As such, you should be careful how you set this whole thing up, especially "
-"if you plan to give access to (for example) your family, to control home "
-"servers and appliances, and so on."
+#, no-wrap
+msgid "As such, you should be careful how you set this whole thing up, especially if you plan to give access to (for example) your family, to control home servers and appliances, and so on.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/olivetin.md:149
-msgid ""
-"And again, do not put this on a public server unless you're ready to try and "
-"secure the page yourself."
+#, no-wrap
+msgid "And again, do not put this on a public server unless you're ready to try and secure the page yourself.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/olivetin.md:150
-msgid "Otherwise, have fun with it. It is a neat little tool."
+#, no-wrap
+msgid "Otherwise, have fun with it. It is a neat little tool.\n"
 msgstr ""

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -143,7 +143,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -170,7 +169,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Title ##
@@ -289,35 +289,44 @@ msgstr ""
 msgid "Active Directory Authentication"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:12
-msgid "- Some understanding of Active Directory - Some understanding of LDAP"
+#, no-wrap
+msgid "Some understanding of Active Directory\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:12
+#, no-wrap
+msgid "Some understanding of LDAP\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:19
+#, no-wrap
 msgid ""
-"Microsoft's Active Directory (AD) is, in most enterprises, the de facto "
-"authentication system for Windows systems and for external, LDAP-connected "
-"services. It allows you to configure users and groups, access control, "
-"permissions, auto-mounting, and more."
+"Microsoft's Active Directory (AD) is, in most enterprises, the de facto\n"
+"authentication system for Windows systems and for external, LDAP-connected\n"
+"services. It allows you to configure users and groups, access control,\n"
+"permissions, auto-mounting, and more.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:24
+#, no-wrap
 msgid ""
-"Now, while connecting Linux to an AD cluster cannot support _all_ of the "
-"features mentioned, it can handle users, groups, and access control. It is "
-"even possible (through some configuration tweaks on the Linux side and some "
-"advanced options on the AD side) to distribute SSH keys using AD."
+"Now, while connecting Linux to an AD cluster cannot support _all_ of the\n"
+"features mentioned, it can handle users, groups, and access control. It is even\n"
+"possible (through some configuration tweaks on the Linux side and some advanced\n"
+"options on the AD side) to distribute SSH keys using AD.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:27
+#, no-wrap
 msgid ""
-"This guide, however, will just cover configuring authentication against "
-"Active Directory, and will not include any extra configuration on the "
-"Windows side."
+"This guide, however, will just cover configuring authentication against Active\n"
+"Directory, and will not include any extra configuration on the Windows side.\n"
 msgstr ""
 
 #. type: Title ##
@@ -337,10 +346,10 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:38
+#, no-wrap
 msgid ""
-"The first step along the way to join a Linux system into AD is to discover "
-"your AD cluster, to ensure that the network configuration is correct on both "
-"sides."
+"The first step along the way to join a Linux system into AD is to discover your\n"
+"AD cluster, to ensure that the network configuration is correct on both sides.\n"
 msgstr ""
 
 #. type: Title ###
@@ -351,9 +360,10 @@ msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:43
+#, no-wrap
 msgid ""
-"Ensure the following ports are open to your Linux host on your domain "
-"controller:"
+"Ensure the following ports are open to your Linux host on your domain\n"
+"controller:\n"
 msgstr ""
 
 #. type: Plain text
@@ -370,9 +380,10 @@ msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:53
+#, no-wrap
 msgid ""
-"Ensure you have configured your AD domain controller as a DNS server on your "
-"Rocky Linux host:"
+"Ensure you have configured your AD domain controller as a DNS server on your\n"
+"Rocky Linux host:\n"
 msgstr ""
 
 #. type: Plain text
@@ -390,11 +401,10 @@ msgid ""
 "  [root@host ~]$ nmcli con mod 'System eth0' ipv4.dns 10.0.0.2\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:62
-msgid ""
-"- Ensure that the time on both sides (AD host and Linux system) is "
-"synchronized (see chronyd)"
+#, no-wrap
+msgid "Ensure that the time on both sides (AD host and Linux system) is synchronized (see chronyd)\n"
 msgstr ""
 
 #. type: Plain text
@@ -411,9 +421,10 @@ msgid ""
 "  Wed 22 Sep 17:11:35 BST 2021\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:70
-msgid "- Install the required packages for AD connection on the Linux side:"
+#, no-wrap
+msgid "Install the required packages for AD connection on the Linux side:\n"
 msgstr ""
 
 #. type: Fenced code block (sh)
@@ -430,9 +441,10 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:80
+#, no-wrap
 msgid ""
-"Now, you should be able to successfully discover your AD server(s) from your "
-"Linux host."
+"Now, you should be able to successfully discover your AD server(s) from your\n"
+"Linux host.\n"
 msgstr ""
 
 #. type: Fenced code block (sh)
@@ -456,9 +468,10 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:99
+#, no-wrap
 msgid ""
-"This will be discovered using the relevant SRV records stored in your Active "
-"Directory DNS service."
+"This will be discovered using the relevant SRV records stored in your Active\n"
+"Directory DNS service.\n"
 msgstr ""
 
 #. type: Title ###
@@ -469,11 +482,12 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:106
+#, no-wrap
 msgid ""
-"Once you have successfully discovered your Active Directory installation "
-"from the Linux host, you should be able to use `realmd` to join the domain, "
-"which will orchestrate the configuration of `sssd` using `adcli` and some "
-"other such tools."
+"Once you have successfully discovered your Active Directory installation from\n"
+"the Linux host, you should be able to use `realmd` to join the domain, which\n"
+"will orchestrate the configuration of `sssd` using `adcli` and some other such\n"
+"tools.\n"
 msgstr ""
 
 #. type: Fenced code block (sh)
@@ -484,10 +498,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:112
-msgid ""
-"If this process complains about encryption with `KDC has no support for "
-"encryption type`, try updating the global crypto policy to allow older "
-"encryption algorithms:"
+#, no-wrap
+msgid "If this process complains about encryption with `KDC has no support for encryption type`, try updating the global crypto policy to allow older encryption algorithms:\n"
 msgstr ""
 
 #. type: Fenced code block (sh)
@@ -498,9 +510,10 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:119
+#, no-wrap
 msgid ""
-"If this process succeeds, you should now be able to pull `passwd` "
-"information for an Active Directory user."
+"If this process succeeds, you should now be able to pull `passwd` information\n"
+"for an Active Directory user.\n"
 msgstr ""
 
 #. type: Fenced code block (sh)
@@ -512,6 +525,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
+#, no-wrap
+msgid "!!! Note \n"
+msgstr ""
+
+#. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:128
 #, no-wrap
 msgid "    `getent` get entries from Name Service Switch libraries (NSS). It means that, contrary to `passwd` or `dig` for example, it will query different databases, including `/etc/hosts` for `getent hosts` or from `sssd` in the `getent passwd` case.\n"
@@ -519,7 +538,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:130
-msgid "`realm` provides some interesting options that you can use:"
+#, no-wrap
+msgid "`realm` provides some interesting options that you can use:\n"
 msgstr ""
 
 #. type: Plain text
@@ -542,9 +562,10 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:142
+#, no-wrap
 msgid ""
-"Now your users should be able to authenticate to your Linux host against "
-"Active Directory."
+"Now your users should be able to authenticate to your Linux host against Active\n"
+"Directory.\n"
 msgstr ""
 
 #. type: Plain text
@@ -568,9 +589,10 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:157
+#, no-wrap
 msgid ""
-"If this succeeds, you have successfully configured Linux to use Active "
-"Directory as an authentication source."
+"If this succeeds, you have successfully configured Linux to use Active\n"
+"Directory as an authentication source.\n"
 msgstr ""
 
 #. type: Title ###
@@ -581,19 +603,21 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:165
+#, no-wrap
 msgid ""
-"In a completely default setup, you will need to log in with your AD account "
-"by specifying the domain in your username (e.g. `john.doe@ad.company."
-"local`). If this is not the desired behaviour, and you instead want to be "
-"able to omit the domain name at authentication time, you can configure SSSD "
-"to default to a specific domain."
+"In a completely default setup, you will need to log in with your AD account by\n"
+"specifying the domain in your username (e.g. `john.doe@ad.company.local`). If\n"
+"this is not the desired behaviour, and you instead want to be able to omit the\n"
+"domain name at authentication time, you can configure SSSD to default to a\n"
+"specific domain.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:168
+#, no-wrap
 msgid ""
-"This is actually a relatively simple process, and just requires a "
-"configuration tweak in your SSSD configuration file."
+"This is actually a relatively simple process, and just requires a configuration\n"
+"tweak in your SSSD configuration file.\n"
 msgstr ""
 
 #. type: Fenced code block (sh)
@@ -608,18 +632,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:180
+#, no-wrap
 msgid ""
-"By adding the `default_domain_suffix`, you are instructing SSSD to (if no "
-"other domain is specified) infer that the user is trying to authenticate as "
-"a user from the `ad.company.local` domain. This allows you to authenticate "
-"as something like `john.doe` instead of `john.doe@ad.company.local`."
+"By adding the `default_domain_suffix`, you are instructing SSSD to (if no\n"
+"other domain is specified) infer that the user is trying to authenticate as a\n"
+"user from the `ad.company.local` domain. This allows you to authenticate as\n"
+"something like `john.doe` instead of `john.doe@ad.company.local`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:183
+#, no-wrap
 msgid ""
-"To make this configuration change take effect, you must restart the `sssd."
-"service` unit with `systemctl`."
+"To make this configuration change take effect, you must restart the\n"
+"`sssd.service` unit with `systemctl`.\n"
 msgstr ""
 
 #. type: Fenced code block (sh)
@@ -630,10 +656,10 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:190
+#, no-wrap
 msgid ""
-"In the same way, if you don't want your home directories to be suffixed by "
-"the domain name, you can add those options into your configuration file `/"
-"etc/sssd/sssd.conf`:"
+"In the same way, if you don't want your home directories to be suffixed by the domain name, \n"
+"you can add those options into your configuration file `/etc/sssd/sssd.conf`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -647,7 +673,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:198
-msgid "Don't forget to restart the `sssd` service."
+#, no-wrap
+msgid "Don't forget to restart the `sssd` service.\n"
 msgstr ""
 
 #. type: Title ###
@@ -666,9 +693,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:205
-msgid ""
-"Add those options into your configuration file `/etc/sssd/sssd.conf` and "
-"restart the service:"
+#, no-wrap
+msgid "Add those options into your configuration file `/etc/sssd/sssd.conf` and restart the service:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -682,9 +708,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:213
-msgid ""
-"Now, only users from group1 and group2, or user1 and user2 will be able to "
-"connect to the server using sssd!"
+#, no-wrap
+msgid "Now, only users from group1 and group2, or user1 and user2 will be able to connect to the server using sssd!\n"
 msgstr ""
 
 #. type: Title ##
@@ -695,12 +720,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:217
-msgid "`adcli` is a CLI to perform actions on an Active Directory domain."
+#, no-wrap
+msgid "`adcli` is a CLI to perform actions on an Active Directory domain.\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:219
-msgid "- If not yet installed, install the required package"
+#, no-wrap
+msgid "If not yet installed, install the required package\n"
 msgstr ""
 
 #. type: Fenced code block (sh)
@@ -709,9 +736,10 @@ msgstr ""
 msgid "[user@host ~]$ sudo dnf install adcli\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:225
-msgid "- Test if you have ever joined an Active Directory domain:"
+#, no-wrap
+msgid "Test if you have ever joined an Active Directory domain:\n"
 msgstr ""
 
 #. type: Fenced code block (sh)
@@ -722,9 +750,10 @@ msgid ""
 "Successfully validated join to domain ad.company.local\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:232
-msgid "- Get more advanced informations about the domain:"
+#, no-wrap
+msgid "Get more advanced informations about the domain:\n"
 msgstr ""
 
 #. type: Fenced code block (sh)
@@ -745,16 +774,16 @@ msgid ""
 "computer-site = site1\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:249
-msgid ""
-"- More than a consulting tool, you can use adcli to interact with your "
-"domain: manage users or groups, change password, etc."
+#, no-wrap
+msgid "More than a consulting tool, you can use adcli to interact with your domain: manage users or groups, change password, etc. \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:251
-msgid "Example: use `adcli` to get information about a computer:"
+#, no-wrap
+msgid "Example: use `adcli` to get information about a computer:\n"
 msgstr ""
 
 #. type: Plain text
@@ -800,7 +829,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:289
-msgid "Example: use `adcli` to change user's password:"
+#, no-wrap
+msgid "Example: use `adcli` to change user's password:\n"
 msgstr ""
 
 #. type: Fenced code block (sh)
@@ -815,26 +845,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:300
-msgid ""
-"Sometimes, the network service will start after SSSD, that cause trouble "
-"with authentication."
+#, no-wrap
+msgid "Sometimes, the network service will start after SSSD, that cause trouble with authentication.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:302
-msgid "No AD users will be able to connect until you restarted the service."
+#, no-wrap
+msgid "No AD users will be able to connect until you restarted the service.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:304
-msgid ""
-"In that case, you will have to override the systemd's service file to manage "
-"this problem."
+#, no-wrap
+msgid "In that case, you will have to override the systemd's service file to manage this problem.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:306
-msgid "Copy this content into `/etc/systemd/system/sssd.service`:"
+#, no-wrap
+msgid "Copy this content into `/etc/systemd/system/sssd.service`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -863,9 +893,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:329
-msgid ""
-"The next reboot, the service will start after its requirements, and "
-"everything will go well."
+#, no-wrap
+msgid "The next reboot, the service will start after its requirements, and everything will go well.\n"
 msgstr ""
 
 #. type: Title ##
@@ -876,14 +905,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:333
-msgid "Sometimes, it's necessary to leave the AD."
+#, no-wrap
+msgid "Sometimes, it's necessary to leave the AD.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:335
-msgid ""
-"You can, once again, proceed with `realm` and then remove the packages that "
-"are no longer required:"
+#, no-wrap
+msgid "You can, once again, proceed with `realm` and then remove the packages that are no longer required:\n"
 msgstr ""
 
 #. type: Fenced code block (sh)

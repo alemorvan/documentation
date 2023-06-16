@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,14 +57,16 @@ msgstr ""
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:125
 #: ../src/docs/guides/security/learning_selinux.md:289
 #: ../src/docs/guides/security/pam.md:287
-msgid "Examples:"
+#, no-wrap
+msgid "Examples:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:221
 #: ../src/docs/guides/security/pam.md:238
 #: ../src/docs/labs/security/lab9-cryptography.md:594
-msgid "Options:"
+#, no-wrap
+msgid "Options:\n"
 msgstr ""
 
 #. type: Title ##
@@ -121,7 +123,8 @@ msgstr ""
 #: ../src/docs/labs/security/lab9-cryptography.md:125
 #: ../src/docs/labs/security/lab9-cryptography.md:322
 #: ../src/docs/labs/security/lab9-cryptography.md:516
-msgid "!!! NOTE"
+#, no-wrap
+msgid "!!! NOTE\n"
 msgstr ""
 
 #. type: YAML Front Matter: tags
@@ -151,7 +154,8 @@ msgstr ""
 #: ../src/docs/gemstones/markdown-demo-v2.md:15
 #: ../src/docs/guides/security/pam.md:45
 #: ../src/docs/labs/security/lab9-cryptography.md:155
-msgid "!!! WARNING"
+#, no-wrap
+msgid "!!! WARNING\n"
 msgstr ""
 
 #. type: Title ##
@@ -196,27 +200,32 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:20
-msgid "A non-critical Rocky Linux PC, server, or VM"
+#, no-wrap
+msgid "A non-critical Rocky Linux PC, server, or VM\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:20
-msgid "Root access"
+#, no-wrap
+msgid "Root access\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:20
-msgid "Some existing Linux knowledge (would help a lot)"
+#, no-wrap
+msgid "Some existing Linux knowledge (would help a lot)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:20
-msgid "A desire to learn about user and app authentication on Linux"
+#, no-wrap
+msgid "A desire to learn about user and app authentication on Linux\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:20
-msgid "The ability to accept the consequences of your own actions"
+#, no-wrap
+msgid "The ability to accept the consequences of your own actions\n"
 msgstr ""
 
 #. type: Title ##
@@ -227,10 +236,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:24
-msgid ""
-"PAM (**Pluggable Authentication Modules**) is the system under GNU/Linux "
-"that allows many applications or services to authenticate users in a "
-"centralized fashion. To put it another way:"
+#, no-wrap
+msgid "PAM (**Pluggable Authentication Modules**) is the system under GNU/Linux that allows many applications or services to authenticate users in a centralized fashion. To put it another way:\n"
 msgstr ""
 
 #. type: Plain text
@@ -243,59 +250,44 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:29
-msgid ""
-"This document is *not* designed to teach you exactly how to harden your "
-"machine, okay? It's more of a reference guide to show you what PAM *can* do, "
-"and not what you *should* do."
+#, no-wrap
+msgid "This document is *not* designed to teach you exactly how to harden your machine, okay? It's more of a reference guide to show you what PAM *can* do, and not what you *should* do.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:33
-msgid ""
-"Authentication is the phase during which it is verified that you are the "
-"person you claim to be. The most common example is the password, but there "
-"are other forms of authentication."
+#, no-wrap
+msgid "Authentication is the phase during which it is verified that you are the person you claim to be. The most common example is the password, but there are other forms of authentication.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:35
-msgid "![PAM generalities](images/pam-001.png)"
+#, no-wrap
+msgid "![PAM generalities](images/pam-001.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:37
-msgid ""
-"The implementation of a new authentication method should not require changes "
-"in the configuration or source code of a program or service. This is why "
-"applications rely on PAM, which provides them with the primitives* necessary "
-"to authenticate their users."
+#, no-wrap
+msgid "The implementation of a new authentication method should not require changes in the configuration or source code of a program or service. This is why applications rely on PAM, which provides them with the primitives* necessary to authenticate their users.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:39
-msgid ""
-"All the applications in a system can thus implement complex functionalities "
-"such as **SSO** (Single Sign On), **OTP** (One Time Password) or "
-"**Kerberos** in a completely transparent manner. A system administrator can "
-"choose exactly which authentication policy is to be used for a single "
-"application (e.g. to harden the SSH service) independently of the "
-"application."
+#, no-wrap
+msgid "All the applications in a system can thus implement complex functionalities such as **SSO** (Single Sign On), **OTP** (One Time Password) or **Kerberos** in a completely transparent manner. A system administrator can choose exactly which authentication policy is to be used for a single application (e.g. to harden the SSH service) independently of the application.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:41
-msgid ""
-"Each application or service supporting PAM will have a corresponding "
-"configuration file in the `/etc/pam.d/` directory. For example, the process "
-"`login` assigns the name `/etc/pam.d/login` to its configuration file."
+#, no-wrap
+msgid "Each application or service supporting PAM will have a corresponding configuration file in the `/etc/pam.d/` directory. For example, the process `login` assigns the name `/etc/pam.d/login` to its configuration file.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:43
-msgid ""
-"\\* Primitives are literally the simplest elements of a progam or language, "
-"and they allow you to build more sophisticated and complex things on top of "
-"them."
+#, no-wrap
+msgid "\\* Primitives are literally the simplest elements of a progam or language, and they allow you to build more sophisticated and complex things on top of them.\n"
 msgstr ""
 
 #. type: Plain text
@@ -312,9 +304,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:51
-msgid ""
-"A directive is used to set up an application for usage with PAM. Directives "
-"will follow this format:"
+#, no-wrap
+msgid "A directive is used to set up an application for usage with PAM. Directives will follow this format:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -325,25 +316,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:57
-msgid ""
-"A **directive** (a complete line) is composed of a **mechanism** (`auth`, "
-"`account`, `password` or `session`), a **success check** (`include`, "
-"`optional`, `required`, ...), the **path to the module** and possibly "
-"**arguments** (like `revoke` for example)."
+#, no-wrap
+msgid "A **directive** (a complete line) is composed of a **mechanism** (`auth`, `account`, `password` or `session`), a **success check** (`include`, `optional`, `required`, ...), the **path to the module** and possibly **arguments** (like `revoke` for example).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:59
-msgid ""
-"Each PAM configuration file contains a set of directives. The module "
-"interface directives can be stacked or placed on top of each other. In fact, "
-"**the order in which the modules are listed is very important to the "
-"authentication process.**"
+#, no-wrap
+msgid "Each PAM configuration file contains a set of directives. The module interface directives can be stacked or placed on top of each other. In fact, **the order in which the modules are listed is very important to the authentication process.**\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:61
-msgid "For example, here's the config file `/etc/pam.d/sudo`:"
+#, no-wrap
+msgid "For example, here's the config file `/etc/pam.d/sudo`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -371,21 +357,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:75
-msgid ""
-"This handles the authentication of the requester and establishes the rights "
-"of the account:"
+#, no-wrap
+msgid "This handles the authentication of the requester and establishes the rights of the account:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:77
-msgid ""
-"Usually authenticates with a password by comparing it to a value stored in a "
-"database, or by relying on an authentication server,"
+#, no-wrap
+msgid "Usually authenticates with a password by comparing it to a value stored in a database, or by relying on an authentication server,\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:79
-msgid "Establishes account settings: uid, gid, groups, and resource limits."
+#, no-wrap
+msgid "Establishes account settings: uid, gid, groups, and resource limits.\n"
 msgstr ""
 
 #. type: Title ###
@@ -396,14 +381,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:83
-msgid "Checks that the requested account is available:"
+#, no-wrap
+msgid "Checks that the requested account is available:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:85
-msgid ""
-"Relates to the availability of the account for reasons other than "
-"authentication (e.g. for time restrictions)."
+#, no-wrap
+msgid "Relates to the availability of the account for reasons other than authentication (e.g. for time restrictions).\n"
 msgstr ""
 
 #. type: Title ###
@@ -414,17 +399,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:89
-msgid "Relates to session setup and termination:"
+#, no-wrap
+msgid "Relates to session setup and termination:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:92
-msgid "Performs tasks associated with session setup (e.g. logging),"
+#, no-wrap
+msgid "Performs tasks associated with session setup (e.g. logging),\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:92
-msgid "Performs tasks associated with session termination."
+#, no-wrap
+msgid "Performs tasks associated with session termination.\n"
 msgstr ""
 
 #. type: Title ###
@@ -435,16 +423,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:96
-msgid ""
-"Used to modify the authentication token associated with an account "
-"(expiration or change):"
+#, no-wrap
+msgid "Used to modify the authentication token associated with an account (expiration or change):\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:98
-msgid ""
-"Changes the authentication token and possibly verifies that it is robust "
-"enough, or that it has not already been used."
+#, no-wrap
+msgid "Changes the authentication token and possibly verifies that it is robust enough, or that it has not already been used.\n"
 msgstr ""
 
 #. type: Title ##
@@ -455,10 +441,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:102
-msgid ""
-"The PAM mechanisms (`auth`, `account`, `session` and `password`) indicate "
-"`success` or `failure`. The control flags (`required`, `requisite`, "
-"`sufficient`, `optional`) tell PAM how to handle this result."
+#, no-wrap
+msgid "The PAM mechanisms (`auth`, `account`, `session` and `password`) indicate `success` or `failure`. The control flags (`required`, `requisite`, `sufficient`, `optional`) tell PAM how to handle this result.\n"
 msgstr ""
 
 #. type: Title ###
@@ -469,30 +453,27 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:106
-msgid "Successful completion of all `required` modules is necessary."
+#, no-wrap
+msgid "Successful completion of all `required` modules is necessary.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:108
 #: ../src/docs/guides/security/pam.md:118
-msgid ""
-"**If the module passes:** The rest of the chain is executed. The request is "
-"allowed unless other modules fail."
+#, no-wrap
+msgid "**If the module passes:** The rest of the chain is executed. The request is allowed unless other modules fail.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:110
-msgid ""
-"**If the module fails:** The rest of the chain is executed. Finally the "
-"request is rejected."
+#, no-wrap
+msgid "**If the module fails:** The rest of the chain is executed. Finally the request is rejected.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:112
-msgid ""
-"The module must be successfully verified for the authentication to continue. "
-"If the verification of a module marked `required` fails, the user is not "
-"notified until all modules associated with that interface have been verified."
+#, no-wrap
+msgid "The module must be successfully verified for the authentication to continue. If the verification of a module marked `required` fails, the user is not notified until all modules associated with that interface have been verified.\n"
 msgstr ""
 
 #. type: Title ###
@@ -503,21 +484,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:116
-msgid "Successful completion of all `requisite` modules is necessary."
+#, no-wrap
+msgid "Successful completion of all `requisite` modules is necessary.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:120
-msgid "**If the module fails:** The request is immediately rejected."
+#, no-wrap
+msgid "**If the module fails:** The request is immediately rejected.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:122
-msgid ""
-"The module must be successfully verified for authentication to continue. "
-"However, if the verification of a `requisite`-marked module fails, the user "
-"is immediately notified by a message indicating the failure of the first "
-"`required` or `requisite` module."
+#, no-wrap
+msgid "The module must be successfully verified for authentication to continue. However, if the verification of a `requisite`-marked module fails, the user is immediately notified by a message indicating the failure of the first `required` or `requisite` module.\n"
 msgstr ""
 
 #. type: Title ###
@@ -528,31 +508,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:126
-msgid ""
-"Modules marked `sufficient` can be used to let a user in \"early\" under "
-"certain conditions:"
+#, no-wrap
+msgid "Modules marked `sufficient` can be used to let a user in \"early\" under certain conditions:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:128
-msgid ""
-"**If the module succeeds:** The authentication request is immediately "
-"allowed if none of the previous modules failed."
+#, no-wrap
+msgid "**If the module succeeds:** The authentication request is immediately allowed if none of the previous modules failed.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:130
-msgid ""
-"**If the module fails:** The module is ignored. The rest of the chain is "
-"executed."
+#, no-wrap
+msgid "**If the module fails:** The module is ignored. The rest of the chain is executed.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:132
-msgid ""
-"However, if a module check marked `sufficient` is successful, but modules "
-"marked `required` or `requisite` have failed their checks, the success of "
-"the `sufficient` module is ignored, and the request fails."
+#, no-wrap
+msgid "However, if a module check marked `sufficient` is successful, but modules marked `required` or `requisite` have failed their checks, the success of the `sufficient` module is ignored, and the request fails.\n"
 msgstr ""
 
 #. type: Title ###
@@ -563,15 +538,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:136
-msgid ""
-"The module is executed but the result of the request is ignored. If all "
-"modules in the chain were marked `optional`, all requests would always be "
-"accepted."
+#, no-wrap
+msgid "The module is executed but the result of the request is ignored. If all modules in the chain were marked `optional`, all requests would always be accepted.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:140
-msgid "![Rocky Linux installation splash screen](images/pam-002.png)"
+#, no-wrap
+msgid "![Rocky Linux installation splash screen](images/pam-002.png)\n"
 msgstr ""
 
 #. type: Title ##
@@ -582,62 +556,74 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:144
-msgid "There are many modules for PAM. Here are the most common ones:"
+#, no-wrap
+msgid "There are many modules for PAM. Here are the most common ones:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:156
-msgid "pam_unix"
+#, no-wrap
+msgid "pam_unix\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:156
-msgid "pam_ldap"
+#, no-wrap
+msgid "pam_ldap\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:156
-msgid "pam_wheel"
+#, no-wrap
+msgid "pam_wheel\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:156
-msgid "pam_cracklib"
+#, no-wrap
+msgid "pam_cracklib\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:156
-msgid "pam_console"
+#, no-wrap
+msgid "pam_console\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:156
-msgid "pam_tally"
+#, no-wrap
+msgid "pam_tally\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:156
-msgid "pam_securetty"
+#, no-wrap
+msgid "pam_securetty\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:156
-msgid "pam_nologin"
+#, no-wrap
+msgid "pam_nologin\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:156
-msgid "pam_limits"
+#, no-wrap
+msgid "pam_limits\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:156
-msgid "pam_time"
+#, no-wrap
+msgid "pam_time\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:156
-msgid "pam_access"
+#, no-wrap
+msgid "pam_access\n"
 msgstr ""
 
 #. type: Title ###
@@ -648,13 +634,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:160
-msgid ""
-"The `pam_unix` module allows you to manage the global authentication policy."
+#, no-wrap
+msgid "The `pam_unix` module allows you to manage the global authentication policy.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:162
-msgid "In `/etc/pam.d/system-auth` you might add:"
+#, no-wrap
+msgid "In `/etc/pam.d/system-auth` you might add:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -665,30 +652,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:168
-msgid "Arguments are possible for this module:"
+#, no-wrap
+msgid "Arguments are possible for this module:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:173
-msgid "`nullok`: in the `auth` mechanism allows an empty login password."
+#, no-wrap
+msgid "`nullok`: in the `auth` mechanism allows an empty login password.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:173
-msgid "`sha512`: in the password mechanism, defines the encryption algorithm."
+#, no-wrap
+msgid "`sha512`: in the password mechanism, defines the encryption algorithm.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:173
-msgid "`debug`: sends information to `syslog`."
+#, no-wrap
+msgid "`debug`: sends information to `syslog`.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:173
-msgid ""
-"`remember=n`: Use thid to remember the last `n` passwords used (works in "
-"conjunction with the `/etc/security/opasswd` file, which is to be created by "
-"the administrator)."
+#, no-wrap
+msgid "`remember=n`: Use thid to remember the last `n` passwords used (works in conjunction with the `/etc/security/opasswd` file, which is to be created by the administrator).\n"
 msgstr ""
 
 #. type: Title ###
@@ -699,12 +688,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:177
-msgid "The `pam_cracklib` module allows you to test passwords."
+#, no-wrap
+msgid "The `pam_cracklib` module allows you to test passwords.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:179
-msgid "In `/etc/pam.d/password-auth` add:"
+#, no-wrap
+msgid "In `/etc/pam.d/password-auth` add:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -715,87 +706,86 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:185
-msgid ""
-"This module uses the `cracklib` library to check the strength of a new "
-"password. It can also check that the new password is not built from the old "
-"one. It *only* affects the password mechanism."
+#, no-wrap
+msgid "This module uses the `cracklib` library to check the strength of a new password. It can also check that the new password is not built from the old one. It *only* affects the password mechanism.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:187
-msgid ""
-"By default this module checks the following aspects and rejects if this is "
-"the case:"
+#, no-wrap
+msgid "By default this module checks the following aspects and rejects if this is the case:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:191
-msgid "Is the new password from the dictionary?"
+#, no-wrap
+msgid "Is the new password from the dictionary?\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:191
-msgid ""
-"Is the new password a palindrome of the old one (e.g.: azerty <> ytreza)?"
+#, no-wrap
+msgid "Is the new password a palindrome of the old one (e.g.: azerty <> ytreza)?\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:191
-msgid ""
-"Has the user only changed the case of the password (e.g.: azerty <>AzErTy)?"
+#, no-wrap
+msgid "Has the user only changed the case of the password (e.g.: azerty <>AzErTy)?\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:193
-msgid "Possible arguments for this module:"
+#, no-wrap
+msgid "Possible arguments for this module:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:197
-msgid "`retry=n`: imposes `n` requests (1` by default) for the new password."
+#, no-wrap
+msgid "`retry=n`: imposes `n` requests (1` by default) for the new password.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:197
-msgid ""
-"`difok=n`: imposes at least `n` characters (`10` by default), different from "
-"the old password. If half of the characters of the new password are "
-"different from the old one, the new password is validated."
+#, no-wrap
+msgid "`difok=n`: imposes at least `n` characters (`10` by default), different from the old password. If half of the characters of the new password are different from the old one, the new password is validated.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:197
-msgid ""
-"`minlen=n`: imposes a password of `n+1` characters minimum. You cannot "
-"assign a minimum lower than 6 characters (the module is compiled this way)."
+#, no-wrap
+msgid "`minlen=n`: imposes a password of `n+1` characters minimum. You cannot assign a minimum lower than 6 characters (the module is compiled this way).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:199
-msgid "Other possible arguments :"
+#, no-wrap
+msgid "Other possible arguments :\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:204
-msgid "`dcredit=-n`: imposes a password containing at least `n` digits,"
+#, no-wrap
+msgid "`dcredit=-n`: imposes a password containing at least `n` digits,\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:204
-msgid ""
-"`ucredit=-n`: imposes a password containing at least `n` capital letters,"
+#, no-wrap
+msgid "`ucredit=-n`: imposes a password containing at least `n` capital letters,\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:204
-msgid ""
-"`credit=-n`: imposes a password containing at least `n` lower case letters,"
+#, no-wrap
+msgid "`credit=-n`: imposes a password containing at least `n` lower case letters,\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:204
-msgid ""
-"`ocredit=-n`: imposes a password containing at least `n` special characters."
+#, no-wrap
+msgid "`ocredit=-n`: imposes a password containing at least `n` special characters.\n"
 msgstr ""
 
 #. type: Title ###
@@ -806,16 +796,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:208
-msgid ""
-"The `pam_tally` module allows you to lock an account based on a number of "
-"unsuccessful login attempts."
+#, no-wrap
+msgid "The `pam_tally` module allows you to lock an account based on a number of unsuccessful login attempts.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:210
-msgid ""
-"The default config file for this module might look like: `/etc/pam.d/system-"
-"auth`:"
+#, no-wrap
+msgid "The default config file for this module might look like: `/etc/pam.d/system-auth`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -828,65 +816,68 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:217
-msgid ""
-"The `auth` mechanism accepts or denies authentication and resets the counter."
+#, no-wrap
+msgid "The `auth` mechanism accepts or denies authentication and resets the counter.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:219
-msgid "The `account` mechanism increments the counter."
+#, no-wrap
+msgid "The `account` mechanism increments the counter.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:221
-msgid "Some arguments of the pam_tally module include:"
+#, no-wrap
+msgid "Some arguments of the pam_tally module include:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:228
-msgid "`onerr=fail`: increment the counter."
+#, no-wrap
+msgid "`onerr=fail`: increment the counter.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:228
-msgid ""
-"`deny=n`: once the number `n` of unsuccessful attempts is exceeded, the "
-"account is locked."
+#, no-wrap
+msgid "`deny=n`: once the number `n` of unsuccessful attempts is exceeded, the account is locked.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:228
-msgid ""
-"`no_magic_root`: can be used to deny access to root-level services launched "
-"by daemons."
+#, no-wrap
+msgid "`no_magic_root`: can be used to deny access to root-level services launched by daemons. \n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/security/pam.md:228
-msgid "e.g. don't use this for `su`."
+#, no-wrap
+msgid "e.g. don't use this for `su`.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:228
-msgid "`reset`: reset the counter to 0 if the authentication is validated."
+#, no-wrap
+msgid "`reset`: reset the counter to 0 if the authentication is validated.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:228
-msgid "`lock_time=nsec`: the account is locked for `n` seconds."
+#, no-wrap
+msgid "`lock_time=nsec`: the account is locked for `n` seconds.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:230
-msgid ""
-"This module works together with the default file for unsuccessful attempts `/"
-"var/log/faillog` (which can be replaced by another file with the argument "
-"`file=xxxx`), and the associated command `faillog`."
+#, no-wrap
+msgid "This module works together with the default file for unsuccessful attempts `/var/log/faillog` (which can be replaced by another file with the argument `file=xxxx`), and the associated command `faillog`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:232
-msgid "Syntax of the faillog command:"
+#, no-wrap
+msgid "Syntax of the faillog command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -897,19 +888,20 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:242
-msgid ""
-"`m`: to define, in the command display, the maximum number of unsuccessful "
-"attempts,"
+#, no-wrap
+msgid "`m`: to define, in the command display, the maximum number of unsuccessful attempts,\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:242
-msgid "`u`: to specify a user,"
+#, no-wrap
+msgid "`u`: to specify a user,\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:242
-msgid "`r`: to unlock a user."
+#, no-wrap
+msgid "`r`: to unlock a user.\n"
 msgstr ""
 
 #. type: Title ###
@@ -920,14 +912,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:246
-msgid ""
-"The `pam_time` module allows you to limit the access times to services "
-"managed by PAM."
+#, no-wrap
+msgid "The `pam_time` module allows you to limit the access times to services managed by PAM.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:248
-msgid "To activate it, edit `/etc/pam.d/system-auth` and add:"
+#, no-wrap
+msgid "To activate it, edit `/etc/pam.d/system-auth` and add:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -938,7 +930,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:254
-msgid "The configuration is done in the `/etc/security/time.conf` file:"
+#, no-wrap
+msgid "The configuration is done in the `/etc/security/time.conf` file:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -951,7 +944,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:261
-msgid "The syntax of a directive is as follows:"
+#, no-wrap
+msgid "The syntax of a directive is as follows:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -962,85 +956,92 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:267
-msgid "In the following definitions, the logical list uses:"
+#, no-wrap
+msgid "In the following definitions, the logical list uses:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:272
-msgid "`&`: is the \"and\" logical."
+#, no-wrap
+msgid "`&`: is the \"and\" logical.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:272
-msgid "`|`: is the \"or\" logical."
+#, no-wrap
+msgid "`|`: is the \"or\" logical.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:272
-msgid "`!`: means negation, or \"all except\"."
+#, no-wrap
+msgid "`!`: means negation, or \"all except\".\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:272
-msgid "`*`: is the wildcard character."
+#, no-wrap
+msgid "`*`: is the wildcard character.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:274
-msgid "The columns correspond to :"
+#, no-wrap
+msgid "The columns correspond to :\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:279
-msgid ""
-"`services`: a logical list of services managed by PAM that are also to be "
-"managed by this rule"
+#, no-wrap
+msgid "`services`: a logical list of services managed by PAM that are also to be managed by this rule\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:279
-msgid "`ttys`: a logical list of related devices"
+#, no-wrap
+msgid "`ttys`: a logical list of related devices\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:279
-msgid "`users`: logical list of users managed by the rule"
+#, no-wrap
+msgid "`users`: logical list of users managed by the rule\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:279
-msgid "`times`: a logical list of authorized time slots"
+#, no-wrap
+msgid "`times`: a logical list of authorized time slots\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:281
-msgid "How to manage time slots :"
+#, no-wrap
+msgid "How to manage time slots :\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:285
-msgid ""
-"Days: `Mo`, `Tu`, `We`, `Th`, `Fr,` `Sa`, `Su`, `Wk`, (Monday to Friday), "
-"`Wd` (Saturday and Sunday), and `Al` (Monday to Sunday)"
+#, no-wrap
+msgid "Days: `Mo`, `Tu`, `We`, `Th`, `Fr,` `Sa`, `Su`, `Wk`, (Monday to Friday), `Wd` (Saturday and Sunday), and `Al` (Monday to Sunday)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:285
-msgid "The hourly range: `HHMM-HHMM`"
+#, no-wrap
+msgid "The hourly range: `HHMM-HHMM`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:285
-msgid ""
-"A repetition cancels the effect: `WkMo` = all days of the week (M-F), minus "
-"Monday (repeat)."
+#, no-wrap
+msgid "A repetition cancels the effect: `WkMo` = all days of the week (M-F), minus Monday (repeat).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/pam.md:289
-msgid ""
-"Bob, can login via a terminal every day between 07:00 and 09:00, except "
-"Wednesday:"
+#, no-wrap
+msgid "Bob, can login via a terminal every day between 07:00 and 09:00, except Wednesday:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1051,9 +1052,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:295
-msgid ""
-"No login, terminal or remote, except root, every day of the week between "
-"17:30 and 7:45 the next day:"
+#, no-wrap
+msgid "No login, terminal or remote, except root, every day of the week between 17:30 and 7:45 the next day:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1070,12 +1070,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:303
-msgid "The `pam_nologin` module disables all accounts except root:"
+#, no-wrap
+msgid "The `pam_nologin` module disables all accounts except root:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:305
-msgid "In `/etc/pam.d/login` you'd put:"
+#, no-wrap
+msgid "In `/etc/pam.d/login` you'd put:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1086,7 +1088,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:311
-msgid "If the file `/etc/nologin` exists then only root can connect."
+#, no-wrap
+msgid "If the file `/etc/nologin` exists then only root can connect.\n"
 msgstr ""
 
 #. type: Title ###
@@ -1097,14 +1100,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:315
-msgid ""
-"The `pam_wheel` module allows you to limit the access to the `su` command to "
-"the members of the `wheel` group."
+#, no-wrap
+msgid "The `pam_wheel` module allows you to limit the access to the `su` command to the members of the `wheel` group.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:317
-msgid "In `/etc/pam.d/su` you'd put:"
+#, no-wrap
+msgid "In `/etc/pam.d/su` you'd put:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1115,9 +1118,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:323
-msgid ""
-"The argument `group=my_group` limits the use of the `su` command to members "
-"of the group `my_group`"
+#, no-wrap
+msgid "The argument `group=my_group` limits the use of the `su` command to members of the group `my_group`\n"
 msgstr ""
 
 #. type: Plain text
@@ -1134,12 +1136,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:331
-msgid "The `pam_mount` module allows you to mount a volume for a user session."
+#, no-wrap
+msgid "The `pam_mount` module allows you to mount a volume for a user session.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:333
-msgid "In `/etc/pam.d/system-auth` you'd put:"
+#, no-wrap
+msgid "In `/etc/pam.d/system-auth` you'd put:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1153,7 +1157,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:341
-msgid "Mount points are configured in the `/etc/security/pam_mount.conf` file:"
+#, no-wrap
+msgid "Mount points are configured in the `/etc/security/pam_mount.conf` file:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1172,16 +1177,12 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:350
-msgid ""
-"By now, you should have a much better idea of what PAM can do, and how to "
-"make changes when needed. However, we must reiterate the importance of being "
-"very, *very* careful with any changes you make to PAM modules. You could "
-"lock yourself out of your system, or worse, let everyone else in."
+#, no-wrap
+msgid "By now, you should have a much better idea of what PAM can do, and how to make changes when needed. However, we must reiterate the importance of being very, *very* careful with any changes you make to PAM modules. You could lock yourself out of your system, or worse, let everyone else in.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/pam.md:351
-msgid ""
-"We would strongly recommend testing all changes in an environment that can "
-"be easily reverted to a previous configuration. That said, have fun with it!"
+#, no-wrap
+msgid "We would strongly recommend testing all changes in an environment that can be easily reverted to a previous configuration. That said, have fun with it!\n"
 msgstr ""

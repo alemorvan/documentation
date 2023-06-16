@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -143,7 +143,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -170,7 +169,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Title ##
@@ -297,36 +297,36 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/guides/containers/lxd_web_servers.md:252
 #: ../src/docs/guides/web/nginx-mainline.md:113
-msgid "Let’s break this down:"
+#, no-wrap
+msgid "Let’s break this down:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/containers/lxd_web_servers.md:256
 #: ../src/docs/guides/web/nginx-mainline.md:117
-msgid ""
-"The `-–permanent` flag tells the firewall to make sure this configuration is "
-"used every time the firewall is restarted, and when the server itself is "
-"restarted."
+#, no-wrap
+msgid "The `-–permanent` flag tells the firewall to make sure this configuration is used every time the firewall is restarted, and when the server itself is restarted.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/containers/lxd_web_servers.md:256
 #: ../src/docs/guides/web/nginx-mainline.md:117
-msgid ""
-"`–-zone=public` tells the firewall to take incoming connections to this port "
-"from everyone."
+#, no-wrap
+msgid "`–-zone=public` tells the firewall to take incoming connections to this port from everyone.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/lxd_web_servers.md:295
 #: ../src/docs/guides/web/nginx-mainline.md:168
-msgid "And that should be everything you need, firewall-wise."
+#, no-wrap
+msgid "And that should be everything you need, firewall-wise.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/lxd_web_servers.md:635
 #: ../src/docs/guides/web/nginx-mainline.md:308
-msgid "That should get you a list that looks like this:"
+#, no-wrap
+msgid "That should get you a list that looks like this:\n"
 msgstr ""
 
 #. type: Title ##
@@ -386,50 +386,56 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:18
-msgid "Here’s a short rundown of the ways Nginx stands out/features it has:"
+#, no-wrap
+msgid "Here’s a short rundown of the ways Nginx stands out/features it has:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/nginx-mainline.md:26
-msgid "A basic web server (one would hope)"
+#, no-wrap
+msgid "A basic web server (one would hope)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/nginx-mainline.md:26
-msgid "A reverse proxy for directing traffic to multiple sites"
+#, no-wrap
+msgid "A reverse proxy for directing traffic to multiple sites\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/nginx-mainline.md:26
-msgid "A built-in load balancer for managing traffic to multiple websites"
+#, no-wrap
+msgid "A built-in load balancer for managing traffic to multiple websites\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/nginx-mainline.md:26
-msgid "Built-in file caching for speed"
+#, no-wrap
+msgid "Built-in file caching for speed\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/nginx-mainline.md:26
-msgid "WebSockets"
+#, no-wrap
+msgid "WebSockets\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/nginx-mainline.md:26
-msgid "FastCGI support"
+#, no-wrap
+msgid "FastCGI support\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/nginx-mainline.md:26
-msgid "And, of course, IPv6"
+#, no-wrap
+msgid "And, of course, IPv6\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:28
-msgid ""
-"It’s great! So just `sudo dnf install nginx`, right? Well, not exactly. We "
-"just have to enable the right module first, to enable the \"mainline\" "
-"branch, so you can have the latest version of Nginx."
+#, no-wrap
+msgid "It’s great! So just `sudo dnf install nginx`, right? Well, not exactly. We just have to enable the right module first, to enable the \"mainline\" branch, so you can have the latest version of Nginx.\n"
 msgstr ""
 
 #. type: Plain text
@@ -461,30 +467,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:44
-msgid "You’ll need:"
+#, no-wrap
+msgid "You’ll need:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/nginx-mainline.md:49
-msgid "An internet-connected Rocky Linux machine or server."
+#, no-wrap
+msgid "An internet-connected Rocky Linux machine or server.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/nginx-mainline.md:49
-msgid "A basic familiarity with the command line."
+#, no-wrap
+msgid "A basic familiarity with the command line.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/nginx-mainline.md:49
-msgid ""
-"The ability to run commands as root, either as the root user or with `sudo`."
+#, no-wrap
+msgid "The ability to run commands as root, either as the root user or with `sudo`.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/nginx-mainline.md:49
-msgid ""
-"A text editor of your choice, whether graphical or command-line based. For "
-"this tutorial, I’m using `nano`."
+#, no-wrap
+msgid "A text editor of your choice, whether graphical or command-line based. For this tutorial, I’m using `nano`.\n"
 msgstr ""
 
 #. type: Title ##
@@ -495,7 +503,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:53
-msgid "First, make sure your machine is updated:"
+#, no-wrap
+msgid "First, make sure your machine is updated:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -507,7 +516,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:59
-msgid "Then, install the `epel-release` software repository:"
+#, no-wrap
+msgid "Then, install the `epel-release` software repository:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -518,9 +528,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:65
-msgid ""
-"Then enable the right module for the latest version of `nginx`. This module "
-"will always be called `nginx:manline`, so just enable it with `dnf` like so:"
+#, no-wrap
+msgid "Then enable the right module for the latest version of `nginx`. This module will always be called `nginx:manline`, so just enable it with `dnf` like so:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -543,7 +552,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:75
-msgid "Then, install the package `nginx` from the previously added repository:"
+#, no-wrap
+msgid "Then, install the package `nginx` from the previously added repository:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -555,16 +565,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:81
-msgid ""
-"The terminal will ask you if you’re fine with installing the repository’s "
-"GPG key. You need that, so choose `Y` for yes."
+#, no-wrap
+msgid "The terminal will ask you if you’re fine with installing the repository’s GPG key. You need that, so choose `Y` for yes.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:83
-msgid ""
-"Once the installation is done, start the `nginx` service and enable it to "
-"automatically start on reboot all in one go with:"
+#, no-wrap
+msgid "Once the installation is done, start the `nginx` service and enable it to automatically start on reboot all in one go with:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -575,7 +583,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:89
-msgid "To verify that the lastest version of *Nginx* has been installed, run:"
+#, no-wrap
+msgid "To verify that the lastest version of *Nginx* has been installed, run:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -586,13 +595,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:95
-msgid ""
-"From there, you could just start dropping HTML files into the `/usr/share/"
-"nginx/html/` directory to build a simple, static website. The configuration "
-"file for the default website/virtual host is called “nginx.conf” and it’s in "
-"`/etc/nginx/`. It also holds a number of other basic Nginx server "
-"configurations, so even if you choose to move the actual website config to "
-"another file, you should probably leave the rest of \"nginx.conf\" intact."
+#, no-wrap
+msgid "From there, you could just start dropping HTML files into the `/usr/share/nginx/html/` directory to build a simple, static website. The configuration file for the default website/virtual host is called “nginx.conf” and it’s in `/etc/nginx/`. It also holds a number of other basic Nginx server configurations, so even if you choose to move the actual website config to another file, you should probably leave the rest of \"nginx.conf\" intact.\n"
 msgstr ""
 
 #. type: Title ##
@@ -609,27 +613,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:103
-msgid ""
-"If you try to view a web page at your machine’s IP address or domain name "
-"from another computer, you’re probably going to get a big fat nothing. Well, "
-"that’ll be the case as long as you have a firewall up and running."
+#, no-wrap
+msgid "If you try to view a web page at your machine’s IP address or domain name from another computer, you’re probably going to get a big fat nothing. Well, that’ll be the case as long as you have a firewall up and running.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:105
-msgid ""
-"To open up the necessary ports so that you can actually \"see\" your web "
-"pages, we will use Rocky Linux's build-in firewall, `firewalld`. The "
-"`firewalld` command for doing this is `firewall-cmd`. There are two ways to "
-"do it: the official way, and the manual way. *In this instance, the official "
-"way is best,* but you should know both for future reference."
+#, no-wrap
+msgid "To open up the necessary ports so that you can actually \"see\" your web pages, we will use Rocky Linux's build-in firewall, `firewalld`. The `firewalld` command for doing this is `firewall-cmd`. There are two ways to do it: the official way, and the manual way. *In this instance, the official way is best,* but you should know both for future reference.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:107
-msgid ""
-"The official way opens up the firewall to the `http` service, which is of "
-"course the service that handles web pages. Just run this:"
+#, no-wrap
+msgid "The official way opens up the firewall to the `http` service, which is of course the service that handles web pages. Just run this:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -640,16 +637,14 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/nginx-mainline.md:117
-msgid ""
-"Lastly, `--add-service=http` tells `firewalld` to let all HTTP traffic "
-"through to the server."
+#, no-wrap
+msgid "Lastly, `--add-service=http` tells `firewalld` to let all HTTP traffic through to the server.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:119
-msgid ""
-"Now here's the manual way to do it. It's pretty much the same, except you're "
-"specifically opening up port 80, which is what the HTTP uses."
+#, no-wrap
+msgid "Now here's the manual way to do it. It's pretty much the same, except you're specifically opening up port 80, which is what the HTTP uses.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -660,17 +655,14 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/nginx-mainline.md:125
-msgid ""
-"`–-add-port=80/tcp` tells the firewall to accept incoming connections over "
-"port 80, as long as they’re using the Transmission Control Protocol, which "
-"is what you want in this case."
+#, no-wrap
+msgid "`–-add-port=80/tcp` tells the firewall to accept incoming connections over port 80, as long as they’re using the Transmission Control Protocol, which is what you want in this case.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:127
-msgid ""
-"To repeat the process for SSL/HTTPS traffic, just run the command again, and "
-"change the service and/or the port number."
+#, no-wrap
+msgid "To repeat the process for SSL/HTTPS traffic, just run the command again, and change the service and/or the port number.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -684,9 +676,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:135
-msgid ""
-"These configurations won’t take effect until you force the issue. To do "
-"that, tell `firewalld` to relead its configurations, like so:"
+#, no-wrap
+msgid "These configurations won’t take effect until you force the issue. To do that, tell `firewalld` to relead its configurations, like so:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -712,9 +703,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:149
-msgid ""
-"To make sure the ports have been added properly, run `firewall-cmd --list-"
-"all`. A properly-configured firewall will look a bit like this:"
+#, no-wrap
+msgid "To make sure the ports have been added properly, run `firewall-cmd --list-all`. A properly-configured firewall will look a bit like this:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -745,14 +735,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:172
-msgid "![The Nginx welcome page](nginx/images/welcome-nginx.png)"
+#, no-wrap
+msgid "![The Nginx welcome page](nginx/images/welcome-nginx.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:174
-msgid ""
-"It’s not much at all, but it means the server is working. You can also test "
-"that your web page is working from the command line with:"
+#, no-wrap
+msgid "It’s not much at all, but it means the server is working. You can also test that your web page is working from the command line with:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -769,64 +759,44 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:182
-msgid ""
-"While you *can* just drop your website into the default directory and go "
-"(and this might be fine for *Nginx* when it’s running inside a container, or "
-"on a test/development server), it’s not what we call best practice. Instead, "
-"it’s a good idea to create a specific Linux user on your system for your "
-"website, and put your website files in a directory made just for that user."
+#, no-wrap
+msgid "While you *can* just drop your website into the default directory and go (and this might be fine for *Nginx* when it’s running inside a container, or on a test/development server), it’s not what we call best practice. Instead, it’s a good idea to create a specific Linux user on your system for your website, and put your website files in a directory made just for that user.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:184
-msgid ""
-"If you want to build multiple websites, it’s actually a good idea to create "
-"multiple users and root directories, both for the sake of organization and "
-"the sake of security."
+#, no-wrap
+msgid "If you want to build multiple websites, it’s actually a good idea to create multiple users and root directories, both for the sake of organization and the sake of security.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:186
-msgid ""
-"In this guide, I’m going to have just the one user: a handsome devil named "
-"“www”. Deciding where to put your website files gets more complicated."
+#, no-wrap
+msgid "In this guide, I’m going to have just the one user: a handsome devil named “www”. Deciding where to put your website files gets more complicated.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:188
-msgid ""
-"Depending on your server setup, you can put your website files in a couple "
-"of different places. If you're on a bare-metal (physical) server, or you're "
-"installing `nginx` directly on a VPS, you probably have Security Enhanced "
-"Linux (SELinux) running. SELinux is a tool that does a lot to protect your "
-"machine, but it also kind of dictates where you can put certain things, like "
-"web pages."
+#, no-wrap
+msgid "Depending on your server setup, you can put your website files in a couple of different places. If you're on a bare-metal (physical) server, or you're installing `nginx` directly on a VPS, you probably have Security Enhanced Linux (SELinux) running. SELinux is a tool that does a lot to protect your machine, but it also kind of dictates where you can put certain things, like web pages.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:190
-msgid ""
-"So if you're installing `nginx` directly to your machine, then you'll want "
-"to put your websites in subdirectories of the default root folder. In this "
-"case, the default root is `/usr/share/nginx/html`, so the website for the "
-"“www” user might go into `/usr/share/nginx/html/www`."
+#, no-wrap
+msgid "So if you're installing `nginx` directly to your machine, then you'll want to put your websites in subdirectories of the default root folder. In this case, the default root is `/usr/share/nginx/html`, so the website for the “www” user might go into `/usr/share/nginx/html/www`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:192
-msgid ""
-"If you're running `nginx` in a container such as LXD/LXC, however, SELinux "
-"will likely *not* be installed, and you can put your files wherever you "
-"like. In this case, I like to put all of a user's website files under a "
-"directory in a normal home folder, like so: `/home/www/`."
+#, no-wrap
+msgid "If you're running `nginx` in a container such as LXD/LXC, however, SELinux will likely *not* be installed, and you can put your files wherever you like. In this case, I like to put all of a user's website files under a directory in a normal home folder, like so: `/home/www/`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:194
-msgid ""
-"I'll continue this guide as though SELinux is installed, though. Just change "
-"what you need to based on your use case. You can also learn more about how "
-"SELinux works in [our guide on the subject](../security/learning_selinux.md)."
+#, no-wrap
+msgid "I'll continue this guide as though SELinux is installed, though. Just change what you need to based on your use case. You can also learn more about how SELinux works in [our guide on the subject](../security/learning_selinux.md).\n"
 msgstr ""
 
 #. type: Title ###
@@ -837,7 +807,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:198
-msgid "First, we make the folder we’re going to use:"
+#, no-wrap
+msgid "First, we make the folder we’re going to use:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -848,7 +819,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:204
-msgid "Next, create the www group:"
+#, no-wrap
+msgid "Next, create the www group:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -859,7 +831,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:209
-msgid "Then, we create the user:"
+#, no-wrap
+msgid "Then, we create the user:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -870,48 +843,44 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:215
-msgid "That command tells the machine to:"
+#, no-wrap
+msgid "That command tells the machine to:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/nginx-mainline.md:221
-msgid "Make a user called “www” (as per the middle bit of text),"
+#, no-wrap
+msgid "Make a user called “www” (as per the middle bit of text),\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/nginx-mainline.md:221
-msgid "put all of its files in `/usr/share/nginx/html/www`,"
+#, no-wrap
+msgid "put all of its files in `/usr/share/nginx/html/www`,\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/nginx-mainline.md:221
-msgid ""
-"and add it to the following groups: “nginx” as supplemental , “www” as "
-"primary."
+#, no-wrap
+msgid "and add it to the following groups: “nginx” as supplemental , “www” as primary.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/nginx-mainline.md:221
-msgid ""
-"The `--system` flag says that the user is not a human user, it's reserved "
-"for the system. If you want to create human user accounts to manage "
-"different websites, that's a whole other guide."
+#, no-wrap
+msgid "The `--system` flag says that the user is not a human user, it's reserved for the system. If you want to create human user accounts to manage different websites, that's a whole other guide.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/nginx-mainline.md:221
-msgid ""
-"`--shell=/bin/false` makes sure no one can even *try* to log in as the “www” "
-"user."
+#, no-wrap
+msgid "`--shell=/bin/false` makes sure no one can even *try* to log in as the “www” user.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:223
-msgid ""
-"The “nginx” group does some real magic. It allows the web server to read and "
-"modify files that belong to the “www” user, and the “www” user group. See "
-"the Rocky Linux [guide to user management](../../books/admin_guide/06-users."
-"md) for more information."
+#, no-wrap
+msgid "The “nginx” group does some real magic. It allows the web server to read and modify files that belong to the “www” user, and the “www” user group. See the Rocky Linux [guide to user management](../../books/admin_guide/06-users.md) for more information.\n"
 msgstr ""
 
 #. type: Title ###
@@ -922,15 +891,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:227
-msgid ""
-"Now that you have your fancy new user account, it’s time to make `nginx` "
-"look for your website files in that folder. Grab your favorite text editor "
-"again."
+#, no-wrap
+msgid "Now that you have your fancy new user account, it’s time to make `nginx` look for your website files in that folder. Grab your favorite text editor again.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:229
-msgid "For now, just run:"
+#, no-wrap
+msgid "For now, just run:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -953,7 +921,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:241
-msgid "If you get the following success message, everything went right:"
+#, no-wrap
+msgid "If you get the following success message, everything went right:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -966,7 +935,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:248
-msgid "Then, give the server a soft restart with:"
+#, no-wrap
+msgid "Then, give the server a soft restart with:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -992,9 +962,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:262
-msgid ""
-"Any HTML files in your new root folder should now be browsable from… your "
-"browser."
+#, no-wrap
+msgid "Any HTML files in your new root folder should now be browsable from… your browser.\n"
 msgstr ""
 
 #. type: Title ###
@@ -1005,16 +974,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:266
-msgid ""
-"To make sure that `nginx` can read, write to, and execute any files in the "
-"website directory, permissions need to be set properly."
+#, no-wrap
+msgid "To make sure that `nginx` can read, write to, and execute any files in the website directory, permissions need to be set properly.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:268
-msgid ""
-"First, make sure that all files in the root folder are owned by the server "
-"user and its user group with:"
+#, no-wrap
+msgid "First, make sure that all files in the root folder are owned by the server user and its user group with:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1025,10 +992,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:274
-msgid ""
-"And then, to make sure that users who want to actually browse your website "
-"can actually see the pages, you should run these commands (and yes, those "
-"semicolons matter):"
+#, no-wrap
+msgid "And then, to make sure that users who want to actually browse your website can actually see the pages, you should run these commands (and yes, those semicolons matter):\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1041,9 +1006,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:281
-msgid ""
-"That basically gives everyone the right to look at files on the server, but "
-"not modify them. Only the root and server users get to do that."
+#, no-wrap
+msgid "That basically gives everyone the right to look at files on the server, but not modify them. Only the root and server users get to do that.\n"
 msgstr ""
 
 #. type: Title ##
@@ -1054,18 +1018,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:285
-msgid ""
-"As of now, our [guide to getting SSL certificates with certbot](../security/"
-"generating_ssl_keys_lets_encrypt.md) has been updated with some basic "
-"instructions for `nginx`. Go give that a look, as it has full instructions "
-"for installing certbot, as well as generating the certificates."
+#, no-wrap
+msgid "As of now, our [guide to getting SSL certificates with certbot](../security/generating_ssl_keys_lets_encrypt.md) has been updated with some basic instructions for `nginx`. Go give that a look, as it has full instructions for installing certbot, as well as generating the certificates.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:287
-msgid ""
-"The time is coming when browsers might just stop letting people see sites "
-"without certificates at all, so make sure you get one for every site."
+#, no-wrap
+msgid "The time is coming when browsers might just stop letting people see sites without certificates at all, so make sure you get one for every site.\n"
 msgstr ""
 
 #. type: Title ##
@@ -1076,16 +1036,14 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/nginx-mainline.md:292
-msgid ""
-"If you want to see how to make *Nginx* work with PHP, and PHP-FPM "
-"specifically, check out our [guide to PHP on Rocky Linux](../web/php.md)."
+#, no-wrap
+msgid "If you want to see how to make *Nginx* work with PHP, and PHP-FPM specifically, check out our [guide to PHP on Rocky Linux](../web/php.md).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/nginx-mainline.md:292
-msgid ""
-"If you want to learn how to set up *Nginx* for multiple websites, we now "
-"have [a guide on just that subject](nginx-multisite.md)."
+#, no-wrap
+msgid "If you want to learn how to set up *Nginx* for multiple websites, we now have [a guide on just that subject](nginx-multisite.md).\n"
 msgstr ""
 
 #. type: Title ##
@@ -1096,16 +1054,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:296
-msgid ""
-"If you want to use the “stable” branch of `nginx`, even with its "
-"limitations, here's how you do it. First, make sure your OS is updated:"
+#, no-wrap
+msgid "If you want to use the “stable” branch of `nginx`, even with its limitations, here's how you do it. First, make sure your OS is updated:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:302
-msgid ""
-"Then, look for the latest `nginx` version available in the default repos "
-"with:"
+#, no-wrap
+msgid "Then, look for the latest `nginx` version available in the default repos with:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1128,7 +1084,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:319
-msgid "Choose the highest number on the list, and enable its module like so:"
+#, no-wrap
+msgid "Choose the highest number on the list, and enable its module like so:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1139,15 +1096,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:325
-msgid ""
-"You'll be asked if you're sure you want to do this, so just choose `Y` as "
-"usual. Then, use the default command to install `nginx`:"
+#, no-wrap
+msgid "You'll be asked if you're sure you want to do this, so just choose `Y` as usual. Then, use the default command to install `nginx`:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:331
-msgid ""
-"Then you can enable the service and configure your server as detailed above."
+#, no-wrap
+msgid "Then you can enable the service and configure your server as detailed above.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1164,21 +1120,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:339
-msgid ""
-"Beware that when enforced, nginx proxy_pass directives will fail with \"502 "
-"Bad Gateway\""
+#, no-wrap
+msgid "Beware that when enforced, nginx proxy_pass directives will fail with \"502 Bad Gateway\"\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:341
-msgid "You can either disable setenforce for development purposes"
+#, no-wrap
+msgid "You can either disable setenforce for development purposes\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:347
-msgid ""
-"or you can enable `http_d` or other services that related to nginx in `/var/"
-"log/audit/audit.log`"
+#, no-wrap
+msgid "or you can enable `http_d` or other services that related to nginx in `/var/log/audit/audit.log`\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1189,16 +1144,12 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:355
-msgid ""
-"The basic installation and configuration of `nginx` are easy, even if it’s "
-"more complicated than it should be to get the latest version. But, just "
-"follow the steps, and you’ll have one of the best server options out there "
-"up and running quickly."
+#, no-wrap
+msgid "The basic installation and configuration of `nginx` are easy, even if it’s more complicated than it should be to get the latest version. But, just follow the steps, and you’ll have one of the best server options out there up and running quickly.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/nginx-mainline.md:356
-msgid ""
-"Now you just have to go and build yourself a website? What could that take, "
-"another ten minutes? *Sobs quietly in Web Designer*"
+#, no-wrap
+msgid "Now you just have to go and build yourself a website? What could that take, another ten minutes? *Sobs quietly in Web Designer*\n"
 msgstr ""

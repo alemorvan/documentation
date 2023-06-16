@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,16 +86,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/perl_search_replace.md:12
-msgid ""
-"Sometimes you need to quickly search and replace strings in a file or group "
-"of files. There are many ways to do this, but this method uses `perl`"
+#, no-wrap
+msgid "Sometimes you need to quickly search and replace strings in a file or group of files. There are many ways to do this, but this method uses `perl`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/perl_search_replace.md:14
-msgid ""
-"To search for and replace a particular string across multiple files in a "
-"directory, the command would be:"
+#, no-wrap
+msgid "To search for and  replace a particular string across multiple files in a directory, the command would be:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -106,9 +104,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/perl_search_replace.md:20
-msgid ""
-"For a single file that might have multiple instances of the string, you can "
-"specify the file:"
+#, no-wrap
+msgid "For a single file that might have multiple instances of the string, you can specify the file:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -119,11 +116,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/perl_search_replace.md:26
-msgid ""
-"This command uses vi syntax for search and replace to find any occurrence of "
-"a string and replace it with another string across a single or multiple "
-"files of a particular type. Useful for replacing html/php link changes "
-"embedded in those types of files, and many other things."
+#, no-wrap
+msgid "This command uses vi syntax for search and replace to find any occurrence of a string and replace it with another string across a single or multiple files of a particular type. Useful for replacing html/php link changes embedded in those types of files, and many other things.\n"
 msgstr ""
 
 #. type: Title ##
@@ -149,6 +143,6 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/perl_search_replace.md:40
-msgid ""
-"A simple way to replace a string in either one or many files using `perl`."
+#, no-wrap
+msgid "A simple way to replace a string in either one or many files using `perl`.\n"
 msgstr ""

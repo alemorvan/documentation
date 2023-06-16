@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,7 +39,8 @@ msgstr ""
 #: ../src/docs/guides/package_management/index.md:10
 #: ../src/docs/guides/proxies/pound.md:211
 #: ../src/docs/guides/proxies/pound.md:265 ../src/docs/release_notes/8_4.md:20
-msgid "!!! warning"
+#, no-wrap
+msgid "!!! warning\n"
 msgstr ""
 
 #. type: YAML Front Matter: tags
@@ -142,35 +143,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/08-snapshots.md:15
-msgid ""
-"Throughout this chapter you will need to execute commands as your "
-"unprivileged user (\"lxdadmin\" if you've been following along from the "
-"beginning of this book)."
+#, no-wrap
+msgid "Throughout this chapter you will need to execute commands as your unprivileged user (\"lxdadmin\" if you've been following along from the beginning of this book).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/08-snapshots.md:17
-msgid ""
-"Container snapshots, along with a snapshot server (which we will get to more "
-"later), are probably the most important aspect of running a production LXD "
-"server. Snapshots ensure quick recovery, and can be used for safety when you "
-"are, say, updating the primary software that runs on a particular container. "
-"If something happens during the update that breaks that application, you "
-"simply restore the snapshot and you are back up and running with only a few "
-"seconds worth of downtime."
+#, no-wrap
+msgid "Container snapshots, along with a snapshot server (which we will get to more later), are probably the most important aspect of running a production LXD server. Snapshots ensure quick recovery, and can be used for safety when you are, say, updating the primary software that runs on a particular container. If something happens during the update that breaks that application, you simply restore the snapshot and you are back up and running with only a few seconds worth of downtime.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/08-snapshots.md:19
-msgid ""
-"The author used LXD containers for PowerDNS public facing servers, and the "
-"process of updating those applications became so much more worry-free, since "
-"you can snapshot the container first before continuing."
+#, no-wrap
+msgid "The author used LXD containers for PowerDNS public facing servers, and the process of updating those applications became so much more worry-free, since you can snapshot the container first before continuing.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/08-snapshots.md:21
-msgid "You can even snapshot a container while it is running."
+#, no-wrap
+msgid "You can even snapshot a container while it is running. \n"
 msgstr ""
 
 #. type: Title ##
@@ -181,9 +173,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/08-snapshots.md:25
-msgid ""
-"We'll start by getting a snapshot of the ubuntu-test container by using this "
-"command:"
+#, no-wrap
+msgid "We'll start by getting a snapshot of the ubuntu-test container by using this command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -194,17 +185,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/08-snapshots.md:31
-msgid ""
-"Here, we are calling the snapshot \"ubuntu-test-1\", but it can be called "
-"anything you like. To make sure that you have the snapshot, do an \"lxc info"
-"\" of the container:"
+#, no-wrap
+msgid "Here, we are calling the snapshot \"ubuntu-test-1\", but it can be called anything you like. To make sure that you have the snapshot, do an \"lxc info\" of the container:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/08-snapshots.md:37
-msgid ""
-"We've looked at an info screen already, so if you scroll to the bottom, you "
-"should see:"
+#, no-wrap
+msgid "We've looked at an info screen already, so if you scroll to the bottom, you should see:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -217,12 +205,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/08-snapshots.md:44
-msgid "Success! Our snapshot is in place."
+#, no-wrap
+msgid "Success! Our snapshot is in place.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/08-snapshots.md:46
-msgid "Now, get into the ubuntu-test container:"
+#, no-wrap
+msgid "Now, get into the ubuntu-test container:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -233,7 +223,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/08-snapshots.md:52
-msgid "And create an empty file with the _touch_ command:"
+#, no-wrap
+msgid "And create an empty file with the _touch_ command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -244,15 +235,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/08-snapshots.md:58
-msgid "Now exit the container."
+#, no-wrap
+msgid "Now exit the container.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/08-snapshots.md:60
-msgid ""
-"Before we restore the container as it was prior to creating the file, the "
-"safest way to restore a container, particularly if there have been a lot of "
-"changes, is to stop it first:"
+#, no-wrap
+msgid "Before we restore the container as it was prior to creating the file, the safest way to restore a container, particularly if there have been a lot of changes, is to stop it first:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -263,7 +253,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/08-snapshots.md:66
-msgid "Then restore it:"
+#, no-wrap
+msgid "Then restore it:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -274,7 +265,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/08-snapshots.md:72
-msgid "Then start the container again:"
+#, no-wrap
+msgid "Then start the container again:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -285,14 +277,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/08-snapshots.md:78
-msgid ""
-"If you get back into the container again and look, our \"this_file.txt\" "
-"that we created is now gone."
+#, no-wrap
+msgid "If you get back into the container again and look, our \"this_file.txt\" that we created is now gone.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/08-snapshots.md:80
-msgid "Once you don't need a snapshot anymore, you can delete it:"
+#, no-wrap
+msgid "Once you don't need a snapshot anymore, you can delete it:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -330,9 +322,6 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/08-snapshots.md:97
-msgid ""
-"The process of creating snapshots automatically, setting expiration of the "
-"snapshot so that it goes away after a certain length of time, and auto "
-"refreshing the snapshots to the snapshot server will be covered in detail in "
-"the following chapters."
+#, no-wrap
+msgid "The process of creating snapshots automatically, setting expiration of the snapshot so that it goes away after a certain length of time, and auto refreshing the snapshots to the snapshot server will be covered in detail in the following chapters.\n"
 msgstr ""

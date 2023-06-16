@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -142,7 +142,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -169,7 +168,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Title ##
@@ -349,31 +349,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/systemd_service_for_python_script.md:15
-msgid ""
-"If, like many sysadmins, you are an aficionado of cron scripts launched with "
-"`* * * * * /I/launch/my/script.sh`, this article should make you think of "
-"another way to do it using all the power and ease offered by `systemd`."
+#, no-wrap
+msgid "If, like many sysadmins, you are an aficionado of cron scripts launched with `* * * * * /I/launch/my/script.sh`, this article should make you think of another way to do it using all the power and ease offered by `systemd`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/systemd_service_for_python_script.md:17
-msgid ""
-"We will write a python script that will provide a continuous loop to execute "
-"the actions you define."
+#, no-wrap
+msgid "We will write a python script that will provide a continuous loop to execute the actions you define.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/systemd_service_for_python_script.md:19
-msgid ""
-"We will see how to run this script as a `systemd` service, view the logs in "
-"journalctl, and see what happens if the script crashes."
+#, no-wrap
+msgid "We will see how to run this script as a `systemd` service, view the logs in journalctl, and see what happens if the script crashes.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/systemd_service_for_python_script.md:23
-msgid ""
-"Let's start by installing some python dependencies needed for the script to "
-"use journalctl:"
+#, no-wrap
+msgid "Let's start by installing some python dependencies needed for the script to use journalctl:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -392,7 +387,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/systemd_service_for_python_script.md:32
-msgid "Let's consider the following script `my_service.py`:"
+#, no-wrap
+msgid "Let's consider the following script `my_service.py`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -444,10 +440,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/systemd_service_for_python_script.md:78
-msgid ""
-"We start by instantiating the necessary variables to send logs in journald. "
-"The script then launches an infinite loop and pauses for 60 seconds (which "
-"is the minimum of a cron execution, so we can go below this limitation)."
+#, no-wrap
+msgid "We start by instantiating the necessary variables to send logs in journald. The script then launches an infinite loop and pauses for 60 seconds (which is the minimum of a cron execution, so we can go below this limitation).\n"
 msgstr ""
 
 #. type: Plain text
@@ -464,16 +458,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/systemd_service_for_python_script.md:86
-msgid ""
-"Now that we have a script that can serve as a basis for your imagination, we "
-"can install it as a systemd service."
+#, no-wrap
+msgid "Now that we have a script that can serve as a basis for your imagination, we can install it as a systemd service.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/systemd_service_for_python_script.md:88
-msgid ""
-"Let's create this file `my_service.service` and copy it to `/etc/systemd/"
-"system/`."
+#, no-wrap
+msgid "Let's create this file `my_service.service` and copy it to `/etc/systemd/system/`.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -500,14 +492,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/systemd_service_for_python_script.md:109
-msgid ""
-"As you can see, the script is launched from `/opt/my_service/`. Remember to "
-"adapt the path to your script and the syslog identifier."
+#, no-wrap
+msgid "As you can see, the script is launched from `/opt/my_service/`. Remember to adapt the path to your script and the syslog identifier.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/systemd_service_for_python_script.md:111
-msgid "Launch and enable the new service:"
+#, no-wrap
+msgid "Launch and enable the new service:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -521,7 +513,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/systemd_service_for_python_script.md:121
-msgid "We can now view the logs via journalctl:"
+#, no-wrap
+msgid "We can now view the logs via journalctl:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -537,7 +530,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/systemd_service_for_python_script.md:131
-msgid "Now let's see what happens if the script crashes:"
+#, no-wrap
+msgid "Now let's see what happens if the script crashes:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -567,9 +561,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/systemd_service_for_python_script.md:152
-msgid ""
-"We can also wait 5 minutes for the script to crash by itself: (remove this "
-"for your production)"
+#, no-wrap
+msgid "We can also wait 5 minutes for the script to crash by itself: (remove this for your production)\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -594,17 +587,18 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/systemd_service_for_python_script.md:171
-msgid "As you can see, the restart feature of systemd is very useful."
+#, no-wrap
+msgid "As you can see, the restart feature of systemd is very useful.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/systemd_service_for_python_script.md:175
-msgid ""
-"`systemd` and `journald` provide us the tools to make robust and powerful "
-"scripts easily enough to replace our old reliable crontab scripts."
+#, no-wrap
+msgid "`systemd` and `journald` provide us the tools to make robust and powerful scripts easily enough to replace our old reliable crontab scripts.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/systemd_service_for_python_script.md:176
-msgid "I hope this solution will be useful for you."
+#, no-wrap
+msgid "I hope this solution will be useful for you.\n"
 msgstr ""

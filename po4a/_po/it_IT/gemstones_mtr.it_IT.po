@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -91,10 +91,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/mtr.md:11
-msgid ""
-"`mtr` is a network diagnostic tool that can diagnose network problems. It is "
-"used to replace the `ping` and `traceroute` commands. In terms of "
-"performance, the `mtr` command is faster."
+#, no-wrap
+msgid "`mtr` is a network diagnostic tool that can diagnose network problems. It is used to replace the `ping` and `traceroute` commands. In terms of performance, the `mtr` command is faster.\n"
 msgstr ""
 
 #. type: Title ##
@@ -113,24 +111,29 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/mtr.md:20
-msgid ""
-"The common options of the `mtr` command are as follows. Under normal "
-"circumstances, no additional options are required, followed by the host name "
-"or IP address directly:"
+#, no-wrap
+msgid "The common options of the `mtr` command are as follows. Under normal circumstances, no additional options are required, followed by the host name or IP address directly:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/mtr.md:30
+#, no-wrap
 msgid ""
-"|Options|Description| |---|---| |-4 |# Use IPv4 only| |-6 |# Use IPv6 only| "
-"|-c COUNT |# Number of pings sent| |-n |# Do not resolve the host name| |-z |"
-"# Display AS number| |-b |# Display ip and hostname| |-w |# Output a wide "
-"range of reports|"
+"|Options|Description|\n"
+"|---|---|\n"
+"|-4 |# Use IPv4 only|\n"
+"|-6 |# Use IPv6 only|\n"
+"|-c COUNT |# Number of pings sent|\n"
+"|-n |# Do not resolve the host name|\n"
+"|-z |# Display AS number|\n"
+"|-b |# Display ip and hostname|\n"
+"|-w |# Output a wide range of reports|\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/mtr.md:32
-msgid "The information exchanged by the terminal is as follows:"
+#, no-wrap
+msgid "The information exchanged by the terminal is as follows:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -160,37 +163,44 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/mtr.md:62
-msgid "Loss% - packet loss rate"
+#, no-wrap
+msgid "Loss% - packet loss rate\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/mtr.md:62
-msgid "Snt - the number of packets sent"
+#, no-wrap
+msgid "Snt - the number of packets sent\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/mtr.md:62
-msgid "Last - the delay of the last packet"
+#, no-wrap
+msgid "Last - the delay of the last packet\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/mtr.md:62
-msgid "Avg - average delay"
+#, no-wrap
+msgid "Avg - average delay\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/mtr.md:62
-msgid "Best - lowest latency"
+#, no-wrap
+msgid "Best - lowest latency\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/mtr.md:62
-msgid "Wrst - Worst time delay"
+#, no-wrap
+msgid "Wrst - Worst time delay\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/mtr.md:62
-msgid "StDev - variance (stability)"
+#, no-wrap
+msgid "StDev - variance (stability)\n"
 msgstr ""
 
 #. type: Title ##

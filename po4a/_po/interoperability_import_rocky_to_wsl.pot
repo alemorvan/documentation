@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,39 +87,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:17
-msgid ""
-"The Windows-Subsystem for Linux feature has to be enabled. This is possible "
-"with one of these options:"
+#, no-wrap
+msgid "The Windows-Subsystem for Linux feature has to be enabled. This is possible with one of these options:\n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:21
-msgid ""
-"Since very shortly there is now [a new WSL version available in the "
-"Microsoft Store](https://apps.microsoft.com/store/detail/windows-subsystem-"
-"for-linux/9P9TQF7MRM4R), which has more features use this if possible"
+#, no-wrap
+msgid "Since very shortly there is now [a new WSL version available in the Microsoft Store](https://apps.microsoft.com/store/detail/windows-subsystem-for-linux/9P9TQF7MRM4R), which has more features use this if possible\n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:21
-msgid ""
-"Open an administrative Terminal (either PowerShell or Command-Prompt) "
-"and<br>run `wsl --install` ([ref.](https://docs.microsoft.com/en-us/windows/"
-"wsl/install))"
+#, no-wrap
+msgid "Open an administrative Terminal (either PowerShell or Command-Prompt) and<br>run `wsl --install` ([ref.](https://docs.microsoft.com/en-us/windows/wsl/install))\n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:21
-msgid ""
-"Go to the graphical Windows Settings and enable the optional feature "
-"`Windows-Subsystem for Linux`"
+#, no-wrap
+msgid "Go to the graphical Windows Settings and enable the optional feature `Windows-Subsystem for Linux`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:23
-msgid ""
-"This feature should be available on every supported Windows 10 and 11 "
-"version right now."
+#, no-wrap
+msgid "This feature should be available on every supported Windows 10 and 11 version right now.\n"
 msgstr ""
 
 #. type: Title ##
@@ -130,50 +123,32 @@ msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:27
-msgid "Get the container rootfs. This is possible in multiple ways:"
+#, no-wrap
+msgid "Get the container rootfs. This is possible in multiple ways:\n"
 msgstr ""
 
 #. type: Bullet: '    - '
 #: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:32
-msgid "**Prefered:** Download the image from the CDN:"
+#, no-wrap
+msgid "**Prefered:** Download the image from the CDN:\n"
 msgstr ""
 
 #. type: Bullet: '        - '
 #: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:32
-msgid ""
-"8: [Base x86_64](https://dl.rockylinux.org/pub/rocky/8/images/x86_64/Rocky-8-"
-"Container-Base.latest.x86_64.tar.xz), [Minimal x86_64](https://dl.rockylinux."
-"org/pub/rocky/8/images/x86_64/Rocky-8-Container-Minimal.latest.x86_64.tar."
-"xz), [UBI x86_64](https://dl.rockylinux.org/pub/rocky/8/images/x86_64/"
-"Rocky-8-Container-UBI.latest.x86_64.tar.xz),<br>[Base aarch64](https://dl."
-"rockylinux.org/pub/rocky/8/images/aarch64/Rocky-8-Container-Base.latest."
-"aarch64.tar.xz), [Minimal aarch64](https://dl.rockylinux.org/pub/rocky/8/"
-"images/aarch64/Rocky-8-Container-Minimal.latest.aarch64.tar.xz), [UBI "
-"aarch64](https://dl.rockylinux.org/pub/rocky/8/images/aarch64/Rocky-8-"
-"Container-UBI.latest.aarch64.tar.xz)"
+#, no-wrap
+msgid "8: [Base x86_64](https://dl.rockylinux.org/pub/rocky/8/images/x86_64/Rocky-8-Container-Base.latest.x86_64.tar.xz), [Minimal x86_64](https://dl.rockylinux.org/pub/rocky/8/images/x86_64/Rocky-8-Container-Minimal.latest.x86_64.tar.xz), [UBI x86_64](https://dl.rockylinux.org/pub/rocky/8/images/x86_64/Rocky-8-Container-UBI.latest.x86_64.tar.xz),<br>[Base aarch64](https://dl.rockylinux.org/pub/rocky/8/images/aarch64/Rocky-8-Container-Base.latest.aarch64.tar.xz), [Minimal aarch64](https://dl.rockylinux.org/pub/rocky/8/images/aarch64/Rocky-8-Container-Minimal.latest.aarch64.tar.xz), [UBI aarch64](https://dl.rockylinux.org/pub/rocky/8/images/aarch64/Rocky-8-Container-UBI.latest.aarch64.tar.xz)\n"
 msgstr ""
 
 #. type: Bullet: '        - '
 #: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:32
-msgid ""
-"9: [Base x86_64](https://dl.rockylinux.org/pub/rocky/9/images/x86_64/Rocky-9-"
-"Container-Base.latest.x86_64.tar.xz), [Minimal x86_64](https://dl.rockylinux."
-"org/pub/rocky/9/images/x86_64/Rocky-9-Container-Minimal.latest.x86_64.tar."
-"xz), [UBI x86_64](https://dl.rockylinux.org/pub/rocky/9/images/x86_64/"
-"Rocky-9-Container-UBI.latest.x86_64.tar.xz),<br>[Base aarch64](https://dl."
-"rockylinux.org/pub/rocky/9/images/aarch64/Rocky-9-Container-Base.latest."
-"aarch64.tar.xz), [Minimal aarch64](https://dl.rockylinux.org/pub/rocky/9/"
-"images/aarch64/Rocky-9-Container-Minimal.latest.aarch64.tar.xz), [UBI "
-"aarch64](https://dl.rockylinux.org/pub/rocky/9/images/aarch64/Rocky-9-"
-"Container-UBI.latest.aarch64.tar.xz)"
+#, no-wrap
+msgid "9: [Base x86_64](https://dl.rockylinux.org/pub/rocky/9/images/x86_64/Rocky-9-Container-Base.latest.x86_64.tar.xz), [Minimal x86_64](https://dl.rockylinux.org/pub/rocky/9/images/x86_64/Rocky-9-Container-Minimal.latest.x86_64.tar.xz), [UBI x86_64](https://dl.rockylinux.org/pub/rocky/9/images/x86_64/Rocky-9-Container-UBI.latest.x86_64.tar.xz),<br>[Base aarch64](https://dl.rockylinux.org/pub/rocky/9/images/aarch64/Rocky-9-Container-Base.latest.aarch64.tar.xz), [Minimal aarch64](https://dl.rockylinux.org/pub/rocky/9/images/aarch64/Rocky-9-Container-Minimal.latest.aarch64.tar.xz), [UBI aarch64](https://dl.rockylinux.org/pub/rocky/9/images/aarch64/Rocky-9-Container-UBI.latest.aarch64.tar.xz)\n"
 msgstr ""
 
 #. type: Bullet: '    - '
 #: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:32
-msgid ""
-"Extract the image from either Docker Hub or Quay.io ([ref.](https://docs."
-"microsoft.com/en-us/windows/wsl/use-custom-distro#export-the-tar-from-a-"
-"container))"
+#, no-wrap
+msgid "Extract the image from either Docker Hub or Quay.io ([ref.](https://docs.microsoft.com/en-us/windows/wsl/use-custom-distro#export-the-tar-from-a-container))\n"
 msgstr ""
 
 #. type: Plain text
@@ -187,28 +162,26 @@ msgstr ""
 
 #. type: Bullet: '2. '
 #: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:40
-msgid ""
-"(optional) You will have to extract the .tar file from the .tar.xz file if "
-"you are using not one of the latest WSL versions"
+#, no-wrap
+msgid "(optional) You will have to extract the .tar file from the .tar.xz file if you are using not one of the latest WSL versions\n"
 msgstr ""
 
 #. type: Bullet: '3. '
 #: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:40
-msgid ""
-"Create the directory where the WSL will store its files (mostly somewhere in "
-"the userprofile)"
+#, no-wrap
+msgid "Create the directory where the WSL will store its files (mostly somewhere in the userprofile)\n"
 msgstr ""
 
 #. type: Bullet: '4. '
 #: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:40
-msgid ""
-"Finally, import the image into WSL ([ref.](https://docs.microsoft.com/en-us/"
-"windows/wsl/use-custom-distro#import-the-tar-file-into-wsl)):"
+#, no-wrap
+msgid "Finally, import the image into WSL ([ref.](https://docs.microsoft.com/en-us/windows/wsl/use-custom-distro#import-the-tar-file-into-wsl)):\n"
 msgstr ""
 
 #. type: Bullet: '    - '
 #: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:42
-msgid "WSL:"
+#, no-wrap
+msgid "WSL:\n"
 msgstr ""
 
 #. type: Plain text
@@ -222,7 +195,8 @@ msgstr ""
 
 #. type: Bullet: '    - '
 #: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:48
-msgid "WSL 2:"
+#, no-wrap
+msgid "WSL 2:\n"
 msgstr ""
 
 #. type: Plain text
@@ -236,7 +210,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:54
-msgid "!!! tip \"WSL vs. WSL 2\""
+#, no-wrap
+msgid "!!! tip \"WSL vs. WSL 2\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -247,7 +222,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:58
-msgid "!!! tip \"Windows Terminal\""
+#, no-wrap
+msgid "!!! tip \"Windows Terminal\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -258,7 +234,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:62
-msgid "!!! tip \"systemd\""
+#, no-wrap
+msgid "!!! tip \"systemd\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -269,7 +246,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:66
-msgid "!!! tip \"Microsoft Store\""
+#, no-wrap
+msgid "!!! tip \"Microsoft Store\"\n"
 msgstr ""
 
 #. type: Plain text

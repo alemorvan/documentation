@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -142,7 +142,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -169,7 +168,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Plain text
@@ -195,7 +195,8 @@ msgstr ""
 #: ../src/docs/guides/package_management/index.md:10
 #: ../src/docs/guides/proxies/pound.md:211
 #: ../src/docs/guides/proxies/pound.md:265 ../src/docs/release_notes/8_4.md:20
-msgid "!!! warning"
+#, no-wrap
+msgid "!!! warning\n"
 msgstr ""
 
 #. type: YAML Front Matter: tags
@@ -292,20 +293,14 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/books/lxd_server/04-firewall.md:15
 #: ../src/docs/books/lxd_server/10-automating.md:15
-msgid ""
-"Throughout this chapter you will need to be root or able to `sudo` to become "
-"root."
+#, no-wrap
+msgid "Throughout this chapter you will need to be root or able to `sudo` to become root.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/04-firewall.md:17
-msgid ""
-"As with any server, you need to make sure that it is secured from the "
-"outside world and on your LAN. While our example server only has a LAN "
-"interface, it is totally possible to have two interfaces, one each facing "
-"your LAN and WAN networks. While we cover `iptables` rules in this "
-"procedure, we **highly** recommend using the `firewalld` procedure instead "
-"(see the note below)."
+#, no-wrap
+msgid "As with any server, you need to make sure that it is secured from the outside world and on your LAN. While our example server only has a LAN interface, it is totally possible to have two interfaces, one each facing your LAN and WAN networks. While we cover `iptables` rules in this procedure, we **highly** recommend using the `firewalld` procedure instead (see the note below). \n"
 msgstr ""
 
 #. type: Title ##
@@ -316,7 +311,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/04-firewall.md:21
-msgid "!!! note \"A note regarding Rocky Linux 9.0\""
+#, no-wrap
+msgid "!!! note \"A note regarding Rocky Linux 9.0\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -333,17 +329,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/04-firewall.md:27
-msgid ""
-"Before continuing, you will want a firewall set up on your server. This "
-"example is using _iptables_ and [this procedure](../../guides/security/"
-"enabling_iptables_firewall.md) to disable _firewalld_. If you prefer to use "
-"_firewalld_, simply substitute in _firewalld_ rules using the instructions "
-"below this section."
+#, no-wrap
+msgid "Before continuing, you will want a firewall set up on your server. This example is using _iptables_ and [this procedure](../../guides/security/enabling_iptables_firewall.md) to disable _firewalld_. If you prefer to use _firewalld_, simply substitute in _firewalld_ rules using the instructions below this section.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/04-firewall.md:29
-msgid "Create your firewall.conf script:"
+#, no-wrap
+msgid "Create your firewall.conf script:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -354,21 +347,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/04-firewall.md:35
-msgid ""
-"We are assuming an LXD server on a LAN network of 192.168.1.0/24 below. "
-"Note, too, that we are accepting all traffic from our bridged interface. "
-"This is important if you want your containers to get IP addresses from the "
-"bridge."
+#, no-wrap
+msgid "We are assuming an LXD server on a LAN network of 192.168.1.0/24 below. Note, too, that we are accepting all traffic from our bridged interface. This is important if you want your containers to get IP addresses from the bridge.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/04-firewall.md:37
-msgid ""
-"This firewall script makes no other assumptions about the network services "
-"needed. There is an SSH rule to allow our LAN network IP's to SSH into the "
-"server. You can very easily have many more rules needed here, depending on "
-"your environment. Later, we will be adding a rule for bi-directional traffic "
-"between our production server and the snapshot server."
+#, no-wrap
+msgid "This firewall script makes no other assumptions about the network services needed. There is an SSH rule to allow our LAN network IP's to SSH into the server. You can very easily have many more rules needed here, depending on your environment. Later, we will be adding a rule for bi-directional traffic between our production server and the snapshot server.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -403,15 +389,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/04-firewall.md:62
-msgid ""
-"For _firewalld_ rules, we need to use [this basic procedure](../../guides/"
-"security/firewalld.md) or be familiar with those concepts. Our assumptions "
-"are the same as with the _iptables_ rules above: LAN network of "
-"192.168.1.0/24 and a bridge named lxdbr0. To be clear, you might have "
-"multiple interfaces on your LXD server, with one perhaps facing your WAN as "
-"well. We are also going to create a zone for the bridged and local networks. "
-"This is just for zone clarity sake, as the other names do not really apply. "
-"The below assumes that you already know the basics of _firewalld_."
+#, no-wrap
+msgid "For _firewalld_ rules, we need to use [this basic procedure](../../guides/security/firewalld.md) or be familiar with those concepts. Our assumptions are the same as with the _iptables_ rules above: LAN network of 192.168.1.0/24 and a bridge named lxdbr0. To be clear, you might have multiple interfaces on your LXD server, with one perhaps facing your WAN as well. We are also going to create a zone for the bridged and local networks. This is just for zone clarity sake, as the other names do not really apply. The below assumes that you already know the basics of _firewalld_.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -422,7 +401,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/04-firewall.md:68
-msgid "You need to reload the firewall after adding a zone:"
+#, no-wrap
+msgid "You need to reload the firewall after adding a zone:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -438,10 +418,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/04-firewall.md:74
-msgid ""
-"We want to allow all traffic from the bridge, so let's just add the "
-"interface, and then change the target from \"default\" to \"ACCEPT\" and we "
-"will be done:"
+#, no-wrap
+msgid "We want to allow all traffic from the bridge, so let's just add the interface, and then change the target from \"default\" to \"ACCEPT\" and we will be done:\n"
 msgstr ""
 
 #. type: Plain text
@@ -466,14 +444,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/04-firewall.md:88
-msgid "Assuming no errors and everything is still working just do a reload:"
+#, no-wrap
+msgid "Assuming no errors and everything is still working just do a reload:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/04-firewall.md:93
-msgid ""
-"If you list out your rules now with `firewall-cmd --zone=bridge --list-all` "
-"you should see something like the following:"
+#, no-wrap
+msgid "If you list out your rules now with `firewall-cmd --zone=bridge --list-all` you should see something like the following:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -498,11 +476,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/04-firewall.md:111
-msgid ""
-"Note from the _iptables_ rules, that we also want to allow our local "
-"interface. Again, I do not like the included zones for this, so create a new "
-"zone and use the source IP range for the local interface to make sure you "
-"have access:"
+#, no-wrap
+msgid "Note from the _iptables_ rules, that we also want to allow our local interface. Again, I do not like the included zones for this, so create a new zone and use the source IP range for the local interface to make sure you have access:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -515,9 +490,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/04-firewall.md:117
-msgid ""
-"Then we just need to add the source IP's for the local interface, change the "
-"target to \"ACCEPT\" and we are done with this as well:"
+#, no-wrap
+msgid "Then we just need to add the source IP's for the local interface, change the target to \"ACCEPT\" and we are done with this as well:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -531,10 +505,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/04-firewall.md:124
-msgid ""
-"Go ahead and list out the \"local\" zone to make sure your rules are there "
-"with `firewall-cmd --zone=local --list all` which should show you something "
-"like this:"
+#, no-wrap
+msgid "Go ahead and list out the \"local\" zone to make sure your rules are there with `firewall-cmd --zone=local --list all` which should show you something like this:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -559,10 +531,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/04-firewall.md:143
-msgid ""
-"Next we want to allow SSH from our trusted network. We will use the source "
-"IP's here, just like in our _iptables_ example, and the built-in \"trusted\" "
-"zone. The target for this zone is already \"ACCEPT\" by default."
+#, no-wrap
+msgid "Next we want to allow SSH from our trusted network. We will use the source IP's here, just like in our _iptables_ example, and the built-in \"trusted\" zone. The target for this zone is already \"ACCEPT\" by default.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -573,7 +543,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/04-firewall.md:148
-msgid "Then add the service to the zone:"
+#, no-wrap
+msgid "Then add the service to the zone:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -584,9 +555,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/04-firewall.md:153
-msgid ""
-"And if everything is working, move your rules to permanent and reload the "
-"rules:"
+#, no-wrap
+msgid "And if everything is working, move your rules to permanent and reload the rules:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -599,8 +569,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/04-firewall.md:159
-msgid ""
-"Listing out your \"trusted\" zone should now show you something like this:"
+#, no-wrap
+msgid "Listing out your \"trusted\" zone should now show you something like this:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -626,13 +596,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/04-firewall.md:178
-msgid ""
-"By default, the \"public\" zone is enabled and has SSH allowed. We don't "
-"want this. Make sure that your zones are correct and that the access you are "
-"getting to the server is via one of the LAN IP's (in the case of our "
-"example) and is allowed to SSH. You could lock yourself out of the server if "
-"you don't verify this before continuing. Once you've made sure you have "
-"access from the correct interface, remove SSH from the \"public\" zone:"
+#, no-wrap
+msgid "By default, the \"public\" zone is enabled and has SSH allowed. We don't want this. Make sure that your zones are correct and that the access you are getting to the server is via one of the LAN IP's (in the case of our example) and is allowed to SSH. You could lock yourself out of the server if you don't verify this before continuing. Once you've made sure you have access from the correct interface, remove SSH from the \"public\" zone:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -643,10 +608,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/04-firewall.md:184
-msgid ""
-"Test access and make sure you aren't locked out. If not, then move your "
-"rules to permanent, reload, and list out zone \"public\" to be sure that SSH "
-"is removed:"
+#, no-wrap
+msgid "Test access and make sure you aren't locked out. If not, then move your rules to permanent, reload, and list out zone \"public\" to be sure that SSH is removed:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -660,12 +623,6 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/04-firewall.md:191
-msgid ""
-"There may be other interfaces on your server to consider. You can use built-"
-"in zones where appropriate, but if you don't like the names (they don't "
-"appear logical, etc.), you can definitely add zones. Just remember that if "
-"you have no services or protocols that you need to allow or reject "
-"specifically, then you will need to modify the zone target. If it works to "
-"use interfaces, as we've done with the bridge, you can do that. If you need "
-"more granular access to services, uses source IP's instead."
+#, no-wrap
+msgid "There may be other interfaces on your server to consider. You can use built-in zones where appropriate, but if you don't like the names (they don't appear logical, etc.), you can definitely add zones. Just remember that if you have no services or protocols that you need to allow or reject specifically, then you will need to modify the zone target. If it works to use interfaces, as we've done with the bridge, you can do that. If you need more granular access to services, uses source IP's instead.\n"
 msgstr ""

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -172,7 +172,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -199,7 +198,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Plain text
@@ -310,7 +310,8 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:394
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:154
 #: ../src/docs/guides/web/php.md:255
-msgid "Example:"
+#, no-wrap
+msgid "Example:\n"
 msgstr ""
 
 #. type: Plain text
@@ -343,7 +344,8 @@ msgstr ""
 #: ../src/docs/guides/proxies/pound.md:62
 #: ../src/docs/guides/proxies/pound.md:418 ../src/docs/index.md:40
 #: ../src/docs/release_notes/9_1.md:16
-msgid "!!! note"
+#, no-wrap
+msgid "!!! note\n"
 msgstr ""
 
 #. type: Plain text
@@ -474,8 +476,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/02-using-variables.md:15
-msgid ""
-"In this chapter you will learn how to use variables in your bash scripts."
+#, no-wrap
+msgid "In this chapter you will learn how to use variables in your bash scripts.\n"
 msgstr ""
 
 #. type: Plain text
@@ -506,7 +508,8 @@ msgstr ""
 #: ../src/docs/books/learning_bash/02-using-variables.md:26
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:26
 #: ../src/docs/books/learning_bash/05-tests.md:24
-msgid ":checkered_flag: **linux**, **script**, **bash**, **variable**"
+#, no-wrap
+msgid ":checkered_flag: **linux**, **script**, **bash**, **variable**\n"
 msgstr ""
 
 #. type: Plain text
@@ -523,33 +526,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/02-using-variables.md:37
-msgid ""
-"As in any programming language, the shell script uses variables. They are "
-"used to store information in memory to be reused as needed during the script."
+#, no-wrap
+msgid "As in any programming language, the shell script uses variables. They are used to store information in memory to be reused as needed during the script.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/02-using-variables.md:39
-msgid ""
-"A variable is created when it receives its content. It remains valid until "
-"the end of the execution of the script or at the explicit request of the "
-"script author. Since the script is executed sequentially from start to "
-"finish, it is impossible to call a variable before it is created."
+#, no-wrap
+msgid "A variable is created when it receives its content. It remains valid until the end of the execution of the script or at the explicit request of the script author. Since the script is executed sequentially from start to finish, it is impossible to call a variable before it is created.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/02-using-variables.md:41
-msgid ""
-"The content of a variable can be changed during the script, as the variable "
-"continues to exist until the script ends. If the content is deleted, the "
-"variable remains active but contains nothing."
+#, no-wrap
+msgid "The content of a variable can be changed during the script, as the variable continues to exist until the script ends. If the content is deleted, the variable remains active but contains nothing.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/02-using-variables.md:43
-msgid ""
-"The notion of a variable type in a shell script is possible but is very "
-"rarely used. The content of a variable is always a character or a string."
+#, no-wrap
+msgid "The notion of a variable type in a shell script is possible but is very rarely used. The content of a variable is always a character or a string.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -586,25 +582,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/02-using-variables.md:74
-msgid ""
-"This script makes use of variables. The name of a variable must start with a "
-"letter but can contain any sequence of letters or numbers. Except for the "
-"underscore \"_\", special characters cannot be used."
+#, no-wrap
+msgid "This script makes use of variables. The name of a variable must start with a letter but can contain any sequence of letters or numbers. Except for the underscore \"_\", special characters cannot be used.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/02-using-variables.md:76
-msgid ""
-"By convention, variables created by a user have a name in lower case. This "
-"name must be chosen with care so as not to be too evasive or too "
-"complicated. However, a variable can be named with upper case letters, as in "
-"this case, if it is a global variable that should not be modified by the "
-"program."
+#, no-wrap
+msgid "By convention, variables created by a user have a name in lower case. This name must be chosen with care so as not to be too evasive or too complicated. However, a variable can be named with upper case letters, as in this case, if it is a global variable that should not be modified by the program.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/02-using-variables.md:78
-msgid "The character `=` assigns content to a variable:"
+#, no-wrap
+msgid "The character `=` assigns content to a variable:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -617,13 +608,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/02-using-variables.md:85
-msgid "There is no space before or after the `=` sign."
+#, no-wrap
+msgid "There is no space before or after the `=` sign.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/02-using-variables.md:87
-msgid ""
-"Once the variable is created, it can be used by prefixing it with a dollar $."
+#, no-wrap
+msgid "Once the variable is created, it can be used by prefixing it with a dollar $.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -636,9 +628,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/02-using-variables.md:94
-msgid ""
-"It is strongly recommended to protect variables with quotes, as in this "
-"example below:"
+#, no-wrap
+msgid "It is strongly recommended to protect variables with quotes, as in this example below:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -652,17 +643,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/02-using-variables.md:102
-msgid ""
-"As the content of the variable contains a space, the first `touch` will "
-"create 2 files while the second `touch` will create a file whose name will "
-"contain a space."
+#, no-wrap
+msgid "As the content of the variable contains a space, the first `touch` will create 2 files while the second `touch` will create a file whose name will contain a space.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/02-using-variables.md:104
-msgid ""
-"To isolate the name of the variable from the rest of the text, you must use "
-"quotes or braces:"
+#, no-wrap
+msgid "To isolate the name of the variable from the rest of the text, you must use quotes or braces:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -682,8 +670,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/02-using-variables.md:114
-msgid ""
-"The use of apostrophes inhibits the interpretation of special characters."
+#, no-wrap
+msgid "The use of apostrophes inhibits the interpretation of special characters.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -705,7 +693,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/02-using-variables.md:126
-msgid "The `unset` command allows for the deletion of a variable."
+#, no-wrap
+msgid "The `unset` command allows for the deletion of a variable.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -723,7 +712,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/02-using-variables.md:140
-msgid "The `readonly` or `typeset -r` command locks a variable."
+#, no-wrap
+msgid "The `readonly` or `typeset -r` command locks a variable.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -758,26 +748,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/02-using-variables.md:161
-msgid ""
-"Like all variables, they can be displayed when a script is executed. Even if "
-"this is strongly discouraged, they can also be modified."
+#, no-wrap
+msgid "Like all variables, they can be displayed when a script is executed. Even if this is strongly discouraged, they can also be modified.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/02-using-variables.md:163
-msgid "The `env` command displays all the environment variables used."
+#, no-wrap
+msgid "The `env` command displays all the environment variables used.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/02-using-variables.md:165
-msgid "The `set` command displays all used system variables."
+#, no-wrap
+msgid "The `set` command displays all used system variables.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/02-using-variables.md:167
-msgid ""
-"Among the dozens of environment variables, several are of interest to be "
-"used in a shell script:"
+#, no-wrap
+msgid "Among the dozens of environment variables, several are of interest to be used in a shell script:\n"
 msgstr ""
 
 #. type: Plain text
@@ -797,22 +787,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/02-using-variables.md:179
-msgid "The `export` command allows you to export a variable."
+#, no-wrap
+msgid "The `export` command allows you to export a variable.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/02-using-variables.md:181
-msgid ""
-"A variable is only valid in the environment of the shell script process. In "
-"order for the **child processes** of the script to know the variables and "
-"their contents, they must be exported."
+#, no-wrap
+msgid "A variable is only valid in the environment of the shell script process. In order for the **child processes** of the script to know the variables and their contents, they must be exported.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/02-using-variables.md:183
-msgid ""
-"The modification of a variable exported in a child process cannot be traced "
-"back to the parent process."
+#, no-wrap
+msgid "The modification of a variable exported in a child process cannot be traced back to the parent process.\n"
 msgstr ""
 
 #. type: Plain text
@@ -829,7 +817,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/02-using-variables.md:191
-msgid "It is possible to store the result of a command in a variable."
+#, no-wrap
+msgid "It is possible to store the result of a command in a variable.\n"
 msgstr ""
 
 #. type: Plain text
@@ -840,7 +829,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/02-using-variables.md:197
-msgid "The syntax for sub-executing a command is as follows:"
+#, no-wrap
+msgid "The syntax for sub-executing a command is as follows:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -861,8 +851,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/02-using-variables.md:211
-msgid ""
-"With everything we've just seen, our backup script might look like this:"
+#, no-wrap
+msgid "With everything we've just seen, our backup script might look like this:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -916,7 +906,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/02-using-variables.md:259
-msgid "Running our backup script:"
+#, no-wrap
+msgid "Running our backup script:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -927,7 +918,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/02-using-variables.md:265
-msgid "will give us:"
+#, no-wrap
+msgid "will give us:\n"
 msgstr ""
 
 #. type: Fenced code block

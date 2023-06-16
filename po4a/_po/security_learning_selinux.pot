@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -157,7 +157,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -184,7 +183,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Plain text
@@ -213,7 +213,8 @@ msgstr ""
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:125
 #: ../src/docs/guides/security/learning_selinux.md:289
 #: ../src/docs/guides/security/pam.md:287
-msgid "Examples:"
+#, no-wrap
+msgid "Examples:\n"
 msgstr ""
 
 #. type: Plain text
@@ -324,7 +325,8 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:394
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:154
 #: ../src/docs/guides/web/php.md:255
-msgid "Example:"
+#, no-wrap
+msgid "Example:\n"
 msgstr ""
 
 #. type: Plain text
@@ -380,7 +382,8 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:243
 #: ../src/docs/guides/security/learning_selinux.md:263
 #: ../src/docs/guides/web/php.md:145
-msgid "!!! Warning"
+#, no-wrap
+msgid "!!! Warning\n"
 msgstr ""
 
 #. type: YAML Front Matter: tags
@@ -432,37 +435,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:13
-msgid ""
-"With the arrival of kernel version 2.6, a new security system was introduced "
-"to provide a security mechanism to support access control security policies."
+#, no-wrap
+msgid "With the arrival of kernel version 2.6, a new security system was introduced to provide a security mechanism to support access control security policies.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:15
-msgid ""
-"This system is called **SELinux** (**S**ecurity **E**nhanced **Linux**) and "
-"was created by the **NSA** (**N**ational **S**ecurity **A**gency) to "
-"implement a robust **M**andatory **A**ccess **C**ontrol (**MAC**) "
-"architecture in the Linux kernel subsystems."
+#, no-wrap
+msgid "This system is called **SELinux** (**S**ecurity **E**nhanced **Linux**) and was created by the **NSA** (**N**ational **S**ecurity **A**gency) to implement a robust **M**andatory **A**ccess **C**ontrol (**MAC**) architecture in the Linux kernel subsystems.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:17
-msgid ""
-"If, throughout your career, you have either disabled or ignored SELinux, "
-"this document will be a good introduction to this system. SELinux works to "
-"limit privileges or remove the risks associated with compromising a program "
-"or daemon."
+#, no-wrap
+msgid "If, throughout your career, you have either disabled or ignored SELinux, this document will be a good introduction to this system. SELinux works to limit privileges or remove the risks associated with compromising a program or daemon.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:19
-msgid ""
-"Before starting, you should know that SELinux is mainly intended for RHEL "
-"distributions, although it is possible to implement it on other "
-"distributions like Debian (but good luck!). The distributions of the Debian "
-"family generally integrate the AppArmor system, which works differently from "
-"SELinux."
+#, no-wrap
+msgid "Before starting, you should know that SELinux is mainly intended for RHEL distributions, although it is possible to implement it on other distributions like Debian (but good luck!). The distributions of the Debian family generally integrate the AppArmor system, which works differently from SELinux.\n"
 msgstr ""
 
 #. type: Plain text
@@ -473,44 +465,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:25
-msgid ""
-"Before the appearance of MAC systems, standard access management security "
-"was based on **DAC** (**D**iscretionary **A**ccess **C**ontrol) systems. An "
-"application, or a daemon, operated with **UID** or **SUID** (**S**et "
-"**O**wner **U**ser **I**d) rights, which made it possible to evaluate "
-"permissions (on files, sockets, and other processes...) according to this "
-"user. This operation does not sufficiently limit the rights of a program "
-"that is corrupted, potentially allowing it to access the subsystems of the "
-"operating system."
+#, no-wrap
+msgid "Before the appearance of MAC systems, standard access management security was based on **DAC** (**D**iscretionary **A**ccess **C**ontrol) systems. An application, or a daemon, operated with **UID** or **SUID** (**S**et **O**wner **U**ser **I**d) rights, which made it possible to evaluate permissions (on files, sockets, and other processes...) according to this user. This operation does not sufficiently limit the rights of a program that is corrupted, potentially allowing it to access the subsystems of the operating system.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:27
-msgid ""
-"A MAC system reinforces the separation of confidentiality and integrity "
-"information in the system to achieve a containment system. The containment "
-"system is independent of the traditional rights system and there is no "
-"notion of a superuser."
+#, no-wrap
+msgid "A MAC system reinforces the separation of confidentiality and integrity information in the system to achieve a containment system. The containment system is independent of the traditional rights system and there is no notion of a superuser.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:29
-msgid ""
-"With each system call, the kernel queries SELinux to see if it allows the "
-"action to be performed."
+#, no-wrap
+msgid "With each system call, the kernel queries SELinux to see if it allows the action to be performed.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:31
-msgid "![SELinux](../images/selinux_001.png)"
+#, no-wrap
+msgid "![SELinux](../images/selinux_001.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:33
-msgid ""
-"SELinux uses a set of rules (policies) for this. A set of two standard rule "
-"sets (**targeted** and **strict**) is provided and each application usually "
-"provides its own rules."
+#, no-wrap
+msgid "SELinux uses a set of rules (policies) for this. A set of two standard rule sets (**targeted** and **strict**) is provided and each application usually provides its own rules.\n"
 msgstr ""
 
 #. type: Title ###
@@ -521,91 +501,86 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:37
-msgid ""
-"The operation of SELinux is totally different from traditional Unix rights."
+#, no-wrap
+msgid "The operation of SELinux is totally different from traditional Unix rights.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:39
-msgid ""
-"The SELinux security context is defined by the trio **identity**+**role**"
-"+**domain**."
+#, no-wrap
+msgid "The SELinux security context is defined by the trio **identity**+**role**+**domain**.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:41
-msgid ""
-"The identity of a user depends directly on his Linux account. An identity is "
-"assigned one or more roles, but to each role corresponds to one domain, and "
-"only one."
+#, no-wrap
+msgid "The identity of a user depends directly on his Linux account. An identity is assigned one or more roles, but to each role corresponds to one domain, and only one.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:43
-msgid ""
-"It is according to the domain of the security context (and thus the role) "
-"that the rights of a user on a resource are evaluated."
+#, no-wrap
+msgid "It is according to the domain of the security context (and thus the role) that the rights of a user on a resource are evaluated.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:45
-msgid "![SELinux context](../images/selinux_002.png)"
+#, no-wrap
+msgid "![SELinux context](../images/selinux_002.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:47
-msgid ""
-"The terms \"domain\" and \"type\" are similar. Typically \"domain\" is used "
-"when referring to a process, while \"type\" refers to an object."
+#, no-wrap
+msgid "The terms \"domain\" and \"type\" are similar. Typically \"domain\" is used when referring to a process, while \"type\" refers to an object.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:49
-msgid "The naming convention is: **user_u:role_r:type_t**."
+#, no-wrap
+msgid "The naming convention is: **user_u:role_r:type_t**.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:51
-msgid ""
-"The security context is assigned to a user at the time of his connection, "
-"according to his roles. The security context of a file is defined by the "
-"`chcon` (**ch**ange **con**text) command, which we will see later in this "
-"document."
+#, no-wrap
+msgid "The security context is assigned to a user at the time of his connection, according to his roles. The security context of a file is defined by the `chcon` (**ch**ange **con**text) command, which we will see later in this document.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:53
-msgid "Consider the following pieces of the SELinux puzzle:"
+#, no-wrap
+msgid "Consider the following pieces of the SELinux puzzle:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/learning_selinux.md:58
-msgid "The subjects"
+#, no-wrap
+msgid "The subjects\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/learning_selinux.md:58
-msgid "The objects"
+#, no-wrap
+msgid "The objects\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/learning_selinux.md:58
-msgid "The policies"
+#, no-wrap
+msgid "The policies\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/learning_selinux.md:58
-msgid "The mode"
+#, no-wrap
+msgid "The mode\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:60
-msgid ""
-"When a subject (an application for example) tries to access an object (a "
-"file for example), the SELinux part of the Linux kernel queries its policy "
-"database. Depending on the mode of operation, SELinux authorizes access to "
-"the object in case of success, otherwise it records the failure in the file "
-"`/var/log/messages`."
+#, no-wrap
+msgid "When a subject (an application for example) tries to access an object (a file for example), the SELinux part of the Linux kernel queries its policy database. Depending on the mode of operation, SELinux authorizes access to the object in case of success, otherwise it records the failure in the file `/var/log/messages`.\n"
 msgstr ""
 
 #. type: Title ####
@@ -616,34 +591,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:64
-msgid "The rights of a process depend on its security context."
+#, no-wrap
+msgid "The rights of a process depend on its security context.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:66
-msgid ""
-"By default, the security context of the process is defined by the context of "
-"the user (identity + role + domain) who launches it."
+#, no-wrap
+msgid "By default, the security context of the process is defined by the context of the user (identity + role + domain) who launches it.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:68
-msgid ""
-"A domain being a specific type (in the SELinux sense) linked to a process "
-"and inherited (normally) from the user who launched it, its rights are "
-"expressed in terms of authorization or refusal on types linked to objects:"
+#, no-wrap
+msgid "A domain being a specific type (in the SELinux sense) linked to a process and inherited (normally) from the user who launched it, its rights are expressed in terms of authorization or refusal on types linked to objects:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:70
-msgid ""
-"A process whose context has security __domain D__ can access objects of "
-"__type T__."
+#, no-wrap
+msgid "A process whose context has security __domain D__ can access objects of __type T__.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:72
-msgid "![The SELinux context of standard processes](../images/selinux_003.png)"
+#, no-wrap
+msgid "![The SELinux context of standard processes](../images/selinux_003.png)\n"
 msgstr ""
 
 #. type: Title ####
@@ -654,29 +627,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:76
-msgid "Most important programs are assigned a dedicated domain."
+#, no-wrap
+msgid "Most important programs are assigned a dedicated domain.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:78
-msgid ""
-"Each executable is tagged with a dedicated type (here **sshd_exec_t**) which "
-"automatically switches the associated process to the **sshd_t** context "
-"(instead of **user_t**)."
+#, no-wrap
+msgid "Each executable is tagged with a dedicated type (here **sshd_exec_t**) which automatically switches the associated process to the **sshd_t** context (instead of **user_t**).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:80
-msgid ""
-"This mechanism is essential since it restricts the rights of a process as "
-"much as possible."
+#, no-wrap
+msgid "This mechanism is essential since it restricts the rights of a process as much as possible.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:82
-msgid ""
-"![The SELinux context of an important process - example of sshd](../images/"
-"selinux_004.png)"
+#, no-wrap
+msgid "![The SELinux context of an important process - example of sshd](../images/selinux_004.png)\n"
 msgstr ""
 
 #. type: Title ##
@@ -687,7 +657,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:86
-msgid "The `semanage` command is used to manage SELinux rules."
+#, no-wrap
+msgid "The `semanage` command is used to manage SELinux rules.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -716,15 +687,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:105
-msgid ""
-"The `semanage` command may not be installed by default under Rocky Linux."
+#, no-wrap
+msgid "The `semanage` command may not be installed by default under Rocky Linux.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:107
-msgid ""
-"Without knowing the package that provides this command, you should search "
-"for its name with the command:"
+#, no-wrap
+msgid "Without knowing the package that provides this command, you should search for its name with the command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -735,7 +705,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:113
-msgid "then install it:"
+#, no-wrap
+msgid "then install it:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -752,7 +723,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:121
-msgid "Booleans allow the containment of processes."
+#, no-wrap
+msgid "Booleans allow the containment of processes.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -763,7 +735,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:127
-msgid "To list the available Booleans:"
+#, no-wrap
+msgid "To list the available Booleans:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -785,8 +758,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:141
-msgid ""
-"The `setsebool` command is used to change the state of a boolean object:"
+#, no-wrap
+msgid "The `setsebool` command is used to change the state of a boolean object:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -825,7 +798,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:164
-msgid "The `semanage` command is used to manage objects of type port:"
+#, no-wrap
+msgid "The `semanage` command is used to manage objects of type port:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -836,7 +810,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:170
-msgid "Example: allow port 81 for httpd domain processes"
+#, no-wrap
+msgid "Example: allow port 81 for httpd domain processes\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -853,52 +828,56 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:178
-msgid "SELinux has three operating modes:"
+#, no-wrap
+msgid "SELinux has three operating modes:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/learning_selinux.md:180
-msgid "Enforcing"
+#, no-wrap
+msgid "Enforcing\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:182
-msgid ""
-"Default mode for Rocky Linux. Access will be restricted according to the "
-"rules in force."
+#, no-wrap
+msgid "Default mode for Rocky Linux. Access will be restricted according to the rules in force.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/learning_selinux.md:184
-msgid "Permissive"
+#, no-wrap
+msgid "Permissive\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:186
-msgid ""
-"Rules are polled, access errors are logged, but access will not be blocked."
+#, no-wrap
+msgid "Rules are polled, access errors are logged, but access will not be blocked.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/learning_selinux.md:188
-msgid "Disabled"
+#, no-wrap
+msgid "Disabled\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:190
-msgid "Nothing will be restricted, nothing will be logged."
+#, no-wrap
+msgid "Nothing will be restricted, nothing will be logged.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:192
-msgid ""
-"By default, most operating systems are configured with SELinux in Enforcing "
-"mode."
+#, no-wrap
+msgid "By default, most operating systems are configured with SELinux in Enforcing mode.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:194
-msgid "The `getenforce` command returns the current operating mode"
+#, no-wrap
+msgid "The `getenforce` command returns the current operating mode\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -917,7 +896,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:207
-msgid "The `sestatus` command returns information about SELinux"
+#, no-wrap
+msgid "The `sestatus` command returns information about SELinux\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -943,7 +923,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:227
-msgid "The `setenforce` command changes the current operating mode:"
+#, no-wrap
+msgid "The `setenforce` command changes the current operating mode:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -954,7 +935,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:233
-msgid "Switch SELinux to permissive mode:"
+#, no-wrap
+msgid "Switch SELinux to permissive mode:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -972,9 +954,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:241
-msgid ""
-"The `/etc/sysconfig/selinux` file allows you to change the operating mode of "
-"SELinux."
+#, no-wrap
+msgid "The `/etc/sysconfig/selinux` file allows you to change the operating mode of SELinux.\n"
 msgstr ""
 
 #. type: Plain text
@@ -985,7 +966,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:247
-msgid "Edit the file `/etc/sysconfig/selinux`"
+#, no-wrap
+msgid "Edit the file `/etc/sysconfig/selinux`\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1002,7 +984,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:257
-msgid "Reboot the system:"
+#, no-wrap
+msgid "Reboot the system:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1019,20 +1002,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:267
-msgid ""
-"In permissive or disabled mode, newly created files will not have any labels."
+#, no-wrap
+msgid "In permissive or disabled mode, newly created files will not have any labels.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:269
-msgid ""
-"To reactivate SELinux, you will have to reposition the labels on your entire "
-"system."
+#, no-wrap
+msgid "To reactivate SELinux, you will have to reposition the labels on your entire system.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:271
-msgid "Labeling the entire system:"
+#, no-wrap
+msgid "Labeling the entire system:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1051,19 +1034,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:280
-msgid "SELinux provides two standard types of rules:"
+#, no-wrap
+msgid "SELinux provides two standard types of rules:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/learning_selinux.md:283
-msgid ""
-"**Targeted**: only network daemons are protected (`dhcpd`, `httpd`, `named`, "
-"`nscd`, `ntpd`, `portmap`, `snmpd`, `squid` and `syslogd`)"
+#, no-wrap
+msgid "**Targeted**: only network daemons are protected (`dhcpd`, `httpd`, `named`, `nscd`, `ntpd`, `portmap`, `snmpd`, `squid` and `syslogd`)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/learning_selinux.md:283
-msgid "**Strict**: all daemons are protected"
+#, no-wrap
+msgid "**Strict**: all daemons are protected\n"
 msgstr ""
 
 #. type: Title ##
@@ -1074,9 +1058,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:287
-msgid ""
-"The display of security contexts is done with the `-Z` option. It is "
-"associated with many commands:"
+#, no-wrap
+msgid "The display of security contexts is done with the `-Z` option. It is associated with many commands:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1092,7 +1075,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:299
-msgid "The `matchpathcon` command returns the context of a directory."
+#, no-wrap
+msgid "The `matchpathcon` command returns the context of a directory.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1114,7 +1098,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:315
-msgid "The `chcon` command modifies a security context:"
+#, no-wrap
+msgid "The `chcon` command modifies a security context:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1142,9 +1127,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:333
-msgid ""
-"The `restorecon` command restores the default security context (the one "
-"provided by the rules):"
+#, no-wrap
+msgid "The `restorecon` command restores the default security context (the one provided by the rules):\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1171,9 +1155,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:350
-msgid ""
-"To make a context change survive to a `restorecon`, you have to modify the "
-"default file contexts with the `semanage fcontext` command:"
+#, no-wrap
+msgid "To make a context change survive to a `restorecon`, you have to modify the default file contexts with the `semanage fcontext` command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1204,7 +1187,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:369
-msgid "The `audit2why` command indicates the cause of a SELinux rejection:"
+#, no-wrap
+msgid "The `audit2why` command indicates the cause of a SELinux rejection:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1215,7 +1199,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:375
-msgid "Example to get the cause of the last rejection by SELinux:"
+#, no-wrap
+msgid "Example to get the cause of the last rejection by SELinux:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1243,9 +1228,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:388
-msgid ""
-"The `audit2allow` command creates a module to allow a SELinux action (when "
-"no module exists) from a line in an \"audit\" file:"
+#, no-wrap
+msgid "The `audit2allow` command creates a module to allow a SELinux action (when no module exists) from a line in an \"audit\" file:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1278,18 +1262,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:407
-msgid ""
-"After the execution of a command, the system gives you back the command "
-"prompt but the expected result is not visible: no error message on the "
-"screen."
+#, no-wrap
+msgid "After the execution of a command, the system gives you back the command prompt but the expected result is not visible: no error message on the screen.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/learning_selinux.md:409
-msgid ""
-"**Step 1**: Read the log file knowing that the message we are interested in "
-"is of type AVC (SELinux), refused (denied) and the most recent one "
-"(therefore the last one)."
+#, no-wrap
+msgid "**Step 1**: Read the log file knowing that the message we are interested in is of type AVC (SELinux), refused (denied) and the most recent one (therefore the last one).\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1300,27 +1280,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:415
-msgid "The message is correctly isolated but is of no help to us."
+#, no-wrap
+msgid "The message is correctly isolated but is of no help to us.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/learning_selinux.md:417
-msgid ""
-"**Step 2**: Read the isolated message with the `audit2why` command to get a "
-"more explicit message that may contain the solution to our problem "
-"(typically a boolean to be set)."
+#, no-wrap
+msgid "**Step 2**: Read the isolated message with the `audit2why` command to get a more explicit message that may contain the solution to our problem (typically a boolean to be set).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/learning_selinux.md:423
-msgid ""
-"There are two cases: either we can place a context or fill in a boolean, or "
-"we must go to step 3 to create our own context."
+#, no-wrap
+msgid "There are two cases: either we can place a context or fill in a boolean, or we must go to step 3 to create our own context.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/learning_selinux.md:425
-msgid "**Step 3**: Create your own module."
+#, no-wrap
+msgid "**Step 3**: Create your own module.\n"
 msgstr ""
 
 #. type: Fenced code block

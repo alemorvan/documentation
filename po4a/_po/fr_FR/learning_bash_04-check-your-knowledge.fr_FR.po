@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -16,6 +16,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Bullet: '- '
+#: ../src/docs/books/admin_guide/01-presentation.md:259
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:40
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:18
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:23
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:28
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:54
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:77
+#, no-wrap
+msgid "[ ] False\n"
+msgstr ""
 
 #. type: YAML Front Matter: tags
 #: ../src/docs/books/admin_guide/13-softwares.md:1
@@ -135,97 +147,180 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/04-check-your-knowledge.md:15
-msgid ":heavy_check_mark: Among these 4 shells, which one does not exist:"
+#, no-wrap
+msgid ":heavy_check_mark: Among these 4 shells, which one does not exist:\n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/learning_bash/04-check-your-knowledge.md:20
-msgid "[ ] Bash"
+#, no-wrap
+msgid "[ ] Bash   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/learning_bash/04-check-your-knowledge.md:20
-msgid "[ ] Ksh"
+#, no-wrap
+msgid "[ ] Ksh\n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/learning_bash/04-check-your-knowledge.md:20
-msgid "[ ] Tsh"
+#, no-wrap
+msgid "[ ] Tsh\n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/learning_bash/04-check-your-knowledge.md:20
-msgid "[ ] Csh"
+#, no-wrap
+msgid "[ ] Csh\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/04-check-your-knowledge.md:22
-msgid ""
-":heavy_check_mark: What is the correct syntax to assign a content to a "
-"variable:"
+#, no-wrap
+msgid ":heavy_check_mark: What is the correct syntax to assign a content to a variable:\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: ../src/docs/books/learning_bash/04-check-your-knowledge.md:27
-msgid ""
-"- [ ] `variable:=value` - [ ] `variable := value` - [ ] `variable = value` - "
-"[ ] `variable=value`"
+#, no-wrap
+msgid "[ ] `variable:=value`\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:27
+#, no-wrap
+msgid "[ ] `variable := value`\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:27
+#, no-wrap
+msgid "[ ] `variable = value`\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:27
+#, no-wrap
+msgid "[ ] `variable=value`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/04-check-your-knowledge.md:29
-msgid ":heavy_check_mark: How to store the return of a command in a variable:"
+#, no-wrap
+msgid ":heavy_check_mark: How to store the return of a command in a variable:\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: ../src/docs/books/learning_bash/04-check-your-knowledge.md:35
-msgid ""
-"- [ ] `file=$(ls)` - [ ] `file=`ls`` - [ ] `file:=$ls` - [ ] `file = $(ls)` "
-"- [ ] `file=${ls}`"
+#, no-wrap
+msgid "[ ] `file=$(ls)`\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:35
+#, no-wrap
+msgid "[ ] `file=`ls``\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:35
+#, no-wrap
+msgid "[ ] `file:=$ls`\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:35
+#, no-wrap
+msgid "[ ] `file = $(ls)`\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:35
+#, no-wrap
+msgid "[ ] `file=${ls}`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/04-check-your-knowledge.md:37
-msgid ""
-":heavy_check_mark: The read command allows you to read the contents of a "
-"file:"
+#, no-wrap
+msgid ":heavy_check_mark: The read command allows you to read the contents of a file:\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: ../src/docs/books/learning_bash/04-check-your-knowledge.md:40
 #: ../src/docs/books/learning_bash/08-check-your-knowledge.md:54
 #: ../src/docs/books/learning_bash/08-check-your-knowledge.md:77
-msgid "- [ ] True - [ ] False"
+#, no-wrap
+msgid "[ ] True\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/04-check-your-knowledge.md:42
-msgid ""
-":heavy_check_mark: Which of the following is the correct syntax for the "
-"command `cut`:"
+#, no-wrap
+msgid ":heavy_check_mark: Which of the following is the correct syntax for the command `cut`:\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: ../src/docs/books/learning_bash/04-check-your-knowledge.md:47
-msgid ""
-"- [ ] `cut -f: -D1 /etc/passwd` - [ ] `cut -d: -f1 /etc/passwd` - [ ] `cut -"
-"d1 -f: /etc/passwd` - [ ] `cut -c \":\" -f 3 /etc/passwd`"
+#, no-wrap
+msgid "[ ] `cut -f: -D1 /etc/passwd`\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:47
+#, no-wrap
+msgid "[ ] `cut -d: -f1 /etc/passwd`\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:47
+#, no-wrap
+msgid "[ ] `cut -d1 -f: /etc/passwd`\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:47
+#, no-wrap
+msgid "[ ] `cut -c \":\" -f 3 /etc/passwd`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/04-check-your-knowledge.md:49
-msgid ":heavy_check_mark: Which command is used to shift positional variables:"
+#, no-wrap
+msgid ":heavy_check_mark: Which command is used to shift positional variables:\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: ../src/docs/books/learning_bash/04-check-your-knowledge.md:54
 #: ../src/docs/books/learning_bash/04-check-your-knowledge.md:60
-msgid "- [ ] `left` - [ ] `shift` - [ ] `set` - [ ] `array`"
+#, no-wrap
+msgid "[ ] `left`\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:54
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:60
+#, no-wrap
+msgid "[ ] `shift`\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:54
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:60
+#, no-wrap
+msgid "[ ] `set`\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:54
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:60
+#, no-wrap
+msgid "[ ] `array`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/04-check-your-knowledge.md:56
-msgid ""
-":heavy_check_mark: Which command transforms a string into positional "
-"variables:"
+#, no-wrap
+msgid ":heavy_check_mark: Which command transforms a string into positional variables:\n"
 msgstr ""

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -22,7 +22,8 @@ msgstr ""
 #: ../src/docs/gemstones/markdown-demo-v2.md:15
 #: ../src/docs/guides/security/pam.md:45
 #: ../src/docs/labs/security/lab9-cryptography.md:155
-msgid "!!! WARNING"
+#, no-wrap
+msgid "!!! WARNING\n"
 msgstr ""
 
 #. type: Title ###
@@ -74,19 +75,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/markdown-demo-v2.md:19
-msgid ""
-"As you can tell by reading, this is a pretty silly example, designed to be "
-"used to test some translation issues that we are having. But because the "
-"problems have not yet been solved we are going to modify the file a little "
-"bit here and there to see the effect it has. It's fun to write though!"
+#, no-wrap
+msgid "As you can tell by reading, this is a pretty silly example, designed to be used to test some translation issues that we are having. But because the problems have not yet been solved we are going to modify the file a little bit here and there to see the effect it has. It's fun to write though!\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/markdown-demo-v2.md:21
-msgid ""
-"This guide demos popular Markdown tags used on [https://docs.rockylinux.org]"
-"(https://docs.rockylinux.org) also includes the admonitions tag, which is "
-"not part of the standard Markdown tags."
+#, no-wrap
+msgid "This guide demos popular Markdown tags used on [https://docs.rockylinux.org](https://docs.rockylinux.org) also includes the admonitions tag, which is not part of the standard Markdown tags.\n"
 msgstr ""
 
 #. type: Title ##
@@ -103,27 +99,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/markdown-demo-v2.md:27
-msgid "Sometimes you will see things like _this_."
+#, no-wrap
+msgid "Sometimes you will see things like _this_.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/markdown-demo-v2.md:29
-msgid "How about a little **bold face**"
+#, no-wrap
+msgid "How about a little **bold face**\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/markdown-demo-v2.md:31
-msgid "Most of the time, it straight text like this."
+#, no-wrap
+msgid "Most of the time, it straight text like this.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/markdown-demo-v2.md:33
-msgid "Sometimes you need to show a `command`"
+#, no-wrap
+msgid "Sometimes you need to show a `command`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/markdown-demo-v2.md:35
-msgid "Or multiple commands:"
+#, no-wrap
+msgid "Or multiple commands:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -138,41 +139,64 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/markdown-demo-v2.md:44
-msgid "At other times, you need bulleted or numbered lists:"
+#, no-wrap
+msgid "At other times, you need bulleted or numbered lists:\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: ../src/docs/gemstones/markdown-demo-v2.md:49
-msgid ""
-"- I believe you have my stapler - Come to think of it, I can't even find my "
-"compass - If not, please at least return my pencil - I definitely need it"
+#, no-wrap
+msgid "I believe you have my stapler\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/gemstones/markdown-demo-v2.md:49
+#, no-wrap
+msgid "Come to think of it, I can't even find my compass\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/gemstones/markdown-demo-v2.md:49
+#, no-wrap
+msgid "If not, please at least return my pencil\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/gemstones/markdown-demo-v2.md:49
+#, no-wrap
+msgid "I definitely need it\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/gemstones/markdown-demo-v2.md:53
-msgid "I didn't know you needed it"
+#, no-wrap
+msgid "I didn't know you needed it\n"
 msgstr ""
 
 #. type: Bullet: '2. '
 #: ../src/docs/gemstones/markdown-demo-v2.md:53
-msgid "Here is your broken pencil"
+#, no-wrap
+msgid "Here is your broken pencil\n"
 msgstr ""
 
 #. type: Bullet: '3. '
 #: ../src/docs/gemstones/markdown-demo-v2.md:53
-msgid "Sharpening it is useless"
+#, no-wrap
+msgid "Sharpening it is useless\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/markdown-demo-v2.md:55
-msgid "And you could need an admonition:"
+#, no-wrap
+msgid "And you could need an admonition:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/markdown-demo-v2.md:57
 #: ../src/docs/guides/custom-linux-kernel.md:51
 #: ../src/docs/guides/custom-linux-kernel.md:197
-msgid "!!! TIP"
+#, no-wrap
+msgid "!!! TIP\n"
 msgstr ""
 
 #. type: Plain text
@@ -183,9 +207,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/markdown-demo-v2.md:61
-msgid ""
-"More times than not, when a command has multiple options, or you need to "
-"list specifics, you might want to use a table to identify things:"
+#, no-wrap
+msgid "More times than not, when a command has multiple options, or you need to list specifics, you might want to use a table to identify things:\n"
 msgstr ""
 
 #. type: Plain text

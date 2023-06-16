@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -158,7 +158,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -185,7 +184,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Plain text
@@ -296,7 +296,8 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:394
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:154
 #: ../src/docs/guides/web/php.md:255
-msgid "Example:"
+#, no-wrap
+msgid "Example:\n"
 msgstr ""
 
 #. type: Plain text
@@ -352,7 +353,8 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:243
 #: ../src/docs/guides/security/learning_selinux.md:263
 #: ../src/docs/guides/web/php.md:145
-msgid "!!! Warning"
+#, no-wrap
+msgid "!!! Warning\n"
 msgstr ""
 
 #. type: Title ###
@@ -490,45 +492,44 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/php.md:24
-msgid ""
-"In the case of **CGI**, each request leads to the creation of a **new "
-"process**, which is less efficient in terms of performance."
+#, no-wrap
+msgid "In the case of **CGI**, each request leads to the creation of a **new process**, which is less efficient in terms of performance.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/php.md:24
-msgid ""
-"**FastCGI** relies on a **certain number of processes** for the treatment of "
-"its client requests."
+#, no-wrap
+msgid "**FastCGI** relies on a **certain number of processes** for the treatment of its client requests.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:26
-msgid "PHP-FPM, **in addition to better performances**, brings:"
+#, no-wrap
+msgid "PHP-FPM, **in addition to better performances**, brings:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/php.md:31
-msgid ""
-"The possibility of better **partitioning the applications**: launching "
-"processes with different uid/gid, with personalized php.ini files,"
+#, no-wrap
+msgid "The possibility of better **partitioning the applications**: launching processes with different uid/gid, with personalized php.ini files,\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/php.md:31
-msgid "The management of the statistics,"
+#, no-wrap
+msgid "The management of the statistics,\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/php.md:31
-msgid "Log management,"
+#, no-wrap
+msgid "Log management,\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/php.md:31
-msgid ""
-"Dynamic management of processes and restart without service interruption "
-"('graceful')."
+#, no-wrap
+msgid "Dynamic management of processes and restart without service interruption ('graceful').\n"
 msgstr ""
 
 #. type: Plain text
@@ -545,19 +546,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:39
-msgid ""
-"Rocky Linux, like its upstream, offers many versions of the language. Some "
-"of them have reached the end of their life but are kept to continue hosting "
-"historical applications that are not yet compatible with new versions of "
-"PHP. Please refer to the [ supported versions ](https://www.php.net/"
-"supported-versions.php) page of the php.net website to choose a supported "
-"version."
+#, no-wrap
+msgid "Rocky Linux, like its upstream, offers many versions of the language. Some of them have reached the end of their life but are kept to continue hosting historical applications that are not yet compatible with new versions of PHP. Please refer to the [ supported versions ](https://www.php.net/supported-versions.php) page of the php.net website to choose a supported version.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:41
-msgid ""
-"To obtain a list of available versions, simply enter the following command:"
+#, no-wrap
+msgid "To obtain a list of available versions, simply enter the following command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -576,19 +572,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:54
-msgid "Rocky provides, from its AppStream repository, different PHP modules."
+#, no-wrap
+msgid "Rocky provides, from its AppStream repository, different PHP modules.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:56
-msgid ""
-"You will note that the default version of a Rocky 8.5 is 7.2 which has "
-"already reached its end of life at the time of writing."
+#, no-wrap
+msgid "You will note that the default version of a Rocky 8.5 is 7.2 which has already reached its end of life at the time of writing.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:58
-msgid "You can activate a newer module by entering the following command:"
+#, no-wrap
+msgid "You can activate a newer module by entering the following command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -618,7 +615,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:80
-msgid "You can now proceed to the installation of the php engine."
+#, no-wrap
+msgid "You can now proceed to the installation of the php engine.\n"
 msgstr ""
 
 #. type: Title ##
@@ -629,25 +627,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:84
-msgid ""
-"First, let's see how to install and use php in its CGI mode. We will only be "
-"able to make it work with the Apache web server and its `mod_php` module. We "
-"will see, later in this document, in the FastCGI part (php-fpm) how to "
-"integrate PHP in Nginx (but also Apache)."
+#, no-wrap
+msgid "First, let's see how to install and use php in its CGI mode. We will only be able to make it work with the Apache web server and its `mod_php` module. We will see, later in this document, in the FastCGI part (php-fpm) how to integrate PHP in Nginx (but also Apache).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:88
-msgid ""
-"The installation of php is quite trivial, since it consists in installing "
-"the main package as well as the few php modules that you will need."
+#, no-wrap
+msgid "The installation of php is quite trivial, since it consists in installing the main package as well as the few php modules that you will need.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:90
-msgid ""
-"The example below installs php with the modules that are usually installed "
-"with it."
+#, no-wrap
+msgid "The example below installs php with the modules that are usually installed with it.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -658,8 +651,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:96
-msgid ""
-"You can check that the installed version corresponds to the expected one:"
+#, no-wrap
+msgid "You can check that the installed version corresponds to the expected one:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -681,14 +674,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:110
-msgid ""
-"To serve php pages in cgi mode, you will have to install the apache server, "
-"configure it, activate it and start it."
+#, no-wrap
+msgid "To serve php pages in cgi mode, you will have to install the apache server, configure it, activate it and start it.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/php.md:112
-msgid "Installation:"
+#, no-wrap
+msgid "Installation:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -699,7 +692,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/php.md:118
-msgid "Activation:"
+#, no-wrap
+msgid "Activation:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -713,7 +707,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/php.md:126
-msgid "Don't forget to configure the firewall:"
+#, no-wrap
+msgid "Don't forget to configure the firewall:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -726,19 +721,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:133
-msgid ""
-"The default vhost should work out of the box. PHP provides a `phpinfo()` "
-"function that generates a summary table of its configuration. It's very "
-"useful to test the good working of php. However, be careful not to leave "
-"such test files lying around on your servers, they represent a huge security "
-"risk for your infrastructure."
+#, no-wrap
+msgid "The default vhost should work out of the box. PHP provides a `phpinfo()` function that generates a summary table of its configuration. It's very useful to test the good working of php. However, be careful not to leave such test files lying around on your servers, they represent a huge security risk for your infrastructure.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:135
-msgid ""
-"Create the file `/var/www/html/info.php` (`/var/www/html` being the default "
-"vhost directory of the default apache configuration):"
+#, no-wrap
+msgid "Create the file `/var/www/html/info.php` (`/var/www/html` being the default vhost directory of the default apache configuration):\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -752,9 +742,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:143
-msgid ""
-"Use a web browser to check that the server is working properly by going to "
-"the page http://your-server-ip/info.php."
+#, no-wrap
+msgid "Use a web browser to check that the server is working properly by going to the page http://your-server-ip/info.php.\n"
 msgstr ""
 
 #. type: Plain text
@@ -771,14 +760,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:151
-msgid ""
-"As we highlighted earlier in this document, there are many advantages to "
-"switching web hosting to php-fpm mode."
+#, no-wrap
+msgid "As we highlighted earlier in this document, there are many advantages to switching web hosting to php-fpm mode.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:155
-msgid "The installation is limited to the php-fpm package:"
+#, no-wrap
+msgid "The installation is limited to the php-fpm package:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -789,9 +778,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:161
-msgid ""
-"As php-fpm is a service from a system point of view, it must be activated "
-"and started:"
+#, no-wrap
+msgid "As php-fpm is a service from a system point of view, it must be activated and started:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -805,7 +793,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:171
-msgid "The main configuration file is stored under `/etc/php-fpm.conf`."
+#, no-wrap
+msgid "The main configuration file is stored under `/etc/php-fpm.conf`.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -827,16 +816,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:185
-msgid ""
-"As you can see, the files in the `/etc/php-fpm/` directory with the `.conf` "
-"extension are always included."
+#, no-wrap
+msgid "As you can see, the files in the `/etc/php-fpm/` directory with the `.conf` extension are always included.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:187
-msgid ""
-"By default, a php process pool, named `www`, is declared in `/etc/php-fpm.d/"
-"www.conf`."
+#, no-wrap
+msgid "By default, a php process pool, named `www`, is declared in `/etc/php-fpm.d/www.conf`.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -884,27 +871,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:220
-msgid "There are 2 ways to connect."
+#, no-wrap
+msgid "There are 2 ways to connect.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:222
-msgid "Via an inet interface such as:"
+#, no-wrap
+msgid "Via an inet interface such as:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:224
-msgid "`listen = 127.0.0.1:9000`."
+#, no-wrap
+msgid "`listen = 127.0.0.1:9000`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:226
-msgid "Or via a Unix socket:"
+#, no-wrap
+msgid "Or via a Unix socket:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:228
-msgid "`listen = /run/php-fpm/www.sock`."
+#, no-wrap
+msgid "`listen = /run/php-fpm/www.sock`.\n"
 msgstr ""
 
 #. type: Plain text
@@ -915,23 +907,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:234
-msgid ""
-"When working via an interface, you have to configure `listen.owner`, `listen."
-"group`, `listen.mode` to specify the owner, the owner group and the rights "
-"of the Unix socket. **Warning:** both servers (web and php) must have access "
-"rights on the socket."
+#, no-wrap
+msgid "When working via an interface, you have to configure `listen.owner`, `listen.group`, `listen.mode` to specify the owner, the owner group and the rights of the Unix socket. **Warning:** both servers (web and php) must have access rights on the socket.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:236
-msgid ""
-"When working via a socket, you have to configure `listen.allowed_clients` to "
-"restrict access to the php server to certain IP addresses."
+#, no-wrap
+msgid "When working via a socket, you have to configure `listen.allowed_clients` to restrict access to the php server to certain IP addresses.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:238
-msgid "Example: `listen.allowed_clients = 127.0.0.1`"
+#, no-wrap
+msgid "Example: `listen.allowed_clients = 127.0.0.1`\n"
 msgstr ""
 
 #. type: Title ####
@@ -942,14 +931,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:242
-msgid "The processes of php-fpm can be managed statically or dynamically."
+#, no-wrap
+msgid "The processes of php-fpm can be managed statically or dynamically.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:244
-msgid ""
-"In static mode, the number of child processes is set by the value of `pm."
-"max_children`;"
+#, no-wrap
+msgid "In static mode, the number of child processes is set by the value of `pm.max_children`;\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -962,17 +951,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:251
-msgid "This configuration will launch 10 processes."
+#, no-wrap
+msgid "This configuration will launch 10 processes.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:253
-msgid ""
-"In dynamic mode, PHP-FPM will launch at most the number of processes "
-"specified by the value of `pm.max_children`, starting by launching a number "
-"of processes corresponding to `pm.start_servers`, and keeping at least the "
-"value of `pm.min_spare_servers` of inactive processes and at `most pm."
-"max_spare_servers` inactive processes."
+#, no-wrap
+msgid "In dynamic mode, PHP-FPM will launch at most the number of processes specified by the value of `pm.max_children`, starting by launching a number of processes corresponding to `pm.start_servers`, and keeping at least the value of `pm.min_spare_servers` of inactive processes and at `most pm.max_spare_servers` inactive processes.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -988,26 +974,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:265
-msgid ""
-"PHP-FPM will create a new process to replace one that has processed a number "
-"of requests equivalent to `pm.max_requests`."
+#, no-wrap
+msgid "PHP-FPM will create a new process to replace one that has processed a number of requests equivalent to `pm.max_requests`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:267
-msgid ""
-"By default, `pm.max_requests` is set to 0, which means that processes are "
-"never recycled. Using the `pm.max_requests` option can be interesting for "
-"applications with memory leaks."
+#, no-wrap
+msgid "By default, `pm.max_requests` is set to 0, which means that processes are never recycled. Using the `pm.max_requests` option can be interesting for applications with memory leaks.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:269
-msgid ""
-"There is a third mode of operation, the `ondemand` mode. This mode only "
-"starts a process when it receives a request. It is not an optimal mode for "
-"sites with strong influences, and is to be reserved for specific needs "
-"(sites with very weak requests, management backend, etc.)."
+#, no-wrap
+msgid "There is a third mode of operation, the `ondemand` mode. This mode only starts a process when it receives a request. It is not an optimal mode for sites with strong influences, and is to be reserved for specific needs (sites with very weak requests, management backend, etc.).\n"
 msgstr ""
 
 #. type: Plain text
@@ -1024,16 +1004,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:278
-msgid ""
-"PHP-FPM offers, like Apache and its `mod_status` module, a page indicating "
-"the status of the process."
+#, no-wrap
+msgid "PHP-FPM offers, like Apache and its `mod_status` module, a page indicating the status of the process.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:280
-msgid ""
-"To activate the page, setup its access path via the `pm.status_path` "
-"directive:"
+#, no-wrap
+msgid "To activate the page, setup its access path via the `pm.status_path` directive:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1071,17 +1049,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:306
-msgid ""
-"The slowlog directive specifies the file that receives logging of requests "
-"that are too long (i.e., whose time exceeds the value of the "
-"`request_slowlog_timeout` directive)."
+#, no-wrap
+msgid "The slowlog directive specifies the file that receives logging of requests that are too long (i.e., whose time exceeds the value of the `request_slowlog_timeout` directive).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:308
-msgid ""
-"The default location of the generated file is `/var/log/php-fpm/www-slow."
-"log`."
+#, no-wrap
+msgid "The default location of the generated file is `/var/log/php-fpm/www-slow.log`.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1094,7 +1069,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:315
-msgid "A value of 0 for `request_slowlog_timeout` disables logging."
+#, no-wrap
+msgid "A value of 0 for `request_slowlog_timeout` disables logging.\n"
 msgstr ""
 
 #. type: Title ###
@@ -1105,16 +1081,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:319
-msgid ""
-"The default setting of nginx already includes the necessary configuration to "
-"make php work with PHP-FPM."
+#, no-wrap
+msgid "The default setting of nginx already includes the necessary configuration to make php work with PHP-FPM.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:321
-msgid ""
-"The configuration file `fastcgi.conf` (or `fastcgi_params`) is located under "
-"`/etc/nginx/`:"
+#, no-wrap
+msgid "The configuration file `fastcgi.conf` (or `fastcgi_params`) is located under `/etc/nginx/`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1150,14 +1124,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:351
-msgid ""
-"In order for nginx to process `.php` files, the following directives must be "
-"added to the site configuration file:"
+#, no-wrap
+msgid "In order for nginx to process `.php` files, the following directives must be added to the site configuration file:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:353
-msgid "If php-fpm is listening on port 9000:"
+#, no-wrap
+msgid "If php-fpm is listening on port 9000:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1172,7 +1146,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:362
-msgid "If php-fpm is listening on a unix socket:"
+#, no-wrap
+msgid "If php-fpm is listening on a unix socket:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1187,9 +1162,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:373
-msgid ""
-"The configuration of apache to use a php pool is quite simple. You just have "
-"to use the proxy modules with a `ProxyPassMatch` directive, for example:"
+#, no-wrap
+msgid "The configuration of apache to use a php pool is quite simple. You just have to use the proxy modules with a `ProxyPassMatch` directive, for example:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1219,17 +1193,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:393
-msgid ""
-"It is essential, to optimize the quantity of requests which will be able to "
-"be served, to analyze the memory used by the php scripts and thus to "
-"optimize the maximum quantity of launched threads."
+#, no-wrap
+msgid "It is essential, to optimize the quantity of requests which will be able to be served, to analyze the memory used by the php scripts and thus to optimize the maximum quantity of launched threads.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:395
-msgid ""
-"First of all, we need to know the average amount of memory used by a PHP "
-"process, with the command:"
+#, no-wrap
+msgid "First of all, we need to know the average amount of memory used by a PHP process, with the command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1240,36 +1211,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:401
-msgid ""
-"After a while, this should give us a pretty accurate idea of the average "
-"memory footprint of a php process on this server."
+#, no-wrap
+msgid "After a while, this should give us a pretty accurate idea of the average memory footprint of a php process on this server.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:403
-msgid ""
-"For the rest of this document, let's say that the result is a memory "
-"footprint of 120MB per process at full load."
+#, no-wrap
+msgid "For the rest of this document, let's say that the result is a memory footprint of 120MB per process at full load.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:405
-msgid ""
-"On a server with 8Gb of RAM, keeping 1Gb for the system and 1Gb for the "
-"OPCache (see the rest of this document), there is 6Gb left to process PHP "
-"requests from clients."
+#, no-wrap
+msgid "On a server with 8Gb of RAM, keeping 1Gb for the system and 1Gb for the OPCache (see the rest of this document), there is 6Gb left to process PHP requests from clients.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:407
-msgid ""
-"We can easily conclude that this server can accept at most **50 threads** "
-"`((6*1024) / 120)`."
+#, no-wrap
+msgid "We can easily conclude that this server can accept at most **50 threads** `((6*1024) / 120)`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:409
-msgid "A good configuration of `php-fpm` specific to this use case would be:"
+#, no-wrap
+msgid "A good configuration of `php-fpm` specific to this use case would be:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1286,22 +1253,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:420
-msgid "with:"
+#, no-wrap
+msgid "with:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/php.md:424
-msgid "`pm.start_servers` = 25% of `max_children`"
+#, no-wrap
+msgid "`pm.start_servers` = 25% of `max_children`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/php.md:424
-msgid "`pm.min_spare_servers` = 25% of `max_children`"
+#, no-wrap
+msgid "`pm.min_spare_servers` = 25% of `max_children`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/php.md:424
-msgid "`pm.max_spare_servers` = 75% of `max_children`"
+#, no-wrap
+msgid "`pm.max_spare_servers` = 75% of `max_children`\n"
 msgstr ""
 
 #. type: Title ###
@@ -1312,50 +1283,50 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:428
-msgid ""
-"The `opcache` (Optimizer Plus Cache) is the first level of cache on which we "
-"can influence."
+#, no-wrap
+msgid "The `opcache` (Optimizer Plus Cache) is the first level of cache on which we can influence.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:430
-msgid ""
-"It keeps in memory the compiled php scripts which strongly impacts the "
-"execution of the web pages (removes the reading on disk of the script + the "
-"compilation time)."
+#, no-wrap
+msgid "It keeps in memory the compiled php scripts which strongly impacts the execution of the web pages (removes the reading on disk of the script + the compilation time).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:432
-msgid "To configure it, we must work on:"
+#, no-wrap
+msgid "To configure it, we must work on:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/php.md:434
-msgid ""
-"The size of the memory dedicated to the opcache according to the hit ratio"
+#, no-wrap
+msgid "The size of the memory dedicated to the opcache according to the hit ratio\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:436
-msgid "By configuring correctly"
+#, no-wrap
+msgid "By configuring correctly\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/php.md:443
-msgid ""
-"the number of php scripts to cache (number of keys + maximum number of "
-"scripts)"
+#, no-wrap
+msgid "the number of php scripts to cache (number of keys + maximum number of scripts)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/php.md:443
-msgid "the number of strings to cache"
+#, no-wrap
+msgid "the number of strings to cache\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:445
-msgid "To install it:"
+#, no-wrap
+msgid "To install it:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1366,8 +1337,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:451
-msgid ""
-"To configure it, edit the `/etc/php.d/10-opcache.ini` configuration file:"
+#, no-wrap
+msgid "To configure it, edit the `/etc/php.d/10-opcache.ini` configuration file:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1381,34 +1352,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:459
-msgid "where:"
+#, no-wrap
+msgid "where:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/php.md:463
-msgid ""
-"`opcache.memory_consumption` corresponds to the amount of memory needed for "
-"the opcache (to be increased until a correct hit ratio is obtained)."
+#, no-wrap
+msgid "`opcache.memory_consumption` corresponds to the amount of memory needed for the opcache (to be increased until a correct hit ratio is obtained).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/php.md:463
-msgid "`opcache.interned_strings_buffer` the amount of strings to cache."
+#, no-wrap
+msgid "`opcache.interned_strings_buffer` the amount of strings to cache.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/php.md:463
-msgid ""
-"`opcache.max_accelerated_files` is near to the result of the `find ./ -iname "
-"\"*.php\"|wc -l` command."
+#, no-wrap
+msgid "`opcache.max_accelerated_files` is near to the result of the `find ./ -iname \"*.php\"|wc -l` command.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/php.md:465
-msgid ""
-"You can refer to an `info.php` page (including the `phpinfo();`) to "
-"configure the opcache (see for example the values of `Cached scripts` and "
-"`Cached strings`)."
+#, no-wrap
+msgid "You can refer to an `info.php` page (including the `phpinfo();`) to configure the opcache (see for example the values of `Cached scripts` and `Cached strings`).\n"
 msgstr ""
 
 #. type: Plain text

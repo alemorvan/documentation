@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -235,8 +235,8 @@ msgstr ""
 #: ../src/docs/guides/file_sharing/glusterfs.md:15
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
-msgid ""
-"Proficiency with a command-line editor (we are using _vi_ in this example)"
+#, no-wrap
+msgid "Proficiency with a command-line editor (we are using _vi_ in this example)\n"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -246,16 +246,16 @@ msgstr ""
 #: ../src/docs/guides/web/apache_hardened_webserver/index.md:22
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:21
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
-msgid ""
-"A heavy comfort level with issuing commands from the command-line, viewing "
-"logs, and other general systems administrator duties"
+#, no-wrap
+msgid "A heavy comfort level with issuing commands from the command-line, viewing logs, and other general systems administrator duties\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/glusterfs.md:15
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
-msgid "All commands are run as the root user or sudo"
+#, no-wrap
+msgid "All commands are run as the root user or sudo\n"
 msgstr ""
 
 #. type: YAML Front Matter: tags
@@ -279,41 +279,32 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
-msgid ""
-"An understanding of what can trigger a response to changed files on the file "
-"system (such as package updates) is helpful"
+#, no-wrap
+msgid "An understanding of what can trigger a response to changed files on the file system (such as package updates) is helpful\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:22
-msgid ""
-"This document was originally written in conjunction with the apache hardened "
-"webserver routines, but works equally well on a server running any software."
+#, no-wrap
+msgid "This document was originally written in conjunction with the apache hardened webserver routines, but works equally well on a server running any software.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:26
-msgid ""
-"_rkhunter_ (Root Kit Hunter) is a Unix-based tool that scans for rootkits, "
-"backdoors, and possible local exploits. It is a good part of a hardened "
-"server, and is designed to notify the administrator quickly when something "
-"suspicious happens on the server's file system."
+#, no-wrap
+msgid "_rkhunter_ (Root Kit Hunter) is a Unix-based tool that scans for rootkits, backdoors, and possible local exploits. It is a good part of a hardened server, and is designed to notify the administrator quickly when something suspicious happens on the server's file system.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:28
-msgid ""
-"_rkhunter_ is just one possible component of a hardened Apache web server "
-"setup and can be used with or without other tools. If you'd like to use this "
-"along with other tools for hardening, refer back to the [Apache Hardened Web "
-"Server guide](index.md)."
+#, no-wrap
+msgid "_rkhunter_ is just one possible component of a hardened Apache web server setup and can be used with or without other tools. If you'd like to use this along with other tools for hardening, refer back to the [Apache Hardened Web Server guide](index.md).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:30
-msgid ""
-"This document also uses all of the assumptions and conventions outlined in "
-"that original document, so it is a good idea to review it before continuing."
+#, no-wrap
+msgid "This document also uses all of the assumptions and conventions outlined in that original document, so it is a good idea to review it before continuing.\n"
 msgstr ""
 
 #. type: Title ##
@@ -324,31 +315,32 @@ msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:38
-msgid "install rkhunter"
+#, no-wrap
+msgid "install rkhunter\n"
 msgstr ""
 
 #. type: Bullet: '2. '
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:38
-msgid "configure rkhunter"
+#, no-wrap
+msgid "configure rkhunter\n"
 msgstr ""
 
 #. type: Bullet: '3. '
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:38
-msgid "configure email and make sure it is set up to work correctly"
+#, no-wrap
+msgid "configure email and make sure it is set up to work correctly\n"
 msgstr ""
 
 #. type: Bullet: '4. '
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:38
-msgid ""
-"run `rkhunter` manually to generate a list of warnings to test your email "
-"settings (`rkhunter --check`)"
+#, no-wrap
+msgid "run `rkhunter` manually to generate a list of warnings to test your email settings (`rkhunter --check`)\n"
 msgstr ""
 
 #. type: Bullet: '5. '
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:38
-msgid ""
-"run `rkhunter --propupd` to generate a clean `rkhunter.dat` file that "
-"`rkhunter` will use from this point forward as a baseline for further checks."
+#, no-wrap
+msgid "run `rkhunter --propupd` to generate a clean `rkhunter.dat` file that `rkhunter` will use from this point forward as a baseline for further checks.\n"
 msgstr ""
 
 #. type: Title ##
@@ -359,15 +351,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:42
-msgid ""
-"_rkhunter_ requires the EPEL (Extra Packages for Enterprise Linux) "
-"repository. So install that repository if you don't have it installed "
-"already:"
+#, no-wrap
+msgid "_rkhunter_ requires the EPEL (Extra Packages for Enterprise Linux) repository. So install that repository if you don't have it installed already:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:48
-msgid "Then install _rkhunter_:"
+#, no-wrap
+msgid "Then install _rkhunter_:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -384,9 +375,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:56
-msgid ""
-"The only configuration options that need to be set are those dealing with "
-"mailing reports to the administrator. To modify the configuration file, run:"
+#, no-wrap
+msgid "The only configuration options that need to be set are those dealing with mailing reports to the administrator. To modify the configuration file, run:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -397,7 +387,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:62
-msgid "And then search for:"
+#, no-wrap
+msgid "And then search for:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -408,22 +399,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:68
-msgid ""
-"Remove the remark here and change the `me@mydomain.com` to reflect your "
-"email address."
+#, no-wrap
+msgid "Remove the remark here and change the `me@mydomain.com` to reflect your email address.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:70
-msgid "Then change the `root@mydomain` to `root@whatever_the_server_name_is`."
+#, no-wrap
+msgid "Then change the `root@mydomain` to `root@whatever_the_server_name_is`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:72
-msgid ""
-"You will probably also want to remove the remark (and edit the line to fit "
-"your needs) of the `MAIL-CMD` line, found a few lines below that looks like "
-"this:"
+#, no-wrap
+msgid "You will probably also want to remove the remark (and edit the line to fit your needs) of the `MAIL-CMD` line, found a few lines below that looks like this:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -434,9 +423,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:78
-msgid ""
-"You may also need to setup [Postfix Email for Reporting](../../email/"
-"postfix_reporting.md) in order to get the email section to work correctly."
+#, no-wrap
+msgid "You may also need to setup [Postfix Email for Reporting](../../email/postfix_reporting.md) in order to get the email section to work correctly.\n"
 msgstr ""
 
 #. type: Title ##
@@ -447,31 +435,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:82
-msgid ""
-"_rkhunter_ can be run by typing it at the command-line. There is a cron job "
-"installed for you in `/etc/cron.daily`, but if you want to automate the "
-"procedure on a different schedule, look at the [Automating cron jobs guide]"
-"(../../automation/cron_jobs_howto.md)."
+#, no-wrap
+msgid "_rkhunter_ can be run by typing it at the command-line. There is a cron job installed for you in `/etc/cron.daily`, but if you want to automate the procedure on a different schedule, look at the [Automating cron jobs guide](../../automation/cron_jobs_howto.md).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:84
-msgid ""
-"You'll also need to move the script somewhere other than `/etc/cron.daily`, "
-"such as `/usr/local/sbin` and then call it from your custom cron job. The "
-"easiest method, of course, is to leave the default `cron.daily` setup intact."
+#, no-wrap
+msgid "You'll also need to move the script somewhere other than `/etc/cron.daily`, such as `/usr/local/sbin` and then call it from your custom cron job. The easiest method, of course, is to leave the default `cron.daily` setup intact.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:86
-msgid ""
-"If you want to test `rkhunter` before you start, including all email "
-"functionality, etc., run `rkhunter --check` from the command line. If there "
-"are problems with email setup, hold off completing the rest so that you can "
-"run this command again. Once email has been confirmed to work but before you "
-"allow `rkhunter` to run automatically, run the command manually again with "
-"the \"--propupd\" flag to create the `rkhunter.dat` file, and to make sure "
-"that your new environment is recognized without issue:"
+#, no-wrap
+msgid "If you want to test `rkhunter` before you start, including all email functionality, etc., run `rkhunter --check` from the command line. If there are problems with email setup, hold off completing the rest so that you can run this command again. Once email has been confirmed to work but before you allow `rkhunter` to run automatically, run the command manually again with the \"--propupd\" flag to create the `rkhunter.dat` file, and to make sure that your new environment is recognized without issue:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -482,8 +459,6 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:93
-msgid ""
-"_rkhunter_ is one part of a hardened server strategy that can help in "
-"monitoring the file system and reporting any issues to the administrator. It "
-"is perhaps one of the easiest hardening tools to install, configure, and run."
+#, no-wrap
+msgid "_rkhunter_ is one part of a hardened server strategy that can help in monitoring the file system and reporting any issues to the administrator. It is perhaps one of the easiest hardening tools to install, configure, and run.\n"
 msgstr ""

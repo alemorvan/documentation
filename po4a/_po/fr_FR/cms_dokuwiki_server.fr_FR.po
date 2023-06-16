@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -47,7 +47,8 @@ msgstr ""
 #: ../src/docs/guides/proxies/pound.md:62
 #: ../src/docs/guides/proxies/pound.md:418 ../src/docs/index.md:40
 #: ../src/docs/release_notes/9_1.md:16
-msgid "!!! note"
+#, no-wrap
+msgid "!!! note\n"
 msgstr ""
 
 #. type: Title ##
@@ -117,7 +118,8 @@ msgstr ""
 #: ../src/docs/guides/package_management/index.md:10
 #: ../src/docs/guides/proxies/pound.md:211
 #: ../src/docs/guides/proxies/pound.md:265 ../src/docs/release_notes/8_4.md:20
-msgid "!!! warning"
+#, no-wrap
+msgid "!!! warning\n"
 msgstr ""
 
 #. type: Title #
@@ -235,13 +237,15 @@ msgstr ""
 #: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:262
 #: ../src/docs/guides/cms/dokuwiki_server.md:191
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:125
-msgid "OR"
+#, no-wrap
+msgid "OR\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:223
 #: ../src/docs/guides/cms/dokuwiki_server.md:181
-msgid "And then start it:"
+#, no-wrap
+msgid "And then start it:\n"
 msgstr ""
 
 #. type: YAML Front Matter: tags
@@ -274,78 +278,62 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/cms/dokuwiki_server.md:22
-msgid ""
-"A Rocky Linux instance installed on a server, container, or virtual machine."
+#, no-wrap
+msgid "A Rocky Linux instance installed on a server, container, or virtual machine.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/cms/dokuwiki_server.md:22
-msgid ""
-"Comfort with modifying configuration files from the command line with an "
-"editor (our examples here will use _vi_, but you can substitute your "
-"favorite editor)."
+#, no-wrap
+msgid "Comfort with modifying configuration files from the command line with an editor (our examples here will use _vi_, but you can substitute your favorite editor).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/cms/dokuwiki_server.md:22
-msgid "Some knowledge about web applications and setup."
+#, no-wrap
+msgid "Some knowledge about web applications and setup.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/cms/dokuwiki_server.md:22
-msgid ""
-"Our example will use the [Apache Sites Enabled](../web/apache-sites-enabled."
-"md) for setup, so it is a good idea to review that routine if you plan on "
-"following along."
+#, no-wrap
+msgid "Our example will use the [Apache Sites Enabled](../web/apache-sites-enabled.md) for setup, so it is a good idea to review that routine if you plan on following along.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/cms/dokuwiki_server.md:22
-msgid ""
-"We will be using \"example.com\" as the domain name throughout this example."
+#, no-wrap
+msgid "We will be using \"example.com\" as the domain name throughout this example.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/cms/dokuwiki_server.md:22
-msgid ""
-"We will assume throughout this document that you are the root user or can "
-"get there with _sudo_."
+#, no-wrap
+msgid "We will assume throughout this document that you are the root user or can get there with _sudo_.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/cms/dokuwiki_server.md:22
-msgid ""
-"We are assuming a fresh install of the OS, however that is **NOT** a "
-"requirement."
+#, no-wrap
+msgid "We are assuming a fresh install of the OS, however that is **NOT** a requirement.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:26
-msgid ""
-"Documentation can take many forms in an organization. Having a repository "
-"that you can reference for that documentation is invaluable. A wiki (which "
-"means _quick_ in Hawaiian), is a way to keep documentation, process notes, "
-"corporate knowledge bases, and even code examples, in a centralized "
-"location. IT professionals who maintain a wiki, even secretly, have a built-"
-"in insurance policy against forgetting an obscure routine."
+#, no-wrap
+msgid "Documentation can take many forms in an organization. Having a repository that you can reference for that documentation is invaluable. A wiki (which means _quick_ in Hawaiian), is a way to keep documentation, process notes, corporate knowledge bases, and even code examples, in a centralized location. IT professionals who maintain a wiki, even secretly, have a built-in insurance policy against forgetting an obscure routine.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:28
-msgid ""
-"DokuWiki is a mature, fast, wiki that runs without a database, has built in "
-"security features, and is relatively easy to deploy. For more information on "
-"what DokuWiki can do, check out their [web page](https://www.dokuwiki.org/"
-"dokuwiki)."
+#, no-wrap
+msgid "DokuWiki is a mature, fast, wiki that runs without a database, has built in security features, and is relatively easy to deploy. For more information on what DokuWiki can do, check out their [web page](https://www.dokuwiki.org/dokuwiki).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:30
-msgid ""
-"DokuWiki is just one of many wikis available, though it's a pretty good one. "
-"One big pro is that DokuWiki is relatively lightweight and can run on a "
-"server that is already running other services, provided you have space and "
-"memory available."
+#, no-wrap
+msgid "DokuWiki is just one of many wikis available, though it's a pretty good one. One big pro is that DokuWiki is relatively lightweight and can run on a server that is already running other services, provided you have space and memory available.\n"
 msgstr ""
 
 #. type: Title ##
@@ -356,33 +344,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:34
-msgid ""
-"The minimum PHP version for DokuWiki is now 7.2, which is exactly what Rocky "
-"Linux 8 comes with. Rocky Linux 9.0 comes with PHP version 8.0, which is "
-"also fully supported. We are specifying packages here that may already be "
-"installed:"
+#, no-wrap
+msgid "The minimum PHP version for DokuWiki is now 7.2, which is exactly what Rocky Linux 8 comes with. Rocky Linux 9.0 comes with PHP version 8.0, which is also fully supported. We are specifying packages here that may already be installed:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:36
-msgid "`dnf install tar wget httpd php php-gd php-xml php-json php-mbstring`"
+#, no-wrap
+msgid "`dnf install tar wget httpd php php-gd php-xml php-json php-mbstring`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:38
-msgid ""
-"You will see a list of additional dependencies that will be installed and "
-"this prompt:"
+#, no-wrap
+msgid "You will see a list of additional dependencies that will be installed and this prompt:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:40
-msgid "`Is this ok [y/N]:`"
+#, no-wrap
+msgid "`Is this ok [y/N]:`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:42
-msgid "Go ahead and answer with \"y\" and hit 'Enter' to install."
+#, no-wrap
+msgid "Go ahead and answer with \"y\" and hit 'Enter' to install.\n"
 msgstr ""
 
 #. type: Title ##
@@ -399,50 +386,56 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:48
-msgid ""
-"If you have read through the [Apache Sites Enabled](../web/apache-sites-"
-"enabled.md) procedure, you know that we need to create a few directories. We "
-"will start with the _httpd_ configuration directory additions:"
+#, no-wrap
+msgid "If you have read through the [Apache Sites Enabled](../web/apache-sites-enabled.md) procedure, you know that we need to create a few directories. We will start with the _httpd_ configuration directory additions:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:50
-msgid "`mkdir -p /etc/httpd/{sites-available,sites-enabled}`"
+#, no-wrap
+msgid "`mkdir -p /etc/httpd/{sites-available,sites-enabled}`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:52
-msgid "We need to edit the httpd.conf file:"
+#, no-wrap
+msgid "We need to edit the httpd.conf file:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:54
-msgid "`vi /etc/httpd/conf/httpd.conf`"
+#, no-wrap
+msgid "`vi /etc/httpd/conf/httpd.conf`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:56
-msgid "And add this to the very bottom of the file:"
+#, no-wrap
+msgid "And add this to the very bottom of the file:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:58
-msgid "`Include /etc/httpd/sites-enabled`"
+#, no-wrap
+msgid "`Include /etc/httpd/sites-enabled`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:60
-msgid "Create the site configuration file in sites-available:"
+#, no-wrap
+msgid "Create the site configuration file in sites-available:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:62
-msgid "`vi /etc/httpd/sites-available/com.example`"
+#, no-wrap
+msgid "`vi /etc/httpd/sites-available/com.example`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:64
-msgid "That configuration file should look something like this:"
+#, no-wrap
+msgid "That configuration file should look something like this:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -471,22 +464,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:87
-msgid ""
-"Note that the \"AllowOverride All\" above, allows the .htaccess (directory "
-"specific security) file to work."
+#, no-wrap
+msgid "Note that the \"AllowOverride All\" above, allows the .htaccess (directory specific security) file to work.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:89
-msgid ""
-"Go ahead and link the configuration file into sites-enabled, but don't start "
-"web services as yet:"
+#, no-wrap
+msgid "Go ahead and link the configuration file into sites-enabled, but don't start web services as yet:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:91
-msgid ""
-"`ln -s /etc/httpd/sites-available/com.example /etc/httpd/sites-enabled/`"
+#, no-wrap
+msgid "`ln -s /etc/httpd/sites-available/com.example /etc/httpd/sites-enabled/`\n"
 msgstr ""
 
 #. type: Title ###
@@ -497,12 +488,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:95
-msgid "We also need to create our _DocumentRoot_. To do this:"
+#, no-wrap
+msgid "We also need to create our _DocumentRoot_. To do this:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:97
-msgid "`mkdir -p /var/www/sub-domains/com.example/html`"
+#, no-wrap
+msgid "`mkdir -p /var/www/sub-domains/com.example/html`\n"
 msgstr ""
 
 #. type: Title ##
@@ -513,54 +506,50 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:101
-msgid "In your server, change to the root directory."
+#, no-wrap
+msgid "In your server, change to the root directory.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:103
-msgid "`cd /root`"
+#, no-wrap
+msgid "`cd /root`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:105
-msgid ""
-"Now that we have our environment ready to go, let's get the latest stable "
-"version of DokuWiki. You can find this by going to [the download page]"
-"(https://download.dokuwiki.org/) and on the left-hand side of the page under "
-"\"Version\" you will see \"Stable (Recommended) (direct link).\""
+#, no-wrap
+msgid "Now that we have our environment ready to go, let's  get the latest stable version of DokuWiki. You can find this by going to [the download page](https://download.dokuwiki.org/) and on the left-hand side of the page under \"Version\" you will see \"Stable (Recommended) (direct link).\"\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:107
-msgid ""
-"Right-click on the \"(direct link)\" portion of this and copy the link "
-"address. In the console of your DokuWiki server, type \"wget\" and a space "
-"and then paste in your copied link in the terminal. You should get something "
-"like this:"
+#, no-wrap
+msgid "Right-click on the \"(direct link)\" portion of this and copy the link address. In the console of your DokuWiki server, type \"wget\" and a space and then paste in your copied link in the terminal. You should get something like this:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:109
-msgid "`wget https://download.dokuwiki.org/src/dokuwiki/dokuwiki-stable.tgz`"
+#, no-wrap
+msgid "`wget https://download.dokuwiki.org/src/dokuwiki/dokuwiki-stable.tgz`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:111
-msgid ""
-"Before we decompress the archive, take a look at the contents using `tar "
-"ztf` to see the contents of the archive:"
+#, no-wrap
+msgid "Before we decompress the archive, take a look at the contents using `tar ztf` to see the contents of the archive:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:113
-msgid "`tar ztvf dokuwiki-stable.tgz`"
+#, no-wrap
+msgid "`tar ztvf dokuwiki-stable.tgz`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:115
-msgid ""
-"Notice the named dated directory ahead of all the other files that looks "
-"something like this?"
+#, no-wrap
+msgid "Notice the named dated directory ahead of all the other files that looks something like this?\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -576,63 +565,56 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:124
-msgid ""
-"We don't want that leading named directory when we decompress the archive, "
-"so we are going to use some options with tar to exclude it. The first option "
-"is the \"--strip-components=1\" which removes that leading directory."
+#, no-wrap
+msgid "We don't want that leading named directory when we decompress the archive, so we are going to use some options with tar to exclude it. The first option is the \"--strip-components=1\" which removes that leading directory.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:126
-msgid ""
-"The second option is the \"-C\" option, and that tells tar where we want the "
-"archive to be decompressed to. So decompress the archive with this command:"
+#, no-wrap
+msgid "The second option is the \"-C\" option, and that tells tar where we want the archive to be decompressed to. So decompress the archive with this command:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:128
-msgid ""
-"`tar xzf dokuwiki-stable.tgz --strip-components=1 -C /var/www/sub-domains/"
-"com.example/html/`"
+#, no-wrap
+msgid "`tar xzf dokuwiki-stable.tgz  --strip-components=1 -C /var/www/sub-domains/com.example/html/`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:130
-msgid ""
-"Once we have executed this command, all of DokuWiki should be in our "
-"_DocumentRoot_."
+#, no-wrap
+msgid "Once we have executed this command, all of DokuWiki should be in our _DocumentRoot_.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:132
-msgid ""
-"We need to make a copy of the _.htaccess.dist_ file that came with DokuWiki "
-"and keep the old one there too, in case we need to revert to the original in "
-"the future."
+#, no-wrap
+msgid "We need to make a copy of the _.htaccess.dist_ file that came with DokuWiki and keep the old one there too, in case we need to revert to the original in the future.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:134
-msgid ""
-"In the process, we will be changing the name of this file to simply _."
-"htaccess_ which is what _apache_ will be looking for. To do this:"
+#, no-wrap
+msgid "In the process, we will be changing the name of this file to simply _.htaccess_ which is what _apache_ will be looking for. To do this:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:136
-msgid "`cp /var/www/sub-domains/com.example/html/.htaccess{.dist,}`"
+#, no-wrap
+msgid "`cp /var/www/sub-domains/com.example/html/.htaccess{.dist,}`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:138
-msgid ""
-"Now we need to change ownership of the new directory and its files to the "
-"_apache_ user and group:"
+#, no-wrap
+msgid "Now we need to change ownership of the new directory and its files to the _apache_ user and group:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:140
-msgid "`chown -Rf apache.apache /var/www/sub-domains/com.example/html`"
+#, no-wrap
+msgid "`chown -Rf apache.apache /var/www/sub-domains/com.example/html`\n"
 msgstr ""
 
 #. type: Title ##
@@ -643,31 +625,27 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:144
-msgid ""
-"Before you'll be able to access the DokuWiki interface, you'll need to set "
-"name resolution for this site. For testing purposes, you can use your _/etc/"
-"hosts_ file."
+#, no-wrap
+msgid "Before you'll be able to access the DokuWiki interface, you'll need to set name resolution for this site. For testing purposes, you can use your _/etc/hosts_ file.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:146
-msgid ""
-"In this example, let's assume that DokuWiki will be running on a private "
-"IPv4 address of 10.56.233.179. Let's also assume that you are modifying the "
-"_/etc/hosts_ file on a Linux workstation. To do this, run:"
+#, no-wrap
+msgid "In this example, let's assume that DokuWiki will be running on a private IPv4 address of 10.56.233.179. Let's also assume that you are modifying the _/etc/hosts_ file on a Linux workstation. To do this, run:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:148
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:415
-msgid "`sudo vi /etc/hosts`"
+#, no-wrap
+msgid "`sudo vi /etc/hosts`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:150
-msgid ""
-"And then modify your hosts file to look something like this (note the IP "
-"address above in the below example):"
+#, no-wrap
+msgid "And then modify your hosts file to look something like this (note the IP address above in the below example):\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -688,11 +666,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:165
-msgid ""
-"Once you have finished testing and are ready to take things live for "
-"everyone, you will need to add this host to a DNS server. You could do this "
-"by using a [Private DNS Server](../dns/private_dns_server_using_bind.md), or "
-"a public-facing DNS server."
+#, no-wrap
+msgid "Once you have finished testing and are ready to take things live for everyone, you will need to add this host to a DNS server. You could do this by using a [Private DNS Server](../dns/private_dns_server_using_bind.md), or a public-facing DNS server.\n"
 msgstr ""
 
 #. type: Title ##
@@ -703,40 +678,44 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:169
-msgid ""
-"Before we start _httpd_ let's test to make sure that our configuration is OK:"
+#, no-wrap
+msgid "Before we start _httpd_ let's test to make sure that our configuration is OK:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:171
-msgid "`httpd -t`"
+#, no-wrap
+msgid "`httpd -t`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:173
-msgid "You should get:"
+#, no-wrap
+msgid "You should get:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:175
-msgid "`Syntax OK`"
+#, no-wrap
+msgid "`Syntax OK`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:177
-msgid ""
-"If so, you should be ready to start _httpd_ and then finish the setup. Let's "
-"start by enabling _httpd_ to start on boot:"
+#, no-wrap
+msgid "If so, you should be ready to start _httpd_ and then finish the setup. Let's start by enabling _httpd_ to start on boot:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:179
-msgid "`systemctl enable httpd`"
+#, no-wrap
+msgid "`systemctl enable httpd`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:183
-msgid "`systemctl start httpd`"
+#, no-wrap
+msgid "`systemctl start httpd`\n"
 msgstr ""
 
 #. type: Title ##
@@ -747,92 +726,87 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:187
-msgid ""
-"Now that our host name is set for testing and the web service has been "
-"started, the next step is to open up a web browser and type this in the "
-"address bar:"
+#, no-wrap
+msgid "Now that our host name is set for testing and the web service has been started, the next step is to open up a web browser and type this in the address bar:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:189
 #: ../src/docs/guides/cms/dokuwiki_server.md:193
-msgid "`http://example.com/install.php`"
+#, no-wrap
+msgid "`http://example.com/install.php`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:195
-msgid ""
-"Either should work if you set your hosts file as above. This will bring you "
-"to the setup screen so that you can finish the setup:"
+#, no-wrap
+msgid "Either should work if you set your hosts file as above. This will bring you to the setup screen so that you can finish the setup:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/cms/dokuwiki_server.md:206
-msgid ""
-"In the \"Wiki Name\" field, type the name for our wiki. Example \"Technical "
-"Documentation\""
+#, no-wrap
+msgid "In the \"Wiki Name\" field, type the name for our wiki. Example \"Technical Documentation\"\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/cms/dokuwiki_server.md:206
-msgid ""
-"In the \"Superuser\" field, type the administrative username. Example \"admin"
-"\""
+#, no-wrap
+msgid "In the \"Superuser\" field, type the administrative username. Example \"admin\"\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/cms/dokuwiki_server.md:206
-msgid ""
-"In the \"Real name\" field, type the real name for the administrative user."
+#, no-wrap
+msgid "In the \"Real name\" field, type the real name for the administrative user.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/cms/dokuwiki_server.md:206
-msgid ""
-"In the \"E-Mail\" field, type the email address of the administrative user."
+#, no-wrap
+msgid "In the \"E-Mail\" field, type the email address of the administrative user.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/cms/dokuwiki_server.md:206
-msgid ""
-"In the \"Password\" field, type the secure password for the administrative "
-"user."
+#, no-wrap
+msgid "In the \"Password\" field, type the secure password for the administrative user.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/cms/dokuwiki_server.md:206
-msgid "In the \"once again\" field, re-type that same password."
+#, no-wrap
+msgid "In the \"once again\" field, re-type that same password.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/cms/dokuwiki_server.md:206
-msgid ""
-"In the \"Initial ACL Policy\" drop down, choose the option that works best "
-"for your environment."
+#, no-wrap
+msgid "In the \"Initial ACL Policy\" drop down, choose the option that works best for your environment.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/cms/dokuwiki_server.md:206
-msgid ""
-"Choose the appropriate check box for the license you want to put your "
-"content under."
+#, no-wrap
+msgid "Choose the appropriate check box for the license you want to put your content under.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/cms/dokuwiki_server.md:206
-msgid ""
-"Leave checked (or uncheck if you prefer) the \"Once a month, send anonymous "
-"usage data to the DokuWiki developers\" checkbox"
+#, no-wrap
+msgid "Leave checked (or uncheck if you prefer) the \"Once a month, send anonymous usage data to the DokuWiki developers\" checkbox\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/cms/dokuwiki_server.md:206
-msgid "Click the \"Save\" button"
+#, no-wrap
+msgid "Click the \"Save\" button\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:208
-msgid "Your wiki is now ready for you to add content."
+#, no-wrap
+msgid "Your wiki is now ready for you to add content.\n"
 msgstr ""
 
 #. type: Title ##
@@ -843,7 +817,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:212
-msgid "Besides the ACL policy that you just created, consider:"
+#, no-wrap
+msgid "Besides the ACL policy that you just created, consider:\n"
 msgstr ""
 
 #. type: Title ###
@@ -860,18 +835,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:220
-msgid ""
-"Before you call everything done, you need to think about security. First, "
-"you should be running a firewall on the server. We will assume you are using "
-"one of the firewalls below."
+#, no-wrap
+msgid "Before you call everything done, you need to think about security. First, you should be running a firewall on the server. We will assume you are using one of the firewalls below.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:222
-msgid ""
-"Instead of everyone having access to the wiki, we are going to assume that "
-"anyone on the 10.0.0.0/8 network is on your private Local Area Network, and "
-"that those are the only people who need access to the site."
+#, no-wrap
+msgid "Instead of everyone having access to the wiki, we are going to assume that anyone on the 10.0.0.0/8 network is on your private Local Area Network, and that those are the only people who need access to the site.\n"
 msgstr ""
 
 #. type: Title ####
@@ -888,20 +859,21 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:230
-msgid ""
-"Please note that you may need other rules for other services on this server, "
-"and that this example only takes into account the web services."
+#, no-wrap
+msgid "Please note that you may need other rules for other services on this server, and that this example only takes into account the web services.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:232
-msgid "First, modify or create the _/etc/firewall.conf_ file:"
+#, no-wrap
+msgid "First, modify or create the _/etc/firewall.conf_ file:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:234
 #: ../src/docs/guides/web/apache_hardened_webserver/index.md:83
-msgid "`vi /etc/firewall.conf`"
+#, no-wrap
+msgid "`vi /etc/firewall.conf`\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -929,31 +901,34 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:256
-msgid "Once the script is created, make sure it is executable:"
+#, no-wrap
+msgid "Once the script is created, make sure it is executable:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:258
 #: ../src/docs/guides/web/apache_hardened_webserver/index.md:130
-msgid "`chmod +x /etc/firewall.conf`"
+#, no-wrap
+msgid "`chmod +x /etc/firewall.conf`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:260
-msgid "Then execute the script:"
+#, no-wrap
+msgid "Then execute the script:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:262
 #: ../src/docs/guides/web/apache_hardened_webserver/index.md:142
-msgid "`/etc/firewall.conf`"
+#, no-wrap
+msgid "`/etc/firewall.conf`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:264
-msgid ""
-"This will execute the rules and save them so that they will be reloaded on "
-"the next start of _iptables_ or on boot."
+#, no-wrap
+msgid "This will execute the rules and save them so that they will be reloaded on the next start of _iptables_ or on boot.\n"
 msgstr ""
 
 #. type: Title ####
@@ -964,15 +939,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:268
-msgid ""
-"If you are using `firewalld` as your firewall (and by this time, you "
-"probably *should* be) you can apply the same concepts using `firewalld's "
-"firewall-cmd` syntax."
+#, no-wrap
+msgid "If you are using `firewalld` as your firewall (and by this time, you probably *should* be) you can apply the same concepts using `firewalld's firewall-cmd` syntax.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:270
-msgid "We will duplicate the `iptables` rules (above) with `firewalld` rules:"
+#, no-wrap
+msgid "We will duplicate the `iptables` rules (above) with `firewalld` rules:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -986,9 +960,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:278
-msgid ""
-"Once you have the above rules added and the firewalld service reloaded, list "
-"out your zone to make sure that everything is there that you need:"
+#, no-wrap
+msgid "Once you have the above rules added and the firewalld service reloaded, list out your zone to make sure that everything is there that you need:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -999,9 +972,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:284
-msgid ""
-"which should show you something like this if all of the above has worked "
-"correctly:"
+#, no-wrap
+msgid "which should show you something like this if all of the above has worked correctly:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1032,10 +1004,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:305
-msgid ""
-"For the best security, you should consider using an SSL so that all web "
-"traffic is encrypted. You can purchase an SSL from an SSL provider or use "
-"[Let's Encrypt](../security/generating_ssl_keys_lets_encrypt.md)."
+#, no-wrap
+msgid "For the best security, you should consider using an SSL so that all web traffic is encrypted. You can purchase an SSL from an SSL provider or use [Let's Encrypt](../security/generating_ssl_keys_lets_encrypt.md).\n"
 msgstr ""
 
 #. type: Plain text

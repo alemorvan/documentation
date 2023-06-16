@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -47,7 +47,8 @@ msgstr ""
 #: ../src/docs/guides/proxies/pound.md:62
 #: ../src/docs/guides/proxies/pound.md:418 ../src/docs/index.md:40
 #: ../src/docs/release_notes/9_1.md:16
-msgid "!!! note"
+#, no-wrap
+msgid "!!! note\n"
 msgstr ""
 
 #. type: Plain text
@@ -73,7 +74,8 @@ msgstr ""
 #: ../src/docs/guides/package_management/index.md:10
 #: ../src/docs/guides/proxies/pound.md:211
 #: ../src/docs/guides/proxies/pound.md:265 ../src/docs/release_notes/8_4.md:20
-msgid "!!! warning"
+#, no-wrap
+msgid "!!! warning\n"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
@@ -265,33 +267,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:16
-msgid ""
-"In the last article we set up a new rocky linux 8 system with the DISA stig "
-"applied using [OpenSCAP](https://www.openscap.org). Now we’re going to cover "
-"how to test the system using those same tools, and look at what kinds of "
-"reports we can generate using the tools oscap, and its UI counterpart SCAP "
-"Workbench."
+#, no-wrap
+msgid "In the last article we set up a new rocky linux 8 system with the DISA stig applied using [OpenSCAP](https://www.openscap.org). Now we’re going to cover how to test the system using those same tools, and look at what kinds of reports we can generate using the tools oscap, and its UI counterpart SCAP Workbench.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:18
-msgid ""
-"Rocky Linux 8 (and 9!) includes a suite of [SCAP](https://csrc.nist.gov/"
-"projects/security-content-automation-protocol) content to test, and "
-"remediate compliance against various standards. If you built a STIG’d system "
-"in part 1, you’ve already seen this in action. The anaconda installer "
-"leveraged this content to modify the rocky 8 configuration to implement "
-"various controls, install/remove packages, and change the way the OS level "
-"mount points work."
+#, no-wrap
+msgid "Rocky Linux 8 (and 9!) includes a suite of [SCAP](https://csrc.nist.gov/projects/security-content-automation-protocol) content to test, and remediate compliance against various standards. If you built a STIG’d system in part 1, you’ve already seen this in action. The anaconda installer leveraged this content to modify the rocky 8 configuration to implement various controls, install/remove packages, and change the way the OS level mount points work.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:20
-msgid ""
-"Over time, these things could change and you will want to keep an eye on it. "
-"Frequently, I also use these reports to show proof that a particular control "
-"has been implemented correctly. Either way, its baked in to Rocky. We will "
-"begin with some basics."
+#, no-wrap
+msgid "Over time, these things could change and you will want to keep an eye on it. Frequently, I also use these reports to show proof that a particular control has been implemented correctly. Either way, its baked in to Rocky. We will begin with some basics.\n"
 msgstr ""
 
 #. type: Title ##
@@ -302,11 +291,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:24
-msgid ""
-"To list the security profiles available, we need to use the command `oscap "
-"info` provided by the `openscap-scanner` package. This should already be "
-"installed in your system if you've been following along since Part 1.  To "
-"obtain the security profiles available:"
+#, no-wrap
+msgid "To list the security profiles available, we need to use the command `oscap info` provided by the `openscap-scanner` package. This should already be installed in your system if you've been following along since Part 1.  To obtain the security profiles available:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -323,55 +309,56 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:34
-msgid ""
-"If all goes well, you should receive a screen that looks something like this "
-"one:"
+#, no-wrap
+msgid "If all goes well, you should receive a screen that looks something like this one:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:36
-msgid "![Security Profiles](images/disa_stig_pt2_img1.jpg)"
+#, no-wrap
+msgid "![Security Profiles](images/disa_stig_pt2_img1.jpg)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:38
-msgid ""
-"DISA is just one of many Security Profiles supported by the Rocky Linux SCAP "
-"definitions. We also have profiles for:"
+#, no-wrap
+msgid "DISA is just one of many Security Profiles supported by the Rocky Linux SCAP definitions. We also have profiles for:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:45
-msgid "[ANSSI](https://www.ssi.gouv.fr/en/)"
+#, no-wrap
+msgid "[ANSSI](https://www.ssi.gouv.fr/en/)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:45
-msgid "[CIS](https://cisecurity.org)"
+#, no-wrap
+msgid "[CIS](https://cisecurity.org)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:45
-msgid "[Australian Cyber Security Center](https://cyber.gov.au)"
+#, no-wrap
+msgid "[Australian Cyber Security Center](https://cyber.gov.au)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:45
-msgid ""
-"[NIST-800-171](https://csrc.nist.gov/publications/detail/sp/800-171/rev-2/"
-"final)"
+#, no-wrap
+msgid "[NIST-800-171](https://csrc.nist.gov/publications/detail/sp/800-171/rev-2/final)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:45
-msgid ""
-"[HIPAA](https://www.hhs.gov/hipaa/for-professionals/security/laws-"
-"regulations/index.html)"
+#, no-wrap
+msgid "[HIPAA](https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:45
-msgid "[PCI-DSS](https://www.pcisecuritystandards.org/)"
+#, no-wrap
+msgid "[PCI-DSS](https://www.pcisecuritystandards.org/)\n"
 msgstr ""
 
 #. type: Title ##
@@ -382,22 +369,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:49
-msgid "There are two types to choose from here:"
+#, no-wrap
+msgid "There are two types to choose from here:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:52
-msgid "stig - Without a GUI"
+#, no-wrap
+msgid "stig - Without a GUI\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:52
-msgid "stig_gui - With a GUI"
+#, no-wrap
+msgid "stig_gui - With a GUI \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:54
-msgid "Run a scan and create an HTML report for the DISA STIG:"
+#, no-wrap
+msgid "Run a scan and create an HTML report for the DISA STIG:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -408,22 +399,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:60
-msgid "This will result in a report like this:"
+#, no-wrap
+msgid "This will result in a report like this:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:62
-msgid "![Scan Results](images/disa_stig_pt2_img2.jpg)"
+#, no-wrap
+msgid "![Scan Results](images/disa_stig_pt2_img2.jpg)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:64
-msgid "And will output an HTML report:"
+#, no-wrap
+msgid "And will output an HTML report:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:66
-msgid "![HTML Report](images/disa_stig_pt2_img3.jpg)"
+#, no-wrap
+msgid "![HTML Report](images/disa_stig_pt2_img3.jpg)\n"
 msgstr ""
 
 #. type: Title ##
@@ -434,11 +429,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:70
-msgid ""
-"Next, we will generate a scan, and then use the results of the scan to "
-"generate a bash script to remediate the system based on the DISA stig "
-"profile. I do not recommend using automatic remediation, you should always "
-"review the changes before actually running them."
+#, no-wrap
+msgid "Next, we will generate a scan, and then use the results of the scan to generate a bash script to remediate the system based on the DISA stig profile. I do not recommend using automatic remediation, you should always review the changes before actually running them.\n"
 msgstr ""
 
 #. type: Plain text
@@ -457,8 +449,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:81
-msgid ""
-"The resulting script will include all the changes it would make the system."
+#, no-wrap
+msgid "The resulting script will include all the changes it would make the system. \n"
 msgstr ""
 
 #. type: Plain text
@@ -469,7 +461,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:87
-msgid "![Script Contents](images/disa_stig_pt2_img4.jpg)"
+#, no-wrap
+msgid "![Script Contents](images/disa_stig_pt2_img4.jpg)\n"
 msgstr ""
 
 #. type: Title ##
@@ -480,9 +473,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:91
-msgid ""
-"You can also generate remediation actions in ansible playbook format. Let's "
-"repeat the section above, but this time with ansible output:"
+#, no-wrap
+msgid "You can also generate remediation actions in ansible playbook format. Let's repeat the section above, but this time with ansible output:\n"
 msgstr ""
 
 #. type: Plain text
@@ -507,7 +499,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:106
-msgid "![Ansible Playbook](images/disa_stig_pt2_img5.jpg)"
+#, no-wrap
+msgid "![Ansible Playbook](images/disa_stig_pt2_img5.jpg)\n"
 msgstr ""
 
 #. type: Title ##
@@ -520,11 +513,9 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:112
-#: ../src/docs/books/disa_stig/disa_stig_part1.md:145
+#, no-wrap
 msgid ""
-"Scott Shinn is the CTO for Atomicorp, and part of the Rocky Linux Security "
-"team. He has been involved with federal information systems at the White "
-"House, Department of Defense, and Intelligence Community since 1995. Part of "
-"that was creating STIG’s and the requirement that you use them and I am so "
-"very sorry about that."
+"Scott Shinn is the CTO for Atomicorp, and part of the Rocky Linux Security team. He has been involved with federal information systems at\n"
+"the White House, Department of Defense, and Intelligence Community since 1995. Part of that was creating STIG’s and the requirement\n"
+"that you use them and I am so very sorry about that.\n"
 msgstr ""

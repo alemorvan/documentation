@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -142,7 +142,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -169,7 +168,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Plain text
@@ -225,7 +225,8 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:243
 #: ../src/docs/guides/security/learning_selinux.md:263
 #: ../src/docs/guides/web/php.md:145
-msgid "!!! Warning"
+#, no-wrap
+msgid "!!! Warning\n"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
@@ -403,37 +404,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/md_preview.md:17
-msgid ""
-"One of the features of the Markdown language that make it widely used in "
-"writing technical documentation is its convertibility. Code can be converted "
-"for display in many formats (HTML, PDF, plain text,..), therefore making "
-"content usable in numerous scenarios."
+#, no-wrap
+msgid "One of the features of the Markdown language that make it widely used in writing technical documentation is its convertibility. Code can be converted for display in many formats (HTML, PDF, plain text,..), therefore making content usable in numerous scenarios.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/md_preview.md:19
-msgid ""
-"Specifically, documentation written for Rocky Linux is converted to `HTML` "
-"using a *python* application. The application converts documents written in "
-"*markdown* to static HTML pages."
+#, no-wrap
+msgid "Specifically, documentation written for Rocky Linux is converted to `HTML` using a *python* application. The application converts documents written in *markdown* to static HTML pages.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/md_preview.md:21
-msgid ""
-"The problem arises when writing your documentation for Rocky Linux, of "
-"verifying its correct display when converted to `HTML` code."
+#, no-wrap
+msgid "The problem arises when writing your documentation for Rocky Linux, of verifying its correct display when converted to `HTML` code.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/md_preview.md:23
-msgid ""
-"To integrate this functionality into your editor, two of the plugins "
-"available for this purpose, [toppair/peek.nvim](https://github.com/toppair/"
-"peek.nvim) and [markdown-preview.nvim](https://github.com/iamcco/markdown-"
-"preview.nvim), will be illustrated on this page. Both of these support "
-"*github-style*, the choice of browser to use for preview, and synchronized "
-"scrolling with the editor."
+#, no-wrap
+msgid "To integrate this functionality into your editor, two of the plugins available for this purpose, [toppair/peek.nvim](https://github.com/toppair/peek.nvim) and [markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim), will be illustrated on this page. Both of these support *github-style*, the choice of browser to use for preview, and synchronized scrolling with the editor.\n"
 msgstr ""
 
 #. type: Title ###
@@ -444,20 +434,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/md_preview.md:27
-msgid ""
-"[Peek](https://github.com/toppair/peek.nvim) uses [Deno](https://deno.com/"
-"manual) a JavaScript, TypeScript and WebAssembly runtime with default secure "
-"settings for its operation. By default Deno does not allow any file, network "
-"or environment access unless explicitly enabled."
+#, no-wrap
+msgid "[Peek](https://github.com/toppair/peek.nvim) uses [Deno](https://deno.com/manual) a JavaScript, TypeScript and WebAssembly runtime with default secure settings for its operation. By default Deno does not allow any file, network or environment access unless explicitly enabled.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/md_preview.md:29
-msgid ""
-"If you have also installed the [Template Chadrc](../template_chadrc.md) this "
-"component will already be available as it is one of the language servers "
-"installed by default. In case it is not yet present in the editor you can "
-"install it with the command `:MasonInstall deno`."
+#, no-wrap
+msgid "If you have also installed the [Template Chadrc](../template_chadrc.md) this component will already be available as it is one of the language servers installed by default. In case it is not yet present in the editor you can install it with the command `:MasonInstall deno`.\n"
 msgstr ""
 
 #. type: Plain text
@@ -468,9 +452,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/md_preview.md:35
-msgid ""
-"To install the plugin you will have to edit the file **/custom/plugins.lua** "
-"by adding the following block of code:"
+#, no-wrap
+msgid "To install the plugin you will have to edit the file **/custom/plugins.lua** by adding the following block of code:\n"
 msgstr ""
 
 #. type: Fenced code block (lua)
@@ -506,10 +489,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/md_preview.md:61
-msgid ""
-"To get the full functionality, however, you must close NvChad (*nvim*) and "
-"reopen it. This is to allow the editor to load those of **Peek** into the "
-"configuration."
+#, no-wrap
+msgid "To get the full functionality, however, you must close NvChad (*nvim*) and reopen it. This is to allow the editor to load those of **Peek** into the configuration.\n"
 msgstr ""
 
 #. type: Plain text
@@ -520,12 +501,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/md_preview.md:65
-msgid "![Peek](./images/peek_command.png)"
+#, no-wrap
+msgid "![Peek](./images/peek_command.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/md_preview.md:67
-msgid "You also have the string:"
+#, no-wrap
+msgid "You also have the string:\n"
 msgstr ""
 
 #. type: Fenced code block (lua)
@@ -536,23 +519,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/md_preview.md:73
-msgid ""
-"Which allows you to pass options for the light or dark theme of the preview "
-"and the method to be used for display."
+#, no-wrap
+msgid "Which allows you to pass options for the light or dark theme of the preview and the method to be used for display.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/md_preview.md:75
-msgid ""
-"In this configuration, the \"browser\" method was chosen, which opens the "
-"file to be viewed in the system's default browser, but the plugin allows "
-"through the \"webview\" method to preview the file using only **Deno** via "
-"the [webview_deno](https://github.com/webview/webview_deno) component."
+#, no-wrap
+msgid "In this configuration, the \"browser\" method was chosen, which opens the file to be viewed in the system's default browser, but the plugin allows through the \"webview\" method to preview the file using only **Deno** via the [webview_deno](https://github.com/webview/webview_deno) component.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/md_preview.md:77
-msgid "![Peek Webview](./images/peek_webview.png)"
+#, no-wrap
+msgid "![Peek Webview](./images/peek_webview.png)\n"
 msgstr ""
 
 #. type: Title ###
@@ -563,18 +543,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/md_preview.md:81
-msgid ""
-"[Markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim) is "
-"a plugin written in `node.js` (JavaScript). Its installation on NvChad does "
-"not require any dependencies as the developers provide a precompiled version "
-"that works perfectly in the editor."
+#, no-wrap
+msgid "[Markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim) is a plugin written in `node.js` (JavaScript). Its installation on NvChad does not require any dependencies as the developers provide a precompiled version that works perfectly in the editor.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/md_preview.md:83
-msgid ""
-"To install this version you will need to add this code block to your **/"
-"custom/plugins.lua**:"
+#, no-wrap
+msgid "To install this version you will need to add this code block to your **/custom/plugins.lua**:\n"
 msgstr ""
 
 #. type: Fenced code block (lua)
@@ -594,19 +570,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/md_preview.md:97
-msgid ""
-"As with the previous plugin, you will need to close the editor and reopen it "
-"to give NvChad a chance to load the new configuration. Again you can pass to "
-"the plugin some custom options described in the [dedicated section](https://"
-"github.com/iamcco/markdown-preview.nvim#markdownpreview-config) of the "
-"project repository."
+#, no-wrap
+msgid "As with the previous plugin, you will need to close the editor and reopen it to give NvChad a chance to load the new configuration. Again you can pass to the plugin some custom options described in the [dedicated section](https://github.com/iamcco/markdown-preview.nvim#markdownpreview-config) of the project repository.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/md_preview.md:99
-msgid ""
-"However, the options must be modified to fit the configuration of `lazy."
-"nvim`, particularly the option configured in this example:"
+#, no-wrap
+msgid "However, the options must be modified to fit the configuration of `lazy.nvim`, particularly the option configured in this example:\n"
 msgstr ""
 
 #. type: Fenced code block (lua)
@@ -617,7 +588,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/md_preview.md:105
-msgid "It corresponds to the option described on the project site as:"
+#, no-wrap
+msgid "It corresponds to the option described on the project site as:\n"
 msgstr ""
 
 #. type: Fenced code block (lua)
@@ -628,11 +600,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/md_preview.md:111
-msgid ""
-"As you can see, to set the options you will have to modify the initial part "
-"of them to make them interpretable. To give another example let us take the "
-"option that allows you to choose which browser to use for the preview that "
-"is specified like this:"
+#, no-wrap
+msgid "As you can see, to set the options you will have to modify the initial part of them to make them interpretable. To give another example let us take the option that allows you to choose which browser to use for the preview that is specified like this:\n"
 msgstr ""
 
 #. type: Fenced code block (lua)
@@ -643,9 +612,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/md_preview.md:117
-msgid ""
-"To interpret this correctly in NvChad it will have to be modified by "
-"replacing `let g:` with `vim.g.`."
+#, no-wrap
+msgid "To interpret this correctly in NvChad it will have to be modified by replacing `let g:` with `vim.g.`.\n"
 msgstr ""
 
 #. type: Fenced code block (lua)
@@ -656,18 +624,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/md_preview.md:124
-msgid ""
-"This way the next time NvChad is opened, `chromium-browser` will be used "
-"regardless of the system's default browser."
+#, no-wrap
+msgid "This way the next time NvChad is opened, `chromium-browser` will be used regardless of the system's default browser.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/md_preview.md:126
-msgid ""
-"The configuration also provides the commands `:MarkdownPreview` and `:"
-"MarkdownPreviewStop` to open and close the preview, respectively. For faster "
-"access to the commands you can map them to the **/custom/mapping.lua** file "
-"as follows:"
+#, no-wrap
+msgid "The configuration also provides the commands `:MarkdownPreview` and `:MarkdownPreviewStop` to open and close the preview, respectively. For faster access to the commands you can map them to the **/custom/mapping.lua** file as follows:\n"
 msgstr ""
 
 #. type: Fenced code block (lua)
@@ -697,7 +661,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/md_preview.md:144
-msgid "![Markdown Preview](./images/markdown_preview_nvim.png)"
+#, no-wrap
+msgid "![Markdown Preview](./images/markdown_preview_nvim.png)\n"
 msgstr ""
 
 #. type: Title ##
@@ -711,24 +676,18 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/md_preview.md:148
-msgid ""
-"A preview of what you are writing can be useful, both for those new to this "
-"editor and for those with a more in-depth knowledge of the Markdown "
-"language. The preview allows you to assess the impact of the code once "
-"converted, and any errors it contains."
+#, no-wrap
+msgid "A preview of what you are writing can be useful, both for those new to this editor and for those with a more in-depth knowledge of the Markdown language. The preview allows you to assess the impact of the code once converted, and any errors it contains.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/md_preview.md:150
-msgid ""
-"The choice of which plugin to use is totally subjective, and we encourage "
-"you to try both to assess which one might be best for you."
+#, no-wrap
+msgid "The choice of which plugin to use is totally subjective, and we encourage you to try both to assess which one might be best for you.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/md_preview.md:151
-msgid ""
-"The use of one of these plugins allows you to contribute documents to the "
-"documentation on Rocky Linux that conform to the code used therefore "
-"alleviating the work of documentation reviewers."
+#, no-wrap
+msgid "The use of one of these plugins allows you to contribute documents to the documentation on Rocky Linux that conform to the code used therefore alleviating the work of documentation reviewers.\n"
 msgstr ""

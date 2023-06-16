@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,18 +20,15 @@ msgstr ""
 #: ../src/docs/guides/contribute/rockydocs_formatting.md:104
 #: ../src/docs/guides/package_management/developer_start2.md:4
 #: ../src/docs/guides/package_management/package_build_troubleshooting.md:6
-msgid "!!! danger"
+#, no-wrap
+msgid "!!! danger\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/package_management/developer_start2.md:6
 #: ../src/docs/guides/package_management/package_build_troubleshooting.md:8
-msgid ""
-"This article was written originally in Early 2021 during the bootstrap of "
-"Rocky Linux. Content on this page is kept for historical reasons, but has "
-"been edited lightly to fix links, provide context, or remove instructions "
-"that are no longer relevant to prevent confusion. This document will be "
-"archived."
+#, no-wrap
+msgid "This article was written originally in Early 2021 during the bootstrap of Rocky Linux. Content on this page is kept for historical reasons, but has been edited lightly to fix links, provide context, or remove instructions that are no longer relevant to prevent confusion. This document will be archived.\n"
 msgstr ""
 
 #. type: YAML Front Matter: title
@@ -48,45 +45,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/package_management/package_build_troubleshooting.md:12
-msgid ""
-"Once you get through that, the biggest and most relevant technical/intro "
-"page for our package debugging effort is this:"
+#, no-wrap
+msgid "Once you get through that, the biggest and most relevant technical/intro page for our package debugging effort is this:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/package_management/package_build_troubleshooting.md:14
-msgid "https://wiki.rockylinux.org/archive/legacy/mock_building_guide/"
+#, no-wrap
+msgid "https://wiki.rockylinux.org/archive/legacy/mock_building_guide/\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/package_management/package_build_troubleshooting.md:16
-msgid ""
-"We are using the “mock” program to perform our builds, just like the real "
-"Rocky infrastructure will. You should install it and get very used to it. "
-"Please use this guide to get started, and explain a bit about what we hope "
-"to achieve and why we have to build all these packages in a specific order."
+#, no-wrap
+msgid "We are using the “mock” program to perform our builds, just like the real Rocky infrastructure will. You should install it and get very used to it. Please use this guide to get started, and explain a bit about what we hope to achieve and why we have to build all these packages in a specific order.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/package_management/package_build_troubleshooting.md:18
-msgid ""
-"Please read those carefully, and maybe dip your toe in the water by feeding "
-"your mock an SRPM or 2 and compiling some things."
+#, no-wrap
+msgid "Please read those carefully, and maybe dip your toe in the water by feeding your mock an SRPM or 2 and compiling some things.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/package_management/package_build_troubleshooting.md:20
-msgid ""
-"Mock is really great, as it’s an easy-to-call program that constructs an "
-"entire system inside a chroot to perform the build, then cleans it up "
-"afterwards."
+#, no-wrap
+msgid "Mock is really great, as it’s an easy-to-call program that constructs an entire system inside a chroot to perform the build, then cleans it up afterwards.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/package_management/package_build_troubleshooting.md:22
-msgid ""
-"Please use the mock configurations for Rocky Linux provided by the `mock` "
-"package in EPEL."
+#, no-wrap
+msgid "Please use the mock configurations for Rocky Linux provided by the `mock` package in EPEL.\n"
 msgstr ""
 
 #. type: Title ##
@@ -97,19 +87,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/package_management/package_build_troubleshooting.md:27
-msgid ""
-"The area we need help the most right now, and the easiest way to contribute, "
-"is to help troubleshoot failing package builds."
+#, no-wrap
+msgid "The area we need help the most right now, and the easiest way to contribute, is to help troubleshoot failing package builds.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/package_management/package_build_troubleshooting.md:29
-msgid ""
-"We’re rebuilding CentOS 8.3 as “practice”, so we can figure out any issues "
-"that crop up with our official Rocky build ahead of time. We are documenting "
-"any errors we find in the packages and how to fix them (to make it build). "
-"This documentation will help our release engineering team when it comes time "
-"to do official builds."
+#, no-wrap
+msgid "We’re rebuilding CentOS 8.3 as “practice”, so we can figure out any issues that crop up with our official Rocky build ahead of time. We are documenting any errors we find in the packages and how to fix them (to make it build). This documentation will help our release engineering team when it comes time to do official builds.\n"
 msgstr ""
 
 #. type: Title ##
@@ -120,46 +105,36 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/package_management/package_build_troubleshooting.md:33
-msgid ""
-"Once you are familiar with Mock, and especially with debugging its output, "
-"you can begin looking at failing packages. Some of this information is also "
-"on the Mock HowTo page linked above."
+#, no-wrap
+msgid "Once you are familiar with Mock, and especially with debugging its output, you can begin looking at failing packages. Some of this information is also on the Mock HowTo page linked above.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/package_management/package_build_troubleshooting.md:35
-msgid ""
-"Let other debuggers know what you’re working on! We don’t want to duplicate "
-"effort. Hop on chat.rockylinux.org (#dev/packaging channel) and let us know!"
+#, no-wrap
+msgid "Let other debuggers know what you’re working on! We don’t want to duplicate effort. Hop on chat.rockylinux.org (#dev/packaging channel) and let us know!\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/package_management/package_build_troubleshooting.md:37
-msgid ""
-"Set your mock program up with the most recent configs that we are using "
-"(linked above). You can use it to attempt the build in the same way as we do "
-"(with external dependencies, extra repos, etc.)"
+#, no-wrap
+msgid "Set your mock program up with the most recent configs that we are using (linked above). You can use it to attempt the build in the same way as we do (with external dependencies, extra repos, etc.)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/package_management/package_build_troubleshooting.md:39
-msgid "Investigate the error(s)."
+#, no-wrap
+msgid "Investigate the error(s).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/package_management/package_build_troubleshooting.md:41
-msgid ""
-"Figure out what’s going on, and how to fix it. It may take the form of "
-"special mock settings, or a patch added to the program + specfile. Report "
-"your findings to the #Dev/Packaging channel, and someone will record them on "
-"the Wiki Package_Error_Tracking page linked above."
+#, no-wrap
+msgid "Figure out what’s going on, and how to fix it. It may take the form of special mock settings, or a patch added to the program + specfile. Report your findings to the #Dev/Packaging channel, and someone will record them on the Wiki Package_Error_Tracking page linked above.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/package_management/package_build_troubleshooting.md:42
-msgid ""
-"The idea is to shrink the Build Failures, and grow the "
-"Package_Error_Tracking page. If necessary, we will commit build fixes to our "
-"patch repo for the different packages located here: https://git.rockylinux."
-"org/staging/patch."
+#, no-wrap
+msgid "The idea is to shrink the Build Failures, and grow the Package_Error_Tracking page. If necessary, we will commit build fixes to our patch repo for the different packages located here: https://git.rockylinux.org/staging/patch.\n"
 msgstr ""

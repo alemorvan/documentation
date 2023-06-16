@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -125,7 +125,8 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:394
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:154
 #: ../src/docs/guides/web/php.md:255
-msgid "Example:"
+#, no-wrap
+msgid "Example:\n"
 msgstr ""
 
 #. type: Title ##
@@ -381,73 +382,62 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:23
-msgid "A Rocky Linux Web Server running Apache."
+#, no-wrap
+msgid "A Rocky Linux Web Server running Apache.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:23
-msgid ""
-"Proficiency with a command-line editor (we are using _vi_ in this example)."
+#, no-wrap
+msgid "Proficiency with a command-line editor (we are using _vi_ in this example).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:23
-msgid ""
-"A heavy comfort level with issuing commands from the command-line, viewing "
-"logs, and other general systems administrator duties."
+#, no-wrap
+msgid "A heavy comfort level with issuing commands from the command-line, viewing logs, and other general systems administrator duties.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:23
-msgid ""
-"An understanding that installing this tool also requires monitoring of "
-"actions and tuning to your environment."
+#, no-wrap
+msgid "An understanding that installing this tool also requires monitoring of actions and tuning to your environment.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:23
-msgid "An account on Comodo's WAF site."
+#, no-wrap
+msgid "An account on Comodo's WAF site.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:23
-msgid "All commands are run as the root user or sudo."
+#, no-wrap
+msgid "All commands are run as the root user or sudo.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:27
-msgid ""
-"_mod\\_security_ is an open-source web-based application firewall (WAF). It "
-"is just one possible component of a hardened Apache web server setup and can "
-"be used with, or without, other tools."
+#, no-wrap
+msgid "_mod\\_security_ is an open-source web-based application firewall (WAF). It is just one possible component of a hardened Apache web server setup and can be used with, or without, other tools.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:29
-msgid ""
-"If you'd like to use this along with other tools for hardening, refer back "
-"to the [Apache Hardened Web Server guide](index.md). This document also uses "
-"all of the assumptions and conventions outlined in that original document, "
-"so it is a good idea to review it before continuing."
+#, no-wrap
+msgid "If you'd like to use this along with other tools for hardening, refer back to the [Apache Hardened Web Server guide](index.md). This document also uses all of the assumptions and conventions outlined in that original document, so it is a good idea to review it before continuing.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:31
-msgid ""
-"One thing that is missing with _mod\\_security_ when installed from the "
-"generic Rocky Linux repositories, is that the rules installed are minimal at "
-"best. To get a more extensive package of free mod_security rules, we are "
-"using [Comodo's](https://www.comodo.com/) WAF installation procedure after "
-"installing the base package."
+#, no-wrap
+msgid "One thing that is missing with _mod\\_security_ when installed from the generic Rocky Linux repositories, is that the rules installed are minimal at best. To get a more extensive package of free mod_security rules, we are using [Comodo's](https://www.comodo.com/) WAF installation procedure after installing the base package.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:33
-msgid ""
-"Note that Comodo is a business that sells lots of tools to help secure "
-"networks. The free _mod\\_security_ tools may not be free forever and they "
-"do require that you setup a login with Comodo in order to gain access to the "
-"rules."
+#, no-wrap
+msgid "Note that Comodo is a business that sells lots of tools to help secure networks. The free _mod\\_security_ tools may not be free forever and they do require that you setup a login with Comodo in order to gain access to the rules.\n"
 msgstr ""
 
 #. type: Title ##
@@ -458,10 +448,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:37
-msgid ""
-"To install the base package, use this command which will install any missing "
-"dependencies. We also need _wget_ so if you haven't installed it, do that as "
-"well:"
+#, no-wrap
+msgid "To install the base package, use this command which will install any missing dependencies. We also need _wget_ so if you haven't installed it, do that as well:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -478,28 +466,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:45
-msgid ""
-"To setup your free account, go to [Comodo's WAF site](https://waf.comodo."
-"com/), and click the \"Signup\" link at the top of the page. You will be "
-"required to setup username and password information, but no credit-card or "
-"other billing will be done."
+#, no-wrap
+msgid "To setup your free account, go to [Comodo's WAF site](https://waf.comodo.com/), and click the \"Signup\" link at the top of the page. You will be required to setup username and password information, but no credit-card or other billing will be done.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:47
-msgid ""
-"The credentials that you use for signing on to the web site will be used in "
-"your setup of Comodo's software and also to obtain the rules, so you will "
-"need to keep these safe in a password manager somewhere."
+#, no-wrap
+msgid "The credentials that you use for signing on to the web site will be used in your setup of Comodo's software and also to obtain the rules, so you will need to keep these safe in a password manager somewhere.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:49
-msgid ""
-"Please note that the \"Terms and Conditions\" section of the form that you "
-"need to fill out to use Comodo Web Application Firewall (CWAF) is written to "
-"cover all of their products and services. That said, you should read this "
-"carefully before agreeing to the terms!"
+#, no-wrap
+msgid "Please note that the \"Terms and Conditions\" section of the form that you need to fill out to use Comodo Web Application Firewall (CWAF) is written to cover all of their products and services. That said, you should read this carefully before agreeing to the terms!\n"
 msgstr ""
 
 #. type: Title ##
@@ -510,9 +490,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:53
-msgid ""
-"Before you start, in order for the script to actually run after we download "
-"it, you are going to need some development tools. Install the package with:"
+#, no-wrap
+msgid "Before you start, in order for the script to actually run after we download it, you are going to need some development tools. Install the package with:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -523,24 +502,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:59
-msgid ""
-"In addition, you will need to have your web server running for Comodo to see "
-"_mod\\_security_ correctly. So, start it if it is not already running:"
+#, no-wrap
+msgid "In addition, you will need to have your web server running for Comodo to see _mod\\_security_ correctly. So, start it if it is not already running:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:65
-msgid ""
-"After signing up with Comodo, you will get an email with instructions on "
-"what to do next. Essentially, what you need to do is to login to the web "
-"site with your new credentials and then download the client install script."
+#, no-wrap
+msgid "After signing up with Comodo, you will get an email with instructions on what to do next. Essentially, what you need to do is to login to the web site with your new credentials and then download the client install script.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:67
-msgid ""
-"From the root directory of your server, use the wget command to download the "
-"installer:"
+#, no-wrap
+msgid "From the root directory of your server, use the wget command to download the installer:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -551,7 +526,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:73
-msgid "Run the installer by typing:"
+#, no-wrap
+msgid "Run the installer by typing:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -562,9 +538,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:79
-msgid ""
-"This will extract the installer and start the process, echoing to the "
-"screen. You'll get a message part way down:"
+#, no-wrap
+msgid "This will extract the installer and start the process, echoing to the screen. You'll get a message part way down:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -575,12 +550,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:85
-msgid "Type \"y\" and let the script continue."
+#, no-wrap
+msgid "Type \"y\" and let the script continue.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:87
-msgid "You may also get this notice:"
+#, no-wrap
+msgid "You may also get this notice:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -591,7 +568,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:93
-msgid "If so type \"y\" and allow those missing modules to install."
+#, no-wrap
+msgid "If so type \"y\" and allow those missing modules to install.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -605,21 +583,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:101
-msgid ""
-"Please note here that you will probably have to download the rules and "
-"install them in the correct location, as the password field requires a "
-"punctuation or special character, but the configuration file apparently has "
-"issues with this when sending it to Comodo's site from the installer or "
-"update script."
+#, no-wrap
+msgid "Please note here that you will probably have to download the rules and install them in the correct location, as the password field requires a punctuation or special character, but the configuration file apparently has issues with this when sending it to Comodo's site from the installer or update script.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:103
-msgid ""
-"These scripts will always fail with a credentials error. This probably "
-"doesn't affect administrators who have web servers running with a GUI front "
-"end (Cpanel / Plesk) but if you are running the program standalone as we are "
-"in our example, it does. [You can find the workaround below](#cwaf_fix)."
+#, no-wrap
+msgid "These scripts will always fail with a credentials error. This probably doesn't affect administrators who have web servers running with a GUI front end (Cpanel / Plesk) but if you are running the program standalone as we are in our example, it does. [You can find the workaround below](#cwaf_fix).\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -632,16 +603,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:110
-msgid ""
-"Just accept the path as given and then type \"y\" in the next field for the "
-"install path."
+#, no-wrap
+msgid "Just accept the path as given and then type \"y\" in the next field for the install path.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:112
-msgid ""
-"If you have a non-standard path to the configuration file for Apache/nginx, "
-"you would enter it here, otherwise just hit 'Enter' for no changes:"
+#, no-wrap
+msgid "If you have a non-standard path to the configuration file for Apache/nginx, you would enter it here, otherwise just hit 'Enter' for no changes:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -652,9 +621,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:118
-msgid ""
-"Here is where the failure comes in, and the only workaround is to manually "
-"download and install the rules. Answer the prompts as shown below:"
+#, no-wrap
+msgid "Here is where the failure comes in, and the only workaround is to manually download and install the rules. Answer the prompts as shown below:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -667,7 +635,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:125
-msgid "But expect to get the next message as well:"
+#, no-wrap
+msgid "But expect to get the next message as well:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -696,10 +665,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:148
-msgid ""
-"That's a little frustrating. You can go to your account on the Comodo web "
-"site and change your password and re-run the install script, BUT it won't "
-"change anything. The credentials will still fail."
+#, no-wrap
+msgid "That's a little frustrating. You can go to your account on the Comodo web site and change your password and re-run the install script, BUT it won't change anything. The credentials will still fail.\n"
 msgstr ""
 
 #. type: Title ###
@@ -710,11 +677,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:152
-msgid ""
-"To fix this, we need to manually install the rules from the web site. This "
-"is done by logging into your account on https://waf.comodo.com and clicking "
-"on the the \"Download Full Rule Set\" link. You'll then need to copy the "
-"rules to your web server using scp'"
+#, no-wrap
+msgid "To fix this, we need to manually install the rules from the web site. This is done by logging into your account on https://waf.comodo.com and clicking on the the \"Download Full Rule Set\" link. You'll then need to copy the rules to your web server using scp'\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -725,9 +689,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:160
-msgid ""
-"Once the tar gzip file has been copied over, move the file to the rules "
-"directory:"
+#, no-wrap
+msgid "Once the tar gzip file has been copied over, move the file to the rules directory:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -738,7 +701,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:166
-msgid "Then navigate to the rules directory:"
+#, no-wrap
+msgid "Then navigate to the rules directory:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -749,7 +713,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:172
-msgid "And uncompress the rules:"
+#, no-wrap
+msgid "And uncompress the rules:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -760,15 +725,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:178
-msgid ""
-"Any partial updates to the rules will have to be handled in the same way."
+#, no-wrap
+msgid "Any partial updates to the rules will have to be handled in the same way.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:180
-msgid ""
-"This is where paying for rules and support can come in handy. It all depends "
-"on your budget."
+#, no-wrap
+msgid "This is where paying for rules and support can come in handy. It all depends on your budget.\n"
 msgstr ""
 
 #. type: Title ###
@@ -779,10 +743,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:184
-msgid ""
-"When we installed _mod\\_security_, the default configuration file was "
-"installed in `/etc/httpd/conf.d/mod_security.conf`. The next thing we need "
-"to do is to modify this in two places. Start by editing the file:"
+#, no-wrap
+msgid "When we installed _mod\\_security_, the default configuration file was installed in `/etc/httpd/conf.d/mod_security.conf`. The next thing we need to do is to modify this in two places. Start by editing the file:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -793,7 +755,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:190
-msgid "At the very top of the file, you will see:"
+#, no-wrap
+msgid "At the very top of the file, you will see:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -807,9 +770,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:198
-msgid ""
-"Beneath the `SecRuleEngine On` line add `SecStatusEngine On` so that the top "
-"of the file will now look like this:"
+#, no-wrap
+msgid "Beneath the `SecRuleEngine On` line add `SecStatusEngine On` so that the top of the file will now look like this:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -824,10 +786,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:207
-msgid ""
-"Next go to the bottom of this configuration file. We need to tell _mod"
-"\\_security_ where to load the rules. You should see this at the bottom of "
-"the file before you make changes:"
+#, no-wrap
+msgid "Next go to the bottom of this configuration file. We need to tell _mod\\_security_ where to load the rules. You should see this at the bottom of the file before you make changes:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -843,11 +803,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:217
-msgid ""
-"We need to add in one line at the bottom to add the CWAF configuration, "
-"which in turn loads the CWAF rules. That line is `Include \"/usr/local/cwaf/"
-"etc/cwaf.conf\"`. The bottom of this file should look like this when you are "
-"done:"
+#, no-wrap
+msgid "We need to add in one line at the bottom to add the CWAF configuration, which in turn loads the CWAF rules. That line is `Include \"/usr/local/cwaf/etc/cwaf.conf\"`. The bottom of this file should look like this when you are done:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -864,40 +821,30 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:228
-msgid "Now save your changes (with vi it's `SHIFT+:+wq!`) and restart httpd:"
+#, no-wrap
+msgid "Now save your changes (with vi it's `SHIFT+:+wq!`) and restart httpd:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:234
-msgid ""
-"If httpd starts OK, then you are ready to start using _mod\\_security_ with "
-"the CWAF."
+#, no-wrap
+msgid "If httpd starts OK, then you are ready to start using _mod\\_security_ with the CWAF.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:238
-msgid ""
-"_mod\\_security_ with CWAF is another tool that can be used to help harden "
-"an Apache web server. Because CWAF's passwords require punctuation and "
-"because the standalone installation does not send that punctuation "
-"correctly, managing CWAF rules requires logging into the CWAF site and "
-"downloading rules and changes."
+#, no-wrap
+msgid "_mod\\_security_ with CWAF is another tool that can be used to help harden an Apache web server. Because CWAF's passwords require punctuation and because the standalone installation does not send that punctuation correctly, managing CWAF rules requires logging into the CWAF site and downloading rules and changes.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:240
-msgid ""
-"_mod\\_security_, like other hardening tools, has the potential of false-"
-"positive responses, so you must be prepared to tune this tool to your "
-"installation."
+#, no-wrap
+msgid "_mod\\_security_, like other hardening tools, has the potential of false-positive responses, so you must be prepared to tune this tool to your installation.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:241
-msgid ""
-"Like other solutions mentioned in the [Apache Hardened Web Server guide]"
-"(index.md), there are other free and fee-based solutions for _mod"
-"\\_security_ rules, and for that matter, other WAF applications available. "
-"You can take a look at one of these at [Atomicorp's _mod\\_security_ site]"
-"(https://atomicorp.com/atomic-modsecurity-rules/)."
+#, no-wrap
+msgid "Like other solutions mentioned in the [Apache Hardened Web Server guide](index.md), there are other free and fee-based solutions for _mod\\_security_ rules, and for that matter, other WAF applications available. You can take a look at one of these at [Atomicorp's _mod\\_security_ site](https://atomicorp.com/atomic-modsecurity-rules/).\n"
 msgstr ""

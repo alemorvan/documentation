@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -43,55 +43,40 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:11
-msgid ""
-"We always welcome new public mirrors. But they should be well maintained and "
-"hosted in a 24/7 data center like environment. Available bandwidth should be "
-"at least 1 GBit/s. We prefer mirrors offering dual-stack (IPv4 & IPv6). "
-"Please do not submit mirrors configured using dynamic DNS. If you are "
-"offering a mirror in a region that has only few mirrors, we will also accept "
-"slower speeds."
+#, no-wrap
+msgid "We always welcome new public mirrors. But they should be well maintained and hosted in a 24/7 data center like environment. Available bandwidth should be at least 1 GBit/s. We prefer mirrors offering dual-stack (IPv4 & IPv6). Please do not submit mirrors configured using dynamic DNS. If you are offering a mirror in a region that has only few mirrors, we will also accept slower speeds.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:13
-msgid ""
-"Please do not submit mirrors which are hosted in a Anycast-CDN like "
-"Cloudflare, etc. as this can lead to sub-optimal performance with the "
-"selection of fastest mirror in `dnf`."
+#, no-wrap
+msgid "Please do not submit mirrors which are hosted in a Anycast-CDN like Cloudflare, etc. as this can lead to sub-optimal performance with the selection of fastest mirror in `dnf`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:15
-msgid ""
-"Please note that we are not allowed to accept public mirrors in countries "
-"subject to US export regulations. You can find a list of those countries "
-"here: [https://www.bis.doc.gov/index.php/policy-guidance/country-guidance/"
-"sanctioned-destinations](https://www.bis.doc.gov/index.php/policy-guidance/"
-"country-guidance/sanctioned-destinations)"
+#, no-wrap
+msgid "Please note that we are not allowed to accept public mirrors in countries subject to US export regulations. You can find a list of those countries here: [https://www.bis.doc.gov/index.php/policy-guidance/country-guidance/sanctioned-destinations](https://www.bis.doc.gov/index.php/policy-guidance/country-guidance/sanctioned-destinations)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:17
-msgid ""
-"As of this writing (late 2022), storage space requirements for mirroring all "
-"current and past Rocky Linux releases is about 2 TB."
+#, no-wrap
+msgid "As of this writing (late 2022), storage space requirements for mirroring all current and past Rocky Linux releases is about 2 TB.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:20
+#, no-wrap
 msgid ""
-"Our master mirror is `rsync://msync.rockylinux.org/rocky/mirror/pub/rocky/` "
-"For your first synchronization use a mirror near to you. You can find all "
-"official mirrors here: https://mirrors.rockylinux.org"
+"Our master mirror is `rsync://msync.rockylinux.org/rocky/mirror/pub/rocky/`\n"
+"For your first synchronization use a mirror near to you. You can find all official mirrors here: https://mirrors.rockylinux.org\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:22
-msgid ""
-"Please note that we might restrict access to the official master mirror to "
-"official public mirrors in the future. So please consider `rsyncing` from a "
-"public mirror close to you if you are running a private mirror. Also local "
-"mirrors might be faster to sync from."
+#, no-wrap
+msgid "Please note that we might restrict access to the official master mirror to official public mirrors in the future. So please consider `rsyncing` from a public mirror close to you if you are running a private mirror. Also local mirrors might be faster to sync from.\n"
 msgstr ""
 
 #. type: Title ##
@@ -102,17 +87,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:26
-msgid ""
-"Please set up a cron job to synchronize your mirror periodically and let it "
-"run around 6 times a day. But be sure to sync off the hour to help "
-"distribute the load over time. If you only check against changes of "
-"`fullfiletimelist-rocky` and only do a full sync if this file has changed "
-"you can synchronize every hour."
+#, no-wrap
+msgid "Please set up a cron job to synchronize your mirror periodically and let it run around 6 times a day. But be sure to sync off the hour to help distribute the load over time. If you only check against changes of `fullfiletimelist-rocky` and only do a full sync if this file has changed you can synchronize every hour.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:28
-msgid "Here are some crontab examples for you:"
+#, no-wrap
+msgid "Here are some crontab examples for you:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -132,7 +114,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:42
-msgid "For a simple synchronization you can use the following `rsync` command:"
+#, no-wrap
+msgid "For a simple synchronization you can use the following `rsync` command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -143,42 +126,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:47
-msgid ""
-"Consider using a locking mechanism to avoid running more than one `rsync` "
-"job simultaneously when we push a new release."
+#, no-wrap
+msgid "Consider using a locking mechanism to avoid running more than one `rsync` job simultaneously when we push a new release.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:49
-msgid ""
-"You can also use and modify our example script implementing locking and full "
-"sync if required. It can be found at [https://github.com/rocky-linux/rocky-"
-"tools/blob/main/mirror/mirrorsync.sh](https://github.com/rocky-linux/rocky-"
-"tools/blob/main/mirror/mirrorsync.sh)."
+#, no-wrap
+msgid "You can also use and modify our example script implementing locking and full sync if required. It can be found at [https://github.com/rocky-linux/rocky-tools/blob/main/mirror/mirrorsync.sh](https://github.com/rocky-linux/rocky-tools/blob/main/mirror/mirrorsync.sh).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:51
-msgid ""
-"After your first complete synchronization check that everything is fine with "
-"your mirror. Most importantly check all files and dirs got synchronized, "
-"your cron job is working properly and your mirror is reachable from the "
-"public Internet. Double check your firewall rules! To avoid any problems do "
-"not enforce http to https redirection."
+#, no-wrap
+msgid "After your first complete synchronization check that everything is fine with your mirror. Most importantly check all files and dirs got synchronized, your cron job is working properly and your mirror is reachable from the public Internet. Double check your firewall rules! To avoid any problems do not enforce http to https redirection.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:53
-msgid ""
-"If you have any questions setting up your mirror join https://chat."
-"rockylinux.org/rocky-linux/channels/infrastructure"
+#, no-wrap
+msgid "If you have any questions setting up your mirror join https://chat.rockylinux.org/rocky-linux/channels/infrastructure\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:55
-msgid ""
-"When you are done head over to the next section and propose your mirror to "
-"become public!"
+#, no-wrap
+msgid "When you are done head over to the next section and propose your mirror to become public!\n"
 msgstr ""
 
 #. type: Title ##
@@ -189,7 +162,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:58
-msgid "An account on https://accounts.rockylinux.org/"
+#, no-wrap
+msgid "An account on https://accounts.rockylinux.org/\n"
 msgstr ""
 
 #. type: Title ##
@@ -200,85 +174,80 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:62
-msgid "Rocky uses Fedora's Mirror Manager for organizing community mirrors."
+#, no-wrap
+msgid "Rocky uses Fedora's Mirror Manager for organizing community mirrors.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:64
-msgid ""
-"Access Rocky's Mirror Manager here: https://mirrors.rockylinux.org/"
-"mirrormanager/"
+#, no-wrap
+msgid "Access Rocky's Mirror Manager here: https://mirrors.rockylinux.org/mirrormanager/\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:66
-msgid ""
-"After a successful login, your profile will be on the top right. Select the "
-"drop down then click \"My sites\"."
+#, no-wrap
+msgid "After a successful login, your profile will be on the top right. Select the drop down then click \"My sites\".\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:68
-msgid ""
-"A new page will load listing all of the sites under the account. The first "
-"time it will be empty. Click \"Register a new site\"."
+#, no-wrap
+msgid "A new page will load listing all of the sites under the account. The first time it will be empty. Click \"Register a new site\".\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:70
-msgid ""
-"A new page will load with an important Export Compliance statement to read. "
-"Then fill out the following information:"
+#, no-wrap
+msgid "A new page will load with an important Export Compliance statement to read. Then fill out the following information:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:78
-msgid "\"Site Name\""
+#, no-wrap
+msgid "\"Site Name\"\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:78
-msgid ""
-"\"Site Password\" - used by `report_mirrors` script, you make this anything "
-"you want"
+#, no-wrap
+msgid "\"Site Password\" - used by `report_mirrors` script, you make this anything you want\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:78
-msgid ""
-"\"Organization URL\" - Company/School/Organization URL e.g. https://"
-"rockylinux.org/"
+#, no-wrap
+msgid "\"Organization URL\" - Company/School/Organization URL e.g. https://rockylinux.org/\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:78
-msgid "\"Private\" - Checking this box hides your mirror from public use."
+#, no-wrap
+msgid "\"Private\" - Checking this box hides your mirror from public use.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:78
-msgid ""
-"\"User active\" - Uncheck this box to temporarily disable this site, it will "
-"be removed from public listings."
+#, no-wrap
+msgid "\"User active\" - Uncheck this box to temporarily disable this site, it will be removed from public listings.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:78
-msgid ""
-"\"All sites can pull from me?\" - Enable all mirror sites to pull from me "
-"without explicitly adding them to my list."
+#, no-wrap
+msgid "\"All sites can pull from me?\" - Enable all mirror sites to pull from me without explicitly adding them to my list.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:78
-msgid ""
-"\"Comments for downstream siteadmins. Please include your synchronization "
-"source here to avoid dependency loops.\""
+#, no-wrap
+msgid "\"Comments for downstream siteadmins. Please include your synchronization source here to avoid dependency loops.\"\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:80
-msgid "Upon clicking \"Submit\" you will be returned to the main mirror page."
+#, no-wrap
+msgid "Upon clicking \"Submit\" you will be returned to the main mirror page.\n"
 msgstr ""
 
 #. type: Title ##
@@ -289,23 +258,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:84
-msgid ""
-"From the main mirror page, select the drop down then click \"My sites\"."
+#, no-wrap
+msgid "From the main mirror page, select the drop down then click \"My sites\".\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:86
-msgid ""
-"The account site page will load and the site should be listed. Click on it "
-"to go to the Information Site."
+#, no-wrap
+msgid "The account site page will load and the site should be listed. Click on it to go to the Information Site.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:88
-msgid ""
-"All of the options from the last section are listed again. At the bottom of "
-"the page are three new options: Admins, Hosts, and Delete site. Click on the "
-"\"Hosts [add]\"."
+#, no-wrap
+msgid "All of the options from the last section are listed again. At the bottom of the page are three new options: Admins, Hosts, and Delete site. Click on the \"Hosts [add]\".\n"
 msgstr ""
 
 #. type: Title ##
@@ -316,89 +282,86 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:92
-msgid "Fill out the following options that are appropriate for the site:"
+#, no-wrap
+msgid "Fill out the following options that are appropriate for the site:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:105
-msgid "\"Host name\" - required: FQDN of server as seen by a public end user"
+#, no-wrap
+msgid "\"Host name\" - required: FQDN of server as seen by a public end user\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:105
-msgid ""
-"\"User active\" - Uncheck this box to temporarily disable this host, it will "
-"be removed from public listings."
+#, no-wrap
+msgid "\"User active\" - Uncheck this box to temporarily disable this host, it will be removed from public listings.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:105
-msgid "\"Country\" - required: 2-letter ISO country code"
+#, no-wrap
+msgid "\"Country\" - required: 2-letter ISO country code\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:105
-msgid ""
-"\"Bandwidth\" - required: integer megabits/sec, how much bandwidth this host "
-"can serve"
+#, no-wrap
+msgid "\"Bandwidth\" - required: integer megabits/sec, how much bandwidth this host can serve\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:105
-msgid ""
-"\"Private\" - e.g. not available to the public, an internal private mirror"
+#, no-wrap
+msgid "\"Private\" - e.g. not available to the public, an internal private mirror\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:105
-msgid "\"Internet2\" - on Internet2"
+#, no-wrap
+msgid "\"Internet2\" - on Internet2\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:105
-msgid "\"Internet2 clients\" - serves Internet2 clients, even if private"
+#, no-wrap
+msgid "\"Internet2 clients\" - serves Internet2 clients, even if private\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:105
-msgid ""
-"\"ASN - Autonomous System Number, used in BGP routing tables. Only if you "
-"are an ISP."
+#, no-wrap
+msgid "\"ASN - Autonomous System Number, used in BGP routing tables. Only if you are an ISP.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:105
-msgid ""
-"\"ASN Clients? - Serve all clients from the same ASN. Used for ISPs, "
-"companies, or schools, not personal networks."
+#, no-wrap
+msgid "\"ASN Clients? - Serve all clients from the same ASN. Used for ISPs, companies, or schools, not personal networks.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:105
-msgid ""
-"\"Robot email\" - email address, will receive notice of upstream content "
-"updates"
+#, no-wrap
+msgid "\"Robot email\" - email address, will receive notice of upstream content updates\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:105
-msgid ""
-"\"Comment\" - text, anything else you'd like a public end user to know about "
-"your mirror"
+#, no-wrap
+msgid "\"Comment\" - text, anything else you'd like a public end user to know about your mirror\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:105
-msgid ""
-"\"Max connections\" - Maximum parallel download connections per client, "
-"suggested via metalinks."
+#, no-wrap
+msgid "\"Max connections\" - Maximum parallel download connections per client, suggested via metalinks.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:107
-msgid ""
-"Click \"Create\" and it will redirect back to the Information site for the "
-"host."
+#, no-wrap
+msgid "Click \"Create\" and it will redirect back to the Information site for the host.\n"
 msgstr ""
 
 #. type: Title ##
@@ -409,54 +372,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:111
-msgid ""
-"At the bottom of the Information site, the option for \"Hosts\" should now "
-"display the host title next to it. Click on the name to load the host page. "
-"All of the same options from the previous step are listed again. There are "
-"new options at the bottom."
+#, no-wrap
+msgid "At the bottom of the Information site, the option for \"Hosts\" should now display the host title next to it. Click on the name to load the host page. All of the same options from the previous step are listed again. There are new options at the bottom.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:113
-msgid ""
-"\"Site-local Netblocks\": Netblocks are used to try to guide and end user to "
-"a site-specific mirror. For example, a university might list their "
-"netblocks, and the mirrorlist CGI would return the university-local mirror "
-"rather than a country-local mirror. Format is one of 18.0.0.0/255.0.0.0, "
-"18.0.0.0/8, an IPv6 prefix/length, or a DNS hostname. Values must be public "
-"IP addresses (no RFC1918 private space addresses). Use only if you are an "
-"ISP and/or own a publicly routeable netblock!"
+#, no-wrap
+msgid "\"Site-local Netblocks\":  Netblocks are used to try to guide and end user to a site-specific mirror. For example, a university might list their netblocks, and the mirrorlist CGI would return the university-local mirror rather than a country-local mirror. Format is one of 18.0.0.0/255.0.0.0, 18.0.0.0/8, an IPv6 prefix/length, or a DNS hostname. Values must be public IP addresses (no RFC1918 private space addresses). Use only if you are an ISP and/or own a publicly routeable netblock!\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:115
-msgid ""
-"\"Peer ASNs\": Peer ASNs are used to guide an end user on nearby networks to "
-"our mirror. For example, a university might list their peer ASNs, and the "
-"mirrorlist CGI would return the university-local mirror rather than a "
-"country-local mirror. You must be in the MirrorManager administrators group "
-"in order to create new entries here."
+#, no-wrap
+msgid "\"Peer ASNs\":  Peer ASNs are used to guide an end user on nearby networks to our mirror. For example, a university might list their peer ASNs, and the mirrorlist CGI would return the university-local mirror rather than a country-local mirror. You must be in the MirrorManager administrators group in order to create new entries here.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:117
-msgid ""
-"\"Countries Allowed\": Some mirrors need to restrict themselves to serving "
-"only end users from their country. If you're one of these, list the 2-letter "
-"ISO code for the countries you will allow end users to be from. The "
-"mirrorlist CGI will honor this."
+#, no-wrap
+msgid "\"Countries Allowed\":  Some mirrors need to restrict themselves to serving only end users from their country. If you're one of these, list the 2-letter ISO code for the countries you will allow end users to be from. The mirrorlist CGI will honor this.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:119
-msgid ""
-"\"Categories Carried\": Hosts carry categories of software. Example Fedora "
-"categories include Fedora and Fedora Archive."
+#, no-wrap
+msgid "\"Categories Carried\":  Hosts carry categories of software. Example Fedora categories include Fedora and Fedora Archive.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:121
-msgid "Click on the \"[add]\" link under \"Categories Carried\"."
+#, no-wrap
+msgid "Click on the \"[add]\" link under \"Categories Carried\".\n"
 msgstr ""
 
 #. type: Title ###
@@ -467,22 +414,24 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:125
-msgid ""
-"For the Category, select \"Rocky Linux\" then \"Create\" to load the URL "
-"page. Then click \"[add]\" to load the \"Add host category URL\" page. There "
-"is one option. Repeat as needed for each of the mirrors supported protocols."
+#, no-wrap
+msgid "For the Category, select \"Rocky Linux\" then \"Create\" to load the URL page. Then click \"[add]\" to load the \"Add host category URL\" page. There is one option. Repeat as needed for each of the mirrors supported protocols.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:127
-msgid "\"URL\" - URL (rsync, https, http) pointing to the top directory"
+#, no-wrap
+msgid "\"URL\" - URL (rsync, https, http) pointing to the top directory\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:132
+#, no-wrap
 msgid ""
-"Examples: * `http://rocky.example.com` * `https://rocky.example.com` * "
-"`rsync://rocky.example.com`"
+"Examples:\n"
+"* `http://rocky.example.com`\n"
+"* `https://rocky.example.com`\n"
+"* `rsync://rocky.example.com`\n"
 msgstr ""
 
 #. type: Title ##
@@ -493,7 +442,6 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/mirror_management/add_mirror_manager.md:136
-msgid ""
-"Once the information is filled out, the site should appear on the mirror "
-"list as soon as the next mirror refresh occurs."
+#, no-wrap
+msgid "Once the information is filled out, the site should appear on the mirror list as soon as the next mirror refresh occurs.\n"
 msgstr ""

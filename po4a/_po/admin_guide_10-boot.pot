@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -163,7 +163,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -190,7 +189,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Plain text
@@ -219,7 +219,8 @@ msgstr ""
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:125
 #: ../src/docs/guides/security/learning_selinux.md:289
 #: ../src/docs/guides/security/pam.md:287
-msgid "Examples:"
+#, no-wrap
+msgid "Examples:\n"
 msgstr ""
 
 #. type: Plain text
@@ -330,13 +331,15 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:394
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:154
 #: ../src/docs/guides/web/php.md:255
-msgid "Example:"
+#, no-wrap
+msgid "Example:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/06-users.md:20
 #: ../src/docs/books/admin_guide/10-boot.md:19
-msgid ":checkered_flag: **users**"
+#, no-wrap
+msgid ":checkered_flag: **users**\n"
 msgstr ""
 
 #. type: Title #
@@ -348,7 +351,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:8
-msgid "In this chapter you will learn how the system start."
+#, no-wrap
+msgid "In this chapter you will learn how the system start.\n"
 msgstr ""
 
 #. type: Plain text
@@ -378,14 +382,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:29
-msgid ""
-"It is important to understand the boot process of Linux in order to be able "
-"to solve problems that may occur."
+#, no-wrap
+msgid "It is important to understand the boot process of Linux in order to be able to solve problems that may occur.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:31
-msgid "The boot process includes:"
+#, no-wrap
+msgid "The boot process includes:\n"
 msgstr ""
 
 #. type: Title ###
@@ -396,14 +400,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:35
-msgid ""
-"The **BIOS** (Basic Input/Output System) performs the **POST** (power on "
-"self-test) to detect, test and initialize the system hardware components."
+#, no-wrap
+msgid "The **BIOS** (Basic Input/Output System) performs the **POST** (power on self-test) to detect, test and initialize the system hardware components.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:37
-msgid "It then loads the **MBR** (Master Boot Record)."
+#, no-wrap
+msgid "It then loads the **MBR** (Master Boot Record).\n"
 msgstr ""
 
 #. type: Title ###
@@ -414,15 +418,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:41
-msgid ""
-"The Master Boot Record is the first 512 bytes of the boot disk. The MBR "
-"discovers the boot device and loads the bootloader **GRUB2** into memory and "
-"transfers control to it."
+#, no-wrap
+msgid "The Master Boot Record is the first 512 bytes of the boot disk. The MBR discovers the boot device and loads the bootloader **GRUB2** into memory and transfers control to it.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:43
-msgid "The next 64 bytes contain the partition table of the disk."
+#, no-wrap
+msgid "The next 64 bytes contain the partition table of the disk.\n"
 msgstr ""
 
 #. type: Title ###
@@ -433,24 +436,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:47
-msgid ""
-"The default bootloader for the Rocky 8 distribution is **GRUB2** (GRand "
-"Unified Bootloader). GRUB2 replaces the old GRUB bootloader (also called "
-"GRUB legacy)."
+#, no-wrap
+msgid "The default bootloader for the Rocky 8 distribution is **GRUB2** (GRand Unified Bootloader). GRUB2 replaces the old GRUB bootloader (also called GRUB legacy).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:49
-msgid ""
-"The GRUB 2 configuration file is located under `/boot/grub2/grub.cfg` but "
-"this file should not be edited directly."
+#, no-wrap
+msgid "The GRUB 2 configuration file is located under `/boot/grub2/grub.cfg` but this file should not be edited directly.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:51
-msgid ""
-"The GRUB2 menu configuration settings are located under `/etc/default/grub` "
-"and are used to generate the `grub.cfg` file."
+#, no-wrap
+msgid "The GRUB2 menu configuration settings are located under `/etc/default/grub` and are used to generate the `grub.cfg` file.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -468,9 +467,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:63
-msgid ""
-"If changes are made to one or more of these parameters, the `grub2-mkconfig` "
-"command must be run to regenerate the `/boot/grub2/grub.cfg` file."
+#, no-wrap
+msgid "If changes are made to one or more of these parameters, the `grub2-mkconfig` command must be run to regenerate the `/boot/grub2/grub.cfg` file.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -481,17 +479,14 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/10-boot.md:70
-msgid ""
-"GRUB2 looks for the compressed kernel image (the `vmlinuz` file) in the `/"
-"boot` directory."
+#, no-wrap
+msgid "GRUB2 looks for the compressed kernel image (the `vmlinuz` file) in the `/boot` directory.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/10-boot.md:70
-msgid ""
-"GRUB2 loads the kernel image into memory and extracts the contents of the "
-"`initramfs` image file into a temporary folder in memory using the `tmpfs` "
-"file system."
+#, no-wrap
+msgid "GRUB2 loads the kernel image into memory and extracts the contents of the `initramfs` image file into a temporary folder in memory using the `tmpfs` file system.\n"
 msgstr ""
 
 #. type: Title ###
@@ -502,7 +497,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:74
-msgid "The kernel starts the `systemd` process with PID 1."
+#, no-wrap
+msgid "The kernel starts the `systemd` process with PID 1.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -519,60 +515,62 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:81
-msgid ""
-"Systemd is the parent of all system processes. It reads the target of the `/"
-"etc/systemd/system/default.target` link (e.g., `/usr/lib/systemd/system/"
-"multi-user.target`) to determine the default target of the system. The file "
-"defines the services to be started."
+#, no-wrap
+msgid "Systemd is the parent of all system processes. It reads the target of the `/etc/systemd/system/default.target` link (e.g., `/usr/lib/systemd/system/multi-user.target`) to determine the default target of the system. The file defines the services to be started.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:83
-msgid ""
-"Systemd then places the system in the target-defined state by performing the "
-"following initialization tasks:"
+#, no-wrap
+msgid "Systemd then places the system in the target-defined state by performing the following initialization tasks:\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/books/admin_guide/10-boot.md:92
-msgid "Set the machine name"
+#, no-wrap
+msgid "Set the machine name\n"
 msgstr ""
 
 #. type: Bullet: '2. '
 #: ../src/docs/books/admin_guide/10-boot.md:92
-msgid "Initialize the network"
+#, no-wrap
+msgid "Initialize the network\n"
 msgstr ""
 
 #. type: Bullet: '3. '
 #: ../src/docs/books/admin_guide/10-boot.md:92
-msgid "Initialize SELinux"
+#, no-wrap
+msgid "Initialize SELinux\n"
 msgstr ""
 
 #. type: Bullet: '4. '
 #: ../src/docs/books/admin_guide/10-boot.md:92
-msgid "Display the welcome banner"
+#, no-wrap
+msgid "Display the welcome banner\n"
 msgstr ""
 
 #. type: Bullet: '5. '
 #: ../src/docs/books/admin_guide/10-boot.md:92
-msgid ""
-"Initialize the hardware based on the arguments given to the kernel at boot "
-"time"
+#, no-wrap
+msgid "Initialize the hardware based on the arguments given to the kernel at boot time\n"
 msgstr ""
 
 #. type: Bullet: '6. '
 #: ../src/docs/books/admin_guide/10-boot.md:92
-msgid "Mount the file systems, including virtual file systems like /proc"
+#, no-wrap
+msgid "Mount the file systems, including virtual file systems like /proc\n"
 msgstr ""
 
 #. type: Bullet: '7. '
 #: ../src/docs/books/admin_guide/10-boot.md:92
-msgid "Clean up directories in /var"
+#, no-wrap
+msgid "Clean up directories in /var\n"
 msgstr ""
 
 #. type: Bullet: '8. '
 #: ../src/docs/books/admin_guide/10-boot.md:92
-msgid "Start the virtual memory (swap)"
+#, no-wrap
+msgid "Start the virtual memory (swap)\n"
 msgstr ""
 
 #. type: Title ##
@@ -583,49 +581,44 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:96
-msgid "Why protect the bootloader with a password?"
+#, no-wrap
+msgid "Why protect the bootloader with a password?\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/books/admin_guide/10-boot.md:100
-msgid ""
-"Prevent *Single* user mode access - If an attacker can boot into single user "
-"mode, he becomes the root user."
+#, no-wrap
+msgid "Prevent *Single* user mode access - If an attacker can boot into single user mode, he becomes the root user.\n"
 msgstr ""
 
 #. type: Bullet: '2. '
 #: ../src/docs/books/admin_guide/10-boot.md:100
-msgid ""
-"Prevent access to GRUB console - If an attacker manages to use GRUB console, "
-"he can change its configuration or collect information about the system by "
-"using the `cat` command."
+#, no-wrap
+msgid "Prevent access to GRUB console - If an attacker manages to use GRUB console, he can change its configuration or collect information about the system by using the `cat` command.\n"
 msgstr ""
 
 #. type: Bullet: '3. '
 #: ../src/docs/books/admin_guide/10-boot.md:100
-msgid ""
-"Prevent access to insecure operating systems. If there is a dual boot on the "
-"system, an attacker can select an operating system like DOS at boot time "
-"that ignores access controls and file permissions."
+#, no-wrap
+msgid "Prevent access to insecure operating systems. If there is a dual boot on the system, an attacker can select an operating system like DOS at boot time that ignores access controls and file permissions.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:102
-msgid "To password protect the GRUB2 bootloader:"
+#, no-wrap
+msgid "To password protect the GRUB2 bootloader:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/10-boot.md:104
-msgid ""
-"Remove `-unrestricted` from the main `CLASS=` statement in the `/etc/grub."
-"d/10_linux` file."
+#, no-wrap
+msgid "Remove `-unrestricted` from the main `CLASS=` statement in the `/etc/grub.d/10_linux` file.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/10-boot.md:106
-msgid ""
-"If a user has not yet been configured, use the `grub2-setpassword` command "
-"to provide a password for the root user:"
+#, no-wrap
+msgid "If a user has not yet been configured, use the `grub2-setpassword` command to provide a password for the root user:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -636,9 +629,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:112
-msgid ""
-"A `/boot/grub2/user.cfg` file will be created if it was not already present. "
-"It contains the hashed password of the GRUB2."
+#, no-wrap
+msgid "A `/boot/grub2/user.cfg` file will be created if it was not already present. It contains the hashed password of the GRUB2.\n"
 msgstr ""
 
 #. type: Plain text
@@ -657,7 +649,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/10-boot.md:123
-msgid "Recreate the configuration file with the `grub2-mkconfig` command:"
+#, no-wrap
+msgid "Recreate the configuration file with the `grub2-mkconfig` command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -675,37 +668,32 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/10-boot.md:135
-msgid "Restart the server and check."
+#, no-wrap
+msgid "Restart the server and check.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:137
-msgid ""
-"All entries defined in the GRUB menu will now require a user and password to "
-"be entered at each boot. The system will not boot a kernel without direct "
-"user intervention from the console."
+#, no-wrap
+msgid "All entries defined in the GRUB menu will now require a user and password to be entered at each boot. The system will not boot a kernel without direct user intervention from the console.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/10-boot.md:140
-msgid "When the user is requested, enter `root`;"
+#, no-wrap
+msgid "When the user is requested, enter `root`;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/10-boot.md:140
-msgid ""
-"When a password is requested, enter the password provided at the `grub2-"
-"setpassword` command."
+#, no-wrap
+msgid "When a password is requested, enter the password provided at the `grub2-setpassword` command.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:142
-msgid ""
-"To protect only the editing of GRUB menu entries and access to the console, "
-"the execution of the `grub2-setpassword` command is sufficient. There may be "
-"cases where you have good reasons for doing only that. This might be "
-"particularly true in a remote data center where entering a password each "
-"time a server is rebooted is either difficult or impossible to do."
+#, no-wrap
+msgid "To protect only the editing of GRUB menu entries and access to the console, the execution of the `grub2-setpassword` command is sufficient. There may be cases where you have good reasons for doing only that. This might be particularly true in a remote data center where entering a password each time a server is rebooted is either difficult or impossible to do.\n"
 msgstr ""
 
 #. type: Title ##
@@ -722,20 +710,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:148
-msgid "It is developed to:"
+#, no-wrap
+msgid "It is developed to:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/10-boot.md:151
-msgid "remain compatible with older SysV initialization scripts,"
+#, no-wrap
+msgid "remain compatible with older SysV initialization scripts,\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/10-boot.md:151
-msgid ""
-"provide many features, such as parallel start of system services at system "
-"startup, on-demand activation of daemons, support for snapshots, or "
-"management of dependencies between services."
+#, no-wrap
+msgid "provide many features, such as parallel start of system services at system startup, on-demand activation of daemons, support for snapshots, or management of dependencies between services.\n"
 msgstr ""
 
 #. type: Plain text
@@ -746,8 +734,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:157
-msgid ""
-"Systemd introduces the concept of unit files, also known as systemd units."
+#, no-wrap
+msgid "Systemd introduces the concept of unit files, also known as systemd units.\n"
 msgstr ""
 
 #. type: Plain text
@@ -769,52 +757,44 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/10-boot.md:169
-msgid "Systemd supports system state snapshots and restore."
+#, no-wrap
+msgid "Systemd supports system state snapshots and restore.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/10-boot.md:171
-msgid "Mount points can be configured as systemd targets."
+#, no-wrap
+msgid "Mount points can be configured as systemd targets.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/10-boot.md:173
-msgid ""
-"At startup, systemd creates listening sockets for all system services that "
-"support this type of activation and passes these sockets to these services "
-"as soon as they are started. This makes it possible to restart a service "
-"without losing a single message sent to it by the network during its "
-"unavailability. The corresponding socket remains accessible and all messages "
-"are queued."
+#, no-wrap
+msgid "At startup, systemd creates listening sockets for all system services that support this type of activation and passes these sockets to these services as soon as they are started. This makes it possible to restart a service without losing a single message sent to it by the network during its unavailability. The corresponding socket remains accessible and all messages are queued.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/10-boot.md:175
-msgid ""
-"System services that use D-BUS for their inter-process communications can be "
-"started on demand the first time they are used by a client."
+#, no-wrap
+msgid "System services that use D-BUS for their inter-process communications can be started on demand the first time they are used by a client.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/10-boot.md:177
-msgid ""
-"Systemd stops or restarts only running services. Previous versions (before "
-"RHEL7) attempted to stop services directly without checking their current "
-"status."
+#, no-wrap
+msgid "Systemd stops or restarts only running services. Previous versions (before RHEL7) attempted to stop services directly without checking their current status.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/10-boot.md:179
-msgid ""
-"System services do not inherit any context (like HOME and PATH environment "
-"variables). Each service operates in its own execution context."
+#, no-wrap
+msgid "System services do not inherit any context (like HOME and PATH environment variables). Each service operates in its own execution context.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:181
-msgid ""
-"All service unit operations are subject to a default timeout of 5 minutes to "
-"prevent a malfunctioning service from freezing the system."
+#, no-wrap
+msgid "All service unit operations are subject to a default timeout of 5 minutes to prevent a malfunctioning service from freezing the system.\n"
 msgstr ""
 
 #. type: Title ###
@@ -825,10 +805,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:185
-msgid ""
-"Service units end with the `.service` file extension and have a similar "
-"purpose to init scripts. The `systemctl` command is used to `display`, "
-"`start`, `stop`, `restart` a system service:"
+#, no-wrap
+msgid "Service units end with the `.service` file extension and have a similar purpose to init scripts. The `systemctl` command is used to `display`, `start`, `stop`, `restart` a system service:\n"
 msgstr ""
 
 #. type: Plain text
@@ -848,9 +826,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:197
-msgid ""
-"The `systemctl` command is also used for the `enable` or `disable` of system "
-"a service and displaying associated services:"
+#, no-wrap
+msgid "The `systemctl` command is also used for the `enable` or `disable` of system a service and displaying associated services:\n"
 msgstr ""
 
 #. type: Plain text
@@ -877,7 +854,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:215
-msgid "To list all units currently loaded:"
+#, no-wrap
+msgid "To list all units currently loaded:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -888,7 +866,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:221
-msgid "To list all units to check if they are activated:"
+#, no-wrap
+msgid "To list all units to check if they are activated:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -945,34 +924,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:259
-msgid ""
-"On Rocky8/RHEL8, the concept of run levels has been replaced by Systemd "
-"targets."
+#, no-wrap
+msgid "On Rocky8/RHEL8, the concept of run levels has been replaced by Systemd targets.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:261
-msgid ""
-"Systemd targets are represented by target units. Target units end with the `."
-"target` file extension and their sole purpose is to group other Systemd "
-"units into a chain of dependencies."
+#, no-wrap
+msgid "Systemd targets are represented by target units. Target units end with the `.target` file extension and their sole purpose is to group other Systemd units into a chain of dependencies.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:263
-msgid ""
-"For example, the `graphical.target` unit, which is used to start a graphical "
-"session, starts system services such as the **GNOME display manager** (`gdm."
-"service`) or the **accounts service** (`accounts-daemon.service`) and also "
-"activates the `multi-user.target` unit."
+#, no-wrap
+msgid "For example, the `graphical.target` unit, which is used to start a graphical session, starts system services such as the **GNOME display manager** (`gdm.service`) or the **accounts service** (`accounts-daemon.service`) and also activates the `multi-user.target` unit.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:265
-msgid ""
-"Similarly, the `multi-user.target` unit starts other essential system "
-"services, such as **NetworkManager** (`NetworkManager.service`) or **D-Bus** "
-"(`dbus.service`) and activates another target unit named `basic.target`."
+#, no-wrap
+msgid "Similarly, the `multi-user.target` unit starts other essential system services, such as **NetworkManager** (`NetworkManager.service`) or **D-Bus** (`dbus.service`) and activates another target unit named `basic.target`.\n"
 msgstr ""
 
 #. type: Plain text
@@ -996,7 +967,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:277
-msgid "To determine which target is used by default:"
+#, no-wrap
+msgid "To determine which target is used by default:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1007,9 +979,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:283
-msgid ""
-"This command searches for the target of the symbolic link located at `/etc/"
-"systemd/system/default.target` and displays the result."
+#, no-wrap
+msgid "This command searches for the target of the symbolic link located at `/etc/systemd/system/default.target` and displays the result.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1022,7 +993,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:290
-msgid "The `systemctl` command can also provide a list of available targets:"
+#, no-wrap
+msgid "The `systemctl` command can also provide a list of available targets:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1054,7 +1026,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:316
-msgid "To configure the system to use a different default target:"
+#, no-wrap
+msgid "To configure the system to use a different default target:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1074,7 +1047,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:330
-msgid "To switch to a different target unit in the current session:"
+#, no-wrap
+msgid "To switch to a different target unit in the current session:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1085,30 +1059,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:336
-msgid ""
-"The **Rescue mode** provides a simple environment to repair your system in "
-"cases where it is impossible to perform a normal boot process."
+#, no-wrap
+msgid "The **Rescue mode** provides a simple environment to repair your system in cases where it is impossible to perform a normal boot process.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:338
-msgid ""
-"In `rescue mode`, the system attempts to mount all local file systems and "
-"start several important system services, but does not enable a network "
-"interface or allow other users to connect to the system at the same time."
+#, no-wrap
+msgid "In `rescue mode`, the system attempts to mount all local file systems and start several important system services, but does not enable a network interface or allow other users to connect to the system at the same time.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:340
-msgid ""
-"On Rocky 8, the `rescue mode` is equivalent to the old `single user mode` "
-"and requires the root password."
+#, no-wrap
+msgid "On Rocky 8, the `rescue mode` is equivalent to the old `single user mode` and requires the root password.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:342
-msgid ""
-"To change the current target and enter `rescue mode` in the current session:"
+#, no-wrap
+msgid "To change the current target and enter `rescue mode` in the current session:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1125,8 +1095,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:350
-msgid ""
-"To change the current target and enter emergency mode in the current session:"
+#, no-wrap
+msgid "To change the current target and enter emergency mode in the current session:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1143,9 +1113,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:358
-msgid ""
-"The `systemctl` command replaces a number of power management commands used "
-"in previous versions:"
+#, no-wrap
+msgid "The `systemctl` command replaces a number of power management commands used in previous versions:\n"
 msgstr ""
 
 #. type: Plain text
@@ -1170,26 +1139,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:371
-msgid ""
-"Log files can, in addition to `rsyslogd`, also be managed by the `journald` "
-"daemon which is a component of `systemd`."
+#, no-wrap
+msgid "Log files can, in addition to `rsyslogd`, also be managed by the `journald` daemon which is a component of `systemd`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:373
-msgid ""
-"The `journald` daemon captures Syslog messages, kernel log messages, "
-"messages from the initial RAM disk and from the start of boot, as well as "
-"messages written to the standard output and the standard error output of all "
-"services, then indexes them and makes them available to the user."
+#, no-wrap
+msgid "The `journald` daemon captures Syslog messages, kernel log messages, messages from the initial RAM disk and from the start of boot, as well as messages written to the standard output and the standard error output of all services, then indexes them and makes them available to the user.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:375
-msgid ""
-"The format of the native log file, which is a structured and indexed binary "
-"file, improves searches and allows for faster operation, it also stores "
-"metadata information, such as timestamps or user IDs."
+#, no-wrap
+msgid "The format of the native log file, which is a structured and indexed binary file, improves searches and allows for faster operation, it also stores metadata information, such as timestamps or user IDs.\n"
 msgstr ""
 
 #. type: Title ###
@@ -1200,7 +1163,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:379
-msgid "The `journalctl` command displays the log files."
+#, no-wrap
+msgid "The `journalctl` command displays the log files.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1211,30 +1175,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:385
-msgid ""
-"The command lists all log files generated on the system. The structure of "
-"this output is similar to that used in `/var/log/messages/` but it offers "
-"some improvements:"
+#, no-wrap
+msgid "The command lists all log files generated on the system. The structure of this output is similar to that used in `/var/log/messages/` but it offers some improvements:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/10-boot.md:390
-msgid "the priority of entries is marked visually;"
+#, no-wrap
+msgid "the priority of entries is marked visually;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/10-boot.md:390
-msgid "timestamps are converted to the local time zone of your system;"
+#, no-wrap
+msgid "timestamps are converted to the local time zone of your system;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/10-boot.md:390
-msgid "all logged data is displayed, including rotating logs;"
+#, no-wrap
+msgid "all logged data is displayed, including rotating logs;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/10-boot.md:390
-msgid "the beginning of a start is marked with a special line."
+#, no-wrap
+msgid "the beginning of a start is marked with a special line.\n"
 msgstr ""
 
 #. type: Title ####
@@ -1245,7 +1211,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:394
-msgid "With continuous display, log messages are displayed in real time."
+#, no-wrap
+msgid "With continuous display, log messages are displayed in real time.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1256,10 +1223,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:400
-msgid ""
-"This command returns a list of the ten most recent log lines. The journalctl "
-"utility then continues to run and waits for new changes to occur before "
-"displaying them immediately."
+#, no-wrap
+msgid "This command returns a list of the ten most recent log lines. The journalctl utility then continues to run and waits for new changes to occur before displaying them immediately.\n"
 msgstr ""
 
 #. type: Title ####
@@ -1270,10 +1235,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:404
-msgid ""
-"It is possible to use different filtering methods to extract information "
-"that fits different needs. Log messages are often used to track erroneous "
-"behavior on the system. To view entries with a selected or higher priority:"
+#, no-wrap
+msgid "It is possible to use different filtering methods to extract information that fits different needs. Log messages are often used to track erroneous behavior on the system. To view entries with a selected or higher priority:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1284,46 +1247,54 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/10-boot.md:410
-msgid ""
-"You must replace priority with one of the following keywords (or a number):"
+#, no-wrap
+msgid "You must replace priority with one of the following keywords (or a number):\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/10-boot.md:418
-msgid "debug (7),"
+#, no-wrap
+msgid "debug (7),\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/10-boot.md:418
-msgid "info (6),"
+#, no-wrap
+msgid "info (6),\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/10-boot.md:418
-msgid "notice (5),"
+#, no-wrap
+msgid "notice (5),\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/10-boot.md:418
-msgid "warning (4),"
+#, no-wrap
+msgid "warning (4),\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/10-boot.md:418
-msgid "err (3),"
+#, no-wrap
+msgid "err (3),\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/10-boot.md:418
-msgid "crit (2),"
+#, no-wrap
+msgid "crit (2),\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/10-boot.md:418
-msgid "alert (1),"
+#, no-wrap
+msgid "alert (1),\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/10-boot.md:418
-msgid "and emerg (0)."
+#, no-wrap
+msgid "and emerg (0).\n"
 msgstr ""

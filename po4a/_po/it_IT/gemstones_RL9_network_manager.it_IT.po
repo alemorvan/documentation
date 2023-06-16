@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -34,7 +34,8 @@ msgstr ""
 #: ../src/docs/books/admin_guide/14-special-authority.md:477
 #: ../src/docs/gemstones/RL9_network_manager.md:132
 #: ../src/docs/guides/contribute/rockydocs_formatting.md:80
-msgid "!!! info"
+#, no-wrap
+msgid "!!! info\n"
 msgstr ""
 
 #. type: Plain text
@@ -60,7 +61,8 @@ msgstr ""
 #: ../src/docs/guides/package_management/index.md:10
 #: ../src/docs/guides/proxies/pound.md:211
 #: ../src/docs/guides/proxies/pound.md:265 ../src/docs/release_notes/8_4.md:20
-msgid "!!! warning"
+#, no-wrap
+msgid "!!! warning\n"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
@@ -149,31 +151,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/RL9_network_manager.md:13
-msgid ""
-"In 2004, Red Hat launched the **NetworkManager** project, which aims to make "
-"it easier for Linux users to meet the needs of current network management, "
-"especially the management of wireless networks. Today, the project is "
-"managed by GNOME. The [homepage for NetworkManager can be found here]"
-"(https://networkmanager.dev/)."
+#, no-wrap
+msgid "In 2004, Red Hat launched the **NetworkManager** project, which aims to make it easier for Linux users to meet the needs of current network management, especially the management of wireless networks. Today, the project is managed by GNOME. The [homepage for NetworkManager can be found here](https://networkmanager.dev/).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/RL9_network_manager.md:15
-msgid ""
-"Official introduction - NetworkManager is a standard Linux network "
-"configuration tool suite. It supports various network settings from desktop "
-"to server and mobile devices, and is perfectly integrated with popular "
-"desktop environments and server configuration management tools."
+#, no-wrap
+msgid "Official introduction - NetworkManager is a standard Linux network configuration tool suite. It supports various network settings from desktop to server and mobile devices, and is perfectly integrated with popular desktop environments and server configuration management tools.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/RL9_network_manager.md:17
-msgid "The suite mainly includes two command line tools:"
+#, no-wrap
+msgid "The suite mainly includes two command line tools:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/RL9_network_manager.md:19
-msgid "`nmtui`. Configure the network in a graphical interface."
+#, no-wrap
+msgid "`nmtui`. Configure the network in a graphical interface.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -187,16 +184,21 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/RL9_network_manager.md:32
+#, no-wrap
 msgid ""
-"|NetworkManager TUI|| |---|---| |Edit a connection|| |Activate a "
-"connection|| |Set system hostname|| |Quit|| ||OK|"
+"|NetworkManager TUI||\n"
+"|---|---|\n"
+"|Edit a connection||\n"
+"|Activate a connection||\n"
+"|Set system hostname||\n"
+"|Quit||\n"
+"||OK|\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/RL9_network_manager.md:34
-msgid ""
-"`nmcli`. Use the command line to configure the network, either a pure "
-"command line or an interactive command line."
+#, no-wrap
+msgid "`nmcli`. Use the command line to configure the network, either a pure command line or an interactive command line.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -210,11 +212,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/RL9_network_manager.md:42
-msgid ""
-"For RockyLinux 8.x, we introduced how to configure its network [in this "
-"document](./nmtui.md). You can use `vim` to edit the network card "
-"configuration file in the **/etc/sysconfig/network-script/** directory, or "
-"you can use `nmcli`/`nmtui`, both of which are acceptable."
+#, no-wrap
+msgid "For RockyLinux 8.x, we introduced how to configure its network [in this document](./nmtui.md). You can use `vim` to edit the network card configuration file in the **/etc/sysconfig/network-script/** directory, or you can use `nmcli`/`nmtui`, both of which are acceptable.\n"
 msgstr ""
 
 #. type: Title ##
@@ -225,11 +224,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/RL9_network_manager.md:46
-msgid ""
-"For RockyLinux 9.x, if you go to the **/etc/sysconfig/network-scripts/** "
-"directory, there will be a **readme-ifcfg-rh.txt** description text that "
-"prompts you to go to the **/etc/NetworkManager/system-connections/** "
-"directory."
+#, no-wrap
+msgid "For RockyLinux 9.x, if you go to the **/etc/sysconfig/network-scripts/** directory, there will be a **readme-ifcfg-rh.txt** description text that prompts you to go to the **/etc/NetworkManager/system-connections/** directory.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -242,37 +238,34 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/RL9_network_manager.md:54
+#, no-wrap
 msgid ""
-"The `ens160` here refers to the name of the network card in the system. You "
-"may wonder why the name looks so strange? This is because of the `udev` "
-"device manager. It supports many different naming schemes. By default, fixed "
-"names are assigned according to firmware, topology, and location "
-"information. Its advantages include:"
+"The `ens160` here refers to the name of the network card in the system. You may wonder why the name looks so strange?\n"
+"This is because of the `udev` device manager. It supports many different naming schemes. By default, fixed names are assigned according to firmware, topology, and location information. Its advantages include:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/RL9_network_manager.md:58
-msgid "Device names are fully predictable."
+#, no-wrap
+msgid "Device names are fully predictable.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/RL9_network_manager.md:58
-msgid ""
-"Device names stay fixed even if you add or remove hardware, because no re-"
-"enumeration takes place."
+#, no-wrap
+msgid "Device names stay fixed even if you add or remove hardware, because no re-enumeration takes place.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/RL9_network_manager.md:58
-msgid "Defective hardware can be seamlessly replaced."
+#, no-wrap
+msgid "Defective hardware can be seamlessly replaced.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/RL9_network_manager.md:60
-msgid ""
-"In RHEL 9 and the corresponding community version operating systems, "
-"consistent device naming is enabled by default. The `udev` device manager "
-"will generate device names according to the following scheme:"
+#, no-wrap
+msgid "In RHEL 9 and the corresponding community version operating systems, consistent device naming is enabled by default. The `udev` device manager will generate device names according to the following scheme:\n"
 msgstr ""
 
 #. type: Plain text
@@ -290,74 +283,80 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/RL9_network_manager.md:70
-msgid ""
-"`udev` device Manager names the prefix of the NIC based on the type of "
-"interface:"
+#, no-wrap
+msgid "`udev` device Manager names the prefix of the NIC based on the type of interface: \n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/RL9_network_manager.md:76
-msgid "**en** for Ethernet."
+#, no-wrap
+msgid "**en** for Ethernet. \n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/RL9_network_manager.md:76
-msgid "**wl** for wireless LAN (WLAN)."
+#, no-wrap
+msgid "**wl** for wireless LAN (WLAN). \n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/RL9_network_manager.md:76
-msgid "**ww** for wireless wide area network (WWAN)."
+#, no-wrap
+msgid "**ww** for wireless wide area network (WWAN). \n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/RL9_network_manager.md:76
-msgid "**ib**, InfiniBand network."
+#, no-wrap
+msgid "**ib**, InfiniBand network. \n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/RL9_network_manager.md:76
-msgid "**sl**, Serial Line Internet Protocol (slip)"
+#, no-wrap
+msgid "**sl**, Serial Line Internet Protocol (slip)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/RL9_network_manager.md:78
-msgid "Add some suffixes to the prefix, such as:"
+#, no-wrap
+msgid "Add some suffixes to the prefix, such as:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/RL9_network_manager.md:84
-msgid "**o** on-board_index_number"
+#, no-wrap
+msgid "**o** on-board_index_number\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/RL9_network_manager.md:84
-msgid "**s** hot_plug_slot_index_number **[f]** function **[d]** device_id"
+#, no-wrap
+msgid "**s** hot_plug_slot_index_number **[f]** function **[d]** device_id\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/RL9_network_manager.md:84
-msgid "**x** MAC_address"
+#, no-wrap
+msgid "**x** MAC_address\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/RL9_network_manager.md:84
-msgid ""
-"**[P]** domain number **p** bus **s** slot **[f]** function **[d]** device_id"
+#, no-wrap
+msgid "**[P]** domain number **p** bus **s** slot **[f]** function **[d]** device_id\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/RL9_network_manager.md:84
-msgid ""
-"**[P]** domain number **p** buss **s** slot **[f]** function **[u]** usb "
-"port **[c]** config **[i]** interface"
+#, no-wrap
+msgid "**[P]** domain number **p** buss **s** slot **[f]** function **[u]** usb port **[c]** config **[i]** interface\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/RL9_network_manager.md:86
-msgid ""
-"You can use `man 7 systemd.net-naming-scheme` to get more detailed "
-"information."
+#, no-wrap
+msgid "You can use `man 7 systemd.net-naming-scheme` to get more detailed information. \n"
 msgstr ""
 
 #. type: Title ##
@@ -368,9 +367,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/RL9_network_manager.md:90
-msgid ""
-"Users can not only configure the network in a pure command line mode, but "
-"also use interactive commands to configure the network."
+#, no-wrap
+msgid "Users can not only configure the network in a pure command line mode, but also use interactive commands to configure the network.\n"
 msgstr ""
 
 #. type: Title ###
@@ -381,23 +379,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/RL9_network_manager.md:94
-msgid ""
-"The `nmcli connection` command can show, delete, add, modify, edit, up, "
-"down, and so on."
+#, no-wrap
+msgid "The `nmcli connection` command can show, delete, add, modify, edit, up, down, and so on.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/RL9_network_manager.md:96
-msgid ""
-"For specific usage, please refer to `nmcli connection add --help`, `nmcli "
-"connection edit --help`, `nmcli connection modify --help` and so on."
+#, no-wrap
+msgid "For specific usage, please refer to `nmcli connection add --help`, `nmcli connection edit --help`, `nmcli connection modify --help` and so on.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/RL9_network_manager.md:98
-msgid ""
-"For example, to configure a new ipv4 static ip connection using a pure "
-"command line and start up automatically, it can be:"
+#, no-wrap
+msgid "For example, to configure a new ipv4 static ip connection using a pure command line and start up automatically, it can be:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -411,7 +406,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/RL9_network_manager.md:106
-msgid "If you are using DHCP to get the ipv4 address, it can be:"
+#, no-wrap
+msgid "If you are using DHCP to get the ipv4 address, it can be:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -424,9 +420,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/RL9_network_manager.md:113
-msgid ""
-"With the above configuration, the connection is not activated. You need to "
-"perform the following operations:"
+#, no-wrap
+msgid "With the above configuration, the connection is not activated. You need to perform the following operations:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -437,9 +432,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/RL9_network_manager.md:119
-msgid ""
-"Enter the interactive interface through the `edit` keyword on the basis of "
-"the existing connection, and modify it:"
+#, no-wrap
+msgid "Enter the interactive interface through the `edit` keyword on the basis of the existing connection, and modify it:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -452,9 +446,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/RL9_network_manager.md:126
-msgid ""
-"You can also modify one or more properties of the connection directly from "
-"the command line with the `modify` keyword. For example:"
+#, no-wrap
+msgid "You can also modify one or more properties of the connection directly from the command line with the `modify` keyword. For example:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -477,20 +470,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/RL9_network_manager.md:138
-msgid ""
-"Some use multiple network cards for link aggregation. In the early days, "
-"using **bonding** technology, there were seven working modes (0~6), and the "
-"bond mode only supported two network cards at most; Later, the **teaming** "
-"technology is gradually used as an alternative, there are five working "
-"modes, and the team mode can use up to eight network cards. Comparison link "
-"between bonding and teaming [can be found on this link](https://access."
-"redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/"
-"networking_guide/sec-comparison_of_network_teaming_to_bonding)."
+#, no-wrap
+msgid "Some use multiple network cards for link aggregation. In the early days, using **bonding** technology, there were seven working modes (0~6), and the bond mode only supported two network cards at most; Later, the **teaming** technology is gradually used as an alternative, there are five working modes, and the team mode can use up to eight network cards. Comparison link between bonding and teaming [can be found on this link](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/networking_guide/sec-comparison_of_network_teaming_to_bonding).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/RL9_network_manager.md:140
-msgid "For example, the 0 mode of bonding:"
+#, no-wrap
+msgid "For example, the 0 mode of bonding:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -516,16 +503,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/RL9_network_manager.md:154
-msgid ""
-"You can view more detailed information through `man 5 NetworkManager.conf` "
-"and `man 5 nm-settings-nmcli`."
+#, no-wrap
+msgid "You can view more detailed information through `man 5 NetworkManager.conf` and `man 5 nm-settings-nmcli`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/RL9_network_manager.md:156
-msgid ""
-"The content of the configuration file of the NetwrokManager network card is "
-"an init-style key file. For example:"
+#, no-wrap
+msgid "The content of the configuration file of the NetwrokManager network card is an init-style key file. For example:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -557,21 +542,20 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/RL9_network_manager.md:184
-msgid "Lines that start with # and blank lines are considered comments;"
+#, no-wrap
+msgid "Lines that start with # and blank lines are considered comments;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/RL9_network_manager.md:184
-msgid ""
-"Enclosed in [ and ] is the section it intends to declare the title, and "
-"below it are the specific key-value pairs contained. Each declared title and "
-"its key-value pair form a syntax segment;"
+#, no-wrap
+msgid "Enclosed in [ and ] is the section it intends to declare the title, and below it are the specific key-value pairs contained. Each declared title and its key-value pair form a syntax segment;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/RL9_network_manager.md:184
-msgid ""
-"Any file with the .nmconnection suffix can be used by **NetworkManager**."
+#, no-wrap
+msgid "Any file with the .nmconnection suffix can be used by **NetworkManager**.\n"
 msgstr ""
 
 #. type: Plain text

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -223,7 +223,8 @@ msgstr ""
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:156
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:44
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:152
-msgid "And then:"
+#, no-wrap
+msgid "And then:\n"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -231,8 +232,8 @@ msgstr ""
 #: ../src/docs/guides/file_sharing/glusterfs.md:15
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
-msgid ""
-"Proficiency with a command-line editor (we are using _vi_ in this example)"
+#, no-wrap
+msgid "Proficiency with a command-line editor (we are using _vi_ in this example)\n"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -242,16 +243,16 @@ msgstr ""
 #: ../src/docs/guides/web/apache_hardened_webserver/index.md:22
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:21
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
-msgid ""
-"A heavy comfort level with issuing commands from the command-line, viewing "
-"logs, and other general systems administrator duties"
+#, no-wrap
+msgid "A heavy comfort level with issuing commands from the command-line, viewing logs, and other general systems administrator duties\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/glusterfs.md:15
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
-msgid "All commands are run as the root user or sudo"
+#, no-wrap
+msgid "All commands are run as the root user or sudo\n"
 msgstr ""
 
 #. type: YAML Front Matter: tags
@@ -275,31 +276,26 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
-msgid "An understanding of PAM, as well as _openssl_ commands is helpful."
+#, no-wrap
+msgid "An understanding of PAM, as well as _openssl_ commands is helpful.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:24
-msgid ""
-"_vsftpd_ is the Very Secure FTP Daemon (FTP being the file transfer "
-"protocol). It has been available for many years now, and is actually the "
-"default FTP daemon in Rocky Linux, as well as many other Linux distributions."
+#, no-wrap
+msgid "_vsftpd_ is the  Very Secure FTP Daemon (FTP being the file transfer protocol). It has been available for many years now, and is actually the default FTP daemon in Rocky Linux, as well as many other Linux distributions.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:26
-msgid ""
-"_vsftpd_ allows for the use of virtual users with pluggable authentication "
-"modules (PAM). These virtual users don't exist in the system, and have no "
-"other permissions except to use FTP. This means that if a virtual user gets "
-"compromised, the person with those credentials would have no other "
-"permissions once they gained access. Using this setup is very secure indeed, "
-"but does require a bit of extra work."
+#, no-wrap
+msgid "_vsftpd_ allows for the use of virtual users with pluggable authentication modules (PAM). These virtual users don't exist in the system, and have no other permissions except to use FTP. This means that if a virtual user gets compromised, the person with those credentials would have no other permissions once they gained access. Using this setup is very secure indeed, but does require a bit of extra work.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:28
-msgid "!!! tip \"Consider `sftp`\""
+#, no-wrap
+msgid "!!! tip \"Consider `sftp`\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -316,30 +312,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:34
-msgid ""
-"We also need to make sure _openssl_ is installed. If you are running a web "
-"server, this probably **is** already installed, but just to make sure, you "
-"can run:"
+#, no-wrap
+msgid "We also need to make sure _openssl_ is installed. If you are running a web server, this probably **is** already installed, but just to make sure, you can run:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:36
-msgid "`dnf install vsftpd openssl`"
+#, no-wrap
+msgid "`dnf install vsftpd openssl`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:38
-msgid "You will also want to enable the vsftpd service:"
+#, no-wrap
+msgid "You will also want to enable the vsftpd service:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:40
-msgid "`systemctl enable vsftpd`"
+#, no-wrap
+msgid "`systemctl enable vsftpd`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:42
-msgid "But _don't start the service just yet._"
+#, no-wrap
+msgid "But _don't start the service just yet._\n"
 msgstr ""
 
 #. type: Title ##
@@ -350,76 +348,74 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:46
-msgid ""
-"We want to make sure that some settings are disabled and that others are "
-"enabled. Generally, when you install _vsftpd_, it comes with the most sane "
-"options already set, but it is a good idea to make sure."
+#, no-wrap
+msgid "We want to make sure that some settings are disabled and that others are enabled. Generally, when you install _vsftpd_, it comes with the most sane options already set, but it is a good idea to make sure.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:48
-msgid "To check the configuration file and make changes as necessary, run:"
+#, no-wrap
+msgid "To check the configuration file and make changes as necessary, run:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:50
-msgid "`vi /etc/vsftpd/vsftpd.conf`"
+#, no-wrap
+msgid "`vi /etc/vsftpd/vsftpd.conf`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:52
-msgid ""
-"Look for the line \"anonymous_enable=\" and make sure that it is set to \"NO"
-"\" and that it is **NOT** remarked/commented out. (Remarking out this line "
-"will enable anonymous logins).  The line should look like this when it is "
-"correct:"
+#, no-wrap
+msgid "Look for the line \"anonymous_enable=\" and make sure that it is set to \"NO\" and that it is **NOT** remarked/commented out. (Remarking out this line will enable anonymous logins).  The line should look like this when it is correct:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:54
-msgid "`anonymous_enable=NO`"
+#, no-wrap
+msgid "`anonymous_enable=NO`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:56
-msgid "Make sure that local_enable is set to yes:"
+#, no-wrap
+msgid "Make sure that local_enable is set to yes:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:58
-msgid "`local_enable=YES`"
+#, no-wrap
+msgid "`local_enable=YES`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:60
-msgid ""
-"Add a line for the local root user. If the server that you are installing "
-"this on is a web server, we assume that you will be using the [Apache Web "
-"Server Multi-Site Setup](../web/apache-sites-enabled.md), and that your "
-"local root will reflect that. If your setup is different, or if this is not "
-"a web server, adjust the local_root setting:"
+#, no-wrap
+msgid "Add a line for the local root user. If the server that you are installing this on is a web server, we assume that you will be using the [Apache Web Server Multi-Site Setup](../web/apache-sites-enabled.md), and that your local root will reflect that. If your setup is different, or if this is not a web server, adjust the local_root setting:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:62
-msgid "`local_root=/var/www/sub-domains`"
+#, no-wrap
+msgid "`local_root=/var/www/sub-domains`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:64
-msgid "Make sure that write_enable is set to yes as well:"
+#, no-wrap
+msgid "Make sure that write_enable is set to yes as well:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:66
-msgid "`write_enable=YES`"
+#, no-wrap
+msgid "`write_enable=YES`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:68
-msgid ""
-"Find the line to \"chroot_local_users\", and remove the remark. Then add two "
-"lines below so that it looks like this:"
+#, no-wrap
+msgid "Find the line to \"chroot_local_users\", and remove the remark. Then add two lines below so that it looks like this:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -433,9 +429,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:76
-msgid ""
-"Beneath this, we want to add an entirely new section that will deal with "
-"virtual users:"
+#, no-wrap
+msgid "Beneath this, we want to add an entirely new section that will deal with virtual users:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -453,15 +448,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:88
-msgid ""
-"We need to add a section near the bottom of the file to force passwords sent "
-"over the internet to be encrypted. We need _openssl_ installed and we will "
-"need to create the certificate file for this as well."
+#, no-wrap
+msgid "We need to add a section near the bottom of the file to force passwords sent over the internet to be encrypted. We need _openssl_ installed and we will need to create the certificate file for this as well.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:90
-msgid "Start by adding these lines at the bottom of the file:"
+#, no-wrap
+msgid "Start by adding these lines at the bottom of the file:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -484,7 +478,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:107
-msgid "Now save your configuration. (That's `SHIFT:wq` if using _vi_.)"
+#, no-wrap
+msgid "Now save your configuration. (That's `SHIFT:wq` if using _vi_.)\n"
 msgstr ""
 
 #. type: Title ##
@@ -495,121 +490,116 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:111
-msgid ""
-"We need to create the _vsftpd_ RSA certificate file. The author generally "
-"figures that a server is good for 4 or 5 years, so set the number of days "
-"for this certificate based on the number of years you believe you'll have "
-"the server up and running on this hardware."
+#, no-wrap
+msgid "We need to create the _vsftpd_ RSA certificate file. The author generally figures that a server is good for 4 or 5 years, so set the number of days for this certificate based on the number of years you believe you'll have the server up and running on this hardware.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:113
-msgid ""
-"Edit the number of days as you see fit, and then use the below format of the "
-"command to create the certificate and private key files:"
+#, no-wrap
+msgid "Edit the number of days as you see fit, and then use the below format of the command to create the certificate and private key files:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:115
-msgid ""
-"`openssl req -x509 -nodes -days 1825 -newkey rsa:2048 -keyout /etc/vsftpd/"
-"vsftpd.key -out /etc/vsftpd/vsftpd.pem`"
+#, no-wrap
+msgid "`openssl req -x509 -nodes -days 1825 -newkey rsa:2048 -keyout /etc/vsftpd/vsftpd.key -out /etc/vsftpd/vsftpd.pem`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:117
-msgid ""
-"Like all certificate creation processes, this will start a script that will "
-"ask you for some information. This is not a difficult process. Many fields "
-"can be left blank."
+#, no-wrap
+msgid "Like all certificate creation processes, this will start a script that will ask you for some information. This is not a difficult process. Many fields can be left blank.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:119
-msgid ""
-"The first field is the country code field, fill this one in with your "
-"country two letter code:"
+#, no-wrap
+msgid "The first field is the country code field, fill this one in with your country two letter code:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:121
-msgid "`Country Name (2 letter code) [XX]:`"
+#, no-wrap
+msgid "`Country Name (2 letter code) [XX]:`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:123
-msgid ""
-"Next comes the state or province, fill this in by typing the whole name, not "
-"the abbreviation:"
+#, no-wrap
+msgid "Next comes the state or province, fill this in by typing the whole name, not the abbreviation:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:125
-msgid "`State or Province Name (full name) []:`"
+#, no-wrap
+msgid "`State or Province Name (full name) []:`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:127
-msgid "Next is the locality name. This is your city:"
+#, no-wrap
+msgid "Next is the locality name. This is your city:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:129
-msgid "`Locality Name (eg, city) [Default City]:`"
+#, no-wrap
+msgid "`Locality Name (eg, city) [Default City]:`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:131
-msgid ""
-"Next is the company or organizational name. You can leave this blank or fill "
-"it in as you see fit:"
+#, no-wrap
+msgid "Next is the company or organizational name. You can leave this blank or fill it in as you see fit:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:133
-msgid "`Organization Name (eg, company) [Default Company Ltd]:`"
+#, no-wrap
+msgid "`Organization Name (eg, company) [Default Company Ltd]:`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:135
-msgid ""
-"Next is the organizational unit name. You can fill this in if the server is "
-"for a specific division, or leave it blank:"
+#, no-wrap
+msgid "Next is the organizational unit name. You can fill this in if the server is for a specific division, or leave it blank:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:137
-msgid "`Organizational Unit Name (eg, section) []:`"
+#, no-wrap
+msgid "`Organizational Unit Name (eg, section) []:`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:139
-msgid ""
-"The next field should be filled in, however you can decide how you want to "
-"fill it in. This is the common name of your server. Example: `webftp."
-"domainname.ext`:"
+#, no-wrap
+msgid "The next field should be filled in, however you can decide how you want to fill it in. This is the common name of your server. Example: `webftp.domainname.ext`:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:141
-msgid "`Common Name (eg, your name or your server's hostname) []:`"
+#, no-wrap
+msgid "`Common Name (eg, your name or your server's hostname) []:`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:143
-msgid ""
-"Finally, there is the email field, which you can certainly leave blank "
-"without issue:"
+#, no-wrap
+msgid "Finally, there is the email field, which you can certainly leave blank without issue:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:145
-msgid "`Email Address []:`"
+#, no-wrap
+msgid "`Email Address []:`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:147
-msgid "Once you have completed the form, the certificate will be created."
+#, no-wrap
+msgid "Once you have completed the form, the certificate will be created.\n"
 msgstr ""
 
 #. type: Title ##
@@ -620,64 +610,62 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:152
-msgid ""
-"As stated earlier, using virtual users for _vsftpd_ is much more secure, "
-"because they have no system privileges at all. That said, we need to add a "
-"user for the virtual users to use. We also need to add a group:"
+#, no-wrap
+msgid "As stated earlier, using virtual users for _vsftpd_ is much more secure, because they have no system privileges at all. That said, we need to add a user for the virtual users to use. We also need to add a group:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:154
-msgid "`groupadd nogroup`"
+#, no-wrap
+msgid "`groupadd nogroup`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:158
-msgid ""
-"`useradd --home-dir /home/vsftpd --gid nogroup -m --shell /bin/false vsftpd`"
+#, no-wrap
+msgid "`useradd --home-dir /home/vsftpd --gid nogroup -m --shell /bin/false vsftpd`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:160
-msgid "The user must match the `guest_username=` line in the vsftpd.conf file."
+#, no-wrap
+msgid "The user must match the `guest_username=` line in the vsftpd.conf file.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:162
-msgid "Now navigate to the configuration directory for _vsftpd_:"
+#, no-wrap
+msgid "Now navigate to the configuration directory for _vsftpd_:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:164
-msgid "`cd /etc/vsftpd`"
+#, no-wrap
+msgid "`cd /etc/vsftpd`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:166
-msgid ""
-"We need to create a new password database that will be used to authenticate "
-"our virtual users. We need to create a file to read the virtual users and "
-"passwords from. This will create the database."
+#, no-wrap
+msgid "We need to create a new password database that will be used to authenticate our virtual users. We need to create a file to read the virtual users and passwords from. This will create the database.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:168
-msgid ""
-"In the future, when adding new users, we will want to duplicate this process "
-"as well:"
+#, no-wrap
+msgid "In the future, when adding new users, we will want to duplicate this process as well:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:170
-msgid "`vi vusers.txt`"
+#, no-wrap
+msgid "`vi vusers.txt`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:172
-msgid ""
-"The user and password are line separated, so simply type the user, hit "
-"enter, and then type the password. Continue until you have added all of the "
-"users you currently want to have access to the system. Example:"
+#, no-wrap
+msgid "The user and password are line separated, so simply type the user, hit enter, and then type the password. Continue until you have added all of the users you currently want to have access to the system. Example:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -692,93 +680,98 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:181
-msgid ""
-"Once the text file is created, we now want to generate the password database "
-"that _vsftpd_ will use for the virtual users. This is done with _db\\_load_. "
-"_db\\_load_ is provided by _libdb-utils_ which should be loaded on your "
-"system, but if it is not, you can simply install it with:"
+#, no-wrap
+msgid "Once the text file is created, we now want to generate the password database that _vsftpd_ will use for the virtual users. This is done with _db\\_load_. _db\\_load_ is provided by _libdb-utils_ which should be loaded on your system, but if it is not, you can simply install it with:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:183
-msgid "`dnf install libdb-utils`"
+#, no-wrap
+msgid "`dnf install libdb-utils`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:185
-msgid "Create the database from the text file with:"
+#, no-wrap
+msgid "Create the database from the text file with:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:187
-msgid "`db_load -T -t hash -f vusers.txt vsftpd-virtual-user.db`"
+#, no-wrap
+msgid "`db_load -T -t hash -f vusers.txt vsftpd-virtual-user.db`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:189
-msgid ""
-"We need to take just a moment here to reference what _db\\_load_ is doing "
-"here:"
+#, no-wrap
+msgid "We need to take just a moment here to reference what _db\\_load_ is doing here:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:196
-msgid ""
-"The -T is used to easily allow the import of a text file into the database."
+#, no-wrap
+msgid "The -T is used to easily allow the import of a text file into the database.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:196
-msgid "The -t says to specify the underlying access method."
+#, no-wrap
+msgid "The -t says to specify the underlying access method.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:196
-msgid "The _hash_ is the underlying access method we are specifying."
+#, no-wrap
+msgid "The _hash_ is the underlying access method we are specifying.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:196
-msgid "The -f says to read from a specified file."
+#, no-wrap
+msgid "The -f says to read from a specified file.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:196
-msgid "The specified file is _vusers.txt_ ."
+#, no-wrap
+msgid "The specified file is _vusers.txt_ .\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:196
-msgid ""
-"And the database we are creating or adding to is _vsftpd-virtual-user.db_."
+#, no-wrap
+msgid "And the database we are creating or adding to is _vsftpd-virtual-user.db_.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:198
-msgid "Change the default permissions of the database file:"
+#, no-wrap
+msgid "Change the default permissions of the database file:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:200
-msgid "`chmod 600 vsftpd-virtual-user.db`"
+#, no-wrap
+msgid "`chmod 600 vsftpd-virtual-user.db`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:202
-msgid "And remove the vusers.txt file:"
+#, no-wrap
+msgid "And remove the vusers.txt file:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:204
-msgid "`rm vusers.txt`"
+#, no-wrap
+msgid "`rm vusers.txt`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:206
-msgid ""
-"When adding new users, simply use _vi_ to create a new vusers.txt file, and "
-"re-run the _db\\_load_ command, which will add the new user/s to the "
-"database."
+#, no-wrap
+msgid "When adding new users, simply use _vi_ to create a new vusers.txt file, and re-run the _db\\_load_ command, which will add the new user/s to the database.\n"
 msgstr ""
 
 #. type: Title ##
@@ -789,47 +782,50 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:210
-msgid ""
-"_vsftpd_ installs a default pam file when you install the package. We are "
-"going to replace this with our own content, so **always** make a backup copy "
-"of the old file first."
+#, no-wrap
+msgid "_vsftpd_ installs a default pam file when you install the package. We are going to replace this with our own content, so **always** make a backup copy of the old file first.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:212
-msgid "Make a directory for your backup file in /root:"
+#, no-wrap
+msgid "Make a directory for your backup file in /root:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:214
-msgid "`mkdir /root/backup_vsftpd_pam`"
+#, no-wrap
+msgid "`mkdir /root/backup_vsftpd_pam`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:216
-msgid "Then copy the pam file to this directory:"
+#, no-wrap
+msgid "Then copy the pam file to this directory:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:218
-msgid "`cp /etc/pam.d/vsftpd /root/backup_vsftpd_pam/`"
+#, no-wrap
+msgid "`cp /etc/pam.d/vsftpd /root/backup_vsftpd_pam/`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:220
-msgid "Now edit the original file:"
+#, no-wrap
+msgid "Now edit the original file:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:222
-msgid "`vi /etc/pam.d/vsftpd`"
+#, no-wrap
+msgid "`vi /etc/pam.d/vsftpd`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:224
-msgid ""
-"Remove everything in this file except the \"#%PAM-1.0\" and then add in the "
-"following lines:"
+#, no-wrap
+msgid "Remove everything in this file except the \"#%PAM-1.0\" and then add in the following lines:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -843,14 +839,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:232
-msgid "Save your changes and exit (`SHIFT:wq` in _vi_)."
+#, no-wrap
+msgid "Save your changes and exit (`SHIFT:wq` in _vi_).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:234
-msgid ""
-"This will enable login for your virtual users defined in `vsftpd-virtual-"
-"user.db`, and will disable local logins."
+#, no-wrap
+msgid "This will enable login for your virtual users defined in `vsftpd-virtual-user.db`, and will disable local logins.\n"
 msgstr ""
 
 #. type: Title ##
@@ -861,30 +857,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:238
-msgid ""
-"Each virtual user has their own configuration file, which specifies their "
-"own local_root directory. This local root must be owned by the user \"vsftpd"
-"\" and the group \"nogroup\"."
+#, no-wrap
+msgid "Each virtual user has their own configuration file, which specifies their own local_root directory. This local root must be owned by the user \"vsftpd\" and the group \"nogroup\".\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:240
-msgid ""
-"Remember that this was set up in the [Setting Up Virtual Users section "
-"above.](#virtualusers) To change the ownership for the directory, simply "
-"type this at the command line:"
+#, no-wrap
+msgid "Remember that this was set up in the [Setting Up Virtual Users section above.](#virtualusers) To change the ownership for the directory, simply type this at the command line:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:242
-msgid ""
-"`chown vsftpd.nogroup /var/www/sub-domains/whatever_the_domain_name_is/html`"
+#, no-wrap
+msgid "`chown vsftpd.nogroup /var/www/sub-domains/whatever_the_domain_name_is/html`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:244
-msgid ""
-"We need to create the file that contains the virtual user's configuration:"
+#, no-wrap
+msgid "We need to create the file that contains the virtual user's configuration:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -897,21 +889,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:251
-msgid ""
-"This will have a single line in it that specifies the virtual user's "
-"local_root:"
+#, no-wrap
+msgid "This will have a single line in it that specifies the virtual user's local_root:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:253
-msgid "`local_root=/var/www/sub-domains/com.testdomain/html`"
+#, no-wrap
+msgid "`local_root=/var/www/sub-domains/com.testdomain/html`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:255
-msgid ""
-"This file path is specified in the \"Virtual User\" section of the vsftpd."
-"conf file."
+#, no-wrap
+msgid "This file path is specified in the \"Virtual User\" section of the vsftpd.conf file.\n"
 msgstr ""
 
 #. type: Title ##
@@ -922,14 +913,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:259
-msgid ""
-"Once all of this is completed, start the _vsftpd_ service and then test your "
-"users, assuming that the service starts correctly:"
+#, no-wrap
+msgid "Once all of this is completed, start the _vsftpd_ service and then test your users, assuming that the service starts correctly:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:261
-msgid "`systemctl restart vsftpd`"
+#, no-wrap
+msgid "`systemctl restart vsftpd`\n"
 msgstr ""
 
 #. type: Title ###
@@ -940,45 +931,30 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:265
-msgid ""
-"You can test your setup using the command line on a machine and test access "
-"to the machine using FTP. That said, the easiest way to test is to test with "
-"an FTP client, such as [FileZilla](https://filezilla-project.org/)."
+#, no-wrap
+msgid "You can test your setup using the command line on a machine and test access to the machine using FTP. That said, the easiest way to test is to test with an FTP client, such as [FileZilla](https://filezilla-project.org/).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:267
-msgid ""
-"When you test with a virtual user to the server running _vsftpd_, you should "
-"get an SSL certificate trust message. This trust message is saying to the "
-"person using the FTP client that the server uses a certificate and asks them "
-"to approve the certificate before continuing. Once connected as a virtual "
-"user, you should be able to place files in the \"local_root\" folder that we "
-"setup for that user."
+#, no-wrap
+msgid "When you test with a virtual user to the server running _vsftpd_, you should get an SSL certificate trust message. This trust message is saying to the person using the FTP client that the server uses a certificate and asks them to approve the certificate before continuing. Once connected as a virtual user, you should be able to place files in the \"local_root\" folder that we setup for that user.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:269
-msgid ""
-"If you are unable to upload a file, then you may need to go back and make "
-"sure that each of the above steps is completed. For instance, it could be "
-"that the ownership permissions for the \"local_root\" have not been set to "
-"the \"vsftpd\" user and the \"nogroup\" group."
+#, no-wrap
+msgid "If you are unable to upload a file, then you may need to go back and make sure that each of the above steps is completed. For instance, it could be that the ownership permissions for the \"local_root\" have not been set to the \"vsftpd\" user and the \"nogroup\" group.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:273
-msgid ""
-"_vsftpd_ is a popular and common ftp server and can be set up as a stand "
-"alone server, or as part of an [Apache Hardened Web Server](../web/"
-"apache_hardened_webserver/index.md). If set up to use virtual users and a "
-"certificate, it is quite secure."
+#, no-wrap
+msgid "_vsftpd_ is a popular and common ftp server and can be set up as a stand alone server, or as part of an [Apache Hardened Web Server](../web/apache_hardened_webserver/index.md). If set up to use virtual users and a certificate, it is quite secure.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:274
-msgid ""
-"While there are quite a number of steps to setting up _vsftpd_ as outlined "
-"in this document, taking the extra time to set it up correctly will ensure "
-"that your server is as secure as it can be."
+#, no-wrap
+msgid "While there are quite a number of steps to setting up _vsftpd_ as outlined in this document, taking the extra time to set it up correctly will ensure that your server is as secure as it can be.\n"
 msgstr ""

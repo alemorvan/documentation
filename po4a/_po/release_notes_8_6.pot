@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,13 +16,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Bullet: '* '
+#. type: Title ###
 #: ../src/docs/books/admin_guide/11-tasks.md:71
 #: ../src/docs/release_notes/8_4.md:51 ../src/docs/release_notes/8_6.md:17
 #: ../src/docs/release_notes/8_7.md:39 ../src/docs/release_notes/8_8.md:54
-#: ../src/docs/release_notes/8_8.md:154 ../src/docs/release_notes/9_0.md:34
-#: ../src/docs/release_notes/9_1.md:47 ../src/docs/release_notes/9_2.md:104
-#: ../src/docs/release_notes/9_2.md:217
+#: ../src/docs/release_notes/9_0.md:34 ../src/docs/release_notes/9_1.md:47
+#: ../src/docs/release_notes/9_2.md:104
 #, no-wrap
 msgid "Security"
 msgstr ""
@@ -51,10 +50,9 @@ msgstr ""
 msgid "Compilers and Development Tools"
 msgstr ""
 
-#. type: Bullet: '* '
+#. type: Title ##
 #: ../src/docs/release_notes/8_4.md:90 ../src/docs/release_notes/8_6.md:32
-#: ../src/docs/release_notes/8_7.md:118 ../src/docs/release_notes/8_8.md:154
-#: ../src/docs/release_notes/9_1.md:151 ../src/docs/release_notes/9_2.md:217
+#: ../src/docs/release_notes/8_7.md:118 ../src/docs/release_notes/9_1.md:151
 #, no-wrap
 msgid "Identity Management"
 msgstr ""
@@ -70,7 +68,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_5.md:78 ../src/docs/release_notes/8_6.md:60
-msgid "GCC Toolset 11"
+#, no-wrap
+msgid "GCC Toolset 11\n"
 msgstr ""
 
 #. type: Title ##
@@ -81,12 +80,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/8_5.md:88 ../src/docs/release_notes/8_6.md:66
-msgid ""
-"During network installation, the list of mirrors hosting BaseOS content from "
-"the MirrorList will be used by the FastestMirror DNF plugin, sorted "
-"heuristically by the time it takes to open a connection to the mirrors on "
-"their given protocol's port ([Source code](https://github.com/rpm-software-"
-"management/yum-utils/blob/master/plugins/fastestmirror/fastestmirror.py))."
+#, no-wrap
+msgid "During network installation, the list of mirrors hosting BaseOS content from the MirrorList will be used by the FastestMirror DNF plugin, sorted heuristically by the time it takes to open a connection to the mirrors on their given protocol's port ([Source code](https://github.com/rpm-software-management/yum-utils/blob/master/plugins/fastestmirror/fastestmirror.py)).\n"
 msgstr ""
 
 #. type: Title ##
@@ -130,52 +125,44 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/8_6.md:14
-msgid ""
-"For a complete list of major changes, please see the upstream listing [here]"
-"(https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/"
-"html/8.6_release_notes/overview#overview-major-changes)."
+#, no-wrap
+msgid "For a complete list of major changes, please see the upstream listing [here](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/8.6_release_notes/overview#overview-major-changes).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/8_6.md:16 ../src/docs/release_notes/8_7.md:38
-msgid "Below are some highlights."
+#, no-wrap
+msgid "Below are some highlights.\n"
 msgstr ""
 
 #. type: Bullet: ' * '
 #: ../src/docs/release_notes/8_6.md:24
-msgid ""
-"`fapolicyd`: updated to version 1.1. Includes the ability to use `/rules.d` "
-"and `/trust.d` directories, the ability to use `fagenrules` script, and new "
-"options for the `fapolicyd-cli`command."
+#, no-wrap
+msgid "`fapolicyd`: updated to version 1.1. Includes the ability to use `/rules.d` and `/trust.d` directories, the ability to use `fagenrules` script, and new options for the `fapolicyd-cli`command.\n"
 msgstr ""
 
 #. type: Bullet: ' * '
 #: ../src/docs/release_notes/8_6.md:24
-msgid ""
-"OpenSSH server now supports drop-in configurations. This means you can use "
-"the `Include` directive in `sshd_config` similar to what is now available "
-"for `ssh_config`."
+#, no-wrap
+msgid "OpenSSH server now supports drop-in configurations. This means you can use the `Include` directive in `sshd_config` similar to what is now available for `ssh_config`.\n"
 msgstr ""
 
 #. type: Bullet: ' * '
 #: ../src/docs/release_notes/8_6.md:24
-msgid ""
-"`pcsc-lite` package: rebased to upstream version 1.9.5 with new enhancements "
-"and bug fixes."
+#, no-wrap
+msgid "`pcsc-lite` package: rebased to upstream version 1.9.5 with new enhancements and bug fixes.\n"
 msgstr ""
 
 #. type: Bullet: ' * '
 #: ../src/docs/release_notes/8_6.md:24
-msgid ""
-"SELinux: You can now verify versions of installed policy modules by using "
-"the `--checksum` option with the `semodule` command."
+#, no-wrap
+msgid "SELinux: You can now verify versions of installed policy modules by using the `--checksum` option with the `semodule` command.\n"
 msgstr ""
 
 #. type: Bullet: ' *  '
 #: ../src/docs/release_notes/8_6.md:24
-msgid ""
-"SCAP Security Guide (SSG) packages: rebased to version 0.1.60, and OpenSCAP "
-"packages have been rebased to version 1.3.6."
+#, no-wrap
+msgid "SCAP Security Guide (SSG) packages:  rebased to version 0.1.60, and OpenSCAP packages have been rebased to version 1.3.6.\n"
 msgstr ""
 
 #. type: Title ###
@@ -186,23 +173,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/8_6.md:28
-msgid "New modules are available for:"
+#, no-wrap
+msgid "New modules are available for:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_6.md:31
-msgid "PHP 8.0"
+#, no-wrap
+msgid "PHP 8.0\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_6.md:31
-msgid "Perl 5.32"
+#, no-wrap
+msgid "Perl 5.32\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_6.md:35
-msgid ""
-"`ansible-freeipa` roles and modules available in the Ansible Automation Hub."
+#, no-wrap
+msgid "`ansible-freeipa` roles and modules available in the Ansible Automation Hub.\n"
 msgstr ""
 
 #. type: Title ##
@@ -214,11 +204,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_6.md:39
-msgid ""
-"`bind9.16` issued as an alternative to the regular `bind` packages with an "
-"enhanced feature set. For more on this see [Infrastructure Services](https://"
-"access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html-"
-"single/8.6_release_notes#enhancement_infrastructure-services) upstream."
+#, no-wrap
+msgid "`bind9.16` issued as an alternative to the regular `bind` packages with an enhanced feature set. For more on this see [Infrastructure Services](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html-single/8.6_release_notes#enhancement_infrastructure-services) upstream.\n"
 msgstr ""
 
 #. type: Title ###
@@ -229,73 +216,74 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/8_6.md:43
-msgid ""
-"You can now install `ansible-core` from the Rocky Linux Appstream "
-"repository. If you already have `ansible` installed from another source, you "
-"will need to uninstall that to be able to upgrade ansible."
+#, no-wrap
+msgid "You can now install `ansible-core` from the Rocky Linux Appstream repository. If you already have `ansible` installed from another source, you will need to uninstall that to be able to upgrade ansible.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_6.md:51
-msgid "container-tools:4.0"
+#, no-wrap
+msgid "container-tools:4.0\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_6.md:51
-msgid "eclipse:rhel8"
+#, no-wrap
+msgid "eclipse:rhel8\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_6.md:51
-msgid "log4j:2"
+#, no-wrap
+msgid "log4j:2\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_6.md:51
-msgid "perl:5.32"
+#, no-wrap
+msgid "perl:5.32\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_6.md:51
-msgid "php:8.0"
+#, no-wrap
+msgid "php:8.0\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/8_6.md:55
-msgid "Highlights include:"
+#, no-wrap
+msgid "Highlights include:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_6.md:60
-msgid "LLVM Toolset 13.0.1"
+#, no-wrap
+msgid "LLVM Toolset 13.0.1\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_6.md:60
-msgid "Rust Toolset 1.58.1"
+#, no-wrap
+msgid "Rust Toolset 1.58.1\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_6.md:60
-msgid "Go Toolset 1.17.7"
+#, no-wrap
+msgid "Go Toolset 1.17.7\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/8_6.md:62
-msgid ""
-"For more information on the latest changes see the upstream listing [here]"
-"(https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/"
-"html/8.6_release_notes/new-features#enhancement_compilers-and-development-"
-"tools)."
+#, no-wrap
+msgid "For more information on the latest changes see the upstream listing [here](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/8.6_release_notes/new-features#enhancement_compilers-and-development-tools).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/8_6.md:68
-msgid ""
-"This change means that a Repository URL is no longer required when using "
-"Boot-only media and performing Network-based installations of Rocky (and "
-"other Enterprise) Linux! This has been true since Rocky 8.5, but is worth "
-"mentioning again."
+#, no-wrap
+msgid "This change means that a Repository URL is no longer required when using Boot-only media and performing Network-based installations of Rocky (and other Enterprise) Linux! This has been true since Rocky 8.5, but is worth mentioning again.\n"
 msgstr ""
 
 #. type: Title ##
@@ -306,54 +294,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/8_6.md:72
-msgid "Simply run `sudo dnf -y upgrade`."
+#, no-wrap
+msgid "Simply run `sudo dnf -y upgrade`.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_6.md:78
-msgid ""
-"`kdump`: Currently, when using any interactive installation method, the "
-"`kdump` spoke must be entered last. This includes any plans for disk "
-"encryption. In these cases, if you have plans to turn off `kdump`, format "
-"the disk with encryption before turning it off."
+#, no-wrap
+msgid "`kdump`: Currently, when using any interactive installation method, the `kdump` spoke must be entered last. This includes any plans for disk encryption. In these cases, if you have plans to turn off `kdump`, format the disk with encryption before turning it off.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_6.md:78
-msgid ""
-"minimal ISO: When doing an installation with the minimal ISO, be prepared to "
-"be missing packages, most notably from the AppStream repository (rsyslog, "
-"policycoreutils-python-utils, etc.). This is to be expected."
+#, no-wrap
+msgid "minimal ISO: When doing an installation with the minimal ISO, be prepared to be missing packages, most notably from the AppStream repository (rsyslog, policycoreutils-python-utils, etc.). This is to be expected.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_6.md:78
-msgid ""
-"KDE and [this kernel bug](https://bugzilla.redhat.com/show_bug.cgi?"
-"id=2082719): If you are using KDE on 8.5 and upgrade to 8.6, it is highly "
-"likely that you will end up with issues. The referenced bug deals with the "
-"inability to unlock your screen after locking occurs. A workaround is to "
-"boot to the older kernel in GRUB on startup."
+#, no-wrap
+msgid "KDE and [this kernel bug](https://bugzilla.redhat.com/show_bug.cgi?id=2082719): If you are using KDE on 8.5 and upgrade to 8.6, it is highly likely that you will end up with issues. The referenced bug deals with the inability to unlock your screen after locking occurs. A workaround is to boot to the older kernel in GRUB on startup.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/8_6.md:80
-msgid ""
-"As with any release, there are issues that are already known. You can see "
-"the current listing of issues from the upstream [here](https://access.redhat."
-"com/documentation/en-us/red_hat_enterprise_linux/8/html/8.6_release_notes/"
-"known-issues)."
+#, no-wrap
+msgid "As with any release, there are issues that are already known. You can see the current listing of issues from the upstream [here](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/8.6_release_notes/known-issues).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/8_6.md:83 ../src/docs/release_notes/8_7.md:135
 #: ../src/docs/release_notes/9_0.md:179 ../src/docs/release_notes/9_1.md:180
 #: ../src/docs/release_notes/9_2.md:222
-msgid ""
-"Please report any bugs you encounter to the [Rocky Linux Bug Tracker]"
-"(https://bugs.rockylinux.org/). We also welcome you to join our community in "
-"any way you wish be it on our [Forums](https://forums.rockylinux.org), "
-"[Mattermost](https://chat.rockylinux.org), [IRC on Libera.Chat](irc://irc."
-"liberachat/rockylinux), [Reddit](https://reddit.com/r/rockylinux), [Mailing "
-"Lists](https://lists.resf.org), or any other way you wish to participate!"
+#, no-wrap
+msgid "Please report any bugs you encounter to the [Rocky Linux Bug Tracker](https://bugs.rockylinux.org/). We also welcome you to join our community in any way you wish be it on our [Forums](https://forums.rockylinux.org), [Mattermost](https://chat.rockylinux.org), [IRC on Libera.Chat](irc://irc.liberachat/rockylinux), [Reddit](https://reddit.com/r/rockylinux), [Mailing Lists](https://lists.resf.org), or any other way you wish to participate!\n"
 msgstr ""

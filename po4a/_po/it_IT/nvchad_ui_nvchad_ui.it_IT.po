@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -116,21 +116,24 @@ msgstr ""
 #: ../src/docs/books/nvchad/install_nvchad.md:180
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:26
 #: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:22
-msgid "C = <kbd>CTRL</kbd>"
+#, no-wrap
+msgid "C = <kbd>CTRL</kbd>\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/nvchad/install_nvchad.md:180
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:26
 #: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:22
-msgid "leader = <kbd>SPACE</kbd>"
+#, no-wrap
+msgid "leader = <kbd>SPACE</kbd>\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/nvchad/install_nvchad.md:180
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:26
 #: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:22
-msgid "A = <kbd>ALT</kbd>"
+#, no-wrap
+msgid "A = <kbd>ALT</kbd>\n"
 msgstr ""
 
 #. type: YAML Front Matter: tags
@@ -153,7 +156,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:15
-msgid "!!! note \"A few words about `mappings.lua`\""
+#, no-wrap
+msgid "!!! note \"A few words about `mappings.lua`\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -177,7 +181,8 @@ msgstr ""
 #. type: Bullet: '* '
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:26
 #: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:22
-msgid "S = <kbd>SHFT</kbd>"
+#, no-wrap
+msgid "S = <kbd>SHFT</kbd>\n"
 msgstr ""
 
 #. type: Plain text
@@ -194,23 +199,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:32
-msgid ""
-"Once Neovim is installed and the NvChad configuration is entered, our IDE "
-"should look like this:"
+#, no-wrap
+msgid "Once Neovim is installed and the NvChad configuration is entered, our IDE should look like this:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:34
-msgid "![NvChad Default](../images/ui_default.png)"
+#, no-wrap
+msgid "![NvChad Default](../images/ui_default.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:36
-msgid ""
-"The interface already comes with some advanced functionality, such as "
-"indicating the status of the git repository, but can be further enhanced by "
-"using the Language Server, and customized by overriding some basic "
-"configurations. The basic modules that make it up are detailed below."
+#, no-wrap
+msgid "The interface already comes with some advanced functionality, such as indicating the status of the git repository, but can be further enhanced by using the Language Server, and customized by overriding some basic configurations. The basic modules that make it up are detailed below.\n"
 msgstr ""
 
 #. type: Title ##
@@ -221,16 +223,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:40
-msgid "![Tabufline](../images/ui_tabufline.png)"
+#, no-wrap
+msgid "![Tabufline](../images/ui_tabufline.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:42
-msgid ""
-"The user interface presents a top bar called `Tabufline` where the open "
-"buffers are managed. `Tabufline` only shows if you have more than one file "
-"open. The open buffer presents the file type icon, the file name, and its "
-"status. Status is indicated with an icon."
+#, no-wrap
+msgid "The user interface presents a top bar called `Tabufline` where the open buffers are managed. `Tabufline` only shows if you have more than one file open. The open buffer presents the file type icon, the file name, and its status. Status is indicated with an icon.\n"
 msgstr ""
 
 #. type: Plain text
@@ -241,19 +241,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:46
-msgid ""
-"To the right is the icon for setting the _dark_ or _light_ theme. By "
-"clicking on it with the mouse, we can select the theme we want."
+#, no-wrap
+msgid "To the right is the icon for setting the _dark_ or _light_ theme. By clicking on it with the mouse, we can select the theme we want.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:48
-msgid "![NvChad Light](../images/ui_default_light.png)"
+#, no-wrap
+msgid "![NvChad Light](../images/ui_default_light.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:50
-msgid "On the right we also have the icon for closing our editor."
+#, no-wrap
+msgid "On the right we also have the icon for closing our editor.\n"
 msgstr ""
 
 #. type: Title ##
@@ -264,11 +265,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:54
-msgid ""
-"The central part of the editor is composed of the buffer active on the "
-"editor at that moment (_index.en.md_). To introduce some additional "
-"functionality, we can work simultaneously on two files in a split buffer by "
-"opening one more in the example (_index.it.md_)."
+#, no-wrap
+msgid "The central part of the editor is composed of the buffer active on the editor at that moment (_index.en.md_). To introduce some additional functionality, we can work simultaneously on two files in a split buffer by opening one more in the example (_index.it.md_).\n"
 msgstr ""
 
 #. type: Plain text
@@ -279,7 +277,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:58
-msgid "![NvChad Split](../images/ui_nvchad_split.png)"
+#, no-wrap
+msgid "![NvChad Split](../images/ui_nvchad_split.png)\n"
 msgstr ""
 
 #. type: Title ##
@@ -290,21 +289,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:62
-msgid "![Statusline](../images/ui_statusline.png)"
+#, no-wrap
+msgid "![Statusline](../images/ui_statusline.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:64
-msgid ""
-"At the bottom we find the Statusline, which handles status information. On "
-"the right we find the editor status. We must not forget that we are using a "
-"text editor and that, in particular, it maintains the philosophy and "
-"operation of Vim. The possible states are:"
+#, no-wrap
+msgid "At the bottom we find the Statusline, which handles status information. On the right we find the editor status. We must not forget that we are using a text editor and that, in particular, it maintains the philosophy and operation of Vim. The possible states are:\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:69
-msgid "- **NORMAL** - **INSERT** - **COMMAND** - **VISUAL**"
+#, no-wrap
+msgid "**NORMAL**\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:69
+#, no-wrap
+msgid "**INSERT**\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:69
+#, no-wrap
+msgid "**COMMAND**\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:69
+#, no-wrap
+msgid "**VISUAL**\n"
 msgstr ""
 
 #. type: Plain text
@@ -321,19 +337,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:75
-msgid ""
-"We then find the name of the open file, and if we are working on a git "
-"repository, we will have indications of the status of the repository. This "
-"is thanks to the _lewis6991/gitsigns.nvim_ plugin."
+#, no-wrap
+msgid "We then find the name of the open file, and if we are working on a git repository, we will have indications of the status of the repository. This is thanks to the _lewis6991/gitsigns.nvim_ plugin.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:77
-msgid ""
-"Turning to the right side we find the name of the folder from which we "
-"opened the editor. In the case of the use of LSPs, this indicates the folder "
-"that is taken into account as `workspace`, and consequently evaluated during "
-"diagnostics, and to follow the position of the cursor within the file."
+#, no-wrap
+msgid "Turning to the right side we find the name of the folder from which we opened the editor. In the case of the use of LSPs, this indicates the folder that is taken into account as `workspace`, and consequently evaluated during diagnostics, and to follow the position of the cursor within the file.\n"
 msgstr ""
 
 #. type: Title ##
@@ -344,9 +355,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:81
-msgid ""
-"NvChad and Neovim provide some useful commands for displaying preset key "
-"combinations and available options."
+#, no-wrap
+msgid "NvChad and Neovim provide some useful commands for displaying preset key combinations and available options.\n"
 msgstr ""
 
 #. type: Plain text
@@ -357,7 +367,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:85
-msgid "![Space Key](../images/ui_escape_key.png)"
+#, no-wrap
+msgid "![Space Key](../images/ui_escape_key.png)\n"
 msgstr ""
 
 #. type: Plain text
@@ -368,7 +379,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:89
-msgid "![leader wK](../images/ui_wK_key.png)"
+#, no-wrap
+msgid "![leader wK](../images/ui_wK_key.png)\n"
 msgstr ""
 
 #. type: Plain text
@@ -379,15 +391,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:93
-msgid "![leader wK d](../images/ui_wK_01.png)"
+#, no-wrap
+msgid "![leader wK d](../images/ui_wK_01.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:95
-msgid ""
-"As we can see, almost all the commands refer to navigation within the "
-"document or buffer. No commands for opening the file are included. These are "
-"provided by the Neovim."
+#, no-wrap
+msgid "As we can see, almost all the commands refer to navigation within the document or buffer. No commands for opening the file are included. These are provided by the Neovim.\n"
 msgstr ""
 
 #. type: Plain text
@@ -398,14 +409,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:99
-msgid "![Nvim Options](../images/nvim_options.png)"
+#, no-wrap
+msgid "![Nvim Options](../images/nvim_options.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:101
-msgid ""
-"This gives us a way, through the built-in help, to learn the commands while "
-"using the editor, and also to delve into the available options."
+#, no-wrap
+msgid "This gives us a way, through the built-in help, to learn the commands while using the editor, and also to delve into the available options.\n"
 msgstr ""
 
 #. type: YAML Front Matter: title
@@ -423,19 +434,18 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:107
-msgid "![NvimTree](../images/nvim_tree.png)"
+#, no-wrap
+msgid "![NvimTree](../images/nvim_tree.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:109
-msgid ""
-"A detailed description of NvimTree's commands and features can be found on "
-"the [dedicated page](nvimtree.md)."
+#, no-wrap
+msgid "A detailed description of NvimTree's commands and features can be found on the [dedicated page](nvimtree.md).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:110
-msgid ""
-"Now that we have explored the interface components we can move on to using "
-"NvChad."
+#, no-wrap
+msgid "Now that we have explored the interface components we can move on to using NvChad.\n"
 msgstr ""

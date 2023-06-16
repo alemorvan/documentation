@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -236,7 +236,8 @@ msgstr ""
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:156
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:44
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:152
-msgid "And then:"
+#, no-wrap
+msgid "And then:\n"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -246,9 +247,8 @@ msgstr ""
 #: ../src/docs/guides/web/apache_hardened_webserver/index.md:22
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:21
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
-msgid ""
-"A heavy comfort level with issuing commands from the command-line, viewing "
-"logs, and other general systems administrator duties"
+#, no-wrap
+msgid "A heavy comfort level with issuing commands from the command-line, viewing logs, and other general systems administrator duties\n"
 msgstr ""
 
 #. type: YAML Front Matter: tags
@@ -277,39 +277,32 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:21
-msgid ""
-"Proficiency with a command-line text editor (we are using _vi_ in this "
-"example)"
+#, no-wrap
+msgid "Proficiency with a command-line text editor (we are using _vi_ in this example)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:21
-msgid ""
-"An understanding that installing this tool also requires monitoring of "
-"actions and tuning to your environment"
+#, no-wrap
+msgid "An understanding that installing this tool also requires monitoring of actions and tuning to your environment\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:21
-msgid "All commands are run as the root user or using sudo"
+#, no-wrap
+msgid "All commands are run as the root user or using sudo\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:25
-msgid ""
-"_ossec-hids_ is a host intrusion detection system that offers automatic "
-"action-response steps to help mitigate host intrusion attacks. It is just "
-"one possible component of a hardened Apache web server setup and can be used "
-"with or without other tools."
+#, no-wrap
+msgid "_ossec-hids_ is a host intrusion detection system that offers automatic action-response steps to help mitigate host intrusion attacks. It is just one possible component of a hardened Apache web server setup and can be used with or without other tools.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:27
-msgid ""
-"If you'd like to use this along with other tools for hardening, refer back "
-"to the [Apache Hardened Web Server](index.md) document. This document also "
-"uses all of the assumptions and conventions outlined in that original "
-"document, so it is a good idea to review it before continuing."
+#, no-wrap
+msgid "If you'd like to use this along with other tools for hardening, refer back to the [Apache Hardened Web Server](index.md) document. This document also uses all of the assumptions and conventions outlined in that original document, so it is a good idea to review it before continuing.\n"
 msgstr ""
 
 #. type: Title ##
@@ -320,57 +313,50 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:31
-msgid ""
-"To install _ossec-hids_, we need a third-party repository from Atomicorp. "
-"Atomicorp also offers a reasonably priced fee-based supported version for "
-"those who would like professional support if they run into trouble."
+#, no-wrap
+msgid "To install _ossec-hids_, we need a third-party repository from Atomicorp. Atomicorp also offers a reasonably priced fee-based supported version for those who would like professional support if they run into trouble.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:33
-msgid ""
-"If you'd prefer support, and have the budget for it, check out [Atomicorp's "
-"paid _ossec-hids_](https://atomicorp.com/atomic-enterprise-ossec/) version. "
-"Since we are going to need just a few packages from Atomicorp's free "
-"repository, we are going to modify the repository after we have it "
-"downloaded."
+#, no-wrap
+msgid "If you'd prefer support, and have the budget for it, check out [Atomicorp's paid _ossec-hids_](https://atomicorp.com/atomic-enterprise-ossec/) version. Since we are going to need just a few packages from Atomicorp's free repository, we are going to modify the repository after we have it downloaded.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:35
-msgid ""
-"Downloading the repository requires _wget_ so install that first if you "
-"don't have it. Install the EPEL repository as well if you do not have it "
-"installed already, with:"
+#, no-wrap
+msgid "Downloading the repository requires _wget_ so install that first if you don't have it. Install the EPEL repository as well if you do not have it installed already, with:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:37
-msgid "`dnf install wget epel-release`"
+#, no-wrap
+msgid "`dnf install wget epel-release`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:39
-msgid "Now download and enable Atomicorp's free repository:"
+#, no-wrap
+msgid "Now download and enable Atomicorp's free repository:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:41
-msgid "`wget -q -O - http://www.atomicorp.com/installers/atomic | sh`"
+#, no-wrap
+msgid "`wget -q -O - http://www.atomicorp.com/installers/atomic | sh`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:43
-msgid ""
-"This script will ask you to agree to the terms. Either type \"yes\" or hit "
-"'Enter' to accept \"yes\" as the default."
+#, no-wrap
+msgid "This script will ask you to agree to the terms. Either type \"yes\" or hit 'Enter' to accept \"yes\" as the default.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:45
-msgid ""
-"Next, it will ask you if you want to enable the repository by default, and "
-"again we want to accept the default or type \"yes\"."
+#, no-wrap
+msgid "Next, it will ask you if you want to enable the repository by default, and again we want to accept the default or type \"yes\".\n"
 msgstr ""
 
 #. type: Title ###
@@ -381,25 +367,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:49
-msgid ""
-"We only need the atomic repository for a couple of packages. For this "
-"reason, we are going to modify the repository and specify only those "
-"packages be chosen:"
+#, no-wrap
+msgid "We only need the atomic repository for a couple of packages. For this reason, we are going to modify the repository and specify only those packages be chosen:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:51
-msgid "`vi /etc/yum.repos.d/atomic.repo`"
+#, no-wrap
+msgid "`vi /etc/yum.repos.d/atomic.repo`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:53
-msgid "And then add this line beneath the \"enabled = 1\" in the top section:"
+#, no-wrap
+msgid "And then add this line beneath the \"enabled = 1\" in the top section:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:55
-msgid "`includepkgs = ossec* inotify-tools`"
+#, no-wrap
+msgid "`includepkgs = ossec* inotify-tools`\n"
 msgstr ""
 
 #. type: Plain text
@@ -410,9 +397,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:59
-msgid ""
-"This restricts the Atomicorp repository to only install and update these "
-"packages."
+#, no-wrap
+msgid "This restricts the Atomicorp repository to only install and update these packages.\n"
 msgstr ""
 
 #. type: Title ##
@@ -423,14 +409,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:63
-msgid ""
-"Now that we have the repository downloaded and configured, we need to "
-"install the packages:"
+#, no-wrap
+msgid "Now that we have the repository downloaded and configured, we need to install the packages:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:65
-msgid "`dnf install ossec-hids-server ossec-hids inotify-tools`"
+#, no-wrap
+msgid "`dnf install ossec-hids-server ossec-hids inotify-tools`\n"
 msgstr ""
 
 #. type: Title ###
@@ -441,36 +427,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:69
-msgid ""
-"There are a number of changes that need to be made to the _ossec-hids_ "
-"configuration file. Most of these have to do with server administrator "
-"notification and log locations."
+#, no-wrap
+msgid "There are a number of changes that need to be made to the _ossec-hids_ configuration file. Most of these have to do with server administrator notification and log locations.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:71
-msgid ""
-"_ossec-hids_ looks at the logs to try and determine if there is an attack, "
-"and whether to apply mitigation. It also sends reports to the server "
-"administrator, either just as a notification, or that a mitigation procedure "
-"has been activated based on what _ossec-hids_ has seen."
+#, no-wrap
+msgid "_ossec-hids_ looks at the logs to try and determine if there is an attack, and whether to apply mitigation. It also sends reports to the server administrator, either just as a notification, or that a mitigation procedure has been activated based on what _ossec-hids_ has seen.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:73
-msgid "To edit the configuration file type:"
+#, no-wrap
+msgid "To edit the configuration file type:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:75
-msgid "`vi /var/ossec/etc/ossec.conf`"
+#, no-wrap
+msgid "`vi /var/ossec/etc/ossec.conf`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:77
-msgid ""
-"We will break apart this configuration showing the changes in line and "
-"explaining them as we go:"
+#, no-wrap
+msgid "We will break apart this configuration showing the changes in line and explaining them as we go:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -503,12 +485,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:96
-msgid ""
-"You need to set the \"from\" address, so that you can deal with SPAM filters "
-"on your email server which may see this email as SPAM. To avoid getting "
-"inundated with email, set the email reporting to 1 per hour. You can expand "
-"this or remark out this command if you like while you are getting started "
-"with _ossec-hids_ and need to see things quickly."
+#, no-wrap
+msgid "You need to set the \"from\" address, so that you can deal with SPAM filters on your email server which may see this email as SPAM. To avoid getting inundated with email, set the email reporting to 1 per hour. You can expand this or remark out this command if you like while you are getting started with _ossec-hids_ and need to see things quickly.\n"
 msgstr ""
 
 #. type: Plain text
@@ -568,10 +546,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:127
-msgid ""
-"We do need to add in the Apache log locations however, and we want to add "
-"these in as wild_cards, because we could have a bunch of logs for a lot of "
-"different web customers. That format is shown above."
+#, no-wrap
+msgid "We do need to add in the Apache log locations however, and we want to add these in as wild_cards, because we could have a bunch of logs for a lot of different web customers. That format is shown above.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -600,51 +576,42 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:146
-msgid ""
-"The \"firewall-drop\" script already exists within the ossec path.  It tells "
-"_ossec\\_hids_ that if a level of 7 is reached, add a firewall rule to block "
-"the IP address for 20 minutes. Obviously, you can change the timeout value. "
-"Just remember that the configuration file times are all in seconds."
+#, no-wrap
+msgid "The \"firewall-drop\" script already exists within the ossec path.  It tells _ossec\\_hids_ that if a level of 7 is reached, add a firewall rule to block the IP address for 20 minutes. Obviously, you can change the timeout value. Just remember that the configuration file times are all in seconds.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:148
-msgid ""
-"Once you have made all of the configuration changes you need, simply enable "
-"and start the service. If everything starts correctly, you should be ready "
-"to move on:"
+#, no-wrap
+msgid "Once you have made all of the configuration changes you need, simply enable and start the service. If everything starts correctly, you should be ready to move on:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:150
-msgid "`systemctl enable ossec-hids`"
+#, no-wrap
+msgid "`systemctl enable ossec-hids`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:154
-msgid "`systemctl start ossec-hids`"
+#, no-wrap
+msgid "`systemctl start ossec-hids`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:156
-msgid ""
-"There are a lot of options for the _ossec-hids_ configuration file. You can "
-"find out about these options by visiting the [official documentation site]"
-"(https://www.ossec.net/docs/)."
+#, no-wrap
+msgid "There are a lot of options for the _ossec-hids_ configuration file. You can find out about these options by visiting the [official documentation site](https://www.ossec.net/docs/).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:160
-msgid ""
-"_ossec-hids_ is just one element of an Apache hardened web server. It can be "
-"used with other tools to gain better security for your web site."
+#, no-wrap
+msgid "_ossec-hids_ is just one element of an Apache hardened web server. It can be used with other tools to gain better security for your web site.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:161
-msgid ""
-"While the installation and configuration are relatively straight forward, "
-"you will find that this is **not** an 'install it and forget it' "
-"application. You will need to tune it to your environment to gain the most "
-"security with the least amount of false-positive responses."
+#, no-wrap
+msgid "While the installation and configuration are relatively straight forward, you will find that this is **not** an 'install it and forget it' application. You will need to tune it to your environment to gain the most security with the least amount of false-positive responses.\n"
 msgstr ""

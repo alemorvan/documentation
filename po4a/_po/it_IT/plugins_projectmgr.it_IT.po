@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -70,7 +70,8 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:243
 #: ../src/docs/guides/security/learning_selinux.md:263
 #: ../src/docs/guides/web/php.md:145
-msgid "!!! Warning"
+#, no-wrap
+msgid "!!! Warning\n"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
@@ -257,28 +258,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:17
-msgid ""
-"One of the features that an IDE must surely have is the ability to manage "
-"the various projects that a developer or publisher works on. Being able to "
-"select the project to work on once NvChad is open, without the need to type "
-"commands in the *statusline* to achieve the goal. This saves time and allows "
-"for simplified management in the case of a large number of projects."
+#, no-wrap
+msgid "One of the features that an IDE must surely have is the ability to manage the various projects that a developer or publisher works on. Being able to select the project to work on once NvChad is open, without the need to type commands in the *statusline* to achieve the goal. This saves time and allows for simplified management in the case of a large number of projects.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:19
-msgid ""
-"Using [charludo/projectmgr.nvim](https://github.com/charludo/projectmgr."
-"nvim) will integrate this functionality. The plugin provides excellent "
-"integration with `Telescope` and some interesting additional features such "
-"as the ability to synchronize a *git* repository when opening the *project*."
+#, no-wrap
+msgid "Using [charludo/projectmgr.nvim](https://github.com/charludo/projectmgr.nvim) will integrate this functionality. The plugin provides excellent integration with `Telescope` and some interesting additional features such as the ability to synchronize a *git* repository when opening the *project*.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:21
-msgid ""
-"The plugin also tracks the status of the editor when it closes allowing you "
-"to have, when you next open it, all the pages you were working on."
+#, no-wrap
+msgid "The plugin also tracks the status of the editor when it closes allowing you to have, when you next open it, all the pages you were working on.\n"
 msgstr ""
 
 #. type: Title ###
@@ -289,9 +282,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:25
-msgid ""
-"To install the plugin you will need to edit the **custom/plugins.lua** file "
-"by adding the following block of code:"
+#, no-wrap
+msgid "To install the plugin you will need to edit the **custom/plugins.lua** file by adding the following block of code:\n"
 msgstr ""
 
 #. type: Fenced code block (lua)
@@ -312,16 +304,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:36
-msgid ""
-"The plugin provides a single command `:ProjectMgr` that opens an interactive "
-"buffer from which you can perform all operations by using keyboard "
-"shortcuts. When first opened, the buffer will be empty as this screenshot "
-"shows:"
+#, no-wrap
+msgid "The plugin provides a single command `:ProjectMgr` that opens an interactive buffer from which you can perform all operations by using keyboard shortcuts. When first opened, the buffer will be empty as this screenshot shows:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:38
-msgid "![ProjectMgr Init](./images/projectmgr_init.png)"
+#, no-wrap
+msgid "![ProjectMgr Init](./images/projectmgr_init.png)\n"
 msgstr ""
 
 #. type: Title ###
@@ -338,7 +328,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:44
-msgid "The following table shows all available operations"
+#, no-wrap
+msgid "The following table shows all available operations\n"
 msgstr ""
 
 #. type: Plain text
@@ -362,7 +353,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:56
-msgid "The first question will ask you for the name of the project:"
+#, no-wrap
+msgid "The first question will ask you for the name of the project:\n"
 msgstr ""
 
 #. type: Plain text
@@ -373,7 +365,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:60
-msgid "It will follow the project path:"
+#, no-wrap
+msgid "It will follow the project path:\n"
 msgstr ""
 
 #. type: Plain text
@@ -384,17 +377,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:64
-msgid ""
-"This is followed by the ability to set commands to be run when opening and "
-"closing the project. These commands refer to those executable in the editor "
-"and not to the **bash** language."
+#, no-wrap
+msgid "This is followed by the ability to set commands to be run when opening and closing the project. These commands refer to those executable in the editor and not to the **bash** language.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:66
-msgid ""
-"You have, for example, the possibility to open contextually when opening the "
-"editor a side buffer with *NvimTree* with the command `NvimTreeToggle`."
+#, no-wrap
+msgid "You have, for example, the possibility to open contextually when opening the editor a side buffer with *NvimTree* with the command `NvimTreeToggle`.\n"
 msgstr ""
 
 #. type: Plain text
@@ -405,7 +395,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:70
-msgid "Or to run a command before closing the editor."
+#, no-wrap
+msgid "Or to run a command before closing the editor.\n"
 msgstr ""
 
 #. type: Plain text
@@ -416,9 +407,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:74
-msgid ""
-"Commands should be entered by omitting the colon `:` used to run the same "
-"commands in the *statusline.*"
+#, no-wrap
+msgid "Commands should be entered by omitting the colon `:` used to run the same commands in the *statusline.*\n"
 msgstr ""
 
 #. type: Plain text
@@ -429,15 +419,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:78
-msgid "![ProjectMgr Add](./images/projectmgr_add.png)"
+#, no-wrap
+msgid "![ProjectMgr Add](./images/projectmgr_add.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:80
-msgid ""
-"As you can see from the screenshot in the **Config & Info** section, the "
-"plugin has recognized the folder as managed by *Git* and provides us with "
-"some information about it."
+#, no-wrap
+msgid "As you can see from the screenshot in the **Config & Info** section, the plugin has recognized the folder as managed by *Git* and provides us with some information about it.\n"
 msgstr ""
 
 #. type: Plain text
@@ -454,21 +443,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:86
-msgid ""
-"The plugin provides some additional functions specified in the [dedicated "
-"section](https://github.com/charludo/projectmgr.nvim#%EF%B8%8F-"
-"configuration). The most interesting ones are the ability to synchronize a "
-"git repository when opening the project and the ability to store the status "
-"of the editor when closing it. Both features are already present in the "
-"default configuration file, although, the functionality regarding *Git* is "
-"disabled."
+#, no-wrap
+msgid "The plugin provides some additional functions specified in the [dedicated section](https://github.com/charludo/projectmgr.nvim#%EF%B8%8F-configuration). The most interesting ones are the ability to synchronize a git repository when opening the project and the ability to store the status of the editor when closing it. Both features are already present in the default configuration file, although, the functionality regarding *Git* is disabled.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:88
-msgid ""
-"To add repository synchronization when opening projects you will need to add "
-"the following code to the initial plugin configuration:"
+#, no-wrap
+msgid "To add repository synchronization when opening projects you will need to add the following code to the initial plugin configuration:\n"
 msgstr ""
 
 #. type: Fenced code block (lua)
@@ -487,34 +469,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:101
-msgid ""
-"As you can see from the code the `require(\"projectmgr\").setup` function is "
-"called, which allows you to override the default settings. Anything you set "
-"inside it will change how it works."
+#, no-wrap
+msgid "As you can see from the code the `require(\"projectmgr\").setup` function is called, which allows you to override the default settings. Anything you set inside it will change how it works.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:103
-msgid ""
-"The `git pull --ff-only` command performs a *fast forward* synchronization "
-"of the repository, downloading only those files that have no conflicts and "
-"can be updated without intervention on your part."
+#, no-wrap
+msgid "The `git pull --ff-only` command performs a *fast forward* synchronization of the repository, downloading only those files that have no conflicts and can be updated without intervention on your part.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:105
-msgid ""
-"The result of the command also is directed to the file **.git/fastforward."
-"log** to prevent it from being displayed on the terminal where NvChad is "
-"running and to have a synchronization history available."
+#, no-wrap
+msgid "The result of the command also is directed to the file **.git/fastforward.log** to prevent it from being displayed on the terminal where NvChad is running and to have a synchronization history available.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:107
-msgid ""
-"Also provided is the option to save the session when it closes. This allows "
-"you to return to the pages you were working on by selecting the project and "
-"opening it again."
+#, no-wrap
+msgid "Also provided is the option to save the session when it closes. This allows you to return to the pages you were working on by selecting the project and opening it again.\n"
 msgstr ""
 
 #. type: Fenced code block (lua)
@@ -525,24 +499,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:113
-msgid ""
-"This option is enabled by default but it writes the **Session.vim** file to "
-"the *root* directory of the project and this is not desirable in the case of "
-"Rocky Linux documentation. In this example, it is saved in the `.git` folder "
-"which is not under version control."
+#, no-wrap
+msgid "This option is enabled by default but it writes the **Session.vim** file to the *root* directory of the project and this is not desirable in the case of Rocky Linux documentation. In this example, it is saved in the `.git` folder which is not under version control.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:115
-msgid ""
-"Adjust the path of **Session.vim** and **fastforward.log** according to your "
-"needs."
+#, no-wrap
+msgid "Adjust the path of **Session.vim** and **fastforward.log** according to your needs.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:117
-msgid ""
-"Once the changes are complete, your configuration should look as follows:"
+#, no-wrap
+msgid "Once the changes are complete, your configuration should look as follows:\n"
 msgstr ""
 
 #. type: Fenced code block (lua)
@@ -566,10 +536,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:135
-msgid ""
-"Now each time you open your projects, updated files will be automatically "
-"downloaded from the Git repository and you will have the latest files you "
-"were working on open in the editor ready for editing."
+#, no-wrap
+msgid "Now each time you open your projects, updated files will be automatically downloaded from the Git repository and you will have the latest files you were working on open in the editor ready for editing.\n"
 msgstr ""
 
 #. type: Plain text
@@ -580,11 +548,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:141
-msgid ""
-"To check if the open files do not match those updated from the repository "
-"you can use the `:checktime` command, which checks if the files open in the "
-"editor have been modified outside NvChad and alerts you to the need to "
-"update the buffers."
+#, no-wrap
+msgid "To check if the open files do not match those updated from the repository you can use the `:checktime` command, which checks if the files open in the editor have been modified outside NvChad and alerts you to the need to update the buffers.\n"
 msgstr ""
 
 #. type: Title ###
@@ -595,9 +560,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:145
-msgid ""
-"To speed up the opening of your projects, you can create a keyboard shortcut "
-"to put in your mapping in **/custom/mapping.lua**. An example might be:"
+#, no-wrap
+msgid "To speed up the opening of your projects, you can create a keyboard shortcut to put in your mapping in **/custom/mapping.lua**. An example might be:\n"
 msgstr ""
 
 #. type: Fenced code block (lua)
@@ -620,16 +584,12 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:160
-msgid ""
-"As the number of projects you are working on increases, it might be useful "
-"to have a tool to help you manage them all. This plugin will allow you to "
-"speed up your work by reducing the time it takes to access the files you "
-"need to edit."
+#, no-wrap
+msgid "As the number of projects you are working on increases, it might be useful to have a tool to help you manage them all. This plugin will allow you to speed up your work by reducing the time it takes to access the files you need to edit.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/plugins/projectmgr.md:161
-msgid ""
-"We should also point out the excellent integration with `Telescope` which "
-"makes project management very functional."
+#, no-wrap
+msgid "We should also point out the excellent integration with `Telescope` which makes project management very functional.\n"
 msgstr ""

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -209,15 +209,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/local_docs.md:14
-msgid ""
-"You can build the documentation system locally without either Docker or LXD "
-"if you like. If you elect to use this procedure however, be aware that if "
-"you do a lot of Python coding or use Python locally, your safest bet is to "
-"create a Python Virtual Environment [described here](https://docs.python."
-"org/3/library/venv.html). This keeps all of your Python processes protected "
-"from each other, which is recommended. If you choose to use this procedure "
-"without the Python Virtual Environment, then just be aware that you are "
-"taking a certain amount of risk."
+#, no-wrap
+msgid "You can build the documentation system locally without either Docker or LXD if you like. If you elect to use this procedure however, be aware that if you do a lot of Python coding or use Python locally, your safest bet is to create a Python Virtual Environment [described here](https://docs.python.org/3/library/venv.html). This keeps all of your Python processes protected from each other, which is recommended. If you choose to use this procedure without the Python Virtual Environment, then just be aware that you are taking a certain amount of risk.\n"
 msgstr ""
 
 #. type: Title ##
@@ -228,7 +221,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/local_docs.md:18
-msgid "Clone the docs.rockylinux.org repository:"
+#, no-wrap
+msgid "Clone the docs.rockylinux.org repository:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -240,7 +234,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/local_docs.md:24
-msgid "Once finished, change into the docs.rockylinux.org directory:"
+#, no-wrap
+msgid "Once finished, change into the docs.rockylinux.org directory:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -252,7 +247,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/local_docs.md:30
-msgid "Now clone the documentation repository using:"
+#, no-wrap
+msgid "Now clone the documentation repository using:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -263,7 +259,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/local_docs.md:36
-msgid "Next, install the requirements.txt file for mkdocs:"
+#, no-wrap
+msgid "Next, install the requirements.txt file for mkdocs:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -274,7 +271,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/local_docs.md:42
-msgid "Finally run the mkdocs server:"
+#, no-wrap
+msgid "Finally run the mkdocs server:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -285,8 +283,6 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/local_docs.md:49
-msgid ""
-"This provides a quick and simple way to run a local copy of documentation "
-"without Docker or LXD. If you choose this method, you should really setup a "
-"Python Virtual Environment to protect your other Python processes."
+#, no-wrap
+msgid "This provides a quick and simple way to run a local copy of documentation without Docker or LXD. If you choose this method, you should really setup a Python Virtual Environment to protect your other Python processes.\n"
 msgstr ""

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,16 +109,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/02-zfs_setup.md:15
-msgid ""
-"Throughout this chapter you will need to be the root user or able to `sudo` "
-"to become root."
+#, no-wrap
+msgid "Throughout this chapter you will need to be the root user or able to `sudo` to become root.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/02-zfs_setup.md:17
-msgid ""
-"If you have already installed ZFS, this section will walk you through ZFS "
-"setup."
+#, no-wrap
+msgid "If you have already installed ZFS, this section will walk you through ZFS setup.\n"
 msgstr ""
 
 #. type: Title ##
@@ -129,7 +127,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/02-zfs_setup.md:21
-msgid "First, enter this command:"
+#, no-wrap
+msgid "First, enter this command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -140,19 +139,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/02-zfs_setup.md:27
-msgid ""
-"This should not return an error, it should simply return to the command "
-"prompt when done. If you get an error, stop now and begin troubleshooting. "
-"Again, make sure that secure boot is off as that will be the most likely "
-"culprit."
+#, no-wrap
+msgid "This should not return an error, it should simply return to the command prompt when done. If you get an error, stop now and begin troubleshooting. Again, make sure that secure boot is off as that will be the most likely culprit.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/02-zfs_setup.md:29
-msgid ""
-"Next we need to take a look at the disks on our system, determine what has "
-"the OS loaded on it, and what is available to use for the ZFS pool. We will "
-"do this with _lsblk_:"
+#, no-wrap
+msgid "Next we need to take a look at the disks on our system, determine what has the OS loaded on it, and what is available to use for the ZFS pool. We will do this with _lsblk_:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -163,8 +157,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/02-zfs_setup.md:35
-msgid ""
-"Which should return something like this (your system will be different!):"
+#, no-wrap
+msgid "Which should return something like this (your system will be different!):\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -190,20 +184,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/02-zfs_setup.md:55
-msgid ""
-"In this listing, we can see that */dev/sda* is in use by the operating "
-"system, so we are going to use */dev/sdb* for our zpool. Note that if you "
-"have multiple free hard drives, you may wish to consider using raidz (a "
-"software raid specifically for ZFS)."
+#, no-wrap
+msgid "In this listing, we can see that */dev/sda* is in use by the operating system, so we are going to use */dev/sdb* for our zpool. Note that if you have multiple free hard drives, you may wish to consider using raidz (a software raid specifically for ZFS).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/02-zfs_setup.md:57
-msgid ""
-"That falls outside the scope of this document, but should definitely be a "
-"consideration for production, as it offers better performance and "
-"redundancy. For now, let's create our pool on the single device we have "
-"identified:"
+#, no-wrap
+msgid "That falls outside the scope of this document, but should definitely be a consideration for production, as it offers better performance and redundancy. For now, let's create our pool on the single device we have identified:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -214,14 +202,12 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/02-zfs_setup.md:63
-msgid ""
-"What this says is to create a pool called \"storage\" that is ZFS on the "
-"device */dev/sdb*."
+#, no-wrap
+msgid "What this says is to create a pool called \"storage\" that is ZFS on the device */dev/sdb*.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/02-zfs_setup.md:64
-msgid ""
-"Once the pool is created, it's a good idea to reboot the server again at "
-"this point."
+#, no-wrap
+msgid "Once the pool is created, it's a good idea to reboot the server again at this point.\n"
 msgstr ""

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,8 @@ msgstr ""
 #: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:262
 #: ../src/docs/guides/cms/dokuwiki_server.md:191
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:125
-msgid "OR"
+#, no-wrap
+msgid "OR\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -52,25 +53,22 @@ msgstr ""
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/rockydocs_web_dev.md:17
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:16
-msgid ""
-"You are interested in learning about and contributing to the web development "
-"aspects of the docs.rockylinux.org website"
+#, no-wrap
+msgid "You are interested in learning about and contributing to the web development aspects of the docs.rockylinux.org website\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/rockydocs_web_dev.md:17
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:16
-msgid ""
-"You are an author and you'd like to see how your documents will render/look "
-"on the docs website before contributing them"
+#, no-wrap
+msgid "You are an author and you'd like to see how your documents will render/look on the docs website before contributing them\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/rockydocs_web_dev.md:26
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:164
-msgid ""
-"The instructions in this guide are **NOT** a prerequisite for Rocky "
-"documentation Authors/Content contributors"
+#, no-wrap
+msgid "The instructions in this guide are **NOT** a prerequisite for Rocky documentation Authors/Content contributors\n"
 msgstr ""
 
 #. type: Title ##
@@ -83,18 +81,15 @@ msgstr ""
 #. type: Bullet: '3. '
 #: ../src/docs/guides/contribute/rockydocs_web_dev.md:40
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:35
-msgid ""
-"Make sure you have `git` installed (`dnf -y install git`).  While in "
-"$ROCKYDOCS use git to clone the official Rocky Documentation content repo. "
-"Type:"
+#, no-wrap
+msgid "Make sure you have `git` installed (`dnf -y install git`).  While in $ROCKYDOCS use git to clone the official Rocky Documentation content repo. Type:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/rockydocs_web_dev.md:46
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:41
-msgid ""
-"You'll now have a `$ROCKYDOCS/documentation` folder. This folder is a git "
-"repository and under git's control."
+#, no-wrap
+msgid "You'll now have a `$ROCKYDOCS/documentation` folder. This folder is a git repository and under git's control.\n"
 msgstr ""
 
 #. type: Title ##
@@ -121,9 +116,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/guides/contribute/rockydocs_web_dev.md:104
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:121
-msgid ""
-"With the container up and running, you should now be able to point your web "
-"browser to the following URL to view your local copy of the site:"
+#, no-wrap
+msgid "With the container up and running, you should now be able to point your web browser to the following URL to view your local copy of the site:\n"
 msgstr ""
 
 #. type: YAML Front Matter: title
@@ -140,19 +134,16 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:13
+#, no-wrap
 msgid ""
-"This document walks through the steps of how to recreate and run a local "
-"copy of the entire docs.rockylinux.org website on your local machine.  "
-"Running a local copy of the documentation website might be useful in the "
-"following scenarios:"
+"This document walks through the steps of how to recreate and run a local copy of the entire docs.rockylinux.org website on your local machine.\n"
+"Running a local copy of the documentation website might be useful in the following scenarios:\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:21
-msgid ""
-"Make sure that the prerequisites are satisfied. If not please skip to the "
-"\"[Setup the prerequisites](#setup-the-prerequisites)\" section and then "
-"return here."
+#, no-wrap
+msgid "Make sure that the prerequisites are satisfied. If not please skip to the \"[Setup the prerequisites](#setup-the-prerequisites)\" section and then return here. \n"
 msgstr ""
 
 #. type: Plain text
@@ -166,9 +157,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:27
-msgid ""
-"Create $ROCKYDOCS if it doesn't already exist and change your working "
-"directory to $ROCKYDOCS type:"
+#, no-wrap
+msgid "Create $ROCKYDOCS if it doesn't already exist and change your working directory to $ROCKYDOCS type:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -182,21 +172,20 @@ msgstr ""
 
 #. type: Bullet: '4. '
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:43
-msgid "Also use git to clone the official docs.rockylinux.org repo. Type:"
+#, no-wrap
+msgid "Also use git to clone the official docs.rockylinux.org repo. Type:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:49
-msgid ""
-"You'll now have a `$ROCKYDOCS/docs.rockylinux.org` folder. This folder is "
-"where you can experiment with your web development contributions."
+#, no-wrap
+msgid "You'll now have a `$ROCKYDOCS/docs.rockylinux.org` folder. This folder is where you can experiment with your web development contributions.\n"
 msgstr ""
 
 #. type: Bullet: '5.  '
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:54
-msgid ""
-"Make sure you have podman up and running on your local machine (you can "
-"check with `systemctl `). Test by running:"
+#, no-wrap
+msgid "Make sure you have podman up and running on your local machine (you can check with `systemctl `). Test by running:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -207,7 +196,8 @@ msgstr ""
 
 #. type: Bullet: '6. '
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:60
-msgid "Create a new `docker-compose.yml` file with the following contents:"
+#, no-wrap
+msgid "Create a new `docker-compose.yml` file with the following contents:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -249,16 +239,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:96
-msgid ""
-"Save the file with the file name `docker-compose.yml` in your $ROCKYDOCS "
-"working directory."
+#, no-wrap
+msgid "Save the file with the file name `docker-compose.yml` in your $ROCKYDOCS working directory. \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:98
-msgid ""
-"You can also quickly download a copy of the docker-compose.yml file by "
-"running:"
+#, no-wrap
+msgid "You can also quickly download a copy of the docker-compose.yml file by running:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -269,14 +257,14 @@ msgstr ""
 
 #. type: Bullet: '7. '
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:105
-msgid "Finally use docker-compose to bring up the service. Type:"
+#, no-wrap
+msgid "Finally use docker-compose to bring up the service. Type:\n"
 msgstr ""
 
 #. type: Bullet: '8. '
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:114
-msgid ""
-"Just in case you have a firewall running on your Rocky Linux system, ensure "
-"that port 8001 is open. Type:"
+#, no-wrap
+msgid "Just in case you have a firewall running on your Rocky Linux system, ensure that port 8001 is open. Type:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -289,7 +277,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:123
-msgid "http://localhost:8001"
+#, no-wrap
+msgid "http://localhost:8001\n"
 msgstr ""
 
 #. type: Plain text
@@ -306,7 +295,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:134
-msgid "Install and setup podman and other tools by running:"
+#, no-wrap
+msgid "Install and setup podman and other tools by running:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -321,7 +311,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:143
-msgid "Install docker-compose and make it executable. Type:"
+#, no-wrap
+msgid "Install docker-compose and make it executable. Type:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -335,7 +326,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:152
-msgid "Fix permissions on docker socket. Type:"
+#, no-wrap
+msgid "Fix permissions on docker socket. Type:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -352,26 +344,24 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:164
-msgid ""
-"The entire environment runs in a Podman container and so you'll need Podman "
-"properly setup on your local machine"
+#, no-wrap
+msgid "The entire environment runs in a Podman container and so you'll need Podman properly setup on your local machine\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:164
-msgid ""
-"The container is built on top of the official Rocky Linux 9.1 docker image "
-"available here https://hub.docker.com/r/rockylinux/rockylinux"
+#, no-wrap
+msgid "The container is built on top of the official Rocky Linux 9.1 docker image available here https://hub.docker.com/r/rockylinux/rockylinux\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:164
-msgid ""
-"The container keeps the documentation content separate from the web engine "
-"(mkdocs)"
+#, no-wrap
+msgid "The container keeps the documentation content separate from the web engine (mkdocs)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:164
-msgid "The container starts a local web server listening on port 8001."
+#, no-wrap
+msgid "The container starts a local web server listening on port 8001. \n"
 msgstr ""

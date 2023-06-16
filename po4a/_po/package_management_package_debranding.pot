@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,51 +30,46 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/package_management/package_debranding.md:8
-msgid ""
-"This explains how to debrand a package for the Rocky Linux distribution."
+#, no-wrap
+msgid "This explains how to debrand a package for the Rocky Linux distribution.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/package_management/package_debranding.md:11
-msgid "General Instructions"
+#, no-wrap
+msgid "General Instructions\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/package_management/package_debranding.md:13
-msgid ""
-"First, identify the files in the package that need to be changed. They could "
-"be text files, image files, or others. You can identify the file(s) by "
-"digging into git.centos.org/rpms/PACKAGE/"
+#, no-wrap
+msgid "First, identify the files in the package that need to be changed. They could be text files, image files, or others. You can identify the file(s) by digging into git.centos.org/rpms/PACKAGE/\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/package_management/package_debranding.md:15
-msgid ""
-"Develop replacements for these files, but with Rocky branding placed "
-"instead. Diff/patch files may be needed as well for certain types of text, "
-"depends on the content being replaced."
+#, no-wrap
+msgid "Develop replacements for these files, but with Rocky branding placed instead. Diff/patch files may be needed as well for certain types of text, depends on the content being replaced.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/package_management/package_debranding.md:18
+#, no-wrap
 msgid ""
-"Replacement files go under https://git.rockylinux.org/patch/PACKAGE/ROCKY/"
-"_supporting/ Config file (specifying how to apply the patches) goes in "
-"https://git.rockylinux.org/patch/PACKAGE/ROCKY/CFG/*.cfg"
+"Replacement files go under https://git.rockylinux.org/patch/PACKAGE/ROCKY/_supporting/\n"
+"Config file (specifying how to apply the patches) goes in https://git.rockylinux.org/patch/PACKAGE/ROCKY/CFG/*.cfg\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/package_management/package_debranding.md:21
+#, no-wrap
 msgid ""
-"Note: Use spaces, not tabs.  When srpmproc goes to import the package to "
-"Rocky, it will see the work done in https://git.rockylinux.org/patch/"
-"PACKAGE , and apply the stored debranding patches by reading the config "
-"file(s) under ROCKY/CFG/*.cfg"
+"Note: Use spaces, not tabs.\n"
+"When srpmproc goes to import the package to Rocky, it will see the work done in https://git.rockylinux.org/patch/PACKAGE , and apply the stored debranding patches by reading the config file(s) under ROCKY/CFG/*.cfg\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/package_management/package_debranding.md:23
-msgid ""
-"from [debranding wiki page](https://wiki.rockylinux.org/team/"
-"release_engineering/debranding/)"
+#, no-wrap
+msgid "from [debranding wiki page](https://wiki.rockylinux.org/team/release_engineering/debranding/)\n"
 msgstr ""

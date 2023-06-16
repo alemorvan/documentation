@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,36 +109,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:15
-msgid ""
-"This chapter uses a combination of the privileged (root) user, and the "
-"unprivileged (lxdadmin) user, based on the tasks we are executing."
+#, no-wrap
+msgid "This chapter uses a combination of the privileged (root) user, and the unprivileged (lxdadmin) user, based on the tasks we are executing.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:17
-msgid ""
-"As noted at the beginning, the snapshot server for LXD should be a mirror of "
-"the production server in every way possible. The reason is that you may need "
-"to take it to production in the event of a hardware failure, and having not "
-"only backups, but a quick way to bring up production containers, keeps those "
-"systems administrator panic phone calls and text messages to a minimum. THAT "
-"is ALWAYS good!"
+#, no-wrap
+msgid "As noted at the beginning, the snapshot server for LXD should be a mirror of the production server in every way possible. The reason is that you may need to take it to production in the event of a hardware failure, and having not only backups, but a quick way to bring up production containers, keeps those systems administrator panic phone calls and text messages to a minimum. THAT is ALWAYS good!\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:19
-msgid ""
-"So the process of building the snapshot server is exactly like the "
-"production server. To fully emulate our production server set up, do all of "
-"**Chapters 1-4** again on the snapshot server, and when completed, return to "
-"this spot."
+#, no-wrap
+msgid "So the process of building the snapshot server is exactly like the production server. To fully emulate our production server set up, do all of **Chapters 1-4** again on the snapshot server, and when completed, return to this spot.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:21
-msgid ""
-"You're back!! Congratulations, this must mean that you have successfully "
-"completed the basic install for the snapshot server. That's great news!!"
+#, no-wrap
+msgid "You're back!! Congratulations, this must mean that you have successfully completed the basic install for the snapshot server. That's great news!!\n"
 msgstr ""
 
 #. type: Title ##
@@ -149,27 +139,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:25
-msgid ""
-"We've got some housekeeping to do before we continue. First, if you are "
-"running in a production environment, you probably have access to a DNS "
-"server that you can use for setting up IP to name resolution."
+#, no-wrap
+msgid "We've got some housekeeping to do before we continue. First, if you are running in a production environment, you probably have access to a DNS server that you can use for setting up IP to name resolution.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:27
-msgid ""
-"In our lab, we don't have that luxury. Perhaps you've got the same scenario "
-"running. For this reason, we are going to add both servers IP addresses and "
-"names to the /etc/hosts file on BOTH the primary and the snapshot server. "
-"You'll need to do this as your root (or _sudo_) user."
+#, no-wrap
+msgid "In our lab, we don't have that luxury. Perhaps you've got the same scenario running. For this reason, we are going to add both servers IP addresses and names to the /etc/hosts file on BOTH the primary and the snapshot server. You'll need to do this as your root (or _sudo_) user.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:29
-msgid ""
-"In our lab, the primary LXD server is running on 192.168.1.106 and the "
-"snapshot LXD server is running on 192.168.1.141. We will SSH into both "
-"servers and add the following to the /etc/hosts file:"
+#, no-wrap
+msgid "In our lab, the primary LXD server is running on 192.168.1.106 and the snapshot LXD server is running on 192.168.1.141. We will SSH into both servers and add the following to the /etc/hosts file:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -182,10 +165,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:36
-msgid ""
-"Next, we need to allow all traffic between the two servers. To do this, we "
-"are going to modify the /etc/firewall.conf file with the following. First, "
-"on the lxd-primary server, add this line:"
+#, no-wrap
+msgid "Next, we need to allow all traffic between the two servers. To do this, we are going to modify the /etc/firewall.conf file with the following. First, on the lxd-primary server, add this line:\n"
 msgstr ""
 
 #. type: Title ###
@@ -202,7 +183,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:44
-msgid "And on the lxd-snapshot server, add this line:"
+#, no-wrap
+msgid "And on the lxd-snapshot server, add this line:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -213,9 +195,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:50
-msgid ""
-"This allows bi-directional traffic of all types to travel between the two "
-"servers."
+#, no-wrap
+msgid "This allows bi-directional traffic of all types to travel between the two servers.\n"
 msgstr ""
 
 #. type: Title ###
@@ -232,7 +213,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:58
-msgid "and on the snapshot server, add this rule:"
+#, no-wrap
+msgid "and on the snapshot server, add this rule:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -243,7 +225,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:64
-msgid "then reload:"
+#, no-wrap
+msgid "then reload:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -260,10 +243,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:72
-msgid ""
-"Next, as our unprivileged (lxdadmin) user, we need to set the trust "
-"relationship between the two machines. This is done by executing the "
-"following on lxd-primary:"
+#, no-wrap
+msgid "Next, as our unprivileged (lxdadmin) user, we need to set the trust relationship between the two machines. This is done by executing the following on lxd-primary:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -288,11 +269,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:85
-msgid ""
-"It does not hurt to have this done in reverse as well. In other words, set "
-"the trust relationship on the lxd-snapshot server so that, if needed, "
-"snapshots can be sent back to the lxd-primary server. Simply repeat the "
-"steps and substitute in \"lxd-primary\" for \"lxd-snapshot.\""
+#, no-wrap
+msgid "It does not hurt to have this done in reverse as well. In other words, set the trust relationship on the lxd-snapshot server so that, if needed, snapshots can be sent back to the lxd-primary server. Simply repeat the steps and substitute in \"lxd-primary\" for \"lxd-snapshot.\"\n"
 msgstr ""
 
 #. type: Title ###
@@ -303,20 +281,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:89
-msgid ""
-"Before we can migrate our first snapshot, we need to have any profiles "
-"created on lxd-snapshot that we have created on the lxd-primary. In our "
-"case, this is the \"macvlan\" profile."
+#, no-wrap
+msgid "Before we can migrate our first snapshot, we need to have any profiles created on lxd-snapshot that we have created on the lxd-primary. In our case, this is the \"macvlan\" profile.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:91
-msgid ""
-"You'll need to create this for lxd-snapshot, so go back to [Chapter 6](06-"
-"profiles.md) and create the \"macvlan\" profile on lxd-snapshot. If your two "
-"servers have identical parent interface names (\"enp3s0\" for example) then "
-"you can copy the \"macvlan\" profile over to lxd-snapshot without recreating "
-"it:"
+#, no-wrap
+msgid "You'll need to create this for lxd-snapshot, so go back to [Chapter 6](06-profiles.md) and create the \"macvlan\" profile on lxd-snapshot. If your two servers have identical parent interface names (\"enp3s0\" for example) then you can copy the \"macvlan\" profile over to lxd-snapshot without recreating it:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -327,11 +299,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:97
-msgid ""
-"Now that we have all of the relationships and profiles set up, the next step "
-"is to actually send a snapshot from lxd-primary over to lxd-snapshot. If "
-"you've been following along exactly, you've probably deleted all of your "
-"snapshots, so let's create a new one:"
+#, no-wrap
+msgid "Now that we have all of the relationships and profiles set up, the next step is to actually send a snapshot from lxd-primary over to lxd-snapshot. If you've been following along exactly, you've probably deleted all of your snapshots, so let's create a new one:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -342,9 +311,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:103
-msgid ""
-"If you run the \"info\" sub-command for lxc, you can see the new snapshot on "
-"the bottom of our listing:"
+#, no-wrap
+msgid "If you run the \"info\" sub-command for lxc, you can see the new snapshot on the bottom of our listing:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -355,7 +323,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:109
-msgid "Which will show something like this at the bottom:"
+#, no-wrap
+msgid "Which will show something like this at the bottom:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -366,7 +335,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:115
-msgid "OK, fingers crossed! Let's try to migrate our snapshot:"
+#, no-wrap
+msgid "OK, fingers crossed! Let's try to migrate our snapshot:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -377,18 +347,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:121
-msgid ""
-"What this command says is, that within the container rockylinux-test-9, we "
-"want to send the snapshot, rockylinux-test-9-snap1 over to lxd-snapshot and "
-"copy it as rockylinux-test-9."
+#, no-wrap
+msgid "What this command says is, that within the container rockylinux-test-9, we want to send the snapshot, rockylinux-test-9-snap1 over to lxd-snapshot and copy it as rockylinux-test-9.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:123
-msgid ""
-"After a short period of time has expired, the copy will be complete. Want to "
-"find out for sure? Do an \"lxc list\" on the lxd-snapshot server. Which "
-"should return the following:"
+#, no-wrap
+msgid "After a short period of time has expired, the copy will be complete. Want to find out for sure?  Do an \"lxc list\" on the lxd-snapshot server. Which should return the following:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -404,10 +370,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:133
-msgid ""
-"Success! Now let's try starting it. Because we are starting it on the lxd-"
-"snapshot server, we need to stop it first on the lxd-primary server to avoid "
-"an IP address conflict:"
+#, no-wrap
+msgid "Success! Now let's try starting it. Because we are starting it on the lxd-snapshot server, we need to stop it first on the lxd-primary server to avoid an IP address conflict:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -418,7 +382,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:139
-msgid "And on the lxd-snapshot server:"
+#, no-wrap
+msgid "And on the lxd-snapshot server:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -429,9 +394,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:145
-msgid ""
-"Assuming all of this works without error, stop the container on lxd-snapshot "
-"and start it again on lxd-primary."
+#, no-wrap
+msgid "Assuming all of this works without error, stop the container on lxd-snapshot and start it again on lxd-primary.\n"
 msgstr ""
 
 #. type: Title ##
@@ -442,19 +406,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:149
-msgid ""
-"The snapshots copied to lxd-snapshot will be down when they are migrated, "
-"but if you have a power event or need to reboot the snapshot server because "
-"of updates or something, you will end up with a problem as those containers "
-"will attempt to start on the snapshot server."
+#, no-wrap
+msgid "The snapshots copied to lxd-snapshot will be down when they are migrated, but if you have a power event or need to reboot the snapshot server because of updates or something, you will end up with a problem as those containers will attempt to start on the snapshot server.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:151
-msgid ""
-"To eliminate this, we need to set the migrated containers so that they will "
-"not start on reboot of the server. For our newly copied rockylinux-test-9 "
-"container, this is done with the following:"
+#, no-wrap
+msgid "To eliminate this, we need to set the migrated containers so that they will not start on reboot of the server. For our newly copied rockylinux-test-9 container, this is done with the following:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -465,7 +424,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:157
-msgid "Do this for each snapshot on the lxd-snapshot server."
+#, no-wrap
+msgid "Do this for each snapshot on the lxd-snapshot server.\n"
 msgstr ""
 
 #. type: Title ##
@@ -476,24 +436,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:161
-msgid ""
-"Ok, so it's great that you can create snapshots when you need to, and "
-"sometimes you _do_ need to manually create a snapshot. You might even want "
-"to manually copy it over to lxd-snapshot. BUT, once you've got things going "
-"and you've got 25 to 30 containers or more running on your lxd-primary "
-"machine, the very last thing you want to do is spend an afternoon deleting "
-"snapshots on the snapshot server, creating new snapshots and sending them "
-"over."
+#, no-wrap
+msgid "Ok, so it's great that you can create snapshots when you need to, and sometimes you _do_ need to manually create a snapshot. You might even want to manually copy it over to lxd-snapshot. BUT, once you've got things going and you've got 25 to 30 containers or more running on your lxd-primary machine, the very last thing you want to do is spend an afternoon deleting snapshots on the snapshot server, creating new snapshots and sending them over.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:163
-msgid ""
-"The first thing we need to do is schedule a process to automate snapshot "
-"creation on lxd-primary. This has to be done for each container on the lxd-"
-"primary server, but once it is set up, it will take care of itself. This is "
-"done with the following syntax. Note the similarities to a crontab entry for "
-"the timestamp:"
+#, no-wrap
+msgid "The first thing we need to do is schedule a process to automate snapshot creation on lxd-primary. This has to be done for each container on the lxd-primary server, but once it is set up, it will take care of itself. This is done with the following syntax. Note the similarities to a crontab entry for the timestamp:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -504,14 +454,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:169
-msgid ""
-"What this is saying is, do a snapshot of the container name every day at "
-"8:50 PM."
+#, no-wrap
+msgid "What this is saying is, do a snapshot of the container name every day at 8:50 PM.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:171
-msgid "To apply this to our rockylinux-test-9 container:"
+#, no-wrap
+msgid "To apply this to our rockylinux-test-9 container:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -522,11 +472,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:177
-msgid ""
-"We also want to set up the name of the snapshot to be meaningful by our "
-"date. LXD uses UTC everywhere, so our best bet to keep track of things, is "
-"to set the snapshot name with a date/time stamp that is in a more "
-"understandable format:"
+#, no-wrap
+msgid "We also want to set up the name of the snapshot to be meaningful by our date. LXD uses UTC everywhere, so our best bet to keep track of things, is to set the snapshot name with a date/time stamp that is in a more understandable format:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -537,10 +484,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/09-snapshot_server.md:183
-msgid ""
-"GREAT, but we certainly don't want a new snapshot every day without getting "
-"rid of an old one, right? We'd fill up the drive with snapshots. So next we "
-"run:"
+#, no-wrap
+msgid "GREAT, but we certainly don't want a new snapshot every day without getting rid of an old one, right?  We'd fill up the drive with snapshots. So next we run:\n"
 msgstr ""
 
 #. type: Fenced code block

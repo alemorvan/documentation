@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,9 +44,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/nmcli.md:11
-msgid ""
-"First use nmcli to query and display the current value of the autoconnect "
-"property for all network connections on a Rocky Linux system. Type:"
+#, no-wrap
+msgid "First use nmcli to query and display the current value of the autoconnect property for all network connections on a Rocky Linux system. Type:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -57,10 +56,10 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/nmcli.md:18
+#, no-wrap
 msgid ""
-"To change the value of a property for a network connection use the `modify` "
-"sub-command with `nmcli connection`.  For example, to change the autoconnect "
-"property value from `no` to `yes` for the `ens3` connection profile, type:"
+"To change the value of a property for a network connection use the `modify` sub-command with `nmcli connection`. \n"
+"For example, to change the autoconnect property value from `no` to `yes` for the `ens3` connection profile, type:\n"
 msgstr ""
 
 #. type: Fenced code block

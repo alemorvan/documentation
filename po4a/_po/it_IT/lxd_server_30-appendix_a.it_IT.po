@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -59,9 +59,8 @@ msgstr ""
 #: ../src/docs/books/lxd_server/03-lxdinit.md:26
 #: ../src/docs/books/lxd_server/30-appendix_a.md:68
 #: ../src/docs/guides/containers/lxd_web_servers.md:124
-msgid ""
-"Here are the questions and our answers for the script, with a little "
-"explanation where warranted:"
+#, no-wrap
+msgid "Here are the questions and our answers for the script, with a little explanation where warranted:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -75,15 +74,15 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/books/lxd_server/03-lxdinit.md:32
 #: ../src/docs/books/lxd_server/30-appendix_a.md:74
-msgid ""
-"If you are interested in clustering, do some additional research on that "
-"[here](https://linuxcontainers.org/lxd/docs/master/clustering/)"
+#, no-wrap
+msgid "If you are interested in clustering, do some additional research on that [here](https://linuxcontainers.org/lxd/docs/master/clustering/)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/03-lxdinit.md:63
 #: ../src/docs/books/lxd_server/30-appendix_a.md:94
-msgid "Metal As A Service (MAAS) is outside the scope of this document."
+#, no-wrap
+msgid "Metal As A Service (MAAS) is outside the scope of this document.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -100,9 +99,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/books/lxd_server/03-lxdinit.md:72
 #: ../src/docs/books/lxd_server/30-appendix_a.md:103
-msgid ""
-"If you want to use IPv6 on your LXD containers, you can turn on this option. "
-"That is up to you."
+#, no-wrap
+msgid "If you want to use IPv6 on your LXD containers, you can turn on this option. That is up to you.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -116,7 +114,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/books/lxd_server/03-lxdinit.md:78
 #: ../src/docs/books/lxd_server/30-appendix_a.md:109
-msgid "This is necessary to snapshot the server, so answer \"yes\" here."
+#, no-wrap
+msgid "This is necessary to snapshot the server, so answer \"yes\" here.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -174,10 +173,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/30-appendix_a.md:14
-msgid ""
-"While not a part of the chapters for an LXD Server, this procedure will help "
-"those who wish to have a lab environment, or semi-permanent OS and "
-"application, running on a Rocky Linux workstation or laptop."
+#, no-wrap
+msgid "While not a part of the chapters for an LXD Server, this procedure will help those who wish to have a lab environment, or semi-permanent OS and application, running on a Rocky Linux workstation or laptop.\n"
 msgstr ""
 
 #. type: Title ##
@@ -215,34 +212,38 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/lxd_server/30-appendix_a.md:22
-msgid "comfortable at the command line"
+#, no-wrap
+msgid "comfortable at the command line\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/lxd_server/30-appendix_a.md:22
-msgid "able to use a command line editor, such as `vi` or `nano` fluently"
+#, no-wrap
+msgid "able to use a command line editor, such as `vi` or `nano` fluently\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/lxd_server/30-appendix_a.md:22
-msgid "willing to install `snapd` in order to install LXD"
+#, no-wrap
+msgid "willing to install `snapd` in order to install LXD\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/lxd_server/30-appendix_a.md:22
-msgid ""
-"a desire for a stable testing environment that can be used every day or as "
-"needed"
+#, no-wrap
+msgid "a desire for a stable testing environment that can be used every day or as needed\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/lxd_server/30-appendix_a.md:22
-msgid "able to become root or have `sudo` privileges"
+#, no-wrap
+msgid "able to become root or have `sudo` privileges\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/30-appendix_a.md:26
-msgid "From the command line, install the EPEL repository:"
+#, no-wrap
+msgid "From the command line, install the EPEL repository:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -253,7 +254,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/30-appendix_a.md:32
-msgid "Once installed, do an upgrade:"
+#, no-wrap
+msgid "Once installed, do an upgrade:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -264,7 +266,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/30-appendix_a.md:38
-msgid "Install `snapd`"
+#, no-wrap
+msgid "Install `snapd`\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -275,7 +278,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/30-appendix_a.md:44
-msgid "Enable the `snapd` service"
+#, no-wrap
+msgid "Enable the `snapd` service\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -286,12 +290,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/30-appendix_a.md:50
-msgid "Reboot your laptop or workstation"
+#, no-wrap
+msgid "Reboot your laptop or workstation\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/30-appendix_a.md:52
-msgid "Install the snap for LXD:"
+#, no-wrap
+msgid "Install the snap for LXD:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -302,9 +308,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/30-appendix_a.md:60
-msgid ""
-"If you've looked through the production server chapters, this is very "
-"similiar to the production server init procedure."
+#, no-wrap
+msgid "If you've looked through the production server chapters, this is very similiar to the production server init procedure. \n"
 msgstr ""
 
 #. type: Fenced code block
@@ -315,9 +320,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/30-appendix_a.md:66
-msgid ""
-"This will bring up a question and answer dialog that looks like the "
-"following."
+#, no-wrap
+msgid "This will bring up a question and answer dialog that looks like the following.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -330,9 +334,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/30-appendix_a.md:81
-msgid ""
-"Optionally, you can accept the default. Since we aren't using ZFS, it really "
-"is just a choice."
+#, no-wrap
+msgid "Optionally, you can accept the default. Since we aren't using ZFS, it really is just a choice.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -358,11 +361,10 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/30-appendix_a.md:119
+#, no-wrap
 msgid ""
-"This trust password is how you will connect to the snapshot server or back "
-"from the snapshot server, so set this with something that mak es sense in "
-"your environment. Save this entry to a secure location, such as a password "
-"manager."
+"This trust password is how you will connect to the snapshot server or back from the snapshot server, so set this with something that mak\n"
+"es sense in your environment. Save this entry to a secure location, such as a password manager.\n"
 msgstr ""
 
 #. type: Title ##
@@ -373,9 +375,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/30-appendix_a.md:128
-msgid ""
-"The next thing you need to do is to add your user to the lxd group. Again, "
-"you will need to use `sudo` or be root for this:"
+#, no-wrap
+msgid "The next thing you need to do is to add your user to the lxd group. Again, you will need to use `sudo` or be root for this:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -386,14 +387,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/30-appendix_a.md:134
-msgid "where [username] is your user on the system."
+#, no-wrap
+msgid "where [username] is your user on the system.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/30-appendix_a.md:136
-msgid ""
-"At this point, you've made a bunch of changes so before you go any further, "
-"reboot your machne."
+#, no-wrap
+msgid "At this point, you've made a bunch of changes so before you go any further, reboot your machne.\n"
 msgstr ""
 
 #. type: Title ##
@@ -404,16 +405,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/30-appendix_a.md:140
-msgid ""
-"To make sure that `lxd` started and that your user has privileges, from the "
-"command prompt do:"
+#, no-wrap
+msgid "To make sure that `lxd` started and that your user has privileges, from the command prompt do:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/30-appendix_a.md:146
-msgid ""
-"Note we have not used `sudo` here as your user should now have the ability "
-"to enter these commands.  You should get something like this in return:"
+#, no-wrap
+msgid "Note we have not used `sudo` here as your user should now have the ability to enter these commands.  You should get something like this in return:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -427,7 +426,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/30-appendix_a.md:154
-msgid "If so, you're looking good so far!"
+#, no-wrap
+msgid "If so, you're looking good so far!\n"
 msgstr ""
 
 #. type: Title ##
@@ -438,26 +438,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/30-appendix_a.md:158
-msgid ""
-"From this point, you can easily use the capters from our \"LXD Production "
-"Server\" to continue on. There are some things on a workstation setup though "
-"that we need to pay less attention to. Here are the recommended chapters to "
-"get you going:"
+#, no-wrap
+msgid "From this point, you can easily use the capters from our \"LXD Production Server\" to continue on. There are some things on a workstation setup though that we need to pay less attention to. Here are the recommended chapters to get you going:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/lxd_server/30-appendix_a.md:162
-msgid "[Chapter 5 - Setting Up And Managing Images](05-lxd_images.md)"
+#, no-wrap
+msgid "[Chapter 5 - Setting Up And Managing Images](05-lxd_images.md)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/lxd_server/30-appendix_a.md:162
-msgid "[Chapter 6 - Profiles](06-profiles.md)"
+#, no-wrap
+msgid "[Chapter 6 - Profiles](06-profiles.md)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/lxd_server/30-appendix_a.md:162
-msgid "[Chapter 8 - Container Snapshots](08-snapshots.md)"
+#, no-wrap
+msgid "[Chapter 8 - Container Snapshots](08-snapshots.md)\n"
 msgstr ""
 
 #. type: Title ##
@@ -469,19 +469,20 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/lxd_server/30-appendix_a.md:168
-msgid ""
-"[LXD Beginners Guide](../../guides/containers/lxd_web_servers.md) which will "
-"get you started using LXD productively."
+#, no-wrap
+msgid "[LXD Beginners Guide](../../guides/containers/lxd_web_servers.md) which will get you started using LXD productively.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/lxd_server/30-appendix_a.md:168
-msgid "[Official LXD Overview](https://linuxcontainers.org/lxd/introduction/)"
+#, no-wrap
+msgid "[Official LXD Overview](https://linuxcontainers.org/lxd/introduction/)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/lxd_server/30-appendix_a.md:168
-msgid "[Official Documentation](https://linuxcontainers.org/lxd/docs/master/)"
+#, no-wrap
+msgid "[Official Documentation](https://linuxcontainers.org/lxd/docs/master/)\n"
 msgstr ""
 
 #. type: Title ##
@@ -492,9 +493,6 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/30-appendix_a.md:172
-msgid ""
-"LXD is a powerful tool that can be used on workstations or servers for "
-"increased productivity. On a workstation, it is great for lab testing, but "
-"can just as easily keep semi-permanent instances of OS and applications "
-"available in their own private space."
+#, no-wrap
+msgid "LXD is a powerful tool that can be used on workstations or servers for increased productivity. On a workstation, it is great for lab testing, but can just as easily keep semi-permanent instances of OS and applications available in their own private space. \n"
 msgstr ""

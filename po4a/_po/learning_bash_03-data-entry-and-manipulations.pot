@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,7 +72,8 @@ msgstr ""
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:125
 #: ../src/docs/guides/security/learning_selinux.md:289
 #: ../src/docs/guides/security/pam.md:287
-msgid "Examples:"
+#, no-wrap
+msgid "Examples:\n"
 msgstr ""
 
 #. type: Plain text
@@ -183,7 +184,8 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:394
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:154
 #: ../src/docs/guides/web/php.md:255
-msgid "Example:"
+#, no-wrap
+msgid "Example:\n"
 msgstr ""
 
 #. type: Plain text
@@ -223,7 +225,8 @@ msgstr ""
 #: ../src/docs/labs/security/lab9-cryptography.md:125
 #: ../src/docs/labs/security/lab9-cryptography.md:322
 #: ../src/docs/labs/security/lab9-cryptography.md:516
-msgid "!!! NOTE"
+#, no-wrap
+msgid "!!! NOTE\n"
 msgstr ""
 
 #. type: Plain text
@@ -249,7 +252,8 @@ msgstr ""
 #: ../src/docs/guides/package_management/index.md:10
 #: ../src/docs/guides/proxies/pound.md:211
 #: ../src/docs/guides/proxies/pound.md:265 ../src/docs/release_notes/8_4.md:20
-msgid "!!! warning"
+#, no-wrap
+msgid "!!! warning\n"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
@@ -348,7 +352,8 @@ msgstr ""
 #: ../src/docs/books/learning_bash/02-using-variables.md:26
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:26
 #: ../src/docs/books/learning_bash/05-tests.md:24
-msgid ":checkered_flag: **linux**, **script**, **bash**, **variable**"
+#, no-wrap
+msgid ":checkered_flag: **linux**, **script**, **bash**, **variable**\n"
 msgstr ""
 
 #. type: Title #
@@ -360,9 +365,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:15
-msgid ""
-"In this chapter you will learn how to make your scripts interact with users "
-"and manipulate the data."
+#, no-wrap
+msgid "In this chapter you will learn how to make your scripts interact with users and manipulate the data.\n"
 msgstr ""
 
 #. type: Plain text
@@ -383,13 +387,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:35
-msgid ""
-"Depending on the purpose of the script, it may be necessary to send it "
-"information when it is launched or during its execution. This information, "
-"not known when the script is written, can be extracted from files or entered "
-"by the user. It is also possible to send this information in the form of "
-"arguments when the script command is entered. This is the way many Linux "
-"commands work."
+#, no-wrap
+msgid "Depending on the purpose of the script, it may be necessary to send it information when it is launched or during its execution. This information, not known when the script is written, can be extracted from files or entered by the user. It is also possible to send this information in the form of arguments when the script command is entered. This is the way many Linux commands work.\n"
 msgstr ""
 
 #. type: Title ##
@@ -400,14 +399,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:39
-msgid ""
-"The `read` command allows you to enter a character string and store it in a "
-"variable."
+#, no-wrap
+msgid "The `read` command allows you to enter a character string and store it in a variable.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:41
-msgid "Syntax of the read command:"
+#, no-wrap
+msgid "Syntax of the read command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -418,12 +417,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:47
-msgid ""
-"The first example below, prompts you for two variable inputs: \"name\" and "
-"\"firstname\", but since there is no prompt, you would have to know ahead of "
-"time that this was the case. In the case of this particular entry, each "
-"variable input would be separated by a space.  The second example prompts "
-"for the variable \"name\" with the prompt text included:"
+#, no-wrap
+msgid "The first example below, prompts you for two variable inputs: \"name\" and \"firstname\", but since there is no prompt, you would have to know ahead of time that this was the case. In the case of this particular entry, each variable input would be separated by a space.  The second example prompts for the variable \"name\" with the prompt text included:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -459,11 +454,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:66
-msgid ""
-"The `read` command allows you to interrupt the execution of the script while "
-"the user enters information. The user's input is broken down into words "
-"assigned to one or more predefined variables. The words are strings of "
-"characters separated by the field separator."
+#, no-wrap
+msgid "The `read` command allows you to interrupt the execution of the script while the user enters information. The user's input is broken down into words assigned to one or more predefined variables. The words are strings of characters separated by the field separator.\n"
 msgstr ""
 
 #. type: Plain text
@@ -474,17 +466,16 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:70
-msgid ""
-"Once the input is validated, each word will be stored in the predefined "
-"variable."
+#, no-wrap
+msgid "Once the input is validated, each word will be stored in the predefined variable.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:73
+#, no-wrap
 msgid ""
-"The division of the words is defined by the field separator character.  This "
-"separator is stored in the system variable `IFS` (**Internal Field "
-"Separator**)."
+"The division of the words is defined by the field separator character.\n"
+"This separator is stored in the system variable `IFS` (**Internal Field Separator**).\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -497,14 +488,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:80
-msgid "By default, the IFS contains the space, tab and line feed."
+#, no-wrap
+msgid "By default, the IFS contains the space, tab and line feed.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:82
-msgid ""
-"When used without specifying a variable, this command simply pauses the "
-"script. The script continues its execution when the input is validated."
+#, no-wrap
+msgid "When used without specifying a variable, this command simply pauses the script. The script continues its execution when the input is validated.\n"
 msgstr ""
 
 #. type: Plain text
@@ -529,13 +520,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:93
-msgid ""
-"The cut command allows you to isolate a column in a file or in a stream."
+#, no-wrap
+msgid "The cut command allows you to isolate a column in a file or in a stream.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:95
-msgid "Syntax of the cut command:"
+#, no-wrap
+msgid "Syntax of the cut command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -546,7 +538,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:101
-msgid "Example of use of the cut command:"
+#, no-wrap
+msgid "Example of use of the cut command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -568,23 +561,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:113
-msgid ""
-"The main interest of this command will be its association with a stream, for "
-"example the `grep` command and the `|` pipe."
+#, no-wrap
+msgid "The main interest of this command will be its association with a stream, for example the `grep` command and the `|` pipe.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:116
-msgid ""
-"The `grep` command works \"vertically\" (isolation of one line from all the "
-"lines in the file)."
+#, no-wrap
+msgid "The `grep` command works \"vertically\" (isolation of one line from all the lines in the file).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:116
-msgid ""
-"The combination of the two commands allows for the **isolation of a specific "
-"field in the file**."
+#, no-wrap
+msgid "The combination of the two commands allows for the  **isolation of a specific field in the file**.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -609,12 +599,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:131
-msgid "The `tr` command allows you to convert a string."
+#, no-wrap
+msgid "The `tr` command allows you to convert a string.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:133
-msgid "Syntax of the `tr` command:"
+#, no-wrap
+msgid "Syntax of the `tr` command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -636,9 +628,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:145
-msgid ""
-"An example of using the `tr` command follows. If you use `grep` to return "
-"root's `passwd` file entry, you would get this:"
+#, no-wrap
+msgid "An example of using the `tr` command follows. If you use `grep` to return root's `passwd` file entry, you would get this:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -649,7 +640,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:150
-msgid "returns:"
+#, no-wrap
+msgid "returns:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -660,7 +652,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:154
-msgid "Now let's use `tr` command and the reduce the \"o's\" in the line:"
+#, no-wrap
+msgid "Now let's use `tr` command and the reduce the \"o's\" in the line:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -671,7 +664,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:159
-msgid "which returns this:"
+#, no-wrap
+msgid "which returns this:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -688,14 +682,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:165
-msgid ""
-"The `basename` command allows you to extract the name of the file from a "
-"path."
+#, no-wrap
+msgid "The `basename` command allows you to extract the name of the file from a path.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:167
-msgid "The `dirname` command allows you to extract the parent path of a file."
+#, no-wrap
+msgid "The `dirname` command allows you to extract the parent path of a file.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -708,7 +702,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:175
-msgid "Which would result in \"passwd\""
+#, no-wrap
+msgid "Which would result in \"passwd\"\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -719,7 +714,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:179
-msgid "Which would result in: \"/usr/bin\""
+#, no-wrap
+msgid "Which would result in: \"/usr/bin\"\n"
 msgstr ""
 
 #. type: Title ##
@@ -730,43 +726,42 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:183
-msgid ""
-"The request to enter information with the `read` command interrupts the "
-"execution of the script as long as the user does not enter any information."
+#, no-wrap
+msgid "The request to enter information with the `read` command interrupts the execution of the script as long as the user does not enter any information.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:186
+#, no-wrap
 msgid ""
-"This method, although very user-friendly, has its limits if the script is "
-"scheduled to run at night.  To overcome this problem, it is possible to "
-"inject the desired information via arguments."
+"This method, although very user-friendly, has its limits if the script is scheduled to run at night.\n"
+"To overcome this problem, it is possible to inject the desired information via arguments.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:188
-msgid "Many Linux commands work on this principle."
+#, no-wrap
+msgid "Many Linux commands work on this principle.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:190
-msgid ""
-"This way of doing things has the advantage that once the script is executed, "
-"it will not need any human intervention to finish."
+#, no-wrap
+msgid "This way of doing things has the advantage that once the script is executed, it will not need any human intervention to finish.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:192
-msgid ""
-"Its major disadvantage is that the user will have to be warned about the "
-"syntax of the script to avoid errors."
+#, no-wrap
+msgid "Its major disadvantage is that the user will have to be warned about the syntax of the script to avoid errors.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:195
+#, no-wrap
 msgid ""
-"The arguments are filled in when the script command is entered.  They are "
-"separated by a space."
+"The arguments are filled in when the script command is entered.\n"
+"They are separated by a space.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -777,26 +772,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:201
-msgid ""
-"Once executed, the script saves the entered arguments in predefined "
-"variables: `positional variables`."
+#, no-wrap
+msgid "Once executed, the script saves the entered arguments in predefined variables: `positional variables`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:203
-msgid ""
-"These variables can be used in the script like any other variable, except "
-"that they cannot be assigned."
+#, no-wrap
+msgid "These variables can be used in the script like any other variable, except that they cannot be assigned.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:206
-msgid "Unused positional variables exist but are empty."
+#, no-wrap
+msgid "Unused positional variables exist but are empty.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:206
-msgid "Positional variables are always defined in the same way:"
+#, no-wrap
+msgid "Positional variables are always defined in the same way:\n"
 msgstr ""
 
 #. type: Plain text
@@ -840,7 +835,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:240
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:301
-msgid "This will give:"
+#, no-wrap
+msgid "This will give:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -865,12 +861,14 @@ msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:258
-msgid "`$*` : Contains the arguments in the format `\"$1 $2 $3 ...\"`"
+#, no-wrap
+msgid "`$*` : Contains the arguments in the format `\"$1 $2 $3 ...\"`\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:258
-msgid "`$@` : Contains arguments in the format `\"$1\" \"$2\" \"$3\" ...`"
+#, no-wrap
+msgid "`$@` : Contains arguments in the format `\"$1\" \"$2\" \"$3\" ...`\n"
 msgstr ""
 
 #. type: Plain text
@@ -887,14 +885,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:264
-msgid "The shift command allows you to shift positional variables."
+#, no-wrap
+msgid "The shift command allows you to shift positional variables.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:266
-msgid ""
-"Let's modify our previous example to illustrate the impact of the shift "
-"command on positional variables:"
+#, no-wrap
+msgid "Let's modify our previous example to illustrate the impact of the shift command on positional variables:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -957,9 +955,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:322
-msgid ""
-"As you can see, the `shift` command has shifted the place of the arguments "
-"\"to the left\", removing the first 2."
+#, no-wrap
+msgid "As you can see, the `shift` command has shifted the place of the arguments \"to the left\", removing the first 2.\n"
 msgstr ""
 
 #. type: Plain text
@@ -967,7 +964,8 @@ msgstr ""
 #: ../src/docs/gemstones/markdown-demo-v2.md:15
 #: ../src/docs/guides/security/pam.md:45
 #: ../src/docs/labs/security/lab9-cryptography.md:155
-msgid "!!! WARNING"
+#, no-wrap
+msgid "!!! WARNING\n"
 msgstr ""
 
 #. type: Plain text
@@ -984,12 +982,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:330
-msgid "The `set` command splits a string into positional variables."
+#, no-wrap
+msgid "The `set` command splits a string into positional variables.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:332
-msgid "Syntax of the set command:"
+#, no-wrap
+msgid "Syntax of the set command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1013,5 +1013,6 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:349
-msgid "You can now use positional variables as seen before."
+#, no-wrap
+msgid "You can now use positional variables as seen before.\n"
 msgstr ""

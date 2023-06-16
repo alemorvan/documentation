@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,7 +46,8 @@ msgstr ""
 #: ../src/docs/guides/proxies/pound.md:62
 #: ../src/docs/guides/proxies/pound.md:418 ../src/docs/index.md:40
 #: ../src/docs/release_notes/9_1.md:16
-msgid "!!! note"
+#, no-wrap
+msgid "!!! note\n"
 msgstr ""
 
 #. type: YAML Front Matter: tags
@@ -125,10 +126,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/books/lxd_server/06-profiles.md:15
 #: ../src/docs/books/lxd_server/07-configurations.md:15
-msgid ""
-"Throughout this chapter you will need to execute commands as your "
-"unprivileged user (\"lxdadmin\" if you've been following from the beginning "
-"in this book)."
+#, no-wrap
+msgid "Throughout this chapter you will need to execute commands as your unprivileged user (\"lxdadmin\" if you've been following from the beginning in this book).\n"
 msgstr ""
 
 #. type: YAML Front Matter: tags
@@ -151,11 +150,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/07-configurations.md:17
-msgid ""
-"There are a wealth of options for configuring the container once you have it "
-"installed. Before we get into how to see those, however, let's take a look "
-"at the info command for a container. In this example, we will use the ubuntu-"
-"test container:"
+#, no-wrap
+msgid "There are a wealth of options for configuring the container once you have it installed. Before we get into how to see those, however, let's take a look at the info command for a container. In this example, we will use the ubuntu-test container:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -167,7 +163,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/07-configurations.md:23
-msgid "This shows something like the following:"
+#, no-wrap
+msgid "This shows something like the following:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -212,9 +209,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/07-configurations.md:62
-msgid ""
-"There's a lot of good information there, from the profiles applied, to the "
-"memory in use, disk space in use, and more."
+#, no-wrap
+msgid "There's a lot of good information there, from the profiles applied, to the memory in use, disk space in use, and more.\n"
 msgstr ""
 
 #. type: Title ###
@@ -225,35 +221,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/07-configurations.md:66
-msgid ""
-"By default, LXD will allocate the required system memory, disk space, CPU "
-"cores, etc., to the container. But what if we want to be more specific? That "
-"is totally possible."
+#, no-wrap
+msgid "By default, LXD will allocate the required system memory, disk space, CPU cores, etc., to the container. But what if we want to be more specific? That is totally possible.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/07-configurations.md:68
-msgid ""
-"There are trade-offs to doing this, though. For instance, if we allocate "
-"system memory and the container doesn't actually use it all, then we have "
-"kept it from another container that might actually need it. The reverse, "
-"though, can happen. If a container is a complete pig on memory, then it can "
-"keep other containers from getting enough, thereby pinching their "
-"performance."
+#, no-wrap
+msgid "There are trade-offs to doing this, though. For instance, if we allocate system memory and the container doesn't actually use it all, then we have kept it from another container that might actually need it. The reverse, though, can happen. If a container is a complete pig on memory, then it can keep other containers from getting enough, thereby pinching their performance.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/07-configurations.md:70
-msgid ""
-"Just keep in mind that every action you make to configure a container _can_ "
-"have negative effects somewhere else."
+#, no-wrap
+msgid "Just keep in mind that every action you make to configure a container _can_ have negative effects somewhere else.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/07-configurations.md:72
-msgid ""
-"Rather than run through all of the options for configuration, use the tab "
-"auto-complete to see the options available:"
+#, no-wrap
+msgid "Rather than run through all of the options for configuration, use the tab auto-complete to see the options available:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -264,25 +251,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/07-configurations.md:78
-msgid "and then hit TAB."
+#, no-wrap
+msgid "and then hit TAB.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/07-configurations.md:80
-msgid ""
-"This shows you all of the options for configuring a container. If you have "
-"questions about what one of the configuration options does, head up to the "
-"[official documentation for LXD](https://linuxcontainers.org/lxd/docs/master/"
-"instances/) and do a search for the configuration parameter, or Google the "
-"entire string, such as \"lxc config set limits.memory\" and take a look at "
-"the results of the search."
+#, no-wrap
+msgid "This shows you all of the options for configuring a container. If you have questions about what one of the configuration options does, head up to the [official documentation for LXD](https://linuxcontainers.org/lxd/docs/master/instances/) and do a search for the configuration parameter, or Google the entire string, such as \"lxc config set limits.memory\" and take a look at the results of the search.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/07-configurations.md:82
-msgid ""
-"We will look at a few of the most used configuration options. For example, "
-"if you want to set the max amount of memory that a container can use:"
+#, no-wrap
+msgid "We will look at a few of the most used configuration options. For example, if you want to set the max amount of memory that a container can use:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -293,10 +275,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/07-configurations.md:88
-msgid ""
-"That says that as long as the memory is available to use, in other words "
-"there is 2GB of memory free, then the container can actually use more than "
-"2GB if it's available. It's a soft limit, in other words."
+#, no-wrap
+msgid "That says that as long as the memory is available to use, in other words there is 2GB of memory free, then the container can actually use more than 2GB if it's available. It's a soft limit, in other words.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -307,9 +287,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/07-configurations.md:94
-msgid ""
-"That says that the container can never use more than 2GB of memory, whether "
-"it's currently available or not. In this case it's a hard limit."
+#, no-wrap
+msgid "That says that the container can never use more than 2GB of memory, whether it's currently available or not. In this case it's a hard limit.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -320,8 +299,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/07-configurations.md:100
-msgid ""
-"That says to limit the number of cpu cores that the container can use to 2."
+#, no-wrap
+msgid "That says to limit the number of cpu cores that the container can use to 2.\n"
 msgstr ""
 
 #. type: Plain text
@@ -332,11 +311,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/07-configurations.md:106
-msgid ""
-"Remember when we set up our storage pool in the ZFS chapter? We named the "
-"pool \"storage,\" but we could have named it anything. If we want to look at "
-"this, we can use this command, which works equally well for any of the other "
-"pool types too (as shown for dir):"
+#, no-wrap
+msgid "Remember when we set up our storage pool in the ZFS chapter?  We named the pool \"storage,\" but we could have named it anything. If we want to look at this, we can use this command, which works equally well for any of the other pool types too (as shown for dir):\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -347,7 +323,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/07-configurations.md:113
-msgid "This shows the following:"
+#, no-wrap
+msgid "This shows the following:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -371,11 +348,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/07-configurations.md:131
-msgid ""
-"This shows that all of our containers are using our dir storage pool. When "
-"using ZFS, you can also set a disk quota on a container. Here's what that "
-"would look like setting a 2GB disk quota on the ubuntu-test container. You "
-"do this with:"
+#, no-wrap
+msgid "This shows that all of our containers are using our dir storage pool. When using ZFS, you can also set a disk quota on a container. Here's what that would look like setting a 2GB disk quota on the ubuntu-test container. You do this with:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -386,17 +360,12 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/07-configurations.md:137
-msgid ""
-"As stated earlier, you should use configuration options sparingly, unless "
-"you've got a container that wants to use way more than its share of "
-"resources. LXD, for the most part, will manage the environment well on its "
-"own."
+#, no-wrap
+msgid "As stated earlier, you should use configuration options sparingly, unless you've got a container that wants to use way more than its share of resources. LXD, for the most part, will manage the environment well on its own.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/07-configurations.md:139
-msgid ""
-"There are, of course, many more options that may be of interest to some "
-"people. You should do your own research to find out if any of those are of "
-"value in your environment."
+#, no-wrap
+msgid "There are, of course, many more options that may be of interest to some people. You should do your own research to find out if any of those are of value in your environment.\n"
 msgstr ""

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -163,7 +163,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -190,7 +189,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Plain text
@@ -211,13 +211,15 @@ msgstr ""
 #: ../src/docs/books/admin_guide/14-special-authority.md:669
 #: ../src/docs/books/learning_ansible/02-advanced.md:74
 #: ../src/docs/books/learning_ansible/03-working-with-files.md:117
-msgid "For example:"
+#, no-wrap
+msgid "For example:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/01-basic.md:21
 #: ../src/docs/books/learning_ansible/02-advanced.md:19
-msgid ":checkered_flag: **ansible**, **module**, **playbook**"
+#, no-wrap
+msgid ":checkered_flag: **ansible**, **module**, **playbook**\n"
 msgstr ""
 
 #. type: Plain text
@@ -247,7 +249,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:8
-msgid "In this chapter you will continue to learn how to work with Ansible."
+#, no-wrap
+msgid "In this chapter you will continue to learn how to work with Ansible.\n"
 msgstr ""
 
 #. type: Plain text
@@ -262,18 +265,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:28
-msgid ""
-"In the previous chapter, you learned how to install Ansible, use it on the "
-"command line, or how to write playbooks to promote the re-usability of your "
-"code."
+#, no-wrap
+msgid "In the previous chapter, you learned how to install Ansible, use it on the command line, or how to write playbooks to promote the re-usability of your code.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:30
-msgid ""
-"In this chapter, we can start to discover some more advanced notions of how "
-"to use Ansible, and discover some interesting tasks that you will use very "
-"regularly."
+#, no-wrap
+msgid "In this chapter, we can start to discover some more advanced notions of how to use Ansible, and discover some interesting tasks that you will use very regularly.\n"
 msgstr ""
 
 #. type: Title ##
@@ -290,49 +289,56 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:38
-msgid "Under Ansible, there are different types of primitive variables:"
+#, no-wrap
+msgid "Under Ansible, there are different types of primitive variables:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/02-advanced.md:42
-msgid "strings,"
+#, no-wrap
+msgid "strings,\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/02-advanced.md:42
-msgid "integers,"
+#, no-wrap
+msgid "integers,\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/02-advanced.md:42
-msgid "booleans."
+#, no-wrap
+msgid "booleans.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:44
-msgid "These variables can be organized as:"
+#, no-wrap
+msgid "These variables can be organized as:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/02-advanced.md:47
-msgid "dictionaries,"
+#, no-wrap
+msgid "dictionaries,\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/02-advanced.md:47
-msgid "lists."
+#, no-wrap
+msgid "lists.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:49
-msgid ""
-"A variable can be defined in different places, like in a playbook, in a role "
-"or from the command line for example."
+#, no-wrap
+msgid "A variable can be defined in different places, like in a playbook, in a role or from the command line for example.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:51
-msgid "For example, from a playbook:"
+#, no-wrap
+msgid "For example, from a playbook:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -350,7 +356,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:63
-msgid "or from the command line:"
+#, no-wrap
+msgid "or from the command line:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -361,18 +368,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:69
-msgid ""
-"Once defined, a variable can be used by calling it between double braces:"
+#, no-wrap
+msgid "Once defined, a variable can be used by calling it between double braces:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/02-advanced.md:72
-msgid "`{{ port_http }}` for a simple value,"
+#, no-wrap
+msgid "`{{ port_http }}` for a simple value,\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/02-advanced.md:72
-msgid "`{{ service['rhel'] }}` or `{{ service.rhel }}` for a dictionary."
+#, no-wrap
+msgid "`{{ service['rhel'] }}` or `{{ service.rhel }}` for a dictionary.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -387,9 +396,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:83
-msgid ""
-"Of course, it is also possible to access the global variables (the "
-"**facts**) of Ansible (OS type, IP addresses, VM name, etc.)."
+#, no-wrap
+msgid "Of course, it is also possible to access the global variables (the **facts**) of Ansible (OS type, IP addresses, VM name, etc.).\n"
 msgstr ""
 
 #. type: Title ###
@@ -400,9 +408,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:87
-msgid ""
-"Variables can be included in a file external to the playbook, in which case "
-"this file must be defined in the playbook with the `vars_files` directive:"
+#, no-wrap
+msgid "Variables can be included in a file external to the playbook, in which case this file must be defined in the playbook with the `vars_files` directive:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -417,7 +424,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:96
-msgid "The `myvariables.yml` file:"
+#, no-wrap
+msgid "The `myvariables.yml` file:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -433,8 +441,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:106
-msgid ""
-"It can also be added dynamically with the use of the module `include_vars`:"
+#, no-wrap
+msgid "It can also be added dynamically with the use of the module `include_vars`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -454,8 +462,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:116
-msgid ""
-"To display a variable, you have to activate the `debug` module as follows:"
+#, no-wrap
+msgid "To display a variable, you have to activate the `debug` module as follows:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -468,7 +476,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:123
-msgid "You can also use the variable inside a text:"
+#, no-wrap
+msgid "You can also use the variable inside a text:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -487,20 +496,24 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:132
-msgid ""
-"To save the return of a task and to be able to access it later, you have to "
-"use the keyword `register` inside the task itself."
+#, no-wrap
+msgid "To save the return of a task and to be able to access it later, you have to use the keyword `register` inside the task itself.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:134
-msgid "Use of a stored variable:"
+#, no-wrap
+msgid "Use of a stored variable:\n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/learning_ansible/02-advanced.md:135
 #: ../src/docs/books/learning_ansible/02-advanced.md:225
-msgid "name: /home content shell: ls /home register: homes"
+#, no-wrap
+msgid ""
+"name: /home content\n"
+"shell: ls /home\n"
+"register: homes\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -525,26 +538,21 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:154
-msgid ""
-"The strings that make up the stored variable can be accessed via the "
-"`stdout` value (which allows you to do things like `homes.stdout.find(\"core"
-"\") != -1`), to exploit them using a loop (see `loop`), or simply by their "
-"indices as seen in the previous example."
+#, no-wrap
+msgid "The strings that make up the stored variable can be accessed via the `stdout` value (which allows you to do things like `homes.stdout.find(\"core\") != -1`), to exploit them using a loop (see `loop`), or simply by their indices as seen in the previous example.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/02-advanced.md:158
-msgid ""
-"Write a playbook `play-vars.yml` that prints the distribution name of the "
-"target with its major version, using global variables."
+#, no-wrap
+msgid "Write a  playbook `play-vars.yml` that prints the distribution name of the target with its major version, using global variables.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/02-advanced.md:160
 #: ../src/docs/books/learning_ansible/02-advanced.md:501
-msgid ""
-"Write a playbook using the following dictionary to display the services that "
-"will be installed:"
+#, no-wrap
+msgid "Write a playbook using the following dictionary to display the services that will be installed:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -564,18 +572,21 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:172
 #: ../src/docs/books/learning_ansible/02-advanced.md:513
-msgid "The default type should be \"web\"."
+#, no-wrap
+msgid "The default type should be \"web\".\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/02-advanced.md:174
-msgid "Override the `type` variable using the command line"
+#, no-wrap
+msgid "Override the `type` variable using the command line\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/02-advanced.md:176
 #: ../src/docs/books/learning_ansible/02-advanced.md:572
-msgid "Externalize variables in a `vars.yml` file"
+#, no-wrap
+msgid "Externalize variables in a `vars.yml` file\n"
 msgstr ""
 
 #. type: Title ##
@@ -586,9 +597,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:180
-msgid ""
-"With the help of loop, you can iterate a task over a list, a hash, or "
-"dictionary for example."
+#, no-wrap
+msgid "With the help of loop, you can iterate a task over a list, a hash, or dictionary for example.\n"
 msgstr ""
 
 #. type: Plain text
@@ -599,7 +609,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:186
-msgid "Simple example of use, creation of 4 users:"
+#, no-wrap
+msgid "Simple example of use, creation of 4 users:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -620,14 +631,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:201
-msgid ""
-"At each iteration of the loop, the value of the list used is stored in the "
-"`item` variable, accessible in the loop code."
+#, no-wrap
+msgid "At each iteration of the loop, the value of the list used is stored in the `item` variable, accessible in the loop code.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:203
-msgid "Of course, a list can be defined in an external file:"
+#, no-wrap
+msgid "Of course, a list can be defined in an external file:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -643,8 +654,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:213
-msgid ""
-"and be used inside the task like this (after having include the vars file):"
+#, no-wrap
+msgid "and be used inside the task like this (after having include the vars file):\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -661,9 +672,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:224
-msgid ""
-"We can use the example seen during the study of stored variables to improve "
-"it. Use of a stored variable:"
+#, no-wrap
+msgid "We can use the example seen during the study of stored variables to improve it. Use of a stored variable:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -679,29 +689,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:237
-msgid "A dictionary can also be used in a loop."
+#, no-wrap
+msgid "A dictionary can also be used in a loop.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:239
-msgid ""
-"In this case, you will have to transform the dictionary into an item with "
-"what is called a **jinja filter** (jinja is the templating engine used by "
-"Ansible): `| dict2items`."
+#, no-wrap
+msgid "In this case, you will have to transform the dictionary into an item with what is called a **jinja filter** (jinja is the templating engine used by Ansible): `| dict2items`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:241
-msgid ""
-"In the loop, it becomes possible to use `item.key` which corresponds to the "
-"dictionary key, and `item.value` which corresponds to the values of the key."
+#, no-wrap
+msgid "In the loop, it becomes possible to use `item.key` which corresponds to the dictionary key, and `item.value` which corresponds to the values of the key.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:243
-msgid ""
-"Let's see this through a concrete example, showing the management of the "
-"system users:"
+#, no-wrap
+msgid "Let's see this through a concrete example, showing the management of the system users:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -740,9 +747,8 @@ msgstr ""
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/02-advanced.md:275
 #: ../src/docs/books/learning_ansible/02-advanced.md:599
-msgid ""
-"Display the content of the `service` variable from the previous exercise "
-"using a loop."
+#, no-wrap
+msgid "Display the content of the `service` variable from the previous exercise using a loop.\n"
 msgstr ""
 
 #. type: Plain text
@@ -775,9 +781,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:291
-msgid ""
-"The `when` statement is very useful in many cases: not performing certain "
-"actions on certain types of servers, if a file or a user does not exist, etc."
+#, no-wrap
+msgid "The `when` statement is very useful in many cases: not performing certain actions on certain types of servers, if a file or a user does not exist, etc.\n"
 msgstr ""
 
 #. type: Plain text
@@ -788,14 +793,17 @@ msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/learning_ansible/02-advanced.md:296
+#, no-wrap
 msgid ""
-"name: \"Reboot only Debian servers\" reboot: when: ansible_os_family == "
-"\"Debian\""
+"name: \"Reboot only Debian servers\"\n"
+"reboot:\n"
+"when: ansible_os_family == \"Debian\"\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:303
-msgid "Conditions can be grouped with parentheses:"
+#, no-wrap
+msgid "Conditions can be grouped with parentheses:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -810,28 +818,35 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:312
-msgid ""
-"The conditions corresponding to a logical AND can be provided as a list:"
+#, no-wrap
+msgid "The conditions corresponding to a logical AND can be provided as a list:\n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/learning_ansible/02-advanced.md:313
-msgid "name: \"Reboot only CentOS version 6\" reboot: when:"
+#, no-wrap
+msgid ""
+"name: \"Reboot only CentOS version 6\"\n"
+"reboot:\n"
+"when:\n"
 msgstr ""
 
 #. type: Bullet: '    - '
 #: ../src/docs/books/learning_ansible/02-advanced.md:313
-msgid "ansible_distribution == \"CentOS\""
+#, no-wrap
+msgid "ansible_distribution == \"CentOS\"\n"
 msgstr ""
 
 #. type: Bullet: '    - '
 #: ../src/docs/books/learning_ansible/02-advanced.md:313
-msgid "ansible_distribution_major_version == \"6\""
+#, no-wrap
+msgid "ansible_distribution_major_version == \"6\"\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:322
-msgid "You can test the value of a boolean and verify that it is true:"
+#, no-wrap
+msgid "You can test the value of a boolean and verify that it is true:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -855,7 +870,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:340
-msgid "You can also test that it is not true:"
+#, no-wrap
+msgid "You can also test that it is not true:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -869,9 +885,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:348
-msgid ""
-"You will probably have to test that a variable exists to avoid execution "
-"errors:"
+#, no-wrap
+msgid "You will probably have to test that a variable exists to avoid execution errors:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -883,7 +898,8 @@ msgstr ""
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/02-advanced.md:356
 #: ../src/docs/books/learning_ansible/02-advanced.md:687
-msgid "Print the value of `service.web` only when `type` equals to `web`."
+#, no-wrap
+msgid "Print the value of `service.web` only when `type` equals to `web`.\n"
 msgstr ""
 
 #. type: Title ##
@@ -900,32 +916,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:364
-msgid ""
-"Handlers allow to launch operations, like restarting a service, when changes "
-"occur."
+#, no-wrap
+msgid "Handlers allow to launch operations, like restarting a service, when changes occur.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:366
-msgid ""
-"A module, being idempotent, a playbook can detect that there has been a "
-"significant change on a remote system, and thus trigger an operation in "
-"reaction to this change. A notification is sent at the end of a playbook "
-"task block, and the reaction operation will be triggered only once even if "
-"several tasks send the same notification."
+#, no-wrap
+msgid "A module, being idempotent, a playbook can detect that there has been a significant change on a remote system, and thus trigger an operation in reaction to this change. A notification is sent at the end of a playbook task block, and the reaction operation will be triggered only once even if several tasks send the same notification.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:368
-msgid "![Handlers](images/handlers.png)"
+#, no-wrap
+msgid "![Handlers](images/handlers.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:370
-msgid ""
-"For example, several tasks may indicate that the `httpd` service needs to be "
-"restarted due to a change in its configuration files. But the service will "
-"only be restarted once to avoid multiple unnecessary starts."
+#, no-wrap
+msgid "For example, several tasks may indicate that the `httpd` service needs to be restarted due to a change in its configuration files. But the service will only be restarted once to avoid multiple unnecessary starts.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -943,23 +953,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:382
-msgid "A handler is a kind of task referenced by a unique global name:"
+#, no-wrap
+msgid "A handler is a kind of task referenced by a unique global name:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/02-advanced.md:385
-msgid "It is activated by one or more notifiers."
+#, no-wrap
+msgid "It is activated by one or more notifiers.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/02-advanced.md:385
-msgid ""
-"It does not start immediately, but waits until all tasks are complete to run."
+#, no-wrap
+msgid "It does not start immediately, but waits until all tasks are complete to run.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:387
-msgid "Example of handlers:"
+#, no-wrap
+msgid "Example of handlers:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -981,7 +994,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:403
-msgid "Since version 2.2 of Ansible, handlers can listen directly as well:"
+#, no-wrap
+msgid "Since version 2.2 of Ansible, handlers can listen directly as well:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1022,49 +1036,44 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:432
-msgid ""
-"By default, SSH connections to hosts remain open during the execution of "
-"various playbook tasks on all nodes."
+#, no-wrap
+msgid "By default, SSH connections to hosts remain open during the execution of various playbook tasks on all nodes.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:434
-msgid "This can cause some problems, especially:"
+#, no-wrap
+msgid "This can cause some problems, especially:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/02-advanced.md:437
-msgid ""
-"if the execution time of the task is longer than the SSH connection timeout"
+#, no-wrap
+msgid "if the execution time of the task is longer than the SSH connection timeout\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/02-advanced.md:437
-msgid ""
-"if the connection is interrupted during the action (server reboot for "
-"example)"
+#, no-wrap
+msgid "if the connection is interrupted during the action (server reboot for example)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:439
-msgid ""
-"In this case, you will have to switch to asynchronous mode and specify a "
-"maximum execution time as well as the frequency (by default 10s) with which "
-"you will check the host status."
+#, no-wrap
+msgid "In this case, you will have to switch to asynchronous mode and specify a maximum execution time as well as the frequency (by default 10s) with which you will check the host status.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:441
-msgid ""
-"By specifying a poll value of 0, Ansible will execute the task and continue "
-"without worrying about the result."
+#, no-wrap
+msgid "By specifying a poll value of 0, Ansible will execute the task and continue without worrying about the result.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:443
-msgid ""
-"Here's an example using asynchronous tasks, which allows you to restart a "
-"server and wait for port 22 to be reachable again:"
+#, no-wrap
+msgid "Here's an example using asynchronous tasks, which allows you to restart a server and wait for port 22 to be reachable again:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1093,9 +1102,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:466
-msgid ""
-"You can also decide to launch a long-running task and forget it (fire and "
-"forget) because the execution does not matter in the playbook."
+#, no-wrap
+msgid "You can also decide to launch a long-running task and forget it (fire and forget) because the execution does not matter in the playbook.\n"
 msgstr ""
 
 #. type: Title ##
@@ -1106,9 +1114,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/02-advanced.md:470
-msgid ""
-"Write a playbook `play-vars.yml` that print the distribution name of the "
-"target with its major version, using global variables."
+#, no-wrap
+msgid "Write a  playbook `play-vars.yml` that print the distribution name of the target with its major version, using global variables.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1192,7 +1199,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/02-advanced.md:553
-msgid "Override the `type` variable using the command line:"
+#, no-wrap
+msgid "Override the `type` variable using the command line:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1262,7 +1270,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:613
-msgid "With `dict2items`:"
+#, no-wrap
+msgid "With `dict2items`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1308,7 +1317,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/02-advanced.md:650
-msgid "With `list`:"
+#, no-wrap
+msgid "With `list`:\n"
 msgstr ""
 
 #. type: Fenced code block

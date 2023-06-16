@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -112,14 +112,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/bash_stub.md:10
-msgid ""
-"Where I was previously employed, we had an ace programmer who knew a bunch "
-"of languages. He was also the go-to guy when you had questions on how to "
-"accomplish something with a script. He finally created a little stub, a file "
-"full of scripting examples that you could just strip out and edit as needed. "
-"Eventually, I got good enough at these routines that I didn't have to look "
-"at the stub, but it was a good learning tool, and something that others may "
-"find useful."
+#, no-wrap
+msgid "Where I was previously employed, we had an ace programmer who knew a bunch of languages. He was also the go-to guy when you had questions on how to accomplish something with a script. He finally created a little stub, a file full of scripting examples that you could just strip out and edit as needed. Eventually, I got good enough at these routines that I didn't have to look at the stub, but it was a good learning tool, and something that others may find useful.\n"
 msgstr ""
 
 #. type: Title ##
@@ -130,11 +124,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/bash_stub.md:14
-msgid ""
-"The stub is well documented, but keep in mind that this is by no means an "
-"exhaustive script! There are a lot more routines that could be added. If "
-"**you** have examples that would fit nicely into this stub, then please feel "
-"free to add some changes:"
+#, no-wrap
+msgid "The stub is well documented, but keep in mind that this is by no means an exhaustive script! There are a lot more routines that could be added. If **you** have examples that would fit nicely into this stub, then please feel free to add some changes:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -230,9 +221,6 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/bash_stub.md:105
-msgid ""
-"Scripting is a System Administrator's friend. Being able to quickly do "
-"certain tasks in a script streamlines process completion. While by no means "
-"an exhaustive set of script routines, this stub offers some common usage "
-"examples."
+#, no-wrap
+msgid "Scripting is a System Administrator's friend. Being able to quickly do certain tasks in a script streamlines process completion. While by no means an exhaustive set of script routines, this stub offers some common usage examples.\n"
 msgstr ""

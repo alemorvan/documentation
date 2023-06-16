@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,10 +66,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/beginners.md:15
-msgid ""
-"_Everybody starts somewhere. If this is the first time you’ve contributed to "
-"open-source documentation on GitHub, congratulations for taking this step. "
-"We can’t wait to see what you have to say!_"
+#, no-wrap
+msgid "_Everybody starts somewhere. If this is the first time you’ve contributed to open-source documentation on GitHub, congratulations for taking this step. We can’t wait to see what you have to say!_\n"
 msgstr ""
 
 #. type: Title ##
@@ -80,23 +78,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/beginners.md:19
-msgid ""
-"All of our contributor instructions presuppose you have a GitHub account. If "
-"you have never done that, now is the time. If you have 12 minutes, learn the "
-"basics of what GitHub is with the [Beginner’s Guide to Git and GitHub]"
-"(https://www.udacity.com/blog/2015/06/a-beginners-git-github-tutorial.html) "
-"from Udemy."
+#, no-wrap
+msgid "All of our contributor instructions presuppose you have a GitHub account. If you have never done that, now is the time. If you have 12 minutes, learn the basics of what GitHub is with the [Beginner’s Guide to Git and GitHub](https://www.udacity.com/blog/2015/06/a-beginners-git-github-tutorial.html) from Udemy.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/beginners.md:21
-msgid ""
-"You may not start out creating and managing repositories for Rocky Linux, "
-"but this [Hello World tutorial](https://docs.github.com/en/get-started/"
-"quickstart/hello-world) walks you through creating a GitHub account, "
-"learning the lingo, and understanding how repositories work. Focus on "
-"learning how to make and Commit updates to existing docs, and how to create "
-"a Pull Request."
+#, no-wrap
+msgid "You may not start out creating and managing repositories for Rocky Linux, but this [Hello World tutorial](https://docs.github.com/en/get-started/quickstart/hello-world) walks you through creating a GitHub account, learning the lingo, and understanding how repositories work. Focus on learning how to make and Commit updates to existing docs, and how to create a Pull Request.\n"
 msgstr ""
 
 #. type: Title ##
@@ -107,30 +96,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/beginners.md:25
-msgid ""
-"Markdown is an easy language that allows you to include formatting, code, "
-"and plain text in the same file. The first time you update a document, just "
-"follow the existing code. It won’t be long before you are ready to explore "
-"additional features. When the time comes, here are the basics."
+#, no-wrap
+msgid "Markdown is an easy language that allows you to include formatting, code, and plain text in the same file. The first time you update a document, just follow the existing code. It won’t be long before you are ready to explore additional features. When the time comes, here are the basics.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/beginners.md:29
-msgid "[Basic Markdown](https://www.markdownguide.org/basic-syntax#code)"
+#, no-wrap
+msgid "[Basic Markdown](https://www.markdownguide.org/basic-syntax#code)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/beginners.md:29
-msgid ""
-"[Extended Markdown](https://www.markdownguide.org/extended-syntax/#fenced-"
-"code-blocks)"
+#, no-wrap
+msgid "[Extended Markdown](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/beginners.md:29
-msgid ""
-"Some of the more [advanced formatting](https://docs.rockylinux.org/guides/"
-"contribute/rockydocs_formatting/) options we use in our repository"
+#, no-wrap
+msgid "Some of the more [advanced formatting](https://docs.rockylinux.org/guides/contribute/rockydocs_formatting/) options we use in our repository\n"
 msgstr ""
 
 #. type: Title ##
@@ -141,57 +126,44 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/beginners.md:33
-msgid ""
-"To create a local repository, first find and install a Markdown editor that "
-"works with your computer and operating system. Here are some options, but "
-"there are others. Use what you know."
+#, no-wrap
+msgid "To create a local repository, first find and install a Markdown editor that works with your computer and operating system. Here are some options, but there are others. Use what you know.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/beginners.md:40
-msgid ""
-"[ReText](https://github.com/retext-project/retext) - Free, cross-platform, "
-"and open source"
+#, no-wrap
+msgid "[ReText](https://github.com/retext-project/retext) - Free, cross-platform, and open source\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/beginners.md:40
-msgid ""
-"[Zettlr](https://www.zettlr.com/) - Free, cross-platform, and open source"
+#, no-wrap
+msgid "[Zettlr](https://www.zettlr.com/) - Free, cross-platform, and open source\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/beginners.md:40
-msgid ""
-"[MarkText](https://github.com/marktext/marktext) - Free, cross-platform, and "
-"open source"
+#, no-wrap
+msgid "[MarkText](https://github.com/marktext/marktext) - Free, cross-platform, and open source\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/beginners.md:40
-msgid ""
-"[Remarkable](https://remarkableapp.github.io/) - Linux and Windows, open "
-"source"
+#, no-wrap
+msgid "[Remarkable](https://remarkableapp.github.io/) - Linux and Windows, open source\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/beginners.md:40
-msgid ""
-"[NvChad](https://nvchad.com/) for the vi/vim user and the nvim client. A lot "
-"of plugins are available to enhance the editor for markdown. See [this "
-"document](https://docs.rockylinux.org/books/nvchad/) for a nice set of "
-"installation instructions."
+#, no-wrap
+msgid "[NvChad](https://nvchad.com/) for the vi/vim user and the nvim client. A lot of plugins are available to enhance the editor for markdown. See [this document](https://docs.rockylinux.org/books/nvchad/) for a nice set of installation instructions.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/beginners.md:40
-msgid ""
-"[VS Code](https://code.visualstudio.com/) - Partially open source, by "
-"Microsoft. VS Code is a lightweight and powerful editor available for "
-"Windows, Linux and MacOS. To contribute to this document project, you should "
-"get the following extensions: Git Graph, HTML Preview, HTML Snippets, "
-"Markdown All in One, Markdown Preview Enhanced, Markdown Preview Mermaid "
-"Support, and any more that catch your fancy."
+#, no-wrap
+msgid "[VS Code](https://code.visualstudio.com/) - Partially open source, by Microsoft. VS Code is a lightweight and powerful editor available for Windows, Linux and MacOS. To contribute to this document project, you should get the following extensions: Git Graph, HTML Preview, HTML Snippets, Markdown All in One, Markdown Preview Enhanced, Markdown Preview Mermaid Support, and any more that catch your fancy.\n"
 msgstr ""
 
 #. type: Title ##
@@ -202,55 +174,50 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/beginners.md:44
-msgid ""
-"Once you have a Markdown editor installed, follow instructions to connect it "
-"to your GitHub account and download your repository to your local machine. "
-"Every time you prepare to update a document, follow these steps to sync your "
-"local and online forks with the main branch to ensure you are working with "
-"the most current version:"
+#, no-wrap
+msgid "Once you have a Markdown editor installed, follow instructions to connect it to your GitHub account and download your repository to your local machine. Every time you prepare to update a document, follow these steps to sync your local and online forks with the main branch to ensure you are working with the most current version:\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/guides/contribute/beginners.md:52
-msgid ""
-"Within GitHub, sync your fork of the documentation repository with the main "
-"branch."
+#, no-wrap
+msgid "Within GitHub, sync your fork of the documentation repository with the main branch.\n"
 msgstr ""
 
 #. type: Bullet: '2. '
 #: ../src/docs/guides/contribute/beginners.md:52
-msgid ""
-"Follow your Markdown editor’s instructions to sync your current fork with "
-"your local machine."
+#, no-wrap
+msgid "Follow your Markdown editor’s instructions to sync your current fork with your local machine.\n"
 msgstr ""
 
 #. type: Bullet: '3. '
 #: ../src/docs/guides/contribute/beginners.md:52
-msgid "Inside your Markdown editor, open the document you wish to modify."
+#, no-wrap
+msgid "Inside your Markdown editor, open the document you wish to modify.\n"
 msgstr ""
 
 #. type: Bullet: '4. '
 #: ../src/docs/guides/contribute/beginners.md:52
-msgid "Modify the document."
+#, no-wrap
+msgid "Modify the document.\n"
 msgstr ""
 
 #. type: Bullet: '5. '
 #: ../src/docs/guides/contribute/beginners.md:52
-msgid "Save."
+#, no-wrap
+msgid "Save.\n"
 msgstr ""
 
 #. type: Bullet: '6. '
 #: ../src/docs/guides/contribute/beginners.md:52
-msgid ""
-"Commit your changes within your editor, which should sync your local "
-"repository with your online fork."
+#, no-wrap
+msgid "Commit your changes within your editor, which should sync your local repository with your online fork.\n"
 msgstr ""
 
 #. type: Bullet: '7. '
 #: ../src/docs/guides/contribute/beginners.md:52
-msgid ""
-"Within GitHub, find the updated document in your fork and create a Pull "
-"Request to merge it with the main document."
+#, no-wrap
+msgid "Within GitHub, find the updated document in your fork and create a Pull Request to merge it with the main document.\n"
 msgstr ""
 
 #. type: Title ##
@@ -261,13 +228,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/beginners.md:56
-msgid ""
-"_Add a missing word, correct an error, clarify a confusing bit of text._"
+#, no-wrap
+msgid "_Add a missing word, correct an error, clarify a confusing bit of text._\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/guides/contribute/beginners.md:58
-msgid "Start on the page you want to update."
+#, no-wrap
+msgid "Start on the page you want to update.\n"
 msgstr ""
 
 #. type: Plain text
@@ -284,7 +252,8 @@ msgstr ""
 
 #. type: Bullet: '2. '
 #: ../src/docs/guides/contribute/beginners.md:64
-msgid "Make your changes"
+#, no-wrap
+msgid "Make your changes\n"
 msgstr ""
 
 #. type: Plain text
@@ -295,7 +264,8 @@ msgstr ""
 
 #. type: Bullet: '3. '
 #: ../src/docs/guides/contribute/beginners.md:68
-msgid "Propose changes"
+#, no-wrap
+msgid "Propose changes\n"
 msgstr ""
 
 #. type: Plain text
@@ -324,7 +294,8 @@ msgstr ""
 
 #. type: Bullet: '4. '
 #: ../src/docs/guides/contribute/beginners.md:78
-msgid "Review changes"
+#, no-wrap
+msgid "Review changes\n"
 msgstr ""
 
 #. type: Plain text
@@ -341,7 +312,8 @@ msgstr ""
 
 #. type: Bullet: '5. '
 #: ../src/docs/guides/contribute/beginners.md:84
-msgid "Create Pull Request"
+#, no-wrap
+msgid "Create Pull Request\n"
 msgstr ""
 
 #. type: Plain text
@@ -358,7 +330,8 @@ msgstr ""
 
 #. type: Bullet: '6. '
 #: ../src/docs/guides/contribute/beginners.md:90
-msgid "Wait"
+#, no-wrap
+msgid "Wait\n"
 msgstr ""
 
 #. type: Plain text
@@ -369,17 +342,20 @@ msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/contribute/beginners.md:96
-msgid "Accept and merge your PR"
+#, no-wrap
+msgid "Accept and merge your PR\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/contribute/beginners.md:96
-msgid "Comment with feedback and ask for changes"
+#, no-wrap
+msgid "Comment with feedback and ask for changes\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/guides/contribute/beginners.md:96
-msgid "Deny your PR with explanation"
+#, no-wrap
+msgid "Deny your PR with explanation\n"
 msgstr ""
 
 #. type: Plain text

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -158,7 +158,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -185,7 +184,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Plain text
@@ -214,7 +214,8 @@ msgstr ""
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:125
 #: ../src/docs/guides/security/learning_selinux.md:289
 #: ../src/docs/guides/security/pam.md:287
-msgid "Examples:"
+#, no-wrap
+msgid "Examples:\n"
 msgstr ""
 
 #. type: Plain text
@@ -336,7 +337,8 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:394
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:154
 #: ../src/docs/guides/web/php.md:255
-msgid "Example:"
+#, no-wrap
+msgid "Example:\n"
 msgstr ""
 
 #. type: Plain text
@@ -384,7 +386,8 @@ msgstr ""
 #: ../src/docs/guides/8_6_installation.md:133
 #: ../src/docs/guides/installation.md:66 ../src/docs/guides/installation.md:138
 #: ../src/docs/guides/virtualization/vbox-rocky.md:123
-msgid "!!! Tip"
+#, no-wrap
+msgid "!!! Tip\n"
 msgstr ""
 
 #. type: Plain text
@@ -440,7 +443,8 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:243
 #: ../src/docs/guides/security/learning_selinux.md:263
 #: ../src/docs/guides/web/php.md:145
-msgid "!!! Warning"
+#, no-wrap
+msgid "!!! Warning\n"
 msgstr ""
 
 #. type: Plain text
@@ -461,9 +465,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:8
-msgid ""
-"In this chapter you will learn how to back up and restore your data with "
-"Linux."
+#, no-wrap
+msgid "In this chapter you will learn how to back up and restore your data with Linux.\n"
 msgstr ""
 
 #. type: Plain text
@@ -477,7 +480,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:18
-msgid ":checkered_flag: **backup**, **restore**, **compression**"
+#, no-wrap
+msgid ":checkered_flag: **backup**, **restore**, **compression**\n"
 msgstr ""
 
 #. type: Plain text
@@ -496,73 +500,74 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:31
-msgid ""
-"The backup will answer a need to conserve and restore data in a sure and "
-"effective way."
+#, no-wrap
+msgid "The backup will answer a need to conserve and restore data in a sure and effective way.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:33
-msgid "The backup allows you to protect yourself from the following:"
+#, no-wrap
+msgid "The backup allows you to protect yourself from the following:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:37
-msgid ""
-"**Destruction**: voluntary or involuntary. Human or technical. Virus, ..."
+#, no-wrap
+msgid "**Destruction**: voluntary or involuntary. Human or technical. Virus, ...\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:37
-msgid "**Deletion**: voluntary or involuntary. Human or technical. Virus, ..."
+#, no-wrap
+msgid "**Deletion**: voluntary or involuntary. Human or technical. Virus, ...\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:37
-msgid "**Integrity**: data becomes unusable."
+#, no-wrap
+msgid "**Integrity**: data becomes unusable.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:39
-msgid ""
-"No system is infallible, no human is infallible, so to avoid losing data, it "
-"must be backed up to be able to restore after a problem."
+#, no-wrap
+msgid "No system is infallible, no human is infallible, so to avoid losing data, it must be backed up to be able to restore after a problem.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:41
-msgid ""
-"The backup media should be kept in another room (or building) than the "
-"server so that a disaster does not destroy the server and the backups."
+#, no-wrap
+msgid "The backup media should be kept in another room (or building) than the server so that a disaster does not destroy the server and the backups.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:43
-msgid ""
-"In addition, the administrator must regularly check that the media are still "
-"readable."
+#, no-wrap
+msgid "In addition, the administrator must regularly check that the media are still readable.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:47
-msgid "There are two principles, the **backup** and the **archive**."
+#, no-wrap
+msgid "There are two principles, the **backup** and the **archive**.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:50
-msgid "The archive destroys the information source after the operation."
+#, no-wrap
+msgid "The archive destroys the information source after the operation.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:50
-msgid "The backup preserves the source of information after the operation."
+#, no-wrap
+msgid "The backup preserves the source of information after the operation.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:52
-msgid ""
-"These operations consist of saving information in a file, on a peripheral or "
-"a supported media (tapes, disks, ...)."
+#, no-wrap
+msgid "These operations consist of saving information in a file, on a peripheral or a supported media (tapes, disks, ...).\n"
 msgstr ""
 
 #. type: Title ###
@@ -573,54 +578,62 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:56
-msgid ""
-"Backups require a lot of discipline and rigor from the system administrator. "
-"It is necessary to ask the following questions:"
+#, no-wrap
+msgid "Backups require a lot of discipline and rigor from the system administrator. It is necessary to ask the following questions:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:66
-msgid "What is the appropriate medium?"
+#, no-wrap
+msgid "What is the appropriate medium?\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:66
-msgid "What should be backed up?"
+#, no-wrap
+msgid "What should be backed up?\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:66
-msgid "How many copies?"
+#, no-wrap
+msgid "How many copies?\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:66
-msgid "How long will the backup take?"
+#, no-wrap
+msgid "How long will the backup take?\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:66
-msgid "Method?"
+#, no-wrap
+msgid "Method?\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:66
-msgid "How often?"
+#, no-wrap
+msgid "How often?\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:66
-msgid "Automatic or manual?"
+#, no-wrap
+msgid "Automatic or manual?\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:66
-msgid "Where to store it?"
+#, no-wrap
+msgid "Where to store it?\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:66
-msgid "How long will it be kept?"
+#, no-wrap
+msgid "How long will it be kept?\n"
 msgstr ""
 
 #. type: Title ###
@@ -631,29 +644,26 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:73
-msgid ""
-"**Complete**: one or more **filesystems** are backed up (kernel, data, "
-"utilities, ...)."
+#, no-wrap
+msgid "**Complete**: one or more **filesystems** are backed up (kernel, data, utilities, ...).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:73
-msgid ""
-"**Partial**: one or more **files** are backed up (configurations, "
-"directories, ...)."
+#, no-wrap
+msgid "**Partial**: one or more **files** are backed up (configurations, directories, ...).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:73
-msgid ""
-"**Differential**: only files modified since the last **complete** backup are "
-"backed up."
+#, no-wrap
+msgid "**Differential**: only files modified since the last **complete** backup are backed up.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:73
-msgid ""
-"**Incremental**: only files modified since the last backup are backed up."
+#, no-wrap
+msgid "**Incremental**: only files modified since the last backup are backed up.\n"
 msgstr ""
 
 #. type: Title ###
@@ -664,12 +674,14 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:78
-msgid "**Pre-current**: at a given time (before a system update, ...)."
+#, no-wrap
+msgid "**Pre-current**: at a given time (before a system update, ...).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:78
-msgid "**Periodic**: Daily, weekly, monthly, ..."
+#, no-wrap
+msgid "**Periodic**: Daily, weekly, monthly, ...\n"
 msgstr ""
 
 #. type: Plain text
@@ -686,27 +698,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:86
-msgid ""
-"Depending on the utilities available, it will be possible to perform several "
-"types of restorations."
+#, no-wrap
+msgid "Depending on the utilities available, it will be possible to perform several types of restorations.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:89
-msgid "**Complete restoration**: trees, ..."
+#, no-wrap
+msgid "**Complete restoration**: trees, ...\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:89
-msgid "**Selective restoration**: part of tree, files, ..."
+#, no-wrap
+msgid "**Selective restoration**: part of tree, files, ...\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:91
-msgid ""
-"It is possible to restore a whole backup, but it is also possible to restore "
-"only a part of it. However, when restoring a directory, the files created "
-"after the backup are not deleted."
+#, no-wrap
+msgid "It is possible to restore a whole backup, but it is also possible to restore only a part of it. However, when restoring a directory, the files created after the backup are not deleted.\n"
 msgstr ""
 
 #. type: Plain text
@@ -723,67 +734,80 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:99
-msgid "There are many utilities to make backups."
+#, no-wrap
+msgid "There are many utilities to make backups.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:103
-msgid "**editor tools**;"
+#, no-wrap
+msgid "**editor tools**;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:103
-msgid "**graphical tools**;"
+#, no-wrap
+msgid "**graphical tools**;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:103
-msgid "**command line tools**: `tar`, `cpio`, `pax`, `dd`, `dump`, ..."
+#, no-wrap
+msgid "**command line tools**: `tar`, `cpio`, `pax`, `dd`, `dump`, ...\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:105
-msgid "The commands we will use here are `tar` and `cpio`."
+#, no-wrap
+msgid "The commands we will use here are `tar` and `cpio`.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:114
-msgid "`tar`:"
+#, no-wrap
+msgid "`tar`:\n"
 msgstr ""
 
 #. type: Bullet: '  * '
 #: ../src/docs/books/admin_guide/09-backups.md:114
-msgid "easy to use;"
+#, no-wrap
+msgid "easy to use;\n"
 msgstr ""
 
 #. type: Bullet: '  * '
 #: ../src/docs/books/admin_guide/09-backups.md:114
-msgid "allows adding files to an existing backup."
+#, no-wrap
+msgid "allows adding files to an existing backup.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:114
-msgid "`cpio`:"
+#, no-wrap
+msgid "`cpio`:\n"
 msgstr ""
 
 #. type: Bullet: '  * '
 #: ../src/docs/books/admin_guide/09-backups.md:114
-msgid "retains owners;"
+#, no-wrap
+msgid "retains owners;\n"
 msgstr ""
 
 #. type: Bullet: '  * '
 #: ../src/docs/books/admin_guide/09-backups.md:114
-msgid "retains groups, dates and rights;"
+#, no-wrap
+msgid "retains groups, dates and rights;\n"
 msgstr ""
 
 #. type: Bullet: '  * '
 #: ../src/docs/books/admin_guide/09-backups.md:114
-msgid "skips damaged files;"
+#, no-wrap
+msgid "skips damaged files;\n"
 msgstr ""
 
 #. type: Bullet: '  * '
 #: ../src/docs/books/admin_guide/09-backups.md:114
-msgid "entire file system."
+#, no-wrap
+msgid "entire file system.\n"
 msgstr ""
 
 #. type: Plain text
@@ -800,29 +824,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:122
-msgid ""
-"The use of a naming convention makes it possible to quickly target the "
-"contents of a backup file and thus avoid hazardous restorations."
+#, no-wrap
+msgid "The use of a naming convention makes it possible to quickly target the contents of a backup file and thus avoid hazardous restorations.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:127
-msgid "name of the directory;"
+#, no-wrap
+msgid "name of the directory;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:127
-msgid "utility used;"
+#, no-wrap
+msgid "utility used;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:127
-msgid "options used;"
+#, no-wrap
+msgid "options used;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:127
-msgid "date."
+#, no-wrap
+msgid "date.\n"
 msgstr ""
 
 #. type: Plain text
@@ -845,37 +872,44 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:139
-msgid "A backup generally contains the following elements:"
+#, no-wrap
+msgid "A backup generally contains the following elements:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:146
-msgid "the file;"
+#, no-wrap
+msgid "the file;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:146
-msgid "the name;"
+#, no-wrap
+msgid "the name;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:146
-msgid "the owner;"
+#, no-wrap
+msgid "the owner;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:146
-msgid "the size;"
+#, no-wrap
+msgid "the size;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:146
-msgid "the permissions;"
+#, no-wrap
+msgid "the permissions;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:146
-msgid "access date."
+#, no-wrap
+msgid "access date.\n"
 msgstr ""
 
 #. type: Plain text
@@ -892,17 +926,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:154
-msgid "There are two different storage modes:"
+#, no-wrap
+msgid "There are two different storage modes:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:157
-msgid "file on disk;"
+#, no-wrap
+msgid "file on disk;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:157
-msgid "device."
+#, no-wrap
+msgid "device.\n"
 msgstr ""
 
 #. type: Title ##
@@ -913,23 +950,21 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:161
-msgid ""
-"The `tar` command allows saving on several successive media (multi-volume "
-"options)."
+#, no-wrap
+msgid "The `tar` command allows saving on several successive media (multi-volume options).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:163
 #: ../src/docs/books/admin_guide/09-backups.md:541
-msgid "It is possible to extract all or part of a backup."
+#, no-wrap
+msgid "It is possible to extract all or part of a backup.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:165
-msgid ""
-"`tar` implicitly backs up in relative mode even if the path of the "
-"information to be backed up is mentioned in absolute mode. However, backups "
-"and restores in absolute mode are possible."
+#, no-wrap
+msgid "`tar` implicitly backs up in relative mode even if the path of the information to be backed up is mentioned in absolute mode. However, backups and restores in absolute mode are possible.\n"
 msgstr ""
 
 #. type: Title ###
@@ -940,22 +975,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:169
-msgid "The right questions to ask are:"
+#, no-wrap
+msgid "The right questions to ask are:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:173
-msgid "what: partial or complete;"
+#, no-wrap
+msgid "what: partial or complete;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:173
-msgid "where: the place where the data will be restored;"
+#, no-wrap
+msgid "where: the place where the data will be restored;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:173
-msgid "how: absolute or relative."
+#, no-wrap
+msgid "how: absolute or relative.\n"
 msgstr ""
 
 #. type: Plain text
@@ -966,10 +1005,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:179
-msgid ""
-"Restorations are usually performed after a problem has occurred that needs "
-"to be resolved quickly. A poor restoration can, in some cases, make the "
-"situation worse."
+#, no-wrap
+msgid "Restorations are usually performed after a problem has occurred that needs to be resolved quickly. A poor restoration can, in some cases, make the situation worse.\n"
 msgstr ""
 
 #. type: Title ###
@@ -980,17 +1017,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:183
-msgid ""
-"The default utility for creating backups on UNIX systems is the `tar` "
-"command. These backups can be compressed by `bzip2`, `xz`, `lzip`, `lzma`, "
-"`lzop`, `gzip`, `compress` or `zstd`."
+#, no-wrap
+msgid "The default utility for creating backups on UNIX systems is the `tar` command. These backups can be compressed by `bzip2`, `xz`, `lzip`, `lzma`, `lzop`, `gzip`, `compress` or `zstd`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:185
-msgid ""
-"`tar` allows you to extract a single file or a directory from a backup, view "
-"its contents or validate its integrity."
+#, no-wrap
+msgid "`tar` allows you to extract a single file or a directory from a backup, view its contents or validate its integrity.\n"
 msgstr ""
 
 #. type: Title ####
@@ -1001,9 +1035,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:189
-msgid ""
-"The following command estimates the size in kilobytes of a possible _tar_ "
-"file:"
+#, no-wrap
+msgid "The following command estimates the size in kilobytes of a possible _tar_ file:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1032,9 +1065,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:206
-msgid ""
-"Here is an example of a naming convention for a `tar` backup, knowing that "
-"the date is to be added to the name."
+#, no-wrap
+msgid "Here is an example of a naming convention for a `tar` backup, knowing that the date is to be added to the name.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1066,9 +1098,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:222
-msgid ""
-"Creating a non-compressed backup in relative mode is done with the `cvf` "
-"keys:"
+#, no-wrap
+msgid "Creating a non-compressed backup in relative mode is done with the `cvf` keys:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1108,9 +1139,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:247
-msgid ""
-"Creating a non-compressed backup explicitly in absolute mode is done with "
-"the `cvfP` keys:"
+#, no-wrap
+msgid "Creating a non-compressed backup explicitly in absolute mode is done with the `cvfP` keys:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1148,7 +1178,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:270
-msgid "Creating a compressed backup with `gzip` is done with the `cvfz` keys:"
+#, no-wrap
+msgid "Creating a compressed backup with `gzip` is done with the `cvfz` keys:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1186,7 +1217,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:291
-msgid "Creating a compressed backup with `bzip` is done with the keys `cvfj`:"
+#, no-wrap
+msgid "Creating a compressed backup with `bzip` is done with the keys `cvfj`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1218,23 +1250,44 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:307
-msgid ""
-"Compression, and consequently decompression, will have an impact on resource "
-"consumption (time and CPU usage)."
+#, no-wrap
+msgid "Compression, and consequently decompression, will have an impact on resource consumption (time and CPU usage).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:309
-msgid ""
-"Here is a ranking of the compression of a set of text files, from least to "
-"most efficient:"
+#, no-wrap
+msgid "Here is a ranking of the compression of a set of text files, from least to most efficient:\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/09-backups.md:315
-msgid ""
-"- compress (`.tar.Z`)  - gzip (`.tar.gz`)  - bzip2 (`.tar.bz2`)  - lzip (`."
-"tar.lz`)  - xz (`.tar.xz`)"
+#, no-wrap
+msgid "compress (`.tar.Z`)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/admin_guide/09-backups.md:315
+#, no-wrap
+msgid "gzip (`.tar.gz`)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/admin_guide/09-backups.md:315
+#, no-wrap
+msgid "bzip2 (`.tar.bz2`)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/admin_guide/09-backups.md:315
+#, no-wrap
+msgid "lzip (`.tar.lz`)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/admin_guide/09-backups.md:315
+#, no-wrap
+msgid "xz (`.tar.xz`)\n"
 msgstr ""
 
 #. type: Title ####
@@ -1245,7 +1298,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:319
-msgid "It is possible to add one or more items to an existing backup."
+#, no-wrap
+msgid "It is possible to add one or more items to an existing backup.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1256,7 +1310,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:325
-msgid "To add `/etc/passwd` to the backup `/backups/home.133.tar`:"
+#, no-wrap
+msgid "To add `/etc/passwd` to the backup `/backups/home.133.tar`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1267,8 +1322,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:331
-msgid ""
-"Adding a directory is similar. Here add `dirtoadd` to `backup_name.tar`:"
+#, no-wrap
+msgid "Adding a directory is similar. Here add `dirtoadd` to `backup_name.tar`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1324,7 +1379,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:360
-msgid "Viewing the contents of a backup without extracting it is possible."
+#, no-wrap
+msgid "Viewing the contents of a backup without extracting it is possible.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1353,9 +1409,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:378
-msgid ""
-"When the number of files in a backup becomes large, it is possible to _pipe_ "
-"the result of the `tar` command to a _pager_ (`more`, `less`, `most`, etc.):"
+#, no-wrap
+msgid "When the number of files in a backup becomes large, it is possible to _pipe_ the result of the `tar` command to a _pager_ (`more`, `less`, `most`, etc.):\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1384,9 +1439,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:394
-msgid ""
-"The integrity of a backup can be tested with the `W` key at the time of its "
-"creation:"
+#, no-wrap
+msgid "The integrity of a backup can be tested with the `W` key at the time of its creation:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1397,8 +1451,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:400
-msgid ""
-"The integrity of a backup can be tested with the key `d` after its creation:"
+#, no-wrap
+msgid "The integrity of a backup can be tested with the key `d` after its creation:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1431,9 +1485,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:421
-msgid ""
-"The `W` key is also used to compare the content of an archive against the "
-"filesystem:"
+#, no-wrap
+msgid "The `W` key is also used to compare the content of an archive against the filesystem:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1450,9 +1503,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:432
-msgid ""
-"The verification with the `W` key cannot be done with a compressed archive. "
-"The key `d` must be used:"
+#, no-wrap
+msgid "The verification with the `W` key cannot be done with a compressed archive. The key `d` must be used:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1471,14 +1523,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:441
-msgid "Extract (_untar_) a ``*.tar`` backup is done with the `xvf` keys:"
+#, no-wrap
+msgid "Extract (_untar_) a ``*.tar`` backup is done with the `xvf` keys:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:443
-msgid ""
-"Extract the `etc/exports` file from the `/savings/etc.133.tar` backup into "
-"the `etc` directory of the active directory:"
+#, no-wrap
+msgid "Extract the `etc/exports` file from the `/savings/etc.133.tar` backup into the `etc` directory of the active directory:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1489,9 +1541,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:449
-msgid ""
-"Extract all files from the compressed backup `/backups/home.133.tar.bz2` "
-"into the active directory:"
+#, no-wrap
+msgid "Extract all files from the compressed backup `/backups/home.133.tar.bz2` into the active directory:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1502,9 +1553,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:455
-msgid ""
-"Extract all files from the backup `/backups/etc.133.P.tar` to their original "
-"directory:"
+#, no-wrap
+msgid "Extract all files from the backup `/backups/etc.133.P.tar` to their original directory:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1536,8 +1586,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:472
-msgid ""
-"Extracting a _tar-gzipped_ (`*.tar.gz`) backup is done with the `xvfz` keys:"
+#, no-wrap
+msgid "Extracting a _tar-gzipped_ (`*.tar.gz`) backup is done with the `xvfz` keys:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1548,8 +1598,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:478
-msgid ""
-"Extracting a _tar-bzipped_ (`*.tar.bz2`) backup is done with the `xvfj` keys:"
+#, no-wrap
+msgid "Extracting a _tar-bzipped_ (`*.tar.bz2`) backup is done with the `xvfj` keys:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1578,9 +1628,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:494
-msgid ""
-"To extract a specific file from a _tar_ backup, specify the name of that "
-"file at the end of the `tar xvf` command."
+#, no-wrap
+msgid "To extract a specific file from a _tar_ backup, specify the name of that file at the end of the `tar xvf` command.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1591,10 +1640,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:500
-msgid ""
-"The previous command extracts only the `/path/to/file` file from the `backup."
-"tar` backup. This file will be restored to the `/path/to/` directory "
-"created, or already present, in the active directory."
+#, no-wrap
+msgid "The previous command extracts only the `/path/to/file` file from the `backup.tar` backup. This file will be restored to the `/path/to/` directory created, or already present, in the active directory.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1613,9 +1660,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:509
-msgid ""
-"To extract only one directory (including its subdirectories and files) from "
-"a backup, specify the directory name at the end of the `tar xvf` command."
+#, no-wrap
+msgid "To extract only one directory (including its subdirectories and files) from a backup, specify the directory name at the end of the `tar xvf` command.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1626,9 +1672,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:515
-msgid ""
-"To extract multiple directories, specify each of the names one after the "
-"other:"
+#, no-wrap
+msgid "To extract multiple directories, specify each of the names one after the other:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1648,14 +1693,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:525
-msgid ""
-"Specify a regular expression (_regex_) to extract the files matching the "
-"specified selection pattern."
+#, no-wrap
+msgid "Specify a regular expression (_regex_) to extract the files matching the specified selection pattern.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:527
-msgid "For example, to extract all files with the extension `.conf`:"
+#, no-wrap
+msgid "For example, to extract all files with the extension `.conf`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1666,12 +1711,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:533
-msgid "keys:"
+#, no-wrap
+msgid "keys:\n"
 msgstr ""
 
 #. type: Bullet: '  * '
 #: ../src/docs/books/admin_guide/09-backups.md:535
-msgid "**--wildcards *.conf** corresponds to files with the extension `.conf`."
+#, no-wrap
+msgid "**--wildcards *.conf** corresponds to files with the extension `.conf`.\n"
 msgstr ""
 
 #. type: Title ##
@@ -1682,43 +1729,46 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:539
-msgid ""
-"The `cpio` command allows saving on several successive media without "
-"specifying any options."
+#, no-wrap
+msgid "The `cpio` command allows saving on several successive media without specifying any options.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:544
+#, no-wrap
 msgid ""
-"There is no option, unlike the `tar` command, to backup and compress at the "
-"same time.  So, it is done in two steps: backup and compression."
+"There is no option, unlike the `tar` command, to backup and compress at the same time.\n"
+"So, it is done in two steps: backup and compression.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:546
-msgid ""
-"To perform a backup with `cpio`, you have to specify a list of files to "
-"backup."
+#, no-wrap
+msgid "To perform a backup with `cpio`, you have to specify a list of files to backup.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:548
-msgid "This list is provided with the commands `find`, `ls` or `cat`."
+#, no-wrap
+msgid "This list is provided with the commands `find`, `ls` or `cat`.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:552
-msgid "`find` : browses a tree, recursive or not;"
+#, no-wrap
+msgid "`find` : browses a tree, recursive or not;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:552
-msgid "`ls` : lists a directory, recursive or not;"
+#, no-wrap
+msgid "`ls` : lists a directory, recursive or not;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:552
-msgid "`cat` : reads a file containing the trees or files to be saved."
+#, no-wrap
+msgid "`cat` : reads a file containing the trees or files to be saved.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1741,7 +1791,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:562
-msgid "Syntax of the `cpio` command:"
+#, no-wrap
+msgid "Syntax of the `cpio` command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1752,7 +1803,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:570
-msgid "With a redirection of the output of `cpio`:"
+#, no-wrap
+msgid "With a redirection of the output of `cpio`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1763,7 +1815,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:576
-msgid "Using the name of a backup media:"
+#, no-wrap
+msgid "Using the name of a backup media:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1780,10 +1833,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:584
-msgid ""
-"Here, the `find /etc` command returns a list of files corresponding to the "
-"contents of the `/etc` directory (recursively) to the `cpio` command, which "
-"performs the backup."
+#, no-wrap
+msgid "Here, the `find /etc` command returns a list of files corresponding to the contents of the `/etc` directory (recursively) to the `cpio` command, which performs the backup.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1805,7 +1856,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:594
-msgid "Backup to a media:"
+#, no-wrap
+msgid "Backup to a media:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1816,17 +1868,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:600
-msgid "The media can be of several types:"
+#, no-wrap
+msgid "The media can be of several types:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:603
-msgid "tape drive: `/dev/rmt0`;"
+#, no-wrap
+msgid "tape drive: `/dev/rmt0`;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:603
-msgid "a partition: `/dev/sda5`, `/dev/hda5`, etc."
+#, no-wrap
+msgid "a partition: `/dev/sda5`, `/dev/hda5`, etc.\n"
 msgstr ""
 
 #. type: Title ###
@@ -1893,7 +1948,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:638
-msgid "Adding files is only possible on direct access media."
+#, no-wrap
+msgid "Adding files is only possible on direct access media.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1914,7 +1970,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:647
-msgid "Save **then** compress"
+#, no-wrap
+msgid "Save **then** compress\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1929,7 +1986,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:656
-msgid "Save **and** compress"
+#, no-wrap
+msgid "Save **and** compress\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1940,24 +1998,22 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:663
+#, no-wrap
 msgid ""
-"There is no option, unlike the `tar` command, to save and compress at the "
-"same time.  So it is done in two steps: saving and compressing."
+"There is no option, unlike the `tar` command, to save and compress at the same time.\n"
+"So it is done in two steps: saving and compressing.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:665
-msgid ""
-"The syntax of the first method is easier to understand and remember, because "
-"it is done in two steps."
+#, no-wrap
+msgid "The syntax of the first method is easier to understand and remember, because it is done in two steps.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:667
-msgid ""
-"For the first method, the backup file is automatically renamed by the `gzip` "
-"utility which adds `.gz` to the end of the file name. Similarly, the `bzip2` "
-"utility automatically adds `.bz2`."
+#, no-wrap
+msgid "For the first method, the backup file is automatically renamed by the `gzip` utility which adds `.gz` to the end of the file name. Similarly, the `bzip2` utility automatically adds `.bz2`.\n"
 msgstr ""
 
 #. type: Title ###
@@ -1968,7 +2024,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:671
-msgid "Syntax of the `cpio` command to read the contents of a _cpio_ backup:"
+#, no-wrap
+msgid "Syntax of the `cpio` command to read the contents of a _cpio_ backup:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1995,16 +2052,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:688
-msgid ""
-"After making a backup, you need to read its contents to be sure that there "
-"were no errors."
+#, no-wrap
+msgid "After making a backup, you need to read its contents to be sure that there were no errors.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:690
-msgid ""
-"In the same way, before performing a restore, you must read the contents of "
-"the backup that will be used."
+#, no-wrap
+msgid "In the same way, before performing a restore, you must read the contents of the backup that will be used.\n"
 msgstr ""
 
 #. type: Title ###
@@ -2015,7 +2070,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:694
-msgid "Syntax of the `cpio` command to restore a backup:"
+#, no-wrap
+msgid "Syntax of the `cpio` command to restore a backup:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2057,7 +2113,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:722
-msgid "Absolute restoration of an absolute backup"
+#, no-wrap
+msgid "Absolute restoration of an absolute backup\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2068,14 +2125,14 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:728
-msgid "Absolute restoration on an existing tree structure"
+#, no-wrap
+msgid "Absolute restoration on an existing tree structure\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:730
-msgid ""
-"The `u` option allows you to overwrite existing files at the location where "
-"the restore takes place."
+#, no-wrap
+msgid "The `u` option allows you to overwrite existing files at the location where the restore takes place.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2086,14 +2143,14 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:736
-msgid "Restore an absolute backup in relative mode"
+#, no-wrap
+msgid "Restore an absolute backup in relative mode\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:738
-msgid ""
-"The long option `no-absolute-filenames` allows a restoration in relative "
-"mode. Indeed the `/` at the beginning of the path will be removed."
+#, no-wrap
+msgid "The long option `no-absolute-filenames` allows a restoration in relative mode. Indeed the `/` at the beginning of the path will be removed.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2110,7 +2167,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:748
-msgid "Restore a relative backup"
+#, no-wrap
+msgid "Restore a relative backup\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2121,14 +2179,14 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:754
-msgid "Absolute restoration of a file or directory"
+#, no-wrap
+msgid "Absolute restoration of a file or directory\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:756
-msgid ""
-"The restoration of a particular file or directory requires the creation of a "
-"list file that must then be deleted."
+#, no-wrap
+msgid "The restoration of a particular file or directory requires the creation of a list file that must then be deleted.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2148,18 +2206,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:766
-msgid ""
-"Using compression at the time of a backup can have a number of drawbacks:"
+#, no-wrap
+msgid "Using compression at the time of a backup can have a number of drawbacks:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:769
-msgid "Lengthens the backup time as well as the restore time."
+#, no-wrap
+msgid "Lengthens the backup time as well as the restore time.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:769
-msgid "It makes it impossible to add files to the backup."
+#, no-wrap
+msgid "It makes it impossible to add files to the backup.\n"
 msgstr ""
 
 #. type: Plain text
@@ -2176,12 +2236,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:777
-msgid "The `gzip` command compresses data."
+#, no-wrap
+msgid "The `gzip` command compresses data.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:779
-msgid "Syntax of the `gzip` command:"
+#, no-wrap
+msgid "Syntax of the `gzip` command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2201,13 +2263,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:793
-msgid "The file receives the extension `.gz`."
+#, no-wrap
+msgid "The file receives the extension `.gz`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:795
-msgid ""
-"It keeps the same rights and the same last access and modification dates."
+#, no-wrap
+msgid "It keeps the same rights and the same last access and modification dates.\n"
 msgstr ""
 
 #. type: Title ###
@@ -2218,13 +2281,15 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:799
-msgid "The `bunzip2` command also compresses data."
+#, no-wrap
+msgid "The `bunzip2` command also compresses data.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:801
 #: ../src/docs/books/admin_guide/09-backups.md:849
-msgid "Syntax of the `bzip2` command:"
+#, no-wrap
+msgid "Syntax of the `bzip2` command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2245,14 +2310,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:815
-msgid "The file name is given the extension `.bz2`."
+#, no-wrap
+msgid "The file name is given the extension `.bz2`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:817
-msgid ""
-"Compression by `bzip2` is better than compression by `gzip` but it takes "
-"longer to execute."
+#, no-wrap
+msgid "Compression by `bzip2` is better than compression by `gzip` but it takes longer to execute.\n"
 msgstr ""
 
 #. type: Title ###
@@ -2263,12 +2328,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:821
-msgid "The `gunzip` command decompresses compressed data."
+#, no-wrap
+msgid "The `gunzip` command decompresses compressed data.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:823
-msgid "Syntax of the `gunzip` command:"
+#, no-wrap
+msgid "Syntax of the `gunzip` command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2288,28 +2355,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:837
-msgid ""
-"The file name is truncated by `gunzip` and the extension `.gz` is removed."
+#, no-wrap
+msgid "The file name is truncated by `gunzip` and the extension `.gz` is removed.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:839
-msgid "`gunzip` also decompresses files with the following extensions:"
+#, no-wrap
+msgid "`gunzip` also decompresses files with the following extensions:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:843
-msgid "`.z` ;"
+#, no-wrap
+msgid "`.z` ;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:843
-msgid "`-z` ;"
+#, no-wrap
+msgid "`-z` ;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:843
-msgid "`_z` ."
+#, no-wrap
+msgid "`_z` .\n"
 msgstr ""
 
 #. type: Title ###
@@ -2320,7 +2391,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:847
-msgid "The `bunzip2` command decompresses compressed data."
+#, no-wrap
+msgid "The `bunzip2` command decompresses compressed data.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2334,26 +2406,30 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:863
-msgid ""
-"The file name is truncated by `bunzip2` and the extension `.bz2` is removed."
+#, no-wrap
+msgid "The file name is truncated by `bunzip2` and the extension `.bz2` is removed.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/09-backups.md:865
-msgid "`bunzip2` also decompresses the file with the following extensions:"
+#, no-wrap
+msgid "`bunzip2` also decompresses the file with the following extensions:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:868
-msgid "`-bz` ;"
+#, no-wrap
+msgid "`-bz` ;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:868
-msgid "`.tbz2` ;"
+#, no-wrap
+msgid "`.tbz2` ;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/09-backups.md:868
-msgid "`tbz` ."
+#, no-wrap
+msgid "`tbz` .\n"
 msgstr ""

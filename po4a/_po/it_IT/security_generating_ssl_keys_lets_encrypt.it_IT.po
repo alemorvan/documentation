@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -143,7 +143,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -170,7 +169,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Title ###
@@ -307,7 +307,8 @@ msgstr ""
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:156
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:44
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:152
-msgid "And then:"
+#, no-wrap
+msgid "And then:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -367,59 +368,56 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:22
-msgid "Comfort with the command line"
+#, no-wrap
+msgid "Comfort with the command line\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:22
-msgid "Familiarity with securing web sites with SSL certificates is a plus"
+#, no-wrap
+msgid "Familiarity with securing web sites with SSL certificates is a plus\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:22
-msgid "Knowledge of command line text editors (this example uses _vi_)"
+#, no-wrap
+msgid "Knowledge of command line text editors (this example uses _vi_)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:22
-msgid "An already running web server open to the world on port 80 (http)"
+#, no-wrap
+msgid "An already running web server open to the world on port 80 (http)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:22
-msgid ""
-"Familiarity with _ssh_ (secure shell) and the ability to access your server "
-"with _ssh_"
+#, no-wrap
+msgid "Familiarity with _ssh_ (secure shell) and the ability to access your server with _ssh_\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:22
-msgid ""
-"All commands assume that you are either the root user or that you have used "
-"_sudo_ to gain root access."
+#, no-wrap
+msgid "All commands assume that you are either the root user or that you have used _sudo_ to gain root access.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:26
-msgid ""
-"One of the most popular ways to secure a web site, currently, is using Let's "
-"Encrypt SSL certificates, which are also free."
+#, no-wrap
+msgid "One of the most popular ways to secure a web site, currently, is using Let's Encrypt SSL certificates, which are also free.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:28
-msgid ""
-"These are actual certificates, not self-signed or snake oil, etc., so they "
-"are great for a low-budget security solution. This document will walk you "
-"through the process of installing and using Let's Encrypt certificates on a "
-"Rocky Linux web server."
+#, no-wrap
+msgid "These are actual certificates, not self-signed or snake oil, etc., so they are great for a low-budget security solution. This document will walk you through the process of installing and using Let's Encrypt certificates on a Rocky Linux web server.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:32
-msgid ""
-"To do the next steps, use _ssh_ to log into your server. If your server's "
-"fully qualified DNS name was www.myhost.com, then you would use:"
+#, no-wrap
+msgid "To do the next steps, use _ssh_ to log into your server. If your server's fully qualified DNS name was www.myhost.com, then you would use:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -430,9 +428,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:38
-msgid ""
-"Or, if you must access your server as an unprivileged user first. Use your "
-"username:"
+#, no-wrap
+msgid "Or, if you must access your server as an unprivileged user first. Use your username:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -443,23 +440,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:50
-msgid ""
-"You will need your _sudo_ user's credentials in this case to gain access to "
-"the system as root."
+#, no-wrap
+msgid "You will need your _sudo_ user's credentials in this case to gain access to the system as root.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:52
-msgid ""
-"Let's Encrypt uses a package called _certbot_ which needs to be installed "
-"via the EPEL repositories. Add those first:"
+#, no-wrap
+msgid "Let's Encrypt uses a package called _certbot_ which needs to be installed via the EPEL repositories. Add those first:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:58
-msgid ""
-"Then, just install the appropriate packages, depending on whether you're "
-"using Apache or Nginx as your web server. For Apache that's:"
+#, no-wrap
+msgid "Then, just install the appropriate packages, depending on whether you're using Apache or Nginx as your web server. For Apache that's:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -470,12 +464,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:64
-msgid "For Nginx, just change out one... partial word?"
+#, no-wrap
+msgid "For Nginx, just change out one... partial word?\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:70
-msgid "You can always install both server modules if necessary, of course."
+#, no-wrap
+msgid "You can always install both server modules if necessary, of course.\n"
 msgstr ""
 
 #. type: Plain text
@@ -492,22 +488,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:79
-msgid ""
-"There are two ways to retrieve your Let's Encrypt certificate, either using "
-"the command to modify the http configuration file for you, or to just "
-"retrieve the certificate. If you are using the procedure for a multi-site "
-"setup suggested for one or more sites in the procedure [Apache Web Server "
-"Multi-Site Setup](../web/apache-sites-enabled.md), then you will only want "
-"to retrieve your certificate."
+#, no-wrap
+msgid "There are two ways to retrieve your Let's Encrypt certificate, either using the command to modify the http configuration file for you, or to just retrieve the certificate. If you are using the procedure for a multi-site setup suggested for one or more sites in the procedure [Apache Web Server Multi-Site Setup](../web/apache-sites-enabled.md), then you will only want to retrieve your certificate.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:81
-msgid ""
-"We are assuming that you **are** using this procedure so we will only "
-"retrieve the certificate. If you are running a standalone web server using "
-"the default configuration, you can retrieve the certificate and modify the "
-"configuration file in one step using:"
+#, no-wrap
+msgid "We are assuming that you **are** using this procedure so we will only retrieve the certificate. If you are running a standalone web server using the default configuration, you can retrieve the certificate and modify the configuration file in one step using:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -518,10 +506,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:87
-msgid ""
-"That's really the easiest way to get things done. However, sometimes you "
-"want to take a more manual approach, and just want to grab the certificate. "
-"To retrieve the certificate only, use this command:"
+#, no-wrap
+msgid "That's really the easiest way to get things done. However, sometimes you want to take a more manual approach, and just want to grab the certificate. To retrieve the certificate only, use this command:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -532,9 +518,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:93
-msgid ""
-"Both commands will generate a set of prompts that you will need to answer. "
-"The first is to give an email address for important information:"
+#, no-wrap
+msgid "Both commands will generate a set of prompts that you will need to answer. The first is to give an email address for important information:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -549,9 +534,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:102
-msgid ""
-"The next asks you to read and accept the terms of the subscriber agreement. "
-"Once you have read the agreement answer 'Y' to continue:"
+#, no-wrap
+msgid "The next asks you to read and accept the terms of the subscriber agreement. Once you have read the agreement answer 'Y' to continue:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -568,9 +552,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:113
-msgid ""
-"The next is a request to share your email with the Electronic Frontier "
-"Foundation. Answer 'Y' or 'N' as is your preference:"
+#, no-wrap
+msgid "The next is a request to share your email with the Electronic Frontier Foundation. Answer 'Y' or 'N' as is your preference:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -589,11 +572,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:126
-msgid ""
-"The next prompt asks you which domain you want the certificate for. It "
-"should display a domain in the listing based on your running web server. If "
-"so, enter the number next to the domain that you are getting the certificate "
-"for. In this case there is only one option ('1'):"
+#, no-wrap
+msgid "The next prompt asks you which domain you want the certificate for. It should display a domain in the listing based on your running web server. If so, enter the number next to the domain that you are getting the certificate for. In this case there is only one option ('1'):\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -610,7 +590,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:137
-msgid "If all goes well, you should receive the following message:"
+#, no-wrap
+msgid "If all goes well, you should receive the following message:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -647,20 +628,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:164
-msgid ""
-"Applying the configuration file to our site is slightly different than if we "
-"were using a purchased SSL certificate from another provider (and if we "
-"didn't let _certbot_ do it automatically)."
+#, no-wrap
+msgid "Applying the configuration file to our site is slightly different than if we were using a purchased SSL certificate from another provider (and if we didn't let _certbot_ do it automatically).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:166
-msgid ""
-"The certificate and chain file are included in a single PEM (Privacy "
-"Enhanced Mail) file. This is a common format for all certificate files now, "
-"so even though it has \"Mail\" in the reference, it is just a type of "
-"certificate file. To illustrate the configuration file, we will show it in "
-"it's entirety and then describe what is happening:"
+#, no-wrap
+msgid "The certificate and chain file are included in a single PEM (Privacy Enhanced Mail) file. This is a common format for all certificate files now, so even though it has \"Mail\" in the reference, it is just a type of certificate file. To illustrate the configuration file, we will show it in it's entirety and then describe what is happening:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -708,72 +683,56 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:208
-msgid ""
-"Here's what's happening above. You may want to review the [Apache Web Server "
-"Multi-Site Setup](../web/apache-sites-enabled.md) to see the differences in "
-"the application of an SSL purchased from another provider and the Let's "
-"Encrypt certificate:"
+#, no-wrap
+msgid "Here's what's happening above. You may want to review the [Apache Web Server Multi-Site Setup](../web/apache-sites-enabled.md) to see the differences in the application of an SSL purchased from another provider and the Let's Encrypt certificate:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:216
-msgid ""
-"Even though port 80 (standard http) is listening, we are redirecting all "
-"traffic to port 443 (https)"
+#, no-wrap
+msgid "Even though port 80 (standard http) is listening, we are redirecting all traffic to port 443 (https)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:216
-msgid "SSLEngine on - simply says to use SSL"
+#, no-wrap
+msgid "SSLEngine on - simply says to use SSL\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:216
-msgid ""
-"SSLProtocol all -SSLv2 -SSLv3 -TLSv1 - says to use all available protocols, "
-"except those that have been found to have vulnerabilities. You should "
-"research periodically which protocols are currently acceptable for use."
+#, no-wrap
+msgid "SSLProtocol all -SSLv2 -SSLv3 -TLSv1 - says to use all available protocols, except those that have been found to have vulnerabilities. You should research periodically which protocols are currently acceptable for use.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:216
-msgid ""
-"SSLHonorCipherOrder on - this deals with the next line regarding the cipher "
-"suites, and says to deal with them in the order that they are given. This is "
-"another area where you should review the cipher suites that you want to "
-"include periodically"
+#, no-wrap
+msgid "SSLHonorCipherOrder on - this deals with the next line regarding the cipher suites, and says to deal with them in the order that they are given. This is another area where you should review the cipher suites that you want to include periodically\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:216
-msgid ""
-"SSLCertificateFile - this is the PEM file, that contains the site "
-"certificate **AND** the intermediate certificate. We still need the "
-"'SSLCertificateChainFile' line in our configuration, but it will simply "
-"specify the same PEM file again."
+#, no-wrap
+msgid "SSLCertificateFile - this is the PEM file, that contains the site certificate **AND** the intermediate certificate. We still need the 'SSLCertificateChainFile' line in our configuration, but it will simply specify the same PEM file again.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:216
-msgid ""
-"SSLCertificateKeyFile - the PEM file for the private key, generated with the "
-"_certbot_ request."
+#, no-wrap
+msgid "SSLCertificateKeyFile - the PEM file for the private key, generated with the _certbot_ request.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:216
-msgid ""
-"SSLCertificateChainFile - the certificate from your certificate provider, "
-"often called the intermediate certificate, in this case exactly like the "
-"'SSLCertificateFile' location above."
+#, no-wrap
+msgid "SSLCertificateChainFile - the certificate from your certificate provider, often called the intermediate certificate, in this case exactly like the 'SSLCertificateFile' location above.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:218
-msgid ""
-"Once you have made all of your changes, simply restart _httpd_ and if it "
-"starts test your site to make sure you now have a valid certificate file "
-"showing. If so, you are ready to move on to the next step: automation."
+#, no-wrap
+msgid "Once you have made all of your changes, simply restart _httpd_ and if it starts test your site to make sure you now have a valid certificate file showing. If so, you are ready to move on to the next step: automation.\n"
 msgstr ""
 
 #. type: Title ##
@@ -784,48 +743,44 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:222
-msgid ""
-"A quick note: using _certbot_ with Nginx is pretty much the same as with "
-"Apache. Here's the short, short version of the guide:"
+#, no-wrap
+msgid "A quick note: using _certbot_ with Nginx is pretty much the same as with Apache. Here's the short, short version of the guide:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:224
-msgid "Run this command to get started:"
+#, no-wrap
+msgid "Run this command to get started:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:230
-msgid ""
-"You'll be asked a couple of questions as shown above, including your email "
-"address, and which site you want to get a certificate for. Assuming you have "
-"at least one site configured (with a domain name pointing at the server), "
-"you'll see a list like this:"
+#, no-wrap
+msgid "You'll be asked a couple of questions as shown above, including your email address, and which site you want to get a certificate for. Assuming you have at least one site configured (with a domain name pointing at the server), you'll see a list like this:\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:231
-msgid "yourwebsite.com"
+#, no-wrap
+msgid "yourwebsite.com\n"
 msgstr ""
 
 #. type: Bullet: '2. '
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:231
-msgid "subdomain.yourwebsite.com"
+#, no-wrap
+msgid "subdomain.yourwebsite.com\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:237
-msgid ""
-"If you have more than one site, just press the number that corresponds to "
-"the site you want a certificate for."
+#, no-wrap
+msgid "If you have more than one site, just press the number that corresponds to the site you want a certificate for.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:239
-msgid ""
-"The rest of the text you'll see is awful similar to what's above. The "
-"results will be a bit different, of course. If you have a dead-simple Nginx "
-"configuration file that looks like this:"
+#, no-wrap
+msgid "The rest of the text you'll see is awful similar to what's above. The results will be a bit different, of course. If you have a dead-simple Nginx configuration file that looks like this:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -848,7 +803,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:256
-msgid "After _certbot_ gets through with it, it'll look like a bit this:"
+#, no-wrap
+msgid "After _certbot_ gets through with it, it'll look like a bit this:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -886,15 +842,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:288
-msgid ""
-"Depending on a couple of things (for example, if you're using Nginx as a "
-"reverse proxy), you may need to dive into the new configuration file to fix "
-"up a few things that _certbot_ won't handle perfectly on its own."
+#, no-wrap
+msgid "Depending on a couple of things (for example, if you're using Nginx as a reverse proxy), you may need to dive into the new configuration file to fix up a few things that _certbot_ won't handle perfectly on its own.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:290
-msgid "Or write your own configuration file the hard way."
+#, no-wrap
+msgid "Or write your own configuration file the hard way.\n"
 msgstr ""
 
 #. type: Title ##
@@ -905,10 +860,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:293
-msgid ""
-"The beauty of installing _certbot_ is that the Let's Encrypt certificate "
-"will be automatically renewed. There is no need to create a process to do "
-"this. We do need to test the renewal with:"
+#, no-wrap
+msgid "The beauty of installing _certbot_ is that the Let's Encrypt certificate will be automatically renewed. There is no need to create a process to do this. We do need to test the renewal with:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -919,9 +872,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:299
-msgid ""
-"When you run this command, you'll get a nice output showing the renewal "
-"process:"
+#, no-wrap
+msgid "When you run this command, you'll get a nice output showing the renewal process:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -955,31 +907,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:327
-msgid ""
-"The command to renew _certbot_ can be found using one of the following "
-"methods:"
+#, no-wrap
+msgid "The command to renew _certbot_ can be found using one of the following methods:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:331
-msgid "By listing the contents of `/etc/crontab/`"
+#, no-wrap
+msgid "By listing the contents of `/etc/crontab/`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:331
-msgid "By listing the contents of `/etc/cron.*/*`"
+#, no-wrap
+msgid "By listing the contents of `/etc/cron.*/*`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:331
-msgid "By running `systemctl list-timers`"
+#, no-wrap
+msgid "By running `systemctl list-timers`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:333
-msgid ""
-"In this example, we are using the last option and we can see that _certbot_ "
-"exists and that it was installed with the `snap` procedure:"
+#, no-wrap
+msgid "In this example, we are using the last option and we can see that _certbot_ exists and that it was installed with the `snap` procedure:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -992,16 +945,12 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:342
-msgid ""
-"Let's Encrypt SSL certificates are yet another option for securing your web "
-"site with an SSL. Once installed, the system provides automatic renewal of "
-"certificates and will encrypt traffic to your web site."
+#, no-wrap
+msgid "Let's Encrypt SSL certificates are yet another option for securing your web site with an SSL. Once installed, the system provides automatic renewal of certificates and will encrypt traffic to your web site.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:343
-msgid ""
-"It should be noted that Let's Encrypt certificates are used for standard DV "
-"(Domain Validation) certificates. They cannot be used for OV (Organization "
-"Validation) or EV (Extended Validation) certificates."
+#, no-wrap
+msgid "It should be noted that Let's Encrypt certificates are used for standard DV (Domain Validation) certificates. They cannot be used for OV (Organization Validation) or EV (Extended Validation) certificates.\n"
 msgstr ""

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -125,19 +125,20 @@ msgstr ""
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/anacron.md:15
 #: ../src/docs/guides/automation/cronie.md:14
-msgid "A computer running Rocky Linux."
+#, no-wrap
+msgid "A computer running Rocky Linux.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/anacron.md:15
-msgid ""
-"Know how to use your favorite editor to change the configuration file (such "
-"as *vim*) in the command line environment."
+#, no-wrap
+msgid "Know how to use your favorite editor to change the configuration file (such as *vim*) in the command line environment.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/anacron.md:15
-msgid "Understand basic RPM package management."
+#, no-wrap
+msgid "Understand basic RPM package management.\n"
 msgstr ""
 
 #. type: Title ##
@@ -150,14 +151,14 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/anacron.md:20
-msgid ""
-"You have understood the basic knowledge of bash, python or other scripting "
-"or programming tools, and want to run the script automatically."
+#, no-wrap
+msgid "You have understood the basic knowledge of bash, python or other scripting or programming tools, and want to run the script automatically.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/anacron.md:20
-msgid "You connected in as the root user, or switch to root with `su - root`."
+#, no-wrap
+msgid "You connected in as the root user, or switch to root with `su - root`.\n"
 msgstr ""
 
 #. type: Title ##
@@ -174,14 +175,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/anacron.md:26
-msgid ""
-"The appearance of `anacron` is not to replace `crontab`, but to complement "
-"`crontab`. Their relationship is as follows:"
+#, no-wrap
+msgid "The appearance of `anacron` is not to replace `crontab`, but to complement `crontab`. Their relationship is as follows:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/anacron.md:28
-msgid "![ Relations ](../images/anacron_01.png)"
+#, no-wrap
+msgid "![ Relations ](../images/anacron_01.png)\n"
 msgstr ""
 
 #. type: Title ##
@@ -211,7 +212,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/anacron.md:48
-msgid "First check the default configuration file:"
+#, no-wrap
+msgid "First check the default configuration file:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -274,9 +276,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/anacron.md:93
-msgid ""
-"For more configuration file information, please [Browse the manual page]"
-"(https://man7.org/linux/man-pages/man5/anacrontab.5.html)"
+#, no-wrap
+msgid "For more configuration file information, please [Browse the manual page](https://man7.org/linux/man-pages/man5/anacrontab.5.html)\n"
 msgstr ""
 
 #. type: Title ##
@@ -287,51 +288,44 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/anacron.md:97
-msgid ""
-"To make certain files run within these automatically defined times, all you "
-"need to do is to copy the script file to the relevant directory and verify "
-"that it has ** x execution permission (chmod +x) ** . Therefore, you only "
-"need to let the system automatically run the script at one of these "
-"scheduled times, which simplifies the automation task."
+#, no-wrap
+msgid "To make certain files run within these automatically defined times, all you need to do is to copy the script file to the relevant directory and verify that it has ** x execution permission (chmod +x) ** . Therefore, you only need to let the system automatically run the script at one of these scheduled times, which simplifies the automation task.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/anacron.md:99
-msgid "Let us use cron.daily to illustrate the run process of /etc/anacrontab:"
+#, no-wrap
+msgid "Let us use cron.daily to illustrate the run process of /etc/anacrontab:\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/guides/automation/anacron.md:105
-msgid ""
-"`anacron` reads the ** /var/spool/anacron/cron.daily ** file, and the "
-"content of the file shows the time of the last run."
+#, no-wrap
+msgid "`anacron` reads the ** /var/spool/anacron/cron.daily ** file, and the content of the file shows the time of the last run.\n"
 msgstr ""
 
 #. type: Bullet: '2. '
 #: ../src/docs/guides/automation/anacron.md:105
-msgid ""
-"Compared with the current time, if the difference between the two times "
-"exceeds 1 day, the cron.daily job will run."
+#, no-wrap
+msgid "Compared with the current time, if the difference between the two times exceeds 1 day, the cron.daily job will run.\n"
 msgstr ""
 
 #. type: Bullet: '3. '
 #: ../src/docs/guides/automation/anacron.md:105
-msgid "This work can only run from 03:00-22:00."
+#, no-wrap
+msgid "This work can only run from 03:00-22:00.\n"
 msgstr ""
 
 #. type: Bullet: '4. '
 #: ../src/docs/guides/automation/anacron.md:105
-msgid ""
-"Verify whether a file runs after 5 minutes after booting. When the first one "
-"runs, it will be randomly delayed for 0～45 minutes to run the next one."
+#, no-wrap
+msgid "Verify whether a file runs after 5 minutes after booting. When the first one runs, it will be randomly delayed for 0～45 minutes to run the next one.\n"
 msgstr ""
 
 #. type: Bullet: '5. '
 #: ../src/docs/guides/automation/anacron.md:105
-msgid ""
-"Use the nice parameter to specify the default priority, and use the run-"
-"parts parameter to run all executable files in the /etc/cron.daily/ "
-"directory."
+#, no-wrap
+msgid "Use the nice parameter to specify the default priority, and use the run-parts parameter to run all executable files in the /etc/cron.daily/ directory.\n"
 msgstr ""
 
 #. type: Title ##
@@ -342,21 +336,23 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/anacron.md:109
-msgid "Use the command `anacron`, commonly used options are:"
+#, no-wrap
+msgid "Use the command `anacron`, commonly used options are:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/anacron.md:115
+#, no-wrap
 msgid ""
-"| Options | Description | | --- | --- | | -f | Run all jobs, ignoring "
-"timestamps | | -u | Update the timestamp to the current time without "
-"performing any action | | -T | Test the validity of the configuration file /"
-"etc/anacrontab |"
+"| Options | Description |\n"
+"| --- | --- |\n"
+"| -f | Run all jobs, ignoring timestamps |\n"
+"| -u | Update the timestamp to the current time without performing any action |\n"
+"| -T | Test the validity of the configuration file /etc/anacrontab |\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/anacron.md:116
-msgid ""
-"For more help information, [browse the manual page](https://man7.org/linux/"
-"man-pages/man8/anacron.8.html)"
+#, no-wrap
+msgid "For more help information, [browse the manual page](https://man7.org/linux/man-pages/man8/anacron.8.html)\n"
 msgstr ""

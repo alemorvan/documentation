@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -143,7 +143,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -170,7 +169,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Title #
@@ -254,7 +254,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/guides/cms/dokuwiki_server.md:148
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:415
-msgid "`sudo vi /etc/hosts`"
+#, no-wrap
+msgid "`sudo vi /etc/hosts`\n"
 msgstr ""
 
 #. type: Title ##
@@ -293,76 +294,62 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:12
-msgid ""
-"HAProxy stands for \"High Availability Proxy.\" This proxy can sit in front "
-"of any TCP application (such as web servers), but it is often used to act as "
-"a load-balancer between multiple instances of a website."
+#, no-wrap
+msgid "HAProxy stands for \"High Availability Proxy.\" This proxy can sit in front of any TCP application (such as web servers), but it is often used to act as a load-balancer between multiple instances of a website.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:14
-msgid ""
-"There might be a number of reasons for doing this. If you have a website "
-"that is being hit hard — adding another instance of that same website and "
-"placing HAProxy in front of both — allows you to distribute traffic between "
-"instances. Another reason might be to be able to update content on a website "
-"without any down time. HAProxy can also help mitigate DOS and DDOS attacks."
+#, no-wrap
+msgid "There might be a number of reasons for doing this. If you have a website that is being hit hard — adding another instance of that same website and placing HAProxy in front of both — allows you to distribute traffic between instances. Another reason might be to be able to update content on a website without any down time. HAProxy can also help mitigate DOS and DDOS attacks.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:16
-msgid ""
-"This guide is going to explore using HAProxy using two website instances, "
-"and load-balancing with round robin rotation, on the same LXD host. This "
-"might be a perfectly fine solution for ensuring that updates can be "
-"performed without downtime."
+#, no-wrap
+msgid "This guide is going to explore using HAProxy using two website instances, and load-balancing with round robin rotation, on the same LXD host. This might be a perfectly fine solution for ensuring that updates can be performed without downtime.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:18
-msgid ""
-"If your problem is website performance, however, you may need to distribute "
-"your multiple sites across actual bare metal or between multiple LXD hosts. "
-"It is certainly possible to do all of this on bare metal without using LXD "
-"at all, however LXD offers great flexibility and performance, plus it is "
-"great to use for lab testing."
+#, no-wrap
+msgid "If your problem is website performance, however, you may need to distribute your multiple sites across actual bare metal or between multiple LXD hosts. It is certainly possible to do all of this on bare metal without using LXD at all, however LXD offers great flexibility and performance, plus it is great to use for lab testing.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:27
-msgid "Complete comfort at the command line on a Linux machine"
+#, no-wrap
+msgid "Complete comfort at the command line on a Linux machine\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:27
-msgid "Experience with a command line editor (we are using `vim` here)"
+#, no-wrap
+msgid "Experience with a command line editor (we are using `vim` here)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:27
-msgid "Experience with `crontab`"
+#, no-wrap
+msgid "Experience with `crontab`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:27
-msgid ""
-"Knowledge of LXD. For more information, you may want to consult the [LXD "
-"Server](../../books/lxd_server/00-toc.md) document. It is perfectly fine to "
-"install LXD on a laptop or workstation as well without doing the full-blown "
-"server install. This document is being written with a lab machine that is "
-"running LXD, but is not set up as a full server as the document linked above "
-"uses."
+#, no-wrap
+msgid "Knowledge of LXD. For more information, you may want to consult the [LXD Server](../../books/lxd_server/00-toc.md) document. It is perfectly fine to install LXD on a laptop or workstation as well without doing the full-blown server install. This document is being written with a lab machine that is running LXD, but is not set up as a full server as the document linked above uses.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:27
-msgid "Some knowledge on installing, configuring, and using web servers."
+#, no-wrap
+msgid "Some knowledge on installing, configuring, and using web servers.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:27
-msgid ""
-"We will assume that LXD is already installed and ready to create containers."
+#, no-wrap
+msgid "We will assume that LXD is already installed and ready to create containers.\n"
 msgstr ""
 
 #. type: Title ##
@@ -373,11 +360,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:31
-msgid ""
-"On your LXD host for this guide, we will need three containers. Obviously, "
-"there could be more web server containers if you wish. We will use **web1** "
-"and **web2** for our website containers and **proxyha** for our HAProxy "
-"container. To install these on your LXD host do:"
+#, no-wrap
+msgid "On your LXD host for this guide, we will need three containers. Obviously, there could be more web server containers if you wish. We will use **web1** and **web2** for our website containers and **proxyha** for our HAProxy container. To install these on your LXD host do:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -391,7 +375,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:38
-msgid "Running an `lxc list` should return something like this:"
+#, no-wrap
+msgid "Running an `lxc list` should return something like this:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -417,41 +402,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:54
-msgid ""
-"The containers are currently running on the default bridge interface with "
-"bridge assigned DHCP addresses. We are going to want to use DHCP addresses "
-"from our local LAN, so the first thing we need to do is to create and assign "
-"the `macvlan` profile."
+#, no-wrap
+msgid "The containers are currently running on the default bridge interface with bridge assigned DHCP addresses. We are going to want to use DHCP addresses from our local LAN, so the first thing we need to do is to create and assign the `macvlan` profile.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:56
-msgid "Start by creating the profile:"
+#, no-wrap
+msgid "Start by creating the profile:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:58
-msgid "`lxc profile create macvlan`"
+#, no-wrap
+msgid "`lxc profile create macvlan`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:60
-msgid ""
-"Make sure that your editor is set to your preferred editor, in this case "
-"`vim`:"
+#, no-wrap
+msgid "Make sure that your editor is set to your preferred editor, in this case `vim`:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:62
-msgid "`export EDITOR=/usr/bin/vim`"
+#, no-wrap
+msgid "`export EDITOR=/usr/bin/vim`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:64
-msgid ""
-"Next we need to modify the `macvlan` profile. But before we do, we need to "
-"know what interface the host is using for our LAN so run `ip addr` and look "
-"for the interface with the LAN IP assignment:"
+#, no-wrap
+msgid "Next we need to modify the `macvlan` profile. But before we do, we need to know what interface the host is using for our LAN so run `ip addr` and look for the interface with the LAN IP assignment:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -471,22 +453,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:75
-msgid ""
-"Now that we know the LAN interface, we can modify our `macvlan` profile. To "
-"do this, at the command line type:"
+#, no-wrap
+msgid "Now that we know the LAN interface, we can modify our `macvlan` profile. To do this, at the command line type:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:77
-msgid "`lxc profile edit macvlan`"
+#, no-wrap
+msgid "`lxc profile edit macvlan`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:79
-msgid ""
-"We need to make our profile look something like this. We've excluded the "
-"comments at the top of the file, but if you are new to LXD, take a look at "
-"those:"
+#, no-wrap
+msgid "We need to make our profile look something like this. We've excluded the comments at the top of the file, but if you are new to LXD, take a look at those:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -506,16 +486,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:93
-msgid ""
-"What happened when we created the `macvlan` profile is that the `default` "
-"profile was copied. The `default` profile cannot be changed."
+#, no-wrap
+msgid "What happened when we created the `macvlan` profile is that the `default` profile was copied. The `default` profile cannot be changed.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:95
-msgid ""
-"Now that we have the `macvlan` profile, we need to apply it to our three "
-"containers:"
+#, no-wrap
+msgid "Now that we have the `macvlan` profile, we need to apply it to our three containers:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -529,65 +507,68 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:103
-msgid ""
-"Unfortunately, the default behavior of `macvlan` as implemented in the "
-"kernel, is inexplicably broken within an LXD container (see [this document]"
-"(../../books/lxd_server/06-profiles.md)) `dhclient` on boot in each of the "
-"containers."
+#, no-wrap
+msgid "Unfortunately, the default behavior of `macvlan` as implemented in the kernel, is inexplicably broken within an LXD container (see [this document](../../books/lxd_server/06-profiles.md)) `dhclient` on boot in each of the containers.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:105
-msgid ""
-"Doing this is pretty simple when using DHCP. Just follow this for each "
-"container:"
+#, no-wrap
+msgid "Doing this is pretty simple when using DHCP. Just follow this for each container:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:113
-msgid ""
-"`lxc exec web1 bash` which will put you at the command line of the **web1** "
-"container"
+#, no-wrap
+msgid "`lxc exec web1 bash` which will put you at the command line of the **web1** container\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:113
-msgid "`crontab -e` which will edit root's `crontab` on the container"
+#, no-wrap
+msgid "`crontab -e` which will edit root's `crontab` on the container\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:113
-msgid "type `i` to get into insert mode."
+#, no-wrap
+msgid "type `i` to get into insert mode.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:113
-msgid "add a line: `@reboot /usr/sbin/dhclient`"
+#, no-wrap
+msgid "add a line: `@reboot /usr/sbin/dhclient`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:113
-msgid "hit the `ESC` key to exit out of insert mode."
+#, no-wrap
+msgid "hit the `ESC` key to exit out of insert mode.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:113
-msgid "save your changes with `SHIFT: wq`"
+#, no-wrap
+msgid "save your changes with `SHIFT: wq`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:113
-msgid "type `exit` to exit container"
+#, no-wrap
+msgid "type `exit` to exit container\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:115
-msgid "Repeat steps for **web2** and **proxyha**."
+#, no-wrap
+msgid "Repeat steps for **web2** and **proxyha**.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:117
-msgid "Once these steps are completed, restart the containers:"
+#, no-wrap
+msgid "Once these steps are completed, restart the containers:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -601,9 +582,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:125
-msgid ""
-"and when you do an `lxc list` again, you should see that the DHCP addresses "
-"are now assigned from your LAN:"
+#, no-wrap
+msgid "and when you do an `lxc list` again, you should see that the DHCP addresses are now assigned from your LAN:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -629,9 +609,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:141
-msgid ""
-"Now that our environment is set, we need to install Apache (`httpd`) on each "
-"web container. This can done without physically accessing them:"
+#, no-wrap
+msgid "Now that our environment is set, we need to install Apache (`httpd`) on each web container. This can done without physically accessing them:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -644,22 +623,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:147
-msgid ""
-"While it is understood that you will need a whole lot more than Apache for "
-"any modern web server, this is enough to run some tests."
+#, no-wrap
+msgid "While it is understood that you will need a whole lot more than Apache for any modern web server, this is enough to run some tests.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:149
-msgid ""
-"Next, we need to enable `httpd`, start it, and then modify the default "
-"welcome screen, so we know which server we are hitting when we attempt to "
-"access via proxy."
+#, no-wrap
+msgid "Next, we need to enable `httpd`, start it, and then modify the default welcome screen, so we know which server we are hitting when we attempt to access via proxy.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:151
-msgid "Enable and start `httpd`:"
+#, no-wrap
+msgid "Enable and start `httpd`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -674,18 +651,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:160
-msgid ""
-"Now that we have `httpd` enabled and started, let's modify the welcome "
-"screen. This is the screen that comes up when there is no website "
-"configured, essentially a default page that loads. In Rocky Linux, this page "
-"is located here `/usr/share/httpd/noindex/index.html`. To modify that file, "
-"again, there's no need for direct access to the container. Simply do the "
-"following:"
+#, no-wrap
+msgid "Now that we have `httpd` enabled and started, let's modify the welcome screen. This is the screen that comes up when there is no website configured, essentially a default page that loads. In Rocky Linux, this page is located here `/usr/share/httpd/noindex/index.html`. To modify that file, again, there's no need for direct access to the container. Simply do the following:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:162
-msgid "`lxc exec web1 vi /usr/share/httpd/noindex/index.html`"
+#, no-wrap
+msgid "`lxc exec web1 vi /usr/share/httpd/noindex/index.html`\n"
 msgstr ""
 
 #. type: Plain text
@@ -702,7 +675,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:168
-msgid "Simply change that line to read:"
+#, no-wrap
+msgid "Simply change that line to read:\n"
 msgstr ""
 
 #. type: Plain text
@@ -713,10 +687,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:172
-msgid ""
-"Now repeat the process for web2. Going to these machines by IP in a browser "
-"should now return the correct welcome page for each. There's more to do on "
-"the web servers, but let's leave them and go on to the proxy server next."
+#, no-wrap
+msgid "Now repeat the process for web2. Going to these machines by IP in a browser should now return the correct welcome page for each. There's more to do on the web servers, but let's leave them and go on to the proxy server next.\n"
 msgstr ""
 
 #. type: Title ##
@@ -727,22 +699,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:176
-msgid ""
-"It is just as easy to install HAProxy on the proxy container as well. Again, "
-"no need to access that container directly:"
+#, no-wrap
+msgid "It is just as easy to install HAProxy on the proxy container as well. Again, no need to access that container directly:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:178
-msgid "`lxc exec proxyha dnf install haproxy`"
+#, no-wrap
+msgid "`lxc exec proxyha dnf install haproxy`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:180
-msgid ""
-"The next thing we want to do is configure `haproxy` to listen on port 80 and "
-"port 443 for the web services. This is done with the configure sub-command "
-"of `lxc`:"
+#, no-wrap
+msgid "The next thing we want to do is configure `haproxy` to listen on port 80 and port 443 for the web services. This is done with the configure sub-command of `lxc`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -755,11 +725,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:186
-msgid ""
-"For our testing, we are only going to use port 80, or HTTP traffic, but this "
-"shows you how you would configure the container to listen on the default web "
-"ports for both HTTP and HTTPS. Using this command also ensures that "
-"restarting the **proxyha** container will maintain those listening ports."
+#, no-wrap
+msgid "For our testing, we are only going to use port 80, or HTTP traffic, but this shows you how you would configure the container to listen on the default web ports for both HTTP and HTTPS. Using this command also ensures that restarting the **proxyha** container will maintain those listening ports.\n"
 msgstr ""
 
 #. type: Title ##
@@ -770,23 +737,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:190
-msgid ""
-"We've already installed HAProxy on the container, but we have done nothing "
-"with the configuration. Before we do anything, we need to do something to "
-"resolve our hosts. Normally we would be using fully-qualified domain names, "
-"but in this lab environment, we are just using IPs. To get some names "
-"associated with the machines, we are going to add some host file records to "
-"the **proxyha** container."
+#, no-wrap
+msgid "We've already installed HAProxy on the container, but we have done nothing with the configuration. Before we do anything, we need to do something to resolve our hosts. Normally we would be using fully-qualified domain names, but in this lab environment, we are just using IPs. To get some names associated with the machines, we are going to add some host file records to the **proxyha** container.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:192
-msgid "`lxc exec proxyha vi /etc/hosts`"
+#, no-wrap
+msgid "`lxc exec proxyha vi /etc/hosts`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:194
-msgid "Add the following records to the bottom of the file:"
+#, no-wrap
+msgid "Add the following records to the bottom of the file:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -799,39 +763,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:201
-msgid "Which should allow the **proxyha** container to resolve those names."
+#, no-wrap
+msgid "Which should allow the **proxyha** container to resolve those names.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:203
-msgid ""
-"Once that is complete, let's edit the `haproxy.cfg` file. There is so much "
-"in the original file that we are not going to be using, that we are simply "
-"going to make a backup of it first by moving it to a different name:"
+#, no-wrap
+msgid "Once that is complete, let's edit the `haproxy.cfg` file. There is so much in the original file that we are not going to be using, that we are simply going to make a backup of it first by moving it to a different name:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:205
-msgid ""
-"`lxc exec proxyha mv /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.orig`"
+#, no-wrap
+msgid "`lxc exec proxyha mv /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.orig`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:207
-msgid "Now let's create a new configuration file:"
+#, no-wrap
+msgid "Now let's create a new configuration file:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:209
-msgid "`lxc exec proxyha vi /etc/haproxy/haproxy.cfg`"
+#, no-wrap
+msgid "`lxc exec proxyha vi /etc/haproxy/haproxy.cfg`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:211
-msgid ""
-"Note that we have commented out all of the HTTPS protocol lines for now. In "
-"a production environment, you'd want to use a wildcard certificate that "
-"would cover your web servers and enable HTTPS:"
+#, no-wrap
+msgid "Note that we have commented out all of the HTTPS protocol lines for now. In a production environment, you'd want to use a wildcard certificate that would cover your web servers and enable HTTPS:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -911,31 +874,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:285
-msgid ""
-"A little explanation of what's going on above. You should see this in your "
-"testing, when you get to the testing section of this guide (below):"
+#, no-wrap
+msgid "A little explanation of what's going on above. You should see this in your testing, when you get to the testing section of this guide (below):\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:287
-msgid ""
-"Both **site1** and **site2** are defined in the \"acl\" section. Then both "
-"**site1** and **site2** are included in each other's \"roundrobin\" for "
-"their respective back ends. What happens when you go to site1.testdomain.com "
-"in the test, the URL does not change, but the page inside will switch each "
-"time you access the page from the **site1** to the **site2** test pages. "
-"Same goes for site2.testdomain.com."
+#, no-wrap
+msgid "Both **site1** and **site2** are defined in the \"acl\" section. Then both **site1** and **site2** are included in each other's \"roundrobin\" for their respective back ends. What happens when you go to site1.testdomain.com in the test, the URL does not change, but the page inside will switch each time you access the page from the **site1** to the **site2** test pages. Same goes for site2.testdomain.com.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:289
-msgid ""
-"This is done to show you the switch is occurring, but in reality, your "
-"website content will look exactly the same regardless of which server you "
-"are hitting. Keep in mind that we are showing how you might want to "
-"distribute traffic between multiple hosts. You can also use \"leastcon\" in "
-"the balance line, and instead of switching based on the previous hit, it "
-"will load the site with the least number of connections."
+#, no-wrap
+msgid "This is done to show you the switch is occurring, but in reality, your website content will look exactly the same regardless of which server you are hitting. Keep in mind that we are showing how you might want to distribute traffic between multiple hosts. You can also use \"leastcon\" in the balance line, and instead of switching based on the previous hit, it will load the site with the least number of connections.\n"
 msgstr ""
 
 #. type: Title ###
@@ -946,37 +898,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:293
-msgid ""
-"Some versions of HAProxy come with a standard set of web error files, "
-"however the version that comes from Rocky Linux (and the upstream vendor), "
-"does not have these files. You probably **do** want to create them, as they "
-"may help you troubleshoot any problems. These files go in the directory `/"
-"etc/haproxy/errors` which does not exist."
+#, no-wrap
+msgid "Some versions of HAProxy come with a standard set of web error files, however the version that comes from Rocky Linux (and the upstream vendor), does not have these files. You probably **do** want to create them, as they may help you troubleshoot any problems. These files go in the directory `/etc/haproxy/errors` which does not exist.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:295
-msgid "The first thing we need to do is create that directory:"
+#, no-wrap
+msgid "The first thing we need to do is create that directory:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:297
-msgid "`lxc exec proxyha mkdir /etc/haproxy/errors`"
+#, no-wrap
+msgid "`lxc exec proxyha mkdir /etc/haproxy/errors`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:299
-msgid ""
-"Then we need to create each of these files in that directory. Note that you "
-"can do this with each filename from your LXD host with the command `lxc exec "
-"proxyha vi /etc/haproxy/errors/filename.http`, where \"filename.http\" "
-"references one of the below file names. In a production environment, your "
-"company may have more specific errors that they would like to use:"
+#, no-wrap
+msgid "Then we need to create each of these files in that directory. Note that you can do this with each filename from your LXD host with the command `lxc exec proxyha vi /etc/haproxy/errors/filename.http`, where \"filename.http\" references one of the below file names. In a production environment, your company may have more specific errors that they would like to use:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:301
-msgid "File name `400.http`:"
+#, no-wrap
+msgid "File name `400.http`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -995,7 +942,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:314
-msgid "File name `403.http`:"
+#, no-wrap
+msgid "File name `403.http`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1014,7 +962,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:327
-msgid "Filename `408.http`:"
+#, no-wrap
+msgid "Filename `408.http`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1033,7 +982,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:340
-msgid "Filename `500.http`:"
+#, no-wrap
+msgid "Filename `500.http`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1052,7 +1002,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:353
-msgid "Filename `502.http`:"
+#, no-wrap
+msgid "Filename `502.http`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1071,7 +1022,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:366
-msgid "Filename `503.http`:"
+#, no-wrap
+msgid "Filename `503.http`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1090,7 +1042,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:379
-msgid "Filename `504.http`:"
+#, no-wrap
+msgid "Filename `504.http`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1115,19 +1068,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:394
-msgid ""
-"We need to create a \"run\" directory for `haproxy` before we start the "
-"service:"
+#, no-wrap
+msgid "We need to create a \"run\" directory for `haproxy` before we start the service:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:396
-msgid "`lxc exec proxyha mkdir /run/haproxy`"
+#, no-wrap
+msgid "`lxc exec proxyha mkdir /run/haproxy`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:398
-msgid "Next, we need to enable the service and start it:"
+#, no-wrap
+msgid "Next, we need to enable the service and start it:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1140,19 +1094,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:403
-msgid "If you get any errors, research the reason by using:"
+#, no-wrap
+msgid "If you get any errors, research the reason by using:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:405
-msgid "`lxc exec proxyha systemctl status haproxy`"
+#, no-wrap
+msgid "`lxc exec proxyha systemctl status haproxy`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:407
-msgid ""
-"If everything starts and runs without issue, we are ready to move on to "
-"testing."
+#, no-wrap
+msgid "If everything starts and runs without issue, we are ready to move on to testing.\n"
 msgstr ""
 
 #. type: Title ##
@@ -1163,24 +1118,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:411
-msgid ""
-"As with the hosts (`/etc/hosts`) setup that we used so that our **proxyha** "
-"container can resolve the web servers, and since in our lab environment we "
-"don't have a local DNS server running, we need to set the IP values on our "
-"local machine for both the site1 and site2 websites, to correspond to our "
-"haproxy container."
+#, no-wrap
+msgid "As with the hosts (`/etc/hosts`) setup that we used so that our **proxyha** container can resolve the web servers, and since in our lab environment we don't have a local DNS server running, we need to set the IP values on our local machine for both the site1 and site2 websites, to correspond to our haproxy container.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:413
-msgid ""
-"To do this, we need to modify our `/etc/hosts` file on our local machine. "
-"Consider this method of domain resolution a \"poor man's DNS.\""
+#, no-wrap
+msgid "To do this, we need to modify our `/etc/hosts` file on our local machine. Consider this method of domain resolution a \"poor man's DNS.\"\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:417
-msgid "Then just add these two lines:"
+#, no-wrap
+msgid "Then just add these two lines:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1193,9 +1144,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:424
-msgid ""
-"If you ping either **site1** or **site2** on your local machine now, you "
-"should get a response from **proxyha**:"
+#, no-wrap
+msgid "If you ping either **site1** or **site2** on your local machine now, you should get a response from **proxyha**:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1209,19 +1159,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:432
-msgid ""
-"Now open your web browser and type site1.testdomain.com (or site2.testdomain."
-"com) as the URL in the address bar. You should get a response back from one "
-"of the two test pages and if you load the page again, you should get the "
-"next server's test page. Note that the URL does not change, but the returned "
-"page will change alternately between servers."
+#, no-wrap
+msgid "Now open your web browser and type site1.testdomain.com (or site2.testdomain.com) as the URL in the address bar. You should get a response back from one of the two test pages and if you load the page again, you should get the next server's test page. Note that the URL does not change, but the returned page will change alternately between servers.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:435
-msgid ""
-"![screenshot of web1 being loaded and showing the second server test message]"
-"(../images/haproxy_apache_lxd.png)"
+#, no-wrap
+msgid "![screenshot of web1 being loaded and showing the second server test message](../images/haproxy_apache_lxd.png)\n"
 msgstr ""
 
 #. type: Title ##
@@ -1232,32 +1177,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:439
-msgid ""
-"Even though our configuration file is set up correctly for logging, we need "
-"two things: First, we need a directory in /var/lib/haproxy/ called \"dev\":"
+#, no-wrap
+msgid "Even though our configuration file is set up correctly for logging, we need two things: First, we need a directory in /var/lib/haproxy/ called \"dev\":\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:441
-msgid "`lxc exec proxyha mkdir /var/lib/haproxy/dev`"
+#, no-wrap
+msgid "`lxc exec proxyha mkdir /var/lib/haproxy/dev`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:443
-msgid ""
-"Next, we need to create a system process for `rsyslogd` to grab instances "
-"from the socket (`/var/lib/haproxy/dev/log` in this case) and store those in "
-"`/var/log/haproxy.log`:"
+#, no-wrap
+msgid "Next, we need to create a system process for `rsyslogd` to grab instances from the socket (`/var/lib/haproxy/dev/log` in this case) and store those in `/var/log/haproxy.log`:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:445
-msgid "`lxc exec proxyha vi /etc/rsyslog.d/99-haproxy.conf`"
+#, no-wrap
+msgid "`lxc exec proxyha vi /etc/rsyslog.d/99-haproxy.conf`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:447
-msgid "Add the following contents to that file:"
+#, no-wrap
+msgid "Add the following contents to that file:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1275,39 +1220,44 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:458
-msgid "Save the file and exit, then restart `rsyslog`:"
+#, no-wrap
+msgid "Save the file and exit, then restart `rsyslog`:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:460
-msgid "`lxc exec proxyha systemctl restart rsyslog`"
+#, no-wrap
+msgid "`lxc exec proxyha systemctl restart rsyslog`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:462
-msgid ""
-"And to populate that log file with something right away, restart `haproxy` "
-"again:"
+#, no-wrap
+msgid "And to populate that log file with something right away, restart `haproxy` again:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:464
-msgid "`lxc exec proxyha systemctl restart haproxy`"
+#, no-wrap
+msgid "`lxc exec proxyha systemctl restart haproxy`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:466
-msgid "To take a look at the log file created:"
+#, no-wrap
+msgid "To take a look at the log file created:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:468
-msgid "`lxc exec proxyha more /var/log/haproxy.log`"
+#, no-wrap
+msgid "`lxc exec proxyha more /var/log/haproxy.log`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:470
-msgid "Which should show you something like this:"
+#, no-wrap
+msgid "Which should show you something like this:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1324,24 +1274,18 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:483
-msgid ""
-"HAProxy is a powerful proxy engine that can be used for many things. It is a "
-"high-performance, open-source load balancer and reverse proxy for TCP and "
-"HTTP applications. We have shown in this document how to use load balancing "
-"of two web server instances."
+#, no-wrap
+msgid "HAProxy is a powerful proxy engine that can be used for many things. It is a high-performance, open-source load balancer and reverse proxy for TCP and HTTP applications. We have shown in this document how to use load balancing of two web server instances.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:485
-msgid ""
-"It can also be used for other applications, including databases. It works "
-"within LXD containers, as well as on bare metal and standalone servers."
+#, no-wrap
+msgid "It can also be used for other applications, including databases. It works within LXD containers, as well as on bare metal and standalone servers.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:486
-msgid ""
-"There are plenty of uses not covered in this document. Check out the "
-"[official manual for HAProxy here.](https://cbonte.github.io/haproxy-"
-"dconv/1.8/configuration.html)"
+#, no-wrap
+msgid "There are plenty of uses not covered in this document. Check out the [official manual for HAProxy here.](https://cbonte.github.io/haproxy-dconv/1.8/configuration.html)\n"
 msgstr ""

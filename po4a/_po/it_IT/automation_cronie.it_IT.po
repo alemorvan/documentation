@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -80,7 +80,8 @@ msgstr ""
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/anacron.md:15
 #: ../src/docs/guides/automation/cronie.md:14
-msgid "A computer running Rocky Linux."
+#, no-wrap
+msgid "A computer running Rocky Linux.\n"
 msgstr ""
 
 #. type: YAML Front Matter: title
@@ -97,23 +98,20 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/cronie.md:14
-msgid ""
-"Know how to use your favorite editor to change the configuration file in the "
-"command line environment (this article will use `vi`)."
+#, no-wrap
+msgid "Know how to use your favorite editor to change the configuration file in the command line environment (this article will use `vi`).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/cronie.md:14
-msgid ""
-"You have understood the basic knowledge of bash, python or other scripting "
-"or programming tools, and expect to run the script automatically."
+#, no-wrap
+msgid "You have understood the basic knowledge of bash, python or other scripting or programming tools, and expect to run the script automatically.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/cronie.md:14
-msgid ""
-"You have connected to your computer by SSH (it can be root user or ordinary "
-"user with UID greater than 1000)."
+#, no-wrap
+msgid "You have connected to your computer by SSH (it can be root user or ordinary user with UID greater than 1000).\n"
 msgstr ""
 
 #. type: Title ##
@@ -124,14 +122,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cronie.md:18
-msgid ""
-"GNU/Linux provides the *cron* system, which is a time-based `cron` jobs "
-"program for automated processes. It is not hard, but quite powerful. Want a "
-"script or program to run at 5 pm every day? `cron` can do it. There are "
-"different branches (or variants) of `cron`, which have the same functions. "
-"In this document, **cronie** is used, and the version is 1.5.2. You can "
-"click [here](https://github.com/cronie-crond/cronie) to find the latest "
-"version and update log."
+#, no-wrap
+msgid "GNU/Linux provides the *cron* system, which is a time-based `cron` jobs program for automated processes. It is not hard, but quite powerful. Want a script or program to run at 5 pm every day? `cron` can do it. There are different branches (or variants) of `cron`, which have the same functions. In this document, **cronie** is used, and the version is 1.5.2. You can click [here](https://github.com/cronie-crond/cronie) to find the latest version and update log.\n"
 msgstr ""
 
 #. type: Title ##
@@ -142,43 +134,38 @@ msgstr ""
 
 #. type: Bullet: '*  '
 #: ../src/docs/guides/automation/cronie.md:27
-msgid "**cronie** -package name, Rocky Linux includes cronie by default;"
+#, no-wrap
+msgid "**cronie** -package name, Rocky Linux includes cronie by default;\n"
 msgstr ""
 
 #. type: Bullet: '*  '
 #: ../src/docs/guides/automation/cronie.md:27
-msgid ""
-"**crontab** -command to maintain `crontab` (task schedule) for each user;"
+#, no-wrap
+msgid "**crontab** -command to maintain `crontab` (task schedule) for each user;\n"
 msgstr ""
 
 #. type: Bullet: '*  '
 #: ../src/docs/guides/automation/cronie.md:27
-msgid ""
-"**crond.service** -cronie's daemon, you can manage the daemon by `systemctl "
-"start | restart | stop | status` ;"
+#, no-wrap
+msgid "**crond.service** -cronie's daemon, you can manage the daemon by `systemctl start | restart | stop | status` ;\n"
 msgstr ""
 
 #. type: Bullet: '*  '
 #: ../src/docs/guides/automation/cronie.md:27
-msgid ""
-"**/etc/crontab** -Assign cron jobs to different users, usually we are more "
-"accustomed to using `crontab -e` . For example, if you are currently logged "
-"in as the root user, type `crontab -e` and you will see specific cron jobs "
-"in the file /var/spool/cron/root after saving."
+#, no-wrap
+msgid "**/etc/crontab** -Assign cron jobs to different users, usually we are more accustomed to using `crontab -e` . For example, if you are currently logged in as the root user, type `crontab -e` and you will see specific cron jobs in the file /var/spool/cron/root after saving.\n"
 msgstr ""
 
 #. type: Bullet: '*  '
 #: ../src/docs/guides/automation/cronie.md:27
-msgid ""
-"**/var/log/cron \\* ** -Cronie's log, by default, does log rotation and ends "
-"with a date suffix. \\* Here means wildcard"
+#, no-wrap
+msgid "**/var/log/cron \\* ** -Cronie's log, by default, does log rotation and ends with a date suffix. \\* Here means wildcard\n"
 msgstr ""
 
 #. type: Bullet: '*  '
 #: ../src/docs/guides/automation/cronie.md:27
-msgid ""
-"**anacron** -part of cronie . For more information about `anacron`, see "
-"[anacron-automation commands](anacron.md)."
+#, no-wrap
+msgid "**anacron** -part of cronie . For more information about `anacron`, see [anacron-automation commands](anacron.md).\n"
 msgstr ""
 
 #. type: Title ##
@@ -189,10 +176,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cronie.md:31
-msgid ""
-"`crontab` is a command obtained after installation of the cronie package. "
-"Compared with `anacron`, it is more suitable for servers that work 7 \\* 24 "
-"hours a day. Common options of `crontab` are:"
+#, no-wrap
+msgid "`crontab` is a command obtained after installation of the cronie package. Compared with `anacron`, it is more suitable for servers that work 7 \\* 24 hours a day. Common options of `crontab` are:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -212,10 +197,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cronie.md:41
-msgid ""
-"To allow different users to execute different commands (or scripts) at "
-"different times, they can be written into this file. However, usually we are "
-"more accustomed to using `crontab -e`."
+#, no-wrap
+msgid "To allow different users to execute different commands (or scripts) at different times, they can be written into this file. However, usually we are more accustomed to using `crontab -e`.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -239,31 +222,33 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cronie.md:65
+#, no-wrap
 msgid ""
-"|Parameter|Meaning|Value Range| |---|---|---| |The 1st\\*|The first minute "
-"of the hour|0-59| |The 2nd\\*|Hour of the day|0-23| |The 3rd\\*|Day of the "
-"month|1-31| |The 4th\\*|The month of the year|1-12| |The 5th\\*|Day of the "
-"week|0-7 (0 and 7 both indicate Sunday)|"
+"|Parameter|Meaning|Value Range|\n"
+"|---|---|---|\n"
+"|The 1st\\*|The first minute of the hour|0-59|\n"
+"|The 2nd\\*|Hour of the day|0-23|\n"
+"|The 3rd\\*|Day of the month|1-31|\n"
+"|The 4th\\*|The month of the year|1-12|\n"
+"|The 5th\\*|Day of the week|0-7 (0 and 7 both indicate Sunday)|\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cronie.md:67
-msgid ""
-"In the example that follows, assuming you are performing this operation as "
-"the root user, type the following:"
+#, no-wrap
+msgid "In the example that follows, assuming you are performing this operation as the root user, type the following: \n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/cronie.md:69
-msgid ""
-"`crontab -e` which will bring up the timed tasks of the root user. If you "
-"use `vi` as the default system editor, press <kbd>i</kbd> key to enter the "
-"insert mode."
+#, no-wrap
+msgid "`crontab -e` which will bring up the timed tasks of the root user. If you use `vi` as the default system editor, press <kbd>i</kbd> key to enter the insert mode. \n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/cronie.md:69
-msgid "\"#\" means this is a line of comment."
+#, no-wrap
+msgid "\"#\" means this is a line of comment.  \n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -276,30 +261,28 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/cronie.md:78
-msgid ""
-"Once the above has been entered (again assuming `vi` is the system editor), "
-"press <kbd>ESC</kbd> to exit insert mode."
+#, no-wrap
+msgid "Once the above has been entered (again assuming `vi` is the system editor), press <kbd>ESC</kbd> to exit insert mode.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/cronie.md:78
-msgid ""
-"Save and exit your file with <kbd>SHIFT</kbd>+<kbd>:</kbd>+<kbd>wq!</kbd> "
-"(displayed at the bottom of the editor)."
+#, no-wrap
+msgid "Save and exit your file with <kbd>SHIFT</kbd>+<kbd>:</kbd>+<kbd>wq!</kbd> (displayed at the bottom of the editor).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cronie.md:80
-msgid ""
-"Now the script will run every night at 22:00. This is a simplistic example. "
-"Things can become more complicated if you need something more elaborate."
+#, no-wrap
+msgid "Now the script will run every night at 22:00. This is a simplistic example. Things can become more complicated if you need something more elaborate.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cronie.md:82
 #: ../src/docs/guides/automation/cronie.md:106
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:109
-msgid "!!! tip \"Attention\""
+#, no-wrap
+msgid "!!! tip \"Attention\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -316,9 +299,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cronie.md:88
-msgid ""
-"The content discussed so far are simplistic options, but what about more "
-"complex timed tasks?"
+#, no-wrap
+msgid "The content discussed so far are simplistic options, but what about more complex timed tasks?\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -335,15 +317,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cronie.md:104
+#, no-wrap
 msgid ""
-"|Special Symbols|Meaning| |---|---| |* | represents any time. For example, "
-"the first * means any minute, and the second * means any hour | |, | stands "
-"for discontinuous time, such as \"0 8,12,16 * * * \", which means that the "
-"command will run once every day at 8:00, 12:00, and 16:00 | |- | represents "
-"a continuous time range, such as \"0 5 * * 1-6 \", which means that a "
-"command will run at five o'clock in the morning every day from Monday to "
-"Saturday | |*/n | Represents how often the interval will run, such as \"*/10 "
-"* * * *\" means that it every 10 minutes |"
+"|Special Symbols|Meaning|\n"
+"|---|---|\n"
+"|* | represents any time. For example, the first * means any minute, and the second * means any hour |\n"
+"|, | stands for discontinuous time, such as \"0 8,12,16 * * * \", which means that the command will run once every day at 8:00, 12:00, and 16:00 |\n"
+"|- | represents a continuous time range, such as \"0 5 * * 1-6 \", which means that a command will run at five o'clock in the morning every day from Monday to Saturday |\n"
+"|*/n | Represents how often the interval will run, such as \"*/10 * * * *\" means that it  every 10 minutes |\n"
 msgstr ""
 
 #. type: Plain text
@@ -382,13 +363,6 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cronie.md:123
-msgid ""
-"For Rocky Linux desktop users or system administrators, cronie is a very "
-"powerful tool. It allows you to automate tasks and scripts so you do not "
-"have to remember to run them manually. Although the basic knowledge is not "
-"hard, the actual task can be complex. For more information about `crontab`, "
-"visit [crontab man page](https://man7.org/linux/man-pages/man5/crontab.5."
-"html). You can also search for \"crontab\" on the Internet, which provides "
-"you with a large number of search results and help you fine-tune the "
-"`crontab` expression."
+#, no-wrap
+msgid "For Rocky Linux desktop users or system administrators, cronie is a very powerful tool. It allows you to automate tasks and scripts so you do not have to remember to run them manually. Although the basic knowledge is not hard, the actual task can be complex. For more information about `crontab`, visit [crontab man page](https://man7.org/linux/man-pages/man5/crontab.5.html). You can also search for \"crontab\" on the Internet, which provides you with a large number of search results and help you fine-tune the `crontab` expression.\n"
 msgstr ""

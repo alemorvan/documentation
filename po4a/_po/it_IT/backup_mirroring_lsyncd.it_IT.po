@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -118,7 +118,8 @@ msgstr ""
 #: ../src/docs/guides/automation/cron_jobs_howto.md:18
 #: ../src/docs/guides/automation/olivetin.md:38
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:25
-msgid "A computer running Rocky Linux"
+#, no-wrap
+msgid "A computer running Rocky Linux\n"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
@@ -162,100 +163,88 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:16
-msgid ""
-"This is everything you'll need to understand and follow along with this "
-"guide:"
+#, no-wrap
+msgid "This is everything you'll need to understand and follow along with this guide:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:25
-msgid ""
-"A comfort level with modifying configuration files from the command-line"
+#, no-wrap
+msgid "A comfort level with modifying configuration files from the command-line\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:25
-msgid ""
-"Knowledge of how to use a command line editor (we use vi here, but you could "
-"use your favorite editor)"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/backup/mirroring_lsyncd.md:25
-#: ../src/docs/guides/communications/asterisk_installation.md:36
-msgid ""
-"You will need root access, and ideally be signed in as the root user in your "
-"terminal"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/backup/mirroring_lsyncd.md:25
-msgid "Public and Private SSH key pairs"
+#, no-wrap
+msgid "Knowledge of how to use a command line editor (we use vi here, but you could use your favorite editor)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:25
 #: ../src/docs/guides/communications/asterisk_installation.md:36
-msgid "The EPEL repositories from Fedora"
+#, no-wrap
+msgid "You will need root access, and ideally be signed in as the root user in your terminal\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:25
-msgid "You will need to be familiar with *inotify*, an event monitor interface"
+#, no-wrap
+msgid "Public and Private SSH key pairs\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:25
-msgid "Optional: familiarity with *tail*"
+#: ../src/docs/guides/communications/asterisk_installation.md:36
+#, no-wrap
+msgid "The EPEL repositories from Fedora\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:25
+#, no-wrap
+msgid "You will need to be familiar with *inotify*, an event monitor interface\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:25
+#, no-wrap
+msgid "Optional: familiarity with *tail*\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:29
-msgid ""
-"If you're looking for a way to synchronize files and folders between "
-"computers automatically, `lsyncd` is a pretty great option. The only "
-"downside for beginners? You have to configure everything at the command "
-"line, and text files."
+#, no-wrap
+msgid "If you're looking for a way to synchronize files and folders between computers automatically, `lsyncd` is a pretty great option. The only downside for beginners? You have to configure everything at the command line, and text files.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:31
-msgid "Even so, it is a program worth learning for any sysadmin."
+#, no-wrap
+msgid "Even so, it is a program worth learning for any sysadmin.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:33
-msgid ""
-"The best description of `lsyncd`, comes from its own man page. Slightly "
-"paraphrased, `lsyncd` is a light-weight live mirror solution that is not "
-"hard to install. It does not require new filesystems or block devices, and "
-"does not hamper local filesystem performance. In short, it mirrors files."
+#, no-wrap
+msgid "The best description of `lsyncd`, comes from its own man page. Slightly paraphrased, `lsyncd` is a light-weight live mirror solution that is not hard to install. It does not  require new filesystems or block devices, and does not hamper local filesystem performance. In short, it mirrors files.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:35
-msgid ""
-"`lsyncd` watches a local directory tree's event monitor interface (inotify). "
-"It aggregates and combines events for a few seconds, and then spawns one (or "
-"more) process(es) to synchronize the changes. By default this is `rsync`."
+#, no-wrap
+msgid "`lsyncd` watches a local directory tree's event monitor interface (inotify). It aggregates and combines events for a few seconds, and then spawns one (or more) process(es) to synchronize the changes. By default this is `rsync`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:37
-msgid ""
-"For the purposes of this guide, you will call the system with the original "
-"files the \"source\", and the one that we are synchronizing to will be the "
-"\"target\". It is actually possible to completely mirror a server using "
-"`lsyncd` by very carefully specifying directories and files that you want to "
-"synchronize. It's pretty sweet!"
+#, no-wrap
+msgid "For the purposes of this guide, you will call the system with the original files the \"source\", and the one that we are synchronizing to will be the \"target\". It is actually possible to completely mirror a server using `lsyncd` by very carefully specifying directories and files that you want to synchronize. It's pretty sweet!\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:39
-msgid ""
-"For remote syncing, you will also want to set up [Rocky Linux SSH Public "
-"Private Key Pairs](../security/ssh_public_private_keys.md). The examples "
-"here use SSH (port 22)."
+#, no-wrap
+msgid "For remote syncing, you will also want to set up [Rocky Linux SSH Public Private Key Pairs](../security/ssh_public_private_keys.md). The examples here use SSH (port 22).\n"
 msgstr ""
 
 #. type: Title ##
@@ -266,12 +255,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:43
-msgid ""
-"There are actually two ways to install `lsyncd`. We will include them both "
-"here. The RPM tends to lag behind the source packages by a little, but only "
-"by a little. The version installed by the RPM method at the time of this "
-"writing is 2.2.2-9, whereas the source code version is now at 2.2.3. That "
-"said, we want to give you both options and let you choose."
+#, no-wrap
+msgid "There are actually two ways to install `lsyncd`. We will include them both here. The RPM tends to lag behind the source packages by a little, but only by a little. The version installed by the RPM method at the time of this writing is 2.2.2-9, whereas the source code version is now at 2.2.3. That said, we want to give you both options and let you choose.\n"
 msgstr ""
 
 #. type: Title ##
@@ -282,43 +267,45 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:47
-msgid ""
-"Installing the RPM version is not hard. The only thing you will need to "
-"install first is the EPEL software repository from Fedora. This can be done "
-"with a single command:"
+#, no-wrap
+msgid "Installing the RPM version is not hard. The only thing you will need to install first is the EPEL software repository from Fedora. This can be done with a single command:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:49
-msgid "`dnf install -y epel-release`"
+#, no-wrap
+msgid "`dnf install -y epel-release`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:51
-msgid ""
-"Then, we just need to install `lsyncd` and any missing dependencies will be "
-"installed along with it:"
+#, no-wrap
+msgid "Then, we just need to install `lsyncd` and any missing dependencies will be installed along with it:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:53
-msgid "`dnf install lsyncd`"
+#, no-wrap
+msgid "`dnf install lsyncd`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:55
-msgid "Set up the service to start on boot, but don't start it just yet:"
+#, no-wrap
+msgid "Set up the service to start on boot, but don't start it just yet:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:57
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:242
-msgid "`systemctl enable lsyncd`"
+#, no-wrap
+msgid "`systemctl enable lsyncd`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:59
-msgid "That's it!"
+#, no-wrap
+msgid "That's it!\n"
 msgstr ""
 
 #. type: Title ##
@@ -329,9 +316,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:63
-msgid ""
-"Installing from source is not as bad is it sounds. Just follow this guide "
-"and you will be up and running in no time!"
+#, no-wrap
+msgid "Installing from source is not as bad is it sounds. Just follow this guide and you will be up and running in no time!\n"
 msgstr ""
 
 #. type: Title ###
@@ -342,22 +328,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:67
-msgid ""
-"We will need some dependencies: a few that are required by `lsyncd` itself, "
-"and a few that are required to build packages from source. Use this command "
-"on your Rocky Linux computer to ensure you have the dependencies you need. "
-"If you are going to be building from source, it is a good idea to have all "
-"of the development tools installed:"
+#, no-wrap
+msgid "We will need some dependencies: a few that are required by `lsyncd` itself, and a few that are required to build packages from source. Use this command on your Rocky Linux computer to ensure you have the dependencies you need. If you are going to be building from source, it is a good idea to have all of the development tools installed:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:69
-msgid "`dnf groupinstall 'Development Tools'`"
+#, no-wrap
+msgid "`dnf groupinstall 'Development Tools'`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:71
-msgid "!!! warning \"For Rocky Linux 9.0\""
+#, no-wrap
+msgid "!!! warning \"For Rocky Linux 9.0\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -383,14 +367,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:81
-msgid ""
-"And here are the dependencies we need for `lsyncd` itself, and its build "
-"process:"
+#, no-wrap
+msgid "And here are the dependencies we need for `lsyncd` itself, and its build process:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:83
-msgid "`dnf install lua lua-libs lua-devel cmake unzip wget rsync`"
+#, no-wrap
+msgid "`dnf install lua lua-libs lua-devel cmake unzip wget rsync`\n"
 msgstr ""
 
 #. type: Title ###
@@ -401,34 +385,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:87
-msgid "Next we need the source code:"
+#, no-wrap
+msgid "Next we need the source code:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:89
-msgid "`wget https://github.com/axkibe/lsyncd/archive/master.zip`"
+#, no-wrap
+msgid "`wget https://github.com/axkibe/lsyncd/archive/master.zip`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:91
-msgid "Now uncompress the master.zip file:"
+#, no-wrap
+msgid "Now uncompress the master.zip file:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:93
-msgid "`unzip master.zip`"
+#, no-wrap
+msgid "`unzip master.zip`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:95
-msgid ""
-"This will create a directory called \"lsyncd-master\". We need to change to "
-"this directory and create a directory called build:"
+#, no-wrap
+msgid "This will create a directory called \"lsyncd-master\". We need to change to this directory and create a directory called build:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:97
-msgid "`cd lsyncd-master`"
+#, no-wrap
+msgid "`cd lsyncd-master`\n"
 msgstr ""
 
 #. type: Plain text
@@ -438,27 +426,32 @@ msgstr ""
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:156
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:44
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:152
-msgid "And then:"
+#, no-wrap
+msgid "And then:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:101
-msgid "`mkdir build`"
+#, no-wrap
+msgid "`mkdir build`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:103
-msgid "Now change directories again so that you are in the build directory:"
+#, no-wrap
+msgid "Now change directories again so that you are in the build directory:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:105
-msgid "`cd build`"
+#, no-wrap
+msgid "`cd build`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:107
-msgid "Now run these commands:"
+#, no-wrap
+msgid "Now run these commands:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -472,9 +465,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:115
-msgid ""
-"When done, you will have the `lsyncd` binary installed and ready for use in "
-"*/usr/local/bin*"
+#, no-wrap
+msgid "When done, you will have the `lsyncd` binary installed and ready for use in */usr/local/bin*\n"
 msgstr ""
 
 #. type: Title ###
@@ -485,21 +477,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:119
-msgid ""
-"With the RPM install method, the systemd service will be installed for you, "
-"but if you choose to install from source, you will need to create the "
-"systemd service. While you can start the binary without the systemd service, "
-"we want to ensure that it *does* start on boot. If not, a server reboot "
-"would stop your synchronization effort and if you forgot to start it again, "
-"which is highly likely. That could be very embarrassing for any systems "
-"administrator!"
+#, no-wrap
+msgid "With the RPM install method, the systemd service will be installed for you, but if you choose to install from source, you will need to create the systemd service. While you can start the binary without the systemd service, we want to ensure that it *does* start on boot. If not, a server reboot would stop your synchronization effort and if you forgot to start it again, which is highly likely. That could be very embarrassing for any systems administrator!\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:121
-msgid ""
-"Creating the systemd service is not terribly difficult, though, and will "
-"save you time in the long run."
+#, no-wrap
+msgid "Creating the systemd service is not terribly difficult, though, and will save you time in the long run.\n"
 msgstr ""
 
 #. type: Title ####
@@ -510,19 +495,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:125
-msgid ""
-"This file can be created anywhere, even in the root directory of your "
-"server. When created, you can move it the right location."
+#, no-wrap
+msgid "This file can be created anywhere, even in the root directory of your server. When created, you can move it the right location.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:127
-msgid "`vi /root/lsyncd.service`"
+#, no-wrap
+msgid "`vi /root/lsyncd.service`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:129
-msgid "The contents of this file should be:"
+#, no-wrap
+msgid "The contents of this file should be:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -547,25 +533,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:147
-msgid "Now let's install the file you just made to the correct location:"
+#, no-wrap
+msgid "Now let's install the file you just made to the correct location:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:149
-msgid ""
-"`install -Dm0644 /root/lsyncd.service /usr/lib/systemd/system/lsyncd.service`"
+#, no-wrap
+msgid "`install -Dm0644 /root/lsyncd.service /usr/lib/systemd/system/lsyncd.service`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:151
-msgid ""
-"Finally, reload the `systemctl` daemon so that systemd will \"see\" the new "
-"service file:"
+#, no-wrap
+msgid "Finally, reload the `systemctl` daemon so that systemd will \"see\" the new service file:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:153
-msgid "`systemctl daemon-reload`"
+#, no-wrap
+msgid "`systemctl daemon-reload`\n"
 msgstr ""
 
 #. type: Title ##
@@ -576,10 +563,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:157
-msgid ""
-"Whichever method you choose for installing `lsyncd`, you will need a "
-"configuration file: */etc/lsyncd.conf*. The next section will tell you how "
-"to build a configuration file, and test it."
+#, no-wrap
+msgid "Whichever method you choose for installing `lsyncd`, you will need a configuration file: */etc/lsyncd.conf*. The next section will tell you how to build a configuration file, and test it.\n"
 msgstr ""
 
 #. type: Title ##
@@ -590,10 +575,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:161
-msgid ""
-"Here's an example of a simplistic configuration file that synchronizes */"
-"home* to another computer. Our target computer is going to be a local IP "
-"address: *192.168.1.40*"
+#, no-wrap
+msgid "Here's an example of a simplistic configuration file that synchronizes */home* to another computer. Our target computer is going to be a local IP address: *192.168.1.40*\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -626,80 +609,74 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:188
-msgid "Breaking down this file a bit:"
+#, no-wrap
+msgid "Breaking down this file a bit:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:199
-msgid ""
-"The \"logfile\" and \"statusFile\" will be automatically created when the "
-"service starts."
+#, no-wrap
+msgid "The \"logfile\" and \"statusFile\" will be automatically created when the service starts.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:199
-msgid ""
-"The \"statusInterval\" is the number of seconds to wait before writing to "
-"the statusFile."
+#, no-wrap
+msgid "The \"statusInterval\" is the number of seconds to wait before writing to the statusFile.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:199
-msgid ""
-"\"maxProcesses\" is the number of processes `lsyncd` is allowed to spawn. "
-"Honestly, unless you are running this on a super busy computer, 1 process is "
-"enough."
+#, no-wrap
+msgid "\"maxProcesses\" is the number of processes `lsyncd` is allowed to spawn. Honestly, unless you are running this on a super busy computer, 1 process is enough.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:199
-msgid "In the sync section \"default.rsyncssh\" says to use rsync over SSH"
+#, no-wrap
+msgid "In the sync section \"default.rsyncssh\" says to use rsync over SSH\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:199
-msgid "The \"source=\" is the directory path we are syncing from."
+#, no-wrap
+msgid "The \"source=\" is the directory path we are syncing from.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:199
-msgid "The \"host=\" is our target computer that we are syncing to."
+#, no-wrap
+msgid "The \"host=\" is our target computer that we are syncing to.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:199
-msgid ""
-"The \"excludeFrom=\" tells `lsyncd` where the exclusions file is. It must "
-"exist, but can be empty."
+#, no-wrap
+msgid "The \"excludeFrom=\" tells `lsyncd` where the exclusions file is. It must exist, but can be empty.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:199
-msgid ""
-"The \"targetdir=\" is the target directory we are sending files to. In most "
-"cases this will be equal to the source, but not always."
+#, no-wrap
+msgid "The \"targetdir=\" is the target directory we are sending files to. In most cases this will be equal to the source, but not always.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:199
-msgid ""
-"Then we have the \"rsync =\" section, and these are the options that we are "
-"running rsync with."
+#, no-wrap
+msgid "Then we have the \"rsync =\" section, and these are the options that we are running rsync with.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:199
-msgid ""
-"Finally we have the \"ssh =\" section, and this specifies the SSH port that "
-"is listening on the target computer."
+#, no-wrap
+msgid "Finally we have the \"ssh =\" section, and this specifies the SSH port that is listening on the target computer.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:201
-msgid ""
-"If you are adding more than one directory to sync, then you need to repeat "
-"the entire \"sync\" section including all the opening and closing brackets "
-"for each directory."
+#, no-wrap
+msgid "If you are adding more than one directory to sync, then you need to repeat the entire \"sync\" section including all the opening and closing brackets for each directory.\n"
 msgstr ""
 
 #. type: Title ##
@@ -710,22 +687,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:205
-msgid ""
-"As noted earlier, the \"excludeFrom\" file must exist, so let's create that "
-"now:"
+#, no-wrap
+msgid "As noted earlier, the \"excludeFrom\" file must exist, so let's create that now:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:207
-msgid "`touch /etc/lsyncd.exclude`"
+#, no-wrap
+msgid "`touch /etc/lsyncd.exclude`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:209
-msgid ""
-"If you were syncing the /etc folder on our computer, there would be many "
-"files and directories that you should exclude. Each excluded file or "
-"directory is listed in the file, one per line, like this:"
+#, no-wrap
+msgid "If you were syncing the /etc folder on our computer, there would be many files and directories that you should exclude. Each excluded file or directory is listed in the file, one per line, like this:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -746,69 +721,68 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:220
-msgid ""
-"Now that everything else is set up, you can test it all. For starters, lets "
-"ensure our systemd lsyncd.service will start:"
+#, no-wrap
+msgid "Now that everything else is set up, you can test it all. For starters, lets ensure our systemd lsyncd.service will start:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:222
-msgid "`systemctl start lsyncd`"
+#, no-wrap
+msgid "`systemctl start lsyncd`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:224
-msgid ""
-"If no errors appear after executing this command, check the status of the "
-"service, just to ensure:"
+#, no-wrap
+msgid "If no errors appear after executing this command, check the status of the service, just to ensure:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:226
-msgid "`systemctl status lsyncd`"
+#, no-wrap
+msgid "`systemctl status lsyncd`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:228
-msgid ""
-"If it shows the service running, use tail to see the ends of the two log "
-"files, and ensure everything shows up OK:"
+#, no-wrap
+msgid "If it shows the service running, use tail to see the ends of the two log files, and ensure everything shows up OK:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:230
-msgid "`tail /var/log/lsyncd.log`"
+#, no-wrap
+msgid "`tail /var/log/lsyncd.log`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:234
-msgid "`tail /var/log/lsyncd-status.log`"
+#, no-wrap
+msgid "`tail /var/log/lsyncd-status.log`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:236
-msgid ""
-"Assuming that this all looks correct, navigate to the `/home/[user]` "
-"directory, where `[user]` is a user on the computer and create a new file "
-"there with *touch*."
+#, no-wrap
+msgid "Assuming that this all looks correct, navigate to the `/home/[user]` directory, where `[user]` is a user on the computer and create a new file there with *touch*.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:238
-msgid "`touch /home/[user]/testfile`"
+#, no-wrap
+msgid "`touch /home/[user]/testfile`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:240
-msgid ""
-"Now go to the target computer and see if the file shows up. If so, "
-"everything is working as it should. Set the lsyncd.service to start on boot "
-"with:"
+#, no-wrap
+msgid "Now go to the target computer and see if the file shows up. If so, everything is working as it should. Set the lsyncd.service to start on boot with:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:244
-msgid "And you are ready to go."
+#, no-wrap
+msgid "And you are ready to go.\n"
 msgstr ""
 
 #. type: Title ##
@@ -819,20 +793,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:248
-msgid ""
-"Anytime you are synchronizing a set of files or directories to another "
-"computer, think carefully about the effect it will have on the target "
-"computer. If you go back to **The lsyncd.exclude File** in our example "
-"above, can you imagine what might happen if */etc/fstab* is synchronized?"
+#, no-wrap
+msgid "Anytime you are synchronizing a set of files or directories to another computer, think carefully about the effect it will have on the target computer. If you go back to **The lsyncd.exclude File** in our example above, can you imagine what might happen if */etc/fstab* is synchronized?\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:250
-msgid ""
-"For newbies, *fstab* is the file that is used to configure storage drives on "
-"any Linux computer. The disks and labels are almost certainly different. The "
-"next time the target computer was rebooted it would likely fail to boot "
-"entirely."
+#, no-wrap
+msgid "For newbies, *fstab* is the file that is used to configure storage drives on any Linux computer. The disks and labels are almost certainly different. The next time the target computer was rebooted it would likely fail to boot entirely.\n"
 msgstr ""
 
 #. type: Title #
@@ -843,15 +811,12 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:254
-msgid ""
-"`lsyncd` is a powerful tool for directory synchronization between computers. "
-"As you've seen, it is not hard to install, and it is not complex to maintain "
-"going forward. You can not ask for more than that."
+#, no-wrap
+msgid "`lsyncd` is a powerful tool for directory synchronization between computers. As you've seen, it is not hard to install, and it is not complex to maintain going forward. You can not ask for more than that.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:255
-msgid ""
-"You can find out more about `lsyncd` by going to [The Official Site](https://"
-"github.com/axkibe/lsyncd)"
+#, no-wrap
+msgid "You can find out more about `lsyncd` by going to [The Official Site](https://github.com/axkibe/lsyncd)\n"
 msgstr ""

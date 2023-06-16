@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -47,7 +47,8 @@ msgstr ""
 #: ../src/docs/guides/proxies/pound.md:62
 #: ../src/docs/guides/proxies/pound.md:418 ../src/docs/index.md:40
 #: ../src/docs/release_notes/9_1.md:16
-msgid "!!! note"
+#, no-wrap
+msgid "!!! note\n"
 msgstr ""
 
 #. type: Title #
@@ -128,8 +129,8 @@ msgstr ""
 #: ../src/docs/guides/security/dnf_automatic.md:67
 #: ../src/docs/guides/security/firewalld.md:102
 #: ../src/docs/labs/sys_admin_1/lab7-software_management.md:115
-#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:368
-msgid "!!! tip"
+#, no-wrap
+msgid "!!! tip\n"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
@@ -187,7 +188,8 @@ msgstr ""
 #: ../src/docs/books/lxd_server/05-lxd_images.md:86
 #: ../src/docs/guides/automation/cron_jobs_howto.md:44
 #: ../src/docs/guides/network/librenms_monitoring_server.md:538
-msgid "and"
+#, no-wrap
+msgid "and\n"
 msgstr ""
 
 #. type: Title ##
@@ -260,14 +262,14 @@ msgstr ""
 #: ../src/docs/guides/automation/cron_jobs_howto.md:18
 #: ../src/docs/guides/automation/olivetin.md:38
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:25
-msgid "A computer running Rocky Linux"
+#, no-wrap
+msgid "A computer running Rocky Linux\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/cron_jobs_howto.md:18
-msgid ""
-"Some comfort with modifying configuration files from the command-line by "
-"using your favorite editor (using `vi` here)"
+#, no-wrap
+msgid "Some comfort with modifying configuration files from the command-line by using your favorite editor (using `vi` here)\n"
 msgstr ""
 
 #. type: Title ##
@@ -278,16 +280,14 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/cron_jobs_howto.md:22
-msgid ""
-"Basic knowledge of bash, python, or other scripting or programming tools, "
-"and you want to have a script run automatically"
+#, no-wrap
+msgid "Basic knowledge of bash, python, or other scripting or programming tools, and you want to have a script run automatically\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/cron_jobs_howto.md:22
-msgid ""
-"That you are either running as the root user or have switched to root with "
-"`sudo -s`"
+#, no-wrap
+msgid "That you are either running as the root user or have switched to root with `sudo -s`  \n"
 msgstr ""
 
 #. type: Plain text
@@ -298,40 +298,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:28
-msgid ""
-"Linux provides the _cron_ system, a time-based job scheduler, for automating "
-"processes. It is simplistic and yet quite powerful. Want a script or program "
-"to run every day at 5 PM? This is where you set that up."
+#, no-wrap
+msgid "Linux provides the _cron_ system, a time-based job scheduler, for automating processes. It is simplistic and yet quite powerful. Want a script or program to run every day at 5 PM? This is where you set that up.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:30
-msgid ""
-"The _crontab_ is essentially a list where users add their own automated "
-"tasks and jobs, and it has many options that can simplify things even "
-"further. This document will explore some of these. It is a good refresher "
-"for those with some experience, and new users can add the `cron` system to "
-"their repertoire."
+#, no-wrap
+msgid "The _crontab_ is essentially a list where users add their own automated tasks and jobs, and it has many options that can simplify things even further. This document will explore some of these. It is a good refresher for those with some experience, and new users can add the `cron` system to their repertoire.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:32
-msgid ""
-"`anacron` is discussed briefly here in reference to the `cron` \"dot\" "
-"directories. `anacron` is run by `cron`, and is helpful for machines that "
-"are not up all the time, such as workstations and laptops. The reason for "
-"this is that while `cron` runs jobs on a schedule, if the machine is off "
-"when the job is scheduled, the job does not run. With `anacron` the job is "
-"picked up and run when the machine is on again, even if the scheduled run "
-"was in the past. `anacron` though, uses a more randomized approach to "
-"running tasks where the timing is not exact. This makes sense for "
-"workstations and laptops, but not so much for servers. This can be a problem "
-"for things such as server backups, for instance, needing to run a job at a "
-"specific time. That is where `cron` provides the best solution for server "
-"administrators. Still, server administrators and workstation or notebook "
-"users can gain something from both approaches. You can mix and match based "
-"on your needs. For more on `anacron` see [anacron - Automating commands]"
-"(anacron.md)."
+#, no-wrap
+msgid "`anacron` is discussed briefly here in reference to the `cron` \"dot\" directories. `anacron` is run by `cron`, and is helpful for machines that are not up all the time, such as workstations and laptops. The reason for this is that while `cron` runs jobs on a schedule, if the machine is off when the job is scheduled, the job does not run. With `anacron` the job is picked up and run when the machine is on again, even if the scheduled run was in the past. `anacron` though, uses a more randomized approach to running tasks where the timing is not exact. This makes sense for workstations and laptops, but not so much for servers. This can be a problem for things such as server backups, for instance, needing to run a job at a specific time. That is where `cron` provides the best solution for server administrators. Still, server administrators and workstation or notebook users can gain something from both approaches. You can mix and match based on your needs. For more on `anacron` see [anacron - Automating commands](anacron.md).\n"
 msgstr ""
 
 #. type: Title ###
@@ -342,13 +322,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:36
-msgid ""
-"Built into every Linux system for many versions now, the `cron` \"dot\" "
-"directories help to automate processes quickly. These show up as directories "
-"that the `cron` system calls based on their naming conventions. They are run "
-"differently, however, based on the process assigned to call them, `anacron` "
-"or `cron`. The default behavior is to use `anacron`, but this can be changed "
-"by a server, workstation or notebook administrator."
+#, no-wrap
+msgid "Built into every Linux system for many versions now, the `cron` \"dot\" directories help to automate processes quickly. These show up as directories that the `cron` system calls based on their naming conventions. They are run differently, however, based on the process assigned to call them, `anacron` or `cron`. The default behavior is to use `anacron`, but this can be changed by a server, workstation or notebook administrator.\n"
 msgstr ""
 
 #. type: Title ####
@@ -359,32 +334,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:40
-msgid ""
-"As stated in the introduction, `cron` normally runs `anacron` these days to "
-"run scripts in these \"dot\" directories. You *may*, want to use these \"dot"
-"\" directories on servers as well, and if that is the case, there are two "
-"steps that you can take to verify that these \"dot\" directories run on a "
-"strict schedule. To do this, you need to install a package and remove "
-"another one:"
+#, no-wrap
+msgid "As stated in the introduction, `cron` normally runs `anacron` these days to run scripts in these \"dot\" directories. You *may*, want to use these \"dot\" directories on servers as well, and if that is the case, there are two steps that you can take to verify that these \"dot\" directories run on a strict schedule. To do this, you need to install a package and remove another one:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:42
-msgid "`dnf install cronie-noanacron`"
+#, no-wrap
+msgid "`dnf install cronie-noanacron`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:46
-msgid "`dnf remove cronie-anacron`"
+#, no-wrap
+msgid "`dnf remove cronie-anacron`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:48
-msgid ""
-"As you might expect, this removes `anacron` from the server and reverts to "
-"running tasks within the \"dot\" directories on a strict schedule. This is "
-"defined by this file: `/etc/cron.d/dailyjobs`, which has the following "
-"contents:"
+#, no-wrap
+msgid "As you might expect, this removes `anacron` from the server and reverts to running tasks within the \"dot\" directories on a strict schedule. This is defined by this file: `/etc/cron.d/dailyjobs`, which has the following contents:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -404,23 +373,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:62
-msgid "This translates to the following:"
+#, no-wrap
+msgid "This translates to the following:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/cron_jobs_howto.md:66
-msgid "run scripts in `cron.daily` at 04:02:00 every day."
+#, no-wrap
+msgid "run scripts in `cron.daily` at 04:02:00 every day.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/cron_jobs_howto.md:66
-msgid "run scripts in `cron.weekly` at 04:22:00 on Sunday every week."
+#, no-wrap
+msgid "run scripts in `cron.weekly` at 04:22:00 on Sunday every week.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/cron_jobs_howto.md:66
-msgid ""
-"run scripts in `cron.monthly` at 04:42:00 on the first day of every month."
+#, no-wrap
+msgid "run scripts in `cron.monthly` at 04:42:00 on the first day of every month.\n"
 msgstr ""
 
 #. type: Title ####
@@ -431,40 +403,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:70
-msgid ""
-"If you want to run scripts on a workstation or notebook in the `cron` \"dot"
-"\" directories, nothing special is needed. Just copy your script file into "
-"the directory in question, and make sure it is executable. Here are the "
-"directories:"
+#, no-wrap
+msgid "If you want to run scripts on a workstation or notebook in the `cron` \"dot\" directories, nothing special is needed. Just copy your script file into the directory in question, and make sure it is executable. Here are the directories:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/cron_jobs_howto.md:75
-msgid ""
-"`/etc/cron.hourly` - Scripts placed here will run one minute past the hour "
-"every hour. (this is run by `cron` regardless of whether `anacron` is "
-"installed or not)"
+#, no-wrap
+msgid "`/etc/cron.hourly` - Scripts placed here will run one minute past the hour every hour. (this is run by `cron` regardless of whether `anacron` is installed or not)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/cron_jobs_howto.md:75
-msgid ""
-"`/etc/cron.daily` - Scripts placed here will run every day. `anacron` "
-"adjusts the timing of these. (see tip)"
+#, no-wrap
+msgid "`/etc/cron.daily` - Scripts placed here will run every day. `anacron` adjusts the timing of these. (see tip)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/cron_jobs_howto.md:75
-msgid ""
-"`/etc/cron.weekly` - Scripts placed here will run every 7 days, based on the "
-"calendar day of the last run time. (see tip)"
+#, no-wrap
+msgid "`/etc/cron.weekly` - Scripts placed here will run every 7 days, based on the calendar day of the last run time. (see tip)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/cron_jobs_howto.md:75
-msgid ""
-"`/etc/cron.monthly` - Scripts placed here will run monthly based on the "
-"calendar day of the last run time. (see tip)"
+#, no-wrap
+msgid "`/etc/cron.monthly` - Scripts placed here will run monthly based on the calendar day of the last run time. (see tip)\n"
 msgstr ""
 
 #. type: Plain text
@@ -475,10 +439,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:81
-msgid ""
-"Provided you are good with just letting the system auto-run your scripts, "
-"and allowing them to run sometime during the specified time, it simplifies "
-"the automation of tasks."
+#, no-wrap
+msgid "Provided you are good with just letting the system auto-run your scripts, and allowing them to run sometime during the specified time, it simplifies the automation of tasks.\n"
 msgstr ""
 
 #. type: Plain text
@@ -495,12 +457,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:89
-msgid ""
-"If the automated, randomized times do not work well in [For Workstations "
-"above](#for-workstations), and the scheduled times in the [For Servers above]"
-"(#for-servers), then you can create your own. In this example, we are "
-"assuming you are doing this as root. [see Assumptions](#assumptions) To do "
-"this, type the following:"
+#, no-wrap
+msgid "If the automated, randomized times do not work well in [For Workstations above](#for-workstations), and the scheduled times in the [For Servers above](#for-servers), then you can create your own. In this example, we are assuming you are doing this as root. [see Assumptions](#assumptions) To do this, type the following:\n"
 msgstr ""
 
 #. type: Plain text
@@ -508,16 +466,14 @@ msgstr ""
 #: ../src/docs/guides/automation/cron_jobs_howto.md:131
 #: ../src/docs/guides/backup/rsnapshot_backup.md:412
 #: ../src/docs/guides/backup/rsync_ssh.md:123
-msgid "`crontab -e`"
+#, no-wrap
+msgid "`crontab -e`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:93
-msgid ""
-"This will pull up root user's `crontab` as it exists at this moment in your "
-"chosen editor, and may look something like this. Go ahead and read through "
-"this commented version, as it contains descriptions of each field that we "
-"will be using next:"
+#, no-wrap
+msgid "This will pull up root user's `crontab` as it exists at this moment in your chosen editor, and may look something like this. Go ahead and read through this commented version, as it contains descriptions of each field that we will be using next:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -551,20 +507,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:121
-msgid ""
-"Notice that this particular `crontab` file has some of its own documentation "
-"built-in. That is not always the case. When modifying a `crontab` on a "
-"container or minimalist operating system, the `crontab` will be an empty "
-"file unless an entry is in it."
+#, no-wrap
+msgid "Notice that this particular `crontab` file has some of its own documentation built-in. That is not always the case. When modifying a `crontab` on a container or minimalist operating system, the `crontab` will be an empty file unless an entry is in it.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:123
-msgid ""
-"Assume that you have a backup script that you want to run at 10 PM at night. "
-"The `crontab` uses a 24 hour clock, this would be 22:00. Assume that the "
-"backup script is called \"backup\" and that it is currently in the _/usr/"
-"local/sbin_ directory."
+#, no-wrap
+msgid "Assume that you have a backup script that you want to run at 10 PM at night. The `crontab` uses a 24 hour clock, this would be 22:00. Assume that the backup script is called \"backup\" and that it is currently in the _/usr/local/sbin_ directory.\n"
 msgstr ""
 
 #. type: Plain text
@@ -575,49 +525,44 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:129
-msgid "To add the job, you:"
+#, no-wrap
+msgid "To add the job, you:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:133
-msgid ""
-"`crontab` stands for \"cron table\" and the format of the file is, in fact, "
-"a loose table layout. Now that you are in the `crontab`, go to the bottom of "
-"the file and add your new entry. If you are using `vi` as your default "
-"system editor, then this is done with the following keys:"
+#, no-wrap
+msgid "`crontab` stands for \"cron table\" and the format of the file is, in fact, a loose table layout. Now that you are in the `crontab`, go to the bottom of the file and add your new entry. If you are using `vi` as your default system editor, then this is done with the following keys:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:135
-msgid "`Shift : $`"
+#, no-wrap
+msgid "`Shift : $`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:137
-msgid ""
-"Now that you are at the bottom of the file, insert a line and type a brief "
-"comment to describe what is going on with your entry. This is done by adding "
-"a \"#\" to the beginning of the line:"
+#, no-wrap
+msgid "Now that you are at the bottom of the file, insert a line and type a brief comment to describe what is going on with your entry. This is done by adding a \"#\" to the beginning of the line:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:139
-msgid "`# Backing up the system every night at 10PM`"
+#, no-wrap
+msgid "`# Backing up the system every night at 10PM`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:141
-msgid ""
-"Now hit enter. You should still be in the insert mode, so the next step is "
-"to add your entry. As shown in our empty commented `crontab` (above) this is "
-"**m** for minutes, **h** for hours, **dom** for day of month, **mon** for "
-"month, and **dow** for day of week."
+#, no-wrap
+msgid "Now hit enter. You should still be in the insert mode, so the next step is to add your entry. As shown in our empty commented `crontab` (above) this is **m** for minutes, **h** for hours, **dom** for day of month, **mon** for month, and **dow** for day of week.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:143
-msgid ""
-"To run our backup script every day at 10:00, the entry would look like this:"
+#, no-wrap
+msgid "To run our backup script every day at 10:00, the entry would look like this:\n"
 msgstr ""
 
 #. type: Plain text
@@ -628,10 +573,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:147
-msgid ""
-"This says run the script at 10 PM, every day of the month, every month, and "
-"every day of the week. This is a simplistic example and things can get quite "
-"complicated when you need specifics."
+#, no-wrap
+msgid "This says run the script at 10 PM, every day of the month, every month, and every day of the week. This is a simplistic example and things can get quite complicated when you need specifics.\n"
 msgstr ""
 
 #. type: Title ###
@@ -642,46 +585,44 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:151
-msgid ""
-"Another way to run jobs at a strictly scheduled time (i.e., day, week, "
-"month, year, and so on.) is to use the @options, which offer the ability to "
-"use more natural timing. The @options consist of:"
+#, no-wrap
+msgid "Another way to run jobs at a strictly scheduled time (i.e., day, week, month, year, and so on.) is to use the @options, which offer the ability to use more natural timing. The @options consist of:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/cron_jobs_howto.md:158
-msgid ""
-"`@hourly` runs the script every hour of every day at 0 minutes past the "
-"hour. (this is exactly the result of placing your script in `/etc/cron."
-"hourly` too)"
+#, no-wrap
+msgid "`@hourly` runs the script every hour of every day at 0 minutes past the hour. (this is exactly the result of placing your script in `/etc/cron.hourly` too)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/cron_jobs_howto.md:158
-msgid "`@daily` runs the script every day at midnight."
+#, no-wrap
+msgid "`@daily` runs the script every day at midnight.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/cron_jobs_howto.md:158
-msgid "`@weekly` runs the script every week at midnight on Sunday."
+#, no-wrap
+msgid "`@weekly` runs the script every week at midnight on Sunday.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/cron_jobs_howto.md:158
-msgid ""
-"`@monthly` runs the script every month at midnight on the first day of the "
-"month."
+#, no-wrap
+msgid "`@monthly` runs the script every month at midnight on the first day of the month.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/cron_jobs_howto.md:158
-msgid ""
-"`@yearly` runs the script every year at midnight on the first day of January."
+#, no-wrap
+msgid "`@yearly` runs the script every year at midnight on the first day of January.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/cron_jobs_howto.md:158
-msgid "`@reboot` runs the script on system startup only."
+#, no-wrap
+msgid "`@reboot` runs the script on system startup only.\n"
 msgstr ""
 
 #. type: Plain text
@@ -692,14 +633,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:164
-msgid ""
-"For our backup script example, if we use the @daily option to run the backup "
-"script at midnight, the entry would look like this:"
+#, no-wrap
+msgid "For our backup script example, if we use the @daily option to run the backup script at midnight, the entry would look like this:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:166
-msgid "`@daily /usr/local/sbin/backup`"
+#, no-wrap
+msgid "`@daily  /usr/local/sbin/backup`\n"
 msgstr ""
 
 #. type: Title ###
@@ -710,11 +651,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:170
-msgid ""
-"So far, everything we have talked about has had pretty simplistic options, "
-"but what about the more complex task timings? Say that you want to run your "
-"backup script every 10 minutes during the day (probably not a practical "
-"thing to do, but hey, this is an example!). To do this you would write:"
+#, no-wrap
+msgid "So far, everything we have talked about has had pretty simplistic options, but what about the more complex task timings? Say that you want to run your backup script every 10 minutes during the day (probably not a practical thing to do, but hey, this is an example!). To do this you would write:\n"
 msgstr ""
 
 #. type: Plain text
@@ -725,9 +663,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:174
-msgid ""
-"What if you wanted to run the backup every 10 minutes, but only on Monday, "
-"Wednesday, and Friday?:"
+#, no-wrap
+msgid "What if you wanted to run the backup every 10 minutes, but only on Monday, Wednesday, and Friday?:\n"
 msgstr ""
 
 #. type: Plain text
@@ -738,7 +675,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:178
-msgid "What about every 10 minutes every day except Saturday and Sunday?:"
+#, no-wrap
+msgid "What about every 10 minutes every day except Saturday and Sunday?:\n"
 msgstr ""
 
 #. type: Plain text
@@ -749,50 +687,36 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:182
-msgid ""
-"In the table, the commas lets you specify individual entries within a field, "
-"and the dash lets you specify a range of values within a field. This can "
-"happen in any of the fields, and on many fields at the same time. As you can "
-"see, things can get pretty complicated."
+#, no-wrap
+msgid "In the table, the commas lets you specify individual entries within a field,  and the dash lets you specify a range of values within a field. This can happen in any of the fields, and on many fields at the same time. As you can see, things can get pretty complicated.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:184
-msgid ""
-"When determining when to run a script, you need to take time and plan it "
-"out, particularly if the criteria are complex."
+#, no-wrap
+msgid "When determining when to run a script, you need to take time and plan it out, particularly if the criteria are complex.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:188
-msgid ""
-"The _cron/crontab_ system is a powerful tool for the Rocky Linux systems "
-"administrator or desktop user. It allows you to automate tasks and scripts "
-"so that you do not have to remember to run them manually. There are more "
-"examples provided here:"
+#, no-wrap
+msgid "The _cron/crontab_ system is a powerful tool for the Rocky Linux systems administrator or desktop user. It allows you to automate tasks and scripts so that you do not have to remember to run them manually. There are more examples provided here:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/cron_jobs_howto.md:191
-msgid ""
-"For machines that are **not** on 24 hours a day, explore [anacron - "
-"Automating commands](anacron.md)."
+#, no-wrap
+msgid "For machines that are **not** on 24 hours a day, explore [anacron - Automating commands](anacron.md).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/cron_jobs_howto.md:191
-msgid ""
-"For a concise description of `cron` processes, check out [cronie - Timed "
-"Tasks](cronie.md)"
+#, no-wrap
+msgid "For a concise description of `cron` processes, check out [cronie - Timed Tasks](cronie.md)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/cron_jobs_howto.md:192
-msgid ""
-"While the basics are pretty easy, you can get more complex. For more "
-"information on `crontab` head up to the [crontab manual page](https://man7."
-"org/linux/man-pages/man5/crontab.5.html). On most systems, you can also "
-"enter `man crontab` for additional command details. You can also do a web "
-"search for \"crontab\" which will give you a wealth of results to help you "
-"fine-tune your `crontab` skills."
+#, no-wrap
+msgid "While the basics are pretty easy, you can get more complex. For more information on `crontab` head up to the [crontab manual page](https://man7.org/linux/man-pages/man5/crontab.5.html). On most systems, you can also enter `man crontab` for additional command details. You can also do a web search for \"crontab\" which will give you a wealth of results to help you fine-tune your `crontab` skills.\n"
 msgstr ""

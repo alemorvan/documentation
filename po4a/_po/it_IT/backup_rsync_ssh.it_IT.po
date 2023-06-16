@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -40,7 +40,8 @@ msgstr ""
 #: ../src/docs/guides/package_management/index.md:10
 #: ../src/docs/guides/proxies/pound.md:211
 #: ../src/docs/guides/proxies/pound.md:265 ../src/docs/release_notes/8_4.md:20
-msgid "!!! warning"
+#, no-wrap
+msgid "!!! warning\n"
 msgstr ""
 
 #. type: Title #
@@ -159,7 +160,8 @@ msgstr ""
 #: ../src/docs/guides/automation/cron_jobs_howto.md:131
 #: ../src/docs/guides/backup/rsnapshot_backup.md:412
 #: ../src/docs/guides/backup/rsync_ssh.md:123
-msgid "`crontab -e`"
+#, no-wrap
+msgid "`crontab -e`\n"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
@@ -196,78 +198,68 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:15
-msgid ""
-"This is everything you'll need to understand and follow along with this "
-"guide."
+#, no-wrap
+msgid "This is everything you'll need to understand and follow along with this guide.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/rsync_ssh.md:23
-msgid "A machine running Rocky Linux."
+#, no-wrap
+msgid "A machine running Rocky Linux.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/rsync_ssh.md:23
-msgid ""
-"To be comfortable with modifying configuration files from the command-line."
+#, no-wrap
+msgid "To be comfortable with modifying configuration files from the command-line.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/rsync_ssh.md:23
-msgid ""
-"Knowledge of how to use a command line editor (we use _vi_ here, but you "
-"could use your favorite editor)."
+#, no-wrap
+msgid "Knowledge of how to use a command line editor (we use _vi_ here, but you could use your favorite editor).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/rsync_ssh.md:23
-msgid ""
-"You will need root access, and ideally be signed in as the root user in your "
-"terminal."
+#, no-wrap
+msgid "You will need root access, and ideally be signed in as the root user in your terminal.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/rsync_ssh.md:23
-msgid "Public and Private SSH key pairs."
+#, no-wrap
+msgid "Public and Private SSH key pairs.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/rsync_ssh.md:23
-msgid ""
-"Able to create a simple bash script, using vi or your favorite editor, and "
-"test it."
+#, no-wrap
+msgid "Able to create a simple bash script, using vi or your favorite editor, and test it.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/rsync_ssh.md:23
-msgid "Able to use _crontab_ to automate the running of the script."
+#, no-wrap
+msgid "Able to use _crontab_ to automate the running of the script.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:27
-msgid ""
-"Using `rsync` over SSH is neither as powerful as [lsyncd](../backup/"
-"mirroring_lsyncd.md) (which allows you to watch a directory or file for "
-"changes and keep it synchronized in real time), or as flexible as [rsnapshot]"
-"(../backup/rsnapshot_backup.md) (which offers the ability to easily backup "
-"multiple targets from a single machine). However, it does provide the "
-"ability to keep two computers up to date on a schedule that you define."
+#, no-wrap
+msgid "Using `rsync` over SSH is neither as powerful as [lsyncd](../backup/mirroring_lsyncd.md) (which allows you to watch a directory or file for changes and keep it synchronized in real time), or as flexible as [rsnapshot](../backup/rsnapshot_backup.md) (which offers the ability to easily backup multiple targets from a single machine). However, it does provide the ability to keep two computers up to date on a schedule that you define.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:29
-msgid ""
-"If you need to keep a set of directories on the target computer up to date, "
-"and you don't care about real-time synchronization as a feature, then "
-"`rsync` over SSH is probably the best solution."
+#, no-wrap
+msgid "If you need to keep a set of directories on the target computer up to date, and you don't care about real-time synchronization as a feature, then `rsync` over SSH is probably the best solution.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:31
-msgid ""
-"For all of the below, we will be doing things as the root user, so either "
-"login as root or use the `sudo -s` command to switch to the root user in "
-"your terminal."
+#, no-wrap
+msgid "For all of the below, we will be doing things as the root user, so either login as root or use the `sudo -s` command to switch to the root user in your terminal.\n"
 msgstr ""
 
 #. type: Title ###
@@ -278,23 +270,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:35
-msgid ""
-"Although `rsync` may already be installed, it is best to update `rsync` to "
-"the latest version on the source and target computers. To ensure that "
-"`rsync` is installed and up to date, do the following on both computers:"
+#, no-wrap
+msgid "Although `rsync` may already be installed, it is best to update `rsync` to the latest version on the source and target computers. To ensure that `rsync` is installed and up to date, do the following on both computers:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:37
-msgid "`dnf install rsync`"
+#, no-wrap
+msgid "`dnf install rsync`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:39
-msgid ""
-"If the package is not installed, `dnf` will ask you to confirm the "
-"installation, if it is already installed, `dnf` will look for an update and "
-"prompt to install it."
+#, no-wrap
+msgid "If the package is not installed, `dnf` will ask you to confirm the installation, if it is already installed, `dnf` will look for an update and prompt to install it.\n"
 msgstr ""
 
 #. type: Title ###
@@ -305,12 +294,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:43
-msgid ""
-"This particular example will use `rsync` on the target machine to pull from "
-"the source instead of pushing from the source to the target, so you need to "
-"set up an [SSH key pair](../security/ssh_public_private_keys.md) for this . "
-"Once the SSH key pair has been created and password-free access from the "
-"target computer to the source computer has been confirmed, you can start."
+#, no-wrap
+msgid "This particular example will use `rsync` on the target machine to pull from the source instead of pushing from the source to the target, so you need to set up an [SSH key pair](../security/ssh_public_private_keys.md) for this . Once the SSH key pair has been created and password-free access from the target computer to the source computer has been confirmed, you can start.\n"
 msgstr ""
 
 #. type: Title ###
@@ -321,88 +306,92 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:47
-msgid ""
-"Before we get terribly carried away with setting up a script, we first need "
-"to decide what parameters we want to use with `rsync`. There are many "
-"possibilities, so take a look at the [manual for rsync](https://linux.die."
-"net/man/1/rsync). The most common way to use `rsync` is to use the `-a` "
-"option, because `-a`, or archive, combines a number of options into one and "
-"these are very common options. What does -a include?"
+#, no-wrap
+msgid "Before we get terribly carried away with setting up a script, we first need to decide what parameters we want to use with `rsync`. There are many possibilities, so take a look at the [manual for rsync](https://linux.die.net/man/1/rsync). The most common way to use `rsync` is to use the `-a` option, because `-a`, or archive, combines a number of options into one and these are very common options. What does -a include?\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/rsync_ssh.md:55
-msgid "-r, recurse the directories"
+#, no-wrap
+msgid "-r, recurse the directories\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/rsync_ssh.md:55
-msgid "-l, maintain symbolic links as symbolic links"
+#, no-wrap
+msgid "-l, maintain symbolic links as symbolic links\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/rsync_ssh.md:55
-msgid "-p, preserve permissions"
+#, no-wrap
+msgid "-p, preserve permissions\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/rsync_ssh.md:55
-msgid "-t, preserve modification times"
+#, no-wrap
+msgid "-t, preserve modification times\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/rsync_ssh.md:55
-msgid "-g, preserve group-"
+#, no-wrap
+msgid "-g, preserve group-\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/rsync_ssh.md:55
-msgid "-o, preserve owner"
+#, no-wrap
+msgid "-o, preserve owner\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/rsync_ssh.md:55
-msgid "-D, preserve device files"
+#, no-wrap
+msgid "-D, preserve device files\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:57
-msgid "The only other options that we need to specify in this example is:"
+#, no-wrap
+msgid "The only other options that we need to specify in this example is:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/rsync_ssh.md:60
-msgid "-e, specify the remote shell to use"
+#, no-wrap
+msgid "-e, specify the remote shell to use\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/rsync_ssh.md:60
-msgid ""
-"--delete, which says if the target directory has a file in it that doesn't "
-"exist on the source, get rid of it"
+#, no-wrap
+msgid "--delete, which says if the target directory has a file in it that doesn't exist on the source, get rid of it\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:62
-msgid ""
-"Next, we need to set up a script by creating a file for it (again, use your "
-"favorite editor if you are not familiar with vi). To create the file, just "
-"use this command:"
+#, no-wrap
+msgid "Next, we need to set up a script by creating a file for it (again, use your favorite editor if you are not familiar with vi). To create the file, just use this command:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:64
-msgid "`vi /usr/local/sbin/rsync_dirs`"
+#, no-wrap
+msgid "`vi /usr/local/sbin/rsync_dirs`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:66
-msgid "And then make it executable:"
+#, no-wrap
+msgid "And then make it executable:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:68
-msgid "`chmod +x /usr/local/sbin/rsync_dirs`"
+#, no-wrap
+msgid "`chmod +x /usr/local/sbin/rsync_dirs`\n"
 msgstr ""
 
 #. type: Title ##
@@ -413,12 +402,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:72
-msgid ""
-"Now, scripting makes it super simple and safe so that you can test it "
-"fearlessly. Please note that the URL used below is \"source.domain.com\". "
-"Replace it with the domain or IP address of your own source computer, both "
-"will work. Also remember that in this example, the script is created on the "
-"\"target\" computer, because the file is pulled from the source computer:"
+#, no-wrap
+msgid "Now, scripting makes it super simple and safe so that you can test it fearlessly. Please note that the URL used below is \"source.domain.com\". Replace it with the domain or IP address of your own source computer, both will work. Also remember that in this example, the script is created on the \"target\" computer, because the file is pulled from the source computer:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -437,7 +422,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:83
-msgid "Now run the script:"
+#, no-wrap
+msgid "Now run the script:\n"
 msgstr ""
 
 #. type: Plain text
@@ -445,81 +431,81 @@ msgstr ""
 #: ../src/docs/guides/backup/rsync_ssh.md:95
 #: ../src/docs/guides/backup/rsync_ssh.md:103
 #: ../src/docs/guides/backup/rsync_ssh.md:113
-msgid "`/usr/local/sbin/rsync_dirs`"
+#, no-wrap
+msgid "`/usr/local/sbin/rsync_dirs`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:87
-msgid ""
-"If all is well, you should get a completely synchronized copy of your home "
-"directory on the target machine. Check to be sure this is the case."
+#, no-wrap
+msgid "If all is well, you should get a completely synchronized copy of your home directory on the target machine. Check to be sure this is the case.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:89
-msgid ""
-"Assuming all of that worked out as we hoped, go ahead and create a new file "
-"on the source machine in your home directory:"
+#, no-wrap
+msgid "Assuming all of that worked out as we hoped, go ahead and create a new file on the source machine in your home directory:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:91
-msgid "`touch /home/your_user/testfile.txt`"
+#, no-wrap
+msgid "`touch /home/your_user/testfile.txt`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:93
 #: ../src/docs/guides/backup/rsync_ssh.md:101
-msgid "Run the script again:"
+#, no-wrap
+msgid "Run the script again:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:97
-msgid ""
-"Then verify that the target computer receives the new file. If so, the next "
-"step is to check the deletion process. Delete the file we just created on "
-"the source computer:"
+#, no-wrap
+msgid "Then verify that the target computer receives the new file. If so, the next step is to check the deletion process. Delete the file we just created on the source computer:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:99
-msgid "`rm -f /home/your_user/testfile.txt`"
+#, no-wrap
+msgid "`rm -f /home/your_user/testfile.txt`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:105
-msgid "Verify that the file no longer exists on the target computer."
+#, no-wrap
+msgid "Verify that the file no longer exists on the target computer.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:107
-msgid ""
-"Finally, let's create a file on the target machine that doesn't exist on the "
-"source. So, on the target:"
+#, no-wrap
+msgid "Finally, let's create a file on the target machine that doesn't exist on the source. So, on the target:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:109
-msgid "`touch /home/your_user/a_different_file.txt`"
+#, no-wrap
+msgid "`touch /home/your_user/a_different_file.txt`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:111
-msgid "Run the script a final time:"
+#, no-wrap
+msgid "Run the script a final time:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:115
-msgid ""
-"The file we just created on the target should now be gone, because it does "
-"not exist on the source."
+#, no-wrap
+msgid "The file we just created on the target should now be gone, because it does not exist on the source.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:117
-msgid ""
-"Assuming all of this worked as expected, go ahead and modify the script to "
-"synchronize all the directories that you want."
+#, no-wrap
+msgid "Assuming all of this worked as expected, go ahead and modify the script to synchronize all the directories that you want.\n"
 msgstr ""
 
 #. type: Title ##
@@ -530,15 +516,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:121
-msgid ""
-"We may not want to manually run this script every time we want to "
-"synchronize, so the next step is to do this automatically. Suppose you want "
-"to run this script at 11 PM every night. To automate this, use crontab:"
+#, no-wrap
+msgid "We may not want to manually run this script every time we want to synchronize, so the next step is to do this automatically. Suppose you want to run this script at 11 PM every night. To automate this, use crontab:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:125
-msgid "This will pull up the cron, which may look something like this:"
+#, no-wrap
+msgid "This will pull up the cron, which may look something like this:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -572,9 +557,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:152
-msgid ""
-"The cron is set up on a 24-hour clock, so what we will need for our entry at "
-"the bottom of this file is:"
+#, no-wrap
+msgid "The cron is set up on a 24-hour clock, so what we will need for our entry at the bottom of this file is:\n"
 msgstr ""
 
 #. type: Plain text
@@ -585,25 +569,24 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:156
-msgid ""
-"What this says is to run this command at 00 minute, 23 h, every day, every "
-"month, and every day of the week. Save your cron entry with:"
+#, no-wrap
+msgid "What this says is to run this command at 00 minute, 23 h, every day, every month, and every day of the week. Save your cron entry with:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:158
-msgid "`Shift : wq!`"
+#, no-wrap
+msgid "`Shift : wq!`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:160
-msgid ""
-"... or with the commands that your favorite editor uses for saving a file."
+#, no-wrap
+msgid "... or with the commands that your favorite editor uses for saving a file.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/backup/rsync_ssh.md:163
-msgid ""
-"Although `rsync` is not as flexible or powerful as other tools, it provides "
-"simple file synchronization, which is always useful."
+#, no-wrap
+msgid "Although `rsync` is not as flexible or powerful as other tools, it provides simple file synchronization, which is always useful.\n"
 msgstr ""

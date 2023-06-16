@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -112,10 +112,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/docker.md:13
-msgid ""
-"The Docker Engine can be used running native Docker style container "
-"workloads on Rocky Linux servers. This is sometimes preferred to running the "
-"full Docker Desktop environment."
+#, no-wrap
+msgid "The Docker Engine can be used running native Docker style container workloads on Rocky Linux servers. This is sometimes preferred to running the full Docker Desktop environment.\n"
 msgstr ""
 
 #. type: Title ##
@@ -126,9 +124,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/docker.md:17
-msgid ""
-"Use the `dnf` utility to add the docker repository to your Rocky Linux "
-"server. Type:"
+#, no-wrap
+msgid "Use the `dnf` utility to add the docker repository to your Rocky Linux server. Type:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -145,9 +142,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/docker.md:25
-msgid ""
-"Install the latest version of Docker Engine, containerd, and Docker Compose, "
-"by running:"
+#, no-wrap
+msgid "Install the latest version of Docker Engine, containerd, and Docker Compose, by running:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -164,10 +160,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/docker.md:33
-msgid ""
-"Use the `systemctl` utility to configure the dockerd daemon to automatically "
-"startup with the next system reboot and simultaneously start it for the "
-"current session. Type:"
+#, no-wrap
+msgid "Use the `systemctl` utility to configure the dockerd daemon to automatically startup with the next system reboot and simultaneously start it for the current session. Type:\n"
 msgstr ""
 
 #. type: Fenced code block

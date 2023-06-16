@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,24 +46,24 @@ msgstr ""
 #: ../src/docs/guides/proxies/pound.md:62
 #: ../src/docs/guides/proxies/pound.md:418 ../src/docs/index.md:40
 #: ../src/docs/release_notes/9_1.md:16
-msgid "!!! note"
+#, no-wrap
+msgid "!!! note\n"
 msgstr ""
 
-#. type: Bullet: '* '
+#. type: Title ###
 #: ../src/docs/books/admin_guide/11-tasks.md:71
 #: ../src/docs/release_notes/8_4.md:51 ../src/docs/release_notes/8_6.md:17
 #: ../src/docs/release_notes/8_7.md:39 ../src/docs/release_notes/8_8.md:54
-#: ../src/docs/release_notes/8_8.md:154 ../src/docs/release_notes/9_0.md:34
-#: ../src/docs/release_notes/9_1.md:47 ../src/docs/release_notes/9_2.md:104
-#: ../src/docs/release_notes/9_2.md:217
+#: ../src/docs/release_notes/9_0.md:34 ../src/docs/release_notes/9_1.md:47
+#: ../src/docs/release_notes/9_2.md:104
 #, no-wrap
 msgid "Security"
 msgstr ""
 
-#. type: Bullet: '* '
+#. type: Title ##
 #: ../src/docs/books/admin_guide/13-softwares.md:1
 #: ../src/docs/books/admin_guide/13-softwares.md:12
-#: ../src/docs/release_notes/9_1.md:43 ../src/docs/release_notes/9_2.md:217
+#: ../src/docs/release_notes/9_1.md:43
 #, no-wrap
 msgid "Software Management"
 msgstr ""
@@ -85,10 +85,9 @@ msgstr ""
 msgid "Major Changes"
 msgstr ""
 
-#. type: Bullet: '* '
+#. type: Title ##
 #: ../src/docs/release_notes/8_4.md:59 ../src/docs/release_notes/8_7.md:58
-#: ../src/docs/release_notes/8_8.md:154 ../src/docs/release_notes/9_0.md:42
-#: ../src/docs/release_notes/9_1.md:97 ../src/docs/release_notes/9_2.md:217
+#: ../src/docs/release_notes/9_0.md:42 ../src/docs/release_notes/9_1.md:97
 #, no-wrap
 msgid "Networking"
 msgstr ""
@@ -101,10 +100,9 @@ msgstr ""
 msgid "Compilers and Development Tools"
 msgstr ""
 
-#. type: Bullet: '* '
+#. type: Title ##
 #: ../src/docs/release_notes/8_4.md:90 ../src/docs/release_notes/8_6.md:32
-#: ../src/docs/release_notes/8_7.md:118 ../src/docs/release_notes/8_8.md:154
-#: ../src/docs/release_notes/9_1.md:151 ../src/docs/release_notes/9_2.md:217
+#: ../src/docs/release_notes/8_7.md:118 ../src/docs/release_notes/9_1.md:151
 #, no-wrap
 msgid "Identity Management"
 msgstr ""
@@ -138,26 +136,20 @@ msgstr ""
 #: ../src/docs/release_notes/8_6.md:83 ../src/docs/release_notes/8_7.md:135
 #: ../src/docs/release_notes/9_0.md:179 ../src/docs/release_notes/9_1.md:180
 #: ../src/docs/release_notes/9_2.md:222
-msgid ""
-"Please report any bugs you encounter to the [Rocky Linux Bug Tracker]"
-"(https://bugs.rockylinux.org/). We also welcome you to join our community in "
-"any way you wish be it on our [Forums](https://forums.rockylinux.org), "
-"[Mattermost](https://chat.rockylinux.org), [IRC on Libera.Chat](irc://irc."
-"liberachat/rockylinux), [Reddit](https://reddit.com/r/rockylinux), [Mailing "
-"Lists](https://lists.resf.org), or any other way you wish to participate!"
+#, no-wrap
+msgid "Please report any bugs you encounter to the [Rocky Linux Bug Tracker](https://bugs.rockylinux.org/). We also welcome you to join our community in any way you wish be it on our [Forums](https://forums.rockylinux.org), [Mattermost](https://chat.rockylinux.org), [IRC on Libera.Chat](irc://irc.liberachat/rockylinux), [Reddit](https://reddit.com/r/rockylinux), [Mailing Lists](https://lists.resf.org), or any other way you wish to participate!\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/8_7.md:28 ../src/docs/release_notes/9_1.md:30
-msgid ""
-"More information on the artifacts produced by the Cloud Special Interest "
-"Group, as well as information on how to get involved can be found on the "
-"[SIG/Cloud Wiki](https://sig-cloud.rocky.page/) page."
+#, no-wrap
+msgid "More information on the artifacts produced by the Cloud Special Interest Group, as well as information on how to get involved can be found on the [SIG/Cloud Wiki](https://sig-cloud.rocky.page/) page.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_7.md:44 ../src/docs/release_notes/9_1.md:71
-msgid "`fapolicyd` rebased to 1.1.3"
+#, no-wrap
+msgid "`fapolicyd` rebased to 1.1.3\n"
 msgstr ""
 
 #. type: Title ##
@@ -175,59 +167,67 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_7.md:84 ../src/docs/release_notes/9_1.md:129
-msgid ""
-"A new default for the `LimitRequestBody` directive in `httpd` configuration"
+#, no-wrap
+msgid "A new default for the `LimitRequestBody` directive in `httpd` configuration\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_7.md:107 ../src/docs/release_notes/9_1.md:142
-msgid "GCC 12 and later supports `_FORTIFY_SOURCE` level 3"
+#, no-wrap
+msgid "GCC 12 and later supports `_FORTIFY_SOURCE` level 3\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_7.md:117 ../src/docs/release_notes/9_1.md:150
-msgid "DNS stub resolver option now supports `no-aaaa` option"
+#, no-wrap
+msgid "DNS stub resolver option now supports `no-aaaa` option\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_7.md:117 ../src/docs/release_notes/9_1.md:150
-msgid "Rust Toolset rebased to version 1.62.1"
+#, no-wrap
+msgid "Rust Toolset rebased to version 1.62.1\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_7.md:117 ../src/docs/release_notes/9_1.md:150
-msgid "LLVM Toolset rebased to version 14.0.0"
+#, no-wrap
+msgid "LLVM Toolset rebased to version 14.0.0\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_7.md:126 ../src/docs/release_notes/9_1.md:158
-msgid "SSSD now supports memory caching for SID requests"
+#, no-wrap
+msgid "SSSD now supports memory caching for SID requests\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_7.md:126 ../src/docs/release_notes/9_1.md:164
-msgid "IdM now supports configuring an AD Trust with Windows Server 2022"
+#, no-wrap
+msgid "IdM now supports configuring an AD Trust with Windows Server 2022\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_7.md:126 ../src/docs/release_notes/9_1.md:171
-msgid "New `ipasmartcard_server` and `ipasmartcard_client` roles"
+#, no-wrap
+msgid "New `ipasmartcard_server` and `ipasmartcard_client` roles\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_7.md:126 ../src/docs/release_notes/9_1.md:171
-msgid "`samba` rebased to version 4.16.1"
+#, no-wrap
+msgid "`samba` rebased to version 4.16.1\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_7.md:126 ../src/docs/release_notes/9_1.md:158
-msgid "SSSD now supports direct integration with Windows Server 2022"
+#, no-wrap
+msgid "SSSD now supports direct integration with Windows Server 2022\n"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/release_notes/8_7.md:127 ../src/docs/release_notes/8_8.md:154
-#: ../src/docs/release_notes/9_0.md:129 ../src/docs/release_notes/9_1.md:172
-#: ../src/docs/release_notes/9_2.md:217
+#. type: Title ##
+#: ../src/docs/release_notes/8_7.md:127 ../src/docs/release_notes/9_0.md:129
+#: ../src/docs/release_notes/9_1.md:172
 #, no-wrap
 msgid "Virtualization"
 msgstr ""
@@ -241,7 +241,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/9_0.md:27 ../src/docs/release_notes/9_1.md:42
-msgid "Some highlights from this release are detailed next."
+#, no-wrap
+msgid "Some highlights from this release are detailed next.\n"
 msgstr ""
 
 #. type: YAML Front Matter: tags
@@ -276,9 +277,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/9_1.md:14
-msgid ""
-"You can upgrade from Rocky Linux 9.0 to Rocky Linux 9.1 by simply running "
-"`sudo dnf -y upgrade`"
+#, no-wrap
+msgid "You can upgrade from Rocky Linux 9.0 to Rocky Linux 9.1 by simply running `sudo dnf -y upgrade`\n"
 msgstr ""
 
 #. type: Plain text
@@ -295,59 +295,44 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/9_1.md:22
-msgid ""
-"As well as the normal install images, there are several images available for "
-"new and existing cloud and container platforms."
+#, no-wrap
+msgid "As well as the normal install images, there are several images available for new and existing cloud and container platforms.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/9_1.md:24
-msgid ""
-"In between Rocky Linux 9.0 and 9.1, images for Oracle Cloud Platform (OCP) "
-"were developed and released. The Oracle images join our existing set of "
-"images including GenericCloud, Amazon AWS (EC2), Container RootFS/OCI, "
-"Google Cloud Platform, Microsoft Azure, and other CSP-maintained images."
+#, no-wrap
+msgid "In between Rocky Linux 9.0 and 9.1, images for Oracle Cloud Platform (OCP) were developed and released. The Oracle images join our existing set of images including GenericCloud, Amazon AWS (EC2), Container RootFS/OCI, Google Cloud Platform, Microsoft Azure, and other CSP-maintained images.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/9_1.md:26
-msgid ""
-"Additionally, the GenericCloud, EC2, and Azure images now have a variant "
-"which uses an LVM partition for the root filesystem, allowing systems "
-"administrators additional flexibility and options for configuring their "
-"systems. And the GenericCloud image is also available for ppc64le and s390x "
-"now!"
+#, no-wrap
+msgid "Additionally, the GenericCloud, EC2, and Azure images now have a variant which uses an LVM partition for the root filesystem, allowing systems administrators additional flexibility and options for configuring their systems. And the GenericCloud image is also available for ppc64le and s390x now!\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/9_1.md:28
-msgid ""
-"Also the build pipeline for the container (Base, Minimal, and UBI) and "
-"Vagrant (Libvirt, VirtualBox, and VMWare) images got overhauled. Vagrant "
-"images are now available for x86_64 and aarch64, and container images for "
-"all 4 arches."
+#, no-wrap
+msgid "Also the build pipeline for the container (Base, Minimal, and UBI) and Vagrant (Libvirt, VirtualBox, and VMWare) images got overhauled. Vagrant images are now available for x86_64 and aarch64, and container images for all 4 arches.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/9_1.md:34
-msgid ""
-"To install Rocky Linux 9.1, head to the [download page](https://rockylinux."
-"org/download/) and download the version you need for your architecture."
+#, no-wrap
+msgid "To install Rocky Linux 9.1, head to the [download page](https://rockylinux.org/download/) and download the version you need for your architecture. \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/release_notes/9_1.md:40
-msgid ""
-"For a complete list of major changes, please see the upstream listing [here]"
-"(https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/"
-"html/9.1_release_notes/overview#overview-major-changes)."
+#, no-wrap
+msgid "For a complete list of major changes, please see the upstream listing [here](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/html/9.1_release_notes/overview#overview-major-changes).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:46
-msgid ""
-"The `modulesync` command is now available to replace certain workflows in "
-"`dnf` and `createrepo_c`."
+#, no-wrap
+msgid "The `modulesync` command is now available to replace certain workflows in `dnf` and `createrepo_c`.\n"
 msgstr ""
 
 #. type: Title ###
@@ -358,17 +343,20 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:54
-msgid "New option supports setting the minimum RSA key length"
+#, no-wrap
+msgid "New option supports setting the minimum RSA key length\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:54
-msgid "`crypto-policies` enforce 2048-bit RSA key length minimum by default"
+#, no-wrap
+msgid "`crypto-policies` enforce 2048-bit RSA key length minimum by default\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:54
-msgid "`crypto-policies` now support `sntrup761x25519-sha512@openssh.com`"
+#, no-wrap
+msgid "`crypto-policies` now support `sntrup761x25519-sha512@openssh.com`\n"
 msgstr ""
 
 #. type: Title ###
@@ -379,22 +367,26 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:61
-msgid "SELinux policy confines additional services"
+#, no-wrap
+msgid "SELinux policy confines additional services\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:61
-msgid "SELinux supports the self keyword in type transitions"
+#, no-wrap
+msgid "SELinux supports the self keyword in type transitions\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:61
-msgid "SELinux user-space packages updated"
+#, no-wrap
+msgid "SELinux user-space packages updated\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:61
-msgid "SELinux automatic relabeling is now parallel by default"
+#, no-wrap
+msgid "SELinux automatic relabeling is now parallel by default\n"
 msgstr ""
 
 #. type: Title ###
@@ -407,37 +399,38 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:71
-msgid "New option in OpenSSL supports SHA-1 for signatures"
+#, no-wrap
+msgid "New option in OpenSSL supports SHA-1 for signatures\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:71
-msgid ""
-"Network Security Services (NSS) no longer support RSA keys shorter than 1023 "
-"bits"
+#, no-wrap
+msgid "Network Security Services (NSS) no longer support RSA keys shorter than 1023 bits\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:71
-msgid "SCAP Security Guide rebased to 0.1.63"
+#, no-wrap
+msgid "SCAP Security Guide rebased to 0.1.63\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:71
-msgid ""
-"New packages: `keylime` a tool for attestation of remote systems, which uses "
-"the trusted platform module (TPM) technology. With Keylime, you can verify "
-"and continuously monitor the integrity of remote systems."
+#, no-wrap
+msgid "New packages: `keylime` a tool for attestation of remote systems, which uses the trusted platform module (TPM) technology. With Keylime, you can verify and continuously monitor the integrity of remote systems.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:71
-msgid "Added a maximum size option for Rsyslog error files"
+#, no-wrap
+msgid "Added a maximum size option for Rsyslog error files\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:71
-msgid "`clevis-luks-askpass` is now enabled by default"
+#, no-wrap
+msgid "`clevis-luks-askpass` is now enabled by default\n"
 msgstr ""
 
 #. type: Title ##
@@ -448,50 +441,56 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:83
-msgid "`Cronie` adds support for a randomized time within a selected range"
+#, no-wrap
+msgid "`Cronie` adds support for a randomized time within a selected range\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:83
-msgid ""
-"ReaR adds new variables for executing commands before and after recovery"
+#, no-wrap
+msgid "ReaR adds new variables for executing commands before and after recovery\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:83
-msgid ""
-"New package: `xmlstarlet` - A set of command-line utilities for parsing, "
-"transforming, querying, validating, and editing XML files"
+#, no-wrap
+msgid "New package: `xmlstarlet` - A set of command-line utilities for parsing, transforming, querying, validating, and editing XML files\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:83
-msgid "`pencryptoki` rebased to version 3.18.0"
+#, no-wrap
+msgid "`pencryptoki` rebased to version 3.18.0\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:83
-msgid "`powerpc-utils` rebased to version 1.3.10"
+#, no-wrap
+msgid "`powerpc-utils` rebased to version 1.3.10\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:83
-msgid "`libvpd` rebased to version 2.2.9"
+#, no-wrap
+msgid "`libvpd` rebased to version 2.2.9\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:83
-msgid "`lsvpd` rebased to version 1.7.14"
+#, no-wrap
+msgid "`lsvpd` rebased to version 1.7.14\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:83
-msgid "`ppc64-diag` rebased to version 2.7.8"
+#, no-wrap
+msgid "`ppc64-diag` rebased to version 2.7.8\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:83
-msgid "`sysctl` introduces identical syntax for arguments as `systemd-sysctl`"
+#, no-wrap
+msgid "`sysctl` introduces identical syntax for arguments as `systemd-sysctl`\n"
 msgstr ""
 
 #. type: Title ###
@@ -502,66 +501,74 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:90
-msgid "now uses DHCPv6 NTP servers as well as DHCPv4"
+#, no-wrap
+msgid "now uses DHCPv6 NTP servers as well as DHCPv4\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:90
-msgid "rebased to version 4.2"
+#, no-wrap
+msgid "rebased to version 4.2\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:96
-msgid "`unbound` rebased to version 1.16.2"
+#, no-wrap
+msgid "`unbound` rebased to version 1.16.2\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:96
-msgid "The password encryption function is now available in `whois`"
+#, no-wrap
+msgid "The password encryption function is now available in `whois`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:96
-msgid "`frr` rebased to version 8.2.2"
+#, no-wrap
+msgid "`frr` rebased to version 8.2.2\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:106
-msgid "The `act_ctinfo` kernel module has been added"
+#, no-wrap
+msgid "The `act_ctinfo` kernel module has been added\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:106
-msgid "The PTP driver now supports virtual clocks and time stamping"
+#, no-wrap
+msgid "The PTP driver now supports virtual clocks and time stamping\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:106
-msgid "`firewalld` was rebased to version 1.1.1"
+#, no-wrap
+msgid "`firewalld` was rebased to version 1.1.1\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:106
-msgid ""
-"NetworkManager now supports `advmss`, `rto_min`, and `quickack` route "
-"attributes"
+#, no-wrap
+msgid "NetworkManager now supports `advmss`, `rto_min`, and `quickack` route attributes\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:106
-msgid "Support for the 802.ad `vlan-protocol` option in `nmstate`"
+#, no-wrap
+msgid "Support for the 802.ad `vlan-protocol` option in `nmstate`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:106
-msgid ""
-"More DHCP and IPv6 auto-configuration attributes have been added to the "
-"nmstate API"
+#, no-wrap
+msgid "More DHCP and IPv6 auto-configuration attributes have been added to the nmstate API\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:106
-msgid "NetworkManager now clearly indicates that WEP support is not available"
+#, no-wrap
+msgid "NetworkManager now clearly indicates that WEP support is not available\n"
 msgstr ""
 
 #. type: Title ##
@@ -572,68 +579,74 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:115
-msgid ""
-"`pcs` supports updating multipath SCSI devices without requiring a system "
-"restart"
+#, no-wrap
+msgid "`pcs` supports updating multipath SCSI devices without requiring a system restart\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:115
-msgid "Support for cluster UUID"
+#, no-wrap
+msgid "Support for cluster UUID\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:115
-msgid ""
-"New `pcs resource config` command option to display the `pcs` commands that "
-"re-create configured resources"
+#, no-wrap
+msgid "New `pcs resource config` command option to display the `pcs` commands that re-create configured resources\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:115
-msgid ""
-"New `pcs stonith config` command option to display the `pcs` commands that "
-"re-create configured fence devices"
+#, no-wrap
+msgid "New `pcs stonith config` command option to display the `pcs` commands that re-create configured fence devices\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:115
-msgid "Pacemaker rebased to version 2.1.4"
+#, no-wrap
+msgid "Pacemaker rebased to version 2.1.4\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:115
-msgid "Samba no longer automatically installed with cluster packages"
+#, no-wrap
+msgid "Samba no longer automatically installed with cluster packages\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:122
-msgid "A new module stream: `php:8.1`"
+#, no-wrap
+msgid "A new module stream: `php:8.1`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:122
-msgid "A new module stream: `ruby:3.1`"
+#, no-wrap
+msgid "A new module stream: `ruby:3.1`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:129
-msgid "httpd rebased to version 2.4.53"
+#, no-wrap
+msgid "httpd rebased to version 2.4.53\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:129
-msgid "New package: httpd-core"
+#, no-wrap
+msgid "New package: httpd-core\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:129
-msgid "`pcre2` rebased to version 10.40"
+#, no-wrap
+msgid "`pcre2` rebased to version 10.40\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:135
-msgid "A new module stream: `maven:3.8`"
+#, no-wrap
+msgid "A new module stream: `maven:3.8`\n"
 msgstr ""
 
 #. type: Title ###
@@ -644,28 +657,32 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:142
-msgid "GCC Toolset 12: Annobin rebased to version 10.79"
+#, no-wrap
+msgid "GCC Toolset 12: Annobin rebased to version 10.79\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:142
-msgid "GCC Toolset 12: `binutils` rebased to version 2.38"
+#, no-wrap
+msgid "GCC Toolset 12: `binutils` rebased to version 2.38\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:142
-msgid "GCC Toolset 12: GDB rebased to version 11.2"
+#, no-wrap
+msgid "GCC Toolset 12: GDB rebased to version 11.2\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:150
-msgid ""
-"GCC compiler 11.2.1 has been updated with numerous bug fixes and enhancements"
+#, no-wrap
+msgid "GCC compiler 11.2.1 has been updated with numerous bug fixes and enhancements\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:150
-msgid "GDB supports Power 10 PLT instructions"
+#, no-wrap
+msgid "GDB supports Power 10 PLT instructions\n"
 msgstr ""
 
 #. type: Title ###
@@ -676,7 +693,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:158
-msgid "SSSD support for anonymous PKINIT for FAST"
+#, no-wrap
+msgid "SSSD support for anonymous PKINIT for FAST\n"
 msgstr ""
 
 #. type: Title ###
@@ -687,36 +705,36 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:164
-msgid "IdM now supports Random Serial Numbers"
+#, no-wrap
+msgid "IdM now supports Random Serial Numbers\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:164
-msgid ""
-"IdM now supports a limit on the number of LDAP binds allowed after a user "
-"password has expired"
+#, no-wrap
+msgid "IdM now supports a limit on the number of LDAP binds allowed after a user password has expired\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:171
-msgid ""
-"The `ipa-dnskeysyncd` and `ipa-ods-exporter` debug messages are no longer "
-"logged to `/var/log/messages` by default"
+#, no-wrap
+msgid "The `ipa-dnskeysyncd` and `ipa-ods-exporter` debug messages are no longer logged to `/var/log/messages` by default\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:171
-msgid ""
-"Directory Server now supports recursive delete operations when using "
-"`ldapdelete`"
+#, no-wrap
+msgid "Directory Server now supports recursive delete operations when using `ldapdelete`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:176
-msgid "Improved KVM architectural compliance"
+#, no-wrap
+msgid "Improved KVM architectural compliance\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/9_1.md:176
-msgid "`open-vm-tools` rebased to 12.0.5"
+#, no-wrap
+msgid "`open-vm-tools` rebased to 12.0.5\n"
 msgstr ""

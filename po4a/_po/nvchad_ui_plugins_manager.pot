@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,7 +46,8 @@ msgstr ""
 #: ../src/docs/guides/proxies/pound.md:62
 #: ../src/docs/guides/proxies/pound.md:418 ../src/docs/index.md:40
 #: ../src/docs/release_notes/9_1.md:16
-msgid "!!! note"
+#, no-wrap
+msgid "!!! note\n"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
@@ -178,37 +179,50 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:15
-msgid ""
-"The management of plugins in NvChad 2.0 is done by [folke/lazy.nvim](https://"
-"github.com/folke/lazy.nvim), this plugin is installed during the first "
-"installation from the bootstrap procedure. The plugin allows you to perform "
-"all common operations on plugins, such as installing, updating, etc."
+#, no-wrap
+msgid "The management of plugins in NvChad 2.0 is done by [folke/lazy.nvim](https://github.com/folke/lazy.nvim), this plugin is installed during the first installation from the bootstrap procedure. The plugin allows you to perform all common operations on plugins, such as installing, updating, etc.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:17
-msgid "![Lazy Nvim](../images/lazy_nvim.png)"
+#, no-wrap
+msgid "![Lazy Nvim](../images/lazy_nvim.png)\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:25
-msgid ""
-"- Management of all operations on plugins from a unified interface.  - "
-"Optimized plugin performance due to caching and compilation of Lua module "
-"bytecode.  - Automatic check and installation of missing plugins at startup, "
-"a very useful feature when transferring a configuration from one machine to "
-"another.  - Profiler for consulting plugin loading times. Allows you to "
-"monitor and troubleshoot problems caused by faulty plugins.  - "
-"Synchronization of plugins across multiple workstations by storing the "
-"revision of all installed plugins in the _lazy-lock.json_ file."
+#, no-wrap
+msgid "Management of all operations on plugins from a unified interface.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:25
+#, no-wrap
+msgid "Optimized plugin performance due to caching and compilation of Lua module bytecode.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:25
+#, no-wrap
+msgid "Automatic check and installation of missing plugins at startup, a very useful feature when transferring a configuration from one machine to another.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:25
+#, no-wrap
+msgid "Profiler for consulting plugin loading times. Allows you to monitor and troubleshoot problems caused by faulty plugins.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:25
+#, no-wrap
+msgid "Synchronization of plugins across multiple workstations by storing the revision of all installed plugins in the _lazy-lock.json_ file.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:29
-msgid ""
-"_lazy.nvim_ integrates an environment health check feature that can be "
-"invoked with the command `:checkhealth lazy`. The command should return "
-"something like this in a new buffer:"
+#, no-wrap
+msgid "_lazy.nvim_ integrates an environment health check feature that can be invoked with the command `:checkhealth lazy`. The command should return something like this in a new buffer:\n"
 msgstr ""
 
 #. type: Fenced code block (text)
@@ -226,11 +240,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:41
-msgid ""
-"Although not strictly necessary, checking the build environment before we "
-"start working on our custom configuration allows us to exclude this variable "
-"from any errors or malfunctions that might occur in the plugins themselves "
-"or in writing their configurations."
+#, no-wrap
+msgid "Although not strictly necessary, checking the build environment before we start working on our custom configuration allows us to exclude this variable from any errors or malfunctions that might occur in the plugins themselves or in writing their configurations. \n"
 msgstr ""
 
 #. type: Plain text
@@ -241,24 +252,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:45
-msgid "![Lazy Help](../images/lazy_help.png)"
+#, no-wrap
+msgid "![Lazy Help](../images/lazy_help.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:47
-msgid ""
-"Help provides an introduction to interface navigation, controls, and their "
-"functions."
+#, no-wrap
+msgid "Help provides an introduction to interface navigation, controls, and their functions.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:49
-msgid ""
-"Now after checking out the environment and gaining basic knowledge we can "
-"move on to creating our own configuration. The purpose clearly is to add "
-"functionality to the editor to meet our needs, and since this is achieved by "
-"including plugins in the NvChad configuration we will start by adding a "
-"plugin."
+#, no-wrap
+msgid "Now after checking out the environment and gaining basic knowledge we can move on to creating our own configuration. The purpose clearly is to add functionality to the editor to meet our needs, and since this is achieved by including plugins in the NvChad configuration we will start by adding a plugin.\n"
 msgstr ""
 
 #. type: Title ##
@@ -275,19 +282,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:57
-msgid ""
-"While management of installed plugins can be conveniently performed from the "
-"_lazy.nvim_ interface, inserting a new plugin requires manual editing of the "
-"**custom/plugins.lua** file."
+#, no-wrap
+msgid "While management of installed plugins can be conveniently performed from the _lazy.nvim_ interface, inserting a new plugin requires manual editing of the **custom/plugins.lua** file.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:59
-msgid ""
-"In this example we will install the [natecraddock/workspaces.nvim](https://"
-"github.com/natecraddock/workspaces.nvim) plugin. This plugin allows you to "
-"save and later use work sessions (workspaces) so you can access them "
-"quickly. We open the file with:"
+#, no-wrap
+msgid "In this example we will install the [natecraddock/workspaces.nvim](https://github.com/natecraddock/workspaces.nvim) plugin. This plugin allows you to save and later use work sessions (workspaces) so you can access them quickly. We open the file with:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -298,7 +300,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:65
-msgid "and we insert the following code after the plugin _better-escape.nvim_:"
+#, no-wrap
+msgid "and we insert the following code after the plugin _better-escape.nvim_:\n"
 msgstr ""
 
 #. type: Fenced code block (lua)
@@ -321,8 +324,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:82
-msgid ""
-"Once the file is saved we will receive a notice requesting our approval:"
+#, no-wrap
+msgid "Once the file is saved we will receive a notice requesting our approval: \n"
 msgstr ""
 
 #. type: Fenced code block (text)
@@ -336,16 +339,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:90
-msgid ""
-"This is thanks to the mechanism built into _lazy.nvim_ that checks the "
-"status of the plugins and its configurations and thus allows operations on "
-"the plugins to be performed without having to exit the editor, an operation "
-"that was necessary with version 1.0."
+#, no-wrap
+msgid "This is thanks to the mechanism built into _lazy.nvim_ that checks the status of the plugins and its configurations and thus allows operations on the plugins to be performed without having to exit the editor, an operation that was necessary with version 1.0.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:92
-msgid "Clearly we will answer \"yes.\""
+#, no-wrap
+msgid "Clearly we will answer \"yes.\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -356,16 +357,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:96
-msgid "![Install Plugin](../images/lazy_install.png)"
+#, no-wrap
+msgid "![Install Plugin](../images/lazy_install.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:98
-msgid ""
-"At this point it will be _lazy.nvim_ that will take care of downloading the "
-"repository in the path **.local/share/nvim/lazy/** and performing the build. "
-"Once the installation is finished we will have a new folder named "
-"_workspaces.nvim_:"
+#, no-wrap
+msgid "At this point it will be _lazy.nvim_ that will take care of downloading the repository in the path **.local/share/nvim/lazy/** and performing the build. Once the installation is finished we will have a new folder named _workspaces.nvim_:\n"
 msgstr ""
 
 #. type: Fenced code block (text)
@@ -391,9 +390,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:118
-msgid ""
-"We will now have plugin functionality that can be invoked with the commands "
-"set in the array:"
+#, no-wrap
+msgid "We will now have plugin functionality that can be invoked with the commands set in the array:\n"
 msgstr ""
 
 #. type: Fenced code block (lua)
@@ -404,10 +402,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:124
-msgid ""
-"Input also involves adding a string to the _lazy-lock.json_ file for status "
-"tracking and subsequent updates. The function of the _lazy-lock.json_ file "
-"will be described in the corresponding section below."
+#, no-wrap
+msgid "Input also involves adding a string to the _lazy-lock.json_ file for status tracking and subsequent updates. The function of the _lazy-lock.json_ file will be described in the corresponding section below.\n"
 msgstr ""
 
 #. type: Fenced code block (json)
@@ -424,12 +420,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:131
-msgid ""
-"As with installation, removing a plugin from the configuration also goes "
-"through manual editing of the _custom/plugins.lua_ file. In this example we "
-"are going to remove the plugin [TimUntersberger/neogit](https://github.com/"
-"TimUntersberger/neogit) this plugin allows a management of git repositories "
-"directly from the editor."
+#, no-wrap
+msgid "As with installation, removing a plugin from the configuration also goes through manual editing of the _custom/plugins.lua_ file. In this example we are going to remove the plugin [TimUntersberger/neogit](https://github.com/TimUntersberger/neogit) this plugin allows a management of git repositories directly from the editor.\n"
 msgstr ""
 
 #. type: Plain text
@@ -446,7 +438,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:139
-msgid "![Remove Plugin](../images/remove_plugin_01.png)"
+#, no-wrap
+msgid "![Remove Plugin](../images/remove_plugin_01.png)\n"
 msgstr ""
 
 #. type: Plain text
@@ -457,14 +450,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:143
-msgid "![Lazy Clean](../images/remove_plugin_02.png)"
+#, no-wrap
+msgid "![Lazy Clean](../images/remove_plugin_02.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:145
-msgid ""
-"Removing a plugin basically consists of removing the folder created during "
-"installation."
+#, no-wrap
+msgid "Removing a plugin basically consists of removing the folder created during installation.\n"
 msgstr ""
 
 #. type: Title ##
@@ -481,7 +474,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:151
-msgid "![Lazy Check](../images/lazy_check.png)"
+#, no-wrap
+msgid "![Lazy Check](../images/lazy_check.png)\n"
 msgstr ""
 
 #. type: Plain text
@@ -498,10 +492,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:159
-msgid ""
-"The update process, whether done individually or cumulatively, will also "
-"modify the _lazy-lock.json_ file. In particular, commits will be modified to "
-"synchronize them with the state of the repository on GitHub."
+#, no-wrap
+msgid "The update process, whether done individually or cumulatively, will also modify the _lazy-lock.json_ file. In particular, commits will be modified to synchronize them with the state of the repository on GitHub. \n"
 msgstr ""
 
 #. type: Title ##
@@ -518,7 +510,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:165
-msgid "![Lazy Profiler](../images/lazy_profile.png)"
+#, no-wrap
+msgid "![Lazy Profiler](../images/lazy_profile.png)\n"
 msgstr ""
 
 #. type: Plain text
@@ -529,9 +522,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:169
-msgid ""
-"This information can be useful in troubleshooting if the editor slows down "
-"abnormally."
+#, no-wrap
+msgid "This information can be useful in troubleshooting if the editor slows down abnormally.\n"
 msgstr ""
 
 #. type: Plain text
@@ -542,7 +534,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:173
-msgid "![Lazy Log](../images/lazy_log.png)"
+#, no-wrap
+msgid "![Lazy Log](../images/lazy_log.png)\n"
 msgstr ""
 
 #. type: Plain text
@@ -553,7 +546,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:177
-msgid "![Lazy Debug](../images/lazy_debug.png)"
+#, no-wrap
+msgid "![Lazy Debug](../images/lazy_debug.png)\n"
 msgstr ""
 
 #. type: Title ##
@@ -564,14 +558,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:181
-msgid ""
-"Lazy.nvim allows synchronization of all installed plugins by storing their "
-"state in a _json_ file. Within it, a string is created for each plugin that "
-"contains the name of the folder corresponding to the installed plugin found "
-"in **~/.local/share/nvim/lazy/**, the corresponding branch, and the commit "
-"used for synchronization from the GitHub repository. The file used for this "
-"purpose is the `lazy-lock.json` file located in the root folder of **~/."
-"config/nvim**. Below we can see an excerpt of the file:"
+#, no-wrap
+msgid "Lazy.nvim allows synchronization of all installed plugins by storing their state in a _json_ file. Within it, a string is created for each plugin that contains the name of the folder corresponding to the installed plugin found in **~/.local/share/nvim/lazy/**, the corresponding branch, and the commit used for synchronization from the GitHub repository. The file used for this purpose is the `lazy-lock.json` file located in the root folder of **~/.config/nvim**. Below we can see an excerpt of the file:\n"
 msgstr ""
 
 #. type: Fenced code block (json)
@@ -599,23 +587,18 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:199
-msgid ""
-"By copying the _lazy-lock.json_ file from a stable configuration somewhere "
-"safe, we have the ability to restore the editor to that condition should an "
-"update create problems. By exporting it instead to another workstation, we "
-"can use it to configure the editor with the same functionality."
+#, no-wrap
+msgid "By copying the _lazy-lock.json_ file from a stable configuration somewhere safe, we have the ability to restore the editor to that condition should an update create problems. By exporting it instead to another workstation, we can use it to configure the editor with the same functionality.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:201
-msgid ""
-"If we put it under a version control instead, we can achieve configuration "
-"synchronization among all the workstations we use."
+#, no-wrap
+msgid "If we put it under a version control instead, we can achieve configuration synchronization among all the workstations we use.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:202
-msgid ""
-"Now after illustrating the plugins manager we can move on to analyze the "
-"user interface."
+#, no-wrap
+msgid "Now after illustrating the plugins manager we can move on to analyze the user interface.\n"
 msgstr ""

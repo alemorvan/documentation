@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,10 +109,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/05-lxd_images.md:15
-msgid ""
-"Throughout this chapter you will need to execute commands as your "
-"unprivileged user (\"lxdadmin\" if you have been following this book from "
-"the beginning)."
+#, no-wrap
+msgid "Throughout this chapter you will need to execute commands as your unprivileged user (\"lxdadmin\" if you have been following this book from the beginning).\n"
 msgstr ""
 
 #. type: Title ##
@@ -123,10 +121,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/05-lxd_images.md:19
-msgid ""
-"Once you have your server environment set up, you'll probably be itching to "
-"get started with a container. There are a _lot_ of container OS "
-"possibilities. To get a feel for how many possibilities, enter this command:"
+#, no-wrap
+msgid "Once you have your server environment set up, you'll probably be itching to get started with a container. There are a _lot_ of container OS possibilities. To get a feel for how many possibilities, enter this command:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -138,18 +134,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/05-lxd_images.md:25
-msgid ""
-"Hit the space bar to page through the list. This list of containers and "
-"virtual machines continues to grow. For now, we are sticking with containers."
+#, no-wrap
+msgid "Hit the space bar to page through the list. This list of containers and virtual machines continues to grow. For now, we are sticking with containers.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/05-lxd_images.md:27
-msgid ""
-"The last thing you want to do is to page through looking for a container "
-"image to install, particularly if you know the image that you want to "
-"create. Let's modify the command above to show only Rocky Linux install "
-"options:"
+#, no-wrap
+msgid "The last thing you want to do is to page through looking for a container image to install, particularly if you know the image that you want to create. Let's modify the command above to show only Rocky Linux install options:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -160,7 +152,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/05-lxd_images.md:33
-msgid "This brings up a much more manageable list:"
+#, no-wrap
+msgid "This brings up a much more manageable list:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -189,9 +182,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/05-lxd_images.md:52
-msgid ""
-"For the first container, we are going to choose rockylinux/8. To install it, "
-"we *could* use:"
+#, no-wrap
+msgid "For the first container, we are going to choose rockylinux/8. To install it, we *could* use:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -202,15 +194,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/05-lxd_images.md:58
-msgid ""
-"That will create a Rocky Linux-based containter named \"rockylinux-test-8\". "
-"You can rename a container after it has been created, but you first need to "
-"stop the container, which starts automatically when it is launched."
+#, no-wrap
+msgid "That will create a Rocky Linux-based containter named \"rockylinux-test-8\". You can rename a container after it has been created, but you first need to stop the container, which starts automatically when it is launched.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/05-lxd_images.md:60
-msgid "To start the container manually, use:"
+#, no-wrap
+msgid "To start the container manually, use:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -221,9 +212,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/05-lxd_images.md:66
-msgid ""
-"To rename this image (we aren't going to do this here, but this is how it is "
-"done) first stop the container:"
+#, no-wrap
+msgid "To rename this image (we aren't going to do this here, but this is how it is done) first stop the container:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -234,7 +224,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/05-lxd_images.md:72
-msgid "Then simply move the container to a new name:"
+#, no-wrap
+msgid "Then simply move the container to a new name:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -245,15 +236,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/05-lxd_images.md:78
-msgid ""
-"If you followed this instruction anyway, stop the container and move it back "
-"to the original name to continue to follow along."
+#, no-wrap
+msgid "If you followed this instruction anyway, stop the container and move it back to the original name to continue to follow along.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/05-lxd_images.md:80
-msgid ""
-"For the purposes of this guide, go ahead and install two more images for now:"
+#, no-wrap
+msgid "For the purposes of this guide, go ahead and install two more images for now:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -266,7 +256,8 @@ msgstr ""
 #: ../src/docs/books/lxd_server/05-lxd_images.md:86
 #: ../src/docs/guides/automation/cron_jobs_howto.md:44
 #: ../src/docs/guides/network/librenms_monitoring_server.md:538
-msgid "and"
+#, no-wrap
+msgid "and\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -277,7 +268,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/05-lxd_images.md:92
-msgid "Now let's take a look at what we have so far by listing our images:"
+#, no-wrap
+msgid "Now let's take a look at what we have so far by listing our images:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -292,7 +284,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/lxd_server/05-lxd_images.md:98
-msgid "which should return something like this:"
+#, no-wrap
+msgid "which should return something like this:\n"
 msgstr ""
 
 #. type: Fenced code block

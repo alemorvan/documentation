@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -127,8 +127,8 @@ msgstr ""
 #: ../src/docs/guides/security/dnf_automatic.md:67
 #: ../src/docs/guides/security/firewalld.md:102
 #: ../src/docs/labs/sys_admin_1/lab7-software_management.md:115
-#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:368
-msgid "!!! tip"
+#, no-wrap
+msgid "!!! tip\n"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
@@ -157,10 +157,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:17
-msgid ""
-"In lesson two, \"Bash - Using Variables\", you've seen some ways to use "
-"variables and learned a lot about what variables can be used for. This is "
-"just one practical example of using variables within your bash scripts."
+#, no-wrap
+msgid "In lesson two, \"Bash - Using Variables\", you've seen some ways to use variables and learned a lot about what variables can be used for. This is just one practical example of using variables within your bash scripts.\n"
 msgstr ""
 
 #. type: Title ##
@@ -171,11 +169,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:21
-msgid ""
-"When a system administrator has to deal with log files, there are sometimes "
-"different formats that come into play. Let's say that you want to get some "
-"information out of the `dnf.log` (`/var/log/dnf.log`). Let's take a quick "
-"look at what that log file looks like using `tail /var/log/dnf.log`:"
+#, no-wrap
+msgid "When a system administrator has to deal with log files, there are sometimes different formats that come into play. Let's say that you want to get some information out of the `dnf.log` (`/var/log/dnf.log`). Let's take a quick look at what that log file looks like using `tail /var/log/dnf.log`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -196,7 +191,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:37
-msgid "Now take a look at the `messages` log file `tail /var/log/messages`:"
+#, no-wrap
+msgid "Now take a look at the `messages` log file `tail /var/log/messages`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -217,7 +213,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:52
-msgid "And finally let's take a look at the output of the `date` command:"
+#, no-wrap
+msgid "And finally let's take a look at the output of the `date` command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -234,17 +231,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:60
-msgid ""
-"What we can see here is that the two log files, `dnf.log` and `messages` "
-"display the date in entirely different ways. If we wanted to grab the "
-"information from the `messages` log in a bash script using `date` we could "
-"do so without much trouble, but getting the same information out of the `dnf."
-"log` would take some doing. Let's say that as a system administrator, you "
-"need to review the `dnf.log` daily to make sure that nothing was introduced "
-"to the system that you weren't aware of or that might cause problems. You "
-"want this information to be grabbed from the `dnf.log` file by date and then "
-"emailed to you daily. You will use a `cron` job to automate this, but first "
-"we need to get a script that will do what we want it to do."
+#, no-wrap
+msgid "What we can see here is that the two log files, `dnf.log` and `messages` display the date in entirely different ways. If we wanted to grab the information from the `messages` log in a bash script using `date` we could do so without much trouble, but getting the same information out of the `dnf.log` would take some doing. Let's say that as a system administrator, you need to review the `dnf.log` daily to make sure that nothing was introduced to the system that you weren't aware of or that might cause problems. You want this information to be grabbed from the `dnf.log` file by date and then emailed to you daily. You will use a `cron` job to automate this, but first we need to get a script that will do what we want it to do.\n"
 msgstr ""
 
 #. type: Title ##
@@ -256,14 +244,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:64
-msgid ""
-"To accomplish what we want, we are going to use a variable in our script "
-"called \"today\" that will format the date according to the date displayed "
-"in the `dnf.log`.  To get the correct `date` format, we are using the `+%F` "
-"which will get us the yyyy-mm-dd format we are looking for. Since all we are "
-"concerned with is the day, not the times or any other information, that's "
-"all we will need to get the correct information out of the `dnf.log`. Try "
-"just this much of the script:"
+#, no-wrap
+msgid "To accomplish what we want, we are going to use a variable in our script called \"today\" that will format the date according to the date displayed in the `dnf.log`.  To get the correct `date` format, we are using the `+%F` which will get us the yyyy-mm-dd format we are looking for. Since all we are concerned with is the day, not the times or any other information, that's all we will need to get the correct information out of the `dnf.log`. Try just this much of the script:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -279,10 +261,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:74
-msgid ""
-"Here we are using the `echo` command to see if we have been successful with "
-"our date formatting. When you run the script, you should get an output with "
-"today's date that looks something like this:"
+#, no-wrap
+msgid "Here we are using the `echo` command to see if we have been successful with our date formatting. When you run the script, you should get an output with today's date that looks something like this:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -293,11 +273,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:80
-msgid ""
-"If so then great, we can remove our \"debug\" line and continue. Let's add "
-"another variable called \"logfile\" that we will set to `/var/log/dnf.log` "
-"and then let's see if we can `grep` that using our \"today\" variable. For "
-"now, let's just let it run to standard output:"
+#, no-wrap
+msgid "If so then great, we can remove our \"debug\" line and continue. Let's add another variable called \"logfile\" that we will set to `/var/log/dnf.log` and then let's see if we can `grep` that using our \"today\" variable. For now, let's just let it run to standard output:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -315,12 +292,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:92
-msgid ""
-"The `dnf.log` has a lot of information in it every day, so we are not "
-"posting that to the screen here, but you should see output that has only "
-"today's data in it. Give the script a try and if it works, then we can move "
-"on to the next step. After we've checked the output, the next step is that "
-"we want to do a pipe redirect to send the information to email."
+#, no-wrap
+msgid "The `dnf.log` has a lot of information in it every day, so we are not posting that to the screen here, but you should see output that has only today's data in it. Give the script a try and if it works, then we can move on to the next step. After we've checked the output, the next step is that we want to do a pipe redirect to send the information to email.\n"
 msgstr ""
 
 #. type: Plain text
@@ -354,19 +327,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:113
-msgid ""
-"Let's take a look at the additions to the script here. We've added a pipe `|"
-"` to redirect output to `/bin/mail` set the subject of the email (`-s`) with "
-"what is in double quotes and set the recipient to be "
-"\"systemadministrator@domain.ext\". Replace that last bit with your email "
-"address and then try running the script again."
+#, no-wrap
+msgid "Let's take a look at the additions to the script here. We've added a pipe `|` to redirect output to `/bin/mail` set the subject of the email (`-s`) with what is in double quotes and set the recipient to be \"systemadministrator@domain.ext\". Replace that last bit with your email address and then try running the script again.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:115
-msgid ""
-"As noted, you probably won't get the email without some changes to your "
-"Postfix mail setup, but you should see the attempt in `/var/log/maillog`."
+#, no-wrap
+msgid "As noted, you probably won't get the email without some changes to your Postfix mail setup, but you should see the attempt in `/var/log/maillog`.\n"
 msgstr ""
 
 #. type: Title ##
@@ -378,14 +346,6 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:118
-msgid ""
-"The next thing you need to do is to get sending email from your server "
-"working. You can take a look at [Postfix for Reporting](../../../guides/"
-"email/postfix_reporting.md) to get you started on that front. We also need "
-"to automate this script to run daily, to do that we will use `cron`. There "
-"are multiple references here: [cron](../../../guides/automation/"
-"cron_jobs_howto.md), [anacron](../../../guides/automation/anacron.md), and "
-"[cronie](../../../guides/automation/cronie.md). For more information on date "
-"formatting, check out `man date` or [this link](https://man7.org/linux/man-"
-"pages/man1/date.1.html)."
+#, no-wrap
+msgid "The next thing you need to do is to get sending email from your server working. You can take a look at [Postfix for Reporting](../../../guides/email/postfix_reporting.md) to get you started on that front. We also need to automate this script to run daily, to do that we will use `cron`. There are multiple references here: [cron](../../../guides/automation/cron_jobs_howto.md), [anacron](../../../guides/automation/anacron.md), and [cronie](../../../guides/automation/cronie.md). For more information on date formatting, check out `man date` or [this link](https://man7.org/linux/man-pages/man1/date.1.html).\n"
 msgstr ""

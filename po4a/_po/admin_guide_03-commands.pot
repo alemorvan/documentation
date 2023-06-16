@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -164,7 +164,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -191,7 +190,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Plain text
@@ -220,7 +220,8 @@ msgstr ""
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:125
 #: ../src/docs/guides/security/learning_selinux.md:289
 #: ../src/docs/guides/security/pam.md:287
-msgid "Examples:"
+#, no-wrap
+msgid "Examples:\n"
 msgstr ""
 
 #. type: Plain text
@@ -237,7 +238,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/books/admin_guide/05-vi.md:17
 #: ../src/docs/books/admin_guide/03-commands.md:20
-msgid ":checkered_flag: **user commands**, **linux**"
+#, no-wrap
+msgid ":checkered_flag: **user commands**, **linux**\n"
 msgstr ""
 
 #. type: Plain text
@@ -348,7 +350,8 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:394
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:154
 #: ../src/docs/guides/web/php.md:255
-msgid "Example:"
+#, no-wrap
+msgid "Example:\n"
 msgstr ""
 
 #. type: Plain text
@@ -396,7 +399,8 @@ msgstr ""
 #: ../src/docs/guides/8_6_installation.md:133
 #: ../src/docs/guides/installation.md:66 ../src/docs/guides/installation.md:138
 #: ../src/docs/guides/virtualization/vbox-rocky.md:123
-msgid "!!! Tip"
+#, no-wrap
+msgid "!!! Tip\n"
 msgstr ""
 
 #. type: Plain text
@@ -452,7 +456,8 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:243
 #: ../src/docs/guides/security/learning_selinux.md:263
 #: ../src/docs/guides/web/php.md:145
-msgid "!!! Warning"
+#, no-wrap
+msgid "!!! Warning\n"
 msgstr ""
 
 #. type: Plain text
@@ -461,7 +466,8 @@ msgstr ""
 #: ../src/docs/books/admin_guide/06-users.md:524
 #: ../src/docs/books/admin_guide/03-commands.md:629
 #: ../src/docs/books/admin_guide/03-commands.md:683
-msgid "!!! Danger"
+#, no-wrap
+msgid "!!! Danger\n"
 msgstr ""
 
 #. type: Plain text
@@ -471,7 +477,8 @@ msgstr ""
 #: ../src/docs/books/admin_guide/14-special-authority.md:669
 #: ../src/docs/books/learning_ansible/02-advanced.md:74
 #: ../src/docs/books/learning_ansible/03-working-with-files.md:117
-msgid "For example:"
+#, no-wrap
+msgid "For example:\n"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
@@ -494,7 +501,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:10
-msgid "In this chapter you will learn Linux commands and how to use them."
+#, no-wrap
+msgid "In this chapter you will learn Linux commands and how to use them.\n"
 msgstr ""
 
 #. type: Plain text
@@ -525,49 +533,44 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:31
-msgid ""
-"Current Linux systems have graphical utilities dedicated to the work of an "
-"administrator. However, it is important to be able to use the interface in "
-"command line mode for several reasons:"
+#, no-wrap
+msgid "Current Linux systems have graphical utilities dedicated to the work of an administrator. However, it is important to be able to use the interface in command line mode for several reasons:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:37
-msgid ""
-"The majority of system commands are common to all Linux distributions, which "
-"is not the case for graphical tools."
+#, no-wrap
+msgid "The majority of system commands are common to all Linux distributions, which is not the case for graphical tools.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:37
-msgid ""
-"It can happen that the system does not start correctly but that a backup "
-"command interpreter remains accessible."
+#, no-wrap
+msgid "It can happen that the system does not start correctly but that a backup command interpreter remains accessible.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:37
-msgid "Remote administration is done on the command line with an SSH terminal."
+#, no-wrap
+msgid "Remote administration is done on the command line with an SSH terminal.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:37
-msgid ""
-"In order to preserve server resources, the graphical interface is either not "
-"installed or launched on demand."
+#, no-wrap
+msgid "In order to preserve server resources, the graphical interface is either not installed or launched on demand.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:37
-msgid "Administration is done by scripts."
+#, no-wrap
+msgid "Administration is done by scripts.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:39
-msgid ""
-"Learning these commands allows the administrator to connect to a Linux "
-"terminal, to manage its resources and files, to identify the station, the "
-"terminal, and the connected users, etc."
+#, no-wrap
+msgid "Learning these commands allows the administrator to connect to a Linux terminal, to manage its resources and files, to identify the station, the terminal, and the connected users, etc.\n"
 msgstr ""
 
 #. type: Title ###
@@ -578,78 +581,74 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:43
-msgid ""
-"The user of a Linux system will be defined in the `/etc/passwd` file, by:"
+#, no-wrap
+msgid "The user of a Linux system will be defined in the `/etc/passwd` file, by:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:49
-msgid "A **login name**, more commonly called \"login\", containing no spaces."
+#, no-wrap
+msgid "A **login name**, more commonly called \"login\", containing no spaces.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:49
-msgid "A numeric identifier: **UID** (User Identifier)."
+#, no-wrap
+msgid "A numeric identifier: **UID** (User Identifier).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:49
-msgid "A group identifier: **GID** (Group Identifier)."
+#, no-wrap
+msgid "A group identifier: **GID** (Group Identifier).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:49
-msgid ""
-"A **command interpreter**, e.g., a shell, which can be different from one "
-"user to another."
+#, no-wrap
+msgid "A **command interpreter**, e.g., a shell, which can be different from one user to another.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:49
-msgid "A **connection directory**, e.g., the __home directory__."
+#, no-wrap
+msgid "A **connection directory**, e.g., the __home directory__.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:51
-msgid "In other files the user will be defined by:"
+#, no-wrap
+msgid "In other files the user will be defined by:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:54
-msgid "A **password**, which is encrypted before being stored (`/etc/shadow`)."
+#, no-wrap
+msgid "A **password**, which is encrypted before being stored (`/etc/shadow`).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:54
-msgid ""
-"A **command prompt**, or __prompt__ login, which is symbolized by a `#` for "
-"administrators and a `$` for other users (`/etc/profile`)."
+#, no-wrap
+msgid "A **command prompt**, or __prompt__ login, which is symbolized by a `#` for administrators and a `$` for other users (`/etc/profile`).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:56
-msgid ""
-"Depending on the security policy implemented on the system, the password "
-"will require a certain number of characters and meet certain complexity "
-"requirements."
+#, no-wrap
+msgid "Depending on the security policy implemented on the system, the password will require a certain number of characters and meet certain complexity requirements.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:58
-msgid ""
-"Among the existing command interpreters, the **Bourne-Again Shell** (`/bin/"
-"bash`) is the one most frequently used. It is assigned by default to new "
-"users. For various reasons, advanced Linux users can choose alternative "
-"shells such as the Korn Shell (`ksh`), the C Shell (`csh`), etc."
+#, no-wrap
+msgid "Among the existing command interpreters, the **Bourne-Again Shell** (`/bin/bash`) is the one most frequently used. It is assigned by default to new users. For various reasons, advanced Linux users can choose alternative shells such as the Korn Shell (`ksh`), the C Shell (`csh`), etc.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:60
-msgid ""
-"The user's login directory is by convention stored in the `/home` directory "
-"of the workstation. It will contain the user's personal data and the "
-"configuration files of his applications. By default, at login, the login "
-"directory is selected as the current directory."
+#, no-wrap
+msgid "The user's login directory is by convention stored in the `/home` directory of the workstation. It will contain the user's personal data and the configuration files of his applications. By default, at login, the login directory is selected as the current directory.\n"
 msgstr ""
 
 #. type: Plain text
@@ -666,40 +665,44 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:66
-msgid ""
-"Once the user is connected to a console, the shell displays the **command "
-"prompt**. It then behaves like an infinite loop, repeating the same pattern "
-"with each statement entered:"
+#, no-wrap
+msgid "Once the user is connected to a console, the shell displays the **command prompt**. It then behaves like an infinite loop, repeating the same pattern with each statement entered:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:74
-msgid "Displays the command prompt."
+#, no-wrap
+msgid "Displays the command prompt.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:74
-msgid "Reads the command."
+#, no-wrap
+msgid "Reads the command.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:74
-msgid "Analyzes the syntax."
+#, no-wrap
+msgid "Analyzes the syntax.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:74
-msgid "Substitutes special characters."
+#, no-wrap
+msgid "Substitutes special characters.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:74
-msgid "Executes the command."
+#, no-wrap
+msgid "Executes the command.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:74
-msgid "Etc."
+#, no-wrap
+msgid "Etc.\n"
 msgstr ""
 
 #. type: Plain text
@@ -710,7 +713,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:78
-msgid "The use of a command generally follows this sequence:"
+#, no-wrap
+msgid "The use of a command generally follows this sequence:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -721,12 +725,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:84
-msgid "The name of the command is often **lower case**."
+#, no-wrap
+msgid "The name of the command is often **lower case**.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:86
-msgid "A space separates each item."
+#, no-wrap
+msgid "A space separates each item.\n"
 msgstr ""
 
 #. type: Plain text
@@ -739,7 +745,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:91
-msgid "It is possible to group some short options together:"
+#, no-wrap
+msgid "It is possible to group some short options together:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -750,7 +757,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:97
-msgid "is equivalent to:"
+#, no-wrap
+msgid "is equivalent to:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -761,7 +769,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:103
-msgid "There can be several arguments after an option:"
+#, no-wrap
+msgid "There can be several arguments after an option:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -772,12 +781,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:109
-msgid ""
-"In the literature, the term \"option\" is equivalent to the term \"parameter,"
-"\" which is more commonly used in programming. The optional side of an "
-"option or argument is symbolized by enclosing it in square brackets `[` and "
-"`]`. When more than one option is possible, a vertical bar called a \"pipe\" "
-"separates them `[a|e|i]`."
+#, no-wrap
+msgid "In the literature, the term \"option\" is equivalent to the term \"parameter,\" which is more commonly used in programming. The optional side of an option or argument is symbolized by enclosing it in square brackets `[` and `]`. When more than one option is possible, a vertical bar called a \"pipe\" separates them `[a|e|i]`.\n"
 msgstr ""
 
 #. type: Title ##
@@ -794,10 +799,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:115
-msgid ""
-"It is impossible for an administrator at any level to know all the commands "
-"and options in detail. A manual is usually available for all installed "
-"commands."
+#, no-wrap
+msgid "It is impossible for an administrator at any level to know all the commands and options in detail. A manual is usually available for all installed commands.\n"
 msgstr ""
 
 #. type: Title ####
@@ -808,9 +811,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:119
-msgid ""
-"The command `apropos` allows you to search by keyword within these manual "
-"pages:"
+#, no-wrap
+msgid "The command `apropos` allows you to search by keyword within these manual pages:\n"
 msgstr ""
 
 #. type: Plain text
@@ -846,8 +848,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:146
-msgid ""
-"To find the command that will allow changing the password of an account:"
+#, no-wrap
+msgid "To find the command that will allow changing the password of an account:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -867,9 +869,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:156
-msgid ""
-"The `whatis` command displays the description of the command passed as "
-"argument:"
+#, no-wrap
+msgid "The `whatis` command displays the description of the command passed as argument:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -894,67 +895,76 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:172
+#, no-wrap
 msgid ""
-"Once found by `apropos` or `whatis`, the manual is read by `man` (\"Man is "
-"your friend\").  This set of manuals is divided into 8 sections, grouping "
-"information by topic, the default section being 1:"
+"Once found by `apropos` or `whatis`, the manual is read by `man` (\"Man is your friend\").\n"
+"This set of manuals is divided into 8 sections, grouping information by topic, the default section being 1:\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/books/admin_guide/03-commands.md:182
-msgid "Executable programs or commands."
+#, no-wrap
+msgid "Executable programs or commands.\n"
 msgstr ""
 
 #. type: Bullet: '2. '
 #: ../src/docs/books/admin_guide/03-commands.md:182
-msgid "System calls (functions given by the kernel)."
+#, no-wrap
+msgid "System calls (functions given by the kernel).\n"
 msgstr ""
 
 #. type: Bullet: '3. '
 #: ../src/docs/books/admin_guide/03-commands.md:182
-msgid "Library calls (functions given by the library)."
+#, no-wrap
+msgid "Library calls (functions given by the library).\n"
 msgstr ""
 
 #. type: Bullet: '4. '
 #: ../src/docs/books/admin_guide/03-commands.md:182
-msgid "Special files (usually found in /dev)."
+#, no-wrap
+msgid "Special files (usually found in /dev).\n"
 msgstr ""
 
 #. type: Bullet: '5. '
 #: ../src/docs/books/admin_guide/03-commands.md:182
-msgid "File Formats and conventions (configuration files such as etc/passwd)."
+#, no-wrap
+msgid "File Formats and conventions (configuration files such as etc/passwd).\n"
 msgstr ""
 
 #. type: Bullet: '6. '
 #: ../src/docs/books/admin_guide/03-commands.md:182
-msgid "Games (such as character-based applications)."
+#, no-wrap
+msgid "Games (such as character-based applications).\n"
 msgstr ""
 
 #. type: Bullet: '7. '
 #: ../src/docs/books/admin_guide/03-commands.md:182
-msgid "Miscellaneous (e.g. man (7))."
+#, no-wrap
+msgid "Miscellaneous (e.g. man (7)).\n"
 msgstr ""
 
 #. type: Bullet: '8. '
 #: ../src/docs/books/admin_guide/03-commands.md:182
-msgid "System administration commands (usually only for root)."
+#, no-wrap
+msgid "System administration commands (usually only for root).\n"
 msgstr ""
 
 #. type: Bullet: '9. '
 #: ../src/docs/books/admin_guide/03-commands.md:182
-msgid "Kernel routines (non-standard)."
+#, no-wrap
+msgid "Kernel routines (non-standard).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:184
-msgid ""
-"Information about each section can be accessed by typing `man x intro`, "
-"where `x` is the section number."
+#, no-wrap
+msgid "Information about each section can be accessed by typing `man x intro`, where `x` is the section number.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:186
-msgid "The command:"
+#, no-wrap
+msgid "The command:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -965,9 +975,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:192
-msgid ""
-"will tell the administrator about the passwd command, its options, etc. "
-"While a:"
+#, no-wrap
+msgid "will tell the administrator about the passwd command, its options, etc. While a:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -978,7 +987,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:198
-msgid "will inform him about the files related to the command."
+#, no-wrap
+msgid "will inform him about the files related to the command.\n"
 msgstr ""
 
 #. type: Plain text
@@ -995,9 +1005,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:204
-msgid ""
-"The `shutdown` command allows you to **electronically shut down** a Linux "
-"server, either immediately or after a certain period of time."
+#, no-wrap
+msgid "The `shutdown` command allows you to **electronically shut down** a Linux server, either immediately or after a certain period of time.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1008,16 +1017,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:210
-msgid ""
-"Specify the shutdown time in the format `hh:mm` for a precise time, or `+mm` "
-"for a delay in minutes."
+#, no-wrap
+msgid "Specify the shutdown time in the format `hh:mm` for a precise time, or `+mm` for a delay in minutes.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:212
-msgid ""
-"To force an immediate stop, use the word `now` in place of the time. In this "
-"case, the optional message is not sent to other users of the system."
+#, no-wrap
+msgid "To force an immediate stop, use the word `now` in place of the time. In this case, the optional message is not sent to other users of the system.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1032,7 +1039,8 @@ msgstr ""
 #: ../src/docs/books/admin_guide/03-commands.md:221
 #: ../src/docs/guides/security/pam.md:238
 #: ../src/docs/labs/security/lab9-cryptography.md:594
-msgid "Options:"
+#, no-wrap
+msgid "Options:\n"
 msgstr ""
 
 #. type: Plain text
@@ -1053,21 +1061,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:230
-msgid ""
-"The `history` command displays the history of commands that have been "
-"entered by the user."
+#, no-wrap
+msgid "The `history` command displays the history of commands that have been entered by the user.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:232
-msgid ""
-"The commands are stored in the `.bash_history` file in the user's login "
-"directory."
+#, no-wrap
+msgid "The commands are stored in the `.bash_history` file in the user's login directory.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:234
-msgid "Example of a history command"
+#, no-wrap
+msgid "Example of a history command\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1091,14 +1098,14 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:247
-msgid "Manipulating history:"
+#, no-wrap
+msgid "Manipulating history:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:249
-msgid ""
-"To manipulate the history, the following commands entered from the command "
-"prompt will:"
+#, no-wrap
+msgid "To manipulate the history, the following commands entered from the command prompt will:\n"
 msgstr ""
 
 #. type: Plain text
@@ -1122,26 +1129,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:261
-msgid "Auto-completion is a great help."
+#, no-wrap
+msgid "Auto-completion is a great help.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:265
-msgid "Completes commands, entered paths, or file names."
+#, no-wrap
+msgid "Completes commands, entered paths, or file names.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:265
-msgid ""
-"Press the <kbd>TAB</kbd> key to complete the entry in the case of a single "
-"solution."
+#, no-wrap
+msgid "Press the <kbd>TAB</kbd> key to complete the entry in the case of a single solution.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:265
-msgid ""
-"In the case of multiple solutions, press <kbd>TAB</kbd> a second time to see "
-"options."
+#, no-wrap
+msgid "In the case of multiple solutions, press <kbd>TAB</kbd> a second time to see options.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1164,18 +1171,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:273
-msgid ""
-"The `clear` command clears the contents of the terminal screen. More "
-"accurately, it shifts the display so that the command prompt is at the top "
-"of the screen on the first line."
+#, no-wrap
+msgid "The `clear` command clears the contents of the terminal screen. More accurately, it shifts the display so that the command prompt is at the top of the screen on the first line.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:275
-msgid ""
-"On a physical terminal, the display will be permanently hidden, whereas in a "
-"graphical interface, a scrollbar will allow you to go back in the history of "
-"the virtual terminal."
+#, no-wrap
+msgid "On a physical terminal, the display will be permanently hidden, whereas in a graphical interface, a scrollbar will allow you to go back in the history of the virtual terminal.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1192,21 +1195,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:283
-msgid "The `echo` command is used to display a string of characters."
+#, no-wrap
+msgid "The `echo` command is used to display a string of characters.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:285
-msgid ""
-"This command is most commonly used in administration scripts to inform the "
-"user during execution."
+#, no-wrap
+msgid "This command is most commonly used in administration scripts to inform the user during execution.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:287
-msgid ""
-"The `-n` option indicates no newline output string (by default, newline "
-"output string)."
+#, no-wrap
+msgid "The `-n` option indicates no newline output string (by default, newline output string).\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1223,15 +1225,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:298
-msgid ""
-"For various reasons, the script developer may need to use special sequences "
-"(starting with a `\\` character). In this case, the `-e` option will be "
-"stipulated, allowing interpretation of the sequences."
+#, no-wrap
+msgid "For various reasons, the script developer may need to use special sequences (starting with a `\\` character). In this case, the `-e` option will be stipulated, allowing interpretation of the sequences.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:300
-msgid "Among the frequently used sequences, we can mention:"
+#, no-wrap
+msgid "Among the frequently used sequences, we can mention:\n"
 msgstr ""
 
 #. type: Plain text
@@ -1255,9 +1256,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:312
-msgid ""
-"The `date` command displays the date and time. The command has the following "
-"syntax:"
+#, no-wrap
+msgid "The `date` command displays the date and time. The command has the following syntax:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1278,9 +1278,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:327
-msgid ""
-"In this last example, the `-d` option displays a given date. The `+%j` "
-"option formats this date to show only the day of the year."
+#, no-wrap
+msgid "In this last example, the `-d` option displays a given date. The `+%j` option formats this date to show only the day of the year.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1291,7 +1290,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:333
-msgid "The date display can follow the following formats:"
+#, no-wrap
+msgid "The date display can follow the following formats:\n"
 msgstr ""
 
 #. type: Plain text
@@ -1321,9 +1321,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:355
-msgid ""
-"The `date` command also allows you to change the system date and time. In "
-"this case, the `-s` option will be used."
+#, no-wrap
+msgid "The `date` command also allows you to change the system date and time. In this case, the `-s` option will be used.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1334,7 +1333,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:361
-msgid "The format to be used following the `-s` option is this:"
+#, no-wrap
+msgid "The format to be used following the `-s` option is this:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1351,10 +1351,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:369
-msgid ""
-"The `id` command is used to display information about users and groups. By "
-"default, no user parameter is added, and the information of the currently "
-"logged in user and group is displayed。"
+#, no-wrap
+msgid "The `id` command is used to display information about users and groups. By default, no user parameter is added, and the information of the currently logged in user and group is displayed。\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1367,19 +1365,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:376
-msgid ""
-"The `-g`, `-G`, `-n` and `-u` options display the main group GID, subgroup "
-"GIDs, names instead of numeric identifiers, and the user's UID respectively."
+#, no-wrap
+msgid "The `-g`, `-G`, `-n` and `-u` options display the main group GID, subgroup GIDs, names instead of numeric identifiers, and the user's UID respectively.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:378
-msgid "The `whoami` command displays the login of the current user."
+#, no-wrap
+msgid "The `whoami` command displays the login of the current user.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:380
-msgid "The `who` command alone displays the names of logged in users:"
+#, no-wrap
+msgid "The `who` command alone displays the names of logged in users:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1393,28 +1392,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:388
-msgid ""
-"Since Linux is multi-user, it is possible that multiple sessions are open on "
-"the same station, either physically or over the network. It is interesting "
-"to know which users are logged in, if only to communicate with them by "
-"sending messages."
+#, no-wrap
+msgid "Since Linux is multi-user, it is possible that multiple sessions are open on the same station, either physically or over the network. It is interesting to know which users are logged in, if only to communicate with them by sending messages.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:391
-msgid "tty: represents a terminal."
+#, no-wrap
+msgid "tty: represents a terminal.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:391
-msgid ""
-"pts/: represents a virtual console in a graphical environment with the "
-"number after representing the instance of the virtual console (0, 1, 2...)"
+#, no-wrap
+msgid "pts/: represents a virtual console in a graphical environment with the number after representing the instance of the virtual console (0, 1, 2...)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:393
-msgid "The `-r` option also displays the runlevel (see chapter \"startup\")."
+#, no-wrap
+msgid "The `-r` option also displays the runlevel (see chapter \"startup\").\n"
 msgstr ""
 
 #. type: Title ##
@@ -1425,120 +1422,110 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:397
-msgid ""
-"In Linux, the file tree is an inverted tree, called a **single hierarchical "
-"tree**, whose root is the directory `/`."
+#, no-wrap
+msgid "In Linux, the file tree is an inverted tree, called a **single hierarchical tree**, whose root is the directory `/`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:399
-msgid "The **current directory** is the directory where the user is located."
+#, no-wrap
+msgid "The **current directory** is the directory where the user is located.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:401
-msgid ""
-"The **connection directory** is the working directory associated with the "
-"user. The login directories are, by default, stored in the `/home` directory."
+#, no-wrap
+msgid "The **connection directory** is the working directory associated with the user. The login directories are, by default, stored in the `/home` directory.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:403
-msgid "When the user logs in, the current directory is the login directory."
+#, no-wrap
+msgid "When the user logs in, the current directory is the login directory.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:405
-msgid ""
-"An **absolute path** references a file from the root by traversing the "
-"entire tree to the file level:"
+#, no-wrap
+msgid "An **absolute path** references a file from the root by traversing the entire tree to the file level:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:407
-msgid "`/home/groupA/alice/file`"
+#, no-wrap
+msgid "`/home/groupA/alice/file`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:409
-msgid ""
-"The **relative path** references that same file by traversing the entire "
-"tree from the current directory:"
+#, no-wrap
+msgid "The **relative path** references that same file by traversing the entire tree from the current directory:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:411
-msgid "`../alice/file`"
+#, no-wrap
+msgid "`../alice/file`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:413
-msgid ""
-"In the above example, the \"`..`\" refers to the parent directory of the "
-"current directory."
+#, no-wrap
+msgid "In the above example, the \"`..`\" refers to the parent directory of the current directory.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:415
-msgid ""
-"A directory, even if it is empty, will necessarily contain at least **two "
-"references**:"
+#, no-wrap
+msgid "A directory, even if it is empty, will necessarily contain at least **two references**:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:418
-msgid "`.`: reference to itself."
+#, no-wrap
+msgid "`.`: reference to itself.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:418
-msgid "`..`: reference to the parent directory of the current directory."
+#, no-wrap
+msgid "`..`: reference to the parent directory of the current directory.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:420
-msgid ""
-"A relative path can thus start with `./` or `../`. When the relative path "
-"refers to a subdirectory or file in the current directory, then the `./` is "
-"often omitted. Mentioning the first `./` in the tree will only really be "
-"required to run an executable file."
+#, no-wrap
+msgid "A relative path can thus start with `./` or `../`. When the relative path refers to a subdirectory or file in the current directory, then the `./` is often omitted. Mentioning the first `./` in the tree will only really be required to run an executable file.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:422
-msgid ""
-"Errors in paths can cause many problems: creating folders or files in the "
-"wrong places, unintentional deletions, etc. It is therefore strongly "
-"recommended to use auto-completion when entering paths."
+#, no-wrap
+msgid "Errors in paths can cause many problems: creating folders or files in the wrong places, unintentional deletions, etc. It is therefore strongly recommended to use auto-completion when entering paths.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:424
-msgid "![our example tree](images/commands-pathabsolute.png)"
+#, no-wrap
+msgid "![our example tree](images/commands-pathabsolute.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:426
-msgid ""
-"In the above example, we are looking to give the location of the file "
-"`myfile` from the directory of bob."
+#, no-wrap
+msgid "In the above example, we are looking to give the location of the file `myfile` from the directory of bob.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:429
-msgid ""
-"By an **absolute path**, the current directory does not matter. We start at "
-"the root, and work our way down to the directories `home`, `groupA`, `alice` "
-"and finally the file `myfile`: `/home/groupA/alice/myfile`."
+#, no-wrap
+msgid "By an **absolute path**, the current directory does not matter. We start at the root, and work our way down to the directories `home`, `groupA`, `alice` and finally the file `myfile`: `/home/groupA/alice/myfile`.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:429
-msgid ""
-"By a **relative path**, our starting point being the current directory "
-"`bob`, we go up one level through `..` (i.e., into the `groupA` directory), "
-"then down into the alice directory, and finally the `myfile` file: `../alice/"
-"myfile`."
+#, no-wrap
+msgid "By a **relative path**, our starting point being the current directory `bob`, we go up one level through `..` (i.e., into the `groupA` directory), then down into the alice directory, and finally the `myfile` file: `../alice/myfile`.\n"
 msgstr ""
 
 #. type: Title ###
@@ -1549,9 +1536,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:433
-msgid ""
-"The `pwd` (Print Working Directory) command displays the absolute path of "
-"the current directory."
+#, no-wrap
+msgid "The `pwd` (Print Working Directory) command displays the absolute path of the current directory.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1564,18 +1550,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:440
-msgid ""
-"To use a relative path to reference a file or directory, or use the `cd` "
-"command to move to another directory, you must know its location in the file "
-"tree."
+#, no-wrap
+msgid "To use a relative path to reference a file or directory, or use the `cd` command to move to another directory, you must know its location in the file tree.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:442
-msgid ""
-"Depending on the type of shell and the different parameters of its "
-"configuration file, the terminal prompt (also known as the command prompt) "
-"will display the absolute or relative path of the current directory."
+#, no-wrap
+msgid "Depending on the type of shell and the different parameters of its configuration file, the terminal prompt (also known as the command prompt) will display the absolute or relative path of the current directory.\n"
 msgstr ""
 
 #. type: Title ###
@@ -1586,9 +1568,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:446
-msgid ""
-"The `cd` (Change Directory) command allows you to change the current "
-"directory -- in other words, to move through the tree."
+#, no-wrap
+msgid "The `cd` (Change Directory) command allows you to change the current directory -- in other words, to move through the tree.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1608,9 +1589,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:460
-msgid ""
-"As you can see in the last example above, the command `cd` with no arguments "
-"moves the current directory to the `home directory`."
+#, no-wrap
+msgid "As you can see in the last example above, the command `cd` with no arguments moves the current directory to the `home directory`.\n"
 msgstr ""
 
 #. type: Title ###
@@ -1621,7 +1601,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:464
-msgid "The `ls` command displays the contents of a directory."
+#, no-wrap
+msgid "The `ls` command displays the contents of a directory.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1640,7 +1621,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:477
-msgid "The main options of the `ls` command are:"
+#, no-wrap
+msgid "The main options of the `ls` command are:\n"
 msgstr ""
 
 #. type: Plain text
@@ -1656,7 +1638,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:485
-msgid "The `ls` command, however, has a lot of options (see `man`):"
+#, no-wrap
+msgid "The `ls` command, however, has a lot of options (see `man`):\n"
 msgstr ""
 
 #. type: Plain text
@@ -1677,7 +1660,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:498
-msgid "Description of columns generated by running the `ls -lia` command:"
+#, no-wrap
+msgid "Description of columns generated by running the `ls -lia` command:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1727,13 +1711,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:526
-msgid ""
-"The `ls` command has many options. Here are some advanced examples of uses:"
+#, no-wrap
+msgid "The `ls` command has many options. Here are some advanced examples of uses:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:528
-msgid "List the files in `/etc` in order of last modification:"
+#, no-wrap
+msgid "List the files in `/etc` in order of last modification:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1753,11 +1738,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:542
-msgid ""
-"List `/var` files larger than 1 megabyte but less than 1 gigabyte. The "
-"example here uses advanced `grep` commands with regular expressions. Novices "
-"don't have to struggle too much, there will be a special tutorial to "
-"introduce these regular expressions in the future."
+#, no-wrap
+msgid "List `/var` files larger than 1 megabyte but less than 1 gigabyte. The example here uses advanced `grep` commands with regular expressions. Novices don't have to struggle too much, there will be a special tutorial to introduce these regular expressions in the future.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1774,7 +1756,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:553
-msgid "Of course, we highly recommend that you use the `find` command."
+#, no-wrap
+msgid "Of course, we highly recommend that you use the `find` command.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1785,14 +1768,14 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:559
-msgid "Show the rights on a folder:"
+#, no-wrap
+msgid "Show the rights on a folder:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:561
-msgid ""
-"To find out the rights to a folder, in our example `/etc`, the following "
-"command would **not** be appropriate:"
+#, no-wrap
+msgid "To find out the rights to a folder, in our example `/etc`, the following command would **not** be appropriate:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1810,9 +1793,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:573
-msgid ""
-"The above command will display the contents of the folder (inside) by "
-"default. For the folder itself, you can use the `-d` option."
+#, no-wrap
+msgid "The above command will display the contents of the folder (inside) by default. For the folder itself, you can use the `-d` option.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1825,7 +1807,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:580
-msgid "Sort by file size, largest first:"
+#, no-wrap
+msgid "Sort by file size, largest first:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1836,7 +1819,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:586
-msgid "time/date format with `-l`:"
+#, no-wrap
+msgid "time/date format with `-l`:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1851,14 +1835,16 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:595
-msgid "Add the _trailing slash_ to the end of folders:"
+#, no-wrap
+msgid "Add the _trailing slash_ to the end of folders:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:598
+#, no-wrap
 msgid ""
-"By default, the `ls` command does not display the last slash of a folder.  "
-"In some cases, like for scripts for example, it is useful to display them:"
+"By default, the `ls` command does not display the last slash of a folder.\n"
+"In some cases, like for scripts for example, it is useful to display them:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1871,7 +1857,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:605
-msgid "Hide some extensions:"
+#, no-wrap
+msgid "Hide some extensions:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1888,7 +1875,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:613
-msgid "The `mkdir` command creates a directory or directory tree."
+#, no-wrap
+msgid "The `mkdir` command creates a directory or directory tree.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1905,14 +1893,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:625
-msgid "The \"rockstar\" directory must exist to create the \"work\" directory."
+#, no-wrap
+msgid "The \"rockstar\" directory must exist to create the \"work\" directory.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:627
-msgid ""
-"Otherwise, the `-p` option should be used. The `-p` option creates the "
-"parent directories if they do not exist."
+#, no-wrap
+msgid "Otherwise, the `-p` option should be used. The `-p` option creates the parent directories if they do not exist.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1929,9 +1917,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:635
-msgid ""
-"The `touch` command changes the timestamp of a file or creates an empty file "
-"if the file does not exist."
+#, no-wrap
+msgid "The `touch` command changes the timestamp of a file or creates an empty file if the file does not exist.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1957,7 +1944,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:651
-msgid "Date format: `[AAAA]MMJJhhmm[ss]`"
+#, no-wrap
+msgid "Date format: `[AAAA]MMJJhhmm[ss]`\n"
 msgstr ""
 
 #. type: Plain text
@@ -1974,7 +1962,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:659
-msgid "The `rmdir` command deletes an empty directory."
+#, no-wrap
+msgid "The `rmdir` command deletes an empty directory.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2006,7 +1995,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:677
-msgid "The `rm` command deletes a file or directory."
+#, no-wrap
+msgid "The `rm` command deletes a file or directory.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2040,19 +2030,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:697
-msgid ""
-"Deleting a folder with the `rm` command, whether the folder is empty or not, "
-"will require the `-r` option to be added."
+#, no-wrap
+msgid "Deleting a folder with the `rm` command, whether the folder is empty or not, will require the `-r` option to be added.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:699
-msgid "The end of the options is signaled to the shell by a double dash `--`."
+#, no-wrap
+msgid "The end of the options is signaled to the shell by a double dash `--`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:701
-msgid "In the example:"
+#, no-wrap
+msgid "In the example:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2067,9 +2058,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:710
-msgid ""
-"The hard-hard file name starts with a `-`. Without the use of the `--` the "
-"shell would have interpreted the `-d` in `-hard-hard` as an option."
+#, no-wrap
+msgid "The hard-hard file name starts with a `-`. Without the use of the `--` the shell would have interpreted the `-d` in `-hard-hard` as an option.\n"
 msgstr ""
 
 #. type: Title ###
@@ -2080,7 +2070,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:714
-msgid "The `mv` command moves and renames a file."
+#, no-wrap
+msgid "The `mv` command moves and renames a file.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2109,9 +2100,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:732
-msgid ""
-"A few concrete cases will help you understand the difficulties that can "
-"arise:"
+#, no-wrap
+msgid "A few concrete cases will help you understand the difficulties that can arise:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2122,9 +2112,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:738
-msgid ""
-"Renames `file1` to `file2`. If `file2` already exists, replace the contents "
-"of the file with `file1`."
+#, no-wrap
+msgid "Renames `file1` to `file2`. If `file2` already exists, replace the contents of the file with `file1`.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2135,7 +2124,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:744
-msgid "Moves `file1` and `file2` into the `/tmp` directory."
+#, no-wrap
+msgid "Moves `file1` and `file2` into the `/tmp` directory.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2146,7 +2136,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:750
-msgid "Moves `file1` into `repexist` and renames it `file2`."
+#, no-wrap
+msgid "Moves `file1` into `repexist` and renames it `file2`.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2157,7 +2148,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:756
-msgid "`file1` is renamed to `file2`."
+#, no-wrap
+msgid "`file1` is renamed to `file2`.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2168,7 +2160,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:762
-msgid "If the destination directory exists, `file1` is moved to `/repexist`."
+#, no-wrap
+msgid "If the destination directory exists, `file1` is moved to `/repexist`.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2179,9 +2172,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:768
-msgid ""
-"If the destination directory does not exist, `file1` is renamed to "
-"`wrongrep` in the root directory."
+#, no-wrap
+msgid "If the destination directory does not exist, `file1` is renamed to `wrongrep` in the root directory.\n"
 msgstr ""
 
 #. type: Title ###
@@ -2192,7 +2184,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:772
-msgid "The `cp` command copies a file."
+#, no-wrap
+msgid "The `cp` command copies a file.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2228,7 +2221,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:796
-msgid "`file1` is copied to `/repexist` under the name `file2`."
+#, no-wrap
+msgid "`file1` is copied to `/repexist` under the name `file2`.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2239,7 +2233,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:802
-msgid "`file1` is copied as `file2` to this directory."
+#, no-wrap
+msgid "`file1` is copied as `file2` to this directory.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2250,7 +2245,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:808
-msgid "If the destination directory exists, `file1` is copied to `/repexist`."
+#, no-wrap
+msgid "If the destination directory exists, `file1` is copied to `/repexist`.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2261,9 +2257,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:814
-msgid ""
-"If the destination directory does not exist, `file1` is copied under the "
-"name `wrongrep` to the root directory."
+#, no-wrap
+msgid "If the destination directory does not exist, `file1` is copied under the name `wrongrep` to the root directory.\n"
 msgstr ""
 
 #. type: Title ##
@@ -2280,7 +2275,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:820
-msgid "The `file` command displays the type of a file."
+#, no-wrap
+msgid "The `file` command displays the type of a file.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2306,9 +2302,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:836
-msgid ""
-"The `more` command displays the contents of one or more files screen by "
-"screen."
+#, no-wrap
+msgid "The `more` command displays the contents of one or more files screen by screen.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2340,9 +2335,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:854
-msgid ""
-"The `less` command displays the contents of one or more files. The `less` "
-"command is interactive and has its own commands for use."
+#, no-wrap
+msgid "The `less` command displays the contents of one or more files. The `less` command is interactive and has its own commands for use.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2353,7 +2347,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:860
-msgid "The commands specific to `less` are:"
+#, no-wrap
+msgid "The commands specific to `less` are:\n"
 msgstr ""
 
 #. type: Plain text
@@ -2380,9 +2375,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:875
-msgid ""
-"The `cat` command concatenates the contents of multiple files and displays "
-"the result on the standard output."
+#, no-wrap
+msgid "The `cat` command concatenates the contents of multiple files and displays the result on the standard output.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2393,7 +2387,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:881
-msgid "Example 1 - Displaying the contents of a file to the standard output:"
+#, no-wrap
+msgid "Example 1 - Displaying the contents of a file to the standard output:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2404,8 +2399,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:887
-msgid ""
-"Example 2 - Displaying the contents of multiple files to standard output:"
+#, no-wrap
+msgid "Example 2 - Displaying the contents of multiple files to standard output:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2416,9 +2411,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:893
-msgid ""
-"Example 3 - Combining the contents of multiple files into one file using "
-"output redirection:"
+#, no-wrap
+msgid "Example 3 - Combining the contents of multiple files into one file using output redirection:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2429,7 +2423,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:899
-msgid "Example 4 - Displaying the line numbering:"
+#, no-wrap
+msgid "Example 4 - Displaying the line numbering:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2448,7 +2443,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:912
-msgid "Example 5 - Shows the numbering of non-empty lines:"
+#, no-wrap
+msgid "Example 5 - Shows the numbering of non-empty lines:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2473,15 +2469,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:927
-msgid ""
-"The `tac` command does almost the opposite of the `cat` command. It displays "
-"the contents of a file starting from the end (which is particularly "
-"interesting for reading logs!)."
+#, no-wrap
+msgid "The `tac` command does almost the opposite of the `cat` command. It displays the contents of a file starting from the end (which is particularly interesting for reading logs!).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:929
-msgid "Example: Display a log file by displaying the last line first:"
+#, no-wrap
+msgid "Example: Display a log file by displaying the last line first:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2498,7 +2493,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:937
-msgid "The `head` command displays the beginning of a file."
+#, no-wrap
+msgid "The `head` command displays the beginning of a file.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2518,9 +2514,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:947
-msgid ""
-"By default (without the `-n` option), the `head` command will display the "
-"first 10 lines of the file."
+#, no-wrap
+msgid "By default (without the `-n` option), the `head` command will display the first 10 lines of the file.\n"
 msgstr ""
 
 #. type: Title ###
@@ -2531,7 +2526,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:951
-msgid "The `tail` command displays the end of a file."
+#, no-wrap
+msgid "The `tail` command displays the end of a file.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2568,9 +2564,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:973
-msgid ""
-"Without the `-n` option, the `tail` command displays the last 10 lines of "
-"the file."
+#, no-wrap
+msgid "Without the `-n` option, the `tail` command displays the last 10 lines of the file.\n"
 msgstr ""
 
 #. type: Title ###
@@ -2581,15 +2576,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:977
-msgid "The `sort` command sorts the lines of a file."
+#, no-wrap
+msgid "The `sort` command sorts the lines of a file.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:979
-msgid ""
-"It allows you to order the result of a command or the content of a file in a "
-"given order, numerically, alphabetically, by size (KB, MB, GB) or in reverse "
-"order."
+#, no-wrap
+msgid "It allows you to order the result of a command or the content of a file in a given order, numerically, alphabetically, by size (KB, MB, GB) or in reverse order.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2629,17 +2623,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1004
-msgid ""
-"By default, the numbers are sorted according to their character. Thus, "
-"\"110\" will be before \"20\", which will itself be before \"3\". The `-n` "
-"option must be specified so that the numeric character blocks are sorted by "
-"their value."
+#, no-wrap
+msgid "By default, the numbers are sorted according to their character. Thus, \"110\" will be before \"20\", which will itself be before \"3\". The `-n` option must be specified so that the numeric character blocks are sorted by their value.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1006
-msgid ""
-"The `sort` command reverses the order of the results, with the `-r` option:"
+#, no-wrap
+msgid "The `sort` command reverses the order of the results, with the `-r` option:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2654,25 +2645,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1015
-msgid ""
-"In this example, the `sort` command will sort the contents of the `/etc/"
-"passwd` file this time from largest uid (user identifier) to smallest."
+#, no-wrap
+msgid "In this example, the `sort` command will sort the contents of the `/etc/passwd` file this time from largest uid (user identifier) to smallest.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1017
-msgid "Some advanced examples of using the `sort` command:"
+#, no-wrap
+msgid "Some advanced examples of using the `sort` command:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:1019
-msgid "Shuffling values"
+#, no-wrap
+msgid "Shuffling values\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1021
-msgid ""
-"The `sort` command also allows you to shuffle values with the `-R` option:"
+#, no-wrap
+msgid "The `sort` command also allows you to shuffle values with the `-R` option:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2683,20 +2675,20 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:1027
-msgid "Sorting IP addresses"
+#, no-wrap
+msgid "Sorting IP addresses\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1029
-msgid ""
-"A system administrator is quickly confronted with the processing of IP "
-"addresses from the logs of his services such as SMTP, VSFTP or Apache. These "
-"addresses are typically extracted with the `cut` command."
+#, no-wrap
+msgid "A system administrator is quickly confronted with the processing of IP addresses from the logs of his services such as SMTP, VSFTP or Apache. These addresses are typically extracted with the `cut` command.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1031
-msgid "Here is an example with the file `dns-client.txt`:"
+#, no-wrap
+msgid "Here is an example with the file `dns-client.txt`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2724,19 +2716,20 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:1050
-msgid "Sorting file by removing duplicates"
+#, no-wrap
+msgid "Sorting file by removing duplicates\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1052
-msgid ""
-"The `sort` command knows how to remove the duplicates from the file output "
-"using `-u` as option."
+#, no-wrap
+msgid "The `sort` command knows how to remove the duplicates from the file output using `-u` as option.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1054
-msgid "Here is an example with the file `colours.txt`:"
+#, no-wrap
+msgid "Here is an example with the file `colours.txt`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2763,19 +2756,20 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:1071
-msgid "Sorting file by sizes"
+#, no-wrap
+msgid "Sorting file by sizes\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1073
-msgid ""
-"The `sort` command knows how to recognize file sizes, from commands like "
-"`ls` with the `-h` option."
+#, no-wrap
+msgid "The `sort` command knows how to recognize file sizes, from commands like `ls` with the `-h` option.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1075
-msgid "Here is an example with the file `size.txt`:"
+#, no-wrap
+msgid "Here is an example with the file `size.txt`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2819,8 +2813,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1106
-msgid ""
-"The `wc` command counts the number of lines, words and/or bytes in a file."
+#, no-wrap
+msgid "The `wc` command counts the number of lines, words and/or bytes in a file.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2855,7 +2849,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1123
-msgid "The `find` command searches for files or directories location."
+#, no-wrap
+msgid "The `find` command searches for files or directories location.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2866,16 +2861,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1129
-msgid ""
-"Since there are so many options to the `find` command, it is best to refer "
-"to the `man`."
+#, no-wrap
+msgid "Since there are so many options to the `find` command, it is best to refer to the `man`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1131
-msgid ""
-"If the search directory is not specified, the `find` command will search "
-"from the current directory."
+#, no-wrap
+msgid "If the search directory is not specified, the `find` command will search from the current directory.\n"
 msgstr ""
 
 #. type: Plain text
@@ -2896,9 +2889,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1140
-msgid ""
-"It is possible to use the `-exec` option of the `find` command to execute a "
-"command on each result line:"
+#, no-wrap
+msgid "It is possible to use the `-exec` option of the `find` command to execute a command on each result line:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -2909,14 +2901,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1146
-msgid ""
-"The previous command searches for all files in the `/tmp` directory named `*."
-"txt` and deletes them."
+#, no-wrap
+msgid "The previous command searches for all files in the `/tmp` directory named `*.txt` and deletes them.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1148
-msgid "!!! Tip \"Understand the `-exec` option\""
+#, no-wrap
+msgid "!!! Tip \"Understand the `-exec` option\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -2966,7 +2958,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1168
-msgid "The `whereis` command searches for files related to a command."
+#, no-wrap
+msgid "The `whereis` command searches for files related to a command.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3002,7 +2995,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1189
-msgid "The `grep` command searches for a string in a file."
+#, no-wrap
+msgid "The `grep` command searches for a string in a file.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3032,11 +3026,11 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1210
+#, no-wrap
 msgid ""
-"The `grep` command returns the complete line containing the string you are "
-"looking for.  * The `^` special character is used to search for a string at "
-"the beginning of a line.  * The special character `$` searches for a string "
-"at the end of a line."
+"The `grep` command returns the complete line containing the string you are looking for.\n"
+"* The `^` special character is used to search for a string at the beginning of a line.\n"
+"* The special character `$` searches for a string at the end of a line.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3053,8 +3047,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1220
-msgid ""
-"It is possible to search for a string in a file tree with the `-R` option."
+#, no-wrap
+msgid "It is possible to search for a string in a file tree with the `-R` option.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3071,22 +3065,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1228
-msgid ""
-"Meta-characters replace one or more characters (or even an absence of "
-"characters) during a search. These meta-characters are also known as "
-"wildcards."
+#, no-wrap
+msgid "Meta-characters replace one or more characters (or even an absence of characters) during a search. These meta-characters are also known as wildcards.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1230
-msgid "They can be combined."
+#, no-wrap
+msgid "They can be combined.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1232
-msgid ""
-"The `*` character replaces a string composed of any characters. The `*` "
-"character can also represent an absence of character."
+#, no-wrap
+msgid "The `*` character replaces a string composed of any characters. The `*` character can also represent an absence of character.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3103,14 +3095,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1243
-msgid ""
-"Meta-characters allow more complex searches by replacing all or part of a "
-"word. Simply replace the unknowns with these special characters."
+#, no-wrap
+msgid "Meta-characters allow more complex searches by replacing all or part of a word. Simply replace the unknowns with these special characters.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1245
-msgid "The character `?` replaces a single character, whatever it is."
+#, no-wrap
+msgid "The character `?` replaces a single character, whatever it is.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3124,9 +3116,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1253
-msgid ""
-"The square brackets `[` and `]` are used to specify the values that a single "
-"character can take."
+#, no-wrap
+msgid "The square brackets `[` and `]` are used to specify the values that a single character can take.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3165,36 +3156,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1274
-msgid ""
-"On UNIX and Linux systems, there are three standard streams. They allow "
-"programs, via the `stdio.h` library, to input or output information."
+#, no-wrap
+msgid "On UNIX and Linux systems, there are three standard streams. They allow programs, via the `stdio.h` library, to input or output information.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1276
-msgid "These streams are called X channel or X file descriptor."
+#, no-wrap
+msgid "These streams are called X channel or X file descriptor.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1278
-msgid "By default:"
+#, no-wrap
+msgid "By default:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:1281
-msgid "the keyboard is the input device for channel 0, called **stdin** ;"
+#, no-wrap
+msgid "the keyboard is the input device for channel 0, called **stdin** ;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:1281
-msgid ""
-"the screen is the output device for channels 1 and 2, called **stdout** and "
-"**stderr**."
+#, no-wrap
+msgid "the screen is the output device for channels 1 and 2, called **stdout** and **stderr**.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1283
-msgid "![standards channels](images/input-output.png)"
+#, no-wrap
+msgid "![standards channels](images/input-output.png)\n"
 msgstr ""
 
 #. type: Plain text
@@ -3205,10 +3198,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1287
-msgid ""
-"These streams point to peripheral files, but since everything is a file in "
-"UNIX/Linux, I/O streams can easily be diverted to other files. This "
-"principle is the strength of the shell."
+#, no-wrap
+msgid "These streams point to peripheral files, but since everything is a file in UNIX/Linux, I/O streams can easily be diverted to other files. This principle is the strength of the shell.\n"
 msgstr ""
 
 #. type: Title ###
@@ -3237,15 +3228,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1301
-msgid ""
-"Input redirection can also be used to simulate user interactivity. The "
-"command will read the input stream until it encounters the defined keyword "
-"after the input redirection."
+#, no-wrap
+msgid "Input redirection can also be used to simulate user interactivity. The command will read the input stream until it encounters the defined keyword after the input redirection.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1303
-msgid "This feature is used to script interactive commands:"
+#, no-wrap
+msgid "This feature is used to script interactive commands:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3261,7 +3251,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1313
-msgid "The keyword `END` can be replaced by any word."
+#, no-wrap
+msgid "The keyword `END` can be replaced by any word.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3277,9 +3268,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1323
-msgid ""
-"The shell exits the `ftp` command when it receives a line containing only "
-"the keyword."
+#, no-wrap
+msgid "The shell exits the `ftp` command when it receives a line containing only the keyword.\n"
 msgstr ""
 
 #. type: Plain text
@@ -3290,14 +3280,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1329
-msgid ""
-"The standard input redirection is rarely used because most commands accept a "
-"filename as an argument."
+#, no-wrap
+msgid "The standard input redirection is rarely used because most commands accept a filename as an argument.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1331
-msgid "The command `wc` could be used like this:"
+#, no-wrap
+msgid "The command `wc` could be used like this:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3348,16 +3338,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1356
-msgid ""
-"In both cases, the file is automatically created when it does not exist."
+#, no-wrap
+msgid "In both cases, the file is automatically created when it does not exist.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1358
-msgid ""
-"The standard error output can also be redirected to another file. This time "
-"it will be necessary to specify the channel number (which can be omitted for "
-"channels 0 and 1):"
+#, no-wrap
+msgid "The standard error output can also be redirected to another file. This time it will be necessary to specify the channel number (which can be omitted for channels 0 and 1):\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3376,7 +3364,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1367
-msgid "Redirection of 2 outputs to 2 files:"
+#, no-wrap
+msgid "Redirection of 2 outputs to 2 files:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3387,7 +3376,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1373
-msgid "Redirection of the 2 outputs to a single file:"
+#, no-wrap
+msgid "Redirection of the 2 outputs to a single file:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3398,7 +3388,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1379
-msgid "Redirection of *stderr* to a \"bottomless pit\" (`/dev/null`):"
+#, no-wrap
+msgid "Redirection of *stderr* to a \"bottomless pit\" (`/dev/null`):\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3409,10 +3400,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1385
-msgid ""
-"When both output streams are redirected, no information is displayed on the "
-"screen. To use both the output redirection and to keep the display, you will "
-"have to use the command `tee`."
+#, no-wrap
+msgid "When both output streams are redirected, no information is displayed on the screen. To use both the output redirection and to keep the display, you will have to use the command `tee`.\n"
 msgstr ""
 
 #. type: Title ###
@@ -3423,9 +3412,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1389
-msgid ""
-"A **pipe** is a mechanism allowing you to link the standard output of a "
-"first command to the standard input of a second command."
+#, no-wrap
+msgid "A **pipe** is a mechanism allowing you to link the standard output of a first command to the standard input of a second command.\n"
 msgstr ""
 
 #. type: Plain text
@@ -3436,25 +3424,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1393
-msgid "![pipe](images/pipe.png)"
+#, no-wrap
+msgid "![pipe](images/pipe.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1395
-msgid ""
-"All data sent by the control on the left of the pipe through the standard "
-"output channel is sent to the standard input channel of the control on the "
-"right."
+#, no-wrap
+msgid "All data sent by the control on the left of the pipe through the standard output channel is sent to the standard input channel of the control on the right.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1397
-msgid "The commands particularly used after a pipe are filters."
+#, no-wrap
+msgid "The commands particularly used after a pipe are filters.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1401
-msgid "Display only the beginning:"
+#, no-wrap
+msgid "Display only the beginning:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3465,7 +3454,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1407
-msgid "Display only the end:"
+#, no-wrap
+msgid "Display only the end:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3476,7 +3466,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1413
-msgid "Sort the result:"
+#, no-wrap
+msgid "Sort the result:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3487,7 +3478,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1419
-msgid "Count the number of words / characters:"
+#, no-wrap
+msgid "Count the number of words / characters:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3498,7 +3490,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1425
-msgid "Search for a string in the result:"
+#, no-wrap
+msgid "Search for a string in the result:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3521,16 +3514,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1435
-msgid ""
-"The `tee` command is used to redirect the standard output of a command to a "
-"file while maintaining the screen display."
+#, no-wrap
+msgid "The `tee` command is used to redirect the standard output of a command to a file while maintaining the screen display.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1437
-msgid ""
-"It is combined with the `|` pipe to receive as input the output of the "
-"command to be redirected:"
+#, no-wrap
+msgid "It is combined with the `|` pipe to receive as input the output of the command to be redirected:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3543,7 +3534,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1444
-msgid "The `-a` option adds to the file instead of overwriting it."
+#, no-wrap
+msgid "The `-a` option adds to the file instead of overwriting it.\n"
 msgstr ""
 
 #. type: Title ###
@@ -3554,9 +3546,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1448
-msgid ""
-"Using **alias** is a way to ask the shell to remember a particular command "
-"with its options and give it a name."
+#, no-wrap
+msgid "Using **alias** is a way to ask the shell to remember a particular command with its options and give it a name.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3567,7 +3558,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1456
-msgid "will replace the command:"
+#, no-wrap
+msgid "will replace the command:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3578,9 +3570,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1462
-msgid ""
-"The `alias` command lists the aliases for the current session. Aliases are "
-"set by default on Linux distributions. Here, the aliases for a Rocky server:"
+#, no-wrap
+msgid "The `alias` command lists the aliases for the current session. Aliases are set by default on Linux distributions. Here, the aliases for a Rocky server:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3597,23 +3588,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1473
-msgid ""
-"The aliases are only defined temporarily, for the time of the user session."
+#, no-wrap
+msgid "The aliases are only defined temporarily, for the time of the user session.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1475
-msgid "For permanent use, they must be created in the:"
+#, no-wrap
+msgid "For permanent use, they must be created in the:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:1478
-msgid "`.bashrc` file in the user's login directory;"
+#, no-wrap
+msgid "`.bashrc` file in the user's login directory;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:1478
-msgid "`/etc/bashrc` file for all users."
+#, no-wrap
+msgid "`/etc/bashrc` file for all users.\n"
 msgstr ""
 
 #. type: Plain text
@@ -3633,12 +3627,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1488
-msgid "The `unalias` command allows you to delete aliases."
+#, no-wrap
+msgid "The `unalias` command allows you to delete aliases.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1490
-msgid "To delete a single alias:"
+#, no-wrap
+msgid "To delete a single alias:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3649,7 +3645,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1496
-msgid "To delete all aliases:"
+#, no-wrap
+msgid "To delete all aliases:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3666,7 +3663,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1504
-msgid "For example if we do:"
+#, no-wrap
+msgid "For example if we do:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3677,7 +3675,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1510
-msgid "it might return the following:"
+#, no-wrap
+msgid "it might return the following:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3688,9 +3687,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1516
-msgid ""
-"Now that this is known, we can see the results of using the alias or "
-"disabling it one time with the `\\` by executing the following:"
+#, no-wrap
+msgid "Now that this is known, we can see the results of using the alias or disabling it one time with the `\\` by executing the following:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3711,55 +3709,62 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:1527
-msgid "`grep` alias."
+#, no-wrap
+msgid "`grep` alias.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1529
-msgid ""
-"Colorize the result of the `grep` command: `alias grep='grep --color=auto'`"
+#, no-wrap
+msgid "Colorize the result of the `grep` command: `alias grep='grep --color=auto'`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:1531
-msgid "`mcd` function"
+#, no-wrap
+msgid "`mcd` function\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1533
-msgid ""
-"It is common to create a folder and then move around in it: `mcd() { mkdir -"
-"p \"$1\"; cd \"$1\"; }`"
+#, no-wrap
+msgid "It is common to create a folder and then move around in it: `mcd() { mkdir -p \"$1\"; cd \"$1\"; }`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:1535
-msgid "`cls` function"
+#, no-wrap
+msgid "`cls` function\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1537
-msgid "Move to a folder and list its contents: `cls() { cd \"$1\"; ls; }`"
+#, no-wrap
+msgid "Move to a folder and list its contents: `cls() { cd \"$1\"; ls; }`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:1539
-msgid "`backup` function"
+#, no-wrap
+msgid "`backup` function\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1541
-msgid "Create a backup copy of a file: `backup() { cp \"$1\"{,.bak}; }`"
+#, no-wrap
+msgid "Create a backup copy of a file: `backup() { cp \"$1\"{,.bak}; }`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:1543
-msgid "`extract` function"
+#, no-wrap
+msgid "`extract` function\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1545
-msgid "Extract any type of archive:"
+#, no-wrap
+msgid "Extract any type of archive:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3792,20 +3797,20 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/03-commands.md:1572
-msgid ""
-"If `alias cmount` returns the following: `alias cmount=\"mount | column -t\"`"
+#, no-wrap
+msgid "If `alias cmount` returns the following: `alias cmount=\"mount | column -t\"`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1574
-msgid ""
-"Then we can use `cmount` to show all of the system mounts in columns like "
-"this: `[root]# cmount`"
+#, no-wrap
+msgid "Then we can use `cmount` to show all of the system mounts in columns like this: `[root]# cmount`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1576
-msgid "which would return our mounted filesystem in the following format:"
+#, no-wrap
+msgid "which would return our mounted filesystem in the following format:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -3829,7 +3834,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1590
-msgid "The `;` character strings the commands."
+#, no-wrap
+msgid "The `;` character strings the commands.\n"
 msgstr ""
 
 #. type: Plain text
@@ -3846,91 +3852,109 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1600
-msgid ":heavy_check_mark: What defines a user under Linux? (7 answers)"
+#, no-wrap
+msgid ":heavy_check_mark: What defines a user under Linux? (7 answers)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1602
-msgid ":heavy_check_mark: What characterizes a long option for a command?"
+#, no-wrap
+msgid ":heavy_check_mark: What characterizes a long option for a command?\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1604
-msgid ""
-":heavy_check_mark: Which commands allow you to search for help on a command?"
+#, no-wrap
+msgid ":heavy_check_mark: Which commands allow you to search for help on a command?\n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/03-commands.md:1610
-msgid "[ ] `google`"
+#, no-wrap
+msgid "[ ] `google`   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/03-commands.md:1610
-msgid "[ ] `chuck --norris`"
+#, no-wrap
+msgid "[ ] `chuck --norris`   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/03-commands.md:1610
-msgid "[ ] `info`"
+#, no-wrap
+msgid "[ ] `info`   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/03-commands.md:1610
-msgid "[ ] `apropos`"
+#, no-wrap
+msgid "[ ] `apropos`   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/03-commands.md:1610
-msgid "[ ] `whatis`"
+#, no-wrap
+msgid "[ ] `whatis`   \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1612
-msgid ":heavy_check_mark: Which command allows you to view a user's history?"
+#, no-wrap
+msgid ":heavy_check_mark: Which command allows you to view a user's history?\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1614
-msgid ""
-":heavy_check_mark: Which command allows you to search for text in a file?"
+#, no-wrap
+msgid ":heavy_check_mark: Which command allows you to search for text in a file?\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/admin_guide/03-commands.md:1617
+#, no-wrap
+msgid "[ ] `find`   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/03-commands.md:1617
 #: ../src/docs/books/admin_guide/03-commands.md:1622
-msgid "[ ] `find`"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/admin_guide/03-commands.md:1617
-#: ../src/docs/books/admin_guide/03-commands.md:1622
-msgid "[ ] `grep`"
+#, no-wrap
+msgid "[ ] `grep`   \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1619
-msgid ":heavy_check_mark: Which command allows you to search for a file?"
+#, no-wrap
+msgid ":heavy_check_mark: Which command allows you to search for a file?\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/admin_guide/03-commands.md:1622
+#, no-wrap
+msgid "[ ] `find`    \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/03-commands.md:1624
-msgid ""
-":heavy_check_mark: Which command redirects the error stream of a command to "
-"a new `errors.log` file?"
+#, no-wrap
+msgid ":heavy_check_mark: Which command redirects the error stream of a command to a new `errors.log` file?\n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/03-commands.md:1627
-msgid "[ ] `ls -R / 2> errors.log`"
+#, no-wrap
+msgid "[ ] `ls -R / 2> errors.log`   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/03-commands.md:1627
-msgid "[ ] `ls -R / 2>> errors.log`"
+#, no-wrap
+msgid "[ ] `ls -R / 2>> errors.log`   \n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/docs/books/admin_guide/03-commands.md:1627
-msgid "[ ] `ls -R / 2> errors.log 2>&1`"
+#, no-wrap
+msgid "[ ] `ls -R / 2> errors.log 2>&1`   \n"
 msgstr ""

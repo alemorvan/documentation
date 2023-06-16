@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -108,72 +108,62 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/migrate2rocky.md:17
-msgid ""
-"CentOS Stream, CentOS, Alma Linux, RHEL, or Oracle Linux running well on a "
-"hardware server or VPS. The current supported version for each of these is "
-"8.7 or 9.1."
+#, no-wrap
+msgid "CentOS Stream, CentOS, Alma Linux, RHEL, or Oracle Linux running well on a hardware server or VPS. The current supported version for each of these is 8.7 or 9.1.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/migrate2rocky.md:17
-msgid "A working knowledge of the command line."
+#, no-wrap
+msgid "A working knowledge of the command line.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/migrate2rocky.md:17
-msgid "A working knowledge of SSH for remote machines."
+#, no-wrap
+msgid "A working knowledge of SSH for remote machines.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/migrate2rocky.md:17
-msgid "A mildly risk-taking attitude."
+#, no-wrap
+msgid "A mildly risk-taking attitude.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/migrate2rocky.md:17
-msgid ""
-"All commands should be run as root. Either log in as root, or get ready to "
-"type \"sudo\" a lot."
+#, no-wrap
+msgid "All commands should be run as root. Either log in as root, or get ready to type \"sudo\" a lot.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/migrate2rocky.md:21
-msgid ""
-"In this guide, you'll learn how to convert all of the OSes listed above to "
-"fully functional Rocky Linux installs. This is probably one of the most "
-"roundabout ways of installing Rocky Linux, but it'll come in handy for "
-"people in a variety of situations."
+#, no-wrap
+msgid "In this guide, you'll learn how to convert all of the OSes listed above to fully functional Rocky Linux installs. This is probably one of the most roundabout ways of installing Rocky Linux, but it'll come in handy for people in a variety of situations.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/migrate2rocky.md:23
-msgid ""
-"For example, some server providers won't support Rocky Linux by default for "
-"a while. Or you may have a production server that you want to convert to "
-"Rocky Linux without reinstalling everything."
+#, no-wrap
+msgid "For example, some server providers won't support Rocky Linux by default for a while. Or you may have a production server that you want to convert to Rocky Linux without reinstalling everything.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/migrate2rocky.md:25
-msgid ""
-"Well, we've got the tool for you: [migrate2rocky](https://github.com/rocky-"
-"linux/rocky-tools/tree/main/migrate2rocky)."
+#, no-wrap
+msgid "Well, we've got the tool for you: [migrate2rocky](https://github.com/rocky-linux/rocky-tools/tree/main/migrate2rocky).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/migrate2rocky.md:27
-msgid ""
-"It's a script that, when executed, will change out all of your repositories "
-"to those of Rocky Linux. Packages will be installed and upgraded/downgraded "
-"as necessary, and all of your OS' branding will change too."
+#, no-wrap
+msgid "It's a script that, when executed, will change out all of your repositories to those of Rocky Linux. Packages will be installed and upgraded/downgraded as necessary, and all of your OS' branding will change too.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/migrate2rocky.md:29
-msgid ""
-"Don't worry, if you're new to systems administration, I'll be keeping this "
-"as user-friendly as possible. Well, as user friendly as the command line "
-"gets."
+#, no-wrap
+msgid "Don't worry, if you're new to systems administration, I'll be keeping this as user-friendly as possible. Well, as user friendly as the command line gets.\n"
 msgstr ""
 
 #. type: Title ###
@@ -184,26 +174,20 @@ msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/guides/migrate2rocky.md:34
-msgid ""
-"Do check out migrate2rocky's README page (linked above), because there is a "
-"known clash between the script and Katello's repositories. In time, it's "
-"probable that we'll discover (and eventually patch) more clashes and "
-"incompatibilities, so you'll want to know about those, especially for "
-"production servers."
+#, no-wrap
+msgid "Do check out migrate2rocky's README page (linked above), because there is a known clash between the script and Katello's repositories. In time, it's probable that we'll discover (and eventually patch) more clashes and incompatibilities, so you'll want to know about those, especially for production servers.\n"
 msgstr ""
 
 #. type: Bullet: '2. '
 #: ../src/docs/guides/migrate2rocky.md:34
-msgid ""
-"This script is most likely to work without incident on completely fresh "
-"installs. _If you want to convert a production server, for the love of all "
-"that is holy and good, **make a data backup and system snapshot, or do it in "
-"a staging environment first.**_"
+#, no-wrap
+msgid "This script is most likely to work without incident on completely fresh installs. _If you want to convert a production server, for the love of all that is holy and good, **make a data backup and system snapshot, or do it in a staging environment first.**_\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/migrate2rocky.md:36
-msgid "Okay? We ready? Let's do this."
+#, no-wrap
+msgid "Okay? We ready? Let's do this.\n"
 msgstr ""
 
 #. type: Title ##
@@ -214,9 +198,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/migrate2rocky.md:40
-msgid ""
-"You'll need to grab the actual script file from the repository. This can be "
-"done in a number of ways."
+#, no-wrap
+msgid "You'll need to grab the actual script file from the repository. This can be done in a number of ways.\n"
 msgstr ""
 
 #. type: Title ###
@@ -227,22 +210,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/migrate2rocky.md:44
-msgid ""
-"Download the compressed files from GitHub and extract the one you need "
-"(That'd be *migrate2rocky.sh*). You can find zip files for any GitHub repo "
-"on the right-ish side of the repo's main page:"
+#, no-wrap
+msgid "Download the compressed files from GitHub and extract the one you need (That'd be *migrate2rocky.sh*). You can find zip files for any GitHub repo on the right-ish side of the repo's main page:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/migrate2rocky.md:46
-msgid "![The \"Download Zip\" button](images/migrate2rocky-github-zip.png)"
+#, no-wrap
+msgid "![The \"Download Zip\" button](images/migrate2rocky-github-zip.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/migrate2rocky.md:48
-msgid ""
-"Then, upload the executable to your server with ssh by running this command "
-"on your local machine:"
+#, no-wrap
+msgid "Then, upload the executable to your server with ssh by running this command on your local machine:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -253,9 +234,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/migrate2rocky.md:54
-msgid ""
-"Just, you know, adjust all the file paths and server domains or IP addresses "
-"as needed."
+#, no-wrap
+msgid "Just, you know, adjust all the file paths and server domains or IP addresses as needed.\n"
 msgstr ""
 
 #. type: Title ###
@@ -266,7 +246,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/migrate2rocky.md:58
-msgid "Install git on your server with:"
+#, no-wrap
+msgid "Install git on your server with:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -277,7 +258,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/migrate2rocky.md:64
-msgid "Then clone the rocky-tools repository with:"
+#, no-wrap
+msgid "Then clone the rocky-tools repository with:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -288,9 +270,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/migrate2rocky.md:70
-msgid ""
-"Note: this method will download all of the scripts and files in the rocky-"
-"tools repository."
+#, no-wrap
+msgid "Note: this method will download all of the scripts and files in the rocky-tools repository.\n"
 msgstr ""
 
 #. type: Title ###
@@ -301,16 +282,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/migrate2rocky.md:74
-msgid ""
-"This is probably the easiest way to obtain the script. You only need a "
-"suitable HTTP client (curl, wget, lynx and so on) installed on the server."
+#, no-wrap
+msgid "This is probably the easiest way to obtain the script. You only need a suitable HTTP client (curl, wget, lynx and so on) installed on the server.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/migrate2rocky.md:76
-msgid ""
-"Assuming you have the `curl` utility installed, run this command to download "
-"the script into whatever directory you're using:"
+#, no-wrap
+msgid "Assuming you have the `curl` utility installed, run this command to download the script into whatever directory you're using:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -321,10 +300,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/migrate2rocky.md:82
-msgid ""
-"That command will download the file straight to your server, and *only* the "
-"file you want. But again, there are security concerns that suggest this "
-"isn't necessarily the best practice, so keep that in mind."
+#, no-wrap
+msgid "That command will download the file straight to your server, and *only* the file you want. But again, there are security concerns that suggest this isn't necessarily the best practice, so keep that in mind.\n"
 msgstr ""
 
 #. type: Title ##
@@ -335,10 +312,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/migrate2rocky.md:86
-msgid ""
-"Use the `cd` command to switch to the directory where the script is located, "
-"make sure the file is executable and give the owner of the script file x "
-"permissions."
+#, no-wrap
+msgid "Use the `cd` command to switch to the directory where the script is located, make sure the file is executable and give the owner of the script file x permissions.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -349,7 +324,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/migrate2rocky.md:92
-msgid "And now, at long last, execute the script:"
+#, no-wrap
+msgid "And now, at long last, execute the script:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -360,54 +336,48 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/migrate2rocky.md:98
-msgid ""
-"That \"-r\" option tells the script to just go ahead and install everything."
+#, no-wrap
+msgid "That \"-r\" option tells the script to just go ahead and install everything.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/migrate2rocky.md:100
-msgid ""
-"If you've done everything right, your terminal window should look a bit like "
-"this:"
+#, no-wrap
+msgid "If you've done everything right, your terminal window should look a bit like this:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/migrate2rocky.md:102
-msgid "![a successful script startup](images/migrate2rocky-convert-01.png)"
+#, no-wrap
+msgid "![a successful script startup](images/migrate2rocky-convert-01.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/migrate2rocky.md:104
-msgid ""
-"Now, it'll take the script a while to convert everything, depending on the "
-"actual machine/server, and the connection it has to the wider internet."
+#, no-wrap
+msgid "Now, it'll take the script a while to convert everything, depending on the actual machine/server, and the connection it has to the wider internet.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/migrate2rocky.md:106
-msgid ""
-"If you see a **Complete!** message at the end, then everything is fine and "
-"you can restart the server."
+#, no-wrap
+msgid "If you see a **Complete!** message at the end, then everything is fine and you can restart the server.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/migrate2rocky.md:108
-msgid ""
-"![a successful OS migration message](images/migrate2rocky-convert-02.png)"
+#, no-wrap
+msgid "![a successful OS migration message](images/migrate2rocky-convert-02.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/migrate2rocky.md:110
-msgid ""
-"Give it some time, log back in, and you should have a fancy schmancy new "
-"Rocky Linux server to play wi... I mean do very serious work on. Run the "
-"`hostnamectl` command to check that your OS was migrated properly, and "
-"you're good to go."
+#, no-wrap
+msgid "Give it some time, log back in, and you should have a fancy schmancy new Rocky Linux server to play wi... I mean do very serious work on. Run the `hostnamectl` command to check that your OS was migrated properly, and you're good to go.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/migrate2rocky.md:111
-msgid ""
-"![The results of the hostnamectl command](images/migrate2rocky-convert-03."
-"png)"
+#, no-wrap
+msgid "![The results of the hostnamectl command](images/migrate2rocky-convert-03.png)\n"
 msgstr ""

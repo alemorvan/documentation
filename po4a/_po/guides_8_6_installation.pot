@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -142,7 +142,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -169,7 +168,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Plain text
@@ -217,7 +217,8 @@ msgstr ""
 #: ../src/docs/guides/8_6_installation.md:133
 #: ../src/docs/guides/installation.md:66 ../src/docs/guides/installation.md:138
 #: ../src/docs/guides/virtualization/vbox-rocky.md:123
-msgid "!!! Tip"
+#, no-wrap
+msgid "!!! Tip\n"
 msgstr ""
 
 #. type: Plain text
@@ -273,7 +274,8 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:243
 #: ../src/docs/guides/security/learning_selinux.md:263
 #: ../src/docs/guides/web/php.md:145
-msgid "!!! Warning"
+#, no-wrap
+msgid "!!! Warning\n"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
@@ -291,12 +293,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:10
-msgid ""
-"This guide walks through the detailed steps to install a 64-bit version of "
-"the Rocky Linux distribution on a stand-alone system.  We will be performing "
-"a server class install using an operating system installer image downloaded "
-"from the Rocky Linux project website. We will step through the installation "
-"and customization steps in the following sections."
+#, no-wrap
+msgid "This guide walks through the detailed steps to install a 64-bit version of the Rocky Linux distribution on a stand-alone system.  We will be performing a server class install using an operating system installer image downloaded from the Rocky Linux project website. We will step through the installation and customization steps in the following sections.\n"
 msgstr ""
 
 #. type: Title ##
@@ -308,16 +306,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:15
-msgid ""
-"First, you need to download the ISO to be used for this installation of "
-"Rocky Linux."
+#, no-wrap
+msgid "First, you need to download the ISO to be used for this installation of Rocky Linux.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:17
-msgid ""
-"The latest ISO image for the version of Rocky Linux that we will be using "
-"for this installation can be downloaded from here:"
+#, no-wrap
+msgid "The latest ISO image for the version of Rocky Linux that we will be using for this installation can be downloaded from here:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -329,8 +325,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:23
-msgid ""
-"To download the ISO directly from the command line use the `wget` command:"
+#, no-wrap
+msgid "To download the ISO directly from the command line use the `wget` command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -341,7 +337,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:29
-msgid "Rocky Linux ISOs are named following this convention:"
+#, no-wrap
+msgid "Rocky Linux ISOs are named following this convention:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -353,7 +350,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:35
-msgid "For example, `Rocky-8.7-x86_64-minimal.iso`"
+#, no-wrap
+msgid "For example, `Rocky-8.7-x86_64-minimal.iso`\n"
 msgstr ""
 
 #. type: Plain text
@@ -371,19 +369,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:43
-msgid ""
-"If you've downloaded the Rocky Linux ISO(s) on an existing Linux "
-"distribution, you can use the `sha256sum` utility to verify that file(s) you "
-"downloaded are not corrupt. We will show an example of how to verify the "
-"`Rocky-8.5-x86_64-minimal.iso` file by checking its checksum."
+#, no-wrap
+msgid "If you've downloaded the Rocky Linux ISO(s) on an existing Linux distribution, you can use the `sha256sum` utility to verify that file(s) you downloaded are not corrupt. We will show an example of how to verify the `Rocky-8.5-x86_64-minimal.iso` file by checking its checksum.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:45
-msgid ""
-"First download the file that contains the official checksums for the "
-"available ISOs. While still in the folder that contains the downloaded Rocky "
-"Linux ISO download the checksum file for the ISO, type:"
+#, no-wrap
+msgid "First download the file that contains the official checksums for the available ISOs. While still in the folder that contains the downloaded Rocky Linux ISO download the checksum file for the ISO, type:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -394,9 +387,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:51
-msgid ""
-"Use the `sha256sum` utility to verify the integrity of the ISO file against "
-"corruption and/or tampering."
+#, no-wrap
+msgid "Use the `sha256sum` utility to verify the integrity of the ISO file against corruption and/or tampering.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -407,9 +399,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:57
-msgid ""
-"This will check the integrity of the ISO file downloaded previously, "
-"provided that it is in the same directory. The output should show:"
+#, no-wrap
+msgid "This will check the integrity of the ISO file downloaded previously, provided that it is in the same directory. The output should show:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -435,43 +426,39 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:69
 #: ../src/docs/guides/installation.md:70
-msgid ""
-"If the computer is setup to boot from the media that has the ISO file we can "
-"begin the installation process."
+#, no-wrap
+msgid "If the computer is setup to boot from the media that has the ISO file we can begin the installation process.\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/guides/8_6_installation.md:71
 #: ../src/docs/guides/installation.md:72
-msgid ""
-"Insert and boot from the installation medium (optical disk, USB flash drive, "
-"and so on)."
+#, no-wrap
+msgid "Insert and boot from the installation medium (optical disk, USB flash drive, and so on).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:73
-msgid ""
-"Once the computer has booted you will be presented with the Rocky Linux 8 "
-"welcome splash screen."
+#, no-wrap
+msgid "Once the computer has booted you will be presented with the Rocky Linux 8 welcome splash screen.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:75
-msgid ""
-"![Rocky Linux installation splash screen](images/installation_8.5_F01.png)"
+#, no-wrap
+msgid "![Rocky Linux installation splash screen](images/installation_8.5_F01.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:77
-msgid ""
-"If you do not press any key the installer will begin a countdown, after "
-"which the installation process will automatically execute the default, "
-"highlighted, option:"
+#, no-wrap
+msgid "If you do not press any key the installer will begin a countdown, after which the installation process will automatically execute the default, highlighted, option:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:79
-msgid "`Test this media & install Rocky Linux 8`"
+#, no-wrap
+msgid "`Test this media & install Rocky Linux 8`\n"
 msgstr ""
 
 #. type: Plain text
@@ -482,23 +469,19 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:83
-msgid ""
-"A quick media verification step will take place. This media verification "
-"step can save you the trouble of starting the installation only to find out "
-"halfway through that the installer has to abort because of bad installation "
-"media."
+#, no-wrap
+msgid "A quick media verification step will take place. This media verification step can save you the trouble of starting the installation only to find out halfway through that the installer has to abort because of bad installation media.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:85
-msgid ""
-"After the media check runs to completion and the media is successfully "
-"verified to be usable, the installer will automatically continue to the next "
-"screen."
+#, no-wrap
+msgid "After the media check runs to completion and the media is successfully verified to be usable, the installer will automatically continue to the next screen.\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '1. '
 #: ../src/docs/guides/8_6_installation.md:87
+#: ../src/docs/guides/installation.md:89
 #, no-wrap
 msgid "Select the language you want to use to perform the installation in this screen. For this guide, we select *English (United States)*. Then click the <kbd>Continue</kbd> button.\n"
 msgstr ""
@@ -512,31 +495,40 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:91
-msgid ""
-"The *Installation Summary* screen is an all-in-one area where you make the "
-"important decisions about the operating system to be installed."
+#, no-wrap
+msgid "The *Installation Summary* screen is an all-in-one area where you make the important decisions about the operating system to be installed.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:93
 #: ../src/docs/guides/installation.md:95
-msgid "The screen is roughly divided into the following sections:"
+#, no-wrap
+msgid "The screen is roughly divided into the following sections:\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: ../src/docs/guides/8_6_installation.md:97
-msgid ""
-"- *Localization*: (Keyboard, Language Support, and Time & Date)  - "
-"*Software*: (Installation Source and Software Selection)  - *System*: "
-"(Installation Destination and Network & Hostname)"
+#, no-wrap
+msgid "*Localization*: (Keyboard, Language Support, and Time & Date)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/guides/8_6_installation.md:97
+#, no-wrap
+msgid "*Software*: (Installation Source and Software Selection)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/guides/8_6_installation.md:97
+#, no-wrap
+msgid "*System*: (Installation Destination and Network & Hostname)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:99
 #: ../src/docs/guides/installation.md:102
-msgid ""
-"We will delve into each of these sections next and make changes where "
-"necessary."
+#, no-wrap
+msgid "We will delve into each of these sections next and make changes where necessary.\n"
 msgstr ""
 
 #. type: Title ###
@@ -548,9 +540,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:103
-msgid ""
-"This section is used for customizing items related to the locale of the "
-"system. This includes – Keyboard, Language Support, Time and Date."
+#, no-wrap
+msgid "This section is used for customizing items related to the locale of the system. This includes – Keyboard, Language Support, Time and Date.\n"
 msgstr ""
 
 #. type: Title ####
@@ -564,9 +555,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:107
 #: ../src/docs/guides/installation.md:110
-msgid ""
-"On our demo system in this guide, we accept the default value (*English US*) "
-"and make no changes."
+#, no-wrap
+msgid "On our demo system in this guide, we accept the default value (*English US*) and make no changes.\n"
 msgstr ""
 
 #. type: Plain text
@@ -601,10 +591,9 @@ msgstr ""
 msgid "We will accept the default value (**English – United States**) and make no change, click <kbd>Done</kbd>.\n"
 msgstr ""
 
-#. type: Bullet: '* '
+#. type: Title ####
 #: ../src/docs/guides/8_6_installation.md:118
 #: ../src/docs/guides/installation.md:121
-#: ../src/docs/guides/virtualization/vbox-rocky.md:143
 #, no-wrap
 msgid "Time & Date"
 msgstr ""
@@ -632,10 +621,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:127
 #: ../src/docs/guides/installation.md:132
-msgid ""
-"Under the *Software* section of the *Installation Summary* screen, you can "
-"select the installation source as well as additional packages (applications) "
-"that get installed."
+#, no-wrap
+msgid "Under the *Software* section of the *Installation Summary* screen, you can select the installation source as well as additional packages (applications) that get installed.\n"
 msgstr ""
 
 #. type: Title ####
@@ -647,11 +634,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:131
-msgid ""
-"Since we are performing our installation using a full Rocky 8 image, you "
-"will notice that *Local Media* is automatically specified under the "
-"Installation Source section of the main *Installation Summary* screen. We'll "
-"accept the preset defaults."
+#, no-wrap
+msgid "Since we are performing our installation using a full Rocky 8 image, you will notice that *Local Media* is automatically specified under the Installation Source section of the main *Installation Summary* screen. We'll accept the preset defaults.\n"
 msgstr ""
 
 #. type: Plain text
@@ -674,23 +658,28 @@ msgstr ""
 msgid "Clicking the <kbd>Software Selection</kbd> option on the main *Installation Summary* screen presents you with the section of the installation where you can pick the exact software packages that get installed on the system. The software selection area is divided into :\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: ../src/docs/guides/8_6_installation.md:142
-msgid ""
-"- *Base Environment* : Server, Minimal Install, Custom Operating System - "
-"*Additional software for Selected Environment area* : Selecting a Base "
-"Environment on the left side presents a variety of related additional "
-"software that can be installed for the given environment on the right side."
+#, no-wrap
+msgid "*Base Environment* : Server, Minimal Install, Custom Operating System\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/guides/8_6_installation.md:142
+#, no-wrap
+msgid "*Additional software for Selected Environment area* : Selecting a Base Environment on the left side presents a variety of related additional software that can be installed for the given environment on the right side.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:144
-msgid "Select the *Minimal Install* (Basic functionality) option instead."
+#, no-wrap
+msgid "Select the *Minimal Install* (Basic functionality) option instead.\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '1. '
 #: ../src/docs/guides/8_6_installation.md:146
 #: ../src/docs/guides/installation.md:151
+#: ../src/docs/guides/installation.md:167
 #, no-wrap
 msgid "Click <kbd>Done</kbd> at the top of the screen.\n"
 msgstr ""
@@ -704,17 +693,13 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:150
-msgid ""
-"The System section of the *Installation Summary* screen is used for "
-"customizing and making changes to the underlying hardware of the target "
-"system. This is where you create your hard drive partitions or volumes, "
-"specify the file system to be used, and specify the network configuration."
+#, no-wrap
+msgid "The System section of the *Installation Summary* screen is used for customizing and making changes to the underlying hardware of the target system. This is where you create your hard drive partitions or volumes, specify the file system to be used, and specify the network configuration.\n"
 msgstr ""
 
-#. type: Bullet: '* '
+#. type: Title ####
 #: ../src/docs/guides/8_6_installation.md:151
 #: ../src/docs/guides/installation.md:156
-#: ../src/docs/guides/virtualization/vbox-rocky.md:143
 #, no-wrap
 msgid "Installation Destination"
 msgstr ""
@@ -728,13 +713,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:156
-msgid ""
-"You will see a screen displaying all the candidate disk drives that you have "
-"available on the target system. If you have only one disk drive on the "
-"system, as on our sample system, you will see the drive listed under *Local "
-"Standard Disks* with a check mark beside it. Clicking the disk icon will "
-"toggle on or off the disk selection check mark. We want it selected/checked "
-"here."
+#, no-wrap
+msgid "You will see a screen displaying all the candidate disk drives that you have available on the target system. If you have only one disk drive on the system, as on our sample system, you will see the drive listed under *Local Standard Disks* with a check mark beside it. Clicking the disk icon will toggle on or off the disk selection check mark. We want it selected/checked here.\n"
 msgstr ""
 
 #. type: Plain text
@@ -751,14 +731,12 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:162
-msgid ""
-"Once the installer determines that you have a usable disk, you will be "
-"returned to the *Installation Summary* screen."
+#, no-wrap
+msgid "Once the installer determines that you have a usable disk, you will be returned to the *Installation Summary* screen.\n"
 msgstr ""
 
-#. type: Bullet: '* '
+#. type: Title ###
 #: ../src/docs/guides/8_6_installation.md:163
-#: ../src/docs/guides/virtualization/vbox-rocky.md:143
 #, no-wrap
 msgid "Network & Hostname"
 msgstr ""
@@ -766,10 +744,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:166
 #: ../src/docs/guides/installation.md:173
-msgid ""
-"The final task of the installation procedure deals with network "
-"configuration, where you can configure or tweak network-related settings for "
-"the system."
+#, no-wrap
+msgid "The final task of the installation procedure deals with network configuration, where you can configure or tweak network-related settings for the system.\n"
 msgstr ""
 
 #. type: Plain text
@@ -781,10 +757,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:172
 #: ../src/docs/guides/installation.md:179
-msgid ""
-"For each interface, you can either configure it using DHCP or manually set "
-"the IP address. If you choose to configure manually, be sure to have all the "
-"pertinent information ready, such as the IP address, netmask, and so on."
+#, no-wrap
+msgid "For each interface, you can either configure it using DHCP or manually set the IP address. If you choose to configure manually, be sure to have all the pertinent information ready, such as the IP address, netmask, and so on.\n"
 msgstr ""
 
 #. type: Plain text
@@ -802,12 +776,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:180
-msgid ""
-"The next important configuration task is related to the network interfaces "
-"on the system. First, verify that an Ethernet card (or any network card) is "
-"listed in the left pane. Click any of the detected network devices in the "
-"left pane to select it. The configurable properties of the selected network "
-"adapter will appear in the right pane of the screen."
+#, no-wrap
+msgid "The next important configuration task is related to the network interfaces on the system. First, verify that an Ethernet card (or any network card) is listed in the left pane. Click any of the detected network devices in the left pane to select it. The configurable properties of the selected network adapter will appear in the right pane of the screen.\n"
 msgstr ""
 
 #. type: Plain text
@@ -818,10 +788,10 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:187
+#, no-wrap
 msgid ""
-"Make sure the switch of the device you want to configure is flipped to the "
-"`ON` position in the right pane.  We'll accept all the defaults in this "
-"section."
+"Make sure the switch of the device you want to configure is flipped to the `ON` position in the right pane.\n"
+"We'll accept all the defaults in this section.\n"
 msgstr ""
 
 #. type: Plain text
@@ -847,10 +817,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:197
 #: ../src/docs/guides/installation.md:257
-msgid ""
-"Once you are satisfied with your choices for the various installation tasks, "
-"the next phase of the installation process will begin the installation "
-"proper."
+#, no-wrap
+msgid "Once you are satisfied with your choices for the various installation tasks, the next phase of the installation process will begin the installation proper.\n"
 msgstr ""
 
 #. type: Title ###
@@ -863,9 +831,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:201
 #: ../src/docs/guides/installation.md:208
-msgid ""
-"This section can be used for creating a password for the `root` user account "
-"and also for creating new administrative or non-administrative accounts."
+#, no-wrap
+msgid "This section can be used for creating a password for the `root` user account and also for creating new administrative or non-administrative accounts.\n"
 msgstr ""
 
 #. type: Title ###
@@ -876,10 +843,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:205
-msgid ""
-"Click the *Root Password* field under *User Settings* to launch the *Root "
-"Password* task screen. In the *Root Password* text box, set a strong "
-"password for the root user."
+#, no-wrap
+msgid "Click the *Root Password* field under *User Settings* to launch the *Root Password* task screen. In the *Root Password* text box, set a strong password for the root user.\n"
 msgstr ""
 
 #. type: Plain text
@@ -891,11 +856,14 @@ msgstr ""
 #. type: Bullet: '1. '
 #: ../src/docs/guides/8_6_installation.md:211
 #: ../src/docs/guides/installation.md:220
-msgid "Enter the same password again in the *Confirm* text box."
+#, no-wrap
+msgid "Enter the same password again in the *Confirm* text box.\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '1. '
 #: ../src/docs/guides/8_6_installation.md:213
+#: ../src/docs/guides/installation.md:222
+#: ../src/docs/guides/installation.md:253
 #, no-wrap
 msgid "Click <kbd>Done</kbd>.\n"
 msgstr ""
@@ -908,15 +876,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:218
-msgid ""
-"Next click the *User Creation* field under *User Settings* to launch the "
-"*Create User* task screen. This task area allows you to create a privileged "
-"or non-privileged (non-administrative) user account on the system."
+#, no-wrap
+msgid "Next click the *User Creation* field under *User Settings* to launch the *Create User* task screen. This task area allows you to create a privileged or non-privileged (non-administrative) user account on the system.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:220
-msgid "!!! Info"
+#, no-wrap
+msgid "!!! Info\n"
 msgstr ""
 
 #. type: Plain text
@@ -927,9 +894,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:224
-msgid ""
-"We’ll create a regular user that can invoke superuser (administrator) "
-"powers, the same as the root user, when needed."
+#, no-wrap
+msgid "We’ll create a regular user that can invoke superuser (administrator) powers, the same as the root user, when needed.\n"
 msgstr ""
 
 #. type: Plain text
@@ -995,14 +961,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:248
-msgid ""
-"Once you are satisfied with your choices for the various installation tasks, "
-"click the Begin Installation button on the main *Installation Summary* "
-"screen. The installation will begin, and the installer will show the "
-"progress of the installation. When the installation begins, various tasks "
-"will begin running in the background, such as partitioning the disk, "
-"formatting the partitions or LVM volumes, checking for and resolving "
-"software dependencies, writing the operating system to the disk, and so on."
+#, no-wrap
+msgid "Once you are satisfied with your choices for the various installation tasks, click the Begin Installation button on the main *Installation Summary* screen. The installation will begin, and the installer will show the progress of the installation. When the installation begins, various tasks will begin running in the background, such as partitioning the disk, formatting the partitions or LVM volumes, checking for and resolving software dependencies, writing the operating system to the disk, and so on.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1021,10 +981,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:256
-msgid ""
-"After you have completed all of the mandatory subtasks, and the installer "
-"has run its course, you will be presented with a final installation progress "
-"screen with a complete message."
+#, no-wrap
+msgid "After you have completed all of the mandatory subtasks, and the installer has run its course, you will be presented with a final installation progress screen with a complete message.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1043,14 +1001,14 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:262
 #: ../src/docs/guides/installation.md:278
-msgid ""
-"The system is now set up and ready for use. You will see the Rocky Linux "
-"console."
+#, no-wrap
+msgid "The system is now set up and ready for use. You will see the Rocky Linux console.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:264
-msgid "![Rocky Linux Welcome Screen](images/installation_8_F02.png)"
+#, no-wrap
+msgid "![Rocky Linux Welcome Screen](images/installation_8_F02.png)\n"
 msgstr ""
 
 #. type: Plain text
@@ -1059,20 +1017,21 @@ msgstr ""
 msgid "To log onto the system, type `rockstar` at the login prompt and press <kbd>Enter</kbd>.\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '1. '
 #: ../src/docs/guides/8_6_installation.md:268
+#: ../src/docs/guides/installation.md:286
 #, no-wrap
 msgid "At the Password prompt, type `04302021` (rockstar’s password) and press <kbd>Enter</kbd> (the password will ***not*** be echoed to the screen, that is normal).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:270
-msgid ""
-"We will run the `whoami` command after login, this command shows the name of "
-"the currently logged in user."
+#, no-wrap
+msgid "We will run the `whoami` command after login, this command shows the name of the currently logged in user.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/8_6_installation.md:271
-msgid "![Login Screen](images/installation-F06.png)"
+#, no-wrap
+msgid "![Login Screen](images/installation-F06.png)\n"
 msgstr ""

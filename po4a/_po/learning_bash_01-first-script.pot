@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -154,7 +154,8 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:394
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:154
 #: ../src/docs/guides/web/php.md:255
-msgid "Example:"
+#, no-wrap
+msgid "Example:\n"
 msgstr ""
 
 #. type: Plain text
@@ -187,7 +188,8 @@ msgstr ""
 #: ../src/docs/guides/proxies/pound.md:62
 #: ../src/docs/guides/proxies/pound.md:418 ../src/docs/index.md:40
 #: ../src/docs/release_notes/9_1.md:16
-msgid "!!! note"
+#, no-wrap
+msgid "!!! note\n"
 msgstr ""
 
 #. type: YAML Front Matter: tags
@@ -306,7 +308,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/01-first-script.md:15
-msgid "In this chapter you will learn how to write your first script in bash."
+#, no-wrap
+msgid "In this chapter you will learn how to write your first script in bash.\n"
 msgstr ""
 
 #. type: Plain text
@@ -329,7 +332,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/01-first-script.md:25
-msgid ":checkered_flag: **linux**, **script**, **bash**"
+#, no-wrap
+msgid ":checkered_flag: **linux**, **script**, **bash**\n"
 msgstr ""
 
 #. type: Plain text
@@ -348,34 +352,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/01-first-script.md:36
-msgid ""
-"To start writing a shell script, it is convenient to use a text editor that "
-"supports syntax highlighting."
+#, no-wrap
+msgid "To start writing a shell script, it is convenient to use a text editor that supports syntax highlighting.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/01-first-script.md:38
-msgid "`vim`, for example, is a good tool for this."
+#, no-wrap
+msgid "`vim`, for example, is a good tool for this.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/01-first-script.md:40
-msgid "The name of the script should respect some rules:"
+#, no-wrap
+msgid "The name of the script should respect some rules:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_bash/01-first-script.md:44
-msgid "no names of existing commands;"
+#, no-wrap
+msgid "no names of existing commands;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_bash/01-first-script.md:44
-msgid "only alphanumeric characters, i.e. no accented characters or spaces;"
+#, no-wrap
+msgid "only alphanumeric characters, i.e. no accented characters or spaces;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_bash/01-first-script.md:44
-msgid "extension .sh to indicate that it is a shell script."
+#, no-wrap
+msgid "extension .sh to indicate that it is a shell script.\n"
 msgstr ""
 
 #. type: Plain text
@@ -401,7 +409,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/01-first-script.md:62
-msgid "To be able to run this script, as an argument to bash:"
+#, no-wrap
+msgid "To be able to run this script, as an argument to bash:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -414,7 +423,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/01-first-script.md:69
-msgid "Or, more simply, after having given it the right to execute:"
+#, no-wrap
+msgid "Or, more simply, after having given it the right to execute:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -442,10 +452,10 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/01-first-script.md:85
+#, no-wrap
 msgid ""
-"The first line to be written in any script is to indicate the name of the "
-"shell binary to be used to execute it.  If you want to use the `ksh` shell "
-"or the interpreted language `python`, you would replace the line:"
+"The first line to be written in any script is to indicate the name of the shell binary to be used to execute it.\n"
+"If you want to use the `ksh` shell or the interpreted language `python`, you would replace the line:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -456,7 +466,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/01-first-script.md:91
-msgid "with :"
+#, no-wrap
+msgid "with :\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -467,7 +478,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/01-first-script.md:97
-msgid "or with :"
+#, no-wrap
+msgid "or with :\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -478,14 +490,16 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/01-first-script.md:104
+#, no-wrap
 msgid ""
-"This first line is called the `shebang`.  It starts with the characters `#!` "
-"followed by the path to the binary of the command interpreter to use."
+"This first line is called the `shebang`.\n"
+"It starts with the characters `#!` followed by the path to the binary of the command interpreter to use.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/01-first-script.md:106
-msgid "!!! hint \"About the shebang\""
+#, no-wrap
+msgid "!!! hint \"About the shebang\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -502,28 +516,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/01-first-script.md:112
-msgid ""
-"Throughout the writing process, you should think about proofreading the "
-"script, using comments in particular:"
+#, no-wrap
+msgid "Throughout the writing process, you should think about proofreading the script, using comments in particular:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_bash/01-first-script.md:115
-msgid ""
-"a general presentation, at the beginning, to indicate the purpose of the "
-"script, its author, its version, its use, etc."
+#, no-wrap
+msgid "a general presentation, at the beginning, to indicate the purpose of the script, its author, its version, its use, etc.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_bash/01-first-script.md:115
-msgid "during the text to help understand the actions."
+#, no-wrap
+msgid "during the text to help understand the actions.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/01-first-script.md:117
-msgid ""
-"Comments can be placed on a separate line or at the end of a line containing "
-"a command."
+#, no-wrap
+msgid "Comments can be placed on a separate line or at the end of a line containing a command.\n"
 msgstr ""
 
 #. type: Fenced code block

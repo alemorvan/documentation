@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -47,7 +47,8 @@ msgstr ""
 #: ../src/docs/guides/proxies/pound.md:62
 #: ../src/docs/guides/proxies/pound.md:418 ../src/docs/index.md:40
 #: ../src/docs/release_notes/9_1.md:16
-msgid "!!! note"
+#, no-wrap
+msgid "!!! note\n"
 msgstr ""
 
 #. type: Title ##
@@ -76,25 +77,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/index.md:10
-msgid ""
-"You've found us! Welcome to the documentation hub for Rocky Linux; we are "
-"glad you're here. We have several contributors adding content, and that "
-"content is growing all the time. Here you will find documents on how to "
-"build Rocky Linux itself, as well as documents on various subjects that are "
-"important to the Rocky Linux community. Who makes up that community you ask?"
+#, no-wrap
+msgid "You've found us! Welcome to the documentation hub for Rocky Linux; we are glad you're here. We have several contributors adding content, and that content is growing all the time. Here you will find documents on how to build Rocky Linux itself, as well as documents on various subjects that are important to the Rocky Linux community. Who makes up that community you ask?\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/index.md:12
-msgid "Well actually, you do."
+#, no-wrap
+msgid "Well actually, you do.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/index.md:14
-msgid ""
-"This home page will give you an introduction to the documentation website "
-"and how to find your way around — we're confident that you will feel right "
-"at home."
+#, no-wrap
+msgid "This home page will give you an introduction to the documentation website and how to find your way around — we're confident that you will feel right at home.\n"
 msgstr ""
 
 #. type: Title ##
@@ -111,13 +107,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/index.md:20
-msgid ""
-"Now, you are on the home page of the documentation. If you glance at the top "
-"menu (which is always available, including on mobile devices) you can see "
-"the main structure showing the top-level sections of the documentation site. "
-"If you click on each top menu item (try 'Guides' for example) then on the "
-"left side, you will see the list of *sub-sections* for each main section. "
-"Guides has many topics of interest."
+#, no-wrap
+msgid "Now, you are on the home page of the documentation. If you glance at the top menu (which is always available, including on mobile devices) you can see the main structure showing the top-level sections of the documentation site. If you click on each top menu item (try 'Guides' for example) then on the left side, you will see the list of *sub-sections* for each main section. Guides has many topics of interest.\n"
 msgstr ""
 
 #. type: Plain text
@@ -128,40 +119,44 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/index.md:24
-msgid "The main sections of the documentation site are:"
+#, no-wrap
+msgid "The main sections of the documentation site are:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/index.md:31
-msgid "**Guides**: which cover specific ways to set up and use Rocky Linux."
+#, no-wrap
+msgid "**Guides**: which cover specific ways to set up and use Rocky Linux.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/index.md:31
-msgid "**Books**: are more detailed information based around a specific area."
+#, no-wrap
+msgid "**Books**: are more detailed information based around a specific area.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/index.md:31
-msgid ""
-"**Labs**: it is 'back to school', but these tutorials you will enjoy doing!"
+#, no-wrap
+msgid "**Labs**: it is 'back to school', but these tutorials you will enjoy doing!\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/index.md:31
-msgid "**Gemstones**: share some common script or command usage tips here."
+#, no-wrap
+msgid "**Gemstones**: share some common script or command usage tips here.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/index.md:31
-msgid ""
-"**Release Notes**: covers Rocky Linux release notes and version update "
-"information."
+#, no-wrap
+msgid "**Release Notes**: covers Rocky Linux release notes and version update information.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/index.md:31
-msgid "**Rocky Linux**: official website home page jump link."
+#, no-wrap
+msgid "**Rocky Linux**: official website home page jump link.\n"
 msgstr ""
 
 #. type: Title ###
@@ -172,31 +167,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/index.md:35
-msgid ""
-"Not everyone has English as their first language! At Rocky Linux we want to "
-"make the documentation site as accessible as possible to everyone — "
-"*translation into different languages is an important part of that*. If you "
-"click on the (common symbol) language selector on the top menu you will see "
-"the languages the website is available in. There are two parts to this:"
+#, no-wrap
+msgid "Not everyone has English as their first language! At Rocky Linux we want to make the documentation site as accessible as possible to everyone —  *translation into different languages is an important part of that*. If you click on the (common symbol) language selector on the top menu you will see the languages the website is available in. There are two parts to this:\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/index.md:38
-msgid ""
-"Website interface localisation: if you choose another language, for example "
-"Français, you will note that the interface, for example the 'Next' and "
-"'Previous' navigators, will be localised."
+#, no-wrap
+msgid "Website interface localisation: if you choose another language, for example Français, you will note that the interface, for example the 'Next' and 'Previous' navigators, will be localised.\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/index.md:38
-msgid ""
-"Content: translating content is an ongoing (significant) task. Not all "
-"content is translated into all languages yet. Any pages that have been "
-"translated (into the language selected) will be seen in the chosen language, "
-"those that have not will fall back to the default language English. If you "
-"want to contribute to the community through translations the documentation "
-"team would love to hear from you — see below for details."
+#, no-wrap
+msgid "Content: translating content is an ongoing (significant) task. Not all content is translated into all languages yet. Any pages that have been translated (into the language selected) will be seen in the chosen language, those that have not will fall back to the default language English. If you want to contribute to the community through translations the documentation team would love to hear from you — see below for details.\n"
 msgstr ""
 
 #. type: Plain text
@@ -213,18 +197,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/index.md:46
-msgid ""
-"If you want to quickly find specific information or documents, the "
-"documentation site has full-text search capability. Start typing in the "
-"'Search' entry field in the top menu bar and the site will return drill down "
-"search results."
+#, no-wrap
+msgid "If you want to quickly find specific information or documents, the documentation site has full-text search capability. Start typing in the 'Search' entry field in the top menu bar and the site will return drill down search results.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/index.md:48
-msgid ""
-"To open a page in the search results click (or tap on mobile) on the desired "
-"page in the list displayed."
+#, no-wrap
+msgid "To open a page in the search results click (or tap on mobile) on the desired page in the list displayed.\n"
 msgstr ""
 
 #. type: Title ##
@@ -235,29 +215,18 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/index.md:52
-msgid ""
-"If this is your first time visiting the Rocky Linux Documentation site then "
-"likely you are new to Rocky Linux and you are itching to install it! No "
-"problem, jump on over to the [Installing Rocky Linux](guides/installation."
-"md) page for detailed instructions."
+#, no-wrap
+msgid "If this is your first time visiting the Rocky Linux Documentation site then likely you are new to Rocky Linux and you are itching to install it! No problem, jump on over to the [Installing Rocky Linux](guides/installation.md) page for detailed instructions.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/index.md:54
-msgid ""
-"If you get stuck and have a question the Rocky Linux community is there to "
-"help. Visit the [community forum](https://forums.rockylinux.org) and you can "
-"search for solutions or post your own questions to the community."
+#, no-wrap
+msgid "If you get stuck and have a question the Rocky Linux community is there to help. Visit the [community forum](https://forums.rockylinux.org) and you can search for solutions or post your own questions to the community.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/index.md:57
-msgid ""
-"Did you find something missing? Did you find an error? Are you wondering how "
-"to create a document of your own, or how to fix things here? Remember how we "
-"said that *you* were the Rocky community? That means that *you* are "
-"important to us and we want you to join us, if you like, and help make this "
-"documentation better. If you are interested in this, head over to our "
-"[Contribution Guide](https://github.com/rocky-linux/documentation/blob/main/"
-"README.md) to find out how you can do that!"
+#, no-wrap
+msgid "Did you find something missing? Did you find an error? Are you wondering how to create a document of your own, or how to fix things here? Remember how we said that *you* were the Rocky community? That means that *you* are important to us and we want you to join us, if you like, and help make this documentation better. If you are interested in this, head over to our [Contribution Guide](https://github.com/rocky-linux/documentation/blob/main/README.md) to find out how you can do that!\n"
 msgstr ""

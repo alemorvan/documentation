@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -126,10 +126,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/additional_software.md:14
-msgid ""
-"There are several pieces of additional software that, while not required, "
-"will aid in the overall use of NvChad. The sections below will walk you "
-"through that software and its uses."
+#, no-wrap
+msgid "There are several pieces of additional software that, while not required, will aid in the overall use of NvChad. The sections below will walk you through that software and its uses.\n"
 msgstr ""
 
 #. type: Title ##
@@ -140,12 +138,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/additional_software.md:18
-msgid ""
-"`ripgrep` is a line-oriented search tool that recursively searches the "
-"current directory for a _regex_ (regular expression) pattern. By default, "
-"_ripgrep_ respects the rules of _gitignore_ and automatically skips hidden "
-"files/directories and binaries. Ripgrep offers excellent support on Windows, "
-"macOS and Linux, with binaries available for each release."
+#, no-wrap
+msgid "`ripgrep` is a line-oriented search tool that recursively searches the current directory for a _regex_ (regular expression) pattern. By default, _ripgrep_ respects the rules of _gitignore_ and automatically skips hidden files/directories and binaries. Ripgrep offers excellent support on Windows, macOS and Linux, with binaries available for each release.\n"
 msgstr ""
 
 #. type: Title ###
@@ -156,10 +150,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/additional_software.md:22
-msgid ""
-"In both Rocky Linux 8 and 9, you can install RipGrep from the EPEL. To do "
-"this, install the `epel-release,` upgrade the system, and then install "
-"`ripgrep.`:"
+#, no-wrap
+msgid "In both Rocky Linux 8 and 9, you can install RipGrep from the EPEL. To do this, install the `epel-release,` upgrade the system, and then install `ripgrep.`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -179,11 +171,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/additional_software.md:32
-msgid ""
-"Ripgrep is software written in _Rust_ and is installable with the `cargo` "
-"utility. Note, however, that `cargo` is not installed by the default "
-"installation of _rust_ so you have to install it explicitly. If you run into "
-"errors using this method, revert back to installing from the EPEL."
+#, no-wrap
+msgid "Ripgrep is software written in _Rust_ and is installable with the `cargo` utility. Note, however, that `cargo` is not installed by the default installation of _rust_ so you have to install it explicitly. If you run into errors using this method, revert back to installing from the EPEL.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -194,8 +183,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/additional_software.md:38
-msgid ""
-"Once the necessary software is installed, we can install `ripgrep` with:"
+#, no-wrap
+msgid "Once the necessary software is installed, we can install `ripgrep` with:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -206,10 +195,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/additional_software.md:44
-msgid ""
-"The installation will save the `rg` executable in the `~/.cargo/bin` folder "
-"which is outside the PATH, to use it at the user level we will link it to "
-"`~/.local/bin/`."
+#, no-wrap
+msgid "The installation will save the `rg` executable in the `~/.cargo/bin` folder which is outside the PATH, to use it at the user level we will link it to `~/.local/bin/`.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -226,7 +213,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/additional_software.md:52
-msgid "At this point we can check that everything is okay with:"
+#, no-wrap
+msgid "At this point we can check that everything is okay with:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -241,7 +229,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/additional_software.md:61
-msgid "RipGrep is needed for recursive searches with `:Telescope`."
+#, no-wrap
+msgid "RipGrep is needed for recursive searches with `:Telescope`.\n"
 msgstr ""
 
 #. type: Title ##
@@ -252,21 +241,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/additional_software.md:65
-msgid ""
-"[LazyGit](https://github.com/jesseduffield/lazygit) is an ncurses-style "
-"interface that allows you to perform all `git` operations in a more user-"
-"friendly way. It is required by the _lazygit.nvim_ plugin. This plugin makes "
-"it possible to use LazyGit directly from NvChad, it opens a floating window "
-"from where you can perform all operations on your repositories, thus "
-"allowing you to make all changes to the _git repository_ without leaving the "
-"editor."
+#, no-wrap
+msgid "[LazyGit](https://github.com/jesseduffield/lazygit) is an ncurses-style interface that allows you to perform all `git` operations in a more user-friendly way. It is required by the _lazygit.nvim_ plugin. This plugin makes it possible to use LazyGit directly from NvChad, it opens a floating window from where you can perform all operations on your repositories, thus allowing you to make all changes to the _git repository_ without leaving the editor.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/additional_software.md:67
-msgid ""
-"To install it we can use the repository for Fedora. On Rocky Linux 9 it "
-"works perfectly."
+#, no-wrap
+msgid "To install it we can use the repository for Fedora. On Rocky Linux 9 it works perfectly.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -279,14 +261,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/additional_software.md:74
-msgid ""
-"Once installed we open a terminal and type the command `lazygit` and an "
-"interface similar to this will appear:"
+#, no-wrap
+msgid "Once installed we open a terminal and type the command `lazygit` and an interface similar to this will appear: \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/additional_software.md:76
-msgid "![LazyGit UI](images/lazygit_ui.png)"
+#, no-wrap
+msgid "![LazyGit UI](images/lazygit_ui.png)\n"
 msgstr ""
 
 #. type: Plain text
@@ -297,13 +279,12 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/additional_software.md:80
-msgid "![LazyGit UI](images/lazygit_menu.png)"
+#, no-wrap
+msgid "![LazyGit UI](images/lazygit_menu.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/nvchad/additional_software.md:81
-msgid ""
-"Now that we have all the necessary supporting software on our system we can "
-"move on to installing the basic software. We will start with the editor on "
-"which the whole configuration is based, [Neovim](install_nvim.md)."
+#, no-wrap
+msgid "Now that we have all the necessary supporting software on our system we can move on to installing the basic software. We will start with the editor on which the whole configuration is based, [Neovim](install_nvim.md).\n"
 msgstr ""

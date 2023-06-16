@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -148,27 +148,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/dnf-swap.md:21
-msgid ""
-"In order to make container images and cloud images as small as possible, "
-"distribution maintainers and packagers may sometimes ship stripped down "
-"versions of popular packages. Examples of stripped down packages bundled "
-"with container or cloud images are **vim-minimal, curl-minimal, coreutils-"
-"single** and so on."
+#, no-wrap
+msgid "In order to make container images and cloud images as small as possible, distribution maintainers and packagers may sometimes ship stripped down versions of popular packages. Examples of stripped down packages bundled with container or cloud images are **vim-minimal, curl-minimal, coreutils-single** and so on.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/dnf-swap.md:23
-msgid ""
-"Although some of the shipped packages are stripped down versions, they are "
-"often fully acceptable for most use cases."
+#, no-wrap
+msgid "Although some of the shipped packages are stripped down versions, they are often fully acceptable for most use cases.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/dnf-swap.md:25
-msgid ""
-"For cases, when the stripped down package is not enough, you can use the "
-"`dnf swap` command to quickly replace the minimal package with the regular "
-"package."
+#, no-wrap
+msgid "For cases, when the stripped down package is not enough, you can use the `dnf swap` command to quickly replace the minimal package with the regular package.\n"
 msgstr ""
 
 #. type: Title #
@@ -179,9 +172,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/dnf-swap.md:29
-msgid ""
-"This Rocky Linux GEMstone demonstrates how to use **dnf** to _swap_ the "
-"bundled `curl-minimal` package with the regular `curl` package."
+#, no-wrap
+msgid "This Rocky Linux GEMstone demonstrates how to use **dnf** to _swap_ the bundled `curl-minimal` package with the regular `curl` package.\n"
 msgstr ""
 
 #. type: Title ##
@@ -192,10 +184,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/dnf-swap.md:34
-msgid ""
-"While logged into your container or virtual machine environment as a user "
-"with Administrative privileges, first verify the variant of `curl` package "
-"installed. Type:"
+#, no-wrap
+msgid "While logged into your container or virtual machine environment as a user with Administrative privileges, first verify the variant of `curl` package installed. Type:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -208,7 +198,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/dnf-swap.md:41
-msgid "We have curl-minimal on our demo system!"
+#, no-wrap
+msgid "We have curl-minimal on our demo system!\n"
 msgstr ""
 
 #. type: Title ##
@@ -219,9 +210,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/dnf-swap.md:46
-msgid ""
-"Use `dnf` to swap the installed `curl-minimal` package with regular `curl` "
-"package."
+#, no-wrap
+msgid "Use `dnf` to swap the installed `curl-minimal` package with regular `curl` package.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -240,9 +230,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/dnf-swap.md:55
-msgid ""
-"To confirm the changes, query the rpm database again for the installed curl "
-"package(s) by running:"
+#, no-wrap
+msgid "To confirm the changes, query the rpm database again for the installed curl package(s) by running:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -255,7 +244,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/dnf-swap.md:63
-msgid "And it's a GEM !"
+#, no-wrap
+msgid "And it's a GEM !\n"
 msgstr ""
 
 #. type: Title ##
@@ -268,7 +258,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/dnf-swap.md:68
-msgid "DNF Swap Command"
+#, no-wrap
+msgid "DNF Swap Command\n"
 msgstr ""
 
 #. type: Plain text
@@ -285,10 +276,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/dnf-swap.md:76
-msgid ""
-"Under the hood, `dnf swap` uses DNF's `--allowerasing` option to resolve any "
-"package conflict issues. Therefore the curl minimal example demonstrated in "
-"this GEMstone could also have been done by running:"
+#, no-wrap
+msgid "Under the hood, `dnf swap` uses DNF's `--allowerasing` option to resolve any package conflict issues. Therefore the curl minimal example demonstrated in this GEMstone could also have been done by running:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -143,7 +143,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -170,7 +169,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Title ##
@@ -412,47 +412,50 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/editors/micro.md:24
-msgid ""
-"All of your usual “Control-C”, ”Control-V”, and “Control-F” commands work as "
-"they would in a desktop-based text editor. All keybindings can be re-bound, "
-"of course."
+#, no-wrap
+msgid "All of your usual “Control-C”, ”Control-V”, and “Control-F” commands work as they would in a desktop-based text editor. All keybindings can be re-bound, of course.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/editors/micro.md:24
-msgid ""
-"Mouse support — click and drag to select text, double-click to select words, "
-"triple-click to select lines."
+#, no-wrap
+msgid "Mouse support — click and drag to select text, double-click to select words, triple-click to select lines.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/editors/micro.md:24
-msgid "Over 75 languages supported with syntax highlighting by default."
+#, no-wrap
+msgid "Over 75 languages supported with syntax highlighting by default.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/editors/micro.md:24
-msgid "Multiple cursors for when you need to edit multiple lines at a time."
+#, no-wrap
+msgid "Multiple cursors for when you need to edit multiple lines at a time.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/editors/micro.md:24
-msgid "Includes a plugin system."
+#, no-wrap
+msgid "Includes a plugin system.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/editors/micro.md:24
-msgid "Multiple panes."
+#, no-wrap
+msgid "Multiple panes.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/editors/micro.md:26
-msgid "And here’s how it looks in my own terminal:"
+#, no-wrap
+msgid "And here’s how it looks in my own terminal:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/editors/micro.md:28
-msgid "![A screenshot of the micro text editor](images/micro-text-editor.png)"
+#, no-wrap
+msgid "![A screenshot of the micro text editor](images/micro-text-editor.png)\n"
 msgstr ""
 
 #. type: Plain text
@@ -463,18 +466,20 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/editors/micro.md:38
-msgid "Any internet-connected Rocky Linux machine or container."
+#, no-wrap
+msgid "Any internet-connected Rocky Linux machine or container.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/editors/micro.md:38
-msgid ""
-"A basic knowledge of the command line, and a desire to edit your text there."
+#, no-wrap
+msgid "A basic knowledge of the command line, and a desire to edit your text there.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/editors/micro.md:38
-msgid "Some commands will need to be run as root, or with `sudo`."
+#, no-wrap
+msgid "Some commands will need to be run as root, or with `sudo`.\n"
 msgstr ""
 
 #. type: Title ###
@@ -485,11 +490,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/editors/micro.md:42
-msgid ""
-"This is maybe the easiest tutorial I’ve written so far, with exactly three "
-"commands. First, you make sure that *tar* and *curl* are installed. This "
-"should only really be relevant if you’re running a minimal install of Rocky, "
-"or running it inside a container."
+#, no-wrap
+msgid "This is maybe the easiest tutorial I’ve written so far, with exactly three commands. First, you make sure that *tar* and *curl* are installed. This should only really be relevant if you’re running a minimal install of Rocky, or running it inside a container.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -500,11 +502,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/editors/micro.md:48
-msgid ""
-"Next, you’ll need the installer from *micro*’s website. The following "
-"command will get the installer, and run it for you in whatever directory "
-"you’re working in. I know we don’t normally advise copying and pasting "
-"commands from websites, but this one has never given me any trouble."
+#, no-wrap
+msgid "Next, you’ll need the installer from *micro*’s website. The following command will get the installer, and run it for you in whatever directory you’re working in. I know we don’t normally advise copying and pasting commands from websites, but this one has never given me any trouble.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -515,11 +514,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/editors/micro.md:54
-msgid ""
-"To install the app system-wide (and so you can just type “micro” to open up "
-"the app), you can run the script as root inside of `/usr/bin/`. However, if "
-"you want to check it out first and be careful about it, you can install the "
-"*micro* to any folder you want, and then move the app later with:"
+#, no-wrap
+msgid "To install the app system-wide (and so you can just type “micro” to open up the app), you can run the script as root inside of `/usr/bin/`. However, if you want to check it out first and be careful about it, you can install the *micro* to any folder you want, and then move the app later with:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -530,7 +526,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/editors/micro.md:60
-msgid "And that’s it! Happy text editing."
+#, no-wrap
+msgid "And that’s it! Happy text editing.\n"
 msgstr ""
 
 #. type: Title ###
@@ -541,11 +538,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/editors/micro.md:64
-msgid ""
-"I created a dead-simple script that basically just runs all of those "
-"commands. You can find it in my [Github gists](https://gist.github.com/"
-"EzequielBruni/0e29f2c0a63500baf6fe9e8c51c7b02f), and either copy/paste the "
-"text to a file on your machine, or download it with `wget`."
+#, no-wrap
+msgid "I created a dead-simple script that basically just runs all of those commands. You can find it in my [Github gists](https://gist.github.com/EzequielBruni/0e29f2c0a63500baf6fe9e8c51c7b02f), and either copy/paste the text to a file on your machine, or download it with `wget`.\n"
 msgstr ""
 
 #. type: Title ##
@@ -556,9 +550,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/editors/micro.md:68
-msgid ""
-"Go to the folder you installed *micro* in and (using your godly root powers "
-"as necessary) run:"
+#, no-wrap
+msgid "Go to the folder you installed *micro* in and (using your godly root powers as necessary) run:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -569,10 +562,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/editors/micro.md:74
-msgid ""
-"Also, *micro* will leave some configuration files in your home directory "
-"(and the home directories of every user who has run it). You can get rid of "
-"those with:"
+#, no-wrap
+msgid "Also, *micro* will leave some configuration files in your home directory (and the home directories of every user who has run it). You can get rid of those with:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -583,11 +574,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/editors/micro.md:82
-msgid ""
-"If you want a full guide to using *micro*, check out the [main website]"
-"(https://micro-editor.github.io), and the documentation in the [Github repo]"
-"(https://github.com/zyedidia/micro/tree/master/runtime/help). You can also "
-"press “Control-G” to open the main help file inside of the app itself."
+#, no-wrap
+msgid "If you want a full guide to using *micro*, check out the [main website](https://micro-editor.github.io), and the documentation in the [Github repo](https://github.com/zyedidia/micro/tree/master/runtime/help). You can also press “Control-G” to open the main help file inside of the app itself.\n"
 msgstr ""
 
 #. type: Plain text
@@ -598,5 +586,6 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/editors/micro.md:85
-msgid "Try it out, see if it works for you."
+#, no-wrap
+msgid "Try it out, see if it works for you.\n"
 msgstr ""

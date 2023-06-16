@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -177,7 +177,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -204,7 +203,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Plain text
@@ -214,7 +214,8 @@ msgstr ""
 #: ../src/docs/books/admin_guide/14-special-authority.md:669
 #: ../src/docs/books/learning_ansible/02-advanced.md:74
 #: ../src/docs/books/learning_ansible/03-working-with-files.md:117
-msgid "For example:"
+#, no-wrap
+msgid "For example:\n"
 msgstr ""
 
 #. type: Title ###
@@ -233,7 +234,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/03-working-with-files.md:8
-msgid "In this chapter you will learn how to manage files with Ansible."
+#, no-wrap
+msgid "In this chapter you will learn how to manage files with Ansible.\n"
 msgstr ""
 
 #. type: Plain text
@@ -247,7 +249,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/03-working-with-files.md:18
-msgid ":checkered_flag: **ansible**, **module**, **files**"
+#, no-wrap
+msgid ":checkered_flag: **ansible**, **module**, **files**\n"
 msgstr ""
 
 #. type: Plain text
@@ -260,9 +263,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/03-working-with-files.md:27
-msgid ""
-"Depending on your needs, you will have to use different Ansible modules to "
-"modify the system configuration files."
+#, no-wrap
+msgid "Depending on your needs, you will have to use different Ansible modules to modify the system configuration files.\n"
 msgstr ""
 
 #. type: Title ##
@@ -273,9 +275,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/03-working-with-files.md:31
-msgid ""
-"When you want to modify an INI file (section between `[]` then `key=value` "
-"pairs), the easiest way is to use the `ini_file` module."
+#, no-wrap
+msgid "When you want to modify an INI file (section between `[]` then `key=value` pairs), the easiest way is to use the `ini_file` module.\n"
 msgstr ""
 
 #. type: Plain text
@@ -286,27 +287,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/03-working-with-files.md:37
-msgid "The module requires:"
+#, no-wrap
+msgid "The module requires:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/03-working-with-files.md:41
-msgid "The value of the section"
+#, no-wrap
+msgid "The value of the section\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/03-working-with-files.md:41
-msgid "The name of the option"
+#, no-wrap
+msgid "The name of the option\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/03-working-with-files.md:41
-msgid "The new value"
+#, no-wrap
+msgid "The new value\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/03-working-with-files.md:43
-msgid "Example of use:"
+#, no-wrap
+msgid "Example of use:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -329,9 +335,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/03-working-with-files.md:56
-msgid ""
-"To ensure that a line is present in a file, or when a single line in a file "
-"needs to be added or modified, use the `linefile` module."
+#, no-wrap
+msgid "To ensure that a line is present in a file, or when a single line in a file needs to be added or modified, use the `linefile` module.\n"
 msgstr ""
 
 #. type: Plain text
@@ -342,15 +347,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/03-working-with-files.md:62
-msgid ""
-"In this case, the line to be modified in a file will be found using a regexp."
+#, no-wrap
+msgid "In this case, the line to be modified in a file will be found using a regexp.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/03-working-with-files.md:64
-msgid ""
-"For example, to ensure that the line starting with `SELINUX=` in the `/etc/"
-"selinux/config` file contains the value `enforcing`:"
+#, no-wrap
+msgid "For example, to ensure that the line starting with `SELINUX=` in the `/etc/selinux/config` file contains the value `enforcing`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -371,9 +375,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/03-working-with-files.md:75
-msgid ""
-"When a file has to be copied from the Ansible server to one or more hosts, "
-"it is better to use the `copy` module."
+#, no-wrap
+msgid "When a file has to be copied from the Ansible server to one or more hosts, it is better to use the `copy` module.\n"
 msgstr ""
 
 #. type: Plain text
@@ -384,7 +387,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/03-working-with-files.md:81
-msgid "Here we are copying `myflile.conf` from one location to another:"
+#, no-wrap
+msgid "Here we are copying `myflile.conf` from one location to another:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -407,9 +411,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/03-working-with-files.md:94
-msgid ""
-"When a file has to be copied from a remote server to the local server, it is "
-"best to use the `fetch` module."
+#, no-wrap
+msgid "When a file has to be copied from a remote server to the local server, it is best to use the `fetch` module.\n"
 msgstr ""
 
 #. type: Plain text
@@ -420,7 +423,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/03-working-with-files.md:100
-msgid "This module does the opposite of the `copy` module:"
+#, no-wrap
+msgid "This module does the opposite of the `copy` module:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -441,9 +445,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/03-working-with-files.md:111
-msgid ""
-"Ansible and its `template` module use the **Jinja2** template system (http://"
-"jinja.pocoo.org/docs/) to generate files on target hosts."
+#, no-wrap
+msgid "Ansible and its `template` module use the **Jinja2** template system (http://jinja.pocoo.org/docs/) to generate files on target hosts.\n"
 msgstr ""
 
 #. type: Plain text
@@ -466,9 +469,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/03-working-with-files.md:128
-msgid ""
-"It is possible to add a validation step if the targeted service allows it "
-"(for example apache with the command `apachectl -t`):"
+#, no-wrap
+msgid "It is possible to add a validation step if the targeted service allows it (for example apache with the command `apachectl -t`):\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -492,9 +494,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/03-working-with-files.md:142
-msgid ""
-"To upload files from a web site or ftp to one or more hosts, use the "
-"`get_url` module:"
+#, no-wrap
+msgid "To upload files from a web site or ftp to one or more hosts, use the `get_url` module:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -510,8 +511,6 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/03-working-with-files.md:151
-msgid ""
-"By providing a checksum of the file, the file will not be re-downloaded if "
-"it is already present at the destination location and its checksum matches "
-"the value provided."
+#, no-wrap
+msgid "By providing a checksum of the file, the file will not be re-downloaded if it is already present at the destination location and its checksum matches the value provided.\n"
 msgstr ""

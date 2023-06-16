@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -143,7 +143,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -170,7 +169,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Title ##
@@ -392,89 +392,74 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:14
-msgid ""
-"There are several ways to run a copy of `mkdocs` so that you can see exactly "
-"how your Rocky Linux document will appear when it is merged on the live "
-"system. This particular document deals with using an LXD container on your "
-"local workstation to separate python code in `mkdocs` from other projects "
-"you might be working on."
+#, no-wrap
+msgid "There are several ways to run a copy of `mkdocs` so that you can see exactly how your Rocky Linux document will appear when it is merged on the live system. This particular document deals with using an LXD container on your local workstation to separate python code in `mkdocs` from other projects you might be working on.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:16
-msgid ""
-"It is recommended to keep projects separate to avoid causing problems with "
-"your workstation's code."
+#, no-wrap
+msgid "It is recommended to keep projects separate to avoid causing problems with your workstation's code.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:18
-msgid ""
-"This is also a partner document to the [Docker version here]"
-"(rockydocs_web_dev.md)."
+#, no-wrap
+msgid "This is also a partner document to the [Docker version here](rockydocs_web_dev.md).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:22
-msgid "A few things you should have/know/be:"
+#, no-wrap
+msgid "A few things you should have/know/be:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:31
-msgid "Familiarity and comfort with the command-line"
+#, no-wrap
+msgid "Familiarity and comfort with the command-line\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:31
-msgid ""
-"Comfortable using tools for editing, SSH, and synchronization, or willing to "
-"follow along and learn"
+#, no-wrap
+msgid "Comfortable using tools for editing, SSH, and synchronization, or willing to follow along and learn\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:31
-msgid ""
-"We will reference LXD - there's a long document on [building and using LXD "
-"on a server here](../../books/lxd_server/00-toc.md), but we will be using "
-"just a basic install on our Linux workstation. This document assumes that "
-"you are already using LXD for other things, and does not cover the build and "
-"initialization of LXD."
+#, no-wrap
+msgid "We will reference LXD - there's a long document on [building and using LXD on a server here](../../books/lxd_server/00-toc.md), but we will be using just a basic install on our Linux workstation. This document assumes that you are already using LXD for other things, and does not cover the build and initialization of LXD.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:31
-msgid ""
-"We will be using `lsyncd` for mirroring files, and you can find "
-"[documentation on that here](../backup/mirroring_lsyncd.md)"
+#, no-wrap
+msgid "We will be using `lsyncd` for mirroring files, and you can find [documentation on that here](../backup/mirroring_lsyncd.md)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:31
-msgid ""
-"You will need public keys generated for your user and the \"root\" user on "
-"your local workstation using [this document](../security/"
-"ssh_public_private_keys.md)"
+#, no-wrap
+msgid "You will need public keys generated for your user and the \"root\" user on your local workstation using [this document](../security/ssh_public_private_keys.md)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:31
-msgid ""
-"Our bridge interface is running on 10.56.233.1 and our container is running "
-"on 10.56.233.189 in our examples below."
+#, no-wrap
+msgid "Our bridge interface is running on 10.56.233.1 and our container is running on 10.56.233.189 in our examples below.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:31
-msgid ""
-"\"youruser\" in this document represents your user id, so substitute in your "
-"own."
+#, no-wrap
+msgid "\"youruser\" in this document represents your user id, so substitute in your own.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:31
-msgid ""
-"We are assuming that you are already doing documentation development with a "
-"clone of the documentation repository on your workstation."
+#, no-wrap
+msgid "We are assuming that you are already doing documentation development with a clone of the documentation repository on your workstation.\n"
 msgstr ""
 
 #. type: Title ##
@@ -491,17 +476,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:37
-msgid ""
-"Our first step is to create the LXD container. There's no need to use "
-"anything other than defaults here, so allow your container to be built using "
-"the bridge interface."
+#, no-wrap
+msgid "Our first step is to create the LXD container. There's no need to use anything other than defaults here, so allow your container to be built using the bridge interface.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:39
-msgid ""
-"We will add a Rocky container to our workstation for `mkdocs`, so we are "
-"just calling it \"mkdocs\":"
+#, no-wrap
+msgid "We will add a Rocky container to our workstation for `mkdocs`, so we are just calling it \"mkdocs\":\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -512,12 +494,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:45
-msgid ""
-"The container needs to be set up with a proxy. By default, when `mkdocs "
-"serve` is started, it runs on 127.0.0.1:8000. That's fine when it is on your "
-"local workstation without a container. However, when it is in an LXD "
-"**container** on your local workstation, you need to set up the container "
-"with a proxy port. This is done with:"
+#, no-wrap
+msgid "The container needs to be set up with a proxy. By default, when `mkdocs serve` is started, it runs on 127.0.0.1:8000. That's fine when it is on your local workstation without a container. However, when it is in an LXD **container** on your local workstation, you need to set up the container with a proxy port. This is done with:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -528,11 +506,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:51
-msgid ""
-"In the line above, \"mkdocs\" is our container name, \"mkdocsport\" is an "
-"arbitrary name we are giving to the proxy port, the type is \"proxy\", and "
-"then we are listening on all tcp interfaces on port 8000 and connecting to "
-"the localhost for that container on port 8000."
+#, no-wrap
+msgid "In the line above, \"mkdocs\" is our container name, \"mkdocsport\" is an arbitrary name we are giving to the proxy port, the type is \"proxy\", and then we are listening on all tcp interfaces on port 8000 and connecting to the localhost for that container on port 8000.\n"
 msgstr ""
 
 #. type: Plain text
@@ -543,7 +518,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:59
-msgid "First, get into the container with:"
+#, no-wrap
+msgid "First, get into the container with:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -554,7 +530,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:65
-msgid "!!! warning \"Changes in requirements.txt for 8.x\""
+#, no-wrap
+msgid "!!! warning \"Changes in requirements.txt for 8.x\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -581,7 +558,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:76
-msgid "We will need a few packages to accomplish what we need to do:"
+#, no-wrap
+msgid "We will need a few packages to accomplish what we need to do:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -592,7 +570,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:82
-msgid "Once installed, we need to enable and start `sshd`:"
+#, no-wrap
+msgid "Once installed, we need to enable and start `sshd`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -609,10 +588,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:89
-msgid ""
-"We need to set a password for our root user, and then add our own user (the "
-"user that you use on your local machine) and add it to the sudoers list. We "
-"should be the \"root\" user at the moment, so to change the password type:"
+#, no-wrap
+msgid "We need to set a password for our root user, and then add our own user (the user that you use on your local machine) and add it to the sudoers list. We should be the \"root\" user at the moment, so to change the password type:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -623,12 +600,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:95
-msgid "And set the password to something secure and memorable."
+#, no-wrap
+msgid "And set the password to something secure and memorable.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:97
-msgid "Next, add your user and set a password:"
+#, no-wrap
+msgid "Next, add your user and set a password:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -641,7 +620,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:104
-msgid "And add your user to the sudoers group:"
+#, no-wrap
+msgid "And add your user to the sudoers group:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -652,10 +632,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:110
-msgid ""
-"At this point, you should be able to SSH into the container using either the "
-"root user or your user from your workstation and entering a password. Make "
-"sure that you can do that before continuing."
+#, no-wrap
+msgid "At this point, you should be able to SSH into the container using either the root user or your user from your workstation and entering a password. Make sure that you can do that before continuing.\n"
 msgstr ""
 
 #. type: Title ##
@@ -666,11 +644,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:114
-msgid ""
-"In this procedure, the root user (at minimum) needs to be able to SSH into "
-"the container without entering a password; this is because of the `lsyncd` "
-"process we will be implementing. We are assuming here that you can sudo to "
-"the root user on your local workstation:"
+#, no-wrap
+msgid "In this procedure, the root user (at minimum) needs to be able to SSH into the container without entering a password; this is because of the `lsyncd` process we will be implementing. We are assuming here that you can sudo to the root user on your local workstation:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -682,10 +657,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:120
-msgid ""
-"We are also assuming that the root user has an `id_rsa.pub` key in the `./"
-"ssh` directory. If not, generate one using [this procedure](../security/"
-"ssh_public_private_keys.md):"
+#, no-wrap
+msgid "We are also assuming that the root user has an `id_rsa.pub` key in the `./ssh` directory. If not, generate one using [this procedure](../security/ssh_public_private_keys.md):\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -702,10 +675,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:131
-msgid ""
-"To get SSH access on our container without having to enter a password, as "
-"long as the `id_rsa.pub` key exists, like it does above, all we need to do "
-"is run:"
+#, no-wrap
+msgid "To get SSH access on our container without having to enter a password, as long as the `id_rsa.pub` key exists, like it does above, all we need to do is run:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -716,17 +687,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:137
-msgid ""
-"In the case of our user, however, we need the entire .ssh/ directory copied "
-"to our container. The reason is that we are going to be keeping everything "
-"identical for this user so that our access to GitHub over SSH is the same."
+#, no-wrap
+msgid "In the case of our user, however, we need the entire .ssh/ directory copied to our container. The reason is that we are going to be keeping everything identical for this user so that our access to GitHub over SSH is the same.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:139
-msgid ""
-"To copy everything over to our container, we just need to do this as your "
-"user, **not** sudo:"
+#, no-wrap
+msgid "To copy everything over to our container, we just need to do this as your user, **not** sudo:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -737,7 +705,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:145
-msgid "Next, SSH into the container as your user:"
+#, no-wrap
+msgid "Next, SSH into the container as your user:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -748,10 +717,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:151
-msgid ""
-"We need to make things identical, and this is done with `ssh-add`. To do "
-"this, though, we need to make sure that we have the `ssh-agent` available. "
-"Enter the following:"
+#, no-wrap
+msgid "We need to make things identical, and this is done with `ssh-add`. To do this, though, we need to make sure that we have the `ssh-agent` available. Enter the following:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -770,26 +737,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:160
-msgid ""
-"We need two repositories cloned, but there is no need to add any `git` "
-"remotes. The documentation repository here will only be used to display the "
-"current documentation (mirrored from your workstation) and the docs."
+#, no-wrap
+msgid "We need two repositories cloned, but there is no need to add any `git` remotes. The documentation repository here will only be used to display the current documentation (mirrored from your workstation) and the docs.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:162
-msgid ""
-"The rockylinux.org repository will be used for running `mkdocs serve` and "
-"will use the mirror as it's source. All of these steps should be done as "
-"your non-root user. If you are not able to clone the repositories as your "
-"userid, then there **IS** a problem with your identity as far as `git` is "
-"concerned and you will need to review the last few steps for re-creating "
-"your key environment (above)."
+#, no-wrap
+msgid "The rockylinux.org repository will be used for running `mkdocs serve` and will use the mirror as it's source. All of these steps should be done as your non-root user. If you are not able to clone the repositories as your userid, then there **IS** a problem with your identity as far as `git` is concerned and you will need to review the last few steps for re-creating your key environment (above).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:164
-msgid "First, clone the documentation:"
+#, no-wrap
+msgid "First, clone the documentation:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -800,7 +761,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:170
-msgid "Assuming that worked, then clone the docs.rockylinux.org:"
+#, no-wrap
+msgid "Assuming that worked, then clone the docs.rockylinux.org:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -811,7 +773,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:176
-msgid "If everything worked as planned, then you can move on."
+#, no-wrap
+msgid "If everything worked as planned, then you can move on.\n"
 msgstr ""
 
 #. type: Title ##
@@ -822,26 +785,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:180
-msgid ""
-"Installing the needed plugins is all done with `pip3` and the \"requirements."
-"txt\" file in the docs.rockylinux.org directory. While this process will "
-"argue with you about using the root user for this, in order to write the "
-"changes to the system directories, you pretty much have to run it as root."
+#, no-wrap
+msgid "Installing the needed plugins is all done with `pip3` and the \"requirements.txt\" file in the docs.rockylinux.org directory. While this process will argue with you about using the root user for this, in order to write the changes to the system directories, you pretty much have to run it as root.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:182
-msgid "We are doing this with `sudo` here."
+#, no-wrap
+msgid "We are doing this with `sudo` here.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:184
-msgid "Change into the directory:"
+#, no-wrap
+msgid "Change into the directory:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:190
-msgid "Then run:"
+#, no-wrap
+msgid "Then run:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -852,10 +815,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:196
-msgid ""
-"Next we need to set up `mkdocs` with an additional directory. Right now, "
-"`mkdocs` requires a docs directory to be created and then the documentation/"
-"docs directory linked beneath it. All this is done with:"
+#, no-wrap
+msgid "Next we need to set up `mkdocs` with an additional directory. Right now, `mkdocs` requires a docs directory to be created and then the documentation/docs directory linked beneath it. All this is done with:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -875,10 +836,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:205
-msgid ""
-"Now that we have `mkdocs` setup, let's try starting the server. Remember, "
-"this process is going to argue that it looks like this is production. It's "
-"not, so ignore the warning. Start `mkdocs serve` with:"
+#, no-wrap
+msgid "Now that we have `mkdocs` setup, let's try starting the server. Remember, this process is going to argue that it looks like this is production. It's not, so ignore the warning. Start `mkdocs serve` with:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -889,7 +848,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:211
-msgid "You should see something like this in the console:"
+#, no-wrap
+msgid "You should see something like this in the console:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -922,18 +882,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:238
-msgid ""
-"Now for the moment of truth! If you've done everything correctly above, you "
-"should be able to open a web browser and go to the IP of your container on "
-"port :8000, and see the documentation site."
+#, no-wrap
+msgid "Now for the moment of truth!  If you've done everything correctly above, you should be able to open a web browser and go to the IP of your container on port :8000, and see the documentation site.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:240
-msgid ""
-"In our example, we would enter the following in the browser address "
-"(**NOTE** To avoid broken URLs, the IP here has been changed to \"your-"
-"server-ip\". You just need to substitute in the IP):"
+#, no-wrap
+msgid "In our example, we would enter the following in the browser address (**NOTE** To avoid broken URLs, the IP here has been changed to \"your-server-ip\". You just need to substitute in the IP):\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -944,41 +900,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:247
-msgid ""
-"If you saw the documentation in the web browser, we are almost there. The "
-"last step is to keep the documentation that's in your container in "
-"synchronization with the one on your local workstation."
+#, no-wrap
+msgid "If you saw the documentation in the web browser, we are almost there. The last step is to keep the documentation that's in your container in synchronization with the one on your local workstation.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:249
-msgid "We are doing this here with `lsyncd` as noted above."
+#, no-wrap
+msgid "We are doing this here with `lsyncd` as noted above.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:251
-msgid ""
-"Depending on which Linux version you are using, `lsyncd` is installed "
-"differently. [This document](../backup/mirroring_lsyncd.md) covers ways to "
-"install it on Rocky Linux, and also from source. If you are using some of "
-"the other Linux type (Ubuntu for example) they generally have their own "
-"packages, but there are nuances to them."
+#, no-wrap
+msgid "Depending on which Linux version you are using, `lsyncd` is installed differently. [This document](../backup/mirroring_lsyncd.md) covers ways to install it on Rocky Linux, and also from source. If you are using some of the other Linux type (Ubuntu for example) they generally have their own packages, but there are nuances to them.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:253
-msgid ""
-"Ubuntu's, for example, names the configuration file differently. Just be "
-"aware that if you are using another Linux workstation type other than Rocky "
-"Linux, and don't want to install from source, there are probably packages "
-"available for your platform."
+#, no-wrap
+msgid "Ubuntu's, for example, names the configuration file differently. Just be aware that if you are using another Linux workstation type other than Rocky Linux, and don't want to install from source, there are probably packages available for your platform.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:255
-msgid ""
-"For now, we are assuming that you are using a Rocky Linux workstation and "
-"are using the RPM install method from the included document."
+#, no-wrap
+msgid "For now, we are assuming that you are using a Rocky Linux workstation and are using the RPM install method from the included document.\n"
 msgstr ""
 
 #. type: Plain text
@@ -991,7 +938,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:262
-msgid "We need to have some log files available for `lsyncd` to write to:"
+#, no-wrap
+msgid "We need to have some log files available for `lsyncd` to write to:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1004,9 +952,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:269
-msgid ""
-"We also need to have an exclude file created, even though in this case we "
-"are not excluding anything:"
+#, no-wrap
+msgid "We also need to have an exclude file created, even though in this case we are not excluding anything:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1017,10 +964,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:275
-msgid ""
-"Finally we need to create the configuration file. In this example, we are "
-"using `vi` as our editor, but you may use whichever editor you feel "
-"comfortable with:"
+#, no-wrap
+msgid "Finally we need to create the configuration file. In this example, we are using `vi` as our editor, but you may use whichever editor you feel comfortable with:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1031,10 +976,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:281
-msgid ""
-"And then place this content in that file and save it. Be sure to replace "
-"\"youruser\" with your actual user, and the IP address with your own "
-"container IP:"
+#, no-wrap
+msgid "And then place this content in that file and save it. Be sure to replace \"youruser\" with your actual user, and the IP address with your own container IP:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1067,9 +1010,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:308
-msgid ""
-"We are assuming that you enabled `lsyncd` when you installed it, so at this "
-"point we need to just start or restart the process:"
+#, no-wrap
+msgid "We are assuming that you enabled `lsyncd` when you installed it, so at this point we need to just start or restart the process:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1080,10 +1022,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:314
-msgid ""
-"To make sure things are working, check the logs-particularly the `lsyncd."
-"log`, which should show you something like this if everything started "
-"correctly:"
+#, no-wrap
+msgid "To make sure things are working, check the logs-particularly the `lsyncd.log`, which should show you something like this if everything started correctly:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1098,17 +1038,12 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:325
-msgid ""
-"As you work on your workstation documentation now, whether it is a `git "
-"pull` or a branch you create to make a document (like this one!), you will "
-"see the changes appear in your documentation on the container, and `mkdocs "
-"serve` will show you the content in your web browser."
+#, no-wrap
+msgid "As you work on your workstation documentation now, whether it is a `git pull` or a branch you create to make a document (like this one!), you will see the changes appear in your documentation on the container, and `mkdocs serve` will show you the content in your web browser.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/contribute/mkdocs_lsyncd.md:326
-msgid ""
-"It's recommended practice that all Python code should be run separate from "
-"any other Python code you might be developing. LXD containers can make that "
-"a lot easier; give this method a try and see if it works for you."
+#, no-wrap
+msgid "It's recommended practice that all Python code should be run separate from any other Python code you might be developing. LXD containers can make that a lot easier; give this method a try and see if it works for you.\n"
 msgstr ""

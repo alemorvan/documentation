@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -31,93 +31,66 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/00-toc.md:8
-msgid ""
-"The Administrator's Guide is a collection of educational documents focused "
-"on System Administrators. They can be used by future System Administrators "
-"trying to get up to speed, by current System Administrators who would like a "
-"refresher, or by any Linux user who'd like to learn more about the Linux "
-"environment, commands, processes, and more. Like all documents of this type, "
-"it will evolve and update over time."
+#, no-wrap
+msgid "The Administrator's Guide is a collection of educational documents focused on System Administrators. They can be used by future System Administrators trying to get up to speed, by current System Administrators who would like a refresher, or by any Linux user who'd like to learn more about the Linux environment, commands, processes, and more. Like all documents of this type, it will evolve and update over time.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/00-toc.md:10
-msgid ""
-"We start with Introduction to Linux, which outlines Linux, distributions, "
-"and the whole ecosystem around our operating system."
+#, no-wrap
+msgid "We start with Introduction to Linux, which outlines Linux, distributions, and the whole ecosystem around our operating system.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/00-toc.md:12
-msgid ""
-"User Commands contains essential commands for getting up to speed with "
-"Linux. More experienced users should also consult the following chapter on "
-"Advanced Linux Commands."
+#, no-wrap
+msgid "User Commands contains essential commands for getting up to speed with Linux. More experienced users should also consult the following chapter on Advanced Linux Commands.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/00-toc.md:14
-msgid ""
-"The VI Text Editor deserves its own chapter. While Linux comes with many "
-"editors, VI is one of the most powerful. Other commands sometimes use "
-"identical syntax to VI (`sed` comes to mind). So, knowing something about "
-"VI, or at least demystifying its essential functions (how to open a file, "
-"save, quit or quit without saving), is very important. The user will become "
-"more comfortable with the other functions of VI as they use the editor. An "
-"alternative would be to use nano which comes installed by default in Rocky "
-"Linux. While not as versatile, it is simple to use, straightforward, and "
-"gets the job done."
+#, no-wrap
+msgid "The VI Text Editor deserves its own chapter. While Linux comes with many editors, VI is one of the most powerful. Other commands sometimes use identical syntax to VI (`sed` comes to mind). So, knowing something about VI, or at least demystifying its essential functions (how to open a file, save, quit or quit without saving), is very important. The user will become more comfortable with the other functions of VI as they use the editor. An alternative would be to use nano which comes installed by default in Rocky Linux. While not as versatile, it is simple to use, straightforward, and gets the job done.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/00-toc.md:16
-msgid ""
-"We can then get into the deep functioning of Linux to discover how the "
-"system addresses:"
-msgstr ""
-
-#. type: Title #
-#: ../src/docs/books/admin_guide/00-toc.md:20
-#: ../src/docs/books/admin_guide/06-users.md:1
-#: ../src/docs/books/admin_guide/06-users.md:5
 #, no-wrap
-msgid "User Management"
+msgid "We can then get into the deep functioning of Linux to discover how the system addresses:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/00-toc.md:20
-msgid "File Systems"
+#, no-wrap
+msgid "User Management\n"
 msgstr ""
 
-#. type: Title #
+#. type: Bullet: '* '
 #: ../src/docs/books/admin_guide/00-toc.md:20
-#: ../src/docs/books/admin_guide/08-process.md:1
-#: ../src/docs/books/admin_guide/08-process.md:5
 #, no-wrap
-msgid "Process Management"
+msgid "File Systems\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/00-toc.md:20
+#, no-wrap
+msgid "Process Management\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/00-toc.md:22
-msgid ""
-"Backup and Restoration is essential info for the System Administrator. Linux "
-"comes with many software solutions to enhance backups (rsnapshot, lsyncd, "
-"etcetera.). It is valuable to know the essential components of the backup "
-"that exist within the operating system. We investigate two tools: `tar` and "
-"the less widespread `cpio` in this chapter."
+#, no-wrap
+msgid "Backup and Restoration is essential info for the System Administrator. Linux comes with many software solutions to enhance backups (rsnapshot, lsyncd, etcetera.). It is valuable to know the essential components of the backup that exist within the operating system. We investigate two tools: `tar` and the less widespread `cpio` in this chapter.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/00-toc.md:24
-msgid ""
-"System Startup is also an important read because management of the system "
-"during the boot process has evolved significantly in recent years since the "
-"arrival of the systemd."
+#, no-wrap
+msgid "System Startup is also an important read because management of the system during the boot process has evolved significantly in recent years since the arrival of the systemd.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/00-toc.md:27
-msgid ""
-"Final chapters address Task Management, Implementing the Network, and "
-"Software Management including installation."
+#, no-wrap
+msgid "Final chapters address Task Management, Implementing the Network, and Software Management including installation.\n"
 msgstr ""

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -47,7 +47,8 @@ msgstr ""
 #: ../src/docs/guides/proxies/pound.md:62
 #: ../src/docs/guides/proxies/pound.md:418 ../src/docs/index.md:40
 #: ../src/docs/release_notes/9_1.md:16
-msgid "!!! note"
+#, no-wrap
+msgid "!!! note\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -126,7 +127,8 @@ msgstr ""
 #: ../src/docs/guides/package_management/index.md:10
 #: ../src/docs/guides/proxies/pound.md:211
 #: ../src/docs/guides/proxies/pound.md:265 ../src/docs/release_notes/8_4.md:20
-msgid "!!! warning"
+#, no-wrap
+msgid "!!! warning\n"
 msgstr ""
 
 #. type: Title #
@@ -234,64 +236,56 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:16
-msgid ""
-"This document explains all the required steps needed to build and run a "
-"[Nextcloud](https://nextcloud.com) instance as a Podman container on Rocky "
-"Linux. What's more, this entire guide was tested on a Raspberry Pi, so it "
-"should be compatible with every Rocky-supported processor architecture."
+#, no-wrap
+msgid "This document explains all the required steps needed to build and run a [Nextcloud](https://nextcloud.com) instance as a Podman container on Rocky Linux. What's more, this entire guide was tested on a Raspberry Pi, so it should be compatible with every Rocky-supported processor architecture.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:18
-msgid ""
-"The procedure is broken down into multiple steps, each with its own shell "
-"scripts for automation:"
+#, no-wrap
+msgid "The procedure is broken down into multiple steps, each with its own shell scripts for automation:\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/guides/containers/podman-nextcloud.md:24
-msgid ""
-"Installing the `podman` and `buildah` packages to manage and build our "
-"containers, respectively"
+#, no-wrap
+msgid "Installing the `podman` and `buildah` packages to manage and build our containers, respectively\n"
 msgstr ""
 
 #. type: Bullet: '2. '
 #: ../src/docs/guides/containers/podman-nextcloud.md:24
-msgid ""
-"Creating a base image which will be repurposed for all of the containers "
-"we'll need"
+#, no-wrap
+msgid "Creating a base image which will be repurposed for all of the containers we'll need\n"
 msgstr ""
 
 #. type: Bullet: '3. '
 #: ../src/docs/guides/containers/podman-nextcloud.md:24
-msgid ""
-"Creating a `db-tools` container image with the required shell scripts for "
-"building and running your MariaDB database"
+#, no-wrap
+msgid "Creating a `db-tools` container image with the required shell scripts for building and running your MariaDB database\n"
 msgstr ""
 
 #. type: Bullet: '4. '
 #: ../src/docs/guides/containers/podman-nextcloud.md:24
-msgid "Creating and running MariaDB as a Podman container"
+#, no-wrap
+msgid "Creating and running MariaDB as a Podman container\n"
 msgstr ""
 
 #. type: Bullet: '5. '
 #: ../src/docs/guides/containers/podman-nextcloud.md:24
-msgid ""
-"Creating and running Nextcloud as a Podman container, using the MariaDB "
-"Podman container as backend"
+#, no-wrap
+msgid "Creating and running Nextcloud as a Podman container, using the MariaDB Podman container as backend\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:26
-msgid ""
-"You could run most of the commands in the guide manually, but setting up a "
-"few bash scripts will make your life a lot easier, especially when you want "
-"to repeat these steps with different settings, variables, or container names."
+#, no-wrap
+msgid "You could run most of the commands in the guide manually, but setting up a few bash scripts will make your life a lot easier, especially when you want to repeat these steps with different settings, variables, or container names.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:28
-msgid "!!! Note \"Note for Beginners:\""
+#, no-wrap
+msgid "!!! Note \"Note for Beginners:\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -330,54 +324,50 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:38
-msgid ""
-"Here's everything you'll need, or need to know, in order to make this guide "
-"work:"
+#, no-wrap
+msgid "Here's everything you'll need, or need to know, in order to make this guide work:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/containers/podman-nextcloud.md:46
-msgid ""
-"Familiarity with the command line, bash scripts, and editing Linux "
-"configuration files."
+#, no-wrap
+msgid "Familiarity with the command line, bash scripts, and editing Linux configuration files.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/containers/podman-nextcloud.md:46
-msgid "SSH access if working on a remote machine."
+#, no-wrap
+msgid "SSH access if working on a remote machine.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/containers/podman-nextcloud.md:46
-msgid ""
-"A command-line based text editor of your choice. We'll be using `vi` for "
-"this guide."
+#, no-wrap
+msgid "A command-line based text editor of your choice. We'll be using `vi` for this guide. \n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/containers/podman-nextcloud.md:46
-msgid ""
-"An internet-connected Rocky Linux machine (again, a Raspberry Pi will work "
-"nicely)."
+#, no-wrap
+msgid "An internet-connected Rocky Linux machine (again, a Raspberry Pi will work nicely).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/containers/podman-nextcloud.md:46
-msgid ""
-"Many of these commands must be run as root, so you'll need a root or sudo-"
-"capable user on the machine."
+#, no-wrap
+msgid "Many of these commands must be run as root, so you'll need a root or sudo-capable user on the machine.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/containers/podman-nextcloud.md:46
-msgid "Familiarity with web servers and MariaDB would definitely help."
+#, no-wrap
+msgid "Familiarity with web servers and MariaDB would definitely help.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/containers/podman-nextcloud.md:46
-msgid ""
-"Familiarity with containers and maybe Docker would be a *definite* plus, but "
-"is not strictly essential."
+#, no-wrap
+msgid "Familiarity with containers and maybe Docker would be a *definite* plus, but is not strictly essential.\n"
 msgstr ""
 
 #. type: Title ##
@@ -388,14 +378,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:50
-msgid "First, make sure your system is up-to-date:"
+#, no-wrap
+msgid "First, make sure your system is up-to-date:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:56
-msgid ""
-"Then you'll want to install the `epel-release` repository for all the extra "
-"packages we'll be using."
+#, no-wrap
+msgid "Then you'll want to install the `epel-release` repository for all the extra packages we'll be using.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -406,9 +396,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:62
-msgid ""
-"Once that's done, you can update again (which sometimes helps) or just go "
-"ahead and install the packages we need:"
+#, no-wrap
+msgid "Once that's done, you can update again (which sometimes helps) or just go ahead and install the packages we need:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -419,16 +408,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:68
-msgid ""
-"Once they're installed, run `podman --version` and `buildah --version` to "
-"make sure everything is working correctly."
+#, no-wrap
+msgid "Once they're installed, run `podman --version` and `buildah --version` to make sure everything is working correctly.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:70
-msgid ""
-"To access Red Hat's registry for downloading container images, you'll need "
-"to run:"
+#, no-wrap
+msgid "To access Red Hat's registry for downloading container images, you'll need to run:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -439,9 +426,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:76
-msgid ""
-"Find the section that looks like what you see below. If it's commented out, "
-"uncomment it."
+#, no-wrap
+msgid "Find the section that looks like what you see below. If it's commented out, uncomment it.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -461,9 +447,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:86
-msgid ""
-"In this guide, we're working as the root user, but you can do this in any "
-"home directory. Change to the root directory if you're not already there:"
+#, no-wrap
+msgid "In this guide, we're working as the root user, but you can do this in any home directory. Change to the root directory if you're not already there:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -474,9 +459,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:92
-msgid ""
-"Now make all of the directories you'll need for your various container "
-"builds:"
+#, no-wrap
+msgid "Now make all of the directories you'll need for your various container builds:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -487,7 +471,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:98
-msgid "Now change your working directory to the folder for the base image:"
+#, no-wrap
+msgid "Now change your working directory to the folder for the base image:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -498,7 +483,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:104
-msgid "And make a file called DockerFile. Yes, Podman uses them too."
+#, no-wrap
+msgid "And make a file called DockerFile. Yes, Podman uses them too.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -511,7 +497,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:110
-msgid "Copy and paste the following text into your brand new DockerFile."
+#, no-wrap
+msgid "Copy and paste the following text into your brand new DockerFile.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -539,7 +526,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:132
-msgid "Save and close the previous file, and make a new bash script file:"
+#, no-wrap
+msgid "Save and close the previous file, and make a new bash script file: \n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -553,7 +541,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:138
-msgid "Then paste in this content:"
+#, no-wrap
+msgid "Then paste in this content:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -569,7 +558,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:148
-msgid "Now make your build script executable with:"
+#, no-wrap
+msgid "Now make your build script executable with:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -582,7 +572,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:154
 #: ../src/docs/guides/containers/podman-nextcloud.md:248
-msgid "And run it:"
+#, no-wrap
+msgid "And run it:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -594,7 +585,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:160
-msgid "Wait until it's done, and move on to the next step."
+#, no-wrap
+msgid "Wait until it's done, and move on to the next step.\n"
 msgstr ""
 
 #. type: Title ##
@@ -605,36 +597,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:164
-msgid ""
-"For the purposes of this guide, we're keeping the database setup as simple "
-"as we can. You'll want to keep track of the following, and modify them as "
-"needed:"
+#, no-wrap
+msgid "For the purposes of this guide, we're keeping the database setup as simple as we can. You'll want to keep track of the following, and modify them as needed:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/containers/podman-nextcloud.md:169
-msgid "Database name: ncdb"
+#, no-wrap
+msgid "Database name: ncdb\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/containers/podman-nextcloud.md:169
-msgid "Database user: nc-user"
+#, no-wrap
+msgid "Database user: nc-user\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/containers/podman-nextcloud.md:169
-msgid "Database pass: nc-pass"
+#, no-wrap
+msgid "Database pass: nc-pass\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/containers/podman-nextcloud.md:169
-msgid "Your server IP address (we'll be using an example IP below)"
+#, no-wrap
+msgid "Your server IP address (we'll be using an example IP below)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:171
-msgid ""
-"First, change to the folder where you'll be building the db-tools image:"
+#, no-wrap
+msgid "First, change to the folder where you'll be building the db-tools image:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -645,10 +639,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:177
-msgid ""
-"Now set up some bash scripts that will be used inside the Podman container "
-"image. First, make the script that will automatically build your database "
-"for you:"
+#, no-wrap
+msgid "Now set up some bash scripts that will be used inside the Podman container image. First, make the script that will automatically build your database for you: \n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -659,9 +651,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:183
-msgid ""
-"Now copy and paste the following code into that file, using your favorite "
-"text editor:"
+#, no-wrap
+msgid "Now copy and paste the following code into that file, using your favorite text editor:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -678,9 +669,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:194
-msgid ""
-"Save and close, then repeat the steps with the script for deleting databases "
-"as needed:"
+#, no-wrap
+msgid "Save and close, then repeat the steps with the script for deleting databases as needed:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -691,7 +681,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:200
-msgid "Copy and paste this code into the new file:"
+#, no-wrap
+msgid "Copy and paste this code into the new file:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -707,12 +698,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:210
-msgid "Lastly, let's setup the DockerFile for the `db-tools` image:"
+#, no-wrap
+msgid "Lastly, let's setup the DockerFile for the `db-tools` image:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:216
-msgid "Copy and paste:"
+#, no-wrap
+msgid "Copy and paste:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -728,14 +721,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:226
-msgid ""
-"And last but not least, create the bash script to build your image on "
-"command:"
+#, no-wrap
+msgid "And last but not least, create the bash script to build your image on command:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:232
-msgid "The code you'll want:"
+#, no-wrap
+msgid "The code you'll want:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -751,7 +744,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:242
-msgid "Save and close, then make the file executable:"
+#, no-wrap
+msgid "Save and close, then make the file executable:\n"
 msgstr ""
 
 #. type: Title ##
@@ -762,9 +756,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:256
-msgid ""
-"You're getting the hang of the process, right? It's time to build that "
-"actual database container. Change the working directory to `/root/mariadb`:"
+#, no-wrap
+msgid "You're getting the hang of the process, right? It's time to build that actual database container. Change the working directory to `/root/mariadb`:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -775,7 +768,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:262
-msgid "Make a script to (re)build the container whenever you want:"
+#, no-wrap
+msgid "Make a script to (re)build the container whenever you want:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -786,7 +780,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:268
-msgid "And here's the code you'll need:"
+#, no-wrap
+msgid "And here's the code you'll need:\n"
 msgstr ""
 
 #. type: Plain text
@@ -823,8 +818,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:297
-msgid ""
-"Here's where you make a script to reset your database whenever you like:"
+#, no-wrap
+msgid "Here's where you make a script to reset your database whenever you like:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -835,7 +830,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:303
-msgid "And here's the code:"
+#, no-wrap
+msgid "And here's the code:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -855,14 +851,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:317
-msgid ""
-"And lastly, here's your build script that'll put the whole mariadb container "
-"together:"
+#, no-wrap
+msgid "And lastly, here's your build script that'll put the whole mariadb container together:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:323
-msgid "With its code:"
+#, no-wrap
+msgid "With its code:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -878,9 +874,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:333
-msgid ""
-"Now just make your DockferFile (`vi Dockerfile`), and paste in the following "
-"single line:"
+#, no-wrap
+msgid "Now just make your DockferFile (`vi Dockerfile`), and paste in the following single line:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -891,7 +886,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:339
-msgid "Now make your build script executable and run it:"
+#, no-wrap
+msgid "Now make your build script executable and run it:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -912,9 +908,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:349
-msgid ""
-"We're at the final step, and the process pretty much repeats itself. Change "
-"to the Nextcloud image directory:"
+#, no-wrap
+msgid "We're at the final step, and the process pretty much repeats itself. Change to the Nextcloud image directory:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -925,7 +920,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:355
-msgid "Set up your DockerFile first this time, for variety:"
+#, no-wrap
+msgid "Set up your DockerFile first this time, for variety:\n"
 msgstr ""
 
 #. type: Plain text
@@ -936,7 +932,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:365
-msgid "And paste in this bit:"
+#, no-wrap
+msgid "And paste in this bit:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -947,12 +944,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:371
-msgid "Npw create your build script:"
+#, no-wrap
+msgid "Npw create your build script:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:377
-msgid "And paste in this code:"
+#, no-wrap
+msgid "And paste in this code:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -968,10 +967,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:387
-msgid ""
-"Now, we're going to set up a bunch of local folders on the host server "
-"(*not* in any Podman container), so that we can rebuild our containers and "
-"databases without fear of losing all of our files:"
+#, no-wrap
+msgid "Now, we're going to set up a bunch of local folders on the host server (*not* in any Podman container), so that we can rebuild our containers and databases without fear of losing all of our files:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -982,9 +979,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:393
-msgid ""
-"Lastly, we're going to create the script that will actually build the "
-"Nextcloud container for us:"
+#, no-wrap
+msgid "Lastly, we're going to create the script that will actually build the Nextcloud container for us:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -995,10 +991,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:399
-msgid ""
-"And here's all the code you need for that. Make sure you change the IP "
-"address for `MYSQL_HOST` to the docker container that's running your MariaDB "
-"instance."
+#, no-wrap
+msgid "And here's all the code you need for that. Make sure you change the IP address for `MYSQL_HOST` to the docker container that's running your MariaDB instance.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1028,16 +1022,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:423
-msgid ""
-"Save and close that out, make all of your scripts executable, then run the "
-"image building script first:"
+#, no-wrap
+msgid "Save and close that out, make all of your scripts executable, then run the image building script first: \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:431
-msgid ""
-"To make sure all of your images have been built correctly, run `podman "
-"images`. You should see a list that looks like this:"
+#, no-wrap
+msgid "To make sure all of your images have been built correctly, run `podman images`. You should see a list that looks like this:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1053,8 +1045,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:441
-msgid ""
-"If it all looks right, run the final script to get Nextcloud up and going:"
+#, no-wrap
+msgid "If it all looks right, run the final script to get Nextcloud up and going:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -1065,9 +1057,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:447
-msgid ""
-"When you run `podman ps -a`, you should see a list of running containers "
-"that looks like this:"
+#, no-wrap
+msgid "When you run `podman ps -a`, you should see a list of running containers that looks like this:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1081,19 +1072,12 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:455
-msgid ""
-"From there, you should be able to point your browser to your server IP "
-"address. If you are following along and have the same IP as our example, you "
-"can substitute that in here (e.g., http://your-server-ip) and see Nextcloud "
-"up and running."
+#, no-wrap
+msgid "From there, you should be able to point your browser to your server IP address. If you are following along and have the same IP as our example, you can substitute that in here (e.g., http://your-server-ip) and see Nextcloud up and running.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/containers/podman-nextcloud.md:458
-msgid ""
-"Obviously, this guide would have to be somewhat modified on a production "
-"server, especially if the Nextcloud instance is intended to be public-"
-"facing. Still, that should give you a basic idea of how Podman works, and "
-"how you can set it up with scripts and multiple base images to make rebuilds "
-"easier."
+#, no-wrap
+msgid "Obviously, this guide would have to be somewhat modified on a production server, especially if the Nextcloud instance is intended to be public-facing. Still, that should give you a basic idea of how Podman works, and how you can set it up with scripts and multiple base images to make rebuilds easier.\n"
 msgstr ""

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -162,7 +162,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -189,7 +188,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Plain text
@@ -288,9 +288,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:8
-msgid ""
-"In this chapter you will learn how to deploy applications with the Ansible "
-"role [Ansistrano](https://ansistrano.com)."
+#, no-wrap
+msgid "In this chapter you will learn how to deploy applications with the Ansible role [Ansistrano](https://ansistrano.com).\n"
 msgstr ""
 
 #. type: Plain text
@@ -306,37 +305,40 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:20
-msgid ""
-":checkered_flag: **ansible**, **ansistrano**, **roles**, **deployments**"
+#, no-wrap
+msgid ":checkered_flag: **ansible**, **ansistrano**, **roles**, **deployments**\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:30
+#, no-wrap
 msgid ""
-"Ansistrano is an Ansible role to easily deploy PHP, Python, etc. "
-"applications.  It is based on the functionality of [Capistrano](http://"
-"capistranorb.com/)."
+"Ansistrano is an Ansible role to easily deploy PHP, Python, etc. applications.\n"
+"It is based on the functionality of [Capistrano](http://capistranorb.com/).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:34
-msgid "Ansistrano requires the following to run:"
+#, no-wrap
+msgid "Ansistrano requires the following to run:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:37
-msgid "Ansible on the deployment machine,"
+#, no-wrap
+msgid "Ansible on the deployment machine,\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:37
-msgid "`rsync` or `git` on the client machine."
+#, no-wrap
+msgid "`rsync` or `git` on the client machine.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:39
-msgid ""
-"It can download source code from `rsync`, `git`, `scp`, `http`, `S3`, ..."
+#, no-wrap
+msgid "It can download source code from `rsync`, `git`, `scp`, `http`, `S3`, ...\n"
 msgstr ""
 
 #. type: Plain text
@@ -347,40 +349,45 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:45
-msgid "Ansistrano deploys applications by following these 5 steps:"
+#, no-wrap
+msgid "Ansistrano deploys applications by following these 5 steps:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:50
-msgid "**Setup**: create the directory structure to host the releases;"
+#, no-wrap
+msgid "**Setup**: create the directory structure to host the releases;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:50
-msgid "**Update Code**: downloading the new release to the targets;"
+#, no-wrap
+msgid "**Update Code**: downloading the new release to the targets;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:50
-msgid ""
-"**Symlink Shared** and **Symlink**: after deploying the new release, the "
-"`current` symbolic link is modified to point to this new release;"
+#, no-wrap
+msgid "**Symlink Shared** and **Symlink**: after deploying the new release, the `current` symbolic link is modified to point to this new release;\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:50
-msgid "**Clean Up**: to do some clean up (remove old versions)."
+#, no-wrap
+msgid "**Clean Up**: to do some clean up (remove old versions).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:52
 #: ../src/docs/books/learning_ansible/05-deployments.md:681
-msgid "![Stages of a deployment](images/ansistrano-001.png)"
+#, no-wrap
+msgid "![Stages of a deployment](images/ansistrano-001.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:54
-msgid "The skeleton of a deployment with Ansistrano looks like this:"
+#, no-wrap
+msgid "The skeleton of a deployment with Ansistrano looks like this:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -402,9 +409,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:70
-msgid ""
-"You can find all the Ansistrano documentation on its [Github repository]"
-"(https://github.com/ansistrano/deploy)."
+#, no-wrap
+msgid "You can find all the Ansistrano documentation on its [Github repository](https://github.com/ansistrano/deploy).\n"
 msgstr ""
 
 #. type: Title ##
@@ -415,29 +421,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:74
-msgid "You will continue to work on your 2 servers:"
+#, no-wrap
+msgid "You will continue to work on your 2 servers:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:76
-msgid "The management server:"
+#, no-wrap
+msgid "The management server:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:78
-msgid ""
-"Ansible is already installed. You will have to install the `ansistrano."
-"deploy` role."
+#, no-wrap
+msgid "Ansible is already installed. You will have to install the `ansistrano.deploy` role.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:80
-msgid "The managed server:"
+#, no-wrap
+msgid "The managed server:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:82
-msgid "You will need to install Apache and deploy the client site."
+#, no-wrap
+msgid "You will need to install Apache and deploy the client site.\n"
 msgstr ""
 
 #. type: Title ###
@@ -448,9 +457,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:86
-msgid ""
-"For more efficiency, we will use the `geerlingguy.apache` role to configure "
-"the server:"
+#, no-wrap
+msgid "For more efficiency, we will use the `geerlingguy.apache` role to configure the server:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -467,9 +475,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:97
-msgid ""
-"We will probably need to open some firewall rules, so we will also install "
-"the collection `ansible.posix` to work with its module `firewalld`:"
+#, no-wrap
+msgid "We will probably need to open some firewall rules, so we will also install the collection `ansible.posix` to work with its module `firewalld`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -487,63 +494,68 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:109
-msgid ""
-"Once the role and the collection are installed, we can create the first part "
-"of our playbook, which will:"
+#, no-wrap
+msgid "Once the role and the collection are installed, we can create the first part of our playbook, which will:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:115
-msgid "Install Apache,"
+#, no-wrap
+msgid "Install Apache,\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:115
-msgid "Create a target folder for our `vhost`,"
+#, no-wrap
+msgid "Create a target folder for our `vhost`,\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:115
-msgid "Create a default `vhost`,"
+#, no-wrap
+msgid "Create a default `vhost`,\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:115
-msgid "Open the firewall,"
+#, no-wrap
+msgid "Open the firewall,\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:115
-msgid "Start or restart Apache."
+#, no-wrap
+msgid "Start or restart Apache.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:117
-msgid "Technical considerations:"
+#, no-wrap
+msgid "Technical considerations:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:122
-msgid "We will deploy our site to the `/var/www/site/` folder."
+#, no-wrap
+msgid "We will deploy our site to the `/var/www/site/` folder.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:122
-msgid ""
-"As we will see later, `ansistrano` will create a `current` symbolic link to "
-"the current release folder."
+#, no-wrap
+msgid "As we will see later, `ansistrano` will create a `current` symbolic link to the current release folder.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:122
-msgid ""
-"The source code to be deployed contains a `html` folder which the vhost "
-"should point to. Its `DirectoryIndex` is `index.htm`."
+#, no-wrap
+msgid "The source code to be deployed contains a `html` folder which the vhost should point to. Its `DirectoryIndex` is `index.htm`.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:122
-msgid "The deployment is done by `git`, the package will be installed."
+#, no-wrap
+msgid "The deployment is done by `git`, the package will be installed.\n"
 msgstr ""
 
 #. type: Plain text
@@ -554,7 +566,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:128
-msgid "Our playbook to configure the server: `playbook-config-server.yml`"
+#, no-wrap
+msgid "Our playbook to configure the server: `playbook-config-server.yml`\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -599,7 +612,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:167
-msgid "The playbook can be applied to the server:"
+#, no-wrap
+msgid "The playbook can be applied to the server:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -610,7 +624,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:173
-msgid "Note the execution of the following tasks:"
+#, no-wrap
+msgid "Note the execution of the following tasks:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -627,14 +642,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:184
-msgid ""
-"The `geerlingguy.apache` role makes our job much easier by taking care of "
-"the installation and configuration of Apache."
+#, no-wrap
+msgid "The `geerlingguy.apache` role makes our job much easier by taking care of the installation and configuration of Apache.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:186
-msgid "You can check that everything is working by using `curl`:"
+#, no-wrap
+msgid "You can check that everything is working by using `curl`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -662,14 +677,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:202
-msgid "Now that our server is configured, we can deploy the application."
+#, no-wrap
+msgid "Now that our server is configured, we can deploy the application.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:204
-msgid ""
-"For this, we will use the `ansistrano.deploy` role in a second playbook "
-"dedicated to application deployment (for more readability)."
+#, no-wrap
+msgid "For this, we will use the `ansistrano.deploy` role in a second playbook dedicated to application deployment (for more readability).\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -687,15 +702,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:216
-msgid ""
-"The sources of the software can be found in the [github repository](https://"
-"github.com/alemorvan/demo-ansible.git)."
+#, no-wrap
+msgid "The sources of the software can be found in the [github repository](https://github.com/alemorvan/demo-ansible.git).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:218
-msgid ""
-"We will create a playbook `playbook-deploy.yml` to manage our deployment:"
+#, no-wrap
+msgid "We will create a playbook `playbook-deploy.yml` to manage our deployment:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -752,7 +766,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:266
-msgid "So many things done with only 11 lines of code!"
+#, no-wrap
+msgid "So many things done with only 11 lines of code!\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -778,12 +793,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:282
-msgid "You can now connect by ssh to your client machine."
+#, no-wrap
+msgid "You can now connect by ssh to your client machine.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:284
-msgid "Make a `tree` on the `/var/www/site/` directory:"
+#, no-wrap
+msgid "Make a `tree` on the `/var/www/site/` directory:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -807,29 +824,32 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:301
 #: ../src/docs/books/learning_ansible/05-deployments.md:336
-msgid "Please note:"
+#, no-wrap
+msgid "Please note:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:305
-msgid "the `current` symlink to the release `./releases/20210722155312Z`"
+#, no-wrap
+msgid "the `current` symlink to the release `./releases/20210722155312Z`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:305
-msgid "the presence of a directory `shared`"
+#, no-wrap
+msgid "the presence of a directory `shared`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:305
-msgid "the presence of the git repos in `./repo/`"
+#, no-wrap
+msgid "the presence of the git repos in `./repo/`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:307
-msgid ""
-"From the Ansible server, restart the deployment **3** times, then check on "
-"the client."
+#, no-wrap
+msgid "From the Ansible server, restart the deployment **3** times, then check on the client.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -864,12 +884,14 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:339
-msgid "`ansistrano` kept the 4 last releases,"
+#, no-wrap
+msgid "`ansistrano` kept the 4 last releases,\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:339
-msgid "the `current` link linked now to the lastest release"
+#, no-wrap
+msgid "the `current` link linked now to the lastest release\n"
 msgstr ""
 
 #. type: Title ###
@@ -880,16 +902,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:343
-msgid ""
-"The `ansistrano_keep_releases` variable is used to specify the number of "
-"releases to keep."
+#, no-wrap
+msgid "The `ansistrano_keep_releases` variable is used to specify the number of releases to keep.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:345
-msgid ""
-"Using the `ansistrano_keep_releases` variable, keep only 3 releases of the "
-"project. Check."
+#, no-wrap
+msgid "Using the `ansistrano_keep_releases` variable, keep only 3 releases of the project. Check.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -922,7 +942,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:368
 #: ../src/docs/books/learning_ansible/05-deployments.md:437
-msgid "On the client machine:"
+#, no-wrap
+msgid "On the client machine:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -983,8 +1004,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:417
-msgid ""
-"On the client machine, create the file `logs` in the `shared` directory:"
+#, no-wrap
+msgid "On the client machine, create the file `logs` in the `shared` directory:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -995,7 +1016,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:423
-msgid "Then execute the playbook:"
+#, no-wrap
+msgid "Then execute the playbook:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1047,50 +1069,56 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:468
-msgid ""
-"Please note that the last release contains 3 links: `css`, `img`, and `logs`"
+#, no-wrap
+msgid "Please note that the last release contains 3 links:  `css`, `img`, and `logs`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:472
-msgid "from `/var/www/site/releases/css` to the `../../shared/css/` directory."
+#, no-wrap
+msgid "from `/var/www/site/releases/css` to the `../../shared/css/` directory.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:472
-msgid "from `/var/www/site/releases/img` to the `../../shared/img/` directory."
+#, no-wrap
+msgid "from `/var/www/site/releases/img` to the `../../shared/img/` directory.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:472
-msgid "from `/var/www/site/releases/logs` to the `../../shared/logs` file."
+#, no-wrap
+msgid "from `/var/www/site/releases/logs` to the `../../shared/logs` file.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:474
-msgid ""
-"Therefore, the files contained in these 2 folders and the `logs` file are "
-"always accessible via the following paths:"
+#, no-wrap
+msgid "Therefore, the files contained in these 2 folders and the `logs` file are always accessible via the following paths:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:478
-msgid "`/var/www/site/current/css/`,"
+#, no-wrap
+msgid "`/var/www/site/current/css/`,\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:478
-msgid "`/var/www/site/current/img/`,"
+#, no-wrap
+msgid "`/var/www/site/current/img/`,\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:478
-msgid "`/var/www/site/current/logs`,"
+#, no-wrap
+msgid "`/var/www/site/current/logs`,\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:480
-msgid "but above all they will be kept from one release to the next."
+#, no-wrap
+msgid "but above all they will be kept from one release to the next.\n"
 msgstr ""
 
 #. type: Title ###
@@ -1101,29 +1129,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:484
-msgid ""
-"In our case, the repository contains a `html` folder, which contains the "
-"site files."
+#, no-wrap
+msgid "In our case, the repository contains a `html` folder, which contains the site files.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:486
-msgid ""
-"To avoid this extra level of directory, use the `ansistrano_git_repo_tree` "
-"variable by specifying the path of the sub-directory to use."
+#, no-wrap
+msgid "To avoid this extra level of directory, use the `ansistrano_git_repo_tree` variable by specifying the path of the sub-directory to use.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:488
-msgid ""
-"Don't forget to modify the Apache configuration to take into account this "
-"change!"
+#, no-wrap
+msgid "Don't forget to modify the Apache configuration to take into account this change!\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:490
-msgid ""
-"Change the playbook for the server configuration `playbook-config-server.yml`"
+#, no-wrap
+msgid "Change the playbook for the server configuration `playbook-config-server.yml`\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1168,7 +1193,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:524
-msgid "Change the playbook for the deployment `playbook-deploy.yml`"
+#, no-wrap
+msgid "Change the playbook for the deployment `playbook-deploy.yml`\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1198,12 +1224,14 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:550
-msgid "Don't forget to run both of the playbooks"
+#, no-wrap
+msgid "Don't forget to run both of the playbooks\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:552
-msgid "Check on the client machine:"
+#, no-wrap
+msgid "Check on the client machine:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1254,14 +1282,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:589
-msgid ""
-"The `ansistrano_git_branch` variable is used to specify a `branch` or `tag` "
-"to deploy."
+#, no-wrap
+msgid "The `ansistrano_git_branch` variable is used to specify a `branch` or `tag` to deploy.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:591
-msgid "Deploy the `releases/v1.1.0` branch:"
+#, no-wrap
+msgid "Deploy the `releases/v1.1.0` branch:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1313,7 +1341,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:632
-msgid "Deploy the `v2.0.0` tag:"
+#, no-wrap
+msgid "Deploy the `v2.0.0` tag:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1365,60 +1394,68 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:671
-msgid "A deployment with Ansistrano respects the following steps:"
+#, no-wrap
+msgid "A deployment with Ansistrano respects the following steps:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:677
-msgid "`Setup`"
+#, no-wrap
+msgid "`Setup`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:677
-msgid "`Update Code`"
+#, no-wrap
+msgid "`Update Code`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:677
-msgid "`Symlink Shared`"
+#, no-wrap
+msgid "`Symlink Shared`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:677
-msgid "`Symlink`"
+#, no-wrap
+msgid "`Symlink`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:677
-msgid "`Clean Up`"
+#, no-wrap
+msgid "`Clean Up`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:679
-msgid "It is possible to intervene before and after each of these steps."
+#, no-wrap
+msgid "It is possible to intervene before and after each of these steps.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:683
-msgid ""
-"A playbook can be included through the variables provided for this purpose:"
+#, no-wrap
+msgid "A playbook can be included through the variables provided for this purpose:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:686
-msgid "`ansistrano_before_<task>_tasks_file`"
+#, no-wrap
+msgid "`ansistrano_before_<task>_tasks_file`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:686
-msgid "or `ansistrano_after_<task>_tasks_file`"
+#, no-wrap
+msgid "or `ansistrano_after_<task>_tasks_file`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:688
-msgid ""
-"Easy example: send an email (or whatever you want like Slack notification) "
-"at the beginning of the deployment:"
+#, no-wrap
+msgid "Easy example: send an email (or whatever you want like Slack notification) at the beginning of the deployment:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1450,7 +1487,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:715
-msgid "Create the file `deploy/before-setup-tasks.yml`:"
+#, no-wrap
+msgid "Create the file `deploy/before-setup-tasks.yml`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1487,10 +1525,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/books/learning_ansible/05-deployments.md:740
-msgid ""
-"You will probably have to restart some services at the end of the "
-"deployment, to flush caches for example. Let's restart Apache at the end of "
-"the deployment:"
+#, no-wrap
+msgid "You will probably have to restart some services at the end of the deployment, to flush caches for example. Let's restart Apache at the end of the deployment:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1523,7 +1559,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:767
-msgid "Create the file `deploy/after-symlink-tasks.yml`:"
+#, no-wrap
+msgid "Create the file `deploy/after-symlink-tasks.yml`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1550,17 +1587,12 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:785
-msgid ""
-"As you have seen during this chapter, Ansible can greatly improve the life "
-"of the system administrator. Very intelligent roles like Ansistrano are "
-"\"must haves\" that quickly become indispensable."
+#, no-wrap
+msgid "As you have seen during this chapter, Ansible can greatly improve the life of the system administrator. Very intelligent roles like Ansistrano are \"must haves\" that quickly become indispensable.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/05-deployments.md:786
-msgid ""
-"Using Ansistrano, ensures that good deployment practices are respected, "
-"reduces the time needed to put a system into production, and avoids the risk "
-"of potential human errors. The machine works fast, well, and rarely makes "
-"mistakes!"
+#, no-wrap
+msgid "Using Ansistrano, ensures that good deployment practices are respected, reduces the time needed to put a system into production, and avoids the risk of potential human errors. The machine works fast, well, and rarely makes mistakes!\n"
 msgstr ""

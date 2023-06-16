@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,7 +76,8 @@ msgstr ""
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:125
 #: ../src/docs/guides/security/learning_selinux.md:289
 #: ../src/docs/guides/security/pam.md:287
-msgid "Examples:"
+#, no-wrap
+msgid "Examples:\n"
 msgstr ""
 
 #. type: Plain text
@@ -187,7 +188,8 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:394
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:154
 #: ../src/docs/guides/web/php.md:255
-msgid "Example:"
+#, no-wrap
+msgid "Example:\n"
 msgstr ""
 
 #. type: Plain text
@@ -338,8 +340,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:22
-msgid ""
-":checkered_flag: **linux**, **script**, **bash**, **conditional structures**"
+#, no-wrap
+msgid ":checkered_flag: **linux**, **script**, **bash**, **conditional structures**\n"
 msgstr ""
 
 #. type: Title ##
@@ -350,22 +352,22 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:33
-msgid ""
-"If the `$?` variable is used to know the result of a test or the execution "
-"of a command, it can only be displayed and has no effect on the execution of "
-"a script."
+#, no-wrap
+msgid "If the `$?` variable is used to know the result of a test or the execution of a command, it can only be displayed and has no effect on the execution of a script.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:36
+#, no-wrap
 msgid ""
-"But we can use it in a condition.  **If** the test is good **then** I do "
-"this action **otherwise** I do this other action."
+"But we can use it in a condition.\n"
+"**If** the test is good **then** I do this action **otherwise** I do this other action.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:38
-msgid "Syntax of the conditional alternative `if`:"
+#, no-wrap
+msgid "Syntax of the conditional alternative `if`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -382,19 +384,16 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:50
+#, no-wrap
 msgid ""
-"The command placed after the word `if` can be any command since it is its "
-"return code (`$?`) that will be evaluated.  It is often convenient to use "
-"the `test` command to define several actions depending on the result of this "
-"test (file exists, variable not empty, write rights set)."
+"The command placed after the word `if` can be any command since it is its return code (`$?`) that will be evaluated.\n"
+"It is often convenient to use the `test` command to define several actions depending on the result of this test (file exists, variable not empty, write rights set).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:52
-msgid ""
-"Using a classical command (`mkdir`, `tar`, ...) allows you to define the "
-"actions to be performed in case of success, or the error messages to be "
-"displayed in case of failure."
+#, no-wrap
+msgid "Using a classical command (`mkdir`, `tar`, ...) allows you to define the actions to be performed in case of success, or the error messages to be displayed in case of failure.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -416,9 +415,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:70
-msgid ""
-"If the `else` block starts with a new `if` structure, you can merge the "
-"`else` and `if` with `elif` as shown below:"
+#, no-wrap
+msgid "If the `else` block starts with a new `if` structure, you can merge the `else` and `if` with `elif` as shown below:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -438,7 +436,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:84
-msgid "!!! Note \"Summary\""
+#, no-wrap
+msgid "!!! Note \"Summary\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -449,16 +448,14 @@ msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:89
-msgid ""
-"If the return code of this command is `0` (`true`) the shell will execute "
-"the commands placed after `then`;"
+#, no-wrap
+msgid "If the return code of this command is `0` (`true`) the shell will execute the commands placed after `then`;\n"
 msgstr ""
 
 #. type: Bullet: '    * '
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:89
-msgid ""
-"If the return code is different from `0` (`false`) the shell will execute "
-"the commands placed after `else`."
+#, no-wrap
+msgid "If the return code is different from `0` (`false`) the shell will execute the commands placed after `else`.\n"
 msgstr ""
 
 #. type: Plain text
@@ -481,16 +478,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:97
-msgid ""
-"When there is only one command to execute in the `then` block, it is "
-"possible to use a simpler syntax."
+#, no-wrap
+msgid "When there is only one command to execute in the `then` block, it is possible to use a simpler syntax.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:99
-msgid ""
-"The command to execute if `$?` is `true` is placed after `&&` while the "
-"command to execute if `$?` is `false` is placed after `||` (optional)."
+#, no-wrap
+msgid "The command to execute if `$?` is `true` is placed after `&&` while the command to execute if `$?` is `false` is placed after `||` (optional).\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -503,14 +498,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:108
-msgid ""
-"It is also possible to evaluate and replace a variable with a lighter "
-"structure than `if`."
+#, no-wrap
+msgid "It is also possible to evaluate and replace a variable with a lighter structure than `if`.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:110
-msgid "This syntax implements the braces:"
+#, no-wrap
+msgid "This syntax implements the braces:\n"
 msgstr ""
 
 #. type: Plain text
@@ -552,7 +547,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:143
-msgid "!!! hint"
+#, no-wrap
+msgid "!!! hint\n"
 msgstr ""
 
 #. type: Plain text
@@ -569,11 +565,10 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:150
+#, no-wrap
 msgid ""
-"A succession of `if` structures can quickly become heavy and complex. When "
-"it concerns the evaluation of the same variable, it is possible to use a "
-"conditional structure with several branches.  The values of the variable can "
-"be specified or belong to a list of possibilities."
+"A succession of `if` structures can quickly become heavy and complex. When it concerns the evaluation of the same variable, it is possible to use a conditional structure with several branches.\n"
+"The values of the variable can be specified or belong to a list of possibilities.\n"
 msgstr ""
 
 #. type: Plain text
@@ -584,35 +579,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:154
-msgid ""
-"The structure `case ... in` / `esac` evaluates the variable placed after "
-"`case` and compares it with the defined values."
+#, no-wrap
+msgid "The structure `case ... in` / `esac` evaluates the variable placed after `case` and compares it with the defined values.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:156
-msgid ""
-"At the first equality found, the commands placed between `)` and `;;` are "
-"executed."
+#, no-wrap
+msgid "At the first equality found, the commands placed between `)` and `;;` are executed.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:158
-msgid ""
-"The variable evaluated and the values proposed can be strings or results of "
-"sub-executions of commands."
+#, no-wrap
+msgid "The variable evaluated and the values proposed can be strings or results of sub-executions of commands.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:160
-msgid ""
-"Placed at the end of the structure, the choice `*` indicates the actions to "
-"be executed for all the values that have not been previously tested."
+#, no-wrap
+msgid "Placed at the end of the structure, the choice `*` indicates the actions to be executed for all the values that have not been previously tested.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:162
-msgid "Syntax of the conditional alternative case:"
+#, no-wrap
+msgid "Syntax of the conditional alternative case:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -635,9 +627,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:179
-msgid ""
-"When the value is subject to variation, it is advisable to use wildcards "
-"`[]` to specify the possibilities:"
+#, no-wrap
+msgid "When the value is subject to variation, it is advisable to use wildcards `[]` to specify the possibilities:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -651,7 +642,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_bash/06-conditional-structures.md:187
-msgid "The character `|` also allows you to specify a value or another:"
+#, no-wrap
+msgid "The character `|` also allows you to specify a value or another:\n"
 msgstr ""
 
 #. type: Fenced code block

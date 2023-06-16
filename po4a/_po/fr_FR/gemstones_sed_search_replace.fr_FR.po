@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -82,7 +82,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/sed_search_replace.md:9
-msgid "`sed` is a command that stands for \"stream editor.\""
+#, no-wrap
+msgid "`sed` is a command that stands for \"stream editor.\"\n"
 msgstr ""
 
 #. type: Title ##
@@ -95,12 +96,14 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/sed_search_replace.md:14
-msgid "`path`: The actual path. Example: `/var/www/html/`"
+#, no-wrap
+msgid "`path`: The actual path. Example: `/var/www/html/`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/sed_search_replace.md:14
-msgid "`filename`: The actual filename. Example: `index.php`"
+#, no-wrap
+msgid "`filename`: The actual filename. Example: `index.php`\n"
 msgstr ""
 
 #. type: Title ##
@@ -111,72 +114,62 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/sed_search_replace.md:18
-msgid ""
-"Using `sed` for search and replace is my personal preference because you can "
-"use a delimiter of your choice, which makes replacing things like web links "
-"with “/” in them very handy. The default examples for in place editing using "
-"`sed` show things like this example:"
+#, no-wrap
+msgid "Using `sed` for search and replace is my personal preference because you can use a delimiter of your choice, which makes replacing things like web links with “/” in them very handy. The default examples for in place editing using `sed` show things like this example:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/sed_search_replace.md:20
-msgid "`sed -i 's/search_for/replace_with/g' /path/filename`"
+#, no-wrap
+msgid "`sed -i 's/search_for/replace_with/g' /path/filename`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/sed_search_replace.md:22
-msgid ""
-"But what if you are searching for strings that will contain \"/\" in them? "
-"If the forward slash was the only option available as a delimiter, then we "
-"would have to escape each forward slash before we could use it in the "
-"search. That's where `sed` excels over other tools, because the delimiter is "
-"changeable on-the-fly (no need to specify that you are changing it "
-"anywhere). As stated, if we are looking for things with \"/\" in them, we "
-"can easily do that by changing the delimiter to \"|\". Here's an example of "
-"looking for a link using this method:"
+#, no-wrap
+msgid "But what if you are searching for strings that will contain \"/\" in them? If the forward slash was the only option available as a delimiter, then we would have to escape each forward slash before we could use it in the search. That's where `sed` excels over other tools, because the delimiter is changeable on-the-fly (no need to specify that you are changing it anywhere). As stated, if we are looking for things with \"/\" in them, we can easily do that by changing the delimiter to \"|\". Here's an example of looking for a link using this method:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/sed_search_replace.md:24
-msgid "`sed -i 's|search_for/with_slash|replace_string|g' /path/filename`"
+#, no-wrap
+msgid "`sed -i 's|search_for/with_slash|replace_string|g' /path/filename`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/sed_search_replace.md:26
-msgid ""
-"You can use any single-byte character for the delimiter with the exception "
-"of backslash, newline, and \"s\". For instance, this works too:"
+#, no-wrap
+msgid "You can use any single-byte character for the delimiter with the exception of backslash, newline, and \"s\". For instance, this works too:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/sed_search_replace.md:28
-msgid ""
-"`sed -i 'sasearch_forawith_slashareplace_stringag' /path/filename` where \"a"
-"\" is the delimiter, and the search and replace still works. For safety, you "
-"can specify a backup while searching and replacing, which is handy for "
-"making sure the changes you are making with `sed` are what you _really_ "
-"want. This gives you a recovery option from the backup file:"
+#, no-wrap
+msgid "`sed -i 'sasearch_forawith_slashareplace_stringag' /path/filename` where \"a\" is the delimiter, and the search and replace still works. For safety, you can specify a backup while searching and replacing, which is handy for making sure the changes you are making with `sed` are what you _really_ want. This gives you a recovery option from the backup file:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/sed_search_replace.md:30
-msgid "`sed -i.bak s|search_for|replacea_with|g /path/filename`"
+#, no-wrap
+msgid "`sed -i.bak s|search_for|replacea_with|g /path/filename`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/sed_search_replace.md:32
-msgid ""
-"Which will create an unedited version of `filename` called `filename.bak`"
+#, no-wrap
+msgid "Which will create an unedited version of `filename` called `filename.bak`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/sed_search_replace.md:34
-msgid "You can also use full quotes instead of single quotes if you like:"
+#, no-wrap
+msgid "You can also use full quotes instead of single quotes if you like:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/sed_search_replace.md:36
-msgid "`sed -i \"s|search_for/with_slash|replace_string|g\" /path/filename`"
+#, no-wrap
+msgid "`sed -i \"s|search_for/with_slash|replace_string|g\" /path/filename`\n"
 msgstr ""
 
 #. type: Plain text
@@ -199,17 +192,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/sed_search_replace.md:49
-msgid ""
-"Unfortunately, `sed` doesn't have an in-line looping option like `perl`. To "
-"loop through multiple files, you would need to combine your `sed` command "
-"within a script. Here's an example of doing that."
+#, no-wrap
+msgid "Unfortunately, `sed` doesn't have an in-line looping option like `perl`. To loop through multiple files, you would need to combine your `sed` command within a script. Here's an example of doing that.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/sed_search_replace.md:51
-msgid ""
-"First, generate a list of files that your script will use, which can be "
-"entered at the command line:"
+#, no-wrap
+msgid "First, generate a list of files that your script will use, which can be entered at the command line:\n"
 msgstr ""
 
 #. type: Plain text
@@ -220,7 +210,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/sed_search_replace.md:55
-msgid "Next, create a script to use this `phpfiles.txt`:"
+#, no-wrap
+msgid "Next, create a script to use this `phpfiles.txt`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -237,12 +228,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/sed_search_replace.md:65
-msgid ""
-"The script loops through all of the files created in `phpfiles.txt`, creates "
-"a backup of each file, and executes the search and replace string globally.  "
-"Once you have verified that your search and replace has completed "
-"successfully and your changes are what you want, you can delete all of the "
-"backup files."
+#, no-wrap
+msgid "The script loops through all of the files created in `phpfiles.txt`, creates a backup of each file, and executes the search and replace string globally.  Once you have verified that your search and replace has completed successfully and your changes are what you want, you can delete all of the backup files.\n"
 msgstr ""
 
 #. type: Title ##
@@ -253,26 +240,24 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/sed_search_replace.md:71
-msgid "`sed` [manual page](https://linux.die.net/man/1/sed)"
+#, no-wrap
+msgid "`sed` [manual page](https://linux.die.net/man/1/sed)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/sed_search_replace.md:71
-msgid ""
-"`sed` [additional examples](https://www.linuxtechi.com/20-sed-command-"
-"examples-linux-users/)"
+#, no-wrap
+msgid "`sed` [additional examples](https://www.linuxtechi.com/20-sed-command-examples-linux-users/)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/gemstones/sed_search_replace.md:71
-msgid ""
-"`sed` & `awk` [O'Reilly Book](https://www.oreilly.com/library/view/sed-"
-"awk/1565922255/)"
+#, no-wrap
+msgid "`sed` & `awk` [O'Reilly Book](https://www.oreilly.com/library/view/sed-awk/1565922255/)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/gemstones/sed_search_replace.md:74
-msgid ""
-"`sed` is a powerful tool and works very well for search and replace "
-"functions, particularly where the delimiter needs to be flexible."
+#, no-wrap
+msgid "`sed` is a powerful tool and works very well for search and replace functions, particularly where the delimiter needs to be flexible.\n"
 msgstr ""

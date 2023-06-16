@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -16,16 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-
-#. type: Title ###
-#: ../src/docs/guides/file_sharing/sftp.md:1
-#: ../src/docs/guides/security/ssh_public_private_keys.md:1
-#: ../src/docs/labs/security/index.md:64
-#: ../src/docs/labs/security/lab9-cryptography.md:584
-#: ../src/docs/labs/security/lab9-cryptography.md:693
-#, no-wrap
-msgid "ssh"
-msgstr ""
 
 #. type: Title #
 #: ../src/docs/labs/security/index.md:1 ../src/docs/labs/security/index.md:5
@@ -47,7 +37,8 @@ msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:12
-msgid "Installing the Operating System"
+#, no-wrap
+msgid "Installing the Operating System\n"
 msgstr ""
 
 #. type: Title ###
@@ -58,17 +49,20 @@ msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:18
-msgid "Updating and Patching"
+#, no-wrap
+msgid "Updating and Patching\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:18
-msgid "Configuring and using dnf"
+#, no-wrap
+msgid "Configuring and using dnf\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:18
-msgid "Third party solutions"
+#, no-wrap
+msgid "Third party solutions\n"
 msgstr ""
 
 #. type: Title ###
@@ -79,22 +73,26 @@ msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:24
-msgid "A simple home grown integrity checker"
+#, no-wrap
+msgid "A simple home grown integrity checker\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:24
-msgid "Tripwire"
+#, no-wrap
+msgid "Tripwire\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:24
-msgid "Integrity checking and viewing reports"
+#, no-wrap
+msgid "Integrity checking and viewing reports\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:24
-msgid "Fine tuning tripwire"
+#, no-wrap
+msgid "Fine tuning tripwire\n"
 msgstr ""
 
 #. type: Title ###
@@ -105,32 +103,38 @@ msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:32
-msgid "netstat"
+#, no-wrap
+msgid "netstat\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:32
-msgid "lsof"
+#, no-wrap
+msgid "lsof\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:32
-msgid "nmap"
+#, no-wrap
+msgid "nmap\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:32
-msgid "rpcinfo"
+#, no-wrap
+msgid "rpcinfo\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:32
-msgid "tcpdump"
+#, no-wrap
+msgid "tcpdump\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:32
-msgid "telnet"
+#, no-wrap
+msgid "telnet\n"
 msgstr ""
 
 #. type: Title ###
@@ -141,37 +145,44 @@ msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:41
-msgid "Cracking the system through the boot loader"
+#, no-wrap
+msgid "Cracking  the system through the boot loader\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:41
-msgid "Password protecting the boot loader"
+#, no-wrap
+msgid "Password protecting the boot loader\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:41
-msgid "Disabling un-necessary tty’s"
+#, no-wrap
+msgid "Disabling un-necessary tty’s\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:41
-msgid "Disabling reboot via CTRL+ALT+DEL"
+#, no-wrap
+msgid "Disabling  reboot via  CTRL+ALT+DEL\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:41
-msgid "Enforcing password prompting in single user-mode"
+#, no-wrap
+msgid "Enforcing password prompting in single user-mode\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:41
-msgid "Set-UID programs"
+#, no-wrap
+msgid "Set-UID programs\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:41
-msgid "John the ripper"
+#, no-wrap
+msgid "John the ripper\n"
 msgstr ""
 
 #. type: Title ###
@@ -182,7 +193,8 @@ msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:44
-msgid "The PATH"
+#, no-wrap
+msgid "The PATH\n"
 msgstr ""
 
 #. type: Title ###
@@ -193,7 +205,8 @@ msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:47
-msgid "Tcp_wrappers"
+#, no-wrap
+msgid "Tcp_wrappers\n"
 msgstr ""
 
 #. type: Title ###
@@ -204,17 +217,20 @@ msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:52
-msgid "Iptables essentials"
+#, no-wrap
+msgid "Iptables essentials\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:52
-msgid "Basic Packet Filtering"
+#, no-wrap
+msgid "Basic Packet Filtering\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:52
-msgid "Basic Packet Forwarding"
+#, no-wrap
+msgid "Basic Packet Forwarding\n"
 msgstr ""
 
 #. type: Title #
@@ -224,61 +240,65 @@ msgstr ""
 msgid "Lab 9: Cryptography"
 msgstr ""
 
-#. type: Title ###
+#. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:64
-#: ../src/docs/labs/security/lab9-cryptography.md:100
 #, no-wrap
-msgid "GnuPG"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/labs/security/index.md:64
-#: ../src/docs/labs/security/lab9-cryptography.md:222
-#, no-wrap
-msgid "Key Administration"
+msgid "GnuPG\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:64
-msgid "Revocation certificates"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/labs/security/index.md:64
-#: ../src/docs/labs/security/lab9-cryptography.md:347
 #, no-wrap
-msgid "Digital signatures"
+msgid "Key Administration\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:64
-msgid "Encrypting and decrypting files"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/labs/security/index.md:64
-#: ../src/docs/labs/security/lab9-cryptography.md:589
 #, no-wrap
-msgid "sshd"
+msgid "Revocation certificates\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:64
-msgid "scp"
+#, no-wrap
+msgid "Digital signatures\n"
 msgstr ""
 
-#. type: Title ###
+#. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:64
-#: ../src/docs/labs/security/lab9-cryptography.md:829
 #, no-wrap
-msgid "Authenticating via Public-Key"
+msgid "Encrypting and decrypting files\n"
 msgstr ""
 
-#. type: Title ###
+#. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:64
-#: ../src/docs/labs/security/lab9-cryptography.md:881
 #, no-wrap
-msgid "ssh-agent"
+msgid "sshd\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/labs/security/index.md:64
+#: ../src/docs/labs/security/lab9-cryptography.md:584
+#, no-wrap
+msgid "ssh\n"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:64
+#, no-wrap
+msgid "scp\n"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:64
+#, no-wrap
+msgid "Authenticating via Public-Key\n"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/labs/security/index.md:64
+#, no-wrap
+msgid "ssh-agent\n"
 msgstr ""
 
 #. type: Title ###
@@ -289,25 +309,30 @@ msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:70
-msgid "Installing GRsecurity"
+#, no-wrap
+msgid "Installing GRsecurity\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:70
-msgid "gradm"
+#, no-wrap
+msgid "gradm\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:70
-msgid "ACLs"
+#, no-wrap
+msgid "ACLs\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:70
-msgid "GRsecurity Learning mode"
+#, no-wrap
+msgid "GRsecurity Learning mode\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/labs/security/index.md:70
-msgid "SElinux"
+#, no-wrap
+msgid "SElinux\n"
 msgstr ""

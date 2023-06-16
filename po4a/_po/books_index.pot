@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,19 +36,12 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/index.md:10
-msgid ""
-"You've found the **Books** section of the documentation. This is where "
-"longer-form documentation is kept. These documents are broken down into "
-"sections or \"chapters\" to make it easy for you to work through them at "
-"your own pace and keep track of your progress. These documents were created "
-"by people just like you, with a passion for certain subjects."
+#, no-wrap
+msgid "You've found the **Books** section of the documentation. This is where longer-form documentation is kept. These documents are broken down into sections or \"chapters\" to make it easy for you to work through them at your own pace and keep track of your progress. These documents were created by people just like you, with a passion for certain subjects.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/index.md:11
-msgid ""
-"Do you want to try your hand at writing an addition to this section? That's "
-"GREAT! Simply join the conversation on the [Mattermost Documentation channel]"
-"(https://chat.rockylinux.org/rocky-linux/channels/documentation) and we will "
-"help you on your way."
+#, no-wrap
+msgid "Do you want to try your hand at writing an addition to this section? That's GREAT! Simply join the conversation on the [Mattermost Documentation channel](https://chat.rockylinux.org/rocky-linux/channels/documentation) and we will help you on your way.\n"
 msgstr ""

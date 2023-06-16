@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -138,8 +138,8 @@ msgstr ""
 #: ../src/docs/guides/security/dnf_automatic.md:67
 #: ../src/docs/guides/security/firewalld.md:102
 #: ../src/docs/labs/sys_admin_1/lab7-software_management.md:115
-#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:368
-msgid "!!! tip"
+#, no-wrap
+msgid "!!! tip\n"
 msgstr ""
 
 #. type: Title ##
@@ -182,7 +182,8 @@ msgstr ""
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:156
 #: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:44
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:152
-msgid "And then:"
+#, no-wrap
+msgid "And then:\n"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
@@ -212,7 +213,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/database/database_mariadb-server.md:20
-msgid "A Rocky Linux server"
+#, no-wrap
+msgid "A Rocky Linux server\n"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -220,8 +222,8 @@ msgstr ""
 #: ../src/docs/guides/file_sharing/glusterfs.md:15
 #: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
-msgid ""
-"Proficiency with a command-line editor (we are using _vi_ in this example)"
+#, no-wrap
+msgid "Proficiency with a command-line editor (we are using _vi_ in this example)\n"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -231,37 +233,32 @@ msgstr ""
 #: ../src/docs/guides/web/apache_hardened_webserver/index.md:22
 #: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:21
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
-msgid ""
-"A heavy comfort level with issuing commands from the command-line, viewing "
-"logs, and other general systems administrator duties"
+#, no-wrap
+msgid "A heavy comfort level with issuing commands from the command-line, viewing logs, and other general systems administrator duties\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/database/database_mariadb-server.md:20
-msgid "An understanding of _mariadb-server_ databases is helpful"
+#, no-wrap
+msgid "An understanding of _mariadb-server_ databases is helpful\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/database/database_mariadb-server.md:20
-msgid "All commands are run as the root user or _sudo_"
+#, no-wrap
+msgid "All commands are run as the root user or _sudo_\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/database/database_mariadb-server.md:24
-msgid ""
-"The _mariadb-server_ and it's client _mariadb_ are the open source "
-"alternatives to _mysql-server_ and _mysql_, and they share command "
-"structure. _mariadb-server_ can be found running on many web servers, due to "
-"the popular [Wordpress CMS](https://wordpress.org/) which requires it. This "
-"database, though, has many other uses."
+#, no-wrap
+msgid "The _mariadb-server_ and it's client _mariadb_ are the open source alternatives to _mysql-server_ and _mysql_, and they share command structure. _mariadb-server_ can be found running on many web servers, due to the popular [Wordpress CMS](https://wordpress.org/) which requires it. This database, though, has many other uses.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/database/database_mariadb-server.md:26
-msgid ""
-"If you'd like to use this along with other tools for hardening a web server, "
-"refer back to the [Apache Hardened Web Server guide](../web/"
-"apache_hardened_webserver/index.md)."
+#, no-wrap
+msgid "If you'd like to use this along with other tools for hardening a web server, refer back to the [Apache Hardened Web Server guide](../web/apache_hardened_webserver/index.md).\n"
 msgstr ""
 
 #. type: Title ##
@@ -272,12 +269,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/database/database_mariadb-server.md:30
-msgid "We need to install _mariadb-server_:"
+#, no-wrap
+msgid "We need to install _mariadb-server_:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/database/database_mariadb-server.md:32
-msgid "`dnf install mariadb-server`"
+#, no-wrap
+msgid "`dnf install mariadb-server`\n"
 msgstr ""
 
 #. type: Title ##
@@ -288,29 +287,32 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/database/database_mariadb-server.md:36
-msgid ""
-"To strengthen the security of _mariadb-server_ we need to run a script, but "
-"before we do, we need to enable and start mariadb:"
+#, no-wrap
+msgid "To strengthen the security of _mariadb-server_ we need to run a script, but before we do, we need to enable and start mariadb:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/database/database_mariadb-server.md:38
-msgid "`systemctl enable mariadb`"
+#, no-wrap
+msgid "`systemctl enable mariadb`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/database/database_mariadb-server.md:42
-msgid "`systemctl start mariadb`"
+#, no-wrap
+msgid "`systemctl start mariadb`\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/database/database_mariadb-server.md:44
-msgid "Next, run this command:"
+#, no-wrap
+msgid "Next, run this command:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/database/database_mariadb-server.md:46
-msgid "`mysql_secure_installation`"
+#, no-wrap
+msgid "`mysql_secure_installation`\n"
 msgstr ""
 
 #. type: Plain text
@@ -336,7 +338,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/database/database_mariadb-server.md:58
-msgid "This brings up a dialog:"
+#, no-wrap
+msgid "This brings up a dialog:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -356,14 +359,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/database/database_mariadb-server.md:72
-msgid ""
-"Since this is a brand new installation, there is no root password set. So "
-"just hit enter here."
+#, no-wrap
+msgid "Since this is a brand new installation, there is no root password set. So just hit enter here.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/database/database_mariadb-server.md:74
-msgid "The next part of the dialog continues:"
+#, no-wrap
+msgid "The next part of the dialog continues:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -380,11 +383,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/database/database_mariadb-server.md:85
-msgid ""
-"You absolutely _do_ want to have a root password set. You'll want to figure "
-"out what this should be and document it in a password manager somewhere so "
-"that you can pull it up if necessary. Start by hitting 'Enter' to accept the "
-"default \"Y\". This will bring up the password dialog:"
+#, no-wrap
+msgid "You absolutely _do_ want to have a root password set. You'll want to figure out what this should be and document it in a password manager somewhere so that you can pull it up if necessary. Start by hitting 'Enter' to accept the default \"Y\". This will bring up the password dialog:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -397,9 +397,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/database/database_mariadb-server.md:92
-msgid ""
-"Enter your chosen password and then confirm it by entering it again. If this "
-"is successful, you will get the following dialog:"
+#, no-wrap
+msgid "Enter your chosen password and then confirm it by entering it again. If this is successful, you will get the following dialog:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -413,7 +412,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/database/database_mariadb-server.md:100
-msgid "Next the dialog deals with the anonymous user:"
+#, no-wrap
+msgid "Next the dialog deals with the anonymous user:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -431,14 +431,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/database/database_mariadb-server.md:112
-msgid "The answer here is \"Y\" so just hit 'Enter' to accept the default."
+#, no-wrap
+msgid "The answer here is \"Y\" so just hit 'Enter' to accept the default.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/database/database_mariadb-server.md:114
-msgid ""
-"The dialog proceeds to the section dealing with allowing the root user to "
-"login remotely:"
+#, no-wrap
+msgid "The dialog proceeds to the section dealing with allowing the root user to login remotely:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -455,16 +455,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/database/database_mariadb-server.md:125
-msgid ""
-"root should only be needed locally on the machine. So accept this default as "
-"well by hitting 'Enter'."
+#, no-wrap
+msgid "root should only be needed locally on the machine. So accept this default as well by hitting 'Enter'.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/database/database_mariadb-server.md:127
-msgid ""
-"The dialog then moves on to the 'test' database that is automatically "
-"installed with _mariadb-server_:"
+#, no-wrap
+msgid "The dialog then moves on to the 'test' database that is automatically installed with _mariadb-server_:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -483,13 +481,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/database/database_mariadb-server.md:140
-msgid ""
-"Again, the answer here is the default, so just hit 'Enter' to remove it."
+#, no-wrap
+msgid "Again, the answer here is the default, so just hit 'Enter' to remove it.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/database/database_mariadb-server.md:142
-msgid "Finally, the dialog ask you if you want to reload the privileges:"
+#, no-wrap
+msgid "Finally, the dialog ask you if you want to reload the privileges:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -509,9 +508,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/database/database_mariadb-server.md:156
-msgid ""
-"Again, simply hit 'Enter' to do this. If all goes well, you should receive "
-"this message:"
+#, no-wrap
+msgid "Again, simply hit 'Enter' to do this. If all goes well, you should receive this message:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -530,7 +528,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/database/database_mariadb-server.md:169
-msgid "MariaDB should now be ready to use."
+#, no-wrap
+msgid "MariaDB should now be ready to use.\n"
 msgstr ""
 
 #. type: Title ###
@@ -541,26 +540,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/database/database_mariadb-server.md:173
-msgid ""
-"Rocky Linux 9.0 uses `mariadb-server-10.5.13-2` as the default mariadb-"
-"server version. As of version 10.4.3, a new plugin is automatically enabled "
-"in the server which changes the `mariadb-secure-installation` dialog. That "
-"plugin is `unix-socket` authentication. [This article](https://mariadb.com/"
-"kb/en/authentication-plugin-unix-socket/) explains the new feature well. "
-"Essentially, using `unix-socket` authentication uses the credentials of the "
-"logged in user to access the database. It makes it so that if the root user, "
-"for example, logs in and then uses `mysqladmin` to create or delete a "
-"database (or any other function) that no password is needed for access. Same "
-"works with `mysql`. It also means there is no password to compromise "
-"remotely. This depends on the security of the users setup on the server for "
-"all of the protection of the database."
+#, no-wrap
+msgid "Rocky Linux 9.0 uses `mariadb-server-10.5.13-2` as the default mariadb-server version. As of version 10.4.3, a new plugin is automatically enabled in the server which changes the `mariadb-secure-installation` dialog. That plugin is `unix-socket` authentication. [This article](https://mariadb.com/kb/en/authentication-plugin-unix-socket/) explains the new feature well. Essentially, using `unix-socket` authentication uses the credentials of the logged in user to access the database. It makes it so that if the root user, for example, logs in and then uses `mysqladmin` to create or delete a database (or any other function) that no password is needed for access. Same works with `mysql`. It also means there is no password to compromise remotely. This depends on the security of the users setup on the server for all of the protection of the database.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/database/database_mariadb-server.md:175
-msgid ""
-"The second dialog during the `mariadb-secure-installation` after the "
-"password is set for the administrative user is:"
+#, no-wrap
+msgid "The second dialog during the `mariadb-secure-installation` after the password is set for the administrative user is:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -571,11 +558,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/database/database_mariadb-server.md:181
-msgid ""
-"Obviously, the default here is \"Y\", but even if you answer \"n\", with the "
-"plugin enabled, no password is requested for the user, at least not from the "
-"command line interface. You can specify either password or no password and "
-"they both work:"
+#, no-wrap
+msgid "Obviously, the default here is \"Y\", but even if you answer \"n\", with the plugin enabled, no password is requested for the user, at least not from the command line interface. You can specify either password or no password and they both work:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -599,17 +583,12 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/database/database_mariadb-server.md:196
-msgid ""
-"For more information on this feature, refer to the link above. There is a "
-"way to switch off this plugin and go back to having the password as a "
-"required field, which is also detailed within that link."
+#, no-wrap
+msgid "For more information on this feature, refer to the link above. There is a way to switch off this plugin and go back to having the password as a required field, which is also detailed within that link.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/database/database_mariadb-server.md:199
-msgid ""
-"A database server, such as _mariadb-server_, can be used for many purposes. "
-"Because of the popularity of the Wordpress CMS, it is often found on web "
-"servers. Before we run the database in production, however, it is a good "
-"idea to strengthen its security."
+#, no-wrap
+msgid "A database server, such as _mariadb-server_, can be used for many purposes. Because of the popularity of the Wordpress CMS, it is often found on web servers. Before we run the database in production, however, it is a good idea to strengthen its security.\n"
 msgstr ""

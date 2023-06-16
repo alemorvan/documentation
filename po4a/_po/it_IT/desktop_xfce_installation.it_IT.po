@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -116,63 +116,40 @@ msgstr ""
 #: ../src/docs/guides/desktop/kde_installation.md:78
 #: ../src/docs/guides/desktop/mate_installation.md:76
 #: ../src/docs/guides/desktop/xfce_installation.md:81
-msgid ""
-"**Keyboard** - Take a look at this option and make sure that it matches up "
-"to the keyboard layout that you use."
-msgstr ""
-
-#. type: Bullet: '    2. '
-#: ../src/docs/guides/desktop/kde_installation.md:78
-#: ../src/docs/guides/desktop/mate_installation.md:76
-#: ../src/docs/guides/desktop/xfce_installation.md:81
-msgid "**Time & Date** - Make sure this matches up to your time zone."
+#, no-wrap
+msgid "**Keyboard** - Take a look at this option and make sure that it matches up to the keyboard layout that you use.\n"
 msgstr ""
 
 #. type: Bullet: '    3. '
 #: ../src/docs/guides/desktop/kde_installation.md:78
 #: ../src/docs/guides/desktop/mate_installation.md:76
 #: ../src/docs/guides/desktop/xfce_installation.md:81
-msgid ""
-"**Installation Destination** - You'll need to click into this option, even "
-"if it is just to accept what is already there."
+#, no-wrap
+msgid "**Installation Destination** - You'll need to click into this option, even if it is just to accept what is already there.\n"
 msgstr ""
 
 #. type: Bullet: '    4. '
 #: ../src/docs/guides/desktop/kde_installation.md:78
 #: ../src/docs/guides/desktop/mate_installation.md:76
 #: ../src/docs/guides/desktop/xfce_installation.md:81
-msgid ""
-"**Network & Host Name** - Verify that you have what you want here. As long "
-"as the network is enabled, you can always change this later if you need to."
+#, no-wrap
+msgid "**Network & Host Name** - Verify that you have what you want here. As long as the network is enabled, you can always change this later if you need to.\n"
 msgstr ""
 
 #. type: Bullet: '    5. '
 #: ../src/docs/guides/desktop/kde_installation.md:78
 #: ../src/docs/guides/desktop/mate_installation.md:76
 #: ../src/docs/guides/desktop/xfce_installation.md:81
-msgid ""
-"**Root Password** - Go ahead and set a root password. Remember to save this "
-"somewhere safe (password manager), particularly if it isn't something you "
-"will be using often."
-msgstr ""
-
-#. type: Bullet: '    6. '
-#: ../src/docs/guides/desktop/kde_installation.md:78
-#: ../src/docs/guides/desktop/mate_installation.md:76
-#: ../src/docs/guides/desktop/xfce_installation.md:81
-msgid ""
-"**User Creation** - Definitely create at least one user. If you want the "
-"user to have administrative rights, remember to set this option when "
-"creating the user."
+#, no-wrap
+msgid "**Root Password** - Go ahead and set a root password. Remember to save this somewhere safe (password manager), particularly if it isn't something you will be using often.\n"
 msgstr ""
 
 #. type: Bullet: '    7. '
 #: ../src/docs/guides/desktop/kde_installation.md:78
 #: ../src/docs/guides/desktop/mate_installation.md:76
 #: ../src/docs/guides/desktop/xfce_installation.md:81
-msgid ""
-"**Begin Installation** - Once all of the settings have been set or verified, "
-"go ahead and click this option."
+#, no-wrap
+msgid "**Begin Installation** - Once all of the settings have been set or verified, go ahead and click this option.\n"
 msgstr ""
 
 #. type: Plain text
@@ -180,7 +157,8 @@ msgstr ""
 #: ../src/docs/guides/desktop/xfce_installation.md:23
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:237
 #: ../src/docs/guides/network/basic_network_configuration.md:23
-msgid "=== \"9\""
+#, no-wrap
+msgid "=== \"9\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -218,7 +196,8 @@ msgstr ""
 #: ../src/docs/guides/desktop/xfce_installation.md:99
 #: ../src/docs/guides/dns/private_dns_server_using_bind.md:411
 #: ../src/docs/guides/network/basic_network_configuration.md:359
-msgid "=== \"8\""
+#, no-wrap
+msgid "=== \"8\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -239,14 +218,16 @@ msgstr ""
 #: ../src/docs/guides/desktop/mate_installation.md:154
 #: ../src/docs/guides/desktop/xfce_installation.md:110
 #: ../src/docs/guides/web/mod_SSL_apache.md:25
-msgid "Minimal"
+#, no-wrap
+msgid "Minimal\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/desktop/mate_installation.md:154
 #: ../src/docs/guides/desktop/xfce_installation.md:110
 #: ../src/docs/guides/web/mod_SSL_apache.md:25
-msgid "Standard"
+#, no-wrap
+msgid "Standard\n"
 msgstr ""
 
 #. type: Plain text
@@ -296,31 +277,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/desktop/xfce_installation.md:14
-msgid ""
-"The XFCE desktop environment was created as a fork of the Common Desktop "
-"Environment (CDE). XFCE embodies the traditional Unix philosophy of "
-"modularity and re-usability. XFCE can be installed on almost any version of "
-"Linux, including Rocky Linux."
+#, no-wrap
+msgid "The XFCE desktop environment was created as a fork of the Common Desktop Environment (CDE). XFCE embodies the traditional Unix philosophy of modularity and re-usability. XFCE can be installed on almost any version of Linux, including Rocky Linux.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/desktop/xfce_installation.md:16
-msgid ""
-"It is also one of the easiest desktop environments to combine with alternate "
-"window managers, such as awesome or i3. This procedure, however is designed "
-"to get you up and running with Rocky Linux using a more typical XFCE "
-"installation."
+#, no-wrap
+msgid "It is also one of the easiest desktop environments to combine with alternate window managers, such as awesome or i3. This procedure, however is designed to get you up and running with Rocky Linux using a more typical XFCE installation.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/desktop/xfce_installation.md:21
-msgid "A Workstation or Laptop"
+#, no-wrap
+msgid "A Workstation or Laptop\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/desktop/xfce_installation.md:21
-msgid ""
-"A desire to run XFCE as your desktop instead of the default GNOME desktop"
+#, no-wrap
+msgid "A desire to run XFCE as your desktop instead of the default GNOME desktop\n"
 msgstr ""
 
 #. type: Plain text
@@ -449,6 +425,18 @@ msgstr ""
 #: ../src/docs/guides/desktop/xfce_installation.md:73
 #, no-wrap
 msgid "    ![xfce_install2](images/xfce_install_2.png)\n"
+msgstr ""
+
+#. type: Bullet: '    2. '
+#: ../src/docs/guides/desktop/xfce_installation.md:81
+#, no-wrap
+msgid "**Time & Date** - Make sure this matches up to your time zone.\n"
+msgstr ""
+
+#. type: Bullet: '    6. '
+#: ../src/docs/guides/desktop/xfce_installation.md:81
+#, no-wrap
+msgid "**User Creation** - Definitely create at least one user. If you want the user to have administrative rights, remember to set this option when creating the user.\n"
 msgstr ""
 
 #. type: Plain text
@@ -750,9 +738,6 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/desktop/xfce_installation.md:220
-msgid ""
-"XFCE is a light environment with simple interface. It is an alternative to "
-"the default GNOME desktop on Rocky Linux. If you are running Rocky Linux 9, "
-"the developers have created a handy live image that speeds up the "
-"installation process."
+#, no-wrap
+msgid "XFCE is a light environment with simple interface. It is an alternative to the default GNOME desktop on Rocky Linux. If you are running Rocky Linux 9, the developers have created a handy live image that speeds up the installation process.\n"
 msgstr ""

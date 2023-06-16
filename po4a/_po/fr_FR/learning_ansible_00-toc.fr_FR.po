@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: 2023-06-14 07:11+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -26,10 +26,6 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/learning_ansible/00-toc.md:7
-msgid ""
-"Ansible is a simple, yet powerful, automation engine for Linux. This "
-"tutorial will guide you through the concepts of using Ansible to automate "
-"your IT tasks in a way that is (hopefully) fun and informative. Using the "
-"exercises throughout these chapters, will help you gain a comfort level with "
-"Ansible in real-world applications."
+#, no-wrap
+msgid "Ansible is a simple, yet powerful, automation engine for Linux. This tutorial will guide you through the concepts of using Ansible to automate your IT tasks in a way that is (hopefully) fun and informative. Using the exercises throughout these chapters, will help you gain a comfort level with Ansible in real-world applications.\n"
 msgstr ""

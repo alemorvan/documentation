@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,7 +46,8 @@ msgstr ""
 #: ../src/docs/guides/proxies/pound.md:62
 #: ../src/docs/guides/proxies/pound.md:418 ../src/docs/index.md:40
 #: ../src/docs/release_notes/9_1.md:16
-msgid "!!! note"
+#, no-wrap
+msgid "!!! note\n"
 msgstr ""
 
 #. type: Title ###
@@ -129,7 +130,8 @@ msgstr ""
 #: ../src/docs/guides/package_management/index.md:10
 #: ../src/docs/guides/proxies/pound.md:211
 #: ../src/docs/guides/proxies/pound.md:265 ../src/docs/release_notes/8_4.md:20
-msgid "!!! warning"
+#, no-wrap
+msgid "!!! warning\n"
 msgstr ""
 
 #. type: YAML Front Matter: tags
@@ -232,8 +234,8 @@ msgstr ""
 #: ../src/docs/guides/security/dnf_automatic.md:67
 #: ../src/docs/guides/security/firewalld.md:102
 #: ../src/docs/labs/sys_admin_1/lab7-software_management.md:115
-#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:368
-msgid "!!! tip"
+#, no-wrap
+msgid "!!! tip\n"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
@@ -308,8 +310,6 @@ msgstr ""
 #. type: Title ###
 #: ../src/docs/guides/file_sharing/sftp.md:1
 #: ../src/docs/guides/security/ssh_public_private_keys.md:1
-#: ../src/docs/labs/security/index.md:64
-#: ../src/docs/labs/security/lab9-cryptography.md:584
 #: ../src/docs/labs/security/lab9-cryptography.md:693
 #, no-wrap
 msgid "ssh"
@@ -342,57 +342,44 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:21
-msgid ""
-"There are many documents out there that deal with creating an SFTP change "
-"root jail, but most do not take into account a use case where the user that "
-"is set up would be accessing a web directory on a server with multiple "
-"websites. This document deals with that. If that isn't your use case, you "
-"can easily adapt these concepts to use in different situations."
+#, no-wrap
+msgid "There are many documents out there that deal with creating an SFTP change root jail, but most do not take into account a use case where the user that is set up would be accessing a web directory on a server with multiple websites. This document deals with that. If that isn't your use case, you can easily adapt these concepts to use in different situations.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:23
-msgid ""
-"The author also feels that it is necessary when making the change root jail "
-"document for SFTP to also discuss the other things that you should do as a "
-"system administrator to minimize the target that you offer to the world via "
-"SSH. For this reason, this document is divided into four parts:"
+#, no-wrap
+msgid "The author also feels that it is necessary when making the change root jail document for SFTP to also discuss the other things that you should do as a system administrator to minimize the target that you offer to the world via SSH. For this reason, this document is divided into four parts:\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/guides/file_sharing/sftp.md:28
-msgid ""
-"The first deals with the general information that we will use for the entire "
-"document."
+#, no-wrap
+msgid "The first deals with the general information that we will use for the entire document.\n"
 msgstr ""
 
 #. type: Bullet: '2. '
 #: ../src/docs/guides/file_sharing/sftp.md:28
-msgid ""
-"The second deals with the setup of the change root jail, and if you decide "
-"that you want to stop there, that's totally up to you."
+#, no-wrap
+msgid "The second deals with the setup of the change root jail, and if you decide that you want to stop there, that's totally up to you.\n"
 msgstr ""
 
 #. type: Bullet: '3. '
 #: ../src/docs/guides/file_sharing/sftp.md:28
-msgid ""
-"The third part deals with setting up public/private key SSH access for your "
-"system administrators and turning off remote password-based authentication."
+#, no-wrap
+msgid "The third part deals with setting up public/private key SSH access for your system administrators and turning off remote password-based authentication.\n"
 msgstr ""
 
 #. type: Bullet: '4. '
 #: ../src/docs/guides/file_sharing/sftp.md:28
-msgid ""
-"The fourth, and last section of this document deals with turning off remote "
-"root logins."
+#, no-wrap
+msgid "The fourth, and last section of this document deals with turning off remote root logins.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:30
-msgid ""
-"Taking all of these steps will allow you to offer secure SFTP access for "
-"your customers while also minimizing the possibility that port 22 (the one "
-"reserved for SSH access) will be compromised by a bad actor."
+#, no-wrap
+msgid "Taking all of these steps will allow you to offer secure SFTP access for your customers while also minimizing the possibility that port 22 (the one reserved for SSH access) will be compromised by a bad actor.\n"
 msgstr ""
 
 #. type: Plain text
@@ -415,7 +402,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:38
-msgid "!!! tip \"Updates for Rocky Linux 8.6\""
+#, no-wrap
+msgid "!!! tip \"Updates for Rocky Linux 8.6\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -438,38 +426,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:46
-msgid "We assume that:"
+#, no-wrap
+msgid "We assume that:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:52
-msgid "you are comfortable executing commands at the command line."
+#, no-wrap
+msgid "you are comfortable executing commands at the command line.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:52
-msgid ""
-"you can use a command line editor, such as `vi` (used here), `nano`, "
-"`micro`, etc."
+#, no-wrap
+msgid "you can use a command line editor, such as `vi` (used here), `nano`, `micro`, etc.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:52
-msgid ""
-"you understand basic Linux commands used for adding groups and users, or can "
-"follow along well."
+#, no-wrap
+msgid "you understand basic Linux commands used for adding groups and users, or can follow along well.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:52
-msgid ""
-"your multisite website is set up like this: [Apache Multisite](../../web/"
-"apache-sites-enabled/)"
+#, no-wrap
+msgid "your multisite website is set up like this: [Apache Multisite](../../web/apache-sites-enabled/)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:52
-msgid "`httpd` (Apache) has already been installed on the server."
+#, no-wrap
+msgid "`httpd` (Apache) has already been installed on the server.\n"
 msgstr ""
 
 #. type: Plain text
@@ -486,9 +474,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:60
-msgid ""
-"Everything is made up here. Any resemblance to persons or sites that are "
-"real, is purely accidental:"
+#, no-wrap
+msgid "Everything is made up here. Any resemblance to persons or sites that are real, is purely accidental:\n"
 msgstr ""
 
 #. type: Plain text
@@ -515,12 +502,14 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:72
-msgid "Steve Simpson = ssimpson"
+#, no-wrap
+msgid "Steve Simpson = ssimpson\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:72
-msgid "Laura Blakely = lblakely"
+#, no-wrap
+msgid "Laura Blakely = lblakely\n"
 msgstr ""
 
 #. type: Title ##
@@ -531,9 +520,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:78
-msgid ""
-"Installation is simple. You just need to have openssh-server installed, "
-"which is probably installed already. Enter this command to be sure:"
+#, no-wrap
+msgid "Installation is simple. You just need to have openssh-server installed, which is probably installed already. Enter this command to be sure:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -556,15 +544,14 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:88
-msgid ""
-"The directory path structure will be `/var/www/sub-domains/[ext.domainname]/"
-"html` and the `html` directory in this path will be the change root jail for "
-"the SFTP user."
+#, no-wrap
+msgid "The directory path structure will be `/var/www/sub-domains/[ext.domainname]/html` and the `html` directory in this path will be the change root jail for the SFTP user.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:90
-msgid "Creating the configuration directories:"
+#, no-wrap
+msgid "Creating the configuration directories:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -577,7 +564,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:97
-msgid "Creating the web directories:"
+#, no-wrap
+msgid "Creating the web directories:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -590,9 +578,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:103
-msgid ""
-"We will deal with the ownership of these directories in the script "
-"application found below."
+#, no-wrap
+msgid "We will deal with the ownership of these directories in the script application found below.\n"
 msgstr ""
 
 #. type: Title ###
@@ -603,15 +590,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:107
-msgid ""
-"We need to modify the built-in `httpd.conf` file to make it load the "
-"configuration files in the `/etc/httpd/sites-enabled` directory. This is "
-"done with one line at the bottom of the `httpd.conf` file."
+#, no-wrap
+msgid "We need to modify the built-in `httpd.conf` file to make it load the configuration files in the `/etc/httpd/sites-enabled` directory. This is done with one line at the bottom of the `httpd.conf` file.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:109
-msgid "Edit the file with your favorite editor. I'm using `vi` here:"
+#, no-wrap
+msgid "Edit the file with your favorite editor. I'm using `vi` here:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -624,7 +610,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:114
-msgid "and add this at the very bottom of the file:"
+#, no-wrap
+msgid "and add this at the very bottom of the file:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -636,7 +623,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:119
-msgid "Then save the file and exit."
+#, no-wrap
+msgid "Then save the file and exit.\n"
 msgstr ""
 
 #. type: Title ###
@@ -647,9 +635,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:123
-msgid ""
-"We need two sites created. We will create the configurations in `/etc/httpd/"
-"sites-available` and then link them to `../sites-enabled`:"
+#, no-wrap
+msgid "We need two sites created. We will create the configurations in `/etc/httpd/sites-available` and then link them to `../sites-enabled`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -695,7 +682,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:157
 #: ../src/docs/guides/file_sharing/sftp.md:187
-msgid "Save this file and exit."
+#, no-wrap
+msgid "Save this file and exit.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -734,9 +722,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:189
-msgid ""
-"Once the two configuration files are created, go ahead and link them from "
-"within `/etc/httpd/sites-enabled`:"
+#, no-wrap
+msgid "Once the two configuration files are created, go ahead and link them from within `/etc/httpd/sites-enabled`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -749,7 +736,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:195
-msgid "Now enable and start the `httpd` process:"
+#, no-wrap
+msgid "Now enable and start the `httpd` process:\n"
 msgstr ""
 
 #. type: Title ####
@@ -761,12 +749,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:203
-msgid ""
-"For our example environment, we are assuming that none of the users are set "
-"up. Let's start with our administrative users. Note that at this point in "
-"our process, we can still log in as the root user to add the other users and "
-"set them up the way we want. We will remove root logins once we have the "
-"users set up and tested."
+#, no-wrap
+msgid "For our example environment, we are assuming that none of the users are set up. Let's start with our administrative users. Note that at this point in our process, we can still log in as the root user to add the other users and set them up the way we want. We will remove root logins once we have the users set up and tested.\n"
 msgstr ""
 
 #. type: Title ####
@@ -785,16 +769,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:211
-msgid "By adding our users to the group \"wheel\" we give them `sudo` access."
+#, no-wrap
+msgid "By adding our users to the group \"wheel\" we give them `sudo` access.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:213
-msgid ""
-"You still need a password for `sudo` access. There are ways around this, but "
-"none are all that secure. Frankly, if you have problems with security using "
-"`sudo` on your server, then you've got much bigger problems with your entire "
-"setup. Set the two administrative passwords with secure passwords:"
+#, no-wrap
+msgid "You still need a password for `sudo` access. There are ways around this, but none are all that secure. Frankly, if you have problems with security using `sudo` on your server, then you've got much bigger problems with your entire setup. Set the two administrative passwords with secure passwords:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -816,30 +798,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:229
-msgid ""
-"Now test access to the server via ssh for your two administrative users. You "
-"should be able to:"
+#, no-wrap
+msgid "Now test access to the server via ssh for your two administrative users. You should be able to:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:232
-msgid ""
-"use `ssh` to log in as one of the administrative users to the server. "
-"(Example: `ssh lblakely@192.168.1.116` or `ssh lblakely@mywebserver.com`)"
+#, no-wrap
+msgid "use `ssh` to log in as one of the administrative users to the server. (Example: `ssh lblakely@192.168.1.116` or `ssh lblakely@mywebserver.com`)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:232
-msgid ""
-"once the server is accessed, you should be able to access root with `sudo -"
-"s` and entering the administrative user's password."
+#, no-wrap
+msgid "once the server is accessed, you should be able to access root with `sudo -s` and entering the administrative user's password.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:234
-msgid ""
-"If this works for both administrative users, you should be ready to go to "
-"the next step."
+#, no-wrap
+msgid "If this works for both administrative users, you should be ready to go to the next step.\n"
 msgstr ""
 
 #. type: Title ####
@@ -850,11 +828,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:238
-msgid ""
-"We need to add our web users. That `../html` directory structure already "
-"exists, so we don't want to create it when we add the user, but we *do* want "
-"to specify it. We also do not want any login other than via SFTP so we need "
-"to use a shell that denies logins."
+#, no-wrap
+msgid "We need to add our web users. That `../html` directory structure already exists, so we don't want to create it when we add the user, but we *do* want to specify it. We also do not want any login other than via SFTP so we need to use a shell that denies logins.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -867,34 +842,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:245
-msgid "Let's break down those commands a bit:"
+#, no-wrap
+msgid "Let's break down those commands a bit:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:251
-msgid ""
-"The `-M` option says to *not* create the standard home directory for the "
-"user."
+#, no-wrap
+msgid "The `-M` option says to *not* create the standard home directory for the user.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:251
-msgid "`-d` specifies that what comes after is the *actual* home directory."
+#, no-wrap
+msgid "`-d` specifies that what comes after is the *actual* home directory.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:251
-msgid "`-g` says that the group that this user belongs to is `apache`."
+#, no-wrap
+msgid "`-g` says that the group that this user belongs to is `apache`.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:251
-msgid "`-s` says that the shell the user is assigned is `/usr/sbin/nologin`"
+#, no-wrap
+msgid "`-s` says that the shell the user is assigned is `/usr/sbin/nologin`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:251
-msgid "At the end is the actual username for the user."
+#, no-wrap
+msgid "At the end is the actual username for the user.\n"
 msgstr ""
 
 #. type: Plain text
@@ -905,10 +884,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:255
-msgid ""
-"Our SFTP users still need a password. So let's go ahead and setup a secure "
-"password for each now. Since we have already seen the command output above, "
-"we won't be repeating it here:"
+#, no-wrap
+msgid "Our SFTP users still need a password. So let's go ahead and setup a secure password for each now. Since we have already seen the command output above, we won't be repeating it here:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -943,16 +920,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:272
-msgid ""
-"We need to make one change to the `/etc/ssh/sshd_config` file and then we "
-"are going to build a template so that we can make our web directory changes "
-"outside of the configuration file and script the additions we are going to "
-"need."
+#, no-wrap
+msgid "We need to make one change to the `/etc/ssh/sshd_config` file and then we are going to build a template so that we can make our web directory changes outside of the configuration file and script the additions we are going to need.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:274
-msgid "First, let's make the manual change we need:"
+#, no-wrap
+msgid "First, let's make the manual change we need:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -965,7 +940,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:280
-msgid "Near the bottom of the file, you will find this:"
+#, no-wrap
+msgid "Near the bottom of the file, you will find this:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -978,7 +954,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:287
-msgid "We want to change that to read as follows:"
+#, no-wrap
+msgid "We want to change that to read as follows:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -992,17 +969,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:294
-msgid "Save and exit the file."
+#, no-wrap
+msgid "Save and exit the file.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:296
-msgid ""
-"Just like before, let's describe what we are doing a little here. Both the "
-"`sftp-server` and `internal-sftp` are part of OpenSSH. The `internal-sftp`, "
-"while not too different from the `sftp-server`, simplifies configurations "
-"using `ChrootDirectory` to force a different file system root on clients. So "
-"that is why we want to use `internal-sftp`."
+#, no-wrap
+msgid "Just like before, let's describe what we are doing a little here. Both the `sftp-server` and `internal-sftp` are part of OpenSSH. The `internal-sftp`, while not too different from the `sftp-server`, simplifies configurations using `ChrootDirectory` to force a different file system root on clients. So that is why we want to use `internal-sftp`.\n"
 msgstr ""
 
 #. type: Title ###
@@ -1013,12 +987,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:300
-msgid ""
-"Why are we creating a template and a script for this next part? The reason "
-"is simply to avoid human error as much as possible. We aren't done modifying "
-"that `/etc/ssh/sshd_config` file yet, but we want to eliminate as many "
-"errors as possible whenever we need to make these modifications. We will "
-"create all of this in `/usr/local/sbin`."
+#, no-wrap
+msgid "Why are we creating a template and a script for this next part? The reason is simply to avoid human error as much as possible. We aren't done modifying that `/etc/ssh/sshd_config` file yet, but we want to eliminate as many errors as possible whenever we need to make these modifications. We will create all of this in `/usr/local/sbin`.\n"
 msgstr ""
 
 #. type: Title ####
@@ -1029,7 +999,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:304
-msgid "First, let's create our template:"
+#, no-wrap
+msgid "First, let's create our template:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1040,7 +1011,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:310
-msgid "This template should have the following:"
+#, no-wrap
+msgid "This template should have the following:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1063,9 +1035,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:325
-msgid ""
-"We want a directory for our user files that we will create from the template "
-"too:"
+#, no-wrap
+msgid "We want a directory for our user files that we will create from the template too:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1076,7 +1047,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:332
-msgid "=== \"8.6 & 9.0\""
+#, no-wrap
+msgid "=== \"8.6 & 9.0\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -1365,32 +1337,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:486
-msgid ""
-"A couple of things to know about the script and about an SFTP change root in "
-"general. First, we are prompting for the needed information and then echoing "
-"it back to the user so they can verify it. If we answer \"N\" to the "
-"confirmation question, the script bails and does nothing. The script for 8.5 "
-"makes a backup of `sshd_config` (`/etc/ssh/sshd_config.bak`) the way it was "
-"prior to our running of the script. The 8.6 or 9.0 script does the same for "
-"the `sftp_config` file (`/etc/ssh/sftp/sftp_config.bak`). In this way, if we "
-"screw something up with an entry, we can simply restore the appropriate "
-"backup file and then restart `sshd` to get things working again."
+#, no-wrap
+msgid "A couple of things to know about the script and about an SFTP change root in general. First, we are prompting for the needed information and then echoing it back to the user so they can verify it. If we answer \"N\" to the confirmation question, the script bails and does nothing. The script for 8.5 makes a backup of `sshd_config` (`/etc/ssh/sshd_config.bak`) the way it was prior to our running of the script. The 8.6 or 9.0 script does the same for the `sftp_config` file (`/etc/ssh/sftp/sftp_config.bak`). In this way, if we screw something up with an entry, we can simply restore the appropriate backup file and then restart `sshd` to get things working again.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:488
-msgid ""
-"The SFTP change root requires that the path given in the `sshd_config` is "
-"owned by root. For this reason, we do not need the `html` directory added to "
-"the end of the path. Once the user is authenticated, the change root will "
-"switch the user's home directory, in this case the `../html` directory, to "
-"whichever domain we are entering. Our script has appropriately changed the "
-"owner of the `../html` directory to the sftpuser and the apache group."
+#, no-wrap
+msgid "The SFTP change root requires that the path given in the `sshd_config` is owned by root. For this reason, we do not need the `html` directory added to the end of the path. Once the user is authenticated, the change root will switch the user's home directory, in this case the `../html` directory, to whichever domain we are entering. Our script has appropriately changed the owner of the `../html` directory to the sftpuser and the apache group.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:490
-msgid "!!! warning \"Script Compatibility\""
+#, no-wrap
+msgid "!!! warning \"Script Compatibility\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -1401,7 +1361,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:494
-msgid "Now that our script is created, let's make it executable:"
+#, no-wrap
+msgid "Now that our script is created, let's make it executable:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1412,7 +1373,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:500
-msgid "Then run the script for our two test domains."
+#, no-wrap
+msgid "Then run the script for our two test domains.\n"
 msgstr ""
 
 #. type: Title ###
@@ -1423,9 +1385,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:504
-msgid ""
-"First, test using `ssh` from another machine to our host machine as one of "
-"the SFTP users. You should receive this after entering a password:"
+#, no-wrap
+msgid "First, test using `ssh` from another machine to our host machine as one of the SFTP users. You should receive this after entering a password:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1442,43 +1403,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:511
-msgid ""
-"If you *do* receive that message, then the next thing is to test SFTP "
-"access. If you would like to do things the easy way, you can use a graphical "
-"FTP application that supports SFTP such as Filezilla. In such cases, your "
-"fields would look something like this:"
+#, no-wrap
+msgid "If you *do* receive that message, then the next thing is to test SFTP access. If you would like to do things the easy way, you can use a graphical FTP application that supports SFTP such as Filezilla. In such cases, your fields would look something like this:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:516
-msgid "**Host:** sftp://hostname_or_IP_of_the_server"
+#, no-wrap
+msgid "**Host:** sftp://hostname_or_IP_of_the_server\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:516
-msgid "**Username:** (Example: myfixed)"
+#, no-wrap
+msgid "**Username:** (Example: myfixed)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:516
-msgid "**Password:** (the password of the SFTP user)"
+#, no-wrap
+msgid "**Password:** (the password of the SFTP user)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:516
-msgid ""
-"**Port:** (You shouldn't need to enter one, provided you are using SSH and "
-"SFTP on the default port 22)"
+#, no-wrap
+msgid "**Port:** (You shouldn't need to enter one, provided you are using SSH and SFTP on the default port 22)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:518
-msgid ""
-"Once filled in, you can click the \"Quickconnect\" (Filezilla) button and "
-"you should be connected to the `../html` directory of the appropriate site. "
-"Then double-click on the \"html\" directory to put yourself inside it and "
-"try to drop a file into the directory. If you are successful, then you are "
-"good."
+#, no-wrap
+msgid "Once filled in, you can click the \"Quickconnect\" (Filezilla) button and you should be connected to the `../html` directory of the appropriate site. Then double-click on the \"html\" directory to put yourself inside it and try to drop a file into the directory. If you are successful, then you are good.\n"
 msgstr ""
 
 #. type: Title ####
@@ -1489,56 +1445,56 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:522
-msgid ""
-"You can obviously do all of this from the command line on a machine that has "
-"SSH installed (most Linux installations). Here's a very brief overview of "
-"the command line method for connection and a few options:"
+#, no-wrap
+msgid "You can obviously do all of this from the command line on a machine that has SSH installed (most Linux installations). Here's a very brief overview of the command line method for connection and a few options:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:530
-msgid ""
-"sftp username (Example: myfixed@ hostname or IP of the server: sftp "
-"myfixed@192.168.1.116)"
+#, no-wrap
+msgid "sftp username (Example: myfixed@ hostname or IP of the server: sftp myfixed@192.168.1.116)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:530
-msgid "Enter the password when prompted"
+#, no-wrap
+msgid "Enter the password when prompted\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:530
-msgid "cd html (change to the html directory)"
+#, no-wrap
+msgid "cd html (change to the html directory)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:530
-msgid "pwd (should show that you are in the html directory)"
+#, no-wrap
+msgid "pwd (should show that you are in the html directory)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:530
-msgid "lpwd (should show your local working directory)"
+#, no-wrap
+msgid "lpwd (should show your local working directory)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:530
-msgid ""
-"lcd PATH (should change your local working directory to something you want "
-"to use)"
+#, no-wrap
+msgid "lcd PATH (should change your local working directory to something you want to use)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:530
-msgid "put filename (will copy a file to `..html` directory)"
+#, no-wrap
+msgid "put filename (will copy a file to `..html` directory)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:532
-msgid ""
-"For an exhaustive list of options and more, take a look at the [SFTP manual "
-"page](https://man7.org/linux/man-pages/man1/sftp.1.html)."
+#, no-wrap
+msgid "For an exhaustive list of options and more, take a look at the [SFTP manual page](https://man7.org/linux/man-pages/man1/sftp.1.html).\n"
 msgstr ""
 
 #. type: Title ###
@@ -1549,14 +1505,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:536
-msgid ""
-"For our dummy domains, we want to create a couple of `index.html` files that "
-"we can populate the `../html` directory with. Once these are created, you "
-"simply need to put them in the directory for each domain using the SFTP "
-"credentials for that domain. These files are super simple. We just want "
-"something so that we can see definitively that our sites are up and running "
-"and that the SFTP portion is working as expected. Here's an example of this "
-"file. You can of course modify it as you like:"
+#, no-wrap
+msgid "For our dummy domains, we want to create a couple of `index.html` files that we can populate the `../html` directory with. Once these are created, you simply need to put them in the directory for each domain using the SFTP credentials for that domain. These files are super simple. We just want something so that we can see definitively that our sites are up and running and that the SFTP portion is working as expected. Here's an example of this file. You can of course modify it as you like:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1585,11 +1535,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:555
-msgid ""
-"To test that these files show up and load as expected, you simply need to "
-"modify your hosts file on your workstation. For Linux, that would be `sudo "
-"vi /etc/hosts` and then simply add in the IP and host names we are testing "
-"with like this:"
+#, no-wrap
+msgid "To test that these files show up and load as expected, you simply need to modify your hosts file on your workstation. For Linux, that would be `sudo vi /etc/hosts` and then simply add in the IP and host names we are testing with like this:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1615,11 +1562,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:573
-msgid ""
-"Now, open your web browser and check to make sure that your `index.html` "
-"file for each domain displays by entering the URL in your browser's address "
-"bar. (Example: \"http://site1.com\") If your test index files load, "
-"everything is working correctly."
+#, no-wrap
+msgid "Now, open your web browser and check to make sure that your `index.html` file for each domain displays by entering the URL in your browser's address bar. (Example: \"http://site1.com\") If your test index files load, everything is working correctly.\n"
 msgstr ""
 
 #. type: Title ##
@@ -1630,11 +1574,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:577
-msgid ""
-"Please note that we will be using concepts discussed in the document [SSH "
-"Public and Private Keys](../../security/ssh_public_private_keys) in this "
-"section, but also improving on it. If you are new to the process, feel free "
-"to read that article first before continuing."
+#, no-wrap
+msgid "Please note that we will be using concepts discussed in the document [SSH Public and Private Keys](../../security/ssh_public_private_keys) in this section, but also improving on it. If you are new to the process, feel free to read that article first before continuing.\n"
 msgstr ""
 
 #. type: Title ###
@@ -1645,9 +1586,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:581
-msgid ""
-"From one of the administrative user's workstations command line, (Example: "
-"lblakely) do the following:"
+#, no-wrap
+msgid "From one of the administrative user's workstations command line, (Example: lblakely) do the following:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1659,7 +1599,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:587
-msgid "Which will give you this:"
+#, no-wrap
+msgid "Which will give you this:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1672,9 +1613,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:594
-msgid ""
-"Hit enter to create the private key in the location shown. This will give "
-"you this dialog:"
+#, no-wrap
+msgid "Hit enter to create the private key in the location shown. This will give you this dialog:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1685,9 +1625,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:600
-msgid ""
-"You will need to decide personally whether you need a passphrase for this "
-"step. The author always just hits enter here."
+#, no-wrap
+msgid "You will need to decide personally whether you need a passphrase for this step. The author always just hits enter here.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1698,14 +1637,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:606
-msgid "Repeat whatever passphrase you entered earlier or hit enter for none."
+#, no-wrap
+msgid "Repeat whatever passphrase you entered earlier or hit enter for none.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:608
-msgid ""
-"At this point both the public and private keys have been created. Repeat "
-"this step for our other system administrator example user."
+#, no-wrap
+msgid "At this point both the public and private keys have been created. Repeat this step for our other system administrator example user.\n"
 msgstr ""
 
 #. type: Title ###
@@ -1722,9 +1661,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:614
-msgid ""
-"Once the key is created, the user can send the key to the server securely "
-"with `ssh-id-copy`:"
+#, no-wrap
+msgid "Once the key is created, the user can send the key to the server securely with `ssh-id-copy`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1735,9 +1673,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:620
-msgid ""
-"The server will prompt for the user's password one time, and then copy the "
-"key into authorized_keys. You'll get this message as well:"
+#, no-wrap
+msgid "The server will prompt for the user's password one time, and then copy the key into authorized_keys. You'll get this message as well:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1752,9 +1689,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:629
-msgid ""
-"If you are able to login with this account, repeat the process with the "
-"other administrator."
+#, no-wrap
+msgid "If you are able to login with this account, repeat the process with the other administrator.\n"
 msgstr ""
 
 #. type: Title ###
@@ -1765,19 +1701,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:633
-msgid ""
-"Assuming that all of the above has worked out as planned and our keys for "
-"our administrators are now in place on the SFTP server, let's turn off "
-"password authentication on the server. For safety sake, make sure that you "
-"have two connections to the server so that you can reverse any changes if "
-"you have unintended consequences."
+#, no-wrap
+msgid "Assuming that all of the above has worked out as planned and our keys for our administrators are now in place on the SFTP server, let's turn off password authentication on the server. For safety sake, make sure that you have two connections to the server so that you can reverse any changes if you have unintended consequences.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:635
-msgid ""
-"To accomplish this step, we need to modify the `sshd_config` once again, and "
-"just like before, we want to make a backup of the file first:"
+#, no-wrap
+msgid "To accomplish this step, we need to modify the `sshd_config` once again, and just like before, we want to make a backup of the file first:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1789,14 +1720,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:641
-msgid "Next, edit the `sshd_config` file:"
+#, no-wrap
+msgid "Next, edit the `sshd_config` file:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:647
-msgid ""
-"We want to turn off tunneled passwords so find this line in the "
-"configuration:"
+#, no-wrap
+msgid "We want to turn off tunneled passwords so find this line in the configuration:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1807,9 +1738,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:653
-msgid ""
-"And change it so that it says \"no\" - note that just remarking out this "
-"line will fail, as the default is always \"yes\"."
+#, no-wrap
+msgid "And change it so that it says \"no\" - note that just remarking out this line will fail, as the default is always \"yes\".\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1820,10 +1750,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:659
-msgid ""
-"Public key authentication is on by default, but let's make sure that it is "
-"evident when you look at the file by removing the remark in front of this "
-"line:"
+#, no-wrap
+msgid "Public key authentication is on by default, but let's make sure that it is evident when you look at the file by removing the remark in front of this line:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1834,7 +1762,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:665
-msgid "So that it reads:"
+#, no-wrap
+msgid "So that it reads:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1845,12 +1774,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:671
-msgid "This makes our `sshd_config` file self-documenting to a degree."
+#, no-wrap
+msgid "This makes our `sshd_config` file self-documenting to a degree.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:673
-msgid "Save your changes. Cross your fingers, and restart `sshd`:"
+#, no-wrap
+msgid "Save your changes. Cross your fingers, and restart `sshd`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1862,10 +1793,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:679
-msgid ""
-"Attempting to login as one of your administrative users to the server using "
-"their keys should work just like before. If not, restore your backup, make "
-"sure that you've followed all of the steps, and try again."
+#, no-wrap
+msgid "Attempting to login as one of your administrative users to the server using their keys should work just like before. If not, restore your backup, make sure that you've followed all of the steps, and try again.\n"
 msgstr ""
 
 #. type: Title ##
@@ -1876,9 +1805,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:683
-msgid ""
-"Essentially, we have functionally done that already. If you attempt to login "
-"with the root user to the server now, you will get the following:"
+#, no-wrap
+msgid "Essentially, we have functionally done that already. If you attempt to login with the root user to the server now, you will get the following:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1889,28 +1817,26 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:689
-msgid ""
-"But we want to make sure that someone cannot create a public/private key for "
-"the root user and access the server that way. So there's one final step we "
-"need to perform and we need to do that...You guessed it! ... in the "
-"`sshd_config` file."
+#, no-wrap
+msgid "But we want to make sure that someone cannot create a public/private key for the root user and access the server that way. So there's one final step we need to perform and we need to do that...You guessed it! ... in the `sshd_config` file.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:691
-msgid ""
-"Since we are making a change to this file, just like every other step here, "
-"we want to make a backup copy of the file before continuing:"
+#, no-wrap
+msgid "Since we are making a change to this file, just like every other step here, we want to make a backup copy of the file before continuing:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:697
-msgid "Again, we want to edit the `sshd_config`:"
+#, no-wrap
+msgid "Again, we want to edit the `sshd_config`:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:703
-msgid "Then we want to find this line:"
+#, no-wrap
+msgid "Then we want to find this line:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1921,7 +1847,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:709
-msgid "And change it to \"no\" so it reads:"
+#, no-wrap
+msgid "And change it to \"no\" so it reads:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1932,15 +1859,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:715
-msgid "Then save and quit out of the file and restart `sshd`:"
+#, no-wrap
+msgid "Then save and quit out of the file and restart `sshd`:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:721
-msgid ""
-"Now anyone attempting to login as the root user remotely over `ssh` will get "
-"the same denial message as before, but will **still** not be able to access "
-"the server even if they have a public/private key pair for root."
+#, no-wrap
+msgid "Now anyone attempting to login as the root user remotely over `ssh` will get the same denial message as before, but will **still** not be able to access the server even if they have a public/private key pair for root.\n"
 msgstr ""
 
 #. type: Title ##
@@ -1951,11 +1877,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:725
-msgid ""
-"One thing that we haven't discussed yet is what happens when a new system "
-"administrator comes on board? With password authentication off, `ssh-copy-"
-"id` will not work. Here's what the author recommends for these situations. "
-"Note that there is more than one solution:"
+#, no-wrap
+msgid "One thing that we haven't discussed yet is what happens when a new system administrator comes on board? With password authentication off, `ssh-copy-id` will not work. Here's what the author recommends for these situations. Note that there is more than one solution:\n"
 msgstr ""
 
 #. type: Title ###
@@ -1966,28 +1889,27 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:729
-msgid ""
-"This solution assumes physical access to the server and that the server is "
-"physical hardware and not virtual (container or VM):"
+#, no-wrap
+msgid "This solution assumes physical access to the server and that the server is physical hardware and not virtual (container or VM):\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:733
 #: ../src/docs/guides/file_sharing/sftp.md:741
-msgid "Add the user to the \"wheel\" group on the SFTP server"
+#, no-wrap
+msgid "Add the user to the \"wheel\" group on the SFTP server\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:733
-msgid "Have the user generate his SSH public and private keys"
+#, no-wrap
+msgid "Have the user generate his SSH public and private keys\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:733
-msgid ""
-"Using a USB drive, copy the public key to the drive and physically walk it "
-"over to the server and install it manually in the new system administrators "
-"`/home/[username]/.ssh` directory"
+#, no-wrap
+msgid "Using a USB drive, copy the public key to the drive and physically walk it over to the server and install it manually in the new system administrators `/home/[username]/.ssh` directory\n"
 msgstr ""
 
 #. type: Title ###
@@ -1998,24 +1920,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:737
-msgid ""
-"This solution is prone to human error, but since it isn't done often, it "
-"would probably be OK if carefully done:"
+#, no-wrap
+msgid "This solution is prone to human error, but since it isn't done often, it would probably be OK if carefully done:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:741
-msgid ""
-"Have another system administrator who already has key based authentication, "
-"temporarily turn on \"PasswordAuthentication yes\" in the `sshd_config` file "
-"and restart `sshd`"
+#, no-wrap
+msgid "Have another system administrator who already has key based authentication, temporarily turn on \"PasswordAuthentication yes\" in the `sshd_config` file and restart `sshd`\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:741
-msgid ""
-"Have the new system administrator run `ssh-copy-id` using his/her password "
-"to copy the ssh key to the server."
+#, no-wrap
+msgid "Have the new system administrator run `ssh-copy-id` using his/her password to copy the ssh key to the server.\n"
 msgstr ""
 
 #. type: Title ###
@@ -2026,29 +1944,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:745
-msgid ""
-"This is the author's favorite. It uses a system administrator which already "
-"has key-based access and a script that must be run with `bash [script-name]` "
-"to accomplish the same thing as \"Solution Two\" above:"
+#, no-wrap
+msgid "This is the author's favorite. It uses a system administrator which already has key-based access and a script that must be run with `bash [script-name]` to accomplish the same thing as \"Solution Two\" above:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:748
-msgid ""
-"manually edit the `sshd_config` file and remove the remarked-out line that "
-"looks like this: `#PasswordAuthentication no`. This line is documenting the "
-"process of turning password authentication off, but it will get in the way "
-"of the script below, because our script will look for the first occurrence "
-"of `PasswordAuthentication no` and later the first occurrence of "
-"`PasswordAuthentication yes`. If you remove this one line, our script will "
-"work fine."
+#, no-wrap
+msgid "manually edit the `sshd_config` file and remove the remarked-out line that looks like this: `#PasswordAuthentication no`. This line is documenting the process of turning password authentication off, but it will get in the way of the script below, because our script will look for the first occurrence of `PasswordAuthentication no` and later the first occurrence of `PasswordAuthentication yes`. If you remove this one line, our script will work fine.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/file_sharing/sftp.md:748
-msgid ""
-"create a script on the SFTP server called \"quickswitch\", or whatever you "
-"want to call it. The contents of this script would look like this:"
+#, no-wrap
+msgid "create a script on the SFTP server called \"quickswitch\", or whatever you want to call it. The contents of this script would look like this:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -2077,14 +1986,6 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/file_sharing/sftp.md:767
-msgid ""
-"We've covered a lot of bits and pieces in this document but they are all "
-"designed to make a multisite web server more secure and less prone to attack "
-"vectors over SSH when turning on SFTP for customer access. Turning on and "
-"using SFTP is much more secure than using FTP, even if you are using really "
-"*GOOD* ftp servers and have them set up as securely as possible as noted in "
-"this [document on VSFTPD](../secure_ftp_server_vsftpd). By implementing "
-"*all* of the steps in this document, you can feel comfortable opening up "
-"port 22 (SSH) to your public zone and still know that your environment is "
-"secure."
+#, no-wrap
+msgid "We've covered a lot of bits and pieces in this document but they are all designed to make a multisite web server more secure and less prone to attack vectors over SSH when turning on SFTP for customer access. Turning on and using SFTP is much more secure than using FTP, even if you are using really *GOOD* ftp servers and have them set up as securely as possible as noted in this [document on VSFTPD](../secure_ftp_server_vsftpd). By implementing *all* of the steps in this document, you can feel comfortable opening up port 22 (SSH) to your public zone and still know that your environment is secure.\n"
 msgstr ""

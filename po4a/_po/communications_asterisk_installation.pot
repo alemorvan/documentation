@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,7 +46,8 @@ msgstr ""
 #: ../src/docs/guides/proxies/pound.md:62
 #: ../src/docs/guides/proxies/pound.md:418 ../src/docs/index.md:40
 #: ../src/docs/release_notes/9_1.md:16
-msgid "!!! note"
+#, no-wrap
+msgid "!!! note\n"
 msgstr ""
 
 #. type: Title ##
@@ -189,15 +190,15 @@ msgstr ""
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:25
 #: ../src/docs/guides/communications/asterisk_installation.md:36
-msgid ""
-"You will need root access, and ideally be signed in as the root user in your "
-"terminal"
+#, no-wrap
+msgid "You will need root access, and ideally be signed in as the root user in your terminal\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:25
 #: ../src/docs/guides/communications/asterisk_installation.md:36
-msgid "The EPEL repositories from Fedora"
+#, no-wrap
+msgid "The EPEL repositories from Fedora\n"
 msgstr ""
 
 #. type: YAML Front Matter: tags
@@ -244,75 +245,56 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:20
-msgid ""
-"Asterisk is an open source framework for building communications "
-"applications. Additionally, Asterisk turns an ordinary computer into a "
-"communications server, as well as powering IP PBX systems, VoIP gateways, "
-"conference servers and other custom solutions. It is used by small "
-"businesses, large businesses, call centers, carriers, and government "
-"agencies worldwide."
+#, no-wrap
+msgid "Asterisk is an open source framework for building communications applications. Additionally, Asterisk turns an ordinary computer into a communications server, as well as powering IP PBX systems, VoIP gateways, conference servers and other custom solutions. It is used by small businesses, large businesses, call centers, carriers, and government agencies worldwide.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:22
-msgid ""
-"Asterisk is free and open source and is sponsored by [Sangoma](https://www."
-"sangoma.com/). Sangoma also offers commercial products that use Asterisk "
-"under the hood, and depending on your experience and budget, using these "
-"products may be more beneficial than rolling your own. Only you and your "
-"organization know that answer."
+#, no-wrap
+msgid "Asterisk is free and open source and is sponsored by [Sangoma](https://www.sangoma.com/). Sangoma also offers commercial products that use Asterisk under the hood, and depending on your experience and budget, using these products may be more beneficial than rolling your own. Only you and your organization know that answer.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:24
-msgid ""
-"It should be noted that this guide requires the administrator to do a fair "
-"amount of research on their own. Installing a communications server is not a "
-"difficult process, but running one can be quite complicated. While this "
-"guide will get your server up and running, it will not be fully ready for "
-"you to use in production."
+#, no-wrap
+msgid "It should be noted that this guide requires the administrator to do a fair amount of research on their own. Installing a communications server is not a difficult process, but running one can be quite complicated. While this guide will get your server up and running, it will not be fully ready for you to use in production.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:28
-msgid ""
-"At minimum, you will need the following skills and tools to complete this "
-"guide:"
+#, no-wrap
+msgid "At minimum, you will need the following skills and tools to complete this guide:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/communications/asterisk_installation.md:36
-msgid "A machine running Rocky Linux"
+#, no-wrap
+msgid "A machine running Rocky Linux\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/communications/asterisk_installation.md:36
-msgid ""
-"A comfort level with modifying configuration files and issuing commands from "
-"the command-line"
+#, no-wrap
+msgid "A comfort level with modifying configuration files and issuing commands from the command-line\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/communications/asterisk_installation.md:36
-msgid ""
-"Knowledge of how to use a command line editor (We are using `vi` here, but "
-"feel free to substitute in your favorite editor.)"
+#, no-wrap
+msgid "Knowledge of how to use a command line editor (We are using `vi` here, but feel free to substitute in your favorite editor.)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/communications/asterisk_installation.md:36
-msgid ""
-"The ability to login as root or run root commands with _sudo_. All commands "
-"here assume a user that has _sudo_ rights, however the configuration and "
-"build processes are run with `sudo -s`."
+#, no-wrap
+msgid "The ability to login as root or run root commands with _sudo_. All commands here assume a user that has _sudo_ rights, however the configuration and build processes are run with `sudo -s`.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/communications/asterisk_installation.md:36
-msgid ""
-"To grab the latest build of Asterisk, you will need to either use `curl` or "
-"`wget`. This guide uses `wget`, but feel free to substitute in the "
-"appropriate `curl` string if you want to use that."
+#, no-wrap
+msgid "To grab the latest build of Asterisk, you will need to either use `curl` or `wget`. This guide uses `wget`, but feel free to substitute in the appropriate `curl` string if you want to use that.\n"
 msgstr ""
 
 #. type: Title ##
@@ -329,9 +311,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:44
-msgid ""
-"This will get your server up-to-date with all packages that have been "
-"released or updated since the last update or install. Then run:"
+#, no-wrap
+msgid "This will get your server up-to-date with all packages that have been released or updated since the last update or install. Then run:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -348,7 +329,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:52
-msgid "Set your host name to the domain you'll be using for Asterisk."
+#, no-wrap
+msgid "Set your host name to the domain you'll be using for Asterisk.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -365,7 +347,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:60
-msgid "First, install the EPEL (Extra Packages for Enterprise Linux):"
+#, no-wrap
+msgid "First, install the EPEL (Extra Packages for Enterprise Linux):\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -376,7 +359,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:66
-msgid "Next, enable Rocky Linux' PowerTools:"
+#, no-wrap
+msgid "Next, enable Rocky Linux' PowerTools:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -413,12 +397,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:83
-msgid ""
-"Before you download this script, make sure you have the latest version. To "
-"do so, navigate to [the Asterisk download link here](http://downloads."
-"asterisk.org/pub/telephony/asterisk/) and look for the latest build of "
-"Asterisk. Then copy the link location. As of the writing of this document, "
-"the following was the latest build:"
+#, no-wrap
+msgid "Before you download this script, make sure you have the latest version. To do so, navigate to [the Asterisk download link here](http://downloads.asterisk.org/pub/telephony/asterisk/) and look for the latest build of Asterisk. Then copy the link location. As of the writing of this document, the following was the latest build:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -432,11 +412,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:91
-msgid ""
-"Before running the `install_prereq` below (and the remaining commands), you "
-"are going to need to be the superuser or root. It's much easier at this "
-"point to get into _sudo_ permanently for a while. We will exit back out of "
-"_sudo_ later in the process:"
+#, no-wrap
+msgid "Before running the `install_prereq` below (and the remaining commands), you are going to need to be the superuser or root. It's much easier at this point to get into _sudo_ permanently for a while. We will exit back out of _sudo_ later in the process:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -449,7 +426,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:98
-msgid "You should see the following when the script completes:"
+#, no-wrap
+msgid "You should see the following when the script completes:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -463,9 +441,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:106
-msgid ""
-"Now that all of the required packages are installed, our next step is to "
-"configure and build Asterisk:"
+#, no-wrap
+msgid "Now that all of the required packages are installed, our next step is to configure and build Asterisk:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -476,9 +453,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:112
-msgid ""
-"Assuming that the configuration runs without issue, you should get a large "
-"ASCII Asterisk emblem, followed by the following on Rocky Linux:"
+#, no-wrap
+msgid "Assuming that the configuration runs without issue, you should get a large ASCII  Asterisk emblem, followed by the following on Rocky Linux:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -500,10 +476,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:124
-msgid ""
-"This is one of the steps where the administrator is going to need to do his "
-"homework. There are a lot of menu options that you may or may not need. "
-"Running the following command:"
+#, no-wrap
+msgid "This is one of the steps where the administrator is going to need to do his homework. There are a lot of menu options that you may or may not need. Running the following command:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -514,19 +488,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:130
-msgid "will bring you to a menu select screen:"
+#, no-wrap
+msgid "will bring you to a menu select screen:\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:132
-msgid "![menuselect screen](../images/asterisk_menuselect.png)"
+#, no-wrap
+msgid "![menuselect screen](../images/asterisk_menuselect.png)\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:134
-msgid ""
-"Look through these options carefully and make selections based on your "
-"requirements. As stated earlier, this may take some additional homework."
+#, no-wrap
+msgid "Look through these options carefully and make selections based on your requirements. As stated earlier, this may take some additional homework.\n"
 msgstr ""
 
 #. type: Title ###
@@ -537,7 +512,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:138
-msgid "To build, we want to execute the following commands in succession:"
+#, no-wrap
+msgid "To build, we want to execute the following commands in succession:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -550,9 +526,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:145
-msgid ""
-"Installing the documentation isn't required, but unless you are a "
-"communications server expert, you'll want them installed:"
+#, no-wrap
+msgid "Installing the documentation isn't required, but unless you are a communications server expert, you'll want them installed:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -563,10 +538,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:151
-msgid ""
-"Next install the basic PBX and make the config. The basic PBX is just that, "
-"very basic! You will probably need to make changes going forward to get your "
-"PBX to function as you want it to."
+#, no-wrap
+msgid "Next install the basic PBX and make the config. The basic PBX is just that, very basic! You will probably need to make changes going forward to get your PBX to function as you want it to.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -591,8 +564,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:162
-msgid ""
-"You'll need a specific user just for asterisk. Might as well create it now."
+#, no-wrap
+msgid "You'll need a specific user just for asterisk. Might as well create it now.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -607,10 +580,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:171
-msgid ""
-"Now that the bulk of our work is completed, go ahead and exit out of the "
-"`sudo -s` command. This will require that most of the remaining commands use "
-"_sudo_ again:"
+#, no-wrap
+msgid "Now that the bulk of our work is completed, go ahead and exit out of the `sudo -s` command. This will require that most of the remaining commands use _sudo_ again:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -635,7 +606,8 @@ msgstr ""
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:183
 #: ../src/docs/guides/communications/asterisk_installation.md:194
-msgid "Remove the comments on the two lines below and save:"
+#, no-wrap
+msgid "Remove the comments on the two lines below and save:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -680,19 +652,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:209
-msgid ""
-"This example uses `firewalld` for the firewall, which is the default in "
-"Rocky Linux. The goal here is to open SIP ports to the world and to open RTP "
-"(Realtime Transport Protocol) to the world on ports 10000-20000 as "
-"recommended by the Asterisk documentation."
+#, no-wrap
+msgid "This example uses `firewalld` for the firewall, which is the default in Rocky Linux. The goal here is to open SIP ports to the world and to open RTP (Realtime Transport Protocol) to the world on ports 10000-20000 as recommended by the Asterisk documentation.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:211
-msgid ""
-"Keep in mind that you will almost certainly need other firewall rules for "
-"other forward-facing services (HTTP/HTTPS) which you will probably want to "
-"limit to your own IP addresses. That is beyond the scope of this document:"
+#, no-wrap
+msgid "Keep in mind that you will almost certainly need other firewall rules for other forward-facing services (HTTP/HTTPS) which you will probably want to limit to your own IP addresses. That is beyond the scope of this document:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -705,9 +672,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:218
-msgid ""
-"Since we've made the `firewalld` commands permanent, we will need to do a "
-"reboot of the server. You can do that with:"
+#, no-wrap
+msgid "Since we've made the `firewalld` commands permanent, we will need to do a reboot of the server. You can do that with:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -730,7 +696,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:228
-msgid "To test, let's connect to the Asterisk console:"
+#, no-wrap
+msgid "To test, let's connect to the Asterisk console:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -741,9 +708,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:234
-msgid ""
-"Which will bring you into the Asterisk command-line client. You will see "
-"this prompt after the basic Asterisk information is displayed:"
+#, no-wrap
+msgid "Which will bring you into the Asterisk command-line client. You will see this prompt after the basic Asterisk information is displayed:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -754,7 +720,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:240
-msgid "To change the verbosity of the console, use the following:"
+#, no-wrap
+msgid "To change the verbosity of the console, use the following:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -765,7 +732,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:246
-msgid "Which should show you the following in the Asterisk console:"
+#, no-wrap
+msgid "Which should show you the following in the Asterisk console:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -782,7 +750,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:254
-msgid "At the Asterisk command-line client prompt, type:"
+#, no-wrap
+msgid "At the Asterisk command-line client prompt, type:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -793,23 +762,18 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:260
-msgid ""
-"This will return username and password information that you can then use to "
-"connect any SIP client with."
+#, no-wrap
+msgid "This will return username and password information that you can then use to connect any SIP client with.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:264
-msgid ""
-"The above will get you up and running with the server, but finishing out the "
-"configuration, connecting devices, and further troubleshooting is up to you."
+#, no-wrap
+msgid "The above will get you up and running with the server, but finishing out the configuration, connecting devices, and further troubleshooting is up to you.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/communications/asterisk_installation.md:265
-msgid ""
-"Running an Asterisk communications server takes a lot of time and effort and "
-"will require a lot of research by any administrator. For more information on "
-"how to configure and use Asterisk, take a look at the [Asterisk Wiki here.]"
-"(https://wiki.asterisk.org/wiki/display/AST/Getting+Started)"
+#, no-wrap
+msgid "Running an Asterisk communications server takes a lot of time and effort and will require a lot of research by any administrator. For more information on how to configure and use Asterisk, take a look at the [Asterisk Wiki here.](https://wiki.asterisk.org/wiki/display/AST/Getting+Started)\n"
 msgstr ""

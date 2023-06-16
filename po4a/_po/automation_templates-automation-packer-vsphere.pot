@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-14 07:11+0000\n"
+"POT-Creation-Date: 2023-06-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -142,7 +142,6 @@ msgstr ""
 #: ../src/docs/guides/installation.md:266
 #: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:126
 #: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
 #: ../src/docs/guides/security/firewalld-beginners.md:89
 #: ../src/docs/guides/security/firewalld-beginners.md:144
@@ -169,7 +168,8 @@ msgstr ""
 #: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
 #: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
 #: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
-msgid "!!! Note"
+#, no-wrap
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Plain text
@@ -225,7 +225,8 @@ msgstr ""
 #: ../src/docs/guides/security/learning_selinux.md:243
 #: ../src/docs/guides/security/learning_selinux.md:263
 #: ../src/docs/guides/web/php.md:145
-msgid "!!! Warning"
+#, no-wrap
+msgid "!!! Warning\n"
 msgstr ""
 
 #. type: Plain text
@@ -314,7 +315,8 @@ msgstr ""
 #: ../src/docs/guides/automation/cronie.md:82
 #: ../src/docs/guides/automation/cronie.md:106
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:109
-msgid "!!! tip \"Attention\""
+#, no-wrap
+msgid "!!! tip \"Attention\"\n"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
@@ -351,49 +353,50 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:24
-msgid "A vSphere environment available, and a user with granted access."
+#, no-wrap
+msgid "A vSphere environment available, and a user with granted access.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:24
-msgid "An internal web server to store files."
+#, no-wrap
+msgid "An internal web server to store files.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:24
-msgid "Web access to the Rocky Linux repositories."
+#, no-wrap
+msgid "Web access to the Rocky Linux repositories.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:24
-msgid "An ISO of Rocky Linux."
+#, no-wrap
+msgid "An ISO of Rocky Linux.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:24
-msgid "An Ansible environment available."
+#, no-wrap
+msgid "An Ansible environment available.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:24
-msgid ""
-"It is assumed that you have some knowledge on each product mentioned. If "
-"not, dig into that documentation before you begin."
+#, no-wrap
+msgid "It is assumed that you have some knowledge on each product mentioned. If not, dig into that documentation before you begin.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:24
-msgid ""
-"Vagrant is **not** in use here. It was pointed out that with Vagrant, an SSH "
-"key that was not self-signed would be provided. If you want to dig into that "
-"you can do so, but it is not covered in this document."
+#, no-wrap
+msgid "Vagrant is **not** in use here. It was pointed out that with Vagrant, an SSH key that was not self-signed would be provided. If you want to dig into that you can do so, but it is not covered in this document.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:28
-msgid ""
-"This document covers the vSphere virtual machine template creation with "
-"Packer and how to deploy the artifact as new virtual machines with Ansible."
+#, no-wrap
+msgid "This document covers the vSphere virtual machine template creation with Packer and how to deploy the artifact as new virtual machines with Ansible.\n"
 msgstr ""
 
 #. type: Title ##
@@ -404,27 +407,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:32
-msgid "Of course, you can adapt this how-to for other hypervisors."
+#, no-wrap
+msgid "Of course, you can adapt this how-to for other hypervisors.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:34
-msgid ""
-"Although we are using the minimal ISO image here, you could choose to use "
-"the DVD image (much bigger and perhaps too big) or the boot image (much "
-"smaller and perhaps too small). This choice is up to you. It impacts in "
-"particular the bandwidth you will need for the installation, and thus the "
-"provisioning time. We will discuss next the impact of the default choice and "
-"how to remedy it."
+#, no-wrap
+msgid "Although we are using the minimal ISO image here, you could choose to use the DVD image (much bigger and perhaps too big) or the boot image (much smaller and perhaps too small). This choice is up to you. It impacts in particular the bandwidth you will need for the installation, and thus the provisioning time. We will discuss next the impact of the default choice and how to remedy it.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:36
-msgid ""
-"You can also choose not to convert the virtual machine into a template, in "
-"this case you will use Packer to deploy each new VM, which is still quite "
-"feasible (an installation starting from 0 takes less than 10 minutes without "
-"human interaction)."
+#, no-wrap
+msgid "You can also choose not to convert the virtual machine into a template, in this case you will use Packer to deploy each new VM, which is still quite feasible (an installation starting from 0 takes less than 10 minutes without human interaction).\n"
 msgstr ""
 
 #. type: Title ##
@@ -441,75 +437,80 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:42
-msgid ""
-"Packer is an open-source virtual machine imaging tool, released under the "
-"MPL 2.0 license, and created by Hashicorp. It will help you automate the "
-"process of creating virtual machine images with pre-configured operating "
-"systems and installed software from a single source configuration in both, "
-"cloud and on-prem virtualized environments."
+#, no-wrap
+msgid "Packer is an open-source virtual machine imaging tool, released under the MPL 2.0 license, and created by Hashicorp. It will help you automate the process of creating virtual machine images with pre-configured operating systems and installed software from a single source configuration in both, cloud and on-prem virtualized environments. \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:44
-msgid ""
-"With Packer you can create images to be used on the following platforms:"
+#, no-wrap
+msgid "With Packer you can create images to be used on the following platforms:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:52
-msgid "[Amazon Web Services](https://aws.amazon.com)."
+#, no-wrap
+msgid "[Amazon Web Services](https://aws.amazon.com). \n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:52
-msgid "[Azure](https://azure.microsoft.com)."
+#, no-wrap
+msgid "[Azure](https://azure.microsoft.com).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:52
-msgid "[GCP](https://cloud.google.com)."
+#, no-wrap
+msgid "[GCP](https://cloud.google.com).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:52
-msgid "[DigitalOcean](https://www.digitalocean.com)."
+#, no-wrap
+msgid "[DigitalOcean](https://www.digitalocean.com). \n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:52
-msgid "[OpenStack](https://www.openstack.org)."
+#, no-wrap
+msgid "[OpenStack](https://www.openstack.org).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:52
-msgid "[VirtualBox](https://www.virtualbox.org/)."
+#, no-wrap
+msgid "[VirtualBox](https://www.virtualbox.org/).\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:52
-msgid "[VMware](https://www.vmware.com)."
+#, no-wrap
+msgid "[VMware](https://www.vmware.com).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:54
-msgid "You can have a look at these resources for additional information:"
+#, no-wrap
+msgid "You can have a look at these resources for additional information:\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:58
-msgid "The [Packer website](https://www.packer.io/)"
+#, no-wrap
+msgid "The [Packer website](https://www.packer.io/)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:58
-msgid "[Packer documentation](https://www.packer.io/docs)"
+#, no-wrap
+msgid "[Packer documentation](https://www.packer.io/docs)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:58
-msgid ""
-"The builder `vsphere-iso`'s [documentation](https://www.packer.io/docs/"
-"builders/vsphere/vsphere-iso)"
+#, no-wrap
+msgid "The builder `vsphere-iso`'s [documentation](https://www.packer.io/docs/builders/vsphere/vsphere-iso)\n"
 msgstr ""
 
 #. type: Title ###
@@ -520,7 +521,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:62
-msgid "There are two ways to install Packer on your Rocky Linux system."
+#, no-wrap
+msgid "There are two ways to install Packer on your Rocky Linux system.\n"
 msgstr ""
 
 #. type: Title ####
@@ -531,9 +533,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:66
-msgid ""
-"HashiCorp maintains and signs packages for different Linux distributions. To "
-"install packer in our Rocky Linux system, please follow the next steps:"
+#, no-wrap
+msgid "HashiCorp maintains and signs packages for different Linux distributions. To install packer in our Rocky Linux system, please follow the next steps:\n"
 msgstr ""
 
 #. type: Title ####
@@ -545,7 +546,8 @@ msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:71
-msgid "Install dnf-config-manager:"
+#, no-wrap
+msgid "Install dnf-config-manager:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -556,9 +558,8 @@ msgstr ""
 
 #. type: Bullet: '2. '
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:77
-msgid ""
-"Add the Hashicorp repository to the available repos in our Rocky Linux "
-"system:"
+#, no-wrap
+msgid "Add the Hashicorp repository to the available repos in our Rocky Linux system:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -569,7 +570,8 @@ msgstr ""
 
 #. type: Bullet: '3. '
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:83
-msgid "Install Packer:"
+#, no-wrap
+msgid "Install Packer:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -580,21 +582,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:92
-msgid ""
-"You can start by downloading the binaries for you own platform with [Packer "
-"downloads](https://www.packer.io/downloads)."
+#, no-wrap
+msgid "You can start by downloading the binaries for you own platform with [Packer downloads](https://www.packer.io/downloads).\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:94
-msgid ""
-"In the download page, copy the download link in the Linux Binary Download "
-"section that corresponds to your system architecture."
+#, no-wrap
+msgid "In the download page, copy the download link in the Linux Binary Download section that corresponds to your system architecture.\n"
 msgstr ""
 
 #. type: Bullet: '2. '
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:96
-msgid "From a shell or terminal download it using ```wget``` tool:"
+#, no-wrap
+msgid "From a shell or terminal download it using ```wget``` tool:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -605,13 +606,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:101
-msgid "This will download a .zip file."
+#, no-wrap
+msgid "This will download a .zip file.\n"
 msgstr ""
 
 #. type: Bullet: '3.  '
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:103
-msgid ""
-"To decompress the downloaded archive, run the following command in the shell:"
+#, no-wrap
+msgid "To decompress the downloaded archive, run the following command in the shell:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -628,7 +630,8 @@ msgstr ""
 
 #. type: Bullet: '4. '
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:113
-msgid "Move the Packer app to the bin folder:"
+#, no-wrap
+msgid "Move the Packer app to the bin folder:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -645,16 +648,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:121
-msgid ""
-"If all the steps of the previous procedures have been completed correctly, "
-"we can proceed to verify the installation of Packer on our system."
+#, no-wrap
+msgid "If all the steps of the previous procedures have been completed correctly, we can proceed to verify the installation of Packer on our system.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:123
-msgid ""
-"To verify that Packer has been installed correctly, run the `packer` command "
-"and you will get the result shown below:"
+#, no-wrap
+msgid "To verify that Packer has been installed correctly, run the `packer` command and you will get the result shown below:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -685,22 +686,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:144
-msgid "It is assumed that you are on Linux to perform the following tasks."
+#, no-wrap
+msgid "It is assumed that you are on Linux to perform the following tasks.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:146
-msgid ""
-"As we will connect to a VMware vCenter Server to send our commands via "
-"Packer, we need to store our credentials outside the configuration files "
-"which we will create next."
+#, no-wrap
+msgid "As we will connect to a VMware vCenter Server to send our commands via Packer, we need to store our credentials outside the configuration files which we will create next.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:148
-msgid ""
-"Let us create a hidden file with our credentials in our home directory. This "
-"is a json file:"
+#, no-wrap
+msgid "Let us create a hidden file with our credentials in our home directory. This is a json file:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -715,14 +714,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:157
-msgid "Those credentials need some grant access to your vSphere environment."
+#, no-wrap
+msgid "Those credentials need some grant access to your vSphere environment.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:159
-msgid ""
-"Let us create a json file (in the future, the format of this file will "
-"change to the HCL):"
+#, no-wrap
+msgid "Let us create a json file (in the future, the format of this file will change to the HCL):\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -794,7 +793,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:224
-msgid "Next, we will describe each section of this file."
+#, no-wrap
+msgid "Next, we will describe each section of this file.\n"
 msgstr ""
 
 #. type: Title ###
@@ -805,8 +805,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:228
-msgid ""
-"In a first step, we declare variables, mainly for the sake of readability:"
+#, no-wrap
+msgid "In a first step, we declare variables, mainly for the sake of readability:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -822,48 +822,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:238
-msgid ""
-"We will use the variable `version` later in the template name we will "
-"create. You can easily increment this value to suit your needs."
+#, no-wrap
+msgid "We will use the variable `version` later in the template name we will create. You can easily increment this value to suit your needs.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:240
-msgid ""
-"We will also need our booting virtual machine to access a `ks.cfg` "
-"(Kickstart) file."
+#, no-wrap
+msgid "We will also need our booting virtual machine to access a `ks.cfg` (Kickstart) file.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:242
-msgid ""
-"A Kickstart file contains the answers to the questions asked during the "
-"installation process. This file passes all its contents to Anaconda (the "
-"installation process), which allows you to fully automate the creation of "
-"the template."
+#, no-wrap
+msgid "A Kickstart file contains the answers to the questions asked during the installation process. This file passes all its contents to Anaconda (the installation process), which allows you to fully automate the creation of the template.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:244
-msgid ""
-"The author likes to store his `ks.cfg` file in an internal web server "
-"accessible from his template, but other possibilities exists that you may "
-"choose to use instead."
+#, no-wrap
+msgid "The author likes to store his `ks.cfg` file in an internal web server accessible from his template, but other possibilities exists that you may choose to use instead.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:246
-msgid ""
-"For example, the `ks.cfg` file is accessible from the VM at this URL in our "
-"lab: http://fileserver.rockylinux.lan/packer/rockylinux/8/ks.cfg. You would "
-"need to set up something similar to use this method."
+#, no-wrap
+msgid "For example, the `ks.cfg` file is accessible from the VM at this URL in our lab: http://fileserver.rockylinux.lan/packer/rockylinux/8/ks.cfg. You would need to set up something similar to use this method.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:248
-msgid ""
-"Since we want to keep our password private, it is declared as a sensitive "
-"variable. Example:"
+#, no-wrap
+msgid "Since we want to keep our password private, it is declared as a sensitive variable. Example:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -880,9 +870,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:256
-msgid ""
-"Next part is interesting, and will be covered later by providing you the "
-"script for `requirements.sh`:"
+#, no-wrap
+msgid "Next part is interesting, and will be covered later by providing you the script for `requirements.sh`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -901,12 +890,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:269
-msgid ""
-"After the installation is finished, the VM will reboot. As soon as Packer "
-"detects an IP address (thanks to the VMware Tools), it will copy the "
-"`requirements.sh` and execute it. It is a nice feature to clean the VM after "
-"the installation process (remove SSH keys, clean the history, etc.) and "
-"install some extra package."
+#, no-wrap
+msgid "After the installation is finished, the VM will reboot. As soon as Packer detects an IP address (thanks to the VMware Tools), it will copy the `requirements.sh` and execute it. It is a nice feature to clean the VM after the installation process (remove SSH keys, clean the history, etc.) and install some extra package.\n"
 msgstr ""
 
 #. type: Title ###
@@ -917,14 +902,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:273
-msgid ""
-"You can declare one or more builders to target something other than your "
-"vSphere environment (perhaps a Vagrant template)."
+#, no-wrap
+msgid "You can declare one or more builders to target something other than your vSphere environment (perhaps a Vagrant template).\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:275
-msgid "But here we are using the `vsphere-iso` builder:"
+#, no-wrap
+msgid "But here we are using the `vsphere-iso` builder:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -938,7 +923,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:284
-msgid "This builder lets us configure the hardware we need:"
+#, no-wrap
+msgid "This builder lets us configure the hardware we need:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -973,20 +959,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:311
-msgid ""
-"You can do more cool things with the disk, cpu, etc. You should refer to the "
-"documentation if you are interested in making other adjustments."
+#, no-wrap
+msgid "You can do more cool things with the disk, cpu, etc. You should refer to the documentation if you are interested in making other adjustments.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:313
-msgid ""
-"To start the installation, you need an ISO image of Rocky Linux. Here is an "
-"example of how to use an image located in a vSphere content library. You can "
-"of course store the ISO elsewhere, but in the case of a vSphere content "
-"library, you have to get the full path to the ISO file on the server hosting "
-"the Content Library (in this case it is a Synology, so directly on the DSM "
-"explorer)."
+#, no-wrap
+msgid "To start the installation, you need an ISO image of Rocky Linux. Here is an example of how to use an image located in a vSphere content library. You can of course store the ISO elsewhere, but in the case of a vSphere content library, you have to get the full path to the ISO file on the server hosting the Content Library (in this case it is a Synology, so directly on the DSM explorer).\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1000,10 +980,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:321
-msgid ""
-"Then you have to provide the complete command to be entered during the "
-"installation process: configuration of the IP and transmission of the path "
-"to the Kickstart response file."
+#, no-wrap
+msgid "Then you have to provide the complete command to be entered during the installation process: configuration of the IP and transmission of the path to the Kickstart response file.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1014,10 +992,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:327
-msgid ""
-"This is the most amusing part of the procedure: I'm sure you will go and "
-"admire the VMware console during the generation, just to see the automatic "
-"entry of the commands during the boot."
+#, no-wrap
+msgid "This is the most amusing part of the procedure: I'm sure you will go and admire the VMware console during the generation, just to see the automatic entry of the commands during the boot.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1031,10 +1007,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:335
-msgid ""
-"After the first reboot, Packer will connect to your server by SSH. You can "
-"use the root user, or another user with sudo rights, but in any case, this "
-"user must correspond to the user that is defined in your ks.cfg file."
+#, no-wrap
+msgid "After the first reboot, Packer will connect to your server by SSH. You can use the root user, or another user with sudo rights, but in any case, this user must correspond to the user that is defined in your ks.cfg file.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1047,9 +1021,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:342
-msgid ""
-"At the end of the process, the VM must be stopped. It is a little bit more "
-"complicated with a non-root user, but it is well documented:"
+#, no-wrap
+msgid "At the end of the process, the VM must be stopped. It is a little bit more complicated with a non-root user, but it is well documented:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1060,12 +1033,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:348
-msgid ""
-"Next, we deal with the vSphere configuration. The only notable things here "
-"are the use of the variables defined at the beginning of the document in our "
-"home directory, as well as the `insecure_connection` option, because our "
-"vSphere uses a self-signed certificate (see note in Assumptions at the top "
-"of this document):"
+#, no-wrap
+msgid "Next, we deal with the vSphere configuration. The only notable things here are the use of the variables defined at the beginning of the document in our home directory, as well as the `insecure_connection` option, because our vSphere uses a self-signed certificate (see note in Assumptions at the top of this document):\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1087,15 +1056,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:364
-msgid ""
-"And finally, we will ask vSphere to convert our stopped VM to a template."
+#, no-wrap
+msgid "And finally, we will ask vSphere to convert our stopped VM to a template.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:366
-msgid ""
-"At this stage, you could also elect to just use the VM as is (not converting "
-"it to a template). In this case, you can decide to take a snapshot instead:"
+#, no-wrap
+msgid "At this stage, you could also elect to just use the VM as is (not converting it to a template). In this case, you can decide to take a snapshot instead:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1114,14 +1082,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:375
-msgid ""
-"As noted above, we need to provide a kickstart response file that will be "
-"used by Anaconda."
+#, no-wrap
+msgid "As noted above, we need to provide a kickstart response file that will be used by Anaconda.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:377
-msgid "Here's an example of that file:"
+#, no-wrap
+msgid "Here's an example of that file:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1232,18 +1200,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:482
-msgid ""
-"As we have chosen to use the minimal iso, instead of the Boot or DVD, not "
-"all required installation packages will be available."
+#, no-wrap
+msgid "As we have chosen to use the minimal iso, instead of the Boot or DVD, not all required installation packages will be available.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:484
-msgid ""
-"As Packer relies on VMware Tools to detect the end of the installation, and "
-"the `open-vm-tools` package is only available in the AppStream repos, we "
-"have to specify to the installation process that we want to use as source "
-"both the CD-ROM and this remote repo:"
+#, no-wrap
+msgid "As Packer relies on VMware Tools to detect the end of the installation, and the `open-vm-tools` package is only available in the AppStream repos, we have to specify to the installation process that we want to use as source both the CD-ROM and this remote repo:\n"
 msgstr ""
 
 #. type: Plain text
@@ -1263,9 +1227,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:496
-msgid ""
-"Let us jump to the network configuration, as once again, in this example we "
-"are not using a DHCP server:"
+#, no-wrap
+msgid "Let us jump to the network configuration, as once again, in this example we are not using a DHCP server:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1278,9 +1241,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:503
-msgid ""
-"Remember we specified the user to connect via SSH with to Packer at the end "
-"of the installation. This user and password must match:"
+#, no-wrap
+msgid "Remember we specified the user to connect via SSH with to Packer at the end of the installation. This user and password must match:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1299,11 +1261,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:514
-msgid ""
-"Here is the selected partition scheme. Much more complex things can be done. "
-"You can define a partition scheme that suits your needs, adapting it to the "
-"disk space defined in Packer, and which respects the security rules defined "
-"for your environment (dedicated partition for `/tmp`, etc.):"
+#, no-wrap
+msgid "Here is the selected partition scheme. Much more complex things can be done. You can define a partition scheme that suits your needs, adapting it to the disk space defined in Packer, and which respects the security rules defined for your environment (dedicated partition for `/tmp`, etc.):\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1326,10 +1285,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:531
-msgid ""
-"The next section concerns the packages that will be installed. A \"best "
-"practice\" is to limit the quantity of installed packages to only those you "
-"need, which limits the attack surface, especially in a server environment."
+#, no-wrap
+msgid "The next section concerns the packages that will be installed. A \"best practice\" is to limit the quantity of installed packages to only those you need, which limits the attack surface, especially in a server environment.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1340,21 +1297,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:537
-msgid ""
-"The `openssh-clients` package seems to be required for Packer to copy its "
-"scripts into the VM."
+#, no-wrap
+msgid "The `openssh-clients` package seems to be required for Packer to copy its scripts into the VM.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:539
-msgid ""
-"The `open-vm-tools` is also needed by Packer to detect the end of the "
-"installation, this explains the addition of the AppStream repository. The "
-"packages `perl` and `perl-File-Temp` will also be required by VMware Tools "
-"during the deployment part. This is a shame because it requires a lot of "
-"other dependent packages. `python3` (3.6) will also be required in the "
-"future for Ansible to work (if you won't use Ansible or python, remove "
-"them!)."
+#, no-wrap
+msgid "The `open-vm-tools` is also needed by Packer to detect the end of the installation, this explains the addition of the AppStream repository. The packages `perl` and `perl-File-Temp` will also be required by VMware Tools during the deployment part. This is a shame because it requires a lot of other dependent packages. `python3` (3.6) will also be required in the future for Ansible to work (if you won't use Ansible or python, remove them!).\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1378,10 +1328,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:557
-msgid ""
-"You can not only add packages but also remove them. Since we control the "
-"environment in which our hardware will work, we can remove any of the "
-"firmware that will be useless to us:"
+#, no-wrap
+msgid "You can not only add packages but also remove them. Since we control the environment in which our hardware will work, we can remove any of the firmware that will be useless to us:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1396,11 +1344,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:566
-msgid ""
-"The next part adds some users. It is interesting in our case to create an "
-"`ansible` user, without password but with a public key. This allows all of "
-"our new VMs to be accessible from our Ansible server to run the post-install "
-"actions:"
+#, no-wrap
+msgid "The next part adds some users. It is interesting in our case to create an `ansible` user, without password but with a public key. This allows all of our new VMs to be accessible from our Ansible server to run the post-install actions:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1421,9 +1366,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:581
-msgid ""
-"Now we need to enable and start `vmtoolsd` (the process that manages open-vm-"
-"tools). vSphere will detect the IP address after the reboot of the VM."
+#, no-wrap
+msgid "Now we need to enable and start `vmtoolsd` (the process that manages open-vm-tools). vSphere will detect the IP address after the reboot of the VM.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1436,7 +1380,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:588
-msgid "The installation process is finished and the VM will reboot."
+#, no-wrap
+msgid "The installation process is finished and the VM will reboot.\n"
 msgstr ""
 
 #. type: Title ##
@@ -1447,23 +1392,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:592
-msgid ""
-"Remember, we declared in Packer a provisioner, which in our case corresponds "
-"to a `.sh` script, to be stored in a subdirectory next to our json file."
+#, no-wrap
+msgid "Remember, we declared in Packer a provisioner, which in our case corresponds to a `.sh` script, to be stored in a subdirectory next to our json file.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:594
-msgid ""
-"There are different types of provisioners, we could also have used Ansible. "
-"You are free to explore these possibilities."
+#, no-wrap
+msgid "There are different types of provisioners, we could also have used Ansible. You are free to explore these possibilities.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:596
-msgid ""
-"This file can be completely changed, but this provides an example of what "
-"can be done with a script, in this case `requirements.sh`:"
+#, no-wrap
+msgid "This file can be completely changed, but this provides an example of what can be done with a script, in this case `requirements.sh`:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1522,7 +1464,8 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:649
-msgid "Some explanations are necessary:"
+#, no-wrap
+msgid "Some explanations are necessary:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1540,29 +1483,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:661
-msgid ""
-"Since vSphere now uses cloud-init via the VMware Tools to configure the "
-"network of a centos8 guest machine, it must be installed. However, if you do "
-"nothing, the configuration will be applied on the first reboot and "
-"everything will be fine. But on the next reboot, cloud-init will not receive "
-"any new information from vSphere. In these cases, without information about "
-"what to do, cloud-init will reconfigure the VM's network interface to use "
-"DHCP, and you will lose your static configuration."
+#, no-wrap
+msgid "Since vSphere now uses cloud-init via the VMware Tools to configure the network of a centos8 guest machine, it must be installed. However, if you do nothing, the configuration will be applied on the first reboot and everything will be fine. But on the next reboot, cloud-init will not receive any new information from vSphere. In these cases, without information about what to do, cloud-init will reconfigure the VM's network interface to use DHCP, and you will lose your static configuration.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:663
-msgid ""
-"As this is not the behavior we want, we need to specify to cloud-init not to "
-"delete its cache automatically, and therefore to reuse the configuration "
-"information it received during its first reboot and each reboot after that."
+#, no-wrap
+msgid "As this is not the behavior we want, we need to specify to cloud-init not to delete its cache automatically, and therefore to reuse the configuration information it received during its first reboot and each reboot after that.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:665
-msgid ""
-"For this, we create a file `/etc/cloud/cloud.cfg.d/99-manual.cfg` with the "
-"`manual_cache_clean: True` directive."
+#, no-wrap
+msgid "For this, we create a file `/etc/cloud/cloud.cfg.d/99-manual.cfg` with the `manual_cache_clean: True` directive.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1573,15 +1507,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:671
-msgid "The rest of the script is commented and does not require more details"
+#, no-wrap
+msgid "The rest of the script is commented and does not require more details\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:673
-msgid ""
-"You can check the [Bento project](https://github.com/chef/bento/tree/master/"
-"packer_templates) to get more ideas of what can be done in this part of the "
-"automation process."
+#, no-wrap
+msgid "You can check the [Bento project](https://github.com/chef/bento/tree/master/packer_templates) to get more ideas of what can be done in this part of the automation process.\n"
 msgstr ""
 
 #. type: Title ##
@@ -1592,14 +1525,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:677
-msgid ""
-"Now it is time to launch Packer and check that the creation process, which "
-"is completely automatic, works well."
+#, no-wrap
+msgid "Now it is time to launch Packer and check that the creation process, which is completely automatic, works well.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:679
-msgid "Simply enter this at the command line:"
+#, no-wrap
+msgid "Simply enter this at the command line:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1610,22 +1543,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:685
-msgid "You can quickly go to vSphere and admire the work."
+#, no-wrap
+msgid "You can quickly go to vSphere and admire the work.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:687
-msgid ""
-"You will see the machine being created, started, and if you launch a "
-"console, you will see the automatic entry of commands and the installation "
-"process."
+#, no-wrap
+msgid "You will see the machine being created, started, and if you launch a console, you will see the automatic entry of commands and the installation process.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:689
-msgid ""
-"At the end of the creation, you will find your template ready to use in "
-"vSphere."
+#, no-wrap
+msgid "At the end of the creation, you will find your template ready to use in vSphere.\n"
 msgstr ""
 
 #. type: Title ##
@@ -1636,23 +1567,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:693
-msgid ""
-"This documentation would not be complete without the automatic deployment "
-"part of the template."
+#, no-wrap
+msgid "This documentation would not be complete without the automatic deployment part of the template.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:695
-msgid ""
-"For this, we will use a simple Ansible playbook, which uses the "
-"`vmware_guest` module."
+#, no-wrap
+msgid "For this, we will use a simple Ansible playbook, which uses the `vmware_guest` module.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:697
-msgid ""
-"This playbook that we provide you, must be adapted to your needs and your "
-"way of doing things."
+#, no-wrap
+msgid "This playbook that we provide you, must be adapted to your needs and your way of doing things.\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1705,18 +1633,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:744
-msgid ""
-"You can store sensitive data in the `./vars/credentials.yml`, which you will "
-"obviously have encrypted beforehand with `ansible-vault` (especially if you "
-"use git for your work). As everything uses a variable, you can easily make "
-"it suit your needs."
+#, no-wrap
+msgid "You can store sensitive data in the `./vars/credentials.yml`, which you will obviously have encrypted beforehand with `ansible-vault` (especially if you use git for your work). As everything uses a variable, you can easily make it suit your needs.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:746
-msgid ""
-"If you do not use something like Rundeck or Awx, you can launch the "
-"deployment with a command line similar to this one:"
+#, no-wrap
+msgid "If you do not use something like Rundeck or Awx, you can launch the deployment with a command line similar to this one:\n"
 msgstr ""
 
 #. type: Fenced code block
@@ -1727,27 +1651,20 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:752
-msgid ""
-"It is at this point that you can launch the final configuration of your "
-"virtual machine using Ansible. Do not forget to change the root password, "
-"secure SSH, register the new VM in your monitoring tool and in your IT "
-"inventory, etc."
+#, no-wrap
+msgid "It is at this point that you can launch the final configuration of your virtual machine using Ansible. Do not forget to change the root password, secure SSH, register the new VM in your monitoring tool and in your IT inventory, etc.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:756
-msgid ""
-"As we have seen, there are now fully automated DevOps solutions to create "
-"and deploy VMs."
+#, no-wrap
+msgid "As we have seen, there are now fully automated DevOps solutions to create and deploy VMs.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:758
-msgid ""
-"At the same time, this represents an undeniable saving of time, especially "
-"in cloud or data center environments. It also facilitates a standard "
-"compliance across all of the computers in the company (servers and "
-"workstations), and an easy maintenance / evolution of templates."
+#, no-wrap
+msgid "At the same time, this represents an undeniable saving of time, especially in cloud or data center environments. It also facilitates a standard compliance across all of the computers in the company (servers and workstations), and an easy maintenance / evolution of templates.\n"
 msgstr ""
 
 #. type: Title ##
@@ -1758,9 +1675,6 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:761
-msgid ""
-"For a detailed project that also covers the deployment of Rocky Linux and "
-"other operating systems using the latest in vSphere, Packer, and the Packer "
-"Plugin for vSphere, please visit [this project](https://github.com/vmware-"
-"samples/packer-examples-for-vsphere)."
+#, no-wrap
+msgid "For a detailed project that also covers the deployment of Rocky Linux and other operating systems using the latest in vSphere, Packer, and the Packer Plugin for vSphere, please visit [this project](https://github.com/vmware-samples/packer-examples-for-vsphere). \n"
 msgstr ""
