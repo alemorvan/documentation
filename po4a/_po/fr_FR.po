@@ -13,8 +13,22 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/lxd_server_00-toc.pot\n"
-"X-Crowdin-File-ID: 1429\n"
+"X-Crowdin-File: /po4a/po4a/_po/lxd_server_01-install.pot\n"
+"X-Crowdin-File-ID: 1431\n"
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:749
+#: ../src/docs/books/lxd_server/01-install.md:20
+#: ../src/docs/books/nvchad/install_nvim.md:46
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:49
+#: ../src/docs/guides/containers/lxd_web_servers.md:67
+#: ../src/docs/guides/containers/lxd_web_servers.md:624
+#: ../src/docs/guides/containers/lxd_web_servers.md:857
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:53
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:43
+#, no-wrap
+msgid "dnf install epel-release\n"
+msgstr ""
 
 #. type: YAML Front Matter: tags
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:1
@@ -33,70 +47,6 @@ msgstr ""
 #: ../src/docs/books/lxd_server/10-automating.md:1
 #, no-wrap
 msgid "enterprise"
-msgstr ""
-
-#. type: Title #
-#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
-#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
-#: ../src/docs/books/learning_ansible/05-deployments.md:31
-#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
-#: ../src/docs/books/lxd_server/00-toc.md:1
-#: ../src/docs/books/lxd_server/00-toc.md:13
-#: ../src/docs/books/nvchad/index.md:12
-#: ../src/docs/books/nvchad/plugins/index.md:14
-#: ../src/docs/books/nvchad/plugins/md_preview.md:14
-#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
-#: ../src/docs/books/nvchad/vale_nvchad.md:12
-#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
-#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
-#: ../src/docs/gemstones/string_color.md:11
-#: ../src/docs/guides/automation/cron_jobs_howto.md:25
-#: ../src/docs/guides/automation/olivetin.md:14
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
-#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
-#: ../src/docs/guides/backup/rsnapshot_backup.md:22
-#: ../src/docs/guides/backup/rsync_ssh.md:24
-#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
-#: ../src/docs/guides/cms/dokuwiki_server.md:23
-#: ../src/docs/guides/containers/lxd_web_servers.md:10
-#: ../src/docs/guides/containers/podman-nextcloud.md:13
-#: ../src/docs/guides/contribute/local_docs.md:11
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
-#: ../src/docs/guides/contribute/mkdocs_venv.md:14
-#: ../src/docs/guides/contribute/style_guide.md:14
-#: ../src/docs/guides/database/database_mariadb-server.md:21
-#: ../src/docs/guides/desktop/kde_installation.md:11
-#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
-#: ../src/docs/guides/editors/micro.md:14
-#: ../src/docs/guides/email/postfix_reporting.md:22
-#: ../src/docs/guides/file_sharing/glusterfs.md:16
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
-#: ../src/docs/guides/file_sharing/sftp.md:16
-#: ../src/docs/guides/migrate2rocky.md:18
-#: ../src/docs/guides/network/basic_network_configuration.md:12
-#: ../src/docs/guides/network/librenms_monitoring_server.md:13
-#: ../src/docs/guides/package_management/index.md:1
-#: ../src/docs/guides/package_management/index.md:5
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
-#: ../src/docs/guides/proxies/pound.md:17
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
-#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
-#: ../src/docs/guides/security/firewalld-beginners.md:10
-#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
-#: ../src/docs/guides/security/ssh_public_private_keys.md:21
-#: ../src/docs/guides/security/ssl_keys_https.md:22
-#: ../src/docs/guides/virtualization/vbox-rocky.md:13
-#: ../src/docs/guides/web/apache-sites-enabled.md:25
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
-#: ../src/docs/guides/web/nginx-mainline.md:13
-#: ../src/docs/guides/web/nginx-multisite.md:14
-#: ../src/docs/labs/security/introduction.md:1
-#: ../src/docs/labs/security/introduction.md:5
-#, no-wrap
-msgid "Introduction"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
@@ -153,182 +103,351 @@ msgstr ""
 msgid "lxd"
 msgstr ""
 
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/lxd_server/01-install.md:1
+#, no-wrap
+msgid "lxd install"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/books/lxd_server/01-install.md:1
+#, no-wrap
+msgid "1 Install and Configuration"
+msgstr ""
+
 #. type: Title #
-#: ../src/docs/books/lxd_server/00-toc.md:11
+#: ../src/docs/books/lxd_server/01-install.md:12
 #, no-wrap
-msgid "Creating a full LXD Server"
+msgid "Chapter 1: Install and Configuration"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/lxd_server/00-toc.md:16
+#: ../src/docs/books/lxd_server/01-install.md:15
 #, no-wrap
-msgid "LXD is best described on the [official website](https://linuxcontainers.org/lxd/introduction/), but think of it as a container system that provides the benefits of virtual servers in a container, or a container on steroids.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/lxd_server/00-toc.md:18
-#, no-wrap
-msgid "It is very powerful, and with the right hardware and set up, can be leveraged to run a lot of server instances on a single piece of hardware. If you pair that with a snapshot server, you also have a set of containers that you can spin up almost immediately in the event that your primary server goes down.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/lxd_server/00-toc.md:20
-#, no-wrap
-msgid "(You should not think of this as a traditional backup. You still need a regular backup system of some sort, like [rsnapshot](../../guides/backup/rsnapshot_backup.md).)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/lxd_server/00-toc.md:22
-#, no-wrap
-msgid "The learning curve for LXD can be a bit steep, but this book will attempt to give you a wealth of knowledge at your fingertips, to help you deploy and use LXD on Rocky Linux.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/lxd_server/00-toc.md:24
-#, no-wrap
-msgid "For those wanting to use LXD as a lab environment on their own laptops or workstations, see [Appendix A: Workstation Setup](30-appendix_a.md).\n"
+msgid "Throughout this chapter you will need to be the root user or you will need to be able to _sudo_ to root.\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/books/lxd_server/00-toc.md:25
-#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:17
-#: ../src/docs/guides/cms/dokuwiki_server.md:13
-#: ../src/docs/guides/containers/lxd_web_servers.md:48
+#: ../src/docs/books/lxd_server/01-install.md:16
 #, no-wrap
-msgid "Prerequisites And Assumptions"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/lxd_server/00-toc.md:33
-#, no-wrap
-msgid "One Rocky Linux server, nicely configured. You should consider a separate hard drive for ZFS disk space (you have to if you are using ZFS) in a production environment. And yes, we are assuming this is a bare metal server, not a VPS.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/lxd_server/00-toc.md:33
-#, no-wrap
-msgid "This should be considered an advanced topic, but we have tried our best to make it as easy to understand as possible for everyone. That said, knowing a few basic things about container management will take you a long way.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/lxd_server/00-toc.md:33
-#, no-wrap
-msgid "You should be very comfortable at the command line on your machine(s), and fluent in a command line editor. (We are using _vi_ throughout this example, but you can substitute in your favorite editor.)\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/lxd_server/00-toc.md:33
-#, no-wrap
-msgid "You need to be an unprivileged user for the bulk of the LXD processes. Except where noted, enter LXD commands as your unprivileged user. We are assuming that you are logged in as a user named \"lxdadmin\" for LXD commands. The bulk of the set up _is_, done as root until you get past the LXD initialization. We will have you create the \"lxdadmin\" user later in the process.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/lxd_server/00-toc.md:33
-#, no-wrap
-msgid "For ZFS, make sure that UEFI secure boot is NOT enabled. Otherwise, you will end up having to sign the ZFS module in order to get it to load.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/lxd_server/00-toc.md:33
-#, no-wrap
-msgid "We are using Rocky Linux-based containers for the most part. \n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/lxd_server/00-toc.md:34
-#, no-wrap
-msgid "Synopsis"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/lxd_server/00-toc.md:46
-#, no-wrap
-msgid "**Chapter 1: Install and Configuration** deals with the installation of the primary server. In general, the proper way to do LXD in production is to have both a primary server and a snapshot server.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/lxd_server/00-toc.md:46
-#, no-wrap
-msgid "**Chapter 2: ZFS Setup** deals with the setup and configuration of the ZFS. ZFS is an open-source logical volume manager and file system created by Sun Microsystems, originally for its Solaris operating system.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/lxd_server/00-toc.md:46
-#, no-wrap
-msgid "**Chapter 3: LXD Initialization and User Setup** Deals with the base initialization and options. It also deals with the setup of our unprivileged user that we will use throughout most of the rest of the process.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/lxd_server/00-toc.md:46
-#, no-wrap
-msgid "**Chapter 4: Firewall Setup** deals with both `iptables` and `firewalld` setup options, but we recommend that you use `firewalld`for all current Rocky Linux versions.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/lxd_server/00-toc.md:46
-#, no-wrap
-msgid "**Chapter 5: Setting Up and Managing Images** describes the process for installing OS images to a container and configuring them.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/lxd_server/00-toc.md:46
-#, no-wrap
-msgid "**Chapter 6: Profiles** deals with adding profiles and applying them to containers and particularly covers macvlan and its importance for IP addressing on your LAN or WAN\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/lxd_server/00-toc.md:46
-#, no-wrap
-msgid "**Chapter 7: Container Configuration Options** briefly covers some of the basic configuration options for containers and offers some pros and cons for modifying configuration options.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/lxd_server/00-toc.md:46
-#, no-wrap
-msgid "**Chapter 8: Container Snapshots** details the snapshot process for containers on the primary server.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/lxd_server/00-toc.md:46
-#, no-wrap
-msgid "**Chapter 9: The Snapshot Server** covers the setup and configuration of the snapshot server and how to create the symbiotic relationship between the primary and snapshot server. \n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/lxd_server/00-toc.md:46
-#, no-wrap
-msgid "**Chapter 10: Automating Snapshots** covers the automation of snapshot creation and populating the snapshot server with new snapshots.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/lxd_server/00-toc.md:46
-#, no-wrap
-msgid "**Appendix A: Workstation Setup** not technically a part of the production server documents, but offers a solution for people who want a simple way to build a lab of LXD containers on their personal laptop or workstation.  \n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/lxd_server/00-toc.md:48 ../src/docs/gemstones/rpaste.md:76
-#: ../src/docs/guides/automation/cron_jobs_howto.md:185
-#: ../src/docs/guides/backup/rsync_ssh.md:161
-#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:322
-#: ../src/docs/guides/dns/private_dns_server_using_bind.md:632
-#: ../src/docs/guides/file_sharing/glusterfs.md:339
-#: ../src/docs/guides/network/librenms_monitoring_server.md:657
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:480
-#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:339
-#, no-wrap
-msgid "Conclusions"
+msgid "Install EPEL and OpenZFS Repositories"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/lxd_server/00-toc.md:51
+#: ../src/docs/books/lxd_server/01-install.md:19
+#: ../src/docs/guides/containers/lxd_web_servers.md:66
 #, no-wrap
-msgid "You can use these chapters to effectively setup an enterprise-level primary and snapshot LXD server. In the process, you will learn a great deal about LXD, and we *have* touched on a lot of features. Just be aware that there is much more to learn, and treat these documents as a starting point.\n"
+msgid "LXD requires the EPEL (Extra Packages for Enterprise Linux) repository, which is easy to install using:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/lxd_server/00-toc.md:52
+#: ../src/docs/books/lxd_server/01-install.md:25
+#: ../src/docs/guides/containers/lxd_web_servers.md:72
 #, no-wrap
-msgid "The greatest advantage of LXD is that it is economical to use on a server, allows you to spin up OS installs quickly, can be used for multiple stand-alone application servers running on a single piece of bare metal, all of which properly leverages that hardware for maximum use.\n"
+msgid "Once installed, check for updates:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/01-install.md:26
+#, no-wrap
+msgid "dnf upgrade\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/01-install.md:31
+#, no-wrap
+msgid "If there were any kernel updates during the upgrade process, reboot the server.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/lxd_server/01-install.md:32
+#, no-wrap
+msgid "OpenZFS Repository for 8 and 9"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/01-install.md:35
+#, no-wrap
+msgid "Install the OpenZFS repository with:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/01-install.md:36
+#, no-wrap
+msgid "dnf install https://zfsonlinux.org/epel/zfs-release-2-2$(rpm --eval \"%{dist}\").noarch.rpm\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/lxd_server/01-install.md:40
+#, no-wrap
+msgid "Install snapd, dkms, vim, and kernel-devel"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/01-install.md:43
+#, no-wrap
+msgid "LXD must be installed from a snap for Rocky Linux. For this reason, we need to install `snapd` (and a few other useful programs) with:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/01-install.md:44
+#, no-wrap
+msgid "dnf install snapd dkms vim kernel-devel\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/01-install.md:49
+#, no-wrap
+msgid "And now enable and start snapd:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/lxd_server/01-install.md:50
+#: ../src/docs/guides/containers/lxd_web_servers.md:89
+#, no-wrap
+msgid "systemctl enable snapd\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/01-install.md:55
+#: ../src/docs/guides/containers/lxd_web_servers.md:94
+#, no-wrap
+msgid "And then run:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/lxd_server/01-install.md:56
+#: ../src/docs/guides/containers/lxd_web_servers.md:95
+#, no-wrap
+msgid "systemctl start snapd\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/01-install.md:61
+#, no-wrap
+msgid "Reboot the server before continuing here.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/lxd_server/01-install.md:62
+#: ../src/docs/guides/containers/lxd_web_servers.md:103
+#, no-wrap
+msgid "Install LXD"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/01-install.md:65
+#, no-wrap
+msgid "Installing LXD requires the use of the snap command. At this point, we are just installing it, we are not doing the set up:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/lxd_server/01-install.md:66
+#: ../src/docs/guides/containers/lxd_web_servers.md:107
+#, no-wrap
+msgid "snap install lxd\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/lxd_server/01-install.md:70
+#, no-wrap
+msgid "Install OpenZFS "
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/01-install.md:72
+#, no-wrap
+msgid "dnf install zfs\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/lxd_server/01-install.md:76
+#, no-wrap
+msgid "Environment Set up"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/01-install.md:79
+#, no-wrap
+msgid "Most server kernel settings are not sufficient to run a large number of containers. If we assume from the beginning that we will be using our server in production, then we need to make these changes up front to avoid errors such as \"Too many open files\" from occurring.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/01-install.md:81
+#, no-wrap
+msgid "Luckily, tweaking the settings for LXD is easy with a few file modifications and a reboot.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/lxd_server/01-install.md:82
+#, no-wrap
+msgid "Modifying limits.conf"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/01-install.md:85
+#, no-wrap
+msgid "The first file we need to modify is the limits.conf file. This file is self-documented, so look at the explanations in the file as to what this file does. To make our modifications type:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/01-install.md:86
+#, no-wrap
+msgid "vi /etc/security/limits.conf\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/01-install.md:91
+#, no-wrap
+msgid "This entire file is remarked/commented out and, at the bottom, shows the current default settings. In the blank space above the end of file marker (#End of file) we need to add our custom settings. The end of the file will look like this when you are done:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/01-install.md:92
+#, no-wrap
+msgid "# Modifications made for LXD\n\n"
+"*               soft    nofile           1048576\n"
+"*               hard    nofile           1048576\n"
+"root            soft    nofile           1048576\n"
+"root            hard    nofile           1048576\n"
+"*               soft    memlock          unlimited\n"
+"*               hard    memlock          unlimited\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/01-install.md:104
+#, no-wrap
+msgid "Save your changes and exit. (`SHIFT:wq!` for _vi_)\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/lxd_server/01-install.md:105
+#, no-wrap
+msgid "Modifying sysctl.conf With 90-lxd.override.conf"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/01-install.md:108
+#, no-wrap
+msgid "With _systemd_, we can make changes to our system's overall configuration and kernel options *without* modifying the main configuration file. Instead, we'll put our settings in a separate file that will simply override the particular settings we need.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/01-install.md:110
+#, no-wrap
+msgid "To make these kernel changes, we are going to create a file called _90-lxd-override.conf_ in /etc/sysctl.d. To do this type:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/01-install.md:111
+#, no-wrap
+msgid "vi /etc/sysctl.d/90-lxd-override.conf\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/01-install.md:116
+#, no-wrap
+msgid "!!! warning \"RL 9 and MAX value of `net.core.bpf_jit_limit`\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/01-install.md:118
+#, no-wrap
+msgid "    Because of recent kernel security updates, the max value of `net.core.bpf_jit_limit` appears to be 1000000000. Please adjust this value in the self-documenting file below if you are running Rocky Linux 9.x. If you set it above this limit **OR** if you fail to set it at all, it will default to the system default of 264241152, which may not be enough if you run a large number of containers.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/01-install.md:120
+#, no-wrap
+msgid "Place the following content in that file. Note that if you are wondering what we are doing here, the file content below is self-documenting:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/01-install.md:121
+#, no-wrap
+msgid "## The following changes have been made for LXD ##\n\n"
+"# fs.inotify.max_queued_events specifies an upper limit on the number of events that can be queued to the corresponding inotify instance\n"
+" - (default is 16384)\n\n"
+"fs.inotify.max_queued_events = 1048576\n\n"
+"# fs.inotify.max_user_instances This specifies an upper limit on the number of inotify instances that can be created per real user ID -\n"
+"(default value is 128)\n\n"
+"fs.inotify.max_user_instances = 1048576\n\n"
+"# fs.inotify.max_user_watches specifies an upper limit on the number of watches that can be created per real user ID - (default is 8192)\n\n"
+"fs.inotify.max_user_watches = 1048576\n\n"
+"# vm.max_map_count contains the maximum number of memory map areas a process may have. Memory map areas are used as a side-effect of cal\n"
+"ling malloc, directly by mmap and mprotect, and also when loading shared libraries - (default is 65530)\n\n"
+"vm.max_map_count = 262144\n\n"
+"# kernel.dmesg_restrict denies container access to the messages in the kernel ring buffer. Please note that this also will deny access t\n"
+"o non-root users on the host system - (default is 0)\n\n"
+"kernel.dmesg_restrict = 1\n\n"
+"# This is the maximum number of entries in ARP table (IPv4). You should increase this if you create over 1024 containers.\n\n"
+"net.ipv4.neigh.default.gc_thresh3 = 8192\n\n"
+"# This is the maximum number of entries in ARP table (IPv6). You should increase this if you plan to create over 1024 containers.Not nee\n"
+"ded if not using IPv6, but...\n\n"
+"net.ipv6.neigh.default.gc_thresh3 = 8192\n\n"
+"# This is a limit on the size of eBPF JIT allocations which is usually set to PAGE_SIZE * 40000. Set this to 1000000000 if you are running Rocky Linux 9.x\n\n"
+"net.core.bpf_jit_limit = 3000000000\n\n"
+"# This is the maximum number of keys a non-root user can use, should be higher than the number of containers\n\n"
+"kernel.keys.maxkeys = 2000\n\n"
+"# This is the maximum size of the keyring non-root users can use\n\n"
+"kernel.keys.maxbytes = 2000000\n\n"
+"# This is the maximum number of concurrent async I/O operations. You might need to increase it further if you have a lot of workloads th\n"
+"at use the AIO subsystem (e.g. MySQL)\n\n"
+"fs.aio-max-nr = 524288\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/01-install.md:176
+#: ../src/docs/books/lxd_server/10-automating.md:65
+#, no-wrap
+msgid "Save your changes and exit.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/01-install.md:178
+#, no-wrap
+msgid "At this point you should reboot the server.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/lxd_server/01-install.md:179
+#, no-wrap
+msgid "Checking _sysctl.conf_ Values"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/01-install.md:182
+#, no-wrap
+msgid "Once the reboot has been completed, log back in as to the server. We need to spot check that our override file has actually done the job.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/01-install.md:184
+#, no-wrap
+msgid "This is easy to do. There's no need to check every setting unless you want to, but checking a few will verify that the settings have been changed. This is done with the _sysctl_ command:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/01-install.md:185
+#, no-wrap
+msgid "sysctl net.core.bpf_jit_limit\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/01-install.md:190
+#, no-wrap
+msgid "Which should show you:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/lxd_server/01-install.md:191
+#, no-wrap
+msgid "net.core.bpf_jit_limit = 3000000000\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/lxd_server/01-install.md:195
+#, no-wrap
+msgid "Do the same with a few other settings in the override file (above) to verify that changes have been made.\n"
 msgstr ""
 
