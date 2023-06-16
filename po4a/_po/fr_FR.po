@@ -13,8 +13,8 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/learning_ansible_06-large-scale-infrastructure.pot\n"
-"X-Crowdin-File-ID: 1391\n"
+"X-Crowdin-File: /po4a/po4a/_po/learning_ansible_07-working-with-filters.pot\n"
+"X-Crowdin-File-ID: 1393\n"
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:12
@@ -34,6 +34,20 @@ msgstr ""
 #: ../src/docs/books/learning_bash/07-loops.md:17
 #, no-wrap
 msgid "**Objectives**: In this chapter you will learn how to:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:22
+#: ../src/docs/books/admin_guide/05-vi.md:22
+#: ../src/docs/books/admin_guide/07-file-systems.md:33
+#: ../src/docs/books/admin_guide/08-process.md:23
+#: ../src/docs/books/admin_guide/10-boot.md:24
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:23
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:24
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:27
+#: ../src/docs/books/learning_bash/07-loops.md:26
+#, no-wrap
+msgid "**Reading time**: 20 minutes\n"
 msgstr ""
 
 #. type: Plain text
@@ -193,45 +207,175 @@ msgid "!!! Note\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/06-users.md:25
-#: ../src/docs/books/admin_guide/12-network.md:25
-#: ../src/docs/books/learning_ansible/01-basic.md:26
-#: ../src/docs/books/learning_ansible/02-advanced.md:24
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:22
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:14
+#: ../src/docs/books/admin_guide/05-vi.md:44
+#: ../src/docs/books/admin_guide/05-vi.md:397
+#: ../src/docs/books/admin_guide/05-vi.md:405
+#: ../src/docs/books/admin_guide/05-vi.md:411
+#: ../src/docs/books/admin_guide/05-vi.md:417
+#: ../src/docs/books/admin_guide/05-vi.md:423
+#: ../src/docs/books/admin_guide/06-users.md:75
+#: ../src/docs/books/admin_guide/06-users.md:113
+#: ../src/docs/books/admin_guide/06-users.md:141
+#: ../src/docs/books/admin_guide/06-users.md:279
+#: ../src/docs/books/admin_guide/06-users.md:344
+#: ../src/docs/books/admin_guide/06-users.md:369
+#: ../src/docs/books/admin_guide/06-users.md:392
+#: ../src/docs/books/admin_guide/06-users.md:588
+#: ../src/docs/books/admin_guide/06-users.md:656
+#: ../src/docs/books/admin_guide/06-users.md:671
+#: ../src/docs/books/admin_guide/06-users.md:740
+#: ../src/docs/books/admin_guide/06-users.md:764
+#: ../src/docs/books/admin_guide/06-users.md:782
+#: ../src/docs/books/admin_guide/11-tasks.md:140
+#: ../src/docs/books/admin_guide/12-network.md:47
+#: ../src/docs/books/admin_guide/12-network.md:481
+#: ../src/docs/books/admin_guide/12-network.md:562
+#: ../src/docs/books/admin_guide/12-network.md:583
+#: ../src/docs/books/admin_guide/12-network.md:624
+#: ../src/docs/books/admin_guide/12-network.md:649
+#: ../src/docs/books/admin_guide/12-network.md:666
+#: ../src/docs/books/admin_guide/12-network.md:694
+#: ../src/docs/books/admin_guide/12-network.md:707
+#: ../src/docs/books/admin_guide/12-network.md:720
+#: ../src/docs/books/admin_guide/03-commands.md:126
+#: ../src/docs/books/admin_guide/03-commands.md:162
+#: ../src/docs/books/admin_guide/03-commands.md:470
+#: ../src/docs/books/admin_guide/03-commands.md:619
+#: ../src/docs/books/admin_guide/03-commands.md:641
+#: ../src/docs/books/admin_guide/03-commands.md:661
+#: ../src/docs/books/admin_guide/03-commands.md:778
+#: ../src/docs/books/admin_guide/03-commands.md:826
+#: ../src/docs/books/admin_guide/03-commands.md:842
+#: ../src/docs/books/admin_guide/03-commands.md:962
+#: ../src/docs/books/admin_guide/03-commands.md:985
+#: ../src/docs/books/admin_guide/03-commands.md:1174
+#: ../src/docs/books/admin_guide/03-commands.md:1195
+#: ../src/docs/books/admin_guide/07-file-systems.md:132
+#: ../src/docs/books/admin_guide/07-file-systems.md:237
+#: ../src/docs/books/admin_guide/07-file-systems.md:267
+#: ../src/docs/books/admin_guide/07-file-systems.md:286
+#: ../src/docs/books/admin_guide/07-file-systems.md:313
+#: ../src/docs/books/admin_guide/07-file-systems.md:327
+#: ../src/docs/books/admin_guide/07-file-systems.md:341
+#: ../src/docs/books/admin_guide/07-file-systems.md:379
+#: ../src/docs/books/admin_guide/07-file-systems.md:490
+#: ../src/docs/books/admin_guide/07-file-systems.md:612
+#: ../src/docs/books/admin_guide/07-file-systems.md:639
+#: ../src/docs/books/admin_guide/07-file-systems.md:993
+#: ../src/docs/books/admin_guide/08-process.md:60
+#: ../src/docs/books/admin_guide/08-process.md:198
+#: ../src/docs/books/admin_guide/08-process.md:230
+#: ../src/docs/books/admin_guide/08-process.md:250
+#: ../src/docs/books/admin_guide/08-process.md:287
+#: ../src/docs/books/admin_guide/08-process.md:312
+#: ../src/docs/books/admin_guide/08-process.md:330
+#: ../src/docs/books/admin_guide/09-backups.md:228
+#: ../src/docs/books/admin_guide/09-backups.md:253
+#: ../src/docs/books/admin_guide/09-backups.md:568
+#: ../src/docs/books/admin_guide/09-backups.md:632
+#: ../src/docs/books/admin_guide/09-backups.md:677
+#: ../src/docs/books/admin_guide/09-backups.md:700
+#: ../src/docs/books/admin_guide/09-backups.md:785
+#: ../src/docs/books/admin_guide/09-backups.md:807
+#: ../src/docs/books/admin_guide/09-backups.md:829
+#: ../src/docs/books/admin_guide/09-backups.md:855
+#: ../src/docs/books/admin_guide/10-boot.md:322
+#: ../src/docs/books/admin_guide/13-softwares.md:67
+#: ../src/docs/books/admin_guide/13-softwares.md:79
+#: ../src/docs/books/admin_guide/13-softwares.md:152
+#: ../src/docs/books/admin_guide/13-softwares.md:350
+#: ../src/docs/books/admin_guide/13-softwares.md:505
+#: ../src/docs/books/admin_guide/13-softwares.md:513
+#: ../src/docs/books/learning_ansible/01-basic.md:180
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:92
+#: ../src/docs/books/learning_bash/01-first-script.md:119
+#: ../src/docs/books/learning_bash/02-using-variables.md:128
+#: ../src/docs/books/learning_bash/02-using-variables.md:142
+#: ../src/docs/books/learning_bash/02-using-variables.md:204
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:118
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:216
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:338
+#: ../src/docs/books/learning_bash/05-tests.md:141
+#: ../src/docs/books/learning_bash/05-tests.md:199
+#: ../src/docs/books/learning_bash/05-tests.md:222
+#: ../src/docs/books/learning_bash/05-tests.md:313
+#: ../src/docs/books/learning_bash/05-tests.md:338
+#: ../src/docs/books/learning_bash/05-tests.md:354
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:101
+#: ../src/docs/books/learning_bash/07-loops.md:128
+#: ../src/docs/guides/security/learning_selinux.md:92
+#: ../src/docs/guides/security/learning_selinux.md:147
+#: ../src/docs/guides/security/learning_selinux.md:200
+#: ../src/docs/guides/security/learning_selinux.md:213
+#: ../src/docs/guides/security/learning_selinux.md:305
+#: ../src/docs/guides/security/learning_selinux.md:321
+#: ../src/docs/guides/security/learning_selinux.md:339
+#: ../src/docs/guides/security/learning_selinux.md:360
+#: ../src/docs/guides/security/learning_selinux.md:394
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:154
+#: ../src/docs/guides/web/php.md:255
 #, no-wrap
-msgid "**Reading time**: 30 minutes\n"
+msgid "Example:\n"
 msgstr ""
 
-#. type: YAML Front Matter: title
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:1
+#. type: YAML Front Matter: contributors
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part3.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:1
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:1
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:1
+#: ../src/docs/books/learning_bash/00-toc.md:1
+#: ../src/docs/books/learning_bash/01-first-script.md:1
+#: ../src/docs/books/learning_bash/02-using-variables.md:1
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:1
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:1
+#: ../src/docs/books/learning_bash/05-tests.md:1
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:1
+#: ../src/docs/books/learning_bash/07-loops.md:1
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:1
+#: ../src/docs/books/learning_rsync/01_rsync_overview.md:1
+#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:1
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:1
+#: ../src/docs/books/learning_rsync/05_rsync_authentication-free_login.md:1
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:1
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:1
+#: ../src/docs/books/nvchad/additional_software.md:1
+#: ../src/docs/books/nvchad/index.md:1
+#: ../src/docs/books/nvchad/install_nvchad.md:1
+#: ../src/docs/books/nvchad/install_nvim.md:1
+#: ../src/docs/books/nvchad/nerd_fonts.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:1
+#: ../src/docs/books/nvchad/plugins/index.md:1
+#: ../src/docs/books/nvchad/plugins/md_preview.md:1
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:1
+#: ../src/docs/books/nvchad/template_chadrc.md:1
+#: ../src/docs/gemstones/RL9_network_manager.md:1
+#: ../src/docs/gemstones/htop.md:1 ../src/docs/gemstones/mtr.md:1
+#: ../src/docs/gemstones/setup_local_repo.md:1
+#: ../src/docs/gemstones/string_color.md:1
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:1
+#: ../src/docs/gemstones/view_kernel_conf.md:1
+#: ../src/docs/guides/automation/anacron.md:1
+#: ../src/docs/guides/automation/cronie.md:1
+#: ../src/docs/guides/automation/olivetin.md:1
+#: ../src/docs/guides/communications/asterisk_installation.md:1
+#: ../src/docs/guides/containers/lxd_web_servers.md:1
+#: ../src/docs/guides/contribute/local_docs.md:1
+#: ../src/docs/guides/contribute/mkdocs_venv.md:1
+#: ../src/docs/guides/contribute/style_guide.md:1
+#: ../src/docs/guides/editors/micro.md:1
+#: ../src/docs/guides/file_sharing/glusterfs.md:1
+#: ../src/docs/guides/installation.md:1
+#: ../src/docs/guides/security/dnf_automatic.md:1
+#: ../src/docs/guides/security/firewalld-beginners.md:1
+#: ../src/docs/guides/web/nginx-multisite.md:1 ../src/docs/guides/web/php.md:1
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:1
 #, no-wrap
-msgid "Large Scale infrastructure"
-msgstr ""
-
-#. type: Title #
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:5
-#, no-wrap
-msgid "Ansible - Large Scale infrastructure"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:8
-#, no-wrap
-msgid "In this chapter you will learn how to scale your configuration management system.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:15
-#, no-wrap
-msgid ":heavy_check_mark: Organize your code for large infrastructure;   \n"
-":heavy_check_mark: Apply all or part of your configuration management to a group of nodes;   \n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:17
-#, no-wrap
-msgid ":checkered_flag: **ansible**, **config management**, **scale**\n"
+msgid "Steven Spencer"
 msgstr ""
 
 #. type: Plain text
@@ -242,489 +386,713 @@ msgid "**Knowledge**: :star: :star: :star:       \n"
 "**Complexity**: :star: :star: :star: :star:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:26
+#. type: YAML Front Matter: title
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:1
 #, no-wrap
-msgid "We have seen in the previous chapters how to organize our code in the form of roles but also how to use some roles for the management of updates (patch management) or the deployment of code.\n"
+msgid "Working With Filters"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:7
+#, no-wrap
+msgid "Ansible - Working with filters"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:28
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:10
 #, no-wrap
-msgid "What about configuration management? How to manage the configuration of tens, hundreds, or even thousands of virtual machines with Ansible?\n"
+msgid "In this chapter you will learn how to transform data with jinja filters.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:30
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:15
 #, no-wrap
-msgid "The advent of the cloud has changed the traditional methods a bit. The VM is configured at deployment. If its configuration is no longer compliant, it is destroyed and replaced by a new one.\n"
+msgid ":heavy_check_mark: Transform data structures as dictionaries or lists;  \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:32
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:16
 #, no-wrap
-msgid "The organization of the configuration management system presented in this chapter will respond to these two ways of consuming IT: \"one-shot\" use or regular \"re-configuration\" of a fleet.\n"
+msgid ":heavy_check_mark: Transform variables.  \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:34
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:19
 #, no-wrap
-msgid "However, be careful: using Ansible to ensure park compliance requires changing work habits. It is no longer possible to manually modify the configuration of a service manager without seeing these modifications overwritten the next time Ansible is run.\n"
+msgid ":checkered_flag: **ansible**, **jinja**, **filters**\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:38
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:28
 #, no-wrap
-msgid "    What we are going to set up below is not Ansible's favorite terrain. Technologies like Puppet or Salt will do much better. Let's remember that Ansible is a Swiss army knife of automation and is agentless, which explains the differences in performance.\n"
+msgid "We have already had the opportunity, during the previous chapters, to use the jinja filters.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:42
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:30
 #, no-wrap
-msgid "    More information can be [found here](https://docs.ansible.com/ansible/latest/user_guide/sample_setup.html)\n"
+msgid "These filters, written in python, allow us to manipulate and transform our ansible variables.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:34
+#, no-wrap
+msgid "    More information can be [found here](https://docs.ansible.com/ansible/latest/user_guide/playbooks_filters.html).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:36
+#, no-wrap
+msgid "Throughout this chapter, we will use the following playbook to test the different filters presented:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:37
+#, no-wrap
+msgid "- name: Manipulating the data\n"
+"  hosts: localhost\n"
+"  gather_facts: false\n"
+"  vars:\n"
+"    zero: 0\n"
+"    zero_string: \"0\"\n"
+"    non_zero: 4\n"
+"    true_booleen: True\n"
+"    true_non_booleen: \"True\"\n"
+"    false_boolean: False\n"
+"    false_non_boolean: \"False\"\n"
+"    whatever: \"It's false!\"\n"
+"    user_name: antoine\n"
+"    my_dictionary:\n"
+"      key1: value1\n"
+"      key2: value2\n"
+"    my_simple_list:\n"
+"      - value_list_1\n"
+"      - value_list_2\n"
+"      - value_list_3\n"
+"    my_simple_list_2:\n"
+"      - value_list_3\n"
+"      - value_list_4\n"
+"      - value_list_5\n"
+"    my_list:\n"
+"      - element: element1\n"
+"        value: value1\n"
+"      - element: element2\n"
+"        value: value2\n\n"
+"  tasks:\n"
+"    - name: Print an integer\n"
+"      debug:\n"
+"        var: zero\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:78
+#, no-wrap
+msgid "    The following is a non-exhaustive list of filters that you are most likely to encounter or need.\n"
+"    Fortunately, there are many others. You could even write your own!\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:80
+#, no-wrap
+msgid "The playbook will be played as follows:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:81
+#, no-wrap
+msgid "ansible-playbook play-filter.yml\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:43
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:85
 #, no-wrap
-msgid "Variables storage"
+msgid "Converting data"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:46
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:88
 #, no-wrap
-msgid "The first thing we have to discuss is the separation between data and Ansible code.\n"
+msgid "Data can be converted from one type to another.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:48
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:90
 #, no-wrap
-msgid "As the code gets larger and more complex, it will be more and more complicated to modify the variables it contains.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:50
-#, no-wrap
-msgid "To ensure the maintenance of your site, the most important thing is correctly separating the variables from the Ansible code.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:52
-#, no-wrap
-msgid "We haven't discussed it here yet, but you should know that Ansible can automatically load the variables it finds in specific folders depending on the inventory name of the managed node, or its member groups.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:54
-#, no-wrap
-msgid "The Ansible documentation suggests that we organize our code as below:\n"
+msgid "To know the type of a data (the type in python language), you have to use the `type_debug` filter.\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:55
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:93
 #, no-wrap
-msgid "inventories/\n"
-"   production/\n"
-"      hosts               # inventory file for production servers\n"
-"      group_vars/\n"
-"         group1.yml       # here we assign variables to particular groups\n"
-"         group2.yml\n"
-"      host_vars/\n"
-"         hostname1.yml    # here we assign variables to particular systems\n"
-"         hostname2.yml\n"
+msgid "- name: Display the type of a variable\n"
+"  debug:\n"
+"    var: true_boolean|type_debug\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:68
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:100
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:165
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:193
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:241
 #, no-wrap
-msgid "If the targeted node is `hostname1` of `group1`, the variables contained in the `hostname1.yml` and `group1.yml` files will be automatically loaded. It's a nice way to store all the data for all your roles in the same place.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:70
-#, no-wrap
-msgid "In this way, the inventory file of your server becomes its identity card. It contains all the variables that differ from the default variables for your server.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:72
-#, no-wrap
-msgid "From the point of view of centralization of variables, it becomes essential to organize the naming of its variables in the roles by prefixing them, for example, with the name of the role. It is also recommended to use flat variable names rather than dictionaries.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:74
-#, no-wrap
-msgid "For example, if you want to make the `PermitRootLogin` value in the `sshd_config` file a variable, a good variable name could be `sshd_config_permitrootlogin` (instead of `sshd.config.permitrootlogin` which could also be a good variable name).\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:75
-#, no-wrap
-msgid "About Ansible tags"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:78
-#, no-wrap
-msgid "The use of Ansible tags allows you to execute or skip a part of the tasks in your code.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:82
-#, no-wrap
-msgid "    More information can be [found here](https://docs.ansible.com/ansible/latest/user_guide/playbooks_tags.html)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:84
-#, no-wrap
-msgid "For example, let's modify our users creation task:\n"
+msgid "which gives us:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:85
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:101
 #, no-wrap
-msgid "- name: add users\n"
-"  user:\n"
-"    name: \"{{ item }}\"\n"
-"    state: present\n"
-"    groups: \"users\"\n"
-"  loop:\n"
-"     - antoine\n"
-"     - patrick\n"
-"     - steven\n"
-"     - xavier\n"
-"  tags: users\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:100
-#, no-wrap
-msgid "You can now play only the tasks with the tag `users` with the `ansible-playbook` option `--tags`:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:101
-#, no-wrap
-msgid "ansible-playbook -i inventories/production/hosts --tags users site.yml\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:106
-#, no-wrap
-msgid "You can also use the `--skip-tags` option.\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:107
-#, no-wrap
-msgid "About the directory layout"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:110
-#, no-wrap
-msgid "Let's focus on a proposal for the organization of files and directories necessary for the proper functioning of a CMS (Content Management System).\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:112
-#, no-wrap
-msgid "Our starting point will be the `site.yml` file. This file is a bit like the orchestra conductor of the CMS since it will only include the necessary roles for the target nodes if needed:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:113
-#, no-wrap
-msgid "---\n"
-"- name: \"Config Management for {{ target }}\"\n"
-"  hosts: \"{{ target }}\"\n\n"
-"  roles:\n\n"
-"    - role: roles/functionality1\n\n"
-"    - role: roles/functionality2\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:126
-#, no-wrap
-msgid "Of course, those roles must be created under the `roles` directory at the same level as the `site.yml` file.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:128
-#, no-wrap
-msgid "I like to manage my global vars inside a `vars/global_vars.yml`, even if I could store them inside a file located at `inventories/production/group_vars/all.yml`\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:129
-#, no-wrap
-msgid "---\n"
-"- name: \"Config Management for {{ target }}\"\n"
-"  hosts: \"{{ target }}\"\n"
-"  vars_files:\n"
-"    - vars/global_vars.yml\n"
-"  roles:\n\n"
-"    - role: roles/functionality1\n\n"
-"    - role: roles/functionality2\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:143
-#, no-wrap
-msgid "I also like to keep the possibility of disabling a functionality. So I include my roles with a condition and a default value like this:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:144
-#, no-wrap
-msgid "---\n"
-"- name: \"Config Management for {{ target }}\"\n"
-"  hosts: \"{{ target }}\"\n"
-"  vars_files:\n"
-"    - vars/global_vars.yml\n"
-"  roles:\n\n"
-"    - role: roles/functionality1\n"
-"      when:\n"
-"        - enable_functionality1|default(true)\n\n"
-"    - role: roles/functionality2\n"
-"      when:\n"
-"        - enable_functionality2|default(false)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:162
-#, no-wrap
-msgid "Don't forget to use the tags:\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:164
-#, no-wrap
-msgid "name: \"Config Management for {{ target }}\"\n"
-"hosts: \"{{ target }}\"\n"
-"vars_files:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:164
-#, no-wrap
-msgid "    - vars/global_vars.yml\n"
-"  roles:\n\n"
-"    - role: roles/functionality1\n"
-"      when:\n"
-"        - enable_functionality1|default(true)\n"
-"      tags:\n"
-"        - functionality1\n\n"
-"    - role: roles/functionality2\n"
-"      when:\n"
-"        - enable_functionality2|default(false)\n"
-"      tags:\n"
-"        - functionality2\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:185
-#, no-wrap
-msgid "You should get something like this:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:186
-#, no-wrap
-msgid "$ tree cms\n"
-"cms\n"
-"├── inventories\n"
-"│   └── production\n"
-"│       ├── group_vars\n"
-"│       │   └── plateform.yml\n"
-"│       ├── hosts\n"
-"│       └── host_vars\n"
-"│           ├── client1.yml\n"
-"│           └── client2.yml\n"
-"├── roles\n"
-"│   ├── functionality1\n"
-"│   │   ├── defaults\n"
-"│   │   │   └── main.yml\n"
-"│   │   └── tasks\n"
-"│   │       └── main.yml\n"
-"│   └── functionality2\n"
-"│       ├── defaults\n"
-"│       │   └── main.yml\n"
-"│       └── tasks\n"
-"│           └── main.yml\n"
-"├── site.yml\n"
-"└── vars\n"
-"    └── global_vars.yml\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:216
-#, no-wrap
-msgid "    You are free to develop your roles within a collection\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:217
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:118
-#, no-wrap
-msgid "Tests"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:220
-#, no-wrap
-msgid "Let's launch the playbook and run some tests:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:221
-#, no-wrap
-msgid "$ ansible-playbook -i inventories/production/hosts -e \"target=client1\" site.yml\n\n"
-"PLAY [Config Management for client1] ****************************************************************************\n\n"
-"TASK [Gathering Facts] ******************************************************************************************\n"
-"ok: [client1]\n\n"
-"TASK [roles/functionality1 : Task in functionality 1] *********************************************************\n"
-"ok: [client1] => {\n"
-"    \"msg\": \"You are in functionality 1\"\n"
-"}\n\n"
-"TASK [roles/functionality2 : Task in functionality 2] *********************************************************\n"
-"skipping: [client1]\n\n"
-"PLAY RECAP ******************************************************************************************************\n"
-"client1                    : ok=2    changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   \n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:242
-#, no-wrap
-msgid "As you can see, by default, only the tasks of the `functionality1` role are played.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:244
-#, no-wrap
-msgid "Let's activate in the inventory the `functionality2` for our targeted node and rerun the playbook:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:245
-#, no-wrap
-msgid "$ vim inventories/production/host_vars/client1.yml\n"
-"---\n"
-"enable_functionality2: true\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:252
-#, no-wrap
-msgid "$ ansible-playbook -i inventories/production/hosts -e \"target=client1\" site.yml\n\n"
-"PLAY [Config Management for client1] ****************************************************************************\n\n"
-"TASK [Gathering Facts] ******************************************************************************************\n"
-"ok: [client1]\n\n"
-"TASK [roles/functionality1 : Task in functionality 1] *********************************************************\n"
-"ok: [client1] => {\n"
-"    \"msg\": \"You are in functionality 1\"\n"
-"}\n\n"
-"TASK [roles/functionality2 : Task in functionality 2] *********************************************************\n"
-"ok: [client1] => {\n"
-"    \"msg\": \"You are in functionality 2\"\n"
-"}\n\n"
-"PLAY RECAP ******************************************************************************************************\n"
-"client1                    : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   \n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:275
-#, no-wrap
-msgid "Try to apply only `functionality2`:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:276
-#, no-wrap
-msgid "$ ansible-playbook -i inventories/production/hosts -e \"target=client1\" --tags functionality2 site.yml\n\n"
-"PLAY [Config Management for client1] ****************************************************************************\n\n"
-"TASK [Gathering Facts] ******************************************************************************************\n"
-"ok: [client1]\n\n"
-"TASK [roles/functionality2 : Task in functionality 2] *********************************************************\n"
-"ok: [client1] => {\n"
-"    \"msg\": \"You are in functionality 2\"\n"
-"}\n\n"
-"PLAY RECAP ******************************************************************************************************\n"
-"client1                    : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   \n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:294
-#, no-wrap
-msgid "Let's run on the whole inventory:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:295
-#, no-wrap
-msgid "$ ansible-playbook -i inventories/production/hosts -e \"target=plateform\" site.yml\n\n"
-"PLAY [Config Management for plateform] **************************************************************************\n\n"
-"TASK [Gathering Facts] ******************************************************************************************\n"
-"ok: [client1]\n"
-"ok: [client2]\n\n"
-"TASK [roles/functionality1 : Task in functionality 1] *********************************************************\n"
-"ok: [client1] => {\n"
-"    \"msg\": \"You are in functionality 1\"\n"
+msgid "TASK [Display the type of a variable] ******************************************************************\n"
+"ok: [localhost] => {\n"
+"    \"true_boolean|type_debug\": \"bool\"\n"
 "}\n"
-"ok: [client2] => {\n"
-"    \"msg\": \"You are in functionality 1\"\n"
-"}\n\n"
-"TASK [roles/functionality2 : Task in functionality 2] *********************************************************\n"
-"ok: [client1] => {\n"
-"    \"msg\": \"You are in functionality 2\"\n"
-"}\n"
-"skipping: [client2]\n\n"
-"PLAY RECAP ******************************************************************************************************\n"
-"client1                    : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   \n"
-"client2                    : ok=2    changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:324
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:109
 #, no-wrap
-msgid "As you can see, `functionality2` is only played on the `client1`.\n"
+msgid "It is possible to transform an integer into a string:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:110
+#, no-wrap
+msgid "- name: Transforming a variable type\n"
+"  debug:\n"
+"    var: zero|string\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:116
+#, no-wrap
+msgid "TASK [Transforming a variable type] ***************************************************************\n"
+"ok: [localhost] => {\n"
+"    \"zero|string\": \"0\"\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:124
+#, no-wrap
+msgid "Transform a string into an integer:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:125
+#, no-wrap
+msgid "- name: Transforming a variable type\n"
+"  debug:\n"
+"    var: zero_string|int\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:132
+#, no-wrap
+msgid "or a variable into a boolean:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:133
+#, no-wrap
+msgid "- name: Display an integer as a boolean\n"
+"  debug:\n"
+"    var: non_zero | bool\n\n"
+"- name: Display a string as a boolean\n"
+"  debug:\n"
+"    var: true_non_boolean | bool\n\n"
+"- name: Display a string as a boolean\n"
+"  debug:\n"
+"    var: false_non_boolean | bool\n\n"
+"- name: Display a string as a boolean\n"
+"  debug:\n"
+"    var: whatever | bool\n\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:153
+#, no-wrap
+msgid "A character string can be transformed into upper or lower case:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:154
+#, no-wrap
+msgid "- name: Lowercase a string of characters\n"
+"  debug:\n"
+"    var: whatever | lower\n\n"
+"- name: Upercase a string of characters\n"
+"  debug:\n"
+"    var: whatever | upper\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:166
+#, no-wrap
+msgid "TASK [Lowercase a string of characters] *****************************************************\n"
+"ok: [localhost] => {\n"
+"    \"whatever | lower\": \"it's false!\"\n"
+"}\n\n"
+"TASK [Upercase a string of characters] *****************************************************\n"
+"ok: [localhost] => {\n"
+"    \"whatever | upper\": \"IT'S FALSE!\"\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:179
+#, no-wrap
+msgid "The `replace` filter allows you to replace characters by others.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:181
+#, no-wrap
+msgid "Here we remove spaces or even replace a word:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:182
+#, no-wrap
+msgid "- name: Replace a character in a string\n"
+"  debug:\n"
+"    var: whatever | replace(\" \", \"\")\n\n"
+"- name: Replace a word in a string\n"
+"  debug:\n"
+"    var: whatever | replace(\"false\", \"true\")\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:194
+#, no-wrap
+msgid "TASK [Replace a character in a string] *****************************************************\n"
+"ok: [localhost] => {\n"
+"    \"whatever | replace(\\\" \\\", \\\"\\\")\": \"It'sfalse!\"\n"
+"}\n\n"
+"TASK [Replace a word in a string] *****************************************************\n"
+"ok: [localhost] => {\n"
+"    \"whatever | replace(\\\"false\\\", \\\"true\\\")\": \"It's true !\"\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:207
+#, no-wrap
+msgid "The `split` filter splits a string into a list based on a character:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:208
+#, no-wrap
+msgid "- name: Cutting a string of characters\n"
+"  debug:\n"
+"    var: whatever | split(\" \", \"\")\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:215
+#, no-wrap
+msgid "TASK [Cutting a string of characters] *****************************************************\n"
+"ok: [localhost] => {\n"
+"    \"whatever | split(\\\" \\\")\": [\n"
+"        \"It's\",\n"
+"        \"false!\"\n"
+"    ]\n"
+"}\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:325
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:225
 #, no-wrap
-msgid "Benefits"
+msgid "Join the elements of a list"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:328
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:229
 #, no-wrap
-msgid "By following the advice given in the Ansible documentation, you will quickly obtain a:\n"
+msgid "It is frequent to have to join the different elements in a single string.\n"
+"We can then specify a character or a string to insert between each element.\n"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:332
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:230
 #, no-wrap
-msgid "easily maintainable source code even if it contains a large number of roles\n"
+msgid "- name: Joining elements of a list\n"
+"  debug:\n"
+"    var: my_simple_list|join(\",\")\n\n"
+"- name: Joining elements of a list\n"
+"  debug:\n"
+"    var: my_simple_list|join(\" | \")\n"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:332
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:242
 #, no-wrap
-msgid "a relatively fast, repeatable compliance system that you can apply partially or completely\n"
+msgid "TASK [Joining elements of a list] *****************************************************************\n"
+"ok: [localhost] => {\n"
+"    \"my_simple_list|join(\\\",\\\")\": \"value_list_1,value_list_2,value_list_3\"\n"
+"}\n\n"
+"TASK [Joining elements of a list] *****************************************************************\n"
+"ok: [localhost] => {\n"
+"    \"my_simple_list|join(\\\" | \\\")\": \"value_list_1 | value_list_2 | value_list_3\"\n"
+"}\n\n"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:332
+#. type: Title ##
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:255
 #, no-wrap
-msgid "can be adapted on a case-by-case basis and by servers\n"
+msgid "Transforming dictionaries into lists (and vice versa)"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:332
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:259
 #, no-wrap
-msgid "the specifics of your information system are separated from the code, easily audit-able, and centralized in the inventory files of your configuration management.\n"
+msgid "The filters `dict2items` and `itemstodict`, a bit more complex to implement,\n"
+"are frequently used, especially in loops.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:261
+#, no-wrap
+msgid "Note that it is possible to specify the name of the key and of the value to use in the transformation.\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:262
+#, no-wrap
+msgid "- name: Display a dictionary\n"
+"  debug:\n"
+"    var: my_dictionary\n\n"
+"- name: Transforming a dictionary into a list\n"
+"  debug:\n"
+"    var: my_dictionary | dict2items\n\n"
+"- name: Transforming a dictionary into a list\n"
+"  debug:\n"
+"    var: my_dictionary | dict2items(key_name='key', value_name='value')\n\n"
+"- name: Transforming a list into a dictionary\n"
+"  debug:\n"
+"    var: my_list | items2dict(key_name='element', value_name='value')\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:280
+#, no-wrap
+msgid "TASK [Display a dictionary] *************************************************************************\n"
+"ok: [localhost] => {\n"
+"    \"my_dictionary\": {\n"
+"        \"key1\": \"value1\",\n"
+"        \"key2\": \"value2\"\n"
+"    }\n"
+"}\n\n"
+"TASK [Transforming a dictionary into a list] *************************************************************\n"
+"ok: [localhost] => {\n"
+"    \"my_dictionary | dict2items\": [\n"
+"        {\n"
+"            \"key\": \"key1\",\n"
+"            \"value\": \"value1\"\n"
+"        },\n"
+"        {\n"
+"            \"key\": \"key2\",\n"
+"            \"value\": \"value2\"\n"
+"        }\n"
+"    ]\n"
+"}\n\n"
+"TASK [Transforming a dictionary into a list] *************************************************************\n"
+"ok: [localhost] => {\n"
+"    \"my_dictionary | dict2items (key_name = 'key', value_name = 'value')\": [\n"
+"        {\n"
+"            \"key\": \"key1\",\n"
+"            \"value\": \"value1\"\n"
+"        },\n"
+"        {\n"
+"            \"key\": \"key2\",\n"
+"            \"value\": \"value2\"\n"
+"        }\n"
+"    ]\n"
+"}\n\n"
+"TASK [Transforming a list into a dictionary] ************************************************************\n"
+"ok: [localhost] => {\n"
+"    \"my_list | items2dict(key_name='element', value_name='value')\": {\n"
+"        \"element1\": \"value1\",\n"
+"        \"element2\": \"value2\"\n"
+"    }\n"
+"}\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:326
+#, no-wrap
+msgid "Working with lists"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:329
+#, no-wrap
+msgid "It is possible to merge or filter data from one or more lists:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:330
+#, no-wrap
+msgid "- name: Merger of two lists\n"
+"  debug:\n"
+"    var: my_simple_list | union(my_simple_list_2)\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:336
+#, no-wrap
+msgid "ok: [localhost] => {\n"
+"    \"my_simple_list | union(my_simple_list_2)\": [\n"
+"        \"value_list_1\",\n"
+"        \"value_list_2\",\n"
+"        \"value_list_3\",\n"
+"        \"value_list_4\",\n"
+"        \"value_list_5\"\n"
+"    ]\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:349
+#, no-wrap
+msgid "To keep only the intersection of the 2 lists (the values present in the 2 lists):\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:350
+#, no-wrap
+msgid "- name: Merger of two lists\n"
+"  debug:\n"
+"    var: my_simple_list | intersect(my_simple_list_2)\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:356
+#, no-wrap
+msgid "TASK [Merger of two lists] *******************************************************************************\n"
+"ok: [localhost] => {\n"
+"    \"my_simple_list | intersect(my_simple_list_2)\": [\n"
+"        \"value_list_3\"\n"
+"    ]\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:366
+#, no-wrap
+msgid "Or on the contrary keep only the difference (the values that do not exist in the second list):\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:367
+#, no-wrap
+msgid "- name: Merger of two lists\n"
+"  debug:\n"
+"    var: my_simple_list | difference(my_simple_list_2)\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:373
+#, no-wrap
+msgid "TASK [Merger of two lists] *******************************************************************************\n"
+"ok: [localhost] => {\n"
+"    \"my_simple_list | difference(my_simple_list_2)\": [\n"
+"        \"value_list_1\",\n"
+"        \"value_list_2\",\n"
+"    ]\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:384
+#, no-wrap
+msgid "If your list contains non-unique values, it is also possible to filter them with the `unique` filter.\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:385
+#, no-wrap
+msgid "- name: Unique value in a list\n"
+"  debug:\n"
+"    var: my_simple_list | unique\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:391
+#, no-wrap
+msgid "Transformation json/yaml"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:394
+#, no-wrap
+msgid "You may have to import json data (from an API for example) or export data in yaml or json.\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:395
+#, no-wrap
+msgid "- name: Display a variable in yaml\n"
+"  debug:\n"
+"    var: my_list | to_nice_yaml(indent=4)\n\n"
+"- name: Display a variable in json\n"
+"  debug:\n"
+"    var: my_list | to_nice_json(indent=4)\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:405
+#, no-wrap
+msgid "TASK [Display a variable in yaml] ********************************************************************\n"
+"ok: [localhost] => {\n"
+"    \"my_list | to_nice_yaml(indent=4)\": \"-   element: element1\\n    value: value1\\n-   element: element2\\n    value: value2\\n\"\n"
+"}\n\n"
+"TASK [Display a variable in json] ********************************************************************\n"
+"ok: [localhost] => {\n"
+"    \"my_list | to_nice_json(indent=4)\": \"[\\n    {\\n        \\\"element\\\": \\\"element1\\\",\\n        \\\"value\\\": \\\"value1\\\"\\n    },\\n    {\\n        \\\"element\\\": \\\"element2\\\",\\n        \\\"value\\\": \\\"value2\\\"\\n    }\\n]\"\n"
+"}\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:417
+#, no-wrap
+msgid "Default values, optional variables, protect variables"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:420
+#, no-wrap
+msgid "You will quickly be confronted with errors in the execution of your playbooks if you do not provide default values for your variables, or if you do not protect them.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:422
+#, no-wrap
+msgid "The value of a variable can be substituted for another one if it does not exist with the `default` filter:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:423
+#, no-wrap
+msgid "- name: Default value\n"
+"  debug:\n"
+"    var: variablethatdoesnotexists | default(whatever)\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:429
+#, no-wrap
+msgid "TASK [Default value] ********************************************************************************\n"
+"ok: [localhost] => {\n"
+"    \"variablethatdoesnotexists | default(whatever)\": \"It's false!\"\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:437
+#, no-wrap
+msgid "Note the presence of the apostrophe `'` which should be protected, for example, if you were using the `shell` module:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:438
+#, no-wrap
+msgid "- name: Default value\n"
+"  debug:\n"
+"    var: variablethatdoesnotexists | default(whatever| quote)\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:444
+#, no-wrap
+msgid "TASK [Default value] ********************************************************************************\n"
+"ok: [localhost] => {\n"
+"    \"variablethatdoesnotexists | default(whatever|quote)\": \"'It'\\\"'\\\"'s false!'\"\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:452
+#, no-wrap
+msgid "Finally, an optional variable in a module can be ignored if it does not exist with the keyword `omit` in the `default` filter, which will save you an error at runtime.\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:453
+#, no-wrap
+msgid "- name: Add a new user\n"
+"  ansible.builtin.user:\n"
+"    name: \"{{ user_name }}\"\n"
+"    comment: \"{{ user_comment | default(omit) }}\"\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:460
+#, no-wrap
+msgid "Associate a value according to another one (`ternary`)"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:463
+#, no-wrap
+msgid "Sometimes you need to use a condition to assign a value to a variable, in which case it is common to go through a `set_fact` step.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:465
+#, no-wrap
+msgid "This can be avoided by using the `ternary` filter:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:466
+#, no-wrap
+msgid "- name: Default value\n"
+"  debug:\n"
+"    var: (user_name == 'antoine') | ternary('admin', 'normal_user')\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:472
+#, no-wrap
+msgid "TASK [Default value] ********************************************************************************\n"
+"ok: [localhost] => {\n"
+"    \"(user_name == 'antoine') | ternary('admin', 'normal_user')\": \"admin\"\n"
+"}\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:479
+#, no-wrap
+msgid "Some other filters"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:485
+#, no-wrap
+msgid "`{{ 10000 | random }}`: as its name indicates, gives a random value.\n"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:485
+#, no-wrap
+msgid "`{{ my_simple_list | first }}`: extracts the first element of the list.\n"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:485
+#, no-wrap
+msgid "`{{ my_simple_list | length }}`: gives the length (of a list or a string).\n"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:485
+#, no-wrap
+msgid "`{{ ip_list | ansible.netcommon.ipv4 }}`: only displays v4 IPs. Without dwelling on this, if you need, there are many filters dedicated to the network.\n"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:485
+#, no-wrap
+msgid "`{{ user_password | password_hash('sha512') }}`: generates a hashed password in sha512.\n"
 msgstr ""
 
