@@ -13,51 +13,243 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/email_postfix_reporting.pot\n"
-"X-Crowdin-File-ID: 1369\n"
+"X-Crowdin-File: /po4a/po4a/_po/file_sharing_glusterfs.pot\n"
+"X-Crowdin-File-ID: 1371\n"
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:43
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:220
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:271
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:334
+#: ../src/docs/books/admin_guide/05-vi.md:70
+#: ../src/docs/books/admin_guide/05-vi.md:206
+#: ../src/docs/books/admin_guide/05-vi.md:272
+#: ../src/docs/books/admin_guide/06-users.md:36
+#: ../src/docs/books/admin_guide/06-users.md:92
+#: ../src/docs/books/admin_guide/06-users.md:220
+#: ../src/docs/books/admin_guide/06-users.md:350
+#: ../src/docs/books/admin_guide/06-users.md:598
+#: ../src/docs/books/admin_guide/06-users.md:754
+#: ../src/docs/books/admin_guide/06-users.md:818
+#: ../src/docs/books/admin_guide/11-tasks.md:174
+#: ../src/docs/books/admin_guide/12-network.md:158
+#: ../src/docs/books/admin_guide/03-commands.md:516
+#: ../src/docs/books/admin_guide/03-commands.md:693
+#: ../src/docs/books/admin_guide/03-commands.md:1216
+#: ../src/docs/books/admin_guide/03-commands.md:1262
+#: ../src/docs/books/admin_guide/03-commands.md:1297
+#: ../src/docs/books/admin_guide/07-file-systems.md:395
+#: ../src/docs/books/admin_guide/07-file-systems.md:437
+#: ../src/docs/books/admin_guide/07-file-systems.md:447
+#: ../src/docs/books/admin_guide/07-file-systems.md:515
+#: ../src/docs/books/admin_guide/07-file-systems.md:556
+#: ../src/docs/books/admin_guide/07-file-systems.md:627
+#: ../src/docs/books/admin_guide/07-file-systems.md:653
+#: ../src/docs/books/admin_guide/07-file-systems.md:672
+#: ../src/docs/books/admin_guide/07-file-systems.md:676
+#: ../src/docs/books/admin_guide/07-file-systems.md:1019
+#: ../src/docs/books/admin_guide/08-process.md:49
+#: ../src/docs/books/admin_guide/08-process.md:238
+#: ../src/docs/books/admin_guide/09-backups.md:27
+#: ../src/docs/books/admin_guide/09-backups.md:116
+#: ../src/docs/books/admin_guide/09-backups.md:133
+#: ../src/docs/books/admin_guide/09-backups.md:148
+#: ../src/docs/books/admin_guide/09-backups.md:281
+#: ../src/docs/books/admin_guide/09-backups.md:285
+#: ../src/docs/books/admin_guide/09-backups.md:301
+#: ../src/docs/books/admin_guide/09-backups.md:342
+#: ../src/docs/books/admin_guide/09-backups.md:352
+#: ../src/docs/books/admin_guide/09-backups.md:554
+#: ../src/docs/books/admin_guide/09-backups.md:771
+#: ../src/docs/books/admin_guide/10-boot.md:114
+#: ../src/docs/books/admin_guide/10-boot.md:153
+#: ../src/docs/books/admin_guide/10-boot.md:165
+#: ../src/docs/books/admin_guide/13-softwares.md:22
+#: ../src/docs/books/learning_ansible/01-basic.md:51
+#: ../src/docs/books/learning_ansible/01-basic.md:104
+#: ../src/docs/books/learning_ansible/01-basic.md:112
+#: ../src/docs/books/learning_ansible/01-basic.md:328
+#: ../src/docs/books/learning_ansible/01-basic.md:415
+#: ../src/docs/books/learning_ansible/01-basic.md:492
+#: ../src/docs/books/learning_ansible/01-basic.md:633
+#: ../src/docs/books/learning_ansible/01-basic.md:656
+#: ../src/docs/books/learning_ansible/02-advanced.md:34
+#: ../src/docs/books/learning_ansible/02-advanced.md:150
+#: ../src/docs/books/learning_ansible/02-advanced.md:182
+#: ../src/docs/books/learning_ansible/02-advanced.md:269
+#: ../src/docs/books/learning_ansible/02-advanced.md:277
+#: ../src/docs/books/learning_ansible/02-advanced.md:287
+#: ../src/docs/books/learning_ansible/02-advanced.md:293
+#: ../src/docs/books/learning_ansible/02-advanced.md:360
+#: ../src/docs/books/learning_ansible/02-advanced.md:428
+#: ../src/docs/books/learning_ansible/02-advanced.md:601
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:33
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:58
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:77
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:96
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:113
+#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:65
+#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:432
+#: ../src/docs/books/learning_ansible/05-deployments.md:41
+#: ../src/docs/books/learning_ansible/05-deployments.md:124
+#: ../src/docs/books/learning_ansible/05-deployments.md:196
+#: ../src/docs/books/learning_ansible/05-deployments.md:616
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:36
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:40
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:80
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:214
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:32
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:75
+#: ../src/docs/books/learning_bash/02-using-variables.md:153
+#: ../src/docs/books/learning_bash/02-using-variables.md:193
+#: ../src/docs/books/learning_bash/05-tests.md:245
+#: ../src/docs/books/learning_bash/07-loops.md:180
+#: ../src/docs/books/lxd_server/04-firewall.md:80
+#: ../src/docs/books/nvchad/plugins/md_preview.md:140
+#: ../src/docs/books/nvchad/template_chadrc.md:239
+#: ../src/docs/gemstones/https_rsa_keygen.md:34
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:80
+#: ../src/docs/guides/8_6_installation.md:37
+#: ../src/docs/guides/8_6_installation.md:168
+#: ../src/docs/guides/8_6_installation.md:176
+#: ../src/docs/guides/8_6_installation.md:182
+#: ../src/docs/guides/8_6_installation.md:250
+#: ../src/docs/guides/automation/olivetin.md:60
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:307
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:323
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:486
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:533
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:667
+#: ../src/docs/guides/containers/lxd_web_servers.md:35
+#: ../src/docs/guides/containers/lxd_web_servers.md:45
+#: ../src/docs/guides/containers/lxd_web_servers.md:301
+#: ../src/docs/guides/containers/lxd_web_servers.md:352
+#: ../src/docs/guides/containers/lxd_web_servers.md:605
+#: ../src/docs/guides/containers/lxd_web_servers.md:665
+#: ../src/docs/guides/containers/lxd_web_servers.md:737
+#: ../src/docs/guides/containers/lxd_web_servers.md:796
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:53
+#: ../src/docs/guides/contribute/navigation.md:60
+#: ../src/docs/guides/custom-linux-kernel.md:453
+#: ../src/docs/guides/editors/micro.md:30
+#: ../src/docs/guides/file_sharing/glusterfs.md:46
+#: ../src/docs/guides/file_sharing/glusterfs.md:64
+#: ../src/docs/guides/file_sharing/glusterfs.md:102
+#: ../src/docs/guides/file_sharing/glusterfs.md:203
+#: ../src/docs/guides/installation.md:36 ../src/docs/guides/installation.md:175
+#: ../src/docs/guides/installation.md:183
+#: ../src/docs/guides/installation.md:193
+#: ../src/docs/guides/installation.md:266
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
+#: ../src/docs/guides/security/firewalld-beginners.md:89
+#: ../src/docs/guides/security/firewalld-beginners.md:144
+#: ../src/docs/guides/security/firewalld-beginners.md:258
+#: ../src/docs/guides/security/firewalld.md:51
+#: ../src/docs/guides/security/firewalld.md:94
+#: ../src/docs/guides/security/firewalld.md:228
+#: ../src/docs/guides/security/firewalld.md:372
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:72
+#: ../src/docs/guides/security/learning_selinux.md:137
+#: ../src/docs/guides/security/learning_selinux.md:253
+#: ../src/docs/guides/security/learning_selinux.md:356
+#: ../src/docs/guides/virtualization/vbox-rocky.md:27
+#: ../src/docs/guides/web/nginx-mainline.md:30
+#: ../src/docs/guides/web/nginx-mainline.md:99
+#: ../src/docs/guides/web/nginx-mainline.md:141
+#: ../src/docs/guides/web/nginx-mainline.md:254
+#: ../src/docs/guides/web/nginx-mainline.md:333
+#: ../src/docs/guides/web/nginx-multisite.md:73
+#: ../src/docs/guides/web/nginx-multisite.md:233
+#: ../src/docs/guides/web/nginx-multisite.md:292
+#: ../src/docs/guides/web/nginx-multisite.md:302
+#: ../src/docs/guides/web/php.md:33 ../src/docs/guides/web/php.md:76
+#: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
+#: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
+#: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
+#, no-wrap
+msgid "!!! Note\n"
+msgstr ""
 
 #. type: Title ##
-#: ../src/docs/books/admin_guide/13-softwares.md:900
-#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:105
-#: ../src/docs/books/nvchad/template_chadrc.md:352
-#: ../src/docs/gemstones/bash_stub.md:103
-#: ../src/docs/gemstones/perl_search_replace.md:38
-#: ../src/docs/gemstones/sed_search_replace.md:72
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:172
-#: ../src/docs/guides/automation/olivetin.md:142
-#: ../src/docs/guides/cms/dokuwiki_server.md:306
-#: ../src/docs/guides/communications/asterisk_installation.md:261
-#: ../src/docs/guides/containers/lxd_web_servers.md:919
-#: ../src/docs/guides/containers/podman-nextcloud.md:456
-#: ../src/docs/guides/contribute/local_docs.md:47
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:322
-#: ../src/docs/guides/contribute/navigation.md:129
-#: ../src/docs/guides/contribute/rockydocs_formatting.md:458
-#: ../src/docs/guides/database/database_mariadb-server.md:197
-#: ../src/docs/guides/desktop/kde_installation.md:105
-#: ../src/docs/guides/desktop/mate_installation.md:200
-#: ../src/docs/guides/desktop/xfce_installation.md:218
-#: ../src/docs/guides/editors/micro.md:79
-#: ../src/docs/guides/email/postfix_reporting.md:254
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:270
-#: ../src/docs/guides/file_sharing/sftp.md:765
-#: ../src/docs/guides/proxies/pound.md:460
-#: ../src/docs/guides/security/dnf_automatic.md:119
-#: ../src/docs/guides/security/enabling_iptables_firewall.md:54
-#: ../src/docs/guides/security/firewalld-beginners.md:427
-#: ../src/docs/guides/security/firewalld.md:477
-#: ../src/docs/guides/security/pam.md:137
-#: ../src/docs/guides/security/ssl_keys_https.md:136
-#: ../src/docs/guides/virtualization/vbox-rocky.md:160
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:147
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:235
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:157
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:91
-#: ../src/docs/guides/web/mod_SSL_apache.md:171
-#: ../src/docs/guides/web/nginx-mainline.md:352
-#: ../src/docs/guides/web/nginx-multisite.md:359
+#: ../src/docs/books/admin_guide/12-network.md:419
+#: ../src/docs/guides/file_sharing/glusterfs.md:140
 #, no-wrap
-msgid "Conclusion"
+msgid "Name resolution"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:737
+#: ../src/docs/books/lxd_server/30-appendix_a.md:23
+#: ../src/docs/books/nvchad/nerd_fonts.md:28 ../src/docs/gemstones/rpaste.md:15
+#: ../src/docs/guides/file_sharing/glusterfs.md:89
+#: ../src/docs/guides/file_sharing/sftp.md:75
+#: ../src/docs/guides/security/dnf_automatic.md:26
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:29
+#: ../src/docs/guides/web/php.md:85 ../src/docs/guides/web/php.md:152
+#, no-wrap
+msgid "Installation"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: contributors
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part3.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:1
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:1
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:1
+#: ../src/docs/books/learning_bash/00-toc.md:1
+#: ../src/docs/books/learning_bash/01-first-script.md:1
+#: ../src/docs/books/learning_bash/02-using-variables.md:1
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:1
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:1
+#: ../src/docs/books/learning_bash/05-tests.md:1
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:1
+#: ../src/docs/books/learning_bash/07-loops.md:1
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:1
+#: ../src/docs/books/learning_rsync/01_rsync_overview.md:1
+#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:1
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:1
+#: ../src/docs/books/learning_rsync/05_rsync_authentication-free_login.md:1
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:1
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:1
+#: ../src/docs/books/nvchad/additional_software.md:1
+#: ../src/docs/books/nvchad/index.md:1
+#: ../src/docs/books/nvchad/install_nvchad.md:1
+#: ../src/docs/books/nvchad/install_nvim.md:1
+#: ../src/docs/books/nvchad/nerd_fonts.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:1
+#: ../src/docs/books/nvchad/plugins/index.md:1
+#: ../src/docs/books/nvchad/plugins/md_preview.md:1
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:1
+#: ../src/docs/books/nvchad/template_chadrc.md:1
+#: ../src/docs/gemstones/RL9_network_manager.md:1
+#: ../src/docs/gemstones/htop.md:1 ../src/docs/gemstones/mtr.md:1
+#: ../src/docs/gemstones/setup_local_repo.md:1
+#: ../src/docs/gemstones/string_color.md:1
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:1
+#: ../src/docs/gemstones/view_kernel_conf.md:1
+#: ../src/docs/guides/automation/anacron.md:1
+#: ../src/docs/guides/automation/cronie.md:1
+#: ../src/docs/guides/automation/olivetin.md:1
+#: ../src/docs/guides/communications/asterisk_installation.md:1
+#: ../src/docs/guides/containers/lxd_web_servers.md:1
+#: ../src/docs/guides/contribute/local_docs.md:1
+#: ../src/docs/guides/contribute/mkdocs_venv.md:1
+#: ../src/docs/guides/contribute/style_guide.md:1
+#: ../src/docs/guides/editors/micro.md:1
+#: ../src/docs/guides/file_sharing/glusterfs.md:1
+#: ../src/docs/guides/installation.md:1
+#: ../src/docs/guides/security/dnf_automatic.md:1
+#: ../src/docs/guides/security/firewalld-beginners.md:1
+#: ../src/docs/guides/web/nginx-multisite.md:1 ../src/docs/guides/web/php.md:1
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:1
+#, no-wrap
+msgid "Steven Spencer"
 msgstr ""
 
 #. type: Title #
@@ -124,41 +316,25 @@ msgstr ""
 msgid "Introduction"
 msgstr ""
 
-#. type: Yaml Front Matter Hash Value: contributors
-#: ../src/docs/books/lxd_server/00-toc.md:1
-#: ../src/docs/books/lxd_server/01-install.md:1
-#: ../src/docs/books/lxd_server/02-zfs_setup.md:1
-#: ../src/docs/books/lxd_server/03-lxdinit.md:1
-#: ../src/docs/books/lxd_server/04-firewall.md:1
-#: ../src/docs/books/lxd_server/05-lxd_images.md:1
-#: ../src/docs/books/lxd_server/06-profiles.md:1
-#: ../src/docs/books/lxd_server/07-configurations.md:1
-#: ../src/docs/books/lxd_server/08-snapshots.md:1
-#: ../src/docs/books/lxd_server/09-snapshot_server.md:1
-#: ../src/docs/books/lxd_server/10-automating.md:1
-#: ../src/docs/gemstones/bash_stub.md:1
-#: ../src/docs/guides/automation/cron_jobs_howto.md:1
-#: ../src/docs/guides/backup/rsnapshot_backup.md:1
-#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:1
-#: ../src/docs/guides/cms/dokuwiki_server.md:1
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:1
-#: ../src/docs/guides/contribute/navigation.md:1
-#: ../src/docs/guides/desktop/kde_installation.md:1
-#: ../src/docs/guides/dns/private_dns_server_using_bind.md:1
-#: ../src/docs/guides/email/postfix_reporting.md:1
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:1
-#: ../src/docs/guides/file_sharing/sftp.md:1
-#: ../src/docs/guides/network/librenms_monitoring_server.md:1
-#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
-#: ../src/docs/guides/security/ssh_public_private_keys.md:1
-#: ../src/docs/guides/security/ssl_keys_https.md:1
-#: ../src/docs/guides/web/apache-sites-enabled.md:1
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:1
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:111
+#: ../src/docs/guides/file_sharing/glusterfs.md:133
 #, no-wrap
-msgid "Ezequiel Bruni"
+msgid "or:\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/lxd_server/00-toc.md:48 ../src/docs/gemstones/rpaste.md:76
+#: ../src/docs/guides/automation/cron_jobs_howto.md:185
+#: ../src/docs/guides/backup/rsync_ssh.md:161
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:322
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:632
+#: ../src/docs/guides/file_sharing/glusterfs.md:339
+#: ../src/docs/guides/network/librenms_monitoring_server.md:657
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:480
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:339
+#, no-wrap
+msgid "Conclusions"
 msgstr ""
 
 #. type: Title ##
@@ -194,630 +370,637 @@ msgstr ""
 msgid "Prerequisites"
 msgstr ""
 
-#. type: Yaml Front Matter Array Element: tags
-#: ../src/docs/guides/email/postfix_reporting.md:1
+#. type: Bullet: '* '
+#: ../src/docs/guides/database/database_mariadb-server.md:20
+#: ../src/docs/guides/file_sharing/glusterfs.md:15
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
 #, no-wrap
-msgid "email"
+msgid "Proficiency with a command-line editor (we are using _vi_ in this example)\n"
 msgstr ""
 
-#. type: Yaml Front Matter Array Element: tags
-#: ../src/docs/guides/email/postfix_reporting.md:1
+#. type: Bullet: '* '
+#: ../src/docs/guides/database/database_mariadb-server.md:20
+#: ../src/docs/guides/file_sharing/glusterfs.md:15
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:21
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
 #, no-wrap
-msgid "reports"
-msgstr ""
-
-#. type: Yaml Front Matter Array Element: tags
-#: ../src/docs/guides/email/postfix_reporting.md:1
-#, no-wrap
-msgid "tools"
+msgid "A heavy comfort level with issuing commands from the command-line, viewing logs, and other general systems administrator duties\n"
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
-#: ../src/docs/guides/email/postfix_reporting.md:1
+#: ../src/docs/guides/file_sharing/glusterfs.md:1
 #, no-wrap
-msgid "Postfix Process Reporting"
+msgid "Clustering-GlusterFS"
 msgstr ""
 
 #. type: Title #
-#: ../src/docs/guides/email/postfix_reporting.md:12
+#: ../src/docs/guides/file_sharing/glusterfs.md:8
 #, no-wrap
-msgid "Using Postfix For Server Process Reporting"
+msgid "High availability cluster with GlusterFS"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/guides/email/postfix_reporting.md:21
+#: ../src/docs/guides/file_sharing/glusterfs.md:15
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
 #, no-wrap
-msgid "Complete comfort operating from the command line on a Rocky Linux server\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/email/postfix_reporting.md:21
-#, no-wrap
-msgid "Familiarity with an editor of your choice (this document uses the _vi_ editor, but you can substitute in your favorite editor)\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/email/postfix_reporting.md:21
-#, no-wrap
-msgid "An understanding of DNS (the Domain Name System) and host names\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/email/postfix_reporting.md:21
-#, no-wrap
-msgid "The ability to assign variables in a bash script\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/email/postfix_reporting.md:21
-#, no-wrap
-msgid "Knowledge of what the _tail_, _more_, _grep_, and _date_ commands do\n"
+msgid "All commands are run as the root user or sudo\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:25
+#: ../src/docs/guides/file_sharing/glusterfs.md:19
 #, no-wrap
-msgid "Many Rocky Linux server administrators write scripts to perform specific tasks, like backups or file synchronization, and many of these scripts generate logs that have useful and sometimes very important information. Just having the logs, though, is not enough. If a process fails and logs that failure, but the busy administrator does not review the log, then a catastrophe could be in the making.\n"
+msgid "GlusterFS is a distributed file system.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:27
+#: ../src/docs/guides/file_sharing/glusterfs.md:21
 #, no-wrap
-msgid "This document shows you how to use the _postfix_ MTA (mail transfer agent) to grab log details from a particular process, and send them to you via email. It also touches on date formats in logs, and helps you identify which format you need to use in the reporting procedure.\n"
+msgid "It allows for storage of large amount of data distributed across clusters of servers with a very high availability.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:29
+#: ../src/docs/guides/file_sharing/glusterfs.md:23
 #, no-wrap
-msgid "Keep in mind, though, that this is just the tip of the iceberg as far as what can be done with reporting via postfix. Please note, too, that it is always a good security move to limit running processes to only those that you will need all the time.\n"
+msgid "It is composed of a server part to be installed on all the nodes of the server clusters.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:31
+#: ../src/docs/guides/file_sharing/glusterfs.md:25
 #, no-wrap
-msgid "This document shows you how to enable postfix only for the reporting you need it to do, and then shut it down again.\n"
+msgid "Clients can access the data via the `glusterfs` client or the `mount` command.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:27
+#, no-wrap
+msgid "GlusterFS can operate in two modes:\n"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: ../src/docs/guides/file_sharing/glusterfs.md:30
+#, no-wrap
+msgid "replicated mode: each node of the cluster has all the data.\n"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: ../src/docs/guides/file_sharing/glusterfs.md:30
+#, no-wrap
+msgid "distributed mode: no data redundancy. If a storage fails, the data on the failed node is lost.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:32
+#, no-wrap
+msgid "Both modes can be used together to provide both a replicated and distributed file system as long as you have the right number of servers.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:34
+#, no-wrap
+msgid "Data is stored inside bricks.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:36
+#, no-wrap
+msgid "> A Brick is the basic unit of storage in GlusterFS, represented by an export directory on a server in the trusted storage pool.\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/email/postfix_reporting.md:32
+#: ../src/docs/guides/file_sharing/glusterfs.md:37
 #, no-wrap
-msgid "Postfix Defined"
+msgid "Test platform"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:35
+#: ../src/docs/guides/file_sharing/glusterfs.md:40
 #, no-wrap
-msgid "postfix is a server daemon used for sending email. It is more secure and simpler than sendmail, another MTA that was the default go-to MTA for years. It can be used as part of a full-featured mail server.\n"
+msgid "Our fictitious platform is composed of two servers and a client, all Rocky Linux servers.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/file_sharing/glusterfs.md:44
+#, no-wrap
+msgid "First node: node1.cluster.local - 192.168.1.10\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/file_sharing/glusterfs.md:44
+#, no-wrap
+msgid "Second node: node2.cluster.local - 192.168.1.11\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/file_sharing/glusterfs.md:44
+#, no-wrap
+msgid "Client1: client1.clients.local - 192.168.1.12\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:48
+#, no-wrap
+msgid "    Make sure you have the necessary bandwidth between the servers of the cluster.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:50
+#, no-wrap
+msgid "Each server in the cluster has a second disk for data storage.\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/email/postfix_reporting.md:36
+#: ../src/docs/guides/file_sharing/glusterfs.md:51
 #, no-wrap
-msgid "Installing postfix"
+msgid "Preparation of the disks"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:39
+#: ../src/docs/guides/file_sharing/glusterfs.md:54
 #, no-wrap
-msgid "Aside from postfix, we will need _mailx_ for testing our ability to send emails. To install both, and any dependencies required, enter the following on the Rocky Linux server command line:\n"
+msgid "We will create a new LVM logical volume that will be mounted on `/data/glusterfs/vol0` on both of the cluster's servers:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:55
+#, no-wrap
+msgid "$ sudo pvcreate /dev/sdb\n"
+"$ sudo vgcreate vg_data /dev/sdb\n"
+"$ sudo lvcreate -l 100%FREE -n lv_data vg_data\n"
+"$ sudo mkfs.xfs /dev/vg_data/lv_data\n"
+"$ sudo mkdir -p /data/glusterfs/volume1\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:41
+#: ../src/docs/guides/file_sharing/glusterfs.md:66
 #, no-wrap
-msgid "`dnf install postfix mailx`\n"
+msgid "    If LVM is not available on your servers, just install it with the following command:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:43
-#, no-wrap
-msgid "!!! warning \"Rocky Linux 9.0 Changes\"\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:45
-#, no-wrap
-msgid "    This procedure works perfectly fine in Rocky Linux 9.0. The difference here is where the `mailx` command comes from. While you can install it by name in 8.x, `mailx` comes from the appstream package `s-nail` in 9.0. To install the needed packages, you need to use:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:49
+#: ../src/docs/guides/file_sharing/glusterfs.md:70
 #, no-wrap
 msgid "    ```\n"
-"    dnf install postfix s-nail\n"
+"    $ sudo dnf install lvm2\n"
 "    ```\n"
 msgstr ""
 
-#. type: Title ##
-#: ../src/docs/guides/email/postfix_reporting.md:50
-#, no-wrap
-msgid "Testing And Configuring Postfix"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/guides/email/postfix_reporting.md:52
-#, no-wrap
-msgid "Testing Mail First"
-msgstr ""
-
 #. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:55
+#: ../src/docs/guides/file_sharing/glusterfs.md:72
 #, no-wrap
-msgid "Before we configure postfix, we need to find out how mail will look when it leaves the server, because we will probably want to change this. To do this, start postfix:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:57
-#, no-wrap
-msgid "`systemctl start postfix`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:59
-#, no-wrap
-msgid "Then test it using mail command that is installed with mailx:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:61
-#, no-wrap
-msgid "`mail -s \"Testing from server\" myname@mydomain.com`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:63
-#, no-wrap
-msgid "This will bring up a blank line. Simply type your testing message in here:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:65
-#, no-wrap
-msgid "`testing from the server`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:67
-#, no-wrap
-msgid "Now hit enter, and enter a single period:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:69
-#, no-wrap
-msgid "`.`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:71
-#, no-wrap
-msgid "The system will respond with:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:73
-#, no-wrap
-msgid "`EOT`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:75
-#, no-wrap
-msgid "Our purpose for doing this is to check to see how our mail looks to the outside world, which we can get a feel for from the maillog that goes active with the starting of postfix.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:77
-#, no-wrap
-msgid "Use this command to see the output of the log file:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:79
-#, no-wrap
-msgid "`tail /var/log/maillog`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:81
-#, no-wrap
-msgid "You should see something like this, although the log file may have different domains for the email address, etc:\n"
+msgid "We can now add that logical volume to the `/etc/fstab` file:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/guides/email/postfix_reporting.md:82
+#: ../src/docs/guides/file_sharing/glusterfs.md:73
 #, no-wrap
-msgid "Mar  4 16:51:40 hedgehogct postfix/postfix-script[735]: starting the Postfix mail system\n"
-"Mar  4 16:51:40 hedgehogct postfix/master[737]: daemon started -- version 3.3.1, configuration /etc/postfix\n"
-"Mar  4 16:52:04 hedgehogct postfix/pickup[738]: C9D42EC0ADD: uid=0 from=<root>\n"
-"Mar  4 16:52:04 hedgehogct postfix/cleanup[743]: C9D42EC0ADD: message-id=<20210304165204.C9D42EC0ADD@somehost.localdomain>\n"
-"Mar  4 16:52:04 hedgehogct postfix/qmgr[739]: C9D42EC0ADD: from=<root@somehost.localdomain>, size=457, nrcpt=1 (queue active)\n"
-"Mar  4 16:52:05 hedgehogct postfix/smtp[745]: connect to gmail-smtp-in.l.google.com[2607:f8b0:4001:c03::1a]:25: Network is unreachable\n"
-"Mar  4 16:52:06 hedgehogct postfix/smtp[745]: C9D42EC0ADD: to=<myname@mydomain.com>, relay=gmail-smtp-in.l.google.com[172.217.212.26]\n"
-":25, delay=1.4, delays=0.02/0.02/0.99/0.32, dsn=2.0.0, status=sent (250 2.0.0 OK  1614876726 z8si17418573ilq.142 - gsmtp)\n"
-"Mar  4 16:52:06 hedgehogct postfix/qmgr[739]: C9D42EC0ADD: removed\n"
+msgid "/dev/mapper/vg_data-lv_data /data/glusterfs/volume1        xfs     defaults        1 2\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:94
+#: ../src/docs/guides/file_sharing/glusterfs.md:78
 #, no-wrap
-msgid "The \"somehost.localdomain\" shows us that we need to make some changes, so stop the postfix daemon first:\n"
+msgid "And mount it:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:79
+#, no-wrap
+msgid "$ sudo mount -a\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:96
+#: ../src/docs/guides/file_sharing/glusterfs.md:84
 #, no-wrap
-msgid "`systemctl stop postfix`\n"
+msgid "As the data is stored in a sub-volume called brick, we can create a directory in this new data space dedicated to it:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:85
+#, no-wrap
+msgid "$ sudo mkdir /data/glusterfs/volume1/brick0\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:92
+#, no-wrap
+msgid "At the time of writing this documentation, the original CentOS Storage SIG repository is no longer available and the RockyLinux repository is not yet available.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:94
+#, no-wrap
+msgid "However, we will use (for the time being) the archived version.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:96
+#, no-wrap
+msgid "First of all, it is necessary to add the dedicated repository to gluster (in version 9) on both servers:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:97
+#, no-wrap
+msgid "sudo dnf install centos-release-gluster9\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:104
+#, no-wrap
+msgid "    Later, when it is ready on the Rocky side, we can change the name of this package.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:106
+#, no-wrap
+msgid "As the repo list and url is not available anymore, let's change the content of the `/etc/yum.repos.d/CentOS-Gluster-9.repo`:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:107
+#, no-wrap
+msgid "[centos-gluster9]\n"
+"name=CentOS-$releasever - Gluster 9\n"
+"#mirrorlist=http://mirrorlist.centos.org?arch=$basearch&release=$releasever&repo=storage-gluster-9\n"
+"baseurl=https://dl.rockylinux.org/vault/centos/8.5.2111/storage/x86_64/gluster-9/\n"
+"gpgcheck=1\n"
+"enabled=1\n"
+"gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-Storage\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:118
+#, no-wrap
+msgid "We are now ready to install the glusterfs server:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:119
+#, no-wrap
+msgid "$ sudo dnf install glusterfs glusterfs-libs glusterfs-server\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/email/postfix_reporting.md:97
+#: ../src/docs/guides/file_sharing/glusterfs.md:123
 #, no-wrap
-msgid "Configuring Postfix"
+msgid "Firewall rules"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:100
+#: ../src/docs/guides/file_sharing/glusterfs.md:126
 #, no-wrap
-msgid "Since we aren't setting up a complete, fully functional mail server, the configuration options that we will be using are not as extensive. The first thing we need to do is to modify the _main.cf_ file (literally the main configuration file for postfix), so let's make a backup first:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:102
-#, no-wrap
-msgid "`cp /etc/postfix/main.cf /etc/postfix/main.cf.bak`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:104
-#, no-wrap
-msgid "Then edit it:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:106
-#, no-wrap
-msgid "`vi /etc/postfix/main.cf`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:108
-#, no-wrap
-msgid "In our example, our server name is going to be \"bruno\" and our domain name is going to be \"ourdomain.com\". Find the line in the file:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:110
-#, no-wrap
-msgid "`#myhostname = host.domain.tld`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:112
-#, no-wrap
-msgid "You can either remove the remark (#) or you can add a new line under this line. Based on our example, the line would read:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:114
-#, no-wrap
-msgid "`myhostname = bruno.ourdomain.com`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:116
-#, no-wrap
-msgid "Next, find the line for the domain name:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:118
-#, no-wrap
-msgid "`#mydomain = domain.tld`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:120
-#, no-wrap
-msgid "Either remove the remark and change it, or add a new line:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:122
-#, no-wrap
-msgid "`mydomain = ourdomain.com`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:124
-#, no-wrap
-msgid "Finally, go to the bottom of the file and add this line:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:126
-#, no-wrap
-msgid "`smtp_generic_maps = hash:/etc/postfix/generic`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:128
-#, no-wrap
-msgid "Save your changes (in vi, that will be `Shift : wq!`) and exit the file.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:130
-#, no-wrap
-msgid "Before we continue editing the generic file, we need to see how email will look. Specifically, we want to create the \"generic\" file that we referenced in the _main.cf_ file above:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:132
-#, no-wrap
-msgid "`vi /etc/postfix/generic`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:134
-#, no-wrap
-msgid "This file tells postfix how any email coming from this server should look. Remember our test email and the log file? This is where we fix all of that:\n"
+msgid "A few rules are necessary for the service to work:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/guides/email/postfix_reporting.md:135
+#: ../src/docs/guides/file_sharing/glusterfs.md:127
 #, no-wrap
-msgid "root@somehost.localdomain       root@bruno.ourdomain.com\n"
-"@somehost.localdomain           root@bruno.ourdomain.com\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:140
-#, no-wrap
-msgid "Now we need to tell postfix to use all of our changes. This is done with the postmap command:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:142
-#, no-wrap
-msgid "`postmap /etc/postfix/generic`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:144
-#, no-wrap
-msgid "Now start postfix and test your email again using the same procedure as above. You should now see that all of the \"localdomain\" instances have been changed to your actual domain.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/guides/email/postfix_reporting.md:145
-#, no-wrap
-msgid "The date Command and a Variable Called today"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:148
-#, no-wrap
-msgid "Not every application will use the same logging format for the date. This means that you may have to get creative with any script you write for reporting by date.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:150
-#, no-wrap
-msgid "Let's say that you want to look at your system log as an example and pull everything that has to do with dbus-daemon for today's date, and email it to yourself. (It's probably not the greatest example, but it will give you an idea of how we would do this.)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:151
-#, no-wrap
-msgid "We need to use a a variable in our script that we will call \"today\" and we want it to relate to output from the \"date\" command and format it in a specific way, so that we can get the data we need from our system log (in _/var/log/messages_). To start with, let's do some investigative work.  \n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:154
-#, no-wrap
-msgid "First, enter the date command in the command line:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:156
-#, no-wrap
-msgid "`date`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:158
-#, no-wrap
-msgid "This should give you the default system date output, which could be something like this:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:160
-#, no-wrap
-msgid "`Thu Mar  4 18:52:28 UTC 2021`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:162
-#, no-wrap
-msgid "Now let's check our system log and see how it records information. To do this, we will use the \"more\" and \"grep\" commands:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:164
-#, no-wrap
-msgid "`more /var/log/messages | grep dbus-daemon`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:166
-#, no-wrap
-msgid "Which should give you something like this:\n"
+msgid "$ sudo firewall-cmd --zone=public --add-service=glusterfs --permanent\n"
+"$ sudo firewall-cmd --reload\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/guides/email/postfix_reporting.md:167
+#: ../src/docs/guides/file_sharing/glusterfs.md:134
 #, no-wrap
-msgid "Mar  4 18:23:53 hedgehogct dbus-daemon[60]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'\n"
-"Mar  4 18:50:41 hedgehogct dbus-daemon[60]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.1' (uid=0 pid=61 comm=\"/usr/sbin/NetworkManager --no-daemon \" label=\"unconfined\")\n"
-"Mar  4 18:50:41 hedgehogct dbus-daemon[60]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher\n"
+msgid "$ sudo firewall-cmd --zone=public --add-port=24007-24008/tcp --permanent\n"
+"$ sudo firewall-cmd --zone=public --add-port=49152/tcp --permanent\n"
+"$ sudo firewall-cmd --reload\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:174
+#: ../src/docs/guides/file_sharing/glusterfs.md:143
 #, no-wrap
-msgid "The date and log outputs need to be exactly the same in our script, so let's look at how to format the date using a variable called \"today\".\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:176
-#, no-wrap
-msgid "First, let's look at what we need to do with the date to get the same output as the system log. You can reference the [Linux man page](https://man7.org/linux/man-pages/man1/date.1.html) or type `man date` on the command line to pull up the date manual page to get the information you need.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:178
-#, no-wrap
-msgid "What you will find is that in order to format the date the same way that _/var/log/messages_ has it, we need to use the %b and %e format strings, with %b being the 3 character month and %e being the space-padded day.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/guides/email/postfix_reporting.md:179
-#, no-wrap
-msgid "The Script"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:182
-#, no-wrap
-msgid "For our bash script, we can see that we are going to use the date command and a variable called \"today\". (Keep in mind that \"today\" is arbitrary. You could call this variable \"late_for_dinner\" if you wanted!). We will call our script in this example, test.sh and place it in _/usr/local/sbin_:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:184
-#: ../src/docs/guides/email/postfix_reporting.md:212
-#: ../src/docs/guides/email/postfix_reporting.md:228
-#, no-wrap
-msgid "`vi /usr/local/sbin/test.sh`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:186
-#, no-wrap
-msgid "Let's start with, well, the beginning of our script. Note that even though the comment in our file says we are sending these messages to email, for now, we are just sending them to a standard log output so that we can verify that they are correct.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:188
-#, no-wrap
-msgid "Also, in our first attempt, we are grabbing all of the messages for the current date, not just the dbus-daemon messages. We will deal with that shortly.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:190
-#, no-wrap
-msgid "Another thing to be aware of is that the grep command will return the filename in the output, which we don't want in this case, so we have added the \"-h\" option to grep to remove the prefix of the filename. In addition, once the variable \"today\" is set, we need to look for the entire variable as a string, so we need it all in quotes:\n"
+msgid "You can let DNS handle the name resolution of the servers in your cluster, or you can choose to relieve the servers of this task by inserting records for each of them in your `/etc/hosts` files. This will also keep things running even in the event of a DNS failure.\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/guides/email/postfix_reporting.md:191
+#: ../src/docs/guides/file_sharing/glusterfs.md:144
 #, no-wrap
-msgid "#!/bin/bash\n\n"
-"# set the date string to match /var/log/messages\n"
-"today=`date +\"%b %e\"`\n\n"
-"# grab the dbus-daemon messages and send them to email\n"
-"grep -h \"$today\" /var/log/messages\n"
+msgid "192.168.10.10 node1.cluster.local\n"
+"192.168.10.11 node2.cluster.local\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/file_sharing/glusterfs.md:149
+#, no-wrap
+msgid "Starting the service"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:202
+#: ../src/docs/guides/file_sharing/glusterfs.md:152
 #, no-wrap
-msgid "That's it for now, so save your changes and then make the script executable:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:204
-#, no-wrap
-msgid "`chmod +x /usr/local/sbin/test.sh`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:206
-#, no-wrap
-msgid "And then let's test it:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:208
-#, no-wrap
-msgid "`/usr/local/sbin/test.sh`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:210
-#, no-wrap
-msgid "If all works correctly, you should get a long list of all of the messages in /var/log/messages from today, including but not limited to the dbus-daemon messages.  If so, then the next step is to limit the messages to the dbus-daemon messages. So let's modify our script again:\n"
+msgid "Without further delay, let's start the service:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/guides/email/postfix_reporting.md:213
+#: ../src/docs/guides/file_sharing/glusterfs.md:153
 #, no-wrap
-msgid "#!/bin/bash\n\n"
-"# set the date string to match /var/log/messages\n"
-"today=`date +\"%b %e\"`\n\n"
-"# grab the dbus-daemon messages and send them to email\n"
-"grep -h \"$today\" /var/log/messages | grep dbus-daemon\n"
+msgid "$ sudo systemctl enable glusterfsd.service glusterd.service\n"
+"$ sudo systemctl start glusterfsd.service glusterd.service\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:224
+#: ../src/docs/guides/file_sharing/glusterfs.md:159
 #, no-wrap
-msgid "Running the script again, should get you only the dbus-daemon messages and only the ones that occurred today (whenever you're following this guide).\n"
+msgid "We are ready to join the two nodes to the same pool.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:226
+#: ../src/docs/guides/file_sharing/glusterfs.md:161
 #, no-wrap
-msgid "There's one final step, however. Remember, we need to get this emailed to the administrator for review. Also, because we are only using _postfix_ on this server for reporting, we don't want to leave the service running, so we will start it at the beginning of the script and then stop it at the end. We'll introduce the _sleep_ command here to pause for 20 seconds to make sure that the email has been sent before shutting _postfix_ down again.  This final edit, adds the stop, start, and sleep issues just discussed, and also pipes the content to the administrator's email.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:230
-#, no-wrap
-msgid "And modify the script:\n"
+msgid "This command is to be performed only once on a single node (here on node1):\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/guides/email/postfix_reporting.md:231
+#: ../src/docs/guides/file_sharing/glusterfs.md:162
 #, no-wrap
-msgid "#!/bin/bash\n\n"
-"# start postfix\n"
-"/usr/bin/systemctl start postfix\n\n"
-"# set the date string to match /var/log/messages\n"
-"today=`date +\"%b %e\"`\n\n"
-"# grab the dbus-daemon messages and send them to email\n"
-"grep -h \"$today\" /var/log/messages | grep dbus-daemon | mail -s \"dbus-daemon messages for today\" myname@mydomain.com\n\n"
-"# make sure the email has finished before continuing\n"
-"sleep 20\n\n"
-"# stop postfix\n"
-"/usr/bin/systemctl stop postfix\n"
+msgid "sudo gluster peer probe node2.cluster.local\n"
+"peer probe: success\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:251
+#: ../src/docs/guides/file_sharing/glusterfs.md:168
 #, no-wrap
-msgid "Run the script again, and you should now have an email from the server with the dbus-daemon message.\n"
+msgid "Verify:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:169
+#, no-wrap
+msgid "node1 $ sudo gluster peer status\n"
+"Number of Peers: 1\n\n"
+"Hostname: node2.cluster.local\n"
+"Uuid: c4ff108d-0682-43b2-bc0c-311a0417fae2\n"
+"State: Peer in Cluster (Connected)\n"
+"Other names:\n"
+"192.168.10.11\n\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:181
+#, no-wrap
+msgid "node2 $ sudo gluster peer status\n"
+"Number of Peers: 1\n\n"
+"Hostname: node1.cluster.local\n"
+"Uuid: 6375e3c2-4f25-42de-bbb6-ab6a859bf55f\n"
+"State: Peer in Cluster (Connected)\n"
+"Other names:\n"
+"192.168.10.10\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:253
+#: ../src/docs/guides/file_sharing/glusterfs.md:193
 #, no-wrap
-msgid "You can now use [a crontab](../automation/cron_jobs_howto.md) to schedule this to run at a specific time.\n"
+msgid "We can now create a volume with 2 replicas:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:194
+#, no-wrap
+msgid "$ sudo gluster volume create volume1 replica 2 node1.cluster.local:/data/glusterfs/volume1/brick0/ node2.cluster.local:/data/glusterfs/volume1/brick0/\n"
+"Replica 2 volumes are prone to split-brain. Use Arbiter or Replica 3 to avoid this. See: https://docs.gluster.org/en/latest/Administrator-Guide/Split-brain-and-ways-to-deal-with-it/.\n"
+"Do you still want to continue?\n"
+" (y/n) y\n"
+"volume create: volume1: success: please start the volume to access data\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/email/postfix_reporting.md:256
+#: ../src/docs/guides/file_sharing/glusterfs.md:205
 #, no-wrap
-msgid "Using postfix can help you keep track of process logs that you want to monitor. You can use it along with bash scripting to gain a firm grasp of your system processes and be informed if there is trouble.\n"
+msgid "    As the return command says, a 2-node cluster is not the best idea in the world against split brain. But this will suffice for the purposes of our test platform.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:207
+#, no-wrap
+msgid "We can now start the volume to access data:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:208
+#, no-wrap
+msgid "$ sudo gluster volume start volume1\n\n"
+"volume start: volume1: success\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:215
+#, no-wrap
+msgid "Check the volume state:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:216
+#, no-wrap
+msgid "$ sudo gluster volume status\n"
+"Status of volume: volume1\n"
+"Gluster process                             TCP Port  RDMA Port  Online  Pid\n"
+"------------------------------------------------------------------------------\n"
+"Brick node1.cluster.local:/data/glusterfs/v\n"
+"olume1/brick0                               49152     0          Y       1210\n"
+"Brick node2.cluster.local:/data/glusterfs/v\n"
+"olume1/brick0                               49152     0          Y       1135\n"
+"Self-heal Daemon on localhost               N/A       N/A        Y       1227\n"
+"Self-heal Daemon on node2.cluster.local     N/A       N/A        Y       1152\n\n"
+"Task Status of Volume volume1\n"
+"------------------------------------------------------------------------------\n"
+"There are no active volume tasks\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:233
+#, no-wrap
+msgid "$ sudo gluster volume info\n\n"
+"Volume Name: volume1\n"
+"Type: Replicate\n"
+"Volume ID: f51ca783-e815-4474-b256-3444af2c40c4\n"
+"Status: Started\n"
+"Snapshot Count: 0\n"
+"Number of Bricks: 1 x 2 = 2\n"
+"Transport-type: tcp\n"
+"Bricks:\n"
+"Brick1: node1.cluster.local:/data/glusterfs/volume1/brick0\n"
+"Brick2: node2.cluster.local:/data/glusterfs/volume1/brick0\n"
+"Options Reconfigured:\n"
+"cluster.granular-entry-heal: on\n"
+"storage.fips-mode-rchecksum: on\n"
+"transport.address-family: inet\n"
+"nfs.disable: on\n"
+"performance.client-io-threads: off\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:255
+#, no-wrap
+msgid "The status must be \"Started\".\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:257
+#, no-wrap
+msgid "We can already restrict access on the volume a little bit:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:258
+#, no-wrap
+msgid "$ sudo gluster volume set volume1 auth.allow 192.168.10.*\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:263
+#, no-wrap
+msgid "It's as simple as that\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/file_sharing/glusterfs.md:264
+#, no-wrap
+msgid "Clients access"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:267
+#, no-wrap
+msgid "There are several ways to access our data from a client.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:269
+#, no-wrap
+msgid "The preferred method:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:270
+#, no-wrap
+msgid "$ sudo dnf install glusterfs-client\n"
+"$ sudo mkdir /data\n"
+"$ sudo mount.glusterfs node1.cluster.local:/volume1 /data\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:277
+#, no-wrap
+msgid "There are no additional repositories to configure. The client is already present in the base repos.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:279
+#, no-wrap
+msgid "Create a file and check that it is present on all the nodes of the cluster:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:281
+#, no-wrap
+msgid "On client:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:282
+#, no-wrap
+msgid "sudo touch /data/test\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:287
+#, no-wrap
+msgid "On both servers:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:288
+#, no-wrap
+msgid "$ ll /data/glusterfs/volume1/brick0/\n"
+"total 0\n"
+"-rw-r--r--. 2 root root 0 Feb  3 19:21 test\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:295
+#, no-wrap
+msgid "Sound good! But what happens if the node 1 fails? It is the one that was specified when mounting the remote access.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:297
+#, no-wrap
+msgid "Let's stop the node one:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:298
+#, no-wrap
+msgid "$ sudo shutdown -h now\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:303
+#, no-wrap
+msgid "Check status on node2:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:304
+#, no-wrap
+msgid "$ sudo gluster peer status\n"
+"Number of Peers: 1\n\n"
+"Hostname: node1.cluster.local\n"
+"Uuid: 6375e3c2-4f25-42de-bbb6-ab6a859bf55f\n"
+"State: Peer in Cluster (Disconnected)\n"
+"Other names:\n"
+"192.168.10.10\n"
+"[antoine@node2 ~]$ sudo gluster volume status\n"
+"Status of volume: volume1\n"
+"Gluster process                             TCP Port  RDMA Port  Online  Pid\n"
+"------------------------------------------------------------------------------\n"
+"Brick node2.cluster.local:/data/glusterfs/v\n"
+"olume1/brick0                               49152     0          Y       1135\n"
+"Self-heal Daemon on localhost               N/A       N/A        Y       1152\n\n"
+"Task Status of Volume volume1\n"
+"------------------------------------------------------------------------------\n"
+"There are no active volume tasks\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:327
+#, no-wrap
+msgid "The node1 is away.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:329
+#, no-wrap
+msgid "And on client:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/glusterfs.md:330
+#, no-wrap
+msgid "$ ll /data/test\n"
+"-rw-r--r--. 1 root root 0 Feb  4 16:41 /data/test\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:336
+#, no-wrap
+msgid "File is already there.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:338
+#, no-wrap
+msgid "Upon connection, the glusterfs client receives a list of nodes it can address, which explains the transparent switchover we just witnessed.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/file_sharing/glusterfs.md:341
+#, no-wrap
+msgid "While there are no current repositories, using the archived repositories that CentOS had for GlusterFS will still work. As outlined, GlusterFS is pretty easy to install and maintain. Using the command line tools is a pretty straight forward process. GlusterFS will help with creating and maintaining high-availability clusters for data storage and redundancy. You can find more information on GlusterFS and tool usage from the [official documentation pages.](https://docs.gluster.org/en/latest/)\n"
 msgstr ""
 
