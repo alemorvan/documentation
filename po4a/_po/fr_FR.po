@@ -13,8 +13,8 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/network_basic_network_configuration.pot\n"
-"X-Crowdin-File-ID: 1455\n"
+"X-Crowdin-File: /po4a/po4a/_po/network_librenms_monitoring_server.pot\n"
+"X-Crowdin-File-ID: 1457\n"
 
 #. type: Title #
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:13
@@ -80,73 +80,80 @@ msgstr ""
 msgid "Introduction"
 msgstr ""
 
-#. type: Title ##
-#: ../src/docs/books/lxd_server/30-appendix_a.md:15
-#: ../src/docs/books/nvchad/vale_nvchad.md:16
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:20
-#: ../src/docs/guides/automation/anacron.md:10
-#: ../src/docs/guides/automation/cron_jobs_howto.md:14
-#: ../src/docs/guides/backup/mirroring_lsyncd.md:13
-#: ../src/docs/guides/backup/rsnapshot_backup.md:13
-#: ../src/docs/guides/backup/rsync_ssh.md:12
-#: ../src/docs/guides/communications/asterisk_installation.md:25
-#: ../src/docs/guides/database/database_mariadb-server.md:13
-#: ../src/docs/guides/desktop/kde_installation.md:20
-#: ../src/docs/guides/desktop/mate_installation.md:17
-#: ../src/docs/guides/desktop/xfce_installation.md:17
-#: ../src/docs/guides/editors/micro.md:33
-#: ../src/docs/guides/email/postfix_reporting.md:14
-#: ../src/docs/guides/file_sharing/glusterfs.md:10
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:14
-#: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:14
-#: ../src/docs/guides/network/basic_network_configuration.md:16
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:8
-#: ../src/docs/guides/security/enabling_iptables_firewall.md:14
-#: ../src/docs/guides/security/ssh_public_private_keys.md:14
-#: ../src/docs/guides/security/ssl_keys_https.md:14
-#: ../src/docs/guides/virtualization/vbox-rocky.md:19
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:15
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:15
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:14
-#: ../src/docs/guides/web/mod_SSL_apache.md:14
-#, no-wrap
-msgid "Prerequisites"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/desktop/mate_installation.md:23
-#: ../src/docs/guides/desktop/xfce_installation.md:23
-#: ../src/docs/guides/dns/private_dns_server_using_bind.md:237
-#: ../src/docs/guides/network/basic_network_configuration.md:23
-#, no-wrap
-msgid "=== \"9\"\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/desktop/mate_installation.md:147
-#: ../src/docs/guides/desktop/xfce_installation.md:99
-#: ../src/docs/guides/dns/private_dns_server_using_bind.md:411
-#: ../src/docs/guides/network/basic_network_configuration.md:359
-#, no-wrap
-msgid "=== \"8\"\n"
-msgstr ""
-
 #. type: YAML Front Matter: contributors
-#: ../src/docs/guides/network/basic_network_configuration.md:1
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/01-install.md:1
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:1
+#: ../src/docs/books/lxd_server/03-lxdinit.md:1
+#: ../src/docs/books/lxd_server/04-firewall.md:1
+#: ../src/docs/books/lxd_server/05-lxd_images.md:1
+#: ../src/docs/books/lxd_server/06-profiles.md:1
+#: ../src/docs/books/lxd_server/07-configurations.md:1
+#: ../src/docs/books/lxd_server/08-snapshots.md:1
+#: ../src/docs/books/lxd_server/09-snapshot_server.md:1
+#: ../src/docs/books/lxd_server/10-automating.md:1
+#: ../src/docs/gemstones/bash_stub.md:1
+#: ../src/docs/guides/automation/cron_jobs_howto.md:1
+#: ../src/docs/guides/backup/rsnapshot_backup.md:1
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:1
+#: ../src/docs/guides/cms/dokuwiki_server.md:1
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:1
+#: ../src/docs/guides/contribute/navigation.md:1
+#: ../src/docs/guides/desktop/kde_installation.md:1
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:1
+#: ../src/docs/guides/email/postfix_reporting.md:1
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:1
+#: ../src/docs/guides/file_sharing/sftp.md:1
+#: ../src/docs/guides/network/librenms_monitoring_server.md:1
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
+#: ../src/docs/guides/security/ssh_public_private_keys.md:1
+#: ../src/docs/guides/security/ssl_keys_https.md:1
+#: ../src/docs/guides/web/apache-sites-enabled.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
 #, no-wrap
-msgid "Steven Spencer, Hayden Young"
+msgid "Ezequiel Bruni"
 msgstr ""
 
-#. type: YAML Front Matter: tags
-#: ../src/docs/guides/network/basic_network_configuration.md:1
+#. type: Title ##
+#: ../src/docs/books/lxd_server/00-toc.md:48 ../src/docs/gemstones/rpaste.md:76
+#: ../src/docs/guides/automation/cron_jobs_howto.md:185
+#: ../src/docs/guides/backup/rsync_ssh.md:161
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:322
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:632
+#: ../src/docs/guides/file_sharing/glusterfs.md:339
+#: ../src/docs/guides/network/librenms_monitoring_server.md:657
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:480
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:339
 #, no-wrap
-msgid "networking"
+msgid "Conclusions"
 msgstr ""
 
-#. type: YAML Front Matter: tags
-#: ../src/docs/guides/network/basic_network_configuration.md:1
+#. type: Plain text
+#: ../src/docs/books/lxd_server/05-lxd_images.md:86
+#: ../src/docs/guides/automation/cron_jobs_howto.md:44
+#: ../src/docs/guides/network/librenms_monitoring_server.md:538
 #, no-wrap
-msgid "configuration"
+msgid "and\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:104
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:56
+#: ../src/docs/guides/network/librenms_monitoring_server.md:31
+#: ../src/docs/guides/web/mod_SSL_apache.md:51
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:268
+#, no-wrap
+msgid "Installing Packages"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/communications/asterisk_installation.md:172
+#: ../src/docs/guides/network/librenms_monitoring_server.md:108
+#, no-wrap
+msgid "exit\n"
 msgstr ""
 
 #. type: YAML Front Matter: tags
@@ -156,1493 +163,1503 @@ msgstr ""
 msgid "network"
 msgstr ""
 
-#. type: YAML Front Matter: title
-#: ../src/docs/guides/network/basic_network_configuration.md:1
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/network/librenms_monitoring_server.md:1
 #, no-wrap
-msgid "Network Configuration"
+msgid "monitoring"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/guides/network/librenms_monitoring_server.md:1
+#: ../src/docs/guides/network/librenms_monitoring_server.md:11
+#, no-wrap
+msgid "LibreNMS Monitoring Server"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:15
+#: ../src/docs/guides/network/librenms_monitoring_server.md:16
 #, no-wrap
-msgid "You can't do much with a computer these days without network connectivity. Whether you need to update the packages on a server or simply browse external websites from your laptop, you will need network access! This guide aims to provide Rocky Linux users the basic knowledge on setting up network connectivity.\n"
+msgid "Network and systems administrators almost always need some form of monitoring. This can include graphing bandwidth usage at router end points, monitoring the up/down of services running on various servers, and much, much more. There are many monitoring options out there, but one option that is very good and has many, if not all, of the monitoring components available under one roof, is LibreNMS.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/librenms_monitoring_server.md:18
+#, no-wrap
+msgid "This document will only get you started with LibreNMS, but we will point you to the project's excellent (and extensive) documentation to get you going further. There are lots of other options for monitoring out there that this author has used before, Nagios and Cacti being two, but LibreNMS offers what those two projects offer individually, in one spot.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/librenms_monitoring_server.md:20
+#, no-wrap
+msgid "While the installation will pretty closely follow the official install instructions found [here](https://docs.librenms.org/Installation/Install-LibreNMS/), we've added some explanation and even some minor changes, which make this procedure preferable to that excellent document.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/network/librenms_monitoring_server.md:21
+#, no-wrap
+msgid "Prerequisites, Assumptions and Conventions"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/guides/network/basic_network_configuration.md:21
-#: ../src/docs/guides/network/basic_network_configuration.md:33
-#: ../src/docs/guides/security/ssh_public_private_keys.md:20
+#: ../src/docs/guides/network/librenms_monitoring_server.md:30
 #, no-wrap
-msgid "A certain amount of comfort operating from the command line\n"
+msgid "A server or container (yes, LibreNMS will run in a container, however if you have a lot to monitor, your best bet would be to install on its own hardware) running Rocky Linux. All commands assume a fresh install of Rocky Linux.\n"
 msgstr ""
 
-#. type: Bullet: '    * '
-#: ../src/docs/guides/network/basic_network_configuration.md:21
-#: ../src/docs/guides/network/basic_network_configuration.md:33
+#. type: Bullet: '* '
+#: ../src/docs/guides/network/librenms_monitoring_server.md:30
 #, no-wrap
-msgid "Elevated or administrative privileges on the system (For example root, `sudo` and so on)\n"
+msgid "Assumption: that you are able to execute commands as root or can _sudo_ to do so\n"
 msgstr ""
 
-#. type: Bullet: '    * '
-#: ../src/docs/guides/network/basic_network_configuration.md:21
-#: ../src/docs/guides/network/basic_network_configuration.md:33
+#. type: Bullet: '* '
+#: ../src/docs/guides/network/librenms_monitoring_server.md:30
 #, no-wrap
-msgid "Optional: familiarity with networking concepts\n"
+msgid "Working knowledge of command-line tools, including text editors such as _vi_\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:25
+#. type: Bullet: '* '
+#: ../src/docs/guides/network/librenms_monitoring_server.md:30
 #, no-wrap
-msgid "    ## Network Configuration - Rocky Linux 9\n"
+msgid "We are assuming the use of SNMP v2. If you want to use SNMP v3, it is supported by LibreNMS and will work. You'll just need to switch up the SNMP configuration and options on your devices to match up to v3.\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:27
+#. type: Bullet: '* '
+#: ../src/docs/guides/network/librenms_monitoring_server.md:30
 #, no-wrap
-msgid "    A lot has changed with network configuration as of Rocky Linux 9. One of the major changes is the move from Network-Scripts (still available to install-but effectively deprecated) to the use of Network Manager and key files, rather than `ifcfg` based files. `NetworkManager` as of 9, prioritizes `keyfiles` over the previous `ifcfg` files. Since this is now the default, the act of configuring the network should now take the default as the proper way of doing things, given that other changes over the years have meant the eventual deprecation and removal of older utilities. This guide will attempt to walk you through the use of Network Manager and the latest changes within Rocky Linux 9. \n"
+msgid "While we have included the SELinux procedure in this document, the container that we are using in the lab does not include it by default. For this reason, the SELinux procedure has **not** been lab tested.\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:29
+#. type: Bullet: '* '
+#: ../src/docs/guides/network/librenms_monitoring_server.md:30
 #, no-wrap
-msgid "    ## Prerequisites\n"
+msgid "Throughout this document, the examples use the _vi_ editor as mentioned. When the document says to save your changes and exit, this is done with `SHIFT:wq!`\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:35
-#: ../src/docs/guides/network/basic_network_configuration.md:363
+#. type: Bullet: '* '
+#: ../src/docs/guides/network/librenms_monitoring_server.md:30
 #, no-wrap
-msgid "    ## Using NetworkManager service\n"
+msgid "Some trouble-shooting skills, including log monitoring, web testing, and more, are required.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:37
+#: ../src/docs/guides/network/librenms_monitoring_server.md:34
 #, no-wrap
-msgid "    At the user level, the networking stack is managed by `NetworkManager`. This tool runs as a service, and you can check its state with the following command:\n"
+msgid "These commands should be entered as the root user. Before we begin, note that this installation procedure focuses on *httpd*, rather than *nginx*. If you prefer to use the latter, head up to the [Librenms Install Instructions](https://docs.librenms.org/Installation/Install-LibreNMS/) and follow the guide there. \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:41
-#: ../src/docs/guides/network/basic_network_configuration.md:369
+#: ../src/docs/guides/network/librenms_monitoring_server.md:36
 #, no-wrap
-msgid "    ```bash\n"
-"    systemctl status NetworkManager\n"
-"    ```\n"
+msgid "We are assuming a fresh install, so we need to do a few things with the repositories before we can continue. First, we need to install the EPEL repository (Extra Packages for Enterprise Linux):\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:43
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:37
 #, no-wrap
-msgid "    ## Configuration files\n"
+msgid "dnf install -y epel-release\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:45
+#: ../src/docs/guides/network/librenms_monitoring_server.md:42
 #, no-wrap
-msgid "    As noted at the beginning, the configuration files by default are now key files. You can see how `NetworkManager` prioritizes these files by running the following command:\n"
+msgid "The current version of LibreNMS requires a minimum PHP version of 8.1. The default package in Rocky Linux 9.0 is PHP 8.0, so we will need to enable a third party repository (true for Rocky Linux 8.6 as well) for this newer version. \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:49
+#: ../src/docs/guides/network/librenms_monitoring_server.md:44
 #, no-wrap
-msgid "    ```\n"
-"    NetworkManager --print-config\n"
-"    ```\n"
+msgid "We will install the REMI repository for this. The version of the repository you install will depend on the version of Rocky Linux you are running. We are assuming version 9 below, but change this accordingly for the version you are running: \n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:51
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:45
 #, no-wrap
-msgid "    This gives you output that looks like this:\n"
+msgid "dnf install http://rpms.remirepo.net/enterprise/remi-release-9.rpm\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:60
+#: ../src/docs/guides/network/librenms_monitoring_server.md:50
 #, no-wrap
-msgid "    ```\n"
-"    [main]\n"
-"    # plugins=keyfile,ifcfg-rh\n"
-"    # rc-manager=auto\n"
-"    # auth-polkit=true\n"
-"    # iwd-config-path=\n"
-"    dhcp=dhclient\n"
-"    configure-and-quit=no\n"
+msgid "Once both the EPEL and REMI repositories are installed, it's time to install the packages we will need:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:64
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:51
 #, no-wrap
-msgid "    [logging]\n"
-"    # backend=journal\n"
-"    # audit=false\n"
+msgid "dnf install bash-completion cronie fping git httpd ImageMagick mariadb-server mtr net-snmp net-snmp-utils nmap php81-php-fpm php81-php-cli php81-php-common php81-php-curl php81-php-gd php81-php-json php81-php-mbstring php81-php-process php81-php-snmp php81-php-xml php81-php-zip php81-php-mysqlnd python3 python3-PyMySQL python3-redis python3-memcached python3-pip python3-systemd rrdtool unzip wget\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:67
+#: ../src/docs/guides/network/librenms_monitoring_server.md:56
 #, no-wrap
-msgid "    [device]\n"
-"    # wifi.backend=wpa_supplicant\n"
+msgid "All of these packages represent some portion of the LibreNMS feature set.\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:70
+#. type: Title ##
+#: ../src/docs/guides/network/librenms_monitoring_server.md:57
 #, no-wrap
-msgid "    # no-auto-default file \"/var/lib/NetworkManager/no-auto-default.state\"\n"
-"    ```\n"
+msgid "Setting Up The librenms User"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:72
+#: ../src/docs/guides/network/librenms_monitoring_server.md:60
+#, no-wrap
+msgid "To do this, copy and paste (or type) the following:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:61
 #, no-wrap
-msgid "    Note at the top of the configuration file the reference to `keyfile` followed by `ifcfg-rh`. This means that `keyfile` is the default. Any time you run any of the `NetworkManager` tools to configure an interface (example: `nmcli` or `nmtui`), it will automatically build or update key files.\n"
+msgid "useradd librenms -d /opt/librenms -M -r -s \"$(which bash)\"\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:74
+#: ../src/docs/guides/network/librenms_monitoring_server.md:66
+#, no-wrap
+msgid "With this command, we are setting the default directory for our new user to \"/opt/librenms\" however the \"-M\" option says \"don't create the directory.\" The reason, of course, is that we will be creating it when we install LibreNMS. The \"-r\" says to make this user a system account and the \"-s\" says to set the shell (in this case, to \"bash\")\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/network/librenms_monitoring_server.md:67
 #, no-wrap
-msgid "    !!! tip \"Configuration Storage Location\"\n"
+msgid "Download LibreNMS and Set Permissions"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:77
+#: ../src/docs/guides/network/librenms_monitoring_server.md:70
 #, no-wrap
-msgid "        In Rocky Linux 8, the storage location for network configuration was in `/etc/sysconfig/Network-Scripts/`.\n"
-"        With Rocky Linux 9, the new default storage location for the key files is in `/etc/NetworkManager/system-connections`. \n"
+msgid "The downloading is all done through git. You may be familiar with the process as it is used for many projects these days. First, switch over to the /opt directory:\n"
 msgstr ""
 
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:71
+#, no-wrap
+msgid "cd /opt\n"
+msgstr ""
+
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:79
+#: ../src/docs/guides/network/librenms_monitoring_server.md:76
+#, no-wrap
+msgid "Then clone the repository:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:77
 #, no-wrap
-msgid "    The primary (but not the only) utility used for configuring a network interface is the `nmtui` command. This can also be done with the `nmcli` command, but is much less intuitive. We can show the interface as it is currently configured using `nmcli` with: \n"
+msgid "git clone https://github.com/librenms/librenms.git\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:101
+#: ../src/docs/guides/network/librenms_monitoring_server.md:82
+#, no-wrap
+msgid "Next change permissions for the directory:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:83
 #, no-wrap
-msgid "    ```\n"
-"    nmcli device show enp0s3\n"
-"    GENERAL.DEVICE:                         enp0s3\n"
-"    GENERAL.TYPE:                           ethernet\n"
-"    GENERAL.HWADDR:                         08:00:27:BA:CE:88\n"
-"    GENERAL.MTU:                            1500\n"
-"    GENERAL.STATE:                          100 (connected)\n"
-"    GENERAL.CONNECTION:                     enp0s3\n"
-"    GENERAL.CON-PATH:                       /org/freedesktop/NetworkManager/ActiveConnection/1\n"
-"    WIRED-PROPERTIES.CARRIER:               on\n"
-"    IP4.ADDRESS[1]:                         192.168.1.151/24\n"
-"    IP4.GATEWAY:                            192.168.1.1\n"
-"    IP4.ROUTE[1]:                           dst = 192.168.1.0/24, nh = 0.0.0.0, mt = 100\n"
-"    IP4.ROUTE[2]:                           dst = 0.0.0.0/0, nh = 192.168.1.1, mt = 100\n"
-"    IP4.DNS[1]:                             8.8.8.8\n"
-"    IP4.DNS[2]:                             8.8.4.4\n"
-"    IP4.DNS[3]:                             192.168.1.1\n"
-"    IP6.ADDRESS[1]:                         fe80::a00:27ff:feba:ce88/64\n"
-"    IP6.GATEWAY:                            --\n"
-"    IP6.ROUTE[1]:                           dst = fe80::/64, nh = ::, mt = 1024\n"
-"    ```\n"
+msgid "chown -R librenms:librenms /opt/librenms\n"
+"chmod 771 /opt/librenms\n"
+"setfacl -d -m g::rwx /opt/librenms/rrd /opt/librenms/logs /opt/librenms/bootstrap/cache/ /opt/librenms/storage/\n"
+"setfacl -R -m g::rwx /opt/librenms/rrd /opt/librenms/logs /opt/librenms/bootstrap/cache/ /opt/librenms/storage/\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:103
-#: ../src/docs/guides/network/basic_network_configuration.md:397
+#: ../src/docs/guides/network/librenms_monitoring_server.md:91
 #, no-wrap
-msgid "    !!! tip \"**Tips:**\"  \n"
+msgid "The _setfacl_ command stands for \"set file access control lists\" and is another way of securing directories and files.\n"
 msgstr ""
 
+#. type: Title ##
+#: ../src/docs/guides/network/librenms_monitoring_server.md:92
+#, no-wrap
+msgid "Install PHP Dependencies As librenms"
+msgstr ""
+
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:107
+#: ../src/docs/guides/network/librenms_monitoring_server.md:95
+#, no-wrap
+msgid "All of the above commands were executed as root or _sudo_, but the PHP dependencies within LibreNMS need to be installed as the librenms user. To do this, run:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:96
 #, no-wrap
-msgid "        There are a few ways or mechanisms by which systems can be assigned their IP configuration information.\n"
-"        The two most common methods are - **Static IP configuration** scheme and **Dynamic IP configuration** scheme.\n"
+msgid "su - librenms\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:109
-#: ../src/docs/guides/network/basic_network_configuration.md:402
+#: ../src/docs/guides/network/librenms_monitoring_server.md:101
+#, no-wrap
+msgid "And then enter the following:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:102
 #, no-wrap
-msgid "        The static IP configuration scheme is very popular on server class systems or networks.\n"
+msgid "./scripts/composer_wrapper.php install --no-dev\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:111
+#: ../src/docs/guides/network/librenms_monitoring_server.md:107
+#, no-wrap
+msgid "Once the script is completed, exit back to root:\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/network/librenms_monitoring_server.md:112
 #, no-wrap
-msgid "        The dynamic IP approach is popular on home and office networks or workstation and desktop class systems in a business environment.  The dynamic scheme usually needs _something_ extra that is locally available and that can supply proper IP configuration information to requesting workstations and desktops. This _something_ is called the Dynamic Host Configuration Protocol (DHCP). On a home network, and even on most business networks, this service is provided by a DHCP Server configured for the purpose. This can be a separate server or part of a router configuration.\n"
+msgid "Failure Of PHP Dependency Install Workaround"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:113
+#: ../src/docs/guides/network/librenms_monitoring_server.md:115
+#, no-wrap
+msgid "LibreNMS documentation says that when you are behind a proxy server, the above procedure may fail. I've found that it can fail for other reasons as well. For this reason, I've added a procedure for installing Composer later in the process. \n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/network/librenms_monitoring_server.md:116
 #, no-wrap
-msgid "    ## IP Address\n"
+msgid "Set Timezone"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:115
+#: ../src/docs/guides/network/librenms_monitoring_server.md:119
 #, no-wrap
-msgid "    In the previous section, the displayed configuration for the interface `enp0s3` is generated from the `.ini` file  `/etc/NetworkManager/system-connections/enp0s3.nmconnection`. This shows that the IP4.ADDRESS[1] has been statically configured, rather than dynamically configured via DHCP. If we want to switch this interface back to a dynamically allocated address, the easiest way is to use the `nmtui` command. \n"
+msgid "We need to make sure that this is set correctly, both for the system and for PHP. You can find a list of valid timezone settings for PHP [here](https://php.net/manual/en/timezones.php). For instance, for the Central timezone, a common entry would be \"America/Chicago\". Let's start by editing the php.ini file:\n"
 msgstr ""
 
-#. type: Bullet: '    1. '
-#: ../src/docs/guides/network/basic_network_configuration.md:117
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:120
 #, no-wrap
-msgid "First, run the `nmtui` command at the command-line which should show you the following\n"
+msgid "vi /etc/opt/remi/php81/php.ini\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:119
+#: ../src/docs/guides/network/librenms_monitoring_server.md:125
 #, no-wrap
-msgid "        ![nmtui](images/nmtui_first.png)\n"
+msgid "Find the `date.timezone` line and modify it. Note that it is remarked out, so remove the \";\" from the beginning of the line and add your timezone after the \"=\" sign. For our Central timezone example we will use:\n"
 msgstr ""
 
-#. type: Bullet: '    2. '
-#: ../src/docs/guides/network/basic_network_configuration.md:121
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:126
 #, no-wrap
-msgid "It's already on the selection we need \"Edit a connection\" so hit the <kbd>TAB</kbd> key so that \"OK\" is highlighted and hit <kbd>ENTER</kbd>\n"
+msgid "date.timezone = America/Chicago\n"
 msgstr ""
 
-#. type: Bullet: '    3. '
-#: ../src/docs/guides/network/basic_network_configuration.md:123
+#. type: Plain text
+#: ../src/docs/guides/network/librenms_monitoring_server.md:131
 #, no-wrap
-msgid "This will bring up a screen showing the Ethernet connections on the machine and allow you to choose one. In our case, there is *ONLY* one, so it is already highlighted, we simply need to hit the <kbd>TAB</kbd> key until \"Edit\" is highlighted and then hit <kbd>ENTER</kbd>\n"
+msgid "Save your changes and exit the php.ini file.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:125
+#: ../src/docs/guides/network/librenms_monitoring_server.md:133
+#, no-wrap
+msgid "We also need to make sure that the system timezone is correct. Again, using our Central timezone as the example, we would do this with:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:134
 #, no-wrap
-msgid "        ![nmtui_edit](images/nmtui_edit.png)\n"
+msgid "timedatectl set-timezone America/Chicago\n"
 msgstr ""
 
-#. type: Bullet: '    4. '
-#: ../src/docs/guides/network/basic_network_configuration.md:127
+#. type: Title ##
+#: ../src/docs/guides/network/librenms_monitoring_server.md:138
 #, no-wrap
-msgid "Once we've done this, we will be to the screen that shows our current configuration. What we need to do is switch from \"Manual\" to \"Automatic\" so hit the <kbd>TAB</kbd> key several times until you get to where \"Manual\" is highlighted and then hit <kbd>ENTER</kbd>.\n"
+msgid "MariaDB Setup"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:129
+#: ../src/docs/guides/network/librenms_monitoring_server.md:141
 #, no-wrap
-msgid "        ![nmtui_manual](images/nmtui_manual.png)\n"
+msgid "Before we get into the database setup required for LibreNMS, run through the [MariaDB procedure](../database/database_mariadb-server.md) and specifically the section for \"Securing mariadb-server\", and then come back here for these specific settings. The first thing we need to do is modify the mariadb-server.cnf file:\n"
 msgstr ""
 
-#. type: Bullet: '    5. '
-#: ../src/docs/guides/network/basic_network_configuration.md:131
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:142
 #, no-wrap
-msgid "Arrow up until \"Automatic\" is highlighted and then hit <kbd>ENTER</kbd>\n"
+msgid "vi /etc/my.cnf.d/mariadb-server.cnf\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:133
+#: ../src/docs/guides/network/librenms_monitoring_server.md:147
 #, no-wrap
-msgid "        ![nmtui_automatic](images/nmtui_automatic.png)\n"
+msgid "And add the following lines to the \"[Mysqld]\" section:\n"
 msgstr ""
 
-#. type: Bullet: '    6. '
-#: ../src/docs/guides/network/basic_network_configuration.md:135
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:148
 #, no-wrap
-msgid "Once we have switched the interface over to \"Automatic\" we need to remove the statically assigned IP so hit the <kbd>TAB</kbd> key until the \"Remove\" is highlighted next to the IP address and hit <kbd>ENTER</kbd>.\n"
+msgid "innodb_file_per_table=1\n"
+"lower_case_table_names=0\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:137
+#: ../src/docs/guides/network/librenms_monitoring_server.md:154
 #, no-wrap
-msgid "        ![nmtui_remove](images/nmtui_remove.png)\n"
+msgid "Then enable and restart the mariadb server:\n"
 msgstr ""
 
-#. type: Bullet: '    7. '
-#: ../src/docs/guides/network/basic_network_configuration.md:139
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:155
 #, no-wrap
-msgid "Finally, hit the <kbd>TAB</kbd> key several times until you get to the bottom of the `nmtui` screen and the \"OK\" is highlighted and hit <kbd>ENTER</kbd>\n"
+msgid "systemctl enable mariadb\n"
+"systemctl restart mariadb\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:141
+#: ../src/docs/guides/network/librenms_monitoring_server.md:161
 #, no-wrap
-msgid "    You can deactivate and reactivate your interface with `nmtui` as well, but instead let's do this with `nmcli`. In this way we can string the deactivation of the interface and the reactivation of the interface so that the interface is never down for long:\n"
+msgid "Now gain access to mariadb as the root user. Remember to use the password that you created when folloing the \"Securing mariadb-server\" section that you performed above:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:145
-#: ../src/docs/guides/network/basic_network_configuration.md:200
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:163
 #, no-wrap
-msgid "    ```\n"
-"    nmcli con down enp0s3 && nmcli con up enp0s3\n"
-"    ```\n"
+msgid "mysql -u root -p\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:147
+#: ../src/docs/guides/network/librenms_monitoring_server.md:168
 #, no-wrap
-msgid "    Think of this as the equivalent to the old `ifdown enp0s3 && ifup enp0s3` used in older versions of the OS.\n"
+msgid "The next thing we need to do is make some specific changes for LibreNMS. With the command below, remember to change the password \"password\" to something secure and document what that is in a safe spot, such as a password manager, so that you will have it later. \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:149
+#: ../src/docs/guides/network/librenms_monitoring_server.md:170
+#, no-wrap
+msgid "At the mysql prompt run:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:171
 #, no-wrap
-msgid "    To verify that it worked, go ahead and check using either the `ip addr` command, or the `nmcli device show enp0s3` command that we used earlier.\n"
+msgid "CREATE DATABASE librenms CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;\n"
+"CREATE USER 'librenms'@'localhost' IDENTIFIED BY 'password';\n"
+"GRANT ALL PRIVILEGES ON librenms.* TO 'librenms'@'localhost';\n"
+"FLUSH PRIVILEGES;\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:153
+#: ../src/docs/guides/network/librenms_monitoring_server.md:179
+#, no-wrap
+msgid "Once you've done this, type \"exit\" to exit back out of mariadb.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/network/librenms_monitoring_server.md:180
 #, no-wrap
-msgid "    ```\n"
-"    ip addr\n"
-"    ```\n"
+msgid "Configure PHP-FPM"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:155
+#: ../src/docs/guides/network/librenms_monitoring_server.md:183
+#, no-wrap
+msgid "This section is basically unchanged from the official documentation except for the path to the files. First, copy the www.conf:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:184
 #, no-wrap
-msgid "    If successful, you should now see that the static IP is removed and that a dynamically allocated address has been added, similar to this:\n"
+msgid "cp /etc/opt/remi/php81/php-fpm.d/www.conf /etc/opt/remi/php81/php-fpm.d/librenms.conf\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:164
+#: ../src/docs/guides/network/librenms_monitoring_server.md:189
 #, no-wrap
-msgid "    ```bash\n"
-"    2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000\n"
-"    link/ether 08:00:27:ba:ce:88 brd ff:ff:ff:ff:ff:ff\n"
-"    inet 192.168.1.137/24 brd 192.168.1.255 scope global dynamic noprefixroute enp0s3\n"
-"       valid_lft 6342sec preferred_lft 6342sec\n"
-"    inet6 fe80::a00:27ff:feba:ce88/64 scope link noprefixroute \n"
-"       valid_lft forever preferred_lft forever\n"
-"    ```\n"
+msgid "Next modify the librenms.conf file:\n"
 msgstr ""
 
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:190
+#, no-wrap
+msgid "vi /etc/opt/remi/php81/php-fpm.d/librenms.conf\n"
+msgstr ""
+
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:166
+#: ../src/docs/guides/network/librenms_monitoring_server.md:195
 #, no-wrap
-msgid "    ### IP Address Changing with `nmcli`\n"
+msgid "Change \"[www]\" to [\"librenms]\"\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:168
+#: ../src/docs/guides/network/librenms_monitoring_server.md:197
+#, no-wrap
+msgid "Change the user and group to \"librenms\":\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:198
 #, no-wrap
-msgid "    Using the `nmtui` is nice, but if you just want to quickly reconfigure the network interface without all of the time between screens, you probably will want to use `nmcli` by itself. Let's take a look at our example above of a statically assigned IP and what the steps are to reconfigure the interface to DHCP using only `nmcli`.\n"
+msgid "user = librenms\n"
+"group = librenms\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:170
+#: ../src/docs/guides/network/librenms_monitoring_server.md:204
 #, no-wrap
-msgid "    Before we start, be aware that to reconfigure the interface to DHCP we need to: \n"
+msgid "And finally change the \"listen\" line to reflect a unique name:\n"
 msgstr ""
 
-#. type: Bullet: '    * '
-#: ../src/docs/guides/network/basic_network_configuration.md:175
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:205
 #, no-wrap
-msgid "Remove the IPv4 Gateway \n"
+msgid "listen = /run/php-fpm-librenms.sock\n"
 msgstr ""
 
-#. type: Bullet: '    * '
-#: ../src/docs/guides/network/basic_network_configuration.md:175
+#. type: Plain text
+#: ../src/docs/guides/network/librenms_monitoring_server.md:210
 #, no-wrap
-msgid "Remove the IPv4 Address that we statically assigned\n"
+msgid "Save your changes and exit the file. If this is the only web service that will be running on this machine, feel free to remove the old www.conf file that we copied:\n"
 msgstr ""
 
-#. type: Bullet: '    * '
-#: ../src/docs/guides/network/basic_network_configuration.md:175
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:211
 #, no-wrap
-msgid "Change the IPv4 Method to automatic\n"
+msgid "rm -f /etc/opt/remi/php81/php-fpm.d/www.conf\n"
 msgstr ""
 
-#. type: Bullet: '    * '
-#: ../src/docs/guides/network/basic_network_configuration.md:175
+#. type: Title ##
+#: ../src/docs/guides/network/librenms_monitoring_server.md:215
 #, no-wrap
-msgid "Down and Up the interface\n"
+msgid "Configure Apache"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:177
+#: ../src/docs/guides/network/librenms_monitoring_server.md:218
 #, no-wrap
-msgid "    Note too, that we are not using examples that tell you to use -ipv4.address etc. These do not change the interface completely. In order to do that we need to set the ipv4.address and the ipv4.gateway to an empty string. Again, to save as much time as possible with our command, we are going to string them all together in one line:\n"
+msgid "Normally, we would use the [Apache sites-enabled](../web/apache-sites-enabled.md) procedure to set up any web services, but in this case, we are just going with the default setup. \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:181
+#: ../src/docs/guides/network/librenms_monitoring_server.md:220
 #, no-wrap
-msgid "    ```\n"
-"    nmcli con mod enp0s3 ipv4.gateway '' && nmcli con mod enp0s3 ipv4.address '' && nmcli con mod enp0s3 ipv4.method auto && nmcli con down enp0s3 && nmcli con up enp0s3\n"
-"    ```\n"
+msgid "Note that if you want to use that procedure, you simply need to place the configuration file in /etc/httpd/sites-available and then follow the procedure to link it to sites-enabled. The default document root, however, would **not** be /var/www/sub-domains/librenms/html, but instead it would be /opt/librenms/html.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:183
+#: ../src/docs/guides/network/librenms_monitoring_server.md:222
 #, no-wrap
-msgid "    Running the `ip addr` command again, should show you the exact same results as when we ran the changes with `nmtui`. We could obviously do everything in reverse as well (changing our DHCP address to a static one). To do this, we would run the commands in reverse starting with changing the `ipv4.method` to manual, setting the `ipv4.gateway` and then setting the `ipv4.address`. Since in all of these examples we are completely reconfiguring the interface and not adding or subtracting values to it, we again would not use the examples out there that talk about using `+ipv4.method`,`+ipv4.gateway`, and `+ipv4.address`. If you used these commands instead of the ones we have used above, you would end up with an interface with *BOTH* a DHCP assigned address and a statically assigned one. That said, this can sometimes be very handy. If you have a web service listening on one IP lets say, and an SFTP server listening on another IP. Having a method of assigning multiple IP's to an interface is quite useful. \n"
+msgid "Again, in this case we aren't using that procedure and just going with the default, suggested setup. To do this, start by creating this file:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:185
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:223
 #, no-wrap
-msgid "    ## DNS resolution\n"
+msgid "vi /etc/httpd/conf.d/librenms.conf\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:187
+#: ../src/docs/guides/network/librenms_monitoring_server.md:228
 #, no-wrap
-msgid "    Setting DNS servers can be done with either `nmtui` or `nmcli`. While the `nmtui` interface is easy to navigate and much more intuitive, it makes the process a lot slower. Doing this with the `nmcli` is much faster. In the case of the DHCP assigned address, it's not usually necessary to set DNS servers as they normally are forwarded on from the DHCP server. That said, you *can* statically add DNS servers to a DHCP interface. In the case of the statically assigned interface, you will *HAVE* to do this as it will need to know how to get DNS resolution and will not have an automatically assigned method.\n"
+msgid "And placing the following in that file:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:190
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:229
 #, no-wrap
-msgid "    Since the best example for all of this is a statically assigned IP, let's return to our original statically assigned address in our example interface (enp0s3). Before we can change the DNS values, we need to see what they are currently set to. \n"
-"    To get proper name resolution, let's start by removing our already set DNS servers and adding in different ones. Currently the `ipv4.dns` is set to `8.8.8.8,8.8.4.4,192.168.1.1`. In this case, we don't need to first set the ipv4.dns to an empty string. We can simply use the following command to replace our values: \n"
+msgid "<VirtualHost *:80>\n"
+"  DocumentRoot /opt/librenms/html/\n"
+"  ServerName  librenms.example.com\n\n"
+"  AllowEncodedSlashes NoDecode\n"
+"  <Directory \"/opt/librenms/html/\">\n"
+"    Require all granted\n"
+"    AllowOverride All\n"
+"    Options FollowSymLinks MultiViews\n"
+"  </Directory>\n\n"
+"  # Enable http authorization headers\n"
+"  <IfModule setenvif_module>\n"
+"    SetEnvIfNoCase ^Authorization$ \"(.+)\" HTTP_AUTHORIZATION=$1\n"
+"  </IfModule>\n\n"
+"  <FilesMatch \".+\\.php$\">\n"
+"    SetHandler \"proxy:unix:/run/php-fpm-librenms.sock|fcgi://localhost\"\n"
+"  </FilesMatch>\n"
+"</VirtualHost>\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:194
+#: ../src/docs/guides/network/librenms_monitoring_server.md:253
 #, no-wrap
-msgid "    ```\n"
-"    nmcli con mod enp0s3 ipv4.dns '208.67.222.222,208.67.220.220,192.168.1.1'\n"
-"    ```\n"
+msgid "You should also remove the old default site, welcome.conf:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:196
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:254
 #, no-wrap
-msgid "    Running `nmcli con show enp0s3 | grep ipv4.dns` should show you that we have successfully changed the DNS servers. To activate everything, let's bring our interface down and up again so that our changes are active:\n"
+msgid "rm /etc/httpd/conf.d/welcome.conf\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:202
+#: ../src/docs/guides/network/librenms_monitoring_server.md:259
 #, no-wrap
-msgid "    To test that we *do* in fact have name resolution, try pinging a known host. We will use google.com as an example:\n"
+msgid "Finally, we need to enable both _httpd_ and _php-fpm_:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:211
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:260
 #, no-wrap
-msgid "    ```bash\n"
-"    ping google.com\n"
-"    PING google.com (172.217.4.46) 56(84) bytes of data.\n"
-"    64 bytes from lga15s46-in-f14.1e100.net (172.217.4.46): icmp_seq=1 ttl=119 time=14.5 ms\n"
-"    64 bytes from lga15s46-in-f14.1e100.net (172.217.4.46): icmp_seq=2 ttl=119 time=14.6 ms\n"
-"    64 bytes from lga15s46-in-f14.1e100.net (172.217.4.46): icmp_seq=3 ttl=119 time=14.4 ms\n"
-"    ^C\n"
-"    ```\n"
+msgid "systemctl enable --now httpd\n"
+"systemctl enable --now php81-php-fpm\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:213
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/network/librenms_monitoring_server.md:265
+#: ../src/docs/guides/security/learning_selinux.md:1
 #, no-wrap
-msgid "    ## Using The `ip` Utility\n"
+msgid "SELinux"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:215
-#: ../src/docs/guides/network/basic_network_configuration.md:558
+#: ../src/docs/guides/network/librenms_monitoring_server.md:268
 #, no-wrap
-msgid "    The `ip` command (provided by the *iproute2* package) is a powerful tool to get information and configure the network of a modern Linux system such as Rocky Linux.\n"
+msgid "Please note that if you don't plan on using SELinux, skip this and head to the next section. This might also apply to you if you use LibreNMS on a container that does not support SELinux at the container level, or does not include it by default.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:217
-#: ../src/docs/guides/network/basic_network_configuration.md:560
+#: ../src/docs/guides/network/librenms_monitoring_server.md:270
 #, no-wrap
-msgid "    In this example, we will assume the following parameters:\n"
+msgid "To setup everything with SELinux, you'll need an additional package installed:\n"
 msgstr ""
 
-#. type: Bullet: '    * '
-#: ../src/docs/guides/network/basic_network_configuration.md:222
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:271
 #, no-wrap
-msgid "interface name: enp0s3\n"
+msgid "dnf install policycoreutils-python-utils\n"
 msgstr ""
 
-#. type: Bullet: '    * '
-#: ../src/docs/guides/network/basic_network_configuration.md:222
+#. type: Title ###
+#: ../src/docs/guides/network/librenms_monitoring_server.md:275
 #, no-wrap
-msgid "ip address: 192.168.1.151\n"
+msgid "Configure LibreNMS Contexts"
 msgstr ""
 
-#. type: Bullet: '    * '
-#: ../src/docs/guides/network/basic_network_configuration.md:222
-#: ../src/docs/guides/network/basic_network_configuration.md:565
+#. type: Plain text
+#: ../src/docs/guides/network/librenms_monitoring_server.md:278
 #, no-wrap
-msgid "subnet mask: 24\n"
+msgid "You'll need to set the following contexts for LibreNMS to work properly with SELinux:\n"
 msgstr ""
 
-#. type: Bullet: '    * '
-#: ../src/docs/guides/network/basic_network_configuration.md:222
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:279
 #, no-wrap
-msgid "gateway: 192.168.1.1\n"
+msgid "semanage fcontext -a -t httpd_sys_content_t '/opt/librenms/html(/.*)?'\n"
+"semanage fcontext -a -t httpd_sys_rw_content_t '/opt/librenms/(logs|rrd|storage)(/.*)?'\n"
+"restorecon -RFvv /opt/librenms\n"
+"setsebool -P httpd_can_sendmail=1\n"
+"setsebool -P httpd_execmem 1\n"
+"chcon -t httpd_sys_rw_content_t /opt/librenms/.env\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:224
-#: ../src/docs/guides/network/basic_network_configuration.md:567
+#. type: Title ###
+#: ../src/docs/guides/network/librenms_monitoring_server.md:288
 #, no-wrap
-msgid "    ### Get general information\n"
+msgid "Allow fping"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:226
-#: ../src/docs/guides/network/basic_network_configuration.md:569
+#: ../src/docs/guides/network/librenms_monitoring_server.md:291
+#, no-wrap
+msgid "Create a file called `http_fping.tt` anywhere and it will be installed via a command later. The contents of this file are:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:292
 #, no-wrap
-msgid "    To see the detailed state of all interfaces, use\n"
+msgid "module http_fping 1.0;\n\n"
+"require {\n"
+"type httpd_t;\n"
+"class capability net_raw;\n"
+"class rawip_socket { getopt create setopt write read };\n"
+"}\n\n"
+"#============= httpd_t ==============\n"
+"allow httpd_t self:capability net_raw;\n"
+"allow httpd_t self:rawip_socket { getopt create setopt write read };\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:230
-#: ../src/docs/guides/network/basic_network_configuration.md:573
+#: ../src/docs/guides/network/librenms_monitoring_server.md:307
+#, no-wrap
+msgid "Now install the contents of this file with the following commands:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:308
 #, no-wrap
-msgid "    ```bash\n"
-"    ip a\n"
-"    ```\n"
+msgid "checkmodule -M -m -o http_fping.mod http_fping.tt\n"
+"semodule_package -o http_fping.pp -m http_fping.mod\n"
+"semodule -i http_fping.pp\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:232
-#: ../src/docs/guides/network/basic_network_configuration.md:575
+#: ../src/docs/guides/network/librenms_monitoring_server.md:315
 #, no-wrap
-msgid "    !!! tip \"**Pro tips:**\"\n"
+msgid "If you run into problems and you suspect it might be due to an SELinux issue, run the following:\n"
 msgstr ""
 
-#. type: Bullet: '        * '
-#: ../src/docs/guides/network/basic_network_configuration.md:235
-#: ../src/docs/guides/network/basic_network_configuration.md:578
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:316
 #, no-wrap
-msgid "use the `-c` flag to get a more readable coloured output: `ip -c a`.\n"
+msgid "audit2why < /var/log/audit/audit.log\n"
 msgstr ""
 
-#. type: Bullet: '	    * '
-#: ../src/docs/guides/network/basic_network_configuration.md:235
-#: ../src/docs/guides/network/basic_network_configuration.md:578
+#. type: Title ##
+#: ../src/docs/guides/network/librenms_monitoring_server.md:320
 #, no-wrap
-msgid "`ip` accepts abbreviation so `ip a`, `ip addr` and `ip address` are equivalent\n"
+msgid "Firewall Configuration - `firewalld`"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:237
-#: ../src/docs/guides/network/basic_network_configuration.md:580
+#: ../src/docs/guides/network/librenms_monitoring_server.md:323
 #, no-wrap
-msgid "    ### Bring interface up or down\n"
+msgid "We will include the _firewalld_ instructions from the official documentation. \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:239
-#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:157
+#: ../src/docs/guides/network/librenms_monitoring_server.md:325
 #, no-wrap
-msgid "    !!! note \n"
+msgid "The command to use for _firewalld_ allow rules are as follows:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:241
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:326
 #, no-wrap
-msgid "        While it is still possible to use this method for bringing the interface up and down in Rocky Linux 9, the command reacts a great deal slower than simply using the `nmcli` command in our previous examples.\n"
+msgid "firewall-cmd --zone public --add-service http --add-service https\n"
+"firewall-cmd --permanent --zone public --add-service http --add-service https\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:243
+#: ../src/docs/guides/network/librenms_monitoring_server.md:332
 #, no-wrap
-msgid "    To bring the *enp0s3* down and up again we can simply use: \n"
+msgid "The author has problems with this sort of simplistic _firewalld_ rule set. This rule allows your web services to be open to the world, but is that what you want for a monitoring server? \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:247
+#: ../src/docs/guides/network/librenms_monitoring_server.md:334
 #, no-wrap
-msgid "    ```\n"
-"    ip link set enp0s3 down && ip link set enp0s3 up\n"
-"    ```\n"
+msgid "I would say that this is usually **not** the case. If you'd like a more granular approach to using _firewalld_, take a look at [this document](../security/firewalld.md) and then make changes to your _firewalld_ rules accordingly.\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:249
-#: ../src/docs/guides/network/basic_network_configuration.md:584
+#. type: Title ##
+#: ../src/docs/guides/network/librenms_monitoring_server.md:335
 #, no-wrap
-msgid "    ### Assign the interface a static address\n"
+msgid "Enable Symbolic Link And Tab-Autocomplete For lnms Commands"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:251
+#: ../src/docs/guides/network/librenms_monitoring_server.md:338
 #, no-wrap
-msgid "    Currently, our enp0s3 interface has an IP address of 192.168.1.151. To switch that to 192.168.1.152, we would remove the old IP with\n"
+msgid "First, we need a symbolic link on our _lnms_ command so that it can be executed from anywhere:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:255
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:339
 #, no-wrap
-msgid "    ```bash\n"
-"    ip addr delete 192.168.1.151/24 dev enp0s3 && ip addr add 192.168.1.152/24 dev enp0s3\n"
-"    ```\n"
+msgid "ln -s /opt/librenms/lnms /usr/bin/lnms\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:257
+#: ../src/docs/guides/network/librenms_monitoring_server.md:344
 #, no-wrap
-msgid "    If we wanted a second IP assigned to the interface instead of removing the 192.168.1.151 address, we would simply add the second address with:\n"
+msgid "Next, we need to set it up for autocomplete:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:261
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:345
 #, no-wrap
-msgid "    ```bash\n"
-"    ip addr add 192.168.1.152/24 dev enp0s3\n"
-"    ```\n"
+msgid "cp /opt/librenms/misc/lnms-completion.bash /etc/bash_completion.d/\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:263
+#. type: Title ##
+#: ../src/docs/guides/network/librenms_monitoring_server.md:349
 #, no-wrap
-msgid "    We can check to see if the IP address was added with \n"
+msgid "Configure snmpd"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:267
+#: ../src/docs/guides/network/librenms_monitoring_server.md:352
 #, no-wrap
-msgid "    ```bash\n"
-"    ip a show dev enp0s3\n"
-"    ```\n"
+msgid "_SNMP_ stands for \"Simple Network Management Protocol\" and is used in many monitoring programs for pulling data. In version 2, which we are using here, it involves a \"community string\" which is specific for your environment.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:269
-#: ../src/docs/guides/network/basic_network_configuration.md:604
+#: ../src/docs/guides/network/librenms_monitoring_server.md:354
 #, no-wrap
-msgid "    will output:\n"
+msgid "You'll need to assign this \"community string\" to your network devices that you want to monitor so that _snmpd_ (the \"d\" here stands for the daemon) will be able to find it. If your network has been in place for some time, you may already have a \"community string\" that you are using.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:280
+#: ../src/docs/guides/network/librenms_monitoring_server.md:356
 #, no-wrap
-msgid "    ```bash\n"
-"    2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000\n"
-"    link/ether 08:00:27:ba:ce:88 brd ff:ff:ff:ff:ff:ff\n"
-"    inet 192.168.1.151/24 brd 192.168.1.255 scope global noprefixroute enp0s3\n"
-"       valid_lft forever preferred_lft forever\n"
-"    inet 192.168.1.152/24 scope global secondary enp0s3\n"
-"       valid_lft forever preferred_lft forever\n"
-"    inet6 fe80::a00:27ff:feba:ce88/64 scope link noprefixroute \n"
-"       valid_lft forever preferred_lft forever\n"
-"    ```\n"
+msgid "First, copy the snmp.conf file from LibreNMS:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:282
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:357
 #, no-wrap
-msgid "    While bringing the interface up and down using the `ip` utility is much slower than `nmcli`, `ip` has a distinct advantage when setting new or additional IP addresses, as it happens in real time, without bringing the interface down and up.\n"
+msgid "cp /opt/librenms/snmpd.conf.example /etc/snmp/snmpd.conf\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:284
-#: ../src/docs/guides/network/basic_network_configuration.md:637
+#: ../src/docs/guides/network/librenms_monitoring_server.md:362
 #, no-wrap
-msgid "    ### Gateway configuration\n"
+msgid "Next, edit this file and change the community string from \"RANDOMSTRINGGOESHERE\" to whatever your community string is or will be. In our example, we are changing it to \"LABone\":\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:287
-#: ../src/docs/guides/network/basic_network_configuration.md:639
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:363
+#: ../src/docs/guides/network/librenms_monitoring_server.md:539
 #, no-wrap
-msgid "    Now that the interface has an address, we have to set its default route, this can be done with:\n"
+msgid "vi /etc/snmp/snmpd.conf\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:291
+#: ../src/docs/guides/network/librenms_monitoring_server.md:368
 #, no-wrap
-msgid "    ```bash\n"
-"    ip route add default via 192.168.1.1 dev enp0s3\n"
-"    ```\n"
+msgid "And change this line:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:293
-#: ../src/docs/guides/network/basic_network_configuration.md:645
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:369
 #, no-wrap
-msgid "    The kernel routing table can be displayed with\n"
+msgid "com2sec readonly  default         RANDOMSTRINGGOESHERE\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:297
-#: ../src/docs/guides/network/basic_network_configuration.md:649
+#: ../src/docs/guides/network/librenms_monitoring_server.md:374
 #, no-wrap
-msgid "    ```bash\n"
-"    ip route\n"
-"    ```\n"
+msgid "to\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:299
-#: ../src/docs/guides/network/basic_network_configuration.md:651
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:375
 #, no-wrap
-msgid "    or `ip r` for short.\n"
+msgid "com2sec readonly  default         LABone\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:301
+#: ../src/docs/guides/network/librenms_monitoring_server.md:380
+#: ../src/docs/guides/network/librenms_monitoring_server.md:513
 #, no-wrap
-msgid "    This should output something like this:\n"
+msgid "Now save your changes and exit.\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:306
+#. type: Title ##
+#: ../src/docs/guides/network/librenms_monitoring_server.md:381
 #, no-wrap
-msgid "    ```bash\n"
-"    default via 192.168.1.1 dev enp0s3 \n"
-"    192.168.1.0/24 dev enp0s3 proto kernel scope link src 192.168.1.151 metric 100\n"
-"    ```\n"
+msgid "Automating With A Cron Job"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:308
-#: ../src/docs/guides/network/basic_network_configuration.md:653
+#: ../src/docs/guides/network/librenms_monitoring_server.md:384
 #, no-wrap
-msgid "    ## Checking network connectivity\n"
+msgid "Run the following commands to set up the cron jobs:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:310
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:385
 #, no-wrap
-msgid "    Throughout the examples above we have done some testing. Your best bet for testing is to start by pinging the default gateway. This should always work:\n"
+msgid "cp /opt/librenms/librenms.nonroot.cron /etc/cron.d/librenms\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:318
+#: ../src/docs/guides/network/librenms_monitoring_server.md:390
 #, no-wrap
-msgid "    ```bash\n"
-"    ping -c3 192.168.1.1\n"
-"    PING 192.168.1.1 (192.168.1.1) 56(84) bytes of data.\n"
-"    64 bytes from 192.168.1.1: icmp_seq=1 ttl=64 time=0.437 ms\n"
-"    64 bytes from 192.168.1.1: icmp_seq=2 ttl=64 time=0.879 ms\n"
-"    64 bytes from 192.168.1.1: icmp_seq=3 ttl=64 time=0.633 ms\n"
-"    ```\n"
+msgid "It's important that the poller has run once, even though there will be nothing to poll, before the web setup procedure is run. It saves a lot of head scratching trying to figure out what is wrong when you get poller errors in the validation section later on.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:320
+#: ../src/docs/guides/network/librenms_monitoring_server.md:392
 #, no-wrap
-msgid "    Next, test to see if your LAN routing is working completely by pinging a host on your local network:\n"
+msgid "The poller is run by the \"librenms\" user, and while it would be possible to switch to this user and run the cron files, it's really better to let the poller do it on its own, so make sure that at least 5 minutes have passed between this section and the \"Web Setup\" section below.\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:327
+#. type: Title ##
+#: ../src/docs/guides/network/librenms_monitoring_server.md:393
 #, no-wrap
-msgid "    ```bash\n"
-"    ping -c3 192.168.1.10\n"
-"    PING 192.168.1.10 (192.168.1.10) 56(84) bytes of data.\n"
-"    64 bytes from 192.168.1.10: icmp_seq=2 ttl=255 time=0.684 ms\n"
-"    64 bytes from 192.168.1.10: icmp_seq=3 ttl=255 time=0.676 ms\n"
-"    ```\n"
+msgid "Log Rotation"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:329
+#: ../src/docs/guides/network/librenms_monitoring_server.md:396
 #, no-wrap
-msgid "    Now test to make sure we can see a reachable host external of your network. For the test below, we are using Google's open DNS server:\n"
+msgid "LibreNMS will create a large set of logs over time. You'll need to setup log rotation for this so that it doesn't eat up too much disk space. To do this, simply run this command now:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:337
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:397
 #, no-wrap
-msgid "    ```bash\n"
-"    ping -c3 8.8.8.8\n"
-"    PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\n"
-"    64 bytes from 8.8.8.8: icmp_seq=1 ttl=119 time=19.8 ms\n"
-"    64 bytes from 8.8.8.8: icmp_seq=2 ttl=119 time=20.2 ms\n"
-"    64 bytes from 8.8.8.8: icmp_seq=3 ttl=119 time=20.1 ms\n"
-"    ```\n"
+msgid "cp /opt/librenms/misc/librenms.logrotate /etc/logrotate.d/librenms\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:339
+#. type: Title ##
+#: ../src/docs/guides/network/librenms_monitoring_server.md:401
 #, no-wrap
-msgid "    The final test, is to make sure that DNS resolution is working. For this example, we are using google.com:\n"
+msgid "Installing Composer"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:347
+#: ../src/docs/guides/network/librenms_monitoring_server.md:404
 #, no-wrap
-msgid "    ```bash\n"
-"    ping -c3 google.com\n"
-"    PING google.com (172.217.4.46) 56(84) bytes of data.\n"
-"    64 bytes from lga15s46-in-f14.1e100.net (172.217.4.46): icmp_seq=1 ttl=119 time=14.5 ms\n"
-"    64 bytes from lga15s46-in-f14.1e100.net (172.217.4.46): icmp_seq=2 ttl=119 time=15.1 ms\n"
-"    64 bytes from lga15s46-in-f14.1e100.net (172.217.4.46): icmp_seq=3 ttl=119 time=14.6 ms\n"
-"    ```\n"
+msgid "PHP Composer is required for the current installation (mentioned in the earlier procedure). If the install you ran earlier failed, you'll need to do this.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:349
+#: ../src/docs/guides/network/librenms_monitoring_server.md:406
 #, no-wrap
-msgid "    If your machine has several interfaces and you want to test from a particular interface, simply use the `-I` option with ping:\n"
+msgid "Before we start, we need to link our current version of the `php` binary to a location in the path. Since we used the REMI installation to get the correct version of PHP, it is not installed within the path. \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:353
+#: ../src/docs/guides/network/librenms_monitoring_server.md:408
 #, no-wrap
-msgid "    ```bash\n"
-"    ping -I enp0s3 -c3 192.168.1.10\n"
-"    ```\n"
+msgid "This is easy enough to fix with a symbolic link and will make your life much easier as you go through the remaining steps:\n"
 msgstr ""
 
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:409
+#, no-wrap
+msgid "ln -s /opt/remi/php81/root/usr/bin/php /usr/bin/php\n"
+msgstr ""
+
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:355
-#: ../src/docs/guides/network/basic_network_configuration.md:702
+#: ../src/docs/guides/network/librenms_monitoring_server.md:414
+#, no-wrap
+msgid "Now go to the [Composer website](https://getcomposer.org/download/) and make sure that the following steps haven't changed. If not, go ahead and run these commands somewhere on the machine (the location isn't important as we will move composer when we are done): \n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:415
 #, no-wrap
-msgid "    ## Conclusions\n"
+msgid "php -r \"copy('https://getcomposer.org/installer', 'composer-setup.php');\"\n"
+"php -r \"if (hash_file('sha384', 'composer-setup.php') === '55ce33d7678c5a611085589f1f3ddf8b3c52d662cd01d4ba75c0ee0459970c2200a51f492d557530c71c15d8dba01eae') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;\"\n"
+"php composer-setup.php\n"
+"php -r \"unlink('composer-setup.php');\"\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:357
+#: ../src/docs/guides/network/librenms_monitoring_server.md:423
+#, no-wrap
+msgid "Move it to a spot within our path. We are using `/usr/local/bin/` for this:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:424
+#, no-wrap
+msgid "mv composer.phar /usr/local/bin/composer\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/network/librenms_monitoring_server.md:428
 #, no-wrap
-msgid "    There are a great deal of changes to the networking stack in Rocky Linux 9. Among these are the prioritization of `keyfile` over the formerly used `ifcfg` files found in Network-Scripts. Since it is evident that the direction of movement here in future versions of Rocky Linux will completely deprecate and remove Network-Scripts as an option, it's best to focus attention on methodologies such as `nmcli`, `nmtui`, and in some cases `ip`, for network configuration.\n"
+msgid "Web Setup"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:361
+#: ../src/docs/guides/network/librenms_monitoring_server.md:431
 #, no-wrap
-msgid "    ## Network Configuration - Rocky Linux 8\n"
+msgid "Now that we have all of the components installed and configured, our next step is to finish the installation via the web. In our lab version, we've got no hostname setup so to finish the setup, we need to go to the web server by IP address. \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:365
+#: ../src/docs/guides/network/librenms_monitoring_server.md:433
 #, no-wrap
-msgid "    At the user level, the networking stack is managed by *NetworkManager*. This tool runs as a service, and you can check its state with the following command:\n"
+msgid "The IP of our lab machine is 192.168.1.140, so we need to navigate to the following address in a web browser to finish the install:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:371
+#: ../src/docs/guides/network/librenms_monitoring_server.md:435
 #, no-wrap
-msgid "    ### Configuration files\n"
+msgid "`http://192.168.1.140/librenms`\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:374
+#: ../src/docs/guides/network/librenms_monitoring_server.md:437
 #, no-wrap
-msgid "    NetworkManager simply applies a configuration read from the files found in `/etc/sysconfig/network-scripts/ifcfg-<IFACE_NAME>`.\n"
-"    Each network interface has its configuration file. The following shows an example for the default configuration of a server:\n"
+msgid "Assuming all is working correctly, you should be redirected to the pre-install checks. Assuming that these are all marked as green, then we should be able to continue.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:394
+#: ../src/docs/guides/network/librenms_monitoring_server.md:439
 #, no-wrap
-msgid "    ```bash\n"
-"    TYPE=Ethernet\n"
-"    PROXY_METHOD=none\n"
-"    BROWSER_ONLY=no\n"
-"    BOOTPROTO=none\n"
-"    DEFROUTE=yes\n"
-"    IPV4_FAILURE_FATAL=no\n"
-"    IPV6INIT=no\n"
-"    NAME=enp1s0\n"
-"    UUID=74c5ccee-c1f4-4f45-883f-fc4f765a8477\n"
-"    DEVICE=enp1s0\n"
-"    ONBOOT=yes\n"
-"    IPADDR=10.0.0.10\n"
-"    PREFIX=24\n"
-"    GATEWAY=10.0.0.1\n"
-"    DNS1=10.0.0.1\n"
-"    DNS2=1.1.1.1\n"
-"    IPV6_DISABLED=yes\n"
-"    ```\n"
+msgid "![LibreNMS Prechecks](../images/librenms_prechecks.png)\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:396
+#: ../src/docs/guides/network/librenms_monitoring_server.md:441
 #, no-wrap
-msgid "    The interface's name is **enp1s0** so this file's name will be `/etc/sysconfig/network-scripts/ifcfg-enp1s0`.\n"
+msgid "There are four buttons beneath the LibreNMS logo. The first button on the left is for the pre-checks. Our next button over is for the database. You'll need the password that you set for the database user \"librenms\" earlier in the process.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:400
+#: ../src/docs/guides/network/librenms_monitoring_server.md:443
 #, no-wrap
-msgid "        There are a few ways or mechanisms by which systems can be assigned their IP configuration information. The two most common methods are - **Static IP configuration** scheme and **Dynamic IP configuration** scheme.\n"
+msgid "If you've been following along diligently, then you've got that saved in a safe place. Go ahead and click on the \"Database\" button. The \"User\" and \"Password\" should be all that is necessary to fill in here. Once you do that, click the \"Check Credentials\" button.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:404
+#: ../src/docs/guides/network/librenms_monitoring_server.md:445
 #, no-wrap
-msgid "        The dynamic IP approach is popular on home and office networks - or workstation and desktop class systems.  The dynamic scheme usually needs _something_ extra that is locally available that can supply proper IP configuration information to requesting workstations and desktops. This _something_ is called the Dynamic Host Configuration Protocol (DHCP).\n"
+msgid "![LibreNMS Database](../images/librenms_configure_database.png)\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:406
+#: ../src/docs/guides/network/librenms_monitoring_server.md:447
 #, no-wrap
-msgid "        Very often, home/office users don't have to worry or know about DHCP. This is because the somebody or something else is automagically taking care of that in the background. The only thing that the end user needs to do is to physically or wirelessly connect to the right network (and of course make sure that their systems are powered on)!\n"
+msgid "Once you click that, if it comes back green, then you are ready to click the \"Build Database\" button.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:408
+#: ../src/docs/guides/network/librenms_monitoring_server.md:449
 #, no-wrap
-msgid "    ### IP Address\n"
+msgid "![LibreNMS Database Status](../images/librenms_configure_database_status.png)\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:410
+#: ../src/docs/guides/network/librenms_monitoring_server.md:451
 #, no-wrap
-msgid "    In the previous `/etc/sysconfig/network-scripts/ifcfg-enp1s0` listing, we see that the value of the `BOOTPROTO` parameter or key is set to `none`. This means that the system being configured is set to a static IP address scheme.\n"
+msgid "Once that is complete, the third button will be active, which is \"Create Admin User\", so go ahead and click this. You will be prompted for an admin user name. In our lab we are simply going to use \"admin\", and a password for that user.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:412
+#: ../src/docs/guides/network/librenms_monitoring_server.md:453
 #, no-wrap
-msgid "    If instead you want to configure the system to use a dynamic IP address scheme, you will have to change the value of the `BOOTPROTO` parameter from `none` to `dhcp` and also remove the `IPADDR`, `PREFIX` and `GATEWAY` lines. This is necessary because all of that information will be automaically obtained from any available DHCP server.\n"
+msgid "Make sure the password is secure and, again, log it somewhere safe, such as a password manager. You'll also need to fill in the email address for the administrative user. Once all of that is completed, simply click the \"Add User\" button.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:414
+#: ../src/docs/guides/network/librenms_monitoring_server.md:455
 #, no-wrap
-msgid "    To configure a static IP address attribution, set the following:\n"
+msgid "![LibreNMS Administrative User](../images/librenms_administrative_user.png)\n"
 msgstr ""
 
-#. type: Bullet: '    * '
-#: ../src/docs/guides/network/basic_network_configuration.md:418
+#. type: Plain text
+#: ../src/docs/guides/network/librenms_monitoring_server.md:457
 #, no-wrap
-msgid "IPADDR: the IP address to assign the interface\n"
+msgid "Once you do this, you'll be faced with a screen for \"Finish Install.\" There should only be one item left to finish the install and that is a line that asks you to \"validate your install\".\n"
 msgstr ""
 
-#. type: Bullet: '    * '
-#: ../src/docs/guides/network/basic_network_configuration.md:418
+#. type: Plain text
+#: ../src/docs/guides/network/librenms_monitoring_server.md:459
 #, no-wrap
-msgid "PREFIX: the subnet mask in [CIDR notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation)\n"
+msgid "Click the link. Once you've done this and everything is successful, you'll be redirected to the login page. Login with your administrative user and password.\n"
 msgstr ""
 
-#. type: Bullet: '    * '
-#: ../src/docs/guides/network/basic_network_configuration.md:418
+#. type: Title ##
+#: ../src/docs/guides/network/librenms_monitoring_server.md:460
 #, no-wrap
-msgid "GATEWAY: the default gateway\n"
+msgid "Adding Devices"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:420
+#: ../src/docs/guides/network/librenms_monitoring_server.md:463
 #, no-wrap
-msgid "    The `ONBOOT` parameter set to `yes` indicates that this connection will be activated during boot time.\n"
+msgid "Again, one of our assumptions was that you are using SNMP v2. Remember that each device you add must be member of your community string. We are adding two devices as examples here. An Ubuntu workstation and a CentOS server. \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:422
+#: ../src/docs/guides/network/librenms_monitoring_server.md:465
 #, no-wrap
-msgid "    ### DNS resolution\n"
+msgid "You will more than likely have managed switches, routers, and other devices to add. The author can tell you from past experience that adding switches and routers tends to be a whole lot easier than adding workstations and servers, which is why we are including the more difficult examples.\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:424
+#. type: Title ###
+#: ../src/docs/guides/network/librenms_monitoring_server.md:466
 #, no-wrap
-msgid "    To get proper name resolution, the following parameters must be set:\n"
+msgid "Ubuntu Workstation Setup"
 msgstr ""
 
-#. type: Bullet: '    * '
-#: ../src/docs/guides/network/basic_network_configuration.md:427
+#. type: Plain text
+#: ../src/docs/guides/network/librenms_monitoring_server.md:469
 #, no-wrap
-msgid "DNS1: IP address of the main nameserver\n"
+msgid "First, install _snmpd_ on the workstation while also updating packages, just to be safe:\n"
 msgstr ""
 
-#. type: Bullet: '    * '
-#: ../src/docs/guides/network/basic_network_configuration.md:427
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:470
 #, no-wrap
-msgid "DNS2: the secondary nameserver IP address\n"
+msgid "sudo update && sudo apt-get upgrade && sudo apt-get install snmpd\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:429
+#: ../src/docs/guides/network/librenms_monitoring_server.md:475
 #, no-wrap
-msgid "    ### Checking configuration\n"
+msgid "Next, you need to modify the snmpd.conf file:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:431
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:476
 #, no-wrap
-msgid "    You can check that the configuration has been correctly applied with the following `nmcli` command:\n"
+msgid "sudo vi /etc/snmpd/snmpd.conf\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:435
+#: ../src/docs/guides/network/librenms_monitoring_server.md:481
 #, no-wrap
-msgid "    ```bash\n"
-"    [user@server ~]$ sudo nmcli device show enp1s0\n"
-"    ```\n"
+msgid "Go ahead and find the lines that describe your workstation and change them to things that identify the workstation. These lines are shown below:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:437
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:482
 #, no-wrap
-msgid "    which should give you the following output:\n"
+msgid "sysLocation    Desktop\n"
+"sysContact     Username <user@mydomain.com>\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:455
+#: ../src/docs/guides/network/librenms_monitoring_server.md:488
 #, no-wrap
-msgid "    ```conf\n"
-"    GENERAL.DEVICE:                         enp1s0\n"
-"    GENERAL.TYPE:                           ethernet\n"
-"    GENERAL.HWADDR:                         6E:86:C0:4E:15:DB\n"
-"    GENERAL.MTU:                            1500\n"
-"    GENERAL.STATE:                          100 (connecté)\n"
-"    GENERAL.CONNECTION:                     enp1s0\n"
-"    GENERAL.CON-PATH:                       /org/freedesktop/NetworkManager/ActiveConnection/1\n"
-"    WIRED-PROPERTIES.CARRIER:               marche\n"
-"    IP4.ADDRESS[1]:                         10.0.0.10/24\n"
-"    IP4.GATEWAY:                            10.0.0.1\n"
-"    IP4.ROUTE[1]:                           dst = 10.0.0.0/24, nh = 0.0.0.0, mt = 100\n"
-"    IP4.ROUTE[2]:                           dst = 0.0.0.0/0, nh = 10.0.0.1, mt = 100\n"
-"    IP4.DNS[1]:                             10.0.0.1\n"
-"    IP4.DNS[2]:                             1.1.1.1\n"
-"    IP6.GATEWAY:                            --\n"
-"    ```\n"
+msgid "By default, when you install snmpd on Ubuntu, it only binds to the local address. It does not listen on your machine IP address. This will not allow LibreNMS to connect to it. We need to remark out this line:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:457
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:489
 #, no-wrap
-msgid "    ### CLI\n"
+msgid "agentaddress  127.0.0.1,[::1]\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:460
+#: ../src/docs/guides/network/librenms_monitoring_server.md:494
 #, no-wrap
-msgid "    NetworkManager's primary function is managing \"connections\", which map a physical device to more logical network components like an IP address and DNS settings.\n"
-"    To view the existing connections NetworkManager maintains, you can run `nmcli connection show`.\n"
+msgid "And add a new line that looks like what follows here: (In this example, the IP address of our workstation is 192.168.1.122 and the UDP port we are setting is \"161\")\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:466
-#: ../src/docs/guides/network/basic_network_configuration.md:547
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:495
 #, no-wrap
-msgid "    ```bash\n"
-"    [user@server ~]$ sudo nmcli connection show\n"
-"    NAME    UUID                                  TYPE      DEVICE\n"
-"    enp1s0  625a8aef-175d-4692-934c-2c4a85f11b8c  ethernet  enp1s0\n"
-"    ```\n"
+msgid "agentAddress udp:127.0.0.1:161,udp:192.168.1.122:161\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:468
+#: ../src/docs/guides/network/librenms_monitoring_server.md:500
 #, no-wrap
-msgid "    From the output above, we can determine that NetworkManager manages a connection (`NAME`) called `enp1s0` that maps to the physical device (`DEVICE`) `enp1s0`.\n"
+msgid "Next, we need to specify the read only access community string. Find the below lines and remark them out. (Note that we are showing them as remarked out below.)\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:470
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:501
 #, no-wrap
-msgid "    !!! tip \"Connection name\"\n"
+msgid "#rocommunity public default -V systemonly\n"
+"#rocommunity6 public default -V systemonly\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:472
+#: ../src/docs/guides/network/librenms_monitoring_server.md:507
 #, no-wrap
-msgid "        In this example, both the connection and device share the same name, but this may not always be the case. It is common to see a connection called `System eth0` that maps to a device called `eth0`, for example.\n"
+msgid "Next, add a new line:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:474
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:508
 #, no-wrap
-msgid "    Now that we know the name of our connection, we can view the settings for it. To do this, use the `nmcli connection show [connection]` command, which will print out all of the settings NetworkManager registers for the given connection.\n"
+msgid "rocommunity LABone\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:497
+#: ../src/docs/guides/network/librenms_monitoring_server.md:515
 #, no-wrap
-msgid "    ```bash\n"
-"    [user@server ~]$ sudo nmcli connection show enp1s0\n"
-"    ...\n"
-"    ipv4.method:                            auto\n"
-"    ipv4.dns:                               --\n"
-"    ipv4.dns-search:                        --\n"
-"    ipv4.dns-options:                       --\n"
-"    ipv4.dns-priority:                      0\n"
-"    ipv4.addresses:                         --\n"
-"    ipv4.gateway:                           --\n"
-"    ipv4.routes:                            --\n"
-"    ipv4.route-metric:                      -1\n"
-"    ipv4.route-table:                       0 (unspec)\n"
-"    ipv4.routing-rules:                     --\n"
-"    ipv4.ignore-auto-routes:                no\n"
-"    ipv4.ignore-auto-dns:                   no\n"
-"    ipv4.dhcp-client-id:                    --\n"
-"    ipv4.dhcp-iaid:                         --\n"
-"    ipv4.dhcp-timeout:                      0 (default)\n"
-"    ipv4.dhcp-send-hostname:                yes\n"
-"    ...\n"
-"    ```\n"
+msgid "Enable and start _snmpd_:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:499
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:516
 #, no-wrap
-msgid "    Down the left-hand column, we see the name of the setting, and down the right we see the value.\n"
+msgid "sudo systemctl enable snmpd\n"
+"sudo systemctl start snmpd\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:501
+#: ../src/docs/guides/network/librenms_monitoring_server.md:522
 #, no-wrap
-msgid "    For example, we can see that the `ipv4.method` here is currently set to `auto`. There are many allowed values for the `ipv4.method` setting, but the main two you will most likely see are:\n"
+msgid "If you are running a firewall on your internal workstations, then you will need to modify the firewall to allow UDP traffic from the monitoring server or from the network. LibreNMS also wants to be able to \"ping\" your device, so make sure that icmp port 8 is allowed from the server.\n"
 msgstr ""
 
-#. type: Bullet: '    * '
-#: ../src/docs/guides/network/basic_network_configuration.md:504
+#. type: Title ###
+#: ../src/docs/guides/network/librenms_monitoring_server.md:523
 #, no-wrap
-msgid "`auto`: the appropriate automatic method (DHCP, PPP, etc) is used for the interface and most other properties can be left unset.\n"
+msgid "CentOS or Rocky Linux Server Setup"
 msgstr ""
 
-#. type: Bullet: '    * '
-#: ../src/docs/guides/network/basic_network_configuration.md:504
+#. type: Plain text
+#: ../src/docs/guides/network/librenms_monitoring_server.md:526
 #, no-wrap
-msgid "`manual`: static IP addressing is used and at least one IP address must be given in the 'addresses' property.\n"
+msgid "We are assuming that you are root here or that you can _sudo_ to become so. First, we need to install some packages:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:506
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:527
 #, no-wrap
-msgid "    If instead you want to configure the system to use a static IP address scheme, you will have to change the value of `ipv4.method` to `manual`, and also specify the `ipv4.gateway` and `ipv4.addresses`.\n"
+msgid "dnf install net-snmp net-snmp-utils\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:508
+#: ../src/docs/guides/network/librenms_monitoring_server.md:532
 #, no-wrap
-msgid "    To modify a setting, you can use the nmcli command `nmcli connection modify [connection] [setting] [value]`.\n"
+msgid "Next, we want to create a snmpd.conf file. Rather than try to navigate through the file that is included, move this file to rename it, and create a brand new empty file:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:512
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:533
 #, no-wrap
-msgid "    ```bash\n"
-"    # set 10.0.0.10 as the static ipv4 address\n"
-"    [user@server ~]$ sudo nmcli connection modify enp1s0 ipv4.addresses 10.0.0.10\n"
+msgid "mv /etc/snmp/snmpd.conf /etc/snmp/snmpd.conf.orig\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:515
+#: ../src/docs/guides/network/librenms_monitoring_server.md:544
 #, no-wrap
-msgid "    # set 10.0.0.1 as the ipv4 gateway\n"
-"    [user@server ~]$ sudo nmcli connection modify enp1s0 ipv4.gateway 10.0.0.1\n"
+msgid "Next copy the below into the new file:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:519
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:545
 #, no-wrap
-msgid "    # change ipv4 method to use static assignments (set in the previous two commands)\n"
-"    [user@server ~]$ sudo nmcli connection modify enp1s0 ipv4.method manual\n"
-"    ```\n"
+msgid "# Map 'LABone' community to the 'AllUser'\n"
+"# sec.name source community\n"
+"com2sec AllUser default LABone\n"
+"# Map 'ConfigUser' to 'ConfigGroup' for SNMP Version 2c\n"
+"# Map 'AllUser' to 'AllGroup' for SNMP Version 2c\n"
+"# sec.model sec.name\n"
+"group AllGroup v2c AllUser\n"
+"# Define 'SystemView', which includes everything under .1.3.6.1.2.1.1 (or .1.3.6.1.2.1.25.1)\n"
+"# Define 'AllView', which includes everything under .1\n"
+"# incl/excl subtree\n"
+"view SystemView included .1.3.6.1.2.1.1\n"
+"view SystemView included .1.3.6.1.2.1.25.1.1\n"
+"view AllView included .1\n"
+"# Give 'ConfigGroup' read access to objects in the view 'SystemView'\n"
+"# Give 'AllGroup' read access to objects in the view 'AllView'\n"
+"# context model level prefix read write notify\n"
+"access AllGroup \"\" any noauth exact AllView none none\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:521
+#: ../src/docs/guides/network/librenms_monitoring_server.md:566
 #, no-wrap
-msgid "    !!!tip \"When does the connection get updated?\"\n"
+msgid "CentOS and Rocky use a mapping convention to direct things. The above file is commented nicely so that you can learn what is happening, but doesn't include all of the clutter of the original file.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:523
+#: ../src/docs/guides/network/librenms_monitoring_server.md:568
 #, no-wrap
-msgid "        `nmcli connection modify` will not modify the *runtime* configuration, but update the `/etc/sysconfig/network-scripts` configuration files with the appropriate values based on what you have told `nmcli` to configure.\n"
+msgid "Once you've made the changes, save them and exit the file.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:525
+#: ../src/docs/guides/network/librenms_monitoring_server.md:570
 #, no-wrap
-msgid "    To configure your DNS servers with NetworkManager via the CLI, you can modify the `ipv4.dns` setting.\n"
+msgid "Now we need to enable and start _snmpd_:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:530
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:571
 #, no-wrap
-msgid "    ```bash\n"
-"    # set 10.0.0.1 and 1.1.1.1 as the primary and secondary DNS servers\n"
-"    [user@server ~]$ sudo nmcli connection modify enp1s0 ipv4.dns '10.0.0.1 1.1.1.1'\n"
-"    ```\n"
+msgid "systemctl enable snmpd\n"
+"systemctl start snmpd\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:532
+#. type: Title ####
+#: ../src/docs/guides/network/librenms_monitoring_server.md:576
 #, no-wrap
-msgid "    ### Apply configuration\n"
+msgid "Firewall"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:534
+#: ../src/docs/guides/network/librenms_monitoring_server.md:579
+#, no-wrap
+msgid "If you are running a server, then you **are** running a firewall, right?  If you are running _firewalld_ (as you should be) we will assume that we are using the \"trusted\" zone here and we just want to allow all traffic from our monitoring server, 192.168.1.140:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/network/librenms_monitoring_server.md:580
 #, no-wrap
-msgid "    To apply the network configuration, you can use the `nmcli connection up [connection]` command.\n"
+msgid "firewall-cmd --zone=trusted --add-source=192.168.1.140 --permanent\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:539
+#: ../src/docs/guides/network/librenms_monitoring_server.md:585
+#, no-wrap
+msgid "Again, we assumed the \"trusted\" zone here, but you may want something else, even \"public\", just consder your rules and their affects before adding them in.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/network/librenms_monitoring_server.md:586
 #, no-wrap
-msgid "    ```bash\n"
-"    [user@server ~]$ sudo nmcli connection up enp1s0\n"
-"    Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/2)\n"
-"    ```\n"
+msgid "Adding The Devices In Librenms"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:541
+#: ../src/docs/guides/network/librenms_monitoring_server.md:589
 #, no-wrap
-msgid "    To get the connection state, simply use:\n"
+msgid "Now that our sample devices are configured to accept snmp traffic from our LibreNMS server, the next step is to add those devices in LibreNMS. We are assuming that you have the web interface for LibreNMS open, and if so, it is going to be showing you that you have no devices added and asking you to add one. \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:549
+#: ../src/docs/guides/network/librenms_monitoring_server.md:591
 #, no-wrap
-msgid "    You can also use the `ifup` and `ifdown` commands to bring the interface up and down (they are simple wrappers around `nmcli`):\n"
+msgid "So go ahead and do that. Once you click to add a device, you'll be faced with this screen:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:554
+#: ../src/docs/guides/network/librenms_monitoring_server.md:593
 #, no-wrap
-msgid "    ```bash\n"
-"    [user@server ~]$ sudo ifup enp1s0\n"
-"    [user@server ~]$ sudo ifdown enp1s0\n"
-"    ```\n"
+msgid "![LibreNMS Add Device](../images/librenms_add_device.png)\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:556
+#: ../src/docs/guides/network/librenms_monitoring_server.md:595
 #, no-wrap
-msgid "    ## Using ip utility\n"
+msgid "Put in the information we used for our test devices. In our case, we are using the IP for the Ubuntu workstation to start, in our example that is 192.168.1.122. The only other thing we will need to add here is the community string in the \"Community\" field, so we would type in \"LABone\" here. \n"
 msgstr ""
 
-#. type: Bullet: '    * '
-#: ../src/docs/guides/network/basic_network_configuration.md:565
+#. type: Plain text
+#: ../src/docs/guides/network/librenms_monitoring_server.md:597
 #, no-wrap
-msgid "interface name: ens19\n"
+msgid "Now click the \"Add Device\" button. Assuming that you have done everything correctly above when adding the device, your device should be added successfully. \n"
 msgstr ""
 
-#. type: Bullet: '    * '
-#: ../src/docs/guides/network/basic_network_configuration.md:565
+#. type: Plain text
+#: ../src/docs/guides/network/librenms_monitoring_server.md:599
 #, no-wrap
-msgid "ip address: 192.168.20.10\n"
+msgid "If you run into a \"failure to add\" error, review the SNMP setup for the workstation or the firewall if it exists. Next we repeat the \"Add Device\" process for our CentOS server.\n"
 msgstr ""
 
-#. type: Bullet: '    * '
-#: ../src/docs/guides/network/basic_network_configuration.md:565
+#. type: Title ##
+#: ../src/docs/guides/network/librenms_monitoring_server.md:600
 #, no-wrap
-msgid "gateway: 192.168.20.254\n"
+msgid "Getting Alerts"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:582
+#: ../src/docs/guides/network/librenms_monitoring_server.md:603
 #, no-wrap
-msgid "    To bring the *ens19* interface up, simply use `ip link set ens19 up` and to bring it down, use `ip link set ens19 down`.\n"
+msgid "As we said from the start, this document will only get you started with LibreNMS. There are a large number of additional configuration items, an extensive API (Application Programming Interface), an alerts system that provides a huge number of options for delivery, called \"Transports\", and much more. \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:586
+#: ../src/docs/guides/network/librenms_monitoring_server.md:605
 #, no-wrap
-msgid "    The command to be used is of the form:\n"
+msgid "We are not going to create any alert rules, but instead we will be editing the built-in alert rule \"Device Down! Due to no ICMP response\"  that is pre-configured out of the box, and for \"Transports\" we are going to stick with \"Mail\", which is just email. Just know that you are not limited.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:590
+#: ../src/docs/guides/network/librenms_monitoring_server.md:607
 #, no-wrap
-msgid "    ```bash\n"
-"    ip addr add <IP ADDRESS/CIDR> dev <IFACE NAME>\n"
-"    ```\n"
+msgid "In order to use email for our transport, however, we need to have mail working on our server. To get this going, we are going to use this [Postfix Procedure](../email/postfix_reporting.md). \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:592
+#: ../src/docs/guides/network/librenms_monitoring_server.md:609
 #, no-wrap
-msgid "    To assign the above example parameters, we will use:\n"
+msgid "Run through that procedure to configure postfix so that it will properly identify where the messages are coming from, but you can stop after the configuration process and come back here.\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:596
+#. type: Title ###
+#: ../src/docs/guides/network/librenms_monitoring_server.md:610
 #, no-wrap
-msgid "    ```bash\n"
-"    ip a add 192.168.20.10/24 dev ens19\n"
-"    ```\n"
+msgid "Transports"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:598
+#: ../src/docs/guides/network/librenms_monitoring_server.md:613
 #, no-wrap
-msgid "    Then, checking the result with:\n"
+msgid "We need a way to send out our alerts. As noted earlier, LibreNMS supports a huge number of transports. We are going to do our alert by email, which is defined as the \"Mail\" transport. To set up the transport:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:602
+#. type: Bullet: '1. '
+#: ../src/docs/guides/network/librenms_monitoring_server.md:622
+#: ../src/docs/guides/network/librenms_monitoring_server.md:637
+#: ../src/docs/guides/network/librenms_monitoring_server.md:650
 #, no-wrap
-msgid "    ```bash\n"
-"    ip a show dev ens19\n"
-"    ```\n"
+msgid "Go to the dashboard\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:611
+#. type: Bullet: '2. '
+#: ../src/docs/guides/network/librenms_monitoring_server.md:622
+#: ../src/docs/guides/network/librenms_monitoring_server.md:650
 #, no-wrap
-msgid "    ```bash\n"
-"\t3: ens19: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000\n"
-"\t\tlink/ether 4a:f2:f5:b6:aa:9f brd ff:ff:ff:ff:ff:ff\n"
-"\t\tinet 192.168.20.10/24 scope global ens19\n"
-"\t\tvalid_lft forever preferred_lft forever\n"
-"    ```\n"
+msgid "Let your mouse hover over \"Alerts\"\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:613
+#. type: Bullet: '3. '
+#: ../src/docs/guides/network/librenms_monitoring_server.md:622
 #, no-wrap
-msgid "    Our interface is up and configured, but is still lacking something!\n"
+msgid "Go down to \"Alert Transports\" and click on it\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:615
+#. type: Bullet: '4. '
+#: ../src/docs/guides/network/librenms_monitoring_server.md:622
 #, no-wrap
-msgid "    ### Using ifcfg utility\n"
+msgid "Click on on the \"Create alert transport\" button (Note the \"Create transport group\" button. You can use this to have alerts go to several individuals)\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:617
+#. type: Bullet: '5. '
+#: ../src/docs/guides/network/librenms_monitoring_server.md:622
 #, no-wrap
-msgid "    To add the *ens19* interface our new example IP address, use the following command:\n"
+msgid "In the \"Transport name:\" field, type in \"Alert By Email\"\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:621
+#. type: Bullet: '6. '
+#: ../src/docs/guides/network/librenms_monitoring_server.md:622
 #, no-wrap
-msgid "    ```bash\n"
-"    ifcfg ens19 add 192.168.20.10/24\n"
-"    ```\n"
+msgid "In the \"Transport type: field, use the drop down to select \"Mail\"\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:623
+#. type: Bullet: '7. '
+#: ../src/docs/guides/network/librenms_monitoring_server.md:622
 #, no-wrap
-msgid "    To remove the address:\n"
+msgid "Make sure the \"Default alert:\" field is set to \"On\"\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:627
+#. type: Bullet: '8. '
+#: ../src/docs/guides/network/librenms_monitoring_server.md:622
 #, no-wrap
-msgid "    ```bash\n"
-"    ifcfg ens19 del 192.168.20.10/24\n"
-"    ```\n"
+msgid "In the \"Email:\" field, type the email address of the administrator\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:629
+#. type: Title ###
+#: ../src/docs/guides/network/librenms_monitoring_server.md:623
 #, no-wrap
-msgid "    To completely disable IP addressing on this interface:\n"
+msgid "Organizing Devices Into Groups"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:633
+#: ../src/docs/guides/network/librenms_monitoring_server.md:626
 #, no-wrap
-msgid "    ```bash\n"
-"    ifcfg ens19 stop\n"
-"    ```\n"
+msgid "The best way to set up alerts is to first organize your devices into some logical order. Currently, we have a workstation and a server in devices. While we may not normally wish combine the two, we will for this example.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:635
+#: ../src/docs/guides/network/librenms_monitoring_server.md:628
 #, no-wrap
-msgid "    *Note that this does not bring the interface down, it simply unassigns all IP addresses from the interface.*\n"
+msgid "Keep in mind that our example is also redundant, as there is an \"All Devices\" group that would work for this as well. To set up a device group:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:643
+#. type: Bullet: '2. '
+#: ../src/docs/guides/network/librenms_monitoring_server.md:637
 #, no-wrap
-msgid "    ```bash\n"
-"    ip route add default via 192.168.20.254 dev ens19\n"
-"    ```\n"
+msgid "Let your mouse hover over \"Devices\"\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:655
+#. type: Bullet: '3. '
+#: ../src/docs/guides/network/librenms_monitoring_server.md:637
 #, no-wrap
-msgid "    At this point, you should have your network interface up and properly configured. There are several ways to verify your connectivity.\n"
+msgid "Go down to \"Manage Groups\" and click on it\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:657
+#. type: Bullet: '4. '
+#: ../src/docs/guides/network/librenms_monitoring_server.md:637
 #, no-wrap
-msgid "    By *pinging* another IP address in the same network (we will use `192.168.20.42` as an example):\n"
+msgid "Click on the \"+ New Device Group\" button\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:661
+#. type: Bullet: '5. '
+#: ../src/docs/guides/network/librenms_monitoring_server.md:637
 #, no-wrap
-msgid "    ```bash\n"
-"    ping -c3 192.168.20.42\n"
-"    ```\n"
+msgid "In the \"Name\" field, type \"ICMP Group\"\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:663
+#. type: Bullet: '6. '
+#: ../src/docs/guides/network/librenms_monitoring_server.md:637
 #, no-wrap
-msgid "    This command will issue 3 *pings* (known as ICMP request) and wait for a reply. If everything went fine, you should get this output:\n"
+msgid "In the description field type what ever you think will help describe the group\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:669
+#. type: Bullet: '7. '
+#: ../src/docs/guides/network/librenms_monitoring_server.md:637
 #, no-wrap
-msgid "    ```bash\n"
-"    PING 192.168.20.42 (192.168.20.42) 56(84) bytes of data.\n"
-"    64 bytes from 192.168.20.42: icmp_seq=1 ttl=64 time=1.07 ms\n"
-"    64 bytes from 192.168.20.42: icmp_seq=2 ttl=64 time=0.915 ms\n"
-"    64 bytes from 192.168.20.42: icmp_seq=3 ttl=64 time=0.850 ms\n"
+msgid "Change the \"Type\" field from \"Dynamic\" to \"Static\"\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:674
+#. type: Bullet: '8. '
+#: ../src/docs/guides/network/librenms_monitoring_server.md:637
 #, no-wrap
-msgid "    --- 192.168.20.42 ping statistics ---\n"
-"    3 packets transmitted, 3 received, 0% packet loss, time 5ms\n"
-"    rtt min/avg/max/mdev = 0.850/0.946/1.074/0.097 ms\n"
-"    ```\n"
+msgid "Add both devices to the \"Select Devices\" field and then just save your changes\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:676
+#. type: Title ###
+#: ../src/docs/guides/network/librenms_monitoring_server.md:638
 #, no-wrap
-msgid "    Then, to make sure your routing configuration is fine, try to *ping* a external host, such as this well known public DNS resolver:\n"
+msgid "Setting Up The Alert Rules"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:680
+#: ../src/docs/guides/network/librenms_monitoring_server.md:641
 #, no-wrap
-msgid "    ```bash\n"
-"    ping -c3 8.8.8.8\n"
-"    ```\n"
+msgid "Now that we have the transport and the device group set up, let's configure the alert rule. By default, LibreNMS has several alert rules already created for you:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:682
+#. type: Bullet: '3. '
+#: ../src/docs/guides/network/librenms_monitoring_server.md:650
 #, no-wrap
-msgid "    If your machine has several network interface and you want to make ICMP request via a specific interface, you can use the `-I` flag:\n"
+msgid "Go down to \"Alert Rules\" and click on it\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:686
+#. type: Bullet: '4. '
+#: ../src/docs/guides/network/librenms_monitoring_server.md:650
+#, no-wrap
+msgid "The top active rule in the display will be \"Device Down! Due to no ICMP response.\" Go over to the \"Action\" (far right column) and click on the pencil icon to edit the rule.\n"
+msgstr ""
+
+#. type: Bullet: '5. '
+#: ../src/docs/guides/network/librenms_monitoring_server.md:650
+#, no-wrap
+msgid "Leave all the fields at the top as is and go down to the \"Match devices, groups and locations list:\" field and click inside the field\n"
+msgstr ""
+
+#. type: Bullet: '6. '
+#: ../src/docs/guides/network/librenms_monitoring_server.md:650
+#, no-wrap
+msgid "Select \"ICMP Group\" from the list\n"
+msgstr ""
+
+#. type: Bullet: '7. '
+#: ../src/docs/guides/network/librenms_monitoring_server.md:650
+#, no-wrap
+msgid "Make sure the \"All devices except in list:\" field is \"Off\"\n"
+msgstr ""
+
+#. type: Bullet: '8. '
+#: ../src/docs/guides/network/librenms_monitoring_server.md:650
 #, no-wrap
-msgid "    ```bash\n"
-"    ping -I ens19 -c3 192.168.20.42\n"
-"    ```\n"
+msgid "Click inside the \"Transports:\" field and select \"Mail: Alert By Email\" and save your rule.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:688
+#: ../src/docs/guides/network/librenms_monitoring_server.md:652
 #, no-wrap
-msgid "    It is now time to make sure that DNS resolution is working correctly. As a reminder, DNS resolution is a mechanism used to convert human friendly machine names into their IP addresses and the other way round (reverse DNS).\n"
+msgid "Before saving, your rule should look something like this:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:690
+#: ../src/docs/guides/network/librenms_monitoring_server.md:654
 #, no-wrap
-msgid "    If the `/etc/resolv.conf` file indicates a reachable DNS server, then the following should work:\n"
+msgid "![LibreNMS Alert Rule](../images/librenms_alert_rule.png)\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:694
+#: ../src/docs/guides/network/librenms_monitoring_server.md:656
 #, no-wrap
-msgid "    ```bash\n"
-"    host rockylinux.org\n"
-"    ```\n"
+msgid "These two devices should now alert you by email if they are down and when they recover.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:696
+#: ../src/docs/guides/network/librenms_monitoring_server.md:660
 #, no-wrap
-msgid "    The result should be:\n"
+msgid "LibreNMS is a powerful monitoring tool with a full set of features in one application. We have only _just_ scratched the surface on the capabilities. We haven't shown you some of the obvious screens. \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:700
+#: ../src/docs/guides/network/librenms_monitoring_server.md:662
 #, no-wrap
-msgid "    ```bash\n"
-"    rockylinux.org has address 76.76.21.21\n"
-"    ```\n"
+msgid "For instance, as soon as you add devices, assuming that all of the SNMP properties are set correctly, you'll start to receive bandwidth, memory utilization, and CPU utilization graphs on each device. We haven't shown you the wealth of transports available besides \"Mail\". \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/network/basic_network_configuration.md:703
+#: ../src/docs/guides/network/librenms_monitoring_server.md:663
 #, no-wrap
-msgid "    Rocky Linux 8 has the tools to configure your network from the command line. This document should get you up and running with those tools in no time.\n"
+msgid "All of that said, we have shown you enough in this document to get a good start monitoring your environment. LibreNMS takes some time to master all of the elements. You should visit the project's [excellent documentation](https://docs.librenms.org/) for additional information.\n"
 msgstr ""
 
