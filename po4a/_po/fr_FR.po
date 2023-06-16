@@ -13,119 +13,21 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/apache_hardened_webserver_modsecurity.pot\n"
-"X-Crowdin-File-ID: 1241\n"
+"X-Crowdin-File: /po4a/po4a/_po/apache_hardened_webserver_rkhunter.pot\n"
+"X-Crowdin-File-ID: 1243\n"
 
-#. type: Plain text
-#: ../src/docs/books/admin_guide/05-vi.md:44
-#: ../src/docs/books/admin_guide/05-vi.md:397
-#: ../src/docs/books/admin_guide/05-vi.md:405
-#: ../src/docs/books/admin_guide/05-vi.md:411
-#: ../src/docs/books/admin_guide/05-vi.md:417
-#: ../src/docs/books/admin_guide/05-vi.md:423
-#: ../src/docs/books/admin_guide/06-users.md:75
-#: ../src/docs/books/admin_guide/06-users.md:113
-#: ../src/docs/books/admin_guide/06-users.md:141
-#: ../src/docs/books/admin_guide/06-users.md:279
-#: ../src/docs/books/admin_guide/06-users.md:344
-#: ../src/docs/books/admin_guide/06-users.md:369
-#: ../src/docs/books/admin_guide/06-users.md:392
-#: ../src/docs/books/admin_guide/06-users.md:588
-#: ../src/docs/books/admin_guide/06-users.md:656
-#: ../src/docs/books/admin_guide/06-users.md:671
-#: ../src/docs/books/admin_guide/06-users.md:740
-#: ../src/docs/books/admin_guide/06-users.md:764
-#: ../src/docs/books/admin_guide/06-users.md:782
-#: ../src/docs/books/admin_guide/11-tasks.md:140
-#: ../src/docs/books/admin_guide/12-network.md:47
-#: ../src/docs/books/admin_guide/12-network.md:481
-#: ../src/docs/books/admin_guide/12-network.md:562
-#: ../src/docs/books/admin_guide/12-network.md:583
-#: ../src/docs/books/admin_guide/12-network.md:624
-#: ../src/docs/books/admin_guide/12-network.md:649
-#: ../src/docs/books/admin_guide/12-network.md:666
-#: ../src/docs/books/admin_guide/12-network.md:694
-#: ../src/docs/books/admin_guide/12-network.md:707
-#: ../src/docs/books/admin_guide/12-network.md:720
-#: ../src/docs/books/admin_guide/03-commands.md:126
-#: ../src/docs/books/admin_guide/03-commands.md:162
-#: ../src/docs/books/admin_guide/03-commands.md:470
-#: ../src/docs/books/admin_guide/03-commands.md:619
-#: ../src/docs/books/admin_guide/03-commands.md:641
-#: ../src/docs/books/admin_guide/03-commands.md:661
-#: ../src/docs/books/admin_guide/03-commands.md:778
-#: ../src/docs/books/admin_guide/03-commands.md:826
-#: ../src/docs/books/admin_guide/03-commands.md:842
-#: ../src/docs/books/admin_guide/03-commands.md:962
-#: ../src/docs/books/admin_guide/03-commands.md:985
-#: ../src/docs/books/admin_guide/03-commands.md:1174
-#: ../src/docs/books/admin_guide/03-commands.md:1195
-#: ../src/docs/books/admin_guide/07-file-systems.md:132
-#: ../src/docs/books/admin_guide/07-file-systems.md:237
-#: ../src/docs/books/admin_guide/07-file-systems.md:267
-#: ../src/docs/books/admin_guide/07-file-systems.md:286
-#: ../src/docs/books/admin_guide/07-file-systems.md:313
-#: ../src/docs/books/admin_guide/07-file-systems.md:327
-#: ../src/docs/books/admin_guide/07-file-systems.md:341
-#: ../src/docs/books/admin_guide/07-file-systems.md:379
-#: ../src/docs/books/admin_guide/07-file-systems.md:490
-#: ../src/docs/books/admin_guide/07-file-systems.md:612
-#: ../src/docs/books/admin_guide/07-file-systems.md:639
-#: ../src/docs/books/admin_guide/07-file-systems.md:993
-#: ../src/docs/books/admin_guide/08-process.md:60
-#: ../src/docs/books/admin_guide/08-process.md:198
-#: ../src/docs/books/admin_guide/08-process.md:230
-#: ../src/docs/books/admin_guide/08-process.md:250
-#: ../src/docs/books/admin_guide/08-process.md:287
-#: ../src/docs/books/admin_guide/08-process.md:312
-#: ../src/docs/books/admin_guide/08-process.md:330
-#: ../src/docs/books/admin_guide/09-backups.md:228
-#: ../src/docs/books/admin_guide/09-backups.md:253
-#: ../src/docs/books/admin_guide/09-backups.md:568
-#: ../src/docs/books/admin_guide/09-backups.md:632
-#: ../src/docs/books/admin_guide/09-backups.md:677
-#: ../src/docs/books/admin_guide/09-backups.md:700
-#: ../src/docs/books/admin_guide/09-backups.md:785
-#: ../src/docs/books/admin_guide/09-backups.md:807
-#: ../src/docs/books/admin_guide/09-backups.md:829
-#: ../src/docs/books/admin_guide/09-backups.md:855
-#: ../src/docs/books/admin_guide/10-boot.md:322
-#: ../src/docs/books/admin_guide/13-softwares.md:67
-#: ../src/docs/books/admin_guide/13-softwares.md:79
-#: ../src/docs/books/admin_guide/13-softwares.md:152
-#: ../src/docs/books/admin_guide/13-softwares.md:350
-#: ../src/docs/books/admin_guide/13-softwares.md:505
-#: ../src/docs/books/admin_guide/13-softwares.md:513
-#: ../src/docs/books/learning_ansible/01-basic.md:180
-#: ../src/docs/books/learning_ansible/07-working-with-filters.md:92
-#: ../src/docs/books/learning_bash/01-first-script.md:119
-#: ../src/docs/books/learning_bash/02-using-variables.md:128
-#: ../src/docs/books/learning_bash/02-using-variables.md:142
-#: ../src/docs/books/learning_bash/02-using-variables.md:204
-#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:118
-#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:216
-#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:338
-#: ../src/docs/books/learning_bash/05-tests.md:141
-#: ../src/docs/books/learning_bash/05-tests.md:199
-#: ../src/docs/books/learning_bash/05-tests.md:222
-#: ../src/docs/books/learning_bash/05-tests.md:313
-#: ../src/docs/books/learning_bash/05-tests.md:338
-#: ../src/docs/books/learning_bash/05-tests.md:354
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:101
-#: ../src/docs/books/learning_bash/07-loops.md:128
-#: ../src/docs/guides/security/learning_selinux.md:92
-#: ../src/docs/guides/security/learning_selinux.md:147
-#: ../src/docs/guides/security/learning_selinux.md:200
-#: ../src/docs/guides/security/learning_selinux.md:213
-#: ../src/docs/guides/security/learning_selinux.md:305
-#: ../src/docs/guides/security/learning_selinux.md:321
-#: ../src/docs/guides/security/learning_selinux.md:339
-#: ../src/docs/guides/security/learning_selinux.md:360
-#: ../src/docs/guides/security/learning_selinux.md:394
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:154
-#: ../src/docs/guides/web/php.md:255
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:749
+#: ../src/docs/books/lxd_server/01-install.md:20
+#: ../src/docs/books/nvchad/install_nvim.md:46
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:49
+#: ../src/docs/guides/containers/lxd_web_servers.md:67
+#: ../src/docs/guides/containers/lxd_web_servers.md:624
+#: ../src/docs/guides/containers/lxd_web_servers.md:857
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:53
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:43
 #, no-wrap
-msgid "Example:\n"
+msgid "dnf install epel-release\n"
 msgstr ""
 
 #. type: Title ##
@@ -328,515 +230,236 @@ msgstr ""
 msgid "Prerequisites"
 msgstr ""
 
-#. type: YAML Front Matter: tags
-#: ../src/docs/guides/automation/olivetin.md:1
-#: ../src/docs/guides/file_sharing/sftp.md:1
-#: ../src/docs/guides/web/apache-sites-enabled.md:1
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:1
-#: ../src/docs/guides/web/nginx-mainline.md:1
-#: ../src/docs/guides/web/nginx-multisite.md:1 ../src/docs/guides/web/php.md:1
+#. type: Bullet: '* '
+#: ../src/docs/guides/database/database_mariadb-server.md:20
+#: ../src/docs/guides/file_sharing/glusterfs.md:15
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
 #, no-wrap
-msgid "web"
+msgid "Proficiency with a command-line editor (we are using _vi_ in this example)\n"
 msgstr ""
 
-#. type: Fenced code block
-#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:124
-#: ../src/docs/guides/containers/lxd_web_servers.md:563
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:60
+#. type: Bullet: '* '
+#: ../src/docs/guides/database/database_mariadb-server.md:20
+#: ../src/docs/guides/file_sharing/glusterfs.md:15
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:21
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
 #, no-wrap
-msgid "systemctl start httpd\n"
+msgid "A heavy comfort level with issuing commands from the command-line, viewing logs, and other general systems administrator duties\n"
 msgstr ""
 
-#. type: Fenced code block
-#: ../src/docs/guides/proxies/pound.md:198
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:229
+#. type: Bullet: '* '
+#: ../src/docs/guides/file_sharing/glusterfs.md:15
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
 #, no-wrap
-msgid "systemctl restart httpd\n"
-msgstr ""
-
-#. type: YAML Front Matter: tags
-#: ../src/docs/guides/web/apache-sites-enabled.md:1
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
-#, no-wrap
-msgid "apache"
+msgid "All commands are run as the root user or sudo\n"
 msgstr ""
 
 #. type: YAML Front Matter: tags
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
-#: ../src/docs/guides/web/nginx-mainline.md:1
-#: ../src/docs/guides/web/nginx-multisite.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
 #, no-wrap
-msgid "nginx"
+msgid "server"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
+#, no-wrap
+msgid "rkhunter"
 msgstr ""
 
 #. type: Title #
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:13
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:12
 #, no-wrap
-msgid "Web-based Application Firewall (WAF)"
+msgid "Rootkit Hunter"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:23
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
 #, no-wrap
-msgid "A Rocky Linux Web Server running Apache.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:23
-#, no-wrap
-msgid "Proficiency with a command-line editor (we are using _vi_ in this example).\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:23
-#, no-wrap
-msgid "A heavy comfort level with issuing commands from the command-line, viewing logs, and other general systems administrator duties.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:23
-#, no-wrap
-msgid "An understanding that installing this tool also requires monitoring of actions and tuning to your environment.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:23
-#, no-wrap
-msgid "An account on Comodo's WAF site.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:23
-#, no-wrap
-msgid "All commands are run as the root user or sudo.\n"
+msgid "An understanding of what can trigger a response to changed files on the file system (such as package updates) is helpful\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:27
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:22
 #, no-wrap
-msgid "_mod\\_security_ is an open-source web-based application firewall (WAF). It is just one possible component of a hardened Apache web server setup and can be used with, or without, other tools.\n"
+msgid "This document was originally written in conjunction with the apache hardened webserver routines, but works equally well on a server running any software.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:29
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:26
 #, no-wrap
-msgid "If you'd like to use this along with other tools for hardening, refer back to the [Apache Hardened Web Server guide](index.md). This document also uses all of the assumptions and conventions outlined in that original document, so it is a good idea to review it before continuing.\n"
+msgid "_rkhunter_ (Root Kit Hunter) is a Unix-based tool that scans for rootkits, backdoors, and possible local exploits. It is a good part of a hardened server, and is designed to notify the administrator quickly when something suspicious happens on the server's file system.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:31
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:28
 #, no-wrap
-msgid "One thing that is missing with _mod\\_security_ when installed from the generic Rocky Linux repositories, is that the rules installed are minimal at best. To get a more extensive package of free mod_security rules, we are using [Comodo's](https://www.comodo.com/) WAF installation procedure after installing the base package.\n"
+msgid "_rkhunter_ is just one possible component of a hardened Apache web server setup and can be used with or without other tools. If you'd like to use this along with other tools for hardening, refer back to the [Apache Hardened Web Server guide](index.md).\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:33
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:30
 #, no-wrap
-msgid "Note that Comodo is a business that sells lots of tools to help secure networks. The free _mod\\_security_ tools may not be free forever and they do require that you setup a login with Comodo in order to gain access to the rules.\n"
+msgid "This document also uses all of the assumptions and conventions outlined in that original document, so it is a good idea to review it before continuing.\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:34
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:31
 #, no-wrap
-msgid "Installing mod_security"
+msgid "General steps"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:37
+#. type: Bullet: '1. '
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:38
 #, no-wrap
-msgid "To install the base package, use this command which will install any missing dependencies. We also need _wget_ so if you haven't installed it, do that as well:\n"
+msgid "install rkhunter\n"
 msgstr ""
 
-#. type: Fenced code block
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:38
+#. type: Bullet: '2. '
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:38
 #, no-wrap
-msgid "dnf install mod_security wget\n"
+msgid "configure rkhunter\n"
 msgstr ""
 
-#. type: Title ##
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:42
+#. type: Bullet: '3. '
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:38
 #, no-wrap
-msgid "Setting Up Your Comodo account"
+msgid "configure email and make sure it is set up to work correctly\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:45
+#. type: Bullet: '4. '
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:38
 #, no-wrap
-msgid "To setup your free account, go to [Comodo's WAF site](https://waf.comodo.com/), and click the \"Signup\" link at the top of the page. You will be required to setup username and password information, but no credit-card or other billing will be done.\n"
+msgid "run `rkhunter` manually to generate a list of warnings to test your email settings (`rkhunter --check`)\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:47
+#. type: Bullet: '5. '
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:38
 #, no-wrap
-msgid "The credentials that you use for signing on to the web site will be used in your setup of Comodo's software and also to obtain the rules, so you will need to keep these safe in a password manager somewhere.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:49
-#, no-wrap
-msgid "Please note that the \"Terms and Conditions\" section of the form that you need to fill out to use Comodo Web Application Firewall (CWAF) is written to cover all of their products and services. That said, you should read this carefully before agreeing to the terms!\n"
+msgid "run `rkhunter --propupd` to generate a clean `rkhunter.dat` file that `rkhunter` will use from this point forward as a baseline for further checks.\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:50
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:39
 #, no-wrap
-msgid "Installing CWAF"
+msgid "Installing rkhunter"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:53
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:42
 #, no-wrap
-msgid "Before you start, in order for the script to actually run after we download it, you are going to need some development tools. Install the package with:\n"
+msgid "_rkhunter_ requires the EPEL (Extra Packages for Enterprise Linux) repository. So install that repository if you don't have it installed already:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:48
+#, no-wrap
+msgid "Then install _rkhunter_:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:54
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:49
 #, no-wrap
-msgid "dnf group install 'Development Tools'\n"
+msgid "dnf install rkhunter\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:53
+#, no-wrap
+msgid "Configuring rkhunter"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:59
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:56
 #, no-wrap
-msgid "In addition, you will need to have your web server running for Comodo to see _mod\\_security_ correctly. So, start it if it is not already running:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:65
-#, no-wrap
-msgid "After signing up with Comodo, you will get an email with instructions on what to do next. Essentially, what you need to do is to login to the web site with your new credentials and then download the client install script.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:67
-#, no-wrap
-msgid "From the root directory of your server, use the wget command to download the installer:\n"
+msgid "The only configuration options that need to be set are those dealing with mailing reports to the administrator. To modify the configuration file, run:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:68
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:57
 #, no-wrap
-msgid "wget https://waf.comodo.com/cpanel/cwaf_client_install.sh\n"
+msgid "vi /etc/rkhunter.conf`\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:73
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:62
 #, no-wrap
-msgid "Run the installer by typing:\n"
+msgid "And then search for:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:74
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:63
 #, no-wrap
-msgid "bash cwaf_client_install.sh\n"
+msgid "#MAIL-ON-WARNING=me@mydomain   root@mydomain\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:79
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:68
 #, no-wrap
-msgid "This will extract the installer and start the process, echoing to the screen. You'll get a message part way down:\n"
+msgid "Remove the remark here and change the `me@mydomain.com` to reflect your email address.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:70
+#, no-wrap
+msgid "Then change the `root@mydomain` to `root@whatever_the_server_name_is`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:72
+#, no-wrap
+msgid "You will probably also want to remove the remark (and edit the line to fit your needs) of the `MAIL-CMD` line, found a few lines below that looks like this:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:80
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:73
 #, no-wrap
-msgid "No web host management panel found, continue in 'standalone' mode? [y/n]:\n"
+msgid "MAIL_CMD=mail -s \"[rkhunter] Warnings found for ${HOST_NAME}\"\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:85
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:78
 #, no-wrap
-msgid "Type \"y\" and let the script continue.\n"
+msgid "You may also need to setup [Postfix Email for Reporting](../../email/postfix_reporting.md) in order to get the email section to work correctly.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:79
+#, no-wrap
+msgid "Running rkhunter"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:87
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:82
 #, no-wrap
-msgid "You may also get this notice:\n"
+msgid "_rkhunter_ can be run by typing it at the command-line. There is a cron job installed for you in `/etc/cron.daily`, but if you want to automate the procedure on a different schedule, look at the [Automating cron jobs guide](../../automation/cron_jobs_howto.md).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:84
+#, no-wrap
+msgid "You'll also need to move the script somewhere other than `/etc/cron.daily`, such as `/usr/local/sbin` and then call it from your custom cron job. The easiest method, of course, is to leave the default `cron.daily` setup intact.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:86
+#, no-wrap
+msgid "If you want to test `rkhunter` before you start, including all email functionality, etc., run `rkhunter --check` from the command line. If there are problems with email setup, hold off completing the rest so that you can run this command again. Once email has been confirmed to work but before you allow `rkhunter` to run automatically, run the command manually again with the \"--propupd\" flag to create the `rkhunter.dat` file, and to make sure that your new environment is recognized without issue:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:88
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:87
 #, no-wrap
-msgid "Some required perl modules are missed. Install them? This can take a while. [y/n]:\n"
+msgid "rkhunter --propupd\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:93
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:93
 #, no-wrap
-msgid "If so type \"y\" and allow those missing modules to install.\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:94
-#, no-wrap
-msgid "Enter CWAF login: username@domain.com\n"
-"Enter password for 'username@domain.com' (will not be shown): *************************\n"
-"Confirm password for 'username@domain.com' (will not be shown): ************************\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:101
-#, no-wrap
-msgid "Please note here that you will probably have to download the rules and install them in the correct location, as the password field requires a punctuation or special character, but the configuration file apparently has issues with this when sending it to Comodo's site from the installer or update script.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:103
-#, no-wrap
-msgid "These scripts will always fail with a credentials error. This probably doesn't affect administrators who have web servers running with a GUI front end (Cpanel / Plesk) but if you are running the program standalone as we are in our example, it does. [You can find the workaround below](#cwaf_fix).\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:104
-#, no-wrap
-msgid "Enter absolute CWAF installation path prefix (/cwaf will be appended): /usr/local\n"
-"Install into '/usr/local/cwaf' ? [y/n]:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:110
-#, no-wrap
-msgid "Just accept the path as given and then type \"y\" in the next field for the install path.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:112
-#, no-wrap
-msgid "If you have a non-standard path to the configuration file for Apache/nginx, you would enter it here, otherwise just hit 'Enter' for no changes:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:113
-#, no-wrap
-msgid "If you have non-standard Apache/nginx config path enter it here:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:118
-#, no-wrap
-msgid "Here is where the failure comes in, and the only workaround is to manually download and install the rules. Answer the prompts as shown below:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:119
-#, no-wrap
-msgid "Do you want to use HTTP GUI to manage CWAF rules? [y/n]: n\n"
-"Do you want to protect your server with default rule set? [y/n]: y\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:125
-#, no-wrap
-msgid "But expect to get the next message as well:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:126
-#, no-wrap
-msgid " Warning! Rules have not been updated. Check your credentials and try again later manually\n"
-"+------------------------------------------------------\n"
-"| LOG : Warning! Rules have not been updated. Check your credentials and try again later manually\n"
-"+------------------------------------------------------\n"
-"| Installation complete!\n"
-"| Please add the line:\n"
-"|   Include \"/usr/local/cwaf/etc/modsec2_standalone.conf\"\n"
-"| to Apache config file.\n"
-"| To update ModSecurity ruleset run\n"
-"|   /usr/local/cwaf/scripts/updater.pl\n"
-"| Restart Apache after that.\n"
-"| You may find useful utility /usr/local/cwaf/scripts/cwaf-cli.pl\n"
-"| Also you may examine file\n"
-"|   /usr/local/cwaf/INFO.TXT\n"
-"| for some useful software information.\n"
-"+------------------------------------------------------\n"
-"| LOG : All Done!\n"
-"| LOG : Exiting\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:148
-#, no-wrap
-msgid "That's a little frustrating. You can go to your account on the Comodo web site and change your password and re-run the install script, BUT it won't change anything. The credentials will still fail.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:149
-#, no-wrap
-msgid "<a name=\"cwaf_fix\"></a> CWAF Rules File Workaround"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:152
-#, no-wrap
-msgid "To fix this, we need to manually install the rules from the web site. This is done by logging into your account on https://waf.comodo.com and clicking on the the \"Download Full Rule Set\" link. You'll then need to copy the rules to your web server using scp'\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:155
-#, no-wrap
-msgid "scp cwaf_rules-1.233.tgz root@mywebserversdomainname.com:/root/\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:160
-#, no-wrap
-msgid "Once the tar gzip file has been copied over, move the file to the rules directory:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:161
-#, no-wrap
-msgid "mv /root/cwaf_rules-1.233.tgz /usr/local/cwaf/rules/\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:166
-#, no-wrap
-msgid "Then navigate to the rules directory:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:167
-#, no-wrap
-msgid "cd /usr/local/cwaf/rules/\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:172
-#, no-wrap
-msgid "And uncompress the rules:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:173
-#, no-wrap
-msgid "tar xzvf cwaf_rules-1.233.tgz\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:178
-#, no-wrap
-msgid "Any partial updates to the rules will have to be handled in the same way.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:180
-#, no-wrap
-msgid "This is where paying for rules and support can come in handy. It all depends on your budget.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:181
-#, no-wrap
-msgid "Configuring CWAF"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:184
-#, no-wrap
-msgid "When we installed _mod\\_security_, the default configuration file was installed in `/etc/httpd/conf.d/mod_security.conf`. The next thing we need to do is to modify this in two places. Start by editing the file:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:185
-#, no-wrap
-msgid "vi /etc/httpd/conf.d/mod_security.conf\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:190
-#, no-wrap
-msgid "At the very top of the file, you will see:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:191
-#, no-wrap
-msgid "<IfModule mod_security2.c>\n"
-"    # Default recommended configuration\n"
-"    SecRuleEngine On\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:198
-#, no-wrap
-msgid "Beneath the `SecRuleEngine On` line add `SecStatusEngine On` so that the top of the file will now look like this:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:199
-#, no-wrap
-msgid "<IfModule mod_security2.c>\n"
-"    # Default recommended configuration\n"
-"    SecRuleEngine On\n"
-"    SecStatusEngine On\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:207
-#, no-wrap
-msgid "Next go to the bottom of this configuration file. We need to tell _mod\\_security_ where to load the rules. You should see this at the bottom of the file before you make changes:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:208
-#, no-wrap
-msgid "    # ModSecurity Core Rules Set and Local configuration\n"
-"\tIncludeOptional modsecurity.d/*.conf\n"
-"\tIncludeOptional modsecurity.d/activated_rules/*.conf\n"
-"\tIncludeOptional modsecurity.d/local_rules/*.conf\n"
-"</IfModule>\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:217
-#, no-wrap
-msgid "We need to add in one line at the bottom to add the CWAF configuration, which in turn loads the CWAF rules. That line is `Include \"/usr/local/cwaf/etc/cwaf.conf\"`. The bottom of this file should look like this when you are done:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:218
-#, no-wrap
-msgid "    # ModSecurity Core Rules Set and Local configuration\n"
-"\tIncludeOptional modsecurity.d/*.conf\n"
-"\tIncludeOptional modsecurity.d/activated_rules/*.conf\n"
-"\tIncludeOptional modsecurity.d/local_rules/*.conf\n"
-"   \tInclude \"/usr/local/cwaf/etc/cwaf.conf\"\n"
-"</IfModule>\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:228
-#, no-wrap
-msgid "Now save your changes (with vi it's `SHIFT+:+wq!`) and restart httpd:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:234
-#, no-wrap
-msgid "If httpd starts OK, then you are ready to start using _mod\\_security_ with the CWAF.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:238
-#, no-wrap
-msgid "_mod\\_security_ with CWAF is another tool that can be used to help harden an Apache web server. Because CWAF's passwords require punctuation and because the standalone installation does not send that punctuation correctly, managing CWAF rules requires logging into the CWAF site and downloading rules and changes.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:240
-#, no-wrap
-msgid "_mod\\_security_, like other hardening tools, has the potential of false-positive responses, so you must be prepared to tune this tool to your installation.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:241
-#, no-wrap
-msgid "Like other solutions mentioned in the [Apache Hardened Web Server guide](index.md), there are other free and fee-based solutions for _mod\\_security_ rules, and for that matter, other WAF applications available. You can take a look at one of these at [Atomicorp's _mod\\_security_ site](https://atomicorp.com/atomic-modsecurity-rules/).\n"
+msgid "_rkhunter_ is one part of a hardened server strategy that can help in monitoring the file system and reporting any issues to the administrator. It is perhaps one of the easiest hardening tools to install, configure, and run.\n"
 msgstr ""
 
