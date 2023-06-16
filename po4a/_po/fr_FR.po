@@ -13,22 +13,183 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/learning_bash_00-toc.pot\n"
-"X-Crowdin-File-ID: 1397\n"
+"X-Crowdin-File: /po4a/po4a/_po/learning_bash_01-first-script.pot\n"
+"X-Crowdin-File-ID: 1399\n"
 
-#. type: Title ##
-#: ../src/docs/books/admin_guide/01-presentation.md:229
-#: ../src/docs/books/admin_guide/11-tasks.md:26
-#: ../src/docs/books/admin_guide/12-network.md:28
-#: ../src/docs/books/admin_guide/03-commands.md:28
-#: ../src/docs/books/admin_guide/08-process.md:26
-#: ../src/docs/books/admin_guide/09-backups.md:44
-#: ../src/docs/books/admin_guide/13-softwares.md:14
-#: ../src/docs/books/learning_bash/00-toc.md:16
-#: ../src/docs/guides/security/learning_selinux.md:20
-#: ../src/docs/guides/security/pam.md:30 ../src/docs/guides/web/php.md:18
+#. type: Plain text
+#: ../src/docs/books/admin_guide/01-presentation.md:12
+#: ../src/docs/books/admin_guide/12-network.md:12
+#: ../src/docs/books/learning_ansible/01-basic.md:15
+#: ../src/docs/books/learning_ansible/02-advanced.md:12
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:12
+#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:12
+#: ../src/docs/books/learning_ansible/05-deployments.md:12
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:12
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:14
+#: ../src/docs/books/learning_bash/01-first-script.md:19
+#: ../src/docs/books/learning_bash/02-using-variables.md:19
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:19
+#: ../src/docs/books/learning_bash/05-tests.md:17
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:17
+#: ../src/docs/books/learning_bash/07-loops.md:17
 #, no-wrap
-msgid "Generalities"
+msgid "**Objectives**: In this chapter you will learn how to:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/01-presentation.md:25
+#: ../src/docs/books/learning_bash/01-first-script.md:30
+#: ../src/docs/books/learning_bash/02-using-variables.md:31
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:31
+#: ../src/docs/books/learning_bash/05-tests.md:29
+#, no-wrap
+msgid "**Reading time**: 10 minutes\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:44
+#: ../src/docs/books/admin_guide/05-vi.md:397
+#: ../src/docs/books/admin_guide/05-vi.md:405
+#: ../src/docs/books/admin_guide/05-vi.md:411
+#: ../src/docs/books/admin_guide/05-vi.md:417
+#: ../src/docs/books/admin_guide/05-vi.md:423
+#: ../src/docs/books/admin_guide/06-users.md:75
+#: ../src/docs/books/admin_guide/06-users.md:113
+#: ../src/docs/books/admin_guide/06-users.md:141
+#: ../src/docs/books/admin_guide/06-users.md:279
+#: ../src/docs/books/admin_guide/06-users.md:344
+#: ../src/docs/books/admin_guide/06-users.md:369
+#: ../src/docs/books/admin_guide/06-users.md:392
+#: ../src/docs/books/admin_guide/06-users.md:588
+#: ../src/docs/books/admin_guide/06-users.md:656
+#: ../src/docs/books/admin_guide/06-users.md:671
+#: ../src/docs/books/admin_guide/06-users.md:740
+#: ../src/docs/books/admin_guide/06-users.md:764
+#: ../src/docs/books/admin_guide/06-users.md:782
+#: ../src/docs/books/admin_guide/11-tasks.md:140
+#: ../src/docs/books/admin_guide/12-network.md:47
+#: ../src/docs/books/admin_guide/12-network.md:481
+#: ../src/docs/books/admin_guide/12-network.md:562
+#: ../src/docs/books/admin_guide/12-network.md:583
+#: ../src/docs/books/admin_guide/12-network.md:624
+#: ../src/docs/books/admin_guide/12-network.md:649
+#: ../src/docs/books/admin_guide/12-network.md:666
+#: ../src/docs/books/admin_guide/12-network.md:694
+#: ../src/docs/books/admin_guide/12-network.md:707
+#: ../src/docs/books/admin_guide/12-network.md:720
+#: ../src/docs/books/admin_guide/03-commands.md:126
+#: ../src/docs/books/admin_guide/03-commands.md:162
+#: ../src/docs/books/admin_guide/03-commands.md:470
+#: ../src/docs/books/admin_guide/03-commands.md:619
+#: ../src/docs/books/admin_guide/03-commands.md:641
+#: ../src/docs/books/admin_guide/03-commands.md:661
+#: ../src/docs/books/admin_guide/03-commands.md:778
+#: ../src/docs/books/admin_guide/03-commands.md:826
+#: ../src/docs/books/admin_guide/03-commands.md:842
+#: ../src/docs/books/admin_guide/03-commands.md:962
+#: ../src/docs/books/admin_guide/03-commands.md:985
+#: ../src/docs/books/admin_guide/03-commands.md:1174
+#: ../src/docs/books/admin_guide/03-commands.md:1195
+#: ../src/docs/books/admin_guide/07-file-systems.md:132
+#: ../src/docs/books/admin_guide/07-file-systems.md:237
+#: ../src/docs/books/admin_guide/07-file-systems.md:267
+#: ../src/docs/books/admin_guide/07-file-systems.md:286
+#: ../src/docs/books/admin_guide/07-file-systems.md:313
+#: ../src/docs/books/admin_guide/07-file-systems.md:327
+#: ../src/docs/books/admin_guide/07-file-systems.md:341
+#: ../src/docs/books/admin_guide/07-file-systems.md:379
+#: ../src/docs/books/admin_guide/07-file-systems.md:490
+#: ../src/docs/books/admin_guide/07-file-systems.md:612
+#: ../src/docs/books/admin_guide/07-file-systems.md:639
+#: ../src/docs/books/admin_guide/07-file-systems.md:993
+#: ../src/docs/books/admin_guide/08-process.md:60
+#: ../src/docs/books/admin_guide/08-process.md:198
+#: ../src/docs/books/admin_guide/08-process.md:230
+#: ../src/docs/books/admin_guide/08-process.md:250
+#: ../src/docs/books/admin_guide/08-process.md:287
+#: ../src/docs/books/admin_guide/08-process.md:312
+#: ../src/docs/books/admin_guide/08-process.md:330
+#: ../src/docs/books/admin_guide/09-backups.md:228
+#: ../src/docs/books/admin_guide/09-backups.md:253
+#: ../src/docs/books/admin_guide/09-backups.md:568
+#: ../src/docs/books/admin_guide/09-backups.md:632
+#: ../src/docs/books/admin_guide/09-backups.md:677
+#: ../src/docs/books/admin_guide/09-backups.md:700
+#: ../src/docs/books/admin_guide/09-backups.md:785
+#: ../src/docs/books/admin_guide/09-backups.md:807
+#: ../src/docs/books/admin_guide/09-backups.md:829
+#: ../src/docs/books/admin_guide/09-backups.md:855
+#: ../src/docs/books/admin_guide/10-boot.md:322
+#: ../src/docs/books/admin_guide/13-softwares.md:67
+#: ../src/docs/books/admin_guide/13-softwares.md:79
+#: ../src/docs/books/admin_guide/13-softwares.md:152
+#: ../src/docs/books/admin_guide/13-softwares.md:350
+#: ../src/docs/books/admin_guide/13-softwares.md:505
+#: ../src/docs/books/admin_guide/13-softwares.md:513
+#: ../src/docs/books/learning_ansible/01-basic.md:180
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:92
+#: ../src/docs/books/learning_bash/01-first-script.md:119
+#: ../src/docs/books/learning_bash/02-using-variables.md:128
+#: ../src/docs/books/learning_bash/02-using-variables.md:142
+#: ../src/docs/books/learning_bash/02-using-variables.md:204
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:118
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:216
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:338
+#: ../src/docs/books/learning_bash/05-tests.md:141
+#: ../src/docs/books/learning_bash/05-tests.md:199
+#: ../src/docs/books/learning_bash/05-tests.md:222
+#: ../src/docs/books/learning_bash/05-tests.md:313
+#: ../src/docs/books/learning_bash/05-tests.md:338
+#: ../src/docs/books/learning_bash/05-tests.md:354
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:101
+#: ../src/docs/books/learning_bash/07-loops.md:128
+#: ../src/docs/guides/security/learning_selinux.md:92
+#: ../src/docs/guides/security/learning_selinux.md:147
+#: ../src/docs/guides/security/learning_selinux.md:200
+#: ../src/docs/guides/security/learning_selinux.md:213
+#: ../src/docs/guides/security/learning_selinux.md:305
+#: ../src/docs/guides/security/learning_selinux.md:321
+#: ../src/docs/guides/security/learning_selinux.md:339
+#: ../src/docs/guides/security/learning_selinux.md:360
+#: ../src/docs/guides/security/learning_selinux.md:394
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:154
+#: ../src/docs/guides/web/php.md:255
+#, no-wrap
+msgid "Example:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/06-users.md:308
+#: ../src/docs/books/admin_guide/06-users.md:644
+#: ../src/docs/books/admin_guide/07-file-systems.md:195
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:30
+#: ../src/docs/books/learning_bash/01-first-script.md:46
+#: ../src/docs/books/learning_bash/01-first-script.md:77
+#: ../src/docs/books/learning_bash/02-using-variables.md:185
+#: ../src/docs/books/learning_bash/05-tests.md:63
+#: ../src/docs/books/lxd_server/07-configurations.md:102
+#: ../src/docs/books/nvchad/install_nvchad.md:182
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:53
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:133
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:153
+#: ../src/docs/guides/automation/cron_jobs_howto.md:83
+#: ../src/docs/guides/automation/cron_jobs_howto.md:125
+#: ../src/docs/guides/automation/cron_jobs_howto.md:160
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:44
+#: ../src/docs/guides/cms/dokuwiki_server.md:216
+#: ../src/docs/guides/communications/asterisk_installation.md:12
+#: ../src/docs/guides/containers/podman-nextcloud.md:361
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:72
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:350
+#: ../src/docs/guides/desktop/kde_installation.md:16
+#: ../src/docs/guides/file_sharing/sftp.md:54
+#: ../src/docs/guides/file_sharing/sftp.md:129
+#: ../src/docs/guides/file_sharing/sftp.md:321
+#: ../src/docs/guides/proxies/pound.md:62
+#: ../src/docs/guides/proxies/pound.md:418 ../src/docs/index.md:40
+#: ../src/docs/release_notes/9_1.md:16
+#, no-wrap
+msgid "!!! note\n"
 msgstr ""
 
 #. type: YAML Front Matter: tags
@@ -44,20 +205,6 @@ msgstr ""
 #: ../src/docs/books/learning_bash/08-check-your-knowledge.md:1
 #, no-wrap
 msgid "education"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/13-softwares.md:909
-#: ../src/docs/books/learning_bash/00-toc.md:43
-#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:125
-#: ../src/docs/books/learning_bash/05-tests.md:117
-#: ../src/docs/books/learning_bash/05-tests.md:160
-#: ../src/docs/guides/security/pam.md:325
-#: ../src/docs/labs/security/lab9-cryptography.md:125
-#: ../src/docs/labs/security/lab9-cryptography.md:322
-#: ../src/docs/labs/security/lab9-cryptography.md:516
-#, no-wrap
-msgid "!!! NOTE\n"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
@@ -152,154 +299,241 @@ msgstr ""
 msgid "bash"
 msgstr ""
 
-#. type: YAML Front Matter: title
-#: ../src/docs/books/learning_bash/00-toc.md:1
-#, no-wrap
-msgid "Learning bash with Rocky"
-msgstr ""
-
 #. type: Title #
-#: ../src/docs/books/learning_bash/00-toc.md:12
+#: ../src/docs/books/learning_bash/01-first-script.md:1
+#: ../src/docs/books/learning_bash/01-first-script.md:12
 #, no-wrap
-msgid "Learning Bash with Rocky"
+msgid "Bash - First script"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_bash/00-toc.md:15
+#: ../src/docs/books/learning_bash/01-first-script.md:15
 #, no-wrap
-msgid "In this section, you will learn more about Bash scripting, an exercise that every administrator will have to perform one day or another.\n"
+msgid "In this chapter you will learn how to write your first script in bash.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_bash/00-toc.md:20
+#: ../src/docs/books/learning_bash/01-first-script.md:20
 #, no-wrap
-msgid "The shell is the command interpreter of Linux.\n"
-"It is a binary that is not part of the kernel, but forms an additional layer, hence its name \"shell\".\n"
+msgid ":heavy_check_mark: Write your first script in bash;  \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_bash/00-toc.md:22
+#: ../src/docs/books/learning_bash/01-first-script.md:21
 #, no-wrap
-msgid "It parses the commands entered by the user and then executes them by the system.\n"
+msgid ":heavy_check_mark: Execute your first script;  \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_bash/00-toc.md:25
+#: ../src/docs/books/learning_bash/01-first-script.md:22
 #, no-wrap
-msgid "There are several shells, all of which share some common features.\n"
-"The user is free to use the one that suits him/her best. Some examples are:\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_bash/00-toc.md:30
-#, no-wrap
-msgid "the **Bourne-Again shell** (`bash`),\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_bash/00-toc.md:30
-#, no-wrap
-msgid "the **Korn shell** (`ksh`),\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_bash/00-toc.md:30
-#, no-wrap
-msgid "the **C shell** (`csh`),\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_bash/00-toc.md:30
-#, no-wrap
-msgid "etc.\n"
+msgid ":heavy_check_mark: Specify which shell to use with the so-called shebang;  \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_bash/00-toc.md:33
+#: ../src/docs/books/learning_bash/01-first-script.md:25
 #, no-wrap
-msgid "`bash` is present by default in most (all) Linux distributions.\n"
-"It is characterized by its practical and user-friendly features.\n"
+msgid ":checkered_flag: **linux**, **script**, **bash**\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_bash/00-toc.md:35
+#: ../src/docs/books/learning_bash/01-first-script.md:28
 #, no-wrap
-msgid "The shell is also a **basic programming language** which, thanks to some dedicated commands, allows:\n"
+msgid "**Knowledge**: :star:     \n"
+"**Complexity**: :star:\n"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_bash/00-toc.md:39
+#. type: Title ##
+#: ../src/docs/books/learning_bash/01-first-script.md:33
 #, no-wrap
-msgid "the use of **variables**,\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_bash/00-toc.md:39
-#, no-wrap
-msgid "**conditional execution** of commands,\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_bash/00-toc.md:39
-#, no-wrap
-msgid "the **repetition** of commands.\n"
+msgid "My first script"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_bash/00-toc.md:41
+#: ../src/docs/books/learning_bash/01-first-script.md:36
 #, no-wrap
-msgid "Shell scripts have the advantage that they can be created **quickly** and **reliably**, without **compiling** or installing additional commands. A shell script is just a text file without any embellishments (bold, italics, etc.).\n"
+msgid "To start writing a shell script, it is convenient to use a text editor that supports syntax highlighting.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_bash/00-toc.md:45
+#: ../src/docs/books/learning_bash/01-first-script.md:38
 #, no-wrap
-msgid "    Although the shell is a \"basic\" programming language, it is still very powerful and sometimes faster than badly compiled code.\n"
+msgid "`vim`, for example, is a good tool for this.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_bash/00-toc.md:49
+#: ../src/docs/books/learning_bash/01-first-script.md:40
 #, no-wrap
-msgid "To write a shell script, you just have to put all the necessary commands in a single text file.\n"
-"By making this file executable the shell reads it sequentially, and executes the commands in it one by one.\n"
-"It is also possible to execute it by passing the name of the script as an argument to the bash binary.\n"
+msgid "The name of the script should respect some rules:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/01-first-script.md:44
+#, no-wrap
+msgid "no names of existing commands;\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/01-first-script.md:44
+#, no-wrap
+msgid "only alphanumeric characters, i.e. no accented characters or spaces;\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_bash/01-first-script.md:44
+#, no-wrap
+msgid "extension .sh to indicate that it is a shell script.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_bash/00-toc.md:53
+#: ../src/docs/books/learning_bash/01-first-script.md:48
 #, no-wrap
-msgid "When the shell encounters an error, it displays a message to identify the problem but continues to execute the script.\n"
-"But there are mechanisms to stop the execution of a script when an error occurs.\n"
-"Command-specific errors are also displayed on the screen or inside files.\n"
+msgid "    The author uses the \"$\" throughout these lessons to indicate the user's command-prompt.\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/01-first-script.md:49
+#, no-wrap
+msgid "#!/usr/bin/env bash\n"
+"#\n"
+"# Author : Rocky Documentation Team\n"
+"# Date: March 2022\n"
+"# Version 1.0.0: Displays the text \"Hello world!\"\n"
+"#\n\n"
+"# Displays a text on the screen :\n"
+"echo \"Hello world!\"\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_bash/00-toc.md:55
+#: ../src/docs/books/learning_bash/01-first-script.md:62
 #, no-wrap
-msgid "What is a good script? It is:\n"
+msgid "To be able to run this script, as an argument to bash:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/01-first-script.md:63
+#, no-wrap
+msgid "$ bash hello-world.sh\n"
+"Hello world !\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/01-first-script.md:69
+#, no-wrap
+msgid "Or, more simply, after having given it the right to execute:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/01-first-script.md:70
+#, no-wrap
+msgid "$ chmod u+x ./hello-world.sh\n"
+"$ ./hello-world.sh\n"
+"Hello world !\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/01-first-script.md:80
+#, no-wrap
+msgid "    To execute the script, it needs to be called with `./` before its name when you are in the directory where the script resides. If not in that directory, you will need to call it with the entire path to the script, OR place it in a directory that is within your PATH environment variable: (Examples: `/usr/local/sbin`, `/usr/local/bin`, etc.)\n"
+"    The interpreter will refuse to execute a script present in the current directory without indicating a path (here with `./` before it).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/01-first-script.md:82
+#, no-wrap
+msgid "    The `chmod` command is to be passed only once on a newly created script.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/01-first-script.md:85
+#, no-wrap
+msgid "The first line to be written in any script is to indicate the name of the shell binary to be used to execute it.\n"
+"If you want to use the `ksh` shell or the interpreted language `python`, you would replace the line:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/01-first-script.md:86
+#, no-wrap
+msgid "#!/usr/bin/env bash\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/01-first-script.md:91
+#, no-wrap
+msgid "with :\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/01-first-script.md:92
+#, no-wrap
+msgid "#!/usr/bin/env ksh\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/01-first-script.md:97
+#, no-wrap
+msgid "or with :\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/01-first-script.md:98
+#, no-wrap
+msgid "#!/usr/bin/env python\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/01-first-script.md:104
+#, no-wrap
+msgid "This first line is called the `shebang`.\n"
+"It starts with the characters `#!` followed by the path to the binary of the command interpreter to use.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/01-first-script.md:106
+#, no-wrap
+msgid "!!! hint \"About the shebang\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/01-first-script.md:108
+#, no-wrap
+msgid "    You may have encountered the \"shebang\" in a script that you've looked at that does not contain the \"env\" section and simply contains the interpreter to use. (Example: `#!/bin/bash`). The author's method is considered to be the recommended and proper way to format the \"shebang\".\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/01-first-script.md:110
+#, no-wrap
+msgid "    Why is the author's method recommended? Because it increases the portability of the script. If for some reason the interpreter lived in an entirely different directory, the interpreter would **still** be found if you used the author's method.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/01-first-script.md:112
+#, no-wrap
+msgid "Throughout the writing process, you should think about proofreading the script, using comments in particular:\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/books/learning_bash/00-toc.md:59
+#: ../src/docs/books/learning_bash/01-first-script.md:115
 #, no-wrap
-msgid "**reliable**: its operation is flawless even in case of misuse;\n"
+msgid "a general presentation, at the beginning, to indicate the purpose of the script, its author, its version, its use, etc.\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/books/learning_bash/00-toc.md:59
+#: ../src/docs/books/learning_bash/01-first-script.md:115
 #, no-wrap
-msgid "**commented**: its code is annotated to facilitate the rereading and future evolution;\n"
+msgid "during the text to help understand the actions.\n"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_bash/00-toc.md:59
+#. type: Plain text
+#: ../src/docs/books/learning_bash/01-first-script.md:117
 #, no-wrap
-msgid "**readable**: the code is indented appropriately, the commands are spaced out, ...\n"
+msgid "Comments can be placed on a separate line or at the end of a line containing a command.\n"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_bash/00-toc.md:59
+#. type: Fenced code block
+#: ../src/docs/books/learning_bash/01-first-script.md:120
 #, no-wrap
-msgid "**portable**: the code runs on any Linux system, dependency management, rights management, etc.\n"
+msgid "# This program displays the date\n"
+"date # This line is the line that displays the date!\n"
 msgstr ""
 
