@@ -13,8 +13,8 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/learning_rsync_02_rsync_demo01.pot\n"
-"X-Crowdin-File-ID: 1417\n"
+"X-Crowdin-File: /po4a/po4a/_po/learning_rsync_03_rsync_demo02.pot\n"
+"X-Crowdin-File-ID: 1419\n"
 
 #. type: YAML Front Matter: contributors
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:1
@@ -76,124 +76,6 @@ msgstr ""
 msgid "Steven Spencer"
 msgstr ""
 
-#. type: YAML Front Matter: title
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:1
-#, no-wrap
-msgid "rsync demo 01"
-msgstr ""
-
-#. type: Title #
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:8
-#, no-wrap
-msgid "Preface"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:11
-#, no-wrap
-msgid "`rsync` needs to perform user authentication before data synchronization. **There are two protocol methods for authentication: SSH protocol and rsync protocol (the default port of rsync protocol is 873)**\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:14
-#, no-wrap
-msgid "SSH protocol verification login method: use SSH protocol as the basis for user identity authentication (that is, use the system user and password of GNU/Linux itself for verification), and then perform data synchronization.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:14
-#, no-wrap
-msgid "rsync protocol verification login method: use rsync protocol for user identity authentication (non-GNU/Linux system users, similar to vsftpd virtual users), and then perform data synchronization.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:16
-#, no-wrap
-msgid "Before the specific demonstration of rsync synchronization, you need to use the `rsync` command. In Rocky Linux 8, the rsync rpm package is installed by default, and the version is 3.1.3-12, as follows:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:17
-#, no-wrap
-msgid "[root@Rocky ~]# rpm -qa|grep rsync\n"
-"rsync-3.1.3-12.el8.x86_64\n"
-msgstr ""
-
-#. type: Fenced code block (txt)
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:22
-#, no-wrap
-msgid "Basic format: rsync [options] original location target location\n"
-"Commonly used options:\n"
-"-a: archive mode, recursive and preserves the attributes of the file object, which is equivalent to -rlptgoD (without -H, -A, -X)\n"
-"-v: Display detailed information about the synchronization process\n"
-"-z: compress when transferring files\n"
-"-H: Keep hard link files\n"
-"-A: retain ACL permissions\n"
-"-X: retain chattr permissions\n"
-"-r: Recursive mode, including all files in the directory and subdirectories\n"
-"-l: still reserved for symbolic link files\n"
-"-p: Permission to retain file attributes\n"
-"-t: time to retain file attributes\n"
-"-g: retain the group belonging to the file attribute (only for super users)\n"
-"-o: retain the owner of the file attributes (only for super users)\n"
-"-D: Keep device files and other special files\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:41
-#, no-wrap
-msgid "The author's personal use: `rsync -avz original location target location`\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:42
-#, no-wrap
-msgid "Environment Description"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:48
-#, no-wrap
-msgid "|Item|Description|\n"
-"|---|---|\n"
-"| Rocky Linux 8(Server) | 192.168.100.4/24 |\n"
-"| Fedora 34(client) | 192.168.100.5/24 |\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:50
-#, no-wrap
-msgid "You can use Fedora 34 to upload and download\n"
-msgstr ""
-
-#. type: Fenced code block (mermaid)
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:51
-#, no-wrap
-msgid "graph LR;\n"
-"RockyLinux8-->|pull/download|Fedora34;\n"
-"Fedora34-->|push/upload|RockyLinux8;\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:58
-#, no-wrap
-msgid "You can also use Rocky Linux 8 to upload and download\n"
-msgstr ""
-
-#. type: Fenced code block (mermaid)
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:59
-#, no-wrap
-msgid "graph LR;\n"
-"RockyLinux8-->|push/upload|Fedora34;\n"
-"Fedora34-->|pull/download|RockyLinux8;\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:65
-#, no-wrap
-msgid "Demonstration based on SSH protocol"
-msgstr ""
-
 #. type: Plain text
 #: ../src/docs/books/learning_rsync/02_rsync_demo01.md:68
 #: ../src/docs/books/learning_rsync/02_rsync_demo01.md:96
@@ -211,62 +93,11 @@ msgstr ""
 msgid "!!! tip \"tip\"\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:70
-#, no-wrap
-msgid "    Here, both Rocky Linux 8 and Fedora 34 use the root user to log in. Fedora 34 is the client and Rocky Linux 8 is the server.\n"
-msgstr ""
-
 #. type: Title ##
 #: ../src/docs/books/learning_rsync/02_rsync_demo01.md:71
 #: ../src/docs/books/learning_rsync/03_rsync_demo02.md:74
 #, no-wrap
 msgid "pull/download"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:74
-#, no-wrap
-msgid "Since it is based on the SSH protocol, we first create a user in the server:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:75
-#, no-wrap
-msgid "[root@Rocky ~]# useradd testrsync\n"
-"[root@Rocky ~]# passwd testrsync\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:81
-#, no-wrap
-msgid "On the client side, we pull/download it, and the file on the server is /rsync/aabbcc\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:82
-#, no-wrap
-msgid "[root@fedora ~]# rsync -avz testrsync@192.168.100.4:/rsync/aabbcc /root\n"
-"testrsync@192.168.100.4 ' s password:\n"
-"receiving incremental file list\n"
-"aabbcc\n"
-"sent 43 bytes received 85 bytes 51.20 bytes/sec\n"
-"total size is 0 speedup is 0.00\n"
-"[root@fedora ~]# cd\n"
-"[root@fedora ~]# ls\n"
-"aabbcc\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:94
-#, no-wrap
-msgid "The transfer was successful.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:98
-#, no-wrap
-msgid "    If the server's SSH port is not the default 22, you can specify the port in a similar way---`rsync -avz -e 'ssh -p [port]' `.\n"
 msgstr ""
 
 #. type: Title ##
@@ -276,72 +107,201 @@ msgstr ""
 msgid "push/upload"
 msgstr ""
 
-#. type: Fenced code block (bash)
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:101
+#. type: YAML Front Matter: title
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:1
 #, no-wrap
-msgid "[root@fedora ~]# touch fedora\n"
-"[root@fedora ~]# rsync -avz /root/* testrsync@192.168.100.4:/rsync/\n"
-"testrsync@192.168.100.4 ' s password:\n"
+msgid "rsync demo 02"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:8
+#, no-wrap
+msgid "Demonstration based on rsync protocol"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:10
+#, no-wrap
+msgid "In vsftpd, there are virtual users (impersonated users customized by the administrator) because it is not safe to use anonymous users and local users. We know that a server based on the SSH protocol must ensure that there is a system of users. When there are many synchronization requirements, it may be necessary to create many users. This obviously does not meet the GNU/Linux operation and maintenance standards (the more users, the more insecure), in rsync, for security reasons, there is an rsync protocol authentication login method.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:12
+#, no-wrap
+msgid "**How ​​to do it?**\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:14
+#, no-wrap
+msgid "Just write the corresponding parameters and values ​​in the configuration file. In Rocky Linux 8, you need to manually create the file <font color=red>/etc/rsyncd.conf</font>.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:15
+#, no-wrap
+msgid "[root@Rocky ~]# touch /etc/rsyncd.conf\n"
+"[root@Rocky ~]# vim /etc/rsyncd.conf\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:21
+#, no-wrap
+msgid "Some parameters and values ​​of this file are as follows, [ here ](04_rsync_configure.md) has more parameter descriptions:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:35
+#, no-wrap
+msgid "|Item|Description|\n"
+"|---|---|\n"
+"| address = 192.168.100.4 | The IP address that rsync listens on by default |\n"
+"| port = 873 | rsync default listening port |\n"
+"| pid file = /var/run/rsyncd.pid | File location of process pid |\n"
+"| log file = /var/log/rsyncd.log | File location of the log |\n"
+"| [share] | Share name |\n"
+"| comment = rsync | Remarks or description information |\n"
+"| path = /rsync/ | The system path location where it is located |\n"
+"| read only = yes| yes means read only, no means read and write |\n"
+"| dont compress = \\*.gz \\*.gz2 \\*.zip | Which file types do not compress it |\n"
+"| auth users = li| Enable virtual users and define what a virtual user is called. Need to create it yourself|\n"
+"| secrets file = /etc/rsyncd_users.db | Used to specify the location of the virtual user's password file, which must end in .db. The content format of the file is \"Username: Password\", one per line |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:39
+#, no-wrap
+msgid "    The permission of the password file must be <font color=red>600</font>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:41
+#, no-wrap
+msgid "Write some file content to <font color=red>/etc/rsyncd.conf</font>, and write the user name and password to /etc/rsyncd_users.db, the permission is 600\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:42
+#, no-wrap
+msgid "[root@Rocky ~]# cat /etc/rsyncd.conf\n"
+"address = 192.168.100.4\n"
+"port = 873\n"
+"pid file = /var/run/rsyncd.pid\n"
+"log file = /var/log/rsyncd.log\n"
+"[share]\n"
+"comment = rsync\n"
+"path = /rsync/\n"
+"read only = yes\n"
+"dont compress = *.gz *.bz2 *.zip\n"
+"auth users = li\n"
+"secrets file = /etc/rsyncd_users.db\n"
+"[root@Rocky ~]# ll /etc/rsyncd_users.db\n"
+"-rw------- 1 root root 9 November 2 16:16 /etc/rsyncd_users.db\n"
+"[root@Rocky ~]# cat /etc/rsyncd_users.db\n"
+"li:13579\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:62
+#, no-wrap
+msgid "You may need to `dnf -y install rsync-daemon` before you can start the service: `systemctl start rsyncd.service`\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:63
+#, no-wrap
+msgid "[root@Rocky ~]# systemctl start rsyncd.service\n"
+"[root@Rocky ~]# netstat -tulnp\n"
+"Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    \n"
+"tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      691/sshd            \n"
+"tcp        0      0 192.168.100.4:873       0.0.0.0:*               LISTEN      4607/rsync          \n"
+"tcp6       0      0 :::22                   :::*                    LISTEN      691/sshd            \n"
+"udp        0      0 127.0.0.1:323           0.0.0.0:*                           671/chronyd         \n"
+"udp6       0      0 ::1:323                 :::*                                671/chronyd  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:77
+#, no-wrap
+msgid "Create a file in the server for verification: `[root@Rocky]# touch /rsync/rsynctest.txt`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:79
+#, no-wrap
+msgid "The client does the following:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:80
+#, no-wrap
+msgid "[root@fedora ~]# rsync -avz li@192.168.100.4::share /root\n"
+"Password:\n"
+"receiving incremental file list\n"
+"./\n"
+"rsynctest.txt\n"
+"sent 52 bytes received 195 bytes 7.16 bytes/sec\n"
+"total size is 883 speedup is 3.57\n"
+"[root@fedora ~]# ls\n"
+"aabbcc anaconda-ks.cfg fedora rsynctest.txt\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:93
+#, no-wrap
+msgid "success! In addition to the above writing based on the rsync protocol, you can also write like this: `rsync://li@10.1.2.84/share`\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:96
+#, no-wrap
+msgid "[root@fedora ~]# touch /root/fedora.txt\n"
+"[root@fedora ~]# rsync -avz /root/* li@192.168.100.4::share\n"
+"Password:\n"
 "sending incremental file list\n"
-"anaconda-ks.cfg\n"
-"fedora\n"
-"rsync: mkstemp \" /rsync/.anaconda-ks.cfg.KWf7JF \" failed: Permission denied (13)\n"
-"rsync: mkstemp \" /rsync/.fedora.fL3zPC \" failed: Permission denied (13)\n"
-"sent 760 bytes received 211 bytes 277.43 bytes/sec\n"
-"total size is 883 speedup is 0.91\n"
+"rsync: [sender] read error: Connection reset by peer (104)\n"
+"rsync error: error in socket IO (code 10) at io.c(784) [sender = 3.2.3]\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:106
+#, no-wrap
+msgid "You are prompted that the reading error is related to the \"read only = yes\" of the server . Change it to \"no\" and restart the service `[root@Rocky ~]# systemctl restart rsyncd.service`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:108
+#, no-wrap
+msgid "Try again, prompting you permission denied:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:109
+#, no-wrap
+msgid "[root@fedora ~]# rsync -avz /root/* li@192.168.100.4::share\n"
+"Password:\n"
+"sending incremental file list\n"
+"fedora.txt\n"
+"rsync: mkstemp \" /.fedora.txt.hxzBIQ \" (in share) failed: Permission denied (13)\n"
+"sent 206 bytes received 118 bytes 92.57 bytes/sec\n"
+"total size is 883 speedup is 2.73\n"
 "rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1330) [sender = 3.2.3]\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:116
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:121
 #, no-wrap
-msgid "**Prompt permission denied, how to deal with it?**\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:118
-#, no-wrap
-msgid "First check the permissions of the /rsync/ directory. Obviously, there is no \"w\" permission. We can use `setfacl` to give permission:\n"
+msgid "Our virtual user here is <font color=red>li</font>, which is mapped to the system user <font color=red>nobody</font> by default. Of course, you can change it to other system users. In other words, nobody does not have write permission to the /rsync/ directory. Of course, we can use `[root@Rocky ~]# setfacl -mu:nobody:rwx /rsync/` , try again, and succeed.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:119
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:122
 #, no-wrap
-msgid "[root@Rocky ~ ] # ls -ld /rsync/\n"
-"drwxr-xr-x 2 root root 4096 November 2 15:05 /rsync/\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:124
-#, no-wrap
-msgid "[root@Rocky ~ ] # setfacl -mu:testrsync:rwx /rsync/\n"
-"[root@Rocky ~ ] # getfacl /rsync/\n"
-"getfacl: Removing leading ' / ' from absolute path names\n"
-"# file: rsync/\n"
-"# owner: root\n"
-"# group: root\n"
-"user::rwx\n"
-"user:testrsync:rwx\n"
-"group::rx\n"
-"mask::rwx\n"
-"other::rx\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:139
-#, no-wrap
-msgid "Try again, success!\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:140
-#, no-wrap
-msgid "[root@fedora ~ ] # rsync -avz /root/* testrsync@192.168.100.4:/rsync/\n"
-"testrsync@192.168.100.4 ' s password:\n"
+msgid "[root@fedora ~]# rsync -avz /root/* li@192.168.100.4::share\n"
+"Password:\n"
 "sending incremental file list\n"
-"anaconda-ks.cfg\n"
-"fedora\n"
-"sent 760 bytes received 54 bytes 180.89 bytes/sec\n"
-"total size is 883 speedup is 1.08\n"
+"fedora.txt\n"
+"sent 206 bytes received 35 bytes 96.40 bytes/sec\n"
+"total size is 883 speedup is 3.66\n"
 msgstr ""
 
