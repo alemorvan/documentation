@@ -13,109 +13,129 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: it\n"
-"X-Crowdin-File: /po4a/po4a/_po/package_management_index.pot\n"
-"X-Crowdin-File-ID: 1485\n"
+"X-Crowdin-File: /po4a/po4a/_po/package_management_package_build_troubleshooting.pot\n"
+"X-Crowdin-File-ID: 1487\n"
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/14-special-authority.md:338
-#: ../src/docs/books/admin_guide/14-special-authority.md:354
-#: ../src/docs/books/admin_guide/14-special-authority.md:404
-#: ../src/docs/books/admin_guide/14-special-authority.md:435
-#: ../src/docs/books/admin_guide/14-special-authority.md:690
-#: ../src/docs/books/disa_stig/disa_stig_part2.md:83
-#: ../src/docs/books/disa_stig/disa_stig_part2.md:102
-#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:253
-#: ../src/docs/books/lxd_server/04-firewall.md:76
-#: ../src/docs/books/lxd_server/08-snapshots.md:86
-#: ../src/docs/gemstones/RL9_network_manager.md:150
-#: ../src/docs/gemstones/nmtui.md:52
-#: ../src/docs/gemstones/view_kernel_conf.md:21
-#: ../src/docs/guides/backup/rsync_ssh.md:79
-#: ../src/docs/guides/cms/dokuwiki_server.md:226
-#: ../src/docs/guides/containers/lxd_web_servers.md:786
-#: ../src/docs/guides/containers/podman-nextcloud.md:270
-#: ../src/docs/guides/contribute/rockydocs_formatting.md:96
-#: ../src/docs/guides/file_sharing/sftp.md:264
-#: ../src/docs/guides/package_management/index.md:10
-#: ../src/docs/guides/proxies/pound.md:211
-#: ../src/docs/guides/proxies/pound.md:265 ../src/docs/release_notes/8_4.md:20
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:104
+#: ../src/docs/guides/package_management/developer_start2.md:4
+#: ../src/docs/guides/package_management/package_build_troubleshooting.md:6
 #, no-wrap
-msgid "!!! warning\n"
+msgid "!!! danger\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/developer_start2.md:6
+#: ../src/docs/guides/package_management/package_build_troubleshooting.md:8
+#, no-wrap
+msgid "This article was written originally in Early 2021 during the bootstrap of Rocky Linux. Content on this page is kept for historical reasons, but has been edited lightly to fix links, provide context, or remove instructions that are no longer relevant to prevent confusion. This document will be archived.\n"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/guides/package_management/package_build_troubleshooting.md:1
+#, no-wrap
+msgid "Package Build & Troubleshooting"
 msgstr ""
 
 #. type: Title #
-#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
-#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
-#: ../src/docs/books/learning_ansible/05-deployments.md:31
-#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
-#: ../src/docs/books/lxd_server/00-toc.md:1
-#: ../src/docs/books/lxd_server/00-toc.md:13
-#: ../src/docs/books/nvchad/index.md:12
-#: ../src/docs/books/nvchad/plugins/index.md:14
-#: ../src/docs/books/nvchad/plugins/md_preview.md:14
-#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
-#: ../src/docs/books/nvchad/vale_nvchad.md:12
-#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
-#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
-#: ../src/docs/gemstones/string_color.md:11
-#: ../src/docs/guides/automation/cron_jobs_howto.md:25
-#: ../src/docs/guides/automation/olivetin.md:14
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
-#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
-#: ../src/docs/guides/backup/rsnapshot_backup.md:22
-#: ../src/docs/guides/backup/rsync_ssh.md:24
-#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
-#: ../src/docs/guides/cms/dokuwiki_server.md:23
-#: ../src/docs/guides/containers/lxd_web_servers.md:10
-#: ../src/docs/guides/containers/podman-nextcloud.md:13
-#: ../src/docs/guides/contribute/local_docs.md:11
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
-#: ../src/docs/guides/contribute/mkdocs_venv.md:14
-#: ../src/docs/guides/contribute/style_guide.md:14
-#: ../src/docs/guides/database/database_mariadb-server.md:21
-#: ../src/docs/guides/desktop/kde_installation.md:11
-#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
-#: ../src/docs/guides/editors/micro.md:14
-#: ../src/docs/guides/email/postfix_reporting.md:22
-#: ../src/docs/guides/file_sharing/glusterfs.md:16
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
-#: ../src/docs/guides/file_sharing/sftp.md:16
-#: ../src/docs/guides/migrate2rocky.md:18
-#: ../src/docs/guides/network/basic_network_configuration.md:12
-#: ../src/docs/guides/network/librenms_monitoring_server.md:13
-#: ../src/docs/guides/package_management/index.md:1
-#: ../src/docs/guides/package_management/index.md:5
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
-#: ../src/docs/guides/proxies/pound.md:17
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
-#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
-#: ../src/docs/guides/security/firewalld-beginners.md:10
-#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
-#: ../src/docs/guides/security/ssh_public_private_keys.md:21
-#: ../src/docs/guides/security/ssl_keys_https.md:22
-#: ../src/docs/guides/virtualization/vbox-rocky.md:13
-#: ../src/docs/guides/web/apache-sites-enabled.md:25
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
-#: ../src/docs/guides/web/nginx-mainline.md:13
-#: ../src/docs/guides/web/nginx-multisite.md:14
-#: ../src/docs/labs/security/introduction.md:1
-#: ../src/docs/labs/security/introduction.md:5
+#: ../src/docs/guides/package_management/package_build_troubleshooting.md:9
 #, no-wrap
-msgid "Introduction"
+msgid "First get Familiar with the Mock build tool:"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/package_management/index.md:8
+#: ../src/docs/guides/package_management/package_build_troubleshooting.md:12
 #, no-wrap
-msgid "This section of the documentation is dedicated to package builds.\n"
+msgid "Once you get through that, the biggest and most relevant technical/intro page for our package debugging effort is this:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/package_management/index.md:11
+#: ../src/docs/guides/package_management/package_build_troubleshooting.md:14
 #, no-wrap
-msgid "    Documents in this section are older and are probably in need of a re-write. If you use these instructions and have problems, please report the issues so that these documents can be properly modified. You can report any issues [here](https://chat.rockylinux.org/rocky-linux/channels/documentation).\n"
+msgid "https://wiki.rockylinux.org/archive/legacy/mock_building_guide/\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/package_build_troubleshooting.md:16
+#, no-wrap
+msgid "We are using the “mock” program to perform our builds, just like the real Rocky infrastructure will. You should install it and get very used to it. Please use this guide to get started, and explain a bit about what we hope to achieve and why we have to build all these packages in a specific order.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/package_build_troubleshooting.md:18
+#, no-wrap
+msgid "Please read those carefully, and maybe dip your toe in the water by feeding your mock an SRPM or 2 and compiling some things.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/package_build_troubleshooting.md:20
+#, no-wrap
+msgid "Mock is really great, as it’s an easy-to-call program that constructs an entire system inside a chroot to perform the build, then cleans it up afterwards.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/package_build_troubleshooting.md:22
+#, no-wrap
+msgid "Please use the mock configurations for Rocky Linux provided by the `mock` package in EPEL.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/package_management/package_build_troubleshooting.md:24
+#, no-wrap
+msgid "Intro - What needs to be done  "
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/package_build_troubleshooting.md:27
+#, no-wrap
+msgid "The area we need help the most right now, and the easiest way to contribute, is to help troubleshoot failing package builds.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/package_build_troubleshooting.md:29
+#, no-wrap
+msgid "We’re rebuilding CentOS 8.3 as “practice”, so we can figure out any issues that crop up with our official Rocky build ahead of time. We are documenting any errors we find in the packages and how to fix them (to make it build). This documentation will help our release engineering team when it comes time to do official builds.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/package_management/package_build_troubleshooting.md:30
+#, no-wrap
+msgid "Helping with the debug effort:  "
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/package_build_troubleshooting.md:33
+#, no-wrap
+msgid "Once you are familiar with Mock, and especially with debugging its output, you can begin looking at failing packages. Some of this information is also on the Mock HowTo page linked above.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/package_build_troubleshooting.md:35
+#, no-wrap
+msgid "Let other debuggers know what you’re working on! We don’t want to duplicate effort. Hop on chat.rockylinux.org (#dev/packaging channel) and let us know!\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/package_build_troubleshooting.md:37
+#, no-wrap
+msgid "Set your mock program up with the most recent configs that we are using (linked above). You can use it to attempt the build in the same way as we do (with external dependencies, extra repos, etc.)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/package_build_troubleshooting.md:39
+#, no-wrap
+msgid "Investigate the error(s).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/package_build_troubleshooting.md:41
+#, no-wrap
+msgid "Figure out what’s going on, and how to fix it. It may take the form of special mock settings, or a patch added to the program + specfile. Report your findings to the #Dev/Packaging channel, and someone will record them on the Wiki Package_Error_Tracking page linked above.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/package_management/package_build_troubleshooting.md:42
+#, no-wrap
+msgid "The idea is to shrink the Build Failures, and grow the Package_Error_Tracking page. If necessary, we will commit build fixes to our patch repo for the different packages located here: https://git.rockylinux.org/staging/patch.\n"
 msgstr ""
 
