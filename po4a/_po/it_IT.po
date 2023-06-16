@@ -13,21 +13,8 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: it\n"
-"X-Crowdin-File: /po4a/po4a/_po/security_dnf_automatic.pot\n"
-"X-Crowdin-File-ID: 1525\n"
-
-#. type: Title ###
-#: ../src/docs/books/admin_guide/13-softwares.md:737
-#: ../src/docs/books/lxd_server/30-appendix_a.md:23
-#: ../src/docs/books/nvchad/nerd_fonts.md:28 ../src/docs/gemstones/rpaste.md:15
-#: ../src/docs/guides/file_sharing/glusterfs.md:89
-#: ../src/docs/guides/file_sharing/sftp.md:75
-#: ../src/docs/guides/security/dnf_automatic.md:26
-#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:29
-#: ../src/docs/guides/web/php.md:85 ../src/docs/guides/web/php.md:152
-#, no-wrap
-msgid "Installation"
-msgstr ""
+"X-Crowdin-File: /po4a/po4a/_po/security_enabling_iptables_firewall.pot\n"
+"X-Crowdin-File-ID: 1527\n"
 
 #. type: Title ##
 #: ../src/docs/books/admin_guide/13-softwares.md:900
@@ -73,66 +60,6 @@ msgstr ""
 msgid "Conclusion"
 msgstr ""
 
-#. type: YAML Front Matter: contributors
-#: ../src/docs/books/disa_stig/disa_stig_part2.md:1
-#: ../src/docs/books/disa_stig/disa_stig_part3.md:1
-#: ../src/docs/books/disa_stig/disa_stig_part1.md:1
-#: ../src/docs/books/learning_ansible/07-working-with-filters.md:1
-#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:1
-#: ../src/docs/books/learning_bash/00-toc.md:1
-#: ../src/docs/books/learning_bash/01-first-script.md:1
-#: ../src/docs/books/learning_bash/02-using-variables.md:1
-#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:1
-#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:1
-#: ../src/docs/books/learning_bash/05-tests.md:1
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:1
-#: ../src/docs/books/learning_bash/07-loops.md:1
-#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:1
-#: ../src/docs/books/learning_rsync/01_rsync_overview.md:1
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:1
-#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:1
-#: ../src/docs/books/learning_rsync/05_rsync_authentication-free_login.md:1
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:1
-#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:1
-#: ../src/docs/books/nvchad/additional_software.md:1
-#: ../src/docs/books/nvchad/index.md:1
-#: ../src/docs/books/nvchad/install_nvchad.md:1
-#: ../src/docs/books/nvchad/install_nvim.md:1
-#: ../src/docs/books/nvchad/nerd_fonts.md:1
-#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:1
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:1
-#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:1
-#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:1
-#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:1
-#: ../src/docs/books/nvchad/plugins/index.md:1
-#: ../src/docs/books/nvchad/plugins/md_preview.md:1
-#: ../src/docs/books/nvchad/plugins/projectmgr.md:1
-#: ../src/docs/books/nvchad/template_chadrc.md:1
-#: ../src/docs/gemstones/RL9_network_manager.md:1
-#: ../src/docs/gemstones/htop.md:1 ../src/docs/gemstones/mtr.md:1
-#: ../src/docs/gemstones/setup_local_repo.md:1
-#: ../src/docs/gemstones/string_color.md:1
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:1
-#: ../src/docs/gemstones/view_kernel_conf.md:1
-#: ../src/docs/guides/automation/anacron.md:1
-#: ../src/docs/guides/automation/cronie.md:1
-#: ../src/docs/guides/automation/olivetin.md:1
-#: ../src/docs/guides/communications/asterisk_installation.md:1
-#: ../src/docs/guides/containers/lxd_web_servers.md:1
-#: ../src/docs/guides/contribute/local_docs.md:1
-#: ../src/docs/guides/contribute/mkdocs_venv.md:1
-#: ../src/docs/guides/contribute/style_guide.md:1
-#: ../src/docs/guides/editors/micro.md:1
-#: ../src/docs/guides/file_sharing/glusterfs.md:1
-#: ../src/docs/guides/installation.md:1
-#: ../src/docs/guides/security/dnf_automatic.md:1
-#: ../src/docs/guides/security/firewalld-beginners.md:1
-#: ../src/docs/guides/web/nginx-multisite.md:1 ../src/docs/guides/web/php.md:1
-#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:1
-#, no-wrap
-msgid "Steven Spencer"
-msgstr ""
-
 #. type: YAML Front Matter: tags
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:1
 #: ../src/docs/books/disa_stig/disa_stig_part3.md:1
@@ -155,238 +82,276 @@ msgstr ""
 msgid "security"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/books/learning_bash/05-tests.md:67
-#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:94
-#: ../src/docs/books/nvchad/vale_nvchad.md:36
-#: ../src/docs/guides/automation/cron_jobs_howto.md:77
-#: ../src/docs/guides/contribute/navigation.md:53
-#: ../src/docs/guides/contribute/rockydocs_formatting.md:84
-#: ../src/docs/guides/database/database_mariadb-server.md:48
-#: ../src/docs/guides/file_sharing/sftp.md:482
-#: ../src/docs/guides/file_sharing/sftp.md:569
-#: ../src/docs/guides/proxies/pound.md:40
-#: ../src/docs/guides/security/dnf_automatic.md:67
-#: ../src/docs/guides/security/firewalld.md:102
-#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:115
-#, no-wrap
-msgid "!!! tip\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/nvchad/nerd_fonts.md:52
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:256
-#: ../src/docs/guides/dns/private_dns_server_using_bind.md:58
-#: ../src/docs/guides/security/dnf_automatic.md:34
-#: ../src/docs/guides/web/apache-sites-enabled.md:58
-#: ../src/docs/guides/web/php.md:105 ../src/docs/guides/web/php.md:168
-#, no-wrap
-msgid "Configuration"
-msgstr ""
-
-#. type: YAML Front Matter: tags
-#: ../src/docs/gemstones/dnf-swap.md:1
-#: ../src/docs/guides/security/dnf_automatic.md:1
-#, no-wrap
-msgid "dnf"
-msgstr ""
-
-#. type: YAML Front Matter: tags
-#: ../src/docs/guides/automation/cron_jobs_howto.md:1
-#: ../src/docs/guides/automation/olivetin.md:1
-#: ../src/docs/guides/security/dnf_automatic.md:1
-#, no-wrap
-msgid "automation"
-msgstr ""
-
-#. type: YAML Front Matter: tags
-#: ../src/docs/guides/security/dnf_automatic.md:1
-#, no-wrap
-msgid "updates"
-msgstr ""
-
-#. type: YAML Front Matter: title
-#: ../src/docs/guides/security/dnf_automatic.md:1
-#, no-wrap
-msgid "Patching with dnf-automatic"
-msgstr ""
-
 #. type: Title #
-#: ../src/docs/guides/security/dnf_automatic.md:13
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
+#: ../src/docs/books/learning_ansible/05-deployments.md:31
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/00-toc.md:13
+#: ../src/docs/books/nvchad/index.md:12
+#: ../src/docs/books/nvchad/plugins/index.md:14
+#: ../src/docs/books/nvchad/plugins/md_preview.md:14
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
+#: ../src/docs/books/nvchad/vale_nvchad.md:12
+#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
+#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
+#: ../src/docs/gemstones/string_color.md:11
+#: ../src/docs/guides/automation/cron_jobs_howto.md:25
+#: ../src/docs/guides/automation/olivetin.md:14
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
+#: ../src/docs/guides/backup/rsnapshot_backup.md:22
+#: ../src/docs/guides/backup/rsync_ssh.md:24
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
+#: ../src/docs/guides/cms/dokuwiki_server.md:23
+#: ../src/docs/guides/containers/lxd_web_servers.md:10
+#: ../src/docs/guides/containers/podman-nextcloud.md:13
+#: ../src/docs/guides/contribute/local_docs.md:11
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
+#: ../src/docs/guides/contribute/mkdocs_venv.md:14
+#: ../src/docs/guides/contribute/style_guide.md:14
+#: ../src/docs/guides/database/database_mariadb-server.md:21
+#: ../src/docs/guides/desktop/kde_installation.md:11
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
+#: ../src/docs/guides/editors/micro.md:14
+#: ../src/docs/guides/email/postfix_reporting.md:22
+#: ../src/docs/guides/file_sharing/glusterfs.md:16
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
+#: ../src/docs/guides/file_sharing/sftp.md:16
+#: ../src/docs/guides/migrate2rocky.md:18
+#: ../src/docs/guides/network/basic_network_configuration.md:12
+#: ../src/docs/guides/network/librenms_monitoring_server.md:13
+#: ../src/docs/guides/package_management/index.md:1
+#: ../src/docs/guides/package_management/index.md:5
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
+#: ../src/docs/guides/proxies/pound.md:17
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
+#: ../src/docs/guides/security/firewalld-beginners.md:10
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
+#: ../src/docs/guides/security/ssh_public_private_keys.md:21
+#: ../src/docs/guides/security/ssl_keys_https.md:22
+#: ../src/docs/guides/virtualization/vbox-rocky.md:13
+#: ../src/docs/guides/web/apache-sites-enabled.md:25
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
+#: ../src/docs/guides/web/nginx-mainline.md:13
+#: ../src/docs/guides/web/nginx-multisite.md:14
+#: ../src/docs/labs/security/introduction.md:1
+#: ../src/docs/labs/security/introduction.md:5
 #, no-wrap
-msgid "Patching servers with `dnf-automatic`"
+msgid "Introduction"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/security/dnf_automatic.md:17
+#. type: YAML Front Matter: contributors
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/01-install.md:1
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:1
+#: ../src/docs/books/lxd_server/03-lxdinit.md:1
+#: ../src/docs/books/lxd_server/04-firewall.md:1
+#: ../src/docs/books/lxd_server/05-lxd_images.md:1
+#: ../src/docs/books/lxd_server/06-profiles.md:1
+#: ../src/docs/books/lxd_server/07-configurations.md:1
+#: ../src/docs/books/lxd_server/08-snapshots.md:1
+#: ../src/docs/books/lxd_server/09-snapshot_server.md:1
+#: ../src/docs/books/lxd_server/10-automating.md:1
+#: ../src/docs/gemstones/bash_stub.md:1
+#: ../src/docs/guides/automation/cron_jobs_howto.md:1
+#: ../src/docs/guides/backup/rsnapshot_backup.md:1
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:1
+#: ../src/docs/guides/cms/dokuwiki_server.md:1
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:1
+#: ../src/docs/guides/contribute/navigation.md:1
+#: ../src/docs/guides/desktop/kde_installation.md:1
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:1
+#: ../src/docs/guides/email/postfix_reporting.md:1
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:1
+#: ../src/docs/guides/file_sharing/sftp.md:1
+#: ../src/docs/guides/network/librenms_monitoring_server.md:1
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
+#: ../src/docs/guides/security/ssh_public_private_keys.md:1
+#: ../src/docs/guides/security/ssl_keys_https.md:1
+#: ../src/docs/guides/web/apache-sites-enabled.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
 #, no-wrap
-msgid "Managing the installation of security updates is an important matter for the system administrator. The process of providing software updates is a well-trodden path that ultimately causes few problems.\n"
-"For these reasons, it is reasonable to automate the download and application of updates daily and automatically on Rocky servers.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/dnf_automatic.md:19
-#, no-wrap
-msgid "The security of your information system will be strengthened. `dnf-automatic` is an additional tool that will allow you to achieve this.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/dnf_automatic.md:21
-#, no-wrap
-msgid "!!! tip \"If you are worried...\"\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/dnf_automatic.md:23
-#, no-wrap
-msgid "    Years ago, applying updates automatically like this would have been a recipe for disaster. There were many times where an update applied might cause issues. That still happens rarely, when an update of a package removes a deprecated feature that is being used on the server, but for the most part, this simply isn't an issue these days. That said though, if you still feel uncomfortable letting `dnf-automatic` handle the updates, consider using it to download and/or notify you that updates are available. That way your server doesn't remain unpatched for long. These features are `dnf-automatic-notifyonly` and `dnf-automatic-download`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/dnf_automatic.md:25
-#, no-wrap
-msgid "    For more on these features, take a look at the [official documentation](https://dnf.readthedocs.io/en/latest/automatic.html).\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/dnf_automatic.md:29
-#, no-wrap
-msgid "You can install `dnf-automatic` from the rocky repositories:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/security/dnf_automatic.md:30
-#, no-wrap
-msgid "sudo dnf install dnf-automatic\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/dnf_automatic.md:37
-#, no-wrap
-msgid "By default, the update process will start at 6am, with a random extra time delta to avoid all your machines updating at the same time. To change this behavior, you must override the timer configuration associated with the application service:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/security/dnf_automatic.md:38
-#, no-wrap
-msgid "sudo systemctl edit dnf-automatic.timer\n\n"
-"[Unit]\n"
-"Description=dnf-automatic timer\n"
-"# See comment in dnf-makecache.service\n"
-"ConditionPathExists=!/run/ostree-booted\n"
-"Wants=network-online.target\n\n"
-"[Timer]\n"
-"OnCalendar=*-*-* 6:00\n"
-"RandomizedDelaySec=10m\n"
-"Persistent=true\n\n"
-"[Install]\n"
-"WantedBy=timers.target\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/dnf_automatic.md:57
-#, no-wrap
-msgid "This configuration reduces the start-up delay between 6:00 and 6:10 am. (A server that would be shut down at this time would be automatically patched after its restart.)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/dnf_automatic.md:59
-#, no-wrap
-msgid "Then activate the timer associated to the service (not the service itself):\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/security/dnf_automatic.md:60
-#, no-wrap
-msgid "$ sudo systemctl enable --now dnf-automatic.timer\n"
+msgid "Ezequiel Bruni"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/security/dnf_automatic.md:64
+#: ../src/docs/books/lxd_server/30-appendix_a.md:15
+#: ../src/docs/books/nvchad/vale_nvchad.md:16
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:20
+#: ../src/docs/guides/automation/anacron.md:10
+#: ../src/docs/guides/automation/cron_jobs_howto.md:14
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:13
+#: ../src/docs/guides/backup/rsnapshot_backup.md:13
+#: ../src/docs/guides/backup/rsync_ssh.md:12
+#: ../src/docs/guides/communications/asterisk_installation.md:25
+#: ../src/docs/guides/database/database_mariadb-server.md:13
+#: ../src/docs/guides/desktop/kde_installation.md:20
+#: ../src/docs/guides/desktop/mate_installation.md:17
+#: ../src/docs/guides/desktop/xfce_installation.md:17
+#: ../src/docs/guides/editors/micro.md:33
+#: ../src/docs/guides/email/postfix_reporting.md:14
+#: ../src/docs/guides/file_sharing/glusterfs.md:10
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:14
+#: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:14
+#: ../src/docs/guides/network/basic_network_configuration.md:16
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:8
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:14
+#: ../src/docs/guides/security/ssh_public_private_keys.md:14
+#: ../src/docs/guides/security/ssl_keys_https.md:14
+#: ../src/docs/guides/virtualization/vbox-rocky.md:19
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:15
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:15
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:14
+#: ../src/docs/guides/web/mod_SSL_apache.md:14
 #, no-wrap
-msgid "What about CentOS 7 servers?"
+msgid "Prerequisites"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
+#, no-wrap
+msgid "iptables"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
+#, no-wrap
+msgid "deprecated"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
+#, no-wrap
+msgid "Enabling `iptables` Firewall"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:12
+#, no-wrap
+msgid "Enabling iptables Firewall"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:17
+#, no-wrap
+msgid "A burning, unquenchable desire to disable the default _firewalld_ application, and enable _iptables_.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/security/dnf_automatic.md:69
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:19
 #, no-wrap
-msgid "    Yes, this is Rocky Linux documentation, but if you are a system or network administrator, you may have some CentOS 7 machines still in play. We get that, and that is why we are including this section.\n"
+msgid "!!! warning \"This Process Is Deprecated\"\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/security/dnf_automatic.md:71
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:21
 #, no-wrap
-msgid "The process under CentOS 7 is similar but uses: `yum-cron`.\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/security/dnf_automatic.md:72
-#, no-wrap
-msgid "$ sudo yum install yum-cron\n"
+msgid "    As of Rocky Linux 9.0, `iptables` and all of the utilities associated with it, are deprecated. This means that future releases of the OS will be removing `iptables`. For that reason, it is highly recommended that you not use this process. If you are familiar with iptables, we recommend using [`iptables` Guide To `firewalld`](firewalld.md). If you are new to firewall concepts, then we recommend [`firewalld` For Beginners](firewalld-beginners.md).\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/security/dnf_automatic.md:77
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:25
 #, no-wrap
-msgid "The configuration of the service is done this time in the file `/etc/yum/yum-cron.conf`.\n"
+msgid "_firewalld_ is now the default firewall on Rocky Linux. _firewalld_ **was** nothing more than a dynamic application of _iptables_ using xml files that loaded changes without flushing the rules in CentOS 7/RHEL 7.  With CentOS 8/RHEL 8/Rocky 8, _firewalld_ is now a wrapper around _nftables_. It is still possible, however, to install and use straight _iptables_ if that is your preference. To install and run straight _iptables_ without _firewalld_ you can do so by following this guide. What this guide will **not** tell you is how to write rules for _iptables_. It is assumed that if you want to get rid of _firewalld_, you must already know how to write rules for _iptables_.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:26
+#, no-wrap
+msgid "Disabling firewalld"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/security/dnf_automatic.md:79
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:29
 #, no-wrap
-msgid "Set configuration as needed:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/security/dnf_automatic.md:80
-#, no-wrap
-msgid "[commands]\n"
-"#  What kind of update to use:\n"
-"# default                            = yum upgrade\n"
-"# security                           = yum --security upgrade\n"
-"# security-severity:Critical         = yum --sec-severity=Critical upgrade\n"
-"# minimal                            = yum --bugfix update-minimal\n"
-"# minimal-security                   = yum --security update-minimal\n"
-"# minimal-security-severity:Critical =  --sec-severity=Critical update-minimal\n"
-"update_cmd = default\n\n"
-"# Whether a message should be emitted when updates are available,\n"
-"# were downloaded, or applied.\n"
-"update_messages = yes\n\n"
-"# Whether updates should be downloaded when they are available.\n"
-"download_updates = yes\n\n"
-"# Whether updates should be applied when they are available.  Note\n"
-"# that download_updates must also be yes for the update to be applied.\n"
-"apply_updates = yes\n\n"
-"# Maximum amout of time to randomly sleep, in minutes.  The program\n"
-"# will sleep for a random amount of time between 0 and random_sleep\n"
-"# minutes before running.  This is useful for e.g. staggering the\n"
-"# times that multiple systems will access update servers.  If\n"
-"# random_sleep is 0 or negative, the program will run immediately.\n"
-"# 6*60 = 360\n"
-"random_sleep = 30\n"
+msgid "You can't really run the old _iptables_ utilities alongside _firewalld_. They're just not compatible. The best way to get around this is to disable _firewalld_ entirely (no need to unistall it unless you want to), and reinstall the _iptables_ utilities. Disabling _firewalld_ can be done using these commands:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/security/dnf_automatic.md:112
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:31
 #, no-wrap
-msgid "The comments in the configuration file speak for themselves.\n"
+msgid "Stop _firewalld_:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/security/dnf_automatic.md:114
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:33
 #, no-wrap
-msgid "You can now enable the service and start it:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/security/dnf_automatic.md:115
-#, no-wrap
-msgid "$ sudo systemctl enable --now yum-cron\n"
+msgid "`systemctl stop firewalld`\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/security/dnf_automatic.md:121
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:35
 #, no-wrap
-msgid "The automatic update of packages is easily activated and considerably increases the security of your information system.\n"
+msgid "Disable _firewalld_ so it won't start on boot:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:37
+#, no-wrap
+msgid "`systemctl disable firewalld`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:39
+#, no-wrap
+msgid "Mask the service so that it can't be found:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:41
+#, no-wrap
+msgid "`systemctl mask firewalld`\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:42
+#, no-wrap
+msgid "Installing And Enabling iptables Services"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:45
+#, no-wrap
+msgid "Next we need to install the old _iptables_ services and utilities. This is done with the following:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:47
+#, no-wrap
+msgid "`dnf install iptables-services iptables-utils`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:49
+#, no-wrap
+msgid "This will install everything that is needed to run a straight _iptables_ rule set.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:51
+#, no-wrap
+msgid "Now we need to enable the _iptables_ service to make sure that it starts on boot:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:53
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:134
+#, no-wrap
+msgid "`systemctl enable iptables`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:56
+#, no-wrap
+msgid "You can return to using straight _iptables_ if you prefer it over _firewalld_. You can return to using the default _firewalld_ by simply reversing these changes.\n"
 msgstr ""
 
