@@ -13,13 +13,17 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: it\n"
-"X-Crowdin-File: /po4a/po4a/_po/release_notes_8_5.pot\n"
-"X-Crowdin-File-ID: 1509\n"
+"X-Crowdin-File: /po4a/po4a/_po/release_notes_8_6.pot\n"
+"X-Crowdin-File-ID: 1511\n"
 
 #. type: Title ###
-#: ../src/docs/release_notes/8_4.md:11 ../src/docs/release_notes/8_5.md:7
+#: ../src/docs/books/admin_guide/11-tasks.md:71
+#: ../src/docs/release_notes/8_4.md:51 ../src/docs/release_notes/8_6.md:17
+#: ../src/docs/release_notes/8_7.md:39 ../src/docs/release_notes/8_8.md:54
+#: ../src/docs/release_notes/9_0.md:34 ../src/docs/release_notes/9_1.md:47
+#: ../src/docs/release_notes/9_2.md:104
 #, no-wrap
-msgid "Thank You"
+msgid "Security"
 msgstr ""
 
 #. type: Title ##
@@ -38,6 +42,21 @@ msgstr ""
 msgid "Major Changes"
 msgstr ""
 
+#. type: Title ###
+#: ../src/docs/release_notes/8_4.md:81 ../src/docs/release_notes/8_6.md:52
+#: ../src/docs/release_notes/8_8.md:89 ../src/docs/release_notes/9_0.md:87
+#: ../src/docs/release_notes/9_1.md:130 ../src/docs/release_notes/9_2.md:142
+#, no-wrap
+msgid "Compilers and Development Tools"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/release_notes/8_4.md:90 ../src/docs/release_notes/8_6.md:32
+#: ../src/docs/release_notes/8_7.md:118 ../src/docs/release_notes/9_1.md:151
+#, no-wrap
+msgid "Identity Management"
+msgstr ""
+
 #. type: Title ##
 #: ../src/docs/release_notes/8_4.md:94 ../src/docs/release_notes/8_5.md:119
 #: ../src/docs/release_notes/8_6.md:73 ../src/docs/release_notes/8_7.md:29
@@ -47,189 +66,10 @@ msgstr ""
 msgid "Known Issues"
 msgstr ""
 
-#. type: YAML Front Matter: title
-#: ../src/docs/release_notes/8_5.md:1
-#, no-wrap
-msgid "Release 8.5"
-msgstr ""
-
-#. type: Title #
-#: ../src/docs/release_notes/8_5.md:5
-#, no-wrap
-msgid "Release Notes for Rocky Linux 8.5"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/release_notes/8_5.md:10
-#, no-wrap
-msgid "Thank you for supporting Rocky Linux. These are the release notes for Rocky Linux 8.5, available for x86_64 and aarch64 (ARM) architectures.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/release_notes/8_5.md:12
-#, no-wrap
-msgid ">There was an amazing amount of work and collaboration that went into this release. The Rocky Release Engineering team went far and above the call of duty to make 8.5 a reality so quickly. Please send them gratitude, happy thoughts, and lotsa beers at our first available moment! \n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/release_notes/8_5.md:14
-#, no-wrap
-msgid "— Gregory Kurtzer\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/release_notes/8_5.md:19
-#, no-wrap
-msgid "For a full listing of all changes which occurred upstream, please reference the [Release Notes for Red Hat Enterprise Linux 8.5](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/8.5_release_notes/overview#overview-major-changes).\n"
-msgstr ""
-
-#. type: Title ####
-#: ../src/docs/release_notes/8_5.md:20
-#, no-wrap
-msgid "**Secure Boot**"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/release_notes/8_5.md:23
-#, no-wrap
-msgid "In less than 48 hours from RHEL-8.5 being released, we had successful tests on our ISOs and just before we were about to pull the string to go GA with 8.5, Microsoft countersigned our Secure Boot shim. We quickly deliberated and decided to backtrack and incorporate that into the 8.5 release.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/release_notes/8_5.md:25
-#, no-wrap
-msgid "There were some things that we had to get in order and resolved, but it is with great pleasure that this release includes the official Rocky Linux signed shim. Here is the full thread to the shim review: [https://github.com/rhboot/shim-review/issues/194](https://github.com/rhboot/shim-review/issues/194).\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/release_notes/8_5.md:27
-#, no-wrap
-msgid "As with any security related diligence, it is important to be able to validate the Secure Boot shim is exactly what you expect and that it is properly activated. After installing Rocky Linux 8.5, please log in and run these commands to validate our secure boot shim:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/release_notes/8_5.md:28
-#, no-wrap
-msgid "\n"
-"$ sudo dnf install -y keyutils\n\n"
-"$ sudo keyctl show %:.platform\n\n"
-"$ sudo mokutil --sb\n\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/release_notes/8_5.md:39
-#, no-wrap
-msgid "These commands should produce output similar to the following:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/release_notes/8_5.md:40
-#, no-wrap
-msgid "\n"
-"[user@localhost ~]# sudo keyctl show %:.platform\n\n"
-"Keyring\n\n"
-" 600127374 ---lswrv      0     0  keyring: .platform\n\n"
-" 659510804 ---lswrv      0     0   \\\\_ asymmetric: Microsoft Windows Production PCA 2011: a92902398e16c49778cd90f99e4f9ae17c55af53\n\n"
-" 716742579 ---lswrv      0     0   \\\\_ asymmetric: Rocky Enterprise Software Foundation: Rocky Linux Secure Boot Root CA: 4c2c6bd7d64ee81581cab8e986661f65e2166fc4\n\n"
-" 346375346 ---lswrv      0     0   \\\\_ asymmetric: Microsoft Corporation UEFI CA 2011: 13adbf4309bd82709c8cd54f316ed522988a1bd4\n\n"
-"[user@localhost ~]# sudo mokutil --sb\n\n"
-"SecureBoot enabled\n\n"
-msgstr ""
-
-#. type: Bullet: '   * '
-#: ../src/docs/release_notes/8_5.md:65
-#, no-wrap
-msgid "Ruby 3.0\n"
-msgstr ""
-
-#. type: Bullet: '   * '
-#: ../src/docs/release_notes/8_5.md:65
-#, no-wrap
-msgid "nginx 1.20\n"
-msgstr ""
-
-#. type: Bullet: '   * '
-#: ../src/docs/release_notes/8_5.md:65
-#, no-wrap
-msgid "Node.js 16\n"
-msgstr ""
-
-#. type: Title ####
-#: ../src/docs/release_notes/8_5.md:66
-#, no-wrap
-msgid "Updated Components"
-msgstr ""
-
-#. type: Bullet: '   * '
-#: ../src/docs/release_notes/8_5.md:71
-#, no-wrap
-msgid "PHP to version 7.4.19\n"
-msgstr ""
-
-#. type: Bullet: '   * '
-#: ../src/docs/release_notes/8_5.md:71
-#, no-wrap
-msgid "Squid to version 4.15\n"
-msgstr ""
-
-#. type: Bullet: '   * '
-#: ../src/docs/release_notes/8_5.md:71
-#, no-wrap
-msgid "Mutt to version 2.0.7\n"
-msgstr ""
-
-#. type: Title ####
-#: ../src/docs/release_notes/8_5.md:72
-#, no-wrap
-msgid "Compilers and Development tools"
-msgstr ""
-
 #. type: Bullet: '* '
 #: ../src/docs/release_notes/8_5.md:78 ../src/docs/release_notes/8_6.md:60
 #, no-wrap
 msgid "GCC Toolset 11\n"
-msgstr ""
-
-#. type: Bullet: '   * '
-#: ../src/docs/release_notes/8_5.md:78
-#, no-wrap
-msgid "LLVM Toolset 12.0.1\n"
-msgstr ""
-
-#. type: Bullet: '   * '
-#: ../src/docs/release_notes/8_5.md:78
-#, no-wrap
-msgid "Rust Toolset 1.54.0\n"
-msgstr ""
-
-#. type: Bullet: '   * '
-#: ../src/docs/release_notes/8_5.md:78
-#, no-wrap
-msgid "Go Toolset 1.16.7\n"
-msgstr ""
-
-#. type: Title ####
-#: ../src/docs/release_notes/8_5.md:79
-#, no-wrap
-msgid "OpenJDK updates"
-msgstr ""
-
-#. type: Bullet: '   * '
-#: ../src/docs/release_notes/8_5.md:84
-#, no-wrap
-msgid "Open Java Development Kit 17 (OpenJDK 17) is now available. For more information about the features introduced in this release and changes in the existing functionality, see OpenJDK features.\n"
-msgstr ""
-
-#. type: Bullet: '   * '
-#: ../src/docs/release_notes/8_5.md:84
-#, no-wrap
-msgid "OpenJDK 11 has been updated to version 11.0.13. For more information about the features introduced in this release and changes in the existing functionality, see Release notes for OpenJDK 11.0.13.\n"
-msgstr ""
-
-#. type: Bullet: '   * '
-#: ../src/docs/release_notes/8_5.md:84
-#, no-wrap
-msgid "OpenJDK 8 has been updated to version 8.0.312. For more information about the features introduced in this release and changes in the existing functionality, see Release notes for OpenJDK 8.0.312.\n"
 msgstr ""
 
 #. type: Title ##
@@ -244,102 +84,6 @@ msgstr ""
 msgid "During network installation, the list of mirrors hosting BaseOS content from the MirrorList will be used by the FastestMirror DNF plugin, sorted heuristically by the time it takes to open a connection to the mirrors on their given protocol's port ([Source code](https://github.com/rpm-software-management/yum-utils/blob/master/plugins/fastestmirror/fastestmirror.py)).\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/release_notes/8_5.md:90
-#, no-wrap
-msgid "This change means that a Repository URL is no longer required when using Boot-only media and performing Network-based installations of Rocky (and other Enterprise) Linux!\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/release_notes/8_5.md:91
-#, no-wrap
-msgid "Changelog"
-msgstr ""
-
-#. type: Title ####
-#: ../src/docs/release_notes/8_5.md:93
-#, no-wrap
-msgid "Packages Added"
-msgstr ""
-
-#. type: Bullet: '   * '
-#: ../src/docs/release_notes/8_5.md:98
-#, no-wrap
-msgid "In the plus repository, thunderbird with PGP support was added\n"
-msgstr ""
-
-#. type: Bullet: '   * '
-#: ../src/docs/release_notes/8_5.md:98
-#, no-wrap
-msgid "In the plus repository, openldap-servers was added\n"
-msgstr ""
-
-#. type: Bullet: '   * '
-#: ../src/docs/release_notes/8_5.md:98
-#, no-wrap
-msgid "In the rockypi repository, rasperrypi2 kernel was added for raspberry specific aarch64 support\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/release_notes/8_5.md:100
-#, no-wrap
-msgid "For a complete comparison of packages and their versions between Rocky Linux and Red Hat Enterprise Linux, please consult our [RepoCompare](https://repocompare.rockylinux.org) site.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/release_notes/8_5.md:101
-#, no-wrap
-msgid "Installation Instructions"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/release_notes/8_5.md:104
-#, no-wrap
-msgid "Installation instructions for the latest Rocky Linux release can be found here:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/release_notes/8_5.md:106
-#, no-wrap
-msgid "[https://docs.rockylinux.org/guides/installation/](https://docs.rockylinux.org/guides/installation/)\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/release_notes/8_5.md:107
-#, no-wrap
-msgid "Supported Upgrades and Conversions"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/release_notes/8_5.md:110
-#, no-wrap
-msgid "Migrations to Rocky Linux 8.5 are supported from various Enterprise Linux distributions including, but not limited to CentOS Linux (including CentOS Stream) and Red Hat Enterprise Linux. For more details regarding supported upgrade paths and instructions on migrations, please consult the [documentation](https://docs.rockylinux.org/guides/migrate2rocky/).\n"
-msgstr ""
-
-#. type: Title ####
-#: ../src/docs/release_notes/8_5.md:111
-#, no-wrap
-msgid "Upgrading from Rocky Linux 8.4"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/release_notes/8_5.md:114
-#, no-wrap
-msgid "To update your installation of Rocky Linux 8.4 Stable to 8.5, type:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/release_notes/8_5.md:115
-#, no-wrap
-msgid "$ sudo dnf -y upgrade\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/release_notes/8_5.md:122
-#, no-wrap
-msgid "Please see [Chapter 5 - Bug Fixes](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/8.5_release_notes/bug_fixes)  and [Chapter 8 - Bug Fixes](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/8.5_release_notes/known-issues) of the Red Hat Enterprise Linux 8.5 release notes for more information regarding bugs and known issues in the upstream distribution.\n"
-msgstr ""
-
 #. type: Title ##
 #: ../src/docs/release_notes/8_5.md:123 ../src/docs/release_notes/8_6.md:81
 #: ../src/docs/release_notes/8_7.md:132 ../src/docs/release_notes/8_8.md:157
@@ -349,9 +93,240 @@ msgstr ""
 msgid "Reporting Bugs"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/release_notes/8_5.md:126
+#. type: YAML Front Matter: tags
+#: ../src/docs/release_notes/8_6.md:1
 #, no-wrap
-msgid "Please report any bugs you encounter to the Rocky Linux Bug Tracker. We also welcome you to join our community in any way you wish be it on our [Forums](https://forums.rockylinux.org), [Mattermost](https://chat.rockylinux.org), [IRC on Libera.Chat](irc://irc.liberachat/rockylinux), [Reddit](https://reddit.com/r/rockylinux), [Mailing Lists](https://lists.resf.org), or any other way you wish to participate!\n"
+msgid "8.6"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/release_notes/8_6.md:1
+#, no-wrap
+msgid "8.6 release"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/release_notes/8_6.md:1
+#, no-wrap
+msgid "Rocky 8.6"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/release_notes/8_6.md:1
+#, no-wrap
+msgid "Release 8.6"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/release_notes/8_6.md:9
+#, no-wrap
+msgid "Release Notes For Rocky Linux 8.6"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_6.md:14
+#, no-wrap
+msgid "For a complete list of major changes, please see the upstream listing [here](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/8.6_release_notes/overview#overview-major-changes).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_6.md:16 ../src/docs/release_notes/8_7.md:38
+#, no-wrap
+msgid "Below are some highlights.\n"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: ../src/docs/release_notes/8_6.md:24
+#, no-wrap
+msgid "`fapolicyd`: updated to version 1.1. Includes the ability to use `/rules.d` and `/trust.d` directories, the ability to use `fagenrules` script, and new options for the `fapolicyd-cli`command.\n"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: ../src/docs/release_notes/8_6.md:24
+#, no-wrap
+msgid "OpenSSH server now supports drop-in configurations. This means you can use the `Include` directive in `sshd_config` similar to what is now available for `ssh_config`.\n"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: ../src/docs/release_notes/8_6.md:24
+#, no-wrap
+msgid "`pcsc-lite` package: rebased to upstream version 1.9.5 with new enhancements and bug fixes.\n"
+msgstr ""
+
+#. type: Bullet: ' * '
+#: ../src/docs/release_notes/8_6.md:24
+#, no-wrap
+msgid "SELinux: You can now verify versions of installed policy modules by using the `--checksum` option with the `semodule` command.\n"
+msgstr ""
+
+#. type: Bullet: ' *  '
+#: ../src/docs/release_notes/8_6.md:24
+#, no-wrap
+msgid "SCAP Security Guide (SSG) packages:  rebased to version 0.1.60, and OpenSCAP packages have been rebased to version 1.3.6.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/release_notes/8_6.md:25 ../src/docs/release_notes/9_0.md:51
+#, no-wrap
+msgid "Web and Programming"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_6.md:28
+#, no-wrap
+msgid "New modules are available for:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_6.md:31
+#, no-wrap
+msgid "PHP 8.0\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_6.md:31
+#, no-wrap
+msgid "Perl 5.32\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_6.md:35
+#, no-wrap
+msgid "`ansible-freeipa` roles and modules available in the Ansible Automation Hub.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/release_notes/8_6.md:36 ../src/docs/release_notes/8_7.md:87
+#: ../src/docs/release_notes/9_1.md:84
+#, no-wrap
+msgid "Infrastructure Services"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_6.md:39
+#, no-wrap
+msgid "`bind9.16` issued as an alternative to the regular `bind` packages with an enhanced feature set. For more on this see [Infrastructure Services](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html-single/8.6_release_notes#enhancement_infrastructure-services) upstream.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/release_notes/8_6.md:40
+#, no-wrap
+msgid "Ansible"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_6.md:43
+#, no-wrap
+msgid "You can now install `ansible-core` from the Rocky Linux Appstream repository. If you already have `ansible` installed from another source, you will need to uninstall that to be able to upgrade ansible.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_6.md:51
+#, no-wrap
+msgid "container-tools:4.0\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_6.md:51
+#, no-wrap
+msgid "eclipse:rhel8\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_6.md:51
+#, no-wrap
+msgid "log4j:2\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_6.md:51
+#, no-wrap
+msgid "perl:5.32\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_6.md:51
+#, no-wrap
+msgid "php:8.0\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_6.md:55
+#, no-wrap
+msgid "Highlights include:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_6.md:60
+#, no-wrap
+msgid "LLVM Toolset 13.0.1\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_6.md:60
+#, no-wrap
+msgid "Rust Toolset 1.58.1\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_6.md:60
+#, no-wrap
+msgid "Go Toolset 1.17.7\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_6.md:62
+#, no-wrap
+msgid "For more information on the latest changes see the upstream listing [here](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/8.6_release_notes/new-features#enhancement_compilers-and-development-tools).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_6.md:68
+#, no-wrap
+msgid "This change means that a Repository URL is no longer required when using Boot-only media and performing Network-based installations of Rocky (and other Enterprise) Linux! This has been true since Rocky 8.5, but is worth mentioning again.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/release_notes/8_6.md:69
+#, no-wrap
+msgid "Upgrading From Rocky Linux 8.5"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_6.md:72
+#, no-wrap
+msgid "Simply run `sudo dnf -y upgrade`.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_6.md:78
+#, no-wrap
+msgid "`kdump`: Currently, when using any interactive installation method, the `kdump` spoke must be entered last. This includes any plans for disk encryption. In these cases, if you have plans to turn off `kdump`, format the disk with encryption before turning it off.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_6.md:78
+#, no-wrap
+msgid "minimal ISO: When doing an installation with the minimal ISO, be prepared to be missing packages, most notably from the AppStream repository (rsyslog, policycoreutils-python-utils, etc.). This is to be expected.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/release_notes/8_6.md:78
+#, no-wrap
+msgid "KDE and [this kernel bug](https://bugzilla.redhat.com/show_bug.cgi?id=2082719): If you are using KDE on 8.5 and upgrade to 8.6, it is highly likely that you will end up with issues. The referenced bug deals with the inability to unlock your screen after locking occurs. A workaround is to boot to the older kernel in GRUB on startup.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_6.md:80
+#, no-wrap
+msgid "As with any release, there are issues that are already known. You can see the current listing of issues from the upstream [here](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/8.6_release_notes/known-issues).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/release_notes/8_6.md:83 ../src/docs/release_notes/8_7.md:135
+#: ../src/docs/release_notes/9_0.md:179 ../src/docs/release_notes/9_1.md:180
+#: ../src/docs/release_notes/9_2.md:222
+#, no-wrap
+msgid "Please report any bugs you encounter to the [Rocky Linux Bug Tracker](https://bugs.rockylinux.org/). We also welcome you to join our community in any way you wish be it on our [Forums](https://forums.rockylinux.org), [Mattermost](https://chat.rockylinux.org), [IRC on Libera.Chat](irc://irc.liberachat/rockylinux), [Reddit](https://reddit.com/r/rockylinux), [Mailing Lists](https://lists.resf.org), or any other way you wish to participate!\n"
 msgstr ""
 
