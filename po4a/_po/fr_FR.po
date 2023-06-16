@@ -13,8 +13,8 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/learning_ansible_02-advanced.pot\n"
-"X-Crowdin-File-ID: 1383\n"
+"X-Crowdin-File: /po4a/po4a/_po/learning_ansible_03-working-with-files.pot\n"
+"X-Crowdin-File-ID: 1385\n"
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/01-presentation.md:12
@@ -34,6 +34,20 @@ msgstr ""
 #: ../src/docs/books/learning_bash/07-loops.md:17
 #, no-wrap
 msgid "**Objectives**: In this chapter you will learn how to:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:22
+#: ../src/docs/books/admin_guide/05-vi.md:22
+#: ../src/docs/books/admin_guide/07-file-systems.md:33
+#: ../src/docs/books/admin_guide/08-process.md:23
+#: ../src/docs/books/admin_guide/10-boot.md:24
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:23
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:24
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:27
+#: ../src/docs/books/learning_bash/07-loops.md:26
+#, no-wrap
+msgid "**Reading time**: 20 minutes\n"
 msgstr ""
 
 #. type: Plain text
@@ -193,17 +207,6 @@ msgid "!!! Note\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/06-users.md:25
-#: ../src/docs/books/admin_guide/12-network.md:25
-#: ../src/docs/books/learning_ansible/01-basic.md:26
-#: ../src/docs/books/learning_ansible/02-advanced.md:24
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:22
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:14
-#, no-wrap
-msgid "**Reading time**: 30 minutes\n"
-msgstr ""
-
-#. type: Plain text
 #: ../src/docs/books/admin_guide/06-users.md:606
 #: ../src/docs/books/admin_guide/03-commands.md:1450
 #: ../src/docs/books/admin_guide/14-special-authority.md:422
@@ -214,1114 +217,291 @@ msgstr ""
 msgid "For example:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/01-basic.md:21
-#: ../src/docs/books/learning_ansible/02-advanced.md:19
-#, no-wrap
-msgid ":checkered_flag: **ansible**, **module**, **playbook**\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/01-basic.md:24
-#: ../src/docs/books/learning_ansible/02-advanced.md:22
-#, no-wrap
-msgid "**Knowledge**: :star: :star: :star:     \n"
-"**Complexity**: :star: :star:\n"
-msgstr ""
-
 #. type: Title ###
-#: ../src/docs/books/learning_ansible/01-basic.md:575
-#: ../src/docs/books/learning_ansible/02-advanced.md:155
-#: ../src/docs/books/learning_ansible/02-advanced.md:272
-#: ../src/docs/books/learning_ansible/02-advanced.md:353
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:132
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:63
 #, no-wrap
-msgid "Exercises"
+msgid "File Management"
 msgstr ""
 
 #. type: Title #
-#: ../src/docs/books/learning_ansible/02-advanced.md:1
-#: ../src/docs/books/learning_ansible/02-advanced.md:5
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:5
 #, no-wrap
-msgid "Ansible Intermediate"
+msgid "Ansible - Management of Files"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:8
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:8
 #, no-wrap
-msgid "In this chapter you will continue to learn how to work with Ansible.\n"
+msgid "In this chapter you will learn how to manage files with Ansible.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:17
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:16
 #, no-wrap
-msgid ":heavy_check_mark: work with variables;       \n"
-":heavy_check_mark: use loops;   \n"
-":heavy_check_mark: manage state changes and react to them;   \n"
-":heavy_check_mark: manage asynchronous tasks.\n"
+msgid ":heavy_check_mark: modify the content of file;       \n"
+":heavy_check_mark: upload files to the targeted servers;   \n"
+":heavy_check_mark: retrieve files from the targeted servers.   \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:28
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:18
 #, no-wrap
-msgid "In the previous chapter, you learned how to install Ansible, use it on the command line, or how to write playbooks to promote the re-usability of your code.\n"
+msgid ":checkered_flag: **ansible**, **module**, **files**\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:30
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:21
 #, no-wrap
-msgid "In this chapter, we can start to discover some more advanced notions of how to use Ansible, and discover some interesting tasks that you will use very regularly.\n"
+msgid "**Knowledge**: :star: :star:     \n"
+"**Complexity**: :star:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:27
+#, no-wrap
+msgid "Depending on your needs, you will have to use different Ansible modules to modify the system configuration files.\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/books/learning_ansible/02-advanced.md:31
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:28
 #, no-wrap
-msgid "The variables"
+msgid "`ini_file` module"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:36
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:31
 #, no-wrap
-msgid "    More information can be [found here](https://docs.ansible.com/ansible/latest/user_guide/playbooks_variables.html).\n"
+msgid "When you want to modify an INI file (section between `[]` then `key=value` pairs), the easiest way is to use the `ini_file` module.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:38
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:35
 #, no-wrap
-msgid "Under Ansible, there are different types of primitive variables:\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_ansible/02-advanced.md:42
-#, no-wrap
-msgid "strings,\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_ansible/02-advanced.md:42
-#, no-wrap
-msgid "integers,\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_ansible/02-advanced.md:42
-#, no-wrap
-msgid "booleans.\n"
+msgid "    More information can be [found here](https://docs.ansible.com/ansible/latest/collections/community/general/ini_file_module.html).\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:44
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:37
 #, no-wrap
-msgid "These variables can be organized as:\n"
+msgid "The module requires:\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/books/learning_ansible/02-advanced.md:47
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:41
 #, no-wrap
-msgid "dictionaries,\n"
+msgid "The value of the section\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/books/learning_ansible/02-advanced.md:47
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:41
 #, no-wrap
-msgid "lists.\n"
+msgid "The name of the option\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:41
+#, no-wrap
+msgid "The new value\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:49
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:43
 #, no-wrap
-msgid "A variable can be defined in different places, like in a playbook, in a role or from the command line for example.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:51
-#, no-wrap
-msgid "For example, from a playbook:\n"
+msgid "Example of use:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:52
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:44
 #, no-wrap
-msgid "---\n"
-"- hosts: apache1\n"
-"  vars:\n"
-"    port_http: 80\n"
-"    service:\n"
-"      debian: apache2\n"
-"      rhel: httpd\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:63
-#, no-wrap
-msgid "or from the command line:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:64
-#, no-wrap
-msgid "$ ansible-playbook deploy-http.yml --extra-vars \"service=httpd\"\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:69
-#, no-wrap
-msgid "Once defined, a variable can be used by calling it between double braces:\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_ansible/02-advanced.md:72
-#, no-wrap
-msgid "`{{ port_http }}` for a simple value,\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_ansible/02-advanced.md:72
-#, no-wrap
-msgid "`{{ service['rhel'] }}` or `{{ service.rhel }}` for a dictionary.\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:75
-#, no-wrap
-msgid "- name: make sure apache is started\n"
-"  ansible.builtin.systemd:\n"
-"    name: \"{{ service['rhel'] }}\"\n"
-"    state: started\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:83
-#, no-wrap
-msgid "Of course, it is also possible to access the global variables (the **facts**) of Ansible (OS type, IP addresses, VM name, etc.).\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/learning_ansible/02-advanced.md:84
-#, no-wrap
-msgid "Outsourcing variables"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:87
-#, no-wrap
-msgid "Variables can be included in a file external to the playbook, in which case this file must be defined in the playbook with the `vars_files` directive:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:88
-#, no-wrap
-msgid "---\n"
-"- hosts: apache1\n"
-"  vars_files:\n"
-"    - myvariables.yml\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:96
-#, no-wrap
-msgid "The `myvariables.yml` file:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:97
-#, no-wrap
-msgid "---\n"
-"port_http: 80\n"
-"ansible.builtin.systemd::\n"
-"  debian: apache2\n"
-"  rhel: httpd\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:106
-#, no-wrap
-msgid "It can also be added dynamically with the use of the module `include_vars`:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:107
-#, no-wrap
-msgid "- name: Include secrets.\n"
-"  ansible.builtin.include_vars:\n"
-"    file: vault.yml\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/learning_ansible/02-advanced.md:113
-#, no-wrap
-msgid "Display a variable"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:116
-#, no-wrap
-msgid "To display a variable, you have to activate the `debug` module as follows:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:117
-#, no-wrap
-msgid "- ansible.builtin.debug:\n"
-"    var: \"{{ service['debian'] }}\"\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:123
-#, no-wrap
-msgid "You can also use the variable inside a text:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:124
-#, no-wrap
-msgid "- ansible.builtin.debug:\n"
-"    msg: \"Print a variable in a message : {{ service['debian'] }}\"\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/learning_ansible/02-advanced.md:129
-#, no-wrap
-msgid "Save the return of a task"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:132
-#, no-wrap
-msgid "To save the return of a task and to be able to access it later, you have to use the keyword `register` inside the task itself.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:134
-#, no-wrap
-msgid "Use of a stored variable:\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/learning_ansible/02-advanced.md:135
-#: ../src/docs/books/learning_ansible/02-advanced.md:225
-#, no-wrap
-msgid "name: /home content\n"
-"shell: ls /home\n"
-"register: homes\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:135
-#, no-wrap
-msgid "\n"
-"- name: Print the first directory name\n"
-"  ansible.builtin.debug:\n"
-"    var: homes.stdout_lines[0]\n\n"
-"- name: Print the first directory name\n"
-"  ansible.builtin.debug:\n"
-"    var: homes.stdout_lines[1]\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:152
-#, no-wrap
-msgid "    The variable `homes.stdout_lines` is a list of variables of type string, a way to organize variables that we had not yet encountered.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:154
-#, no-wrap
-msgid "The strings that make up the stored variable can be accessed via the `stdout` value (which allows you to do things like `homes.stdout.find(\"core\") != -1`), to exploit them using a loop (see `loop`), or simply by their indices as seen in the previous example.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_ansible/02-advanced.md:158
-#, no-wrap
-msgid "Write a  playbook `play-vars.yml` that prints the distribution name of the target with its major version, using global variables.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_ansible/02-advanced.md:160
-#: ../src/docs/books/learning_ansible/02-advanced.md:501
-#, no-wrap
-msgid "Write a playbook using the following dictionary to display the services that will be installed:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:161
-#: ../src/docs/books/learning_ansible/02-advanced.md:502
-#, no-wrap
-msgid "service:\n"
-"  web:\n"
-"    name: apache\n"
-"    rpm: httpd\n"
-"  db:\n"
-"    name: mariadb\n"
-"    rpm: mariadb-server\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:172
-#: ../src/docs/books/learning_ansible/02-advanced.md:513
-#, no-wrap
-msgid "The default type should be \"web\".\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_ansible/02-advanced.md:174
-#, no-wrap
-msgid "Override the `type` variable using the command line\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_ansible/02-advanced.md:176
-#: ../src/docs/books/learning_ansible/02-advanced.md:572
-#, no-wrap
-msgid "Externalize variables in a `vars.yml` file\n"
+msgid "- name: change value on inifile\n"
+"  community.general.ini_file:\n"
+"    dest: /path/to/file.ini\n"
+"    section: SECTIONNAME\n"
+"    option: OPTIONNAME\n"
+"    value: NEWVALUE\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/books/learning_ansible/02-advanced.md:177
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:53
 #, no-wrap
-msgid "Loop management"
+msgid "`lineinfile` module"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:180
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:56
 #, no-wrap
-msgid "With the help of loop, you can iterate a task over a list, a hash, or dictionary for example.\n"
+msgid "To ensure that a line is present in a file, or when a single line in a file needs to be added or modified, use the `linefile` module.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:184
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:60
 #, no-wrap
-msgid "    More information can be [found here](https://docs.ansible.com/ansible/latest/user_guide/playbooks_loops.html).\n"
+msgid "    More information can be [found here](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/lineinfile_module.html).\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:186
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:62
 #, no-wrap
-msgid "Simple example of use, creation of 4 users:\n"
+msgid "In this case, the line to be modified in a file will be found using a regexp.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:64
+#, no-wrap
+msgid "For example, to ensure that the line starting with `SELINUX=` in the `/etc/selinux/config` file contains the value `enforcing`:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:187
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:65
 #, no-wrap
-msgid "- name: add users\n"
-"  user:\n"
-"    name: \"{{ item }}\"\n"
-"    state: present\n"
-"    groups: \"users\"\n"
-"  loop:\n"
-"     - antoine\n"
-"     - patrick\n"
-"     - steven\n"
-"     - xavier\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:201
-#, no-wrap
-msgid "At each iteration of the loop, the value of the list used is stored in the `item` variable, accessible in the loop code.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:203
-#, no-wrap
-msgid "Of course, a list can be defined in an external file:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:204
-#, no-wrap
-msgid "users:\n"
-"  - antoine\n"
-"  - patrick\n"
-"  - steven\n"
-"  - xavier\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:213
-#, no-wrap
-msgid "and be used inside the task like this (after having include the vars file):\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:214
-#, no-wrap
-msgid "- name: add users\n"
-"  user:\n"
-"    name: \"{{ item }}\"\n"
-"    state: present\n"
-"    groups: \"users\"\n"
-"  loop: \"{{ users }}\"\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:224
-#, no-wrap
-msgid "We can use the example seen during the study of stored variables to improve it. Use of a stored variable:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:225
-#, no-wrap
-msgid "\n"
-"- name: Print the directories name\n"
-"  ansible.builtin.debug:\n"
-"    msg: \"Directory => {{ item }}\"\n"
-"  loop: \"{{ homes.stdout_lines }}\"\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:237
-#, no-wrap
-msgid "A dictionary can also be used in a loop.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:239
-#, no-wrap
-msgid "In this case, you will have to transform the dictionary into an item with what is called a **jinja filter** (jinja is the templating engine used by Ansible): `| dict2items`.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:241
-#, no-wrap
-msgid "In the loop, it becomes possible to use `item.key` which corresponds to the dictionary key, and `item.value` which corresponds to the values of the key.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:243
-#, no-wrap
-msgid "Let's see this through a concrete example, showing the management of the system users:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:244
-#, no-wrap
-msgid "---\n"
-"- hosts: rocky8\n"
-"  become: true\n"
-"  become_user: root\n"
-"  vars:\n"
-"    users:\n"
-"      antoine:\n"
-"        group: users\n"
-"        state: present\n"
-"      steven:\n"
-"        group: users\n"
-"        state: absent\n\n"
-"  tasks:\n\n"
-"  - name: Manage users\n"
-"    user:\n"
-"      name: \"{{ item.key }}\"\n"
-"      group: \"{{ item.value.group }}\"\n"
-"      state: \"{{ item.value.state }}\"\n"
-"    loop: \"{{ users | dict2items }}\"\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:271
-#, no-wrap
-msgid "    Many things can be done with the loops. You will discover the possibilities offered by loops when your use of Ansible pushes you to use them in a more complex way.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_ansible/02-advanced.md:275
-#: ../src/docs/books/learning_ansible/02-advanced.md:599
-#, no-wrap
-msgid "Display the content of the `service` variable from the previous exercise using a loop.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:279
-#, no-wrap
-msgid "    You will have to transform your `service` variable, which is a dictionary, to a list with the help of the jinja filter `list` as this:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:283
-#: ../src/docs/books/learning_ansible/02-advanced.md:611
-#, no-wrap
-msgid "    ```\n"
-"    {{ service.values() | list }}\n"
-"    ```\n"
+msgid "- ansible.builtin.lineinfile:\n"
+"    path: /etc/selinux/config\n"
+"    regexp: '^SELINUX='\n"
+"    line: 'SELINUX=enforcing'\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/books/learning_ansible/02-advanced.md:284
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:72
 #, no-wrap
-msgid "Conditionals"
+msgid "`copy` module"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:289
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:75
 #, no-wrap
-msgid "    More information can be [found here](https://docs.ansible.com/ansible/latest/user_guide/playbooks_conditionals.html).\n"
+msgid "When a file has to be copied from the Ansible server to one or more hosts, it is better to use the `copy` module.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:291
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:79
 #, no-wrap
-msgid "The `when` statement is very useful in many cases: not performing certain actions on certain types of servers, if a file or a user does not exist, etc.\n"
+msgid "    More information can be [found here](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/copy_module.html).\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:295
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:81
 #, no-wrap
-msgid "    Behind the `when` statement the variables do not need double braces (they are in fact Jinja2 expressions...).\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/learning_ansible/02-advanced.md:296
-#, no-wrap
-msgid "name: \"Reboot only Debian servers\"\n"
-"reboot:\n"
-"when: ansible_os_family == \"Debian\"\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:303
-#, no-wrap
-msgid "Conditions can be grouped with parentheses:\n"
+msgid "Here we are copying `myflile.conf` from one location to another:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:304
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:82
 #, no-wrap
-msgid "- name: \"Reboot only CentOS version 6 and Debian version 7\"\n"
-"  reboot:\n"
-"  when: (ansible_distribution == \"CentOS\" and ansible_distribution_major_version == \"6\") or\n"
-"        (ansible_distribution == \"Debian\" and ansible_distribution_major_version == \"7\")\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:312
-#, no-wrap
-msgid "The conditions corresponding to a logical AND can be provided as a list:\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/learning_ansible/02-advanced.md:313
-#, no-wrap
-msgid "name: \"Reboot only CentOS version 6\"\n"
-"reboot:\n"
-"when:\n"
-msgstr ""
-
-#. type: Bullet: '    - '
-#: ../src/docs/books/learning_ansible/02-advanced.md:313
-#, no-wrap
-msgid "ansible_distribution == \"CentOS\"\n"
-msgstr ""
-
-#. type: Bullet: '    - '
-#: ../src/docs/books/learning_ansible/02-advanced.md:313
-#, no-wrap
-msgid "ansible_distribution_major_version == \"6\"\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:322
-#, no-wrap
-msgid "You can test the value of a boolean and verify that it is true:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:323
-#, no-wrap
-msgid "- name: check if directory exists\n"
-"  stat:\n"
-"    path: /home/ansible\n"
-"  register: directory\n\n"
-"- ansible.builtin.debug:\n"
-"    var: directory\n\n"
-"- ansible.builtin.debug:\n"
-"    msg: The directory exists\n"
-"  when:\n"
-"    - directory.stat.exists\n"
-"    - directory.stat.isdir\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:340
-#, no-wrap
-msgid "You can also test that it is not true:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:341
-#, no-wrap
-msgid "  when:\n"
-"    - file.stat.exists\n"
-"    - not file.stat.isdir\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:348
-#, no-wrap
-msgid "You will probably have to test that a variable exists to avoid execution errors:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:349
-#, no-wrap
-msgid "  when: myboolean is defined and myboolean\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_ansible/02-advanced.md:356
-#: ../src/docs/books/learning_ansible/02-advanced.md:687
-#, no-wrap
-msgid "Print the value of `service.web` only when `type` equals to `web`.\n"
+msgid "- ansible.builtin.copy:\n"
+"    src: /data/ansible/sources/myfile.conf\n"
+"    dest: /etc/myfile.conf\n"
+"    owner: root\n"
+"    group: root\n"
+"    mode: 0644\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/books/learning_ansible/02-advanced.md:357
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:91
 #, no-wrap
-msgid "Managing changes: the `handlers`"
+msgid "`fetch` module"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:362
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:94
 #, no-wrap
-msgid "    More information can be [found here](https://docs.ansible.com/ansible/latest/user_guide/playbooks_handlers.html).\n"
+msgid "When a file has to be copied from a remote server to the local server, it is best to use the `fetch` module.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:364
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:98
 #, no-wrap
-msgid "Handlers allow to launch operations, like restarting a service, when changes occur.\n"
+msgid "    More information can be [found here](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/fetch_module.html).\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:366
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:100
 #, no-wrap
-msgid "A module, being idempotent, a playbook can detect that there has been a significant change on a remote system, and thus trigger an operation in reaction to this change. A notification is sent at the end of a playbook task block, and the reaction operation will be triggered only once even if several tasks send the same notification.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:368
-#, no-wrap
-msgid "![Handlers](images/handlers.png)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:370
-#, no-wrap
-msgid "For example, several tasks may indicate that the `httpd` service needs to be restarted due to a change in its configuration files. But the service will only be restarted once to avoid multiple unnecessary starts.\n"
+msgid "This module does the opposite of the `copy` module:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:371
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:101
 #, no-wrap
-msgid "- name: template configuration file\n"
-"  template:\n"
-"    src: template-site.j2\n"
-"    dest: /etc/httpd/sites-availables/test-site.conf\n"
-"  notify:\n"
-"     - restart memcached\n"
-"     - restart httpd\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:382
-#, no-wrap
-msgid "A handler is a kind of task referenced by a unique global name:\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_ansible/02-advanced.md:385
-#, no-wrap
-msgid "It is activated by one or more notifiers.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_ansible/02-advanced.md:385
-#, no-wrap
-msgid "It does not start immediately, but waits until all tasks are complete to run.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:387
-#, no-wrap
-msgid "Example of handlers:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:388
-#, no-wrap
-msgid "handlers:\n\n"
-"  - name: restart memcached\n"
-"    systemd:\n"
-"      name: memcached\n"
-"      state: restarted\n\n"
-"  - name: restart httpd\n"
-"    systemd:\n"
-"      name: httpd\n"
-"      state: restarted\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:403
-#, no-wrap
-msgid "Since version 2.2 of Ansible, handlers can listen directly as well:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:404
-#, no-wrap
-msgid "handlers:\n\n"
-"  - name: restart memcached\n"
-"    systemd:\n"
-"      name: memcached\n"
-"      state: restarted\n"
-"    listen: \"web services restart\"\n\n"
-"  - name: restart apache\n"
-"    systemd:\n"
-"      name: apache\n"
-"      state: restarted\n"
-"    listen: \"web services restart\"\n\n"
-"tasks:\n"
-"    - name: restart everything\n"
-"      command: echo \"this task will restart the web services\"\n"
-"      notify: \"web services restart\"\n"
+msgid "- ansible.builtin.fetch:\n"
+"    src: /etc/myfile.conf\n"
+"    dest: /data/ansible/backup/myfile-{{ inventory_hostname }}.conf\n"
+"    flat: yes\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/books/learning_ansible/02-advanced.md:425
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:108
 #, no-wrap
-msgid "Asynchronous tasks"
+msgid "`template` module"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:430
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:111
 #, no-wrap
-msgid "    More information can be [found here](https://docs.ansible.com/ansible/latest/user_guide/playbooks_async.html).\n"
+msgid "Ansible and its `template` module use the **Jinja2** template system (http://jinja.pocoo.org/docs/) to generate files on target hosts.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:432
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:115
 #, no-wrap
-msgid "By default, SSH connections to hosts remain open during the execution of various playbook tasks on all nodes.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:434
-#, no-wrap
-msgid "This can cause some problems, especially:\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_ansible/02-advanced.md:437
-#, no-wrap
-msgid "if the execution time of the task is longer than the SSH connection timeout\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_ansible/02-advanced.md:437
-#, no-wrap
-msgid "if the connection is interrupted during the action (server reboot for example)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:439
-#, no-wrap
-msgid "In this case, you will have to switch to asynchronous mode and specify a maximum execution time as well as the frequency (by default 10s) with which you will check the host status.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:441
-#, no-wrap
-msgid "By specifying a poll value of 0, Ansible will execute the task and continue without worrying about the result.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:443
-#, no-wrap
-msgid "Here's an example using asynchronous tasks, which allows you to restart a server and wait for port 22 to be reachable again:\n"
+msgid "    More information can be [found here](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/template_module.html).\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:444
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:118
 #, no-wrap
-msgid "# Wait 2s and launch the reboot\n"
-"- name: Reboot system\n"
-"  shell: sleep 2 && shutdown -r now \"Ansible reboot triggered\"\n"
-"  async: 1\n"
-"  poll: 0\n"
-"  ignore_errors: true\n"
-"  become: true\n"
-"  changed_when: False\n\n"
-"  # Wait the server is available\n"
-"  - name: Waiting for server to restart (10 mins max)\n"
-"    wait_for:\n"
-"      host: \"{{ inventory_hostname }}\"\n"
-"      port: 22\n"
-"      delay: 30\n"
-"      state: started\n"
-"      timeout: 600\n"
-"    delegate_to: localhost\n"
+msgid "- ansible.builtin.template:\n"
+"    src: /data/ansible/templates/monfichier.j2\n"
+"    dest: /etc/myfile.conf\n"
+"    owner: root\n"
+"    group: root\n"
+"    mode: 0644\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:466
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:128
 #, no-wrap
-msgid "You can also decide to launch a long-running task and forget it (fire and forget) because the execution does not matter in the playbook.\n"
+msgid "It is possible to add a validation step if the targeted service allows it (for example apache with the command `apachectl -t`):\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:129
+#, no-wrap
+msgid "- template:\n"
+"    src: /data/ansible/templates/vhost.j2\n"
+"    dest: /etc/httpd/sites-available/vhost.conf\n"
+"    owner: root\n"
+"    group: root\n"
+"    mode: 0644\n"
+"    validate: '/usr/sbin/apachectl -t'\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/books/learning_ansible/02-advanced.md:467
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:139
 #, no-wrap
-msgid "Exercise results"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_ansible/02-advanced.md:470
-#, no-wrap
-msgid "Write a  playbook `play-vars.yml` that print the distribution name of the target with its major version, using global variables.\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:471
-#, no-wrap
-msgid "---\n"
-"- hosts: ansible_clients\n\n"
-"  tasks:\n\n"
-"    - name: Print globales variables\n"
-"      debug:\n"
-"        msg: \"The distribution is {{ ansible_distribution }} version {{ ansible_distribution_major_version }}\"\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:482
-#, no-wrap
-msgid "$ ansible-playbook play-vars.yml\n\n"
-"PLAY [ansible_clients] *********************************************************************************\n\n"
-"TASK [Gathering Facts] *********************************************************************************\n"
-"ok: [192.168.1.11]\n\n"
-"TASK [Print globales variables] ************************************************************************\n"
-"ok: [192.168.1.11] => {\n"
-"    \"msg\": \"The distribution is Rocky version 8\"\n"
-"}\n\n"
-"PLAY RECAP *********************************************************************************************\n"
-"192.168.1.11               : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   \n\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:514
-#, no-wrap
-msgid "---\n"
-"- hosts: ansible_clients\n"
-"  vars:\n"
-"    type: web\n"
-"    service:\n"
-"      web:\n"
-"        name: apache\n"
-"        rpm: httpd\n"
-"      db:\n"
-"        name: mariadb\n"
-"        rpm: mariadb-server\n\n"
-"  tasks:\n\n"
-"    - name: Print a specific entry of a dictionary\n"
-"      debug:\n"
-"        msg: \"The {{ service[type]['name'] }} will be installed with the packages {{ service[type].rpm }}\"\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:534
-#, no-wrap
-msgid "$ ansible-playbook display-dict.yml\n\n"
-"PLAY [ansible_clients] *********************************************************************************\n\n"
-"TASK [Gathering Facts] *********************************************************************************\n"
-"ok: [192.168.1.11]\n\n"
-"TASK [Print a specific entry of a dictionnaire] ********************************************************\n"
-"ok: [192.168.1.11] => {\n"
-"    \"msg\": \"The apache will be installed with the packages httpd\"\n"
-"}\n\n"
-"PLAY RECAP *********************************************************************************************\n"
-"192.168.1.11               : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   \n\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_ansible/02-advanced.md:553
-#, no-wrap
-msgid "Override the `type` variable using the command line:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:554
-#, no-wrap
-msgid "ansible-playbook --extra-vars \"type=db\" display-dict.yml\n\n"
-"PLAY [ansible_clients] *********************************************************************************\n\n"
-"TASK [Gathering Facts] *********************************************************************************\n"
-"ok: [192.168.1.11]\n\n"
-"TASK [Print a specific entry of a dictionary] ********************************************************\n"
-"ok: [192.168.1.11] => {\n"
-"    \"msg\": \"The mariadb will be installed with the packages mariadb-server\"\n"
-"}\n\n"
-"PLAY RECAP *********************************************************************************************\n"
-"192.168.1.11               : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   \n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:573
-#, no-wrap
-msgid "type: web\n"
-"service:\n"
-"  web:\n"
-"    name: apache\n"
-"    rpm: httpd\n"
-"  db:\n"
-"    name: mariadb\n"
-"    rpm: mariadb-server\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:584
-#, no-wrap
-msgid "---\n"
-"- hosts: ansible_clients\n"
-"  vars_files:\n"
-"    - vars.yml\n\n"
-"  tasks:\n\n"
-"    - name: Print a specific entry of a dictionary\n"
-"      debug:\n"
-"        msg: \"The {{ service[type]['name'] }} will be installed with the packages {{ service[type].rpm }}\"\n"
+msgid "`get_url` module"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:603
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:142
 #, no-wrap
-msgid "    You will have to transform your `service` variable, which is a dictionary, to an item or a list with the help of the jinja filters `dict2items` or `list` as this:\n"
+msgid "To upload files from a web site or ftp to one or more hosts, use the `get_url` module:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:143
+#, no-wrap
+msgid "- get_url:\n"
+"    url: http://site.com/archive.zip\n"
+"    dest: /tmp/archive.zip\n"
+"    mode: 0640\n"
+"    checksum: sha256:f772bd36185515581aa9a2e4b38fb97940ff28764900ba708e68286121770e9a\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:607
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:151
 #, no-wrap
-msgid "    ```\n"
-"    {{ service | dict2items }}\n"
-"    ```\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:613
-#, no-wrap
-msgid "With `dict2items`:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:614
-#, no-wrap
-msgid "---\n"
-"- hosts: ansible_clients\n"
-"  vars_files:\n"
-"    - vars.yml\n\n"
-"  tasks:\n\n"
-"    - name: Print a dictionary variable with a loop\n"
-"      debug:\n"
-"        msg: \"{{item.key }} | The {{ item.value.name }} will be installed with the packages {{ item.value.rpm }}\"\n"
-"      loop: \"{{ service | dict2items }}\"              \n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:628
-#, no-wrap
-msgid "$ ansible-playbook display-dict.yml\n\n"
-"PLAY [ansible_clients] *********************************************************************************\n\n"
-"TASK [Gathering Facts] *********************************************************************************\n"
-"ok: [192.168.1.11]\n\n"
-"TASK [Print a dictionary variable with a loop] ********************************************************\n"
-"ok: [192.168.1.11] => (item={'key': 'web', 'value': {'name': 'apache', 'rpm': 'httpd'}}) => {\n"
-"    \"msg\": \"web | The apache will be installed with the packages httpd\"\n"
-"}\n"
-"ok: [192.168.1.11] => (item={'key': 'db', 'value': {'name': 'mariadb', 'rpm': 'mariadb-server'}}) => {\n"
-"    \"msg\": \"db | The mariadb will be installed with the packages mariadb-server\"\n"
-"}\n\n"
-"PLAY RECAP *********************************************************************************************\n"
-"192.168.1.11               : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   \n\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_ansible/02-advanced.md:650
-#, no-wrap
-msgid "With `list`:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:651
-#, no-wrap
-msgid "---\n"
-"- hosts: ansible_clients\n"
-"  vars_files:\n"
-"    - vars.yml\n\n"
-"  tasks:\n\n"
-"    - name: Print a dictionary variable with a loop\n"
-"      debug:\n"
-"        msg: \"The {{ item.name }} will be installed with the packages {{ item.rpm }}\"\n"
-"      loop: \"{{ service.values() | list}}\"\n"
-"~                                                 \n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:666
-#, no-wrap
-msgid "$ ansible-playbook display-dict.yml\n\n"
-"PLAY [ansible_clients] *********************************************************************************\n\n"
-"TASK [Gathering Facts] *********************************************************************************\n"
-"ok: [192.168.1.11]\n\n"
-"TASK [Print a dictionary variable with a loop] ********************************************************\n"
-"ok: [192.168.1.11] => (item={'name': 'apache', 'rpm': 'httpd'}) => {\n"
-"    \"msg\": \"The apache will be installed with the packages httpd\"\n"
-"}\n"
-"ok: [192.168.1.11] => (item={'name': 'mariadb', 'rpm': 'mariadb-server'}) => {\n"
-"    \"msg\": \"The mariadb will be installed with the packages mariadb-server\"\n"
-"}\n\n"
-"PLAY RECAP *********************************************************************************************\n"
-"192.168.1.11               : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   \n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:688
-#, no-wrap
-msgid "---\n"
-"- hosts: ansible_clients\n"
-"  vars_files:\n"
-"    - vars.yml\n\n"
-"  tasks:\n\n"
-"    - name: Print a dictionary variable\n"
-"      debug:\n"
-"        msg: \"The {{ service.web.name }} will be installed with the packages {{ service.web.rpm }}\"\n"
-"      when: type == \"web\"\n\n\n"
-"    - name: Print a dictionary variable\n"
-"      debug:\n"
-"        msg: \"The {{ service.db.name }} will be installed with the packages {{ service.db.rpm }}\"\n"
-"      when: type == \"db\"\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/learning_ansible/02-advanced.md:708
-#, no-wrap
-msgid "$ ansible-playbook display-dict.yml\n\n"
-"PLAY [ansible_clients] *********************************************************************************\n\n"
-"TASK [Gathering Facts] *********************************************************************************\n"
-"ok: [192.168.1.11]\n\n"
-"TASK [Print a dictionary variable] ********************************************************************\n"
-"ok: [192.168.1.11] => {\n"
-"    \"msg\": \"The apache will be installed with the packages httpd\"\n"
-"}\n\n"
-"TASK [Print a dictionary variable] ********************************************************************\n"
-"skipping: [192.168.1.11]\n\n"
-"PLAY RECAP *********************************************************************************************\n"
-"192.168.1.11               : ok=2    changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   \n\n"
-"$ ansible-playbook --extra-vars \"type=db\" display-dict.yml\n\n"
-"PLAY [ansible_clients] *********************************************************************************\n\n"
-"TASK [Gathering Facts] *********************************************************************************\n"
-"ok: [192.168.1.11]\n\n"
-"TASK [Print a dictionary variable] ********************************************************************\n"
-"skipping: [192.168.1.11]\n\n"
-"TASK [Print a dictionary variable] ********************************************************************\n"
-"ok: [192.168.1.11] => {\n"
-"    \"msg\": \"The mariadb will be installed with the packages mariadb-server\"\n"
-"}\n\n"
-"PLAY RECAP *********************************************************************************************\n"
-"192.168.1.11               : ok=2    changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   \n"
+msgid "By providing a checksum of the file, the file will not be re-downloaded if it is already present at the destination location and its checksum matches the value provided.\n"
 msgstr ""
 
