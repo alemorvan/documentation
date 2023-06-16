@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-16 15:06+0000\n"
+"POT-Creation-Date: 2023-06-16 15:40+0000\n"
 "PO-Revision-Date: 2023-06-16 15:06+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -436,13 +436,13 @@ msgstr ""
 msgid "!!! Warning\n"
 msgstr ""
 
-#. type: YAML Front Matter: contributors
+#. type: Yaml Front Matter Hash Value: contributors
 #: ../src/docs/books/admin_guide/13-softwares.md:1
 #, no-wrap
 msgid "Colussi Franco, Steven Spencer"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/books/admin_guide/13-softwares.md:1
 #: ../src/docs/books/learning_bash/00-toc.md:1
 #: ../src/docs/books/learning_bash/01-first-script.md:1
@@ -457,13 +457,13 @@ msgstr ""
 msgid "education"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/books/admin_guide/13-softwares.md:1
 #, no-wrap
 msgid "software"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/books/admin_guide/13-softwares.md:1
 #: ../src/docs/labs/sys_admin_1/lab7-software_management.md:1
 #, no-wrap

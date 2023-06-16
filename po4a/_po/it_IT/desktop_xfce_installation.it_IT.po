@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-16 15:06+0000\n"
+"POT-Creation-Date: 2023-06-16 15:40+0000\n"
 "PO-Revision-Date: 2023-06-16 15:06+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -104,7 +104,7 @@ msgid ""
 "    ```\n"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/guides/desktop/kde_installation.md:1
 #: ../src/docs/guides/desktop/mate_installation.md:1
 #: ../src/docs/guides/desktop/xfce_installation.md:1
@@ -251,19 +251,19 @@ msgstr ""
 msgid "    ## 8: Final Steps\n"
 msgstr ""
 
-#. type: YAML Front Matter: contributors
+#. type: Yaml Front Matter Hash Value: contributors
 #: ../src/docs/guides/desktop/xfce_installation.md:1
 #, no-wrap
 msgid "Steven Spencer, Antoine Le Morvan, K.Prasad"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/guides/desktop/xfce_installation.md:1
 #, no-wrap
 msgid "xfce"
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: ../src/docs/guides/desktop/xfce_installation.md:1
 #, no-wrap
 msgid "XFCE Desktop"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-16 15:06+0000\n"
+"POT-Creation-Date: 2023-06-16 15:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -131,32 +131,32 @@ msgstr ""
 msgid "=== \"8\"\n"
 msgstr ""
 
-#. type: YAML Front Matter: contributors
+#. type: Yaml Front Matter Hash Value: contributors
 #: ../src/docs/guides/network/basic_network_configuration.md:1
 #, no-wrap
 msgid "Steven Spencer, Hayden Young"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/guides/network/basic_network_configuration.md:1
 #, no-wrap
 msgid "networking"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/guides/network/basic_network_configuration.md:1
 #, no-wrap
 msgid "configuration"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/guides/network/basic_network_configuration.md:1
 #: ../src/docs/guides/network/librenms_monitoring_server.md:1
 #, no-wrap
 msgid "network"
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: ../src/docs/guides/network/basic_network_configuration.md:1
 #, no-wrap
 msgid "Network Configuration"

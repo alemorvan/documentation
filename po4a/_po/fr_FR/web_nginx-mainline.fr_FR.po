@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-16 15:06+0000\n"
+"POT-Creation-Date: 2023-06-16 15:40+0000\n"
 "PO-Revision-Date: 2023-06-16 15:06+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -281,7 +281,7 @@ msgstr ""
 msgid "Introduction"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/guides/automation/olivetin.md:1
 #: ../src/docs/guides/file_sharing/sftp.md:1
 #: ../src/docs/guides/web/apache-sites-enabled.md:1
@@ -352,7 +352,7 @@ msgstr ""
 msgid "sudo setenforce 0\n"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
 #: ../src/docs/guides/web/nginx-mainline.md:1
 #: ../src/docs/guides/web/nginx-multisite.md:1
@@ -360,13 +360,13 @@ msgstr ""
 msgid "nginx"
 msgstr ""
 
-#. type: YAML Front Matter: contributors
+#. type: Yaml Front Matter Hash Value: contributors
 #: ../src/docs/guides/web/nginx-mainline.md:1
 #, no-wrap
 msgid "Antoine Le Morvan, Steven Spencer"
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: ../src/docs/guides/web/nginx-mainline.md:1
 #, no-wrap
 msgid "Nginx"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-16 15:06+0000\n"
+"POT-Creation-Date: 2023-06-16 15:40+0000\n"
 "PO-Revision-Date: 2023-06-16 15:06+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -61,7 +61,7 @@ msgstr ""
 msgid "Conclusion"
 msgstr ""
 
-#. type: YAML Front Matter: contributors
+#. type: Yaml Front Matter Hash Value: contributors
 #: ../src/docs/books/lxd_server/00-toc.md:1
 #: ../src/docs/books/lxd_server/01-install.md:1
 #: ../src/docs/books/lxd_server/02-zfs_setup.md:1
@@ -98,7 +98,7 @@ msgstr ""
 msgid "Ezequiel Bruni"
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: ../src/docs/gemstones/bash_stub.md:1
 #, no-wrap
 msgid "bash - Script Stub"

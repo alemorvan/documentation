@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-16 15:06+0000\n"
+"POT-Creation-Date: 2023-06-16 15:40+0000\n"
 "PO-Revision-Date: 2023-06-16 15:06+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -81,7 +81,7 @@ msgstr ""
 msgid "Introduction"
 msgstr ""
 
-#. type: YAML Front Matter: contributors
+#. type: Yaml Front Matter Hash Value: contributors
 #: ../src/docs/books/lxd_server/30-appendix_a.md:1
 #: ../src/docs/gemstones/dnf-swap.md:1 ../src/docs/gemstones/docker.md:1
 #: ../src/docs/gemstones/rpaste.md:1
@@ -91,57 +91,57 @@ msgstr ""
 msgid "Colussi Franco"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/gemstones/dnf-swap.md:1
 #, no-wrap
 msgid "cloud images"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/gemstones/dnf-swap.md:1
 #: ../src/docs/guides/containers/podman-nextcloud.md:1
 #, no-wrap
 msgid "containers"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/gemstones/dnf-swap.md:1
 #: ../src/docs/guides/security/dnf_automatic.md:1
 #, no-wrap
 msgid "dnf"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/gemstones/dnf-swap.md:1
 #, no-wrap
 msgid "dnf swap"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/gemstones/dnf-swap.md:1
 #, no-wrap
 msgid "curl"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/gemstones/dnf-swap.md:1
 #, no-wrap
 msgid "curl-minimal"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/gemstones/dnf-swap.md:1
 #, no-wrap
 msgid "allowerasing"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/gemstones/dnf-swap.md:1
 #, no-wrap
 msgid "coreutils-single"
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: ../src/docs/gemstones/dnf-swap.md:1
 #, no-wrap
 msgid "dnf - swap command"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-16 15:06+0000\n"
+"POT-Creation-Date: 2023-06-16 15:40+0000\n"
 "PO-Revision-Date: 2023-06-16 15:06+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -217,7 +217,7 @@ msgstr ""
 msgid "Conclusion"
 msgstr ""
 
-#. type: YAML Front Matter: contributors
+#. type: Yaml Front Matter Hash Value: contributors
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:1
 #: ../src/docs/books/disa_stig/disa_stig_part3.md:1
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:1
@@ -341,7 +341,7 @@ msgstr ""
 msgid "Introduction"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/books/learning_bash/00-toc.md:1
 #: ../src/docs/books/learning_bash/01-first-script.md:1
 #: ../src/docs/books/learning_bash/02-using-variables.md:1
@@ -358,7 +358,7 @@ msgstr ""
 msgid "bash"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/guides/automation/cron_jobs_howto.md:1
 #: ../src/docs/guides/automation/olivetin.md:1
 #: ../src/docs/guides/security/dnf_automatic.md:1
@@ -374,7 +374,7 @@ msgstr ""
 msgid "A computer running Rocky Linux\n"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/guides/automation/olivetin.md:1
 #: ../src/docs/guides/file_sharing/sftp.md:1
 #: ../src/docs/guides/web/apache-sites-enabled.md:1
@@ -387,7 +387,7 @@ msgstr ""
 msgid "web"
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: ../src/docs/guides/automation/olivetin.md:1
 #, no-wrap
 msgid "OliveTin"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-16 15:06+0000\n"
+"POT-Creation-Date: 2023-06-16 15:40+0000\n"
 "PO-Revision-Date: 2023-06-16 15:06+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -133,7 +133,7 @@ msgstr ""
 msgid "!!! tip\n"
 msgstr ""
 
-#. type: YAML Front Matter: contributors
+#. type: Yaml Front Matter Hash Value: contributors
 #: ../src/docs/books/lxd_server/00-toc.md:1
 #: ../src/docs/books/lxd_server/01-install.md:1
 #: ../src/docs/books/lxd_server/02-zfs_setup.md:1
@@ -225,20 +225,20 @@ msgstr ""
 msgid "Prerequisites"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/gemstones/systemd_service_for_python_script.md:1
 #: ../src/docs/guides/automation/cron_jobs_howto.md:1
 #, no-wrap
 msgid "cron"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/guides/automation/cron_jobs_howto.md:1
 #, no-wrap
 msgid "job automation"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/guides/automation/cron_jobs_howto.md:1
 #: ../src/docs/guides/automation/olivetin.md:1
 #: ../src/docs/guides/security/dnf_automatic.md:1
@@ -246,7 +246,7 @@ msgstr ""
 msgid "automation"
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: ../src/docs/guides/automation/cron_jobs_howto.md:1
 #, no-wrap
 msgid "cron - Automating Commands"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-16 15:06+0000\n"
+"POT-Creation-Date: 2023-06-16 15:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,7 +80,7 @@ msgstr ""
 msgid "Introduction"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/books/learning_bash/00-toc.md:1
 #: ../src/docs/books/learning_bash/01-first-script.md:1
 #: ../src/docs/books/learning_bash/02-using-variables.md:1
@@ -95,7 +95,7 @@ msgstr ""
 msgid "bash scripting"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/books/learning_bash/00-toc.md:1
 #: ../src/docs/books/learning_bash/01-first-script.md:1
 #: ../src/docs/books/learning_bash/02-using-variables.md:1
@@ -130,19 +130,19 @@ msgstr ""
 msgid "!!! tip\n"
 msgstr ""
 
-#. type: YAML Front Matter: contributors
+#. type: Yaml Front Matter Hash Value: contributors
 #: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:1
 #, no-wrap
 msgid "Antoine Le Morvan"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:1
 #, no-wrap
 msgid "variables example"
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:1
 #, no-wrap
 msgid "Variables - Use With Logs"

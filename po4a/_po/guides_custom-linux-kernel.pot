@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-16 15:06+0000\n"
+"POT-Creation-Date: 2023-06-16 15:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -191,26 +191,26 @@ msgstr ""
 msgid "!!! TIP\n"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/gemstones/view_kernel_conf.md:1
 #: ../src/docs/guides/custom-linux-kernel.md:1
 #, no-wrap
 msgid "kernel"
 msgstr ""
 
-#. type: YAML Front Matter: contributors
+#. type: Yaml Front Matter Hash Value: contributors
 #: ../src/docs/guides/custom-linux-kernel.md:1
 #, no-wrap
 msgid "Steven Spencer, Louis Abel"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/guides/custom-linux-kernel.md:1
 #, no-wrap
 msgid "custom kernel"
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: ../src/docs/guides/custom-linux-kernel.md:1
 #, no-wrap
 msgid "Building and Installing Custom Linux Kernels"

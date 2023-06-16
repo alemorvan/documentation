@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-16 15:06+0000\n"
+"POT-Creation-Date: 2023-06-16 15:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/guides/cms/dokuwiki_server.md:1
 #: ../src/docs/guides/contribute/beginners.md:1
 #: ../src/docs/guides/contribute/createnew.md:1
@@ -26,33 +26,33 @@ msgstr ""
 msgid "documentation"
 msgstr ""
 
-#. type: YAML Front Matter: contributors
+#. type: Yaml Front Matter Hash Value: contributors
 #: ../src/docs/guides/containers/podman-nextcloud.md:1
 #: ../src/docs/guides/contribute/beginners.md:1
 #, no-wrap
 msgid "Ezequiel Bruni, Steven Spencer"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/guides/contribute/beginners.md:1
 #: ../src/docs/guides/contribute/createnew.md:1
 #, no-wrap
 msgid "contributing"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/guides/contribute/beginners.md:1
 #, no-wrap
 msgid "beginners"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/guides/contribute/beginners.md:1
 #, no-wrap
 msgid "howto"
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: ../src/docs/guides/contribute/beginners.md:1
 #, no-wrap
 msgid "First Time Contributors Guide"

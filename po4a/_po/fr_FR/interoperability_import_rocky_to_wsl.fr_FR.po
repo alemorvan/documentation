@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-16 15:06+0000\n"
+"POT-Creation-Date: 2023-06-16 15:40+0000\n"
 "PO-Revision-Date: 2023-06-16 15:06+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -50,31 +50,31 @@ msgstr ""
 msgid "Prerequisites"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:1
 #, no-wrap
 msgid "wsl"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:1
 #, no-wrap
 msgid "wsl2"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:1
 #, no-wrap
 msgid "windows"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:1
 #, no-wrap
 msgid "interoperability"
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:1
 #, no-wrap
 msgid "Import Rocky Linux to WSL or WSL2"

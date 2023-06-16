@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-16 15:06+0000\n"
+"POT-Creation-Date: 2023-06-16 15:40+0000\n"
 "PO-Revision-Date: 2023-06-16 15:06+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -236,7 +236,7 @@ msgid ""
 "  rich rules:\n"
 msgstr ""
 
-#. type: YAML Front Matter: contributors
+#. type: Yaml Front Matter Hash Value: contributors
 #: ../src/docs/books/lxd_server/30-appendix_a.md:1
 #: ../src/docs/gemstones/dnf-swap.md:1 ../src/docs/gemstones/docker.md:1
 #: ../src/docs/gemstones/rpaste.md:1
@@ -278,19 +278,19 @@ msgstr ""
 msgid "vi /etc/httpd/conf/httpd.conf\n"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/guides/proxies/pound.md:1
 #, no-wrap
 msgid "proxy"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/guides/proxies/pound.md:1
 #, no-wrap
 msgid "proxies"
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: ../src/docs/guides/proxies/pound.md:1
 #, no-wrap
 msgid "Pound"

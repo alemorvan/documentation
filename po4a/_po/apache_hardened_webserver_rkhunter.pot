@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-16 15:06+0000\n"
+"POT-Creation-Date: 2023-06-16 15:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,7 +74,7 @@ msgstr ""
 msgid "Conclusion"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:1
 #: ../src/docs/books/disa_stig/disa_stig_part3.md:1
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:1
@@ -160,7 +160,7 @@ msgstr ""
 msgid "Introduction"
 msgstr ""
 
-#. type: YAML Front Matter: contributors
+#. type: Yaml Front Matter Hash Value: contributors
 #: ../src/docs/books/lxd_server/00-toc.md:1
 #: ../src/docs/books/lxd_server/01-install.md:1
 #: ../src/docs/books/lxd_server/02-zfs_setup.md:1
@@ -258,13 +258,13 @@ msgstr ""
 msgid "All commands are run as the root user or sudo\n"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
 #, no-wrap
 msgid "server"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
 #, no-wrap
 msgid "rkhunter"

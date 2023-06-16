@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-16 15:06+0000\n"
+"POT-Creation-Date: 2023-06-16 15:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -185,7 +185,7 @@ msgstr ""
 msgid "Introduction"
 msgstr ""
 
-#. type: YAML Front Matter: contributors
+#. type: Yaml Front Matter Hash Value: contributors
 #: ../src/docs/books/lxd_server/00-toc.md:1
 #: ../src/docs/books/lxd_server/01-install.md:1
 #: ../src/docs/books/lxd_server/02-zfs_setup.md:1
@@ -247,13 +247,13 @@ msgstr ""
 msgid "And then start it:\n"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/guides/cms/dokuwiki_server.md:1
 #, no-wrap
 msgid "wiki"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/guides/cms/dokuwiki_server.md:1
 #: ../src/docs/guides/contribute/beginners.md:1
 #: ../src/docs/guides/contribute/createnew.md:1
@@ -263,7 +263,7 @@ msgstr ""
 msgid "documentation"
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: ../src/docs/guides/cms/dokuwiki_server.md:1
 #, no-wrap
 msgid "DokuWiki"

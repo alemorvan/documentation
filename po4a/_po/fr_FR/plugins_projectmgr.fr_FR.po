@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-16 15:06+0000\n"
+"POT-Creation-Date: 2023-06-16 15:40+0000\n"
 "PO-Revision-Date: 2023-06-16 15:06+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -74,7 +74,7 @@ msgstr ""
 msgid "!!! Warning\n"
 msgstr ""
 
-#. type: YAML Front Matter: contributors
+#. type: Yaml Front Matter Hash Value: contributors
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:1
 #: ../src/docs/books/disa_stig/disa_stig_part3.md:1
 #: ../src/docs/books/disa_stig/disa_stig_part1.md:1
@@ -198,7 +198,7 @@ msgstr ""
 msgid "Introduction"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/books/nvchad/additional_software.md:1
 #: ../src/docs/books/nvchad/index.md:1
 #: ../src/docs/books/nvchad/install_nvchad.md:1
@@ -217,7 +217,7 @@ msgstr ""
 msgid "nvchad"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/books/nvchad/index.md:1
 #: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:1
 #: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:1
@@ -229,7 +229,7 @@ msgstr ""
 msgid "editor"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:1
 #: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:1
 #: ../src/docs/books/nvchad/plugins/index.md:1

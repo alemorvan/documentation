@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
-"POT-Creation-Date: 2023-06-16 15:06+0000\n"
+"POT-Creation-Date: 2023-06-16 15:40+0000\n"
 "PO-Revision-Date: 2023-06-16 15:06+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -164,27 +164,27 @@ msgstr ""
 msgid "`crontab -e`\n"
 msgstr ""
 
-#. type: YAML Front Matter: contributors
+#. type: Yaml Front Matter Hash Value: contributors
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:1
 #: ../src/docs/guides/backup/rsync_ssh.md:1
 #, no-wrap
 msgid "Ezequiel Bruni, tianci li"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/guides/backup/mirroring_lsyncd.md:1
 #: ../src/docs/guides/backup/rsync_ssh.md:1
 #, no-wrap
 msgid "synchronization"
 msgstr ""
 
-#. type: YAML Front Matter: tags
+#. type: Yaml Front Matter Array Element: tags
 #: ../src/docs/guides/backup/rsync_ssh.md:1
 #, no-wrap
 msgid "rsync"
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: ../src/docs/guides/backup/rsync_ssh.md:1
 #, no-wrap
 msgid "Synchronization With rsync"
