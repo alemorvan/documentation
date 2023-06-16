@@ -13,163 +13,112 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/proxies_haproxy_apache_lxd.pot\n"
-"X-Crowdin-File-ID: 1501\n"
+"X-Crowdin-File: /po4a/po4a/_po/proxies_pound.pot\n"
+"X-Crowdin-File-ID: 1503\n"
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/04-advanced-commands.md:43
-#: ../src/docs/books/admin_guide/04-advanced-commands.md:220
-#: ../src/docs/books/admin_guide/04-advanced-commands.md:271
-#: ../src/docs/books/admin_guide/04-advanced-commands.md:334
-#: ../src/docs/books/admin_guide/05-vi.md:70
-#: ../src/docs/books/admin_guide/05-vi.md:206
-#: ../src/docs/books/admin_guide/05-vi.md:272
-#: ../src/docs/books/admin_guide/06-users.md:36
-#: ../src/docs/books/admin_guide/06-users.md:92
-#: ../src/docs/books/admin_guide/06-users.md:220
-#: ../src/docs/books/admin_guide/06-users.md:350
-#: ../src/docs/books/admin_guide/06-users.md:598
-#: ../src/docs/books/admin_guide/06-users.md:754
-#: ../src/docs/books/admin_guide/06-users.md:818
-#: ../src/docs/books/admin_guide/11-tasks.md:174
-#: ../src/docs/books/admin_guide/12-network.md:158
-#: ../src/docs/books/admin_guide/03-commands.md:516
-#: ../src/docs/books/admin_guide/03-commands.md:693
-#: ../src/docs/books/admin_guide/03-commands.md:1216
-#: ../src/docs/books/admin_guide/03-commands.md:1262
-#: ../src/docs/books/admin_guide/03-commands.md:1297
-#: ../src/docs/books/admin_guide/07-file-systems.md:395
-#: ../src/docs/books/admin_guide/07-file-systems.md:437
-#: ../src/docs/books/admin_guide/07-file-systems.md:447
-#: ../src/docs/books/admin_guide/07-file-systems.md:515
-#: ../src/docs/books/admin_guide/07-file-systems.md:556
-#: ../src/docs/books/admin_guide/07-file-systems.md:627
-#: ../src/docs/books/admin_guide/07-file-systems.md:653
-#: ../src/docs/books/admin_guide/07-file-systems.md:672
-#: ../src/docs/books/admin_guide/07-file-systems.md:676
-#: ../src/docs/books/admin_guide/07-file-systems.md:1019
-#: ../src/docs/books/admin_guide/08-process.md:49
-#: ../src/docs/books/admin_guide/08-process.md:238
-#: ../src/docs/books/admin_guide/09-backups.md:27
-#: ../src/docs/books/admin_guide/09-backups.md:116
-#: ../src/docs/books/admin_guide/09-backups.md:133
-#: ../src/docs/books/admin_guide/09-backups.md:148
-#: ../src/docs/books/admin_guide/09-backups.md:281
-#: ../src/docs/books/admin_guide/09-backups.md:285
-#: ../src/docs/books/admin_guide/09-backups.md:301
-#: ../src/docs/books/admin_guide/09-backups.md:342
-#: ../src/docs/books/admin_guide/09-backups.md:352
-#: ../src/docs/books/admin_guide/09-backups.md:554
-#: ../src/docs/books/admin_guide/09-backups.md:771
-#: ../src/docs/books/admin_guide/10-boot.md:114
-#: ../src/docs/books/admin_guide/10-boot.md:153
-#: ../src/docs/books/admin_guide/10-boot.md:165
-#: ../src/docs/books/admin_guide/13-softwares.md:22
-#: ../src/docs/books/learning_ansible/01-basic.md:51
-#: ../src/docs/books/learning_ansible/01-basic.md:104
-#: ../src/docs/books/learning_ansible/01-basic.md:112
-#: ../src/docs/books/learning_ansible/01-basic.md:328
-#: ../src/docs/books/learning_ansible/01-basic.md:415
-#: ../src/docs/books/learning_ansible/01-basic.md:492
-#: ../src/docs/books/learning_ansible/01-basic.md:633
-#: ../src/docs/books/learning_ansible/01-basic.md:656
-#: ../src/docs/books/learning_ansible/02-advanced.md:34
-#: ../src/docs/books/learning_ansible/02-advanced.md:150
-#: ../src/docs/books/learning_ansible/02-advanced.md:182
-#: ../src/docs/books/learning_ansible/02-advanced.md:269
-#: ../src/docs/books/learning_ansible/02-advanced.md:277
-#: ../src/docs/books/learning_ansible/02-advanced.md:287
-#: ../src/docs/books/learning_ansible/02-advanced.md:293
-#: ../src/docs/books/learning_ansible/02-advanced.md:360
-#: ../src/docs/books/learning_ansible/02-advanced.md:428
-#: ../src/docs/books/learning_ansible/02-advanced.md:601
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:33
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:58
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:77
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:96
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:113
-#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:65
-#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:432
-#: ../src/docs/books/learning_ansible/05-deployments.md:41
-#: ../src/docs/books/learning_ansible/05-deployments.md:124
-#: ../src/docs/books/learning_ansible/05-deployments.md:196
-#: ../src/docs/books/learning_ansible/05-deployments.md:616
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:36
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:40
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:80
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:214
-#: ../src/docs/books/learning_ansible/07-working-with-filters.md:32
-#: ../src/docs/books/learning_ansible/07-working-with-filters.md:75
-#: ../src/docs/books/learning_bash/02-using-variables.md:153
-#: ../src/docs/books/learning_bash/02-using-variables.md:193
-#: ../src/docs/books/learning_bash/05-tests.md:245
-#: ../src/docs/books/learning_bash/07-loops.md:180
-#: ../src/docs/books/lxd_server/04-firewall.md:80
-#: ../src/docs/books/nvchad/plugins/md_preview.md:140
-#: ../src/docs/books/nvchad/template_chadrc.md:239
-#: ../src/docs/gemstones/https_rsa_keygen.md:34
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:80
-#: ../src/docs/guides/8_6_installation.md:37
-#: ../src/docs/guides/8_6_installation.md:168
-#: ../src/docs/guides/8_6_installation.md:176
-#: ../src/docs/guides/8_6_installation.md:182
-#: ../src/docs/guides/8_6_installation.md:250
-#: ../src/docs/guides/automation/olivetin.md:60
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:307
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:323
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:486
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:533
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:667
-#: ../src/docs/guides/containers/lxd_web_servers.md:35
-#: ../src/docs/guides/containers/lxd_web_servers.md:45
-#: ../src/docs/guides/containers/lxd_web_servers.md:301
-#: ../src/docs/guides/containers/lxd_web_servers.md:352
-#: ../src/docs/guides/containers/lxd_web_servers.md:605
-#: ../src/docs/guides/containers/lxd_web_servers.md:665
-#: ../src/docs/guides/containers/lxd_web_servers.md:737
-#: ../src/docs/guides/containers/lxd_web_servers.md:796
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:53
-#: ../src/docs/guides/contribute/navigation.md:60
-#: ../src/docs/guides/custom-linux-kernel.md:453
-#: ../src/docs/guides/editors/micro.md:30
-#: ../src/docs/guides/file_sharing/glusterfs.md:46
-#: ../src/docs/guides/file_sharing/glusterfs.md:64
-#: ../src/docs/guides/file_sharing/glusterfs.md:102
-#: ../src/docs/guides/file_sharing/glusterfs.md:203
-#: ../src/docs/guides/installation.md:36 ../src/docs/guides/installation.md:175
-#: ../src/docs/guides/installation.md:183
-#: ../src/docs/guides/installation.md:193
-#: ../src/docs/guides/installation.md:266
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
-#: ../src/docs/guides/security/firewalld-beginners.md:89
-#: ../src/docs/guides/security/firewalld-beginners.md:144
-#: ../src/docs/guides/security/firewalld-beginners.md:258
-#: ../src/docs/guides/security/firewalld.md:51
-#: ../src/docs/guides/security/firewalld.md:94
-#: ../src/docs/guides/security/firewalld.md:228
-#: ../src/docs/guides/security/firewalld.md:372
-#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:72
-#: ../src/docs/guides/security/learning_selinux.md:137
-#: ../src/docs/guides/security/learning_selinux.md:253
-#: ../src/docs/guides/security/learning_selinux.md:356
-#: ../src/docs/guides/virtualization/vbox-rocky.md:27
-#: ../src/docs/guides/web/nginx-mainline.md:30
-#: ../src/docs/guides/web/nginx-mainline.md:99
-#: ../src/docs/guides/web/nginx-mainline.md:141
-#: ../src/docs/guides/web/nginx-mainline.md:254
-#: ../src/docs/guides/web/nginx-mainline.md:333
-#: ../src/docs/guides/web/nginx-multisite.md:73
-#: ../src/docs/guides/web/nginx-multisite.md:233
-#: ../src/docs/guides/web/nginx-multisite.md:292
-#: ../src/docs/guides/web/nginx-multisite.md:302
-#: ../src/docs/guides/web/php.md:33 ../src/docs/guides/web/php.md:76
-#: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
-#: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
-#: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
+#: ../src/docs/books/admin_guide/06-users.md:308
+#: ../src/docs/books/admin_guide/06-users.md:644
+#: ../src/docs/books/admin_guide/07-file-systems.md:195
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:30
+#: ../src/docs/books/learning_bash/01-first-script.md:46
+#: ../src/docs/books/learning_bash/01-first-script.md:77
+#: ../src/docs/books/learning_bash/02-using-variables.md:185
+#: ../src/docs/books/learning_bash/05-tests.md:63
+#: ../src/docs/books/lxd_server/07-configurations.md:102
+#: ../src/docs/books/nvchad/install_nvchad.md:182
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:53
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:133
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:153
+#: ../src/docs/guides/automation/cron_jobs_howto.md:83
+#: ../src/docs/guides/automation/cron_jobs_howto.md:125
+#: ../src/docs/guides/automation/cron_jobs_howto.md:160
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:44
+#: ../src/docs/guides/cms/dokuwiki_server.md:216
+#: ../src/docs/guides/communications/asterisk_installation.md:12
+#: ../src/docs/guides/containers/podman-nextcloud.md:361
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:72
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:350
+#: ../src/docs/guides/desktop/kde_installation.md:16
+#: ../src/docs/guides/file_sharing/sftp.md:54
+#: ../src/docs/guides/file_sharing/sftp.md:129
+#: ../src/docs/guides/file_sharing/sftp.md:321
+#: ../src/docs/guides/proxies/pound.md:62
+#: ../src/docs/guides/proxies/pound.md:418 ../src/docs/index.md:40
+#: ../src/docs/release_notes/9_1.md:16
 #, no-wrap
-msgid "!!! Note\n"
+msgid "!!! note\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/13-softwares.md:900
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:105
+#: ../src/docs/books/nvchad/template_chadrc.md:352
+#: ../src/docs/gemstones/bash_stub.md:103
+#: ../src/docs/gemstones/perl_search_replace.md:38
+#: ../src/docs/gemstones/sed_search_replace.md:72
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:172
+#: ../src/docs/guides/automation/olivetin.md:142
+#: ../src/docs/guides/cms/dokuwiki_server.md:306
+#: ../src/docs/guides/communications/asterisk_installation.md:261
+#: ../src/docs/guides/containers/lxd_web_servers.md:919
+#: ../src/docs/guides/containers/podman-nextcloud.md:456
+#: ../src/docs/guides/contribute/local_docs.md:47
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:322
+#: ../src/docs/guides/contribute/navigation.md:129
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:458
+#: ../src/docs/guides/database/database_mariadb-server.md:197
+#: ../src/docs/guides/desktop/kde_installation.md:105
+#: ../src/docs/guides/desktop/mate_installation.md:200
+#: ../src/docs/guides/desktop/xfce_installation.md:218
+#: ../src/docs/guides/editors/micro.md:79
+#: ../src/docs/guides/email/postfix_reporting.md:254
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:270
+#: ../src/docs/guides/file_sharing/sftp.md:765
+#: ../src/docs/guides/proxies/pound.md:460
+#: ../src/docs/guides/security/dnf_automatic.md:119
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:54
+#: ../src/docs/guides/security/firewalld-beginners.md:427
+#: ../src/docs/guides/security/firewalld.md:477
+#: ../src/docs/guides/security/pam.md:137
+#: ../src/docs/guides/security/ssl_keys_https.md:136
+#: ../src/docs/guides/virtualization/vbox-rocky.md:160
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:147
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:235
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:157
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:91
+#: ../src/docs/guides/web/mod_SSL_apache.md:171
+#: ../src/docs/guides/web/nginx-mainline.md:352
+#: ../src/docs/guides/web/nginx-multisite.md:359
+#, no-wrap
+msgid "Conclusion"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:338
+#: ../src/docs/books/admin_guide/14-special-authority.md:354
+#: ../src/docs/books/admin_guide/14-special-authority.md:404
+#: ../src/docs/books/admin_guide/14-special-authority.md:435
+#: ../src/docs/books/admin_guide/14-special-authority.md:690
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:83
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:102
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:253
+#: ../src/docs/books/lxd_server/04-firewall.md:76
+#: ../src/docs/books/lxd_server/08-snapshots.md:86
+#: ../src/docs/gemstones/RL9_network_manager.md:150
+#: ../src/docs/gemstones/nmtui.md:52
+#: ../src/docs/gemstones/view_kernel_conf.md:21
+#: ../src/docs/guides/backup/rsync_ssh.md:79
+#: ../src/docs/guides/cms/dokuwiki_server.md:226
+#: ../src/docs/guides/containers/lxd_web_servers.md:786
+#: ../src/docs/guides/containers/podman-nextcloud.md:270
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:96
+#: ../src/docs/guides/file_sharing/sftp.md:264
+#: ../src/docs/guides/package_management/index.md:10
+#: ../src/docs/guides/proxies/pound.md:211
+#: ../src/docs/guides/proxies/pound.md:265 ../src/docs/release_notes/8_4.md:20
+#, no-wrap
+msgid "!!! warning\n"
 msgstr ""
 
 #. type: Title #
@@ -236,25 +185,71 @@ msgstr ""
 msgid "Introduction"
 msgstr ""
 
-#. type: Title ##
-#: ../src/docs/books/lxd_server/00-toc.md:48 ../src/docs/gemstones/rpaste.md:76
-#: ../src/docs/guides/automation/cron_jobs_howto.md:185
-#: ../src/docs/guides/backup/rsync_ssh.md:161
-#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:322
-#: ../src/docs/guides/dns/private_dns_server_using_bind.md:632
-#: ../src/docs/guides/file_sharing/glusterfs.md:339
-#: ../src/docs/guides/network/librenms_monitoring_server.md:657
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:480
-#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:339
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:67
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:94
+#: ../src/docs/books/nvchad/vale_nvchad.md:36
+#: ../src/docs/guides/automation/cron_jobs_howto.md:77
+#: ../src/docs/guides/contribute/navigation.md:53
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:84
+#: ../src/docs/guides/database/database_mariadb-server.md:48
+#: ../src/docs/guides/file_sharing/sftp.md:482
+#: ../src/docs/guides/file_sharing/sftp.md:569
+#: ../src/docs/guides/proxies/pound.md:40
+#: ../src/docs/guides/security/dnf_automatic.md:67
+#: ../src/docs/guides/security/firewalld.md:102
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:115
 #, no-wrap
-msgid "Conclusions"
+msgid "!!! tip\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/cms/dokuwiki_server.md:148
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:415
+#. type: Fenced code block (bash)
+#: ../src/docs/books/lxd_server/04-firewall.md:69
+#: ../src/docs/books/lxd_server/04-firewall.md:89
+#: ../src/docs/guides/containers/lxd_web_servers.md:265
+#: ../src/docs/guides/proxies/pound.md:290
+#: ../src/docs/guides/proxies/pound.md:327
+#: ../src/docs/guides/security/firewalld-beginners.md:84
 #, no-wrap
-msgid "`sudo vi /etc/hosts`\n"
+msgid "firewall-cmd --reload\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/lxd_server/04-firewall.md:160
+#: ../src/docs/guides/proxies/pound.md:371
+#, no-wrap
+msgid "trusted (active)\n"
+"  target: ACCEPT\n"
+"  icmp-block-inversion: no\n"
+"  interfaces:\n"
+"  sources: 192.168.1.0/24\n"
+"  services: ssh\n"
+"  ports:\n"
+"  protocols:\n"
+"  forward: no\n"
+"  masquerade: no\n"
+"  forward-ports:\n"
+"  source-ports:\n"
+"  icmp-blocks:\n"
+"  rich rules:\n"
+msgstr ""
+
+#. type: YAML Front Matter: contributors
+#: ../src/docs/books/lxd_server/30-appendix_a.md:1
+#: ../src/docs/gemstones/dnf-swap.md:1 ../src/docs/gemstones/docker.md:1
+#: ../src/docs/gemstones/rpaste.md:1
+#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:1
+#: ../src/docs/guides/proxies/pound.md:1
+#, no-wrap
+msgid "Colussi Franco"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/gemstones/sed_search_replace.md:10
+#: ../src/docs/guides/proxies/pound.md:53
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:60
+#, no-wrap
+msgid "Conventions"
 msgstr ""
 
 #. type: Title ##
@@ -273,977 +268,872 @@ msgstr ""
 msgid "Prerequisites and Assumptions"
 msgstr ""
 
-#. type: YAML Front Matter: contributors
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:1
+#. type: Fenced code block
+#: ../src/docs/guides/file_sharing/sftp.md:110
+#: ../src/docs/guides/proxies/pound.md:186
+#: ../src/docs/guides/web/apache-sites-enabled.md:62
 #, no-wrap
-msgid "Ezequiel Bruni, Antoine Le Morvan"
+msgid "vi /etc/httpd/conf/httpd.conf\n"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/proxies/pound.md:1
+#, no-wrap
+msgid "proxy"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/proxies/pound.md:1
+#, no-wrap
+msgid "proxies"
 msgstr ""
 
 #. type: YAML Front Matter: title
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:1
+#: ../src/docs/guides/proxies/pound.md:1
 #, no-wrap
-msgid "HAProxy-Apache-LXD"
+msgid "Pound"
 msgstr ""
 
 #. type: Title #
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:7
+#: ../src/docs/guides/proxies/pound.md:11
 #, no-wrap
-msgid "HAProxy Load Balancing Apache using LXD Containers"
+msgid "Pound Proxy Server"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:12
+#: ../src/docs/guides/proxies/pound.md:14
 #, no-wrap
-msgid "HAProxy stands for \"High Availability Proxy.\" This proxy can sit in front of any TCP application (such as web servers), but it is often used to act as a load-balancer between multiple instances of a website.\n"
+msgid "!!! warning \"Pound Missing from EPEL-9\"\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:14
+#: ../src/docs/guides/proxies/pound.md:16
 #, no-wrap
-msgid "There might be a number of reasons for doing this. If you have a website that is being hit hard — adding another instance of that same website and placing HAProxy in front of both — allows you to distribute traffic between instances. Another reason might be to be able to update content on a website without any down time. HAProxy can also help mitigate DOS and DDOS attacks.\n"
+msgid "    As of this writing, on Rocky Linux 9.0, Pound cannot be installed from the EPEL repository. While there are sources out there for SRPM packages, we can't verify the integrity of these sources. For this reason, we do not recommend installing the Pound proxy server on Rocky Linux 9.0 at this time. This may change if the EPEL once again picks up Pound.  Use this procedure specifically for Rocky Linux 8.x versions.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:16
+#: ../src/docs/guides/proxies/pound.md:20
 #, no-wrap
-msgid "This guide is going to explore using HAProxy using two website instances, and load-balancing with round robin rotation, on the same LXD host. This might be a perfectly fine solution for ensuring that updates can be performed without downtime.\n"
+msgid "Pound is a web server agnostic reverse proxy and load balancer that is very easy to setup and manage. It does not use a web service itself, but does listen on the web service ports (http, https). \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:18
+#: ../src/docs/guides/proxies/pound.md:22
 #, no-wrap
-msgid "If your problem is website performance, however, you may need to distribute your multiple sites across actual bare metal or between multiple LXD hosts. It is certainly possible to do all of this on bare metal without using LXD at all, however LXD offers great flexibility and performance, plus it is great to use for lab testing.\n"
+msgid "Now, there are a lot of proxy server options, some referenced in these documentation pages. There is a document on using [HAProxy here](haproxy_apache_lxd.md) and there have been references in other documents to using Nginx for a reverse proxy.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:24
+#, no-wrap
+msgid "Load balancing services are quite useful for a busy web server environment. Many proxy servers, including the previously mentioned HAProxy, can be used for many service types. \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:26
+#, no-wrap
+msgid "In the case of Pound, it can only be used for web services, but it's good at what it does.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:30
+#, no-wrap
+msgid "The following are minimum requirements for using this procedure:\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:27
+#: ../src/docs/guides/proxies/pound.md:38
 #, no-wrap
-msgid "Complete comfort at the command line on a Linux machine\n"
+msgid "A desire to load balance between a few websites, or a desire to learn a new tool do do the same.\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:27
+#: ../src/docs/guides/proxies/pound.md:38
 #, no-wrap
-msgid "Experience with a command line editor (we are using `vim` here)\n"
+msgid "The ability to execute commands as the root user or use `sudo` to get there.\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:27
+#: ../src/docs/guides/proxies/pound.md:38
 #, no-wrap
-msgid "Experience with `crontab`\n"
+msgid "Familiarity with a command-line editor. We are using `vi` or `vim` here, but feel free to substitute in your favorite editor.\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:27
+#: ../src/docs/guides/proxies/pound.md:38
 #, no-wrap
-msgid "Knowledge of LXD. For more information, you may want to consult the [LXD Server](../../books/lxd_server/00-toc.md) document. It is perfectly fine to install LXD on a laptop or workstation as well without doing the full-blown server install. This document is being written with a lab machine that is running LXD, but is not set up as a full server as the document linked above uses.\n"
+msgid "Comfort with changing the listen ports on a few types of web servers.\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:27
+#: ../src/docs/guides/proxies/pound.md:38
 #, no-wrap
-msgid "Some knowledge on installing, configuring, and using web servers.\n"
+msgid "We are assuming that both the Nginx and the Apache servers are already installed.\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:27
+#: ../src/docs/guides/proxies/pound.md:38
 #, no-wrap
-msgid "We will assume that LXD is already installed and ready to create containers.\n"
+msgid "We are assuming that you are using Rocky Linux servers or containers for everything here.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/proxies/pound.md:38
+#, no-wrap
+msgid "While we make all kinds of statements regarding `https` below, this guide only deals with the `http` service. To properly do `https`, you'll need to configure your pound server with a real certificate from a real certificate authority.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:42
+#, no-wrap
+msgid "    If you don't have either of these servers installed, you can do so on a container environment (LXD or Docker) or on bare metal, and get them up and running. For this procedure, you merely need to install them with their respective packages, and enable and start the services. We won't be modifying them significantly in any way.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:46
+#, no-wrap
+msgid "    ```\n"
+"    dnf -y install nginx && systemctl enable --now nginx\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:48
+#, no-wrap
+msgid "    or\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:52
+#, no-wrap
+msgid "    ```\n"
+"    dnf -y install httpd && systemctl enable --now httpd\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:56
+#, no-wrap
+msgid "For this procedure, we are going to be using two web servers (known as back end servers), one running Nginx (192.168.1.111) and one running Apache (192.168.1.108). \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:58
+#, no-wrap
+msgid "Our Pound server (192.168.1.103) will be considered the gateway. \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:60
+#, no-wrap
+msgid "We will be switching our listen ports on both of the back end servers to 8080 for the Nginx server and 8081 for the Apache server. Everything will be detailed below as we go, so no need to worry about these for the moment.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:64
+#, no-wrap
+msgid "    Remember to change the associated IPs to whatever they are in your own environment and substitute them where applicable throughout this procedure.\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:28
+#: ../src/docs/guides/proxies/pound.md:65
 #, no-wrap
-msgid "Installing Containers"
+msgid "Installing the Pound Server"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:31
+#: ../src/docs/guides/proxies/pound.md:68
 #, no-wrap
-msgid "On your LXD host for this guide, we will need three containers. Obviously, there could be more web server containers if you wish. We will use **web1** and **web2** for our website containers and **proxyha** for our HAProxy container. To install these on your LXD host do:\n"
+msgid "To install Pound, we need to first install the EPEL (Extra Packages for Enterprise Linux) and run updates in case there is something new with EPEL:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:32
+#: ../src/docs/guides/proxies/pound.md:69
 #, no-wrap
-msgid "lxc launch images:rockylinux/8 web1\n"
-"lxc launch images:rockylinux/8 web2\n"
-"lxc launch images:rockylinux/8 proxyha\n"
+msgid "dnf -y install epel-release && dnf -y update\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:38
+#: ../src/docs/guides/proxies/pound.md:74
 #, no-wrap
-msgid "Running an `lxc list` should return something like this:\n"
+msgid "Then just install Pound. (Yes, that's a capital \"P\"):\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:39
+#: ../src/docs/guides/proxies/pound.md:75
 #, no-wrap
-msgid "+---------+---------+----------------------+------+-----------+-----------+\n"
-"|  NAME   |  STATE  |         IPV4         | IPV6 |   TYPE    | SNAPSHOTS |\n"
-"+---------+---------+----------------------+------+-----------+-----------+\n"
-"| proxyha | RUNNING | 10.181.87.137 (eth0) |      | CONTAINER | 0         |\n"
-"+---------+---------+----------------------+------+-----------+-----------+\n"
-"| web1    | RUNNING | 10.181.87.207 (eth0) |      | CONTAINER | 0         |\n"
-"+---------+---------+----------------------+------+-----------+-----------+\n"
-"| web2    | RUNNING | 10.181.87.34 (eth0)  |      | CONTAINER | 0         |\n"
-"+---------+---------+----------------------+------+-----------+-----------+\n"
+msgid "dnf -y install Pound\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:51
+#: ../src/docs/guides/proxies/pound.md:79
 #, no-wrap
-msgid "Creating and Using the `macvlan` Profile"
+msgid "Configuring Pound"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:54
+#: ../src/docs/guides/proxies/pound.md:82
 #, no-wrap
-msgid "The containers are currently running on the default bridge interface with bridge assigned DHCP addresses. We are going to want to use DHCP addresses from our local LAN, so the first thing we need to do is to create and assign the `macvlan` profile.\n"
+msgid "Now that the packages are installed we need to configure Pound. We will be using `vi` to update this, but if you prefer `nano` or something else, go ahead and substitute that in:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/proxies/pound.md:83
+#, no-wrap
+msgid "vi /etc/pound.cfg\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:56
+#: ../src/docs/guides/proxies/pound.md:88
 #, no-wrap
-msgid "Start by creating the profile:\n"
+msgid "The file is set up with default information in it, which makes it easy to see most of the default components of Pound:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:58
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/proxies/pound.md:89
 #, no-wrap
-msgid "`lxc profile create macvlan`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:60
-#, no-wrap
-msgid "Make sure that your editor is set to your preferred editor, in this case `vim`:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:62
-#, no-wrap
-msgid "`export EDITOR=/usr/bin/vim`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:64
-#, no-wrap
-msgid "Next we need to modify the `macvlan` profile. But before we do, we need to know what interface the host is using for our LAN so run `ip addr` and look for the interface with the LAN IP assignment:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:65
-#, no-wrap
-msgid "2: eno1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000\n"
-"    link/ether a8:5e:45:52:f8:b6 brd ff:ff:ff:ff:ff:ff\n"
-"    inet 192.168.1.141/24 brd 192.168.1.255 scope global dynamic noprefixroute eno1\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:73
-#, no-wrap
-msgid "    In this case, the interface we are looking for is \"eno1\" but this could be completely different on your system. Use **your** interface information!\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:75
-#, no-wrap
-msgid "Now that we know the LAN interface, we can modify our `macvlan` profile. To do this, at the command line type:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:77
-#, no-wrap
-msgid "`lxc profile edit macvlan`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:79
-#, no-wrap
-msgid "We need to make our profile look something like this. We've excluded the comments at the top of the file, but if you are new to LXD, take a look at those:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:80
-#, no-wrap
-msgid "config: {}\n"
-"description: \"\"\n"
-"devices:\n"
-"  eth0:\n"
-"    name: eth0\n"
-"    nictype: macvlan\n"
-"    parent: eno1\n"
-"    type: nic\n"
-"name: macvlan\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:93
-#, no-wrap
-msgid "What happened when we created the `macvlan` profile is that the `default` profile was copied. The `default` profile cannot be changed.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:95
-#, no-wrap
-msgid "Now that we have the `macvlan` profile, we need to apply it to our three containers:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:96
-#, no-wrap
-msgid "lxc profile assign web1 default,macvlan\n"
-"lxc profile assign web2 default,macvlan\n"
-"lxc profile assign proxyha default,macvlan\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:103
-#, no-wrap
-msgid "Unfortunately, the default behavior of `macvlan` as implemented in the kernel, is inexplicably broken within an LXD container (see [this document](../../books/lxd_server/06-profiles.md)) `dhclient` on boot in each of the containers.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:105
-#, no-wrap
-msgid "Doing this is pretty simple when using DHCP. Just follow this for each container:\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:113
-#, no-wrap
-msgid "`lxc exec web1 bash` which will put you at the command line of the **web1** container\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:113
-#, no-wrap
-msgid "`crontab -e` which will edit root's `crontab` on the container\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:113
-#, no-wrap
-msgid "type `i` to get into insert mode.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:113
-#, no-wrap
-msgid "add a line: `@reboot /usr/sbin/dhclient`\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:113
-#, no-wrap
-msgid "hit the `ESC` key to exit out of insert mode.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:113
-#, no-wrap
-msgid "save your changes with `SHIFT: wq`\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:113
-#, no-wrap
-msgid "type `exit` to exit container\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:115
-#, no-wrap
-msgid "Repeat steps for **web2** and **proxyha**.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:117
-#, no-wrap
-msgid "Once these steps are completed, restart the containers:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:118
-#, no-wrap
-msgid "lxc restart web1\n"
-"lxc restart web2\n"
-"lxc restart proxyha\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:125
-#, no-wrap
-msgid "and when you do an `lxc list` again, you should see that the DHCP addresses are now assigned from your LAN:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:126
-#, no-wrap
-msgid "+---------+---------+----------------------+------+-----------+-----------+\n"
-"|  NAME   |  STATE  |         IPV4         | IPV6 |   TYPE    | SNAPSHOTS |\n"
-"+---------+---------+----------------------+------+-----------+-----------+\n"
-"| proxyha | RUNNING | 192.168.1.149 (eth0) |      | CONTAINER | 0         |\n"
-"+---------+---------+----------------------+------+-----------+-----------+\n"
-"| web1    | RUNNING | 192.168.1.150 (eth0) |      | CONTAINER | 0         |\n"
-"+---------+---------+----------------------+------+-----------+-----------+\n"
-"| web2    | RUNNING | 192.168.1.101 (eth0) |      | CONTAINER | 0         |\n"
-"+---------+---------+----------------------+------+-----------+-----------+\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:138
-#, no-wrap
-msgid "Installing Apache and Modifying the Welcome Screen"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:141
-#, no-wrap
-msgid "Now that our environment is set, we need to install Apache (`httpd`) on each web container. This can done without physically accessing them:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:142
-#, no-wrap
-msgid "lxc exec web1 dnf install httpd\n"
-"lxc exec web2 dnf install httpd\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:147
-#, no-wrap
-msgid "While it is understood that you will need a whole lot more than Apache for any modern web server, this is enough to run some tests.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:149
-#, no-wrap
-msgid "Next, we need to enable `httpd`, start it, and then modify the default welcome screen, so we know which server we are hitting when we attempt to access via proxy.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:151
-#, no-wrap
-msgid "Enable and start `httpd`:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:152
-#, no-wrap
-msgid "lxc exec web1 systemctl enable httpd\n"
-"lxc exec web1 systemctl start httpd\n"
-"lxc exec web2 systemctl enable httpd\n"
-"lxc exec web2 systemctl start httpd\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:160
-#, no-wrap
-msgid "Now that we have `httpd` enabled and started, let's modify the welcome screen. This is the screen that comes up when there is no website configured, essentially a default page that loads. In Rocky Linux, this page is located here `/usr/share/httpd/noindex/index.html`. To modify that file, again, there's no need for direct access to the container. Simply do the following:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:162
-#, no-wrap
-msgid "`lxc exec web1 vi /usr/share/httpd/noindex/index.html`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:164
-#, no-wrap
-msgid "and then do a search for the `<h1>` tag, which should show this:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:166
-#, no-wrap
-msgid "`<h1>HTTP Server <strong>Test Page</strong></h1>`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:168
-#, no-wrap
-msgid "Simply change that line to read:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:170
-#, no-wrap
-msgid "`<h1>SITE1 HTTP Server <strong>Test Page</strong></h1>`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:172
-#, no-wrap
-msgid "Now repeat the process for web2. Going to these machines by IP in a browser should now return the correct welcome page for each. There's more to do on the web servers, but let's leave them and go on to the proxy server next.\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:173
-#, no-wrap
-msgid "Installing HAProxy on proxyha and LXD Proxy Configuration"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:176
-#, no-wrap
-msgid "It is just as easy to install HAProxy on the proxy container as well. Again, no need to access that container directly:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:178
-#, no-wrap
-msgid "`lxc exec proxyha dnf install haproxy`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:180
-#, no-wrap
-msgid "The next thing we want to do is configure `haproxy` to listen on port 80 and port 443 for the web services. This is done with the configure sub-command of `lxc`:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:180
-#, no-wrap
-msgid "lxc config device add proxyha http proxy listen=tcp:0.0.0.0:80 connect=tcp:127.0.0.1:80\n"
-"lxc config device add proxyha https proxy listen=tcp:0.0.0.0:443 connect=tcp:127.0.0.1:443\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:186
-#, no-wrap
-msgid "For our testing, we are only going to use port 80, or HTTP traffic, but this shows you how you would configure the container to listen on the default web ports for both HTTP and HTTPS. Using this command also ensures that restarting the **proxyha** container will maintain those listening ports.\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:187
-#, no-wrap
-msgid "The HAProxy Configuration"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:190
-#, no-wrap
-msgid "We've already installed HAProxy on the container, but we have done nothing with the configuration. Before we do anything, we need to do something to resolve our hosts. Normally we would be using fully-qualified domain names, but in this lab environment, we are just using IPs. To get some names associated with the machines, we are going to add some host file records to the **proxyha** container.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:192
-#, no-wrap
-msgid "`lxc exec proxyha vi /etc/hosts`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:194
-#, no-wrap
-msgid "Add the following records to the bottom of the file:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:195
-#, no-wrap
-msgid "192.168.1.150   site1.testdomain.com     site1\n"
-"192.168.1.101   site2.testdomain.com     site2\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:201
-#, no-wrap
-msgid "Which should allow the **proxyha** container to resolve those names.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:203
-#, no-wrap
-msgid "Once that is complete, let's edit the `haproxy.cfg` file. There is so much in the original file that we are not going to be using, that we are simply going to make a backup of it first by moving it to a different name:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:205
-#, no-wrap
-msgid "`lxc exec proxyha mv /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.orig`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:207
-#, no-wrap
-msgid "Now let's create a new configuration file:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:209
-#, no-wrap
-msgid "`lxc exec proxyha vi /etc/haproxy/haproxy.cfg`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:211
-#, no-wrap
-msgid "Note that we have commented out all of the HTTPS protocol lines for now. In a production environment, you'd want to use a wildcard certificate that would cover your web servers and enable HTTPS:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:212
-#, no-wrap
-msgid "global\n"
-"log /dev/log local0\n"
-"log /dev/log local1 notice\n"
-"chroot /var/lib/haproxy\n"
-"stats socket /run/haproxy/admin.sock mode 660 level admin expose-fd listeners\n"
-"stats timeout 30s\n"
-"user haproxy\n"
-"group haproxy\n"
-"daemon\n\n"
-"# For now, all https is remarked out\n"
-"#\n"
-"#ssl-default-bind-options no-sslv3 no-tlsv10 no-tlsv11 no-tls-tickets\n"
-"#ssl-default-bind-ciphers EECDH+AESGCM:EDH+AESGCM\n"
-"#tune.ssl.default-dh-param 2048\n\n"
-"defaults\n"
-"log global\n"
-"mode http\n"
-"option httplog\n"
-"option dontlognull\n"
-"option forwardfor\n"
-"option http-server-close\n"
-"timeout connect 5000\n"
-"timeout client 50000\n"
-"timeout server 50000\n"
-"errorfile 400 /etc/haproxy/errors/400.http\n"
-"errorfile 403 /etc/haproxy/errors/403.http\n"
-"errorfile 408 /etc/haproxy/errors/408.http\n"
-"errorfile 500 /etc/haproxy/errors/500.http\n"
-"errorfile 502 /etc/haproxy/errors/502.http\n"
-"errorfile 503 /etc/haproxy/errors/503.http\n"
-"errorfile 504 /etc/haproxy/errors/504.http\n\n"
-"# For now, all https is remarked out\n"
-"# frontend www-https\n"
-"# bind *:443 ssl crt /etc/letsencrypt/live/example.com/example.com.pem\n"
-"# reqadd X-Forwarded-Proto:\\ https\n\n"
-"# acl host_web1 hdr(host) -i site1.testdomain.com\n"
-"# acl host_web2 hdr(host) -i site2.testdomain.com\n\n"
-"# use_backend subdomain1 if host_web1\n"
-"# use_backend subdomain2 if host_web2\n\n"
-"frontend http_frontend\n"
-"bind *:80\n\n"
-"acl web_host1 hdr(host) -i site1.testdomain.com\n"
-"acl web_host2 hdr(host) -i site2.testdomain.com\n\n"
-"use_backend subdomain1 if web_host1\n"
-"use_backend subdomain2 if web_host2\n\n"
-"backend subdomain1\n"
-"# balance leastconn\n"
-"  balance roundrobin\n"
-"  http-request set-header X-Client-IP %[src]\n"
-"# redirect scheme https if !{ ssl_fc }\n"
-"     server site1 site1.testdomain.com:80 check\n"
-"     server site2 web2.testdomain.com:80 check\n\n"
-"backend subdomain2\n"
-"# balance leastconn\n"
-"  balance roundrobin\n"
-"  http-request set-header X-Client-IP %[src]\n"
-"# redirect scheme https if !{ ssl_fc }\n"
-"     server site2 site2.testdomain.com:80 check\n"
-"     server site1 site1.testdomain.com:80 check\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:285
-#, no-wrap
-msgid "A little explanation of what's going on above. You should see this in your testing, when you get to the testing section of this guide (below):\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:287
-#, no-wrap
-msgid "Both **site1** and **site2** are defined in the \"acl\" section. Then both **site1** and **site2** are included in each other's \"roundrobin\" for their respective back ends. What happens when you go to site1.testdomain.com in the test, the URL does not change, but the page inside will switch each time you access the page from the **site1** to the **site2** test pages. Same goes for site2.testdomain.com.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:289
-#, no-wrap
-msgid "This is done to show you the switch is occurring, but in reality, your website content will look exactly the same regardless of which server you are hitting. Keep in mind that we are showing how you might want to distribute traffic between multiple hosts. You can also use \"leastcon\" in the balance line, and instead of switching based on the previous hit, it will load the site with the least number of connections.\n"
+msgid "User \"pound\"\n"
+"Group \"pound\"\n"
+"Control \"/var/lib/pound/pound.cfg\"\n\n"
+"ListenHTTP\n"
+"    Address 0.0.0.0\n"
+"    Port 80\n"
+"End\n\n"
+"ListenHTTPS\n"
+"    Address 0.0.0.0\n"
+"    Port    443\n"
+"    Cert    \"/etc/pki/tls/certs/pound.pem\"\n"
+"End\n\n"
+"Service\n"
+"    BackEnd\n"
+"        Address 127.0.0.1\n"
+"        Port    8000\n"
+"    End\n\n"
+"    BackEnd\n"
+"        Address 127.0.0.1\n"
+"        Port    8001\n"
+"    End\n"
+"End\n"
 msgstr ""
 
 #. type: Title ###
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:290
+#: ../src/docs/guides/proxies/pound.md:118
 #, no-wrap
-msgid "The Error Files"
+msgid "Taking a Closer Look"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/proxies/pound.md:125
+#, no-wrap
+msgid "The \"User\" and \"Group\" was taken care of when we did the install\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/proxies/pound.md:125
+#, no-wrap
+msgid "The \"Control\" file does not appear to be used anywhere.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/proxies/pound.md:125
+#, no-wrap
+msgid "The \"ListenHTTP\" section represents the service `http` (Port 80) and the \"Address\" that the proxy will listen on. We will change this to the actual IP of our Pound server.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/proxies/pound.md:125
+#, no-wrap
+msgid "The \"ListenHTTPS\" section represents the service `https` (Port 443) and the \"Address\" that the proxy will listen on. As with the above, we will change this to the IP to that of the Pound server. The \"Cert\" option is the self-signed certificate provided by the Pound install process. You would want to replace this in a production environment with a real certificate using either one of these procedures: [Generating SSL Keys](../security/ssl_keys_https.md) or [SSL Keys with Let's Encrypt](../security/generating_ssl_keys_lets_encrypt.md).\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/proxies/pound.md:125
+#, no-wrap
+msgid "The \"Service\" section is where the \"BackEnd\" servers are configured along with their listening ports. You can have as many \"BackEnd\" servers as you need.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/proxies/pound.md:126
+#, no-wrap
+msgid "Changing The Configuration"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/proxies/pound.md:130
+#, no-wrap
+msgid "change the IP Address under both listen options to our Pound server IP, 192.168.1.103\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/proxies/pound.md:130
+#, no-wrap
+msgid "change the IP Addresses and ports under the \"BackEnd\" sections to match our configuration found in \"Conventions\" above (IPs and Ports)\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:293
+#: ../src/docs/guides/proxies/pound.md:132
 #, no-wrap
-msgid "Some versions of HAProxy come with a standard set of web error files, however the version that comes from Rocky Linux (and the upstream vendor), does not have these files. You probably **do** want to create them, as they may help you troubleshoot any problems. These files go in the directory `/etc/haproxy/errors` which does not exist.\n"
+msgid "When you are all done modifying the configuration you should have a changed file that looks something like this:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:295
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/proxies/pound.md:133
 #, no-wrap
-msgid "The first thing we need to do is create that directory:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:297
-#, no-wrap
-msgid "`lxc exec proxyha mkdir /etc/haproxy/errors`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:299
-#, no-wrap
-msgid "Then we need to create each of these files in that directory. Note that you can do this with each filename from your LXD host with the command `lxc exec proxyha vi /etc/haproxy/errors/filename.http`, where \"filename.http\" references one of the below file names. In a production environment, your company may have more specific errors that they would like to use:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:301
-#, no-wrap
-msgid "File name `400.http`:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:302
-#, no-wrap
-msgid "HTTP/1.0 400 Bad request\n"
-"Cache-Control: no-cache\n"
-"Connection: close\n"
-"Content-Type: text/html\n\n"
-"<html><body><h1>400 Bad request</h1>\n"
-"Your browser sent an invalid request.\n"
-"</body></html>\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:314
-#, no-wrap
-msgid "File name `403.http`:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:315
-#, no-wrap
-msgid "HTTP/1.0 403 Forbidden\n"
-"Cache-Control: no-cache\n"
-"Connection: close\n"
-"Content-Type: text/html\n\n"
-"<html><body><h1>403 Forbidden</h1>\n"
-"Request forbidden by administrative rules.\n"
-"</body></html>\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:327
-#, no-wrap
-msgid "Filename `408.http`:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:328
-#, no-wrap
-msgid "HTTP/1.0 408 Request Time-out\n"
-"Cache-Control: no-cache\n"
-"Connection: close\n"
-"Content-Type: text/html\n\n"
-"<html><body><h1>408 Request Time-out</h1>\n"
-"Your browser didn't send a complete request in time.\n"
-"</body></html>\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:340
-#, no-wrap
-msgid "Filename `500.http`:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:341
-#, no-wrap
-msgid "HTTP/1.0 500 Internal Server Error\n"
-"Cache-Control: no-cache\n"
-"Connection: close\n"
-"Content-Type: text/html\n\n"
-"<html><body><h1>500 Internal Server Error</h1>\n"
-"An internal server error occurred.\n"
-"</body></html>\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:353
-#, no-wrap
-msgid "Filename `502.http`:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:354
-#, no-wrap
-msgid "HTTP/1.0 502 Bad Gateway\n"
-"Cache-Control: no-cache\n"
-"Connection: close\n"
-"Content-Type: text/html\n\n"
-"<html><body><h1>502 Bad Gateway</h1>\n"
-"The server returned an invalid or incomplete response.\n"
-"</body></html>\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:366
-#, no-wrap
-msgid "Filename `503.http`:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:367
-#, no-wrap
-msgid "HTTP/1.0 503 Service Unavailable\n"
-"Cache-Control: no-cache\n"
-"Connection: close\n"
-"Content-Type: text/html\n\n"
-"<html><body><h1>503 Service Unavailable</h1>\n"
-"No server is available to handle this request.\n"
-"</body></html>\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:379
-#, no-wrap
-msgid "Filename `504.http`:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:380
-#, no-wrap
-msgid "HTTP/1.0 504 Gateway Time-out\n"
-"Cache-Control: no-cache\n"
-"Connection: close\n"
-"Content-Type: text/html\n\n"
-"<html><body><h1>504 Gateway Time-out</h1>\n"
-"The server didn't respond in time.\n"
-"</body></html>\n"
+msgid "User \"pound\"\n"
+"Group \"pound\"\n"
+"Control \"/var/lib/pound/pound.cfg\"\n\n"
+"ListenHTTP\n"
+"    Address 192.168.1.103\n"
+"    Port 80\n"
+"End\n\n"
+"ListenHTTPS\n"
+"    Address 192.168.1.103\n"
+"    Port    443\n"
+"    Cert    \"/etc/pki/tls/certs/pound.pem\"\n"
+"End\n\n"
+"Service\n"
+"    BackEnd\n"
+"        Address 192.168.1.111\n"
+"        Port    8080\n"
+"    End\n\n"
+"    BackEnd\n"
+"        Address 192.168.1.108\n"
+"        Port    8081\n"
+"    End\n"
+"End\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:391
+#: ../src/docs/guides/proxies/pound.md:162
 #, no-wrap
-msgid "Running The Proxy"
+msgid "Configuring Nginx to Listen on 8080"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:394
+#: ../src/docs/guides/proxies/pound.md:165
 #, no-wrap
-msgid "We need to create a \"run\" directory for `haproxy` before we start the service:\n"
+msgid "Since we have set the listen port for Nginx in our Pound configuration to 8080, we need to also make that change on our running Nginx server. We do this by modifying the `nginx.conf`:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/proxies/pound.md:166
+#, no-wrap
+msgid "vi /etc/nginx/nginx.conf\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:396
+#: ../src/docs/guides/proxies/pound.md:171
 #, no-wrap
-msgid "`lxc exec proxyha mkdir /run/haproxy`\n"
+msgid "You just want to change the \"listen\" line to the new port number:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/proxies/pound.md:172
+#, no-wrap
+msgid "listen       8080 default_server;\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:398
+#: ../src/docs/guides/proxies/pound.md:177
 #, no-wrap
-msgid "Next, we need to enable the service and start it:\n"
+msgid "Save your changes and then restart the nginx service:\n"
 msgstr ""
 
-#. type: Fenced code block
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:398
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/proxies/pound.md:178
+#: ../src/docs/guides/web/nginx-multisite.md:222
+#: ../src/docs/guides/web/nginx-multisite.md:285
 #, no-wrap
-msgid "lxc exec proxyha systemctl enable haproxy\n"
-"lxc exec proxyha systemctl start haproxy\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:403
-#, no-wrap
-msgid "If you get any errors, research the reason by using:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:405
-#, no-wrap
-msgid "`lxc exec proxyha systemctl status haproxy`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:407
-#, no-wrap
-msgid "If everything starts and runs without issue, we are ready to move on to testing.\n"
+msgid "systemctl restart nginx\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:408
+#: ../src/docs/guides/proxies/pound.md:182
 #, no-wrap
-msgid "Testing The Proxy"
+msgid "Configuring Apache to listen on 8081"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:411
+#: ../src/docs/guides/proxies/pound.md:185
 #, no-wrap
-msgid "As with the hosts (`/etc/hosts`) setup that we used so that our **proxyha** container can resolve the web servers, and since in our lab environment we don't have a local DNS server running, we need to set the IP values on our local machine for both the site1 and site2 websites, to correspond to our haproxy container.\n"
+msgid "Since we have set the listen port for Apache in our Pound configuration to 8081, we need to also make that change on our running Apache server. We do this by modifying the `httpd.conf`:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:413
+#: ../src/docs/guides/proxies/pound.md:191
 #, no-wrap
-msgid "To do this, we need to modify our `/etc/hosts` file on our local machine. Consider this method of domain resolution a \"poor man's DNS.\"\n"
+msgid "You want to change the \"Listen\" line to the new port number:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/proxies/pound.md:192
+#, no-wrap
+msgid "Listen 8081\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:417
+#: ../src/docs/guides/proxies/pound.md:197
 #, no-wrap
-msgid "Then just add these two lines:\n"
+msgid "Save your changes and restart the httpd service:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:418
+#: ../src/docs/guides/proxies/pound.md:198
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:229
 #, no-wrap
-msgid "192.168.1.149   site1.testdomain.com     site1\n"
-"192.168.1.149   site2.testdomain.com     site2\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:424
-#, no-wrap
-msgid "If you ping either **site1** or **site2** on your local machine now, you should get a response from **proxyha**:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:425
-#, no-wrap
-msgid "PING site1.testdomain.com (192.168.1.149) 56(84) bytes of data.\n"
-"64 bytes from site1.testdomain.com (192.168.1.149): icmp_seq=1 ttl=64 time=0.427 ms\n"
-"64 bytes from site1.testdomain.com (192.168.1.149): icmp_seq=2 ttl=64 time=0.430 ms\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:432
-#, no-wrap
-msgid "Now open your web browser and type site1.testdomain.com (or site2.testdomain.com) as the URL in the address bar. You should get a response back from one of the two test pages and if you load the page again, you should get the next server's test page. Note that the URL does not change, but the returned page will change alternately between servers.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:435
-#, no-wrap
-msgid "![screenshot of web1 being loaded and showing the second server test message](../images/haproxy_apache_lxd.png)\n"
+msgid "systemctl restart httpd\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:436
+#: ../src/docs/guides/proxies/pound.md:202
 #, no-wrap
-msgid "Logging"
+msgid "Test and Turn Up"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:439
+#: ../src/docs/guides/proxies/pound.md:205
 #, no-wrap
-msgid "Even though our configuration file is set up correctly for logging, we need two things: First, we need a directory in /var/lib/haproxy/ called \"dev\":\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:441
-#, no-wrap
-msgid "`lxc exec proxyha mkdir /var/lib/haproxy/dev`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:443
-#, no-wrap
-msgid "Next, we need to create a system process for `rsyslogd` to grab instances from the socket (`/var/lib/haproxy/dev/log` in this case) and store those in `/var/log/haproxy.log`:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:445
-#, no-wrap
-msgid "`lxc exec proxyha vi /etc/rsyslog.d/99-haproxy.conf`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:447
-#, no-wrap
-msgid "Add the following contents to that file:\n"
+msgid "Once you have your web services up and running and listening on the right ports on each of our servers, the next step is to turn up the pound service on the Pound server:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:448
+#: ../src/docs/guides/proxies/pound.md:206
 #, no-wrap
-msgid "$AddUnixListenSocket /var/lib/haproxy/dev/log\n\n"
-"# Send HAProxy messages to a dedicated logfile\n"
-":programname, startswith, \"haproxy\" {\n"
-"  /var/log/haproxy.log\n"
-"  stop\n"
-"}\n"
+msgid "systemctl enable --now pound\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:458
+#: ../src/docs/guides/proxies/pound.md:213
 #, no-wrap
-msgid "Save the file and exit, then restart `rsyslog`:\n"
+msgid "    Using Nginx and Apache, as we are doing here for demonstration, will mean that the Nginx server will almost always respond first. For this reason, to test effectively, you will need to assign a low priority to the Nginx server so that you will be able to see both screens. This speaks volumes about the speed of Nginx over Apache. To change the priority for the Nginx server, you just need to add a priority (1-9, with 9 being the lowest priority) in the \"BackEnd\" section for the Nginx server like this:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:460
+#: ../src/docs/guides/proxies/pound.md:221
 #, no-wrap
-msgid "`lxc exec proxyha systemctl restart rsyslog`\n"
+msgid "    ```\n"
+"    BackEnd\n"
+"        Address 192.168.1.111\n"
+"        Port    8080\n"
+"        Priority 9\n"
+"    End\n"
+"    ```\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:462
+#: ../src/docs/guides/proxies/pound.md:223
 #, no-wrap
-msgid "And to populate that log file with something right away, restart `haproxy` again:\n"
+msgid "When you open your proxy server ip in a web browser you should be faced with one of these two screens:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:464
+#: ../src/docs/guides/proxies/pound.md:225
 #, no-wrap
-msgid "`lxc exec proxyha systemctl restart haproxy`\n"
+msgid "![Pound Nginx](images/pound_nginx.jpg)\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:466
+#: ../src/docs/guides/proxies/pound.md:227
 #, no-wrap
-msgid "To take a look at the log file created:\n"
+msgid "Or\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:468
+#: ../src/docs/guides/proxies/pound.md:229
 #, no-wrap
-msgid "`lxc exec proxyha more /var/log/haproxy.log`\n"
+msgid "![Pound Apache](images/pound_apache.jpg)    \n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/proxies/pound.md:230
+#, no-wrap
+msgid "Using Emergency"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:470
+#: ../src/docs/guides/proxies/pound.md:233
 #, no-wrap
-msgid "Which should show you something like this:\n"
+msgid "One thing that you may need to do when using a load balancer such as Pound, is to take the productions servers off-line for maintenance or to have a fall-back \"BackEnd\" for a complete outage. This is done with the \"Emergency\" declaration in the `pound.conf` file. You can only have one \"Emergency\" declaration per service. In our case, this would appear at the end of the \"Service\" section in our configuration file:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:471
+#: ../src/docs/guides/proxies/pound.md:234
 #, no-wrap
-msgid "Sep 25 23:18:02 proxyha haproxy[4602]: Proxy http_frontend started.\n"
-"Sep 25 23:18:02 proxyha haproxy[4602]: Proxy http_frontend started.\n"
-"Sep 25 23:18:02 proxyha haproxy[4602]: Proxy subdomain1 started.\n"
-"Sep 25 23:18:02 proxyha haproxy[4602]: Proxy subdomain1 started.\n"
-"Sep 25 23:18:02 proxyha haproxy[4602]: Proxy subdomain2 started.\n"
-"Sep 25 23:18:02 proxyha haproxy[4602]: Proxy subdomain2 started.\n"
+msgid "...\n"
+"Service\n"
+"    BackEnd\n"
+"        Address 192.168.1.117\n"
+"        Port    8080\n"
+"\tPriority 9\n"
+"    End\n\n"
+"    BackEnd\n"
+"        Address 192.168.1.108\n"
+"        Port    8081\n"
+"    End\n"
+"    Emergency\n"
+"\t   Address 192.168.1.104\n"
+"\t   Port\t8000\n"
+"   End\n"
+"End\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:483
+#: ../src/docs/guides/proxies/pound.md:255
 #, no-wrap
-msgid "HAProxy is a powerful proxy engine that can be used for many things. It is a high-performance, open-source load balancer and reverse proxy for TCP and HTTP applications. We have shown in this document how to use load balancing of two web server instances.\n"
+msgid "This server might only display a message that says, \"Down For Maintenance\".\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/proxies/pound.md:256
+#, no-wrap
+msgid "Security Considerations"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:485
+#: ../src/docs/guides/proxies/pound.md:259
 #, no-wrap
-msgid "It can also be used for other applications, including databases. It works within LXD containers, as well as on bare metal and standalone servers.\n"
+msgid "Something that most documents dealing with load balancing proxy servers will not deal with are the security issues. For instance, if this is a public facing web server, you will need to have the `http` and `https` services open to the world on the load balancing proxy. But what about the \"BackEnd\" servers? \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:486
+#: ../src/docs/guides/proxies/pound.md:261
 #, no-wrap
-msgid "There are plenty of uses not covered in this document. Check out the [official manual for HAProxy here.](https://cbonte.github.io/haproxy-dconv/1.8/configuration.html)\n"
+msgid "Those should only need to be accessed by their ports from the Pound server itself, but since the Pound server is redirecting to 8080 or 8081 on the BackEnd servers, and since the BackEnd servers have `http` listening on those subsequent ports, you can just use the service names for the firewall commands on those BackEnd servers.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:263
+#, no-wrap
+msgid "In this section we will deal with those concerns, and the `firewalld` commands needed to lock everything down.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:267
+#, no-wrap
+msgid "    We are assuming that you have direct access to the servers in question and are not remote to them. If you are remote, take extreme caution when removing services from a `firewalld` zone!\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:269
+#, no-wrap
+msgid "    You could lock yourself out of your server by accident.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/proxies/pound.md:270
+#, no-wrap
+msgid "Firewall - Pound Server"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:273
+#, no-wrap
+msgid "For the Pound server, as noted above, we want to allow `http` and `https` from the world. You will need to consider whether `ssh` needs to be allowed from the world or not. If you are local to the server, this is probably **NOT** the case. We are assuming that the server here is available via your local network and that you have direct access to it, so we will be locking down `ssh` to our LAN IPs.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:275
+#, no-wrap
+msgid "To accomplish the above, we will use the built-in firewall for Rocky Linux, `firewalld` and the `firewall-cmd` command structure. For simplicity sake, we will also use two of the built-in zones, \"public\" and \"trusted\".\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:277
+#, no-wrap
+msgid "Let's start by adding our source IPs to the \"trusted\" zone. This is our LAN here (in our example: 192.168.1.0/24):\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/proxies/pound.md:278
+#, no-wrap
+msgid "firewall-cmd --zone=trusted --add-source=192.168.1.0/24 --permanent\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:283
+#, no-wrap
+msgid "Then, let's add the `ssh` service to the zone:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/proxies/pound.md:284
+#, no-wrap
+msgid "firewall-cmd --zone=trusted --add-service=ssh --permanent\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:289
+#, no-wrap
+msgid "Once all of this is completed, reload the firewall with:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:295
+#, no-wrap
+msgid "And then list out the zone so that you can see everything with `firewall-cmd --zone=trusted --list-all` which should give you something like this:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/proxies/pound.md:296
+#, no-wrap
+msgid "trusted (active)\n"
+"  target: ACCEPT\n"
+"  icmp-block-inversion: no\n"
+"  interfaces:\n"
+"  sources: 192.168.1.0/24\n"
+"  services: ssh\n"
+"  ports:\n"
+"  protocols:\n"
+"  forward: no\n"
+"  masquerade: no\n"
+"  forward-ports:\n"
+"  source-ports:\n"
+"  icmp-blocks:\n"
+"  rich rules:\n\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:315
+#, no-wrap
+msgid "Next we need to make changes to the \"public\" zone, which by default has the `ssh` service enabled. This needs to be carefully removed (again, we are assuming that you are **NOT** remote to the server here!) with the following:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/proxies/pound.md:316
+#, no-wrap
+msgid "firewall-cmd --zone=public --remove-service=ssh --permanent\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:320
+#, no-wrap
+msgid "We also need to add `http` and `https` services:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/proxies/pound.md:321
+#: ../src/docs/guides/security/firewalld.md:280
+#, no-wrap
+msgid "firewall-cmd --zone=public --add-service=http --add-service=https --permanent\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:326
+#, no-wrap
+msgid "Then we need to reload the firewall before you can see the changes:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:332
+#, no-wrap
+msgid "And then list out the public zone with `firewall-cmd --zone=public --list-all` which should show you something like this:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/proxies/pound.md:333
+#, no-wrap
+msgid "public\n"
+"  target: default\n"
+"  icmp-block-inversion: no\n"
+"  interfaces:\n"
+"  sources:\n"
+"  services: cockpit dhcpv6-client http https\n"
+"  ports:\n"
+"  protocols:\n"
+"  forward: no\n"
+"  masquerade: no\n"
+"  forward-ports:\n"
+"  source-ports:\n"
+"  icmp-blocks:\n"
+"  rich rules:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:351
+#, no-wrap
+msgid "Within our lab environment, those are the only changes we need to make to our pound server load balancer.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/proxies/pound.md:352
+#, no-wrap
+msgid "Firewall - Back End Servers"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:355
+#, no-wrap
+msgid "For the \"BackEnd\" servers, we do not need to allow access from the world for anything and definitely not for our listen ports that the load balancer will be using. We will need to allow `ssh` from the LAN IPs, and `http` and `https` from our pound load balancer. \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:357
+#, no-wrap
+msgid "That's pretty much it. \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:359
+#, no-wrap
+msgid "Again, we are going to add the `ssh` service to our \"trusted\" zone, with the essentially the same commands we used for our pound server. Then we are going to add a zone called \"balance\" that we will use for the remaining `http` and `https`, and set the source IPs to that of the load balancer. Are you having fun yet?\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:361
+#, no-wrap
+msgid "To be quick, let's use all of those commands that we used for the \"trusted\" zone in a single set of commands:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/proxies/pound.md:362
+#, no-wrap
+msgid "firewall-cmd --zone=trusted --add-source=192.168.1.0/24 --permanent\n"
+"firewall-cmd --zone=trusted --add-service=ssh --permanent\n"
+"firewall-cmd --reload\n"
+"firewall-cmd --zone=trusted --list-all\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:370
+#, no-wrap
+msgid "After, the \"trusted\" zone should look like this:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:389
+#, no-wrap
+msgid "Again, test your `ssh` rule from an IP on the LAN, and then remove the `ssh` service from the \"public\" zone. **Remember our warning from above, and do this only if you have local access to the server!**\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/proxies/pound.md:390
+#, no-wrap
+msgid "firewall-cmd --zone=public --remove-service=ssh --permanent\n"
+"firewall-cmd --reload\n"
+"firewall-cmd --zone=public --list-all\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:397
+#, no-wrap
+msgid "The public zone should now look like this:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/proxies/pound.md:398
+#, no-wrap
+msgid "public\n"
+"  target: default\n"
+"  icmp-block-inversion: no\n"
+"  interfaces:\n"
+"  sources:\n"
+"  services: cockpit dhcpv6-client\n"
+"  ports:\n"
+"  protocols:\n"
+"  forward: no\n"
+"  masquerade: no\n"
+"  forward-ports:\n"
+"  source-ports:\n"
+"  icmp-blocks:\n"
+"  rich rules:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:416
+#, no-wrap
+msgid "Now let's add that new zone to deal with `http` and `https`. Remember that the source IP here needs to only be our load balancer (in our example: 192.168.1.103):\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:420
+#, no-wrap
+msgid "    A new zone must be added with the `--permanent` option and cannot be used until the firewall is reloaded. Also, don't forget to `--set-target=ACCEPT` for this zone!\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/proxies/pound.md:421
+#, no-wrap
+msgid "firewall-cmd --new-zone=balance --permanent\n"
+"firewall-cmd --reload\n"
+"firewall-cmd --zone=balance --set-target=ACCEPT\n"
+"firewall-cmd --zone=balance --add-source=192.168.1.103 --permanent\n"
+"firewall-cmd --zone=balance --add-service=http --add-service=https --permanent\n"
+"firewall-cmd --reload\n"
+"firewall-cmd --zone=balance --list-all\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:432
+#, no-wrap
+msgid "The result:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/proxies/pound.md:433
+#, no-wrap
+msgid "balance (active)\n"
+"  target: ACCEPT\n"
+"  icmp-block-inversion: no\n"
+"  interfaces:\n"
+"  sources: 192.168.1.103\n"
+"  services: http https\n"
+"  ports:\n"
+"  protocols:\n"
+"  forward: no\n"
+"  masquerade: no\n"
+"  forward-ports:\n"
+"  source-ports:\n"
+"  icmp-blocks:\n"
+"  rich rules:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:451
+#, no-wrap
+msgid "Now repeat those steps on the other web server back end.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:453
+#, no-wrap
+msgid "Once you have your firewall rules added to everything, test your pound server again from your workstation browser.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/proxies/pound.md:454
+#: ../src/docs/guides/virtualization/vbox-rocky.md:152
+#, no-wrap
+msgid "Other Information"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:457
+#, no-wrap
+msgid "There are a *LOT* of options that can be included in your `pound.conf` file, including error message directives, logging options, time out values, etc. You can find more on what is available by [looking here.](https://linux.die.net/man/8/pound)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:459
+#, no-wrap
+msgid "Conveniently, Pound automatically figures out if one of the \"BackEnd\" servers is off-line and disables it so that web services can continue without delay. It also automatically sees them again when they are back on-line.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:463
+#, no-wrap
+msgid "Pound offers another option for those who do not want to use HAProxy or Nginx as for load balancing. \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:465
+#, no-wrap
+msgid "Pound as a load balancing server is very easy to install, set up and use. As noted here, Pound can also be used as a reverse proxy, and there are a lot of proxy and load balancing options available. \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/proxies/pound.md:466
+#, no-wrap
+msgid "And you should always remember to keep security in mind when setting up any service, including a load-balancing proxy server.\n"
 msgstr ""
 
