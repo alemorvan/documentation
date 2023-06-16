@@ -13,326 +13,112 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/security_index.pot\n"
-"X-Crowdin-File-ID: 1535\n"
+"X-Crowdin-File: /po4a/po4a/_po/security_introduction.pot\n"
+"X-Crowdin-File-ID: 1537\n"
 
 #. type: Title #
-#: ../src/docs/labs/security/index.md:1 ../src/docs/labs/security/index.md:5
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
+#: ../src/docs/books/learning_ansible/05-deployments.md:31
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/00-toc.md:13
+#: ../src/docs/books/nvchad/index.md:12
+#: ../src/docs/books/nvchad/plugins/index.md:14
+#: ../src/docs/books/nvchad/plugins/md_preview.md:14
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
+#: ../src/docs/books/nvchad/vale_nvchad.md:12
+#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
+#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
+#: ../src/docs/gemstones/string_color.md:11
+#: ../src/docs/guides/automation/cron_jobs_howto.md:25
+#: ../src/docs/guides/automation/olivetin.md:14
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
+#: ../src/docs/guides/backup/rsnapshot_backup.md:22
+#: ../src/docs/guides/backup/rsync_ssh.md:24
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
+#: ../src/docs/guides/cms/dokuwiki_server.md:23
+#: ../src/docs/guides/containers/lxd_web_servers.md:10
+#: ../src/docs/guides/containers/podman-nextcloud.md:13
+#: ../src/docs/guides/contribute/local_docs.md:11
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
+#: ../src/docs/guides/contribute/mkdocs_venv.md:14
+#: ../src/docs/guides/contribute/style_guide.md:14
+#: ../src/docs/guides/database/database_mariadb-server.md:21
+#: ../src/docs/guides/desktop/kde_installation.md:11
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
+#: ../src/docs/guides/editors/micro.md:14
+#: ../src/docs/guides/email/postfix_reporting.md:22
+#: ../src/docs/guides/file_sharing/glusterfs.md:16
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
+#: ../src/docs/guides/file_sharing/sftp.md:16
+#: ../src/docs/guides/migrate2rocky.md:18
+#: ../src/docs/guides/network/basic_network_configuration.md:12
+#: ../src/docs/guides/network/librenms_monitoring_server.md:13
+#: ../src/docs/guides/package_management/index.md:1
+#: ../src/docs/guides/package_management/index.md:5
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
+#: ../src/docs/guides/proxies/pound.md:17
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
+#: ../src/docs/guides/security/firewalld-beginners.md:10
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
+#: ../src/docs/guides/security/ssh_public_private_keys.md:21
+#: ../src/docs/guides/security/ssl_keys_https.md:22
+#: ../src/docs/guides/virtualization/vbox-rocky.md:13
+#: ../src/docs/guides/web/apache-sites-enabled.md:25
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
+#: ../src/docs/guides/web/nginx-mainline.md:13
+#: ../src/docs/guides/web/nginx-multisite.md:14
+#: ../src/docs/labs/security/introduction.md:1
+#: ../src/docs/labs/security/introduction.md:5
 #, no-wrap
-msgid "List of Security Labs"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/labs/security/index.md:7
-#, no-wrap
-msgid "[Introduction](introduction.md)"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/labs/security/index.md:9
-#, no-wrap
-msgid "Lab 1: Installing Rocky Linux"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:12
-#, no-wrap
-msgid "Installing the Operating System\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/labs/security/index.md:13
-#, no-wrap
-msgid "Lab 2: Patching the System"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:18
-#, no-wrap
-msgid "Updating and Patching\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:18
-#, no-wrap
-msgid "Configuring and using dnf\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:18
-#, no-wrap
-msgid "Third party solutions\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/labs/security/index.md:19
-#, no-wrap
-msgid "Lab 3: Auditing the System"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:24
-#, no-wrap
-msgid "A simple home grown integrity checker\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:24
-#, no-wrap
-msgid "Tripwire\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:24
-#, no-wrap
-msgid "Integrity checking and viewing reports\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:24
-#, no-wrap
-msgid "Fine tuning tripwire\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/labs/security/index.md:25
-#, no-wrap
-msgid "Lab 4: Gathering information"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:32
-#, no-wrap
-msgid "netstat\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:32
-#, no-wrap
-msgid "lsof\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:32
-#, no-wrap
-msgid "nmap\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:32
-#, no-wrap
-msgid "rpcinfo\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:32
-#, no-wrap
-msgid "tcpdump\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:32
-#, no-wrap
-msgid "telnet\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/labs/security/index.md:33
-#, no-wrap
-msgid "Lab 5: Local Security"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:41
-#, no-wrap
-msgid "Cracking  the system through the boot loader\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:41
-#, no-wrap
-msgid "Password protecting the boot loader\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:41
-#, no-wrap
-msgid "Disabling un-necessary tty’s\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:41
-#, no-wrap
-msgid "Disabling  reboot via  CTRL+ALT+DEL\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:41
-#, no-wrap
-msgid "Enforcing password prompting in single user-mode\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:41
-#, no-wrap
-msgid "Set-UID programs\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:41
-#, no-wrap
-msgid "John the ripper\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/labs/security/index.md:42
-#, no-wrap
-msgid "Lab 6: A staged Hack"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:44
-#, no-wrap
-msgid "The PATH\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/labs/security/index.md:45
-#, no-wrap
-msgid "Lab 7: TCP wrappers"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:47
-#, no-wrap
-msgid "Tcp_wrappers\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/labs/security/index.md:48
-#, no-wrap
-msgid "Lab 8: Iptables"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:52
-#, no-wrap
-msgid "Iptables essentials\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:52
-#, no-wrap
-msgid "Basic Packet Filtering\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:52
-#, no-wrap
-msgid "Basic Packet Forwarding\n"
-msgstr ""
-
-#. type: Title #
-#: ../src/docs/labs/security/index.md:53
-#: ../src/docs/labs/security/lab9-cryptography.md:2
-#, no-wrap
-msgid "Lab 9: Cryptography"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:64
-#, no-wrap
-msgid "GnuPG\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:64
-#, no-wrap
-msgid "Key Administration\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:64
-#, no-wrap
-msgid "Revocation certificates\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:64
-#, no-wrap
-msgid "Digital signatures\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:64
-#, no-wrap
-msgid "Encrypting and decrypting files\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:64
-#, no-wrap
-msgid "sshd\n"
+msgid "Introduction"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/labs/security/index.md:64
-#: ../src/docs/labs/security/lab9-cryptography.md:584
+#: ../src/docs/labs/security/introduction.md:8
 #, no-wrap
-msgid "ssh\n"
+msgid "A fictitious company (called Example Incorporated) is the subject for designing the labs. Example Incorporated has offices all over the world. Example Incorporated makes widgets. The company has all the usual bells and whistles that a modern company requires to conduct its business. \n"
 msgstr ""
 
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:64
+#. type: Plain text
+#: ../src/docs/labs/security/introduction.md:10
 #, no-wrap
-msgid "scp\n"
+msgid "The Example Organization has Networked Branch offices, with computers which perform different roles. Some computers are workstations, some are firewalls, and some are servers (file servers, web servers, mail servers, database servers, application servers, dialup servers, etcetera). \n"
 msgstr ""
 
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:64
+#. type: Plain text
+#: ../src/docs/labs/security/introduction.md:12
 #, no-wrap
-msgid "Authenticating via Public-Key\n"
+msgid "And of most significant importance to us in this manual – the company has administrators administer/manage the computers. You, The Reader, will be the administrator at one of the branch offices.\n"
 msgstr ""
 
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:64
+#. type: Plain text
+#: ../src/docs/labs/security/introduction.md:14
 #, no-wrap
-msgid "ssh-agent\n"
+msgid "You will be working with a partner (who is also an administrator) to make sure that the Company’s systems are up and running all the time. Example Incorporated deploys Rocky Linux on its Systems because it has High Standards and Requirements for the Hardware and Software that it utilizes.\n"
 msgstr ""
 
-#. type: Title ###
-#: ../src/docs/labs/security/index.md:65
+#. type: Plain text
+#: ../src/docs/labs/security/introduction.md:16
 #, no-wrap
-msgid "Lab 10: Kernel Level Security"
+msgid "The user can do tasks from the command line (the shell) of the Linux Operating System. The user can also do these tasks from the Operating System's Graphical User Interface (GUI). Most of our work, however, will be done from the command line in this manual. \n"
 msgstr ""
 
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:70
+#. type: Plain text
+#: ../src/docs/labs/security/introduction.md:18
 #, no-wrap
-msgid "Installing GRsecurity\n"
+msgid "The idea is to get you comfortable working with the command line, after which there will be no task you cannot perform from the command line. \n"
 msgstr ""
 
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:70
+#. type: Plain text
+#: ../src/docs/labs/security/introduction.md:19
 #, no-wrap
-msgid "gradm\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:70
-#, no-wrap
-msgid "ACLs\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:70
-#, no-wrap
-msgid "GRsecurity Learning mode\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/labs/security/index.md:70
-#, no-wrap
-msgid "SElinux\n"
+msgid "The command line is a fast way to get things done, and it is also one of the features of Linux (besides the Kernel) that you will find remains consistent in its look, feel, and functionality amongst the various versions of Linux.\n"
 msgstr ""
 
