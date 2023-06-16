@@ -13,360 +13,554 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/contribute_beginners.pot\n"
-"X-Crowdin-File-ID: 1355\n"
+"X-Crowdin-File: /po4a/po4a/_po/database_database_mariadb-server.pot\n"
+"X-Crowdin-File-ID: 1357\n"
 
-#. type: Yaml Front Matter Array Element: tags
-#: ../src/docs/guides/cms/dokuwiki_server.md:1
-#: ../src/docs/guides/contribute/beginners.md:1
-#: ../src/docs/guides/contribute/createnew.md:1
-#: ../src/docs/guides/contribute/local_docs.md:1
-#: ../src/docs/guides/contribute/mkdocs_venv.md:1
+#. type: Title ##
+#: ../src/docs/books/admin_guide/13-softwares.md:900
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:105
+#: ../src/docs/books/nvchad/template_chadrc.md:352
+#: ../src/docs/gemstones/bash_stub.md:103
+#: ../src/docs/gemstones/perl_search_replace.md:38
+#: ../src/docs/gemstones/sed_search_replace.md:72
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:172
+#: ../src/docs/guides/automation/olivetin.md:142
+#: ../src/docs/guides/cms/dokuwiki_server.md:306
+#: ../src/docs/guides/communications/asterisk_installation.md:261
+#: ../src/docs/guides/containers/lxd_web_servers.md:919
+#: ../src/docs/guides/containers/podman-nextcloud.md:456
+#: ../src/docs/guides/contribute/local_docs.md:47
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:322
+#: ../src/docs/guides/contribute/navigation.md:129
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:458
+#: ../src/docs/guides/database/database_mariadb-server.md:197
+#: ../src/docs/guides/desktop/kde_installation.md:105
+#: ../src/docs/guides/desktop/mate_installation.md:200
+#: ../src/docs/guides/desktop/xfce_installation.md:218
+#: ../src/docs/guides/editors/micro.md:79
+#: ../src/docs/guides/email/postfix_reporting.md:254
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:270
+#: ../src/docs/guides/file_sharing/sftp.md:765
+#: ../src/docs/guides/proxies/pound.md:460
+#: ../src/docs/guides/security/dnf_automatic.md:119
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:54
+#: ../src/docs/guides/security/firewalld-beginners.md:427
+#: ../src/docs/guides/security/firewalld.md:477
+#: ../src/docs/guides/security/pam.md:137
+#: ../src/docs/guides/security/ssl_keys_https.md:136
+#: ../src/docs/guides/virtualization/vbox-rocky.md:160
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:147
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:235
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:157
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:91
+#: ../src/docs/guides/web/mod_SSL_apache.md:171
+#: ../src/docs/guides/web/nginx-mainline.md:352
+#: ../src/docs/guides/web/nginx-multisite.md:359
 #, no-wrap
-msgid "documentation"
-msgstr ""
-
-#. type: Yaml Front Matter Hash Value: contributors
-#: ../src/docs/guides/containers/podman-nextcloud.md:1
-#: ../src/docs/guides/contribute/beginners.md:1
-#, no-wrap
-msgid "Ezequiel Bruni, Steven Spencer"
-msgstr ""
-
-#. type: Yaml Front Matter Array Element: tags
-#: ../src/docs/guides/contribute/beginners.md:1
-#: ../src/docs/guides/contribute/createnew.md:1
-#, no-wrap
-msgid "contributing"
-msgstr ""
-
-#. type: Yaml Front Matter Array Element: tags
-#: ../src/docs/guides/contribute/beginners.md:1
-#, no-wrap
-msgid "beginners"
-msgstr ""
-
-#. type: Yaml Front Matter Array Element: tags
-#: ../src/docs/guides/contribute/beginners.md:1
-#, no-wrap
-msgid "howto"
-msgstr ""
-
-#. type: Yaml Front Matter Hash Value: title
-#: ../src/docs/guides/contribute/beginners.md:1
-#, no-wrap
-msgid "First Time Contributors Guide"
+msgid "Conclusion"
 msgstr ""
 
 #. type: Title #
-#: ../src/docs/guides/contribute/beginners.md:12
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
+#: ../src/docs/books/learning_ansible/05-deployments.md:31
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/00-toc.md:13
+#: ../src/docs/books/nvchad/index.md:12
+#: ../src/docs/books/nvchad/plugins/index.md:14
+#: ../src/docs/books/nvchad/plugins/md_preview.md:14
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
+#: ../src/docs/books/nvchad/vale_nvchad.md:12
+#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
+#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
+#: ../src/docs/gemstones/string_color.md:11
+#: ../src/docs/guides/automation/cron_jobs_howto.md:25
+#: ../src/docs/guides/automation/olivetin.md:14
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
+#: ../src/docs/guides/backup/rsnapshot_backup.md:22
+#: ../src/docs/guides/backup/rsync_ssh.md:24
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
+#: ../src/docs/guides/cms/dokuwiki_server.md:23
+#: ../src/docs/guides/containers/lxd_web_servers.md:10
+#: ../src/docs/guides/containers/podman-nextcloud.md:13
+#: ../src/docs/guides/contribute/local_docs.md:11
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
+#: ../src/docs/guides/contribute/mkdocs_venv.md:14
+#: ../src/docs/guides/contribute/style_guide.md:14
+#: ../src/docs/guides/database/database_mariadb-server.md:21
+#: ../src/docs/guides/desktop/kde_installation.md:11
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
+#: ../src/docs/guides/editors/micro.md:14
+#: ../src/docs/guides/email/postfix_reporting.md:22
+#: ../src/docs/guides/file_sharing/glusterfs.md:16
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
+#: ../src/docs/guides/file_sharing/sftp.md:16
+#: ../src/docs/guides/migrate2rocky.md:18
+#: ../src/docs/guides/network/basic_network_configuration.md:12
+#: ../src/docs/guides/network/librenms_monitoring_server.md:13
+#: ../src/docs/guides/package_management/index.md:1
+#: ../src/docs/guides/package_management/index.md:5
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
+#: ../src/docs/guides/proxies/pound.md:17
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
+#: ../src/docs/guides/security/firewalld-beginners.md:10
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
+#: ../src/docs/guides/security/ssh_public_private_keys.md:21
+#: ../src/docs/guides/security/ssl_keys_https.md:22
+#: ../src/docs/guides/virtualization/vbox-rocky.md:13
+#: ../src/docs/guides/web/apache-sites-enabled.md:25
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
+#: ../src/docs/guides/web/nginx-mainline.md:13
+#: ../src/docs/guides/web/nginx-multisite.md:14
+#: ../src/docs/labs/security/introduction.md:1
+#: ../src/docs/labs/security/introduction.md:5
 #, no-wrap
-msgid "First-Time Contributor Guide"
+msgid "Introduction"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/beginners.md:15
+#: ../src/docs/books/learning_bash/05-tests.md:67
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:94
+#: ../src/docs/books/nvchad/vale_nvchad.md:36
+#: ../src/docs/guides/automation/cron_jobs_howto.md:77
+#: ../src/docs/guides/contribute/navigation.md:53
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:84
+#: ../src/docs/guides/database/database_mariadb-server.md:48
+#: ../src/docs/guides/file_sharing/sftp.md:482
+#: ../src/docs/guides/file_sharing/sftp.md:569
+#: ../src/docs/guides/proxies/pound.md:40
+#: ../src/docs/guides/security/dnf_automatic.md:67
+#: ../src/docs/guides/security/firewalld.md:102
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:115
 #, no-wrap
-msgid "_Everybody starts somewhere. If this is the first time you’ve contributed to open-source documentation on GitHub, congratulations for taking this step. We can’t wait to see what you have to say!_\n"
+msgid "!!! tip\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/contribute/beginners.md:16
+#: ../src/docs/books/lxd_server/30-appendix_a.md:15
+#: ../src/docs/books/nvchad/vale_nvchad.md:16
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:20
+#: ../src/docs/guides/automation/anacron.md:10
+#: ../src/docs/guides/automation/cron_jobs_howto.md:14
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:13
+#: ../src/docs/guides/backup/rsnapshot_backup.md:13
+#: ../src/docs/guides/backup/rsync_ssh.md:12
+#: ../src/docs/guides/communications/asterisk_installation.md:25
+#: ../src/docs/guides/database/database_mariadb-server.md:13
+#: ../src/docs/guides/desktop/kde_installation.md:20
+#: ../src/docs/guides/desktop/mate_installation.md:17
+#: ../src/docs/guides/desktop/xfce_installation.md:17
+#: ../src/docs/guides/editors/micro.md:33
+#: ../src/docs/guides/email/postfix_reporting.md:14
+#: ../src/docs/guides/file_sharing/glusterfs.md:10
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:14
+#: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:14
+#: ../src/docs/guides/network/basic_network_configuration.md:16
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:8
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:14
+#: ../src/docs/guides/security/ssh_public_private_keys.md:14
+#: ../src/docs/guides/security/ssl_keys_https.md:14
+#: ../src/docs/guides/virtualization/vbox-rocky.md:19
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:15
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:15
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:14
+#: ../src/docs/guides/web/mod_SSL_apache.md:14
 #, no-wrap
-msgid "Git and GitHub"
+msgid "Prerequisites"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/beginners.md:19
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:99
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:232
+#: ../src/docs/guides/database/database_mariadb-server.md:40
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:156
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:44
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:152
 #, no-wrap
-msgid "All of our contributor instructions presuppose you have a GitHub account. If you have never done that, now is the time. If you have 12 minutes, learn the basics of what GitHub is with the [Beginner’s Guide to Git and GitHub](https://www.udacity.com/blog/2015/06/a-beginners-git-github-tutorial.html) from Udemy.\n"
+msgid "And then:\n"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: contributors
+#: ../src/docs/guides/database/database_mariadb-server.md:1
+#, no-wrap
+msgid "Ezequiel Bruni, William Perron"
+msgstr ""
+
+#. type: Yaml Front Matter Array Element: tags
+#: ../src/docs/guides/database/database_mariadb-server.md:1
+#, no-wrap
+msgid "database"
+msgstr ""
+
+#. type: Yaml Front Matter Array Element: tags
+#: ../src/docs/guides/database/database_mariadb-server.md:1
+#, no-wrap
+msgid "mariadb"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/guides/database/database_mariadb-server.md:1
+#: ../src/docs/guides/database/database_mariadb-server.md:11
+#, no-wrap
+msgid "MariaDB Database Server"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/database/database_mariadb-server.md:20
+#, no-wrap
+msgid "A Rocky Linux server\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/database/database_mariadb-server.md:20
+#: ../src/docs/guides/file_sharing/glusterfs.md:15
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
+#, no-wrap
+msgid "Proficiency with a command-line editor (we are using _vi_ in this example)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/database/database_mariadb-server.md:20
+#: ../src/docs/guides/file_sharing/glusterfs.md:15
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:20
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:21
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:20
+#, no-wrap
+msgid "A heavy comfort level with issuing commands from the command-line, viewing logs, and other general systems administrator duties\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/database/database_mariadb-server.md:20
+#, no-wrap
+msgid "An understanding of _mariadb-server_ databases is helpful\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/database/database_mariadb-server.md:20
+#, no-wrap
+msgid "All commands are run as the root user or _sudo_\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/beginners.md:21
+#: ../src/docs/guides/database/database_mariadb-server.md:24
 #, no-wrap
-msgid "You may not start out creating and managing repositories for Rocky Linux, but this [Hello World tutorial](https://docs.github.com/en/get-started/quickstart/hello-world) walks you through creating a GitHub account, learning the lingo, and understanding how repositories work. Focus on learning how to make and Commit updates to existing docs, and how to create a Pull Request.\n"
+msgid "The _mariadb-server_ and it's client _mariadb_ are the open source alternatives to _mysql-server_ and _mysql_, and they share command structure. _mariadb-server_ can be found running on many web servers, due to the popular [Wordpress CMS](https://wordpress.org/) which requires it. This database, though, has many other uses.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/database/database_mariadb-server.md:26
+#, no-wrap
+msgid "If you'd like to use this along with other tools for hardening a web server, refer back to the [Apache Hardened Web Server guide](../web/apache_hardened_webserver/index.md).\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/contribute/beginners.md:22
+#: ../src/docs/guides/database/database_mariadb-server.md:27
 #, no-wrap
-msgid "Markdown"
+msgid "Installing mariadb-server"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/beginners.md:25
+#: ../src/docs/guides/database/database_mariadb-server.md:30
 #, no-wrap
-msgid "Markdown is an easy language that allows you to include formatting, code, and plain text in the same file. The first time you update a document, just follow the existing code. It won’t be long before you are ready to explore additional features. When the time comes, here are the basics.\n"
+msgid "We need to install _mariadb-server_:\n"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/beginners.md:29
+#. type: Plain text
+#: ../src/docs/guides/database/database_mariadb-server.md:32
 #, no-wrap
-msgid "[Basic Markdown](https://www.markdownguide.org/basic-syntax#code)\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/beginners.md:29
-#, no-wrap
-msgid "[Extended Markdown](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks)\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/beginners.md:29
-#, no-wrap
-msgid "Some of the more [advanced formatting](https://docs.rockylinux.org/guides/contribute/rockydocs_formatting/) options we use in our repository\n"
+msgid "`dnf install mariadb-server`\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/contribute/beginners.md:30
+#: ../src/docs/guides/database/database_mariadb-server.md:33
 #, no-wrap
-msgid "Local Repository Editor"
+msgid "Securing mariadb-server"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/beginners.md:33
+#: ../src/docs/guides/database/database_mariadb-server.md:36
 #, no-wrap
-msgid "To create a local repository, first find and install a Markdown editor that works with your computer and operating system. Here are some options, but there are others. Use what you know.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/beginners.md:40
-#, no-wrap
-msgid "[ReText](https://github.com/retext-project/retext) - Free, cross-platform, and open source\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/beginners.md:40
-#, no-wrap
-msgid "[Zettlr](https://www.zettlr.com/) - Free, cross-platform, and open source\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/beginners.md:40
-#, no-wrap
-msgid "[MarkText](https://github.com/marktext/marktext) - Free, cross-platform, and open source\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/beginners.md:40
-#, no-wrap
-msgid "[Remarkable](https://remarkableapp.github.io/) - Linux and Windows, open source\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/beginners.md:40
-#, no-wrap
-msgid "[NvChad](https://nvchad.com/) for the vi/vim user and the nvim client. A lot of plugins are available to enhance the editor for markdown. See [this document](https://docs.rockylinux.org/books/nvchad/) for a nice set of installation instructions.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/beginners.md:40
-#, no-wrap
-msgid "[VS Code](https://code.visualstudio.com/) - Partially open source, by Microsoft. VS Code is a lightweight and powerful editor available for Windows, Linux and MacOS. To contribute to this document project, you should get the following extensions: Git Graph, HTML Preview, HTML Snippets, Markdown All in One, Markdown Preview Enhanced, Markdown Preview Mermaid Support, and any more that catch your fancy.\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/contribute/beginners.md:41
-#, no-wrap
-msgid "Create a local repository"
+msgid "To strengthen the security of _mariadb-server_ we need to run a script, but before we do, we need to enable and start mariadb:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/beginners.md:44
+#: ../src/docs/guides/database/database_mariadb-server.md:38
 #, no-wrap
-msgid "Once you have a Markdown editor installed, follow instructions to connect it to your GitHub account and download your repository to your local machine. Every time you prepare to update a document, follow these steps to sync your local and online forks with the main branch to ensure you are working with the most current version:\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/guides/contribute/beginners.md:52
-#, no-wrap
-msgid "Within GitHub, sync your fork of the documentation repository with the main branch.\n"
-msgstr ""
-
-#. type: Bullet: '2. '
-#: ../src/docs/guides/contribute/beginners.md:52
-#, no-wrap
-msgid "Follow your Markdown editor’s instructions to sync your current fork with your local machine.\n"
-msgstr ""
-
-#. type: Bullet: '3. '
-#: ../src/docs/guides/contribute/beginners.md:52
-#, no-wrap
-msgid "Inside your Markdown editor, open the document you wish to modify.\n"
-msgstr ""
-
-#. type: Bullet: '4. '
-#: ../src/docs/guides/contribute/beginners.md:52
-#, no-wrap
-msgid "Modify the document.\n"
-msgstr ""
-
-#. type: Bullet: '5. '
-#: ../src/docs/guides/contribute/beginners.md:52
-#, no-wrap
-msgid "Save.\n"
-msgstr ""
-
-#. type: Bullet: '6. '
-#: ../src/docs/guides/contribute/beginners.md:52
-#, no-wrap
-msgid "Commit your changes within your editor, which should sync your local repository with your online fork.\n"
-msgstr ""
-
-#. type: Bullet: '7. '
-#: ../src/docs/guides/contribute/beginners.md:52
-#, no-wrap
-msgid "Within GitHub, find the updated document in your fork and create a Pull Request to merge it with the main document.\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/contribute/beginners.md:53
-#, no-wrap
-msgid "Submit an update"
+msgid "`systemctl enable mariadb`\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/beginners.md:56
+#: ../src/docs/guides/database/database_mariadb-server.md:42
 #, no-wrap
-msgid "_Add a missing word, correct an error, clarify a confusing bit of text._\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/guides/contribute/beginners.md:58
-#, no-wrap
-msgid "Start on the page you want to update.\n"
+msgid "`systemctl start mariadb`\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/beginners.md:60
+#: ../src/docs/guides/database/database_mariadb-server.md:44
 #, no-wrap
-msgid "    Click the “Edit” pencil in the upper right corner of the document you want to update. You will be taken to the original document on GitHub.\n"
+msgid "Next, run this command:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/beginners.md:62
+#: ../src/docs/guides/database/database_mariadb-server.md:46
 #, no-wrap
-msgid "    The first time you contribute to the RL repository, you will be prompted with a green button to “**Fork** this **repository** and propose changes.” This creates a duplicate copy of the RL repository where you make your suggested edits. Simply click the green button and continue.\n"
-msgstr ""
-
-#. type: Bullet: '2. '
-#: ../src/docs/guides/contribute/beginners.md:64
-#, no-wrap
-msgid "Make your changes\n"
+msgid "`mysql_secure_installation`\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/beginners.md:66
+#: ../src/docs/guides/database/database_mariadb-server.md:50
 #, no-wrap
-msgid "    Follow the Markdown formatting. Perhaps there’s a missing word, or the link on line 21 needs to be fixed, for example. Make the necessary change.\n"
-msgstr ""
-
-#. type: Bullet: '3. '
-#: ../src/docs/guides/contribute/beginners.md:68
-#, no-wrap
-msgid "Propose changes\n"
+msgid "    The version of mariadb-server that comes enabled by default in Rocky Linux 8.5 is 10.3.32. You can install 10.5.13 by enabling the module:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/beginners.md:70
+#: ../src/docs/guides/database/database_mariadb-server.md:54
 #, no-wrap
-msgid "    At the bottom of the page, write a one-line description in the title of the block entitled, “**Propose changes”**. It is helpful, but not necessary, to reference the file name found at the top of the doc.\n"
+msgid "    ```\n"
+"    dnf module enable mariadb:10.5\n"
+"    ```\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/beginners.md:72
+#: ../src/docs/guides/database/database_mariadb-server.md:56
 #, no-wrap
-msgid "    So, if you updated a link within line 21 of the markdown text, you’d say something like, \"Update README.md with correct links.\"\n"
+msgid "    And then installing `mariadb`. As of version 10.4.6 of MariaDB, MariaDB specific commands are available that you can use instead of the old `mysql` prefixed commands. These include the previously mentioned `mysql_secure_installation` which can now be called with the MariaDB version `mariadb-secure-installation`.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/beginners.md:74
+#: ../src/docs/guides/database/database_mariadb-server.md:58
 #, no-wrap
-msgid "    **Note: Word your action in the present tense.**\n"
+msgid "This brings up a dialog:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/database/database_mariadb-server.md:59
+#, no-wrap
+msgid "NOTE: RUNNING ALL PARTS OF THIS SCRIPT IS RECOMMENDED FOR ALL MariaDB\n"
+"      SERVERS IN PRODUCTION USE!  PLEASE READ EACH STEP CAREFULLY!\n\n"
+"In order to log into MariaDB to secure it, we'll need the current\n"
+"password for the root user.  If you've just installed MariaDB, and\n"
+"you haven't set the root password yet, the password will be blank,\n"
+"so you should just press enter here.\n\n"
+"Enter current password for root (enter for none):\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/beginners.md:76
+#: ../src/docs/guides/database/database_mariadb-server.md:72
 #, no-wrap
-msgid "    Then click Propose changes, which will **Commit** your changes to a complete document within your forked repository.\n"
-msgstr ""
-
-#. type: Bullet: '4. '
-#: ../src/docs/guides/contribute/beginners.md:78
-#, no-wrap
-msgid "Review changes\n"
+msgid "Since this is a brand new installation, there is no root password set. So just hit enter here.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/beginners.md:80
+#: ../src/docs/guides/database/database_mariadb-server.md:74
 #, no-wrap
-msgid "    Now you can look at what you’ve done, line by line. Did you miss anything? Back up to the previous page and correct it again (you’ll have to start over), then click Propose Changes again.\n"
+msgid "The next part of the dialog continues:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/database/database_mariadb-server.md:75
+#, no-wrap
+msgid "OK, successfully used password, moving on...\n\n"
+"Setting the root password ensures that nobody can log into the MariaDB\n"
+"root user without the proper authorisation.\n\n"
+"Set root password? [Y/n]\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/beginners.md:82
+#: ../src/docs/guides/database/database_mariadb-server.md:85
 #, no-wrap
-msgid "    Once the doc is the way you want it, click the green button that says Create Pull Request. This provides one more chance to double check your changes and confirm the doc is ready.\n"
+msgid "You absolutely _do_ want to have a root password set. You'll want to figure out what this should be and document it in a password manager somewhere so that you can pull it up if necessary. Start by hitting 'Enter' to accept the default \"Y\". This will bring up the password dialog:\n"
 msgstr ""
 
-#. type: Bullet: '5. '
-#: ../src/docs/guides/contribute/beginners.md:84
+#. type: Fenced code block
+#: ../src/docs/guides/database/database_mariadb-server.md:86
 #, no-wrap
-msgid "Create Pull Request\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/beginners.md:86
-#, no-wrap
-msgid "    All of your work so far has been done in your own repository, with no opportunity to break the RL main repository. Next you submit it to the documentation team to merge your version into the main version of the document.\n"
+msgid "New password:\n"
+"Re-enter new password:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/beginners.md:88
+#: ../src/docs/guides/database/database_mariadb-server.md:92
 #, no-wrap
-msgid "    Click the big green button that says Create Pull Request. Good news, you still haven’t broken anything, because now it goes to the RL documentation team for review.\n"
+msgid "Enter your chosen password and then confirm it by entering it again. If this is successful, you will get the following dialog:\n"
 msgstr ""
 
-#. type: Bullet: '6. '
-#: ../src/docs/guides/contribute/beginners.md:90
+#. type: Fenced code block
+#: ../src/docs/guides/database/database_mariadb-server.md:93
 #, no-wrap
-msgid "Wait\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/beginners.md:92
-#, no-wrap
-msgid "    Once the RL team gets your request, they will respond in one of three ways.\n"
-msgstr ""
-
-#. type: Bullet: '    * '
-#: ../src/docs/guides/contribute/beginners.md:96
-#, no-wrap
-msgid "Accept and merge your PR\n"
-msgstr ""
-
-#. type: Bullet: '    * '
-#: ../src/docs/guides/contribute/beginners.md:96
-#, no-wrap
-msgid "Comment with feedback and ask for changes\n"
-msgstr ""
-
-#. type: Bullet: '    * '
-#: ../src/docs/guides/contribute/beginners.md:96
-#, no-wrap
-msgid "Deny your PR with explanation\n"
+msgid "Password updated successfully!\n"
+"Reloading privilege tables..\n"
+" ... Success!\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/beginners.md:98
+#: ../src/docs/guides/database/database_mariadb-server.md:100
 #, no-wrap
-msgid "    The last response is unlikely. We really want to include your perspective here! If you have to make changes, you’ll suddenly understand why you need a local repository. The team can [talk you through](https://chat.rockylinux.org/rocky-linux/channels/documentation) what to do next. In good news, it’s still fixable. Follow the comment section of that request to see what further information is requested.\n"
+msgid "Next the dialog deals with the anonymous user:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/database/database_mariadb-server.md:101
+#, no-wrap
+msgid "By default, a MariaDB installation has an anonymous user, allowing anyone\n"
+"to log into MariaDB without having to have a user account created for\n"
+"them.  This is intended only for testing, and to make the installation\n"
+"go a bit smoother.  You should remove them before moving into a\n"
+"production environment.\n\n"
+"Remove anonymous users? [Y/n]\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/beginners.md:99
+#: ../src/docs/guides/database/database_mariadb-server.md:112
 #, no-wrap
-msgid "    Otherwise, your request will be accepted and merged. Welcome to the team, you’re officially a contributor now! Look for your name to show up on the all-contributors list at the bottom of the Contributor Guide in a few days.\n"
+msgid "The answer here is \"Y\" so just hit 'Enter' to accept the default.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/database/database_mariadb-server.md:114
+#, no-wrap
+msgid "The dialog proceeds to the section dealing with allowing the root user to login remotely:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/database/database_mariadb-server.md:115
+#, no-wrap
+msgid "... Success!\n\n"
+"Normally, root should only be allowed to connect from 'localhost'.  This\n"
+"ensures that someone cannot guess at the root password from the network.\n\n"
+"Disallow root login remotely? [Y/n]\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/database/database_mariadb-server.md:125
+#, no-wrap
+msgid "root should only be needed locally on the machine. So accept this default as well by hitting 'Enter'.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/database/database_mariadb-server.md:127
+#, no-wrap
+msgid "The dialog then moves on to the 'test' database that is automatically installed with _mariadb-server_:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/database/database_mariadb-server.md:128
+#, no-wrap
+msgid "... Success!\n\n\n"
+"By default, MariaDB comes with a database named 'test' that anyone can\n"
+"access.  This is also intended only for testing, and should be removed\n"
+"before moving into a production environment.\n\n"
+"Remove test database and access to it? [Y/n]\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/database/database_mariadb-server.md:140
+#, no-wrap
+msgid "Again, the answer here is the default, so just hit 'Enter' to remove it.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/database/database_mariadb-server.md:142
+#, no-wrap
+msgid "Finally, the dialog ask you if you want to reload the privileges:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/database/database_mariadb-server.md:143
+#, no-wrap
+msgid "- Dropping test database...\n"
+" ... Success!\n"
+" - Removing privileges on test database...\n"
+" ... Success!\n\n"
+"Reloading the privilege tables will ensure that all changes made so far\n"
+"will take effect immediately.\n\n"
+"Reload privilege tables now? [Y/n]\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/database/database_mariadb-server.md:156
+#, no-wrap
+msgid "Again, simply hit 'Enter' to do this. If all goes well, you should receive this message:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/database/database_mariadb-server.md:157
+#, no-wrap
+msgid " ... Success!\n\n"
+"Cleaning up...\n\n"
+"All done!  If you've completed all of the above steps, your MariaDB\n"
+"installation should now be secure.\n\n"
+"Thanks for using MariaDB!\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/database/database_mariadb-server.md:169
+#, no-wrap
+msgid "MariaDB should now be ready to use.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/database/database_mariadb-server.md:170
+#, no-wrap
+msgid "Rocky Linux 9.0 Changes"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/database/database_mariadb-server.md:173
+#, no-wrap
+msgid "Rocky Linux 9.0 uses `mariadb-server-10.5.13-2` as the default mariadb-server version. As of version 10.4.3, a new plugin is automatically enabled in the server which changes the `mariadb-secure-installation` dialog. That plugin is `unix-socket` authentication. [This article](https://mariadb.com/kb/en/authentication-plugin-unix-socket/) explains the new feature well. Essentially, using `unix-socket` authentication uses the credentials of the logged in user to access the database. It makes it so that if the root user, for example, logs in and then uses `mysqladmin` to create or delete a database (or any other function) that no password is needed for access. Same works with `mysql`. It also means there is no password to compromise remotely. This depends on the security of the users setup on the server for all of the protection of the database.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/database/database_mariadb-server.md:175
+#, no-wrap
+msgid "The second dialog during the `mariadb-secure-installation` after the password is set for the administrative user is:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/database/database_mariadb-server.md:176
+#, no-wrap
+msgid "Switch to unix_socket authentication Y/n\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/database/database_mariadb-server.md:181
+#, no-wrap
+msgid "Obviously, the default here is \"Y\", but even if you answer \"n\", with the plugin enabled, no password is requested for the user, at least not from the command line interface. You can specify either password or no password and they both work:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/database/database_mariadb-server.md:182
+#, no-wrap
+msgid "mysql\n\n"
+"MariaDB [(none)]>\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/database/database_mariadb-server.md:188
+#, no-wrap
+msgid "mysql -p\n"
+"Enter password:\n\n"
+"MariaDB [(none)]>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/database/database_mariadb-server.md:196
+#, no-wrap
+msgid "For more information on this feature, refer to the link above. There is a way to switch off this plugin and go back to having the password as a required field, which is also detailed within that link.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/database/database_mariadb-server.md:199
+#, no-wrap
+msgid "A database server, such as _mariadb-server_, can be used for many purposes. Because of the popularity of the Wordpress CMS, it is often found on web servers. Before we run the database in production, however, it is a good idea to strengthen its security.\n"
 msgstr ""
 
