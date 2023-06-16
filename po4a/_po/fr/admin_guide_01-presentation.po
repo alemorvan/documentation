@@ -7,19 +7,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-06-16 16:28+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-06-16 17:04+0000\n"
+"Last-Translator: Weblate Admin <weblate@formatux.fr>\n"
+"Language-Team: French <http://weblate.formatux.fr/projects/documentation/"
+"admin_guide_00-toc/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.17\n"
 
 #. type: YAML Front Matter: title
 #: ../src/docs/books/admin_guide/01-presentation.md:1
 #, no-wrap
 msgid "Introduction to Linux"
-msgstr ""
+msgstr "Introduction à Linux"
 
 #. type: Title #
 #: ../src/docs/books/admin_guide/01-presentation.md:5
