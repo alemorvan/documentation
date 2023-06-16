@@ -13,262 +13,211 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/gemstones_https_rsa_keygen.pot\n"
-"X-Crowdin-File-ID: 1299\n"
+"X-Crowdin-File: /po4a/po4a/_po/gemstones_markdown-demo-v2.pot\n"
+"X-Crowdin-File-ID: 1301\n"
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/04-advanced-commands.md:43
-#: ../src/docs/books/admin_guide/04-advanced-commands.md:220
-#: ../src/docs/books/admin_guide/04-advanced-commands.md:271
-#: ../src/docs/books/admin_guide/04-advanced-commands.md:334
-#: ../src/docs/books/admin_guide/05-vi.md:70
-#: ../src/docs/books/admin_guide/05-vi.md:206
-#: ../src/docs/books/admin_guide/05-vi.md:272
-#: ../src/docs/books/admin_guide/06-users.md:36
-#: ../src/docs/books/admin_guide/06-users.md:92
-#: ../src/docs/books/admin_guide/06-users.md:220
-#: ../src/docs/books/admin_guide/06-users.md:350
-#: ../src/docs/books/admin_guide/06-users.md:598
-#: ../src/docs/books/admin_guide/06-users.md:754
-#: ../src/docs/books/admin_guide/06-users.md:818
-#: ../src/docs/books/admin_guide/11-tasks.md:174
-#: ../src/docs/books/admin_guide/12-network.md:158
-#: ../src/docs/books/admin_guide/03-commands.md:516
-#: ../src/docs/books/admin_guide/03-commands.md:693
-#: ../src/docs/books/admin_guide/03-commands.md:1216
-#: ../src/docs/books/admin_guide/03-commands.md:1262
-#: ../src/docs/books/admin_guide/03-commands.md:1297
-#: ../src/docs/books/admin_guide/07-file-systems.md:395
-#: ../src/docs/books/admin_guide/07-file-systems.md:437
-#: ../src/docs/books/admin_guide/07-file-systems.md:447
-#: ../src/docs/books/admin_guide/07-file-systems.md:515
-#: ../src/docs/books/admin_guide/07-file-systems.md:556
-#: ../src/docs/books/admin_guide/07-file-systems.md:627
-#: ../src/docs/books/admin_guide/07-file-systems.md:653
-#: ../src/docs/books/admin_guide/07-file-systems.md:672
-#: ../src/docs/books/admin_guide/07-file-systems.md:676
-#: ../src/docs/books/admin_guide/07-file-systems.md:1019
-#: ../src/docs/books/admin_guide/08-process.md:49
-#: ../src/docs/books/admin_guide/08-process.md:238
-#: ../src/docs/books/admin_guide/09-backups.md:27
-#: ../src/docs/books/admin_guide/09-backups.md:116
-#: ../src/docs/books/admin_guide/09-backups.md:133
-#: ../src/docs/books/admin_guide/09-backups.md:148
-#: ../src/docs/books/admin_guide/09-backups.md:281
-#: ../src/docs/books/admin_guide/09-backups.md:285
-#: ../src/docs/books/admin_guide/09-backups.md:301
-#: ../src/docs/books/admin_guide/09-backups.md:342
-#: ../src/docs/books/admin_guide/09-backups.md:352
-#: ../src/docs/books/admin_guide/09-backups.md:554
-#: ../src/docs/books/admin_guide/09-backups.md:771
-#: ../src/docs/books/admin_guide/10-boot.md:114
-#: ../src/docs/books/admin_guide/10-boot.md:153
-#: ../src/docs/books/admin_guide/10-boot.md:165
-#: ../src/docs/books/admin_guide/13-softwares.md:22
-#: ../src/docs/books/learning_ansible/01-basic.md:51
-#: ../src/docs/books/learning_ansible/01-basic.md:104
-#: ../src/docs/books/learning_ansible/01-basic.md:112
-#: ../src/docs/books/learning_ansible/01-basic.md:328
-#: ../src/docs/books/learning_ansible/01-basic.md:415
-#: ../src/docs/books/learning_ansible/01-basic.md:492
-#: ../src/docs/books/learning_ansible/01-basic.md:633
-#: ../src/docs/books/learning_ansible/01-basic.md:656
-#: ../src/docs/books/learning_ansible/02-advanced.md:34
-#: ../src/docs/books/learning_ansible/02-advanced.md:150
-#: ../src/docs/books/learning_ansible/02-advanced.md:182
-#: ../src/docs/books/learning_ansible/02-advanced.md:269
-#: ../src/docs/books/learning_ansible/02-advanced.md:277
-#: ../src/docs/books/learning_ansible/02-advanced.md:287
-#: ../src/docs/books/learning_ansible/02-advanced.md:293
-#: ../src/docs/books/learning_ansible/02-advanced.md:360
-#: ../src/docs/books/learning_ansible/02-advanced.md:428
-#: ../src/docs/books/learning_ansible/02-advanced.md:601
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:33
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:58
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:77
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:96
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:113
-#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:65
-#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:432
-#: ../src/docs/books/learning_ansible/05-deployments.md:41
-#: ../src/docs/books/learning_ansible/05-deployments.md:124
-#: ../src/docs/books/learning_ansible/05-deployments.md:196
-#: ../src/docs/books/learning_ansible/05-deployments.md:616
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:36
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:40
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:80
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:214
-#: ../src/docs/books/learning_ansible/07-working-with-filters.md:32
-#: ../src/docs/books/learning_ansible/07-working-with-filters.md:75
-#: ../src/docs/books/learning_bash/02-using-variables.md:153
-#: ../src/docs/books/learning_bash/02-using-variables.md:193
-#: ../src/docs/books/learning_bash/05-tests.md:245
-#: ../src/docs/books/learning_bash/07-loops.md:180
-#: ../src/docs/books/lxd_server/04-firewall.md:80
-#: ../src/docs/books/nvchad/plugins/md_preview.md:140
-#: ../src/docs/books/nvchad/template_chadrc.md:239
-#: ../src/docs/gemstones/https_rsa_keygen.md:34
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:80
-#: ../src/docs/guides/8_6_installation.md:37
-#: ../src/docs/guides/8_6_installation.md:168
-#: ../src/docs/guides/8_6_installation.md:176
-#: ../src/docs/guides/8_6_installation.md:182
-#: ../src/docs/guides/8_6_installation.md:250
-#: ../src/docs/guides/automation/olivetin.md:60
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:307
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:323
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:486
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:533
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:667
-#: ../src/docs/guides/containers/lxd_web_servers.md:35
-#: ../src/docs/guides/containers/lxd_web_servers.md:45
-#: ../src/docs/guides/containers/lxd_web_servers.md:301
-#: ../src/docs/guides/containers/lxd_web_servers.md:352
-#: ../src/docs/guides/containers/lxd_web_servers.md:605
-#: ../src/docs/guides/containers/lxd_web_servers.md:665
-#: ../src/docs/guides/containers/lxd_web_servers.md:737
-#: ../src/docs/guides/containers/lxd_web_servers.md:796
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:53
-#: ../src/docs/guides/contribute/navigation.md:60
-#: ../src/docs/guides/custom-linux-kernel.md:453
-#: ../src/docs/guides/editors/micro.md:30
-#: ../src/docs/guides/file_sharing/glusterfs.md:46
-#: ../src/docs/guides/file_sharing/glusterfs.md:64
-#: ../src/docs/guides/file_sharing/glusterfs.md:102
-#: ../src/docs/guides/file_sharing/glusterfs.md:203
-#: ../src/docs/guides/installation.md:36 ../src/docs/guides/installation.md:175
-#: ../src/docs/guides/installation.md:183
-#: ../src/docs/guides/installation.md:193
-#: ../src/docs/guides/installation.md:266
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
-#: ../src/docs/guides/security/firewalld-beginners.md:89
-#: ../src/docs/guides/security/firewalld-beginners.md:144
-#: ../src/docs/guides/security/firewalld-beginners.md:258
-#: ../src/docs/guides/security/firewalld.md:51
-#: ../src/docs/guides/security/firewalld.md:94
-#: ../src/docs/guides/security/firewalld.md:228
-#: ../src/docs/guides/security/firewalld.md:372
-#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:72
-#: ../src/docs/guides/security/learning_selinux.md:137
-#: ../src/docs/guides/security/learning_selinux.md:253
-#: ../src/docs/guides/security/learning_selinux.md:356
-#: ../src/docs/guides/virtualization/vbox-rocky.md:27
-#: ../src/docs/guides/web/nginx-mainline.md:30
-#: ../src/docs/guides/web/nginx-mainline.md:99
-#: ../src/docs/guides/web/nginx-mainline.md:141
-#: ../src/docs/guides/web/nginx-mainline.md:254
-#: ../src/docs/guides/web/nginx-mainline.md:333
-#: ../src/docs/guides/web/nginx-multisite.md:73
-#: ../src/docs/guides/web/nginx-multisite.md:233
-#: ../src/docs/guides/web/nginx-multisite.md:292
-#: ../src/docs/guides/web/nginx-multisite.md:302
-#: ../src/docs/guides/web/php.md:33 ../src/docs/guides/web/php.md:76
-#: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
-#: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
-#: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:324
+#: ../src/docs/gemstones/markdown-demo-v2.md:15
+#: ../src/docs/guides/security/pam.md:45
+#: ../src/docs/labs/security/lab9-cryptography.md:155
 #, no-wrap
-msgid "!!! Note\n"
+msgid "!!! WARNING\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/nvchad/index.md:1
+#: ../src/docs/books/nvchad/plugins/index.md:1
+#: ../src/docs/books/nvchad/plugins/index.md:12
+#: ../src/docs/gemstones/markdown-demo-v2.md:12
+#: ../src/docs/guides/custom-linux-kernel.md:10
+#: ../src/docs/release_notes/index.md:16 ../src/docs/release_notes/index.md:30
+#, no-wrap
+msgid "Overview"
+msgstr ""
+
+#. type: YAML Front Matter: contributors
+#: ../src/docs/gemstones/markdown-demo-v2.md:1
+#, no-wrap
+msgid "Dr. Ben Dover, Sweet Gypsy Rose"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/markdown-demo-v2.md:1
+#, no-wrap
+msgid "sample"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/markdown-demo-v2.md:1
+#, no-wrap
+msgid "crowdin"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/markdown-demo-v2.md:1
+#, no-wrap
+msgid "markdown"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/gemstones/markdown-demo-v2.md:1
+#, no-wrap
+msgid "Markdown Demo"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/markdown-demo-v2.md:17
+#, no-wrap
+msgid "    Do not take anything you may read in this document seriously.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/markdown-demo-v2.md:19
+#, no-wrap
+msgid "As you can tell by reading, this is a pretty silly example, designed to be used to test some translation issues that we are having. But because the problems have not yet been solved we are going to modify the file a little bit here and there to see the effect it has. It's fun to write though!\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/markdown-demo-v2.md:21
+#, no-wrap
+msgid "This guide demos popular Markdown tags used on [https://docs.rockylinux.org](https://docs.rockylinux.org) also includes the admonitions tag, which is not part of the standard Markdown tags.\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:61
-#: ../src/docs/gemstones/https_rsa_keygen.md:11
+#: ../src/docs/gemstones/markdown-demo-v2.md:22
 #, no-wrap
-msgid "Script"
-msgstr ""
-
-#. type: Title #
-#: ../src/docs/gemstones/https_rsa_keygen.md:1
-#: ../src/docs/gemstones/https_rsa_keygen.md:7
-#, no-wrap
-msgid "https - RSA Key Generation"
+msgid "The Demo"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/gemstones/https_rsa_keygen.md:10
+#: ../src/docs/gemstones/markdown-demo-v2.md:25
 #, no-wrap
-msgid "This script has been used by me many times. No matter how often you use the openssl command structure, sometimes you have to refer back to the procedure. This script allows you to automate key generation for a web site using RSA. Note that this script is hard coded with a 2048-bit key length. For those of you who feel strongly that the key length minimum should be 4096 bits, simply change that portion of the script. Just know that you need to weigh the memory and speed that a site needs to load on a device, against the security of the longer key length.\n"
+msgid "> This is a quote example. Nicely formatted.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/gemstones/https_rsa_keygen.md:14
+#: ../src/docs/gemstones/markdown-demo-v2.md:27
 #, no-wrap
-msgid "Name this script anything you like, example: `keygen.sh`, make the script executable (`chmod +x scriptname`) and place it in a directory that is in your path, example: /usr/local/sbin\n"
+msgid "Sometimes you will see things like _this_.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/markdown-demo-v2.md:29
+#, no-wrap
+msgid "How about a little **bold face**\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/markdown-demo-v2.md:31
+#, no-wrap
+msgid "Most of the time, it straight text like this.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/markdown-demo-v2.md:33
+#, no-wrap
+msgid "Sometimes you need to show a `command`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/markdown-demo-v2.md:35
+#, no-wrap
+msgid "Or multiple commands:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/gemstones/https_rsa_keygen.md:15
+#: ../src/docs/gemstones/markdown-demo-v2.md:36
 #, no-wrap
-msgid "#!/bin/bash\n"
-"if [ $1 ]\n"
-"then\n"
-"      echo \"generating 2048 bit key - you'll need to enter a pass phrase and verify it\"\n"
-"      openssl genrsa -des3 -out $1.key.pass 2048\n"
-"      echo \"now we will create a pass-phrase less key for actual use, but you will need to enter your pass phrase a third time\"\n"
-"      openssl rsa -in $1.key.pass -out $1.key\n"
-"      echo \"next, we will generate the csr\"\n"
-"      openssl req -new -key $1.key -out $1.csr\n"
-"      #cleanup\n"
-"      rm -f $1.key.pass\n"
-"else\n"
-"      echo \"requires keyname parameter\"\n"
-"      exit\n"
-"fi\n"
+msgid "dnf install my_stapler\n"
+"dnf update my_pencil\n"
+"dnf remove my_notepad\n"
+"systemctl enable my_stapler\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/gemstones/https_rsa_keygen.md:36
+#: ../src/docs/gemstones/markdown-demo-v2.md:44
 #, no-wrap
-msgid "    You will enter the pass phrase three times in succession.\n"
+msgid "At other times, you need bulleted or numbered lists:\n"
 msgstr ""
 
-#. type: Title ##
-#: ../src/docs/gemstones/https_rsa_keygen.md:37
+#. type: Bullet: '- '
+#: ../src/docs/gemstones/markdown-demo-v2.md:49
 #, no-wrap
-msgid "Brief Description"
+msgid "I believe you have my stapler\n"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/https_rsa_keygen.md:45
+#. type: Bullet: '- '
+#: ../src/docs/gemstones/markdown-demo-v2.md:49
 #, no-wrap
-msgid "This bash script requires a parameter to be entered ($1) which is the name of the site without any www, etc. For example, \"mywidget\".\n"
+msgid "Come to think of it, I can't even find my compass\n"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/https_rsa_keygen.md:45
+#. type: Bullet: '- '
+#: ../src/docs/gemstones/markdown-demo-v2.md:49
 #, no-wrap
-msgid "The script creates the default key with a password and 2048-bit length (this can be edited, as noted above to a longer 4096 bit length)\n"
+msgid "If not, please at least return my pencil\n"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/https_rsa_keygen.md:45
+#. type: Bullet: '- '
+#: ../src/docs/gemstones/markdown-demo-v2.md:49
 #, no-wrap
-msgid "The password is then immediately removed from the key, the reason is that web server restarts would require that the key password be entered each time, and on reboot, which can be problematic in practice.\n"
+msgid "I definitely need it\n"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/https_rsa_keygen.md:45
+#. type: Bullet: '1. '
+#: ../src/docs/gemstones/markdown-demo-v2.md:53
 #, no-wrap
-msgid "Next the script creates the CSR (Certificate Signing Request), which can then be used to purchase an SSL certificate from a provider.\n"
+msgid "I didn't know you needed it\n"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/https_rsa_keygen.md:45
+#. type: Bullet: '2. '
+#: ../src/docs/gemstones/markdown-demo-v2.md:53
 #, no-wrap
-msgid "Finally, the cleanup step removes the previously created key with the password attached.\n"
+msgid "Here is your broken pencil\n"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/https_rsa_keygen.md:45
+#. type: Bullet: '3. '
+#: ../src/docs/gemstones/markdown-demo-v2.md:53
 #, no-wrap
-msgid "Entering the script name without the parameter generates the error: \"requires keyname parameter\".\n"
+msgid "Sharpening it is useless\n"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/https_rsa_keygen.md:45
+#. type: Plain text
+#: ../src/docs/gemstones/markdown-demo-v2.md:55
 #, no-wrap
-msgid "The positional parameter variable, i.e., $n, is used here. Where $0 represents the command itself and $1 to $9 represent the first to ninth parameters. When the number is greater than 10, you need to use braces, such as ${10}.\n"
+msgid "And you could need an admonition:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/markdown-demo-v2.md:57
+#: ../src/docs/guides/custom-linux-kernel.md:51
+#: ../src/docs/guides/custom-linux-kernel.md:197
+#, no-wrap
+msgid "!!! TIP\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/markdown-demo-v2.md:59
+#, no-wrap
+msgid "    Pencils and staplers are really old-school.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/markdown-demo-v2.md:61
+#, no-wrap
+msgid "More times than not, when a command has multiple options, or you need to list specifics, you might want to use a table to identify things:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/markdown-demo-v2.md:68
+#, no-wrap
+msgid "| Tool     | Use                                         | Additional Information                          |\n"
+"| -------- | ------------------------------------------- | ----------------------------------------------- |\n"
+"| pencil   | writing or printing                         | often replaced with a pen                       |\n"
+"| pen      | writing or printing                         | often replaced with a stylus                    |\n"
+"| stylus   | writing or printing on an electronic device | sometimes replaced by a keyboard                |\n"
+"| keyboard | writing or printing on an electronic device | never replaced - used until full of food crumbs |\n"
+"| notepad  | take notes                                  | substitute for a sometimes-faulty memory        |\n"
 msgstr ""
 
