@@ -13,163 +13,69 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/contribute_navigation.pot\n"
-"X-Crowdin-File-ID: 1269\n"
+"X-Crowdin-File: /po4a/po4a/_po/contribute_rockydocs_formatting.pot\n"
+"X-Crowdin-File-ID: 1271\n"
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/04-advanced-commands.md:43
-#: ../src/docs/books/admin_guide/04-advanced-commands.md:220
-#: ../src/docs/books/admin_guide/04-advanced-commands.md:271
-#: ../src/docs/books/admin_guide/04-advanced-commands.md:334
-#: ../src/docs/books/admin_guide/05-vi.md:70
-#: ../src/docs/books/admin_guide/05-vi.md:206
-#: ../src/docs/books/admin_guide/05-vi.md:272
-#: ../src/docs/books/admin_guide/06-users.md:36
-#: ../src/docs/books/admin_guide/06-users.md:92
-#: ../src/docs/books/admin_guide/06-users.md:220
-#: ../src/docs/books/admin_guide/06-users.md:350
-#: ../src/docs/books/admin_guide/06-users.md:598
-#: ../src/docs/books/admin_guide/06-users.md:754
-#: ../src/docs/books/admin_guide/06-users.md:818
-#: ../src/docs/books/admin_guide/11-tasks.md:174
-#: ../src/docs/books/admin_guide/12-network.md:158
-#: ../src/docs/books/admin_guide/03-commands.md:516
-#: ../src/docs/books/admin_guide/03-commands.md:693
-#: ../src/docs/books/admin_guide/03-commands.md:1216
-#: ../src/docs/books/admin_guide/03-commands.md:1262
-#: ../src/docs/books/admin_guide/03-commands.md:1297
-#: ../src/docs/books/admin_guide/07-file-systems.md:395
-#: ../src/docs/books/admin_guide/07-file-systems.md:437
-#: ../src/docs/books/admin_guide/07-file-systems.md:447
-#: ../src/docs/books/admin_guide/07-file-systems.md:515
-#: ../src/docs/books/admin_guide/07-file-systems.md:556
-#: ../src/docs/books/admin_guide/07-file-systems.md:627
-#: ../src/docs/books/admin_guide/07-file-systems.md:653
-#: ../src/docs/books/admin_guide/07-file-systems.md:672
-#: ../src/docs/books/admin_guide/07-file-systems.md:676
-#: ../src/docs/books/admin_guide/07-file-systems.md:1019
-#: ../src/docs/books/admin_guide/08-process.md:49
-#: ../src/docs/books/admin_guide/08-process.md:238
-#: ../src/docs/books/admin_guide/09-backups.md:27
-#: ../src/docs/books/admin_guide/09-backups.md:116
-#: ../src/docs/books/admin_guide/09-backups.md:133
-#: ../src/docs/books/admin_guide/09-backups.md:148
-#: ../src/docs/books/admin_guide/09-backups.md:281
-#: ../src/docs/books/admin_guide/09-backups.md:285
-#: ../src/docs/books/admin_guide/09-backups.md:301
-#: ../src/docs/books/admin_guide/09-backups.md:342
-#: ../src/docs/books/admin_guide/09-backups.md:352
-#: ../src/docs/books/admin_guide/09-backups.md:554
-#: ../src/docs/books/admin_guide/09-backups.md:771
-#: ../src/docs/books/admin_guide/10-boot.md:114
-#: ../src/docs/books/admin_guide/10-boot.md:153
-#: ../src/docs/books/admin_guide/10-boot.md:165
-#: ../src/docs/books/admin_guide/13-softwares.md:22
-#: ../src/docs/books/learning_ansible/01-basic.md:51
-#: ../src/docs/books/learning_ansible/01-basic.md:104
-#: ../src/docs/books/learning_ansible/01-basic.md:112
-#: ../src/docs/books/learning_ansible/01-basic.md:328
-#: ../src/docs/books/learning_ansible/01-basic.md:415
-#: ../src/docs/books/learning_ansible/01-basic.md:492
-#: ../src/docs/books/learning_ansible/01-basic.md:633
-#: ../src/docs/books/learning_ansible/01-basic.md:656
-#: ../src/docs/books/learning_ansible/02-advanced.md:34
-#: ../src/docs/books/learning_ansible/02-advanced.md:150
-#: ../src/docs/books/learning_ansible/02-advanced.md:182
-#: ../src/docs/books/learning_ansible/02-advanced.md:269
-#: ../src/docs/books/learning_ansible/02-advanced.md:277
-#: ../src/docs/books/learning_ansible/02-advanced.md:287
-#: ../src/docs/books/learning_ansible/02-advanced.md:293
-#: ../src/docs/books/learning_ansible/02-advanced.md:360
-#: ../src/docs/books/learning_ansible/02-advanced.md:428
-#: ../src/docs/books/learning_ansible/02-advanced.md:601
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:33
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:58
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:77
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:96
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:113
-#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:65
-#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:432
-#: ../src/docs/books/learning_ansible/05-deployments.md:41
-#: ../src/docs/books/learning_ansible/05-deployments.md:124
-#: ../src/docs/books/learning_ansible/05-deployments.md:196
-#: ../src/docs/books/learning_ansible/05-deployments.md:616
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:36
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:40
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:80
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:214
-#: ../src/docs/books/learning_ansible/07-working-with-filters.md:32
-#: ../src/docs/books/learning_ansible/07-working-with-filters.md:75
-#: ../src/docs/books/learning_bash/02-using-variables.md:153
-#: ../src/docs/books/learning_bash/02-using-variables.md:193
-#: ../src/docs/books/learning_bash/05-tests.md:245
-#: ../src/docs/books/learning_bash/07-loops.md:180
-#: ../src/docs/books/lxd_server/04-firewall.md:80
-#: ../src/docs/books/nvchad/plugins/md_preview.md:140
-#: ../src/docs/books/nvchad/template_chadrc.md:239
-#: ../src/docs/gemstones/https_rsa_keygen.md:34
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:80
-#: ../src/docs/guides/8_6_installation.md:37
-#: ../src/docs/guides/8_6_installation.md:168
-#: ../src/docs/guides/8_6_installation.md:176
-#: ../src/docs/guides/8_6_installation.md:182
-#: ../src/docs/guides/8_6_installation.md:250
-#: ../src/docs/guides/automation/olivetin.md:60
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:307
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:323
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:486
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:533
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:667
-#: ../src/docs/guides/containers/lxd_web_servers.md:35
-#: ../src/docs/guides/containers/lxd_web_servers.md:45
-#: ../src/docs/guides/containers/lxd_web_servers.md:301
-#: ../src/docs/guides/containers/lxd_web_servers.md:352
-#: ../src/docs/guides/containers/lxd_web_servers.md:605
-#: ../src/docs/guides/containers/lxd_web_servers.md:665
-#: ../src/docs/guides/containers/lxd_web_servers.md:737
-#: ../src/docs/guides/containers/lxd_web_servers.md:796
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:53
-#: ../src/docs/guides/contribute/navigation.md:60
-#: ../src/docs/guides/custom-linux-kernel.md:453
-#: ../src/docs/guides/editors/micro.md:30
-#: ../src/docs/guides/file_sharing/glusterfs.md:46
-#: ../src/docs/guides/file_sharing/glusterfs.md:64
-#: ../src/docs/guides/file_sharing/glusterfs.md:102
-#: ../src/docs/guides/file_sharing/glusterfs.md:203
-#: ../src/docs/guides/installation.md:36 ../src/docs/guides/installation.md:175
-#: ../src/docs/guides/installation.md:183
-#: ../src/docs/guides/installation.md:193
-#: ../src/docs/guides/installation.md:266
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
-#: ../src/docs/guides/security/firewalld-beginners.md:89
-#: ../src/docs/guides/security/firewalld-beginners.md:144
-#: ../src/docs/guides/security/firewalld-beginners.md:258
-#: ../src/docs/guides/security/firewalld.md:51
-#: ../src/docs/guides/security/firewalld.md:94
-#: ../src/docs/guides/security/firewalld.md:228
-#: ../src/docs/guides/security/firewalld.md:372
-#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:72
-#: ../src/docs/guides/security/learning_selinux.md:137
-#: ../src/docs/guides/security/learning_selinux.md:253
-#: ../src/docs/guides/security/learning_selinux.md:356
-#: ../src/docs/guides/virtualization/vbox-rocky.md:27
-#: ../src/docs/guides/web/nginx-mainline.md:30
-#: ../src/docs/guides/web/nginx-mainline.md:99
-#: ../src/docs/guides/web/nginx-mainline.md:141
-#: ../src/docs/guides/web/nginx-mainline.md:254
-#: ../src/docs/guides/web/nginx-mainline.md:333
-#: ../src/docs/guides/web/nginx-multisite.md:73
-#: ../src/docs/guides/web/nginx-multisite.md:233
-#: ../src/docs/guides/web/nginx-multisite.md:292
-#: ../src/docs/guides/web/nginx-multisite.md:302
-#: ../src/docs/guides/web/php.md:33 ../src/docs/guides/web/php.md:76
-#: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
-#: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
-#: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
+#: ../src/docs/books/admin_guide/01-presentation.md:33
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:76
 #, no-wrap
-msgid "!!! Note\n"
+msgid "!!! abstract\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/01-presentation.md:96
+#: ../src/docs/books/admin_guide/07-file-systems.md:199
+#: ../src/docs/books/admin_guide/07-file-systems.md:299
+#: ../src/docs/books/admin_guide/07-file-systems.md:597
+#: ../src/docs/books/admin_guide/07-file-systems.md:851
+#: ../src/docs/books/admin_guide/07-file-systems.md:863
+#: ../src/docs/books/admin_guide/07-file-systems.md:926
+#: ../src/docs/books/admin_guide/07-file-systems.md:974
+#: ../src/docs/books/admin_guide/07-file-systems.md:1023
+#: ../src/docs/books/admin_guide/14-special-authority.md:69
+#: ../src/docs/books/admin_guide/14-special-authority.md:193
+#: ../src/docs/books/admin_guide/14-special-authority.md:204
+#: ../src/docs/books/admin_guide/14-special-authority.md:241
+#: ../src/docs/books/admin_guide/14-special-authority.md:477
+#: ../src/docs/gemstones/RL9_network_manager.md:132
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:80
+#, no-wrap
+msgid "!!! info\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/06-users.md:308
+#: ../src/docs/books/admin_guide/06-users.md:644
+#: ../src/docs/books/admin_guide/07-file-systems.md:195
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:30
+#: ../src/docs/books/learning_bash/01-first-script.md:46
+#: ../src/docs/books/learning_bash/01-first-script.md:77
+#: ../src/docs/books/learning_bash/02-using-variables.md:185
+#: ../src/docs/books/learning_bash/05-tests.md:63
+#: ../src/docs/books/lxd_server/07-configurations.md:102
+#: ../src/docs/books/nvchad/install_nvchad.md:182
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:53
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:133
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:153
+#: ../src/docs/guides/automation/cron_jobs_howto.md:83
+#: ../src/docs/guides/automation/cron_jobs_howto.md:125
+#: ../src/docs/guides/automation/cron_jobs_howto.md:160
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:44
+#: ../src/docs/guides/cms/dokuwiki_server.md:216
+#: ../src/docs/guides/communications/asterisk_installation.md:12
+#: ../src/docs/guides/containers/podman-nextcloud.md:361
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:72
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:350
+#: ../src/docs/guides/desktop/kde_installation.md:16
+#: ../src/docs/guides/file_sharing/sftp.md:54
+#: ../src/docs/guides/file_sharing/sftp.md:129
+#: ../src/docs/guides/file_sharing/sftp.md:321
+#: ../src/docs/guides/proxies/pound.md:62
+#: ../src/docs/guides/proxies/pound.md:418 ../src/docs/index.md:40
+#: ../src/docs/release_notes/9_1.md:16
+#, no-wrap
+msgid "!!! note\n"
 msgstr ""
 
 #. type: Title ##
@@ -217,6 +123,40 @@ msgid "Conclusion"
 msgstr ""
 
 #. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:338
+#: ../src/docs/books/admin_guide/14-special-authority.md:354
+#: ../src/docs/books/admin_guide/14-special-authority.md:404
+#: ../src/docs/books/admin_guide/14-special-authority.md:435
+#: ../src/docs/books/admin_guide/14-special-authority.md:690
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:83
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:102
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:253
+#: ../src/docs/books/lxd_server/04-firewall.md:76
+#: ../src/docs/books/lxd_server/08-snapshots.md:86
+#: ../src/docs/gemstones/RL9_network_manager.md:150
+#: ../src/docs/gemstones/nmtui.md:52
+#: ../src/docs/gemstones/view_kernel_conf.md:21
+#: ../src/docs/guides/backup/rsync_ssh.md:79
+#: ../src/docs/guides/cms/dokuwiki_server.md:226
+#: ../src/docs/guides/containers/lxd_web_servers.md:786
+#: ../src/docs/guides/containers/podman-nextcloud.md:270
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:96
+#: ../src/docs/guides/file_sharing/sftp.md:264
+#: ../src/docs/guides/package_management/index.md:10
+#: ../src/docs/guides/proxies/pound.md:211
+#: ../src/docs/guides/proxies/pound.md:265 ../src/docs/release_notes/8_4.md:20
+#, no-wrap
+msgid "!!! warning\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:619
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:92
+#, no-wrap
+msgid "!!! question\n"
+msgstr ""
+
+#. type: Plain text
 #: ../src/docs/books/learning_bash/05-tests.md:67
 #: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:94
 #: ../src/docs/books/nvchad/vale_nvchad.md:36
@@ -234,49 +174,19 @@ msgstr ""
 msgid "!!! tip\n"
 msgstr ""
 
-#. type: Yaml Front Matter Hash Value: contributors
-#: ../src/docs/books/lxd_server/00-toc.md:1
-#: ../src/docs/books/lxd_server/01-install.md:1
-#: ../src/docs/books/lxd_server/02-zfs_setup.md:1
-#: ../src/docs/books/lxd_server/03-lxdinit.md:1
-#: ../src/docs/books/lxd_server/04-firewall.md:1
-#: ../src/docs/books/lxd_server/05-lxd_images.md:1
-#: ../src/docs/books/lxd_server/06-profiles.md:1
-#: ../src/docs/books/lxd_server/07-configurations.md:1
-#: ../src/docs/books/lxd_server/08-snapshots.md:1
-#: ../src/docs/books/lxd_server/09-snapshot_server.md:1
-#: ../src/docs/books/lxd_server/10-automating.md:1
-#: ../src/docs/gemstones/bash_stub.md:1
-#: ../src/docs/guides/automation/cron_jobs_howto.md:1
-#: ../src/docs/guides/backup/rsnapshot_backup.md:1
-#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:1
-#: ../src/docs/guides/cms/dokuwiki_server.md:1
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:1
-#: ../src/docs/guides/contribute/navigation.md:1
-#: ../src/docs/guides/desktop/kde_installation.md:1
-#: ../src/docs/guides/dns/private_dns_server_using_bind.md:1
-#: ../src/docs/guides/email/postfix_reporting.md:1
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:1
-#: ../src/docs/guides/file_sharing/sftp.md:1
-#: ../src/docs/guides/network/librenms_monitoring_server.md:1
-#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
-#: ../src/docs/guides/security/ssh_public_private_keys.md:1
-#: ../src/docs/guides/security/ssl_keys_https.md:1
-#: ../src/docs/guides/web/apache-sites-enabled.md:1
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:1
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
+#. type: Title ##
+#: ../src/docs/books/lxd_server/30-appendix_a.md:163
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:448
 #, no-wrap
-msgid "Ezequiel Bruni"
+msgid "More Reading"
 msgstr ""
 
-#. type: Title ##
-#: ../src/docs/guides/automation/anacron.md:16
-#: ../src/docs/guides/backup/rsnapshot_backup.md:319
-#: ../src/docs/guides/contribute/navigation.md:27
+#. type: Title ####
+#: ../src/docs/guides/8_6_installation.md:104
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:282
+#: ../src/docs/guides/installation.md:107
 #, no-wrap
-msgid "Assumptions"
+msgid "Keyboard"
 msgstr ""
 
 #. type: Yaml Front Matter Array Element: tags
@@ -288,347 +198,950 @@ msgstr ""
 msgid "contribute"
 msgstr ""
 
-#. type: Fenced code block
-#: ../src/docs/guides/contribute/mkdocs_venv.md:215
-#: ../src/docs/guides/contribute/navigation.md:77
+#. type: Yaml Front Matter Hash Value: contributors
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:1
 #, no-wrap
-msgid "docs_dir: 'docs/docs'\n"
+msgid "tianci li, Ezequiel Bruni, Krista Burdine"
 msgstr ""
 
 #. type: Yaml Front Matter Array Element: tags
-#: ../src/docs/guides/contribute/navigation.md:1
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:1
 #, no-wrap
-msgid "navigation"
+msgid "formatting"
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
-#: ../src/docs/guides/contribute/navigation.md:1
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:1
 #, no-wrap
-msgid "Navigational Changes"
+msgid "Rocky Docs Formatting"
 msgstr ""
 
 #. type: Title #
-#: ../src/docs/guides/contribute/navigation.md:10
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:10
 #, no-wrap
-msgid "Navigational Changes - A Process Document for Managers/Editors"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/contribute/navigation.md:12
-#, no-wrap
-msgid "Reason For This Document"
+msgid "Rocky Docs Formatting - Introduction"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/navigation.md:15
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:13
 #, no-wrap
-msgid "When the documentation project got started, it was hoped that menus in Mkdocs would be as automatic as possible, making manual editing of navigation rare. After a few months of generating documents, it became clear that just placing documents in the correct folder and letting Mkdocs generate the navigation could not be depended on to keep things clean and neat. We needed categories, something that Mkdocs does not provide unless the documents are placed in specific folders. Mkdocs will then create a navigation with an alphabetic sort. Creating a folder structure that fixes navigation isn't the entire picture however. Even that will sometimes need additional changes to keep things organized. For instance, capitalization without modifying the lower-case folder structure.\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/contribute/navigation.md:16
-#, no-wrap
-msgid "Goals"
+msgid "This guide highlights our more advanced formatting options, including admonitions, numbered lists, tables, and more.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/navigation.md:19
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:15
 #, no-wrap
-msgid "Our goals were:\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/navigation.md:24
-#, no-wrap
-msgid "Create the folder structure as needed now (new folders may be required in the future).\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/navigation.md:24
-#, no-wrap
-msgid "Adjust the navigation so that the the Rocky Installation, Migration, and Contribution areas were at the top.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/navigation.md:24
-#, no-wrap
-msgid "Adjust the navigation to better name some folders, and enable correct capitalization. As an example, \"DNS\" and \"File Sharing Services\", which otherwise show up as \"Dns\" and \"File sharing\" without some manipulation.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/navigation.md:24
-#, no-wrap
-msgid "Make sure that these navigation files are restricted to Managers and Editors.\n"
+msgid "A document may or may not need to contain any of these elements. If you feel that your document will benefit from special formatting, then this guide should help.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/navigation.md:26
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:17
 #, no-wrap
-msgid "This last item may seem unnecessary to some reading this, but it will become clearer as this document continues.\n"
+msgid "!!! note \"A Note About Headings\"\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/navigation.md:30
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:19
 #, no-wrap
-msgid "It is assumed that you have a local clone of the Rocky GitHub repository: [https://github.com/rocky-linux/documentation](https://github.com/rocky-linux/documentation).\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/contribute/navigation.md:31
-#, no-wrap
-msgid "Environment Changes"
+msgid "    Headings are not special formatting characters; rather they are standard markdown syntax. They include a **single** level one heading:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/navigation.md:34
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:23
 #, no-wrap
-msgid "With these changes comes a real need to \"see\" how any changes you are making affect content, in the context of the website, _BEFORE_ that content is committed to the document repository, and subsequently goes 'live'.\n"
+msgid "    ```\n"
+"    # This is Level one\n"
+"    ```\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/navigation.md:36
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:25
 #, no-wrap
-msgid "MkDocs is a [Python](https://www.python.org) application and the extra packages it uses are also Python code, this means that the environment required to run MkDocs needs to be a **correctly configured Python environment**. Setting up Python for development tasks (which is what is being done running MkDocs) is not a trivial task, and instructions for that are out of the scope of this document. Some considerations are:\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/navigation.md:42
-#, no-wrap
-msgid "The version of Python, it should be >= 3.8, also **particular care must be taken not to use the 'system' Python version of a computer if the computer runs Linux/macOS**. For example, as of the writing of this document, the system version of Python on macOS is still version 2.7.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/navigation.md:42
-#, no-wrap
-msgid "Running a Python 'virtual environment'. When running Python application project and installing packages, for example MkDocs, it is **strongly recommended** by the Python community to [create an isolated virtual environment](https://realpython.com/python-virtual-environments-a-primer/) for each project.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/navigation.md:42
-#, no-wrap
-msgid "Use a modern IDE (Integrated Development Environment) that supports Python well. Two popular IDEs, which also have integrated support for running virtual environments, are:\n"
-msgstr ""
-
-#. type: Bullet: '    * '
-#: ../src/docs/guides/contribute/navigation.md:42
-#, no-wrap
-msgid "PyCharm - (free version available) the leading IDE for Python https://www.jetbrains.com/pycharm/\n"
-msgstr ""
-
-#. type: Bullet: '    * '
-#: ../src/docs/guides/contribute/navigation.md:42
-#, no-wrap
-msgid "Visual Studio Code- (free version available) from Microsoft https://code.visualstudio.com\n"
+msgid "    and any number of sub-heading values, levels 2 through 6:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/navigation.md:44
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:33
 #, no-wrap
-msgid "Doing this effectively requires:\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/navigation.md:51
-#, no-wrap
-msgid "Setting up a new Python project which, ideally, uses a virtual environment (above).\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/navigation.md:51
-#, no-wrap
-msgid "Installing `mkdocs`\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/navigation.md:51
-#, no-wrap
-msgid "Installing some python plugins\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/navigation.md:51
-#, no-wrap
-msgid "Cloning this Rocky GitHub repository:[https://github.com/rocky-linux/docs.rockylinux.org](https://github.com/rocky-linux/docs.rockylinux.org)\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/navigation.md:51
-#, no-wrap
-msgid "Linking to the `docs` folder within your cloned documentation repository (you can also just modify the mkdocs.yml file if you wish to load the correct folder, but linking keeps your mkdocs environment cleaner)\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/navigation.md:51
-#, no-wrap
-msgid "Running `mkdocs serve` within your clone of docs.rockylinux.org\n"
+msgid "    ```\n"
+"    ## A Level 2 heading\n"
+"    ### A Level 3 heading\n"
+"    #### A Level 4 heading\n"
+"    ##### A Level 5 heading\n"
+"    ###### A Level 6 heading\n"
+"    ```\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/navigation.md:55
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:35
 #, no-wrap
-msgid "    You can build totally separate environments for `mkdocs` by using either of these two procedures as well:\n"
-msgstr ""
-
-#. type: Bullet: '    * '
-#: ../src/docs/guides/contribute/navigation.md:58
-#, no-wrap
-msgid "[Local Documentation - Docker](rockydocs_web_dev.md)\n"
-msgstr ""
-
-#. type: Bullet: '    * '
-#: ../src/docs/guides/contribute/navigation.md:58
-#, no-wrap
-msgid "[Local Documentation - LXD](mkdocs_lsyncd.md)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/navigation.md:62
-#, no-wrap
-msgid "    This document was written in a Linux environment. If your environment is different (Windows or Mac), then you will need to do a little research on matching up to some of these steps. An editor or manager reading this can submit changes to it to add in steps for those environments.\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/contribute/navigation.md:63
-#: ../src/docs/release_notes/8_8.md:27 ../src/docs/release_notes/9_0.md:144
-#: ../src/docs/release_notes/9_1.md:31 ../src/docs/release_notes/9_2.md:65
-#, no-wrap
-msgid "Installing"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/navigation.md:68
-#, no-wrap
-msgid "Install `mkdocs` with the python environment: `pip install mkdocs`\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/navigation.md:68
-#, no-wrap
-msgid "Install needed plugins:  `pip install mkdocs-material mkdocs-localsearch mkdocs-awesome-pages-plugin mkdocs-redirects mkdocs-i18n`\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/contribute/navigation.md:68
-#, no-wrap
-msgid "Clone the repository (noted above)\n"
+msgid "    The key here is that you can use as many of the 2 through 6 headings as necessary, but only **ONE** level 1 heading. While the document will appear correct with more than one level 1 heading, the automatically generated table of contents for the document that appears on the right-hand side will **NOT** display correctly (or sometimes at all) with more than one. Keep this in mind when writing your documents.\n"
 msgstr ""
 
 #. type: Title ###
-#: ../src/docs/guides/contribute/navigation.md:69
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:36
+#: ../src/docs/guides/contribute/style_guide.md:100
 #, no-wrap
-msgid "Linking and Running `mkdocs`"
+msgid "Admonitions"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/navigation.md:72
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:39
 #, no-wrap
-msgid "Inside your docs.rockylinux.org local (clone), do the following. This assumes the location of your documentation clone, so modify as needed:\n"
+msgid "Admonitions are special visual \"boxes\" that allow you to call attention to important facts and highlight them in a way that makes them stand out from the rest of the text. Admonition types are as follows:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/navigation.md:74
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:56
 #, no-wrap
-msgid "`ln -s /home/username/documentation/docs docs`\n"
+msgid "| type      | Description                                               |\n"
+"|-----------|-----------------------------------------------------------|\n"
+"| note      | renders a blue text box                                   |\n"
+"| abstract  | renders a light blue text box                             |\n"
+"| info      | renders a blue-green text box                             |\n"
+"| tip       | renders a blue-green text box (icon slightly more green)  |\n"
+"| success   | renders a green text box                                  |\n"
+"| question  | renders a light green text box                            |\n"
+"| warning   | renders an orange text box                                |\n"
+"| failure   | renders a light red text box                              |\n"
+"| danger    | renders a red text box                                    |\n"
+"| bug       | renders a red text box                                    |\n"
+"| example   | renders a purple text box                                 |\n"
+"| quote     | renders a grey text box                                   |\n"
+"| custom <sub>1</sub> | always renders a blue text box                  |\n"
+"| custom <sub>2</sub> | uses a custom title within another type         |\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/navigation.md:76
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:58
 #, no-wrap
-msgid "Again, if you desire, you can modify the local copy of the `mkdocs.yml` file to set the path. If using this method, you would modify this line to point to your `documentation/docs` folder:\n"
+msgid "There is no limit on the types of admonitions you can use as noted in custom <sub>1</sub> above. A custom title can be added to any of the other admonition types to get the colored box you want for a specific admonition, as noted in custom <sub>2</sub> above.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/navigation.md:82
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:60
 #, no-wrap
-msgid "Once completed, you can try running `mkdocs serve` to see if you get your desired content. This will run on a your localhost on port 8000 example: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)\n"
+msgid "An admonition is always entered in this way:\n"
 msgstr ""
 
-#. type: Title ##
-#: ../src/docs/guides/contribute/navigation.md:83
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:61
 #, no-wrap
-msgid "Navigation and Other Changes"
+msgid "!!! admonition_type\n\n"
+"    text of admonition\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/navigation.md:86
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:68
 #, no-wrap
-msgid "Navigation is handled with mkdocs `.pages` files **OR** by the value of the \"title:\" meta in the document front matter. The `.pages` files are not terribly complex, BUT, if something is left out, it can cause the server to fail to load. That's why this procedure is **ONLY** for Managers and Editors. These individuals are going to have the tools in place (local install of mkdocs, plus clones of both documentation and docs.rockylinux.org) so that something pushed and merged to GitHub will not break the serving of the documentation website. A contributor cannot be expected to have even one of these requirements in place.\n"
+msgid "The body text of the admonition must be indented four (4) spaces from the beginning margin. It's easy to see where that is in this case, because it will always line up under the first letter of the admonition type. The extra line between the title and body will not show up but is required for our translation engine (Crowdin) to function correctly.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:70
+#, no-wrap
+msgid "Here are examples of each admonition type, and how they will look in your document:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:74
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:78
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:82
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:86
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:90
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:94
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:98
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:102
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:106
+#, no-wrap
+msgid "    text\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:88
+#, no-wrap
+msgid "!!! success\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:100
+#, no-wrap
+msgid "!!! failure\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:104
+#: ../src/docs/guides/package_management/developer_start2.md:4
+#: ../src/docs/guides/package_management/package_build_troubleshooting.md:6
+#, no-wrap
+msgid "!!! danger\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:108
+#, no-wrap
+msgid "!!! custom\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:110
+#, no-wrap
+msgid "    A custom <sub>1</sub> type. Here we've used \"custom\" as our admonition type. Again, this will always render in blue.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:112
+#, no-wrap
+msgid "!!! warning \"custom title\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:114
+#, no-wrap
+msgid "    A custom <sub>2</sub> type. Here we've modified the \"warning\" admonition type with a custom header. Here's what that looks like:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:118
+#, no-wrap
+msgid "    ```\n"
+"    !!! warning \"custom title\"\n"
+"    ```\n"
 msgstr ""
 
 #. type: Title ###
-#: ../src/docs/guides/contribute/navigation.md:88
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:119
 #, no-wrap
-msgid "`.pages` Files"
+msgid "Expandable Admonitions"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/navigation.md:91
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:122
 #, no-wrap
-msgid "As already stated, the `.pages` files are generally pretty simple. They are a YAML formatted file that `mkdocs` reads before rendering the content. To take a look at one of the more complex `.pages` files, let's look at the one created to help format the side navigation:\n"
+msgid "If an admonition will have content that is very long, consider using an expandable admonition. This is treated the same way as a regular admonition but starts with three question marks, rather than three exclamation marks. All of the other admonition rules apply. An expandable admonition looks like this:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:124
+#, no-wrap
+msgid "??? warning \"Warning Content\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:126
+#, no-wrap
+msgid "    This is a warning, with not very much content. You'd want to use a regular admonition for this, but Hey, this is just an example!\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:128
+#, no-wrap
+msgid "Which looks like this in your editor:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/guides/contribute/navigation.md:92
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:129
 #, no-wrap
-msgid "---\n"
-"nav:\n"
-"    - ... | index*.md\n"
-"    - ... | installation*.md\n"
-"    - ... | migrate2rocky*.md\n"
-"    - Contribute: contribute\n"
-"    - Automation: automation\n"
-"    - Backup & Sync: backup\n"
-"    - Content Management: cms\n"
-"    - Communications: communications\n"
-"    - Containers: containers\n"
-"    - Database: database\n"
-"    - Desktop: desktop\n"
-"    - DNS: dns\n"
-"    - Email: email\n"
-"    - File Sharing Services: file_sharing\n"
-"    - Git: git\n"
-"    - Interoperability: interoperability\n"
-"    - Mirror Management: mirror_management\n"
-"    - Network: network\n"
-"    - Package Management: package_management\n"
-"    - ...\n\n"
+msgid "??? warning \"Warning Content\"\n"
+"    \n"
+"    This is a warning, with not very much content. You'd want to use a regular admonition for this, but Hey, this is just an example!\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:135
+#, no-wrap
+msgid "Tabbed Content within a Document"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/navigation.md:118
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:138
 #, no-wrap
-msgid "Here, the `index*md` shows the \"Guides Home: \", `installation*.md` shows the \"Installing Rocky Linux\" document link, and the `migrate2rocky*.md` shows the \"Migrating To Rocky Linux\" document link. The \"*\" within each of these links allows for that document in _any_ language. Finally, by placing \"Contribute\" next, it falls beneath these items rather than in the normal (alphabetic) sort order. If you look down the list, you can see what each item is doing. Note that after the \"Package Management: package_management\" entry, there are actually two more folders (security and web). These do not require any additional formatting, so we are just telling `mkdocs` to load them normally with the \"-...\"\n"
+msgid "Tabbed content is formatted in a similar way to admonitions. Instead of three exclamation marks or three question marks, it begins with three equal signs. All of the admonition formatting (4 spaces, etc.) applies to this content. An example of this is where documentation might need a different procedure for a different Rocky Linux version. When using tabbed content for versions, the most recent release of Rocky Linux should come first. At the time of this writing, that was 9.0:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/navigation.md:120
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:140
 #, no-wrap
-msgid "You can also use YAML formatting within an actual file. A reason for doing this might be that the beginning heading of the file is so long, that it just doesn't display well in the navigation section.  As an example, take this document heading \"# `mod_ssl` on Rocky Linux in an httpd Apache Web-Server Environment\". That is very long. It displays very poorly in the side navigation once the \"Web\" navigation item is opened. To fix this, you can either work with the author to change his heading, or, you can change how it displays in the menu by adding a title before the heading inside the document. For the example document, there is a title added:\n"
+msgid "=== \"9.0\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:142
+#, no-wrap
+msgid "    The procedure for doing this in 9.0\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:144
+#, no-wrap
+msgid "=== \"8.6\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:146
+#, no-wrap
+msgid "    The procedure for doing this in 8.6\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:148
+#, no-wrap
+msgid "Which would look like this in your editor:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/guides/contribute/navigation.md:120
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:149
 #, no-wrap
-msgid "---\n"
-"title: Apache With `mod_ssl`\n"
-"---\n"
+msgid "=== \"9.0\"\n\n"
+"    The procedure for doing this in 9.0\n\n"
+"=== \"8.6\"\n\n"
+"    The procedure for doing this in 8.6\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/navigation.md:126
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:160
 #, no-wrap
-msgid "This changes the title as far as the navigation is concerned, but leaves the author's original title in place within the document.\n"
+msgid "Keep in mind that everything that falls inside of the section must continue to use the 4-space indentation until the section is completed. This is a very handy feature!\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:161
+#, no-wrap
+msgid "Numbered Lists"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/navigation.md:128
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:164
 #, no-wrap
-msgid "There will probably not be a lot of need for additional `.pages` files. They should be used economically.\n"
+msgid "Numbered lists sound like they are easy to create and use, and once you get the hang of them, they really are. If you just have a single list of items with no complexity, then this sort of format works fine:\n"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:165
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:174
+#, no-wrap
+msgid "Item 1\n"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:165
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:176
+#, no-wrap
+msgid "Item 2\n"
+msgstr ""
+
+#. type: Bullet: '3. '
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:165
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:178
+#, no-wrap
+msgid "Item 3\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/navigation.md:131
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:180
 #, no-wrap
-msgid "While the navigational changes that might need to be made are not difficult, the potential for breaking the live documentation exists. For this reason, only managers and editors with the appropriate tooling in place should have the permissions to edit these files. Having a full environment available to view what the live pages are going to look like, keeps the manager or editor from making a mistake while editing these files that also breaks the live documentation.\n"
+msgid "If you need to add code blocks, multiple lines or even paragraphs of text to a numbered list, then the text should be indented with those same four (4) spaces that we used in the admonitions.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:182
+#, no-wrap
+msgid "You can't use your eyes to line them up under the numbered item, however, as this is one space off. If you are using a good markdown editor, you can set your tab value to four (4), which will make formatting everything a bit easier.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:184
+#, no-wrap
+msgid "Here's an example of a multi-line numbered list with a code block thrown in for good measure:\n"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:186
+#, no-wrap
+msgid "When dealing with numbered lists that are multi-line and include things like code blocks, use the space indentation to get what you want.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:188
+#, no-wrap
+msgid "    For example: this is indented four (4) spaces and represents a new paragraph of text. And here, we are adding a code block in. It is also indented by the same four (4) spaces as our paragraph:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:192
+#: ../src/docs/guides/desktop/xfce_installation.md:118
+#, no-wrap
+msgid "    ```\n"
+"    dnf update\n"
+"    ```\n"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:194
+#, no-wrap
+msgid "Here's our second listed item. Because we used the indentation (above) it renders with the next sequence of numbering (in other words, 2), but if we had entered item 1 without the indentation (in the subsequent paragraph and code), then this would show up as item 1 again, which is not what we want.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:196
+#, no-wrap
+msgid "And here's how that looks as raw text:\n"
+msgstr ""
+
+#. type: Fenced code block (markdown)
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:197
+#, no-wrap
+msgid "1. When dealing with numbered lists that are multi line and include things like code blocks, use the space indentation to get what you want.\n\n"
+"    For example: this is indented four (4) spaces and represents a new paragraph of text. And here, we are adding a code block in. It is also indented by the same four (4) spaces as our paragraph:\n\n"
+"    ```\n"
+"    dnf update\n"
+"    ```\n\n"
+"2. Here's our second listed item. Because we used the indentation (above) it renders with the next sequence of numbering (in other words, 2), but if we had entered item 1 without the indentation (in the subsequent paragraph and code), then this would show up as item 1 again, which is not what we want.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:209
+#: ../src/docs/guides/contribute/style_guide.md:119
+#, no-wrap
+msgid "Tables"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:212
+#, no-wrap
+msgid "Tables help us to lay out command options, or in the above case, admonition types and descriptions. Here's how the table in the Admonitions section above is entered:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:213
+#, no-wrap
+msgid "| type      | Description                                               |\n"
+"|-----------|-----------------------------------------------------------|\n"
+"| note      | renders a blue text box                                   |\n"
+"| abstract  | renders a light blue text box                             |\n"
+"| info      | renders a blue-green text box                             |\n"
+"| tip       | renders a blue-green text box (icon slightly more green)  |\n"
+"| success   | renders a green text box                                  |\n"
+"| question  | renders a light green text box                            |\n"
+"| warning   | renders an orange text box                                |\n"
+"| failure   | renders a light red text box                              |\n"
+"| danger    | renders a red text box                                    |\n"
+"| bug       | renders a red text box                                    |\n"
+"| example   | renders a purple text box                                 |\n"
+"| quote     | renders a grey text box                                   |\n"
+"| custom <sub>1</sub> | always renders a blue text box                  |\n"
+"| custom <sub>2</sub> | uses a custom title within another type         |\n\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:234
+#, no-wrap
+msgid "Note that it isn't necessary to have each column broken down by size (as we've done in the first part of the table), but it is certainly more readable in the markdown source file. It can get confusing when you string the items together, simply by breaking the columns with the pipe character \"|\" wherever the natural break would be, as you can see in the last two items of the table.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:235
+#, no-wrap
+msgid "Block Quotes"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:238
+#, no-wrap
+msgid "Block quotes are actually designed for quoting text from other sources to include in your documentation, but they don't have to be used that way. Some contributors use block quotes instead of tables, for instance, to list out some options. Examples of block quotes in markdown would be:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:239
+#, no-wrap
+msgid "> **an item** - A description of that item\n\n"
+"> **another item** - Another description of that item\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:246
+#, no-wrap
+msgid "To keep the lines from running together, the extra \"spacing\" line is necessary here.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:248
+#, no-wrap
+msgid "That ends up looking like this when the page is rendered:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:251
+#, no-wrap
+msgid "> **an item** - A description of that item\n"
+"> **another item** - Another description of  an item\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:252
+#, no-wrap
+msgid "Inline and Block-Level Code Blocks"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:255
+#, no-wrap
+msgid "Our approach to using code blocks is pretty simple. If `your code` is short enough that you can (and want to) use it in a sentence like you just saw, use single backticks <kbd>`</kbd>, like so:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:256
+#, no-wrap
+msgid "A sentence with a `commmand of your choosing` in it.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:261
+#, no-wrap
+msgid "Any command that is not used inside of a text paragraph (especially the long bits of code with multiple lines) should be a full code block, defined with triple backticks <kbd>`</kbd>:\n"
+msgstr ""
+
+#. type: Fenced code block (markdown)
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:262
+#, no-wrap
+msgid "```bash\n"
+"sudo dnf install the-kitchen-sink\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:269
+#, no-wrap
+msgid "The `bash` bit of that formatting is a non-essential code identifier but can help with syntax highlighting. Of course, if you're showcasing Python, PHP, Ruby, HTML, CSS, or any other kind of code, the \"bash\" should be changed to whatever language you're using.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:271
+#, no-wrap
+msgid "Incidentally, if you need to show a code block within a code block, just add one more backtick <kbd>`</kbd> to the parent block, like so:\n"
+msgstr ""
+
+#. type: Fenced code block (markdown)
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:272
+#, no-wrap
+msgid "````markdown\n"
+"```bash\n"
+"sudo dnf install the-kitchen-sink\n"
+"```\n"
+"````\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:281
+#, no-wrap
+msgid "And yes, the code block you just saw used five backticks at the beginning and end to make it render properly.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:285
+#, no-wrap
+msgid "Another way to add as much clarity to your documents as possible is to represent keys on the keyboard that must be entered in the correct manner. This is done with `<kbd>key</kbd>`. For instance, to represent that you need to hit the escape key in your document you would use `<kbd>ESC</kbd`. When you need to indicate that multiple keys must be pressed add a `+` between them like this: `<kbd>CTRL</kbd> + <kbd>F4</kbd>`. If keys need to be pressed simultaneously, add \"simultaneously\" or \"at the same time\" or some similar phrase to your instructions. Here's an example of a keyboard instruction in your editor:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:286
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:293
+#, no-wrap
+msgid "A workstation type installation (with graphical interface) starts this interface on terminal 1. Linux being multi-user, it is possible to connect several users several times, on different **physical terminals** (TTY) or **virtual terminals** (PTS). Virtual terminals are available within a graphical environment. A user switches from one physical terminal to another using <kbd>Alt</kbd> + <kbd>Fx</kbd> from the command line or using <kbd>CTRL</kbd> + <kbd>Alt</kbd> + <kbd>Fx</kbd>.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:291
+#, no-wrap
+msgid "And here's how that renders when displayed:\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:294
+#, no-wrap
+msgid "Superscript, Subscript and Special Symbols"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:297
+#, no-wrap
+msgid "Superscript and subscript notation are not normal markdown, but are supported in Rocky Linux documentation via the HTML tags used for the same purpose. Superscript places text entered between the tags slightly above the normal text, while subscript places the text slightly below. Superscript is by far the more commonly used of these two in writing. Some special characters already appear in superscript without adding the tags, but you can also combine the tag to change the orientation of those characters as seen with the copyright symbol below. You can use superscript to:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:301
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:306
+#, no-wrap
+msgid "represent ordinal numbers, such as 1<sup>st</sup>, 2<sup>nd</sup>, 3<sup>rd</sup>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:301
+#, no-wrap
+msgid "copyright and trademark symbols, like <sup>&copy;</sup>, <sup>TM</sup>, or &trade;, &reg;\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:301
+#, no-wrap
+msgid "as notation for references, such as this<sup>1</sup>, this<sup>2</sup> and this<sup>3</sup>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:303
+#, no-wrap
+msgid "Some of the special characters, such as &copy; aren't normally superscript, while others such as &trade;, are.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:305
+#, no-wrap
+msgid "Here is how all of the above looks in your markdown code:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:306
+#, no-wrap
+msgid "copyright and trademark symbols, like <sup>&copy;</sup>, <sup>TM</sup> or &trade;, &reg;\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:306
+#, no-wrap
+msgid "* as notation for references, such as this<sup>1</sup>, this<sup>2</sup> and this<sup>3</sup>\n\n"
+"Some of the special characters, such as &copy; aren't normally superscript, while others such as &trade;, are.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:315
+#, no-wrap
+msgid "As you can see, to force superscript we can use the supported HTML tags of `<sup></sup>`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:317
+#, no-wrap
+msgid "Subscript is entered with the `<sub></sub>` tags, and as noted earlier, isn't <sub>used nearly as much</sub> in writing.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:318
+#, no-wrap
+msgid "Superscript for References "
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:321
+#, no-wrap
+msgid "Some of you may feel the need to reference outside sources when writing documentation. If you only have a single source, you may wish to include it in your conclusion as a single link, but if you have multiples<sup>1</sup>, you can use superscript to note them in your text<sup>2</sup> and then list them at the end of your document. Note that the positioning of references should come after the \"Conclusion\" section.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:323
+#, no-wrap
+msgid "Following the conclusion, you can have your notations in a numbered list to match the superscript, or you can enter them as links. Both examples are shown here:\n"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:326
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:334
+#, no-wrap
+msgid "\"How Multiples Are Used In Text\" by Wordy W. McWords [https://site1.com](https://site1.com)\n"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:326
+#, no-wrap
+msgid "\"Using Superscript In Text\" by Sam B. Supersecret [https://site2.com](https://site2.com)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:328
+#, no-wrap
+msgid "or\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:329
+#, no-wrap
+msgid "[1](https://site1.com) \"How Multiples Are Used In Text\" by Wordy W. McWords  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:330
+#, no-wrap
+msgid "[2](https://site2.com) \"Using Superscript In Text\" by Sam B. Supersecret  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:333
+#, no-wrap
+msgid "And here's what that all looks like in your editor:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:334
+#, no-wrap
+msgid "2. \"Using Superscript In Text\" by Sam B. Supersecret [https://site2.com](https://site2.com)\n\n"
+"or\n\n"
+"[1](https://site1.com) \"How Multiples Are Used In Text\" by Wordy W. McWords  \n"
+"[2](https://site2.com) \"Using Superscript In Text\" by Sam B. Supersecret  \n\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:345
+#, no-wrap
+msgid "Grouping Different Formatting Types"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:348
+#, no-wrap
+msgid "Rocky Documentation offers some elegant formatting options when combining multiple elements within another element. For instance, an admonition with a numbered list:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:352
+#, no-wrap
+msgid "    Things can get a little crazy when you are grouping things together. Like when:\n"
+msgstr ""
+
+#. type: Bullet: '    1. '
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:354
+#, no-wrap
+msgid "You add a numbered list of options within an admonition\n"
+msgstr ""
+
+#. type: Bullet: '    2. '
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:356
+#, no-wrap
+msgid "Or you add a numbered list with multiple code blocks:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:360
+#, no-wrap
+msgid "        ```\n"
+"        dnf install some-great-package\n"
+"        ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:362
+#, no-wrap
+msgid "        Which is also within a multi-paragraph numbered list.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:364
+#, no-wrap
+msgid "Or you may have a numbered list, with an additional admonition:\n"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:366
+#, no-wrap
+msgid "This item is something very important\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:368
+#, no-wrap
+msgid "    Here we are adding a keyboard command to the list item:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:370
+#, no-wrap
+msgid "    Press <kbd>ESC</kbd> for no particular reason.\n"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:372
+#, no-wrap
+msgid "But this item is something very important *and* has multiple paragraphs to it\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:374
+#, no-wrap
+msgid "    And it has an admonition in the middle of it:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:376
+#, no-wrap
+msgid "    !!! warning\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:378
+#, no-wrap
+msgid "        Things can get a little crazy with multiple elements within different formatting types!   \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:380
+#, no-wrap
+msgid "As long as you keep track of the magic four (4) spaces to indent and separate these items, they will display logically and exactly the way you want them to. Sometimes that is really important.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:382
+#, no-wrap
+msgid "You can even embed a table or block quote (literally any formatting item type) within another one. Here we have a numbered list, an admonition, a table and some block quote elements all bundled together:\n"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:384
+#, no-wrap
+msgid "Trying to keep up with everything that is going on in your document can be a real task when working with multiple elements.\n"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:386
+#, no-wrap
+msgid "If you are feeling overwhelmed, consider:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:388
+#, no-wrap
+msgid "    !!! warning \"important: I think my brain hurts!\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:390
+#, no-wrap
+msgid "        When combining multiple formatting elements, your brain can go a little crazy. Consider sucking down some extra caffeine before you begin!\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:397
+#, no-wrap
+msgid "        | type            |   caffeine daily allowance       |\n"
+"        |-----------------|----------------------------------|\n"
+"        | tea             | it will get you there eventually |\n"
+"        | coffee          | for discerning taste buds        |\n"
+"        | red bull        | tastes terrible - but it will keep you going! |\n"
+"        | mountain dew    | over hyped                       |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:399
+#, no-wrap
+msgid "        > **sugar** if caffeine isn't to your liking\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:401
+#, no-wrap
+msgid "        > **suffer** if all else fails, concentrate more\n"
+msgstr ""
+
+#. type: Bullet: '3. '
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:403
+#, no-wrap
+msgid "There are more examples, but the above should illustrate that everything can be nested within. Just remember the four (4) magic spaces.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:405
+#, no-wrap
+msgid "Here is what this example looks like in your editor:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:406
+#, no-wrap
+msgid "\n"
+"As long as you keep track of the magic four (4) spaces to separate these items, they will display logically and exactly the way you want them to. Sometimes that is really important.\n\n"
+"You can even embed a table or block quote (literally any formatting item type) within another one. Here we have a numbered list, an admonition, a table and some block quote elements all bundled together:\n\n"
+"1. Trying to keep up with everything that is going on in your document can be a real task when working with multiple elements.\n\n"
+"2. If you are feeling overwhelmed, consider:\n\n"
+"    !!! warning \"important: I think my brain hurts!\"\n\n"
+"        When combining multiple formatting elements, your brain can go a little crazy. Consider sucking down some extra caffeine before you begin!\n\n"
+"        | type            |   caffeine daily allowance       |\n"
+"        |-----------------|----------------------------------|\n"
+"        | tea             | it will get you there eventually |\n"
+"        | coffee          | for discerning taste buds        |\n"
+"        | red bull        | tastes terrible - but it will keep you going! |\n"
+"        | mountain dew    | over hyped                       |\n\n"
+"        > **sugar** if caffeine isn't to your liking\n\n"
+"        > **suffer** if all else fails, concentrate more\n\n"
+"3. There are more examples, but the above should illustrate that everything can be nested within. Just remember the four (4) magic spaces.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:434
+#, no-wrap
+msgid "One Final Item - Comments"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:437
+#, no-wrap
+msgid "From time to time, you may want to add a comment to your markdown that will not display when rendered. There are a lot of reasons why you might want to do this. For instance, if you want to add a placeholder for something that will be added later, you could use a comment to mark your spot.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:439
+#, no-wrap
+msgid "The best way to add a comment to your markdown is to use the square brackets \"[]\" around two forward slashes \"//\" followed by a colon and the content. This would look like this:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:440
+#, no-wrap
+msgid "\n"
+"[//]: This is a comment to be replaced later\n\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:447
+#, no-wrap
+msgid "A comment should have a blank line before and after the comment.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:451
+#, no-wrap
+msgid "The Rocky Linux [how to contribute document](README.md)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:453
+#, no-wrap
+msgid "More on [admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:455
+#, no-wrap
+msgid "[Markdown quick reference](https://wordpress.com/support/markdown-quick-reference/)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:457
+#, no-wrap
+msgid "[More quick references](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for Markdown\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:461
+#, no-wrap
+msgid "Document formatting with headings, admonitions, tables, numbered lists, and block quotes can add clarity to your document. When using admonitions, take care to pick the correct type. This can make it easier to visually see the importance of the particular admonition.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:463
+#, no-wrap
+msgid "You do not *have* to use advanced formatting options. Overuse of special elements can add clutter where none is needed. Learning to use these formatting items conservatively and well can be very helpful to get your point across in a document.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:464
+#, no-wrap
+msgid "Lastly, to make formatting easier, consider changing your markdown editor's TAB value to four (4) spaces.\n"
 msgstr ""
 
