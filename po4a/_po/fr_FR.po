@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rockypo4a\n"
 "POT-Creation-Date: 2023-06-16 16:28+0000\n"
-"PO-Revision-Date: 2023-06-16 17:21\n"
+"PO-Revision-Date: 2023-06-16 17:22\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -13,372 +13,360 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/guides_migrate2rocky.pot\n"
-"X-Crowdin-File-ID: 1329\n"
+"X-Crowdin-File: /po4a/po4a/_po/contribute_beginners.pot\n"
+"X-Crowdin-File-ID: 1355\n"
 
-#. type: Title #
-#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
-#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
-#: ../src/docs/books/learning_ansible/05-deployments.md:31
-#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
-#: ../src/docs/books/lxd_server/00-toc.md:1
-#: ../src/docs/books/lxd_server/00-toc.md:13
-#: ../src/docs/books/nvchad/index.md:12
-#: ../src/docs/books/nvchad/plugins/index.md:14
-#: ../src/docs/books/nvchad/plugins/md_preview.md:14
-#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
-#: ../src/docs/books/nvchad/vale_nvchad.md:12
-#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
-#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
-#: ../src/docs/gemstones/string_color.md:11
-#: ../src/docs/guides/automation/cron_jobs_howto.md:25
-#: ../src/docs/guides/automation/olivetin.md:14
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
-#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
-#: ../src/docs/guides/backup/rsnapshot_backup.md:22
-#: ../src/docs/guides/backup/rsync_ssh.md:24
-#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
-#: ../src/docs/guides/cms/dokuwiki_server.md:23
-#: ../src/docs/guides/containers/lxd_web_servers.md:10
-#: ../src/docs/guides/containers/podman-nextcloud.md:13
-#: ../src/docs/guides/contribute/local_docs.md:11
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
-#: ../src/docs/guides/contribute/mkdocs_venv.md:14
-#: ../src/docs/guides/contribute/style_guide.md:14
-#: ../src/docs/guides/database/database_mariadb-server.md:21
-#: ../src/docs/guides/desktop/kde_installation.md:11
-#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
-#: ../src/docs/guides/editors/micro.md:14
-#: ../src/docs/guides/email/postfix_reporting.md:22
-#: ../src/docs/guides/file_sharing/glusterfs.md:16
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
-#: ../src/docs/guides/file_sharing/sftp.md:16
-#: ../src/docs/guides/migrate2rocky.md:18
-#: ../src/docs/guides/network/basic_network_configuration.md:12
-#: ../src/docs/guides/network/librenms_monitoring_server.md:13
-#: ../src/docs/guides/package_management/index.md:1
-#: ../src/docs/guides/package_management/index.md:5
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
-#: ../src/docs/guides/proxies/pound.md:17
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
-#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
-#: ../src/docs/guides/security/firewalld-beginners.md:10
-#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
-#: ../src/docs/guides/security/ssh_public_private_keys.md:21
-#: ../src/docs/guides/security/ssl_keys_https.md:22
-#: ../src/docs/guides/virtualization/vbox-rocky.md:13
-#: ../src/docs/guides/web/apache-sites-enabled.md:25
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
-#: ../src/docs/guides/web/nginx-mainline.md:13
-#: ../src/docs/guides/web/nginx-multisite.md:14
-#: ../src/docs/labs/security/introduction.md:1
-#: ../src/docs/labs/security/introduction.md:5
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/cms/dokuwiki_server.md:1
+#: ../src/docs/guides/contribute/beginners.md:1
+#: ../src/docs/guides/contribute/createnew.md:1
+#: ../src/docs/guides/contribute/local_docs.md:1
+#: ../src/docs/guides/contribute/mkdocs_venv.md:1
 #, no-wrap
-msgid "Introduction"
+msgid "documentation"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
-#: ../src/docs/guides/8_6_installation.md:1
-#: ../src/docs/guides/migrate2rocky.md:1
+#: ../src/docs/guides/containers/podman-nextcloud.md:1
+#: ../src/docs/guides/contribute/beginners.md:1
 #, no-wrap
-msgid "tianci li, Steven Spencer"
+msgid "Ezequiel Bruni, Steven Spencer"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/contribute/beginners.md:1
+#: ../src/docs/guides/contribute/createnew.md:1
+#, no-wrap
+msgid "contributing"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/contribute/beginners.md:1
+#, no-wrap
+msgid "beginners"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/contribute/beginners.md:1
+#, no-wrap
+msgid "howto"
 msgstr ""
 
 #. type: YAML Front Matter: title
-#: ../src/docs/guides/migrate2rocky.md:1
+#: ../src/docs/guides/contribute/beginners.md:1
 #, no-wrap
-msgid "Migrating To Rocky Linux"
+msgid "First Time Contributors Guide"
 msgstr ""
 
 #. type: Title #
-#: ../src/docs/guides/migrate2rocky.md:8
+#: ../src/docs/guides/contribute/beginners.md:12
 #, no-wrap
-msgid "How to Migrate to Rocky Linux from CentOS Stream, CentOS, Alma Linux, RHEL, or Oracle Linux"
+msgid "First-Time Contributor Guide"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/beginners.md:15
+#, no-wrap
+msgid "_Everybody starts somewhere. If this is the first time you’ve contributed to open-source documentation on GitHub, congratulations for taking this step. We can’t wait to see what you have to say!_\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/migrate2rocky.md:10
-#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:14
+#: ../src/docs/guides/contribute/beginners.md:16
 #, no-wrap
-msgid "Prerequisites & Assumptions"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/migrate2rocky.md:17
-#, no-wrap
-msgid "CentOS Stream, CentOS, Alma Linux, RHEL, or Oracle Linux running well on a hardware server or VPS. The current supported version for each of these is 8.7 or 9.1.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/migrate2rocky.md:17
-#, no-wrap
-msgid "A working knowledge of the command line.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/migrate2rocky.md:17
-#, no-wrap
-msgid "A working knowledge of SSH for remote machines.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/migrate2rocky.md:17
-#, no-wrap
-msgid "A mildly risk-taking attitude.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/migrate2rocky.md:17
-#, no-wrap
-msgid "All commands should be run as root. Either log in as root, or get ready to type \"sudo\" a lot.\n"
+msgid "Git and GitHub"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/migrate2rocky.md:21
+#: ../src/docs/guides/contribute/beginners.md:19
 #, no-wrap
-msgid "In this guide, you'll learn how to convert all of the OSes listed above to fully functional Rocky Linux installs. This is probably one of the most roundabout ways of installing Rocky Linux, but it'll come in handy for people in a variety of situations.\n"
+msgid "All of our contributor instructions presuppose you have a GitHub account. If you have never done that, now is the time. If you have 12 minutes, learn the basics of what GitHub is with the [Beginner’s Guide to Git and GitHub](https://www.udacity.com/blog/2015/06/a-beginners-git-github-tutorial.html) from Udemy.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/migrate2rocky.md:23
+#: ../src/docs/guides/contribute/beginners.md:21
 #, no-wrap
-msgid "For example, some server providers won't support Rocky Linux by default for a while. Or you may have a production server that you want to convert to Rocky Linux without reinstalling everything.\n"
+msgid "You may not start out creating and managing repositories for Rocky Linux, but this [Hello World tutorial](https://docs.github.com/en/get-started/quickstart/hello-world) walks you through creating a GitHub account, learning the lingo, and understanding how repositories work. Focus on learning how to make and Commit updates to existing docs, and how to create a Pull Request.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/beginners.md:22
+#, no-wrap
+msgid "Markdown"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/migrate2rocky.md:25
+#: ../src/docs/guides/contribute/beginners.md:25
 #, no-wrap
-msgid "Well, we've got the tool for you: [migrate2rocky](https://github.com/rocky-linux/rocky-tools/tree/main/migrate2rocky).\n"
+msgid "Markdown is an easy language that allows you to include formatting, code, and plain text in the same file. The first time you update a document, just follow the existing code. It won’t be long before you are ready to explore additional features. When the time comes, here are the basics.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/beginners.md:29
+#, no-wrap
+msgid "[Basic Markdown](https://www.markdownguide.org/basic-syntax#code)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/beginners.md:29
+#, no-wrap
+msgid "[Extended Markdown](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/beginners.md:29
+#, no-wrap
+msgid "Some of the more [advanced formatting](https://docs.rockylinux.org/guides/contribute/rockydocs_formatting/) options we use in our repository\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/beginners.md:30
+#, no-wrap
+msgid "Local Repository Editor"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/migrate2rocky.md:27
+#: ../src/docs/guides/contribute/beginners.md:33
 #, no-wrap
-msgid "It's a script that, when executed, will change out all of your repositories to those of Rocky Linux. Packages will be installed and upgraded/downgraded as necessary, and all of your OS' branding will change too.\n"
+msgid "To create a local repository, first find and install a Markdown editor that works with your computer and operating system. Here are some options, but there are others. Use what you know.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/beginners.md:40
+#, no-wrap
+msgid "[ReText](https://github.com/retext-project/retext) - Free, cross-platform, and open source\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/beginners.md:40
+#, no-wrap
+msgid "[Zettlr](https://www.zettlr.com/) - Free, cross-platform, and open source\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/beginners.md:40
+#, no-wrap
+msgid "[MarkText](https://github.com/marktext/marktext) - Free, cross-platform, and open source\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/beginners.md:40
+#, no-wrap
+msgid "[Remarkable](https://remarkableapp.github.io/) - Linux and Windows, open source\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/beginners.md:40
+#, no-wrap
+msgid "[NvChad](https://nvchad.com/) for the vi/vim user and the nvim client. A lot of plugins are available to enhance the editor for markdown. See [this document](https://docs.rockylinux.org/books/nvchad/) for a nice set of installation instructions.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/beginners.md:40
+#, no-wrap
+msgid "[VS Code](https://code.visualstudio.com/) - Partially open source, by Microsoft. VS Code is a lightweight and powerful editor available for Windows, Linux and MacOS. To contribute to this document project, you should get the following extensions: Git Graph, HTML Preview, HTML Snippets, Markdown All in One, Markdown Preview Enhanced, Markdown Preview Mermaid Support, and any more that catch your fancy.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/beginners.md:41
+#, no-wrap
+msgid "Create a local repository"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/migrate2rocky.md:29
+#: ../src/docs/guides/contribute/beginners.md:44
 #, no-wrap
-msgid "Don't worry, if you're new to systems administration, I'll be keeping this as user-friendly as possible. Well, as user friendly as the command line gets.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/guides/migrate2rocky.md:30
-#, no-wrap
-msgid "Caveats and warnings"
+msgid "Once you have a Markdown editor installed, follow instructions to connect it to your GitHub account and download your repository to your local machine. Every time you prepare to update a document, follow these steps to sync your local and online forks with the main branch to ensure you are working with the most current version:\n"
 msgstr ""
 
 #. type: Bullet: '1. '
-#: ../src/docs/guides/migrate2rocky.md:34
+#: ../src/docs/guides/contribute/beginners.md:52
 #, no-wrap
-msgid "Do check out migrate2rocky's README page (linked above), because there is a known clash between the script and Katello's repositories. In time, it's probable that we'll discover (and eventually patch) more clashes and incompatibilities, so you'll want to know about those, especially for production servers.\n"
+msgid "Within GitHub, sync your fork of the documentation repository with the main branch.\n"
 msgstr ""
 
 #. type: Bullet: '2. '
-#: ../src/docs/guides/migrate2rocky.md:34
+#: ../src/docs/guides/contribute/beginners.md:52
 #, no-wrap
-msgid "This script is most likely to work without incident on completely fresh installs. _If you want to convert a production server, for the love of all that is holy and good, **make a data backup and system snapshot, or do it in a staging environment first.**_\n"
+msgid "Follow your Markdown editor’s instructions to sync your current fork with your local machine.\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/migrate2rocky.md:36
+#. type: Bullet: '3. '
+#: ../src/docs/guides/contribute/beginners.md:52
 #, no-wrap
-msgid "Okay? We ready? Let's do this.\n"
+msgid "Inside your Markdown editor, open the document you wish to modify.\n"
 msgstr ""
 
-#. type: Title ##
-#: ../src/docs/guides/migrate2rocky.md:37
+#. type: Bullet: '4. '
+#: ../src/docs/guides/contribute/beginners.md:52
 #, no-wrap
-msgid "Prepare your server"
+msgid "Modify the document.\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/migrate2rocky.md:40
+#. type: Bullet: '5. '
+#: ../src/docs/guides/contribute/beginners.md:52
 #, no-wrap
-msgid "You'll need to grab the actual script file from the repository. This can be done in a number of ways.\n"
+msgid "Save.\n"
 msgstr ""
 
-#. type: Title ###
-#: ../src/docs/guides/migrate2rocky.md:41
+#. type: Bullet: '6. '
+#: ../src/docs/guides/contribute/beginners.md:52
 #, no-wrap
-msgid "The manual way"
+msgid "Commit your changes within your editor, which should sync your local repository with your online fork.\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/migrate2rocky.md:44
+#. type: Bullet: '7. '
+#: ../src/docs/guides/contribute/beginners.md:52
 #, no-wrap
-msgid "Download the compressed files from GitHub and extract the one you need (That'd be *migrate2rocky.sh*). You can find zip files for any GitHub repo on the right-ish side of the repo's main page:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/migrate2rocky.md:46
-#, no-wrap
-msgid "![The \"Download Zip\" button](images/migrate2rocky-github-zip.png)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/migrate2rocky.md:48
-#, no-wrap
-msgid "Then, upload the executable to your server with ssh by running this command on your local machine:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/migrate2rocky.md:49
-#, no-wrap
-msgid "scp PATH/TO/FILE/migrate2rocky.sh root@yourdomain.com:/home/\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/migrate2rocky.md:54
-#, no-wrap
-msgid "Just, you know, adjust all the file paths and server domains or IP addresses as needed.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/guides/migrate2rocky.md:55
-#, no-wrap
-msgid "The git way"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/migrate2rocky.md:58
-#, no-wrap
-msgid "Install git on your server with:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/migrate2rocky.md:59
-#, no-wrap
-msgid "dnf install git\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/migrate2rocky.md:64
-#, no-wrap
-msgid "Then clone the rocky-tools repository with:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/migrate2rocky.md:65
-#, no-wrap
-msgid "git clone https://github.com/rocky-linux/rocky-tools.git\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/migrate2rocky.md:70
-#, no-wrap
-msgid "Note: this method will download all of the scripts and files in the rocky-tools repository.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/guides/migrate2rocky.md:71
-#, no-wrap
-msgid "The easy way"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/migrate2rocky.md:74
-#, no-wrap
-msgid "This is probably the easiest way to obtain the script. You only need a suitable HTTP client (curl, wget, lynx and so on) installed on the server.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/migrate2rocky.md:76
-#, no-wrap
-msgid "Assuming you have the `curl` utility installed, run this command to download the script into whatever directory you're using:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/migrate2rocky.md:77
-#, no-wrap
-msgid "curl https://raw.githubusercontent.com/rocky-linux/rocky-tools/main/migrate2rocky/migrate2rocky.sh -o migrate2rocky.sh\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/migrate2rocky.md:82
-#, no-wrap
-msgid "That command will download the file straight to your server, and *only* the file you want. But again, there are security concerns that suggest this isn't necessarily the best practice, so keep that in mind.\n"
+msgid "Within GitHub, find the updated document in your fork and create a Pull Request to merge it with the main document.\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/migrate2rocky.md:83
+#: ../src/docs/guides/contribute/beginners.md:53
 #, no-wrap
-msgid "Execution scripts and installation"
+msgid "Submit an update"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/migrate2rocky.md:86
+#: ../src/docs/guides/contribute/beginners.md:56
 #, no-wrap
-msgid "Use the `cd` command to switch to the directory where the script is located, make sure the file is executable and give the owner of the script file x permissions.\n"
+msgid "_Add a missing word, correct an error, clarify a confusing bit of text._\n"
 msgstr ""
 
-#. type: Fenced code block
-#: ../src/docs/guides/migrate2rocky.md:87
+#. type: Bullet: '1. '
+#: ../src/docs/guides/contribute/beginners.md:58
 #, no-wrap
-msgid "chmod u+x migrate2rocky.sh\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/migrate2rocky.md:92
-#, no-wrap
-msgid "And now, at long last, execute the script:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/migrate2rocky.md:93
-#, no-wrap
-msgid "./migrate2rocky.sh -r\n"
+msgid "Start on the page you want to update.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/migrate2rocky.md:98
+#: ../src/docs/guides/contribute/beginners.md:60
 #, no-wrap
-msgid "That \"-r\" option tells the script to just go ahead and install everything.\n"
+msgid "    Click the “Edit” pencil in the upper right corner of the document you want to update. You will be taken to the original document on GitHub.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/migrate2rocky.md:100
+#: ../src/docs/guides/contribute/beginners.md:62
 #, no-wrap
-msgid "If you've done everything right, your terminal window should look a bit like this:\n"
+msgid "    The first time you contribute to the RL repository, you will be prompted with a green button to “**Fork** this **repository** and propose changes.” This creates a duplicate copy of the RL repository where you make your suggested edits. Simply click the green button and continue.\n"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: ../src/docs/guides/contribute/beginners.md:64
+#, no-wrap
+msgid "Make your changes\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/migrate2rocky.md:102
+#: ../src/docs/guides/contribute/beginners.md:66
 #, no-wrap
-msgid "![a successful script startup](images/migrate2rocky-convert-01.png)\n"
+msgid "    Follow the Markdown formatting. Perhaps there’s a missing word, or the link on line 21 needs to be fixed, for example. Make the necessary change.\n"
+msgstr ""
+
+#. type: Bullet: '3. '
+#: ../src/docs/guides/contribute/beginners.md:68
+#, no-wrap
+msgid "Propose changes\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/migrate2rocky.md:104
+#: ../src/docs/guides/contribute/beginners.md:70
 #, no-wrap
-msgid "Now, it'll take the script a while to convert everything, depending on the actual machine/server, and the connection it has to the wider internet.\n"
+msgid "    At the bottom of the page, write a one-line description in the title of the block entitled, “**Propose changes”**. It is helpful, but not necessary, to reference the file name found at the top of the doc.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/migrate2rocky.md:106
+#: ../src/docs/guides/contribute/beginners.md:72
 #, no-wrap
-msgid "If you see a **Complete!** message at the end, then everything is fine and you can restart the server.\n"
+msgid "    So, if you updated a link within line 21 of the markdown text, you’d say something like, \"Update README.md with correct links.\"\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/migrate2rocky.md:108
+#: ../src/docs/guides/contribute/beginners.md:74
 #, no-wrap
-msgid "![a successful OS migration message](images/migrate2rocky-convert-02.png)\n"
+msgid "    **Note: Word your action in the present tense.**\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/migrate2rocky.md:110
+#: ../src/docs/guides/contribute/beginners.md:76
 #, no-wrap
-msgid "Give it some time, log back in, and you should have a fancy schmancy new Rocky Linux server to play wi... I mean do very serious work on. Run the `hostnamectl` command to check that your OS was migrated properly, and you're good to go.\n"
+msgid "    Then click Propose changes, which will **Commit** your changes to a complete document within your forked repository.\n"
+msgstr ""
+
+#. type: Bullet: '4. '
+#: ../src/docs/guides/contribute/beginners.md:78
+#, no-wrap
+msgid "Review changes\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/migrate2rocky.md:111
+#: ../src/docs/guides/contribute/beginners.md:80
 #, no-wrap
-msgid "![The results of the hostnamectl command](images/migrate2rocky-convert-03.png)\n"
+msgid "    Now you can look at what you’ve done, line by line. Did you miss anything? Back up to the previous page and correct it again (you’ll have to start over), then click Propose Changes again.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/beginners.md:82
+#, no-wrap
+msgid "    Once the doc is the way you want it, click the green button that says Create Pull Request. This provides one more chance to double check your changes and confirm the doc is ready.\n"
+msgstr ""
+
+#. type: Bullet: '5. '
+#: ../src/docs/guides/contribute/beginners.md:84
+#, no-wrap
+msgid "Create Pull Request\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/beginners.md:86
+#, no-wrap
+msgid "    All of your work so far has been done in your own repository, with no opportunity to break the RL main repository. Next you submit it to the documentation team to merge your version into the main version of the document.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/beginners.md:88
+#, no-wrap
+msgid "    Click the big green button that says Create Pull Request. Good news, you still haven’t broken anything, because now it goes to the RL documentation team for review.\n"
+msgstr ""
+
+#. type: Bullet: '6. '
+#: ../src/docs/guides/contribute/beginners.md:90
+#, no-wrap
+msgid "Wait\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/beginners.md:92
+#, no-wrap
+msgid "    Once the RL team gets your request, they will respond in one of three ways.\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/contribute/beginners.md:96
+#, no-wrap
+msgid "Accept and merge your PR\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/contribute/beginners.md:96
+#, no-wrap
+msgid "Comment with feedback and ask for changes\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/contribute/beginners.md:96
+#, no-wrap
+msgid "Deny your PR with explanation\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/beginners.md:98
+#, no-wrap
+msgid "    The last response is unlikely. We really want to include your perspective here! If you have to make changes, you’ll suddenly understand why you need a local repository. The team can [talk you through](https://chat.rockylinux.org/rocky-linux/channels/documentation) what to do next. In good news, it’s still fixable. Follow the comment section of that request to see what further information is requested.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/beginners.md:99
+#, no-wrap
+msgid "    Otherwise, your request will be accepted and merged. Welcome to the team, you’re officially a contributor now! Look for your name to show up on the all-contributors list at the bottom of the Contributor Guide in a few days.\n"
 msgstr ""
 
