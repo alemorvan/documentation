@@ -13,28 +13,8 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: it\n"
-"X-Crowdin-File: /po4a/po4a/_po/admin_guide_12-network.pot\n"
-"X-Crowdin-File-ID: 1233\n"
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/01-presentation.md:12
-#: ../src/docs/books/admin_guide/12-network.md:12
-#: ../src/docs/books/learning_ansible/01-basic.md:15
-#: ../src/docs/books/learning_ansible/02-advanced.md:12
-#: ../src/docs/books/learning_ansible/03-working-with-files.md:12
-#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:12
-#: ../src/docs/books/learning_ansible/05-deployments.md:12
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:12
-#: ../src/docs/books/learning_ansible/07-working-with-filters.md:14
-#: ../src/docs/books/learning_bash/01-first-script.md:19
-#: ../src/docs/books/learning_bash/02-using-variables.md:19
-#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:19
-#: ../src/docs/books/learning_bash/05-tests.md:17
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:17
-#: ../src/docs/books/learning_bash/07-loops.md:17
-#, no-wrap
-msgid "**Objectives**: In this chapter you will learn how to:\n"
-msgstr ""
+"X-Crowdin-File: /po4a/po4a/_po/admin_guide_13-softwares.pot\n"
+"X-Crowdin-File-ID: 1235\n"
 
 #. type: Title ##
 #: ../src/docs/books/admin_guide/01-presentation.md:229
@@ -455,1627 +435,1805 @@ msgstr ""
 msgid "!!! Warning\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/books/admin_guide/06-users.md:25
-#: ../src/docs/books/admin_guide/12-network.md:25
-#: ../src/docs/books/learning_ansible/01-basic.md:26
-#: ../src/docs/books/learning_ansible/02-advanced.md:24
-#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:22
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:14
+#. type: YAML Front Matter: contributors
+#: ../src/docs/books/admin_guide/13-softwares.md:1
 #, no-wrap
-msgid "**Reading time**: 30 minutes\n"
+msgid "Colussi Franco, Steven Spencer"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/admin_guide/13-softwares.md:1
+#: ../src/docs/books/learning_bash/00-toc.md:1
+#: ../src/docs/books/learning_bash/01-first-script.md:1
+#: ../src/docs/books/learning_bash/02-using-variables.md:1
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:1
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:1
+#: ../src/docs/books/learning_bash/05-tests.md:1
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:1
+#: ../src/docs/books/learning_bash/07-loops.md:1
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:1
+#, no-wrap
+msgid "education"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/admin_guide/13-softwares.md:1
+#, no-wrap
+msgid "software"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/admin_guide/13-softwares.md:1
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:1
+#, no-wrap
+msgid "software management"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/13-softwares.md:1
+#: ../src/docs/books/admin_guide/13-softwares.md:12
+#: ../src/docs/release_notes/9_1.md:43
+#, no-wrap
+msgid "Software Management"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/11-tasks.md:19
-#: ../src/docs/books/admin_guide/12-network.md:21
-#: ../src/docs/books/learning_bash/02-using-variables.md:27
-#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:27
-#: ../src/docs/books/learning_bash/05-tests.md:25
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:23
-#: ../src/docs/books/learning_bash/07-loops.md:22
+#: ../src/docs/books/admin_guide/13-softwares.md:17
 #, no-wrap
-msgid "**Knowledge**: :star: :star:  \n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/11-tasks.md:21
-#: ../src/docs/books/admin_guide/12-network.md:23
-#, no-wrap
-msgid "**Complexity**: :star: :star:\n"
-msgstr ""
-
-#. type: Title #
-#: ../src/docs/books/admin_guide/12-network.md:1
-#: ../src/docs/books/admin_guide/12-network.md:5
-#, no-wrap
-msgid "Implementing the Network"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:8
-#, no-wrap
-msgid "In this chapter you will learn how to work with and manage the network.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:13
-#, no-wrap
-msgid ":heavy_check_mark: Configure a workstation to use DHCP;  \n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:18
-#, no-wrap
-msgid ":heavy_check_mark: Configure a workstation to use a static configuration;   \n"
-":heavy_check_mark: Configure a workstation to use a gateway;   \n"
-":heavy_check_mark: Configure a workstation to use DNS servers;   \n"
-":heavy_check_mark: Troubleshoot the network of a workstation.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:20
-#, no-wrap
-msgid ":checkered_flag: **network**, **linux**, **ip**\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:31
-#, no-wrap
-msgid "To illustrate this chapter, we will use the following architecture.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:33
-#, no-wrap
-msgid "![Illustration of our network architecture](images/network-001.png)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:35
-#, no-wrap
-msgid "It will allow us to consider:\n"
+msgid "On a Linux system, it is possible to install software in two ways:\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:39
+#: ../src/docs/books/admin_guide/13-softwares.md:20
 #, no-wrap
-msgid "integration in a LAN (local area network);\n"
+msgid "Using an installation package;\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:39
+#: ../src/docs/books/admin_guide/13-softwares.md:20
 #, no-wrap
-msgid "the configuration of a gateway to reach a remote server;\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:39
-#, no-wrap
-msgid "the configuration of a DNS server and the implementation of name resolution.\n"
+msgid "Compiling from source files.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:41
+#: ../src/docs/books/admin_guide/13-softwares.md:24
 #, no-wrap
-msgid "The minimum parameters to be defined for the machine are:\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:45
-#, no-wrap
-msgid "the name of the machine;\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:45
-#, no-wrap
-msgid "the IP address;\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:45
-#, no-wrap
-msgid "the subnet mask.\n"
-msgstr ""
-
-#. type: Bullet: '*   '
-#: ../src/docs/books/admin_guide/12-network.md:51
-#, no-wrap
-msgid "`pc-rocky`;\n"
-msgstr ""
-
-#. type: Bullet: '*   '
-#: ../src/docs/books/admin_guide/12-network.md:51
-#, no-wrap
-msgid "`192.168.1.10`;\n"
-msgstr ""
-
-#. type: Bullet: '*   '
-#: ../src/docs/books/admin_guide/12-network.md:51
-#, no-wrap
-msgid "`255.255.255.0`.\n"
+msgid "    Installing from source is not covered here. As a rule, you should use the package method unless the software you want is not available via the package manager. The reason for this is that dependencies are generally managed by the package system, whereas with source, you need to manage the dependencies manually.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:53
+#: ../src/docs/books/admin_guide/13-softwares.md:26
 #, no-wrap
-msgid "The notation called CIDR is more and more frequent: 192.168.1.10/24\n"
+msgid "**The package**: This is a single file containing all the data needed to install the program. It can be executed directly on the system from a software repository.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:55
+#: ../src/docs/books/admin_guide/13-softwares.md:28
 #, no-wrap
-msgid "IP addresses are used for the proper routing of messages (packets). They are divided into two parts:\n"
+msgid "**The source files**: Some software is not provided in packages ready to be installed, but via an archive containing the source files. It is up to the administrator to prepare these files and compile them to install the program.\n"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:58
+#. type: Title ##
+#: ../src/docs/books/admin_guide/13-softwares.md:29
 #, no-wrap
-msgid "the fixed part, identifying the network;\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:58
-#, no-wrap
-msgid "the identifier of the host in the network.\n"
+msgid "RPM: RedHat Package Manager"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:60
+#: ../src/docs/books/admin_guide/13-softwares.md:32
 #, no-wrap
-msgid "The subnet mask is a set of **4 bytes** intended to isolate:\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:63
-#, no-wrap
-msgid "the network address (**NetID** or **SubnetID**) by performing a bitwise logical AND between the IP address and the mask;\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:63
-#, no-wrap
-msgid "the host address (**HostID**) by performing a bitwise logical AND between the IP address and the complement of the mask.\n"
+msgid "**RPM** (RedHat Package Manager) is a software management system. It is possible to install, uninstall, update or check software contained in packages.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:65
+#: ../src/docs/books/admin_guide/13-softwares.md:34
 #, no-wrap
-msgid "There are also specific addresses within a network, which must be identified. The first address of a range as well as the last one have a particular role:\n"
+msgid "**RPM** is the format used by all RedHat based distributions (RockyLinux, Fedora, CentOS, SuSe, Mandriva, ...). Its equivalent in the Debian world is DPKG (Debian Package).\n"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:67
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:36
 #, no-wrap
-msgid "The first address of a range is the **network address**. It is used to identify networks and to route information from one network to another.\n"
+msgid "The name of an RPM package follows a specific nomenclature:\n"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:69
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:38
 #, no-wrap
-msgid "The last address of a range is the **broadcast address**. It is used to broadcast information to all the machines on the network.\n"
+msgid "![Illustration of a package name](images/software-001.png)\n"
 msgstr ""
 
 #. type: Title ###
-#: ../src/docs/books/admin_guide/12-network.md:70
+#: ../src/docs/books/admin_guide/13-softwares.md:39
 #, no-wrap
-msgid "MAC address / IP address"
+msgid "`rpm` command"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:74
+#: ../src/docs/books/admin_guide/13-softwares.md:42
 #, no-wrap
-msgid "A **MAC address** is a physical identifier written in the factory onto the device. This is sometimes referred to as the hardware address. It consists of 6 bytes often given in hexadecimal form (for example 5E:FF:56:A2:AF:15).\n"
-"It is composed of: 3 bytes of the manufacturer identifier and 3 bytes of the serial number.\n"
+msgid "The rpm command allows you to install a package.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:43
+#, no-wrap
+msgid "rpm [-i][-U] package.rpm [-e] package\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:78
+#: ../src/docs/books/admin_guide/13-softwares.md:48
 #, no-wrap
-msgid "    This last statement is nowadays a little less true with virtualization. There are also software solutions for changing the MAC address.\n"
+msgid "Example (for a package named 'package'):\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:49
+#, no-wrap
+msgid "rpm -ivh package.rpm\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:81
+#: ../src/docs/books/admin_guide/13-softwares.md:61
 #, no-wrap
-msgid "An Internet Protocol (**IP**) address is an identification number permanently or temporarily assigned to each device connected to a computer network using the Internet Protocol.\n"
-"One part defines the network address (NetID or SubnetID as the case may be), the other part defines the address of the host in the network (HostID). The relative size of each part varies according to the network (sub)mask.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:83
-#, no-wrap
-msgid "An IPv4 address defines an address on 4 bytes. The number of available addresses being close to saturation a new standard was created, the IPv6 defined on 16 bytes.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:85
-#, no-wrap
-msgid "IPv6 is often represented by 8 groups of 2 bytes separated by a colon. Insignificant zeros can be omitted, one or more groups of 4 consecutive zeros can be replaced by a double colon.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:87
-#, no-wrap
-msgid "Subnet masks have from 0 to 128 bits. (for example 21ac:0000:0000:0611:21e0:00ba:321b:54da/64 or 21ac::611:21e0:ba:321b:54da/64)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:89
-#, no-wrap
-msgid "In a web address or URL (Uniform Resource Locator), an ip address can be followed by a colon and the port address (which indicates the application to which the data is destined). Also to avoid confusion in a URL, the IPv6 address is written in square brackets [ ], colon, port address.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:91
-#, no-wrap
-msgid "IP and MAC addresses must be unique on a network!\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/admin_guide/12-network.md:92
-#, no-wrap
-msgid "DNS Domain"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:95
-#, no-wrap
-msgid "Client machines can be part of a DNS (**Domain Name System**, e.g., `mydomain.lan`) domain.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:97
-#, no-wrap
-msgid "The fully qualified machine name (**FQDN**) becomes `pc-rocky.mydomain.lan`.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:99
-#, no-wrap
-msgid "A set of computers can be grouped into a logical, name-resolving, set called a DNS domain. A DNS domain is not, of course, limited to a single physical network.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:101
-#, no-wrap
-msgid "In order for a computer to be part of a DNS domain, it must be given a DNS suffix (here `mydomain.lan`) as well as servers that it can query.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/admin_guide/12-network.md:102
-#, no-wrap
-msgid "Reminder of the OSI model"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:105
-#, no-wrap
-msgid "!!! Note \"Memory aid\"\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:107
-#, no-wrap
-msgid "    To remember the order of the layers of the OSI model, remember the following sentence: __Please Do Not Touch Steven's Pet Alligator__.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:117
-#, no-wrap
-msgid "|  Layer            |  Protocoles                                  |\n"
+msgid "| Option            | Description                                  |\n"
 "|-------------------|----------------------------------------------|\n"
-"|  7 - Application  |  POP, IMAP, SMTP, SSH, SNMP, HTTP, FTP, ...  |\n"
-"|  6 - Presentation |  ASCII, MIME, ...                            |\n"
-"|  5 - Session      |  TLS, SSL, NetBIOS, ...                      |\n"
-"|  4 - Transport    |  TLS, SSL, TCP, UDP, ...                     |\n"
-"|  3 - Network      |  IPv4, IPv6, ARP, ...                        |\n"
-"|  2 - Data Link    |  Ethernet, WiFi, Token Ring, ...             |\n"
-"|  1 - Physical     |  Cables, optical fibers, radio waves, ...    |\n"
+"| `-i package.rpm`  | Installs the package.                        |\n"
+"| `-U package.rpm`  | Updates an already installed package.        |\n"
+"| `-e package.rpm`  | Uninstalls the package.                      |\n"
+"| `-h`              | Displays a progress bar.                     |\n"
+"| `-v`              | Informs about the progress of the operation. |\n"
+"| `--test`          | Tests the command without executing it.      |\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:120
+#: ../src/docs/books/admin_guide/13-softwares.md:63
 #, no-wrap
-msgid "**Layer 1** (Physical) supports transmission over a communication channel (Wifi, Optical fiber, RJ cable, etc.).\n"
-"Unit: the bit.\n"
+msgid "The `rpm` command also allows you to query the system package database by adding the `-q` option.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:124
+#: ../src/docs/books/admin_guide/13-softwares.md:65
 #, no-wrap
-msgid "**Layer 2** (Data Link) supports network topology\n"
-"(token-ring, star, bus, etc.), data splitting and transmission errors.\n"
-"Unit: the frame.\n"
+msgid "It is possible to execute several types of queries to obtain different information about the installed packages. The RPM database is located in the directory `/var/lib/rpm`.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:68
+#, no-wrap
+msgid "rpm -qa\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:127
+#: ../src/docs/books/admin_guide/13-softwares.md:73
 #, no-wrap
-msgid "**Layer 3** (Network) supports end-to-end data transmission (IP routing = Gateway).\n"
-"Unit: the packet.\n"
+msgid "This command queries all the packages installed on the system.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:74
+#, no-wrap
+msgid "rpm -q [-a][-i][-l] package [-f] file\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:80
+#, no-wrap
+msgid "rpm -qil package\n"
+"rpm -qf /path/to/file\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:131
+#: ../src/docs/books/admin_guide/13-softwares.md:92
 #, no-wrap
-msgid "**Layer 4** (Transport) supports service type (connected or unconnected)\n"
-"encryption and flow control.\n"
-"Unit: the segment or the datagram.\n"
+msgid "| Option           | Description                                                                                    |\n"
+"|------------------|------------------------------------------------------------------------------------------------|\n"
+"| `-a`             | Lists all packages installed on the system.                                                    |\n"
+"| `-i __package__` | Displays the package information.                                                              |\n"
+"| `-l __package__` | Lists the files contained in the package.                                                      |\n"
+"| `-f`             | Shows the name of the package containing the specified file.                                   |\n"
+"| `--last`         | The list of packages is given by installation date (the last installed packages appear first). |\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:133
+#: ../src/docs/books/admin_guide/13-softwares.md:96
 #, no-wrap
-msgid "**Layer 5** (Session) supports the communication between two computers.\n"
+msgid "    After the `-q` option, the package name must be exact. Metacharacters (wildcards) are not supported.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:135
+#: ../src/docs/books/admin_guide/13-softwares.md:100
 #, no-wrap
-msgid "**Layer 6** (Presentation) represents the area that is independent of data at the application layer. Essentially this layer translates from network format to the application format, or from the application format to the network format.\n"
+msgid "    However, it is possible to list all installed packages and filter with the `grep` command.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:139
+#: ../src/docs/books/admin_guide/13-softwares.md:102
 #, no-wrap
-msgid "**Layer 7** (Application) represents the contact with the user.\n"
-"It provides the services offered by the network: http, dns, ftp, imap,\n"
-"pop, smtp, etc.\n"
+msgid "Example: list the last installed packages:\n"
 msgstr ""
 
-#. type: Title ##
-#: ../src/docs/books/admin_guide/12-network.md:140
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:103
 #, no-wrap
-msgid "The naming of interfaces"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:143
-#, no-wrap
-msgid "*lo* is the \"**loopback**\" interface which allows TCP/IP programs to communicate with each other without leaving the local machine. This enables testing if the **network module of the system is working properly** and also allows pinging the localhost. All packets that enter through localhost leave through localhost. The packets received are the packets sent.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:145
-#, no-wrap
-msgid "The Linux kernel assigns interface names with a specific prefix depending on the type. Traditionally, all **Ethernet** interfaces, for example, began with **eth**. The prefix was followed by a number, the first being 0 (eth0, eth1, eth2...). The wifi interfaces were given a wlan prefix.\n"
+msgid "sudo rpm -qa --last | head\n"
+"NetworkManager-config-server-1.26.0-13.el8.noarch Mon 24 May 2021 02:34:00 PM CEST\n"
+"iwl2030-firmware-18.168.6.1-101.el8.1.noarch  Mon 24 May 2021 02:34:00 PM CEST\n"
+"iwl2000-firmware-18.168.6.1-101.el8.1.noarch  Mon 24 May 2021 02:34:00 PM CEST\n"
+"iwl135-firmware-18.168.6.1-101.el8.1.noarch   Mon 24 May 2021 02:34:00 PM CEST\n"
+"iwl105-firmware-18.168.6.1-101.el8.1.noarch   Mon 24 May 2021 02:34:00 PM CEST\n"
+"iwl100-firmware-39.31.5.1-101.el8.1.noarch    Mon 24 May 2021 02:34:00 PM CEST\n"
+"iwl1000-firmware-39.31.5.1-101.el8.1.noarch   Mon 24 May 2021 02:34:00 PM CEST\n"
+"alsa-sof-firmware-1.5-2.el8.noarch            Mon 24 May 2021 02:34:00 PM CEST\n"
+"iwl7260-firmware-25.30.13.0-101.el8.1.noarch  Mon 24 May 2021 02:33:59 PM CEST\n"
+"iwl6050-firmware-41.28.5.1-101.el8.1.noarch   Mon 24 May 2021 02:33:59 PM CEST\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:147
+#: ../src/docs/books/admin_guide/13-softwares.md:118
 #, no-wrap
-msgid "On Rocky8 Linux distributions, systemd will name interfaces with the new following policy where \"X\" represents a number:\n"
+msgid "Example: list the installation history of the kernel:\n"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:152
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:119
 #, no-wrap
-msgid "`enoX`:  on-board devices\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:152
-#, no-wrap
-msgid "`ensX`: PCI Express hotplug slot\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:152
-#, no-wrap
-msgid "`enpXsX`: physical/geographical location of the connector of the hardware\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:152
-#, no-wrap
-msgid "...\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/admin_guide/12-network.md:153
-#, no-wrap
-msgid "Using the `ip` command"
+msgid "sudo rpm -qa --last kernel\n"
+"kernel-4.18.0-305.el8.x86_64                  Tue 25 May 2021 06:04:56 AM CEST\n"
+"kernel-4.18.0-240.22.1.el8.x86_64             Mon 24 May 2021 02:33:35 PM CEST\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:156
+#: ../src/docs/books/admin_guide/13-softwares.md:126
 #, no-wrap
-msgid "Forget the old `ifconfig` command! Think `ip`!\n"
+msgid "Example: list all installed packages with a specific name using `grep`:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:160
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:127
 #, no-wrap
-msgid "    Comment for administrators of older Linux systems:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:162
-#, no-wrap
-msgid "    The historical network management command is `ifconfig`. This command has been replaced by the `ip` command, which is already well known to network administrators.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:164
-#, no-wrap
-msgid "    The `ip` command is the only command to manage **IP address, ARP, routing, etc.**.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:166
-#, no-wrap
-msgid "    The `ifconfig` command is no longer installed by default in Rocky8.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:168
-#, no-wrap
-msgid "    It is important to get into good habits now.\n"
+msgid "sudo dnf list installed | grep httpd\n"
+"centos-logos-httpd.noarch           80.5-2.el8                              @baseos\n"
+"httpd.x86_64                        2.4.37-30.module_el8.3.0+561+97fdbbcc   @appstream\n"
+"httpd-filesystem.noarch             2.4.37-30.module_el8.3.0+561+97fdbbcc   @appstream\n"
+"httpd-tools.x86_64                  2.4.37-30.module_el8.3.0+561+97fdbbcc   @appstream\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/books/admin_guide/12-network.md:169
+#: ../src/docs/books/admin_guide/13-softwares.md:135
 #, no-wrap
-msgid "The hostname"
+msgid "DNF: Dandified Yum"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:172
+#: ../src/docs/books/admin_guide/13-softwares.md:138
 #, no-wrap
-msgid "The `hostname` command displays or sets the host name of the system\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:173
-#, no-wrap
-msgid "hostname [-f] [hostname]\n"
+msgid "**DNF** (**Dandified Yum**) is a software package manager, successor of **YUM** (**Y**ellow dog **U**pdater **M**odified). It works with **RPM** packages grouped in a local or remote repository (a directory for storing packages). For the most common commands, its usage is identical to that of `yum`.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:181
+#: ../src/docs/books/admin_guide/13-softwares.md:140
 #, no-wrap
-msgid "|  Option  |  Description                   |\n"
-"|----------|--------------------------------|\n"
-"| `-f`     | Display the FQDN               |\n"
-"| `-i`     | Display the system IPs address |\n"
+msgid "The `dnf` command allows the management of packages by comparing those installed on the system with those in the repositories defined on the server. It also automatically installs dependencies, if they are also present in the repositories.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:185
+#: ../src/docs/books/admin_guide/13-softwares.md:142
 #, no-wrap
-msgid "    This command is used by various network programs to identify the machine.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:187
-#, no-wrap
-msgid "To assign a host name, it is possible to use the `hostname` command, but the changes will not be retained at the next boot. The command with no arguments displays the host name.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:189
-#, no-wrap
-msgid "To set the host name, the file `/etc/sysconfig/network` must be modified:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:190
-#, no-wrap
-msgid "NETWORKING=yes\n"
-"HOSTNAME=pc-rocky.mondomaine.lan\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:196
-#, no-wrap
-msgid "The RedHat boot script also consults the `/etc/hosts` file to resolve the host name of the system.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:198
-#, no-wrap
-msgid "When the system boots, Linux evaluates the `HOSTNAME` value in the `/etc/sysconfig/network` file.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:200
-#, no-wrap
-msgid "It then uses the `/etc/hosts` file to evaluate the main IP address of the server and its host name. It deduces the DNS domain name.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:202
-#, no-wrap
-msgid "It is therefore essential to fill in these two files before any configuration of network services.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:206
-#, no-wrap
-msgid "    To know if this configuration is well done, the commands `hostname` and `hostname -f` must answer with the expected values.\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/admin_guide/12-network.md:207
-#, no-wrap
-msgid "/etc/hosts file"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:210
-#, no-wrap
-msgid "The `/etc/hosts` file is a static host name mapping table, which follows the following format:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:211
-#, no-wrap
-msgid "@IP <hostname>  [alias]  [# comment]\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:216
-#, no-wrap
-msgid "Example of `/etc/hosts` file:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:217
-#, no-wrap
-msgid "127.0.0.1       localhost localhost.localdomain\n"
-"::1             localhost localhost.localdomain\n"
-"192.168.1.10    rockstar.rockylinux.lan rockstar\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:224
-#, no-wrap
-msgid "The `/etc/hosts` file is still used by the system, especially at boot time when the system FQDN is determined.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:228
-#, no-wrap
-msgid "    RedHat recommends that at least one line containing the system name be filled in.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:230
-#, no-wrap
-msgid "If the **DNS** service (**D**omain **N**ame **S**ervice) is not in place, you must fill in all the names in the hosts file for each of your machines.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:232
-#, no-wrap
-msgid "The `/etc/hosts` file contains one line per entry, with the IP address, the FQDN, then the host name (in that order) and a series of aliases (alias1 alias2 ...). The alias is an option.\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/admin_guide/12-network.md:233
-#, no-wrap
-msgid "`/etc/nsswitch.conf` file"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:236
-#, no-wrap
-msgid "The **NSS** (**N**ame **S**ervice **S**witch) allows configuration files (e.g., `/etc/passwd`, `/etc/group`, `/etc/hosts`) to be substituted for one or more centralized databases.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:238
-#, no-wrap
-msgid "The `/etc/nsswitch.conf` file is used to configure the name service databases.\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:239
-#, no-wrap
-msgid "passwd: files\n"
-"shadow: files\n"
-"group: files\n\n"
-"hosts: files dns\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:248
-#, no-wrap
-msgid "In this case, Linux will first look for a host name match (`hosts:` line) in the `/etc/hosts` file (`files` value) before querying DNS (`dns` value)! This behavior can simply be changed by editing the `/etc/nsswitch.conf` file.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:250
-#, no-wrap
-msgid "Of course, it is possible to imagine querying an LDAP, MySQL or other server by configuring the name service to respond to system requests for hosts, users, groups, etc.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:252
-#, no-wrap
-msgid "The resolution of the name service can be tested with the `getent` command that we will see later in this course.\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/admin_guide/12-network.md:253
-#, no-wrap
-msgid "`/etc/resolv.conf` file"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:256
-#, no-wrap
-msgid "The `/etc/resolv.conf` file contains the DNS name resolution configuration.\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:257
-#, no-wrap
-msgid "#Generated by NetworkManager\n"
-"domain mondomaine.lan\n"
-"search mondomaine.lan\n"
-"nameserver 192.168.1.254\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:267
-#, no-wrap
-msgid "    This file is historical. It is no longer filled in directly!\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:269
-#, no-wrap
-msgid "Newer generations of distributions have generally integrated the `NetworkManager` service. This service allows you to manage the configuration more efficiently, either in graphical or console mode.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:271
-#, no-wrap
-msgid "It allows for the addition of DNS servers from the configuration file of a network interface. It then dynamically populates the `/etc/resolv.conf` file which should never be edited directly, otherwise the configuration changes will be lost the next time the network service is started.\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/admin_guide/12-network.md:272
-#, no-wrap
-msgid "`ip` command"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:275
-#, no-wrap
-msgid "The `ip` command from the `iproute2` package allows you to configure an interface and its routing table.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:277
-#, no-wrap
-msgid "Display interfaces:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:278
-#, no-wrap
-msgid "[root]# ip link\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:283
-#, no-wrap
-msgid "Display interfaces information:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:284
-#, no-wrap
-msgid "[root]# ip addr show\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:289
-#, no-wrap
-msgid "Display the information of an interface:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:290
-#, no-wrap
-msgid "[root]# ip addr show eth0\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:295
-#, no-wrap
-msgid "Display the ARP table:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:296
-#, no-wrap
-msgid "[root]# ip neigh\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:301
-#, no-wrap
-msgid "All historical network management commands have been grouped under the `ip` command, which is well known to network administrators.\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/admin_guide/12-network.md:302
-#, no-wrap
-msgid "DHCP configuration"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:305
-#, no-wrap
-msgid "The **DHCP** protocol (**D**ynamic **H**ost **C**ontrol **P**rotocol) allows you to obtain a complete IP configuration via the network. This is the default configuration mode of a network interface under Rocky Linux, which explains why a system connected to the network of an Internet router can function without additional configuration.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:307
-#, no-wrap
-msgid "The configuration of interfaces under Rocky Linux is done in the `/etc/sysconfig/network-scripts/` folder.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:309
-#, no-wrap
-msgid "For each Ethernet interface, a `ifcfg-ethX` file allows for the configuration of the associated interface.\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:310
-#, no-wrap
-msgid "DEVICE=eth0\n"
-"ONBOOT=yes\n"
-"BOOTPROTO=dhcp\n"
-"HWADDR=00:0c:29:96:32:e3\n"
-msgstr ""
-
-#. type: Bullet: '*  '
-#: ../src/docs/books/admin_guide/12-network.md:318
-#, no-wrap
-msgid "Interface name: (must be in the file name)\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:319
-#, no-wrap
-msgid "DEVICE=eth0\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:324
-#, no-wrap
-msgid "Automatically start the interface:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:325
-#, no-wrap
-msgid "ONBOOT=yes\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:330
-#, no-wrap
-msgid "Make a DHCP request when the interface starts up:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:331
-#, no-wrap
-msgid "BOOTPROTO=dhcp\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:336
-#, no-wrap
-msgid "Specify the MAC address (optional but useful when there are several interfaces):\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:337
-#, no-wrap
-msgid "HWADDR=00:0c:29:96:32:e3\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:344
-#, no-wrap
-msgid "    If NetworkManager is installed, the changes are taken into account automatically. If not, you have to restart the network service.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:346
-#, no-wrap
-msgid "Restart the network service:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:347
-#, no-wrap
-msgid "[root]# systemctl restart NetworkManager\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/admin_guide/12-network.md:351
-#, no-wrap
-msgid "Static configuration"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:354
-#, no-wrap
-msgid "The static configuration requires at least:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:355
-#, no-wrap
-msgid "DEVICE=eth0\n"
-"ONBOOT=yes\n"
-"BOOTPROTO=none\n"
-"IPADDR=192.168.1.10\n"
-"NETMASK=255.255.255.0\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:364
-#, no-wrap
-msgid "Here we are replacing \"dhcp\" with \"none\" which equals static configuration:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:365
-#, no-wrap
-msgid "BOOTPROTO=none\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:370
-#, no-wrap
-msgid "IP Address:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:371
-#, no-wrap
-msgid "IPADDR=192.168.1.10\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:376
-#, no-wrap
-msgid "Subnet mask:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:377
-#, no-wrap
-msgid "NETMASK=255.255.255.0\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:382
-#, no-wrap
-msgid "The mask can be specified with a prefix:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:383
-#, no-wrap
-msgid "PREFIX=24\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:390
-#, no-wrap
-msgid "    You must use NETMASK OR PREFIX - Not both!\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/admin_guide/12-network.md:391
-#, no-wrap
-msgid "Routing"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:394
-#, no-wrap
-msgid "![Network architecture with a gateway](images/network-002.png)\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:395
-#, no-wrap
-msgid "DEVICE=eth0\n"
-"ONBOOT=yes\n"
-"BOOTPROTO=none\n"
-"HWADDR=00:0c:29:96:32:e3\n"
-"IPADDR=192.168.1.10\n"
-"NETMASK=255.255.255.0\n"
-"GATEWAY=192.168.1.254\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:406
-#, no-wrap
-msgid "The `ip route` command:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:407
-#, no-wrap
-msgid "[root]# ip route show\n"
-"192.168.1.0/24 dev eth0 […] src 192.168.1.10 metric 1\n"
-"default via 192.168.1.254 dev eth0 proto static\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:414
-#, no-wrap
-msgid "It is a good idea to know how to read a routing table, especially in an environment with multiple network interfaces.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:416
-#, no-wrap
-msgid "In the example shown, the `192.168.1.0/24` network is reachable directly from the `eth0` device, so there is a metric at `1` (does not traverse a router).\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:418
-#, no-wrap
-msgid "All other networks than the previous one will be reachable, again from the `eth0` device, but this time the packets will be addressed to a `192.168.1.254` gateway. The routing protocol is a static protocol (although it is possible to add a route to a dynamically assigned address in Linux).\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/admin_guide/12-network.md:419
-#: ../src/docs/guides/file_sharing/glusterfs.md:140
-#, no-wrap
-msgid "Name resolution"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:422
-#, no-wrap
-msgid "A system needs to resolve:\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:424
-#, no-wrap
-msgid "FQDNs into IP addresses\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:425
-#, no-wrap
-msgid "www.free.fr = 212.27.48.10\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:430
-#, no-wrap
-msgid "IP addresses into names\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:431
-#, no-wrap
-msgid "212.27.48.10 = www.free.fr\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/admin_guide/12-network.md:436
-#, no-wrap
-msgid "or to obtain information about an area:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:437
-#, no-wrap
-msgid "MX de free.fr = 10 mx1.free.fr + 20 mx2.free.fr\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:441
-#, no-wrap
-msgid "DEVICE=eth0\n"
-"ONBOOT=yes\n"
-"BOOTPROTO=none\n"
-"HWADDR=00:0c:29:96:32:e3\n"
-"IPADDR=192.168.1.10\n"
-"NETMASK=255.255.255.0\n"
-"GATEWAY=192.168.1.254\n"
-"DNS1=172.16.1.2\n"
-"DNS2=172.16.1.3\n"
-"DOMAIN=rockylinux.lan\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:455
-#, no-wrap
-msgid "In this case, to reach the DNS, you have to go through the gateway.\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:456
-#, no-wrap
-msgid " #Generated by NetworkManager\n"
-" domain mondomaine.lan\n"
-" search mondomaine.lan\n"
-" nameserver 172.16.1.2\n"
-" nameserver 172.16.1.3\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:465
-#, no-wrap
-msgid "The file has been updated by NetworkManager.\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/admin_guide/12-network.md:466
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:297
-#, no-wrap
-msgid "Troubleshooting"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:469
-#, no-wrap
-msgid "The `ping` command sends datagrams to another machine and waits for a response.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:471
-#, no-wrap
-msgid "It is the basic command for testing the network because it checks the connectivity between your network interface and another.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:473
-#, no-wrap
-msgid "Syntax of the `ping` command:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:474
-#, no-wrap
-msgid "ping [-c numerical] destination\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:479
-#, no-wrap
-msgid "The `-c` (count) option allows you to stop the command after the countdown in seconds.\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:482
-#, no-wrap
-msgid "[root]# ping –c 4 localhost\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:489
-#, no-wrap
-msgid "    Validate connectivity from near to far\n"
-msgstr ""
-
-#. type: Bullet: '1) '
-#: ../src/docs/books/admin_guide/12-network.md:491
-#, no-wrap
-msgid "Validate the TCP/IP software layer\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:492
-#, no-wrap
-msgid "[root]# ping localhost\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:497
-#, no-wrap
-msgid "\"Pinging\" the inner loop does not detect a hardware failure on the network interface. It simply determines whether the IP software configuration is correct.\n"
-msgstr ""
-
-#. type: Bullet: '2) '
-#: ../src/docs/books/admin_guide/12-network.md:499
-#, no-wrap
-msgid "Validate the network card\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:500
-#, no-wrap
-msgid "[root]# ping 192.168.1.10\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:505
-#, no-wrap
-msgid "To determine that the network card is functional, we must now ping its IP address. The network card, if the network cable is not connected, should be in a \"down\" state.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:507
-#, no-wrap
-msgid "If the ping does not work, first check the network cable to your network switch and reassemble the interface (see the `if up` command), then check the interface itself.\n"
-msgstr ""
-
-#. type: Bullet: '3) '
-#: ../src/docs/books/admin_guide/12-network.md:509
-#, no-wrap
-msgid "Validate the connectivity of the gateway\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:510
-#, no-wrap
-msgid "[root]# ping 192.168.1.254\n"
-msgstr ""
-
-#. type: Bullet: '4) '
-#: ../src/docs/books/admin_guide/12-network.md:515
-#, no-wrap
-msgid "Validate the connectivity of a remote server\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:516
-#, no-wrap
-msgid "[root]# ping 172.16.1.2\n"
-msgstr ""
-
-#. type: Bullet: '5) '
-#: ../src/docs/books/admin_guide/12-network.md:521
-#, no-wrap
-msgid "Validate the DNS service\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:522
-#, no-wrap
-msgid "[root]# ping www.free.fr\n"
+msgid "`dnf` is the manager used by many RedHat based distributions (RockyLinux, Fedora, CentOS, ...). Its equivalent in the Debian world is **APT** (**A**dvanced **P**ackaging **T**ool).\n"
 msgstr ""
 
 #. type: Title ###
-#: ../src/docs/books/admin_guide/12-network.md:526
+#: ../src/docs/books/admin_guide/13-softwares.md:143
 #, no-wrap
-msgid "`dig` command"
+msgid "`dnf` command"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:529
+#: ../src/docs/books/admin_guide/13-softwares.md:146
 #, no-wrap
-msgid "The `dig` command is used to query the DNS server.\n"
+msgid "The `dnf` command allows you to install a package by specifying only the short name.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:147
+#, no-wrap
+msgid "dnf [install][remove][list all][search][info] package\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:153
+#, no-wrap
+msgid "dnf install tree\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:531
+#: ../src/docs/books/admin_guide/13-softwares.md:158
 #, no-wrap
-msgid "The `dig` command syntax:\n"
+msgid "Only the short name of the package is required.\n"
 msgstr ""
 
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:532
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:168
 #, no-wrap
-msgid "dig [-t type] [+short] [name]\n"
+msgid "| Option                     | Description                                                          |\n"
+"|----------------------------|----------------------------------------------------------------------|\n"
+"| `install`                  | Installs the package.                                                |\n"
+"| `remove`                   | Uninstall the package.                                               |\n"
+"| `list all`                 | Lists the packages already in the repository.                        |\n"
+"| `search`                   | Search for a package in the repository.                              |\n"
+"| `provides */command_name`  | Search for a command.                                                |\n"
+"| `info`                     | Displays the package information.                                    |\n"
+"| `autoremove`               | Removes all packages installed as dependencies but no longer needed. |\n"
 msgstr ""
 
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:538
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:171
 #, no-wrap
-msgid "[root]# dig +short rockylinux.org\n"
-"76.223.126.88\n"
-"[root]# dig -t MX +short rockylinux.org                                                          ✔\n"
-"5 alt1.aspmx.l.google.com.\n"
+msgid "The `dnf install` command allows you to install the desired package without worrying about its dependencies, which will be resolved directly by `dnf` itself.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:172
+#, no-wrap
+msgid "dnf install nginx\n"
+"Last metadata expiration check: 3:13:41 ago on Wed 23 Mar 2022 07:19:24 AM CET.\n"
+"Dependencies resolved.\n"
+"============================================================================================================================\n"
+" Package                             Architecture    Version                                        Repository         Size\n"
+"============================================================================================================================\n"
+"Installing:\n"
+" nginx                               aarch64         1:1.14.1-9.module+el8.4.0+542+81547229         appstream         543 k\n"
+"Installing dependencies:\n"
+" nginx-all-modules                   noarch          1:1.14.1-9.module+el8.4.0+542+81547229         appstream          22 k\n"
+" nginx-mod-http-image-filter         aarch64         1:1.14.1-9.module+el8.4.0+542+81547229         appstream          33 k\n"
+" nginx-mod-http-perl                 aarch64         1:1.14.1-9.module+el8.4.0+542+81547229         appstream          44 k\n"
+" nginx-mod-http-xslt-filter          aarch64         1:1.14.1-9.module+el8.4.0+542+81547229         appstream          32 k\n"
+" nginx-mod-mail                      aarch64         1:1.14.1-9.module+el8.4.0+542+81547229         appstream          60 k\n"
+" nginx-mod-stream                    aarch64         1:1.14.1-9.module+el8.4.0+542+81547229         appstream          82 k\n\n"
+"Transaction Summary\n"
+"============================================================================================================================\n"
+"Install  7 Packages\n\n"
+"Total download size: 816 k\n"
+"Installed size: 2.2 M\n"
+"Is this ok [y/N]:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:199
+#, no-wrap
+msgid "In case you don't remember the exact name of the package, you can search for it with the command `dnf search name`. As you can see, there is a section that contains the exact name and another one that contains the package correspondence, all of which are highlighted for easier searching.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:200
+#, no-wrap
+msgid "dnf search nginx\n"
+"Last metadata expiration check: 0:20:55 ago on Wed 23 Mar 2022 10:40:43 AM CET.\n"
+"=============================================== Name Exactly Matched: nginx ================================================\n"
+"nginx.aarch64 : A high performance web server and reverse proxy server\n"
+"============================================== Name & Summary Matched: nginx ===============================================\n"
+"collectd-nginx.aarch64 : Nginx plugin for collectd\n"
+"munin-nginx.noarch : NGINX support for Munin resource monitoring\n"
+"nginx-all-modules.noarch : A meta package that installs all available Nginx modules\n"
+"nginx-filesystem.noarch : The basic directory layout for the Nginx server\n"
+"nginx-mod-http-image-filter.aarch64 : Nginx HTTP image filter module\n"
+"nginx-mod-http-perl.aarch64 : Nginx HTTP perl module\n"
+"nginx-mod-http-xslt-filter.aarch64 : Nginx XSLT module\n"
+"nginx-mod-mail.aarch64 : Nginx mail modules\n"
+"nginx-mod-stream.aarch64 : Nginx stream modules\n"
+"pagure-web-nginx.noarch : Nginx configuration for Pagure\n"
+"pcp-pmda-nginx.aarch64 : Performance Co-Pilot (PCP) metrics for the Nginx Webserver\n"
+"python3-certbot-nginx.noarch : The nginx plugin for certbot\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:221
+#, no-wrap
+msgid "Another way to search for a package by entering an additional search key is to send the result of the `dnf` command through a pipe to the grep command with the desired key.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:222
+#, no-wrap
+msgid "dnf search nginx | grep mod\n"
+"Last metadata expiration check: 3:44:49 ago on Wed 23 Mar 2022 06:16:47 PM CET.\n"
+"nginx-all-modules.noarch : A meta package that installs all available Nginx modules\n"
+"nginx-mod-http-image-filter.aarch64 : Nginx HTTP image filter module\n"
+"nginx-mod-http-perl.aarch64 : Nginx HTTP perl module\n"
+"nginx-mod-http-xslt-filter.aarch64 : Nginx XSLT module\n"
+"nginx-mod-mail.aarch64 : Nginx mail modules\n"
+"nginx-mod-stream.aarch64 : Nginx stream modules\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:235
+#, no-wrap
+msgid "The `dnf remove` command removes a package from the system and its dependencies. Below is an excerpt of the **dnf remove httpd** command.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:236
+#, no-wrap
+msgid "dnf remove httpd\n"
+"Dependencies resolved.\n"
+"============================================================================================================================\n"
+" Package                        Architecture    Version                                            Repository          Size\n"
+"============================================================================================================================\n"
+"Removing:\n"
+" httpd                          aarch64         2.4.37-43.module+el8.5.0+727+743c5577.1            @appstream         8.9 M\n"
+"Removing dependent packages:\n"
+" mod_ssl                        aarch64         1:2.4.37-43.module+el8.5.0+727+743c5577.1          @appstream         274 k\n"
+" php                            aarch64         7.4.19-1.module+el8.5.0+696+61e7c9ba               @appstream         4.4 M\n"
+" python3-certbot-apache         noarch          1.22.0-1.el8                                       @epel              539 k\n"
+"Removing unused dependencies:\n"
+" apr                            aarch64         1.6.3-12.el8                                       @appstream         299 k\n"
+" apr-util                       aarch64         1.6.1-6.el8.1                                      @appstream         224 k\n"
+" apr-util-bdb                   aarch64         1.6.1-6.el8.1                                      @appstream          67 k\n"
+" apr-util-openssl               aarch64         1.6.1-6.el8.1                                      @appstream          68 k\n"
+" augeas-libs                    aarch64         1.12.0-6.el8                                       @baseos            1.4 M\n"
+" httpd-filesystem               noarch          2.4.37-43.module+el8.5.0+727+743c5577.1            @appstream         400\n"
+" httpd-tools                    aarch64         2.4.37-43.module+el8.5.0+727+743c5577.1\n"
 "...\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:547
+#: ../src/docs/books/admin_guide/13-softwares.md:260
 #, no-wrap
-msgid "The `dig` command is used to query DNS servers. It is very verbose by default, but this behavior can be changed with the `+short` option.\n"
+msgid "The `dnf list` command lists all the packages installed on the system and present in the repository. It accepts several parameters:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:549
+#: ../src/docs/books/admin_guide/13-softwares.md:268
 #, no-wrap
-msgid "It is also possible to specify a DNS **record type** to resolve, such as an MX **type** to get information about the mail exchangers for a domain.\n"
+msgid "| Parameter   | Description                                                                |\n"
+"|-------------|----------------------------------------------------------------------------|\n"
+"| `all`       |\tLists the installed packages and then those available on the repositories. |\n"
+"| `available` |\tLists only the packages available for installation.                        |\n"
+"| `updates`   |\tLists packages that can be upgraded.                                       |\n"
+"| `obsoletes` |\tLists the packages made obsolete by higher versions available.             |\n"
+"| `recent`    |\tLists the latest packages added to the repository.                         |\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:270
+#, no-wrap
+msgid "The `dnf info` command, as you might expect, provides detailed information about a package:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:271
+#, no-wrap
+msgid "dnf info firewalld\n"
+"Last metadata expiration check: 15:47:27 ago on Tue 22 Mar 2022 05:49:42 PM CET.\n"
+"Installed Packages\n"
+"Name         : firewalld\n"
+"Version      : 0.9.3\n"
+"Release      : 7.el8\n"
+"Architecture : noarch\n"
+"Size         : 2.0 M\n"
+"Source       : firewalld-0.9.3-7.el8.src.rpm\n"
+"Repository   : @System\n"
+"From repo    : baseos\n"
+"Summary      : A firewall daemon with D-Bus interface providing a dynamic firewall\n"
+"URL          : http://www.firewalld.org\n"
+"License      : GPLv2+\n"
+"Description  : firewalld is a firewall service daemon that provides a dynamic customizable\n"
+"             : firewall with a D-Bus interface.\n\n"
+"Available Packages\n"
+"Name         : firewalld\n"
+"Version      : 0.9.3\n"
+"Release      : 7.el8_5.1\n"
+"Architecture : noarch\n"
+"Size         : 501 k\n"
+"Source       : firewalld-0.9.3-7.el8_5.1.src.rpm\n"
+"Repository   : baseos\n"
+"Summary      : A firewall daemon with D-Bus interface providing a dynamic firewall\n"
+"URL          : http://www.firewalld.org\n"
+"License      : GPLv2+\n"
+"Description  : firewalld is a firewall service daemon that provides a dynamic customizable\n"
+"             : firewall with a D-Bus interface.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:305
+#, no-wrap
+msgid "Sometimes you only know the executable you want to use but not the package that contains it, in this case you can use the command `dnf provides */package_name` which will search the database for you for the desired match.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:307
+#, no-wrap
+msgid "Example of a search for the `semanage` command:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:308
+#, no-wrap
+msgid "dnf provides */semanage\n"
+"Last metadata expiration check: 1:12:29 ago on Wed 23 Mar 2022 10:40:43 AM CET.\n"
+"libsemanage-devel-2.9-6.el8.aarch64 : Header files and libraries used to build policy manipulation tools\n"
+"Repo        : powertools\n"
+"Matched from:\n"
+"Filename    : /usr/include/semanage\n\n"
+"policycoreutils-python-utils-2.9-16.el8.noarch : SELinux policy core python utilities\n"
+"Repo        : baseos\n"
+"Matched from:\n"
+"Filename    : /usr/sbin/semanage\n"
+"Filename    : /usr/share/bash-completion/completions/semanage\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:324
+#, no-wrap
+msgid "The `dnf autoremove` command does not need any parameters. Dnf takes care of searching for candidate packages for removal.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:325
+#, no-wrap
+msgid "dnf autoremove\n"
+"Last metadata expiration check: 0:24:40 ago on Wed 23 Mar 2022 06:16:47 PM CET.\n"
+"Dependencies resolved.\n"
+"Nothing to do.\n"
+"Complete!\n"
 msgstr ""
 
 #. type: Title ###
-#: ../src/docs/books/admin_guide/12-network.md:550
+#: ../src/docs/books/admin_guide/13-softwares.md:333
 #, no-wrap
-msgid "`getent` command"
+msgid "Other useful `dnf` options"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:553
+#: ../src/docs/books/admin_guide/13-softwares.md:340
 #, no-wrap
-msgid "The `getent` (get entry) command is used to get an NSSwitch entry (`hosts` + `dns`)\n"
+msgid "| Option                     | Description                                      |\n"
+"|----------------------------|--------------------------------------------------|\n"
+"| `repolist`                 | Lists the repositories configured on the system. |\n"
+"| `grouplist`                | Lists available package collections.             |\n"
+"| `clean`                    | Removes temporary files.                         |\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:555
+#: ../src/docs/books/admin_guide/13-softwares.md:342
 #, no-wrap
-msgid "Syntax of the `getent` command:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:557
-#, no-wrap
-msgid "getent hosts name\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:563
-#, no-wrap
-msgid "[root]# getent hosts rockylinux.org\n"
-"  76.223.126.88 rockylinux.org\n"
+msgid "The `dnf repolist` command lists the repositories configured on the system. By default, it lists only the enabled repositories but can be used with these parameters:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:569
+#: ../src/docs/books/admin_guide/13-softwares.md:348
 #, no-wrap
-msgid "Querying only a DNS server may return an erroneous result that does not take into account the contents of a `hosts` file, although this should be rare nowadays.\n"
+msgid "| Parameter    | Description                       |\n"
+"|--------------|-----------------------------------|\n"
+"| `--all`      | Lists all the repositories.       |\n"
+"| `--enabled`  | Default                           |\n"
+"| `--disabled` | Lists only disabled repositories. |\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:351
+#, no-wrap
+msgid "dnf repolist\n"
+"repo id                                                  repo name\n"
+"appstream                                                Rocky Linux 8 - AppStream\n"
+"baseos                                                   Rocky Linux 8 - BaseOS\n"
+"epel                                                     Extra Packages for Enterprise Linux 8 - aarch64\n"
+"epel-modular                                             Extra Packages for Enterprise Linux Modular 8 - aarch64\n"
+"extras                                                   Rocky Linux 8 - Extras\n"
+"powertools                                               Rocky Linux 8 - PowerTools\n"
+"rockyrpi                                                 Rocky Linux 8 - Rasperry Pi\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:571
+#: ../src/docs/books/admin_guide/13-softwares.md:364
 #, no-wrap
-msgid "To take the `/etc/hosts` file into account as well, the NSSwitch name service must be queried, which will take care of any DNS resolution.\n"
+msgid "And an excerpt of the command with the `--all` flag.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:365
+#, no-wrap
+msgid "dnf repolist --all\n\n"
+"...\n"
+"repo id                                             repo name                                                                                       status\n"
+"appstream                                           Rocky Linux 8 - AppStream                                                                       enabled\n"
+"appstream-debug                                     Rocky Linux 8 - AppStream - Source                                                              disabled\n"
+"appstream-source                                    Rocky Linux 8 - AppStream - Source                                                              disabled\n"
+"baseos                                              Rocky Linux 8 - BaseOS                                                                          enabled\n"
+"baseos-debug                                        Rocky Linux 8 - BaseOS - Source                                                                 disabled\n"
+"baseos-source                                       Rocky Linux 8 - BaseOS - Source                                                                 disabled\n"
+"devel                                               Rocky Linux 8 - Devel WARNING! FOR BUILDROOT AND KOJI USE                                       disabled\n"
+"epel                                                Extra Packages for Enterprise Linux 8 - aarch64                                                 enabled\n"
+"epel-debuginfo                                      Extra Packages for Enterprise Linux 8 - aarch64 - Debug                                         disabled\n"
+"epel-modular                                        Extra Packages for Enterprise Linux Modular 8 - aarch64                                         enabled\n"
+"epel-modular-debuginfo                              Extra Packages for Enterprise Linux Modular 8 - aarch64 - Debug                                 disabled\n"
+"epel-modular-source                                 Extra Packages for Enterprise Linux Modular 8 - aarch64 - Source\n"
+"...\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:386
+#, no-wrap
+msgid "And below is an excerpt from the list of disabled repositories.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:387
+#, no-wrap
+msgid "dnf repolist --disabled\n"
+"repo id                                 repo name\n"
+"appstream-debug                         Rocky Linux 8 - AppStream - Source\n"
+"appstream-source                        Rocky Linux 8 - AppStream - Source\n"
+"baseos-debug                            Rocky Linux 8 - BaseOS - Source\n"
+"baseos-source                           Rocky Linux 8 - BaseOS - Source\n"
+"devel                                   Rocky Linux 8 - Devel WARNING! FOR BUILDROOT AND KOJI USE\n"
+"epel-debuginfo                          Extra Packages for Enterprise Linux 8 - aarch64 - Debug\n"
+"epel-modular-debuginfo                  Extra Packages for Enterprise Linux Modular 8 - aarch64 - Debug\n"
+"epel-modular-source                     Extra Packages for Enterprise Linux Modular 8 - aarch64 - Source\n"
+"epel-source                             Extra Packages for Enterprise Linux 8 - aarch64 - Source\n"
+"epel-testing                            Extra Packages for Enterprise Linux 8 - Testing - aarch64\n"
+"...\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:404
+#, no-wrap
+msgid "Using the `-v` option enhances the list with a lot of additional information. Below you can see part of the result of the command.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:405
+#, no-wrap
+msgid "dnf repolist -v\n\n"
+"...\n"
+"Repo-id            : powertools\n"
+"Repo-name          : Rocky Linux 8 - PowerTools\n"
+"Repo-revision      : 8.5\n"
+"Repo-distro-tags      : [cpe:/o:rocky:rocky:8]:  ,  , 8, L, R, c, i, k, n, o, u, x, y\n"
+"Repo-updated       : Wed 16 Mar 2022 10:07:49 PM CET\n"
+"Repo-pkgs          : 1,650\n"
+"Repo-available-pkgs: 1,107\n"
+"Repo-size          : 6.4 G\n"
+"Repo-mirrors       : https://mirrors.rockylinux.org/mirrorlist?arch=aarch64&repo=PowerTools-8\n"
+"Repo-baseurl       : https://mirror2.sandyriver.net/pub/rocky/8.8/PowerTools/x86_64/os/ (30 more)\n"
+"Repo-expire        : 172,800 second(s) (last: Tue 22 Mar 2022 05:49:24 PM CET)\n"
+"Repo-filename      : /etc/yum.repos.d/Rocky-PowerTools.repo\n"
+"...\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:425
+#, no-wrap
+msgid "!!! info \"Using Groups\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:427
+#, no-wrap
+msgid "    Groups are a collection of a set of packages (you can think of them as a virtual packages) that logically groups a set of applications to accomplish a purpose (a desktop environment, a server, development tools, etc.).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:429
+#, no-wrap
+msgid "The `dnf grouplist` command lists all available groups.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:430
+#, no-wrap
+msgid "dnf grouplist\n"
+"Last metadata expiration check: 1:52:00 ago on Wed 23 Mar 2022 02:11:43 PM CET.\n"
+"Available Environment Groups:\n"
+"   Server with GUI\n"
+"   Server\n"
+"   Minimal Install\n"
+"   KDE Plasma Workspaces\n"
+"   Custom Operating System\n"
+"Available Groups:\n"
+"   Container Management\n"
+"   .NET Core Development\n"
+"   RPM Development Tools\n"
+"   Development Tools\n"
+"   Headless Management\n"
+"   Legacy UNIX Compatibility\n"
+"   Network Servers\n"
+"   Scientific Support\n"
+"   Security Tools\n"
+"   Smart Card Support\n"
+"   System Tools\n"
+"   Fedora Packager\n"
+"   Xfce\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:456
+#, no-wrap
+msgid "The `dnf groupinstall` command allows you to install one of these groups.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:457
+#, no-wrap
+msgid "dnf groupinstall \"Network Servers\"\n"
+"Last metadata expiration check: 2:33:26 ago on Wed 23 Mar 2022 02:11:43 PM CET.\n"
+"Dependencies resolved.\n"
+"================================================================================\n"
+" Package           Architecture     Version             Repository         Size\n"
+"================================================================================\n"
+"Installing Groups:\n"
+" Network Servers\n\n"
+"Transaction Summary\n"
+"================================================================================\n\n"
+"Is this ok [y/N]:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:474
+#, no-wrap
+msgid "Note that it is good practice to enclose the group name in double quotes as without the command it will only execute correctly if the group name does not contain spaces.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:476
+#, no-wrap
+msgid "So a `dnf groupinstall Network Servers` produces the following error.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:477
+#, no-wrap
+msgid "dnf groupinstall Network Servers\n"
+"Last metadata expiration check: 3:05:45 ago on Wed 23 Mar 2022 02:11:43 PM CET.\n"
+"Module or Group 'Network' is not available.\n"
+"Module or Group 'Servers' is not available.\n"
+"Error: Nothing to do.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:486
+#, no-wrap
+msgid "The corresponding command to remove a group is `dnf groupremove \"name group\"`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:488
+#, no-wrap
+msgid "The `dnf clean` command cleans all caches and temporary files created by `dnf`. It can be used with the following parameters.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:496
+#, no-wrap
+msgid "| Parameters         | Description                                                   |\n"
+"|--------------------|---------------------------------------------------------------|\n"
+"| `all`              | Removes all temporary files created for enabled repositories. |\n"
+"| `dbcache`          | Removes cache files for the repository  metadata.             |\n"
+"| `expire-cache`     | Remove the local cookie files.                                |\n"
+"| `metadata`         | Removes all the repositories metadata.                        |\n"
+"| `packages`         | Removes any cached packages.                                  |\n"
 msgstr ""
 
 #. type: Title ###
-#: ../src/docs/books/admin_guide/12-network.md:572
+#: ../src/docs/books/admin_guide/13-softwares.md:498
 #, no-wrap
-msgid "`ipcalc` command"
+msgid "How DNF works"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:575
+#: ../src/docs/books/admin_guide/13-softwares.md:501
 #, no-wrap
-msgid "The `ipcalc` (**ip calculation**) command is used to calculate the address of a network or broadcast from an IP address and a mask.\n"
+msgid "The DNF manager relies on one or more configuration files to target the repositories containing the RPM packages.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:577
+#: ../src/docs/books/admin_guide/13-softwares.md:503
 #, no-wrap
-msgid "Syntax of the `ipcalc` command:\n"
+msgid "These files are located in `/etc/yum.repos.d/` and must end with `.repo` in order to be used by DNF.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:506
+#, no-wrap
+msgid "/etc/yum.repos.d/Rocky-BaseOS.repo\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:511
+#, no-wrap
+msgid "Each `.repo` file consists of at least the following information, one directive per line.\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:578
+#: ../src/docs/books/admin_guide/13-softwares.md:514
 #, no-wrap
-msgid "ipcalc  [options] IP <netmask>\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:584
-#, no-wrap
-msgid "[root]# ipcalc –b 172.16.66.203 255.255.240.0\n"
-"BROADCAST=172.16.79.255\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:592
-#, no-wrap
-msgid "    This command is interesting followed by a redirection to automatically fill in the configuration files of your interfaces:\n"
+msgid "[baseos] # Short name of the repository\n"
+"name=Rocky Linux $releasever - BaseOS # Short name of the repository #Detailed name\n"
+"mirrorlist=http://mirrors.rockylinux.org/mirrorlist?arch=$basearch&repo=BaseOS-$releasever # http address of a list or mirror\n"
+"#baseurl=http://dl.rockylinux.org/$contentdir/$releasever/BaseOS/$basearch/os/ # http address for direct access\n"
+"gpgcheck=1 # Repository requiring a signature\n"
+"enabled=1 # Activated =1, or not activated =0\n"
+"gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rockyofficial # GPG public key path\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:596
+#: ../src/docs/books/admin_guide/13-softwares.md:525
 #, no-wrap
-msgid "    ```\n"
-"    [root]# ipcalc –b 172.16.66.203 255.255.240.0 >> /etc/sysconfig/network-scripts/ifcfg-eth0\n"
-"    ```\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:601
-#, no-wrap
-msgid "|  Option  |  Description                           |\n"
-"|----------|----------------------------------------|\n"
-"|  `-b`    | Displays the broadcast address.        |\n"
-"|  `-n`    | Displays the network address and mask. |\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:603
-#, no-wrap
-msgid "`ipcalc` is a simple way to calculate the IP information of a host. The various options indicate what information `ipcalc` should display on the standard output. Multiple options can be specified. An IP address on which to operate must be specified. Most operations also require a network mask or CIDR prefix.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:612
-#, no-wrap
-msgid "| Option short | Option long | Description                                                                  |\n"
-"|---------------|---------------|------------------------------------------------------------------------------|\n"
-"| `-b`          | `--broadcast` | Displays the broadcast address of the given IP address and the network mask. |\n"
-"| `-h`          | `--hostname`  | Displays the hostname of the IP address given via DNS.                       |\n"
-"| `-n`          | `--netmask`   | Calculates the network mask for the given IP address. Assumes that the IP address is part of a complete class A, B, or C network. Many networks do not use default network masks, in which case an incorrect value will be returned. |\n"
-"| `-p`          | `--prefix`    | Indicates the prefix of the mask/IP address.                                 |\n"
-"| `-n`          | `--network`   | Indicates the network address of the given IP address and mask.              |\n"
-"| `-s`          | `--silent`    | Never displays any error messages.                                           |\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/admin_guide/12-network.md:613
-#, no-wrap
-msgid "`ss` command"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:616
-#, no-wrap
-msgid "The `ss` (**socket statistics**) command displays the listening ports on the network.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:618
-#, no-wrap
-msgid "Syntax of the `ss` command:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:619
-#, no-wrap
-msgid "ss [-tuna]\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:625
-#, no-wrap
-msgid "[root]# ss –tuna\n"
-"tcp   LISTEN   0   128   *:22   *:*\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:631
-#, no-wrap
-msgid "The commands `ss` and `netstat` (to follow) will be very important for the rest of your Linux life.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:633
-#, no-wrap
-msgid "When implementing network services, it is very common to check with one of these two commands that the service is listening on the expected ports.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/admin_guide/12-network.md:634
-#, no-wrap
-msgid "`netstat` command"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:639
-#, no-wrap
-msgid "    The `netstat` command is now deprecated and is no-longer installed by default on Rocky Linux. You may still find some Linux versions that have it installed, but it is best to move on to using `ss` for everything that you would have used `netstat` for.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:641
-#, no-wrap
-msgid "The `netstat` command (**network statistics**) displays the listening ports on the network.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:643
-#, no-wrap
-msgid "Syntax of the `netstat` command:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:644
-#, no-wrap
-msgid "netstat -tapn\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:650
-#, no-wrap
-msgid "[root]# netstat –tapn\n"
-"tcp  0  0  0.0.0.0:22  0.0.0.0:*  LISTEN 2161/sshd\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/admin_guide/12-network.md:655
-#, no-wrap
-msgid "IP or MAC address conflicts"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:658
-#, no-wrap
-msgid "A misconfiguration can cause multiple interfaces to use the same IP address. This can happen when a network has multiple DHCP servers or when the same IP address is manually assigned multiple times.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:660
-#, no-wrap
-msgid "When the network is malfunctioning, and when an IP address conflict could be the cause, it is possible to use the `arp-scan` software (requires the EPEL repository):\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:661
-#, no-wrap
-msgid "$ dnf install arp-scan\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:667
-#, no-wrap
-msgid "$ arp-scan -I eth0 -l\n\n"
-"172.16.1.104  00:01:02:03:04:05       3COM CORPORATION\n"
-"172.16.1.107  00:0c:29:1b:eb:97       VMware, Inc.\n"
-"172.16.1.250  00:26:ab:b1:b7:f6       (Unknown)\n"
-"172.16.1.252  00:50:56:a9:6a:ed       VMWare, Inc.\n"
-"172.16.1.253  00:50:56:b6:78:ec       VMWare, Inc.\n"
-"172.16.1.253  00:50:56:b6:78:ec       VMWare, Inc. (DUP: 2)\n"
-"172.16.1.253  00:50:56:b6:78:ec       VMWare, Inc. (DUP: 3)\n"
-"172.16.1.253  00:50:56:b6:78:ec       VMWare, Inc. (DUP: 4)\n"
-"172.16.1.232  88:51:fb:5e:fa:b3       (Unknown) (DUP: 2)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:684
-#, no-wrap
-msgid "    As the above example shows, it is also possible to have MAC address conflicts! These problems are brought about by virtualization technologies and the copying of virtual machines.\n"
+msgid "By default, the `enabled` directive is absent which means that the repository is enabled. To disable a repository, you must specify the `enabled=0` directive.\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/books/admin_guide/12-network.md:685
+#: ../src/docs/books/admin_guide/13-softwares.md:526
 #, no-wrap
-msgid "Hot configuration"
+msgid "DNF modules"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:688
+#: ../src/docs/books/admin_guide/13-softwares.md:529
 #, no-wrap
-msgid "The `ip` command can hot add an IP address to an interface\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:689
-#, no-wrap
-msgid "ip addr add @IP dev DEVICE\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:695
-#, no-wrap
-msgid "[root]# ip addr add 192.168.2.10 dev eth1\n"
+msgid "Modules were introduced in Rocky Linux 8 by the upstream. In order to use modules, the AppStream repository must exist and be enabled.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:700
+#: ../src/docs/books/admin_guide/13-softwares.md:531
 #, no-wrap
-msgid "The `ip` command allows for the activation or deactivation of an interface:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:701
-#, no-wrap
-msgid "ip link set DEVICE up\n"
-"ip link set DEVICE down\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:708
-#, no-wrap
-msgid "[root]# ip link set eth1 up\n"
-"[root]# ip link set eth1 down\n"
+msgid "!!! hint \"Package Confusion\"\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:714
+#: ../src/docs/books/admin_guide/13-softwares.md:533
 #, no-wrap
-msgid "The `ip` command is used to add a route:\n"
+msgid "    The creation of module streams in the AppStream repository caused a lot of people confusion. Since modules are packaged within a stream (see our examples below), a particular package would show up in our RPMs, but if an attempt was made to install it without enabling the module, nothing would happen. Remember to look at modules if you attempt to install a package and it fails to find it.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:534
+#, no-wrap
+msgid "What are modules"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:537
+#, no-wrap
+msgid "Modules come from the AppStream repository and contain both streams and profiles. These can be described as follows:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/13-softwares.md:539
+#, no-wrap
+msgid "**module streams:** A module stream can be thought of as a separate repository within the AppStream repository that contains different application versions. These module repositories contain the application RPMs, dependencies, and documentation for that particular stream. An example of a module stream in Rocky Linux 8 would be `postgresql`. If you install `postgresql` using the standard `sudo dnf install postgresql` you will get version 10. However, using modules, you can instead install versions 9.6, 12 or 13.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/13-softwares.md:541
+#, no-wrap
+msgid "**module profiles:** What a module profile does is take into consideration the use case for the module stream when installing the package. Applying a profile adjusts the package RPMs, dependencies and documentation to account for the module's use. Using the same `postgresql` stream in our example, you can apply a profile of either \"server\" or \"client\". Obviously, you do not need the same packages installed on your system if you are just going to use `postgresql` as a client to access a server.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:542
+#, no-wrap
+msgid "Listing modules"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:545
+#, no-wrap
+msgid "You can obtain a list of all modules by executing the following command:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:715
+#: ../src/docs/books/admin_guide/13-softwares.md:546
 #, no-wrap
-msgid "ip route add [default|netaddr] via @IP [dev device]\n"
+msgid "dnf module list\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:551
+#, no-wrap
+msgid "This will give you a long list of the available modules and the profiles that can be used for them. The thing is you probably already know what package you are interested in, so to find out if there are modules for a particular package, add the package name after \"list\". We will use our `postgresql` package example again here:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:721
+#: ../src/docs/books/admin_guide/13-softwares.md:552
 #, no-wrap
-msgid "[root]# ip route add default via 192.168.1.254\n"
-"[root]# ip route add 192.168.100.0/24 via 192.168.2.254 dev eth1\n"
+msgid "dnf module list postgresql\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:557
+#, no-wrap
+msgid "This will give you output that looks like this:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:558
+#: ../src/docs/books/admin_guide/13-softwares.md:691
+#, no-wrap
+msgid "Rocky Linux 8 - AppStream\n"
+"Name                       Stream                 Profiles                           Summary                                            \n"
+"postgresql                 9.6                    client, server [d]                 PostgreSQL server and client module                \n"
+"postgresql                 10 [d]                 client, server [d]                 PostgreSQL server and client module                \n"
+"postgresql                 12                     client, server [d]                 PostgreSQL server and client module                \n"
+"postgresql                 13                     client, server [d]                 PostgreSQL server and client module\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:568
+#, no-wrap
+msgid "Notice in the listing the \"[d]\". This means that this is the default. It shows that the default version is 10 and that regardless of which version you choose, if you do not specify a profile, then the server profile will be the profile used, as it is the default as well.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:569
+#, no-wrap
+msgid "Enabling Modules"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:572
+#, no-wrap
+msgid "Using our example `postgresql` package, let's say that we want to enable version 12. To do this, you simply use the following:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:573
+#, no-wrap
+msgid "dnf module enable postgresql:12\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:578
+#, no-wrap
+msgid "Here the enable command requires the module name followed by a \":\" and the stream name.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:580
+#, no-wrap
+msgid "To verify that you have enabled `postgresql` module stream version 12, use your list command again which should show you the following output:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:581
+#, no-wrap
+msgid "Rocky Linux 8 - AppStream\n"
+"Name                       Stream                 Profiles                           Summary                                            \n"
+"postgresql                 9.6                    client, server [d]                 PostgreSQL server and client module                \n"
+"postgresql                 10 [d]                 client, server [d]                 PostgreSQL server and client module                \n"
+"postgresql                 12 [e]                 client, server [d]                 PostgreSQL server and client module                \n"
+"postgresql                 13                     client, server [d]                 PostgreSQL server and client module\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:591
+#, no-wrap
+msgid "Here we can see the \"[e]\" for \"enabled\" next to stream 12, so we know that version 12 is enabled.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:592
+#, no-wrap
+msgid "Installing packages from the module stream"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:595
+#, no-wrap
+msgid "Now that our module stream is enabled, the next step is to install `postgresql`, the client application for the postgresql server. This can be achieved by running the following command:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:596
+#, no-wrap
+msgid "dnf install postgresql\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:601
+#: ../src/docs/books/admin_guide/13-softwares.md:630
+#, no-wrap
+msgid "Which should give you this output:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:602
+#, no-wrap
+msgid "========================================================================================================================================\n"
+" Package                    Architecture           Version                                              Repository                 Size\n"
+"========================================================================================================================================\n"
+"Installing group/module packages:\n"
+" postgresql                 x86_64                 12.12-1.module+el8.6.0+1049+f8fc4c36                 appstream                 1.5 M\n"
+"Installing dependencies:\n"
+" libpq                      x86_64                 13.5-1.el8                                           appstream                 197 k\n\n"
+"Transaction Summary\n"
+"========================================================================================================================================\n"
+"Install  2 Packages\n"
+"Total download size: 1.7 M\n"
+"Installed size: 6.1 M\n"
+"Is this ok [y/N]:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:620
+#, no-wrap
+msgid "After approving by typing \"y\" you installed the application.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:621
+#, no-wrap
+msgid "Installing packages from module stream profiles"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:624
+#, no-wrap
+msgid "It's also possible to directly install packages without even having to enable the module stream! In this example, let's assume that we only want the client profile applied to our installation. To do this, we simply enter this command:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:625
+#, no-wrap
+msgid "dnf install postgresql:12/client\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:631
+#, no-wrap
+msgid "========================================================================================================================================\n"
+" Package                    Architecture           Version                                              Repository                 Size\n"
+"========================================================================================================================================\n"
+"Installing group/module packages:\n"
+" postgresql                 x86_64                 12.12-1.module+el8.6.0+1049+f8fc4c36                 appstream                 1.5 M\n"
+"Installing dependencies:\n"
+" libpq                      x86_64                 13.5-1.el8                                           appstream                 197 k\n"
+"Installing module profiles:\n"
+" postgresql/client\n"
+"Enabling module streams:\n"
+" postgresql                                        12\n\n"
+"Transaction Summary\n"
+"========================================================================================================================================\n"
+"Install  2 Packages\n\n"
+"Total download size: 1.7 M\n"
+"Installed size: 6.1 M\n"
+"Is this ok [y/N]:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:654
+#, no-wrap
+msgid "Answering \"y\" to the prompt will install everything you need to use postgresql version 12 as a client.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:655
+#, no-wrap
+msgid "Module Removal and Reset or Switch-To"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:658
+#, no-wrap
+msgid "After you install, you may decide that for whatever reason, you need a different version of the stream. The first step is to remove your packages. Using our example `postgresql` package again, we would do this with:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:659
+#, no-wrap
+msgid "dnf remove postgresql\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:664
+#, no-wrap
+msgid "This will display similar output as the install procedure above, except it will be removing the package and all of its dependencies. Answer \"y\" to the prompt and hit enter to uninstall `postgresql`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:666
+#, no-wrap
+msgid "Once this step is complete, you can issue the reset command for the module using:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:667
+#, no-wrap
+msgid "dnf module reset postgresql\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:672
+#, no-wrap
+msgid "Which will give you output like this:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:673
+#, no-wrap
+msgid "Dependencies resolved.\n"
+"========================================================================================================================================\n"
+" Package                         Architecture                   Version                           Repository                       Size\n"
+"========================================================================================================================================\n"
+"Disabling module profiles:\n"
+" postgresql/client                                                                                                                     \n"
+"Resetting modules:\n"
+" postgresql                                                                                                                            \n\n"
+"Transaction Summary\n"
+"========================================================================================================================================\n\n"
+"Is this ok [y/N]:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:690
+#, no-wrap
+msgid "Answering \"y\" to the prompt will then reset `postgresql` back to the default stream with the stream that we had enabled (12 in our example) no longer enabled:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:701
+#, no-wrap
+msgid "Now you can use the default.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:703
+#, no-wrap
+msgid "You can also use the switch-to sub-command to switch from one enabled stream to another. Using this method not only switches to the new stream, but installs the needed packages (either downgrade or upgrade) without a separate step. To use this method to enable `postgresql` stream version 13 and use the \"client\" profile, you would use:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:704
+#, no-wrap
+msgid "dnf module switch-to postgresql:13/client\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:708
+#, no-wrap
+msgid "Disable a module stream"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:711
+#, no-wrap
+msgid "There may be times when you wish to disable the ability to install packages from a module stream. In the case of our `postgresql` example, this could be because you want to use the repository directly from [PostgreSQL](https://www.postgresql.org/download/linux/redhat/) so that you could use a newer version (at the time of this writing, versions 14 and 15 are available from this repository). Disabling a module stream, makes installing any of those packages impossible without first enabling them again.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:713
+#, no-wrap
+msgid "To disable the module streams for `postgresql` simply do:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:714
+#, no-wrap
+msgid "dnf module disable postgresql\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:719
+#, no-wrap
+msgid "And if you list out the `postgresql` modules again, you will see the following showing all `postgresql` module versions disabled:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:720
+#, no-wrap
+msgid "Rocky Linux 8 - AppStream\n"
+"Name                       Stream                   Profiles                          Summary                                           \n"
+"postgresql                 9.6 [x]                  client, server [d]                PostgreSQL server and client module               \n"
+"postgresql                 10 [d][x]                client, server [d]                PostgreSQL server and client module               \n"
+"postgresql                 12 [x]                   client, server [d]                PostgreSQL server and client module               \n"
+"postgresql                 13 [x]                   client, server [d]                PostgreSQL server and client module\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/books/admin_guide/12-network.md:726
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:753
+#: ../src/docs/books/admin_guide/13-softwares.md:729
 #, no-wrap
-msgid "In summary"
+msgid "The EPEL repository"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:731
+#, no-wrap
+msgid "What is EPEL and how is it used?"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:729
+#: ../src/docs/books/admin_guide/13-softwares.md:734
 #, no-wrap
-msgid "The files used in this chapter are:\n"
+msgid "**EPEL** (**E**xtra **P**ackages for **E**nterprise **L**inux) is an open-source and free community-based repository maintained by the [EPEL Fedora Special Interest Group](https://docs.fedoraproject.org/en-US/epel/) that provides a set of additional packages for RHEL (and CentOS, Rocky Linux, and others) from the Fedora sources.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:731
+#: ../src/docs/books/admin_guide/13-softwares.md:736
 #, no-wrap
-msgid "![Synthesis of the files implemented in the network part](images/network-003.png)\n"
+msgid "It provides packages that are not included in the official RHEL repositories. These are not included because they are not considered necessary in an enterprise environment or deemed outside the scope of RHEL. We must not forget that RHEL is an enterprise class distribution, and desktop utilities or other specialized software may not be a priority for an enterprise project.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:737
+#: ../src/docs/books/lxd_server/30-appendix_a.md:23
+#: ../src/docs/books/nvchad/nerd_fonts.md:28 ../src/docs/gemstones/rpaste.md:15
+#: ../src/docs/guides/file_sharing/glusterfs.md:89
+#: ../src/docs/guides/file_sharing/sftp.md:75
+#: ../src/docs/guides/security/dnf_automatic.md:26
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:29
+#: ../src/docs/guides/web/php.md:85 ../src/docs/guides/web/php.md:152
+#, no-wrap
+msgid "Installation"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:733
+#: ../src/docs/books/admin_guide/13-softwares.md:740
 #, no-wrap
-msgid "A complete interface configuration could be this (file `/etc/sysconfig/network-scripts/ifcfg-eth0`):\n"
+msgid "Installation of the necessary files can be easily done with the package provided by default from Rocky Linux.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:742
+#, no-wrap
+msgid "If you are behind an internet proxy:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:743
+#, no-wrap
+msgid "export http_proxy=http://172.16.1.10:8080\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:748
+#, no-wrap
+msgid "Then:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/books/admin_guide/12-network.md:734
+#: ../src/docs/books/admin_guide/13-softwares.md:749
+#: ../src/docs/books/lxd_server/01-install.md:20
+#: ../src/docs/books/nvchad/install_nvim.md:46
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:49
+#: ../src/docs/guides/containers/lxd_web_servers.md:67
+#: ../src/docs/guides/containers/lxd_web_servers.md:624
+#: ../src/docs/guides/containers/lxd_web_servers.md:857
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:53
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:43
 #, no-wrap
-msgid " DEVICE=eth0\n"
-" ONBOOT=yes\n"
-" BOOTPROTO=none\n"
-" HWADDR=00:0c:29:96:32:e3\n"
-" IPADDR=192.168.1.10\n"
-" NETMASK=255.255.255.0\n"
-" GATEWAY=192.168.1.254\n"
-" DNS1=172.16.1.1\n"
-" DNS2=172.16.1.2\n"
-" DOMAIN=rockylinux.lan\n"
+msgid "dnf install epel-release\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:748
+#: ../src/docs/books/admin_guide/13-softwares.md:754
 #, no-wrap
-msgid "The troubleshooting method should go from closest to farthest:\n"
+msgid "Once installed you can check that the package has been installed correctly with the command `dnf info`.\n"
 msgstr ""
 
-#. type: Bullet: '1. '
-#: ../src/docs/books/admin_guide/12-network.md:754
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:755
 #, no-wrap
-msgid "ping localhost (software test)\n"
-msgstr ""
-
-#. type: Bullet: '2. '
-#: ../src/docs/books/admin_guide/12-network.md:754
-#, no-wrap
-msgid "ping IP-address (hardware test)\n"
-msgstr ""
-
-#. type: Bullet: '3. '
-#: ../src/docs/books/admin_guide/12-network.md:754
-#, no-wrap
-msgid "ping gateway (connectivity test)\n"
-msgstr ""
-
-#. type: Bullet: '4. '
-#: ../src/docs/books/admin_guide/12-network.md:754
-#, no-wrap
-msgid "ping remote server (routing test)\n"
-msgstr ""
-
-#. type: Bullet: '5. '
-#: ../src/docs/books/admin_guide/12-network.md:754
-#, no-wrap
-msgid "DNS query (dig or ping)\n"
+msgid "dnf info epel-release\n"
+"Last metadata expiration check: 1:30:29 ago on Thu 24 Mar 2022 09:36:42 AM CET.\n"
+"Installed Packages\n"
+"Name         : epel-release\n"
+"Version      : 8\n"
+"Release      : 14.el8\n"
+"Architecture : noarch\n"
+"Size         : 32 k\n"
+"Source       : epel-release-8-14.el8.src.rpm\n"
+"Repository   : @System\n"
+"From repo    : epel\n"
+"Summary      : Extra Packages for Enterprise Linux repository configuration\n"
+"URL          : http://download.fedoraproject.org/pub/epel\n"
+"License      : GPLv2\n"
+"Description  : This package contains the Extra Packages for Enterprise Linux\n"
+"             : (EPEL) repository GPG key as well as configuration for yum.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/12-network.md:755
+#: ../src/docs/books/admin_guide/13-softwares.md:775
 #, no-wrap
-msgid "![Method of troubleshooting or network validation](images/network-004.png)\n"
+msgid "The package, as you can see from the package description above, does not contain executables, libraries, etc... but only the configuration files and GPG keys for setting up the repository.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:777
+#, no-wrap
+msgid "Another way to verify the correct installation is to query the rpm database.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:778
+#, no-wrap
+msgid "rpm -qa | grep epel\n"
+"epel-release-8-14.el8.noarch\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:784
+#, no-wrap
+msgid "Now you need to run an update to let `dnf` recognize the repository. You will be asked to accept the GPG keys of the repositories. Clearly, you have to answer YES in order to use them.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:785
+#: ../src/docs/guides/containers/lxd_web_servers.md:73
+#: ../src/docs/guides/containers/lxd_web_servers.md:851
+#: ../src/docs/guides/containers/podman-nextcloud.md:51
+#, no-wrap
+msgid "dnf update\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:790
+#, no-wrap
+msgid "Once the update is complete you can check that the repository has been configured correctly with the `dnf repolist` command which should now list the new repositories.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:791
+#, no-wrap
+msgid "dnf repolist\n"
+"repo id            repo name\n"
+"...\n"
+"epel               Extra Packages for Enterprise Linux 8 - aarch64\n"
+"epel-modular       Extra Packages for Enterprise Linux Modular 8 - aarch64\n"
+"...\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:801
+#, no-wrap
+msgid "The repository configuration files are located in `/etc/yum.repos.d/`.\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:802
+#, no-wrap
+msgid "ll /etc/yum.repos.d/ | grep epel\n"
+"-rw-r--r--. 1 root root 1485 Jan 31 17:19 epel-modular.repo\n"
+"-rw-r--r--. 1 root root 1422 Jan 31 17:19 epel.repo\n"
+"-rw-r--r--. 1 root root 1584 Jan 31 17:19 epel-testing-modular.repo\n"
+"-rw-r--r--. 1 root root 1521 Jan 31 17:19 epel-testing.repo\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:811
+#, no-wrap
+msgid "And below we can see the contents of the file `epel.repo`.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:812
+#, no-wrap
+msgid "[epel]\n"
+"name=Extra Packages for Enterprise Linux $releasever - $basearch\n"
+"# It is much more secure to use the metalink, but if you wish to use a local mirror\n"
+"# place its address here.\n"
+"#baseurl=https://download.example/pub/epel/$releasever/Everything/$basearch\n"
+"metalink=https://mirrors.fedoraproject.org/metalink?repo=epel-$releasever&arch=$basearch&infra=$infra&content=$contentdir\n"
+"enabled=1\n"
+"gpgcheck=1\n"
+"countme=1\n"
+"gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-8\n\n"
+"[epel-debuginfo]\n"
+"name=Extra Packages for Enterprise Linux $releasever - $basearch - Debug\n"
+"# It is much more secure to use the metalink, but if you wish to use a local mirror\n"
+"# place its address here.\n"
+"#baseurl=https://download.example/pub/epel/$releasever/Everything/$basearch/debug\n"
+"metalink=https://mirrors.fedoraproject.org/metalink?repo=epel-debug-$releasever&arch=$basearch&infra=$infra&content=$contentdir\n"
+"enabled=0\n"
+"gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-8\n"
+"gpgcheck=1\n\n"
+"[epel-source]\n"
+"name=Extra Packages for Enterprise Linux $releasever - $basearch - Source\n"
+"# It is much more secure to use the metalink, but if you wish to use a local mirror\n"
+"# place it's address here.\n"
+"#baseurl=https://download.example/pub/epel/$releasever/Everything/source/tree/\n"
+"metalink=https://mirrors.fedoraproject.org/metalink?repo=epel-source-$releasever&arch=$basearch&infra=$infra&content=$contentdir\n"
+"enabled=0\n"
+"gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-8\n"
+"gpgcheck=1\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:845
+#, no-wrap
+msgid "Using EPEL"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:848
+#, no-wrap
+msgid "At this point, once configured, we are ready to install the packages from EPEL. To start, we can list the packages available in the repository with the command:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:849
+#, no-wrap
+msgid "dnf --disablerepo=\"*\" --enablerepo=\"epel\" list available\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:854
+#, no-wrap
+msgid "And an excerpt of the command\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:855
+#, no-wrap
+msgid "dnf --disablerepo=\"*\" --enablerepo=\"epel\" list available | less\n"
+"Last metadata expiration check: 1:58:22 ago on Fri 25 Mar 2022 09:23:29 AM CET.\n"
+"Available Packages\n"
+"3proxy.aarch64                                                    0.8.13-1.el8                                    epel\n"
+"AMF-devel.noarch                                                  1.4.23-2.el8                                    epel\n"
+"AMF-samples.noarch                                                1.4.23-2.el8                                    epel\n"
+"AusweisApp2.aarch64                                               1.22.3-1.el8                                    epel\n"
+"AusweisApp2-data.noarch                                           1.22.3-1.el8                                    epel\n"
+"AusweisApp2-doc.noarch                                            1.22.3-1.el8                                    epel\n"
+"BackupPC.aarch64                                                  4.4.0-1.el8                                     epel\n"
+"BackupPC-XS.aarch64                                               0.62-1.el8                                      epel\n"
+"BibTool.aarch64                                                   2.68-1.el8                                      epel\n"
+"CCfits.aarch64                                                    2.5-14.el8                                      epel\n"
+"CCfits-devel.aarch64                                              2.5-14.el8                                      epel\n"
+"...\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:874
+#, no-wrap
+msgid "From the command we can see that to install from EPEL we must force **dnf** to query the requested repository with the options `--disablerepo` and `--enablerepo`, this is because otherwise a match found in other optional repositories (RPM Fusion, REMI, ELRepo, etc.) could be newer and therefore have priority. These options are not necessary if you have only installed EPEL as an optional repository because the packages in the repository will never be available in the official ones. At least in the same version!\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:876
+#, no-wrap
+msgid "!!! attention \"Support consideration\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:878
+#, no-wrap
+msgid "    One aspect to consider regarding support (updates, bug fixes, security patches) is that EPEL packages have no official support from RHEL and technically their life could last the space of a development of Fedora (six months) and then disappear. This is a remote possibility but one to consider.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:880
+#, no-wrap
+msgid "So, to install a package from the EPEL repositories you would use:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/admin_guide/13-softwares.md:881
+#, no-wrap
+msgid "dnf --disablerepo=\"*\" --enablerepo=\"epel\" install nmon\n"
+"Last metadata expiration check: 2:01:36 ago on Fri 25 Mar 2022 04:28:04 PM CET.\n"
+"Dependencies resolved.\n"
+"==============================================================================================================================================================\n"
+" Package                            Architecture                          Version                                    Repository                          Size\n"
+"==============================================================================================================================================================\n"
+"Installing:\n"
+" nmon                               aarch64                               16m-1.el8                                  epel                                71 k\n\n"
+"Transaction Summary\n"
+"==============================================================================================================================================================\n"
+"Install  1 Package\n\n"
+"Total download size: 71 k\n"
+"Installed size: 214 k\n"
+"Is this ok [y/N]:\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/13-softwares.md:900
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:105
+#: ../src/docs/books/nvchad/template_chadrc.md:352
+#: ../src/docs/gemstones/bash_stub.md:103
+#: ../src/docs/gemstones/perl_search_replace.md:38
+#: ../src/docs/gemstones/sed_search_replace.md:72
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:172
+#: ../src/docs/guides/automation/olivetin.md:142
+#: ../src/docs/guides/cms/dokuwiki_server.md:306
+#: ../src/docs/guides/communications/asterisk_installation.md:261
+#: ../src/docs/guides/containers/lxd_web_servers.md:919
+#: ../src/docs/guides/containers/podman-nextcloud.md:456
+#: ../src/docs/guides/contribute/local_docs.md:47
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:322
+#: ../src/docs/guides/contribute/navigation.md:129
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:458
+#: ../src/docs/guides/database/database_mariadb-server.md:197
+#: ../src/docs/guides/desktop/kde_installation.md:105
+#: ../src/docs/guides/desktop/mate_installation.md:200
+#: ../src/docs/guides/desktop/xfce_installation.md:218
+#: ../src/docs/guides/editors/micro.md:79
+#: ../src/docs/guides/email/postfix_reporting.md:254
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:270
+#: ../src/docs/guides/file_sharing/sftp.md:765
+#: ../src/docs/guides/proxies/pound.md:460
+#: ../src/docs/guides/security/dnf_automatic.md:119
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:54
+#: ../src/docs/guides/security/firewalld-beginners.md:427
+#: ../src/docs/guides/security/firewalld.md:477
+#: ../src/docs/guides/security/pam.md:137
+#: ../src/docs/guides/security/ssl_keys_https.md:136
+#: ../src/docs/guides/virtualization/vbox-rocky.md:160
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:147
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:235
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:157
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:91
+#: ../src/docs/guides/web/mod_SSL_apache.md:171
+#: ../src/docs/guides/web/nginx-mainline.md:352
+#: ../src/docs/guides/web/nginx-multisite.md:359
+#, no-wrap
+msgid "Conclusion"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:903
+#, no-wrap
+msgid "EPEL is not an official repository for RHEL, but it can be useful for administrators and developers who work with RHEL or derivatives and need some utilities prepared for RHEL from a source they can feel confident about.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/13-softwares.md:904
+#, no-wrap
+msgid "DNF Plugins"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:907
+#, no-wrap
+msgid "The `dnf-plugins-core` package adds plugins to `dnf` that will be useful for managing your repositories.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:909
+#: ../src/docs/books/learning_bash/00-toc.md:43
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:125
+#: ../src/docs/books/learning_bash/05-tests.md:117
+#: ../src/docs/books/learning_bash/05-tests.md:160
+#: ../src/docs/guides/security/pam.md:325
+#: ../src/docs/labs/security/lab9-cryptography.md:125
+#: ../src/docs/labs/security/lab9-cryptography.md:322
+#: ../src/docs/labs/security/lab9-cryptography.md:516
+#, no-wrap
+msgid "!!! NOTE\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:911
+#, no-wrap
+msgid "    See more informations here: https://dnf-plugins-core.readthedocs.io/en/latest/index.html\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:913
+#, no-wrap
+msgid "Install the package on your system:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:914
+#, no-wrap
+msgid "dnf install dnf-plugins-core\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:919
+#, no-wrap
+msgid "Not all plugins will be presented here but you can refer to the package documentation for a complete list of plugins and detailed information.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:920
+#, no-wrap
+msgid "`config-manager` plugin"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:923
+#, no-wrap
+msgid "Manage DNF options, add repos, or disable them.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/13-softwares.md:927
+#, no-wrap
+msgid "Download a `.repo` file and use it:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:928
+#, no-wrap
+msgid "dnf config-manager --add-repo https://packages.centreon.com/ui/native/rpm-standard/23.04/el8/centreon-23.04.repo\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/13-softwares.md:933
+#, no-wrap
+msgid "You can also set an url as a base url for a repo:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:934
+#, no-wrap
+msgid "dnf config-manager --add-repo https://repo.rocky.lan/repo\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/13-softwares.md:939
+#, no-wrap
+msgid "Enable or disable one or more repos:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:940
+#, no-wrap
+msgid "dnf config-manager --set-enabled epel centreon\n"
+"dnf config-manager --set-disabled epel centreon\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/13-softwares.md:946
+#, no-wrap
+msgid "Add a proxy to your config file:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:947
+#, no-wrap
+msgid "dnf config-manager --save --setopt=*.proxy=http://proxy.rocky.lan:3128/\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:951
+#, no-wrap
+msgid "`copr` plugin"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:954
+#, no-wrap
+msgid "`copr` is an automatic rpm forge, providing a repo with built packages.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/13-softwares.md:956
+#, no-wrap
+msgid "Activate a copr repo:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:957
+#, no-wrap
+msgid "copr enable xxxx\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:961
+#, no-wrap
+msgid "`download` plugin"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:964
+#, no-wrap
+msgid "Download rpm package instead of installing it:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:965
+#, no-wrap
+msgid "dnf download ansible\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:970
+#, no-wrap
+msgid "If you just want to obtain the remote location url of the package:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:971
+#, no-wrap
+msgid "dnf download --url ansible\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:976
+#, no-wrap
+msgid "Or if you want to also download the dependencies:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:977
+#, no-wrap
+msgid "dnf download --resolv --alldeps ansible\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:981
+#, no-wrap
+msgid "`needs-restarting` plugin"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:984
+#, no-wrap
+msgid "After running a `dnf update`, the running processes will continue to run but with the old binaries. In order to take into account the code changes and especially the security updates, they have to be restarted.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:986
+#, no-wrap
+msgid "The `needs-restarting` plugin will allow you to detect processes that are in this case.\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:987
+#, no-wrap
+msgid "dnf needs-restarting [-u] [-r] [-s]\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:997
+#, no-wrap
+msgid "| Options | Description                                                                  |\n"
+"| --------| --------------------------------------------------------------------------- |\n"
+"| `-u`     | Only consider processes belonging to the running user.                       |\n"
+"| `-r`     |  to check if a reboot may be required. |\n"
+"| `-s`     | to check if services need restarting.                                  |\n"
+"| `-s -r` | to do both in one run.                                                       |\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:998
+#, no-wrap
+msgid "`versionlock` plugin"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:1001
+#, no-wrap
+msgid "Sometimes it is useful to protect packages from all updates or to exclude certain versions of a package (because of known problems for example). For this purpose, the versionlock plugin will be of great help. \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/13-softwares.md:1003
+#, no-wrap
+msgid "You need to install an extra package:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:1004
+#, no-wrap
+msgid "dnf install python3-dnf-plugin-versionlock\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/13-softwares.md:1011
+#, no-wrap
+msgid "Lock the ansible version:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:1012
+#, no-wrap
+msgid "dnf versionlock add ansible\n"
+"Adding versionlock on: ansible-0:6.3.0-2.el9.*\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/admin_guide/13-softwares.md:1018
+#, no-wrap
+msgid "List locked packages:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/books/admin_guide/13-softwares.md:1019
+#, no-wrap
+msgid "dnf versionlock list\n"
+"ansible-0:6.3.0-2.el9.*\n"
 msgstr ""
 
