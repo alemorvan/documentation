@@ -13,8 +13,23 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: it\n"
-"X-Crowdin-File: /po4a/po4a/_po/web_nginx-multisite.pot\n"
-"X-Crowdin-File-ID: 1559\n"
+"X-Crowdin-File: /po4a/po4a/_po/web_php.pot\n"
+"X-Crowdin-File-ID: 1561\n"
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/01-presentation.md:229
+#: ../src/docs/books/admin_guide/11-tasks.md:26
+#: ../src/docs/books/admin_guide/12-network.md:28
+#: ../src/docs/books/admin_guide/03-commands.md:28
+#: ../src/docs/books/admin_guide/08-process.md:26
+#: ../src/docs/books/admin_guide/09-backups.md:44
+#: ../src/docs/books/admin_guide/13-softwares.md:14
+#: ../src/docs/books/learning_bash/00-toc.md:16
+#: ../src/docs/guides/security/learning_selinux.md:20
+#: ../src/docs/guides/security/pam.md:30 ../src/docs/guides/web/php.md:18
+#, no-wrap
+msgid "Generalities"
+msgstr ""
 
 #. type: Plain text
 #: ../src/docs/books/admin_guide/04-advanced-commands.md:43
@@ -172,48 +187,186 @@ msgstr ""
 msgid "!!! Note\n"
 msgstr ""
 
-#. type: Title ##
-#: ../src/docs/books/admin_guide/13-softwares.md:900
-#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:105
-#: ../src/docs/books/nvchad/template_chadrc.md:352
-#: ../src/docs/gemstones/bash_stub.md:103
-#: ../src/docs/gemstones/perl_search_replace.md:38
-#: ../src/docs/gemstones/sed_search_replace.md:72
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:172
-#: ../src/docs/guides/automation/olivetin.md:142
-#: ../src/docs/guides/cms/dokuwiki_server.md:306
-#: ../src/docs/guides/communications/asterisk_installation.md:261
-#: ../src/docs/guides/containers/lxd_web_servers.md:919
-#: ../src/docs/guides/containers/podman-nextcloud.md:456
-#: ../src/docs/guides/contribute/local_docs.md:47
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:322
-#: ../src/docs/guides/contribute/navigation.md:129
-#: ../src/docs/guides/contribute/rockydocs_formatting.md:458
-#: ../src/docs/guides/database/database_mariadb-server.md:197
-#: ../src/docs/guides/desktop/kde_installation.md:105
-#: ../src/docs/guides/desktop/mate_installation.md:200
-#: ../src/docs/guides/desktop/xfce_installation.md:218
-#: ../src/docs/guides/editors/micro.md:79
-#: ../src/docs/guides/email/postfix_reporting.md:254
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:270
-#: ../src/docs/guides/file_sharing/sftp.md:765
-#: ../src/docs/guides/proxies/pound.md:460
-#: ../src/docs/guides/security/dnf_automatic.md:119
-#: ../src/docs/guides/security/enabling_iptables_firewall.md:54
-#: ../src/docs/guides/security/firewalld-beginners.md:427
-#: ../src/docs/guides/security/firewalld.md:477
-#: ../src/docs/guides/security/pam.md:137
-#: ../src/docs/guides/security/ssl_keys_https.md:136
-#: ../src/docs/guides/virtualization/vbox-rocky.md:160
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:147
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:235
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:157
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:91
-#: ../src/docs/guides/web/mod_SSL_apache.md:171
-#: ../src/docs/guides/web/nginx-mainline.md:352
-#: ../src/docs/guides/web/nginx-multisite.md:359
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:44
+#: ../src/docs/books/admin_guide/05-vi.md:397
+#: ../src/docs/books/admin_guide/05-vi.md:405
+#: ../src/docs/books/admin_guide/05-vi.md:411
+#: ../src/docs/books/admin_guide/05-vi.md:417
+#: ../src/docs/books/admin_guide/05-vi.md:423
+#: ../src/docs/books/admin_guide/06-users.md:75
+#: ../src/docs/books/admin_guide/06-users.md:113
+#: ../src/docs/books/admin_guide/06-users.md:141
+#: ../src/docs/books/admin_guide/06-users.md:279
+#: ../src/docs/books/admin_guide/06-users.md:344
+#: ../src/docs/books/admin_guide/06-users.md:369
+#: ../src/docs/books/admin_guide/06-users.md:392
+#: ../src/docs/books/admin_guide/06-users.md:588
+#: ../src/docs/books/admin_guide/06-users.md:656
+#: ../src/docs/books/admin_guide/06-users.md:671
+#: ../src/docs/books/admin_guide/06-users.md:740
+#: ../src/docs/books/admin_guide/06-users.md:764
+#: ../src/docs/books/admin_guide/06-users.md:782
+#: ../src/docs/books/admin_guide/11-tasks.md:140
+#: ../src/docs/books/admin_guide/12-network.md:47
+#: ../src/docs/books/admin_guide/12-network.md:481
+#: ../src/docs/books/admin_guide/12-network.md:562
+#: ../src/docs/books/admin_guide/12-network.md:583
+#: ../src/docs/books/admin_guide/12-network.md:624
+#: ../src/docs/books/admin_guide/12-network.md:649
+#: ../src/docs/books/admin_guide/12-network.md:666
+#: ../src/docs/books/admin_guide/12-network.md:694
+#: ../src/docs/books/admin_guide/12-network.md:707
+#: ../src/docs/books/admin_guide/12-network.md:720
+#: ../src/docs/books/admin_guide/03-commands.md:126
+#: ../src/docs/books/admin_guide/03-commands.md:162
+#: ../src/docs/books/admin_guide/03-commands.md:470
+#: ../src/docs/books/admin_guide/03-commands.md:619
+#: ../src/docs/books/admin_guide/03-commands.md:641
+#: ../src/docs/books/admin_guide/03-commands.md:661
+#: ../src/docs/books/admin_guide/03-commands.md:778
+#: ../src/docs/books/admin_guide/03-commands.md:826
+#: ../src/docs/books/admin_guide/03-commands.md:842
+#: ../src/docs/books/admin_guide/03-commands.md:962
+#: ../src/docs/books/admin_guide/03-commands.md:985
+#: ../src/docs/books/admin_guide/03-commands.md:1174
+#: ../src/docs/books/admin_guide/03-commands.md:1195
+#: ../src/docs/books/admin_guide/07-file-systems.md:132
+#: ../src/docs/books/admin_guide/07-file-systems.md:237
+#: ../src/docs/books/admin_guide/07-file-systems.md:267
+#: ../src/docs/books/admin_guide/07-file-systems.md:286
+#: ../src/docs/books/admin_guide/07-file-systems.md:313
+#: ../src/docs/books/admin_guide/07-file-systems.md:327
+#: ../src/docs/books/admin_guide/07-file-systems.md:341
+#: ../src/docs/books/admin_guide/07-file-systems.md:379
+#: ../src/docs/books/admin_guide/07-file-systems.md:490
+#: ../src/docs/books/admin_guide/07-file-systems.md:612
+#: ../src/docs/books/admin_guide/07-file-systems.md:639
+#: ../src/docs/books/admin_guide/07-file-systems.md:993
+#: ../src/docs/books/admin_guide/08-process.md:60
+#: ../src/docs/books/admin_guide/08-process.md:198
+#: ../src/docs/books/admin_guide/08-process.md:230
+#: ../src/docs/books/admin_guide/08-process.md:250
+#: ../src/docs/books/admin_guide/08-process.md:287
+#: ../src/docs/books/admin_guide/08-process.md:312
+#: ../src/docs/books/admin_guide/08-process.md:330
+#: ../src/docs/books/admin_guide/09-backups.md:228
+#: ../src/docs/books/admin_guide/09-backups.md:253
+#: ../src/docs/books/admin_guide/09-backups.md:568
+#: ../src/docs/books/admin_guide/09-backups.md:632
+#: ../src/docs/books/admin_guide/09-backups.md:677
+#: ../src/docs/books/admin_guide/09-backups.md:700
+#: ../src/docs/books/admin_guide/09-backups.md:785
+#: ../src/docs/books/admin_guide/09-backups.md:807
+#: ../src/docs/books/admin_guide/09-backups.md:829
+#: ../src/docs/books/admin_guide/09-backups.md:855
+#: ../src/docs/books/admin_guide/10-boot.md:322
+#: ../src/docs/books/admin_guide/13-softwares.md:67
+#: ../src/docs/books/admin_guide/13-softwares.md:79
+#: ../src/docs/books/admin_guide/13-softwares.md:152
+#: ../src/docs/books/admin_guide/13-softwares.md:350
+#: ../src/docs/books/admin_guide/13-softwares.md:505
+#: ../src/docs/books/admin_guide/13-softwares.md:513
+#: ../src/docs/books/learning_ansible/01-basic.md:180
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:92
+#: ../src/docs/books/learning_bash/01-first-script.md:119
+#: ../src/docs/books/learning_bash/02-using-variables.md:128
+#: ../src/docs/books/learning_bash/02-using-variables.md:142
+#: ../src/docs/books/learning_bash/02-using-variables.md:204
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:118
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:216
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:338
+#: ../src/docs/books/learning_bash/05-tests.md:141
+#: ../src/docs/books/learning_bash/05-tests.md:199
+#: ../src/docs/books/learning_bash/05-tests.md:222
+#: ../src/docs/books/learning_bash/05-tests.md:313
+#: ../src/docs/books/learning_bash/05-tests.md:338
+#: ../src/docs/books/learning_bash/05-tests.md:354
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:101
+#: ../src/docs/books/learning_bash/07-loops.md:128
+#: ../src/docs/guides/security/learning_selinux.md:92
+#: ../src/docs/guides/security/learning_selinux.md:147
+#: ../src/docs/guides/security/learning_selinux.md:200
+#: ../src/docs/guides/security/learning_selinux.md:213
+#: ../src/docs/guides/security/learning_selinux.md:305
+#: ../src/docs/guides/security/learning_selinux.md:321
+#: ../src/docs/guides/security/learning_selinux.md:339
+#: ../src/docs/guides/security/learning_selinux.md:360
+#: ../src/docs/guides/security/learning_selinux.md:394
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:154
+#: ../src/docs/guides/web/php.md:255
 #, no-wrap
-msgid "Conclusion"
+msgid "Example:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/05-vi.md:90
+#: ../src/docs/books/admin_guide/06-users.md:239
+#: ../src/docs/books/admin_guide/06-users.md:336
+#: ../src/docs/books/admin_guide/06-users.md:770
+#: ../src/docs/books/admin_guide/11-tasks.md:42
+#: ../src/docs/books/admin_guide/11-tasks.md:81
+#: ../src/docs/books/admin_guide/11-tasks.md:93
+#: ../src/docs/books/admin_guide/11-tasks.md:153
+#: ../src/docs/books/admin_guide/11-tasks.md:203
+#: ../src/docs/books/admin_guide/12-network.md:76
+#: ../src/docs/books/admin_guide/12-network.md:388
+#: ../src/docs/books/admin_guide/12-network.md:637
+#: ../src/docs/books/admin_guide/03-commands.md:329
+#: ../src/docs/books/admin_guide/03-commands.md:1266
+#: ../src/docs/books/admin_guide/03-commands.md:1325
+#: ../src/docs/books/admin_guide/03-commands.md:1480
+#: ../src/docs/books/admin_guide/07-file-systems.md:48
+#: ../src/docs/books/admin_guide/07-file-systems.md:88
+#: ../src/docs/books/admin_guide/07-file-systems.md:389
+#: ../src/docs/books/admin_guide/07-file-systems.md:505
+#: ../src/docs/books/admin_guide/07-file-systems.md:582
+#: ../src/docs/books/admin_guide/07-file-systems.md:903
+#: ../src/docs/books/admin_guide/07-file-systems.md:1015
+#: ../src/docs/books/admin_guide/09-backups.md:175
+#: ../src/docs/books/admin_guide/09-backups.md:200
+#: ../src/docs/books/admin_guide/09-backups.md:264
+#: ../src/docs/books/admin_guide/09-backups.md:461
+#: ../src/docs/books/admin_guide/09-backups.md:488
+#: ../src/docs/books/admin_guide/09-backups.md:620
+#: ../src/docs/books/admin_guide/09-backups.md:714
+#: ../src/docs/books/admin_guide/13-softwares.md:94
+#: ../src/docs/books/learning_ansible/01-basic.md:37
+#: ../src/docs/books/learning_ansible/01-basic.md:288
+#: ../src/docs/books/learning_ansible/01-basic.md:379
+#: ../src/docs/books/learning_ansible/01-basic.md:590
+#: ../src/docs/books/learning_bash/05-tests.md:320
+#: ../src/docs/books/learning_bash/05-tests.md:367
+#: ../src/docs/books/nvchad/plugins/md_preview.md:31
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:137
+#: ../src/docs/guides/8_6_installation.md:191
+#: ../src/docs/guides/8_6_installation.md:207
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:510
+#: ../src/docs/guides/containers/lxd_web_servers.md:242
+#: ../src/docs/guides/installation.md:202
+#: ../src/docs/guides/security/firewalld-beginners.md:283
+#: ../src/docs/guides/security/firewalld-beginners.md:410
+#: ../src/docs/guides/security/firewalld.md:182
+#: ../src/docs/guides/security/firewalld.md:220
+#: ../src/docs/guides/security/learning_selinux.md:158
+#: ../src/docs/guides/security/learning_selinux.md:243
+#: ../src/docs/guides/security/learning_selinux.md:263
+#: ../src/docs/guides/web/php.md:145
+#, no-wrap
+msgid "!!! Warning\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/admin_guide/13-softwares.md:737
+#: ../src/docs/books/lxd_server/30-appendix_a.md:23
+#: ../src/docs/books/nvchad/nerd_fonts.md:28 ../src/docs/gemstones/rpaste.md:15
+#: ../src/docs/guides/file_sharing/glusterfs.md:89
+#: ../src/docs/guides/file_sharing/sftp.md:75
+#: ../src/docs/guides/security/dnf_automatic.md:26
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:29
+#: ../src/docs/guides/web/php.md:85 ../src/docs/guides/web/php.md:152
+#, no-wrap
+msgid "Installation"
 msgstr ""
 
 #. type: YAML Front Matter: contributors
@@ -276,68 +429,15 @@ msgstr ""
 msgid "Steven Spencer"
 msgstr ""
 
-#. type: Title #
-#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
-#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
-#: ../src/docs/books/learning_ansible/05-deployments.md:31
-#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
-#: ../src/docs/books/lxd_server/00-toc.md:1
-#: ../src/docs/books/lxd_server/00-toc.md:13
-#: ../src/docs/books/nvchad/index.md:12
-#: ../src/docs/books/nvchad/plugins/index.md:14
-#: ../src/docs/books/nvchad/plugins/md_preview.md:14
-#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
-#: ../src/docs/books/nvchad/vale_nvchad.md:12
-#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
-#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
-#: ../src/docs/gemstones/string_color.md:11
-#: ../src/docs/guides/automation/cron_jobs_howto.md:25
-#: ../src/docs/guides/automation/olivetin.md:14
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
-#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
-#: ../src/docs/guides/backup/rsnapshot_backup.md:22
-#: ../src/docs/guides/backup/rsync_ssh.md:24
-#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
-#: ../src/docs/guides/cms/dokuwiki_server.md:23
-#: ../src/docs/guides/containers/lxd_web_servers.md:10
-#: ../src/docs/guides/containers/podman-nextcloud.md:13
-#: ../src/docs/guides/contribute/local_docs.md:11
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
-#: ../src/docs/guides/contribute/mkdocs_venv.md:14
-#: ../src/docs/guides/contribute/style_guide.md:14
-#: ../src/docs/guides/database/database_mariadb-server.md:21
-#: ../src/docs/guides/desktop/kde_installation.md:11
-#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
-#: ../src/docs/guides/editors/micro.md:14
-#: ../src/docs/guides/email/postfix_reporting.md:22
-#: ../src/docs/guides/file_sharing/glusterfs.md:16
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
-#: ../src/docs/guides/file_sharing/sftp.md:16
-#: ../src/docs/guides/migrate2rocky.md:18
-#: ../src/docs/guides/network/basic_network_configuration.md:12
-#: ../src/docs/guides/network/librenms_monitoring_server.md:13
-#: ../src/docs/guides/package_management/index.md:1
-#: ../src/docs/guides/package_management/index.md:5
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
-#: ../src/docs/guides/proxies/pound.md:17
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
-#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
-#: ../src/docs/guides/security/firewalld-beginners.md:10
-#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
-#: ../src/docs/guides/security/ssh_public_private_keys.md:21
-#: ../src/docs/guides/security/ssl_keys_https.md:22
-#: ../src/docs/guides/virtualization/vbox-rocky.md:13
-#: ../src/docs/guides/web/apache-sites-enabled.md:25
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
-#: ../src/docs/guides/web/nginx-mainline.md:13
-#: ../src/docs/guides/web/nginx-multisite.md:14
-#: ../src/docs/labs/security/introduction.md:1
-#: ../src/docs/labs/security/introduction.md:5
+#. type: Title ###
+#: ../src/docs/books/nvchad/nerd_fonts.md:52
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:256
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:58
+#: ../src/docs/guides/security/dnf_automatic.md:34
+#: ../src/docs/guides/web/apache-sites-enabled.md:58
+#: ../src/docs/guides/web/php.md:105 ../src/docs/guides/web/php.md:168
 #, no-wrap
-msgid "Introduction"
+msgid "Configuration"
 msgstr ""
 
 #. type: YAML Front Matter: tags
@@ -353,796 +453,907 @@ msgstr ""
 msgid "web"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/backup/rsnapshot_backup.md:129
-#: ../src/docs/guides/web/apache-sites-enabled.md:20
-#: ../src/docs/guides/web/nginx-multisite.md:42
-#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:485
-#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:718
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/web/php.md:1
 #, no-wrap
-msgid "    !!! tip\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/containers/podman-nextcloud.md:35
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:19
-#: ../src/docs/guides/dns/private_dns_server_using_bind.md:13
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:19
-#: ../src/docs/guides/proxies/pound.md:27
-#: ../src/docs/guides/security/firewalld-beginners.md:36
-#: ../src/docs/guides/security/firewalld.md:25
-#: ../src/docs/guides/security/pam.md:13
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:14
-#: ../src/docs/guides/web/nginx-mainline.md:41
-#: ../src/docs/guides/web/nginx-multisite.md:28
-#, no-wrap
-msgid "Prerequisites and Assumptions"
+msgid "php"
 msgstr ""
 
 #. type: YAML Front Matter: tags
-#: ../src/docs/guides/file_sharing/sftp.md:1
-#: ../src/docs/guides/web/nginx-multisite.md:1
+#: ../src/docs/guides/web/php.md:1
 #, no-wrap
-msgid "multisite"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/proxies/pound.md:178
-#: ../src/docs/guides/web/nginx-multisite.md:222
-#: ../src/docs/guides/web/nginx-multisite.md:285
-#, no-wrap
-msgid "systemctl restart nginx\n"
-msgstr ""
-
-#. type: YAML Front Matter: tags
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
-#: ../src/docs/guides/web/nginx-mainline.md:1
-#: ../src/docs/guides/web/nginx-multisite.md:1
-#, no-wrap
-msgid "nginx"
-msgstr ""
-
-#. type: YAML Front Matter: title
-#: ../src/docs/guides/web/nginx-multisite.md:1
-#, no-wrap
-msgid "Nginx Multisite"
+msgid "php-fpm"
 msgstr ""
 
 #. type: Title #
-#: ../src/docs/guides/web/nginx-multisite.md:12
+#: ../src/docs/guides/web/php.md:1 ../src/docs/guides/web/php.md:12
 #, no-wrap
-msgid "How to Set up Nginx for Multiple Websites on Rocky Linux"
+msgid "PHP and PHP-FPM"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:17
+#: ../src/docs/guides/web/php.md:15
 #, no-wrap
-msgid "Here it is, my promised guide to Nginx multisite setups on Rocky Linux. I'm going to start off with a note for beginners; the rest of you know what you're here for, so scroll on down.\n"
+msgid "**PHP** (**P**HP **H**ypertext **P**reprocessor) is a source scripting language, specially designed for web application development. In 2021, PHP represented a little less than 80% of the web pages generated in the world. PHP is open-source and is the core of the most famous CMS (WordPress, Drupal, Joomla!, Magento, ...).\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:19
+#: ../src/docs/guides/web/php.md:17
 #, no-wrap
-msgid "Hi Newbies! One of the things that Nginx does *very* well is direct traffic from one central point to multiple websites and apps on one server, or on several other servers. This feature is called a \"reverse proxy\", and the relative ease with which Nginx does this is one of the reasons I started using it.\n"
+msgid "**PHP-FPM** (**F**astCGI **P**rocess **M**anager) is integrated to PHP since its version 5.3.3. The FastCGI version of php brings additional functionalities.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:21
+#: ../src/docs/guides/web/php.md:21
 #, no-wrap
-msgid "Here I'll be showing you how to manage multiple websites on a single Nginx installation, and how to do it in a simple and organized way that will let you make changes quickly and easily.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:23
-#, no-wrap
-msgid "For those looking for a similar setup for Apache, take a [look at this guide.](apache-sites-enabled.md)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:25
-#, no-wrap
-msgid "I'll be explaining a *lot* of details... but in the end, the whole process basically involves setting up some folders, and making some small text files. We won't be using overly-complicated website configurations for this guide, so relax with a coffee and have some fun. Once you know how to do it, it'll only take minutes to do every time. This one's easy.\\*\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:27
-#, no-wrap
-msgid "\\* For given values of \"easy\".\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:31
-#, no-wrap
-msgid "This is everything you'll need:\n"
+msgid "**CGI** (**C**ommon **G**ateway **I**nterface) and **FastCGI** allow communication between the web server (Apache, Nginx, ...) and a development language (Php, Python, Java):\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/guides/web/nginx-multisite.md:34
+#: ../src/docs/guides/web/php.md:24
 #, no-wrap
-msgid "A Rocky Linux server connected to the internet, with Nginx already running on it. If you haven't gotten that far, you can follow [our guide to installing Nginx](nginx-mainline.md) first.\n"
+msgid "In the case of **CGI**, each request leads to the creation of a **new process**, which is less efficient in terms of performance.\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/guides/web/nginx-multisite.md:34
+#: ../src/docs/guides/web/php.md:24
 #, no-wrap
-msgid "Some comfort with doing things on the command line, and a terminal-based text editor like `nano` installed.\n"
+msgid "**FastCGI** relies on a **certain number of processes** for the treatment of its client requests.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:36
+#: ../src/docs/guides/web/php.md:26
 #, no-wrap
-msgid "    !!! tip \"In a pinch\"\n"
+msgid "PHP-FPM, **in addition to better performances**, brings:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/php.md:31
+#, no-wrap
+msgid "The possibility of better **partitioning the applications**: launching processes with different uid/gid, with personalized php.ini files,\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/php.md:31
+#, no-wrap
+msgid "The management of the statistics,\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/php.md:31
+#, no-wrap
+msgid "Log management,\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/php.md:31
+#, no-wrap
+msgid "Dynamic management of processes and restart without service interruption ('graceful').\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:38
+#: ../src/docs/guides/web/php.md:35
 #, no-wrap
-msgid "        ... you could use something like Filezilla or WinSCP — and a regular GUI-based text editor — to replicate most of these steps, but we'll be doing things the nerdy way in this tutorial.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/nginx-multisite.md:40
-#, no-wrap
-msgid "At least one domain pointed at your server for one of the test websites. You can use either a second domain or a subdomain for the other.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:44
-#, no-wrap
-msgid "        If you're doing all of this on a local server, adjust your hosts file as necessary to create simulated domain names. Instructions below.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/nginx-multisite.md:47
-#, no-wrap
-msgid "We are assuming that you're running Nginx on a bare metal server or regular VPS, and that SELinux is running. All instructions will be compatible with SELinux by default.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/nginx-multisite.md:47
-#, no-wrap
-msgid "*All commands must be run as root,* either by logging in as the root user, or using `sudo`.\n"
+msgid "    Since Apache has a php module, the use of php-fpm is more commonly used on an Nginx server.\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/web/nginx-multisite.md:48
+#: ../src/docs/guides/web/php.md:36
 #, no-wrap
-msgid "Setting up Your Folders and Test Sites"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/guides/web/nginx-multisite.md:50
-#, no-wrap
-msgid "The website folders"
+msgid "Choose a php version"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:52
+#: ../src/docs/guides/web/php.md:39
 #, no-wrap
-msgid "First, you're going to need a couple of folders for your website files. When you first install Nginx, all of the \"demo\" website files will be in `/usr/share/nginx/html`. That's fine if you're hosting just the one site, but we're going to get fancy. Ignore the `html` directory for now, and just navigate its parent folder:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/web/nginx-multisite.md:53
-#, no-wrap
-msgid "cd /usr/share/nginx\n"
+msgid "Rocky Linux, like its upstream, offers many versions of the language. Some of them have reached the end of their life but are kept to continue hosting historical applications that are not yet compatible with new versions of PHP. Please refer to the [ supported versions ](https://www.php.net/supported-versions.php) page of the php.net website to choose a supported version.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:58
+#: ../src/docs/guides/web/php.md:41
 #, no-wrap
-msgid "The test domains for the sake of this tutorial will be `site1.server.test` and `site2.server.test`, and we're going to name those website folders accordingly. You should change those domains to whatever you're using, of course. However (and here's a trick I picked up from Smarter People<sup>TM</sup>), we're going to write the domain names \"backwards\".\n"
+msgid "To obtain a list of available versions, simply enter the following command:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/php.md:42
+#, no-wrap
+msgid "$ sudo dnf module list php\n"
+"Rocky Linux 8 - AppStream\n"
+"Name         Stream          Profiles                           Summary                       \n"
+"php          7.2 [d]         common [d], devel, minimal         PHP scripting language        \n"
+"php          7.3             common [d], devel, minimal         PHP scripting language        \n"
+"php          7.4             common [d], devel, minimal         PHP scripting language        \n\n"
+"Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:60
+#: ../src/docs/guides/web/php.md:54
 #, no-wrap
-msgid "eg. \"yourwebsite.com\" would go in a folder called `com.yourwebsite`. Mind you, you can *literally* name these folders whatever you want, but there's a good reason for this method, which I've outlined below.\n"
+msgid "Rocky provides, from its AppStream repository, different PHP modules.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:62
+#: ../src/docs/guides/web/php.md:56
 #, no-wrap
-msgid "For now, just make your folders:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/web/nginx-multisite.md:63
-#, no-wrap
-msgid "mkdir -p test.server.site1/html\n"
-"mkdir -p test.server.site2/html\n"
+msgid "You will note that the default version of a Rocky 8.5 is 7.2 which has already reached its end of life at the time of writing.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:69
+#: ../src/docs/guides/web/php.md:58
 #, no-wrap
-msgid "So that command will make, for example, the `test.server.site1` folder, and put another folder called `html` inside of it. That is where you're going to put the actual files you want to serve via the web server. (You could also call it \"webroot\" or something like that.)\n"
+msgid "You can activate a newer module by entering the following command:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/php.md:59
+#, no-wrap
+msgid "sudo dnf module enable php:7.4\n"
+"==============================================================================================\n"
+" Package               Architecture         Version               Repository             Size\n"
+"==============================================================================================\n"
+"Enabling module streams:\n"
+" httpd                                      2.4                                              \n"
+" php                                        7.4                                              \n\n"
+"Transaction Summary\n"
+"==============================================================================================\n\n"
+"Is this ok [y/N]: y\n"
+"Complete!\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:71
+#: ../src/docs/guides/web/php.md:78
 #, no-wrap
-msgid "This is so you can put website-related files that you *don't* want to make public in the parent directory, while still keeping everything in one place.\n"
+msgid "    You cannot currently install php 8 from the AppStream repositories. For this, you will have to go through the REMI repository. This installation is not covered in this document.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:75
+#: ../src/docs/guides/web/php.md:80
 #, no-wrap
-msgid "    The `-p` flag tells the `mkdir` command to create any missing folders in the path you just defined, so you don't have to make each folder one at a time.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:77
-#, no-wrap
-msgid "For this test, we're keeping the \"websites\" themselves very simple. Just make an HTML file in the first folder with your favorite text editor:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/web/nginx-multisite.md:78
-#, no-wrap
-msgid "nano test.server.site1/html/index.html\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:83
-#, no-wrap
-msgid "Then paste in the following bit of HTML:\n"
-msgstr ""
-
-#. type: Fenced code block (html)
-#: ../src/docs/guides/web/nginx-multisite.md:84
-#, no-wrap
-msgid "<!DOCTYPE html>\n"
-"<html lang=\"en\">\n"
-"<head>\n"
-"    <meta charset=\"UTF-8\">\n"
-"    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n"
-"    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n"
-"    <title>Site 1</title>\n"
-"</head>\n"
-"<body>\n"
-"    <h1>This is Site 1</h1>\n"
-"</body>\n"
-"</html>\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:100
-#, no-wrap
-msgid "Save and close your file, then repeat the steps with the `test.server.site2` folder, changing \"Site 1\" to \"Site 2\" in the HTML code above. This is just so we can be sure everything is working as intended later on.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:102
-#, no-wrap
-msgid "Your test websites are done, let's move on.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/guides/web/nginx-multisite.md:103
-#, no-wrap
-msgid "The configuration folders"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:106
-#, no-wrap
-msgid "Now let's go to the Nginx settings and configuration folder, which is where we'll be working for the rest of this guide:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/web/nginx-multisite.md:107
-#, no-wrap
-msgid "cd /etc/nginx/\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:112
-#, no-wrap
-msgid "If you run the `ls` command to see what files and folders are in here, you'll see a bunch of different things, most of which are irrelevant today. The ones to note are these:\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/nginx-multisite.md:116
-#, no-wrap
-msgid "`nginx.conf` is the file that contains, you guessed it, the default Nginx configuration. We'll be editing that later.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/nginx-multisite.md:116
-#, no-wrap
-msgid "`conf.d` is a directory where you can put custom configuration files. You *could* use this for websites, but it's better to use it for feature-specific settings that you want on all of your websites.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/web/nginx-multisite.md:116
-#, no-wrap
-msgid "`default.d` is a directory where your website config *might* go if you were only running one site on the server, or if your server has a \"primary\" website. Leave it alone for now.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:118
-#, no-wrap
-msgid "We want to create two new folders called `sites-available` and `sites-enabled`:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/web/nginx-multisite.md:119
-#, no-wrap
-msgid "mkdir sites-available\n"
-"mkdir sites-enabled\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:125
-#, no-wrap
-msgid "What we're going to do is put all of our website configuration files in the `sites-available` folder. There, you can work on the configuration files as long as you need to, until you're ready to activate the files with a symbolic link to the `sites-enabled` folder.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:127
-#, no-wrap
-msgid "I'll show you how that works below. For now, we're done with making folders.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:129
-#, no-wrap
-msgid "!!! Note \"Why you (might) want to write your domains backwards:\"\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:131
-#, no-wrap
-msgid "    Simply put, it's an organizational thing that's especially useful when using the command line with tab completion, but still pretty useful in GUI-based apps. It's designed for people who are running a *lot* of websites or apps on a server.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:133
-#, no-wrap
-msgid "    Basically, all of your website folders (and configuration files) will get organized alphabetically; by the top level domain first (eg. .com, .org, etc), then the primary domain, and then by any subdomains. When you're searching through a long list of domains, it can be easier to narrow down what you're looking for this way.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:135
-#, no-wrap
-msgid "    It also makes it easier to sort out your folders and config files via command line tools. To list all folders associated with a particular domain, you might run:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:139
-#, no-wrap
-msgid "    ```bash\n"
-"    ls /usr/share/nginx/ | grep com.yoursite*\n"
-"    ```\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:141
-#, no-wrap
-msgid "    Which would output something like:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:147
-#, no-wrap
-msgid "    ```\n"
-"    com.yoursite.site1\n"
-"    com.yoursite.site2\n"
-"    com.yoursite.site3\n"
-"    ```\n"
+msgid "You can now proceed to the installation of the php engine.\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/web/nginx-multisite.md:148
+#: ../src/docs/guides/web/php.md:81
 #, no-wrap
-msgid "Setting up Your Configuration Files"
+msgid "PHP cgi mode"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:84
+#, no-wrap
+msgid "First, let's see how to install and use php in its CGI mode. We will only be able to make it work with the Apache web server and its `mod_php` module. We will see, later in this document, in the FastCGI part (php-fpm) how to integrate PHP in Nginx (but also Apache).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:88
+#, no-wrap
+msgid "The installation of php is quite trivial, since it consists in installing the main package as well as the few php modules that you will need.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:90
+#, no-wrap
+msgid "The example below installs php with the modules that are usually installed with it.\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/php.md:91
+#, no-wrap
+msgid "$ sudo dnf install php php-cli php-gd php-curl php-zip php-mbstring\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:96
+#, no-wrap
+msgid "You can check that the installed version corresponds to the expected one:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/php.md:97
+#, no-wrap
+msgid "$ php -v\n"
+"PHP 7.4.19 (cli) (built: May  4 2021 11:06:37) ( NTS )\n"
+"Copyright (c) The PHP Group\n"
+"Zend Engine v3.4.0, Copyright (c) Zend Technologies\n"
+"    with Zend OPcache v7.4.19, Copyright (c), by Zend Technologies\n"
 msgstr ""
 
 #. type: Title ###
-#: ../src/docs/guides/web/nginx-multisite.md:150
+#: ../src/docs/guides/web/php.md:107 ../src/docs/guides/web/php.md:370
 #, no-wrap
-msgid "Editing nginx.conf"
+msgid "Apache integration"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:153
+#: ../src/docs/guides/web/php.md:110
 #, no-wrap
-msgid "By default, Rocky Linux's implementation of Nginx is open to all HTTP traffic, and directs it all to the demo page you might have seen in our guide to installing Nginx. We don't want that. We want traffic from the domains we specify to go to the websites we specify.\n"
+msgid "To serve php pages in cgi mode, you will have to install the apache server, configure it, activate it and start it.\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:155
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/php.md:112
 #, no-wrap
-msgid "So from the `/etc/nginx/` directory, open up `nginx.conf` in your favorite text editor:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/web/nginx-multisite.md:156
-#, no-wrap
-msgid "nano nginx.conf\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:161
-#, no-wrap
-msgid "First, find the line that looks like this:\n"
+msgid "Installation:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/guides/web/nginx-multisite.md:162
+#: ../src/docs/guides/web/php.md:113
 #, no-wrap
-msgid "include /etc/nginx/conf.d/*.conf;\n"
+msgid "$ sudo dnf install httpd\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:167
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/php.md:118
 #, no-wrap
-msgid "And **add** this bit just below it:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/web/nginx-multisite.md:168
-#, no-wrap
-msgid "include /etc/nginx/sites-enabled/*.conf;\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:173
-#, no-wrap
-msgid "That will load in our website configuration files when they're ready to go live.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:175
-#, no-wrap
-msgid "Now head down to the section that looks like this, and either **comment it out** with the hash sign <kbd>#</kbd>, or delete it if you feel so inclined:\n"
+msgid "Activation:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/guides/web/nginx-multisite.md:176
+#: ../src/docs/guides/web/php.md:119
 #, no-wrap
-msgid "server {\n"
-"    listen       80;\n"
-"    listen       [::]:80;\n"
-"    server_name  _;\n"
-"    root         /usr/share/nginx/www/html;\n\n"
-"    # Load configuration files for the default server block.\n"
-"    include /etc/nginx/default.d/*.conf;\n\n"
-"    error_page 404 /404.html;\n"
-"    location = /404.html {\n"
-"    }\n\n"
-"    error_page 500 502 503 504 /50x.html;\n"
-"    location = /50x.html {\n"
-"    }\n"
+msgid "$ sudo systemctl enable httpd\n"
+"$ sudo systemctl start httpd\n"
+"$ sudo systemctl status httpd\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/php.md:126
+#, no-wrap
+msgid "Don't forget to configure the firewall:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/php.md:127
+#, no-wrap
+msgid "$ sudo firewall-cmd --add-service=http --permanent\n"
+"$ sudo firewall-cmd --reload\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:133
+#, no-wrap
+msgid "The default vhost should work out of the box. PHP provides a `phpinfo()` function that generates a summary table of its configuration. It's very useful to test the good working of php. However, be careful not to leave such test files lying around on your servers, they represent a huge security risk for your infrastructure.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:135
+#, no-wrap
+msgid "Create the file `/var/www/html/info.php` (`/var/www/html` being the default vhost directory of the default apache configuration):\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/php.md:136
+#, no-wrap
+msgid "<?php\n"
+"phpinfo();\n"
+"?>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:143
+#, no-wrap
+msgid "Use a web browser to check that the server is working properly by going to the page http://your-server-ip/info.php.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:147
+#, no-wrap
+msgid "    Do not leave the info.php file on your server!\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/web/php.md:148
+#, no-wrap
+msgid "PHP-FPM (FastCGI)"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:151
+#, no-wrap
+msgid "As we highlighted earlier in this document, there are many advantages to switching web hosting to php-fpm mode.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:155
+#, no-wrap
+msgid "The installation is limited to the php-fpm package:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/php.md:156
+#, no-wrap
+msgid "$ sudo dnf install php-fpm\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:161
+#, no-wrap
+msgid "As php-fpm is a service from a system point of view, it must be activated and started:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/php.md:162
+#, no-wrap
+msgid "$ sudo systemctl enable php-fpm\n"
+"$ sudo systemctl start php-fpm\n"
+"$ sudo systemctl status php-fpm\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:171
+#, no-wrap
+msgid "The main configuration file is stored under `/etc/php-fpm.conf`.\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/php.md:172
+#, no-wrap
+msgid "include=/etc/php-fpm.d/*.conf\n"
+"[global]\n"
+"pid = /run/php-fpm/php-fpm.pid\n"
+"error_log = /var/log/php-fpm/error.log\n"
+"daemonize = yes\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:183
+#, no-wrap
+msgid "    The php-fpm configuration files are widely commented. Go and have a look!\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:185
+#, no-wrap
+msgid "As you can see, the files in the `/etc/php-fpm/` directory with the `.conf` extension are always included.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:187
+#, no-wrap
+msgid "By default, a php process pool, named `www`, is declared in `/etc/php-fpm.d/www.conf`.\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/php.md:188
+#, no-wrap
+msgid "[www]\n"
+"user = apache\n"
+"group = apache\n\n"
+"listen = /run/php-fpm/www.sock\n"
+"listen.acl_users = apache,nginx\n"
+"listen.allowed_clients = 127.0.0.1\n\n"
+"pm = dynamic\n"
+"pm.max_children = 50\n"
+"pm.start_servers = 5\n"
+"pm.min_spare_servers = 5\n"
+"pm.max_spare_servers = 35\n\n"
+"slowlog = /var/log/php-fpm/www-slow.log\n\n"
+"php_admin_value[error_log] = /var/log/php-fpm/www-error.log\n"
+"php_admin_flag[log_errors] = on\n"
+"php_value[session.save_handler] = files\n"
+"php_value[session.save_path]    = /var/lib/php/session\n"
+"php_value[soap.wsdl_cache_dir]  = /var/lib/php/wsdlcache\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:216
+#, no-wrap
+msgid "| Instructions | Description                                                   |\n"
+"|--------------|---------------------------------------------------------------|\n"
+"| `[pool]`     | Process pool name. The configuration file can be composed of several process pools (the name of the pool in brackets starts a new section). |\n"
+"| `listen`     | Defines the listening interface or the unix socket used. |\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/guides/web/php.md:217
+#, no-wrap
+msgid "Configuring the way to access php-fpm processes"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:220
+#, no-wrap
+msgid "There are 2 ways to connect.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:222
+#, no-wrap
+msgid "Via an inet interface such as:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:224
+#, no-wrap
+msgid "`listen = 127.0.0.1:9000`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:226
+#, no-wrap
+msgid "Or via a Unix socket:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:228
+#, no-wrap
+msgid "`listen = /run/php-fpm/www.sock`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:232
+#, no-wrap
+msgid "    The use of a socket when the web server and the php server are on the same machine allows the removal of the TCP/IP layer and optimizes the performances.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:234
+#, no-wrap
+msgid "When working via an interface, you have to configure `listen.owner`, `listen.group`, `listen.mode` to specify the owner, the owner group and the rights of the Unix socket. **Warning:** both servers (web and php) must have access rights on the socket.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:236
+#, no-wrap
+msgid "When working via a socket, you have to configure `listen.allowed_clients` to restrict access to the php server to certain IP addresses.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:238
+#, no-wrap
+msgid "Example: `listen.allowed_clients = 127.0.0.1`\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/guides/web/php.md:239
+#, no-wrap
+msgid "Static or dynamic configuration"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:242
+#, no-wrap
+msgid "The processes of php-fpm can be managed statically or dynamically.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:244
+#, no-wrap
+msgid "In static mode, the number of child processes is set by the value of `pm.max_children`;\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/php.md:245
+#, no-wrap
+msgid "pm = static\n"
+"pm.max_children = 10\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:251
+#, no-wrap
+msgid "This configuration will launch 10 processes.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:253
+#, no-wrap
+msgid "In dynamic mode, PHP-FPM will launch at most the number of processes specified by the value of `pm.max_children`, starting by launching a number of processes corresponding to `pm.start_servers`, and keeping at least the value of `pm.min_spare_servers` of inactive processes and at `most pm.max_spare_servers` inactive processes.\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/php.md:256
+#, no-wrap
+msgid "pm = dynamic\n"
+"pm.max_children = 5\n"
+"pm.start_servers = 2\n"
+"pm.min_spare_servers = 1\n"
+"pm.max_spare_servers = 3\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:265
+#, no-wrap
+msgid "PHP-FPM will create a new process to replace one that has processed a number of requests equivalent to `pm.max_requests`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:267
+#, no-wrap
+msgid "By default, `pm.max_requests` is set to 0, which means that processes are never recycled. Using the `pm.max_requests` option can be interesting for applications with memory leaks.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:269
+#, no-wrap
+msgid "There is a third mode of operation, the `ondemand` mode. This mode only starts a process when it receives a request. It is not an optimal mode for sites with strong influences, and is to be reserved for specific needs (sites with very weak requests, management backend, etc.).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:273
+#, no-wrap
+msgid "    The configuration of the operating mode of PHP-FPM is essential to ensure an optimal functioning of your web server.\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/guides/web/php.md:275
+#, no-wrap
+msgid "Process status"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:278
+#, no-wrap
+msgid "PHP-FPM offers, like Apache and its `mod_status` module, a page indicating the status of the process.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:280
+#, no-wrap
+msgid "To activate the page, setup its access path via the `pm.status_path` directive:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/php.md:281
+#, no-wrap
+msgid "pm.status_path = /status\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/php.md:285
+#, no-wrap
+msgid "$ curl http://localhost/status_php\n"
+"pool:                 www\n"
+"process manager:      dynamic\n"
+"start time:           03/Dec/2021:14:00:00 +0100\n"
+"start since:          600\n"
+"accepted conn:        548\n"
+"listen queue:         0\n"
+"max listen queue:     15\n"
+"listen queue len:     128\n"
+"idle processes:       3\n"
+"active processes:     3\n"
+"total processes:      5\n"
+"max active processes: 5\n"
+"max children reached: 0\n"
+"slow requests:        0\n"
+msgstr ""
+
+#. type: Title ####
+#: ../src/docs/guides/web/php.md:303
+#, no-wrap
+msgid "Logging long requests"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:306
+#, no-wrap
+msgid "The slowlog directive specifies the file that receives logging of requests that are too long (i.e., whose time exceeds the value of the `request_slowlog_timeout` directive).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:308
+#, no-wrap
+msgid "The default location of the generated file is `/var/log/php-fpm/www-slow.log`.\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/php.md:309
+#, no-wrap
+msgid "request_slowlog_timeout = 5\n"
+"slowlog = /var/log/php-fpm/www-slow.log\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:315
+#, no-wrap
+msgid "A value of 0 for `request_slowlog_timeout` disables logging.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/web/php.md:316
+#, no-wrap
+msgid "NGinx integration"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:319
+#, no-wrap
+msgid "The default setting of nginx already includes the necessary configuration to make php work with PHP-FPM.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:321
+#, no-wrap
+msgid "The configuration file `fastcgi.conf` (or `fastcgi_params`) is located under `/etc/nginx/`:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/php.md:322
+#, no-wrap
+msgid "fastcgi_param  SCRIPT_FILENAME    $document_root$fastcgi_script_name;\n"
+"fastcgi_param  QUERY_STRING       $query_string;\n"
+"fastcgi_param  REQUEST_METHOD     $request_method;\n"
+"fastcgi_param  CONTENT_TYPE       $content_type;\n"
+"fastcgi_param  CONTENT_LENGTH     $content_length;\n\n"
+"fastcgi_param  SCRIPT_NAME        $fastcgi_script_name;\n"
+"fastcgi_param  REQUEST_URI        $request_uri;\n"
+"fastcgi_param  DOCUMENT_URI       $document_uri;\n"
+"fastcgi_param  DOCUMENT_ROOT      $document_root;\n"
+"fastcgi_param  SERVER_PROTOCOL    $server_protocol;\n"
+"fastcgi_param  REQUEST_SCHEME     $scheme;\n"
+"fastcgi_param  HTTPS              $https if_not_empty;\n\n"
+"fastcgi_param  GATEWAY_INTERFACE  CGI/1.1;\n"
+"fastcgi_param  SERVER_SOFTWARE    nginx/$nginx_version;\n\n"
+"fastcgi_param  REMOTE_ADDR        $remote_addr;\n"
+"fastcgi_param  REMOTE_PORT        $remote_port;\n"
+"fastcgi_param  SERVER_ADDR        $server_addr;\n"
+"fastcgi_param  SERVER_PORT        $server_port;\n"
+"fastcgi_param  SERVER_NAME        $server_name;\n\n"
+"# PHP only, required if PHP was built with --enable-force-cgi-redirect\n"
+"fastcgi_param  REDIRECT_STATUS    200;\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:351
+#, no-wrap
+msgid "In order for nginx to process `.php` files, the following directives must be added to the site configuration file:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:353
+#, no-wrap
+msgid "If php-fpm is listening on port 9000:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/php.md:354
+#, no-wrap
+msgid "location ~ \\.php$ {\n"
+"  include /etc/nginx/fastcgi_params;\n"
+"  fastcgi_pass 127.0.0.1:9000;\n"
 "}\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:197
+#: ../src/docs/guides/web/php.md:362
 #, no-wrap
-msgid "What that would look like \"commented out\":\n"
+msgid "If php-fpm is listening on a unix socket:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/guides/web/nginx-multisite.md:198
+#: ../src/docs/guides/web/php.md:363
 #, no-wrap
-msgid "#server {\n"
-"#    listen       80;\n"
-"#    listen       [::]:80;\n"
-"#    server_name  _;\n"
-"#    root         /usr/share/nginx/www/html;\n"
-"#\n"
-"#    # Load configuration files for the default server block.\n"
-"#    include /etc/nginx/default.d/*.conf;\n"
-"#\n"
-"#    error_page 404 /404.html;\n"
-"#    location = /404.html {\n"
-"#    }\n"
-"#\n"
-"#    error_page 500 502 503 504 /50x.html;\n"
-"#    location = /50x.html {\n"
-"#    }\n"
-"#}\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:219
-#, no-wrap
-msgid "If you're a beginner, you might want to keep the commented code around for reference, and that goes for the example HTTPS code that's already commented out further down in the file.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:221
-#, no-wrap
-msgid "Save and close the file, then restart the server with:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:227
-#, no-wrap
-msgid "Now no one will see the demo page, at least.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/guides/web/nginx-multisite.md:228
-#, no-wrap
-msgid "Adding the website configuration files"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:231
-#, no-wrap
-msgid "Now let's make your test websites available on the server. As previously mentioned, we're going to to this with symbolic links so we have an easy way of turning the websites on and off at will.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:235
-#, no-wrap
-msgid "    For absolute newbies, symbolic links are basically a way of letting files pretend to be in two folders at once. Change the original file (or \"target\"), and it's changed everywhere that you've linked to it. If you use a program to edit the file via a link, the original gets changed.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:237
-#, no-wrap
-msgid "    However, if you delete a link to the target, nothing at all happens to the original file. This trick is what allows us to put the website configuration files in a working directory (`sites-available`), and then \"activate\" them by linking to those files from `sites-enabled`.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:240
-#, no-wrap
-msgid "I'll show you what I mean. Make a configuration file for the first website like so:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/web/nginx-multisite.md:241
-#, no-wrap
-msgid "nano sites-available/test.server.site1.conf\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:246
-#, no-wrap
-msgid "Now paste in this code. This is about the simplest working Nginx configuration you can have, and should work fine for most static HTML websites:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/web/nginx-multisite.md:247
-#, no-wrap
-msgid "server {\n"
-"    listen 80;\n"
-"    listen [::]:80;\n\n"
-"    # virtual server name i.e. domain name #\n"
-"    server_name site1.server.test;\n\n"
-"    # document root #\n"
-"    root        /usr/share/nginx/test.server.site1/html;\n\n"
-"    # log files\n"
-"    access_log  /var/log/nginx/www_access.log;\n"
-"    error_log   /var/log/nginx/www_error.log;\n\n"
-"    # Directives to send expires headers and turn off 404 error logging. #\n"
-"    location ~* ^.+\\.(ogg|ogv|svg|svgz|eot|otf|woff|mp4|ttf|rss|atom|jpg|jpeg|gif|png|ico|zip|tgz|gz|rar|bz2|doc|xls|exe|ppt|tar|mid|midi|wav|bmp|rtf)$ {\n"
-"        access_log off; log_not_found off; expires max;\n"
-"    }\n"
+msgid "location ~ \\.php$ {\n"
+"  include /etc/nginx/fastcgi_params;\n"
+"  fastcgi_pass unix:/run/php-fpm/www.sock;\n"
 "}\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:270
+#: ../src/docs/guides/web/php.md:373
 #, no-wrap
-msgid "And heck, everything from the document root on down is technically optional. Useful and recommended, but not strictly required for the website to function.\n"
+msgid "The configuration of apache to use a php pool is quite simple. You just have to use the proxy modules with a `ProxyPassMatch` directive, for example:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:272
+#. type: Fenced code block
+#: ../src/docs/guides/web/php.md:374
 #, no-wrap
-msgid "Anyway, save and close the file, then go into `sites-enabled` directory:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/web/nginx-multisite.md:273
-#, no-wrap
-msgid "cd sites-enabled\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:278
-#, no-wrap
-msgid "Now, create a symbolic link to the configuration file you just made in the `sites-available` folder.:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/web/nginx-multisite.md:279
-#, no-wrap
-msgid "ln -s ../sites-available/test.server.site1.conf\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:284
-#, no-wrap
-msgid "Test your configuration with the `nginx -t` command, and if you get a message saying everything is okay, reload the server:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:290
-#, no-wrap
-msgid "Then point your browser at the domain you're using for this first site (in my case: site1.server.test), and look for that \"This is Site 1\" message we put in the HTML file. If you have `curl` installed on your system, you could run `curl site1.server.test` and see if the HTML code loads in your terminal.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:294
-#, no-wrap
-msgid "    Some browsers will (with all the best intentions) force you to use HTTPS when you type your server domain into the address bar. If you don't have HTTPS configured, that'll just throw errors at you.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:296
-#, no-wrap
-msgid "    Make sure to manually specify \"http://\" in your browser address bar to avoid this issue. If that doesn't work, clear the cache, or use a less picky browser for this part of the testing. I recommend [Min](https://minbrowser.org).\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:298
-#, no-wrap
-msgid "If *all* of that goes right, *repeat the steps above, changing the names of the files and the content of the configuration files* as you go. \"site1\" to \"site2\" and all of that. Once you have configuration files and symbolic links for both Site 1 and Site 2, and have restarted Nginx, it should look like this:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:300
-#, no-wrap
-msgid "![A screenshot of the two test websites side by side](nginx/images/multisite-nginx.png)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:304
-#, no-wrap
-msgid "    You can also create links from outside of the sites-enabled directory with the long form of the `ln -s` command. It would look like `ln -s [source-file] [link]`.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:306
-#, no-wrap
-msgid "    In this context, that's:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:310
-#, no-wrap
-msgid "    ```bash\n"
-"    ln -s /etc/nginx/sites-available/test.server.site1.conf /etc/nginx/sites-enabled/test.server.site1.conf\n"
-"    ```\n"
+msgid "<VirtualHost *:80>\n"
+"  ServerName web.rockylinux.org\n"
+"  DocumentRoot \"/var/www/html/current/public\"\n\n"
+"  <Directory \"/var/www/html/current/public\">\n"
+"    AllowOverride All\n"
+"    Options -Indexes +FollowSymLinks\n"
+"    Require all granted\n"
+"  </Directory>\n"
+"  ProxyPassMatch ^/(.*\\.php(/.*)?)$ \"fcgi://127.0.0.1:9000/var/www/html/current/public\"\n\n"
+"</VirtualHost>\n\n"
 msgstr ""
 
 #. type: Title ###
-#: ../src/docs/guides/web/nginx-multisite.md:311
+#: ../src/docs/guides/web/php.md:390
 #, no-wrap
-msgid "Disabling a website"
+msgid "Solid configuration of php pools"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:314
+#: ../src/docs/guides/web/php.md:393
 #, no-wrap
-msgid "If you need to stop one of your websites to work on it before taking it live again, just delete the symbolic link in sites-enabled:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/web/nginx-multisite.md:315
-#, no-wrap
-msgid "rm /etc/nginx/sites-enabled/test.server.site1.conf\n"
+msgid "It is essential, to optimize the quantity of requests which will be able to be served, to analyze the memory used by the php scripts and thus to optimize the maximum quantity of launched threads.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:320
+#: ../src/docs/guides/web/php.md:395
 #, no-wrap
-msgid "Then restart Nginx as usual. To take the site back online, you'll need to re-create the symbolic link, and restart Nginx again.\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/web/nginx-multisite.md:321
-#, no-wrap
-msgid "Optional: Editing Your Hosts File"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:324
-#, no-wrap
-msgid "This part's definitely for beginners. Everyone else can probably skip.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:326
-#, no-wrap
-msgid "So this section *only* applies if you're trying out this guide in a local development environment. That is, if you're running your test server on your workstation, or on another machine in your local home or business network.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:328
-#, no-wrap
-msgid "Since pointing external domains at your local machines is a hassle (and potentially dangerous if you don't know what you're doing), you can set up some \"fake\" domains that will work just fine on your local network, and nowhere else.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:330
-#, no-wrap
-msgid "The easiest way to do this is with the hosts file on your computer. The hosts file is literally just a text file that can override DNS settings. As in, you can manually specify a domain name to go with any IP address you want. It'll *only* work on that one computer, though.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:332
-#, no-wrap
-msgid "So on Mac and Linux, the hosts file is in the `/etc/` directory, and can be edited via the command line super easily (you'll need root access). Assuming you're working on a Rocky Linux workstation, just run:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/web/nginx-multisite.md:333
-#, no-wrap
-msgid "nano /etc/hosts\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:338
-#, no-wrap
-msgid "On Windows, the hosts file is located at `C:\\Windows\\system32\\drivers\\etc\\hosts`, and you can just use whatever GUI text editor you want as long as you have Admin access.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:340
-#, no-wrap
-msgid "So if you're working on a Rocky Linux computer, and are running your Nginx server on the same machine, you'd just open up the file, and define the domains/IP addresses you want. If you're running your workstation and test server on the same machine, that'd be:\n"
+msgid "First of all, we need to know the average amount of memory used by a PHP process, with the command:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/guides/web/nginx-multisite.md:341
+#: ../src/docs/guides/web/php.md:396
 #, no-wrap
-msgid "127.0.0.1           site1.server.test\n"
-"127.0.0.1           site2.server.test\n"
+msgid "while true; do ps --no-headers -o \"rss,cmd\" -C php-fpm | grep \"pool www\" | awk '{ sum+=$1 } END { printf (\"%d%s\\n\", sum/NR/1024,\"Mb\") }' >> avg_php_proc; sleep 60; done\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:347
+#: ../src/docs/guides/web/php.md:401
 #, no-wrap
-msgid "If you're running your Nginx server on another machine on the network, just use the address of that machine, eg.:\n"
+msgid "After a while, this should give us a pretty accurate idea of the average memory footprint of a php process on this server.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:403
+#, no-wrap
+msgid "For the rest of this document, let's say that the result is a memory footprint of 120MB per process at full load.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:405
+#, no-wrap
+msgid "On a server with 8Gb of RAM, keeping 1Gb for the system and 1Gb for the OPCache (see the rest of this document), there is 6Gb left to process PHP requests from clients.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:407
+#, no-wrap
+msgid "We can easily conclude that this server can accept at most **50 threads** `((6*1024) / 120)`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:409
+#, no-wrap
+msgid "A good configuration of `php-fpm` specific to this use case would be:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/guides/web/nginx-multisite.md:348
+#: ../src/docs/guides/web/php.md:410
 #, no-wrap
-msgid "192.168.0.45           site1.server.test\n"
-"192.168.0.45           site2.server.test\n"
+msgid "pm = dynamic\n"
+"pm.max_children = 50\n"
+"pm.start_servers = 12\n"
+"pm.min_spare_servers = 12\n"
+"pm.max_spare_servers = 36\n"
+"pm.max_requests = 500\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:354
+#: ../src/docs/guides/web/php.md:420
 #, no-wrap
-msgid "Then you'll be able to point your browser to those domains and it should work as intended.\n"
+msgid "with:\n"
 msgstr ""
 
-#. type: Title ##
-#: ../src/docs/guides/web/nginx-multisite.md:355
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/php.md:424
 #, no-wrap
-msgid "Setting Up SSL Certificates for Your Sites"
+msgid "`pm.start_servers` = 25% of `max_children`\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/php.md:424
+#, no-wrap
+msgid "`pm.min_spare_servers` = 25% of `max_children`\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/php.md:424
+#, no-wrap
+msgid "`pm.max_spare_servers` = 75% of `max_children`\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/web/php.md:425
+#, no-wrap
+msgid "Opcache configuration"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:358
+#: ../src/docs/guides/web/php.md:428
 #, no-wrap
-msgid "Go check out [our guide to getting SSL certificates with Let's Encrypt and certbot](../security/generating_ssl_keys_lets_encrypt.md). The instructions there will work just fine.\n"
+msgid "The `opcache` (Optimizer Plus Cache) is the first level of cache on which we can influence.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:362
+#: ../src/docs/guides/web/php.md:430
 #, no-wrap
-msgid "Remember, most of the folder/file organization and naming conventions here are technically optional. Your website configuration files mostly just have to go anywhere inside `/etc/nginx/` and `nginx.conf` needs to know where those files are.\n"
+msgid "It keeps in memory the compiled php scripts which strongly impacts the execution of the web pages (removes the reading on disk of the script + the compilation time).\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:364
+#: ../src/docs/guides/web/php.md:432
 #, no-wrap
-msgid "The actual website files should be somewhere in `/usr/share/nginx/`, and the rest is gravy.\n"
+msgid "To configure it, we must work on:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/php.md:434
+#, no-wrap
+msgid "The size of the memory dedicated to the opcache according to the hit ratio\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/web/nginx-multisite.md:365
+#: ../src/docs/guides/web/php.md:436
 #, no-wrap
-msgid "Try it out, do some Science<sup>TM</sup>, and don't forget to run `nginx -t` before you restart Nginx to make sure you didn't miss a semi-colon or anything. It'll save you a lot of time.\n"
+msgid "By configuring correctly\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/php.md:443
+#, no-wrap
+msgid "the number of php scripts to cache (number of keys + maximum number of scripts)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/php.md:443
+#, no-wrap
+msgid "the number of strings to cache\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:445
+#, no-wrap
+msgid "To install it:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/php.md:446
+#, no-wrap
+msgid "$ sudo dnf install php-opcache\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:451
+#, no-wrap
+msgid "To configure it, edit the `/etc/php.d/10-opcache.ini` configuration file:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/web/php.md:452
+#, no-wrap
+msgid "opcache.memory_consumption=128\n"
+"opcache.interned_strings_buffer=8\n"
+"opcache.max_accelerated_files=4000\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:459
+#, no-wrap
+msgid "where:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/php.md:463
+#, no-wrap
+msgid "`opcache.memory_consumption` corresponds to the amount of memory needed for the opcache (to be increased until a correct hit ratio is obtained).\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/php.md:463
+#, no-wrap
+msgid "`opcache.interned_strings_buffer` the amount of strings to cache.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/web/php.md:463
+#, no-wrap
+msgid "`opcache.max_accelerated_files` is near to the result of the `find ./ -iname \"*.php\"|wc -l` command.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:465
+#, no-wrap
+msgid "You can refer to an `info.php` page (including the `phpinfo();`) to configure the opcache (see for example the values of `Cached scripts` and `Cached strings`).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:469
+#, no-wrap
+msgid "    At each new deployment of new code, it will be necessary to empty the opcache (for example by restarting the php-fpm process).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/web/php.md:472
+#, no-wrap
+msgid "    Don't underestimate the speed gain that can be achieved by setting up and configuring the opcache correctly.\n"
 msgstr ""
 
