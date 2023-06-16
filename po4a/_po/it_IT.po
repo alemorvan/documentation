@@ -13,8 +13,52 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: it\n"
-"X-Crowdin-File: /po4a/po4a/_po/nvchad_ui_nvchad_ui.pot\n"
-"X-Crowdin-File-ID: 1473\n"
+"X-Crowdin-File: /po4a/po4a/_po/nvchad_ui_nvimtree.pot\n"
+"X-Crowdin-File-ID: 1475\n"
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/13-softwares.md:900
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:105
+#: ../src/docs/books/nvchad/template_chadrc.md:352
+#: ../src/docs/gemstones/bash_stub.md:103
+#: ../src/docs/gemstones/perl_search_replace.md:38
+#: ../src/docs/gemstones/sed_search_replace.md:72
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:172
+#: ../src/docs/guides/automation/olivetin.md:142
+#: ../src/docs/guides/cms/dokuwiki_server.md:306
+#: ../src/docs/guides/communications/asterisk_installation.md:261
+#: ../src/docs/guides/containers/lxd_web_servers.md:919
+#: ../src/docs/guides/containers/podman-nextcloud.md:456
+#: ../src/docs/guides/contribute/local_docs.md:47
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:322
+#: ../src/docs/guides/contribute/navigation.md:129
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:458
+#: ../src/docs/guides/database/database_mariadb-server.md:197
+#: ../src/docs/guides/desktop/kde_installation.md:105
+#: ../src/docs/guides/desktop/mate_installation.md:200
+#: ../src/docs/guides/desktop/xfce_installation.md:218
+#: ../src/docs/guides/editors/micro.md:79
+#: ../src/docs/guides/email/postfix_reporting.md:254
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:270
+#: ../src/docs/guides/file_sharing/sftp.md:765
+#: ../src/docs/guides/proxies/pound.md:460
+#: ../src/docs/guides/security/dnf_automatic.md:119
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:54
+#: ../src/docs/guides/security/firewalld-beginners.md:427
+#: ../src/docs/guides/security/firewalld.md:477
+#: ../src/docs/guides/security/pam.md:137
+#: ../src/docs/guides/security/ssl_keys_https.md:136
+#: ../src/docs/guides/virtualization/vbox-rocky.md:160
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:147
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:235
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:157
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:91
+#: ../src/docs/guides/web/mod_SSL_apache.md:171
+#: ../src/docs/guides/web/nginx-mainline.md:352
+#: ../src/docs/guides/web/nginx-multisite.md:359
+#, no-wrap
+msgid "Conclusion"
+msgstr ""
 
 #. type: YAML Front Matter: contributors
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:1
@@ -76,6 +120,14 @@ msgstr ""
 msgid "Steven Spencer"
 msgstr ""
 
+#. type: Title ###
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:132
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:63
+#, no-wrap
+msgid "File Management"
+msgstr ""
+
 #. type: YAML Front Matter: tags
 #: ../src/docs/books/nvchad/additional_software.md:1
 #: ../src/docs/books/nvchad/index.md:1
@@ -111,311 +163,16 @@ msgstr ""
 msgid "coding"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/books/nvchad/install_nvchad.md:180
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:26
-#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:22
-#, no-wrap
-msgid "C = <kbd>CTRL</kbd>\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/nvchad/install_nvchad.md:180
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:26
-#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:22
-#, no-wrap
-msgid "leader = <kbd>SPACE</kbd>\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/nvchad/install_nvchad.md:180
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:26
-#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:22
-#, no-wrap
-msgid "A = <kbd>ALT</kbd>\n"
-msgstr ""
-
 #. type: YAML Front Matter: tags
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:1
+#: ../src/docs/books/nvchad/index.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:1
+#: ../src/docs/books/nvchad/plugins/index.md:1
+#: ../src/docs/books/nvchad/plugins/md_preview.md:1
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:1
+#: ../src/docs/guides/editors/micro.md:1
 #, no-wrap
-msgid "nvchad interface"
-msgstr ""
-
-#. type: YAML Front Matter: title
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:1
-#, no-wrap
-msgid "NvChad UI"
-msgstr ""
-
-#. type: Title #
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:12
-#, no-wrap
-msgid "NvChad Interface"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:15
-#, no-wrap
-msgid "!!! note \"A few words about `mappings.lua`\"\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:17
-#, no-wrap
-msgid "    Throughtout NvChad's official documentation, commands such as `<leader>` are mentioned, along with other keys that might not be understandable to the casual reader. The reason for this is the default `mappings.lua` file (`../nvim/lua/core/mappings.lua`).\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:19
-#, no-wrap
-msgid "    This file and the key mappings it describes are outlined [here](https://nvchad.com/docs/config/mappings). To be clear, you can override any key mappings using a custom `mappings.lua` file (`../nvim/lua/custom/mappings.lua`).\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:21
-#, no-wrap
-msgid "    To avoid confusion in the documents you are now reading, we are going to assume that you are using the default `mappings.lua` file and will substitute in the actual commands that you need to use to access a function. Standard key references are:\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:26
-#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:22
-#, no-wrap
-msgid "S = <kbd>SHFT</kbd>\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:28
-#, no-wrap
-msgid "    If a command would specify `<leader>uu` as an example, we will substitute in the actual key combination of <kbd>SPACE</kbd><kbd>uu</kbd>.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:30
-#, no-wrap
-msgid "    This will be covered again in the next section [Using NvChad](./using_nvchad.md)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:32
-#, no-wrap
-msgid "Once Neovim is installed and the NvChad configuration is entered, our IDE should look like this:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:34
-#, no-wrap
-msgid "![NvChad Default](../images/ui_default.png)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:36
-#, no-wrap
-msgid "The interface already comes with some advanced functionality, such as indicating the status of the git repository, but can be further enhanced by using the Language Server, and customized by overriding some basic configurations. The basic modules that make it up are detailed below.\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:37
-#, no-wrap
-msgid "Tabufline"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:40
-#, no-wrap
-msgid "![Tabufline](../images/ui_tabufline.png)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:42
-#, no-wrap
-msgid "The user interface presents a top bar called `Tabufline` where the open buffers are managed. `Tabufline` only shows if you have more than one file open. The open buffer presents the file type icon, the file name, and its status. Status is indicated with an icon.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:44
-#, no-wrap
-msgid "If, as in the screenshot, we have a red `x`, it means that the file can be closed as it is already saved. If instead the icon is a green dot `.`, then the file needs to be saved, and a close command <kbd>SHIFT</kbd> + <kbd>:q</kbd> will produce a warning: \"No write since last change\".\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:46
-#, no-wrap
-msgid "To the right is the icon for setting the _dark_ or _light_ theme. By clicking on it with the mouse, we can select the theme we want.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:48
-#, no-wrap
-msgid "![NvChad Light](../images/ui_default_light.png)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:50
-#, no-wrap
-msgid "On the right we also have the icon for closing our editor.\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:51
-#, no-wrap
-msgid "Middle Section - Open Buffers"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:54
-#, no-wrap
-msgid "The central part of the editor is composed of the buffer active on the editor at that moment (_index.en.md_). To introduce some additional functionality, we can work simultaneously on two files in a split buffer by opening one more in the example (_index.it.md_).\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:56
-#, no-wrap
-msgid "In the editor we will have the first buffer in the foreground and the second one listed in the Tabufline. Now if we split the first buffer with the <kbd>SHIFT</kbd> + <kbd>:vsplit</kbd> command and select the right buffer, clicking on the name of the second file (_index.it.md_) in the tabufline, this will be opened in the right buffer and we can work with the two files side by side.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:58
-#, no-wrap
-msgid "![NvChad Split](../images/ui_nvchad_split.png)\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:59
-#, no-wrap
-msgid "Statusline"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:62
-#, no-wrap
-msgid "![Statusline](../images/ui_statusline.png)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:64
-#, no-wrap
-msgid "At the bottom we find the Statusline, which handles status information. On the right we find the editor status. We must not forget that we are using a text editor and that, in particular, it maintains the philosophy and operation of Vim. The possible states are:\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:69
-#, no-wrap
-msgid "**NORMAL**\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:69
-#, no-wrap
-msgid "**INSERT**\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:69
-#, no-wrap
-msgid "**COMMAND**\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:69
-#, no-wrap
-msgid "**VISUAL**\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:71
-#, no-wrap
-msgid "Editing a document starts from the **NORMAL** mode where you open the file, then you can switch to **INSERT** mode for editing, and when finished exit with <kbd>ESC</kbd> and return to **NORMAL** mode.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:73
-#, no-wrap
-msgid "Now to save the file you switch to **COMMAND** mode by typing `:` in the statusline followed by `w` (_write_) to write it and with <kbd>ESC</kbd> you return to **NORMAL** mode. The status indication is very useful while learning how to use it, particularly if one is not very familiar with the Vim workflow.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:75
-#, no-wrap
-msgid "We then find the name of the open file, and if we are working on a git repository, we will have indications of the status of the repository. This is thanks to the _lewis6991/gitsigns.nvim_ plugin.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:77
-#, no-wrap
-msgid "Turning to the right side we find the name of the folder from which we opened the editor. In the case of the use of LSPs, this indicates the folder that is taken into account as `workspace`, and consequently evaluated during diagnostics, and to follow the position of the cursor within the file.\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:78
-#, no-wrap
-msgid "Integrated Help"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:81
-#, no-wrap
-msgid "NvChad and Neovim provide some useful commands for displaying preset key combinations and available options.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:83
-#, no-wrap
-msgid "If the <kbd>SPACE</kbd> key is pressed alone, it will provide a legend of associated commands as in the following screenshot:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:85
-#, no-wrap
-msgid "![Space Key](../images/ui_escape_key.png)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:87
-#, no-wrap
-msgid "To view all the commands included in the editor we can use the <kbd>SPACE</kbd> + <kbd>wK</kbd> command, which will give the following result:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:89
-#, no-wrap
-msgid "![leader wK](../images/ui_wK_key.png)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:91
-#, no-wrap
-msgid "And by pressing <kbd>d</kbd> we can display the remaining commands:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:93
-#, no-wrap
-msgid "![leader wK d](../images/ui_wK_01.png)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:95
-#, no-wrap
-msgid "As we can see, almost all the commands refer to navigation within the document or buffer. No commands for opening the file are included. These are provided by the Neovim.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:97
-#, no-wrap
-msgid "To view all of Neovim's options, the <kbd>SHIFT</kbd> + <kbd>:options</kbd> command is available, which will present a tree of options indexed by category.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:99
-#, no-wrap
-msgid "![Nvim Options](../images/nvim_options.png)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:101
-#, no-wrap
-msgid "This gives us a way, through the built-in help, to learn the commands while using the editor, and also to delve into the available options.\n"
+msgid "editor"
 msgstr ""
 
 #. type: YAML Front Matter: title
@@ -425,27 +182,312 @@ msgstr ""
 msgid "NvimTree"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:105
+#. type: Title #
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:11
 #, no-wrap
-msgid "In order to work with our files we need a File Explorer, and this is provided by the _kyazdani42/nvim-tree.lua_ plugin. With the combination <kbd>CTRL</kbd> + <kbd>n</kbd> we can open NvimTree.\n"
+msgid "NvimTree - File Explorer"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:107
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:14
 #, no-wrap
-msgid "![NvimTree](../images/nvim_tree.png)\n"
+msgid "![NvimTree](../images/nvimtree_basic.png){ align=right }\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:109
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:16
 #, no-wrap
-msgid "A detailed description of NvimTree's commands and features can be found on the [dedicated page](nvimtree.md).\n"
+msgid "An editor, to be functional, must provide support for opening and managing the files we want to write or edit. Neovim, in its basic installation, does not provide the functionality for file management. This is implemented by NvChad with the _kyazdani42/nvim-tree.lua_ plugin. The plugin provides a file explorer from which you can perform all the most common operations on files through keyboard keys. To open it you use the combination <kbd>Ctrl</kbd> + <kbd>n</kbd>, which is available only in _NORMAL_ mode, and with the same key combination you close it.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:110
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:18
 #, no-wrap
-msgid "Now that we have explored the interface components we can move on to using NvChad.\n"
+msgid "If we have installed the [Nerd Fonts](../nerd_fonts.md) we will have, as evidenced by the screenshot, a file explorer that although textual will give us a graphical representation of our file tree.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:20
+#, no-wrap
+msgid "Once open, we can switch from the explorer window to the editor window and vice versa with the combinations <kbd>Ctrl</kbd> + <kbd>h</kbd> to move left and <kbd>Ctrl</kbd> + <kbd>l</kbd> to move right.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:21
+#, no-wrap
+msgid "Working with the File Explorer"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:24
+#, no-wrap
+msgid "To work with your project's file tree _NvimTree_ provides a number of useful shortcuts for its management, which are:\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:36
+#, no-wrap
+msgid "<kbd>R</kbd> (refresh) to perform a reread of the files contained in the project\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:36
+#, no-wrap
+msgid "<kbd>H</kbd> (hide) to hide/display hidden files and folders (beginning with a dot `.`)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:36
+#, no-wrap
+msgid "<kbd>E</kbd> (expand_all) to expand the entire file tree starting from the root folder (workspace)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:36
+#, no-wrap
+msgid "<kbd>W</kbd> (collapse_all) to close all open folders starting from the root folder\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:36
+#, no-wrap
+msgid "<kbd>-</kbd> (dir_up) allows you to go back up folders. This navigation also allows you to exit the root folder (workspace) to your home directory\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:36
+#, no-wrap
+msgid "<kbd>s</kbd> (system) to open the file with the system application set by default for that file type\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:36
+#, no-wrap
+msgid "<kbd>f</kbd> (find) to open the interactive file search to which search filters can be applied\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:36
+#, no-wrap
+msgid "<kbd>F</kbd> to close the interactive search\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:36
+#, no-wrap
+msgid "<kbd>Ctrl</kbd> + <kbd>k</kbd> to display information about the file such as size, creation date, etc.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:36
+#, no-wrap
+msgid "<kbd>g</kbd> + <kbd>?</kbd> to open the help with all the predefined shortcuts for quick reference\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:36
+#, no-wrap
+msgid "<kbd>q</kbd> to close the file explorer\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:38
+#, no-wrap
+msgid "![Nvimtree Find](../images/nvimtree_find_filter.png){ align=right }\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:40
+#, no-wrap
+msgid "!!! note \"Note:\" \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:42
+#, no-wrap
+msgid "    The interactive search performed with <kbd>f</kbd> as with navigating with the arrows <kbd>&gt;</kbd> <kbd>&lt;</kbd> remains confined to the folder where _NvimTree_ is currently located. To do a global search over the entire workspace you must first open the entire file tree with <kbd>E</kbd> and then start the search with <kbd>f</kbd>.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:44
+#, no-wrap
+msgid "The search brings the **NvimTree_1** buffer to the _INSERT_ state for typing our filters. If no file is selected, exiting it requires that you return the buffer to _NORMAL_ with <kbd>ESC</kbd> before closing the search with <kbd>F</kbd>.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:45
+#, no-wrap
+msgid "Select a File"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:48
+#, no-wrap
+msgid "To select a file we must first make sure that we are in the _nvimtree_ buffer highlighted in the statusline with **NvimTree_1**. To do this we can use the window selection keys mentioned above or the specific <kbd>Space</kbd> + <kbd>e</kbd> command provided by NvChad which will position the cursor in the file tree. The combination is part of NvChad's default mapping and corresponds to the plugin's `:NvimTreeFocus` command.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:50
+#, no-wrap
+msgid "To move through the file tree we are given the <kbd>&gt;</kbd> and <kbd>&lt;</kbd> keys that allow us to move up and down the tree until we reach the desired folder. Once positioned, we can open it with <kbd>Enter</kbd> and close it with <kbd>BS</kbd>.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:52
+#, no-wrap
+msgid "It must be emphasized that navigation with the <kbd>&gt;</kbd> and <kbd>&lt;</kbd> keys always refers to the current folder. This means that once a folder is opened and positioned within it the navigation will remain confined to that folder. To exit the folder we use the <kbd>Ctrl</kbd> + <kbd>p</kbd> (parent directory) key which allows us to go up from the current folder to the folder from which we opened the editor and which corresponds to our _workspace_ defined in the statusline on the right.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:53
+#, no-wrap
+msgid "Opening a File"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:56
+#, no-wrap
+msgid "Positioned in the desired folder and with the file selected to be edited, we have the following combinations to open it:\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:62
+#, no-wrap
+msgid "<kbd>Enter</kbd> or <kbd>o</kbd> to open the file in a new buffer and place the cursor on the first line of the file\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:62
+#, no-wrap
+msgid "<kbd>Tab</kbd> to open the file in a new buffer while keeping the cursor in _nvimtree_, this for example is useful if you want to open several files at once\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:62
+#, no-wrap
+msgid "<kbd>Ctrl</kbd> + <kbd>t</kbd> to open the file in a new _tab_ that can be managed separately from the other buffers present\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:62
+#, no-wrap
+msgid "<kbd>Ctrl</kbd> + <kbd>v</kbd> to open the file in the buffer by dividing it vertically into two parts, if there was already an open file this will be displayed side by side with the new file\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:62
+#, no-wrap
+msgid "<kbd>Ctrl</kbd> + <kbd>h</kbd> to open the file like the command described above but dividing the buffer horizontally\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:66
+#, no-wrap
+msgid "Like all file explorers, in _nvimtree_ you can create, delete, and rename files. Since this is always with a textual approach, you will not have a convenient graphical widget but the directions will be shown in the _statusline_. All combinations have a confirmation prompt _(y/n)_ to give a way to verify the operation and thus avoid inappropriate changes. This is particularly important for deletion of a file, as a deletion would be irreversible.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:68
+#, no-wrap
+msgid "The keys for modification are:\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:77
+#, no-wrap
+msgid "<kbd>a</kbd> (add) allows the creation of files or folders, creating a folder is done by following the name with the slash `/`. E.g. `/nvchad/nvimtree.md` will create the related markdown file while `/nvchad/nvimtree/` will create the _nvimtree_ folder. The creation will occur by default at the location where the cursor is in the file explorer at that time, so the selection of the folder where to create the file will have to be done previously or alternatively you can write the full path in the statusline, in writing the path you can make use of the auto-complete function\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:77
+#, no-wrap
+msgid "<kbd>r</kbd> (rename) to rename the selected file from the original name\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:77
+#, no-wrap
+msgid "<kbd>Ctrl</kbd> + <kbd>r</kbd> to rename the file regardless of its original name\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:77
+#, no-wrap
+msgid "<kbd>d</kbd> (delete) to delete the selected file or in case of a folder delete the folder with all its contents\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:77
+#, no-wrap
+msgid "<kbd>x</kbd> (cut) to cut and copy the selection to the clipboard, can be files or folders with all its contents, with this command associated with the paste command you make the file moves within the tree\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:77
+#, no-wrap
+msgid "<kbd>c</kbd> (copy) like the previous command this copies the file to the clipboard but keeps the original file in its location\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:77
+#, no-wrap
+msgid "<kbd>p</kbd> (paste) to paste the contents of the clipboard to the current location\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:77
+#, no-wrap
+msgid "<kbd>y</kbd> to copy only the file name to the clipboard, there are also two variants which are <kbd>Y</kbd> to copy the relative path and <kbd>g</kbd> + <kbd>y</kbd> to copy the absolute path\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:78
+#, no-wrap
+msgid "Advanced Features"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:81
+#, no-wrap
+msgid "Although disabled by default, _nvimtree_ integrates some functionality to control a possible _Git_ repository. Such functionality is enabled by using override of the base settings as described on the override section of the [Template Chadrc](../template_chadrc.md) page.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:83
+#, no-wrap
+msgid "The related code is as follows:\n"
+msgstr ""
+
+#. type: Fenced code block (lua)
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:84
+#, no-wrap
+msgid "M.nvimtree = {\n"
+"  git = {\n"
+"    enable = true,\n"
+"  },\n"
+"  renderer = {\n"
+"    highlight_git = true,\n"
+"    icons = {\n"
+"      show = {\n"
+"        git = true,\n"
+"      },\n"
+"    },\n"
+"  },\n"
+"  view = {\n"
+"    side = \"right\",\n"
+"  },\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:104
+#, no-wrap
+msgid "Once the _Git_ functionality is enabled, our file tree will give us real-time status of our local files with respect to the Git repository.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:107
+#, no-wrap
+msgid "The _kyazdani42/nvim-tree.lua_ plugin provides the File Explorer to the Neovim editor, which is certainly one of the essential building blocks of the NvChad IDE, from which all common file operations can be performed. It also integrates advanced features, but these must be enabled. More information can be found on the [Project Page](https://github.com/kyazdani42/nvim-tree.lua).\n"
 msgstr ""
 
