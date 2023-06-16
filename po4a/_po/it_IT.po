@@ -13,79 +13,309 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: it\n"
-"X-Crowdin-File: /po4a/po4a/_po/gemstones_nmcli.pot\n"
-"X-Crowdin-File-ID: 1305\n"
+"X-Crowdin-File: /po4a/po4a/_po/gemstones_nmtui.pot\n"
+"X-Crowdin-File-ID: 1307\n"
 
-#. type: Title ##
-#: ../src/docs/gemstones/dnf-swap.md:65 ../src/docs/gemstones/docker.md:39
-#: ../src/docs/gemstones/nmcli.md:33
-#: ../src/docs/guides/containers/lxd_web_servers.md:913
+#. type: Plain text
+#: ../src/docs/books/admin_guide/14-special-authority.md:338
+#: ../src/docs/books/admin_guide/14-special-authority.md:354
+#: ../src/docs/books/admin_guide/14-special-authority.md:404
+#: ../src/docs/books/admin_guide/14-special-authority.md:435
+#: ../src/docs/books/admin_guide/14-special-authority.md:690
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:83
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:102
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:253
+#: ../src/docs/books/lxd_server/04-firewall.md:76
+#: ../src/docs/books/lxd_server/08-snapshots.md:86
+#: ../src/docs/gemstones/RL9_network_manager.md:150
+#: ../src/docs/gemstones/nmtui.md:52
+#: ../src/docs/gemstones/view_kernel_conf.md:21
+#: ../src/docs/guides/backup/rsync_ssh.md:79
+#: ../src/docs/guides/cms/dokuwiki_server.md:226
+#: ../src/docs/guides/containers/lxd_web_servers.md:786
+#: ../src/docs/guides/containers/podman-nextcloud.md:270
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:96
+#: ../src/docs/guides/file_sharing/sftp.md:264
+#: ../src/docs/guides/package_management/index.md:10
+#: ../src/docs/guides/proxies/pound.md:211
+#: ../src/docs/guides/proxies/pound.md:265 ../src/docs/release_notes/8_4.md:20
 #, no-wrap
-msgid "Notes"
-msgstr ""
-
-#. type: Yaml Front Matter Array Element: tags
-#: ../src/docs/gemstones/nmcli.md:1
-#, no-wrap
-msgid "nmcli"
-msgstr ""
-
-#. type: Yaml Front Matter Hash Value: title
-#: ../src/docs/gemstones/nmcli.md:1
-#, no-wrap
-msgid "nmcli - Set Connection Autoconnect"
+msgid "!!! warning\n"
 msgstr ""
 
 #. type: Title #
-#: ../src/docs/gemstones/nmcli.md:8
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
+#: ../src/docs/books/learning_ansible/05-deployments.md:31
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/00-toc.md:13
+#: ../src/docs/books/nvchad/index.md:12
+#: ../src/docs/books/nvchad/plugins/index.md:14
+#: ../src/docs/books/nvchad/plugins/md_preview.md:14
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
+#: ../src/docs/books/nvchad/vale_nvchad.md:12
+#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
+#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
+#: ../src/docs/gemstones/string_color.md:11
+#: ../src/docs/guides/automation/cron_jobs_howto.md:25
+#: ../src/docs/guides/automation/olivetin.md:14
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
+#: ../src/docs/guides/backup/rsnapshot_backup.md:22
+#: ../src/docs/guides/backup/rsync_ssh.md:24
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
+#: ../src/docs/guides/cms/dokuwiki_server.md:23
+#: ../src/docs/guides/containers/lxd_web_servers.md:10
+#: ../src/docs/guides/containers/podman-nextcloud.md:13
+#: ../src/docs/guides/contribute/local_docs.md:11
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
+#: ../src/docs/guides/contribute/mkdocs_venv.md:14
+#: ../src/docs/guides/contribute/style_guide.md:14
+#: ../src/docs/guides/database/database_mariadb-server.md:21
+#: ../src/docs/guides/desktop/kde_installation.md:11
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
+#: ../src/docs/guides/editors/micro.md:14
+#: ../src/docs/guides/email/postfix_reporting.md:22
+#: ../src/docs/guides/file_sharing/glusterfs.md:16
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
+#: ../src/docs/guides/file_sharing/sftp.md:16
+#: ../src/docs/guides/migrate2rocky.md:18
+#: ../src/docs/guides/network/basic_network_configuration.md:12
+#: ../src/docs/guides/network/librenms_monitoring_server.md:13
+#: ../src/docs/guides/package_management/index.md:1
+#: ../src/docs/guides/package_management/index.md:5
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
+#: ../src/docs/guides/proxies/pound.md:17
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
+#: ../src/docs/guides/security/firewalld-beginners.md:10
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
+#: ../src/docs/guides/security/ssh_public_private_keys.md:21
+#: ../src/docs/guides/security/ssl_keys_https.md:22
+#: ../src/docs/guides/virtualization/vbox-rocky.md:13
+#: ../src/docs/guides/web/apache-sites-enabled.md:25
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
+#: ../src/docs/guides/web/nginx-mainline.md:13
+#: ../src/docs/guides/web/nginx-multisite.md:14
+#: ../src/docs/labs/security/introduction.md:1
+#: ../src/docs/labs/security/introduction.md:5
 #, no-wrap
-msgid "Modify NetworkManager connection profile autoconnect property"
+msgid "Introduction"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/RL9_network_manager.md:20
+#: ../src/docs/gemstones/nmtui.md:16
+#, no-wrap
+msgid "shell > dnf -y install NetworkManager NetworkManager-tui\n"
+"shell > nmtui\n"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: contributors
+#: ../src/docs/gemstones/nmtui.md:1
+#, no-wrap
+msgid "Steven Spencer, Neil Hanlon"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
+#: ../src/docs/gemstones/nmtui.md:1
+#, no-wrap
+msgid "nmtui - Network Management Tool"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/gemstones/nmcli.md:11
+#: ../src/docs/gemstones/nmtui.md:11
 #, no-wrap
-msgid "First use nmcli to query and display the current value of the autoconnect property for all network connections on a Rocky Linux system. Type:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/gemstones/nmcli.md:12
-#, no-wrap
-msgid "nmcli -f name,autoconnect connection \n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/nmcli.md:18
-#, no-wrap
-msgid "To change the value of a property for a network connection use the `modify` sub-command with `nmcli connection`. \n"
-"For example, to change the autoconnect property value from `no` to `yes` for the `ens3` connection profile, type:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/gemstones/nmcli.md:19
-#, no-wrap
-msgid "sudo nmcli con mod ens3 connection.autoconnect yes\n"
+msgid "For novice users who are new to GNU/Linux for the first time, the first thing to consider is how to connect the machine to the Internet after installing the operating system. This article will tell you how to configure the IP address, subnet mask, gateway and DNS. There are several ways for reference. Whether you are a novice or a familiar, I believe you can quickly get started.\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/gemstones/nmcli.md:23
+#: ../src/docs/gemstones/nmtui.md:12
 #, no-wrap
-msgid "Commands Explained"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/gemstones/nmcli.md:25
-#, no-wrap
-msgid "connection (con)       : NetworkManager connection object. \n"
-"modify (mod)           : Modify one or more properties of a given connection profile.\n"
-"connection.autoconnect : The setting and property (<setting>.<property>)\n"
-"-f, --fields           : specify fields to output.\n\n"
+msgid "nmtui"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/gemstones/nmcli.md:36
+#: ../src/docs/gemstones/nmtui.md:15
 #, no-wrap
-msgid "This tip shows how to modify an existing NetworkManager connection profile. This is useful when the network interface does not automatically get activated after a fresh Rocky Linux installation or system update. \n"
-"The reason for this is often because the value of autoconnect property is set to `no`. You can use the `nmcli` command to quickly change the value to `yes`.  \n"
+msgid "`NetworkManager` is a standard Linux network configuration tool suite, which supports server and desktop environments. Nowadays, most popular distributions support it. This set of network configuration tools is suitable for Rocky Linux 8 and later versions. If you want to configure network information graphically (i.e. the command line `nmtui`), you only need to do this:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/nmtui.md:28
+#, no-wrap
+msgid "|NetworkManager TUI||\n"
+"|---|---|\n"
+"|Edit a connection||\n"
+"|Activate a connection||\n"
+"|Set system hostname||\n"
+"|Quit||\n"
+"||\\<OK\\>|\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/nmtui.md:30
+#, no-wrap
+msgid "You can use the <kbd>Tab</kbd> key or the <kbd>↑</kbd><kbd>↓</kbd><kbd>←</kbd><kbd>→</kbd> key to select the specific If you want to change the network information, please select **Edit a connection** and then <kbd>Enter</kbd>. Select a different network card and select **Edit..** to edit.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/gemstones/nmtui.md:31
+#, no-wrap
+msgid "DHCP IPv4"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/nmtui.md:34
+#, no-wrap
+msgid "For IPv4, if it is to obtain network information using DHCP way, you only need to select *IPv4 CONFIGURATION* back **&lt;Automatic&gt;**, and then run your terminal under `systemctl restart NetworkManager.service` , large In most cases, it can take effect. In rare cases, you need to switch the network card to take effect. For example, this way- `nmcli connection down ens33`, `nmcli connection up ens33`\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/gemstones/nmtui.md:35
+#, no-wrap
+msgid "Manually fix network information"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/nmtui.md:38
+#, no-wrap
+msgid "If you want to manually fix all IPv4 network information, you need to select **&lt;Manual&gt;** after *IPv4 CONFIGURATION* and add it line by line. For example, I like this:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/nmtui.md:44
+#, no-wrap
+msgid "|Item|Value|\n"
+"|---|---|\n"
+"|Addresses|192.168.100.4/24|\n"
+"|Gateway|192.168.100.1|\n"
+"|DNS servers|8.8.8.8|\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/nmtui.md:46
+#, no-wrap
+msgid "Then click \\< OK \\>, return to the terminal interface step by step, and execute `systemctl restart NetworkManager.service`. Similarly, in rare cases, the network card needs to be switched on and off to take effect.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/gemstones/nmtui.md:47
+#, no-wrap
+msgid "Change the way of configuration files"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/nmtui.md:50
+#, no-wrap
+msgid "All RHEL <font color=\"red\">7.x</font> or <font color=\"red\">8.x</font> distributions, whether upstream or downstream, are configured in the same way. The configuration file of network information is stored in the **/etc/sysconfig/network-scripts/** directory, and one network card corresponds to one configuration file. The configuration file has many parameters, as shown in the following table. Notice! The parameters must be capitalized.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/nmtui.md:54
+#, no-wrap
+msgid "    In RHEL 9.x distributions, the location of the directory where the NIC configuration file is stored has been changed, i.e., **/etc/NetworkManager/system-connections/**. See [here](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/html-single/configuring_and_managing_networking/index) for more information.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/nmtui.md:55
+#, no-wrap
+msgid "shell > ls /etc/sysconfig/network-scripts/\n"
+"ifcfg-ens33\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/nmtui.md:84
+#, no-wrap
+msgid "|Parameter name|Meaning|Example|\n"
+"|---|---|---|\n"
+"|DEVICE |System logical device name|DEVICE=ens33 |\n"
+"|ONBOOT |Whether the network card starts automatically with the system, you can choose yes or no|ONBOOT=yes|\n"
+"|TYPE|Network card interface type, usually Ethernet|TYPE=Ethernet|\n"
+"|BOOTPROTO|The way to obtain ip, it can be DHCP dynamic acquisition, or static manual configuration using static|BOOTPROTO=static|\n"
+"|IPADDR|The ip address of the network card, when BOOTPROTO=static, this parameter will take effect |IPADDR=192.168.100.4|\n"
+"|HWADDR|Hardware address, ie MAC address|HWADDR=00:0C:29:84:F6:9C|\n"
+"|NETMASK|Decimal subnet mask|NETMASK=255.255.255.0|\n"
+"|PREFIX|Subnet mask, represented by numbers|PREFIX=24|\n"
+"|GATEWAY|Gateway, if there are multiple network cards, this parameter can only appear once |GATEWAY=192.168.100.1|\n"
+"|PEERDNS|When it is yes, the DNS parameters defined here will modify /etc/resolv.conf; when it is no, /etc/resolv.conf will not be modified. When using DHCP, the default is yes|PEERDNS=yes|\n"
+"|DNS1|The primary DNS is selected, it takes effect only when PEERDNS=no|DNS1=8.8.8.8|\n"
+"|DNS2|Alternative DNS, only effective when PEERDNS=no|DNS2=114.114.114.114|\n"
+"|BROWSER_ONLY|Whether to allow only browsers|BROWSER_ONLY=no|\n"
+"|USERCTL|Whether ordinary users are allowed to control the network card device, yes means allow, no means not allowed |USERCTL=no|\n"
+"|UUID|Universal unique identification code, the main function is to identify the hardware, generally speaking, it is not necessary to fill in||\n"
+"|PROXY_METHOD|Proxy method, generally none, can be left blank||\n"
+"|IPV4_FAILURE_FATAL|If it is yes, it means that the device will be disabled after ipv4 configuration fails; if it is no, it means it will not be disabled. |IPV4_FAILURE_FATAL=no|\n"
+"|IPV6INIT|Whether to enable IPV6, yes to enable, no not to enable. When IPV6INIT=yes, the two parameters IPV6ADDR and IPV6_DEFAULTGW can also be enabled. The former represents the IPV6 address and the latter represents the designated gateway |IPV6INIT=yes|\n"
+"|IPV6_AUTOCONF|Whether to use IPV6 automatic configuration, yes means use; no means do not use |IPV6_AUTOCONF=yes|\n"
+"|IPV6_DEFROUTE|Whether to give IPV6 the default route|IPV6_DEFROUTE=yes|\n"
+"|IPV6_FAILURE_FATAL|After IPV6 configuration fails, whether to disable the device|IPV6_FAILURE_FATAL=no|\n"
+"|IPV6_ADDR_GEN_MODE|Generate IPV6 address model, optional values ​​are stable-privacy and eui64|IPV6_ADDR_GEN_MODE=stable-privacy|\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/nmtui.md:86
+#, no-wrap
+msgid "After the configuration file is modified successfully, remember to restart the network card service `systemctl restart NetworkManager.service`.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/gemstones/nmtui.md:87
+#, no-wrap
+msgid "Recommended configuration for IPV4"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/nmtui.md:89
+#, no-wrap
+msgid "TYPE=Ethernet\n"
+"ONBOOT=yes\n"
+"DEVICE=ens33\n"
+"USERCTL=no\n"
+"IPV4_FAILURE_FATAL=no\n"
+"BROWSER_ONLY=no\n"
+"BOOTPROTO=static\n"
+"PEERDNS=no\n"
+"IPADDR=192.168.100.4\n"
+"PREFIX=24\n"
+"GATEWAY=192.168.100.1\n"
+"DNS1=8.8.8.8\n"
+"DNS2=114.114.114.114\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/gemstones/nmtui.md:105
+#, no-wrap
+msgid "Recommended configuration for IPV6"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/gemstones/nmtui.md:107
+#, no-wrap
+msgid "TYPE=Ethernet\n"
+"ONBOOT=yes\n"
+"DEVICE=ens33\n"
+"USERCTL=no\n"
+"BROWSER_ONLY=no\n"
+"IPV6INIT=yes\n"
+"IPV6_AUTOCONF=yes\n"
+"IPV6_DEFROUTE=yes\n"
+"IPV6_FAILURE_FATAL=no\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/gemstones/nmtui.md:119
+#, no-wrap
+msgid "View network information"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/nmtui.md:121
+#, no-wrap
+msgid "`ip a` or `nmcli device show`\n"
 msgstr ""
 
