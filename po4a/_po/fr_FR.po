@@ -13,352 +13,211 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/gemstones_htop.pot\n"
-"X-Crowdin-File-ID: 1297\n"
+"X-Crowdin-File: /po4a/po4a/_po/gemstones_markdown-demo-v2.pot\n"
+"X-Crowdin-File-ID: 1301\n"
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:324
+#: ../src/docs/gemstones/markdown-demo-v2.md:15
+#: ../src/docs/guides/security/pam.md:45
+#: ../src/docs/labs/security/lab9-cryptography.md:155
+#, no-wrap
+msgid "!!! WARNING\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/nvchad/index.md:1
+#: ../src/docs/books/nvchad/plugins/index.md:1
+#: ../src/docs/books/nvchad/plugins/index.md:12
+#: ../src/docs/gemstones/markdown-demo-v2.md:12
+#: ../src/docs/guides/custom-linux-kernel.md:10
+#: ../src/docs/release_notes/index.md:16 ../src/docs/release_notes/index.md:30
+#, no-wrap
+msgid "Overview"
+msgstr ""
 
 #. type: YAML Front Matter: contributors
-#: ../src/docs/books/disa_stig/disa_stig_part2.md:1
-#: ../src/docs/books/disa_stig/disa_stig_part3.md:1
-#: ../src/docs/books/disa_stig/disa_stig_part1.md:1
-#: ../src/docs/books/learning_ansible/07-working-with-filters.md:1
-#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:1
-#: ../src/docs/books/learning_bash/00-toc.md:1
-#: ../src/docs/books/learning_bash/01-first-script.md:1
-#: ../src/docs/books/learning_bash/02-using-variables.md:1
-#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:1
-#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:1
-#: ../src/docs/books/learning_bash/05-tests.md:1
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:1
-#: ../src/docs/books/learning_bash/07-loops.md:1
-#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:1
-#: ../src/docs/books/learning_rsync/01_rsync_overview.md:1
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:1
-#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:1
-#: ../src/docs/books/learning_rsync/05_rsync_authentication-free_login.md:1
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:1
-#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:1
-#: ../src/docs/books/nvchad/additional_software.md:1
-#: ../src/docs/books/nvchad/index.md:1
-#: ../src/docs/books/nvchad/install_nvchad.md:1
-#: ../src/docs/books/nvchad/install_nvim.md:1
-#: ../src/docs/books/nvchad/nerd_fonts.md:1
-#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:1
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:1
-#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:1
-#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:1
-#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:1
-#: ../src/docs/books/nvchad/plugins/index.md:1
-#: ../src/docs/books/nvchad/plugins/md_preview.md:1
-#: ../src/docs/books/nvchad/plugins/projectmgr.md:1
-#: ../src/docs/books/nvchad/template_chadrc.md:1
-#: ../src/docs/gemstones/RL9_network_manager.md:1
-#: ../src/docs/gemstones/htop.md:1 ../src/docs/gemstones/mtr.md:1
-#: ../src/docs/gemstones/setup_local_repo.md:1
-#: ../src/docs/gemstones/string_color.md:1
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:1
-#: ../src/docs/gemstones/view_kernel_conf.md:1
-#: ../src/docs/guides/automation/anacron.md:1
-#: ../src/docs/guides/automation/cronie.md:1
-#: ../src/docs/guides/automation/olivetin.md:1
-#: ../src/docs/guides/communications/asterisk_installation.md:1
-#: ../src/docs/guides/containers/lxd_web_servers.md:1
-#: ../src/docs/guides/contribute/local_docs.md:1
-#: ../src/docs/guides/contribute/mkdocs_venv.md:1
-#: ../src/docs/guides/contribute/style_guide.md:1
-#: ../src/docs/guides/editors/micro.md:1
-#: ../src/docs/guides/file_sharing/glusterfs.md:1
-#: ../src/docs/guides/installation.md:1
-#: ../src/docs/guides/security/dnf_automatic.md:1
-#: ../src/docs/guides/security/firewalld-beginners.md:1
-#: ../src/docs/guides/web/nginx-multisite.md:1 ../src/docs/guides/web/php.md:1
-#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:1
+#: ../src/docs/gemstones/markdown-demo-v2.md:1
 #, no-wrap
-msgid "Steven Spencer"
+msgid "Dr. Ben Dover, Sweet Gypsy Rose"
 msgstr ""
 
 #. type: YAML Front Matter: tags
-#: ../src/docs/gemstones/htop.md:1
+#: ../src/docs/gemstones/markdown-demo-v2.md:1
 #, no-wrap
-msgid "htop"
+msgid "sample"
 msgstr ""
 
 #. type: YAML Front Matter: tags
-#: ../src/docs/gemstones/htop.md:1
+#: ../src/docs/gemstones/markdown-demo-v2.md:1
 #, no-wrap
-msgid "processes"
+msgid "crowdin"
 msgstr ""
 
-#. type: Title #
-#: ../src/docs/gemstones/htop.md:1 ../src/docs/gemstones/htop.md:11
+#. type: YAML Front Matter: tags
+#: ../src/docs/gemstones/markdown-demo-v2.md:1
 #, no-wrap
-msgid "htop - Process Management"
+msgid "markdown"
 msgstr ""
 
-#. type: Title ##
-#: ../src/docs/gemstones/htop.md:13
+#. type: YAML Front Matter: title
+#: ../src/docs/gemstones/markdown-demo-v2.md:1
 #, no-wrap
-msgid "install `htop` "
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/htop.md:15
-#, no-wrap
-msgid "Every system administrator likes to use some of the more commonly used commands. Today I recommend `htop` as an alternative to the `top` command. To use the `htop` command usually, you need to install it first.\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/gemstones/htop.md:16
-#, no-wrap
-msgid "# Installation epel source (also called repository)\n"
-"dnf -y install epel-release\n"
-"# Generate cache\n"
-"dnf makecache\n"
-"# Install htop\n"
-"dnf -y install htop\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/gemstones/htop.md:25
-#, no-wrap
-msgid "Use `htop`"
+msgid "Markdown Demo"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/gemstones/htop.md:27
+#: ../src/docs/gemstones/markdown-demo-v2.md:17
 #, no-wrap
-msgid "You only need to type `htop` in the terminal, and the interactive interface is as follows:\n"
+msgid "    Do not take anything you may read in this document seriously.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/markdown-demo-v2.md:19
+#, no-wrap
+msgid "As you can tell by reading, this is a pretty silly example, designed to be used to test some translation issues that we are having. But because the problems have not yet been solved we are going to modify the file a little bit here and there to see the effect it has. It's fun to write though!\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/markdown-demo-v2.md:21
+#, no-wrap
+msgid "This guide demos popular Markdown tags used on [https://docs.rockylinux.org](https://docs.rockylinux.org) also includes the admonitions tag, which is not part of the standard Markdown tags.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/gemstones/markdown-demo-v2.md:22
+#, no-wrap
+msgid "The Demo"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/markdown-demo-v2.md:25
+#, no-wrap
+msgid "> This is a quote example. Nicely formatted.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/markdown-demo-v2.md:27
+#, no-wrap
+msgid "Sometimes you will see things like _this_.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/markdown-demo-v2.md:29
+#, no-wrap
+msgid "How about a little **bold face**\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/markdown-demo-v2.md:31
+#, no-wrap
+msgid "Most of the time, it straight text like this.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/markdown-demo-v2.md:33
+#, no-wrap
+msgid "Sometimes you need to show a `command`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/markdown-demo-v2.md:35
+#, no-wrap
+msgid "Or multiple commands:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/gemstones/htop.md:28
+#: ../src/docs/gemstones/markdown-demo-v2.md:36
 #, no-wrap
-msgid "0[ |||                      3%]     Tasks: 22, 46thr, 174 kthr 1 running\n"
-"1[ |                        1%]     Load average: 0.00 0.00 0.05\n"
-"Mem[ |||||||           197M/8G]     Uptime: 00:31:39\n"
-"Swap[                  0K/500M]\n"
-"PID   USER   PRI   NI   VIRT   RES   SHR   S   CPU%   MEM%   TIME+   Command(merged)\n"
-"...\n"
+msgid "dnf install my_stapler\n"
+"dnf update my_pencil\n"
+"dnf remove my_notepad\n"
+"systemctl enable my_stapler\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/gemstones/htop.md:38
+#: ../src/docs/gemstones/markdown-demo-v2.md:44
 #, no-wrap
-msgid "<kbd>F1</kbd>Help   <kbd>F2</kbd>Setup  <kbd>F3</kbd>Search <kbd>F4</kbd>Filter <kbd>F5</kbd>Tree   <kbd>F6</kbd>SortBy <kbd>F7</kbd>Nice   <kbd>F8</kbd>Nice+  <kbd>F9</kbd>Kill   <kbd>F10</kbd>Quit\n"
+msgid "At other times, you need bulleted or numbered lists:\n"
 msgstr ""
 
-#. type: Title ###
-#: ../src/docs/gemstones/htop.md:39
+#. type: Bullet: '- '
+#: ../src/docs/gemstones/markdown-demo-v2.md:49
 #, no-wrap
-msgid "Top Description"
+msgid "I believe you have my stapler\n"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:43
+#. type: Bullet: '- '
+#: ../src/docs/gemstones/markdown-demo-v2.md:49
 #, no-wrap
-msgid "The top 0 and 1 indicate the number of your CPU cores, and the percentage indicates the occupancy rate of a single core (of course, the total occupancy rate of the CPU can also be displayed)\n"
+msgid "Come to think of it, I can't even find my compass\n"
 msgstr ""
 
-#. type: Bullet: '    * '
-#: ../src/docs/gemstones/htop.md:43
+#. type: Bullet: '- '
+#: ../src/docs/gemstones/markdown-demo-v2.md:49
 #, no-wrap
-msgid "The different colors of the progress bar indicate the percentage of different process types:\n"
+msgid "If not, please at least return my pencil\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/gemstones/htop.md:50
+#. type: Bullet: '- '
+#: ../src/docs/gemstones/markdown-demo-v2.md:49
 #, no-wrap
-msgid "        | Color | Description | Names displayed in other styles|\n"
-"        | ---------| ------------|------------|        \n"
-"        | Blue | Percentage of CPU used by low-priority processes | low |\n"
-"        | Green | Percentage of process CPU owned by ordinary users |   |\n"
-"        | Red | Percentage of CPU used by system processes |  sys |\n"
-"        | Cyan | Percentage of CPU consumed by Steal Time | vir |\n"
+msgid "I definitely need it\n"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:53
+#. type: Bullet: '1. '
+#: ../src/docs/gemstones/markdown-demo-v2.md:53
 #, no-wrap
-msgid "Tasks: 22, 46thr, 174 kthr 1 running. In my example, it means that my current machine has 22 tasks, which are divided into 46 threads, of which only 1 process is in a running state, \"kthr\" indicates how many kernel threads there are. \n"
+msgid "I didn't know you needed it\n"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:53
+#. type: Bullet: '2. '
+#: ../src/docs/gemstones/markdown-demo-v2.md:53
 #, no-wrap
-msgid "Mem information. Similarly, use different colors to distinguish:\n"
+msgid "Here is your broken pencil\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/gemstones/htop.md:60
+#. type: Bullet: '3. '
+#: ../src/docs/gemstones/markdown-demo-v2.md:53
 #, no-wrap
-msgid "   | Color | Description | Names displayed in other styles |\n"
-"   |----|----|----|\n"
-"   | Blue |Percentage of memory consumed by the buffer | buffers |\n"
-"   | Green |Percentage of memory consumed by the memory area| used |\n"
-"   | Yellow/Orange |Percentage of memory consumed by the cache area| cache |\n"
-"   | Magenta | Percentage of memory occupied by shared memory area | shared | \n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:62
-#, no-wrap
-msgid "Swap information. \n"
+msgid "Sharpening it is useless\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/gemstones/htop.md:67
+#: ../src/docs/gemstones/markdown-demo-v2.md:55
 #, no-wrap
-msgid "   | Color | Description | Names displayed in other styles |\n"
-"   |----|----|----|\n"
-"   | Green | Percentage of swap consumed by the swap area | used |\n"
-"   | Yellow/Orange | Percentage of swap consumed by the cache area | cache |\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:70
-#, no-wrap
-msgid "Load average, the three values ​​respectively represent the average load of the system in the last 1 minute, the last 5 minutes, and the last 15 minutes\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:70
-#, no-wrap
-msgid "Uptime, which means the running time after booting\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/gemstones/htop.md:71
-#, no-wrap
-msgid "Process information description"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:85
-#, no-wrap
-msgid "**PID - Process ID number**\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:85
-#, no-wrap
-msgid "USER - The owner of the process\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:85
-#, no-wrap
-msgid "PRI - Display the process priority as seen by the Linux kernel\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:85
-#, no-wrap
-msgid "NI - Displays the process priority of reset by normal user or root super user\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:85
-#, no-wrap
-msgid "VIRT - Virtual memory being consumed by a process\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:85
-#, no-wrap
-msgid "**RES - Physical memory being consumed by a process**\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:85
-#, no-wrap
-msgid "SHR - Shared memory being consumed by a process\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:85
-#, no-wrap
-msgid "S - The current state of the process, there is a special state to pay attention to! That is Z (zombie process). When there are a large number of zombie processes in the machine, it will affect the performance of the machine.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:85
-#, no-wrap
-msgid "**CPU% - Percentage of CPU consumed by each process**\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:85
-#, no-wrap
-msgid "MEM% - Percentage of memory consumed by each process\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:85
-#, no-wrap
-msgid "TIME+ - Shows the running time since the process was started\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:85
-#, no-wrap
-msgid "Command - The command corresponding to the process\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/gemstones/htop.md:86
-#, no-wrap
-msgid "Shortcut key description"
+msgid "And you could need an admonition:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/gemstones/htop.md:88
+#: ../src/docs/gemstones/markdown-demo-v2.md:57
+#: ../src/docs/guides/custom-linux-kernel.md:51
+#: ../src/docs/guides/custom-linux-kernel.md:197
 #, no-wrap
-msgid "In the interactive interface, press the <kbd>F1</kbd> button to see the corresponding shortcut key description.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:91
-#, no-wrap
-msgid "The up, down, left, and right direction keys can scroll through the interactive interface, and <kbd>space</kbd> can mark the corresponding process, which is marked in yellow.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/htop.md:91
-#, no-wrap
-msgid "The <kbd>N</kbd> button, the <kbd>P</kbd> button, the <kbd>M</kbd> button and the <kbd>T</kbd> button are respectively PID, CPU%, MEM%, TIME+ is used for sorting. Of course, you can also use the mouse to click to sort in ascending or descending order of a certain field.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/gemstones/htop.md:92
-#, no-wrap
-msgid "Other commonly used"
+msgid "!!! TIP\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/gemstones/htop.md:94
+#: ../src/docs/gemstones/markdown-demo-v2.md:59
 #, no-wrap
-msgid "To manage the process, use the <kbd>F9</kbd> button to send different signals to the process. The list of signals can be found in `kill -l`. The more commonly used ones are:\n"
+msgid "    Pencils and staplers are really old-school.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/gemstones/htop.md:100
+#: ../src/docs/gemstones/markdown-demo-v2.md:61
 #, no-wrap
-msgid "| Signal | Description |\n"
-"|---|---|\n"
-"|1 | Let the process shut down immediately, and then restart after re-reading the configuration file |\n"
-"|9 | Used to immediately end the running of the program, used to forcibly terminate the process, similar to the forced end in the windows taskbar |\n"
-"|15 | The default signal for the kill command. Sometimes if a problem has occurred in the process and the process cannot be terminated normally with this signal, we will try signal 9 |\n"
-msgstr ""
-
-#. type: Title #
-#: ../src/docs/gemstones/htop.md:101
-#: ../src/docs/gemstones/setup_local_repo.md:49
-#, no-wrap
-msgid "End"
+msgid "More times than not, when a command has multiple options, or you need to list specifics, you might want to use a table to identify things:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/gemstones/htop.md:102
+#: ../src/docs/gemstones/markdown-demo-v2.md:68
 #, no-wrap
-msgid "`htop` is much easier to use than the `top` that comes with the system, it is more intuitive, and it improves daily use greatly. This is why usually the first thing after installing the operating system the author installs it.\n"
+msgid "| Tool     | Use                                         | Additional Information                          |\n"
+"| -------- | ------------------------------------------- | ----------------------------------------------- |\n"
+"| pencil   | writing or printing                         | often replaced with a pen                       |\n"
+"| pen      | writing or printing                         | often replaced with a stylus                    |\n"
+"| stylus   | writing or printing on an electronic device | sometimes replaced by a keyboard                |\n"
+"| keyboard | writing or printing on an electronic device | never replaced - used until full of food crumbs |\n"
+"| notepad  | take notes                                  | substitute for a sometimes-faulty memory        |\n"
 msgstr ""
 
