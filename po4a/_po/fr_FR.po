@@ -13,248 +13,217 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/gemstones_sed_search_replace.pot\n"
-"X-Crowdin-File-ID: 1313\n"
+"X-Crowdin-File: /po4a/po4a/_po/gemstones_setup_local_repo.pot\n"
+"X-Crowdin-File-ID: 1315\n"
 
-#. type: Title ##
-#: ../src/docs/books/admin_guide/13-softwares.md:900
-#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:105
-#: ../src/docs/books/nvchad/template_chadrc.md:352
-#: ../src/docs/gemstones/bash_stub.md:103
-#: ../src/docs/gemstones/perl_search_replace.md:38
-#: ../src/docs/gemstones/sed_search_replace.md:72
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:172
-#: ../src/docs/guides/automation/olivetin.md:142
-#: ../src/docs/guides/cms/dokuwiki_server.md:306
-#: ../src/docs/guides/communications/asterisk_installation.md:261
-#: ../src/docs/guides/containers/lxd_web_servers.md:919
-#: ../src/docs/guides/containers/podman-nextcloud.md:456
-#: ../src/docs/guides/contribute/local_docs.md:47
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:322
-#: ../src/docs/guides/contribute/navigation.md:129
-#: ../src/docs/guides/contribute/rockydocs_formatting.md:458
-#: ../src/docs/guides/database/database_mariadb-server.md:197
-#: ../src/docs/guides/desktop/kde_installation.md:105
-#: ../src/docs/guides/desktop/mate_installation.md:200
-#: ../src/docs/guides/desktop/xfce_installation.md:218
-#: ../src/docs/guides/editors/micro.md:79
-#: ../src/docs/guides/email/postfix_reporting.md:254
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:270
-#: ../src/docs/guides/file_sharing/sftp.md:765
-#: ../src/docs/guides/proxies/pound.md:460
-#: ../src/docs/guides/security/dnf_automatic.md:119
-#: ../src/docs/guides/security/enabling_iptables_firewall.md:54
-#: ../src/docs/guides/security/firewalld-beginners.md:427
-#: ../src/docs/guides/security/firewalld.md:477
-#: ../src/docs/guides/security/pam.md:137
-#: ../src/docs/guides/security/ssl_keys_https.md:136
-#: ../src/docs/guides/virtualization/vbox-rocky.md:160
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:147
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:235
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:157
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:91
-#: ../src/docs/guides/web/mod_SSL_apache.md:171
-#: ../src/docs/guides/web/nginx-mainline.md:352
-#: ../src/docs/guides/web/nginx-multisite.md:359
+#. type: Yaml Front Matter Hash Value: contributors
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part3.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:1
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:1
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:1
+#: ../src/docs/books/learning_bash/00-toc.md:1
+#: ../src/docs/books/learning_bash/01-first-script.md:1
+#: ../src/docs/books/learning_bash/02-using-variables.md:1
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:1
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:1
+#: ../src/docs/books/learning_bash/05-tests.md:1
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:1
+#: ../src/docs/books/learning_bash/07-loops.md:1
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:1
+#: ../src/docs/books/learning_rsync/01_rsync_overview.md:1
+#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:1
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:1
+#: ../src/docs/books/learning_rsync/05_rsync_authentication-free_login.md:1
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:1
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:1
+#: ../src/docs/books/nvchad/additional_software.md:1
+#: ../src/docs/books/nvchad/index.md:1
+#: ../src/docs/books/nvchad/install_nvchad.md:1
+#: ../src/docs/books/nvchad/install_nvim.md:1
+#: ../src/docs/books/nvchad/nerd_fonts.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:1
+#: ../src/docs/books/nvchad/plugins/index.md:1
+#: ../src/docs/books/nvchad/plugins/md_preview.md:1
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:1
+#: ../src/docs/books/nvchad/template_chadrc.md:1
+#: ../src/docs/gemstones/RL9_network_manager.md:1
+#: ../src/docs/gemstones/htop.md:1 ../src/docs/gemstones/mtr.md:1
+#: ../src/docs/gemstones/setup_local_repo.md:1
+#: ../src/docs/gemstones/string_color.md:1
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:1
+#: ../src/docs/gemstones/view_kernel_conf.md:1
+#: ../src/docs/guides/automation/anacron.md:1
+#: ../src/docs/guides/automation/cronie.md:1
+#: ../src/docs/guides/automation/olivetin.md:1
+#: ../src/docs/guides/communications/asterisk_installation.md:1
+#: ../src/docs/guides/containers/lxd_web_servers.md:1
+#: ../src/docs/guides/contribute/local_docs.md:1
+#: ../src/docs/guides/contribute/mkdocs_venv.md:1
+#: ../src/docs/guides/contribute/style_guide.md:1
+#: ../src/docs/guides/editors/micro.md:1
+#: ../src/docs/guides/file_sharing/glusterfs.md:1
+#: ../src/docs/guides/installation.md:1
+#: ../src/docs/guides/security/dnf_automatic.md:1
+#: ../src/docs/guides/security/firewalld-beginners.md:1
+#: ../src/docs/guides/web/nginx-multisite.md:1 ../src/docs/guides/web/php.md:1
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:1
 #, no-wrap
-msgid "Conclusion"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/gemstones/perl_search_replace.md:27
-#: ../src/docs/gemstones/sed_search_replace.md:37
-#, no-wrap
-msgid "Options Explained"
-msgstr ""
-
-#. type: Yaml Front Matter Hash Value: title
-#: ../src/docs/gemstones/sed_search_replace.md:1
-#, no-wrap
-msgid "sed - Search and Replace"
+msgid "Steven Spencer"
 msgstr ""
 
 #. type: Title #
-#: ../src/docs/gemstones/sed_search_replace.md:6
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
+#: ../src/docs/books/learning_ansible/05-deployments.md:31
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/00-toc.md:13
+#: ../src/docs/books/nvchad/index.md:12
+#: ../src/docs/books/nvchad/plugins/index.md:14
+#: ../src/docs/books/nvchad/plugins/md_preview.md:14
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
+#: ../src/docs/books/nvchad/vale_nvchad.md:12
+#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
+#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
+#: ../src/docs/gemstones/string_color.md:11
+#: ../src/docs/guides/automation/cron_jobs_howto.md:25
+#: ../src/docs/guides/automation/olivetin.md:14
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
+#: ../src/docs/guides/backup/rsnapshot_backup.md:22
+#: ../src/docs/guides/backup/rsync_ssh.md:24
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
+#: ../src/docs/guides/cms/dokuwiki_server.md:23
+#: ../src/docs/guides/containers/lxd_web_servers.md:10
+#: ../src/docs/guides/containers/podman-nextcloud.md:13
+#: ../src/docs/guides/contribute/local_docs.md:11
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
+#: ../src/docs/guides/contribute/mkdocs_venv.md:14
+#: ../src/docs/guides/contribute/style_guide.md:14
+#: ../src/docs/guides/database/database_mariadb-server.md:21
+#: ../src/docs/guides/desktop/kde_installation.md:11
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
+#: ../src/docs/guides/editors/micro.md:14
+#: ../src/docs/guides/email/postfix_reporting.md:22
+#: ../src/docs/guides/file_sharing/glusterfs.md:16
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
+#: ../src/docs/guides/file_sharing/sftp.md:16
+#: ../src/docs/guides/migrate2rocky.md:18
+#: ../src/docs/guides/network/basic_network_configuration.md:12
+#: ../src/docs/guides/network/librenms_monitoring_server.md:13
+#: ../src/docs/guides/package_management/index.md:1
+#: ../src/docs/guides/package_management/index.md:5
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
+#: ../src/docs/guides/proxies/pound.md:17
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
+#: ../src/docs/guides/security/firewalld-beginners.md:10
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
+#: ../src/docs/guides/security/ssh_public_private_keys.md:21
+#: ../src/docs/guides/security/ssl_keys_https.md:22
+#: ../src/docs/guides/virtualization/vbox-rocky.md:13
+#: ../src/docs/guides/web/apache-sites-enabled.md:25
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
+#: ../src/docs/guides/web/nginx-mainline.md:13
+#: ../src/docs/guides/web/nginx-multisite.md:14
+#: ../src/docs/labs/security/introduction.md:1
+#: ../src/docs/labs/security/introduction.md:5
 #, no-wrap
-msgid "`sed` - Search and Replace"
+msgid "Introduction"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/nvchad/plugins/index.md:22
+#: ../src/docs/gemstones/setup_local_repo.md:12
+#: ../src/docs/guides/contribute/mkdocs_venv.md:30
+#, no-wrap
+msgid "Requirements"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/gemstones/htop.md:101
+#: ../src/docs/gemstones/setup_local_repo.md:49
+#, no-wrap
+msgid "End"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
+#: ../src/docs/gemstones/setup_local_repo.md:1
+#, no-wrap
+msgid "Setup Local Rocky Repositories"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/gemstones/sed_search_replace.md:9
+#: ../src/docs/gemstones/setup_local_repo.md:11
 #, no-wrap
-msgid "`sed` is a command that stands for \"stream editor.\"\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/gemstones/sed_search_replace.md:10
-#: ../src/docs/guides/proxies/pound.md:53
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:60
-#, no-wrap
-msgid "Conventions"
+msgid "Sometimes you need to have Rocky repositories local for building virtual machines, lab environments, etc.  It can also help save bandwidth if that is a concern.  This article will walk you through using `rsync` to copy Rocky repositories to a local web server.  Building a web server is out of the scope of this short article.\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/gemstones/sed_search_replace.md:14
+#: ../src/docs/gemstones/setup_local_repo.md:15
 #, no-wrap
-msgid "`path`: The actual path. Example: `/var/www/html/`\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/sed_search_replace.md:14
-#, no-wrap
-msgid "`filename`: The actual filename. Example: `index.php`\n"
+msgid "A web server\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/gemstones/sed_search_replace.md:15
+#: ../src/docs/gemstones/setup_local_repo.md:16
 #, no-wrap
-msgid "Using `sed`"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/sed_search_replace.md:18
-#, no-wrap
-msgid "Using `sed` for search and replace is my personal preference because you can use a delimiter of your choice, which makes replacing things like web links with “/” in them very handy. The default examples for in place editing using `sed` show things like this example:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/sed_search_replace.md:20
-#, no-wrap
-msgid "`sed -i 's/search_for/replace_with/g' /path/filename`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/sed_search_replace.md:22
-#, no-wrap
-msgid "But what if you are searching for strings that will contain \"/\" in them? If the forward slash was the only option available as a delimiter, then we would have to escape each forward slash before we could use it in the search. That's where `sed` excels over other tools, because the delimiter is changeable on-the-fly (no need to specify that you are changing it anywhere). As stated, if we are looking for things with \"/\" in them, we can easily do that by changing the delimiter to \"|\". Here's an example of looking for a link using this method:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/sed_search_replace.md:24
-#, no-wrap
-msgid "`sed -i 's|search_for/with_slash|replace_string|g' /path/filename`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/sed_search_replace.md:26
-#, no-wrap
-msgid "You can use any single-byte character for the delimiter with the exception of backslash, newline, and \"s\". For instance, this works too:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/sed_search_replace.md:28
-#, no-wrap
-msgid "`sed -i 'sasearch_forawith_slashareplace_stringag' /path/filename` where \"a\" is the delimiter, and the search and replace still works. For safety, you can specify a backup while searching and replacing, which is handy for making sure the changes you are making with `sed` are what you _really_ want. This gives you a recovery option from the backup file:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/sed_search_replace.md:30
-#, no-wrap
-msgid "`sed -i.bak s|search_for|replacea_with|g /path/filename`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/sed_search_replace.md:32
-#, no-wrap
-msgid "Which will create an unedited version of `filename` called `filename.bak`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/sed_search_replace.md:34
-#, no-wrap
-msgid "You can also use full quotes instead of single quotes if you like:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/sed_search_replace.md:36
-#, no-wrap
-msgid "`sed -i \"s|search_for/with_slash|replace_string|g\" /path/filename`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/sed_search_replace.md:45
-#, no-wrap
-msgid "|Option | Explanation                                                   |\n"
-"|-------|---------------------------------------------------------------|\n"
-"| i     | edit file in place                                            |\n"
-"| i.ext | create a backup with whatever the extension is (ext here)     |\n"
-"| s     | specifies search                                              |\n"
-"| g     | specifies to replace globally, in other words all occurrences |\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/gemstones/sed_search_replace.md:46
-#, no-wrap
-msgid "Multiple files"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/sed_search_replace.md:49
-#, no-wrap
-msgid "Unfortunately, `sed` doesn't have an in-line looping option like `perl`. To loop through multiple files, you would need to combine your `sed` command within a script. Here's an example of doing that.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/sed_search_replace.md:51
-#, no-wrap
-msgid "First, generate a list of files that your script will use, which can be entered at the command line:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/sed_search_replace.md:53
-#, no-wrap
-msgid "`find /var/www/html  -name \"*.php\" > phpfiles.txt`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/sed_search_replace.md:55
-#, no-wrap
-msgid "Next, create a script to use this `phpfiles.txt`:\n"
+msgid "Code"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/gemstones/sed_search_replace.md:56
+#: ../src/docs/gemstones/setup_local_repo.md:18
 #, no-wrap
-msgid "#!/bin/bash\n\n"
-"for file in `cat phpfiles.txt`\n"
-"do\n"
-"        sed -i.bak 's|search_for/with_slash|replace_string|g' $file\n"
-"done\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/gemstones/sed_search_replace.md:65
-#, no-wrap
-msgid "The script loops through all of the files created in `phpfiles.txt`, creates a backup of each file, and executes the search and replace string globally.  Once you have verified that your search and replace has completed successfully and your changes are what you want, you can delete all of the backup files.\n"
+msgid "#!/bin/bash\n"
+"repos_base_dir=\"/web/path\"\n\n"
+"# Start sync if base repo directory exist\n"
+"if [[ -d \"$repos_base_dir\" ]] ; then\n"
+"  # Start Sync\n"
+"  rsync  -avSHP --progress --delete --exclude-from=/opt/scripts/excludes.txt rsync://ord.mirror.rackspace.com/rocky  \"$repos_base_dir\" --delete-excluded\n"
+"  # Download Rocky 8 repository key\n"
+"  if [[ -e /web/path/RPM-GPG-KEY-rockyofficial ]]; then\n"
+"     exit\n"
+"  else\n"
+"      wget -P $repos_base_dir https://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-rockyofficial\n"
+"  fi\n"
+"fi\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/gemstones/sed_search_replace.md:66
+#: ../src/docs/gemstones/setup_local_repo.md:35
 #, no-wrap
-msgid "Other reading and examples"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/sed_search_replace.md:71
-#, no-wrap
-msgid "`sed` [manual page](https://linux.die.net/man/1/sed)\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/sed_search_replace.md:71
-#, no-wrap
-msgid "`sed` [additional examples](https://www.linuxtechi.com/20-sed-command-examples-linux-users/)\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/gemstones/sed_search_replace.md:71
-#, no-wrap
-msgid "`sed` & `awk` [O'Reilly Book](https://www.oreilly.com/library/view/sed-awk/1565922255/)\n"
+msgid "Breakdown"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/gemstones/sed_search_replace.md:74
+#: ../src/docs/gemstones/setup_local_repo.md:38
 #, no-wrap
-msgid "`sed` is a powerful tool and works very well for search and replace functions, particularly where the delimiter needs to be flexible.\n"
+msgid "This simple shell script uses `rsync` to pull repository files from the nearest mirror.  It also utilizes the \"exclude\" option which is defined in a text file in the form of keywords that should not be included.  Excludes are good if you have limited disk space or just do not want everything for whatever reason.  We can use  `*` as a wildcard character.  Be careful using  `*/ng` as it will exclude anything that matches those characters.  An example is below:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/gemstones/setup_local_repo.md:39
+#, no-wrap
+msgid "*/source*\n"
+"*/debug*\n"
+"*/images*\n"
+"*/Devel*\n"
+"8/*\n"
+"8.4-RC1/*\n"
+"8.4-RC1\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/gemstones/setup_local_repo.md:50
+#, no-wrap
+msgid "A simple script that can help save bandwidth or make building out a lab environment a little easier.\n"
 msgstr ""
 
