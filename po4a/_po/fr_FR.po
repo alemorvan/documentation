@@ -13,220 +13,579 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/docs_index.pot\n"
-"X-Crowdin-File-ID: 1365\n"
+"X-Crowdin-File: /po4a/po4a/_po/editors_micro.pot\n"
+"X-Crowdin-File-ID: 1367\n"
 
 #. type: Plain text
-#: ../src/docs/books/admin_guide/06-users.md:308
-#: ../src/docs/books/admin_guide/06-users.md:644
-#: ../src/docs/books/admin_guide/07-file-systems.md:195
-#: ../src/docs/books/disa_stig/disa_stig_part2.md:30
-#: ../src/docs/books/learning_bash/01-first-script.md:46
-#: ../src/docs/books/learning_bash/01-first-script.md:77
-#: ../src/docs/books/learning_bash/02-using-variables.md:185
-#: ../src/docs/books/learning_bash/05-tests.md:63
-#: ../src/docs/books/lxd_server/07-configurations.md:102
-#: ../src/docs/books/nvchad/install_nvchad.md:182
-#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:53
-#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:133
-#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:153
-#: ../src/docs/guides/automation/cron_jobs_howto.md:83
-#: ../src/docs/guides/automation/cron_jobs_howto.md:125
-#: ../src/docs/guides/automation/cron_jobs_howto.md:160
-#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:44
-#: ../src/docs/guides/cms/dokuwiki_server.md:216
-#: ../src/docs/guides/communications/asterisk_installation.md:12
-#: ../src/docs/guides/containers/podman-nextcloud.md:361
-#: ../src/docs/guides/contribute/rockydocs_formatting.md:72
-#: ../src/docs/guides/contribute/rockydocs_formatting.md:350
-#: ../src/docs/guides/desktop/kde_installation.md:16
-#: ../src/docs/guides/file_sharing/sftp.md:54
-#: ../src/docs/guides/file_sharing/sftp.md:129
-#: ../src/docs/guides/file_sharing/sftp.md:321
-#: ../src/docs/guides/proxies/pound.md:62
-#: ../src/docs/guides/proxies/pound.md:418 ../src/docs/index.md:40
-#: ../src/docs/release_notes/9_1.md:16
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:43
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:220
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:271
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:334
+#: ../src/docs/books/admin_guide/05-vi.md:70
+#: ../src/docs/books/admin_guide/05-vi.md:206
+#: ../src/docs/books/admin_guide/05-vi.md:272
+#: ../src/docs/books/admin_guide/06-users.md:36
+#: ../src/docs/books/admin_guide/06-users.md:92
+#: ../src/docs/books/admin_guide/06-users.md:220
+#: ../src/docs/books/admin_guide/06-users.md:350
+#: ../src/docs/books/admin_guide/06-users.md:598
+#: ../src/docs/books/admin_guide/06-users.md:754
+#: ../src/docs/books/admin_guide/06-users.md:818
+#: ../src/docs/books/admin_guide/11-tasks.md:174
+#: ../src/docs/books/admin_guide/12-network.md:158
+#: ../src/docs/books/admin_guide/03-commands.md:516
+#: ../src/docs/books/admin_guide/03-commands.md:693
+#: ../src/docs/books/admin_guide/03-commands.md:1216
+#: ../src/docs/books/admin_guide/03-commands.md:1262
+#: ../src/docs/books/admin_guide/03-commands.md:1297
+#: ../src/docs/books/admin_guide/07-file-systems.md:395
+#: ../src/docs/books/admin_guide/07-file-systems.md:437
+#: ../src/docs/books/admin_guide/07-file-systems.md:447
+#: ../src/docs/books/admin_guide/07-file-systems.md:515
+#: ../src/docs/books/admin_guide/07-file-systems.md:556
+#: ../src/docs/books/admin_guide/07-file-systems.md:627
+#: ../src/docs/books/admin_guide/07-file-systems.md:653
+#: ../src/docs/books/admin_guide/07-file-systems.md:672
+#: ../src/docs/books/admin_guide/07-file-systems.md:676
+#: ../src/docs/books/admin_guide/07-file-systems.md:1019
+#: ../src/docs/books/admin_guide/08-process.md:49
+#: ../src/docs/books/admin_guide/08-process.md:238
+#: ../src/docs/books/admin_guide/09-backups.md:27
+#: ../src/docs/books/admin_guide/09-backups.md:116
+#: ../src/docs/books/admin_guide/09-backups.md:133
+#: ../src/docs/books/admin_guide/09-backups.md:148
+#: ../src/docs/books/admin_guide/09-backups.md:281
+#: ../src/docs/books/admin_guide/09-backups.md:285
+#: ../src/docs/books/admin_guide/09-backups.md:301
+#: ../src/docs/books/admin_guide/09-backups.md:342
+#: ../src/docs/books/admin_guide/09-backups.md:352
+#: ../src/docs/books/admin_guide/09-backups.md:554
+#: ../src/docs/books/admin_guide/09-backups.md:771
+#: ../src/docs/books/admin_guide/10-boot.md:114
+#: ../src/docs/books/admin_guide/10-boot.md:153
+#: ../src/docs/books/admin_guide/10-boot.md:165
+#: ../src/docs/books/admin_guide/13-softwares.md:22
+#: ../src/docs/books/learning_ansible/01-basic.md:51
+#: ../src/docs/books/learning_ansible/01-basic.md:104
+#: ../src/docs/books/learning_ansible/01-basic.md:112
+#: ../src/docs/books/learning_ansible/01-basic.md:328
+#: ../src/docs/books/learning_ansible/01-basic.md:415
+#: ../src/docs/books/learning_ansible/01-basic.md:492
+#: ../src/docs/books/learning_ansible/01-basic.md:633
+#: ../src/docs/books/learning_ansible/01-basic.md:656
+#: ../src/docs/books/learning_ansible/02-advanced.md:34
+#: ../src/docs/books/learning_ansible/02-advanced.md:150
+#: ../src/docs/books/learning_ansible/02-advanced.md:182
+#: ../src/docs/books/learning_ansible/02-advanced.md:269
+#: ../src/docs/books/learning_ansible/02-advanced.md:277
+#: ../src/docs/books/learning_ansible/02-advanced.md:287
+#: ../src/docs/books/learning_ansible/02-advanced.md:293
+#: ../src/docs/books/learning_ansible/02-advanced.md:360
+#: ../src/docs/books/learning_ansible/02-advanced.md:428
+#: ../src/docs/books/learning_ansible/02-advanced.md:601
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:33
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:58
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:77
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:96
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:113
+#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:65
+#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:432
+#: ../src/docs/books/learning_ansible/05-deployments.md:41
+#: ../src/docs/books/learning_ansible/05-deployments.md:124
+#: ../src/docs/books/learning_ansible/05-deployments.md:196
+#: ../src/docs/books/learning_ansible/05-deployments.md:616
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:36
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:40
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:80
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:214
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:32
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:75
+#: ../src/docs/books/learning_bash/02-using-variables.md:153
+#: ../src/docs/books/learning_bash/02-using-variables.md:193
+#: ../src/docs/books/learning_bash/05-tests.md:245
+#: ../src/docs/books/learning_bash/07-loops.md:180
+#: ../src/docs/books/lxd_server/04-firewall.md:80
+#: ../src/docs/books/nvchad/plugins/md_preview.md:140
+#: ../src/docs/books/nvchad/template_chadrc.md:239
+#: ../src/docs/gemstones/https_rsa_keygen.md:34
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:80
+#: ../src/docs/guides/8_6_installation.md:37
+#: ../src/docs/guides/8_6_installation.md:168
+#: ../src/docs/guides/8_6_installation.md:176
+#: ../src/docs/guides/8_6_installation.md:182
+#: ../src/docs/guides/8_6_installation.md:250
+#: ../src/docs/guides/automation/olivetin.md:60
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:307
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:323
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:486
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:533
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:667
+#: ../src/docs/guides/containers/lxd_web_servers.md:35
+#: ../src/docs/guides/containers/lxd_web_servers.md:45
+#: ../src/docs/guides/containers/lxd_web_servers.md:301
+#: ../src/docs/guides/containers/lxd_web_servers.md:352
+#: ../src/docs/guides/containers/lxd_web_servers.md:605
+#: ../src/docs/guides/containers/lxd_web_servers.md:665
+#: ../src/docs/guides/containers/lxd_web_servers.md:737
+#: ../src/docs/guides/containers/lxd_web_servers.md:796
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:53
+#: ../src/docs/guides/contribute/navigation.md:60
+#: ../src/docs/guides/custom-linux-kernel.md:453
+#: ../src/docs/guides/editors/micro.md:30
+#: ../src/docs/guides/file_sharing/glusterfs.md:46
+#: ../src/docs/guides/file_sharing/glusterfs.md:64
+#: ../src/docs/guides/file_sharing/glusterfs.md:102
+#: ../src/docs/guides/file_sharing/glusterfs.md:203
+#: ../src/docs/guides/installation.md:36 ../src/docs/guides/installation.md:175
+#: ../src/docs/guides/installation.md:183
+#: ../src/docs/guides/installation.md:193
+#: ../src/docs/guides/installation.md:266
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
+#: ../src/docs/guides/security/firewalld-beginners.md:89
+#: ../src/docs/guides/security/firewalld-beginners.md:144
+#: ../src/docs/guides/security/firewalld-beginners.md:258
+#: ../src/docs/guides/security/firewalld.md:51
+#: ../src/docs/guides/security/firewalld.md:94
+#: ../src/docs/guides/security/firewalld.md:228
+#: ../src/docs/guides/security/firewalld.md:372
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:72
+#: ../src/docs/guides/security/learning_selinux.md:137
+#: ../src/docs/guides/security/learning_selinux.md:253
+#: ../src/docs/guides/security/learning_selinux.md:356
+#: ../src/docs/guides/virtualization/vbox-rocky.md:27
+#: ../src/docs/guides/web/nginx-mainline.md:30
+#: ../src/docs/guides/web/nginx-mainline.md:99
+#: ../src/docs/guides/web/nginx-mainline.md:141
+#: ../src/docs/guides/web/nginx-mainline.md:254
+#: ../src/docs/guides/web/nginx-mainline.md:333
+#: ../src/docs/guides/web/nginx-multisite.md:73
+#: ../src/docs/guides/web/nginx-multisite.md:233
+#: ../src/docs/guides/web/nginx-multisite.md:292
+#: ../src/docs/guides/web/nginx-multisite.md:302
+#: ../src/docs/guides/web/php.md:33 ../src/docs/guides/web/php.md:76
+#: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
+#: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
+#: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
 #, no-wrap
-msgid "!!! note\n"
+msgid "!!! Note\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/contribute/style_guide.md:25 ../src/docs/index.md:55
+#: ../src/docs/books/admin_guide/13-softwares.md:900
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:105
+#: ../src/docs/books/nvchad/template_chadrc.md:352
+#: ../src/docs/gemstones/bash_stub.md:103
+#: ../src/docs/gemstones/perl_search_replace.md:38
+#: ../src/docs/gemstones/sed_search_replace.md:72
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:172
+#: ../src/docs/guides/automation/olivetin.md:142
+#: ../src/docs/guides/cms/dokuwiki_server.md:306
+#: ../src/docs/guides/communications/asterisk_installation.md:261
+#: ../src/docs/guides/containers/lxd_web_servers.md:919
+#: ../src/docs/guides/containers/podman-nextcloud.md:456
+#: ../src/docs/guides/contribute/local_docs.md:47
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:322
+#: ../src/docs/guides/contribute/navigation.md:129
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:458
+#: ../src/docs/guides/database/database_mariadb-server.md:197
+#: ../src/docs/guides/desktop/kde_installation.md:105
+#: ../src/docs/guides/desktop/mate_installation.md:200
+#: ../src/docs/guides/desktop/xfce_installation.md:218
+#: ../src/docs/guides/editors/micro.md:79
+#: ../src/docs/guides/email/postfix_reporting.md:254
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:270
+#: ../src/docs/guides/file_sharing/sftp.md:765
+#: ../src/docs/guides/proxies/pound.md:460
+#: ../src/docs/guides/security/dnf_automatic.md:119
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:54
+#: ../src/docs/guides/security/firewalld-beginners.md:427
+#: ../src/docs/guides/security/firewalld.md:477
+#: ../src/docs/guides/security/pam.md:137
+#: ../src/docs/guides/security/ssl_keys_https.md:136
+#: ../src/docs/guides/virtualization/vbox-rocky.md:160
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:147
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:235
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:157
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:91
+#: ../src/docs/guides/web/mod_SSL_apache.md:171
+#: ../src/docs/guides/web/nginx-mainline.md:352
+#: ../src/docs/guides/web/nginx-multisite.md:359
 #, no-wrap
-msgid "Contributing"
+msgid "Conclusion"
 msgstr ""
 
-#. type: YAML Front Matter: title
-#: ../src/docs/index.md:1
+#. type: YAML Front Matter: contributors
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part3.md:1
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:1
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:1
+#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:1
+#: ../src/docs/books/learning_bash/00-toc.md:1
+#: ../src/docs/books/learning_bash/01-first-script.md:1
+#: ../src/docs/books/learning_bash/02-using-variables.md:1
+#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:1
+#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:1
+#: ../src/docs/books/learning_bash/05-tests.md:1
+#: ../src/docs/books/learning_bash/06-conditional-structures.md:1
+#: ../src/docs/books/learning_bash/07-loops.md:1
+#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:1
+#: ../src/docs/books/learning_rsync/01_rsync_overview.md:1
+#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:1
+#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:1
+#: ../src/docs/books/learning_rsync/05_rsync_authentication-free_login.md:1
+#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:1
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:1
+#: ../src/docs/books/nvchad/additional_software.md:1
+#: ../src/docs/books/nvchad/index.md:1
+#: ../src/docs/books/nvchad/install_nvchad.md:1
+#: ../src/docs/books/nvchad/install_nvim.md:1
+#: ../src/docs/books/nvchad/nerd_fonts.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:1
+#: ../src/docs/books/nvchad/plugins/index.md:1
+#: ../src/docs/books/nvchad/plugins/md_preview.md:1
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:1
+#: ../src/docs/books/nvchad/template_chadrc.md:1
+#: ../src/docs/gemstones/RL9_network_manager.md:1
+#: ../src/docs/gemstones/htop.md:1 ../src/docs/gemstones/mtr.md:1
+#: ../src/docs/gemstones/setup_local_repo.md:1
+#: ../src/docs/gemstones/string_color.md:1
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:1
+#: ../src/docs/gemstones/view_kernel_conf.md:1
+#: ../src/docs/guides/automation/anacron.md:1
+#: ../src/docs/guides/automation/cronie.md:1
+#: ../src/docs/guides/automation/olivetin.md:1
+#: ../src/docs/guides/communications/asterisk_installation.md:1
+#: ../src/docs/guides/containers/lxd_web_servers.md:1
+#: ../src/docs/guides/contribute/local_docs.md:1
+#: ../src/docs/guides/contribute/mkdocs_venv.md:1
+#: ../src/docs/guides/contribute/style_guide.md:1
+#: ../src/docs/guides/editors/micro.md:1
+#: ../src/docs/guides/file_sharing/glusterfs.md:1
+#: ../src/docs/guides/installation.md:1
+#: ../src/docs/guides/security/dnf_automatic.md:1
+#: ../src/docs/guides/security/firewalld-beginners.md:1
+#: ../src/docs/guides/web/nginx-multisite.md:1 ../src/docs/guides/web/php.md:1
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:1
 #, no-wrap
-msgid "Home"
+msgid "Steven Spencer"
 msgstr ""
 
 #. type: Title #
-#: ../src/docs/index.md:5
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
+#: ../src/docs/books/learning_ansible/05-deployments.md:31
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/00-toc.md:13
+#: ../src/docs/books/nvchad/index.md:12
+#: ../src/docs/books/nvchad/plugins/index.md:14
+#: ../src/docs/books/nvchad/plugins/md_preview.md:14
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
+#: ../src/docs/books/nvchad/vale_nvchad.md:12
+#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
+#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
+#: ../src/docs/gemstones/string_color.md:11
+#: ../src/docs/guides/automation/cron_jobs_howto.md:25
+#: ../src/docs/guides/automation/olivetin.md:14
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
+#: ../src/docs/guides/backup/rsnapshot_backup.md:22
+#: ../src/docs/guides/backup/rsync_ssh.md:24
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
+#: ../src/docs/guides/cms/dokuwiki_server.md:23
+#: ../src/docs/guides/containers/lxd_web_servers.md:10
+#: ../src/docs/guides/containers/podman-nextcloud.md:13
+#: ../src/docs/guides/contribute/local_docs.md:11
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
+#: ../src/docs/guides/contribute/mkdocs_venv.md:14
+#: ../src/docs/guides/contribute/style_guide.md:14
+#: ../src/docs/guides/database/database_mariadb-server.md:21
+#: ../src/docs/guides/desktop/kde_installation.md:11
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
+#: ../src/docs/guides/editors/micro.md:14
+#: ../src/docs/guides/email/postfix_reporting.md:22
+#: ../src/docs/guides/file_sharing/glusterfs.md:16
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
+#: ../src/docs/guides/file_sharing/sftp.md:16
+#: ../src/docs/guides/migrate2rocky.md:18
+#: ../src/docs/guides/network/basic_network_configuration.md:12
+#: ../src/docs/guides/network/librenms_monitoring_server.md:13
+#: ../src/docs/guides/package_management/index.md:1
+#: ../src/docs/guides/package_management/index.md:5
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
+#: ../src/docs/guides/proxies/pound.md:17
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
+#: ../src/docs/guides/security/firewalld-beginners.md:10
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
+#: ../src/docs/guides/security/ssh_public_private_keys.md:21
+#: ../src/docs/guides/security/ssl_keys_https.md:22
+#: ../src/docs/guides/virtualization/vbox-rocky.md:13
+#: ../src/docs/guides/web/apache-sites-enabled.md:25
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
+#: ../src/docs/guides/web/nginx-mainline.md:13
+#: ../src/docs/guides/web/nginx-multisite.md:14
+#: ../src/docs/labs/security/introduction.md:1
+#: ../src/docs/labs/security/introduction.md:5
 #, no-wrap
-msgid "Rocky Linux Documentation"
+msgid "Introduction"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/index.md:7
+#: ../src/docs/books/lxd_server/30-appendix_a.md:15
+#: ../src/docs/books/nvchad/vale_nvchad.md:16
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:20
+#: ../src/docs/guides/automation/anacron.md:10
+#: ../src/docs/guides/automation/cron_jobs_howto.md:14
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:13
+#: ../src/docs/guides/backup/rsnapshot_backup.md:13
+#: ../src/docs/guides/backup/rsync_ssh.md:12
+#: ../src/docs/guides/communications/asterisk_installation.md:25
+#: ../src/docs/guides/database/database_mariadb-server.md:13
+#: ../src/docs/guides/desktop/kde_installation.md:20
+#: ../src/docs/guides/desktop/mate_installation.md:17
+#: ../src/docs/guides/desktop/xfce_installation.md:17
+#: ../src/docs/guides/editors/micro.md:33
+#: ../src/docs/guides/email/postfix_reporting.md:14
+#: ../src/docs/guides/file_sharing/glusterfs.md:10
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:14
+#: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:14
+#: ../src/docs/guides/network/basic_network_configuration.md:16
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:8
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:14
+#: ../src/docs/guides/security/ssh_public_private_keys.md:14
+#: ../src/docs/guides/security/ssl_keys_https.md:14
+#: ../src/docs/guides/virtualization/vbox-rocky.md:19
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:15
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:15
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:14
+#: ../src/docs/guides/web/mod_SSL_apache.md:14
 #, no-wrap
-msgid "Welcome!"
+msgid "Prerequisites"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/books/nvchad/index.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:1
+#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:1
+#: ../src/docs/books/nvchad/plugins/index.md:1
+#: ../src/docs/books/nvchad/plugins/md_preview.md:1
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:1
+#: ../src/docs/guides/editors/micro.md:1
+#, no-wrap
+msgid "editor"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/editors/micro.md:1
+#, no-wrap
+msgid "editors"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ../src/docs/guides/editors/micro.md:1
+#, no-wrap
+msgid "micro"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/guides/editors/micro.md:12
+#, no-wrap
+msgid "Install micro on Rocky Linux"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/index.md:10
+#: ../src/docs/guides/editors/micro.md:17
 #, no-wrap
-msgid "You've found us! Welcome to the documentation hub for Rocky Linux; we are glad you're here. We have several contributors adding content, and that content is growing all the time. Here you will find documents on how to build Rocky Linux itself, as well as documents on various subjects that are important to the Rocky Linux community. Who makes up that community you ask?\n"
+msgid "*[micro](https://micro-editor.github.io)* is a fantastic little terminal-based text editor that sits between *nano* and *vim* in terms of complexity. It has a simple, easily-recognized workflow with several awesome features:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/editors/micro.md:24
+#, no-wrap
+msgid "All of your usual “Control-C”, ”Control-V”, and “Control-F” commands work as they would in a desktop-based text editor. All keybindings can be re-bound, of course.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/editors/micro.md:24
+#, no-wrap
+msgid "Mouse support — click and drag to select text, double-click to select words, triple-click to select lines.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/editors/micro.md:24
+#, no-wrap
+msgid "Over 75 languages supported with syntax highlighting by default.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/editors/micro.md:24
+#, no-wrap
+msgid "Multiple cursors for when you need to edit multiple lines at a time.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/editors/micro.md:24
+#, no-wrap
+msgid "Includes a plugin system.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/editors/micro.md:24
+#, no-wrap
+msgid "Multiple panes.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/index.md:12
+#: ../src/docs/guides/editors/micro.md:26
 #, no-wrap
-msgid "Well actually, you do.\n"
+msgid "And here’s how it looks in my own terminal:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/index.md:14
+#: ../src/docs/guides/editors/micro.md:28
 #, no-wrap
-msgid "This home page will give you an introduction to the documentation website and how to find your way around — we're confident that you will feel right at home.\n"
+msgid "![A screenshot of the micro text editor](images/micro-text-editor.png)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/editors/micro.md:32
+#, no-wrap
+msgid "    You *can* install micro via a snap app. If you're already using snap on your machine.. I mean... why not? But I prefer to get it straight from the source.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/editors/micro.md:38
+#, no-wrap
+msgid "Any internet-connected Rocky Linux machine or container.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/editors/micro.md:38
+#, no-wrap
+msgid "A basic knowledge of the command line, and a desire to edit your text there.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/editors/micro.md:38
+#, no-wrap
+msgid "Some commands will need to be run as root, or with `sudo`.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/editors/micro.md:39
+#, no-wrap
+msgid "How to Install micro"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/editors/micro.md:42
+#, no-wrap
+msgid "This is maybe the easiest tutorial I’ve written so far, with exactly three commands. First, you make sure that *tar* and *curl* are installed. This should only really be relevant if you’re running a minimal install of Rocky, or running it inside a container.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/editors/micro.md:43
+#, no-wrap
+msgid "sudo dnf install tar curl\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/editors/micro.md:48
+#, no-wrap
+msgid "Next, you’ll need the installer from *micro*’s website. The following command will get the installer, and run it for you in whatever directory you’re working in. I know we don’t normally advise copying and pasting commands from websites, but this one has never given me any trouble.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/editors/micro.md:49
+#, no-wrap
+msgid "curl https://getmic.ro | bash\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/editors/micro.md:54
+#, no-wrap
+msgid "To install the app system-wide (and so you can just type “micro” to open up the app), you can run the script as root inside of `/usr/bin/`. However, if you want to check it out first and be careful about it, you can install the *micro* to any folder you want, and then move the app later with:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/editors/micro.md:55
+#, no-wrap
+msgid "sudo mv micro /usr/bin/\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/editors/micro.md:60
+#, no-wrap
+msgid "And that’s it! Happy text editing.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/editors/micro.md:61
+#, no-wrap
+msgid "The Really Easy Way"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/editors/micro.md:64
+#, no-wrap
+msgid "I created a dead-simple script that basically just runs all of those commands. You can find it in my [Github gists](https://gist.github.com/EzequielBruni/0e29f2c0a63500baf6fe9e8c51c7b02f), and either copy/paste the text to a file on your machine, or download it with `wget`.\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/index.md:15
+#: ../src/docs/guides/editors/micro.md:65
 #, no-wrap
-msgid "Navigating the Site"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/index.md:17
-#, no-wrap
-msgid "Getting Around"
+msgid "Uninstalling micro"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/index.md:20
+#: ../src/docs/guides/editors/micro.md:68
 #, no-wrap
-msgid "Now, you are on the home page of the documentation. If you glance at the top menu (which is always available, including on mobile devices) you can see the main structure showing the top-level sections of the documentation site. If you click on each top menu item (try 'Guides' for example) then on the left side, you will see the list of *sub-sections* for each main section. Guides has many topics of interest.\n"
+msgid "Go to the folder you installed *micro* in and (using your godly root powers as necessary) run:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/editors/micro.md:69
+#, no-wrap
+msgid "rm micro\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/index.md:22
+#: ../src/docs/guides/editors/micro.md:74
 #, no-wrap
-msgid "When you open a document, on the right side you will see a 'Table of contents' with clickable navigation links for that document (for mobile devices try landscape orientation). For long documents, such as the [Release Notes](release_notes/8_8.md), the table of contents allows you to move around the document with ease. If you are reading a long document and want to go back to the top press <kbd>pg up</kbd> and you will see a `Back to top` button appear at the top of the screen.\n"
+msgid "Also, *micro* will leave some configuration files in your home directory (and the home directories of every user who has run it). You can get rid of those with:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/guides/editors/micro.md:75
+#, no-wrap
+msgid "rm -rf /home/[username]/.config/micro\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/index.md:24
+#: ../src/docs/guides/editors/micro.md:82
 #, no-wrap
-msgid "The main sections of the documentation site are:\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/index.md:31
-#, no-wrap
-msgid "**Guides**: which cover specific ways to set up and use Rocky Linux.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/index.md:31
-#, no-wrap
-msgid "**Books**: are more detailed information based around a specific area.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/index.md:31
-#, no-wrap
-msgid "**Labs**: it is 'back to school', but these tutorials you will enjoy doing!\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/index.md:31
-#, no-wrap
-msgid "**Gemstones**: share some common script or command usage tips here.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/index.md:31
-#, no-wrap
-msgid "**Release Notes**: covers Rocky Linux release notes and version update information.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/index.md:31
-#, no-wrap
-msgid "**Rocky Linux**: official website home page jump link.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/index.md:32
-#, no-wrap
-msgid "Multiple Languages"
+msgid "If you want a full guide to using *micro*, check out the [main website](https://micro-editor.github.io), and the documentation in the [Github repo](https://github.com/zyedidia/micro/tree/master/runtime/help). You can also press “Control-G” to open the main help file inside of the app itself.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/index.md:35
+#: ../src/docs/guides/editors/micro.md:84
 #, no-wrap
-msgid "Not everyone has English as their first language! At Rocky Linux we want to make the documentation site as accessible as possible to everyone —  *translation into different languages is an important part of that*. If you click on the (common symbol) language selector on the top menu you will see the languages the website is available in. There are two parts to this:\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/index.md:38
-#, no-wrap
-msgid "Website interface localisation: if you choose another language, for example Français, you will note that the interface, for example the 'Next' and 'Previous' navigators, will be localised.\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ../src/docs/index.md:38
-#, no-wrap
-msgid "Content: translating content is an ongoing (significant) task. Not all content is translated into all languages yet. Any pages that have been translated (into the language selected) will be seen in the chosen language, those that have not will fall back to the default language English. If you want to contribute to the community through translations the documentation team would love to hear from you — see below for details.\n"
+msgid "*micro* probably won’t meet the needs of those who have dedicated themselves to the *vim* or *emacs* experience, but it’s perfect for people like me. I’ve always wanted that old Sublime Text experience in the terminal, and now I have something *really* close.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/index.md:42
+#: ../src/docs/guides/editors/micro.md:85
 #, no-wrap
-msgid "    Not all functionality may be available in all languages, this is a limitation of the underlying MkDocs modules available.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/index.md:43
-#, no-wrap
-msgid "Using Search"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/index.md:46
-#, no-wrap
-msgid "If you want to quickly find specific information or documents, the documentation site has full-text search capability. Start typing in the 'Search' entry field in the top menu bar and the site will return drill down search results.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/index.md:48
-#, no-wrap
-msgid "To open a page in the search results click (or tap on mobile) on the desired page in the list displayed.\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/index.md:49
-#, no-wrap
-msgid "First Time"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/index.md:52
-#, no-wrap
-msgid "If this is your first time visiting the Rocky Linux Documentation site then likely you are new to Rocky Linux and you are itching to install it! No problem, jump on over to the [Installing Rocky Linux](guides/installation.md) page for detailed instructions.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/index.md:54
-#, no-wrap
-msgid "If you get stuck and have a question the Rocky Linux community is there to help. Visit the [community forum](https://forums.rockylinux.org) and you can search for solutions or post your own questions to the community.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/index.md:57
-#, no-wrap
-msgid "Did you find something missing? Did you find an error? Are you wondering how to create a document of your own, or how to fix things here? Remember how we said that *you* were the Rocky community? That means that *you* are important to us and we want you to join us, if you like, and help make this documentation better. If you are interested in this, head over to our [Contribution Guide](https://github.com/rocky-linux/documentation/blob/main/README.md) to find out how you can do that!\n"
+msgid "Try it out, see if it works for you.\n"
 msgstr ""
 
