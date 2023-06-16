@@ -13,430 +13,1636 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/mirror_management_add_mirror_manager.pot\n"
-"X-Crowdin-File-ID: 1453\n"
+"X-Crowdin-File: /po4a/po4a/_po/network_basic_network_configuration.pot\n"
+"X-Crowdin-File-ID: 1455\n"
+
+#. type: Title #
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
+#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
+#: ../src/docs/books/learning_ansible/05-deployments.md:31
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
+#: ../src/docs/books/lxd_server/00-toc.md:1
+#: ../src/docs/books/lxd_server/00-toc.md:13
+#: ../src/docs/books/nvchad/index.md:12
+#: ../src/docs/books/nvchad/plugins/index.md:14
+#: ../src/docs/books/nvchad/plugins/md_preview.md:14
+#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
+#: ../src/docs/books/nvchad/vale_nvchad.md:12
+#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
+#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
+#: ../src/docs/gemstones/string_color.md:11
+#: ../src/docs/guides/automation/cron_jobs_howto.md:25
+#: ../src/docs/guides/automation/olivetin.md:14
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
+#: ../src/docs/guides/backup/rsnapshot_backup.md:22
+#: ../src/docs/guides/backup/rsync_ssh.md:24
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
+#: ../src/docs/guides/cms/dokuwiki_server.md:23
+#: ../src/docs/guides/containers/lxd_web_servers.md:10
+#: ../src/docs/guides/containers/podman-nextcloud.md:13
+#: ../src/docs/guides/contribute/local_docs.md:11
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
+#: ../src/docs/guides/contribute/mkdocs_venv.md:14
+#: ../src/docs/guides/contribute/style_guide.md:14
+#: ../src/docs/guides/database/database_mariadb-server.md:21
+#: ../src/docs/guides/desktop/kde_installation.md:11
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
+#: ../src/docs/guides/editors/micro.md:14
+#: ../src/docs/guides/email/postfix_reporting.md:22
+#: ../src/docs/guides/file_sharing/glusterfs.md:16
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
+#: ../src/docs/guides/file_sharing/sftp.md:16
+#: ../src/docs/guides/migrate2rocky.md:18
+#: ../src/docs/guides/network/basic_network_configuration.md:12
+#: ../src/docs/guides/network/librenms_monitoring_server.md:13
+#: ../src/docs/guides/package_management/index.md:1
+#: ../src/docs/guides/package_management/index.md:5
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
+#: ../src/docs/guides/proxies/pound.md:17
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
+#: ../src/docs/guides/security/firewalld-beginners.md:10
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
+#: ../src/docs/guides/security/ssh_public_private_keys.md:21
+#: ../src/docs/guides/security/ssl_keys_https.md:22
+#: ../src/docs/guides/virtualization/vbox-rocky.md:13
+#: ../src/docs/guides/web/apache-sites-enabled.md:25
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
+#: ../src/docs/guides/web/nginx-mainline.md:13
+#: ../src/docs/guides/web/nginx-multisite.md:14
+#: ../src/docs/labs/security/introduction.md:1
+#: ../src/docs/labs/security/introduction.md:5
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/lxd_server/30-appendix_a.md:15
+#: ../src/docs/books/nvchad/vale_nvchad.md:16
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:20
+#: ../src/docs/guides/automation/anacron.md:10
+#: ../src/docs/guides/automation/cron_jobs_howto.md:14
+#: ../src/docs/guides/backup/mirroring_lsyncd.md:13
+#: ../src/docs/guides/backup/rsnapshot_backup.md:13
+#: ../src/docs/guides/backup/rsync_ssh.md:12
+#: ../src/docs/guides/communications/asterisk_installation.md:25
+#: ../src/docs/guides/database/database_mariadb-server.md:13
+#: ../src/docs/guides/desktop/kde_installation.md:20
+#: ../src/docs/guides/desktop/mate_installation.md:17
+#: ../src/docs/guides/desktop/xfce_installation.md:17
+#: ../src/docs/guides/editors/micro.md:33
+#: ../src/docs/guides/email/postfix_reporting.md:14
+#: ../src/docs/guides/file_sharing/glusterfs.md:10
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:14
+#: ../src/docs/guides/interoperability/import_rocky_to_wsl.md:14
+#: ../src/docs/guides/network/basic_network_configuration.md:16
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:8
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:14
+#: ../src/docs/guides/security/ssh_public_private_keys.md:14
+#: ../src/docs/guides/security/ssl_keys_https.md:14
+#: ../src/docs/guides/virtualization/vbox-rocky.md:19
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:15
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:15
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:14
+#: ../src/docs/guides/web/mod_SSL_apache.md:14
+#, no-wrap
+msgid "Prerequisites"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:23
+#: ../src/docs/guides/desktop/xfce_installation.md:23
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:237
+#: ../src/docs/guides/network/basic_network_configuration.md:23
+#, no-wrap
+msgid "=== \"9\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/desktop/mate_installation.md:147
+#: ../src/docs/guides/desktop/xfce_installation.md:99
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:411
+#: ../src/docs/guides/network/basic_network_configuration.md:359
+#, no-wrap
+msgid "=== \"8\"\n"
+msgstr ""
 
 #. type: YAML Front Matter: contributors
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:1
+#: ../src/docs/guides/network/basic_network_configuration.md:1
 #, no-wrap
-msgid "Amin Vakil, Steven Spencer"
+msgid "Steven Spencer, Hayden Young"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/network/basic_network_configuration.md:1
+#, no-wrap
+msgid "networking"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/network/basic_network_configuration.md:1
+#, no-wrap
+msgid "configuration"
+msgstr ""
+
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/network/basic_network_configuration.md:1
+#: ../src/docs/guides/network/librenms_monitoring_server.md:1
+#, no-wrap
+msgid "network"
 msgstr ""
 
 #. type: YAML Front Matter: title
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:1
+#: ../src/docs/guides/network/basic_network_configuration.md:1
 #, no-wrap
-msgid "Adding a Rocky Mirror"
-msgstr ""
-
-#. type: Title #
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:6
-#, no-wrap
-msgid "Adding a public mirror to Rocky's mirror manager"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:8
-#, no-wrap
-msgid "Minimal requirements for public mirrors"
+msgid "Network Configuration"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:11
+#: ../src/docs/guides/network/basic_network_configuration.md:15
 #, no-wrap
-msgid "We always welcome new public mirrors. But they should be well maintained and hosted in a 24/7 data center like environment. Available bandwidth should be at least 1 GBit/s. We prefer mirrors offering dual-stack (IPv4 & IPv6). Please do not submit mirrors configured using dynamic DNS. If you are offering a mirror in a region that has only few mirrors, we will also accept slower speeds.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:13
-#, no-wrap
-msgid "Please do not submit mirrors which are hosted in a Anycast-CDN like Cloudflare, etc. as this can lead to sub-optimal performance with the selection of fastest mirror in `dnf`.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:15
-#, no-wrap
-msgid "Please note that we are not allowed to accept public mirrors in countries subject to US export regulations. You can find a list of those countries here: [https://www.bis.doc.gov/index.php/policy-guidance/country-guidance/sanctioned-destinations](https://www.bis.doc.gov/index.php/policy-guidance/country-guidance/sanctioned-destinations)\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:17
-#, no-wrap
-msgid "As of this writing (late 2022), storage space requirements for mirroring all current and past Rocky Linux releases is about 2 TB.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:20
-#, no-wrap
-msgid "Our master mirror is `rsync://msync.rockylinux.org/rocky/mirror/pub/rocky/`\n"
-"For your first synchronization use a mirror near to you. You can find all official mirrors here: https://mirrors.rockylinux.org\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:22
-#, no-wrap
-msgid "Please note that we might restrict access to the official master mirror to official public mirrors in the future. So please consider `rsyncing` from a public mirror close to you if you are running a private mirror. Also local mirrors might be faster to sync from.\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:23
-#, no-wrap
-msgid "Setting up your mirror"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:26
-#, no-wrap
-msgid "Please set up a cron job to synchronize your mirror periodically and let it run around 6 times a day. But be sure to sync off the hour to help distribute the load over time. If you only check against changes of `fullfiletimelist-rocky` and only do a full sync if this file has changed you can synchronize every hour.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:28
-#, no-wrap
-msgid "Here are some crontab examples for you:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:29
-#, no-wrap
-msgid "#This will synchronize your mirror at 0:50, 4:50, 8:50, 12:50, 16:50, 20:50\n"
-"50 */6  * * * /path/to/your/rocky-rsync-mirror.sh > /dev/null 2>&1\n\n"
-"#This will synchronize your mirror at 2:25, 6:25, 10:25, 14:25, 18:25, 22:25\n"
-"25 2,6,10,14,18,22 * * * /path/to/your/rocky-rsync-mirror.sh > /dev/null 2>&1\n\n"
-"#This will synchronize your mirror every hour at 15 minutes past the hour.\n"
-"#Only use if you are using our example script\n"
-"15 * * * * /path/to/your/rocky-rsync-mirror.sh > /dev/null 2>&1\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:42
-#, no-wrap
-msgid "For a simple synchronization you can use the following `rsync` command:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:43
-#, no-wrap
-msgid "rsync -aqH --delete source-mirror destination-dir\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:47
-#, no-wrap
-msgid "Consider using a locking mechanism to avoid running more than one `rsync` job simultaneously when we push a new release.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:49
-#, no-wrap
-msgid "You can also use and modify our example script implementing locking and full sync if required. It can be found at [https://github.com/rocky-linux/rocky-tools/blob/main/mirror/mirrorsync.sh](https://github.com/rocky-linux/rocky-tools/blob/main/mirror/mirrorsync.sh).\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:51
-#, no-wrap
-msgid "After your first complete synchronization check that everything is fine with your mirror. Most importantly check all files and dirs got synchronized, your cron job is working properly and your mirror is reachable from the public Internet. Double check your firewall rules! To avoid any problems do not enforce http to https redirection.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:53
-#, no-wrap
-msgid "If you have any questions setting up your mirror join https://chat.rockylinux.org/rocky-linux/channels/infrastructure\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:55
-#, no-wrap
-msgid "When you are done head over to the next section and propose your mirror to become public!\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:56
-#, no-wrap
-msgid "What You Need"
+msgid "You can't do much with a computer these days without network connectivity. Whether you need to update the packages on a server or simply browse external websites from your laptop, you will need network access! This guide aims to provide Rocky Linux users the basic knowledge on setting up network connectivity.\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:58
+#: ../src/docs/guides/network/basic_network_configuration.md:21
+#: ../src/docs/guides/network/basic_network_configuration.md:33
+#: ../src/docs/guides/security/ssh_public_private_keys.md:20
 #, no-wrap
-msgid "An account on https://accounts.rockylinux.org/\n"
+msgid "A certain amount of comfort operating from the command line\n"
 msgstr ""
 
-#. type: Title ##
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:59
+#. type: Bullet: '    * '
+#: ../src/docs/guides/network/basic_network_configuration.md:21
+#: ../src/docs/guides/network/basic_network_configuration.md:33
 #, no-wrap
-msgid "Creating a site"
+msgid "Elevated or administrative privileges on the system (For example root, `sudo` and so on)\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:62
+#. type: Bullet: '    * '
+#: ../src/docs/guides/network/basic_network_configuration.md:21
+#: ../src/docs/guides/network/basic_network_configuration.md:33
 #, no-wrap
-msgid "Rocky uses Fedora's Mirror Manager for organizing community mirrors.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:64
-#, no-wrap
-msgid "Access Rocky's Mirror Manager here: https://mirrors.rockylinux.org/mirrormanager/\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:66
-#, no-wrap
-msgid "After a successful login, your profile will be on the top right. Select the drop down then click \"My sites\".\n"
+msgid "Optional: familiarity with networking concepts\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:68
+#: ../src/docs/guides/network/basic_network_configuration.md:25
 #, no-wrap
-msgid "A new page will load listing all of the sites under the account. The first time it will be empty. Click \"Register a new site\".\n"
+msgid "    ## Network Configuration - Rocky Linux 9\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:70
+#: ../src/docs/guides/network/basic_network_configuration.md:27
 #, no-wrap
-msgid "A new page will load with an important Export Compliance statement to read. Then fill out the following information:\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:78
-#, no-wrap
-msgid "\"Site Name\"\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:78
-#, no-wrap
-msgid "\"Site Password\" - used by `report_mirrors` script, you make this anything you want\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:78
-#, no-wrap
-msgid "\"Organization URL\" - Company/School/Organization URL e.g. https://rockylinux.org/\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:78
-#, no-wrap
-msgid "\"Private\" - Checking this box hides your mirror from public use.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:78
-#, no-wrap
-msgid "\"User active\" - Uncheck this box to temporarily disable this site, it will be removed from public listings.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:78
-#, no-wrap
-msgid "\"All sites can pull from me?\" - Enable all mirror sites to pull from me without explicitly adding them to my list.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:78
-#, no-wrap
-msgid "\"Comments for downstream siteadmins. Please include your synchronization source here to avoid dependency loops.\"\n"
+msgid "    A lot has changed with network configuration as of Rocky Linux 9. One of the major changes is the move from Network-Scripts (still available to install-but effectively deprecated) to the use of Network Manager and key files, rather than `ifcfg` based files. `NetworkManager` as of 9, prioritizes `keyfiles` over the previous `ifcfg` files. Since this is now the default, the act of configuring the network should now take the default as the proper way of doing things, given that other changes over the years have meant the eventual deprecation and removal of older utilities. This guide will attempt to walk you through the use of Network Manager and the latest changes within Rocky Linux 9. \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:80
+#: ../src/docs/guides/network/basic_network_configuration.md:29
 #, no-wrap
-msgid "Upon clicking \"Submit\" you will be returned to the main mirror page.\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:81
-#, no-wrap
-msgid "Configuring the site"
+msgid "    ## Prerequisites\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:84
+#: ../src/docs/guides/network/basic_network_configuration.md:35
+#: ../src/docs/guides/network/basic_network_configuration.md:363
 #, no-wrap
-msgid "From the main mirror page, select the drop down then click \"My sites\".\n"
+msgid "    ## Using NetworkManager service\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:86
+#: ../src/docs/guides/network/basic_network_configuration.md:37
 #, no-wrap
-msgid "The account site page will load and the site should be listed. Click on it to go to the Information Site.\n"
+msgid "    At the user level, the networking stack is managed by `NetworkManager`. This tool runs as a service, and you can check its state with the following command:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:88
+#: ../src/docs/guides/network/basic_network_configuration.md:41
+#: ../src/docs/guides/network/basic_network_configuration.md:369
 #, no-wrap
-msgid "All of the options from the last section are listed again. At the bottom of the page are three new options: Admins, Hosts, and Delete site. Click on the \"Hosts [add]\".\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:89
-#, no-wrap
-msgid "Create new host"
+msgid "    ```bash\n"
+"    systemctl status NetworkManager\n"
+"    ```\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:92
+#: ../src/docs/guides/network/basic_network_configuration.md:43
 #, no-wrap
-msgid "Fill out the following options that are appropriate for the site:\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:105
-#, no-wrap
-msgid "\"Host name\" - required: FQDN of server as seen by a public end user\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:105
-#, no-wrap
-msgid "\"User active\" - Uncheck this box to temporarily disable this host, it will be removed from public listings.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:105
-#, no-wrap
-msgid "\"Country\" - required: 2-letter ISO country code\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:105
-#, no-wrap
-msgid "\"Bandwidth\" - required: integer megabits/sec, how much bandwidth this host can serve\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:105
-#, no-wrap
-msgid "\"Private\" - e.g. not available to the public, an internal private mirror\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:105
-#, no-wrap
-msgid "\"Internet2\" - on Internet2\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:105
-#, no-wrap
-msgid "\"Internet2 clients\" - serves Internet2 clients, even if private\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:105
-#, no-wrap
-msgid "\"ASN - Autonomous System Number, used in BGP routing tables. Only if you are an ISP.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:105
-#, no-wrap
-msgid "\"ASN Clients? - Serve all clients from the same ASN. Used for ISPs, companies, or schools, not personal networks.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:105
-#, no-wrap
-msgid "\"Robot email\" - email address, will receive notice of upstream content updates\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:105
-#, no-wrap
-msgid "\"Comment\" - text, anything else you'd like a public end user to know about your mirror\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:105
-#, no-wrap
-msgid "\"Max connections\" - Maximum parallel download connections per client, suggested via metalinks.\n"
+msgid "    ## Configuration files\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:107
+#: ../src/docs/guides/network/basic_network_configuration.md:45
 #, no-wrap
-msgid "Click \"Create\" and it will redirect back to the Information site for the host.\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:108
-#, no-wrap
-msgid "Update host"
+msgid "    As noted at the beginning, the configuration files by default are now key files. You can see how `NetworkManager` prioritizes these files by running the following command:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:111
+#: ../src/docs/guides/network/basic_network_configuration.md:49
 #, no-wrap
-msgid "At the bottom of the Information site, the option for \"Hosts\" should now display the host title next to it. Click on the name to load the host page. All of the same options from the previous step are listed again. There are new options at the bottom.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:113
-#, no-wrap
-msgid "\"Site-local Netblocks\":  Netblocks are used to try to guide and end user to a site-specific mirror. For example, a university might list their netblocks, and the mirrorlist CGI would return the university-local mirror rather than a country-local mirror. Format is one of 18.0.0.0/255.0.0.0, 18.0.0.0/8, an IPv6 prefix/length, or a DNS hostname. Values must be public IP addresses (no RFC1918 private space addresses). Use only if you are an ISP and/or own a publicly routeable netblock!\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:115
-#, no-wrap
-msgid "\"Peer ASNs\":  Peer ASNs are used to guide an end user on nearby networks to our mirror. For example, a university might list their peer ASNs, and the mirrorlist CGI would return the university-local mirror rather than a country-local mirror. You must be in the MirrorManager administrators group in order to create new entries here.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:117
-#, no-wrap
-msgid "\"Countries Allowed\":  Some mirrors need to restrict themselves to serving only end users from their country. If you're one of these, list the 2-letter ISO code for the countries you will allow end users to be from. The mirrorlist CGI will honor this.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:119
-#, no-wrap
-msgid "\"Categories Carried\":  Hosts carry categories of software. Example Fedora categories include Fedora and Fedora Archive.\n"
+msgid "    ```\n"
+"    NetworkManager --print-config\n"
+"    ```\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:121
+#: ../src/docs/guides/network/basic_network_configuration.md:51
 #, no-wrap
-msgid "Click on the \"[add]\" link under \"Categories Carried\".\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:122
-#, no-wrap
-msgid "Categories Carried"
+msgid "    This gives you output that looks like this:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:125
+#: ../src/docs/guides/network/basic_network_configuration.md:60
 #, no-wrap
-msgid "For the Category, select \"Rocky Linux\" then \"Create\" to load the URL page. Then click \"[add]\" to load the \"Add host category URL\" page. There is one option. Repeat as needed for each of the mirrors supported protocols.\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:127
-#, no-wrap
-msgid "\"URL\" - URL (rsync, https, http) pointing to the top directory\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:132
-#, no-wrap
-msgid "Examples:\n"
-"* `http://rocky.example.com`\n"
-"* `https://rocky.example.com`\n"
-"* `rsync://rocky.example.com`\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:134
-#, no-wrap
-msgid "Wrap up"
+msgid "    ```\n"
+"    [main]\n"
+"    # plugins=keyfile,ifcfg-rh\n"
+"    # rc-manager=auto\n"
+"    # auth-polkit=true\n"
+"    # iwd-config-path=\n"
+"    dhcp=dhclient\n"
+"    configure-and-quit=no\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/mirror_management/add_mirror_manager.md:136
+#: ../src/docs/guides/network/basic_network_configuration.md:64
 #, no-wrap
-msgid "Once the information is filled out, the site should appear on the mirror list as soon as the next mirror refresh occurs.\n"
+msgid "    [logging]\n"
+"    # backend=journal\n"
+"    # audit=false\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:67
+#, no-wrap
+msgid "    [device]\n"
+"    # wifi.backend=wpa_supplicant\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:70
+#, no-wrap
+msgid "    # no-auto-default file \"/var/lib/NetworkManager/no-auto-default.state\"\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:72
+#, no-wrap
+msgid "    Note at the top of the configuration file the reference to `keyfile` followed by `ifcfg-rh`. This means that `keyfile` is the default. Any time you run any of the `NetworkManager` tools to configure an interface (example: `nmcli` or `nmtui`), it will automatically build or update key files.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:74
+#, no-wrap
+msgid "    !!! tip \"Configuration Storage Location\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:77
+#, no-wrap
+msgid "        In Rocky Linux 8, the storage location for network configuration was in `/etc/sysconfig/Network-Scripts/`.\n"
+"        With Rocky Linux 9, the new default storage location for the key files is in `/etc/NetworkManager/system-connections`. \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:79
+#, no-wrap
+msgid "    The primary (but not the only) utility used for configuring a network interface is the `nmtui` command. This can also be done with the `nmcli` command, but is much less intuitive. We can show the interface as it is currently configured using `nmcli` with: \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:101
+#, no-wrap
+msgid "    ```\n"
+"    nmcli device show enp0s3\n"
+"    GENERAL.DEVICE:                         enp0s3\n"
+"    GENERAL.TYPE:                           ethernet\n"
+"    GENERAL.HWADDR:                         08:00:27:BA:CE:88\n"
+"    GENERAL.MTU:                            1500\n"
+"    GENERAL.STATE:                          100 (connected)\n"
+"    GENERAL.CONNECTION:                     enp0s3\n"
+"    GENERAL.CON-PATH:                       /org/freedesktop/NetworkManager/ActiveConnection/1\n"
+"    WIRED-PROPERTIES.CARRIER:               on\n"
+"    IP4.ADDRESS[1]:                         192.168.1.151/24\n"
+"    IP4.GATEWAY:                            192.168.1.1\n"
+"    IP4.ROUTE[1]:                           dst = 192.168.1.0/24, nh = 0.0.0.0, mt = 100\n"
+"    IP4.ROUTE[2]:                           dst = 0.0.0.0/0, nh = 192.168.1.1, mt = 100\n"
+"    IP4.DNS[1]:                             8.8.8.8\n"
+"    IP4.DNS[2]:                             8.8.4.4\n"
+"    IP4.DNS[3]:                             192.168.1.1\n"
+"    IP6.ADDRESS[1]:                         fe80::a00:27ff:feba:ce88/64\n"
+"    IP6.GATEWAY:                            --\n"
+"    IP6.ROUTE[1]:                           dst = fe80::/64, nh = ::, mt = 1024\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:103
+#: ../src/docs/guides/network/basic_network_configuration.md:397
+#, no-wrap
+msgid "    !!! tip \"**Tips:**\"  \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:107
+#, no-wrap
+msgid "        There are a few ways or mechanisms by which systems can be assigned their IP configuration information.\n"
+"        The two most common methods are - **Static IP configuration** scheme and **Dynamic IP configuration** scheme.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:109
+#: ../src/docs/guides/network/basic_network_configuration.md:402
+#, no-wrap
+msgid "        The static IP configuration scheme is very popular on server class systems or networks.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:111
+#, no-wrap
+msgid "        The dynamic IP approach is popular on home and office networks or workstation and desktop class systems in a business environment.  The dynamic scheme usually needs _something_ extra that is locally available and that can supply proper IP configuration information to requesting workstations and desktops. This _something_ is called the Dynamic Host Configuration Protocol (DHCP). On a home network, and even on most business networks, this service is provided by a DHCP Server configured for the purpose. This can be a separate server or part of a router configuration.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:113
+#, no-wrap
+msgid "    ## IP Address\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:115
+#, no-wrap
+msgid "    In the previous section, the displayed configuration for the interface `enp0s3` is generated from the `.ini` file  `/etc/NetworkManager/system-connections/enp0s3.nmconnection`. This shows that the IP4.ADDRESS[1] has been statically configured, rather than dynamically configured via DHCP. If we want to switch this interface back to a dynamically allocated address, the easiest way is to use the `nmtui` command. \n"
+msgstr ""
+
+#. type: Bullet: '    1. '
+#: ../src/docs/guides/network/basic_network_configuration.md:117
+#, no-wrap
+msgid "First, run the `nmtui` command at the command-line which should show you the following\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:119
+#, no-wrap
+msgid "        ![nmtui](images/nmtui_first.png)\n"
+msgstr ""
+
+#. type: Bullet: '    2. '
+#: ../src/docs/guides/network/basic_network_configuration.md:121
+#, no-wrap
+msgid "It's already on the selection we need \"Edit a connection\" so hit the <kbd>TAB</kbd> key so that \"OK\" is highlighted and hit <kbd>ENTER</kbd>\n"
+msgstr ""
+
+#. type: Bullet: '    3. '
+#: ../src/docs/guides/network/basic_network_configuration.md:123
+#, no-wrap
+msgid "This will bring up a screen showing the Ethernet connections on the machine and allow you to choose one. In our case, there is *ONLY* one, so it is already highlighted, we simply need to hit the <kbd>TAB</kbd> key until \"Edit\" is highlighted and then hit <kbd>ENTER</kbd>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:125
+#, no-wrap
+msgid "        ![nmtui_edit](images/nmtui_edit.png)\n"
+msgstr ""
+
+#. type: Bullet: '    4. '
+#: ../src/docs/guides/network/basic_network_configuration.md:127
+#, no-wrap
+msgid "Once we've done this, we will be to the screen that shows our current configuration. What we need to do is switch from \"Manual\" to \"Automatic\" so hit the <kbd>TAB</kbd> key several times until you get to where \"Manual\" is highlighted and then hit <kbd>ENTER</kbd>.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:129
+#, no-wrap
+msgid "        ![nmtui_manual](images/nmtui_manual.png)\n"
+msgstr ""
+
+#. type: Bullet: '    5. '
+#: ../src/docs/guides/network/basic_network_configuration.md:131
+#, no-wrap
+msgid "Arrow up until \"Automatic\" is highlighted and then hit <kbd>ENTER</kbd>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:133
+#, no-wrap
+msgid "        ![nmtui_automatic](images/nmtui_automatic.png)\n"
+msgstr ""
+
+#. type: Bullet: '    6. '
+#: ../src/docs/guides/network/basic_network_configuration.md:135
+#, no-wrap
+msgid "Once we have switched the interface over to \"Automatic\" we need to remove the statically assigned IP so hit the <kbd>TAB</kbd> key until the \"Remove\" is highlighted next to the IP address and hit <kbd>ENTER</kbd>.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:137
+#, no-wrap
+msgid "        ![nmtui_remove](images/nmtui_remove.png)\n"
+msgstr ""
+
+#. type: Bullet: '    7. '
+#: ../src/docs/guides/network/basic_network_configuration.md:139
+#, no-wrap
+msgid "Finally, hit the <kbd>TAB</kbd> key several times until you get to the bottom of the `nmtui` screen and the \"OK\" is highlighted and hit <kbd>ENTER</kbd>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:141
+#, no-wrap
+msgid "    You can deactivate and reactivate your interface with `nmtui` as well, but instead let's do this with `nmcli`. In this way we can string the deactivation of the interface and the reactivation of the interface so that the interface is never down for long:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:145
+#: ../src/docs/guides/network/basic_network_configuration.md:200
+#, no-wrap
+msgid "    ```\n"
+"    nmcli con down enp0s3 && nmcli con up enp0s3\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:147
+#, no-wrap
+msgid "    Think of this as the equivalent to the old `ifdown enp0s3 && ifup enp0s3` used in older versions of the OS.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:149
+#, no-wrap
+msgid "    To verify that it worked, go ahead and check using either the `ip addr` command, or the `nmcli device show enp0s3` command that we used earlier.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:153
+#, no-wrap
+msgid "    ```\n"
+"    ip addr\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:155
+#, no-wrap
+msgid "    If successful, you should now see that the static IP is removed and that a dynamically allocated address has been added, similar to this:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:164
+#, no-wrap
+msgid "    ```bash\n"
+"    2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000\n"
+"    link/ether 08:00:27:ba:ce:88 brd ff:ff:ff:ff:ff:ff\n"
+"    inet 192.168.1.137/24 brd 192.168.1.255 scope global dynamic noprefixroute enp0s3\n"
+"       valid_lft 6342sec preferred_lft 6342sec\n"
+"    inet6 fe80::a00:27ff:feba:ce88/64 scope link noprefixroute \n"
+"       valid_lft forever preferred_lft forever\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:166
+#, no-wrap
+msgid "    ### IP Address Changing with `nmcli`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:168
+#, no-wrap
+msgid "    Using the `nmtui` is nice, but if you just want to quickly reconfigure the network interface without all of the time between screens, you probably will want to use `nmcli` by itself. Let's take a look at our example above of a statically assigned IP and what the steps are to reconfigure the interface to DHCP using only `nmcli`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:170
+#, no-wrap
+msgid "    Before we start, be aware that to reconfigure the interface to DHCP we need to: \n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/network/basic_network_configuration.md:175
+#, no-wrap
+msgid "Remove the IPv4 Gateway \n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/network/basic_network_configuration.md:175
+#, no-wrap
+msgid "Remove the IPv4 Address that we statically assigned\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/network/basic_network_configuration.md:175
+#, no-wrap
+msgid "Change the IPv4 Method to automatic\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/network/basic_network_configuration.md:175
+#, no-wrap
+msgid "Down and Up the interface\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:177
+#, no-wrap
+msgid "    Note too, that we are not using examples that tell you to use -ipv4.address etc. These do not change the interface completely. In order to do that we need to set the ipv4.address and the ipv4.gateway to an empty string. Again, to save as much time as possible with our command, we are going to string them all together in one line:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:181
+#, no-wrap
+msgid "    ```\n"
+"    nmcli con mod enp0s3 ipv4.gateway '' && nmcli con mod enp0s3 ipv4.address '' && nmcli con mod enp0s3 ipv4.method auto && nmcli con down enp0s3 && nmcli con up enp0s3\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:183
+#, no-wrap
+msgid "    Running the `ip addr` command again, should show you the exact same results as when we ran the changes with `nmtui`. We could obviously do everything in reverse as well (changing our DHCP address to a static one). To do this, we would run the commands in reverse starting with changing the `ipv4.method` to manual, setting the `ipv4.gateway` and then setting the `ipv4.address`. Since in all of these examples we are completely reconfiguring the interface and not adding or subtracting values to it, we again would not use the examples out there that talk about using `+ipv4.method`,`+ipv4.gateway`, and `+ipv4.address`. If you used these commands instead of the ones we have used above, you would end up with an interface with *BOTH* a DHCP assigned address and a statically assigned one. That said, this can sometimes be very handy. If you have a web service listening on one IP lets say, and an SFTP server listening on another IP. Having a method of assigning multiple IP's to an interface is quite useful. \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:185
+#, no-wrap
+msgid "    ## DNS resolution\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:187
+#, no-wrap
+msgid "    Setting DNS servers can be done with either `nmtui` or `nmcli`. While the `nmtui` interface is easy to navigate and much more intuitive, it makes the process a lot slower. Doing this with the `nmcli` is much faster. In the case of the DHCP assigned address, it's not usually necessary to set DNS servers as they normally are forwarded on from the DHCP server. That said, you *can* statically add DNS servers to a DHCP interface. In the case of the statically assigned interface, you will *HAVE* to do this as it will need to know how to get DNS resolution and will not have an automatically assigned method.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:190
+#, no-wrap
+msgid "    Since the best example for all of this is a statically assigned IP, let's return to our original statically assigned address in our example interface (enp0s3). Before we can change the DNS values, we need to see what they are currently set to. \n"
+"    To get proper name resolution, let's start by removing our already set DNS servers and adding in different ones. Currently the `ipv4.dns` is set to `8.8.8.8,8.8.4.4,192.168.1.1`. In this case, we don't need to first set the ipv4.dns to an empty string. We can simply use the following command to replace our values: \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:194
+#, no-wrap
+msgid "    ```\n"
+"    nmcli con mod enp0s3 ipv4.dns '208.67.222.222,208.67.220.220,192.168.1.1'\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:196
+#, no-wrap
+msgid "    Running `nmcli con show enp0s3 | grep ipv4.dns` should show you that we have successfully changed the DNS servers. To activate everything, let's bring our interface down and up again so that our changes are active:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:202
+#, no-wrap
+msgid "    To test that we *do* in fact have name resolution, try pinging a known host. We will use google.com as an example:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:211
+#, no-wrap
+msgid "    ```bash\n"
+"    ping google.com\n"
+"    PING google.com (172.217.4.46) 56(84) bytes of data.\n"
+"    64 bytes from lga15s46-in-f14.1e100.net (172.217.4.46): icmp_seq=1 ttl=119 time=14.5 ms\n"
+"    64 bytes from lga15s46-in-f14.1e100.net (172.217.4.46): icmp_seq=2 ttl=119 time=14.6 ms\n"
+"    64 bytes from lga15s46-in-f14.1e100.net (172.217.4.46): icmp_seq=3 ttl=119 time=14.4 ms\n"
+"    ^C\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:213
+#, no-wrap
+msgid "    ## Using The `ip` Utility\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:215
+#: ../src/docs/guides/network/basic_network_configuration.md:558
+#, no-wrap
+msgid "    The `ip` command (provided by the *iproute2* package) is a powerful tool to get information and configure the network of a modern Linux system such as Rocky Linux.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:217
+#: ../src/docs/guides/network/basic_network_configuration.md:560
+#, no-wrap
+msgid "    In this example, we will assume the following parameters:\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/network/basic_network_configuration.md:222
+#, no-wrap
+msgid "interface name: enp0s3\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/network/basic_network_configuration.md:222
+#, no-wrap
+msgid "ip address: 192.168.1.151\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/network/basic_network_configuration.md:222
+#: ../src/docs/guides/network/basic_network_configuration.md:565
+#, no-wrap
+msgid "subnet mask: 24\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/network/basic_network_configuration.md:222
+#, no-wrap
+msgid "gateway: 192.168.1.1\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:224
+#: ../src/docs/guides/network/basic_network_configuration.md:567
+#, no-wrap
+msgid "    ### Get general information\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:226
+#: ../src/docs/guides/network/basic_network_configuration.md:569
+#, no-wrap
+msgid "    To see the detailed state of all interfaces, use\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:230
+#: ../src/docs/guides/network/basic_network_configuration.md:573
+#, no-wrap
+msgid "    ```bash\n"
+"    ip a\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:232
+#: ../src/docs/guides/network/basic_network_configuration.md:575
+#, no-wrap
+msgid "    !!! tip \"**Pro tips:**\"\n"
+msgstr ""
+
+#. type: Bullet: '        * '
+#: ../src/docs/guides/network/basic_network_configuration.md:235
+#: ../src/docs/guides/network/basic_network_configuration.md:578
+#, no-wrap
+msgid "use the `-c` flag to get a more readable coloured output: `ip -c a`.\n"
+msgstr ""
+
+#. type: Bullet: '	    * '
+#: ../src/docs/guides/network/basic_network_configuration.md:235
+#: ../src/docs/guides/network/basic_network_configuration.md:578
+#, no-wrap
+msgid "`ip` accepts abbreviation so `ip a`, `ip addr` and `ip address` are equivalent\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:237
+#: ../src/docs/guides/network/basic_network_configuration.md:580
+#, no-wrap
+msgid "    ### Bring interface up or down\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:239
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:157
+#, no-wrap
+msgid "    !!! note \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:241
+#, no-wrap
+msgid "        While it is still possible to use this method for bringing the interface up and down in Rocky Linux 9, the command reacts a great deal slower than simply using the `nmcli` command in our previous examples.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:243
+#, no-wrap
+msgid "    To bring the *enp0s3* down and up again we can simply use: \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:247
+#, no-wrap
+msgid "    ```\n"
+"    ip link set enp0s3 down && ip link set enp0s3 up\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:249
+#: ../src/docs/guides/network/basic_network_configuration.md:584
+#, no-wrap
+msgid "    ### Assign the interface a static address\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:251
+#, no-wrap
+msgid "    Currently, our enp0s3 interface has an IP address of 192.168.1.151. To switch that to 192.168.1.152, we would remove the old IP with\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:255
+#, no-wrap
+msgid "    ```bash\n"
+"    ip addr delete 192.168.1.151/24 dev enp0s3 && ip addr add 192.168.1.152/24 dev enp0s3\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:257
+#, no-wrap
+msgid "    If we wanted a second IP assigned to the interface instead of removing the 192.168.1.151 address, we would simply add the second address with:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:261
+#, no-wrap
+msgid "    ```bash\n"
+"    ip addr add 192.168.1.152/24 dev enp0s3\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:263
+#, no-wrap
+msgid "    We can check to see if the IP address was added with \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:267
+#, no-wrap
+msgid "    ```bash\n"
+"    ip a show dev enp0s3\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:269
+#: ../src/docs/guides/network/basic_network_configuration.md:604
+#, no-wrap
+msgid "    will output:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:280
+#, no-wrap
+msgid "    ```bash\n"
+"    2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000\n"
+"    link/ether 08:00:27:ba:ce:88 brd ff:ff:ff:ff:ff:ff\n"
+"    inet 192.168.1.151/24 brd 192.168.1.255 scope global noprefixroute enp0s3\n"
+"       valid_lft forever preferred_lft forever\n"
+"    inet 192.168.1.152/24 scope global secondary enp0s3\n"
+"       valid_lft forever preferred_lft forever\n"
+"    inet6 fe80::a00:27ff:feba:ce88/64 scope link noprefixroute \n"
+"       valid_lft forever preferred_lft forever\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:282
+#, no-wrap
+msgid "    While bringing the interface up and down using the `ip` utility is much slower than `nmcli`, `ip` has a distinct advantage when setting new or additional IP addresses, as it happens in real time, without bringing the interface down and up.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:284
+#: ../src/docs/guides/network/basic_network_configuration.md:637
+#, no-wrap
+msgid "    ### Gateway configuration\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:287
+#: ../src/docs/guides/network/basic_network_configuration.md:639
+#, no-wrap
+msgid "    Now that the interface has an address, we have to set its default route, this can be done with:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:291
+#, no-wrap
+msgid "    ```bash\n"
+"    ip route add default via 192.168.1.1 dev enp0s3\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:293
+#: ../src/docs/guides/network/basic_network_configuration.md:645
+#, no-wrap
+msgid "    The kernel routing table can be displayed with\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:297
+#: ../src/docs/guides/network/basic_network_configuration.md:649
+#, no-wrap
+msgid "    ```bash\n"
+"    ip route\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:299
+#: ../src/docs/guides/network/basic_network_configuration.md:651
+#, no-wrap
+msgid "    or `ip r` for short.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:301
+#, no-wrap
+msgid "    This should output something like this:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:306
+#, no-wrap
+msgid "    ```bash\n"
+"    default via 192.168.1.1 dev enp0s3 \n"
+"    192.168.1.0/24 dev enp0s3 proto kernel scope link src 192.168.1.151 metric 100\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:308
+#: ../src/docs/guides/network/basic_network_configuration.md:653
+#, no-wrap
+msgid "    ## Checking network connectivity\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:310
+#, no-wrap
+msgid "    Throughout the examples above we have done some testing. Your best bet for testing is to start by pinging the default gateway. This should always work:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:318
+#, no-wrap
+msgid "    ```bash\n"
+"    ping -c3 192.168.1.1\n"
+"    PING 192.168.1.1 (192.168.1.1) 56(84) bytes of data.\n"
+"    64 bytes from 192.168.1.1: icmp_seq=1 ttl=64 time=0.437 ms\n"
+"    64 bytes from 192.168.1.1: icmp_seq=2 ttl=64 time=0.879 ms\n"
+"    64 bytes from 192.168.1.1: icmp_seq=3 ttl=64 time=0.633 ms\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:320
+#, no-wrap
+msgid "    Next, test to see if your LAN routing is working completely by pinging a host on your local network:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:327
+#, no-wrap
+msgid "    ```bash\n"
+"    ping -c3 192.168.1.10\n"
+"    PING 192.168.1.10 (192.168.1.10) 56(84) bytes of data.\n"
+"    64 bytes from 192.168.1.10: icmp_seq=2 ttl=255 time=0.684 ms\n"
+"    64 bytes from 192.168.1.10: icmp_seq=3 ttl=255 time=0.676 ms\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:329
+#, no-wrap
+msgid "    Now test to make sure we can see a reachable host external of your network. For the test below, we are using Google's open DNS server:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:337
+#, no-wrap
+msgid "    ```bash\n"
+"    ping -c3 8.8.8.8\n"
+"    PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\n"
+"    64 bytes from 8.8.8.8: icmp_seq=1 ttl=119 time=19.8 ms\n"
+"    64 bytes from 8.8.8.8: icmp_seq=2 ttl=119 time=20.2 ms\n"
+"    64 bytes from 8.8.8.8: icmp_seq=3 ttl=119 time=20.1 ms\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:339
+#, no-wrap
+msgid "    The final test, is to make sure that DNS resolution is working. For this example, we are using google.com:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:347
+#, no-wrap
+msgid "    ```bash\n"
+"    ping -c3 google.com\n"
+"    PING google.com (172.217.4.46) 56(84) bytes of data.\n"
+"    64 bytes from lga15s46-in-f14.1e100.net (172.217.4.46): icmp_seq=1 ttl=119 time=14.5 ms\n"
+"    64 bytes from lga15s46-in-f14.1e100.net (172.217.4.46): icmp_seq=2 ttl=119 time=15.1 ms\n"
+"    64 bytes from lga15s46-in-f14.1e100.net (172.217.4.46): icmp_seq=3 ttl=119 time=14.6 ms\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:349
+#, no-wrap
+msgid "    If your machine has several interfaces and you want to test from a particular interface, simply use the `-I` option with ping:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:353
+#, no-wrap
+msgid "    ```bash\n"
+"    ping -I enp0s3 -c3 192.168.1.10\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:355
+#: ../src/docs/guides/network/basic_network_configuration.md:702
+#, no-wrap
+msgid "    ## Conclusions\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:357
+#, no-wrap
+msgid "    There are a great deal of changes to the networking stack in Rocky Linux 9. Among these are the prioritization of `keyfile` over the formerly used `ifcfg` files found in Network-Scripts. Since it is evident that the direction of movement here in future versions of Rocky Linux will completely deprecate and remove Network-Scripts as an option, it's best to focus attention on methodologies such as `nmcli`, `nmtui`, and in some cases `ip`, for network configuration.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:361
+#, no-wrap
+msgid "    ## Network Configuration - Rocky Linux 8\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:365
+#, no-wrap
+msgid "    At the user level, the networking stack is managed by *NetworkManager*. This tool runs as a service, and you can check its state with the following command:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:371
+#, no-wrap
+msgid "    ### Configuration files\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:374
+#, no-wrap
+msgid "    NetworkManager simply applies a configuration read from the files found in `/etc/sysconfig/network-scripts/ifcfg-<IFACE_NAME>`.\n"
+"    Each network interface has its configuration file. The following shows an example for the default configuration of a server:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:394
+#, no-wrap
+msgid "    ```bash\n"
+"    TYPE=Ethernet\n"
+"    PROXY_METHOD=none\n"
+"    BROWSER_ONLY=no\n"
+"    BOOTPROTO=none\n"
+"    DEFROUTE=yes\n"
+"    IPV4_FAILURE_FATAL=no\n"
+"    IPV6INIT=no\n"
+"    NAME=enp1s0\n"
+"    UUID=74c5ccee-c1f4-4f45-883f-fc4f765a8477\n"
+"    DEVICE=enp1s0\n"
+"    ONBOOT=yes\n"
+"    IPADDR=10.0.0.10\n"
+"    PREFIX=24\n"
+"    GATEWAY=10.0.0.1\n"
+"    DNS1=10.0.0.1\n"
+"    DNS2=1.1.1.1\n"
+"    IPV6_DISABLED=yes\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:396
+#, no-wrap
+msgid "    The interface's name is **enp1s0** so this file's name will be `/etc/sysconfig/network-scripts/ifcfg-enp1s0`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:400
+#, no-wrap
+msgid "        There are a few ways or mechanisms by which systems can be assigned their IP configuration information. The two most common methods are - **Static IP configuration** scheme and **Dynamic IP configuration** scheme.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:404
+#, no-wrap
+msgid "        The dynamic IP approach is popular on home and office networks - or workstation and desktop class systems.  The dynamic scheme usually needs _something_ extra that is locally available that can supply proper IP configuration information to requesting workstations and desktops. This _something_ is called the Dynamic Host Configuration Protocol (DHCP).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:406
+#, no-wrap
+msgid "        Very often, home/office users don't have to worry or know about DHCP. This is because the somebody or something else is automagically taking care of that in the background. The only thing that the end user needs to do is to physically or wirelessly connect to the right network (and of course make sure that their systems are powered on)!\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:408
+#, no-wrap
+msgid "    ### IP Address\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:410
+#, no-wrap
+msgid "    In the previous `/etc/sysconfig/network-scripts/ifcfg-enp1s0` listing, we see that the value of the `BOOTPROTO` parameter or key is set to `none`. This means that the system being configured is set to a static IP address scheme.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:412
+#, no-wrap
+msgid "    If instead you want to configure the system to use a dynamic IP address scheme, you will have to change the value of the `BOOTPROTO` parameter from `none` to `dhcp` and also remove the `IPADDR`, `PREFIX` and `GATEWAY` lines. This is necessary because all of that information will be automaically obtained from any available DHCP server.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:414
+#, no-wrap
+msgid "    To configure a static IP address attribution, set the following:\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/network/basic_network_configuration.md:418
+#, no-wrap
+msgid "IPADDR: the IP address to assign the interface\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/network/basic_network_configuration.md:418
+#, no-wrap
+msgid "PREFIX: the subnet mask in [CIDR notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation)\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/network/basic_network_configuration.md:418
+#, no-wrap
+msgid "GATEWAY: the default gateway\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:420
+#, no-wrap
+msgid "    The `ONBOOT` parameter set to `yes` indicates that this connection will be activated during boot time.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:422
+#, no-wrap
+msgid "    ### DNS resolution\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:424
+#, no-wrap
+msgid "    To get proper name resolution, the following parameters must be set:\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/network/basic_network_configuration.md:427
+#, no-wrap
+msgid "DNS1: IP address of the main nameserver\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/network/basic_network_configuration.md:427
+#, no-wrap
+msgid "DNS2: the secondary nameserver IP address\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:429
+#, no-wrap
+msgid "    ### Checking configuration\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:431
+#, no-wrap
+msgid "    You can check that the configuration has been correctly applied with the following `nmcli` command:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:435
+#, no-wrap
+msgid "    ```bash\n"
+"    [user@server ~]$ sudo nmcli device show enp1s0\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:437
+#, no-wrap
+msgid "    which should give you the following output:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:455
+#, no-wrap
+msgid "    ```conf\n"
+"    GENERAL.DEVICE:                         enp1s0\n"
+"    GENERAL.TYPE:                           ethernet\n"
+"    GENERAL.HWADDR:                         6E:86:C0:4E:15:DB\n"
+"    GENERAL.MTU:                            1500\n"
+"    GENERAL.STATE:                          100 (connecté)\n"
+"    GENERAL.CONNECTION:                     enp1s0\n"
+"    GENERAL.CON-PATH:                       /org/freedesktop/NetworkManager/ActiveConnection/1\n"
+"    WIRED-PROPERTIES.CARRIER:               marche\n"
+"    IP4.ADDRESS[1]:                         10.0.0.10/24\n"
+"    IP4.GATEWAY:                            10.0.0.1\n"
+"    IP4.ROUTE[1]:                           dst = 10.0.0.0/24, nh = 0.0.0.0, mt = 100\n"
+"    IP4.ROUTE[2]:                           dst = 0.0.0.0/0, nh = 10.0.0.1, mt = 100\n"
+"    IP4.DNS[1]:                             10.0.0.1\n"
+"    IP4.DNS[2]:                             1.1.1.1\n"
+"    IP6.GATEWAY:                            --\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:457
+#, no-wrap
+msgid "    ### CLI\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:460
+#, no-wrap
+msgid "    NetworkManager's primary function is managing \"connections\", which map a physical device to more logical network components like an IP address and DNS settings.\n"
+"    To view the existing connections NetworkManager maintains, you can run `nmcli connection show`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:466
+#: ../src/docs/guides/network/basic_network_configuration.md:547
+#, no-wrap
+msgid "    ```bash\n"
+"    [user@server ~]$ sudo nmcli connection show\n"
+"    NAME    UUID                                  TYPE      DEVICE\n"
+"    enp1s0  625a8aef-175d-4692-934c-2c4a85f11b8c  ethernet  enp1s0\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:468
+#, no-wrap
+msgid "    From the output above, we can determine that NetworkManager manages a connection (`NAME`) called `enp1s0` that maps to the physical device (`DEVICE`) `enp1s0`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:470
+#, no-wrap
+msgid "    !!! tip \"Connection name\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:472
+#, no-wrap
+msgid "        In this example, both the connection and device share the same name, but this may not always be the case. It is common to see a connection called `System eth0` that maps to a device called `eth0`, for example.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:474
+#, no-wrap
+msgid "    Now that we know the name of our connection, we can view the settings for it. To do this, use the `nmcli connection show [connection]` command, which will print out all of the settings NetworkManager registers for the given connection.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:497
+#, no-wrap
+msgid "    ```bash\n"
+"    [user@server ~]$ sudo nmcli connection show enp1s0\n"
+"    ...\n"
+"    ipv4.method:                            auto\n"
+"    ipv4.dns:                               --\n"
+"    ipv4.dns-search:                        --\n"
+"    ipv4.dns-options:                       --\n"
+"    ipv4.dns-priority:                      0\n"
+"    ipv4.addresses:                         --\n"
+"    ipv4.gateway:                           --\n"
+"    ipv4.routes:                            --\n"
+"    ipv4.route-metric:                      -1\n"
+"    ipv4.route-table:                       0 (unspec)\n"
+"    ipv4.routing-rules:                     --\n"
+"    ipv4.ignore-auto-routes:                no\n"
+"    ipv4.ignore-auto-dns:                   no\n"
+"    ipv4.dhcp-client-id:                    --\n"
+"    ipv4.dhcp-iaid:                         --\n"
+"    ipv4.dhcp-timeout:                      0 (default)\n"
+"    ipv4.dhcp-send-hostname:                yes\n"
+"    ...\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:499
+#, no-wrap
+msgid "    Down the left-hand column, we see the name of the setting, and down the right we see the value.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:501
+#, no-wrap
+msgid "    For example, we can see that the `ipv4.method` here is currently set to `auto`. There are many allowed values for the `ipv4.method` setting, but the main two you will most likely see are:\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/network/basic_network_configuration.md:504
+#, no-wrap
+msgid "`auto`: the appropriate automatic method (DHCP, PPP, etc) is used for the interface and most other properties can be left unset.\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/network/basic_network_configuration.md:504
+#, no-wrap
+msgid "`manual`: static IP addressing is used and at least one IP address must be given in the 'addresses' property.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:506
+#, no-wrap
+msgid "    If instead you want to configure the system to use a static IP address scheme, you will have to change the value of `ipv4.method` to `manual`, and also specify the `ipv4.gateway` and `ipv4.addresses`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:508
+#, no-wrap
+msgid "    To modify a setting, you can use the nmcli command `nmcli connection modify [connection] [setting] [value]`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:512
+#, no-wrap
+msgid "    ```bash\n"
+"    # set 10.0.0.10 as the static ipv4 address\n"
+"    [user@server ~]$ sudo nmcli connection modify enp1s0 ipv4.addresses 10.0.0.10\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:515
+#, no-wrap
+msgid "    # set 10.0.0.1 as the ipv4 gateway\n"
+"    [user@server ~]$ sudo nmcli connection modify enp1s0 ipv4.gateway 10.0.0.1\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:519
+#, no-wrap
+msgid "    # change ipv4 method to use static assignments (set in the previous two commands)\n"
+"    [user@server ~]$ sudo nmcli connection modify enp1s0 ipv4.method manual\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:521
+#, no-wrap
+msgid "    !!!tip \"When does the connection get updated?\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:523
+#, no-wrap
+msgid "        `nmcli connection modify` will not modify the *runtime* configuration, but update the `/etc/sysconfig/network-scripts` configuration files with the appropriate values based on what you have told `nmcli` to configure.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:525
+#, no-wrap
+msgid "    To configure your DNS servers with NetworkManager via the CLI, you can modify the `ipv4.dns` setting.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:530
+#, no-wrap
+msgid "    ```bash\n"
+"    # set 10.0.0.1 and 1.1.1.1 as the primary and secondary DNS servers\n"
+"    [user@server ~]$ sudo nmcli connection modify enp1s0 ipv4.dns '10.0.0.1 1.1.1.1'\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:532
+#, no-wrap
+msgid "    ### Apply configuration\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:534
+#, no-wrap
+msgid "    To apply the network configuration, you can use the `nmcli connection up [connection]` command.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:539
+#, no-wrap
+msgid "    ```bash\n"
+"    [user@server ~]$ sudo nmcli connection up enp1s0\n"
+"    Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/2)\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:541
+#, no-wrap
+msgid "    To get the connection state, simply use:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:549
+#, no-wrap
+msgid "    You can also use the `ifup` and `ifdown` commands to bring the interface up and down (they are simple wrappers around `nmcli`):\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:554
+#, no-wrap
+msgid "    ```bash\n"
+"    [user@server ~]$ sudo ifup enp1s0\n"
+"    [user@server ~]$ sudo ifdown enp1s0\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:556
+#, no-wrap
+msgid "    ## Using ip utility\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/network/basic_network_configuration.md:565
+#, no-wrap
+msgid "interface name: ens19\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/network/basic_network_configuration.md:565
+#, no-wrap
+msgid "ip address: 192.168.20.10\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/network/basic_network_configuration.md:565
+#, no-wrap
+msgid "gateway: 192.168.20.254\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:582
+#, no-wrap
+msgid "    To bring the *ens19* interface up, simply use `ip link set ens19 up` and to bring it down, use `ip link set ens19 down`.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:586
+#, no-wrap
+msgid "    The command to be used is of the form:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:590
+#, no-wrap
+msgid "    ```bash\n"
+"    ip addr add <IP ADDRESS/CIDR> dev <IFACE NAME>\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:592
+#, no-wrap
+msgid "    To assign the above example parameters, we will use:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:596
+#, no-wrap
+msgid "    ```bash\n"
+"    ip a add 192.168.20.10/24 dev ens19\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:598
+#, no-wrap
+msgid "    Then, checking the result with:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:602
+#, no-wrap
+msgid "    ```bash\n"
+"    ip a show dev ens19\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:611
+#, no-wrap
+msgid "    ```bash\n"
+"\t3: ens19: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000\n"
+"\t\tlink/ether 4a:f2:f5:b6:aa:9f brd ff:ff:ff:ff:ff:ff\n"
+"\t\tinet 192.168.20.10/24 scope global ens19\n"
+"\t\tvalid_lft forever preferred_lft forever\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:613
+#, no-wrap
+msgid "    Our interface is up and configured, but is still lacking something!\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:615
+#, no-wrap
+msgid "    ### Using ifcfg utility\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:617
+#, no-wrap
+msgid "    To add the *ens19* interface our new example IP address, use the following command:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:621
+#, no-wrap
+msgid "    ```bash\n"
+"    ifcfg ens19 add 192.168.20.10/24\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:623
+#, no-wrap
+msgid "    To remove the address:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:627
+#, no-wrap
+msgid "    ```bash\n"
+"    ifcfg ens19 del 192.168.20.10/24\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:629
+#, no-wrap
+msgid "    To completely disable IP addressing on this interface:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:633
+#, no-wrap
+msgid "    ```bash\n"
+"    ifcfg ens19 stop\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:635
+#, no-wrap
+msgid "    *Note that this does not bring the interface down, it simply unassigns all IP addresses from the interface.*\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:643
+#, no-wrap
+msgid "    ```bash\n"
+"    ip route add default via 192.168.20.254 dev ens19\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:655
+#, no-wrap
+msgid "    At this point, you should have your network interface up and properly configured. There are several ways to verify your connectivity.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:657
+#, no-wrap
+msgid "    By *pinging* another IP address in the same network (we will use `192.168.20.42` as an example):\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:661
+#, no-wrap
+msgid "    ```bash\n"
+"    ping -c3 192.168.20.42\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:663
+#, no-wrap
+msgid "    This command will issue 3 *pings* (known as ICMP request) and wait for a reply. If everything went fine, you should get this output:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:669
+#, no-wrap
+msgid "    ```bash\n"
+"    PING 192.168.20.42 (192.168.20.42) 56(84) bytes of data.\n"
+"    64 bytes from 192.168.20.42: icmp_seq=1 ttl=64 time=1.07 ms\n"
+"    64 bytes from 192.168.20.42: icmp_seq=2 ttl=64 time=0.915 ms\n"
+"    64 bytes from 192.168.20.42: icmp_seq=3 ttl=64 time=0.850 ms\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:674
+#, no-wrap
+msgid "    --- 192.168.20.42 ping statistics ---\n"
+"    3 packets transmitted, 3 received, 0% packet loss, time 5ms\n"
+"    rtt min/avg/max/mdev = 0.850/0.946/1.074/0.097 ms\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:676
+#, no-wrap
+msgid "    Then, to make sure your routing configuration is fine, try to *ping* a external host, such as this well known public DNS resolver:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:680
+#, no-wrap
+msgid "    ```bash\n"
+"    ping -c3 8.8.8.8\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:682
+#, no-wrap
+msgid "    If your machine has several network interface and you want to make ICMP request via a specific interface, you can use the `-I` flag:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:686
+#, no-wrap
+msgid "    ```bash\n"
+"    ping -I ens19 -c3 192.168.20.42\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:688
+#, no-wrap
+msgid "    It is now time to make sure that DNS resolution is working correctly. As a reminder, DNS resolution is a mechanism used to convert human friendly machine names into their IP addresses and the other way round (reverse DNS).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:690
+#, no-wrap
+msgid "    If the `/etc/resolv.conf` file indicates a reachable DNS server, then the following should work:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:694
+#, no-wrap
+msgid "    ```bash\n"
+"    host rockylinux.org\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:696
+#, no-wrap
+msgid "    The result should be:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:700
+#, no-wrap
+msgid "    ```bash\n"
+"    rockylinux.org has address 76.76.21.21\n"
+"    ```\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/network/basic_network_configuration.md:703
+#, no-wrap
+msgid "    Rocky Linux 8 has the tools to configure your network from the command line. This document should get you up and running with those tools in no time.\n"
 msgstr ""
 
