@@ -13,581 +13,279 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: it\n"
-"X-Crowdin-File: /po4a/po4a/_po/contribute_mkdocs_venv.pot\n"
-"X-Crowdin-File-ID: 1267\n"
+"X-Crowdin-File: /po4a/po4a/_po/contribute_navigation.pot\n"
+"X-Crowdin-File-ID: 1269\n"
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:43
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:220
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:271
+#: ../src/docs/books/admin_guide/04-advanced-commands.md:334
+#: ../src/docs/books/admin_guide/05-vi.md:70
+#: ../src/docs/books/admin_guide/05-vi.md:206
+#: ../src/docs/books/admin_guide/05-vi.md:272
+#: ../src/docs/books/admin_guide/06-users.md:36
+#: ../src/docs/books/admin_guide/06-users.md:92
+#: ../src/docs/books/admin_guide/06-users.md:220
+#: ../src/docs/books/admin_guide/06-users.md:350
+#: ../src/docs/books/admin_guide/06-users.md:598
+#: ../src/docs/books/admin_guide/06-users.md:754
+#: ../src/docs/books/admin_guide/06-users.md:818
+#: ../src/docs/books/admin_guide/11-tasks.md:174
+#: ../src/docs/books/admin_guide/12-network.md:158
+#: ../src/docs/books/admin_guide/03-commands.md:516
+#: ../src/docs/books/admin_guide/03-commands.md:693
+#: ../src/docs/books/admin_guide/03-commands.md:1216
+#: ../src/docs/books/admin_guide/03-commands.md:1262
+#: ../src/docs/books/admin_guide/03-commands.md:1297
+#: ../src/docs/books/admin_guide/07-file-systems.md:395
+#: ../src/docs/books/admin_guide/07-file-systems.md:437
+#: ../src/docs/books/admin_guide/07-file-systems.md:447
+#: ../src/docs/books/admin_guide/07-file-systems.md:515
+#: ../src/docs/books/admin_guide/07-file-systems.md:556
+#: ../src/docs/books/admin_guide/07-file-systems.md:627
+#: ../src/docs/books/admin_guide/07-file-systems.md:653
+#: ../src/docs/books/admin_guide/07-file-systems.md:672
+#: ../src/docs/books/admin_guide/07-file-systems.md:676
+#: ../src/docs/books/admin_guide/07-file-systems.md:1019
+#: ../src/docs/books/admin_guide/08-process.md:49
+#: ../src/docs/books/admin_guide/08-process.md:238
+#: ../src/docs/books/admin_guide/09-backups.md:27
+#: ../src/docs/books/admin_guide/09-backups.md:116
+#: ../src/docs/books/admin_guide/09-backups.md:133
+#: ../src/docs/books/admin_guide/09-backups.md:148
+#: ../src/docs/books/admin_guide/09-backups.md:281
+#: ../src/docs/books/admin_guide/09-backups.md:285
+#: ../src/docs/books/admin_guide/09-backups.md:301
+#: ../src/docs/books/admin_guide/09-backups.md:342
+#: ../src/docs/books/admin_guide/09-backups.md:352
+#: ../src/docs/books/admin_guide/09-backups.md:554
+#: ../src/docs/books/admin_guide/09-backups.md:771
+#: ../src/docs/books/admin_guide/10-boot.md:114
+#: ../src/docs/books/admin_guide/10-boot.md:153
+#: ../src/docs/books/admin_guide/10-boot.md:165
+#: ../src/docs/books/admin_guide/13-softwares.md:22
+#: ../src/docs/books/learning_ansible/01-basic.md:51
+#: ../src/docs/books/learning_ansible/01-basic.md:104
+#: ../src/docs/books/learning_ansible/01-basic.md:112
+#: ../src/docs/books/learning_ansible/01-basic.md:328
+#: ../src/docs/books/learning_ansible/01-basic.md:415
+#: ../src/docs/books/learning_ansible/01-basic.md:492
+#: ../src/docs/books/learning_ansible/01-basic.md:633
+#: ../src/docs/books/learning_ansible/01-basic.md:656
+#: ../src/docs/books/learning_ansible/02-advanced.md:34
+#: ../src/docs/books/learning_ansible/02-advanced.md:150
+#: ../src/docs/books/learning_ansible/02-advanced.md:182
+#: ../src/docs/books/learning_ansible/02-advanced.md:269
+#: ../src/docs/books/learning_ansible/02-advanced.md:277
+#: ../src/docs/books/learning_ansible/02-advanced.md:287
+#: ../src/docs/books/learning_ansible/02-advanced.md:293
+#: ../src/docs/books/learning_ansible/02-advanced.md:360
+#: ../src/docs/books/learning_ansible/02-advanced.md:428
+#: ../src/docs/books/learning_ansible/02-advanced.md:601
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:33
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:58
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:77
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:96
+#: ../src/docs/books/learning_ansible/03-working-with-files.md:113
+#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:65
+#: ../src/docs/books/learning_ansible/04-ansible-galaxy.md:432
+#: ../src/docs/books/learning_ansible/05-deployments.md:41
+#: ../src/docs/books/learning_ansible/05-deployments.md:124
+#: ../src/docs/books/learning_ansible/05-deployments.md:196
+#: ../src/docs/books/learning_ansible/05-deployments.md:616
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:36
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:40
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:80
+#: ../src/docs/books/learning_ansible/06-large-scale-infrastructure.md:214
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:32
+#: ../src/docs/books/learning_ansible/07-working-with-filters.md:75
+#: ../src/docs/books/learning_bash/02-using-variables.md:153
+#: ../src/docs/books/learning_bash/02-using-variables.md:193
+#: ../src/docs/books/learning_bash/05-tests.md:245
+#: ../src/docs/books/learning_bash/07-loops.md:180
+#: ../src/docs/books/lxd_server/04-firewall.md:80
+#: ../src/docs/books/nvchad/plugins/md_preview.md:140
+#: ../src/docs/books/nvchad/template_chadrc.md:239
+#: ../src/docs/gemstones/https_rsa_keygen.md:34
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:80
+#: ../src/docs/guides/8_6_installation.md:37
+#: ../src/docs/guides/8_6_installation.md:168
+#: ../src/docs/guides/8_6_installation.md:176
+#: ../src/docs/guides/8_6_installation.md:182
+#: ../src/docs/guides/8_6_installation.md:250
+#: ../src/docs/guides/automation/olivetin.md:60
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:307
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:323
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:486
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:533
+#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:667
+#: ../src/docs/guides/containers/lxd_web_servers.md:35
+#: ../src/docs/guides/containers/lxd_web_servers.md:45
+#: ../src/docs/guides/containers/lxd_web_servers.md:301
+#: ../src/docs/guides/containers/lxd_web_servers.md:352
+#: ../src/docs/guides/containers/lxd_web_servers.md:605
+#: ../src/docs/guides/containers/lxd_web_servers.md:665
+#: ../src/docs/guides/containers/lxd_web_servers.md:737
+#: ../src/docs/guides/containers/lxd_web_servers.md:796
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:53
+#: ../src/docs/guides/contribute/navigation.md:60
+#: ../src/docs/guides/custom-linux-kernel.md:453
+#: ../src/docs/guides/editors/micro.md:30
+#: ../src/docs/guides/file_sharing/glusterfs.md:46
+#: ../src/docs/guides/file_sharing/glusterfs.md:64
+#: ../src/docs/guides/file_sharing/glusterfs.md:102
+#: ../src/docs/guides/file_sharing/glusterfs.md:203
+#: ../src/docs/guides/installation.md:36 ../src/docs/guides/installation.md:175
+#: ../src/docs/guides/installation.md:183
+#: ../src/docs/guides/installation.md:193
+#: ../src/docs/guides/installation.md:266
+#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:71
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:31
+#: ../src/docs/guides/security/authentication/active_directory_authentication.md:253
+#: ../src/docs/guides/security/firewalld-beginners.md:89
+#: ../src/docs/guides/security/firewalld-beginners.md:144
+#: ../src/docs/guides/security/firewalld-beginners.md:258
+#: ../src/docs/guides/security/firewalld.md:51
+#: ../src/docs/guides/security/firewalld.md:94
+#: ../src/docs/guides/security/firewalld.md:228
+#: ../src/docs/guides/security/firewalld.md:372
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:72
+#: ../src/docs/guides/security/learning_selinux.md:137
+#: ../src/docs/guides/security/learning_selinux.md:253
+#: ../src/docs/guides/security/learning_selinux.md:356
+#: ../src/docs/guides/virtualization/vbox-rocky.md:27
+#: ../src/docs/guides/web/nginx-mainline.md:30
+#: ../src/docs/guides/web/nginx-mainline.md:99
+#: ../src/docs/guides/web/nginx-mainline.md:141
+#: ../src/docs/guides/web/nginx-mainline.md:254
+#: ../src/docs/guides/web/nginx-mainline.md:333
+#: ../src/docs/guides/web/nginx-multisite.md:73
+#: ../src/docs/guides/web/nginx-multisite.md:233
+#: ../src/docs/guides/web/nginx-multisite.md:292
+#: ../src/docs/guides/web/nginx-multisite.md:302
+#: ../src/docs/guides/web/php.md:33 ../src/docs/guides/web/php.md:76
+#: ../src/docs/guides/web/php.md:181 ../src/docs/guides/web/php.md:230
+#: ../src/docs/guides/web/php.md:271 ../src/docs/guides/web/php.md:467
+#: ../src/docs/guides/web/php.md:471 ../src/docs/release_notes/9_2.md:26
+#, no-wrap
+msgid "!!! Note\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/13-softwares.md:900
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:105
+#: ../src/docs/books/nvchad/template_chadrc.md:352
+#: ../src/docs/gemstones/bash_stub.md:103
+#: ../src/docs/gemstones/perl_search_replace.md:38
+#: ../src/docs/gemstones/sed_search_replace.md:72
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:172
+#: ../src/docs/guides/automation/olivetin.md:142
+#: ../src/docs/guides/cms/dokuwiki_server.md:306
+#: ../src/docs/guides/communications/asterisk_installation.md:261
+#: ../src/docs/guides/containers/lxd_web_servers.md:919
+#: ../src/docs/guides/containers/podman-nextcloud.md:456
+#: ../src/docs/guides/contribute/local_docs.md:47
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:322
+#: ../src/docs/guides/contribute/navigation.md:129
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:458
+#: ../src/docs/guides/database/database_mariadb-server.md:197
+#: ../src/docs/guides/desktop/kde_installation.md:105
+#: ../src/docs/guides/desktop/mate_installation.md:200
+#: ../src/docs/guides/desktop/xfce_installation.md:218
+#: ../src/docs/guides/editors/micro.md:79
+#: ../src/docs/guides/email/postfix_reporting.md:254
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:270
+#: ../src/docs/guides/file_sharing/sftp.md:765
+#: ../src/docs/guides/proxies/pound.md:460
+#: ../src/docs/guides/security/dnf_automatic.md:119
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:54
+#: ../src/docs/guides/security/firewalld-beginners.md:427
+#: ../src/docs/guides/security/firewalld.md:477
+#: ../src/docs/guides/security/pam.md:137
+#: ../src/docs/guides/security/ssl_keys_https.md:136
+#: ../src/docs/guides/virtualization/vbox-rocky.md:160
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:147
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:235
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:157
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:91
+#: ../src/docs/guides/web/mod_SSL_apache.md:171
+#: ../src/docs/guides/web/nginx-mainline.md:352
+#: ../src/docs/guides/web/nginx-multisite.md:359
+#, no-wrap
+msgid "Conclusion"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_bash/05-tests.md:67
+#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:94
+#: ../src/docs/books/nvchad/vale_nvchad.md:36
+#: ../src/docs/guides/automation/cron_jobs_howto.md:77
+#: ../src/docs/guides/contribute/navigation.md:53
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:84
+#: ../src/docs/guides/database/database_mariadb-server.md:48
+#: ../src/docs/guides/file_sharing/sftp.md:482
+#: ../src/docs/guides/file_sharing/sftp.md:569
+#: ../src/docs/guides/proxies/pound.md:40
+#: ../src/docs/guides/security/dnf_automatic.md:67
+#: ../src/docs/guides/security/firewalld.md:102
+#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:115
+#, no-wrap
+msgid "!!! tip\n"
+msgstr ""
 
 #. type: YAML Front Matter: contributors
-#: ../src/docs/books/disa_stig/disa_stig_part2.md:1
-#: ../src/docs/books/disa_stig/disa_stig_part3.md:1
-#: ../src/docs/books/disa_stig/disa_stig_part1.md:1
-#: ../src/docs/books/learning_ansible/07-working-with-filters.md:1
-#: ../src/docs/books/learning_ansible/08-management-server-optimizations.md:1
-#: ../src/docs/books/learning_bash/00-toc.md:1
-#: ../src/docs/books/learning_bash/01-first-script.md:1
-#: ../src/docs/books/learning_bash/02-using-variables.md:1
-#: ../src/docs/books/learning_bash/03-data-entry-and-manipulations.md:1
-#: ../src/docs/books/learning_bash/04-check-your-knowledge.md:1
-#: ../src/docs/books/learning_bash/05-tests.md:1
-#: ../src/docs/books/learning_bash/06-conditional-structures.md:1
-#: ../src/docs/books/learning_bash/07-loops.md:1
-#: ../src/docs/books/learning_bash/08-check-your-knowledge.md:1
-#: ../src/docs/books/learning_rsync/01_rsync_overview.md:1
-#: ../src/docs/books/learning_rsync/02_rsync_demo01.md:1
-#: ../src/docs/books/learning_rsync/03_rsync_demo02.md:1
-#: ../src/docs/books/learning_rsync/05_rsync_authentication-free_login.md:1
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:1
-#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:1
-#: ../src/docs/books/nvchad/additional_software.md:1
-#: ../src/docs/books/nvchad/index.md:1
-#: ../src/docs/books/nvchad/install_nvchad.md:1
-#: ../src/docs/books/nvchad/install_nvim.md:1
-#: ../src/docs/books/nvchad/nerd_fonts.md:1
-#: ../src/docs/books/nvchad/nvchad_ui/builtin_plugins.md:1
-#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:1
-#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:1
-#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:1
-#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:1
-#: ../src/docs/books/nvchad/plugins/index.md:1
-#: ../src/docs/books/nvchad/plugins/md_preview.md:1
-#: ../src/docs/books/nvchad/plugins/projectmgr.md:1
-#: ../src/docs/books/nvchad/template_chadrc.md:1
-#: ../src/docs/gemstones/RL9_network_manager.md:1
-#: ../src/docs/gemstones/htop.md:1 ../src/docs/gemstones/mtr.md:1
-#: ../src/docs/gemstones/setup_local_repo.md:1
-#: ../src/docs/gemstones/string_color.md:1
-#: ../src/docs/gemstones/systemd_service_for_python_script.md:1
-#: ../src/docs/gemstones/view_kernel_conf.md:1
-#: ../src/docs/guides/automation/anacron.md:1
-#: ../src/docs/guides/automation/cronie.md:1
-#: ../src/docs/guides/automation/olivetin.md:1
-#: ../src/docs/guides/communications/asterisk_installation.md:1
-#: ../src/docs/guides/containers/lxd_web_servers.md:1
-#: ../src/docs/guides/contribute/local_docs.md:1
-#: ../src/docs/guides/contribute/mkdocs_venv.md:1
-#: ../src/docs/guides/contribute/style_guide.md:1
-#: ../src/docs/guides/editors/micro.md:1
-#: ../src/docs/guides/file_sharing/glusterfs.md:1
-#: ../src/docs/guides/installation.md:1
-#: ../src/docs/guides/security/dnf_automatic.md:1
-#: ../src/docs/guides/security/firewalld-beginners.md:1
-#: ../src/docs/guides/web/nginx-multisite.md:1 ../src/docs/guides/web/php.md:1
-#: ../src/docs/labs/sys_admin_1/lab7-software_management.md:1
-#, no-wrap
-msgid "Steven Spencer"
-msgstr ""
-
-#. type: Title #
-#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
-#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
-#: ../src/docs/books/learning_ansible/05-deployments.md:31
-#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
 #: ../src/docs/books/lxd_server/00-toc.md:1
-#: ../src/docs/books/lxd_server/00-toc.md:13
-#: ../src/docs/books/nvchad/index.md:12
-#: ../src/docs/books/nvchad/plugins/index.md:14
-#: ../src/docs/books/nvchad/plugins/md_preview.md:14
-#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
-#: ../src/docs/books/nvchad/vale_nvchad.md:12
-#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
-#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
-#: ../src/docs/gemstones/string_color.md:11
-#: ../src/docs/guides/automation/cron_jobs_howto.md:25
-#: ../src/docs/guides/automation/olivetin.md:14
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
-#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
-#: ../src/docs/guides/backup/rsnapshot_backup.md:22
-#: ../src/docs/guides/backup/rsync_ssh.md:24
-#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
-#: ../src/docs/guides/cms/dokuwiki_server.md:23
-#: ../src/docs/guides/containers/lxd_web_servers.md:10
-#: ../src/docs/guides/containers/podman-nextcloud.md:13
-#: ../src/docs/guides/contribute/local_docs.md:11
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
-#: ../src/docs/guides/contribute/mkdocs_venv.md:14
-#: ../src/docs/guides/contribute/style_guide.md:14
-#: ../src/docs/guides/database/database_mariadb-server.md:21
-#: ../src/docs/guides/desktop/kde_installation.md:11
-#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
-#: ../src/docs/guides/editors/micro.md:14
-#: ../src/docs/guides/email/postfix_reporting.md:22
-#: ../src/docs/guides/file_sharing/glusterfs.md:16
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
-#: ../src/docs/guides/file_sharing/sftp.md:16
-#: ../src/docs/guides/migrate2rocky.md:18
-#: ../src/docs/guides/network/basic_network_configuration.md:12
-#: ../src/docs/guides/network/librenms_monitoring_server.md:13
-#: ../src/docs/guides/package_management/index.md:1
-#: ../src/docs/guides/package_management/index.md:5
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
-#: ../src/docs/guides/proxies/pound.md:17
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
-#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
-#: ../src/docs/guides/security/firewalld-beginners.md:10
-#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
-#: ../src/docs/guides/security/ssh_public_private_keys.md:21
-#: ../src/docs/guides/security/ssl_keys_https.md:22
-#: ../src/docs/guides/virtualization/vbox-rocky.md:13
-#: ../src/docs/guides/web/apache-sites-enabled.md:25
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
-#: ../src/docs/guides/web/nginx-mainline.md:13
-#: ../src/docs/guides/web/nginx-multisite.md:14
-#: ../src/docs/labs/security/introduction.md:1
-#: ../src/docs/labs/security/introduction.md:5
-#, no-wrap
-msgid "Introduction"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/nvchad/plugins/index.md:22
-#: ../src/docs/gemstones/setup_local_repo.md:12
-#: ../src/docs/guides/contribute/mkdocs_venv.md:30
-#, no-wrap
-msgid "Requirements"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/nvchad/plugins/md_preview.md:145
-#: ../src/docs/books/nvchad/plugins/projectmgr.md:157
-#: ../src/docs/books/nvchad/vale_nvchad.md:103
-#: ../src/docs/guides/contribute/mkdocs_venv.md:281
-#, no-wrap
-msgid "Conclusions and final thoughts"
-msgstr ""
-
-#. type: YAML Front Matter: tags
+#: ../src/docs/books/lxd_server/01-install.md:1
+#: ../src/docs/books/lxd_server/02-zfs_setup.md:1
+#: ../src/docs/books/lxd_server/03-lxdinit.md:1
+#: ../src/docs/books/lxd_server/04-firewall.md:1
+#: ../src/docs/books/lxd_server/05-lxd_images.md:1
+#: ../src/docs/books/lxd_server/06-profiles.md:1
+#: ../src/docs/books/lxd_server/07-configurations.md:1
+#: ../src/docs/books/lxd_server/08-snapshots.md:1
+#: ../src/docs/books/lxd_server/09-snapshot_server.md:1
+#: ../src/docs/books/lxd_server/10-automating.md:1
+#: ../src/docs/gemstones/bash_stub.md:1
+#: ../src/docs/guides/automation/cron_jobs_howto.md:1
+#: ../src/docs/guides/backup/rsnapshot_backup.md:1
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:1
 #: ../src/docs/guides/cms/dokuwiki_server.md:1
-#: ../src/docs/guides/contribute/beginners.md:1
-#: ../src/docs/guides/contribute/createnew.md:1
-#: ../src/docs/guides/contribute/local_docs.md:1
-#: ../src/docs/guides/contribute/mkdocs_venv.md:1
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:1
+#: ../src/docs/guides/contribute/navigation.md:1
+#: ../src/docs/guides/desktop/kde_installation.md:1
+#: ../src/docs/guides/dns/private_dns_server_using_bind.md:1
+#: ../src/docs/guides/email/postfix_reporting.md:1
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:1
+#: ../src/docs/guides/file_sharing/sftp.md:1
+#: ../src/docs/guides/network/librenms_monitoring_server.md:1
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:1
+#: ../src/docs/guides/security/ssh_public_private_keys.md:1
+#: ../src/docs/guides/security/ssl_keys_https.md:1
+#: ../src/docs/guides/web/apache-sites-enabled.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:1
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:1
 #, no-wrap
-msgid "documentation"
-msgstr ""
-
-#. type: YAML Front Matter: tags
-#: ../src/docs/guides/contribute/mkdocs_venv.md:1
-#, no-wrap
-msgid "mkdocs"
-msgstr ""
-
-#. type: YAML Front Matter: tags
-#: ../src/docs/guides/contribute/mkdocs_venv.md:1
-#, no-wrap
-msgid "testing"
-msgstr ""
-
-#. type: YAML Front Matter: title
-#: ../src/docs/guides/contribute/mkdocs_venv.md:1
-#, no-wrap
-msgid "Local Documentation - Python VENV"
-msgstr ""
-
-#. type: Title #
-#: ../src/docs/guides/contribute/mkdocs_venv.md:12
-#, no-wrap
-msgid "MkDocs (Python Virtual Enviroment)"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:17
-#, no-wrap
-msgid "One of the aspects of the process of creating documentation for Rocky Linux is verifying that your new document displays correctly prior to publication. \n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:19
-#, no-wrap
-msgid "The purpose of this guide is to give some suggestions for performing this task in a local python environment dedicated solely for this purpose.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:21
-#, no-wrap
-msgid "The documentation for Rocky Linux is written using the Markdown language, a language generally converted to other formats. Markdown is clean in syntax and particularly well suited for writing technical documentation.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:23
-#, no-wrap
-msgid "In our case, the documentation is converted to `HTML` using a python application that takes care of building the static site. The application used by the developers is [MkDocs](https://www.mkdocs.org/).\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:25
-#, no-wrap
-msgid "One problem that arises during the development of a python application is achieving isolation of the python instance used for development from the system interpreter. The isolation is to prevent any incompatibilities between the modules needed to install the python application and the modules installed on the host system. Any incompatibilities would result in visualization errors or malfunctions of your local site.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:27
-#, no-wrap
-msgid "There are already excellent guides that use **containers** for isolating the python interpreter. These guides, however, imply a knowledge of the various containerization techniques.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:29
-#, no-wrap
-msgid "In this guide the `venv` module provided by the *python* package of Rocky Linux is used for separation. This module is available on all new versions of *Python* since version 3.6. This will directly achieve the isolation of the python interpreter on the system without the need to install and configure new \"**systems**\".\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/guides/contribute/mkdocs_venv.md:36
-#, no-wrap
-msgid "a running copy of Rocky Linux\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/guides/contribute/mkdocs_venv.md:36
-#, no-wrap
-msgid "the *python* package correctly installed\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/guides/contribute/mkdocs_venv.md:36
-#, no-wrap
-msgid "familiarity with the command line\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/guides/contribute/mkdocs_venv.md:36
-#, no-wrap
-msgid "an active internet connection\n"
+msgid "Ezequiel Bruni"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/contribute/mkdocs_venv.md:37
+#: ../src/docs/guides/automation/anacron.md:16
+#: ../src/docs/guides/backup/rsnapshot_backup.md:319
+#: ../src/docs/guides/contribute/navigation.md:27
 #, no-wrap
-msgid "Preparing the environment"
+msgid "Assumptions"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:40
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:1
+#: ../src/docs/guides/contribute/navigation.md:1
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:1
+#: ../src/docs/guides/contribute/style_guide.md:1
 #, no-wrap
-msgid "The environment provides a root folder containing the two required Rocky Linux GitHub repositories and the folder where initialization, and running your copy of python in the virtual environment occurs.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:42
-#, no-wrap
-msgid "First, create the folder that will contain everything else, and contextually, also create the **env** folder where MkDocs will run:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/contribute/mkdocs_venv.md:43
-#, no-wrap
-msgid "mkdir -p ~/lab/rockydocs/env\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/guides/contribute/mkdocs_venv.md:47
-#, no-wrap
-msgid "Python Virtual Environment"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:50
-#, no-wrap
-msgid "To create your copy of Python where MkDocs will run, use the module specially developed for this purpose, the python `venv` module. This allows the creation of a virtual environment, derived from the one installed on the system, totally isolated and independent.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:52
-#, no-wrap
-msgid "This will allow us to have a copy, in a separate folder, of the interpreter with only the packages required by `MkDocs` to run the Rocky Linux documentation.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:54
-#, no-wrap
-msgid "Go to the folder just created (*rockydocs*) and create the virtual environment with:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/contribute/mkdocs_venv.md:55
-#, no-wrap
-msgid "cd ~/lab/rockydocs/\n"
-"python -m venv env\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:61
-#, no-wrap
-msgid "The command will populate your **env** folder with a series of folders and files that mimic your system's *python* tree shown here:\n"
-msgstr ""
-
-#. type: Fenced code block (text)
-#: ../src/docs/guides/contribute/mkdocs_venv.md:62
-#, no-wrap
-msgid "env/\n"
-"├── bin\n"
-"│   ├── activate\n"
-"│   ├── activate.csh\n"
-"│   ├── activate.fish\n"
-"│   ├── Activate.ps1\n"
-"│   ├── pip\n"
-"│   ├── pip3\n"
-"│   ├── pip3.11\n"
-"│   ├── python -> /usr/bin/python\n"
-"│   ├── python3 -> python\n"
-"│   └── python3.11 -> python\n"
-"├── include\n"
-"│   └── python3.11\n"
-"├── lib\n"
-"│   └── python3.11\n"
-"├── lib64 -> lib\n"
-"└── pyvenv.cfg\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:84
-#, no-wrap
-msgid "As you can see, the python interpreter used by the virtual environment is still the one available on the system `python -> /usr/bin/python`. The virtualization process only takes care of isolating your instance.\n"
-msgstr ""
-
-#. type: Title ####
-#: ../src/docs/guides/contribute/mkdocs_venv.md:85
-#, no-wrap
-msgid "Activating the virtual environment"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:88
-#, no-wrap
-msgid "Among the files listed in the structure, there are several files named **activate** that serve this purpose. The suffix of each file indicates the related *shell*.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:90
-#, no-wrap
-msgid "Activation separates this instance of python from the system instance and allows us to perform documentation development without interference. To activate it, go to the *env* folder and run the command:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/contribute/mkdocs_venv.md:91
-#, no-wrap
-msgid "[rocky_user@rl9 rockydocs]$ cd ~/lab/rockydocs/env/\n"
-"[rocky_user@rl9 env]$ source ./bin/activate\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:97
-#, no-wrap
-msgid "The *activate* command was issued without any suffix because this refers to the *bash* shell, Rocky Linux's default shell. At this point your *shell prompt* should be:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/contribute/mkdocs_venv.md:98
-#, no-wrap
-msgid "(env) [rocky_user@rl9 env]$\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:103
-#, no-wrap
-msgid "As you can see, the initial *(env)* part indicates that you are now in the virtual environment. The first thing to do at this point is to update **pip** the python module manager that will is used to install MkDocs. To do this, use the command:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/contribute/mkdocs_venv.md:104
-#, no-wrap
-msgid "python -m pip install --upgrade pip\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/contribute/mkdocs_venv.md:108
-#, no-wrap
-msgid "python -m pip install --upgrade pip\n"
-"Requirement already satisfied: pip in ./lib/python3.9/site-packages (21.2.3)\n"
-"Collecting pip\n"
-"  Downloading pip-23.1-py3-none-any.whl (2.1 MB)\n"
-"    |████████████████████████████████| 2.1 MB 1.6 MB/s\n"
-"Installing collected packages: pip\n"
-"  Attempting uninstall: pip\n"
-"    Found existing installation: pip 21.2.3\n"
-"    Uninstalling pip-21.2.3:\n"
-"      Successfully uninstalled pip-21.2.3\n"
-"Successfully installed pip-23.1\n"
-msgstr ""
-
-#. type: Title ####
-#: ../src/docs/guides/contribute/mkdocs_venv.md:122
-#, no-wrap
-msgid "Deactivate the environment"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:125
-#, no-wrap
-msgid "To exit the virtual environment, use the *deactivate* command:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/contribute/mkdocs_venv.md:126
-#: ../src/docs/guides/contribute/mkdocs_venv.md:206
-#, no-wrap
-msgid "(env) [rocky_user@rl9 env]$ deactivate\n"
-"[rocky_user@rl9 env]$\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:132
-#, no-wrap
-msgid "As you can see, the terminal *prompt* after deactivation has reverted to the system one. You should always check the prompt carefully before running *MkDocs* installation and subsequent commands. Checking this will prevent unnecessary and unwanted global application installations and missed runs of `mkdocs serve`.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/guides/contribute/mkdocs_venv.md:133
-#, no-wrap
-msgid "Downloading the repositories"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:136
-#, no-wrap
-msgid "Now that you have seen how to create your virtual environment and how to manage it, you can move on to preparing everything needed.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:138
-#, no-wrap
-msgid "Two repositories are required for the implementation of a local version of the Rocky Linux documentation: the documentation repository [documentation](https://github.com/rocky-linux/documentation), and the site structure repository [docs.rockylinux.org](https://github.com/rocky-linux/docs.rockylinux.org). Downloading these is done from the Rocky Linux GitHub.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:140
-#, no-wrap
-msgid "Start with the site structure repository, which you will clone into the **rockydocs** folder:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/contribute/mkdocs_venv.md:141
-#, no-wrap
-msgid "cd ~/lab/rockydocs/\n"
-"git clone https://github.com/rocky-linux/docs.rockylinux.org.git\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:147
-#, no-wrap
-msgid "In this folder there are two files that you are going to use for building the local documentation. They are **mkdocs.yml**, the configuration file used to initialize MkDocs, and **requirement.txt**, which has all the python packages needed for installing *mkdocs*.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:149
-#, no-wrap
-msgid "When finished, you also need to download the documentation repository:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/contribute/mkdocs_venv.md:150
-#: ../src/docs/guides/contribute/rockydocs_web_dev.md:41
-#: ../src/docs/guides/contribute/rockydocs_webdev_v2.md:36
-#, no-wrap
-msgid "git clone https://github.com/rocky-linux/documentation.git\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:155
-#, no-wrap
-msgid "At this point you will have the following structure in the **rockydocs** folder:\n"
-msgstr ""
-
-#. type: Fenced code block (text)
-#: ../src/docs/guides/contribute/mkdocs_venv.md:156
-#, no-wrap
-msgid "rockydocs/\n"
-"├── env\n"
-"├── docs.rockylinux.org\n"
-"├── documentation\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:164
-#, no-wrap
-msgid "Schematizing, you can say that the **env** folder will be your *MkDocs* engine that will use **docs.rockylinux.org** as a container to display the data contained in **documentation**.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/guides/contribute/mkdocs_venv.md:165
-#, no-wrap
-msgid "Installation of MkDocs"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:168
-#, no-wrap
-msgid "As pointed out earlier, the developers of Rocky Linux provide the **requirement.txt** file, which contains the list of modules required for the proper run of a custom instance of MkDocs. You will use the file to install everything needed in a single operation.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:170
-#, no-wrap
-msgid "First you enter your python virtual environment:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/contribute/mkdocs_venv.md:171
-#, no-wrap
-msgid "[rocky_user@rl9 rockydocs]$ cd ~/lab/rockydocs/env/\n"
-"[rocky_user@rl9 env]$ source ./bin/activate\n"
-"(env) [rocky_user@rl9 env]$\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:178
-#, no-wrap
-msgid "Next, proceed to install MkDocs and all its components with the command:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/contribute/mkdocs_venv.md:179
-#, no-wrap
-msgid "(env) [rocky_user@rl9 env]$ python -m pip install -r ../docs.rockylinux.org/requirements.txt\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:184
-#, no-wrap
-msgid "To check that everything went well, you can call up the MkDocs help, which also introduces us to the available commands:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/contribute/mkdocs_venv.md:185
-#, no-wrap
-msgid "(env) [rocky_user@rl9 env]$ mkdocs -h\n"
-"Usage: mkdocs [OPTIONS] COMMAND [ARGS]...\n\n"
-"  MkDocs - Project documentation with Markdown.\n\n"
-"Options:\n"
-"  -V, --version  Show the version and exit.\n"
-"  -q, --quiet    Silence warnings\n"
-"  -v, --verbose  Enable verbose output\n"
-"  -h, --help     Show this message and exit.\n\n"
-"Commands:\n"
-"  build      Build the MkDocs documentation\n"
-"  gh-deploy  Deploy your documentation to GitHub Pages\n"
-"  new        Create a new MkDocs project\n"
-"  serve      Run the builtin development server\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:205
-#, no-wrap
-msgid "If everything has worked as planned, you can exit the virtual environment and start preparing the necessary connections.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/guides/contribute/mkdocs_venv.md:211
-#, no-wrap
-msgid "Linking documentation"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:214
-#, no-wrap
-msgid "Now that everything needed is available, you just need to link the documentation repository within the *docs.rockylinux.org* container site. Following the setup defined in *mkdocs.yml*:\n"
+msgid "contribute"
 msgstr ""
 
 #. type: Fenced code block
@@ -597,139 +295,340 @@ msgstr ""
 msgid "docs_dir: 'docs/docs'\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:220
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/contribute/navigation.md:1
 #, no-wrap
-msgid "You will first need to create a **docs** folder in **docs.rockylinux.org** and then from within it link your **docs** folder from the **documentation** repository.\n"
+msgid "navigation"
 msgstr ""
 
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/contribute/mkdocs_venv.md:221
+#. type: YAML Front Matter: title
+#: ../src/docs/guides/contribute/navigation.md:1
 #, no-wrap
-msgid "cd ~/lab/rockydocs/docs.rockylinux.org\n"
-"mkdir docs\n"
-"cd docs/\n"
-"ln -s ../../documentation/docs/ docs\n"
+msgid "Navigational Changes"
+msgstr ""
+
+#. type: Title #
+#: ../src/docs/guides/contribute/navigation.md:10
+#, no-wrap
+msgid "Navigational Changes - A Process Document for Managers/Editors"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/contribute/mkdocs_venv.md:228
+#: ../src/docs/guides/contribute/navigation.md:12
 #, no-wrap
-msgid "Starting Local Documentation"
+msgid "Reason For This Document"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:231
+#: ../src/docs/guides/contribute/navigation.md:15
 #, no-wrap
-msgid "At this point you are ready to start the local copy of the Rocky Linux documentation. First you need to start the python virtual environment and then initialize your MkDocs instance with the settings defined in **docs.rockylinux.org/mkdocs.yml**.\n"
+msgid "When the documentation project got started, it was hoped that menus in Mkdocs would be as automatic as possible, making manual editing of navigation rare. After a few months of generating documents, it became clear that just placing documents in the correct folder and letting Mkdocs generate the navigation could not be depended on to keep things clean and neat. We needed categories, something that Mkdocs does not provide unless the documents are placed in specific folders. Mkdocs will then create a navigation with an alphabetic sort. Creating a folder structure that fixes navigation isn't the entire picture however. Even that will sometimes need additional changes to keep things organized. For instance, capitalization without modifying the lower-case folder structure.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/navigation.md:16
+#, no-wrap
+msgid "Goals"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:233
+#: ../src/docs/guides/contribute/navigation.md:19
 #, no-wrap
-msgid "This file has all the settings necessary for localization, feature management, and theme management.\n"
+msgid "Our goals were:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/navigation.md:24
+#, no-wrap
+msgid "Create the folder structure as needed now (new folders may be required in the future).\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/navigation.md:24
+#, no-wrap
+msgid "Adjust the navigation so that the the Rocky Installation, Migration, and Contribution areas were at the top.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/navigation.md:24
+#, no-wrap
+msgid "Adjust the navigation to better name some folders, and enable correct capitalization. As an example, \"DNS\" and \"File Sharing Services\", which otherwise show up as \"Dns\" and \"File sharing\" without some manipulation.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/navigation.md:24
+#, no-wrap
+msgid "Make sure that these navigation files are restricted to Managers and Editors.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:235
+#: ../src/docs/guides/contribute/navigation.md:26
 #, no-wrap
-msgid "The developers for the site's UI chose the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme, which provides many additional features and customizations over the default MkDocs theme.\n"
+msgid "This last item may seem unnecessary to some reading this, but it will become clearer as this document continues.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:237
+#: ../src/docs/guides/contribute/navigation.md:30
 #, no-wrap
-msgid "Perform the following commands:\n"
+msgid "It is assumed that you have a local clone of the Rocky GitHub repository: [https://github.com/rocky-linux/documentation](https://github.com/rocky-linux/documentation).\n"
 msgstr ""
 
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/contribute/mkdocs_venv.md:238
+#. type: Title ##
+#: ../src/docs/guides/contribute/navigation.md:31
 #, no-wrap
-msgid "[rocky_user@rl9 rockydocs]$ cd ~/lab/rockydocs/env/\n"
-"[rocky_user@rl9 rockydocs]$ source ./bin/activate\n"
-"(env) [rocky_user@rl9 env]$ mkdocs serve -f ../docs.rockylinux.org/mkdocs.yml\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:245
-#, no-wrap
-msgid "You should see in your terminal the start of site construction. The display will show any errors found by MkDocs, such as missing links or other:\n"
-msgstr ""
-
-#. type: Fenced code block (text)
-#: ../src/docs/guides/contribute/mkdocs_venv.md:246
-#, no-wrap
-msgid "INFO     -  Building documentation...\n"
-"INFO     -  Adding 'de' to the 'plugins.search.lang' option\n"
-"INFO     -  Adding 'fr' to the 'plugins.search.lang' option\n"
-"INFO     -  Adding 'es' to the 'plugins.search.lang' option\n"
-"INFO     -  Adding 'it' to the 'plugins.search.lang' option\n"
-"INFO     -  Adding 'ja' to the 'plugins.search.lang' option\n"
-"...\n"
-"...\n"
-"INFO     -  Documentation built in 102.59 seconds\n"
-"INFO     -  [11:46:50] Watching paths for changes:\n"
-"            '/home/rocky_user/lab/rockydocs/docs.rockylinux.org/docs/docs',\n"
-"            '/home/rocky_user/lab/rockydocs/docs.rockylinux.org/mkdocs.yml'\n"
-"INFO     -  [11:46:50] Serving on http://127.0.0.1:8000/\n"
+msgid "Environment Changes"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:263
+#: ../src/docs/guides/contribute/navigation.md:34
 #, no-wrap
-msgid "Opening your browser at the address specified (http://1127.0.0.1:8000) you will have your copy of the documentation site running. The copy perfectly mirrors the online site in functionality and structure, allowing you to assess the appearance and impact your page will have on the site.\n"
+msgid "With these changes comes a real need to \"see\" how any changes you are making affect content, in the context of the website, _BEFORE_ that content is committed to the document repository, and subsequently goes 'live'.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:265
+#: ../src/docs/guides/contribute/navigation.md:36
 #, no-wrap
-msgid "MkDocs incorporates a mechanism for checking changes to the files in the folder specified by the `docs_dir` path, and inserting a new page or modifying an existing one in `documentation/docs` will automatically be recognized and produce a new static site build.\n"
+msgid "MkDocs is a [Python](https://www.python.org) application and the extra packages it uses are also Python code, this means that the environment required to run MkDocs needs to be a **correctly configured Python environment**. Setting up Python for development tasks (which is what is being done running MkDocs) is not a trivial task, and instructions for that are out of the scope of this document. Some considerations are:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/navigation.md:42
+#, no-wrap
+msgid "The version of Python, it should be >= 3.8, also **particular care must be taken not to use the 'system' Python version of a computer if the computer runs Linux/macOS**. For example, as of the writing of this document, the system version of Python on macOS is still version 2.7.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/navigation.md:42
+#, no-wrap
+msgid "Running a Python 'virtual environment'. When running Python application project and installing packages, for example MkDocs, it is **strongly recommended** by the Python community to [create an isolated virtual environment](https://realpython.com/python-virtual-environments-a-primer/) for each project.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/navigation.md:42
+#, no-wrap
+msgid "Use a modern IDE (Integrated Development Environment) that supports Python well. Two popular IDEs, which also have integrated support for running virtual environments, are:\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/contribute/navigation.md:42
+#, no-wrap
+msgid "PyCharm - (free version available) the leading IDE for Python https://www.jetbrains.com/pycharm/\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/contribute/navigation.md:42
+#, no-wrap
+msgid "Visual Studio Code- (free version available) from Microsoft https://code.visualstudio.com\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:267
+#: ../src/docs/guides/contribute/navigation.md:44
 #, no-wrap
-msgid "Since the time for MkDocs to build the static site can be several minutes, the recommendation is to carefully review the page you are writing before saving or inserting it. This saves waiting for the site to build just because you forgot, for example, punctuation.\n"
+msgid "Doing this effectively requires:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/navigation.md:51
+#, no-wrap
+msgid "Setting up a new Python project which, ideally, uses a virtual environment (above).\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/navigation.md:51
+#, no-wrap
+msgid "Installing `mkdocs`\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/navigation.md:51
+#, no-wrap
+msgid "Installing some python plugins\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/navigation.md:51
+#, no-wrap
+msgid "Cloning this Rocky GitHub repository:[https://github.com/rocky-linux/docs.rockylinux.org](https://github.com/rocky-linux/docs.rockylinux.org)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/navigation.md:51
+#, no-wrap
+msgid "Linking to the `docs` folder within your cloned documentation repository (you can also just modify the mkdocs.yml file if you wish to load the correct folder, but linking keeps your mkdocs environment cleaner)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/navigation.md:51
+#, no-wrap
+msgid "Running `mkdocs serve` within your clone of docs.rockylinux.org\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/navigation.md:55
+#, no-wrap
+msgid "    You can build totally separate environments for `mkdocs` by using either of these two procedures as well:\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/contribute/navigation.md:58
+#, no-wrap
+msgid "[Local Documentation - Docker](rockydocs_web_dev.md)\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: ../src/docs/guides/contribute/navigation.md:58
+#, no-wrap
+msgid "[Local Documentation - LXD](mkdocs_lsyncd.md)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/navigation.md:62
+#, no-wrap
+msgid "    This document was written in a Linux environment. If your environment is different (Windows or Mac), then you will need to do a little research on matching up to some of these steps. An editor or manager reading this can submit changes to it to add in steps for those environments.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/navigation.md:63
+#: ../src/docs/release_notes/8_8.md:27 ../src/docs/release_notes/9_0.md:144
+#: ../src/docs/release_notes/9_1.md:31 ../src/docs/release_notes/9_2.md:65
+#, no-wrap
+msgid "Installing"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/navigation.md:68
+#, no-wrap
+msgid "Install `mkdocs` with the python environment: `pip install mkdocs`\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/navigation.md:68
+#, no-wrap
+msgid "Install needed plugins:  `pip install mkdocs-material mkdocs-localsearch mkdocs-awesome-pages-plugin mkdocs-redirects mkdocs-i18n`\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/contribute/navigation.md:68
+#, no-wrap
+msgid "Clone the repository (noted above)\n"
 msgstr ""
 
 #. type: Title ###
-#: ../src/docs/guides/contribute/mkdocs_venv.md:268
+#: ../src/docs/guides/contribute/navigation.md:69
 #, no-wrap
-msgid "Exit the Development Environment"
+msgid "Linking and Running `mkdocs`"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:271
+#: ../src/docs/guides/contribute/navigation.md:72
 #, no-wrap
-msgid "Once the display of your new page meets your satisfaction, you can exit your development environment. This involves first exiting *MkDocs* and then deactivating the python virtual environment. To exit *MkDocs* you need to use the key combination <kbd>CTRL</kbd> + <kbd>C</kbd>, and as you saw above, to exit the virtual environment you will need to invoke the `deactivate` command.\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/guides/contribute/mkdocs_venv.md:272
-#, no-wrap
-msgid "...\n"
-"INFO     -  [22:32:41] Serving on http://127.0.0.1:8000/\n"
-"^CINFO     -  Shutting down...\n"
-"(env) [rocky_user@rl9 env]$\n"
-"(env) [rocky_user@rl9 env]$ deacticate\n"
-"[rocky_user@rl9 env]$\n"
+msgid "Inside your docs.rockylinux.org local (clone), do the following. This assumes the location of your documentation clone, so modify as needed:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:284
+#: ../src/docs/guides/contribute/navigation.md:74
 #, no-wrap
-msgid "Verification of your new pages in a local development site provides us with the assurance that your work will always conform to the online documentation site therefore allowing us to contribute optimally.\n"
+msgid "`ln -s /home/username/documentation/docs docs`\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:286
+#: ../src/docs/guides/contribute/navigation.md:76
 #, no-wrap
-msgid "Document compliance is also a great help to the curators of the documentation site, who then only have to deal with the correctness of the content.\n"
+msgid "Again, if you desire, you can modify the local copy of the `mkdocs.yml` file to set the path. If using this method, you would modify this line to point to your `documentation/docs` folder:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/contribute/mkdocs_venv.md:287
+#: ../src/docs/guides/contribute/navigation.md:82
 #, no-wrap
-msgid "In conclusion, you can say that this method allows meeting the requirements for a \"clean\" installation of MkDocs without the need to resort to containerization.\n"
+msgid "Once completed, you can try running `mkdocs serve` to see if you get your desired content. This will run on a your localhost on port 8000 example: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/contribute/navigation.md:83
+#, no-wrap
+msgid "Navigation and Other Changes"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/navigation.md:86
+#, no-wrap
+msgid "Navigation is handled with mkdocs `.pages` files **OR** by the value of the \"title:\" meta in the document front matter. The `.pages` files are not terribly complex, BUT, if something is left out, it can cause the server to fail to load. That's why this procedure is **ONLY** for Managers and Editors. These individuals are going to have the tools in place (local install of mkdocs, plus clones of both documentation and docs.rockylinux.org) so that something pushed and merged to GitHub will not break the serving of the documentation website. A contributor cannot be expected to have even one of these requirements in place.\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/guides/contribute/navigation.md:88
+#, no-wrap
+msgid "`.pages` Files"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/navigation.md:91
+#, no-wrap
+msgid "As already stated, the `.pages` files are generally pretty simple. They are a YAML formatted file that `mkdocs` reads before rendering the content. To take a look at one of the more complex `.pages` files, let's look at the one created to help format the side navigation:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/navigation.md:92
+#, no-wrap
+msgid "---\n"
+"nav:\n"
+"    - ... | index*.md\n"
+"    - ... | installation*.md\n"
+"    - ... | migrate2rocky*.md\n"
+"    - Contribute: contribute\n"
+"    - Automation: automation\n"
+"    - Backup & Sync: backup\n"
+"    - Content Management: cms\n"
+"    - Communications: communications\n"
+"    - Containers: containers\n"
+"    - Database: database\n"
+"    - Desktop: desktop\n"
+"    - DNS: dns\n"
+"    - Email: email\n"
+"    - File Sharing Services: file_sharing\n"
+"    - Git: git\n"
+"    - Interoperability: interoperability\n"
+"    - Mirror Management: mirror_management\n"
+"    - Network: network\n"
+"    - Package Management: package_management\n"
+"    - ...\n\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/navigation.md:118
+#, no-wrap
+msgid "Here, the `index*md` shows the \"Guides Home: \", `installation*.md` shows the \"Installing Rocky Linux\" document link, and the `migrate2rocky*.md` shows the \"Migrating To Rocky Linux\" document link. The \"*\" within each of these links allows for that document in _any_ language. Finally, by placing \"Contribute\" next, it falls beneath these items rather than in the normal (alphabetic) sort order. If you look down the list, you can see what each item is doing. Note that after the \"Package Management: package_management\" entry, there are actually two more folders (security and web). These do not require any additional formatting, so we are just telling `mkdocs` to load them normally with the \"-...\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/navigation.md:120
+#, no-wrap
+msgid "You can also use YAML formatting within an actual file. A reason for doing this might be that the beginning heading of the file is so long, that it just doesn't display well in the navigation section.  As an example, take this document heading \"# `mod_ssl` on Rocky Linux in an httpd Apache Web-Server Environment\". That is very long. It displays very poorly in the side navigation once the \"Web\" navigation item is opened. To fix this, you can either work with the author to change his heading, or, you can change how it displays in the menu by adding a title before the heading inside the document. For the example document, there is a title added:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/contribute/navigation.md:120
+#, no-wrap
+msgid "---\n"
+"title: Apache With `mod_ssl`\n"
+"---\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/navigation.md:126
+#, no-wrap
+msgid "This changes the title as far as the navigation is concerned, but leaves the author's original title in place within the document.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/navigation.md:128
+#, no-wrap
+msgid "There will probably not be a lot of need for additional `.pages` files. They should be used economically.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/contribute/navigation.md:131
+#, no-wrap
+msgid "While the navigational changes that might need to be made are not difficult, the potential for breaking the live documentation exists. For this reason, only managers and editors with the appropriate tooling in place should have the permissions to edit these files. Having a full environment available to view what the live pages are going to look like, keeps the manager or editor from making a mistake while editing these files that also breaks the live documentation.\n"
 msgstr ""
 
