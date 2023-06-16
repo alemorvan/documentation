@@ -13,8 +13,42 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /po4a/po4a/_po/nvchad_index.pot\n"
-"X-Crowdin-File-ID: 1461\n"
+"X-Crowdin-File: /po4a/po4a/_po/nvchad_install_nvchad.pot\n"
+"X-Crowdin-File-ID: 1463\n"
+
+#. type: Plain text
+#: ../src/docs/books/admin_guide/06-users.md:308
+#: ../src/docs/books/admin_guide/06-users.md:644
+#: ../src/docs/books/admin_guide/07-file-systems.md:195
+#: ../src/docs/books/disa_stig/disa_stig_part2.md:30
+#: ../src/docs/books/learning_bash/01-first-script.md:46
+#: ../src/docs/books/learning_bash/01-first-script.md:77
+#: ../src/docs/books/learning_bash/02-using-variables.md:185
+#: ../src/docs/books/learning_bash/05-tests.md:63
+#: ../src/docs/books/lxd_server/07-configurations.md:102
+#: ../src/docs/books/nvchad/install_nvchad.md:182
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:53
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:133
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:153
+#: ../src/docs/guides/automation/cron_jobs_howto.md:83
+#: ../src/docs/guides/automation/cron_jobs_howto.md:125
+#: ../src/docs/guides/automation/cron_jobs_howto.md:160
+#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:44
+#: ../src/docs/guides/cms/dokuwiki_server.md:216
+#: ../src/docs/guides/communications/asterisk_installation.md:12
+#: ../src/docs/guides/containers/podman-nextcloud.md:361
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:72
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:350
+#: ../src/docs/guides/desktop/kde_installation.md:16
+#: ../src/docs/guides/file_sharing/sftp.md:54
+#: ../src/docs/guides/file_sharing/sftp.md:129
+#: ../src/docs/guides/file_sharing/sftp.md:321
+#: ../src/docs/guides/proxies/pound.md:62
+#: ../src/docs/guides/proxies/pound.md:418 ../src/docs/index.md:40
+#: ../src/docs/release_notes/9_1.md:16
+#, no-wrap
+msgid "!!! note\n"
+msgstr ""
 
 #. type: YAML Front Matter: contributors
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:1
@@ -76,70 +110,6 @@ msgstr ""
 msgid "Steven Spencer"
 msgstr ""
 
-#. type: Title #
-#: ../src/docs/books/disa_stig/disa_stig_part2.md:13
-#: ../src/docs/books/disa_stig/disa_stig_part1.md:23
-#: ../src/docs/books/learning_ansible/05-deployments.md:31
-#: ../src/docs/books/learning_bash/appendix/02-variables-logs.md:14
-#: ../src/docs/books/lxd_server/00-toc.md:1
-#: ../src/docs/books/lxd_server/00-toc.md:13
-#: ../src/docs/books/nvchad/index.md:12
-#: ../src/docs/books/nvchad/plugins/index.md:14
-#: ../src/docs/books/nvchad/plugins/md_preview.md:14
-#: ../src/docs/books/nvchad/plugins/projectmgr.md:14
-#: ../src/docs/books/nvchad/vale_nvchad.md:12
-#: ../src/docs/gemstones/dnf-swap.md:18 ../src/docs/gemstones/docker.md:10
-#: ../src/docs/gemstones/nmtui.md:8 ../src/docs/gemstones/setup_local_repo.md:8
-#: ../src/docs/gemstones/string_color.md:11
-#: ../src/docs/guides/automation/cron_jobs_howto.md:25
-#: ../src/docs/guides/automation/olivetin.md:14
-#: ../src/docs/guides/automation/templates-automation-packer-vsphere.md:25
-#: ../src/docs/guides/backup/mirroring_lsyncd.md:26
-#: ../src/docs/guides/backup/rsnapshot_backup.md:22
-#: ../src/docs/guides/backup/rsync_ssh.md:24
-#: ../src/docs/guides/cms/cloud_server_using_nextcloud.md:28
-#: ../src/docs/guides/cms/dokuwiki_server.md:23
-#: ../src/docs/guides/containers/lxd_web_servers.md:10
-#: ../src/docs/guides/containers/podman-nextcloud.md:13
-#: ../src/docs/guides/contribute/local_docs.md:11
-#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:11
-#: ../src/docs/guides/contribute/mkdocs_venv.md:14
-#: ../src/docs/guides/contribute/style_guide.md:14
-#: ../src/docs/guides/database/database_mariadb-server.md:21
-#: ../src/docs/guides/desktop/kde_installation.md:11
-#: ../src/docs/guides/dns/private_dns_server_using_bind.md:22
-#: ../src/docs/guides/editors/micro.md:14
-#: ../src/docs/guides/email/postfix_reporting.md:22
-#: ../src/docs/guides/file_sharing/glusterfs.md:16
-#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:21
-#: ../src/docs/guides/file_sharing/sftp.md:16
-#: ../src/docs/guides/migrate2rocky.md:18
-#: ../src/docs/guides/network/basic_network_configuration.md:12
-#: ../src/docs/guides/network/librenms_monitoring_server.md:13
-#: ../src/docs/guides/package_management/index.md:1
-#: ../src/docs/guides/package_management/index.md:5
-#: ../src/docs/guides/proxies/haproxy_apache_lxd.md:9
-#: ../src/docs/guides/proxies/pound.md:17
-#: ../src/docs/guides/security/authentication/active_directory_authentication.md:13
-#: ../src/docs/guides/security/enabling_iptables_firewall.md:22
-#: ../src/docs/guides/security/firewalld-beginners.md:10
-#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:23
-#: ../src/docs/guides/security/ssh_public_private_keys.md:21
-#: ../src/docs/guides/security/ssl_keys_https.md:22
-#: ../src/docs/guides/virtualization/vbox-rocky.md:13
-#: ../src/docs/guides/web/apache-sites-enabled.md:25
-#: ../src/docs/guides/web/apache_hardened_webserver/index.md:23
-#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:24
-#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:22
-#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:23
-#: ../src/docs/guides/web/nginx-mainline.md:13
-#: ../src/docs/guides/web/nginx-multisite.md:14
-#: ../src/docs/labs/security/introduction.md:1
-#: ../src/docs/labs/security/introduction.md:5
-#, no-wrap
-msgid "Introduction"
-msgstr ""
-
 #. type: YAML Front Matter: tags
 #: ../src/docs/books/nvchad/additional_software.md:1
 #: ../src/docs/books/nvchad/index.md:1
@@ -175,383 +145,418 @@ msgstr ""
 msgid "coding"
 msgstr ""
 
-#. type: YAML Front Matter: tags
-#: ../src/docs/books/nvchad/index.md:1
-#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:1
-#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:1
-#: ../src/docs/books/nvchad/plugins/index.md:1
-#: ../src/docs/books/nvchad/plugins/md_preview.md:1
-#: ../src/docs/books/nvchad/plugins/projectmgr.md:1
-#: ../src/docs/guides/editors/micro.md:1
+#. type: YAML Front Matter: title
+#: ../src/docs/books/nvchad/install_nvchad.md:1
 #, no-wrap
-msgid "editor"
+msgid "Install NvChad"
 msgstr ""
 
-#. type: Title ###
-#: ../src/docs/books/nvchad/index.md:1
-#: ../src/docs/books/nvchad/plugins/index.md:1
-#: ../src/docs/books/nvchad/plugins/index.md:12
-#: ../src/docs/gemstones/markdown-demo-v2.md:12
-#: ../src/docs/guides/custom-linux-kernel.md:10
-#: ../src/docs/release_notes/index.md:16 ../src/docs/release_notes/index.md:30
+#. type: Title #
+#: ../src/docs/books/nvchad/install_nvchad.md:11
 #, no-wrap
-msgid "Overview"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/index.md:15
-#, no-wrap
-msgid "Throughout this book, you will find ways to implement Neovim, along with NvChad, to create a fully functional **I**ntegrated **D**evelopment **E**nvironment (IDE).\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/index.md:17
-#, no-wrap
-msgid "I say \"ways\" because there are many possibilities. The author focuses here on using these tools for writing markdown, but if markdown isn't your focus, don't worry simply read on. If you are unfamiliar with either of these tools (NvChad or Neovim), then this book will give you an introduction to both, and if you step through these documents, you'll soon realize that you can set up this environment to be a huge help for whatever your programming or script writing needs are.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/index.md:19
-#, no-wrap
-msgid "Want an IDE that will help in writing Ansible playbooks? You can get that! Want an IDE for Golang? That's available too. Simply want a good interface for writing BASH scripts? It's also available.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/index.md:21
-#, no-wrap
-msgid "Through the use of **L**anguage **S**erver **P**rotocols and linters, you can setup an environment that is customized just for you. The best part is that once you have the environment setup, it can quickly be updated when new changes are available through the use of [lazy.nvim](https://github.com/folke/lazy.nvim) and [Mason](https://github.com/williamboman/mason.nvim), both of which are covered here.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/index.md:23
-#, no-wrap
-msgid "Because Neovim is a fork of `vim`, the overall interface will be familiar to `vim` users. If you aren't a `vim` user, you will pick up on the syntax of the commands quickly using this book. There's a lot of information covered here but it's easy to follow along, and once you've completed the content, you'll know enough to build your own IDE for _your_ needs with these tools.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/index.md:25
-#, no-wrap
-msgid "It was the author's intent **not** to break this book down into chapters. The reason is that this implies an order that must be followed and, for the most part, that's not necessary. You *will* want to start with this page, read and follow the \"Additional Software\", \"Install Neovim\" and \"Install NvChad\" sections, but from there, you can choose how you want to proceed.\n"
+msgid "Turning Neovim into an advanced IDE"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/books/nvchad/index.md:26
+#: ../src/docs/books/nvchad/install_nvchad.md:13
 #, no-wrap
-msgid "Using Neovim as an IDE"
+msgid "Pre-requisites"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/index.md:29
+#: ../src/docs/books/nvchad/install_nvchad.md:16
 #, no-wrap
-msgid "The basic installation of Neovim provides an excellent editor for development, but it cannot yet be called an IDE; all the more advanced IDE features, even if already preset, are not yet activated. To do this we need to pass the necessary configurations to Neovim, and this is where NvChad comes to our aid. This allows us to have a basic configuration out of the box with just one command!\n"
+msgid "As specified on the NvChad site you need to make sure you meet the following requirements:\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/install_nvchad.md:23
+#, no-wrap
+msgid "[Neovim 0.8.3](https://github.com/neovim/neovim/releases/tag/v0.8.3).\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/install_nvchad.md:23
+#, no-wrap
+msgid "[Nerd Font](https://www.nerdfonts.com/) Set it in your terminal emulator.\n"
+msgstr ""
+
+#. type: Bullet: '  - '
+#: ../src/docs/books/nvchad/install_nvchad.md:23
+#, no-wrap
+msgid "Make sure the nerd font you set doesn't end with **Mono**\n"
+msgstr ""
+
+#. type: Bullet: '   - '
+#: ../src/docs/books/nvchad/install_nvchad.md:23
+#, no-wrap
+msgid "**Example :** Iosevka Nerd Font and not ~~Iosevka Nerd Font Mono~~ \n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/install_nvchad.md:23
+#, no-wrap
+msgid "[Ripgrep](https://github.com/BurntSushi/ripgrep) is required for grep searching with Telescope **(OPTIONAL)**. \n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/docs/books/nvchad/install_nvchad.md:23
+#, no-wrap
+msgid "GCC\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/index.md:31
+#: ../src/docs/books/nvchad/install_nvchad.md:25
 #, no-wrap
-msgid "The configuration is written in Lua, a very fast programming language that allows NvChad to have startup and execution times for commands and keystrokes that are very fast. This is also made possible by the `Lazy loading` technique used for plugins that loads them only when required.\n"
+msgid "This is actually not a real \"installation\" but rather writing a custom Neovim configuration for our user.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/index.md:33
+#: ../src/docs/books/nvchad/install_nvchad.md:27
 #, no-wrap
-msgid "The interface turns out to be very clean and pleasant.\n"
+msgid "!!! warning \"Performing a Clean Installation\"\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/index.md:35
+#: ../src/docs/books/nvchad/install_nvchad.md:29
 #, no-wrap
-msgid "As the developers of NvChad are keen to point out, the project is only intended to be a base on which to build your own personal IDE. Subsequent customization is done through the use of plugins.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/index.md:37
-#, no-wrap
-msgid "![NvChad UI](images/nvchad_rocky.png)\n"
+msgid "    As specified in the requirements, installing this new configuration on top of a previous one can create unfixable problems. A clean installation is recommended.\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/books/nvchad/index.md:38
-#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:18
+#: ../src/docs/books/nvchad/install_nvchad.md:30
+#: ../src/docs/books/nvchad/nvchad_ui/plugins_manager.md:26
 #, no-wrap
-msgid "Main Features"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/index.md:41
-#, no-wrap
-msgid "**Designed to be fast.** From the choice of programming language to techniques for loading components, everything is designed to minimize execution time.\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/index.md:43
-#, no-wrap
-msgid "**Attractive Interface.** Despite being a _cli_ application the interface looks modern and beautiful graphically, plus all the components fit the UI perfectly.\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/index.md:45
-#, no-wrap
-msgid "**Extremely Configurable.** Due to the modularity derived from the base application (NeoVim), the editor can be adapted perfectly to one's needs. Keep in mind, however, that when we talk about customization we are referring to functionality, and not to the appearance of the interface.\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/index.md:47
-#, no-wrap
-msgid "**Automatic update mechanism.** The editor comes with a mechanism (through the use of _git_) that allows updates with a simple `:NvChadUpdate` command.\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/index.md:49
-#, no-wrap
-msgid "**Powered by Lua.** NvChad's configuration is written entirely in _lua_, which allows it to integrate seamlessly into Neovim's configuration by taking advantage of the full potential of the editor on which it is based.\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/index.md:51
-#, no-wrap
-msgid "**Numerous inbuilt themes.** The configuration already includes a large number of themes to use, always keeping in mind that we are talking about a _cli_ application, themes can be selected with the `<leader> + th` key.\n"
+msgid "Preliminary Operations"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/index.md:53
+#: ../src/docs/books/nvchad/install_nvchad.md:33
 #, no-wrap
-msgid "![NvChad Themes](images/nvchad_th.png)\n"
+msgid "If you have used the Neovim installation before, it will have created three folders in which to write your files, which are:\n"
 msgstr ""
 
-#. type: Title ##
-#: ../src/docs/books/nvchad/index.md:54
+#. type: Fenced code block (text)
+#: ../src/docs/books/nvchad/install_nvchad.md:34
 #, no-wrap
-msgid "References"
+msgid "~/.config/nvim\n"
+"~/.local/share/nvim\n"
+"~/.cache/nvim\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvchad.md:41
+#, no-wrap
+msgid "To perform a clean installation of the configuration, we need to back up the previous one first:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/install_nvchad.md:42
+#, no-wrap
+msgid "mkdir ~/backup_nvim\n"
+"cp -r ~/.config/nvim ~/backup_nvim\n"
+"cp -r ~/.local/share/nvim ~/backup_nvim\n"
+"cp -r ~/.cache/nvim ~/backup_nvim\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvchad.md:50
+#, no-wrap
+msgid "And then we delete all previous configurations and files:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/install_nvchad.md:51
+#, no-wrap
+msgid "rm -rf ~/.config/nvim\n"
+"rm -rf ~/.local/share/nvim\n"
+"rm -rf ~/.cache/nvim\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvchad.md:58
+#, no-wrap
+msgid "Now that we have cleaned up, we can move on to installing NvChad.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvchad.md:60
+#, no-wrap
+msgid "To do this, simply run the following command from any location within your _home directory_:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/nvchad/install_nvchad.md:61
+#, no-wrap
+msgid "git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvchad.md:66
+#, no-wrap
+msgid "The first part of the command clones the NvChad repository to the `~/.config/nvim` folder; this is Neovim's default path for searching the user configuration. The `--depth 1` option instructs _git_ to clone only the repository set as \"default\" on GitHub.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvchad.md:68
+#, no-wrap
+msgid "Once the cloning process is finished in the second part of the command, the Neovim executable (_nvim_) is called, which upon finding a configuration folder will start importing the configurations encountered in the `init.lua` files of it in a predefined order.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvchad.md:70
+#, no-wrap
+msgid "Before starting the bootstrap, the installation will offer us the installation of a base structure (_template chadrc_) for our further customizations:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvchad.md:72
+#, no-wrap
+msgid ">  Do you want to install chadrc template? (y/n) :\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvchad.md:74
+#, no-wrap
+msgid "Although choosing to install the recommended structure is not mandatory, it is definitely recommended for anyone new to this Editor. Current users of NvChad who already have a `custom` folder will be able to continue using it after making the necessary changes.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvchad.md:76
+#, no-wrap
+msgid "The structure created by the template will also be used in this guide for developing the configuration to be used for writing documents in Markdown.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvchad.md:78
+#, no-wrap
+msgid "For those who want to learn more about this topic before starting the installation, they can consult the dedicated page [Template Chadrc](template_chadrc.md).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvchad.md:80
+#, no-wrap
+msgid "The page contains information about the structure of the folder that will be created, the functions of related files, and other useful information for customizing NvChad.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvchad.md:82
+#, no-wrap
+msgid "At this point the downloading and configuration of the basic plugins and if we have chosen to install the template as well the installation of the configured language server will begin. Once the process is complete we will have our Editor ready to use.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvchad.md:84
+#, no-wrap
+msgid "![Installation](images/installed_first_time.png) \n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvchad.md:86
+#, no-wrap
+msgid "As can be seen from the screenshot below, thanks to the configuration changes made, the editor has completely changed in appearance from the basic version of Neovim. It should be remembered, however, that although the configuration of NvChad completely transforms the editor, the base remains Neovim.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvchad.md:88
+#, no-wrap
+msgid "![NvChad Rockydocs](images/nvchad_ui.png)\n"
 msgstr ""
 
 #. type: Title ###
-#: ../src/docs/books/nvchad/index.md:56
+#: ../src/docs/books/nvchad/install_nvchad.md:89
 #, no-wrap
-msgid "Lua"
-msgstr ""
-
-#. type: Title ####
-#: ../src/docs/books/nvchad/index.md:58
-#, no-wrap
-msgid "What is Lua?"
+msgid "Configuration Structure"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/index.md:61
+#: ../src/docs/books/nvchad/install_nvchad.md:92
 #, no-wrap
-msgid "Lua is a robust, lightweight, scripting language that supports a variety of programming methods. The name \"Lua\" comes from the Portuguese word meaning \"moon.\"\n"
+msgid "Let us now go on to analyze the structure that the configuration created, the structure is as follows:\n"
+msgstr ""
+
+#. type: Fenced code block (text)
+#: ../src/docs/books/nvchad/install_nvchad.md:93
+#, no-wrap
+msgid ".config/nvim\n"
+"├── init.lua\n"
+"├── lazy-lock.json\n"
+"├── LICENSE\n"
+"└── lua\n"
+"    ├── core\n"
+"    │   ├── bootstrap.lua\n"
+"    │   ├── default_config.lua\n"
+"    │   ├── init.lua\n"
+"    │   ├── mappings.lua\n"
+"    │   └── utils.lua\n"
+"    └── plugins\n"
+"        ├── configs\n"
+"        │   ├── cmp.lua\n"
+"        │   ├── lazy_nvim.lua\n"
+"        │   ├── lspconfig.lua\n"
+"        │   ├── mason.lua\n"
+"        │   ├── nvimtree.lua\n"
+"        │   ├── others.lua\n"
+"        │   ├── telescope.lua\n"
+"        │   ├── treesitter.lua\n"
+"        │   └── whichkey.lua\n"
+"        └── init.lua\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/index.md:63
+#: ../src/docs/books/nvchad/install_nvchad.md:120
 #, no-wrap
-msgid "Lua was developed at the Catholic University of Rio de Janeiro by Roberto Ierusalimschy, Luiz Henrique de Figueiredo, and Waldemar Celes. The development was necessary for them because until 1992 Brazil was subject to strict import regulations for hardware and software, so out of sheer necessity, these three programmers developed their own scripting language called Lua.\n"
+msgid "And if we chose to also install the _template chadrc_ we will also have the `nvim/lua/custom` folder with the following structure:\n"
+msgstr ""
+
+#. type: Fenced code block (text)
+#: ../src/docs/books/nvchad/install_nvchad.md:121
+#, no-wrap
+msgid ".config/nvim/lua/custom/\n"
+"├── chadrc.lua\n"
+"├── configs\n"
+"│   ├── lspconfig.lua\n"
+"│   ├── null-ls.lua\n"
+"│   └── overrides.lua\n"
+"├── highlights.lua\n"
+"├── init.lua\n"
+"├── mappings.lua\n"
+"└── plugins.lua\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/index.md:65
+#: ../src/docs/books/nvchad/install_nvchad.md:136
 #, no-wrap
-msgid "Because Lua focuses primarily on scripts, it is rarely used as a stand-alone programming language. Instead, it is most often used as a scripting language that can be integrated (embedded) into other programs.\n"
+msgid "The first file we encounter is the `init.lua` file which initializes the configuration by inserting the `lua/core` folder and `lua/core/utils.lua` (and if present, the `lua/custom/init.lua`) files into the _nvim_ tree. Runs the bootstrap of `lazy.nvim` (the plugin manager) and once finished initialize the `plugins` folder.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/index.md:67
+#: ../src/docs/books/nvchad/install_nvchad.md:138
 #, no-wrap
-msgid "Lua is used in the development of video games and game engines (Roblox, Warframe..), as a programming language in many network programs (Nmap, ModSecurity..), and as a programming language in industrial programs. Lua is also used as a library that developers can integrate into their programs to enable scripting functionality by acting solely as an integral part of the host application.\n"
+msgid "In particular, the `load_mappings()` function is called for loading keyboard shortcuts. In addition, the `gen_chadrc_template()` function provides the subroutine for creating the `custom` folder. \n"
 msgstr ""
 
-#. type: Title ####
-#: ../src/docs/books/nvchad/index.md:68
+#. type: Fenced code block (lua)
+#: ../src/docs/books/nvchad/install_nvchad.md:139
 #, no-wrap
-msgid "How Lua works"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/index.md:71
-#, no-wrap
-msgid "There are two main components of Lua:\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/index.md:74
-#, no-wrap
-msgid "The Lua interpreter\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/index.md:74
-#, no-wrap
-msgid "The Lua virtual machine (VM)\n"
+msgid "require \"core\"\n\n"
+"local custom_init_path = vim.api.nvim_get_runtime_file(\"lua/custom/init.lua\", false)[1]\n\n"
+"if custom_init_path then\n"
+"  dofile(custom_init_path)\n"
+"end\n\n"
+"require(\"core.utils\").load_mappings()\n\n"
+"local lazypath = vim.fn.stdpath \"data\" .. \"/lazy/lazy.nvim\"\n\n"
+"-- bootstrap lazy.nvim!\n"
+"if not vim.loop.fs_stat(lazypath) then\n"
+"  require(\"core.bootstrap\").gen_chadrc_template()\n"
+"  require(\"core.bootstrap\").lazy(lazypath)\n"
+"end\n\n"
+"vim.opt.rtp:prepend(lazypath)\n"
+"require \"plugins\"\n\n"
+"dofile(vim.g.base46_cache .. \"defaults\")\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/index.md:76
+#: ../src/docs/books/nvchad/install_nvchad.md:165
 #, no-wrap
-msgid "Lua is not interpreted directly through a Lua file like other languages, for example Python. Instead, it uses the Lua interpreter to compile a Lua file into bytecode. The Lua interpreter is highly portable and capable of running on a multitude of devices.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/nvchad/index.md:77
-#: ../src/docs/books/nvchad/install_nvim.md:28
-#, no-wrap
-msgid "Key Features"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/index.md:80
-#, no-wrap
-msgid "Speed: Lua is considered one of the fastest programming languages among interpreted scripting languages; it can perform very performance-heavy tasks faster than most other programming languages.\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/index.md:82
-#, no-wrap
-msgid "Size: Lua has a really small size compared to other programming languages. This small size is ideal for integrating Lua into multiple platforms, from embedded devices to game engines.\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/index.md:84
-#, no-wrap
-msgid "Portability and integration: The portability of Lua is almost unlimited. Any platform that supports the standard C compiler can run Lua without problems. Lua does not require complex rewrites to be compatible with other programming languages.\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/index.md:86
-#, no-wrap
-msgid "Simplicity: Lua has a simple design but provides powerful functionality. One of the main features of Lua is meta-mechanisms, which allow developers to implement their own functionality. The syntax is simple and in an easily understood format, so that anyone can easily learn Lua and use it in their own programs.\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/index.md:88
-#, no-wrap
-msgid "License: Lua is free and open-source software distributed under the MIT license. This allows anyone to use it for any purpose without paying any license or royalties.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/nvchad/index.md:89
-#, no-wrap
-msgid "Neovim"
+msgid "Inclusion of the `core` folder also results in the inclusion of the `core/init.lua` file, which overrides some Neovim interface configurations and prepares for buffer management.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/index.md:92
+#: ../src/docs/books/nvchad/install_nvchad.md:167
 #, no-wrap
-msgid "Neovim is described in detail on its [dedicated page](install_nvim.md) so we will just dwell on the main features, which are:\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/index.md:94
-#: ../src/docs/books/nvchad/install_nvim.md:33
-#, no-wrap
-msgid "Performance: Very fast.\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/index.md:96
-#, no-wrap
-msgid "Customizable: Wide ecosystem of plugins and themes.\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/index.md:98
-#, no-wrap
-msgid "Syntax highlighting: Integration with Treesitter and LSP, (requires some additional configurations).\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/index.md:100
-#, no-wrap
-msgid "Multiplatform: Linux, Windows and macOS\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/index.md:102
-#, no-wrap
-msgid "License: Mit: A short and simple permissive license with conditions requiring only the preservation of copyright and license notices.\n"
-msgstr ""
-
-#. type: Title ###
-#: ../src/docs/books/nvchad/index.md:103
-#, no-wrap
-msgid "LSP"
+msgid "As we can see, each `init.lua` file is included following a well-established order. This is used to selectively override the various options from the basic settings. Broadly speaking, we can say that `init.lua` files have the functions to load global options, autocmds, or anything else.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/index.md:106
+#: ../src/docs/books/nvchad/install_nvchad.md:169
 #, no-wrap
-msgid "What is the **L**anguage **S**erver **P**rotocol?\n"
+msgid "This is the call that returns basic command mappings:\n"
+msgstr ""
+
+#. type: Fenced code block (lua)
+#: ../src/docs/books/nvchad/install_nvchad.md:170
+#, no-wrap
+msgid "require(\"core.utils\").load_mappings()\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/index.md:108
+#: ../src/docs/books/nvchad/install_nvchad.md:175
 #, no-wrap
-msgid "A language server is a standardized language library that uses its own procedure (protocol) to provide support for functions such as autocomplete, goto definition, or mouseover definitions.\n"
+msgid "This sets four main keys from which, in association with other keys, commands can be launched. The main keys are:\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/books/nvchad/index.md:110
+#. type: Bullet: '* '
+#: ../src/docs/books/nvchad/install_nvchad.md:180
+#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:26
+#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:22
 #, no-wrap
-msgid "The idea behind the Language Server Protocol (LSP) is to standardize the communication protocol between tools and servers, so that a single language server can be reused in multiple development tools. In this way, developers can simply integrate these libraries into their editors and reference existing language infrastructures, instead of customizing their code to include them.\n"
+msgid "C = <kbd>CTRL</kbd>\n"
 msgstr ""
 
-#. type: Title ###
-#: ../src/docs/books/nvchad/index.md:111
+#. type: Bullet: '* '
+#: ../src/docs/books/nvchad/install_nvchad.md:180
+#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:26
+#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:22
 #, no-wrap
-msgid "tree-sitter"
+msgid "leader = <kbd>SPACE</kbd>\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/books/nvchad/index.md:114
+#. type: Bullet: '* '
+#: ../src/docs/books/nvchad/install_nvchad.md:180
+#: ../src/docs/books/nvchad/nvchad_ui/nvchad_ui.md:26
+#: ../src/docs/books/nvchad/nvchad_ui/using_nvchad.md:22
 #, no-wrap
-msgid "[Tree-sitter](https://tree-sitter.github.io/tree-sitter/) basically consists of two components: a parser generator, and an incremental parsing library. It can build a syntactic tree of the source file and efficiently update it with each change.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/nvchad/index.md:116
-#, no-wrap
-msgid "A parser is a component that decomposes data into smaller elements to facilitate its translation into another language, or as in our case, to be then passed to the parsing library. Once the source file has been decomposed, the parsing library parses the code and transforms it into a syntactic tree, allowing the structure of the code to be manipulated more intelligently. This makes it possible to improve (and speed up)\n"
+msgid "A = <kbd>ALT</kbd>\n"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/docs/books/nvchad/index.md:121
+#: ../src/docs/books/nvchad/install_nvchad.md:180
 #, no-wrap
-msgid "syntax highlighting\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/index.md:121
-#, no-wrap
-msgid "code navigation\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/index.md:121
-#, no-wrap
-msgid "refactoring\n"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/docs/books/nvchad/index.md:121
-#, no-wrap
-msgid "text objects and movements\n"
+msgid "S = <kbd>SHIFT</kbd>\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/index.md:123
+#: ../src/docs/books/nvchad/install_nvchad.md:184
 #, no-wrap
-msgid "!!! notes \"LSP and tree-sitter complementarity.\"\n"
+msgid "    We will refer to these key mappings several times throughout these documents. \n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/index.md:125
+#: ../src/docs/books/nvchad/install_nvchad.md:186
 #, no-wrap
-msgid "    Although it may seem that the two services (LSP and tree-sitter) are redundant, they are actually complementary in that LSP works at the project level while tree-sitter works only on the open source file.\n"
+msgid "The default mapping is contained in _core/mapping.lua_ but can be extended with other custom commands using its own _mappings.lua_.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/nvchad/index.md:126
+#: ../src/docs/books/nvchad/install_nvchad.md:188
 #, no-wrap
-msgid "Now that we have explained a bit about the technologies used to create the IDE we can move on to the [Additional Software](additional_software.md) needed to configure our NvChad.\n"
+msgid "Some examples of the standard mapping are:\n"
+msgstr ""
+
+#. type: Fenced code block (text)
+#: ../src/docs/books/nvchad/install_nvchad.md:189
+#, no-wrap
+msgid "<space>th to change the theme\n"
+"<CTRL-n> to open nvimtree\n"
+"<ALT-i> to open a terminal in a floating tab\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvchad.md:196
+#, no-wrap
+msgid "There are many combinations pre-set for you, and they cover all the uses of NvChad. It is worth pausing to analyze the key mappings before starting to use your NvChad-configured instance of Neovim.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvchad.md:198
+#, no-wrap
+msgid "Continuing with the structural analysis, we find the _lua/plugins_ folder, which contains the setup of the built-in plugins and their configurations. The main plugins in the configuration will be described in the next section. As we can see, the _core/plugins_ folder also contains an `init.lua` file, which is used here for the installation and subsequent compilation of the plugins.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/nvchad/install_nvchad.md:199
+#, no-wrap
+msgid "Finally, we find the `lazy-lock.json` file. This file allows us to synchronize the configuration of NvChad plugins across multiple workstations, so that we have the same functionality on all the workstations used. Its function will be better explained in the section dedicated to the plugins manager.\n"
 msgstr ""
 
