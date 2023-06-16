@@ -13,8 +13,52 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: it\n"
-"X-Crowdin-File: /po4a/po4a/_po/security_ssh_public_private_keys.pot\n"
-"X-Crowdin-File-ID: 1545\n"
+"X-Crowdin-File: /po4a/po4a/_po/security_ssl_keys_https.pot\n"
+"X-Crowdin-File-ID: 1547\n"
+
+#. type: Title ##
+#: ../src/docs/books/admin_guide/13-softwares.md:900
+#: ../src/docs/books/nvchad/nvchad_ui/nvimtree.md:105
+#: ../src/docs/books/nvchad/template_chadrc.md:352
+#: ../src/docs/gemstones/bash_stub.md:103
+#: ../src/docs/gemstones/perl_search_replace.md:38
+#: ../src/docs/gemstones/sed_search_replace.md:72
+#: ../src/docs/gemstones/systemd_service_for_python_script.md:172
+#: ../src/docs/guides/automation/olivetin.md:142
+#: ../src/docs/guides/cms/dokuwiki_server.md:306
+#: ../src/docs/guides/communications/asterisk_installation.md:261
+#: ../src/docs/guides/containers/lxd_web_servers.md:919
+#: ../src/docs/guides/containers/podman-nextcloud.md:456
+#: ../src/docs/guides/contribute/local_docs.md:47
+#: ../src/docs/guides/contribute/mkdocs_lsyncd.md:322
+#: ../src/docs/guides/contribute/navigation.md:129
+#: ../src/docs/guides/contribute/rockydocs_formatting.md:458
+#: ../src/docs/guides/database/database_mariadb-server.md:197
+#: ../src/docs/guides/desktop/kde_installation.md:105
+#: ../src/docs/guides/desktop/mate_installation.md:200
+#: ../src/docs/guides/desktop/xfce_installation.md:218
+#: ../src/docs/guides/editors/micro.md:79
+#: ../src/docs/guides/email/postfix_reporting.md:254
+#: ../src/docs/guides/file_sharing/secure_ftp_server_vsftpd.md:270
+#: ../src/docs/guides/file_sharing/sftp.md:765
+#: ../src/docs/guides/proxies/pound.md:460
+#: ../src/docs/guides/security/dnf_automatic.md:119
+#: ../src/docs/guides/security/enabling_iptables_firewall.md:54
+#: ../src/docs/guides/security/firewalld-beginners.md:427
+#: ../src/docs/guides/security/firewalld.md:477
+#: ../src/docs/guides/security/pam.md:137
+#: ../src/docs/guides/security/ssl_keys_https.md:136
+#: ../src/docs/guides/virtualization/vbox-rocky.md:160
+#: ../src/docs/guides/web/apache_hardened_webserver/index.md:147
+#: ../src/docs/guides/web/apache_hardened_webserver/modsecurity.md:235
+#: ../src/docs/guides/web/apache_hardened_webserver/ossec-hids.md:157
+#: ../src/docs/guides/web/apache_hardened_webserver/rkhunter.md:91
+#: ../src/docs/guides/web/mod_SSL_apache.md:171
+#: ../src/docs/guides/web/nginx-mainline.md:352
+#: ../src/docs/guides/web/nginx-multisite.md:359
+#, no-wrap
+msgid "Conclusion"
+msgstr ""
 
 #. type: YAML Front Matter: tags
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:1
@@ -172,276 +216,331 @@ msgstr ""
 msgid "Prerequisites"
 msgstr ""
 
-#. type: Title ###
-#: ../src/docs/guides/file_sharing/sftp.md:1
-#: ../src/docs/guides/security/ssh_public_private_keys.md:1
-#: ../src/docs/labs/security/lab9-cryptography.md:693
+#. type: YAML Front Matter: tags
+#: ../src/docs/guides/security/generating_ssl_keys_lets_encrypt.md:1
+#: ../src/docs/guides/security/ssl_keys_https.md:1
 #, no-wrap
-msgid "ssh"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/file_sharing/sftp.md:582
-#: ../src/docs/guides/security/ssh_public_private_keys.md:33
-#, no-wrap
-msgid "ssh-keygen -t rsa\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/guides/network/basic_network_configuration.md:21
-#: ../src/docs/guides/network/basic_network_configuration.md:33
-#: ../src/docs/guides/security/ssh_public_private_keys.md:20
-#, no-wrap
-msgid "A certain amount of comfort operating from the command line\n"
+msgid "ssl"
 msgstr ""
 
 #. type: YAML Front Matter: tags
-#: ../src/docs/guides/security/ssh_public_private_keys.md:1
+#: ../src/docs/guides/security/ssl_keys_https.md:1
 #, no-wrap
-msgid "keygen"
+msgid "openssl"
 msgstr ""
 
 #. type: Title #
-#: ../src/docs/guides/security/ssh_public_private_keys.md:1
-#: ../src/docs/guides/security/ssh_public_private_keys.md:12
+#: ../src/docs/guides/security/ssl_keys_https.md:1
+#: ../src/docs/guides/security/ssl_keys_https.md:12
 #, no-wrap
-msgid "SSH Public and Private Key"
+msgid "Generating SSL Keys"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/guides/security/ssh_public_private_keys.md:20
+#: ../src/docs/guides/security/ssl_keys_https.md:20
 #, no-wrap
-msgid "Rocky Linux servers and/or workstations with *openssh* installed\n"
-msgstr ""
-
-#. type: Bullet: '    * '
-#: ../src/docs/guides/security/ssh_public_private_keys.md:20
-#, no-wrap
-msgid "Okay technically, this process should work on any Linux system with openssh installed\n"
+msgid "A workstation and a server running Rocky Linux (OK, Linux, but really, you want Rocky Linux, right?)\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ../src/docs/guides/security/ssh_public_private_keys.md:20
+#: ../src/docs/guides/security/ssl_keys_https.md:20
 #, no-wrap
-msgid "Optional: familiarity with Linux file and directory permissions\n"
+msgid "_OpenSSL_ installed on the machine that you are going to be generating the private key and CSR, as well as on the server where you will eventually be installing your key and certificates\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/ssl_keys_https.md:20
+#, no-wrap
+msgid "Able to run commands comfortably from the command-line\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/guides/security/ssl_keys_https.md:20
+#, no-wrap
+msgid "Helpful: knowledge of SSL and OpenSSL commands\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:24
+#: ../src/docs/guides/security/ssl_keys_https.md:25
 #, no-wrap
-msgid "SSH is a protocol used to access one machine from another, usually via the command line. With SSH, you can run commands on remote computers and servers, send files, and generally manage everything you do from one place.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:26
-#, no-wrap
-msgid "When you are working with multiple Rocky Linux servers in multiple locations, or if you are just trying to save some time accessing these servers, you'll want to use an SSH public and private key pair. Key pairs basically make logging into remote machines and running commands easier.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:28
-#, no-wrap
-msgid "This document will guide you through the process of creating the keys and setting up your servers for easy access with those keys.\n"
+msgid "Nearly every web site today _should_ be running with an SSL (secure socket layer) certificate. This procedure will guide you through generating the private key for your web site and then from this, generating the CSR (certificate signing request) that you will use to purchase your new certificate.\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/security/ssh_public_private_keys.md:29
+#: ../src/docs/guides/security/ssl_keys_https.md:26
 #, no-wrap
-msgid "Process For Generating Keys"
+msgid "Generate The Private Key"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:32
+#: ../src/docs/guides/security/ssl_keys_https.md:29
 #, no-wrap
-msgid "The following commands are all executed from the command line on your Rocky Linux workstation:\n"
+msgid "For the uninitiated, SSL private keys can have different sizes, measured in bits, which basically determines how hard they are to crack.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:38
+#: ../src/docs/guides/security/ssl_keys_https.md:31
 #, no-wrap
-msgid "Which will display the following:\n"
+msgid "As of 2021, the recommended private key size for a web site is still 2048 bits. You can go higher, but doubling the key size from 2048 bits to 4096 bits is only about 16% more secure, takes more space to store the key, and causes higher CPU loads when the key is processed.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssl_keys_https.md:33
+#, no-wrap
+msgid "This slows down your web site performance without gaining any significant security. Stick with the 2048 key size for now and always keep tabs on what is currently recommended.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssl_keys_https.md:35
+#, no-wrap
+msgid "To start with, let's make sure that OpenSSL is installed on both your workstation and server:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssl_keys_https.md:37
+#, no-wrap
+msgid "`dnf install openssl`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssl_keys_https.md:39
+#, no-wrap
+msgid "If it is not installed, your system will install it and any needed dependencies.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssl_keys_https.md:41
+#, no-wrap
+msgid "Our example domain is example.com. Keep in mind that you would need to purchase and register your domain ahead of time. You can purchase domains through a number of \"Registrars\".\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssl_keys_https.md:43
+#, no-wrap
+msgid "If you are not running your own DNS (Domain Name System), you can often use the same providers for DNS hosting. DNS translates your named domain, to numbers (IP addresses, either IPv4 or IPv6) that the Internet can understand. These IP addresses will be where the web site is actually hosted.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssl_keys_https.md:45
+#, no-wrap
+msgid "Let's generate the key using openssl:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssl_keys_https.md:47
+#, no-wrap
+msgid "`openssl genrsa -des3 -out example.com.key.pass 2048`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssl_keys_https.md:49
+#, no-wrap
+msgid "Note that we named the key, with a .pass extension. That's because as soon as we execute this command, it requests that you enter a passphrase. Enter a simple passphrase that you can remember as we are going to be removing this shortly:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/guides/security/ssh_public_private_keys.md:39
+#: ../src/docs/guides/security/ssl_keys_https.md:50
 #, no-wrap
-msgid "Generating public/private rsa key pair.\n"
-"Enter file in which to save the key (/root/.ssh/id_rsa):\n"
+msgid "Enter pass phrase for example.com.key.pass:\n"
+"Verifying - Enter pass phrase for example.com.key.pass:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:45
+#: ../src/docs/guides/security/ssl_keys_https.md:56
 #, no-wrap
-msgid "Hit Enter to accept the default location. Next the system will show:\n"
+msgid "Next, let's remove that passphrase. The reason for this is that if you don't remove it, each time your web server restarts and loads up your key, you will need to enter that passphrase.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:47
+#: ../src/docs/guides/security/ssl_keys_https.md:58
 #, no-wrap
-msgid "`Enter passphrase (empty for no passphrase):`\n"
+msgid "You might not even be around to enter it, or worse, might not have a console at the ready to enter it. Remove it now to avoid all of that:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:49
+#: ../src/docs/guides/security/ssl_keys_https.md:60
 #, no-wrap
-msgid "So just hit Enter here. Finally, it will ask for you to re-enter the passphrase:\n"
+msgid "`openssl rsa -in example.com.key.pass -out example.com.key`\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:51
+#: ../src/docs/guides/security/ssl_keys_https.md:62
 #, no-wrap
-msgid "`Enter same passphrase again:`\n"
+msgid "This will request that passphrase once again to remove the passphrase from the key:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:53
+#: ../src/docs/guides/security/ssl_keys_https.md:64
 #, no-wrap
-msgid "So hit Enter a final time.\n"
+msgid "`Enter pass phrase for example.com.key.pass:`\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:55
+#: ../src/docs/guides/security/ssl_keys_https.md:66
 #, no-wrap
-msgid "You now should have an RSA type public and private key pair in your .ssh directory:\n"
-msgstr ""
-
-#. type: Fenced code block
-#: ../src/docs/guides/security/ssh_public_private_keys.md:56
-#, no-wrap
-msgid "ls -a .ssh/\n"
-".  ..  id_rsa  id_rsa.pub\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:62
-#, no-wrap
-msgid "Now we need to send the public key (id_rsa.pub) to every machine that we are going to be accessing... but before we do that, we need to make sure that we can SSH into the servers that we will be sending the key to. For our example, we are going to be using just three servers.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:64
-#, no-wrap
-msgid "You can either access them via SSH by a DNS name or IP address, but for our example we are going to be using the DNS name. Our example servers are web, mail, and portal. For each server, we will attempt to SSH in (nerds love using SSH as a verb) and leave a terminal window open for each machine:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:66
-#, no-wrap
-msgid "`ssh -l root web.ourourdomain.com`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:68
-#, no-wrap
-msgid "Assuming that we can login without trouble on all three machines, then the next step is to send our public key over to each server:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:70
-#, no-wrap
-msgid "`scp .ssh/id_rsa.pub root@web.ourourdomain.com:/root/`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:72
-#, no-wrap
-msgid "Repeat this step with each of our three machines.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:74
-#, no-wrap
-msgid "In each of the open terminal windows, you should now be able to see *id_rsa.pub* when you enter the following command:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:76
-#, no-wrap
-msgid "`ls -a | grep id_rsa.pub`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:78
-#, no-wrap
-msgid "If so, we are now ready to either create or append the *authorized_keys* file in each server's *.ssh* directory. On each of the servers, enter this command:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:80
-#, no-wrap
-msgid "`ls -a .ssh`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:82
-#, no-wrap
-msgid "!!! warning \"Important!\"\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:84
-#, no-wrap
-msgid "    Make sure you read everything below carefully. If you are not sure if you will break something, then make a backup copy of authorized_keys (if it exists) on each of the machines before continuing.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:86
-#, no-wrap
-msgid "If there is no *authorized_keys* file listed, then we will create it by entering this command while in our _/root_ directory:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:88
-#, no-wrap
-msgid "`cat id_rsa.pub > .ssh/authorized_keys`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:90
-#, no-wrap
-msgid "If _authorized_keys_ does exist, then we simply want to append our new public key to the ones that are already there:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:92
-#, no-wrap
-msgid "`cat id_rsa.pub >> .ssh/authorized_keys`\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:94
-#, no-wrap
-msgid "Once the key has been either added to _authorized_keys_, or the _authorized_keys_ file has been created, try to SSH from your Rocky Linux workstation to the server again. You should not be prompted for a password.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:96
-#, no-wrap
-msgid "Once you have verified that you can SSH in without a password, remove the id_rsa.pub file from the _/root_ directory on each machine.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:98
-#, no-wrap
-msgid "`rm id_rsa.pub`\n"
+msgid "Now that you have entered the passphrase a third time, it has been removed from the key file and saved as example.com.key\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/guides/security/ssh_public_private_keys.md:99
+#: ../src/docs/guides/security/ssl_keys_https.md:67
 #, no-wrap
-msgid "SSH Directory and authorized_keys Security"
+msgid "Generate the CSR"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/guides/security/ssh_public_private_keys.md:102
+#: ../src/docs/guides/security/ssl_keys_https.md:70
 #, no-wrap
-msgid "On each of your target machines, make sure that the following permissions are applied:\n"
+msgid "Next, we need to generate the CSR (certificate signing request) that we will use to purchase our certificate.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssl_keys_https.md:72
+#, no-wrap
+msgid "During the generation of the CSR, you will be prompted for several pieces of information. These are the X.509 attributes of the certificate.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssl_keys_https.md:74
+#, no-wrap
+msgid "One of the prompts will be for \"Common Name (e.g., YOUR name)\". It is important that this field be filled in with the fully qualified domain name of the server to be protected by SSL. If the website to be protected will be https://www.example.com, then enter www.example.com at this prompt:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssl_keys_https.md:76
+#, no-wrap
+msgid "`openssl req -new -key example.com.key -out example.com.csr`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssl_keys_https.md:78
+#, no-wrap
+msgid "This opens up a dialog:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssl_keys_https.md:80
+#, no-wrap
+msgid "`Country Name (2 letter code) [XX]:` enter the two character country code where your site resides, example \"US\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssl_keys_https.md:82
+#, no-wrap
+msgid "`State or Province Name (full name) []:` enter the full official name of your state or province, example \"Nebraska\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssl_keys_https.md:84
+#, no-wrap
+msgid "`Locality Name (eg, city) [Default City]:` enter the full city name, example \"Omaha\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssl_keys_https.md:86
+#, no-wrap
+msgid "`Organization Name (eg, company) [Default Company Ltd]:` If you want, you can enter an organization that this domain is a part of, or just hit 'Enter' to skip.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssl_keys_https.md:88
+#, no-wrap
+msgid "`Organizational Unit Name (eg, section) []:` This would describe the division of the organization that your domain falls under. Again, you can just hit 'Enter' to skip.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssl_keys_https.md:90
+#, no-wrap
+msgid "`Common Name (eg, your name or your server's hostname) []:` Here, we have to enter our site hostname, example \"www.example.com\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssl_keys_https.md:92
+#, no-wrap
+msgid "`Email Address []:` This field is optional, you can decide to fill it out or just hit 'Enter' to skip.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssl_keys_https.md:94
+#, no-wrap
+msgid "Next, you will be asked to enter extra attributes which can be skipped by hitting 'Enter' through both:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/docs/guides/security/ssh_public_private_keys.md:103
+#: ../src/docs/guides/security/ssl_keys_https.md:95
 #, no-wrap
-msgid "chmod 700 .ssh/\n"
-"chmod 600 .ssh/authorized_keys\n"
+msgid "Please enter the following 'extra' attributes\n"
+"to be sent with your certificate request\n"
+"A challenge password []:\n"
+"An optional company name []:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssl_keys_https.md:103
+#, no-wrap
+msgid "Now you should have generated your CSR.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/guides/security/ssl_keys_https.md:104
+#, no-wrap
+msgid "Purchasing The Certificate"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssl_keys_https.md:107
+#, no-wrap
+msgid "Each certificate vendor will have basically the same procedure. You purchase the SSL and term (1 or 2 years, etc.) and then you submit your CSR. To do this, you will need to use the `more` command, and then copy the contents of your CSR file.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssl_keys_https.md:109
+#, no-wrap
+msgid "`more example.com.csr`\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssl_keys_https.md:111
+#, no-wrap
+msgid "Which will show you something like this:\n"
+msgstr ""
+
+#. type: Fenced code block
+#: ../src/docs/guides/security/ssl_keys_https.md:112
+#, no-wrap
+msgid "-----BEGIN CERTIFICATE REQUEST-----\n"
+"MIICrTCCAZUCAQAwaDELMAkGA1UEBhMCVVMxETAPBgNVBAgMCE5lYnJhc2thMQ4w\n"
+"DAYDVQQHDAVPbWFoYTEcMBoGA1UECgwTRGVmYXVsdCBDb21wYW55IEx0ZDEYMBYG\n"
+"A1UEAwwPd3d3Lm91cndpa2kuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB\n"
+"CgKCAQEAzwN02erkv9JDhpR8NsJ9eNSm/bLW/jNsZxlxOS3BSOOfQDdUkX0rAt4G\n"
+"nFyBAHRAyxyRvxag13O1rVdKtxUv96E+v76KaEBtXTIZOEZgV1visZoih6U44xGr\n"
+"wcrNnotMB5F/T92zYsK2+GG8F1p9zA8UxO5VrKRL7RL3DtcUwJ8GSbuudAnBhueT\n"
+"nLlPk2LB6g6jCaYbSF7RcK9OL304varo6Uk0zSFprrg/Cze8lxNAxbFzfhOBIsTo\n"
+"PafcA1E8f6y522L9Vaen21XsHyUuZBpooopNqXsG62dcpLy7sOXeBnta4LbHsTLb\n"
+"hOmLrK8RummygUB8NKErpXz3RCEn6wIDAQABoAAwDQYJKoZIhvcNAQELBQADggEB\n"
+"ABMLz/omVg8BbbKYNZRevsSZ80leyV8TXpmP+KaSAWhMcGm/bzx8aVAyqOMLR+rC\n"
+"V7B68BqOdBtkj9g3u8IerKNRwv00pu2O/LOsOznphFrRQUaarQwAvKQKaNEG/UPL\n"
+"gArmKdlDilXBcUFaC2WxBWgxXI6tsE40v4y1zJNZSWsCbjZj4Xj41SB7FemB4SAR\n"
+"RhuaGAOwZnzJBjX60OVzDCZHsfokNobHiAZhRWldVNct0jfFmoRXb4EvWVcbLHnS\n"
+"E5feDUgu+YQ6ThliTrj2VJRLOAv0Qsum5Yl1uF+FZF9x6/nU/SurUhoSYHQ6Co93\n"
+"HFOltYOnfvz6tOEP39T/wMo=\n"
+"-----END CERTIFICATE REQUEST-----\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssl_keys_https.md:133
+#, no-wrap
+msgid "You want to copy everything including the \"BEGIN CERTIFICATE REQUEST\" and \"END CERTIFICATE REQUEST\" lines. Then paste these into the CSR field on the web site where you are purchasing the certificate.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssl_keys_https.md:135
+#, no-wrap
+msgid "You may have to perform other verification steps, depending on ownership of the domain, the registrar you are using, etc., before your certificate is issued. When it is issued, it should be issued along with an intermediate certificate from the provider, which you will use in the configuration as well.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/guides/security/ssl_keys_https.md:138
+#, no-wrap
+msgid "Generating all of the bits and pieces for the purchase of a web site certificate is not terribly difficult and can be performed by the systems administrator or web site administrator using the above procedure.\n"
 msgstr ""
 
