@@ -13,8 +13,8 @@ msgstr ""
 "X-Crowdin-Project: rockypo4a\n"
 "X-Crowdin-Project-ID: 593059\n"
 "X-Crowdin-Language: it\n"
-"X-Crowdin-File: /po4a/po4a/_po/learning_rsync_06_rsync_inotify.pot\n"
-"X-Crowdin-File-ID: 1425\n"
+"X-Crowdin-File: /po4a/po4a/_po/learning_rsync_07_rsync_unison_use.pot\n"
+"X-Crowdin-File-ID: 1427\n"
 
 #. type: YAML Front Matter: contributors
 #: ../src/docs/books/disa_stig/disa_stig_part2.md:1
@@ -94,281 +94,234 @@ msgid "!!! tip \"tip\"\n"
 msgstr ""
 
 #. type: YAML Front Matter: title
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:1
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:1
 #, no-wrap
-msgid "inotify-tools installation and use"
+msgid "Use unison"
 msgstr ""
 
 #. type: Title #
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:8
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:8
 #, no-wrap
-msgid "Compile and install"
+msgid "Brief"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:11
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:11
 #, no-wrap
-msgid "Perform the following operations in the server. In your environment, some dependent packages may be missing. Install them by using: `dnf -y install autoconf automake libtool`\n"
+msgid "As we mentioned earlier, one-way synchronization uses rsync + inotify-tools. In some special usage scenarios, two-way synchronization may be required, which requires inotify-tools + unison.\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:12
+#, no-wrap
+msgid "Environmental preparation"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:17
+#, no-wrap
+msgid "Both Rocky Linux 8 and Fedora 34 require source code compilation and installation **inotify-tools**, which is not specifically expanded here.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:17
+#, no-wrap
+msgid "Both machines must be password-free login authentication, here we use the SSH protocol for\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:17
+#, no-wrap
+msgid "[ocaml](https://github.com/ocaml/ocaml/) uses v4.12.0, [unison](https://github.com/bcpierce00/unison/) uses v2.51.4.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:19
+#, no-wrap
+msgid "After the environment is ready, it can be verified:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:12
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:20
 #, no-wrap
-msgid "[root@Rocky ~]# wget -c https://github.com/inotify-tools/inotify-tools/archive/refs/tags/3.21.9.6.tar.gz\n"
-"[root@Rocky ~]# tar -zvxf 3.21.9.6.tar.gz -C /usr/local/src/\n"
-"[root@Rocky ~]# cd /usr/local/src/inotify-tools-3.21.9.6/\n"
-"[root@Rocky /usr/local/src/inotify-tools-3.21.9.6]# ./autogen.sh && \\\n"
-"./configure --prefix=/usr/local/inotify-tools && \\\n"
-"make && \\\n"
-"make install\n"
-"...\n"
-"[root@Rocky ~]# ls /usr/local/inotify-tools/bin/\n"
+msgid "[root@Rocky ~]# inotifywa\n"
 "inotifywait inotifywatch\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:26
-#, no-wrap
-msgid "Append the environment variable PATH, write it to the configuration file and let it take effect permanently.\n"
+"[root@Rocky ~]# ssh -p 22 testrsync@192.168.100.5\n"
+"Last login: Thu Nov 4 13:13:42 2021 from 192.168.100.4\n"
+"[testrsync@fedora ~]$\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:27
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:28
 #, no-wrap
-msgid "[root@Rocky ~]# vim /etc/profile\n"
+msgid "[root@fedora ~]# inotifywa\n"
+"inotifywait inotifywatch\n"
+"[root@fedora ~]# ssh -p 22 testrsync@192.168.100.4\n"
+"Last login: Wed Nov 3 22:07:18 2021 from 192.168.100.5\n"
+"[testrsync@Rocky ~]$\n"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:39
+#, no-wrap
+msgid "    The configuration files of the two machines **/etc/ssh/sshd_config** should be opened <font color=red>PubkeyAuthentication yes</font>\n"
+msgstr ""
+
+#. type: Title ##
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:40
+#, no-wrap
+msgid "Rocky Linux 8 install unison"
+msgstr ""
+
+#. type: Plain text
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:43
+#, no-wrap
+msgid "Ocaml is a programming language, and the bottom layer of unison depends on it.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:44
+#, no-wrap
+msgid "[root@Rocky ~]# wget -c https://github.com/ocaml/ocaml/archive/refs/tags/4.12.0.tar.gz\n"
+"[root@Rocky ~]# tar -zvxf 4.12.0.tar.gz -C /usr/local/src/\n"
+"[root@Rocky ~]# cd /usr/local/src/ocaml-4.12.0\n"
+"[root@Rocky /usr/local/src/ocaml-4.12.0]# ./configure --prefix=/usr/local/ocaml && make world opt && make install\n"
 "...\n"
-"PATH=$PATH:/usr/local/inotify-tools/bin/\n"
+"[root@Rocky ~]# ls /usr/local/ocaml/\n"
+"bin lib man\n"
+"[root@Rocky ~]# echo PATH=$PATH:/usr/local/ocaml/bin >> /etc/profile\n"
 "[root@Rocky ~]# . /etc/profile\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:35
+#. type: Fenced code block (bash)
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:56
 #, no-wrap
-msgid "**Why not use the inotify-tools RPM package of the EPEL repository? And the way to use source code to compile and install?**\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:37
-#, no-wrap
-msgid "The author personally believes that remote data transmission is a matter of efficiency, especially in a production environment, where there are a large number of files to be synchronized and a single file is particularly large. In addition, the new version will have some bug fixes and function expansions, and perhaps the transmission efficiency of the new version will be higher, so I recommend installing inotify-tools by source code. Of course, this is the author's personal suggestion, not every user must follow.\n"
+msgid "[root@Rocky ~]# wget -c https://github.com/bcpierce00/unison/archive/refs/tags/v2.51.4.tar.gz\n"
+"[root@Rocky ~]# tar -zvxf v2.51.4.tar.gz -C /usr/local/src/\n"
+"[root@Rocky ~]# cd /usr/local/src/unison-2.51.4/\n"
+"[root@Rocky /usr/local/src/unison-2.51.4]# make UISTYLE=txt\n"
+"...\n"
+"[root@Rocky /usr/local/src/unison-2.51.4]# ls src/unison\n"
+"src/unison\n"
+"[root@Rocky /usr/local/src/unison-2.51.4] cp -p src/unison /usr/local/bin\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:38
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:67
 #, no-wrap
-msgid "Kernel parameter adjustment"
+msgid "Fedora 34 install unison"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:41
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:70
 #, no-wrap
-msgid "You can adjust the kernel parameters according to the needs of the production environment. By default, there are three files in **/proc/sys/fs/inotity/**\n"
+msgid "The same operation.\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:42
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:71
 #, no-wrap
-msgid "[root@Rocky ~]# cd /proc/sys/fs/inotify/\n"
-"[root@Rocky /proc/sys/fs/inotify]# cat max_queued_events ;cat max_user_instances ;cat max_user_watches\n"
-"16384\n"
-"128\n"
-"28014\n"
+msgid "[root@fedora ~]# wget -c https://github.com/ocaml/ocaml/archive/refs/tags/4.12.0.tar.gz\n"
+"[root@feodora ~]# tar -zvxf 4.12.0.tar.gz -C /usr/local/src/\n"
+"[root@fedora ~]# cd /usr/local/src/ocaml-4.12.0\n"
+"[root@fedora /usr/local/src/ocaml-4.12.0]# ./configure --prefix=/usr/local/ocaml && make world opt && make install\n"
+"...\n"
+"[root@fedora ~]# ls /usr/local/ocaml/\n"
+"bin lib man\n"
+"[root@fedora ~]# echo PATH=$PATH:/usr/local/ocaml/bin >> /etc/profile\n"
+"[root@fedora ~]#. /etc/profile\n"
 msgstr ""
 
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:53
+#. type: Fenced code block (bash)
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:83
 #, no-wrap
-msgid "max_queued_events-maximum monitor queue size, default 16384\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:53
-#, no-wrap
-msgid "max_user_instances-the maximum number of monitoring instances, the default is 128\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:53
-#, no-wrap
-msgid "max_user_watches-the maximum number of files monitored per instance, the default is 8192\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:55
-#, no-wrap
-msgid "Write some parameters and values ​​to **/etc/sysctl.conf**, examples are as follows. Then use `sysctl -p` to make the files take effect\n"
-msgstr ""
-
-#. type: Fenced code block (txt)
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:56
-#, no-wrap
-msgid "fs.inotify.max_queued_events = 16384\n"
-"fs.inotify.max_user_instances = 1024\n"
-"fs.inotify.max_user_watches = 1048576\n"
+msgid "[root@fedora ~]# wget -c https://github.com/bcpierce00/unison/archive/refs/tags/v2.51.4.tar.gz\n"
+"[root@fedora ~]# tar -zvxf v2.51.4.tar.gz -C /usr/local/src/\n"
+"[root@fedora ~]# cd /usr/local/src/unison-2.51.4/\n"
+"[root@fedora /usr/local/src/unison-2.51.4]# make UISTYLE=txt\n"
+"...\n"
+"[root@fedora /usr/local/src/unison-2.51.4]# ls src/unison\n"
+"src/unison\n"
+"[root@fedora /usr/local/src/unison-2.51.4]# cp -p src/unison /usr/local/bin\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:62
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:95
 #, no-wrap
-msgid "Related commands"
+msgid "Demo"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:67
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:98
 #, no-wrap
-msgid "The inotify-tools tool has two commands, namely:\n"
-"* **inotifywait**-For continuous monitoring, real-time output results. It is generally used with the rsync incremental backup tool. Because it is a file system monitoring, it can be used with a script. We will introduce the specific script writing later.\n"
-"* **inotifywatch**-for short-term monitoring, output results after the task is completed.\n"
+msgid "**Our requirement is-Rocky Linux 8's /dir1/ directory is automatically synchronized to Fedora 34's /dir2/ directory; at the same time, Fedora 34's /dir2/ directory is automatically synchronized to Rocky Linux 8's /dir1/ directory**\n"
 msgstr ""
 
-#. type: Plain text
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:69
+#. type: Title ###
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:99
 #, no-wrap
-msgid "`inotifywait` mainly has the following options:\n"
-msgstr ""
-
-#. type: Fenced code block (txt)
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:70
-#, no-wrap
-msgid "-m means continuous monitoring\n"
-"-r Recursive monitoring\n"
-"-q Simplify output information\n"
-"-e specifies the event type of monitoring data, multiple event types are separated by commas in English status\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:78
-#, no-wrap
-msgid "The event types are as follows:\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:96
-#, no-wrap
-msgid "| Event Type | Description |\n"
-"|---|---|\n"
-"| access | Access to the contents of a file or directory |\n"
-"| modify | The contents of the file or directory are written |\n"
-"| attrib | The attributes of the file or directory are modified |\n"
-"| close_write | File or directory is opened in writable mode and then closed |\n"
-"| close_nowrite | File or directory is closed after being opened in read-only mode |\n"
-"| close | Regardless of the read/write mode, the file or directory is closed |\n"
-"| open | File or directory is opened |\n"
-"| moved_to | A file or directory is moved to the monitored directory |\n"
-"| moved_from | A file or directory is moved from the monitored directory |\n"
-"| move | There are files or directories that are moved to or removed from the monitoring directory |\n"
-"| move_self | The monitored file or directory has been moved |\n"
-"| create | There are files or directories created in the monitored directory |\n"
-"| delete | A file or directory in the monitored directory is deleted |\n"
-"| delete_self | File or directory and delete |\n"
-"| unmount | File system containing unmounted files or directories |\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:98
-#, no-wrap
-msgid "Example: `[root@Rocky ~]# inotifywait -mrq -e create,delete /rsync/`\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:99
-#, no-wrap
-msgid "Demonstration of `inotifywait` command"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:102
-#, no-wrap
-msgid "Type the command in the first terminal pts/0, and the window is locked after pressing Enter, indicating that it is monitoring\n"
+msgid "Configure Rcoky Linux 8"
 msgstr ""
 
 #. type: Fenced code block (bash)
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:103
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:101
 #, no-wrap
-msgid "[root@Rocky ~]# inotifywait -mrq -e create,delete /rsync/\n\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:109
-#, no-wrap
-msgid "In the second terminal pts/1, go to the /rsync/ directory and create a file.\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:110
-#, no-wrap
-msgid "[root@Rocky ~]# cd /rsync/\n"
-"[root@Rocky /rsync]# touch inotify\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:116
-#, no-wrap
-msgid "Back to the first terminal pts/0, the output information is as follows:\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:117
-#, no-wrap
-msgid "[root@Rocky ~]# inotifywait -mrq -e create,delete /rsync/\n"
-"/rsync/ CREATE inotify\n"
-msgstr ""
-
-#. type: Title ##
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:122
-#, no-wrap
-msgid "Combination of  `inotifywait` and `rsync`"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:127
-#, no-wrap
-msgid "    We are operating in Rocky Linux 8 server, using SSH protocol for demonstration.\n"
-msgstr ""
-
-#. type: Plain text
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:129
-#, no-wrap
-msgid "For the password-free authentication login of the SSH protocol, please refer to [rsync password-free authentication login](05_rsync_authentication-free_login.md), which is not described here. An example of the content of a bash script is as follows. You can add different options after the command according to your needs to meet your needs. For example, you can also add `--delete` after the `rsync` command.\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:130
-#, no-wrap
-msgid "#!/bin/bash\n"
-"a=\"/usr/local/inotify-tools/bin/inotifywait -mrq -e modify,move,create,delete /rsync/\"\n"
-"b=\"/usr/bin/rsync -avz /rsync/* testfedora@192.168.100.5:/home/testfedora/\"\n"
+msgid "[root@Rocky ~]# mkdir /dir1\n"
+"[root@Rocky ~]# setfacl -m u:testrsync:rwx /dir1/\n"
+"[root@Rocky ~]# vim /root/unison1.sh\n"
+"#!/bin/bash\n"
+"a=\"/usr/local/inotify-tools/bin/inotifywait -mrq -e create,delete,modify,move /dir1/\"\n"
+"b=\"/usr/local/bin/unison -batch /dir1/ ssh://testrsync@192.168.100.5//dir2\"\n"
 "$a | while read directory event file\n"
-"    do\n"
-"        $b &>> /tmp/rsync.log\n"
-"    done\n"
+"do\n"
+"    $b &>> /tmp/unison1.log\n"
+"done\n"
+"[root@Rocky ~]# chmod +x /root/unison1.sh\n"
+"[root@Rocky ~]# bash /root/unison1.sh &\n"
+"[root@Rocky ~]# jobs -l\n"
+msgstr ""
+
+#. type: Title ###
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:117
+#, no-wrap
+msgid "Configure Fedora 34"
 msgstr ""
 
 #. type: Fenced code block (bash)
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:140
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:119
 #, no-wrap
-msgid "[root@Rocky ~]# chmod +x rsync_inotify.sh\n"
-"[root@Rocky ~]# bash /root/rsync_inotify.sh &\n"
+msgid "[root@fedora ~]# mkdir /dir2\n"
+"[root@fedora ~]# setfacl -m u:testrsync:rwx /dir2/\n"
+"[root@fedora ~]# vim /root/unison2.sh\n"
+"#!/bin/bash\n"
+"a=\"/usr/local/inotify-tools/bin/inotifywait -mrq -e create,delete,modify,move /dir2/\"\n"
+"b=\"/usr/local/bin/unison -batch /dir2/ ssh://testrsync@192.168.100.4//dir1\"\n"
+"$a | while read directory event file\n"
+"do\n"
+"    $b &>> /tmp/unison2.log\n"
+"done\n"
+"[root@fedora ~]# chmod +x /root/unison2.sh\n"
+"[root@fedora ~]# bash /root/unison2.sh &\n"
+"[root@fedora ~]# jobs -l\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:149
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:138
 #, no-wrap
-msgid "    When using the SSH protocol for data synchronization transmission, if the SSH service port of the target machine is not 22, you can use a method similar to this——\n"
-"    `b=\"/usr/bin/rsync -avz -e 'ssh -p [port-number]' /rsync/* testfedora@192.168.100.5:/home/testfedora/\"`\n"
+msgid "    For two-way synchronization, the scripts of both machines must be started, otherwise an error will be reported.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:155
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:144
 #, no-wrap
 msgid "    If you want to start this script at boot\n"
-"    `[root@Rocky ~]# echo \"bash /root/rsync_inotify.sh &\" >> /etc/rc.local`\n"
+"    `[root@Rocky ~]# echo \"bash /root/unison1.sh &\" >> /etc/rc.local`\n"
 "    `[root@Rocky ~]# chmod +x /etc/rc.local`\n"
 msgstr ""
 
 #. type: Plain text
-#: ../src/docs/books/learning_rsync/06_rsync_inotify.md:156
+#: ../src/docs/books/learning_rsync/07_rsync_unison_use.md:147
 #, no-wrap
-msgid "If you are using the rsync protocol for synchronization, you need to configure the rsync service of the target machine, please refer to [rsync demo 02](03_rsync_demo02.md), [rsync configuration file](04_rsync_configure.md), [rsync free Secret authentication login](05_rsync_authentication-free_login.md)\n"
+msgid "    If you want to stop the corresponding process of this script, you can find it in the `htop` command and then **kill**\n"
 msgstr ""
 
