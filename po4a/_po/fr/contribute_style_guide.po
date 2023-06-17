@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po 4a\n"
 "POT-Creation-Date: 2023-06-16 16:28+0000\n"
-"PO-Revision-Date: 2023-06-17 13:52+0000\n"
+"PO-Revision-Date: 2023-06-17 14:00+0000\n"
 "Last-Translator: Weblate Admin <weblate@formatux.fr>\n"
 "Language-Team: French <http://weblate.formatux.fr/projects/documentation/"
 "contribute_style_guide/fr/>\n"
@@ -229,7 +229,7 @@ msgstr ""
 
 #. type: Title ##
 #: ../src/docs/guides/contribute/style_guide.md:25 ../src/docs/index.md:55
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Contributing"
 msgstr "Contribuer"
 
