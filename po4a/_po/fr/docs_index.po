@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-06-16 23:51+0200\n"
-"PO-Revision-Date: 2023-06-17 13:52+0000\n"
+"PO-Revision-Date: 2023-06-17 14:00+0000\n"
 "Last-Translator: Weblate Admin <weblate@formatux.fr>\n"
 "Language-Team: French <http://weblate.formatux.fr/projects/documentation/"
 "docs_index/fr/>\n"
@@ -20,25 +20,25 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: ./docs/index.md:1
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Home"
 msgstr "Page d’accueil"
 
 #. type: Title #
 #: ./docs/index.md:5
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid "Rocky Linux Documentation"
 msgstr "Documentation de Rocky Linux"
 
 #. type: Title ##
 #: ./docs/index.md:7
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid "Welcome!"
 msgstr "Bienvenue !"
 
 #. type: Plain text
 #: ./docs/index.md:10
-#, fuzzy, markdown-text
+#, markdown-text
 msgid ""
 "You've found us! Welcome to the documentation hub for Rocky Linux; we are "
 "glad you're here. We have several contributors adding content, and that "
@@ -48,20 +48,20 @@ msgid ""
 msgstr ""
 "Vous nous avez trouvés ! Bienvenue sur le site de la documentation de Rocky "
 "Linux, nous sommes très heureux que vous soyez ici. Nous avons un certain "
-"nombre de contributeurs qui ajoutent du contenu, ce qui ne cesse de "
-"croître. Vous trouverez ici des documents sur la façon de construire Rocky "
-"Linux lui-même, ainsi que des documents sur divers sujets importants pour la "
-"communauté Rocky Linux. Qui est donc cette communauté, vous-demandez vous?"
+"nombre de contributeurs qui ajoutent du contenu, ce qui ne cesse de croître. "
+"Vous trouverez ici des documents sur la façon de construire Rocky Linux lui-"
+"même, ainsi que des documents sur divers sujets importants pour la "
+"communauté Rocky Linux. Qui est donc cette communauté, vous-demandez vous ?"
 
 #. type: Plain text
 #: ./docs/index.md:12
-#, fuzzy, markdown-text
+#, markdown-text
 msgid "Well actually, you do."
 msgstr "Eh bien, c'est vous même en participant de différentes manières."
 
 #. type: Plain text
 #: ./docs/index.md:14
-#, fuzzy, markdown-text
+#, markdown-text
 msgid ""
 "This home page will give you an introduction to the documentation website "
 "and how to find your way around — we're confident that you will feel right "
@@ -73,19 +73,19 @@ msgstr ""
 
 #. type: Title ##
 #: ./docs/index.md:15
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid "Navigating the Site"
 msgstr "Naviguer sur le site"
 
 #. type: Title ###
 #: ./docs/index.md:17
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid "Getting Around"
 msgstr "Tour d'horizon"
 
 #. type: Plain text
 #: ./docs/index.md:20
-#, fuzzy, markdown-text
+#, markdown-text
 msgid ""
 "Now, you are on the home page of the documentation. If you glance at the top "
 "menu (which is always available, including on mobile devices) you can see "
@@ -99,13 +99,13 @@ msgstr ""
 "y compris sur les appareils mobiles) vous pouvez voir la structure "
 "principale montrant les sections du niveau principal du site de "
 "documentation. Si vous cliquez sur chaque lien de menu en haut (essayez "
-"'Guides' par exemple) puis sur le côté gauche vous verrez la liste des "
-"*sous-sections* pour chaque section principale. Les guides traitent de "
-"nombreux thèmes."
+"'Guides' par exemple) puis sur le côté gauche vous verrez la liste des *sous-"
+"sections* pour chaque section principale. Les guides traitent de nombreux "
+"thèmes."
 
 #. type: Plain text
 #: ./docs/index.md:22
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid ""
 "When you open a document, on the right side you will see a 'Table of "
 "contents' with clickable navigation links for that document (for mobile "
@@ -126,13 +126,13 @@ msgstr ""
 
 #. type: Plain text
 #: ./docs/index.md:24
-#, fuzzy, markdown-text
+#, markdown-text
 msgid "The main sections of the documentation site are:"
 msgstr "Les sections principales du site de documentation sont :"
 
 #. type: Bullet: '* '
 #: ./docs/index.md:31
-#, fuzzy, markdown-text
+#, markdown-text
 msgid "**Guides**: which cover specific ways to set up and use Rocky Linux."
 msgstr ""
 "**Guides** : qui couvrent des manières spécifiques de configurer et "
@@ -140,7 +140,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ./docs/index.md:31
-#, fuzzy, markdown-text
+#, markdown-text
 msgid "**Books**: are more detailed information based around a specific area."
 msgstr ""
 "**Livres** : contiennent des informations plus détaillées concernant des "
@@ -148,7 +148,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ./docs/index.md:31
-#, fuzzy, markdown-text
+#, markdown-text
 msgid "**Labs**: it is 'back to school', but these tutorials you will enjoy doing!"
 msgstr ""
 "**Labs** : c'est un retour à l'école, mais vous aimerez suivre ces tutoriels "
@@ -156,7 +156,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ./docs/index.md:31
-#, fuzzy, markdown-text
+#, markdown-text
 msgid "**Gemstones**: share some common script or command usage tips here."
 msgstr ""
 "**Gemstones (pépites)** : quelques scripts communs ou conseils d'utilisation "
@@ -164,7 +164,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ./docs/index.md:31
-#, fuzzy, markdown-text
+#, markdown-text
 msgid ""
 "**Release Notes**: covers Rocky Linux release notes and version update "
 "information."
@@ -174,19 +174,19 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: ./docs/index.md:31
-#, fuzzy, markdown-text
+#, markdown-text
 msgid "**Rocky Linux**: official website home page jump link."
 msgstr "**Rocky Linux** : lien vers la page d'accueil du site officiel."
 
 #. type: Title ###
 #: ./docs/index.md:32
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid "Multiple Languages"
 msgstr "Multilingue"
 
 #. type: Plain text
 #: ./docs/index.md:35
-#, fuzzy, markdown-text
+#, markdown-text
 msgid ""
 "Not everyone has English as their first language! At Rocky Linux we want to "
 "make the documentation site as accessible as possible to everyone — "
@@ -203,7 +203,7 @@ msgstr ""
 
 #. type: Bullet: '1. '
 #: ./docs/index.md:38
-#, fuzzy, markdown-text
+#, markdown-text
 msgid ""
 "Website interface localisation: if you choose another language, for example "
 "Français, you will note that the interface, for example the 'Next' and "
@@ -215,7 +215,7 @@ msgstr ""
 
 #. type: Bullet: '1. '
 #: ./docs/index.md:38
-#, fuzzy, markdown-text
+#, markdown-text
 msgid ""
 "Content: translating content is an ongoing (significant) task. Not all "
 "content is translated into all languages yet. Any pages that have been "
@@ -225,23 +225,22 @@ msgid ""
 "team would love to hear from you — see below for details."
 msgstr ""
 "Contenu : La traduction du contenu est évidemment une tâche (importante) en "
-"cours. Tout le contenu n'est pas encore traduit dans toutes les "
-"langues. Toutes les pages qui ont été traduites (dans la langue "
-"sélectionnée) seront vues dans la langue choisie, celles qui ne le sont pas "
-"encore se retrouveront dans la langue anglaise par défaut. Si vous voulez "
-"contribuer à la communauté par le biais des traductions, l'équipe de "
-"documentation sera ravie de vous connaître, voir ci-dessous pour plus de "
-"détails."
+"cours. Tout le contenu n'est pas encore traduit dans toutes les langues. "
+"Toutes les pages qui ont été traduites (dans la langue sélectionnée) seront "
+"vues dans la langue choisie, celles qui ne le sont pas encore se "
+"retrouveront dans la langue anglaise par défaut. Si vous voulez contribuer à "
+"la communauté par le biais des traductions, l'équipe de documentation sera "
+"ravie de vous connaître, voir ci-dessous pour plus de détails."
 
 #. type: Plain text
 #: ./docs/index.md:40
-#, fuzzy, markdown-text
+#, markdown-text
 msgid "!!! note"
 msgstr "!!! note"
 
 #. type: Plain text
 #: ./docs/index.md:42
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid ""
 "    Not all functionality may be available in all languages, this is a "
 "limitation of the underlying MkDocs modules available.\n"
@@ -251,13 +250,13 @@ msgstr ""
 
 #. type: Title ###
 #: ./docs/index.md:43
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid "Using Search"
 msgstr "Utiliser la recherche"
 
 #. type: Plain text
 #: ./docs/index.md:46
-#, fuzzy, markdown-text
+#, markdown-text
 msgid ""
 "If you want to quickly find specific information or documents, the "
 "documentation site has full-text search capability. Start typing in the "
@@ -271,23 +270,23 @@ msgstr ""
 
 #. type: Plain text
 #: ./docs/index.md:48
-#, fuzzy, markdown-text
+#, markdown-text
 msgid ""
 "To open a page in the search results click (or tap on mobile) on the desired "
 "page in the list displayed."
 msgstr ""
-"Pour ouvrir une page parmi les résultats de recherche, cliquez simplement "
-"(ou appuyez sur mobile) sur la page désirée dans la liste affichée."
+"Pour ouvrir une page parmi les résultats de recherche, cliquez simplement ("
+"ou appuyez sur mobile) sur la page désirée dans la liste affichée."
 
 #. type: Title ##
 #: ./docs/index.md:49
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid "First Time"
 msgstr "Première fois"
 
 #. type: Plain text
 #: ./docs/index.md:52
-#, fuzzy, markdown-text
+#, markdown-text
 msgid ""
 "If this is your first time visiting the Rocky Linux Documentation site then "
 "likely you are new to Rocky Linux and you are itching to install it! No "
@@ -302,26 +301,26 @@ msgstr ""
 
 #. type: Plain text
 #: ./docs/index.md:54
-#, fuzzy, markdown-text
+#, markdown-text
 msgid ""
 "If you get stuck and have a question the Rocky Linux community is there to "
 "help. Visit the [community forum](https://forums.rockylinux.org) and you can "
 "search for solutions or post your own questions to the community."
 msgstr ""
 "Si vous êtes coincé et que vous avez une question, la communauté Rocky Linux "
-"est là pour vous aider. Visitez le [forum de la "
-"communauté](https://forums.rockylinux.org) et vous pourrez rechercher des "
-"solutions et poster vos propres questions à la communauté."
+"est là pour vous aider. Visitez le [forum de la communauté](https://forums."
+"rockylinux.org) et vous pourrez rechercher des solutions et poster vos "
+"propres questions à la communauté."
 
 #. type: Title ##
 #: ./docs/index.md:55
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid "Contributing"
 msgstr "Contribuer"
 
 #. type: Plain text
 #: ./docs/index.md:57
-#, fuzzy, markdown-text
+#, markdown-text
 msgid ""
 "Did you find something missing? Did you find an error? Are you wondering how "
 "to create a document of your own, or how to fix things here? Remember how we "
@@ -338,6 +337,5 @@ msgstr ""
 "communauté Rocky Linux ? Eh bien, cela signifie que *vous* êtes important "
 "pour nous et nous voulons que vous nous rejoigniez, si vous le souhaitez, et "
 "aider à améliorer cette documentation. Si cela vous intéresse, rendez-vous "
-"sur notre [Guide de "
-"Contribution](https://github.com/rocky-linux/documentation/blob/main/README.md) "
-"pour savoir comment faire !"
+"sur notre [Guide de Contribution](https://github.com/rocky-linux/"
+"documentation/blob/main/README.md) pour savoir comment faire !"
