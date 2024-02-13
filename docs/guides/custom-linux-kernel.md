@@ -22,7 +22,7 @@ In this guide, we will walk through the process of acquiring a kernel source tre
 
 ## The Kernel
 
-Most often, when people say _Linux_, they are usually referring to a "_Linux distribution_" - for example, Rocky Linux and Debian are types of Linux distribution. A distribution comprises everything necessary to get Linux to exist as a functional operating system.
+Most often, when people say _Linux_, they are usually referring to a "_Linux distribution_" - for example, Rocky Linux and Debian are types of Linux distributions. A distribution comprises everything necessary to get Linux to exist as a functional operating system.
 Distributions make use of code from various open-source projects that are independent of Linux.
 
 Linux is The kernel. The kernel literally sits right at the heart of the [operating system] matter.
@@ -34,11 +34,11 @@ Although the kernel is a small part of a complete Linux distribution, it is by f
 
 The Rocky Linux distribution has the source code for the specific kernel version it supports available in one form or another. These could be in the form of a compiled binary (`*.src.rpm`), a source RPM (`*.srpm`), or the like.
 
-If you need to download a different (possibly newer) version than the one your specific Rocky Linux distro provides, the first place to look for the source code is at the official kernel web site:
+If you need to download a different (possibly newer) version than the one your specific Rocky Linux distro provides, the first place to look for the source code is at the official kernel website:
 
 [www.kernel.org](https://www.kernel.org)
 
-This site maintains a listing of web sites mirroring the kernel source, as well as tons of other open-source software, distributions and general-purpose utilities.
+This site maintains a listing of websites mirroring the kernel source, as well as tons of other open-source software, distributions, and general-purpose utilities.
 
 The list of mirrors is maintained at:
 
@@ -46,7 +46,7 @@ The list of mirrors is maintained at:
 
 !!! TIP
 
-    The majority of the downloading, configuring and compiling of the Linux kernel done in the following sections can/should be done as an unprivileged user. However, the final steps that require actual installation or altering of system files and binaries need to be done with elevated privileges.
+    The majority of the downloading, configuring, and compiling of the Linux kernel done in the following sections can/should be done as an unprivileged user. However, the final steps that require actual installation or altering of system files and binaries need to be done with elevated privileges.
 
     We are able to do most of the work as an unprivileged user because we will be using a special kernel build option, which allows us to specify a custom working or output directory. Specifically, we will use the `O=~/build/kernel` option for all applicable invocations of make.
 
@@ -54,7 +54,7 @@ The list of mirrors is maintained at:
 
 ## Kernel versions and naming conventions
 
-The web site listing of kernels available will contain folders for v1.0, v2.5, v2.6, v3.0, v3.x, v4.x, v5.x, v6.x and so forth. Before you follow your natural inclination to get the latest version, make sure you understand how the Linux kernel versioning system works.
+The website listing of kernels available will contain folders for v1.0, v2.5, v2.6, v3.0, v3.x, v4.x, v5.x, v6.x, and so forth. Before you follow your natural inclination to get the latest version, make sure you understand how the Linux kernel versioning system works.
 
 The current convention is to name and number major new kernel releases as “Linux 5.x” (also called the vanilla or mainline kernels). Thus, the first of this series will be Linux version 5.0 (same as 5.0.0), the next will be Linux version 5.1 (same as 5.1.0), followed by Linux version 5.2, and so on.
 
@@ -82,7 +82,7 @@ A common source of failure encountered during the kernel build process may be ca
     sudo dnf -y install ncurses-devel openssl-devel elfutils-libelf-devel python3
     ```
 
-3. Next, we need other utilities only available in some supported 3rd party repositories. One of such repositories is the Powertools repo. Let’s enable that repo on our Rocky system. Type:
+3. Next, we need other utilities only available in some supported 3rd party repositories. One such repository is the Powertools repo. Let’s enable that repo on our Rocky system. Type:
 
     ```bash
     sudo dnf config-manager --set-enabled powertools
@@ -94,7 +94,7 @@ A common source of failure encountered during the kernel build process may be ca
     sudo  dnf -y install dwarves
     ```
 
-That’s it for the prerequisite packages needed for actual Kernel building!
+That’s it for the prerequisite packages needed for the actual Kernel building!
 
 ## Downloading and unpacking the Linux Kernel
 
@@ -125,7 +125,7 @@ In this section, we are going to review the process of configuring and building 
 
 The Linux design philosophy allows the individual to decide on the important parts of the kernel. This individualized design has the important benefit of letting you thin down the feature list so that Linux can run as efficiently as possible.
 
-This is also one of the reasons why it is possible to customize Linux to run in various hardware setups, from low-end systems, to embedded systems, to high-end systems.
+This is also one of the reasons why it is possible to customize Linux to run in various hardware setups, from low-end systems to embedded systems, to high-end systems.
 
 Two main steps are required in building a kernel:
 
@@ -134,7 +134,7 @@ Two main steps are required in building a kernel:
 
 The first step in building the kernel is configuring its features. Usually, your desired feature list will be based on whatever hardware you need to support. This, of course, means that you will need a list of that hardware.
 
-On a system that is already running Linux, you can run commands like – `lspci`, `lshw` and so on to help show detailed information about the exact hardware setup on your system. On  RPM-based distros these utilities are provided by the `pciutils*.rpm` and `lshw*.rpm` packages.
+On a system that is already running Linux, you can run commands like – `lspci`, `lshw` and so on to help show detailed information about the exact hardware setup on your system. On RPM-based distros, these utilities are provided by the `pciutils*.rpm` and `lshw*.rpm` packages.
 
 Having a better understanding of what constitutes your underlying hardware can help you better determine what you need in your custom kernel. You are ready to start configuring the kernel.
 
@@ -148,12 +148,12 @@ These makefiles help to glue together the thousands of other files that make up 
 
 !!! warning "warning: Avoid Needless Kernel Upgrades"
 
-    Bear in mind that if you have a working system that is stable and well behaved, there is little reason to upgrade the kernel unless one of these conditions holds for you:
+    Bear in mind that if you have a working system that is stable and well-behaved, there is little reason to upgrade the kernel unless one of these conditions holds for you:
 
     - A security or bug fix affects your system and must be applied
     - You need a specific new feature in a stable release
 
-    In the case of a security fix, decide whether the risk really affects you - for example, if the security issue is found in a device driver that you do not use, then there may be no reason to upgrade. In the case of a bug fix release, read carefully through the release notes and decide if the bugs really affect you-if you have a stable system, upgrading the kernel with patches you never use may be pointless.
+    In the case of a security fix, decide whether the risk affects you - for example if the security issue is found in a device driver that you do not use, then there may be no reason to upgrade. In the case of a bug fix release, read carefully through the release notes and decide if the bugs affect you-if you have a stable system, upgrading the kernel with patches you never use may be pointless.
 
     On production systems, the kernel should not simply be upgraded just to have “the latest kernel”; you should have a truly compelling reason to upgrade.
 
@@ -173,11 +173,11 @@ The Makefile in the root of the kernel source tree contains specific targets tha
 
 `make xconfig`
 
-:   This is a GUI based kernel configuration tool/target that relies on the Qt graphical development libraries. These libraries are used by KDE/Plasma-based applications.
+:   This is a GUI-based kernel configuration tool/target that relies on the Qt graphical development libraries. These libraries are used by KDE/Plasma-based applications.
 
 `make gconfig`
 
-:   This is also a GUI  based kernel configuration tool/target, but it relies on the GTK+  toolkit. This GTK toolkit is heavily used in the GNOME desktop world.
+:   This is also a GUI-based kernel configuration tool/target, but it relies on the GTK+  toolkit. This GTK toolkit is heavily used in the GNOME desktop world.
 
 `make olddefconfig`
 
@@ -201,7 +201,7 @@ make  O=~/build/kernel mrproper
 
 ### Kernel Configuration
 
-Next, we will step through the process of configuring a Linux 6.* series kernel. To explore some of the innards of this process, we will enable the support of a specific feature that we will pretend is a MUST have feature on the system. Once you understand how this works, you can apply the same procedure to add support for any new kernel feature you want. Specifically, we will enable support for the NTFS file system into our custom kernel.
+Next, we will step through the process of configuring a Linux 6.* series kernel. To explore some of the innards of this process, we will enable the support of a specific feature that we will pretend is a MUST-have feature on the system. Once you understand how this works, you can apply the same procedure to add support for any new kernel feature you want. Specifically, we will enable support for the NTFS file system into our custom kernel.
 
 Most modern Linux distros ship with a kernel configuration file for the running kernel available on the local file system as a compressed or regular file. On our sample Rocky system, this file resides in the `/boot` directory and is usually named something like `config-*`.
 
@@ -209,7 +209,7 @@ The configuration file contains a list of the options and features that were ena
 
 !!! TIP
 
-    Using a known, preexisting config file as a framework for creating our own custom file helps ensure that we do not waste too much time duplicating the efforts that other people have already put into finding what works and what does not work!
+    Using a known, preexisting config file as a framework for creating our custom file helps ensure that we do not waste too much time duplicating the efforts that other people have already put into finding what works and what does not work!
 
 The following steps cover how to configure the kernel. We will be using a text-based kernel configuration utility, which will allow you to follow along in your terminal regardless of whether you are using a GUI desktop environment or not.
 
@@ -268,7 +268,7 @@ The following steps cover how to configure the kernel. We will be using a text-b
 
 7. A dialog box will appear prompting you to save your new configuration. Make sure that Yes is selected and then press enter.
 
-8. After the kernel configuration utility exits, you will be thrown back to your shell-inside the kernel source tree. You are almost ready to build your kernel!
+8. After the kernel configuration utility exits, you will be thrown back to your shell inside the kernel source tree. You are almost ready to build your kernel!
 
 9. We need to complete a few more customizations on our Rocky distro. Type:
 
@@ -333,7 +333,7 @@ We want to change the line in the file that looks like this:
 
     !!! Tip
 
-        You can take advantage of all that extra processing power (CPUs, cores and so on) on most modern systems and greatly speed up CPU-intensive operations like compiling the kernel. To do this, you can pass a parameter to the make command that specifies the number of jobs to run simultaneously. The specified number of jobs are then distributed and executed simultaneously on each CPU core. The syntax for the command is:
+        You can take advantage of all that extra processing power (CPUs, cores, and so on) on most modern systems and greatly speed up CPU-intensive operations like compiling the kernel. To do this, you can pass a parameter to the make command that specifies the number of jobs to run simultaneously. The specified number of jobs are then distributed and executed simultaneously on each CPU core. The syntax for the command is:
 
             ```bash
             make -j N
@@ -388,7 +388,7 @@ We want to change the line in the file that looks like this:
 
 Assuming you have a PC and are working out of the `~/build/kernel/` directory, the compiled kernel that was created in the previous exercise will be located in this path - `<kernel-build-dir>/arch/x86/boot/bzImage` or, to be precise, in our example  `~/build/kernel/arch/x86/boot/bzImage`.
 
-The corresponding map file for this will be located at `~/build/kernel/System.map`. You will need both files for the install phase.
+The corresponding map file for this will be located at `~/build/kernel/System.map`. You will need both files for the installation phase.
 
 The `System.map` file is useful when the kernel is misbehaving and generating “Oops” messages. An “Oops” is generated on some kernel errors because of kernel bugs or faulty hardware.
 
